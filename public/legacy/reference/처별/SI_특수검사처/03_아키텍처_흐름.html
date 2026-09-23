@@ -1,0 +1,154 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="한국교통안전공단의 임무·2030 방향·조직 업무에서 출발하는 CCK 기반 AX 사업 제안"><title>특수검사처 상세 아키텍처 | TS AX</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23182e58'/%3E%3Cpath d='M7 9h18v4h-7v12h-4V13H7z' fill='white'/%3E%3C/svg%3E"><link rel="stylesheet" href="../../../assets/showcase.css"><link rel="stylesheet" href="../../../assets/legal.css"></head><body class=""><a class="skip" href="#main">본문으로 바로가기</a><header class="site-header"><a class="brand" href="../../../index.html"><b>TS <em>AX</em></b><small>CCK 사업 제안</small></a><nav class="site-nav" aria-label="주 메뉴"><a href="../../../about.html" >기관소개</a><a href="../../../vision.html" >2030 방향</a><a href="../../../organization.html" >조직과 업무</a><a href="../../../solutions.html" >AX 서비스</a></nav></header><main id="main" tabindex="-1"><div class="reference-label">상세 근거자료 · <a href="../../../index.html">소개 홈페이지로 ↗</a></div><article class="reference-body"><div class="document-lead"><h1>특수검사처 · 전체 구조와 서비스·데이터 흐름</h1>
+<!-- logic-v2:start -->
+<div class="diagram-links"><a href="../../../처별/SI_특수검사처/01_사업정의.html">컨셉도</a><a href="../../../처별/SI_특수검사처/02_UI시제품.html">서비스흐름도</a><a href="../../../처별/SI_특수검사처/03_아키텍처_흐름.html">아키텍처</a></div>
+
+</div><section class="content-block" aria-labelledby="section-1"><h2 id="section-1">아키텍처 · 측정기기 이상과 조건 차이의 구분</h2>
+<div class="diagram-purpose"><strong>이 도식의 목적</strong> · 업무 원천·NOA Skill·도구·공식 처리·결과의 연결</div>
+
+<p><img  src="../../../assets/SI_아키텍처.svg"  alt="특수검사처 SI27-02 아키텍처: 조건차/기기이상 병렬 검증 / NOA와 기존 업무·전문판단의 역할 구분"></p>
+<p><a href="../../../assets/SI_아키텍처.svg">도식 원본 확대 · SVG</a> · <a href="../../../assets/SI_아키텍처.png">PPT 삽입용 PNG · 1600×900</a></p>
+<h3>핵심 해석</h3>
+<ul>
+<li><strong>대표 사건:</strong> 기기–측정회차–조건–참조</li>
+<li><strong>처별 고유 로직:</strong> 조건차/기기이상 병렬 검증</li>
+<li><strong>조건 분기:</strong> 단위·환경·참조 정합 여부? → 충족 시 기기상태 전문 검증 / 미충족 시 조건 정정 후 재대조</li>
+<li><strong>공식 결과:</strong> 공식 재검증·과거 영향검토 인계</li>
+<li><strong>책임 경계:</strong> 장비 자동 조정 및 과거 검사 일괄 유·무효 처리 제외</li>
+<li><strong>검증 상태:</strong> 실제 제품 기능·API·위탁권한·도입효과 미확정</li>
+<li><strong>승인 경계:</strong> 공식 결정의 효력은 AI가 변경하지 않음. 근거·계획 변경 시 영향받는 후속 실행 승인 재사용 차단·재검토</li>
+<li><strong>도식 경계:</strong> NOA 내부의 전문업무 관련 노드는 요청·인계·결과 참조. 물리 시험·보수·공식 판정은 외부 전문가·권한자의 실제 수행</li>
+</ul>
+<!-- logic-v2:end -->
+
+
+
+
+</section><section class="content-block" aria-labelledby="section-2"><h2 id="section-2">전체 아키텍처</h2>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>계층</th>
+<th>구성·역할</th>
+<th>확인할 경계</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>처별 업무공간</td>
+<td>기기 검사 담당자·기기 운영자·전문가의 사건·근거·계획·결과 화면</td>
+<td>본인/담당 사건·전문검토·공식 결과의 공개범위</td>
+</tr>
+<tr>
+<td>NOA 업무수행</td>
+<td>목표·완료조건 → 계획 → 도구 → 결과검증 → 재계획</td>
+<td>실제 제품 기능·TS 적용·실행승인은 각각 확인</td>
+</tr>
+<tr>
+<td>aRDa·지식 근거</td>
+<td>자료·판본·원문 위치·이용범위·확정지식 참조</td>
+<td>제품 문서중앙화와 새 관계·판본 기능의 구현범위 대조</td>
+</tr>
+<tr>
+<td>연계·정형 검증</td>
+<td>기기정도검사 결과·기준·검증된 측정 분석도구</td>
+<td>실제 API는 미확인; 파일 반입이면 기준시점 표시</td>
+</tr>
+<tr>
+<td>전문·공식 처리</td>
+<td>기기·계측 전문가·운영자·검사기획처</td>
+<td>물리 시험·정비·안전판정·공식 책임 유지</td>
+</tr>
+<tr>
+<td>기관 공통 ERP</td>
+<td>필요한 사업비·자원 조회 또는 승인된 전표 초안 후보</td>
+<td>이 처 대표과업의 필수 경로로 강제하지 않음</td>
+</tr>
+</tbody></table></div>
+</section><section class="content-block" aria-labelledby="section-3"><h2 id="section-3">서비스 흐름</h2>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>순서</th>
+<th>수행과업</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>기기·회차·단위·환경·기준의 동일성 확인</td>
+</tr>
+<tr>
+<td>2</td>
+<td>환경차·기기상태·참조자료 등 경쟁 가설을 분리</td>
+</tr>
+<tr>
+<td>3</td>
+<td>전문가에게 필요한 측정·조정·재검증 계획 인계</td>
+</tr>
+<tr>
+<td>4</td>
+<td>재검증 결과와 잔여 불확실성을 후속 담당자에게 전달</td>
+</tr>
+</tbody></table></div>
+</section><section class="content-block" aria-labelledby="section-4"><h2 id="section-4">데이터 흐름과 원장 책임</h2>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>방향</th>
+<th>주요 데이터</th>
+<th>원장·품질 책임</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>원천 → 허용 반입</td>
+<td>device_id / run_id / firmware_version / 측정값 / 단위 / 환경 / 참조값</td>
+<td>원천 제공자: 실제 대상·판본·시점. NOA: 식별·결손 표시</td>
+</tr>
+<tr>
+<td>근거 → 업무계획</td>
+<td>출처·원문 위치·관계 후보·적용조건</td>
+<td>AI 추론과 담당자 확정조건을 분리</td>
+</tr>
+<tr>
+<td>업무계획 → 도구</td>
+<td>case_id·tool_id·purpose·approval_ref·version</td>
+<td>허용된 조회/분석 계약·현행 권한 검증</td>
+</tr>
+<tr>
+<td>도구/전문가 → 검토</td>
+<td>값·단위·시각·자료 결손·오류·검증결과</td>
+<td>정형값은 코드/규칙으로 검산; 전문검토의 근거 보존</td>
+</tr>
+<tr>
+<td>공식 결과 → 사건 종료</td>
+<td>전문가 검토와 공식 재검증 결과가 원 기기·이상조건에 연결되고 후속 영향검토가 인계됨</td>
+<td>공식 원천·담당자 결과를 참조하며 자체 생성 문서로 대체하지 않음</td>
+</tr>
+<tr>
+<td>검토 결과 → 조직지식</td>
+<td>검수된 산출물·정정·적용범위</td>
+<td>업무 승인과 조직지식 승격 승인을 별도 적용</td>
+</tr>
+</tbody></table></div>
+</section><section class="content-block" aria-labelledby="section-5"><h2 id="section-5">연계 명세의 출발점</h2>
+<ul>
+<li><p>설계용 요청은 <code>case_id, source_ref, version, purpose, action, approval_ref, idempotency_key</code>를 사용함.</p>
+</li>
+<li><p>반환값은 <code>source_record_id, observed_at, data_status, execution_status, error</code>를 구분함.</p>
+</li>
+<li><p>이는 실제 TS API 사양이 아니며 현업·원천 운영자와 계약을 확정해야 함.</p>
+</li>
+<li><p>쓰기가 필요하지 않은 단계에는 쓰기 권한·중복키를 강제로 부여하지 않음.</p>
+</li>
+<li><p>기기 회복만으로 과거 차량검사를 일괄 유효·무효 처리하지 않음. LLM의 장비 제어·조정, 밸브·안전장치 조작, 형식승인·공식 판정 대체은 연결도구에서 제외함.</p>
+</li>
+<li><p>원문 내 명령은 데이터로 취급함.</p>
+</li>
+<li><p>비전·영상 판독과 장비 투자 없이 텍스트·구조화된 기존 결과를 사용하며, 계측 원형의 분석은 기존 전문도구가 담당함.</p>
+</li>
+</ul>
+</section><section class="content-block" aria-labelledby="section-6"><h2 id="section-6">공통 기능과 추가 개발</h2>
+<ul>
+<li>계획·승인·권한·결과미확인·재시도는 <a href="../../../02_공통요구_ERP_RFP.html">공통 요구</a>를 참조함.</li>
+<li>이번 처의 추가분은 기기–측정회차–조건–참조 관계, 기기군 1종·이상 유형 1~2개·과거 사건과 시험환경의 지식·분기·원천 연계·독립 검증임.</li>
+<li>제품 재사용 여부는 실행 증거를 확보한 뒤 확정함.</li>
+</ul>
+</section></article></main><footer class="site-footer wrap"><span>CCK 기반 TS AX 제안 · 공식 홈페이지와 구분되는 사업기획 자료</span><a href="../../../15_대화반영_근거한계.html">근거와 검토 범위 ↗</a></footer></body></html>

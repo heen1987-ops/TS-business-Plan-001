@@ -1,0 +1,22 @@
+{
+  "name": "ts-ax-react-homepage",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "check": "node scripts/check.cjs",
+    "test": "npm run build && npm run check",
+    "preview": "node scripts/preview.cjs"
+  },
+  "dependencies": {
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "lucide-react": "0.468.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

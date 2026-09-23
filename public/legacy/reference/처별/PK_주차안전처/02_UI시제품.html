@@ -1,0 +1,103 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="한국교통안전공단의 임무·2030 방향·조직 업무에서 출발하는 CCK 기반 AX 사업 제안"><title>주차안전처 상세 서비스흐름도 | TS AX</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23182e58'/%3E%3Cpath d='M7 9h18v4h-7v12h-4V13H7z' fill='white'/%3E%3C/svg%3E"><link rel="stylesheet" href="../../../assets/showcase.css"><link rel="stylesheet" href="../../../assets/legal.css"></head><body class=""><a class="skip" href="#main">본문으로 바로가기</a><header class="site-header"><a class="brand" href="../../../index.html"><b>TS <em>AX</em></b><small>CCK 사업 제안</small></a><nav class="site-nav" aria-label="주 메뉴"><a href="../../../about.html" >기관소개</a><a href="../../../vision.html" >2030 방향</a><a href="../../../organization.html" >조직과 업무</a><a href="../../../solutions.html" >AX 서비스</a></nav></header><main id="main" tabindex="-1"><div class="reference-label">상세 근거자료 · <a href="../../../index.html">소개 홈페이지로 ↗</a></div><article class="reference-body"><div class="document-lead"><h1>주차안전처 · 화면과 서비스 설계</h1>
+<!-- logic-v2:start -->
+<div class="diagram-links"><a href="../../../처별/PK_주차안전처/01_사업정의.html">컨셉도</a><a href="../../../처별/PK_주차안전처/02_UI시제품.html">서비스흐름도</a><a href="../../../처별/PK_주차안전처/03_아키텍처_흐름.html">아키텍처</a></div>
+
+</div><section class="content-block" aria-labelledby="section-1"><h2 id="section-1">서비스흐름도 · 장치별 미흡 해소와 이용회복</h2>
+<div class="diagram-purpose"><strong>이 도식의 목적</strong> · 처리 순서·판단 분기·완료 및 재계획 경로</div>
+
+<p><img  src="../../../assets/PK_서비스흐름도.svg"  alt="주차안전처 PK27-02 서비스흐름도: 미흡/보수/공식확인 상태 게이트 / NOA와 기존 업무·전문판단의 역할 구분"></p>
+<p><a href="../../../assets/PK_서비스흐름도.svg">도식 원본 확대 · SVG</a> · <a href="../../../assets/PK_서비스흐름도.png">PPT 삽입용 PNG · 1600×900</a></p>
+<h3>핵심 해석</h3>
+<ul>
+<li><strong>대표 사건:</strong> 장치–미흡–보수–공식 확인</li>
+<li><strong>처별 고유 로직:</strong> 미흡/보수/공식확인 상태 게이트</li>
+<li><strong>조건 분기:</strong> 같은 장치의 필수 확인 완료? → 충족 시 권한자 이용상태 확인 / 미충족 시 대상·잔여 미흡 재확인</li>
+<li><strong>공식 결과:</strong> 잔여조건·재발관측·책임 인계</li>
+<li><strong>책임 경계:</strong> AI 이용재개 승인·장치 가동 제어 제외</li>
+<li><strong>검증 상태:</strong> 실제 제품 기능·API·위탁권한·도입효과 미확정</li>
+</ul>
+<!-- logic-v2:end -->
+
+
+
+<blockquote>
+<p>화면 ID <code>PK-SCREEN-01</code> · 검사 담당자·시설 관리자·보수업체 · 제안자료 · 실행 선택기 없음</p>
+</blockquote>
+<ul>
+<li><strong>자체점검에는 정상으로 입력됐으나 이전 검사 미흡의 보수증거가 빠진 가상 사건</strong>을 한 화면에서 이해하도록 설계했음.</li>
+<li>실제 정보나 제품 실행결과를 표시한 화면이 아님.</li>
+</ul>
+<div class="work-preview"><header><span class="eyebrow">제안 화면 · 가상 사건 · 읽기 전용</span><h2>기계식주차장 미흡 해소와 이용회복 검증</h2><p>자체점검에는 정상으로 입력됐으나 이전 검사 미흡의 보수증거가 빠진 가상 사건</p></header><div class="work-columns"><section><h3>사건·근거</h3><ul><li>facility_id / device_id / finding_id</li><li>설계·부품 판본 / 적용기준</li><li>보수 실행증거 / 필요한 재확인</li><li>공식 결과 / 실제 이용상태 / 후속관측</li></ul></section><section><h3>확인계획·업무 진행</h3><ul><li>원 미흡별 완료증거와 공식 확인 필요사항 정의</li><li>설계·부품·보수·점검 자료의 대상과 판본 대조</li><li>전문조치와 필요한 검사·공식 확인을 구분해 인계</li><li>실제 이용상태·재발 관측과 미해결 사항 연결</li></ul></section><section><h3>결과·남은 사항</h3><ul><li>해당 미흡의 조치증거·필요한 공식 확인·책임자 판단이 연결되고 잔여조건을 인계</li><li>일부 미흡 해소·부품 주문·정상 입력만으로 전체 안전확보나 이용재개를 확정하지 않음</li><li>최종 판단·원천 결과·조회시점 표시</li></ul></section></div></div>
+
+</section><section class="content-block" aria-labelledby="section-2"><h2 id="section-2">사용자 흐름</h2>
+<ol>
+<li>허용된 사건과 대상·판본을 확인함.</li>
+<li>NOA가 필요한 확인질문·자료·선행조건을 구성하고 담당자가 중요한 전문쟁점을 검토함.</li>
+<li>승인된 조회·분석의 반환 결과와 미확인 사유를 확인함.</li>
+<li>새 보수자료가 다른 장치에 해당하면 종결을 보류하고 동일성·잔여 미흡 확인을 다시 계획함.</li>
+<li>해당 미흡의 조치증거·필요한 공식 확인·책임자 판단이 연결되고 잔여조건을 인계함.</li>
+</ol>
+</section><section class="content-block" aria-labelledby="section-3"><h2 id="section-3">상태와 예외</h2>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>상태</th>
+<th>보여줄 내용</th>
+<th>후속 처리</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>진행·로딩</td>
+<td>실제 수행 중인 과업과 마지막 확인시점</td>
+<td>완료로 오인하지 않도록 대기 사유 제공</td>
+</tr>
+<tr>
+<td>자료 없음·부분 성공</td>
+<td>결손 항목·조회 실패 원천·영향 범위</td>
+<td>미확인 표시 후 보완/담당자 인계</td>
+</tr>
+<tr>
+<td>권한 없음</td>
+<td>허용된 사건명과 접근 거부 사유</td>
+<td>자료 본문·요약·로그 노출 차단</td>
+</tr>
+<tr>
+<td>시간초과·오프라인</td>
+<td>실행 시도와 결과 미확인 분리</td>
+<td>조회·대사 경로로 복구; 쓰기 자동 반복 금지</td>
+</tr>
+<tr>
+<td>보완·판단 대기</td>
+<td>일부 미흡 해소·부품 주문·정상 입력만으로 전체 안전확보나 이용재개를 확정하지 않음</td>
+<td>원문·미결 과업·책임자·기한 유지</td>
+</tr>
+<tr>
+<td>완료</td>
+<td>해당 미흡의 조치증거·필요한 공식 확인·책임자 판단이 연결되고 잔여조건을 인계</td>
+<td>정정·새 사실은 이력 보존 후 재검토</td>
+</tr>
+</tbody></table></div>
+</section><section class="content-block" aria-labelledby="section-4"><h2 id="section-4">사용자·권한·표시 원칙</h2>
+<ul>
+<li><p>전문검토 의견과 국민에게 제공할 행동 안내는 권한별로 구분함.</p>
+</li>
+<li><p>실제 운영에서 등록·발송·공식 변경은 별도 권한·승인 경로를 적용함.</p>
+</li>
+<li><p>이 제안 화면은 읽기 전용이므로 승인·실행 버튼을 만들지 않았음.</p>
+</li>
+<li><p>화면 순서는 사건 → 근거 → 계획 → 결과이며 키보드 순서도 같음.</p>
+</li>
+<li><p>색상만으로 상태를 구분하지 않음.</p>
+</li>
+<li><p>작은 화면에서는 세 열을 세로로 배치하며 표는 개별 가로 스크롤을 제공함.</p>
+</li>
+<li><p>공식 원문은 기존 시스템에서 확인하고 개인정보 원값은 필요한 역할에만 표시함.</p>
+</li>
+</ul>
+</section><section class="content-block" aria-labelledby="section-5"><h2 id="section-5">화면 수용기준</h2>
+<ul>
+<li>항목별 원문·판본·결손·공식 상태를 식별할 수 있고, 동일성 오류나 부분 완료가 전체 완료로 표시되지 않아야 함.</li>
+<li>화면과 데이터 필드는 장치–미흡–보수–공식 확인 단위로 함께 검수함.</li>
+<li>접근성 목표는 WCAG 2.2 AA이며 인증·전수 실사용 평가는 미수행임.</li>
+</ul>
+</section></article></main><footer class="site-footer wrap"><span>CCK 기반 TS AX 제안 · 공식 홈페이지와 구분되는 사업기획 자료</span><a href="../../../15_대화반영_근거한계.html">근거와 검토 범위 ↗</a></footer></body></html>

@@ -1,0 +1,163 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="한국교통안전공단의 임무·2030 방향·조직 업무에서 출발하는 CCK 기반 AX 사업 제안"><title>실증사업처 상세 서비스흐름도 | TS AX</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23182e58'/%3E%3Cpath d='M7 9h18v4h-7v12h-4V13H7z' fill='white'/%3E%3C/svg%3E"><link rel="stylesheet" href="../../../assets/showcase.css"><link rel="stylesheet" href="../../../assets/legal.css"></head><body class=""><a class="skip" href="#main">본문으로 바로가기</a><header class="site-header"><a class="brand" href="../../../index.html"><b>TS <em>AX</em></b><small>CCK 사업 제안</small></a><nav class="site-nav" aria-label="주 메뉴"><a href="../../../about.html" >기관소개</a><a href="../../../vision.html" >2030 방향</a><a href="../../../organization.html" >조직과 업무</a><a href="../../../solutions.html" >AX 서비스</a></nav></header><main id="main" tabindex="-1"><div class="reference-label">상세 근거자료 · <a href="../../../index.html">소개 홈페이지로 ↗</a></div><article class="reference-body"><div class="document-lead"><h1>실증사업처 — 화면과 서비스 설계</h1>
+<!-- logic-v2:start -->
+<div class="diagram-links"><a href="../../../처별/DV_실증사업처/01_사업정의.html">컨셉도</a><a href="../../../처별/DV_실증사업처/02_UI시제품.html">서비스흐름도</a><a href="../../../처별/DV_실증사업처/03_아키텍처_흐름.html">아키텍처</a></div>
+
+</div><section class="content-block" aria-labelledby="section-1"><h2 id="section-1">서비스흐름도 · 단지내도로 개선과 실제 효과 확인</h2>
+<div class="diagram-purpose"><strong>이 도식의 목적</strong> · 처리 순서·판단 분기·완료 및 재계획 경로</div>
+
+<p><img  src="../../../assets/DV_서비스흐름도.svg"  alt="실증사업처 DV27-02 서비스흐름도: 현장진단→시설조치→전후 관측 루프 / NOA와 기존 업무·전문판단의 역할 구분"></p>
+<p><a href="../../../assets/DV_서비스흐름도.svg">도식 원본 확대 · SVG</a> · <a href="../../../assets/DV_서비스흐름도.png">PPT 삽입용 PNG · 1600×900</a></p>
+<h3>핵심 해석</h3>
+<ul>
+<li><strong>대표 사건:</strong> 지점·위험상황·개선조치·후속 관측</li>
+<li><strong>처별 고유 로직:</strong> 현장진단→시설조치→전후 관측 루프</li>
+<li><strong>조건 분기:</strong> 개선조치 실제 시행? → 충족 시 위험·접근성 함께 관측 / 미충족 시 효과판정 보류·제약 협의</li>
+<li><strong>공식 결과:</strong> 잔여위험·이동부담·유지책임 확인</li>
+<li><strong>책임 경계:</strong> 공학적 진단·시설공사·장비 제어 대체 제외</li>
+<li><strong>검증 상태:</strong> 실제 제품 기능·API·위탁권한·도입효과 미확정</li>
+</ul>
+<!-- logic-v2:end -->
+
+
+
+<p><strong>진단 권고가 현장 조치로 이어지고 보행위험과 접근성이 함께 개선되는지 확인함.</strong></p>
+<ul>
+<li>담당자는 지점·위험상황·개선조치·후속 관측를 중심으로 근거를 확인하고, AI가 제안한 계획을 검토한 뒤 공식 업무의 결과와 연결함.</li>
+<li>아래는 제안을 설명하기 위한 화면 구성안임.</li>
+</ul>
+<div class="notice">설계 예시 · 실제 운영 자료가 아님 · 담당자: 도로진단 전문가·시설관리자·TS 실증 담당자</div>
+
+</section><section class="content-block" aria-labelledby="section-2"><h2 id="section-2">업무 화면의 핵심 구성</h2>
+<section class="work-preview" aria-label="실증사업처 화면 구성 예시">
+<header><span class="eyebrow">DV27-02 · 단지내도로 조사·진단 기록·시설관리 조치 기록</span><h2>현장 미해소 대기함</h2><p>가상 단지 V-04 / 보행 교차지점</p></header>
+<div class="work-columns"><section><h3>확인한 근거</h3><ul><li>전문가 구조화 관찰: 보행·차량 상충</li><li>개선 권고: 동선 조정</li><li>시설관리자의 실행 예산·권한 확인 필요</li></ul></section><section><h3>AI가 준비할 계획</h3><ol><li>위험·접근성 가설과 추가 현장 확인 구성</li><li>현행유지 포함 대안과 실행제약 비교</li><li>조치권자 협의와 전후 관측 설계</li></ol></section><section><h3>담당자가 확인할 결과</h3><p>실제 조치·후속관측·잔여위험과 유지관리 책임이 연결됨</p><p class="muted">공식 판단과 승인 권한은 담당자에게 유지</p></section></div></section>
+
+</section><section class="content-block" aria-labelledby="section-3"><h2 id="section-3">서비스 흐름</h2>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>단계</th>
+<th>업무와 사용자 행동</th>
+<th>나오는 결과</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1. 대상 확인</td>
+<td>지점·위험상황·개선조치·후속 관측와 적용 기준·권한 확인</td>
+<td>업무 대상·목표·완료조건</td>
+</tr>
+<tr>
+<td>2. 근거 검토</td>
+<td>원자료의 시점·판본·누락·불일치 확인</td>
+<td>유효한 근거와 확인할 쟁점</td>
+</tr>
+<tr>
+<td>3. 계획 제안</td>
+<td>현장 조건별 확인질문·대안·실행 제약·후속 관측을 연결하고 예상과 다른 효과가 나오면 대책을 수정</td>
+<td>검토할 계획·필요 자료·후속 담당자</td>
+</tr>
+<tr>
+<td>4. 전문 검토</td>
+<td>시설공사 미시행이면 효과 검증 단계로 진입하지 않으며 원인과 재원조건 유지</td>
+<td>확정된 조치·보완 또는 보류 이유</td>
+</tr>
+<tr>
+<td>5. 공식 절차 연결</td>
+<td>전문가 확인을 거친 개선·관측 과업의 인계</td>
+<td>접수/등록 결과와 사건의 일치 확인</td>
+</tr>
+<tr>
+<td>6. 효과 확인</td>
+<td>노출량 대비 위험상황 / 이동·우회 부담 / 실제 조치 이행</td>
+<td>업무 완료와 국민·기업 편익을 구분한 결과</td>
+</tr>
+</tbody></table></div>
+</section><section class="content-block" aria-labelledby="section-4"><h2 id="section-4">새 근거가 들어오면 달라지는 처리</h2>
+<p>조치 후 위험건수 감소와 함께 우회거리 증가가 발견되면 효과 확정을 보류하고 접근성 대안을 재검토.</p>
+<ol>
+<li>보행량 변화·우회거리·주변지점 영향을 다시 확인</li>
+<li>안전성과 접근성을 함께 충족하는 대안 비교</li>
+<li>시설관리자·전문가의 수정조치 검토 요청</li>
+</ol>
+<p>변경된 근거가 승인된 계획에 영향을 주면 이전 승인을 그대로 사용하지 않음. 필요한 검토 단계로 돌아가 근거·계획·승인판본을 함께 갱신함.</p>
+</section><section class="content-block" aria-labelledby="section-5"><h2 id="section-5">화면별 정보와 책임</h2>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>화면 ID</th>
+<th>화면 목적</th>
+<th>핵심 정보</th>
+<th>책임 역할</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>DV-UI-01</td>
+<td>현장 미해소 대기함</td>
+<td>지점키·위험항목·접근성 제약·미해소 상태·실행권자</td>
+<td>담당자</td>
+</tr>
+<tr>
+<td>DV-UI-02</td>
+<td>위험·접근성 증거</td>
+<td>관측시간/노출량·전문가 측정/관찰·원자료·접근성 조건</td>
+<td>담당자·전문가</td>
+</tr>
+<tr>
+<td>DV-UI-03</td>
+<td>대안·관측 계획</td>
+<td>대안별 제약·실행가능성·조치계획·효과/역효과 관측계획</td>
+<td>담당자·전문가</td>
+</tr>
+<tr>
+<td>DV-UI-04</td>
+<td>실제 조치·후속 대사</td>
+<td>조치 ID·실행기록·후속 측정·공식 확인·이행/관측 대사상태</td>
+<td>승인권자·공식 시스템</td>
+</tr>
+<tr>
+<td>DV-UI-05</td>
+<td>유지관리·잔여위험</td>
+<td>전후 비교조건·후속위험/이동부담·잔여위험·유지관리 인수자</td>
+<td>현업·평가자</td>
+</tr>
+</tbody></table></div>
+</section><section class="content-block" aria-labelledby="section-6"><h2 id="section-6">예외가 발생했을 때</h2>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>발생 상황</th>
+<th>실제 서비스의 처리</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>자료가 없음</td>
+<td>대상이 없는 상태와 일부 근거 누락을 구분하고 추가 자료를 요청</td>
+</tr>
+<tr>
+<td>근거가 바뀜</td>
+<td>영향받는 계획과 승인을 표시하고 필요한 단계부터 재검토</td>
+</tr>
+<tr>
+<td>권한이 회수됨</td>
+<td>자료 조회·실행을 차단하고 권한 있는 담당자에게 인계</td>
+</tr>
+<tr>
+<td>공식 시스템 응답이 없음</td>
+<td>결과 미확인으로 유지하고 조회로 대사; 무조건 다시 등록하지 않음</td>
+</tr>
+<tr>
+<td>업무 보류·취소</td>
+<td>새 실행을 막되 기존 외부 결과는 정식 확인·정정 절차로 처리</td>
+</tr>
+</tbody></table></div>
+<p>개인 초안·메모는 조직 사건의 공식 근거와 구분함. 담당자가 제출한 자료만 해당 권한 범위에서 연결하며, 공식 지식 반영은 검수를 거침. 본 제안 화면에는 테스트 상태 선택기와 모의 실행 버튼을 두지 않음.</p>
+</section><section class="content-block" aria-labelledby="section-7"><h2 id="section-7">인수·검수 기준</h2>
+<ul>
+<li>사진/영상 판독, 공학적 안전진단 대체, 시설 자동제어, 토목공사비의 SW비 편입은 제공 기능에 포함하지 않음.</li>
+<li>데이터가 비어 있거나 일부 누락돼도 완료 결과를 추정하지 않음.</li>
+<li>문서 출처·판본·대상·공식 결과를 추적할 수 있어야 함.</li>
+<li>성과 측정 조건: 같은 시간대·보행량·계절·주변지점 조건; 실제 공사비·현장조사비 별도.</li>
+<li>본문 16px 이상, 키보드 탐색·명확한 포커스·모바일 재배치·200% 확대를 기본 설계로 적용함. 전체 접근성 인증이나 실제 API/제품 검증 완료를 뜻하지 않음.</li>
+</ul>
+<p><a href="../../../처별/DV_실증사업처/01_사업정의.html">사업 정의</a> · <a href="../../../처별/DV_실증사업처/03_아키텍처_흐름.html">전체 아키텍처와 데이터 흐름</a> · <a href="../../../처별/DV_실증사업처/04_RFP_요구검수.html">요구사항·RFP·검수</a> · <a href="../../../처별/DV_실증사업처/05_인력_대가.html">투입인력·대가</a></p>
+</section></article></main><footer class="site-footer wrap"><span>CCK 기반 TS AX 제안 · 공식 홈페이지와 구분되는 사업기획 자료</span><a href="../../../15_대화반영_근거한계.html">근거와 검토 범위 ↗</a></footer></body></html>

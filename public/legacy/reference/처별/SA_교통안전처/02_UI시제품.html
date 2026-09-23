@@ -1,0 +1,163 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="한국교통안전공단의 임무·2030 방향·조직 업무에서 출발하는 CCK 기반 AX 사업 제안"><title>교통안전처 상세 서비스흐름도 | TS AX</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23182e58'/%3E%3Cpath d='M7 9h18v4h-7v12h-4V13H7z' fill='white'/%3E%3C/svg%3E"><link rel="stylesheet" href="../../../assets/showcase.css"><link rel="stylesheet" href="../../../assets/legal.css"></head><body class=""><a class="skip" href="#main">본문으로 바로가기</a><header class="site-header"><a class="brand" href="../../../index.html"><b>TS <em>AX</em></b><small>CCK 사업 제안</small></a><nav class="site-nav" aria-label="주 메뉴"><a href="../../../about.html" >기관소개</a><a href="../../../vision.html" >2030 방향</a><a href="../../../organization.html" >조직과 업무</a><a href="../../../solutions.html" >AX 서비스</a></nav></header><main id="main" tabindex="-1"><div class="reference-label">상세 근거자료 · <a href="../../../index.html">소개 홈페이지로 ↗</a></div><article class="reference-body"><div class="document-lead"><h1>교통안전처 — 화면과 서비스 설계</h1>
+<!-- logic-v2:start -->
+<div class="diagram-links"><a href="../../../처별/SA_교통안전처/01_사업정의.html">컨셉도</a><a href="../../../처별/SA_교통안전처/02_UI시제품.html">서비스흐름도</a><a href="../../../처별/SA_교통안전처/03_아키텍처_흐름.html">아키텍처</a></div>
+
+</div><section class="content-block" aria-labelledby="section-1"><h2 id="section-1">서비스흐름도 · 안전미흡의 해소와 재발방지</h2>
+<div class="diagram-purpose"><strong>이 도식의 목적</strong> · 처리 순서·판단 분기·완료 및 재계획 경로</div>
+
+<p><img  src="../../../assets/SA_서비스흐름도.svg"  alt="교통안전처 SA27-02 서비스흐름도: 미흡 사건→원인/조치/증거 순환 / NOA와 기존 업무·전문판단의 역할 구분"></p>
+<p><a href="../../../assets/SA_서비스흐름도.svg">도식 원본 확대 · SVG</a> · <a href="../../../assets/SA_서비스흐름도.png">PPT 삽입용 PNG · 1600×900</a></p>
+<h3>핵심 해석</h3>
+<ul>
+<li><strong>대표 사건:</strong> 미흡·원인·조치·해소 증거</li>
+<li><strong>처별 고유 로직:</strong> 미흡 사건→원인/조치/증거 순환</li>
+<li><strong>조건 분기:</strong> 원인 해소 증거 충분? → 충족 시 담당자 현장 확인 / 미충족 시 운영조건·추가조치 재설계</li>
+<li><strong>공식 결과:</strong> 해소 확인·재발 관측·책임 인계</li>
+<li><strong>책임 경계:</strong> 문서 제출과 실제 해소의 구분</li>
+<li><strong>검증 상태:</strong> 실제 제품 기능·API·위탁권한·도입효과 미확정</li>
+</ul>
+<!-- logic-v2:end -->
+
+
+
+<p><strong>조치서 제출 뒤에도 남는 위험을 확인하고 실제 해소와 재발방지까지 관리함.</strong></p>
+<ul>
+<li>담당자는 미흡·원인·조치·해소 증거를 중심으로 근거를 확인하고, AI가 제안한 계획을 검토한 뒤 공식 업무의 결과와 연결함.</li>
+<li>아래는 제안을 설명하기 위한 화면 구성안임.</li>
+</ul>
+<div class="notice">설계 예시 · 실제 운영 자료가 아님 · 담당자: TS 점검 담당자·운수회사 안전관리자</div>
+
+</section><section class="content-block" aria-labelledby="section-2"><h2 id="section-2">업무 화면의 핵심 구성</h2>
+<section class="work-preview" aria-label="교통안전처 화면 구성 예시">
+<header><span class="eyebrow">SA27-02 · 안전점검·COSAS 관련 기록; 시스템 운영은 데이터융복합처 협의</span><h2>미해소 위험 대기함</h2><p>가상 운수회사 S-03 / 미흡 F-07</p></header>
+<div class="work-columns"><section><h3>확인한 근거</h3><ul><li>피로 관리 미흡 확인 기록</li><li>교육 이수 증명 제출</li><li>실제 배차 간격 조정은 미확인</li></ul></section><section><h3>AI가 준비할 계획</h3><ol><li>교육 외 배차·휴게 조건에 대한 원인 확인</li><li>원인별 개선대안과 검증자료 요청</li><li>안전담당자의 현장 확인과 후속 관측 계획</li></ol></section><section><h3>담당자가 확인할 결과</h3><p>권한자가 실제 해소 증거를 확인하고 잔여위험·재발 관측 책임을 인수함</p><p class="muted">공식 판단과 승인 권한은 담당자에게 유지</p></section></div></section>
+
+</section><section class="content-block" aria-labelledby="section-3"><h2 id="section-3">서비스 흐름</h2>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>단계</th>
+<th>업무와 사용자 행동</th>
+<th>나오는 결과</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1. 대상 확인</td>
+<td>미흡·원인·조치·해소 증거와 적용 기준·권한 확인</td>
+<td>업무 대상·목표·완료조건</td>
+</tr>
+<tr>
+<td>2. 근거 검토</td>
+<td>원자료의 시점·판본·누락·불일치 확인</td>
+<td>유효한 근거와 확인할 쟁점</td>
+</tr>
+<tr>
+<td>3. 계획 제안</td>
+<td>미흡 원인에 맞게 확인질문과 조치·증거 계획을 구성하고 조치가 실패하면 대안을 재계획</td>
+<td>검토할 계획·필요 자료·후속 담당자</td>
+</tr>
+<tr>
+<td>4. 전문 검토</td>
+<td>조치서만 제출되면 미해소 유지; 원인 근거가 충돌하면 추가 확인</td>
+<td>확정된 조치·보완 또는 보류 이유</td>
+</tr>
+<tr>
+<td>5. 공식 절차 연결</td>
+<td>승인된 개선 확인과업의 등록·담당자 인계</td>
+<td>접수/등록 결과와 사건의 일치 확인</td>
+</tr>
+<tr>
+<td>6. 효과 확인</td>
+<td>확인된 미흡의 실질 해소율 / 재발률 / 부적절 종결률</td>
+<td>업무 완료와 국민·기업 편익을 구분한 결과</td>
+</tr>
+</tbody></table></div>
+</section><section class="content-block" aria-labelledby="section-4"><h2 id="section-4">새 근거가 들어오면 달라지는 처리</h2>
+<p>교육 후 동일 미흡 재발이 확인되면 교육 완료 종결을 보류하고 배차·휴게 운영 조치를 추가 검토.</p>
+<ol>
+<li>종결 예정 사건을 재개</li>
+<li>배차·휴게 기록 확인과 운영 변경 대안 추가</li>
+<li>현장 확인자·관측기간을 재지정</li>
+</ol>
+<p>변경된 근거가 승인된 계획에 영향을 주면 이전 승인을 그대로 사용하지 않음. 필요한 검토 단계로 돌아가 근거·계획·승인판본을 함께 갱신함.</p>
+</section><section class="content-block" aria-labelledby="section-5"><h2 id="section-5">화면별 정보와 책임</h2>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>화면 ID</th>
+<th>화면 목적</th>
+<th>핵심 정보</th>
+<th>책임 역할</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>SA-UI-01</td>
+<td>미해소 위험 대기함</td>
+<td>점검 사건키·미흡기준·위험내용·미해소상태·책임자·기한</td>
+<td>담당자</td>
+</tr>
+<tr>
+<td>SA-UI-02</td>
+<td>원인·조치 증거</td>
+<td>원인가설·기준원문·조치증거·현장확인 출처·누락항목</td>
+<td>담당자·전문가</td>
+</tr>
+<tr>
+<td>SA-UI-03</td>
+<td>해소·재발방지 계획</td>
+<td>원인별 조치·재발방지 과업·완료조건·담당자·기한</td>
+<td>담당자·전문가</td>
+</tr>
+<tr>
+<td>SA-UI-04</td>
+<td>이행·현장 확인</td>
+<td>조치 ID·이행보고·현장 확인기록·전문가 판정·해소 대사상태</td>
+<td>승인권자·공식 시스템</td>
+</tr>
+<tr>
+<td>SA-UI-05</td>
+<td>재발·잔여위험</td>
+<td>재발관측 기간·동일 미흡 건수·확인된 해소 분모·잔여위험</td>
+<td>현업·평가자</td>
+</tr>
+</tbody></table></div>
+</section><section class="content-block" aria-labelledby="section-6"><h2 id="section-6">예외가 발생했을 때</h2>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>발생 상황</th>
+<th>실제 서비스의 처리</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>자료가 없음</td>
+<td>대상이 없는 상태와 일부 근거 누락을 구분하고 추가 자료를 요청</td>
+</tr>
+<tr>
+<td>근거가 바뀜</td>
+<td>영향받는 계획과 승인을 표시하고 필요한 단계부터 재검토</td>
+</tr>
+<tr>
+<td>권한이 회수됨</td>
+<td>자료 조회·실행을 차단하고 권한 있는 담당자에게 인계</td>
+</tr>
+<tr>
+<td>공식 시스템 응답이 없음</td>
+<td>결과 미확인으로 유지하고 조회로 대사; 무조건 다시 등록하지 않음</td>
+</tr>
+<tr>
+<td>업무 보류·취소</td>
+<td>새 실행을 막되 기존 외부 결과는 정식 확인·정정 절차로 처리</td>
+</tr>
+</tbody></table></div>
+<p>개인 초안·메모는 조직 사건의 공식 근거와 구분함. 담당자가 제출한 자료만 해당 권한 범위에서 연결하며, 공식 지식 반영은 검수를 거침. 본 제안 화면에는 테스트 상태 선택기와 모의 실행 버튼을 두지 않음.</p>
+</section><section class="content-block" aria-labelledby="section-7"><h2 id="section-7">인수·검수 기준</h2>
+<ul>
+<li>자동 행정처분·승무 차단·개인 위험등급·안전 적합 판정은 제공 기능에 포함하지 않음.</li>
+<li>데이터가 비어 있거나 일부 누락돼도 완료 결과를 추정하지 않음.</li>
+<li>문서 출처·판본·대상·공식 결과를 추적할 수 있어야 함.</li>
+<li>성과 측정 조건: 미흡 유형·회사 규모·관측기간별 사건; 추가 점검 부담도 함께 평가.</li>
+<li>본문 16px 이상, 키보드 탐색·명확한 포커스·모바일 재배치·200% 확대를 기본 설계로 적용함. 전체 접근성 인증이나 실제 API/제품 검증 완료를 뜻하지 않음.</li>
+</ul>
+<p><a href="../../../처별/SA_교통안전처/01_사업정의.html">사업 정의</a> · <a href="../../../처별/SA_교통안전처/03_아키텍처_흐름.html">전체 아키텍처와 데이터 흐름</a> · <a href="../../../처별/SA_교통안전처/04_RFP_요구검수.html">요구사항·RFP·검수</a> · <a href="../../../처별/SA_교통안전처/05_인력_대가.html">투입인력·대가</a></p>
+</section></article></main><footer class="site-footer wrap"><span>CCK 기반 TS AX 제안 · 공식 홈페이지와 구분되는 사업기획 자료</span><a href="../../../15_대화반영_근거한계.html">근거와 검토 범위 ↗</a></footer></body></html>

@@ -1,0 +1,530 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="한국교통안전공단의 임무·2030 방향·조직 업무에서 출발하는 CCK 기반 AX 사업 제안"><title>K007 · 사건·문서 식별자 연결 | TS AX</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23182e58'/%3E%3Cpath d='M7 9h18v4h-7v12h-4V13H7z' fill='white'/%3E%3C/svg%3E"><link rel="stylesheet" href="../assets/showcase.css"><link rel="stylesheet" href="../assets/legal.css"></head><body class=""><a class="skip" href="#main">본문으로 바로가기</a><header class="site-header"><a class="brand" href="../index.html"><b>TS <em>AX</em></b><small>CCK 사업 제안</small></a><nav class="site-nav" aria-label="주 메뉴"><a href="../about.html" >기관소개</a><a href="../vision.html" >2030 방향</a><a href="../organization.html" >조직과 업무</a><a href="../solutions.html" >AX 서비스</a></nav></header><main id="main" tabindex="-1"><div class="reference-label">상세 근거자료 · <a href="../index.html">소개 홈페이지로 ↗</a></div><article class="reference-body"><div class="document-lead"><h1>K007 · 사건·문서 식별자 연결</h1>
+<blockquote>
+<p>독립 컨셉 · 대화 상세안 열람 · 발주·부서 배정·비용 미확정</p>
+</blockquote>
+<p><strong>업무 원장의 사건 ID와 문서·버전·재제출·중복 이력을 연결해 추적</strong></p>
+<p><a href="../12_독립컨셉_92.html">92개 목록으로</a> · <a href="../10_세대화_통합검토.html">통합 검토로</a></p>
+</div><section class="content-block" aria-labelledby="section-1"><h2 id="section-1">이번 반영 기준</h2>
+<ul>
+<li>원래 ID를 유지함.</li>
+<li>후속 묶음은 공란이며 이 항목을 다른 컨셉과 병합하지 않았음.</li>
+<li>한 컨셉이 한 신규사업·한 AI 기능·한 과금단위라는 의미는 아님.</li>
+<li>화면의 번호는 우선순위가 아님.</li>
+</ul>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>관리항목</th>
+<th>상태</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>원문 작업 ID</td>
+<td>W02.02</td>
+</tr>
+<tr>
+<td>부서·후속 묶음</td>
+<td>미배정</td>
+</tr>
+<tr>
+<td>구현·검증</td>
+<td>미실행</td>
+</tr>
+<tr>
+<td>비용</td>
+<td>미산정 — 기존 65개 WBS 합계에 추가하지 않음</td>
+</tr>
+</tbody></table></div>
+</section><section class="content-block" aria-labelledby="section-2"><h2 id="section-2">적용 여부를 판단할 자료</h2>
+<ul>
+<li>대상 업무사건, 입력·산출물의 실제 견본, 담당·확인 책임, 기존 계약의 충족 범위, 예외와 완료증거를 확인함.</li>
+<li>같은 작업이 다른 요구를 지원하더라도 구현 인도물 단위로 비용을 한 번 계산함.</li>
+</ul>
+</section><section class="content-block" aria-labelledby="section-3"><h2 id="section-3">대화 상세안 보존</h2>
+<ul>
+<li>아래는 제공 대화에서 읽은 설계안임.</li>
+<li>대화 내부의 첨부 인용은 원문을 확보하지 못해 생략했음.</li>
+<li>완료기준·예시는 제안이며 실행결과가 아님.</li>
+</ul>
+</section><section class="content-block" aria-labelledby="section-4"><h2 id="section-4">K007. 사건·문서 식별자 연결</h2>
+<p><strong>07 / 92 · 원문 작업 W02.02 · 독립 컨셉 상세안</strong></p>
+<ul>
+<li><p>일곱 번째 컨셉의 결과물은 **「사건–문서–버전 연결목록」**임. TS 자료관리 책임자와 수행 데이터 담당자가 2027년 AX 적용을 준비하면서, <strong>각 자료가 어느 업무사건의 어떤 문서·버전인지, 최초 제출인지 재제출인지 추적할 수 있도록 연결하는 항목</strong>임.</p>
+</li>
+<li><p>원문도 파일명에 의존하지 않고 사건과 버전을 추적하는 것을 목적으로 제시함. </p>
+</li>
+<li><p>아래 식별항목·연결방법·사례는 <strong>원문 K007을 구체화한 설계 제안</strong>임.</p>
+</li>
+<li><p>실제 TS 원장 구조나 문서 연결 결과를 확인한 것은 아니며, 다른 컨셉과의 묶음은 지정하지 않음.</p>
+</li>
+</ul>
+</section><section class="content-block" aria-labelledby="section-5"><h2 id="section-5">1. 컨셉의 핵심: 같은 파일명이라고 같은 문서는 아님</h2>
+<p>K006이 <strong>자료를 어디까지 사용할 수 있는지</strong>를 기록했다면, K007은 <strong>허용된 자료가 어느 사건에 속하고 어떤 제출·변경 이력을 갖는지</strong> 연결함.</p>
+<ul>
+<li><p>예를 들어 <code>심사자료.pdf</code>가 세 번 들어왔다고 가정하겠습니다.</p>
+</li>
+<li><p>첫 번째는 최초 제출본, 두 번째는 수정본, 세 번째는 다른 기관의 자료일 수 있음.</p>
+</li>
+<li><p>파일명이 같다는 이유로 하나로 합치면 사건과 검토 근거가 섞임.</p>
+</li>
+<li><p>반대로 <code>심사자료.pdf</code>와 <code>심사자료_최종.pdf</code>가 같은 버전의 재제출본일 수도 있음.</p>
+</li>
+<li><p>이름이 달라졌다고 반드시 새로운 문서나 개정본이 되는 것은 아닙니다.</p>
+</li>
+</ul>
+<p>따라서 K007의 핵심 질문은 다음과 같습니다.</p>
+<blockquote>
+<p><strong>“이 자료는 어느 원장의 어떤 사건에 속하며, 어떤 문서의 어느 버전이고, 어떤 제출·수신 이력으로 들어왔는가?”</strong></p>
+</blockquote>
+<p>여기서 <strong>사건은 교통사고가 아니라 원장에서 관리하는 업무 처리 한 건</strong>임. K001에서 정의할 업무 경계를 다시 만드는 것이 아니라, 확인된 사건 단위와 원장 식별정보에 자료를 연결함.</p>
+<p><strong>연결목록을 작성했다고 원장을 변경하거나 중복파일을 삭제하는 것은 아닙니다.</strong> 우선 자료 간 관계와 확인 근거를 정리하는 단계임.</p>
+</section><section class="content-block" aria-labelledby="section-6"><h2 id="section-6">2. 사건·문서·버전·제출 이력을 구분</h2>
+<ul>
+<li>원문은 <strong>원장 ID와 문서 ID를 연결하고, 동일 문서의 버전·재제출·중복 여부를 표시</strong>하도록 제시함.</li>
+<li>이를 네 가지 식별 수준으로 구체화했음.</li>
+</ul>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>식별 수준</th>
+<th>무엇을 구분하는가</th>
+<th>기록할 내용</th>
+<th>혼동하지 않을 사항</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>① 사건 식별</strong></td>
+<td>업무 원장에서 관리하는 처리 한 건</td>
+<td>출처 시스템, 원장 사건 ID, 식별에 필요한 업무·대상 정보</td>
+<td>같은 기관이 제출했다는 이유로 같은 사건으로 취급하지 않음</td>
+</tr>
+<tr>
+<td><strong>② 문서 식별</strong></td>
+<td>업무상 관리하는 개별 문서</td>
+<td>원천 문서 ID, 문서 종류·대상, 원문 위치</td>
+<td>파일명이나 저장폴더를 문서 ID와 동일하게 취급하지 않음</td>
+</tr>
+<tr>
+<td><strong>③ 버전 식별</strong></td>
+<td>해당 문서의 특정 내용·개정본</td>
+<td>원천 버전, 이전 문서·버전과의 관계, 개정·정정 근거</td>
+<td>나중에 받은 파일을 자동으로 최신·유효·승인본으로 선정하지 않음</td>
+</tr>
+<tr>
+<td><strong>④ 제출·수신 이력</strong></td>
+<td>자료가 들어온 개별 제출·접수 건</td>
+<td>제출·접수 식별정보, 수신시각, 경로, 보완요청 관계</td>
+<td>같은 버전이 다시 들어와도 제출 이력까지 없애지 않음</td>
+</tr>
+</tbody></table></div>
+<ul>
+<li>이 구분은 <strong>논리적인 기록 구조 제안</strong>임.</li>
+<li>새로운 데이터베이스나 시스템 네 개를 구축한다는 뜻은 아닙니다.</li>
+</ul>
+<h3>기존 식별자를 먼저 사용</h3>
+<ul>
+<li><p>원장과 문서관리시스템에서 이미 사용하는 ID가 확인되면 그대로 연결함.</p>
+</li>
+<li><p>서로 다른 시스템에서 같은 번호를 사용할 수 있는지는 확인하되, <strong>번호만 같다는 이유로 동일 사건으로 묶지 않음.</strong></p>
+</li>
+<li><p>기존 시스템이 버전마다 다른 문서 ID를 부여한다면, 각 원천 ID를 유지하고 <strong>‘이전 문서의 개정본’이라는 관계를 추가로 기록</strong>하는 방식임.</p>
+</li>
+<li><p>관리 편의를 위해 원천 ID를 하나로 덮어쓰지 않음.</p>
+</li>
+<li><p>원장 ID나 버전이 확인되지 않으면 연결목록 안의 임시 관리표시를 둘 수 있음.</p>
+</li>
+<li><p>다만 <strong>‘연결용 임시표시’와 ‘실제 원장 ID·공식 버전’을 별도 항목으로 기록</strong>함.</p>
+</li>
+<li><p>임시번호를 만들었다고 식별 문제가 해결된 것은 아닙니다.</p>
+</li>
+</ul>
+<h3>재제출과 새 버전은 다름</h3>
+<p>동일한 문서 버전이 다시 제출되었다면 다음 두 사실을 함께 기록할 수 있음.</p>
+<p><strong>문서·버전:</strong> 기존과 동일.</p>
+<p><strong>제출·수신 이력:</strong> 새로운 제출·수신 건이 발생.</p>
+<ul>
+<li>단순 재전송인지, 보완요청에 대한 동일본 재제출인지, 별도 목적의 제출인지는 확인 근거로 구분함.</li>
+<li><strong>내용이 같다는 것과 업무행위가 같다는 것은 다릅니다.</strong></li>
+</ul>
+<p>또한 같은 자료를 다시 제출했다고 보완요청이 해결되거나 사건이 종결된 것으로 처리하지 않음. K007에서는 제출 관계만 연결함.</p>
+</section><section class="content-block" aria-labelledby="section-7"><h2 id="section-7">3. 연결목록에 무엇을 기록할 것인가</h2>
+<ul>
+<li>원문의 입력은 **「허용된 사건별 문서 묶음」**임.</li>
+<li>실제 이용이 허용된 범위에서 원장·문서·제출기록을 대조하도록 함.</li>
+</ul>
+<p>상세 기록 단위는 다음과 같이 제안함.</p>
+<blockquote>
+<p><strong>사건 × 문서 × 버전 × 제출·수신 이력</strong></p>
+</blockquote>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>기록 묶음</th>
+<th>구체적인 등록항목</th>
+<th>확인할 핵심</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>원장 사건</strong></td>
+<td>출처 시스템, 사건 ID, 업무유형, 대상·기간, 원장 확인 위치</td>
+<td>어떤 원장의 어느 처리 건인가?</td>
+</tr>
+<tr>
+<td><strong>원천 문서</strong></td>
+<td>문서 ID, 문서 종류, 원래 파일명, 원문 위치</td>
+<td>무엇을 하나의 문서로 식별했는가?</td>
+</tr>
+<tr>
+<td><strong>버전·이전 관계</strong></td>
+<td>원천 버전, 이전 문서·버전, 개정·정정 근거, 임시표시 여부</td>
+<td>어떤 근거로 같은 문서의 다른 버전이라고 판단했는가?</td>
+</tr>
+<tr>
+<td><strong>제출·수신</strong></td>
+<td>제출·접수 ID, 제공 주체, 제출·수신시각, 경로, 보완요청 참조</td>
+<td>언제 어떤 제출행위로 들어왔는가?</td>
+</tr>
+<tr>
+<td><strong>연결 관계</strong></td>
+<td>최초·개정·추가증빙·동일본 재제출·재전송·미확인</td>
+<td>문서의 변화와 제출행위의 변화를 구분했는가?</td>
+</tr>
+<tr>
+<td><strong>근거·확인</strong></td>
+<td>대조한 원장 항목·제출목록·수정 안내, 확인자·확인일</td>
+<td>연결을 확정한 근거는 무엇인가?</td>
+</tr>
+<tr>
+<td><strong>보류·정정</strong></td>
+<td>미확인 사항, 필요한 자료, 정정 전후 연결, 변경 이유</td>
+<td>불확실하거나 잘못된 연결을 추적할 수 있는가?</td>
+</tr>
+<tr>
+<td><strong>이용조건 참조</strong></td>
+<td>해당 자료의 이용조건 대장과 허용범위</td>
+<td>연결 등록으로 열람·이용 범위를 넓히지 않았는가?</td>
+</tr>
+</tbody></table></div>
+<h3>연결후보와 연결확인을 구분</h3>
+<p>상태는 다음처럼 기록하는 안임.</p>
+<p><strong>연결후보:</strong> 관련 원장·문서가 제시되었지만 아직 확인하지 않은 상태.</p>
+<p><strong>연결확인:</strong> 사건·문서·버전과 그 관계의 근거를 확인한 상태.</p>
+<p><strong>연결보류:</strong> 식별정보 부족이나 상충으로 확정하지 못한 상태.</p>
+<p>이 상태명은 설계 제안이며, <strong>문서 내용의 정확성이나 업무상 적합성을 평가하는 등급이 아닙니다.</strong> 사건에 올바르게 연결된 자료라도 내용 검토에서는 추가 확인이 필요할 수 있음.</p>
+<h3>‘조건’은 기존 식별자가 있을 때 참조</h3>
+<ul>
+<li>원문 대응 작업명은 **「사건·조건·문서 식별자 정리」**임.</li>
+<li>승인조건이나 검사항목 ID가 이미 확인되어 있다면 문서와의 참조관계를 함께 기록할 수 있음.</li>
+<li>다만 조건의 의미를 새로 추출·해석하거나 이행 여부를 판정하는 범위로 확대하지 않음.</li>
+</ul>
+<h3>최신 수신본과 검토에 사용한 버전은 별도</h3>
+<p>어떤 검토기록이 문서 v1을 사용했다면, 이후 v2가 들어와도 <strong>과거 검토가 사용한 근거는 v1로 추적</strong>되어야 함.</p>
+<ul>
+<li>‘현재 가장 늦게 받은 파일’과 ‘당시 판단에 사용한 파일’을 구분하는 것임.</li>
+<li>어느 버전을 현재 업무에 적용할지, 변경으로 재검토가 필요한지는 별도의 업무판단으로 남깁니다.</li>
+</ul>
+</section><section class="content-block" aria-labelledby="section-8"><h2 id="section-8">4. 작성 예시: 같은 이름의 심사자료가 반복 수신된 경우</h2>
+<ul>
+<li>다음은 <strong>관계 구분을 설명하기 위한 가상 사례</strong>임.</li>
+<li>사건·문서·버전·수신 ID는 모두 설명용이며 실제 TS 번호체계가 아닙니다.</li>
+</ul>
+<p>첫 다섯 행은 가상 원장·제출이력·수정 안내로 관계를 확인했다고 가정하고, 마지막 행은 확인 근거가 부족하다고 가정함.</p>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>수신기록</th>
+<th>파일명</th>
+<th>원장 사건</th>
+<th>문서·버전</th>
+<th>확인된 관계라는 가정</th>
+<th>연결목록의 처리</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>R01</strong></td>
+<td>심사자료.pdf</td>
+<td>CASE-01</td>
+<td>DOC-01 / v1</td>
+<td>최초 제출</td>
+<td>최초 문서·버전과 수신기록 연결</td>
+</tr>
+<tr>
+<td><strong>R02</strong></td>
+<td>심사자료.pdf</td>
+<td>CASE-01</td>
+<td>DOC-01 / v2</td>
+<td>v1의 수정본임을 제출 안내와 기존 관계로 확인</td>
+<td>v1을 유지하고 v2·개정 근거 추가</td>
+</tr>
+<tr>
+<td><strong>R03</strong></td>
+<td>심사자료_최종.pdf</td>
+<td>CASE-01</td>
+<td>DOC-01 / v2</td>
+<td>같은 버전을 보완요청에 다시 제출한 것으로 확인</td>
+<td>수신·요청 이력 추가. v3로 자동 생성하지 않음</td>
+</tr>
+<tr>
+<td><strong>R04</strong></td>
+<td>심사자료.pdf</td>
+<td>CASE-02</td>
+<td>DOC-02 / v1</td>
+<td>다른 사건의 최초 문서로 확인</td>
+<td>이름이 같아도 사건·문서 분리</td>
+</tr>
+<tr>
+<td><strong>R05</strong></td>
+<td>실행증빙.pdf</td>
+<td>CASE-01</td>
+<td>DOC-03 / v1</td>
+<td>기존 문서를 대체하지 않는 추가 증빙</td>
+<td>별도 문서로 연결하고 관련 조건·요청 참조</td>
+</tr>
+<tr>
+<td><strong>R06</strong></td>
+<td>심사자료.pdf</td>
+<td>미확인</td>
+<td>미확인</td>
+<td>소속 사건·버전 확인 근거 부족</td>
+<td>임시 수신표시로 보류. 기존 사건에 자동 편입하지 않음</td>
+</tr>
+</tbody></table></div>
+<ul>
+<li>이 표의 도착 순서 자체가 개정 관계의 근거는 아닙니다.</li>
+<li><strong>수정 안내와 제출·원장 기록을 확인했다는 가정</strong>이 있어야 R02를 v2로 연결할 수 있음.</li>
+</ul>
+<h3>상황 A. 이름은 같지만 문서 내용이 수정됨</h3>
+<ul>
+<li><p>R01과 R02는 같은 파일명임.</p>
+</li>
+<li><p>그러나 확인된 수정 관계가 있으므로 동일 문서의 v1과 v2를 구분함.</p>
+</li>
+<li><p>처리는 <strong>기존 v1 삭제·덮어쓰기</strong>가 아니라, <strong>v1과 v2의 관계를 남기는 것</strong>임.</p>
+</li>
+<li><p>수정 관계를 확인할 근거가 없다면 ‘새 버전 확인’으로 표시하지 않음.</p>
+</li>
+</ul>
+<h3>상황 B. 이름은 달라졌지만 같은 버전이 재제출됨</h3>
+<p>R03에는 ‘최종’이라는 이름이 붙었지만, 실제 확인 결과는 DOC-01/v2의 재제출이라는 가정임.</p>
+<ul>
+<li>따라서 <strong>문서·버전은 유지하면서 새 제출 이력은 보존</strong>함.</li>
+<li>‘최종’이라는 단어보다 제출·개정 근거가 먼저임.</li>
+</ul>
+<h3>상황 C. 같은 사건에 별도의 증빙이 추가됨</h3>
+<p>R05는 CASE-01에 속하지만 DOC-01의 수정본이 아니라 별도의 실행증빙임.</p>
+<ul>
+<li>같은 사건에 들어온 모든 파일을 한 문서의 버전으로 취급하지 않음.</li>
+<li><strong>기존 심사자료와 추가 실행증빙의 관계</strong>를 구분해야 이후 검토에서 무엇이 제출됐는지 설명할 수 있음.</li>
+</ul>
+<h3>상황 D. 소속 사건을 확인할 수 없음</h3>
+<ul>
+<li>R06은 파일명만으로 연결할 사건을 선택하지 않음.</li>
+<li>수신 사실과 원문 위치를 허용된 범위에서 보존하고, 원장·제출 근거를 추가 확인할 대상으로 남깁니다.</li>
+</ul>
+<p><strong>미확인 행을 남기는 것과 사건·버전 연결을 완료하는 것은 다릅니다.</strong> 이 상태에서는 선정 표본 전체의 역추적이 완료됐다고 보고할 수 없습니다.</p>
+</section><section class="content-block" aria-labelledby="section-9"><h2 id="section-9">5. 예외·충돌·정정은 어떻게 처리할 것인가</h2>
+<ul>
+<li>원문은 <strong>파일명만 같으면 동일 문서로 병합하지 않도록</strong> 제한함.</li>
+<li>아래는 그 제한을 적용하기 위한 예외처리 제안임.</li>
+</ul>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>상황</th>
+<th>기록·확인할 내용</th>
+<th>피할 처리</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>같은 번호가 여러 시스템에 존재</strong></td>
+<td>출처 시스템과 실제 식별 구분정보</td>
+<td>번호만 비교해 사건 병합</td>
+</tr>
+<tr>
+<td><strong>구버전이 뒤늦게 수신됨</strong></td>
+<td>수신시각과 원천 버전·개정 관계를 각각 기록</td>
+<td>늦게 도착한 파일을 유효본으로 자동 교체</td>
+</tr>
+<tr>
+<td><strong>버전표시가 없거나 불명확함</strong></td>
+<td>원천 버전 미확인, 임시표시, 추가 확인자료</td>
+<td>임의로 v1·v2를 붙이고 공식 버전처럼 사용</td>
+</tr>
+<tr>
+<td><strong>일부 파일만 보완 제출됨</strong></td>
+<td>변경된 파일과 미변경 파일을 나누어 연결</td>
+<td>제출 묶음 전체를 같은 새 버전으로 교체</td>
+</tr>
+<tr>
+<td><strong>한 문서가 여러 사건에 사용됨</strong></td>
+<td>사건별 사용 관계·근거·이용조건</td>
+<td>문서가 같다는 이유로 사건·권한까지 병합</td>
+</tr>
+<tr>
+<td><strong>문서가 다른 형식으로 변환됨</strong></td>
+<td>원문 문서·버전과 변환본의 관계</td>
+<td>형식 변경을 업무상 개정으로 자동 인정</td>
+</tr>
+<tr>
+<td><strong>잘못된 사건 연결을 발견함</strong></td>
+<td>정정 전후 연결, 이유, 근거, 확인자·시점</td>
+<td>이전 오류를 지우고 처음부터 맞았던 것처럼 기록</td>
+</tr>
+</tbody></table></div>
+<h3>내용 비교도 단독 확정 근거로 확대하지 않음</h3>
+<ul>
+<li><p>파일 내용이 같다는 사실은 관계 확인의 근거가 될 수 있음.</p>
+</li>
+<li><p>하지만 <strong>동일 내용이 별도 제출행위나 다른 사건에서 사용되는 경우</strong>까지 자동으로 하나로 합칠 근거는 아닙니다.</p>
+</li>
+<li><p>원문에는 특정 식별 알고리즘이나 유사도 임계값, 자동 병합률이 제시되어 있지 않음.</p>
+</li>
+<li><p>따라서 그런 수치를 확정 요구사항으로 추가하지 않음.</p>
+</li>
+<li><p>AI를 활용한다면 문서번호·날짜·관계의 <strong>후보 제시</strong> 정도를 검토할 수 있지만, 이는 선택사항임.</p>
+</li>
+<li><p>원장값이 없을 때 AI가 공식 사건번호를 생성하거나, 확인기록 없이 소속 사건을 확정하도록 설계하지 않음.</p>
+</li>
+</ul>
+<h3>연결정정과 업무결과 변경도 구분</h3>
+<p>문서를 다른 사건에 잘못 연결한 것으로 확인되면, 연결목록의 정정 전후와 이유를 남깁니다.</p>
+<ul>
+<li>그 오류가 과거 검토결과에 영향을 줄 수 있다면 해당 담당자에게 확인 대상으로 인계함.</li>
+<li><strong>K007에서 과거 판단을 자동 무효화하거나 사건을 재개·종결하는 것은 아닙니다.</strong></li>
+</ul>
+</section><section class="content-block" aria-labelledby="section-10"><h2 id="section-10">6. 수행 순서와 K007의 범위</h2>
+<p>수행은 <strong>표본·이용조건 확인 → 원장·문서 대조 → 버전·재제출 구분 → 역추적 확인 → 담당자 확인·인계</strong> 순서로 제안함.</p>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>순서</th>
+<th>구체적인 수행내용</th>
+<th>남길 결과</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>1. 표본·이용조건 확인</strong></td>
+<td>대상 사건과 입력문서 목록, 허용된 열람·처리 범위 확인</td>
+<td>선정 범위·입력목록·이용조건 참조</td>
+</tr>
+<tr>
+<td><strong>2. 원장·문서 대조</strong></td>
+<td>사건 ID와 문서 ID, 출처 시스템·원문 위치 연결</td>
+<td>원장–문서 대응행</td>
+</tr>
+<tr>
+<td><strong>3. 버전·수신 이력 구분</strong></td>
+<td>개정본·추가증빙·동일본 재제출·재전송·미확인 표시</td>
+<td>문서–버전–수신 연결과 근거</td>
+</tr>
+<tr>
+<td><strong>4. 역추적·충돌 확인</strong></td>
+<td>문서에서 사건·버전으로, 사건에서 해당 문서·제출 이력으로 대조</td>
+<td>확인결과·보류·정정 필요사항</td>
+</tr>
+<tr>
+<td><strong>5. 담당자 확인·인계</strong></td>
+<td>연결 근거와 남은 쟁점을 확인하고 목록 범위·버전 기록</td>
+<td>확인된 연결목록 또는 미해결 범위가 표시된 초안</td>
+</tr>
+</tbody></table></div>
+<h3>이번 컨셉에서 끝낼 일</h3>
+<p><strong>기존 식별정보의 대응, 선정 문서의 버전·재제출·중복 관계 표시, 연결 근거, 확인·보류·정정 이력, 역추적 확인결과</strong>를 정리함.</p>
+<p>반면 <strong>기관 전체 번호체계 재설계, 신규 통합 문서관리시스템 구축, 원장 자동 병합, 중복파일 삭제, 문서 변환 품질검증, 접근정책 구현, 조건 이행 판정, 다른 컨셉과의 통합</strong>은 포함하지 않음.</p>
+<ul>
+<li>기존 목록과 원장 대조만으로 충분하다면 별도 AI 기능을 추가하지 않아도 됩니다.</li>
+<li><strong>연결목록을 만들기 위해 문서관리 플랫폼부터 다시 만들 필요는 없습니다.</strong></li>
+</ul>
+</section><section class="content-block" aria-labelledby="section-11"><h2 id="section-11">7. 완료기준·역할·기간</h2>
+<ul>
+<li>원문의 완료기준은 **“선정 표본의 입력문서가 사건과 버전까지 역추적 가능”**한 것임.</li>
+<li>단순히 파일명을 목록에 입력한 상태와 구분해야 함.</li>
+</ul>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>확인항목</th>
+<th>완료를 확인할 질문</th>
+<th>부족할 때의 처리</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>선정 입력 보존</strong></td>
+<td>표본에 포함된 문서·수신 이력이 목록에서 빠지지 않았는가?</td>
+<td>미연결 자료도 대상에 남기고 범위 표시</td>
+</tr>
+<tr>
+<td><strong>사건 역추적</strong></td>
+<td>입력문서에서 실제 원장 사건과 출처를 확인할 수 있는가?</td>
+<td>원장 근거 추가 확인</td>
+</tr>
+<tr>
+<td><strong>문서·버전 역추적</strong></td>
+<td>어떤 문서의 어느 버전인지와 그 근거가 있는가?</td>
+<td>버전·관계 미확인 표시</td>
+</tr>
+<tr>
+<td><strong>재제출 구분</strong></td>
+<td>새 버전과 동일본 재제출, 추가증빙을 구분했는가?</td>
+<td>제출목록·수정 안내·요청 관계 재대조</td>
+</tr>
+<tr>
+<td><strong>병합 제한</strong></td>
+<td>파일명·번호·도착 순서만으로 병합하지 않았는가?</td>
+<td>후보 재검토·정정기록</td>
+</tr>
+<tr>
+<td><strong>확인 근거</strong></td>
+<td>누가 어떤 기록으로 확인했고 무엇이 남았는가?</td>
+<td>실제 확인 전 초안으로 유지</td>
+</tr>
+</tbody></table></div>
+<ul>
+<li><p><strong>‘연결목록 초안 작성’과 ‘선정 표본 연결확인 완료’를 별도로 기록</strong>함.</p>
+</li>
+<li><p>미확인 사유를 적었다는 사실만으로 역추적이 가능해지는 것은 아닙니다.</p>
+</li>
+<li><p>원장이나 버전을 확인하지 못한 입력이 남아 있다면 해당 범위를 명시함.</p>
+</li>
+<li><p>미확인 자료를 목록에서 제외해 전체가 완료된 것처럼 보고하지 않음.</p>
+</li>
+<li><p>또한 원문에는 표본 수나 연결정확도 목표가 정해져 있지 않음.</p>
+</li>
+<li><p>선정 표본의 확인 결과를 기관 전체 자료의 연결성이나 AI 판단 정확도로 확대하지 않음.</p>
+</li>
+<li><p>역할은 원문의 다음 역할안을 유지함.</p>
+</li>
+<li><p>실제 담당 배정이나 권한 위임은 별도 확인사항임.</p>
+</li>
+</ul>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>역할</th>
+<th>원문 역할안</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>수행</strong></td>
+<td>수행 데이터 담당</td>
+</tr>
+<tr>
+<td><strong>결과 확인·승인</strong></td>
+<td>TS 자료관리 책임자</td>
+</tr>
+<tr>
+<td><strong>협의·검토</strong></td>
+<td>현업·정보보호</td>
+</tr>
+</tbody></table></div>
+<ul>
+<li>기간은 원문의 <strong>3~7근무일 가정</strong>, 선행조건은 <strong>W02.01의 확인 결과</strong>임.</li>
+<li>이는 선정 표본의 식별·연결 정리 작업기간이며, 전체 시스템 이관이나 운영기능 개발까지 완료한다는 일정은 아닙니다.</li>
+</ul>
+</section><section class="content-block" aria-labelledby="section-12"><h2 id="section-12">8. 바로 사용할 보고서 문안</h2>
+<blockquote>
+<p><strong>AX 적용 대상의 허용된 사건별 문서 묶음을 기준으로 원장 사건 ID와 문서 ID·버전·제출 및 수신 이력을 연결하는 목록 작성 필요. 원천 시스템의 식별정보를 보존하고 개정본·추가증빙·동일본 재제출·중복 여부를 근거와 함께 구분하여, 파일명이나 도착 순서만으로 동일 문서 병합 또는 적용본 교체가 이루어지지 않도록 관리. 식별정보가 부족한 자료는 연결보류 사유·확인 주체·필요 근거를 기록하고, 선정 표본에서 입력문서를 사건과 버전까지 역추적할 수 있는지 확인 추진. 연결목록 작성과 원장 변경·권한 확대·중복 삭제·업무 종결은 별도 범위로 관리.</strong></p>
+</blockquote>
+<p>제공한 MD에는 <strong>대상·표본 확인서, 원천 식별정보 대응표, 사건–문서–버전 연결목록, 제출·재제출 이력표, 버전 관계 확인표, 연결보류 관리표, 정정이력, 표본 역추적 확인서</strong>를 포함했음.</p>
+<p><strong>K007의 최종 결과는 파일명 목록이 아니라, 각 입력이 어느 사건의 어느 문서·버전이며 어떤 제출 이력으로 연결되는지를 근거와 함께 설명하는 목록임.</strong></p>
+</section></article></main><footer class="site-footer wrap"><span>CCK 기반 TS AX 제안 · 공식 홈페이지와 구분되는 사업기획 자료</span><a href="../15_대화반영_근거한계.html">근거와 검토 범위 ↗</a></footer></body></html>

@@ -1,0 +1,8 @@
+node_modules/
+dist/
+qa-output/
+.env
+.env.*
+*.log
+.DS_Store
+scripts/*.local.cjs

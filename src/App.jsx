@@ -1,0 +1,30 @@
+import{Home}from'./Home.jsx';
+import React,{useState,useEffect,useRef}from'react';import{createRoot}from'react-dom/client';import{ArrowUpRight,ArrowRight,ShieldCheck,X,GitCompareArrows,ChevronRight}from'lucide-react';
+import{depts,legal,Link,Icon,readRoute,navigate}from'./core.jsx';
+import{About,Vision,Organization,Services,Comparison,Legal,Sources,Department}from'./pages.jsx';import'./styles.css';import{Discovery}from'./Discovery.jsx';import'./discovery.css';import{Updates}from'./Updates.jsx';import'./updates.css';
+import{Ars}from'./Ars.jsx';import{Katri}from'./Katri.jsx';import{ArchitectureHub}from'./Architecture.jsx';import{DocumentNav}from'./DocumentNav.jsx';
+const sectors=legal.groups;
+function Header({route}){const area=route.includes('legal')||route.includes('about')||route.includes('10_')?'about':route.includes('vision')||route.includes('11_')?'vision':route.includes('ars')||route.includes('organization')||route.includes('16_')?'organization':route.includes('katri')||route.includes('updates')||route.includes('discovery')||route.includes('solutions')||route.includes('inspection')||route.includes('처별')||route.includes('17_')?'solutions':'';return <header className="header"><Link to="index.html" className="logo" aria-label="TS AX 홈"><b>TS<span>AX</span></b><span className="logo-caption">안전한 이동을 위한 전환</span></Link><nav aria-label="주 메뉴">{[['기관소개','about'],['2030 방향','vision'],['조직과 업무','organization'],['AX 서비스','solutions']].map(([t,p])=><Link key={p} to={p+'.html'} aria-current={area===p?'page':undefined}>{t}</Link>)}</nav><Link className="header-more" to="legal.html">법정업무 지도 <ArrowUpRight size={17}/></Link></header>}
+function App(){const[route,setRoute]=useState(readRoute()+location.search+location.hash),[selected,setSelected]=useState([]),[compare,setCompare]=useState(false),[message,setMessage]=useState(''),first=useRef(true);
+useEffect(()=>{const cb=()=>setRoute(readRoute()+location.search+location.hash);addEventListener('popstate',cb);return()=>removeEventListener('popstate',cb)},[]);
+useEffect(()=>{setCompare(false);if(first.current){first.current=false;return}scrollTo({top:0,behavior:'instant'});document.getElementById('main')?.focus({preventScroll:true})},[route]);
+useEffect(()=>{if(!message)return;const id=setTimeout(()=>setMessage(''),4500);return()=>clearTimeout(id)},[message]);
+function toggle(code){setSelected(a=>{if(a.includes(code))return a.filter(c=>c!==code);if(a.length>=3){setMessage('최대 3개 서비스까지 비교 가능. 기존 항목을 해제한 후 추가해 주세요.');return a}return [...a,code]})}
+const path=route.split(/[?#]/)[0];let content,title='TS AX';
+if(['index.html','react/index.html',''].includes(path))content=<Home/>;
+else if(['about.html','10_세대화_통합검토.html'].includes(path)){content=<About/>;title='TS의 존재 의의'}
+else if(['vision.html','11_중장기목표_처별성과.html'].includes(path)){content=<Vision/>;title='2026–2030 방향'}
+else if(['organization.html','16_조직도_수행업무_분석.html'].includes(path)){content=<Organization/>;title='조직과 업무'}
+else if(path==='architecture.html'){content=<ArchitectureHub key={route}/>;title='상세 아키텍처'}
+else if(path==='katri.html'){content=<Katri key={route}/>;title='KATRI 문서 1차 검토 AX'}
+else if(path==='ars.html'){content=<Ars key={route}/>;title='대국민 ARS 업무지도'}
+else if(path==='updates.html'){content=<Updates key={route}/>;title='추가 설계 정리'}
+else if(path==='discovery.html'){content=<Discovery key={route}/>;title='업무 전환 후보'}
+else if(['solutions.html','inspection.html','17_조직별_AX_전환제안.html'].includes(path)){content=<Services key={path} initial={path==='inspection.html'?'inspection':'all'} selected={selected} toggleCompare={toggle}/>;title='조직별 AX 서비스'}
+else if(path==='legal/sources.html'){content=<Sources/>;title='법령 근거와 확인 범위'}
+else if(path==='legal.html'||path.startsWith('legal/')){const g=path==='legal.html'?null:path.split('/')[1].replace('.html','');content=<Legal key={route} group={g}/>;title='법정·수탁업무 지도'}
+else if(path.startsWith('처별/')){const d=depts.find(x=>path.startsWith(x.folder+'/'));if(d){const view=path.includes('/02_')?1:path.includes('/03_')?2:0;content=<Department key={route} d={d} view={view}/>;title=d.name+' · '+['서비스 컨셉','서비스 흐름','전체 아키텍처'][view]}}
+if(!content)content=<div className="page empty"><h1>페이지를 찾을 수 없음</h1><p>기관 소개 또는 서비스 목록에서 다시 탐색</p><Link to="index.html" className="button blue">홈으로</Link></div>;
+useEffect(()=>{document.title=title+' | TS AX'},[title]);
+return <><a className="skip" href="#main">본문으로 바로가기</a><Header route={route}/><div className="document-shell"><DocumentNav route={route}/><div className="document-body"><main id="main" tabIndex={-1}>{content}</main>{selected.length>0&&<div className="compare-tray" aria-label="선택한 비교 서비스"><div><span className="compare-count">{selected.length}/3</span>{selected.map(c=><button key={c} className="compare-chip" onClick={()=>toggle(c)} aria-label={depts.find(d=>d.code===c).name+' 비교 해제'}>{depts.find(d=>d.code===c).name}<X size={14}/></button>)}</div><button className="button blue" onClick={()=>setCompare(true)}><GitCompareArrows size={18}/>서비스 비교</button></div>}{message&&<div className="toast" role="status">{message}</div>}<Comparison selected={selected} open={compare} onClose={()=>setCompare(false)} toggle={toggle}/><footer className={selected.length?'with-tray':''}><span>CCK × TS AX · 사업제안용 자료</span><span>기관의 공식 홈페이지와 구분 · 조사 기준 2026.09.23</span><Link to="updates.html">추가 설계 정리</Link><Link to="legal/sources.html">근거·확인 범위</Link></footer></div></div></>}
+createRoot(document.getElementById('root')).render(<App/>);
