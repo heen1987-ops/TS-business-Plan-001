@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-21",
+  "pages": 12,
+  "all_pages_visually_reviewed": true,
+  "visual_result": "12쪽 전체 확인. 표 잘림·문자 누락·제목 장식선 없음. 참고자료 2쪽으로 정돈.",
+  "source_hyperlinks": 25,
+  "docx_zip_integrity": null,
+  "sha256": "7854a881e89089410456cb79542ef3e9948e7ef53a41ca608f0f30bc71296a98",
+  "render_method": "기본 render_docx.py는 LibreOffice 부재로 실패. 별도 Word.Application으로 PDF 변환 후 pypdfium2 페이지 렌더링.",
+  "content_review": "기존 기능·추가 과업·목표 상한과 견적·계획 일정과 계약 납기·문헌 효과와 AI 가설 구분",
+  "not_done": [
+    "현장 실증",
+    "독립 평가위원 최종 승인",
+    "현행 법령 전면 검증",
+    "예산 견적 확정"
+  ]
+}

@@ -1,0 +1,210 @@
+[
+  {
+    "name": "국토교통부_사고연계정보_20250630.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 14506,
+    "profile_rows": 14506,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "국토교통부_약관관리정보_20250830.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 5,
+    "profile_rows": 5,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "국토교통부_지역별 인구밀도 및 행정데이터_20250829.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 2003,
+    "profile_rows": 2003,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "도로교통공단_TBN 한국교통방송_교통정보 제공_통계_수집건수_20200831.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 8,
+    "profile_rows": 8,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "도로교통공단_교통안전교육_교육계획_20191231.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 106,
+    "profile_rows": 106,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "도로교통공단_사회교육_교통안전사회교육 계획 정보_20210909.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 12162,
+    "profile_rows": 12162,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "한국교통안전공단_2022년 안전도측정기기 정밀도검사 기기종류별 부적합 및 재검사 현황_20230720.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 746,
+    "profile_rows": 746,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "한국교통안전공단_2023년 안전도측정기기 형식 등록 현황_20230720.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 1992,
+    "profile_rows": 1992,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "한국교통안전공단_교통안전관리자 자격증발급 연도별 현황_20251231.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 22,
+    "profile_rows": 22,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "한국교통안전공단_교통안전교육 과정별 수료자 현황_20210714.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 199,
+    "profile_rows": 199,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "한국교통안전공단_궤도시설 검사일자 정보_20250915.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 75,
+    "profile_rows": 75,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "사업용차량 Trip단위 위험운전운행데이터_샘플.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 100,
+    "profile_rows": 100,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "한국교통안전공단_운수안전컨설팅_안전등급정보_20241231.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 545601,
+    "profile_rows": 545601,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "한국교통안전공단_위험물질운송안전관리시스템 CCTV 목록_20260701.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 14562,
+    "profile_rows": 14562,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "한국교통안전공단_철도안전전문가교육 기본과정_사이버교육 수료현황_20251231.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 25,
+    "profile_rows": 25,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "한국교통안전공단_측정기기 검사정보_20250429.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 12,
+    "profile_rows": 12,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "한국교통안전공단_통함홈페이지시스템_연구교육지식 관련 자료_20200403.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 51,
+    "profile_rows": 51,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "한국교통안전공단_통합국가자격 상점링크정보_20251118.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 36,
+    "profile_rows": 36,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "한국교통안전공단_통합국가자격_필기시험과목별결과정보_20251208.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 204,
+    "profile_rows": 204,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "한국교통안전공단_통합홈페이지시스템_검사서비스지식관련자료_20200403.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 50,
+    "profile_rows": 50,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "한국교통안전공단_통합홈페이지시스템_사업소 서비스_20200403.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 50,
+    "profile_rows": 50,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "한국교통안전공단_통합홈페이지시스템_웹진 목차_20200403.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 50,
+    "profile_rows": 50,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "한국교통안전공단_통합홈페이지시스템_일일접속자 및 만족도 평가관리 정보_20191130.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 44,
+    "profile_rows": 44,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "한국교통안전공단_통합홈페이지시스템_자격시험지식 관련 자료_20200313.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 56,
+    "profile_rows": 56,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "한국교통안전공단_항공분류체계_20231214.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 130,
+    "profile_rows": 130,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  },
+  {
+    "name": "한국도로교통공단_교통안전 사회교육 실시 현황_20241231.csv",
+    "sha256_unchanged": true,
+    "csv_rows": 168,
+    "profile_rows": 168,
+    "row_count_agrees": true,
+    "ragged_rows": 0
+  }
+]

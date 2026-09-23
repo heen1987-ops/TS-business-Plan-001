@@ -1,0 +1,2032 @@
+
+            Evaluation of an in-vehicle monitoring system (IVMS) to reduce risky driving behaviors in commercial drivers: Comparison of in-cab warning lights and supervisory coaching with videos of driving behavior - PMC
+      Skip to main content
+                        An official website of the United States government
+Here's how you know
+Here's how you know
+Official websites use .gov
+                            A
+.gov
+ website belongs to an official
+                            government organization in the United States.
+Secure .gov websites use HTTPS
+                            A 
+lock
+ (
+Lock
+                                    Locked padlock icon
+) or 
+https://
+ means you've safely
+                                connected to the .gov website. Share sensitive
+                                information only on official, secure websites.
+                            Search
+Log in
+            Dashboard
+            Publications
+            Account settings
+        Log out
+                        Search…
+                            Search NCBI
+            Primary site navigation
+                    Search
+                    Logged in as:
+            Dashboard
+            Publications
+            Account settings
+        Log in
+Search PMC Full-Text Archive
+Search in PMC
+                                Journal List
+                                User Guide
+PERMALINK
+Copy
+    As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+    the contents by NLM or the National Institutes of Health.
+    Learn more:
+PMC Disclaimer
+    |
+        PMC Copyright Notice
+J Safety Res
+. Author manuscript; available in PMC: 2018 Feb 1.
+Published in final edited form as: 
+J Safety Res. 2016 Dec 21;60:125–136. doi: 
+10.1016/j.jsr.2016.12.008
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Evaluation of an in-vehicle monitoring system (IVMS) to reduce risky
+driving behaviors in commercial drivers: Comparison of in-cab warning lights and
+supervisory coaching with videos of driving behavior
+Jennifer L Bell
+Jennifer L Bell
+a
+Centers for Disease Control and Prevention, National Institute for
+Occupational Safety and Health Division of Safety Research, United States
+Find articles by 
+Jennifer L Bell
+a,
+*
+, 
+Matthew A Taylor
+Matthew A Taylor
+b
+Centers for Disease Control and Prevention, National Institute for
+Occupational Safety and Health Effects Laboratory Division, United States
+Find articles by 
+Matthew A Taylor
+b
+, 
+Guang-Xiang Chen
+Guang-Xiang Chen
+a
+Centers for Disease Control and Prevention, National Institute for
+Occupational Safety and Health Division of Safety Research, United States
+Find articles by 
+Guang-Xiang Chen
+a
+, 
+Rachel D Kirk
+Rachel D Kirk
+c
+JAB Innovative Solutions, LLC, United States
+Find articles by 
+Rachel D Kirk
+c
+, 
+Erin R Leatherman
+Erin R Leatherman
+d
+West Virginia University, Department of Statistics, United
+States
+Find articles by 
+Erin R Leatherman
+d
+Author information
+Article notes
+Copyright and License information
+a
+Centers for Disease Control and Prevention, National Institute for
+Occupational Safety and Health Division of Safety Research, United States
+b
+Centers for Disease Control and Prevention, National Institute for
+Occupational Safety and Health Effects Laboratory Division, United States
+c
+JAB Innovative Solutions, LLC, United States
+d
+West Virginia University, Department of Statistics, United
+States
+*
+Corresponding author. 
+JBell@cdc.gov
+ (J.L.
+Bell)
+Issue date 2017 Feb.
+PMC Copyright notice
+PMCID: PMC5427714  NIHMSID: NIHMS858588  PMID: 
+28160807
+The publisher's version of this article is available at 
+J Safety Res
+Abstract
+Problem
+Roadway incidents are the leading cause of work-related death in the
+United States.
+Methods
+The objective of this research was to evaluate whether two types of
+feedback from a commercially available in-vehicle monitoring system (IVMS)
+would reduce the incidence of risky driving behaviors in drivers from two
+companies. IVMS were installed in 315 vehicles representing the industries
+of local truck transportation and oil and gas support operations, and data
+were collected over an approximate two-year period in intervention and
+control groups. In one period, intervention group drivers were given
+feedback from in-cab warning lights from an IVMS that indicated occurrence
+of harsh vehicle maneuvers. In another period, intervention group drivers
+viewed video recordings of their risky driving behaviors with supervisors,
+and were coached by supervisors on safe driving practices.
+Results
+Risky driving behaviors declined significantly more during the period
+with coaching plus instant feedback with lights in comparison to the period
+with lights-only feedback (ORadj = 0.61 95% CI
+0.43–0.86; Holm-adjusted p = 0.035) and the control group
+(ORadj = 0.52 95% CI 0.33–0.82; Holm-adjusted p
+= 0.032). Lights-only feedback was not found to be significantly
+different than the control group's decline from baseline (ORadj
+= 0.86 95% CI 0.51–1.43; Holm-adjusted p >
+0.05).
+Conclusions
+The largest decline in the rate of risky driving behaviors occurred
+when feedback included both supervisory coaching and lights.
+Practical applications
+Supervisory coaching is an effective form of feedback to improve
+driving habits in the workplace. The potential advantages and limitations of
+this IVMS-based intervention program are discussed.
+Keywords:
+ In-vehicle monitoring system, Occupational safety, Driving, Motor vehicle, Injury
+1. Introduction
+Roadway incidents are the leading cause of workplace injury death in the
+United States across all industries (including the truck transportation and oil and
+gas operations industries), with 1157 (25% of the total workplace injury
+deaths) occurring in 2014, the most recent year for which data are available (
+Bureau of Labor Statistics, 2016
+; 
+National Institute for Occupational Safety and Health,
+2015
+; 
+Retzer, Hill, & Pratt,
+2013
+). Work-related roadway incidents cover events involving
+transportation vehicles under normal operation, on roadways, which includes the
+parts of the public highway, street, or road normally used for travel, as well as
+the shoulder or surrounding areas, telephone poles, bridge abutments, trees aligning
+roadway, etc. (
+Bureau of Labor Statistics,
+2012
+).
+Advancing technologies are making it possible to provide instant feedback to
+drivers about vehicle and driver performance in real-time, which could help address
+the large public health problem of work-related fatal roadway incidents.
+Technologies such as collision warning systems and lane departure systems have been
+found to reduce risky driving behaviors (following too closely, lane departures),
+and rates of crashes (
+Chen, Jenkins, &
+Husting, 2004
+; 
+Lee, McGehee, Brown,
+& Reyes, 2002
+; 
+Merrikhpour,
+Donmez, & Battista, 2014
+). In addition to technologies that use
+sensors to detect nearby vehicles, there has been increased use of
+“on-board” or “in-vehicle” monitoring of driving
+behaviors (
+Hickman & Hanowski, 2010
+;
+Hickman, Hanowski, & Bocanegra,
+2010
+; 
+Horrey, Lesch, Dainoff, Robertson,
+& Noy, 2012
+; 
+International
+Association of Oil and Gas Producers, 2014
+; 
+Jones, 2016
+; 
+Miller,
+Saldhana, Hunt, & Mello, 2013
+). These in-vehicle monitoring
+systems (IVMS) record vehicle maneuvers through sensors and can interface with the
+vehicle's computer; they may also utilize cameras to record video footage of
+the driver actively engaged in driving. The information collected by IVMS technology
+can be fed back to the driver, either in real-time or retrospectively, through a
+variety of mechanisms, such as in-cab warning lights, sounds, reports, or by viewing
+video contents, all of which are intended to help drivers avoid or correct risky
+driving behaviors.
+Most of the published safety-related research on IVMS has been conducted in
+non-occupational settings using volunteers (both teenage and adult) from the general
+population, both in real-world driving conditions and driving simulators (
+Carney, McGehee, Lee, Reyes, & Raby,
+2010
+; 
+Donmez, Boyle, & Lee,
+2007
+, 
+2008
+; 
+Farmer, Kirkey, & McCartt, 2010
+; 
+McGehee, Raby, Carney, Lee, & Reyes, 2007
+; 
+Merrikhpour et al., 2014
+; 
+Roberts, Horrey, & Liang, 2016
+; 
+Simons-Morton et al., 2013
+; 
+Wu, Ageuro-Valverde, & Jovanis, 2014
+). Research
+on effectiveness of IVMS for improving driving behaviors of workers during work time
+is less extensive, and has focused on short-haul and long-haul truck drivers (
+Hickman & Geller, 2003
+; 
+Hickman & Hanowski, 2011
+; 
+Lisk, Cruice, & Pollard, 2013
+), technicians
+(unspecified industry) driving to make service calls (
+Toledo, Musicant, & Lotan, 2008
+), and emergency
+medical services (EMS) drivers (
+Levick &
+Swanson, 2005
+). All of the aforementioned studies done in occupational
+settings reported at least some success during the feedback period in reducing
+undesirable driving behaviors.
+A key component of IVMS technology is the way in which feedback on driving
+performance is delivered to the driver. In three of these studies (
+Hickman & Geller, 2003
+; 
+Levick & Swanson, 2005
+; 
+Toledo et al., 2008
+), feedback came in the form of in-cab
+sounds, lights and/or summary reports to the driver, was available on vehicle
+performance measures only as effected by the driver, such as speeding, hard braking,
+and excessive idling, and did not include supervisory monitoring and feedback on
+driving data. In the population of EMS drivers (
+Levick & Swanson, 2005
+) seatbelt use was monitored as an outcome
+through a seatbelt sensor, but the authors acknowledged that the drivers may have
+circumvented the sensor by fastening and placing the belt behind their backs; thus,
+the actual rate of seat belt use may have been much lower than reported.
+Only two of the aforementioned studies (
+Hickman & Hanowski, 2011
+; 
+Lisk
+et al., 2013
+) used an IVMS that had a driver-facing camera capable of
+audio and video event capture and employed supervisory coaching of the driver, using
+videos of the driver as a feedback mechanism. The 
+Lisk et al. (2013)
+ study was a pilot effort in 37 commercial vehicles
+doing short-haul operations. They found a beneficial effect through a 60%
+reduction in the number of incidents and an 86% reduction in the cost of
+vehicle crashes from the three years prior to three years post-implementation of
+IVMS and supervisory coaching of drivers. Limitations of this pilot study include
+not reporting information on potential variation in number of vehicles, miles, or
+time driven over the course of the study period, and the lack of a control group.
+Hickman and Hanowski (2011)
+ found that
+supervisors' coaching of long-haul truck drivers resulted in a reduction in
+risky driving behaviors (examples include driving unbelted, following too closely,
+and improper lane change) by 37 and 52% in two carriers, respectively. Their
+study involved in-cab feedback with lights to the driver, as well as supervisory
+coaching using video events. Because the data collection involved video footage of
+active driving, the study was able target a much broader range of unsafe driving
+events than previous studies, including behaviors such as belt use, hand-held phone
+use and other distractions, driving too close to other vehicles, and unsafe lane
+changes. Limitations of this study were that no control group was included, and the
+study was completed in a relatively short time span (four months total to encompass
+both baseline and follow-up periods).
+Although the 
+Hickman and Hanowski
+(2011)
+ study demonstrated the potential for IVMS feedback to reduce
+unsafe driving events in long-haul truck drivers, further research is needed to
+complement this work and validate these results, particularly in industry fleets
+with varying usage patterns. The objective of this research was to evaluate the
+effectiveness of two types of feedback from a commercially available IVMS in
+reducing two outcomes, overall risky driving behaviors, as well as driving unbelted,
+in drivers operating trucks for work in the truck transportation (box trucks) and
+oil and gas operations support (pickup trucks) industries. The first type of
+feedback consisted of warning lights from an in-cab device which notified drivers
+when they performed harsh driving maneuvers (i.e., hard braking, speeding, swerving
+that exceeds set accelerometer thresholds), and the second type of feedback was
+coaching by supervisors on safe driving practices that included viewing video
+recordings of drivers' own risky driving behaviors.
+2. Methods
+2.1. In-vehicle monitoring system technology
+This study used a commercially available IVMS from one vendor, and this
+IVMS vendor supplied all equipment, coding of videos for observed driving
+behaviors (
+Table 1
+), and training on the
+use of the technology. For privacy purposes, NIOSH researchers did not code
+videos. However, the entire database of videos used in the study was accessible
+both to the industry partners and to the IVMS vendor. The IVMS vendor is not
+named here so as not to imply endorsement of any one IVMS vendor, as multiple
+commercial vendors exist to provide similar types of technology and
+services.
+Table 1.
+List of risky driving behaviors coded from triggered video events.
+Fundamental Driving Errors
+ Unprofessional Driving 
+Unsafe backing
+Unsafe braking
+Unsafe lane change/merging/passing
+Unsafe railroad crossing
+Unsafe turning
+Lane departure/straddling lanes
+Competitive/aggressive driving
+Driving the wrong way – on roadway
+Driving the wrong way – off roadway
+Curb check/jumped curb
+ Vehicle control 
+Driving with two hands off wheel
+Unattended moving vehicles
+ Stopping 
+Incomplete stop at light
+Incomplete stop at stop sign
+Failure to attempt to stop at light
+Failure to attempt to stop at stop sign
+False start
+Failure to yield to pedestrian(s)
+Failure to yield to vehicle(s)
+ Speeding 
+Moderate speeding (<10 mph over limit)
+Excessive speeding (>10 mph over limit)
+Exceeded maximum fleet speed
+ Situational awareness 
+Unsafe following (<1 s)
+Unsafe following (1.25–2 s)
+Unsafe following (2.25–3 s)
+Unsafe following (3.25–4 s)
+Not checking mirrors
+Not scanning road ahead
+Not scanning intersection
+Distracted & inattentive driving
+ Distraction 
+Mobile Phone – texting/dialing
+Mobile phone – talking (handheld)
+Mobile phone – talking (hands free)
+Operating other mobile device
+Reading paperwork
+Grooming/personal hygiene
+Food
+Beverage
+Smoking
+Passenger(s)
+Other task
+Fatigue 
+Drowsy/falling asleep
+Yawning
+Other unsafe Driving
+ Seatbelts 
+Driver seatbelt unfastened (<20 mph)
+Driver seatbelt unfastened (>20 mph)
+Passenger seatbelt unfastened
+Non-driving observations
+ Unprofessional conduct 
+Rude gesture
+Raised voice
+ Event of interest 
+Captured passenger incident
+Captured roadway incident
+Equipment
+ Obstructed view 
+Obstructed view of driver
+Obstructed exterior view
+ Tampering 
+Tampering/abusing equipment
+ Recorder issues 
+Suboptimal camera position
+Non-performing camera
+Open in a new tab
+Each IVMS unit included two camera views: a forward-facing exterior
+camera view and driver-facing interior camera. The IVMS unit captured two types
+of video events: (a) regular-threshold triggered video events and (b)
+constant-threshold triggered video events, with the constant-threshold triggered
+video events being used for the analysis in this study. Regular-threshold
+triggered video events represent video events that are typically captured within
+the IVMS vendor's commercial services program, whereas
+constant-threshold triggered video events were captured for the specific
+purposes of this study as explained further below. For both types of events, the
+IVMS unit was configured to capture 30-s of video, audio and other event data
+(15 s before and 15 s after the trigger). The recorded video events were given a
+time and date stamp, and the unit of measurement was video events per vehicle
+per 24-h day.
+Both regular-threshold and constant-threshold triggered video events
+relied on the same set of triggering algorithms that primarily use a three-axial
+accelerometer. These triggering algorithms detect vehicle maneuvers such as hard
+braking, acceleration, cornering, swerving, and sudden forces.
+Different methods were used to manage the triggering sensitivity levels
+for the two sets of video events. Sensitivity levels for regular-threshold
+triggered events were set to initial levels based on the IVMS vendor's
+guidance and experience with driving events, as has been done in other published
+research (e.g., 
+Hickman & Hanowski,
+2011
+; 
+McGehee et al., 2007
+),
+with the goal of maximizing the capture of safety-related events, and minimizing
+the capture of videos that were recorded but don't show any risky
+driving behaviors by the driver. Then, triggering sensitivity levels were
+periodically changed, if needed, to ensure consistent inflow of video events as
+drivers learned to “drive softer” and avoid triggering cameras.
+The changes were consistently applied to all vehicles of a given type to ensure
+that drivers were always evaluated based on a consistent set of criteria. From
+the vendor's perspective, this method ensures a consistent sampling rate
+for driver behaviors in order to avoid overstating the improvement of driver
+behaviors. For example, if one simply counts the number of video events that
+involve mobile phone use of a given driver but leaves the triggering sensitivity
+levels constant for the period of the study, any measured reduction in the
+number of video events with risky distracted behavior would have two components:
+(a) the actual reduction in risky behavior (mobile phone usage), and (b) the
+reduction in the number of triggered video events as the driver learned to
+“drive softer” (but may have continued the risky driving
+behavior such as use of the mobile phone). Regular-threshold triggered events
+were not used as an outcome measure in the current study, they were just used as
+a constant pool of videos for driver coaching.
+In addition to the regular-threshold triggered video events, the IVMS
+vendor also captured constant-threshold triggered video events explicitly for
+the purposes of this study and based on a specific request from the study
+researchers. Triggering sensitivity levels for the constant-threshold triggered
+video events were set to values more sensitive (meaning it was easier to trigger
+and record videos) that what the IVMS vendor typically uses for commercial
+clients (regular-threshold), and were then left unchanged for the duration of
+the study (such as 0.236 g for hard braking for a medium duty truck). Unlike the
+regular-threshold triggered video events, the constant-threshold triggered video
+events were not immediately selected for offload (wirelessly transmitted from
+the IVMS unit to the central database). Rather, a process was put in place to
+randomly sample and select for offload one constant-threshold triggered video
+events per vehicle per day. If a regular-threshold triggered video was selected
+in the constant-threshold triggered sampling scheme (possible because the
+constant-threshold triggering sensitivity level was lower than the
+regular-threshold triggering sensitivity level), the vendor did not have to
+review the video again. The remainder of the constant-threshold triggered video
+events (after the one was sampled and downloaded) was not retained for use in
+the study. Constant-threshold triggered video events (the one randomly selected
+video event per vehicle per day) were the main unit of analysis used to evaluate
+the interventions. The constant-threshold triggered video events allowed
+researchers to evaluate the effectiveness of feedback from the technology and
+avoid any potential bias, if it existed, due to the method that IVMS vendor
+typically used to capture the regular-threshold triggered video events for
+commercial clients. Additionally, the procedure of havinga triggering threshold
+held constant for the entire duration of a study (as it was for the
+constant-threshold video events), as opposed to the slightly variable triggering
+threshold (as it was done for the capture of regular-threshold video events), is
+more comparable to methods of other previously published work evaluating IVMS
+technology (e.g., 
+Hickman & Hanowski,
+2011
+; 
+Lisk et al., 2013
+; 
+McGehee et al., 2007
+).
+The IVMS unit included a small box-like device to provide immediate
+feedback to the driver with a series of lights that indicated when a risky
+driving maneuver had been executed; the device was located inside the vehicle
+cab near the windshield-mounted rearview mirror. The light remained green when
+‘safe’ driving was occurring but flashed red or yellow to denote
+potentially risky driving maneuvers, with the red light indicating more severe
+risky driving behaviors. The thresholds between colors were determined by
+algorithms set by the IVMS vendor. Triggered video events (both
+regular-threshold and constant-threshold triggered videos) were reviewed by the
+vendor's trained observers for approximately 60 individual risky driving
+behaviors such as driving unbelted, smoking, hand-held device use while driving,
+unsafe stopping, and speeding (see 
+Table
+1
+ for a list of all possible coded risky driving behaviors used in
+the study). An overall severity category from 0 to 4 was then calculated for
+each video based on the sum of scores assigned to the individual risky driving
+behaviors. A severity score of 0 indicated the video was reviewed and no risky
+driving behaviors seen, with 1 through 4 denoting an increasing level of safety
+concern. The methods of coding individual behaviors seen within a video, and
+overall severity score assigned to the video, were held constant over the course
+of the study, such that a video showing a driver unbelted for example would be
+given the same severity score in all periods of the study. Collisions were not
+given a severity score by the vendor due to liability concerns, and are not
+included in this analysis.
+2.2. Outcome measures
+The main outcome measure determined a priori in the study protocol was
+any constant-threshold triggered video that was vendor-scored as a severity
+level of 3 or 4. These may be a single severe event seen by trained coders in
+the video, such as aggressive driving, texting on hand-held phone, hands off the
+wheel, or driving the wrong way, or multiple lesser risky behaviors (such as
+driving unbelted and moderate speeding) seen together such that the total score
+of the multiple lesser behaviors elevated it to severity 3 or 4 (hereafter
+“overall risky driving”). The scoring methods for the behaviors
+seen in each video were held constant over the course of the study. As learned
+from earlier published research using IVMS data, many individual risky driving
+behaviors may be too rare on their own to be used as an outcome measure, such as
+single instances of running a red light, running a stop sign, driving on wrong
+side of road, etc. as reported in the findings of 
+McGehee et al. (2007)
+. Therefore the total count of
+overall risky driving video events was the key outcome of interest in this
+study, as was similarly done for the earlier research of 
+Hickman and Hanowski (2011)
+. Driving unbelted as an
+individual behavior was not considered by the IVMS vendor to be a severity 3 or
+4 event, but was included as an outcome of interest in this study due to its
+public health significance (e.g. 
+Cameron,
+Crandall, Olson, & Sklar, 2001
+; 
+Chen et al., 2015
+; 
+Evans, 1986
+; 
+Huang & Lai,
+2011
+; 
+National Highway Traffic Safety
+Administration, 1999
+), as well as its use as an outcome in earlier
+IVMS research (
+Levick & Swanson,
+2005
+).
+2.3. Feedback mechanisms
+The IVMS vendor provided training to supervisors on all feedback
+mechanisms in a train-the-trainer format to industry partners prior to the
+installation of IVMS equipment. The goal of the training was to provide
+supervisors of drivers with a complete overview of the IVMS system and to equip
+supervisors with the necessary information to present and describe the IVMS
+program to their drivers, as well as to access and view videos, and coach their
+own drivers. The training also helped the supervisors address any
+drivers' questions and concerns in order to familiarize drivers with the
+program prior to implementation. The orientation also helped familiarize
+supervisors with IVMS equipment.
+This study evaluated two types of feedback from the IVMS to the driver:
+Instant driver feedback (referred to as IDF-only) from the
+feedback light on the IVMS unit inside the vehicle cab. A green
+light indicated safe driving, and a flashing yellow or red light
+informed the driver about risky driving behaviors. There were no
+sounds associated with the lights. Drivers were trained by
+supervisors on how to interpret the IDF feedback. Supervisors did
+not receive any summary information about the IDF feedback that went
+to the drivers.
+IDF feedback to the driver coupled with one-on-one coaching
+between supervisor and driver (referred to as Coaching +
+IDF). Although the IVMS vendor provided training to supervisors on
+how to perform the coaching process, the supervisors were the
+entities that reviewed videos with drivers and performed coaching
+sessions privately with drivers. The IVMS vendor's services
+include an online “video response center” where the
+supervisors could log in and view the individual videos, the listing
+of risky behaviors detected (if any) by the IVMS vendor in the
+videos, as well see the overall severity score assigned to each of
+the videos by the IVMS vendor. This was part of the pre-study
+training process for the industry partner. So as not to
+unintentionally bias the study results, once the study began, the
+supervisors agreed to not access the online video response center
+and view videos from the non-coaching periods. However the
+supervisors did have the ability to access videos from any time
+period on request from the IVMS vendor if they deemed it necessary
+to see an event. To follow the experimental guidelines of the study,
+during the coaching feedback period, the industry partner
+supervisors would log into the vendor's online video
+response center, view videos, and actively coach drivers. Due to the
+large number of videos recorded, the videos with a severity 3 or 4
+were flagged in the online dashboard to make them easy to pick out
+for review, however all videos were present in the online dashboard
+available for viewing by the industry partner if desired. The
+supervisors were to select severity 3 and 4 video events to review
+with drivers, and were given the goal of conducting in-person
+coaching sessions with any drivers that had Severity 3 and 4 video
+events occurring that same week, for every week of the Coaching
++ IDF intervention period. Training was given on where and
+how to conduct coaching sessions, such as in a private setting where
+the conversation would not be overheard by co-workers. Goals of the
+sessions included clearly defining the high risk behaviors observed,
+reinforcing company policies and safe driving habits, rewarding safe
+driving behaviors, and the suggestion to present the information in
+a positive manner, akin to a coach “going over game films to
+improve performance” with an athlete. When supervisors
+completed a coaching session with a driver, they were to log a
+record of the coaching session in the online video response center,
+and had the option of writing a text narrative about what was
+covered in the coaching session. An additional feature of the
+Coaching + IDF period was bi-weekly conference calls held by
+the IVMS vendor where supervisors were invited to call in and
+discuss progress or concerns.
+In addition to these two main types of feedback that went only to the
+intervention groups, graphic feedback was given to all sites participating in
+the study, both intervention and control. The graphic feedback was posted weekly
+at each site and showed aggregated data on safe driving for all drivers at each
+site (no individual drivers identified or specific behaviors mentioned). This
+third form of feedback was used so that all drivers would be receiving at least
+some meaningful information about their driving performance from the IVMS that
+were installed on the vehicles. The group feedback came in the form of a
+vendor-generated graph showing miles driven without a severity 3 or 4 event for
+all drivers at the site, and if drivers were improving as a whole, the trend
+line should go up as miles of safe driving increased. These weekly graphs were
+distributed to supervisors by the IVMS vendor, and were presented to drivers via
+display in common areas and at staff meetings to establish the general goal of
+improving driving behavior with positive supervisor support.
+2.4. Study population
+This research study protocol was reviewed and approved by the National
+Institute for Occupational Safety and Health (NIOSH)'s Institutional
+Review Board. NIOSH had no direct contact with drivers and did not obtain any
+personally identifying information for this analysis. The study population came
+from two companies from two industries, the “Support activities for oil
+and gas operations” and “General freight trucking,
+local” industrial classifications of the North American Industry
+Classification System (NAICS) codes (NAICS codes 213,112 and 48,411,
+respectively) (
+Office of Management and Budget,
+2007
+). These two companies implemented IVMS technology in a subset of
+their fleets as a pilot effort. The employees were technicians driving pick-up
+trucks to oil and gas operations where they would perform maintenance and
+support activities, and drivers of refrigerated box trucks in the
+26,000–33,000 lb range doing short-haul deliveries of goods to
+convenience stores. The industry partners selected a total of 20 sites (7 from
+truck transportation and 13 from oil and gas) located in 12 states (CA, CO, LA,
+MA, MD, NJ, OK, PA, TX, UT, VA, WA) within the United States. All vehicles at
+each of 20 sites had IVMS installed so that all drivers at each site would have
+the same equipment and working conditions. The 20 sites were apportioned into
+intervention and control groups (described in more detail in Section 2.5 Study
+Design). The study population was a dynamic cohort where the amount of
+person-time contributing to the study could vary for each individual depending
+on how long they were employed at the site. Data from any employee at the sites
+operating a vehicle equipped with IVMS during the course of the study were
+included (i.e., if an employee terminated employment during the course of the
+study, a newly hired employee could use the same vehicle equipped with IVMS).
+All participants in the study were anonymous, and any data analyzed at the
+driver level (i.e., coaching data) identified drivers by only a unique anonymous
+number created by the IVMS vendor. No demographic data (such as gender, age, or
+race) were available for the study population, however it is likely that most of
+the drivers in this study were male as gender distribution data from the truck
+transportation and oil and gas industries show that the majority of workers in
+these two industries are male (
+Bureau of Labor
+Statistics, 2015
+; 
+Chen, Fang, Guo,
+& Hanowski, 2016
+; 
+Sieber et
+al., 2014
+).
+In the oil and gas industry partner, drivers could use the vehicles for
+both work and personal purposes, and it was not possible to differentiate
+between events logged during work or personal use time in this study because
+data were not available for workers' daily on and off work hours.
+Workers' family members were not permitted to drive the vehicles unless
+it was an emergency situation. Generally one driver was assigned to one vehicle
+during the course of the study. In the truck transportation industry partner,
+multiple drivers at the site could drive a vehicle within the same 24-h period,
+due to shift changes. For both industry partners, in general, both vehicles and
+drivers remained at the same site throughout the course of the study.
+2.5. Study design
+The study was conducted from April 2012 through July 2014 and entailed a
+3-group, 4–period cross-over design for each company (
+Fig. 1
+). Groups 1 and 2 were intervention groups, and
+Group 3 was a control group. Video events were triggered and reviewed in all 3
+groups during all 4 periods of the study. In period 1, no groups received any
+IDF-only or Coaching + IDF feedback, and period 1 was considered the
+baseline period. In period 2, Group 1 received IDF-only feedback, Group 2
+received Coaching + IDF feedback, and Group 3 received no feedback. In
+period 3, Group 1 received Coaching + IDF feedback, Group 2 received
+IDF-only feedback, and Group 3, the control group, received no feedback. In
+period 4, all 3 groups entered an end-baseline period identical to the initial
+baseline period. The graphic feedback chart data was given to Groups 1, 2 and 3
+during all 4 periods of the study, including the beginning and end baseline
+periods. Supervisors had online access to the triggered video events only for
+Group 1 and 2, and only during the Coaching + IDF intervention
+periods.
+Fig. 1.
+Open in a new tab
+Timeline and study design, showing three groups (Intervention Group 1,
+Intervention Group 2, Control Group 3) and 4 study periods replicated in 2
+industries.
+In the truck transportation company, non-random methods were used to
+assign the 7 sites to the 3 groups (3 sites in Group 1, 2 sites in Group 2, 2
+sites in Group 3). In the oil and gas support operations company, the 13 sites
+were randomized to the 3 groups (5 sites to Group 1, 5 sites to Group 2, 3 sites
+to Group 3). Because of the mix of methods used to assign sites to groups in the
+two companies, the overall study design was considered to be quasi-experimental
+(
+Harris et al., 2004
+; 
+Rothman & Greenland, 1998
+). All trucks at
+each of the 20 study sites were equipped with IVMS; a total of 315 IVMS were
+installed at the start of the study. There were a total of 163 IVMS-equipped
+trucks in the oil and gas operations company (64 in Group 1, 35 in Group 2, and
+64 in Group 3) and 152 IVMS-equipped trucks in the truck transportation company
+(53 in Group 1, 50 in Group 2, and 49 in Group 3). Collection and review of
+regular-threshold video events began immediately after vehicles were equipped
+with IVMS, but drivers drove the vehicles performing regular work duties for at
+least 10 weeks before collection and review of constant video events began.
+2.6. Statistical analysis
+Logistic regression was the statistical method used in this study for
+analyzing dichotomous response data. Each individual constant-threshold video
+was a unit of analysis. A response of one indicated that the behavior of
+interest occurred within the constant-threshold video event, and a response of
+zero indicated that the behavior of interest did not occur within the
+constant-threshold video event, with factors suspected to affect the response
+incorporated into the model for analysis of relationships (
+Hosmer & Lemeshow, 2000
+; 
+Walker, 1997
+). In this study, logistic regression was
+used to model the probability of risky driving behavior (a dichotomous outcome:
+risky driving behavior present, or risky driving behavior absent) in constant
+video events and to test for significant differences in the probability of risky
+driving behavior between all groups of interest; a generalized estimating
+equation (GEE) approach was used to account for repeated measurements on the
+same vehicles over time (
+Stokes, Davis,
+& Koch, 1995
+). The analysis was performed using the GENMOD
+procedure in SAS v. 9.3 (
+SAS Institute Inc.,
+2011
+). The prediction variables were group (3 levels), period (4
+levels), and the interaction between group and period (12 levels), and contrasts
+were constructed using parameter estimates from the model to test specific
+hypotheses of interest. Data from intervention Groups 1 and 2 were combined to
+test some of the hypotheses of interest, and are hereafter referred to as the
+“intervention” group, while Group 3 remains the
+“control” group. The following were the five questions of
+interest to be addressed (repeated for both outcome measures, overall risky
+driving behaviors, and driving unbelted, so 10 overall) in the contrast estimate
+analysis: 
+Was there a significant difference in the decline of the
+probability of risky driving behavior from baseline between the
+intervention group's (Group 1 and Group 2 combined) Coaching
++ IDF period and the control group (Group 3)?
+Was there a significant difference in the decline of the
+probability of risky driving behavior from baseline between IDF-only
+in its “pure” form (from Group 1 where IDF-only
+feedback came first and as not influenced by preceding Coaching
++ IDF feedback) and the control group (Group 3)?
+Was there a significant difference in the decline of the
+probability of risky driving behavior from baseline between
+intervention group's IDF-only feedback period (Group 1 only)
+and intervention group's (Group 1 and Group 2 combined)
+Coaching + IDF period? That is, do the two treatment
+IDF-only and Coaching + IDF give rise to the same decline in
+probability of risky driving behaviors?
+Was there a significant difference in the decline of the
+probability of risky driving behavior from baseline between the
+intervention group (Group 1 and Group 2) during the treatment
+periods, where Group 1 had IDF-only followed by Coaching +
+IDF feedback, and Group 2 had Coaching + IDF followed by
+IDF-only feedback? That is, did the treatment order have a
+significant effect on the decline in probability of risky driving
+behavior?
+Was there a significant difference in the decline of the
+probability of risky driving behavior from baseline to the end
+baseline period between the intervention group (Group 1 and Group 2
+combined) and control group (Group 3)?
+Data from both companies were used in aggregate in the analysis because
+comparing the companies to one another was not an objective of the study, and
+adding a company variable to the model resulted in only a small decrease in
+quasi-likelihood under the independence model criterion (
+Pan, 2001
+). Due to the multiple hypotheses to be
+tested (n = 10), contrasts were determined to be significant when p
+< 0.05, after performing Holm's Bonferroni correction (
+Aicken & Gensler, 1996
+).
+3. Results
+3.1. Constant-threshold triggered video events
+During the study period, there were a total of 73,099 constant-threshold
+triggered video events randomly sampled and downloaded for review and inclusion
+in the study from all 625 drivers in the study (as identified by unique
+anonymous driver identification numbers). Of those constant-threshold triggered
+video events (hereafter just “video events”), 1670 (2%
+of the total) had missing values and could not be used, and an additional 11,711
+video events (16% of the total) had an obstructed camera view, either
+partially or fully obstructing the view of the driver and/or the external camera
+view. Because the obstructed-view video events could not be coded properly, they
+were omitted from the analysis, leaving 59,718 (82% of the total) fully
+visible video events which were used in this analysis. Of the fully visible
+video events, 55% did not show any risky driving behaviors and the
+remaining 45% showed some level of driving behavior of safety concern
+(anything with severity 1 and above).
+3.2. Frequency of risky driving behaviors
+For the entire study period, frequency counts were done for risky
+driving behaviors coded Severity 1–4 in triggered video events (
+Table 2
+). More than one driving behavior
+could be coded from each video event (e.g., a driver could be driving unbelted,
+and eating while driving). Of the 34,899 coded behaviors, driving unbelted was
+the most commonly seen risky driving behavior, coded 14,185 times, or
+40.6% of total video events. This was followed by distractions at
+31.9% of total video events, and then by unsafe stopping, speeding, and
+hand-held mobile device use. Within the subset of all triggered video events
+that were coded as more severe (severity 3 or 4) by the IVMS vendor (
+Table 3
+), the top five most common
+behaviors were the same as in the overall video events; however, the rank order
+differed within the top five.
+Table 2.
+Frequency count of risky driving behaviors coded from constant-threshold
+triggered video events for Intervention Groups 1 and 2 and Control Group 3
+combined for the entire study period (multiple behaviors could be coded from a
+single video event).
+Category
+Total event count
+Percent
+Driving unbelted
+14,185
+40.6
+Driver
+seatbelt unfastened (≤20 mph), driver seatbelt unfastened
+(>20 mph), passenger seatbelt unfastened
+Distractions (smoking, eating, etc.)
+11,116
+31.9
+Smoking,
+beverage, food, reading paperwork, other task, passenger(s),
+grooming/personal hygiene, mobile phone – talking (hands
+free)
+Unsafe stopping
+2814
+8.1
+Failure to
+attempt to stop at stop sign, incomplete stop at stop sign, failure
+to attempt to stop at light, incomplete stop at light, false
+start
+Speeding
+2494
+7.1
+Exceeding
+maximum fleet speed, moderate speeding (≤10 mph over limit),
+excessive speeding (>10 mph over limit)
+Mobile use handheld
+2136
+6.1
+Mobile phone
+– talking (handheld), operating other mobile device, mobile
+phone – texting/dialing
+Fatigue
+1625
+4.7
+Yawning,
+drowsy/falling asleep
+Unprofessional driving
+226
+0.6
+Rude gesture,
+unsafe backing, unsafe turning, unsafe braking, driving the wrong
+way – off roadway, unsafe lane change/merging/passing, curb
+check/jumped curb, raised voice, unsafe railroad crossing, lane
+departure/straddling lanes, competitive/aggressive
+driving
+Situational awareness
+53
+0.2
+Not scanning
+road ahead, not checking mirrors, unsafe following (≤1 s),
+unsafe following (1.25–2 s), unsafe following
+(2.25–3 s)
+Other events
+250
+0.7
+Driving with
+two hands off wheel, captured roadway incident
+Total
+34,899
+100
+Open in a new tab
+Table 3.
+Frequency count of risky driving behaviors coded from constant-threshold
+triggered video events for Intervention Groups 1 and 2 and Control Group 3
+combined for the entire study period, where severity score was 3 or 4 only
+(multiple behaviors could be coded from a single video event).
+Category
+Total event count
+Percent
+Unsafe stopping
+2814
+36.0
+Failure to
+attempt to stop at stop sign, incomplete stop at stop sign, failure
+to attempt to stop at light, incomplete stop at light, false
+start
+Driving unbelted
+1542
+19.7
+Driver
+seatbelt unfastened (≤20 mph), driver seatbelt unfastened
+(>20 mph), passenger seatbelt unfastened
+Distractions (smoking, eating, etc.)
+1093
+14.0
+Smoking,
+beverage, food, reading paperwork, other task, passenger(s),
+grooming/personal hygiene, mobile phone – talking (hands
+free)
+Mobile use handheld
+1053
+13.5
+Mobile phone
+– talking (handheld), operating other mobile device, mobile
+phone - texting/dialing
+Speeding
+681
+8.7
+Exceeding
+maximum fleet speed, moderate speeding (≤10 mph over limit),
+excessive speeding (>10 mph over limit)
+Unprofessional driving
+177
+2.3
+Rude gesture,
+unsafe backing, unsafe turning, unsafe braking, driving the wrong
+way - off roadway, unsafe lane change/merging/passing, curb
+check/jumped curb, raised voice, unsafe railroad crossing, lane
+departure/straddling lanes, competitive/aggressive
+driving
+Fatigue
+164
+2.1
+Yawning,
+drowsy/falling asleep
+Situational awareness
+47
+0.6
+Not scanning
+road ahead, not checking mirrors, unsafe following (≤1 s),
+unsafe following (1.25–2 s), unsafe following
+(2.25–3 s)
+Other events
+249
+3.2
+Driving with
+two hands off wheel, captured roadway incident
+Total
+7820
+100
+Open in a new tab
+3.3. Coaching
+During the Coaching + IDF feedback period, supervisors had the
+goal of meeting with every driver that had severity 3 or 4 driving video events
+during that week for a coaching session. From these data, an ever-coached metric
+was calculated, meaning any driver that had at least one severity 3 or 4
+regular-threshold video event at any time during the coaching intervention
+period was coached at least once during that period. Of the 324 drivers who
+drove during Coaching + IDF feedback period, 292 drivers triggered at
+least one severity 3 or 4 regular-threshold video event during that time. Of
+those, 258 (88%) had a coaching session logged by their supervisor in
+the vendor's online video response center. Of the 13 intervention sites
+that received Coaching + IDF intervention, 6 sites showed 100%
+of their drivers being coached during coaching sessions, 5 sites showed
+90–99% of drivers coached, 3 sites showed 80–88%
+of drivers coached, and 1 site showed only 52% of drivers coached.
+3.4. Overall risky driving behavior
+The five questions of interest outlined in the statistical analysis
+section (Section 2.5) were examined using overall risky driving (severity 3 or 4
+video events) as an outcome measure. Data were combined as shown in 
+Table 4
+ and 
+Fig. 2
+ to test these questions of interest.
+Table 4.
+Count and proportion of constant-threshold triggered video events showing risky
+driving behavior (severity 3 or 4 score), and driving unbelted, by combined
+Intervention group (Intervention Groups 1 and 2 combined by intervention period)
+and period, groupings for statistical contrast estimates.
+Treatment Group
+Count of video events with risky driving
+behaviors (severity 3 or 4) present / absent
+Count of video events with driving
+unbelted
+a
+ present /
+absent
+Total count of video events
+b
+Proportion of video events with risky driving
+behaviors (severity 3 or 4)
+c
+Proportion of video events with driving
+unbelted
+c
+Intervention Groups 1 &
+2
+Present/Absent
+Present/Absent
+ 1 Baseline (Groups 1 &
+2)
+628 / 5353
+1276 / 4705
+5981
+0.105
+0.213
+ 2 IDF-Only before coaching (Group
+1)
+677 / 8301
+1744 / 7234
+8978
+0.075
+0.194
+ 3 IDF-only after coaching (Group
+2)
+501 / 6938
+1858 / 5581
+7439
+0.067
+0.250
+ 4 Coaching + IDF (Group
+1&2)
+1024 / 16,035
+2420 / 14,639
+17,059
+0.060
+0.142
+ 5 End Base (Group
+1&2)
+305 / 6111
+957 / 5459
+6416
+0.048
+0.149
+Control Group 3
+ 1 Baseline
+292 / 2029
+725 / 1596
+2321
+0.126
+0.312
+ 2 Period 2&3
+1006 / 9231
+4106 / 6131
+10,237
+0.098
+0.401
+ 3 End Base
+137 / 1150
+326 / 961
+1287
+0.106
+0.253
+Open in a new tab
+a
+Driving unbelted was not considered by the vendor to be a severity 3 or 4
+event.
+b
+This column represents the total count of constant-threshold triggered video
+events triggered and reviewed for the study (one per vehicle per day). Some
+video events show risky driving behaviors while other video events show no
+risky behaviors. Regardless of content all videos are counted in this
+total.
+c
+Proportion of events is calculated by dividing count of video events with
+risky driving behavior present by total count of video events.
+Fig. 2.
+Open in a new tab
+Proportion of constant-threshold triggered video events showing risky driving
+behaviors (severity 3 or 4) for the Intervention Group (Intervention Group 1 and
+Intervention Group 2, combined) and Control Group 3, and period, groupings for
+statistical contrast estimates. The IDF-only period includes data from
+Intervention Group 1 only, where IDF-only feedback
+The first question of interest was to determine if there was a
+significant difference in the decline of the probability of risky driving
+behavior from baseline between the intervention group's (Group 1 and
+Group 2 combined) Coaching + IDF period and the control group (Group 3).
+While the control group's odds of risky driving behaviors declined from
+baseline to the treatment periods, the intervention group had a significantly
+greater reduction in odds of risky driving behaviors during Coaching +
+IDF feedback periods in comparison to the control group (ORadj = 0.52
+95% CI 0.33–0.82; Holm-adjusted p = 0.032).
+The second question of interest was whether there was a significant
+difference in the decline of the probability of risky driving behavior from
+baseline between IDF-only in its “pure” form (from Group 1 where
+IDF-only feedback came first and was not influenced by preceding Coaching
++ IDF feedback) and the control group (Group 3). The findings showed
+that IDF-only in its “pure” form did not show a significantly
+greater reduction in odds of risky driving from baseline than the control group
+(ORadj = 0.86, 95% CI 0.51–1.43; Holm-adjusted p
+> 0.05).
+The third question was whether there a significant difference in the
+decline of the probability of risky driving behavior from baseline between
+intervention group's IDF-only feedback period (Group 1 only) and
+intervention group's (Group 1 and Group 2 combined) Coaching +
+IDF period. In comparison to IDF-only feedback, Coaching + IDF showed a
+significantly larger reduction in odds of risky driving from baseline (ORadj
+=0.61 95% CI 0.43–0.86; Holm-adjusted p =
+0.035).
+The fourth question was whether there was a significant difference in
+the decline of the probability of risky driving behavior from baseline between
+intervention Group 1 and Group 2 during the treatment periods, where Group 1 had
+IDF-only followed by Coaching + IDF feedback, and Group 2 had Coaching
++ IDF followed by IDF-only feedback. To examine the temporal effect of
+order of presentation of IDF-only feedback, Group 2's average (Coaching
++ IDF and IDF-only) departure from baseline for periods 2 and 3 was
+compared to Group 1's average (IDF-only and Coaching + IDF)
+departure from baseline for periods 2 and 3. It was found that the two were not
+significantly different from one another (ORadj =1.10, 95% CI
+0.66–1.86; Holm-adjusted p > 0.05).
+The fifth question was to see if there was a significant difference in
+the decline of the probability of risky driving behavior from baseline to the
+end baseline period between the intervention group (Group 1 and Group 2
+combined) and control group (Group 3). To examine the sustained effect of prior
+exposure to Coaching + IDF feedback, the combined intervention
+group's end baseline decline compared to their beginning baseline was
+compared to the control group's end decline compared to its beginning
+baseline. A significant difference between the intervention and control groups
+was found (ORadj =0.27, 95% CI 0.12–0.60; Holm-adjusted
+p = 0.012).
+3.5. Driving unbelted
+The IVMS vendor did not consider driving unbelted to be a severity 3 or
+4 event, so while driving unbelted was a component of approximately 20%
+of the severity 3 or 4 video events (
+Table
+3
+), it was the most commonly seen risky driving behavior of any
+severity level at 41% (
+Table 2
+).
+The five questions of interest outlined in the statistical analysis section
+(Section 2.5) were also examined using driving unbelted as an outcome. Data were
+combined as shown in 
+Table 4
+ and 
+Fig. 3
+ to test specific questions of
+interest.
+Fig. 3.
+Open in a new tab
+Proportion of constant-threshold triggered video events showing driving unbelted
+for the Intervention Group (Intervention Group 1 and Intervention Group 2,
+combined) and Control Group 3, and period, groupings for statistical contrast
+estimates. The IDF-only period includes data from Intervention Group 1 only,
+where IDF-only feedback was presented as the first type of feedback.
+The first question of interest was to determine if there was a
+significant difference in the decline of the probability of risky driving
+behavior from baseline between the intervention group's (Group 1 and
+Group 2 combined) Coaching + IDF period and the control group (Group 3).
+The intervention group had a significant reduction in odds of driving unbelted
+during Coaching + IDF feedback periods in comparison to the control
+group, which showed an increase (ORadj = 0.18 95% CI
+0.08–0.41; Holm-adjusted p < 0.001).
+The second question of interest was whether there was a significant
+difference in the decline of the probability of driving unbelted from baseline
+between IDF-only in its “pure” form (from Group 1 where IDF-only
+feedback came first and was not influenced by preceding Coaching + IDF
+feedback) and the control group (Group 3). IDF-only in its
+“pure” form did not show a reduction in odds of driving unbelted
+from baseline in comparison to the control group (ORadj = 0.66
+95% CI 0.30–1.45; Holm-adjusted p > 0.05).
+The third question was whether there a significant difference in the
+decline of the probability of driving unbelted from baseline between
+intervention group's IDF-only feedback period (Group 1 only) and
+intervention group's (Group 1 and Group 2) Coaching + IDF
+period. In comparison to “pure” IDF-only feedback, Coaching
++ IDF showed a significantly larger reduction in odds of driving
+unbelted from baseline than the IDF-only group (ORadj = 0.27 95%
+CI 0.15–0.48; Holm-adjusted p = 0.035).
+The fourth question was whether there was a significant difference in
+the decline of the probability of driving unbelted from baseline between
+intervention Group 1 and Group 2 during the treatment periods, where Group 1 had
+IDF-only followed by Coaching + IDF feedback, and Group 2 had Coaching
++ IDF followed by IDF-only feedback. To examine the temporal effect of
+order of presentation of IDF-only feedback, Group 2's average (Coaching
++ IDF and IDF-only) departure from baseline for periods 2 and 3 was
+compared to the Group 1's average departure from baseline for periods 2
+and 3 (IDF-only and Coaching+IDF). It was found that the two were not
+significantly different from one another (ORadj = 1.24, 95% CI
+0.53–2.89; Holm-adjusted p N 0.05).
+The fifth question was to see if there was a significant difference in
+the decline of the probability of driving unbelted from baseline to the end
+baseline period between the intervention group and control group. To examine the
+sustained effect of prior exposure to Coaching + IDF feedback, the
+intervention group's end baseline decline compared to its beginning
+baseline was compared to the control group's end decline compared to its
+beginning baseline. No significant difference in the odds of driving unbelted
+was found between the intervention and control group in this comparison (ORadj
+= 0.57, 95% CI 0.16–2.00; Holm-adjusted p >
+0.05).
+4. Discussion
+On-the-job feedback, reinforcement of new training, and knowledge of
+consequences for non-conformance are considered to be critical parts in the jump
+from knowledge to behavior change (
+Quintana,
+1999
+). For workers who perform many of their tasks (including
+work-related driving) in isolation, on-the-job feedback may be particularly
+difficult for supervisors to provide (
+Hickman
+& Geller, 2003
+; 
+Olson &
+Austin, 2001
+; 
+Smith & Jones,
+2016
+). Because of this, IVMS are increasingly being used by fleet owners
+to gather data on employees' driving patterns and behaviors. The main
+rationale for IVMS is to provide objective information that will allow supervisors
+to coach drivers to adopt safer driving practices. The results from this
+occupational driving study demonstrate evidence for the effectiveness of feedback
+(both IDF feedback and supervisory coaching) from IVMS to reduce risky driving
+behaviors in a population of truck drivers representing two industries. Despite the
+fact that the control group showed a decline in overall risky driving behaviors
+during the treatment periods of the study, the odds of risky driving behaviors
+declined to a significantly greater extent in the intervention group during the
+Coaching + IDF period. The odds of driving unbelted also declined to a
+significantly greater extent in the Coaching + IDF period in comparison to
+the control group. The IDF-only feedback period, representing IDF in its
+“pure” form where it was the first type of feedback given to
+drivers, did not show a significant reduction in odds from baseline in the
+intervention group as compared to the control group for overall risky driving or
+driving unbelted. It is possible that if only vehicle maneuver-related behaviors
+were examined as an outcome, IDF-only feedback may show more effectiveness, and this
+is a research question that could be examined in future research.
+A secondary objective was to examine temporal effects of order of
+presentation of IDF-only feedback. It was hypothesized that IDF-only feedback may be
+more effective after drivers had already received one-on-one coaching with
+supervisors, during which they saw videos of themselves while driving, as opposed to
+when IDF-only feedback was presented first, before drivers had ever seen videos of
+their driving. Evidence for temporal effects was mixed. A visual inspection of the
+proportion of overall risky driving behaviors by group and period implied a greater
+decline in IDF-only rates when presented after coaching rather than before, however,
+there was no statistically significant difference in the magnitude of change between
+the two groups and their baseline.
+Driving unbelted, distractions (such as smoking, eating, drinking a
+beverage, and handheld mobile device use), unsafe stopping, and speeding were the
+most common risky driving behaviors seen in this study. Two of these driving
+behaviors that are of particular interest in the published safety literature are
+driving without a seatbelt and hand-held device use while driving. The companies
+participating in the study had policies prohibiting both these behaviors at the
+start of the study. These policies are supported by the body of literature showing a
+link between hand-held device-use, decline in driving performance, and an increased
+risk of collisions (
+Fitch et al., 2013
+; 
+Leung, Croft, Jackson, Howard, & Mckenzie,
+2012
+; 
+McKeever, Schultheis, Padmanaban,
+& Blasco, 2013
+; 
+Wilson &
+Stimpson, 2010
+). In addition, the effectiveness of seat belts in
+increasing crash survivability and reducing injury severity is well-documented, as
+is the public health importance of seat belt use (e.g. 
+Cameron et al., 2001
+; 
+Chen et al., 2015
+; 
+Evans, 1986
+;
+Huang & Lai, 2011
+; 
+NHTSA, 1999
+). In the current study, hand-held
+device use was categorized in the severity 3 and 4 group by the vendor and included
+with the overall risky driving behavior measure. Because driving unbelted in the
+absence of other risky driving behaviors was not considered to be a severe driving
+behavior (less than severity 3), it was examined in this study as a separate
+outcome. Prior research has shown that primary seat belt laws (where violators can
+be stopped and cited independently of any other traffic behavior) can impact
+belt-wearing of drivers in both occupational and general driving in states that have
+such laws (
+Beck & West, 2010
+; 
+Boal, Li, & Rodriguez-Acosta, 2016
+;
+Lee et al., 2015
+; 
+Shults, Haegerich, Bhat, & Zhang, 2016
+). In this
+study, both the intervention group and the control group involved sites in states
+both with and without a primary belt law, as defined by 
+CDC (2015)
+. The intervention group comprised sites from 5
+states with and 4 states without primary belt laws, and the control group comprised
+sites from 3 states with and 2 states without primary belt laws. None of the states
+in this study experienced a change in their primary belt law status during the
+course of this study (
+CDC, 2015
+), and each
+group (intervention and control) was compared to its own baseline in the analysis,
+so the primary belt law status of study sites' states should not impact the
+evaluation of the effectiveness of feedback. Furthermore, both industry partners had
+as part of their policies that belt use was required by drivers in their companies
+regardless of site location.
+The 
+Hickman and Hanowski (2011)
+ study
+of truck drivers reported decreases in safety-critical events (using methods that
+collected all events over a set triggering threshold) during a 13-week feedback
+period but reported no information as to whether safety-critical events were
+maintained at rates comparable to those during the intervention period or if risky
+driving increased with the removal of the intervention (post 13 week period). In the
+current study, after feedback was withdrawn from the intervention group, the
+reduction in odds of overall risky driving was maintained, and remained
+significantly different from the control group. However, this greater decline in the
+intervention group compared to the control group was not maintained for driving
+unbelted. Because there was a reduction in risky driving after feedback was
+withdrawn, this prompts questions about the variables that influence the maintenance
+of safe driving behavior (i.e., how long can reductions in risky driving behaviors
+be sustained after feedback is reduced or withdrawn). Previous studies have found
+that feedback combined with rewards or incentives provide greater behavior change
+than feedback without rewards or incentives (
+Alvero,
+Bucklin, & Austin, 2001
+; 
+Cooper,
+2009
+; 
+Kang, Oah, & Dickinson,
+2003
+). However, it was not known to researchers what consequences
+(positive or negative) there may have been for safe or unsafe driving practices in
+this study. Because the greater decline in the intervention group compared to the
+control group was not maintained for the outcome of driving unbelted, further
+research into this facet is warranted.
+Prior research has found that supervisors play an important role in
+providing performance feedback to drivers and improving safety outcomes in the
+work-related driving context (
+Newnam, Lewis,
+& Watson, 2012
+) and safety-oriented interactions between
+supervisors and employees to be associated with positive safety outcomes (
+Zohar, 2002
+). In the current study,
+supervisors' compliance with the coaching component varied among the sites
+in the study from 52% to 100% for those drivers who should have been
+coached at least once during the entire coaching period. Overall, 94% of
+sites in the intervention groups achieved 80% or better coaching of
+employees. Future research may want to explore interventions that could increase the
+reliability of supervisors' coaching of drivers. For example, by reducing
+the effort and time that is required to conduct a coaching session, supervisors may
+conduct coaching sessions at a higher rate and in a timelier manner (e.g., 
+Sigurdsson, Taylor, & Wirth, 2013
+).
+Future research could also investigate the relationship between measures of risky
+driving behavior and higher or lower coaching rates.
+In interpreting the findings of this research, there are four limitations
+that should be considered and will be discussed: misalignment of driver-facing and
+exterior-facing camera resulting in obstructed camera views, the collection of data
+at the vehicle unit as opposed to the driver unit, the limited information available
+on the content of the confidential supervisor-driver coaching sessions, and the lack
+of a true baseline data collection period unaffected by IVMS feedback. The first
+limitation, misalignment of the video camera, where either the external or
+driver-facing video camera was obstructed or misaligned, was a challenge, as it
+caused some video recordings to be unusable in the study. It was necessary for the
+video coders to evaluate variables from visual detection such as seatbelt use or
+handheld device use by the driver, or from the external cameras, roads signs,
+lights, and other vehicles. Of the total events, 16% had an obstructed
+camera view and were omitted from the analysis. It is possible that omission of
+these video events may have biased the findings to some degree, and this is an area
+that could be further investigated in future research.
+A second limitation was that it was not always possible to reliably link
+individual drivers to vehicles within a site. Video event data were recorded on a
+per-vehicle per-day time unit, and some of the vehicles had multiple drivers for
+vehicle in a 24-h period due to shift changes. Additionally, driver schedules were
+not always uploaded from the industry partners to the IVMS vendor, so it was not
+always possible to tell within each site which drivers were driving which vehicles.
+Because the study involved a dynamic cohort, if a driver left the company during the
+course of the study, a newly hired driver could take the place of the old driver,
+using the vehicle equipped with IVMS. Due to these limitations, conclusions can be
+made about changes in risky driving behavior at the group level, but not at the
+individual driver level.
+A third limitation was the lack of data on the quality, content, and tone of
+discussions during coaching sessions. Although supervisors were trained on how and
+on what to coach by the IVMS vendor, it is quite possible that discussions during
+the coaching session varied from supervisor to supervisor. Because the coaching
+sessions were private, there is no way to know for sure exact details of how
+coaching was performed or what topics were covered. Despite the fact that coaching
+levels did not consistently reach 100% of drivers who had logged severity 3
+and 4 events, significant declines in risky driving behaviors were seen.
+And finally, the baseline period in this study does not represent a true
+state of “no feedback.” At the outset of the study it was determined
+that all drivers in the study should be given some feedback from the IVMS installed
+in their vehicle, even if it was not driver-specific. Group feedback was given to
+both intervention and control groups during all periods in the study, including
+beginning and end baseline periods. In theory this should bias the findings of the
+study toward the null of no treatment effect. Despite the group feedback given,
+there were significant differences detected. Without the group feedback provided in
+the beginning baseline period, it is possible that greater effect sizes may have
+been observed with the intervention group between baseline and intervention
+periods.
+5. Practical applications
+Future research should address the impact of IVMS feedback on outcomes such
+as crash-related auto liability and workers' compensation injury claims over
+longer periods of time. Additionally, return on investment analyses should be done
+as there has been only limited research published in this area (
+Boodlad & Chiang, 2014
+; 
+Pitera, Boyle, & Goodchild, 2013
+), and IVMS is
+considered to be a fairly low-cost intervention in comparison to other safety
+technologies (
+Hickman & Hanowski,
+2010
+). Given that motor vehicle crashes are consistently the leading
+cause of work-related death, in addition to affecting the general population, this
+research has addressed a significant public health problem. Despite limitations,
+results from this current research provide evidence that the intervention of
+supervisor coaching of drivers combined with feedback from warning lights feedback
+successfully reduced risky driving behaviors that are policy priorities for
+employers.
+Jennifer L. Bell
+ is a Research Epidemiologist with the US
+Centers for Disease Control and Prevention's National Institute for
+Occupational Safety and Health, Division of Safety Research, in Morgantown, WV. She
+received her BS degree from Ursinus College near Philadelphia, PA and her MS and PhD
+from West Virginia University in Morgantown, WV. Dr. Bell's current projects
+include evaluating the effectiveness of in-vehicle monitoring systems and evaluating
+the effectiveness of slip, trip, and fall prevention measures in a variety of
+industries, in addition to collaborating on a study analyzing company fleet safety
+data to guide research and prevention of motor vehicle collisions.
+Acknowledgments
+The authors would like to acknowledge Dr. Harlan Amandus, Dr. Elyce Biddle, and Dr.
+Oliver Wirth for their work on the project, including the development of the
+original study protocol and design, and Mr. Dave Hilling for early programming
+support. The authors would also like to thank Dr. Stephanie Pratt, Dr. James
+Collins, Dr. Tomer Toledo, Dr. Robin Gillespie, and Dr. Christine Schuler for their
+critical review of earlier drafts of this paper. The findings and conclusions in
+this report are those of the author(s) and do not necessarily represent the views of
+the National Institute for Occupational Safety and Health. In addition, citations to
+websites external to NIOSH do not constitute NIOSH endorsement of the sponsoring
+organizations or their programs or products. Furthermore, NIOSH is not responsible
+for the content of these websites. All web addresses referenced in this document
+were accessible as of the publication date. This project was made possible through a
+partnership with the CDC Foundation.
+Biographies
+Matthew A Taylor
+ recently became Patient Safety Fellow in the Center for
+Medical Product End-user Testing at the Veterans Affairs Pittsburgh Healthcare
+System. Prior to this position, he was a Service Fellow in the Health Effects
+Laboratory Division of the National Institute for Occupational Safety and Health. He
+received a Ph.D. in Behavior Analysis from Queens College and the Graduate Center,
+CUNY. His research interests include issues related to behavioral safety, human
+factors, behavioral economics, education, and patient safety.
+Guang X Chen
+, MD, is an epidemiologist in the Analysis and Field
+Evaluation Branch, Division of Safety Research, National Institute for Occupational
+Safety and Health (NIOSH), Morgantown, West Virginia. He has 33 years of work
+experience in occupational safety and health research and prevention; 12 years in
+Central South University (previous named Hunan Medical University), Changsha, Hunan
+China and 21 years in NIOSH, United States. During the past 15 years, his research
+has focused on truck driver safety and occupational motor vehicle roadway safety. He
+has served as the project officer or among the key project personnel for several
+National Occupational Research Agenda (NORA) projects concerning truck driver safety
+and health.
+Rachel Kirk
+ is a statistical programmer who performed work under
+contract through NIOSH's Division of Safety Research with JAB Innovative
+Solutions LLC. Mrs. Kirk attended college at West Virginia University where she
+served as a Graduate Teaching Assistant for the Department of Statistics. Mrs. Kirk
+received a B.S. in Mathematics from West Virginia Wesleyan College and a M.S. in
+Statistics from West Virginia University. She currently lives in Raleigh North
+Carolina.
+Erin R. Leatherman
+ is an assistant professor in the Department of
+Statistics at West Virginia University. She holds a master's degree in
+applied statistics from Bowling Green State University and a PhD in statistics from
+The Ohio State University.
+References
+Aicken M, Gensler H. Adjusting for multiple testing when reporting research results:
+the Bonferroni vs Holm methods. American Journal of Public Health. 1996;86:726–728. doi: 10.2105/ajph.86.5.726.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Alvero AM, Bucklin BR, Austin J. An objective review of the effectiveness and essential
+characteristics of performance feedback in organizational settings
+(1985-1998) Journal of Organizational Behavior Management. 2001;21:3–29.
+ [
+Google Scholar
+]
+Beck LF, West BA. Vital signs: Nonfatal, motor vehicle-occupant injuries (2009) and
+seat belt use (2008) among adults - United States. Morbidity and Mortality Weekly Report. 2010;59(51):1681–1686.
+ [
+PubMed
+] [
+Google Scholar
+]
+Boal WL, Li J, Rodriguez-Acosta RL. Seat belt use among adult workers — 21 states,
+2013. MMWR Morbidity and Mortality Weekly Report. 2016;65:593–597. doi: 10.15585/mmwr.mm6523a1.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Boodlad L, Chiang KH.  Technical report no FMCSA-13-020. U.S. Department of Transportation, Federal Motor Carrier Safety
+Administration; 2014. Study of the impact of a telematics system on safe and
+fuel-efficient driving in trucks; p. 54.
+ [
+Google Scholar
+]
+Bureau of Labor Statistics. Occupational injury and illness classification manual, v. 2.01. U.S Department of Labor, Bureau of Labor
+Statistics; 2012. Jan, 
+ [
+Google Scholar
+]
+Bureau of Labor Statistics (BLS) Current population survey microdata, 2015. US Department of Labor; 2015.  [Accessed September 28, 2016].   
+http://thedataweb.rm.census.gov/ftp/cps_ftp.html
+.
+ [
+Google Scholar
+]
+Bureau of Labor Statistics. Table A-6 Fatal occupational injuries resulting from transportation
+incidents and homicides by occupation, all US (2014) Washington, DC: 2016.  Retrieved from  
+http://www.bls.gov/iif/oshwc/cfoi/cftb0291.pdf
+.
+ [
+Google Scholar
+]
+Cameron S, Crandall CS, Olson LM, Sklar DP. Mortality reduction with air bag and seat belt use in head-on
+passenger car collisions. American Journal of Epidemiology. 2001;153:219–224. doi: 10.1093/aje/153.3.219.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Carney C, McGehee DV, Lee JD, Reyes ML, Raby M. Using an event-triggered video intervention system to expand the
+supervised learning of newly licensed adolescent drivers. American Journal of Public Health. 2010;100:1101–1106. doi: 10.2105/AJPH.2009.165829.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Centers for Disease Control and Prevention. Primary enforcement of seat belt laws. Centers for Disease Control and Prevention, National Center for
+Injury Prevention and Control, Division of Unintentional Injury
+Prevention; 2015.  Retrieved from  
+http://www.cdc.gov/motorvehiclesafety/calculator/factsheet/seatbelt.html
+.
+ [
+Google Scholar
+]
+Chen GX, Collins JW, Sieber WK, Pratt SG, Rodríguez-Acosta RL, Lincoln JE, … Robinson CF. Vital signs: Seat belt use among long-haul truck drivers
+— United States, 2010. Morbidity and Mortality Weekly Report. 2015;64:217–221.
+ [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Chen GX, Fang YJ, Guo F, Hanowski RJ. The influence of daily sleep patterns of commercial truck drivers
+on driving performance. Accident Analysis and Prevention. 2016;91:55–63. doi: 10.1016/j.aap.2016.02.027.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Chen G, Jenkins E, Husting E. A comparison of crash patterns in heavy trucks with and without
+collision warning system technology. SAE Technical Paper. 2004;2004
+ [
+Google Scholar
+]
+Cooper MD. Behavioral safety interventions: A review of process design
+factors. Professional Safety. 2009 Feb;:36–45.
+ [
+Google Scholar
+]
+Donmez B, Boyle LN, Lee JD. Safety implications of providing real-time feedback to distracted
+drivers. Accident Analysis and Prevention. 2007;39:581–590. doi: 10.1016/j.aap.2006.10.003.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Donmez B, Boyle LN, Lee JD. Mitigating driver distraction with retrospective and concurrent
+feedback. Accident Analysis and Prevention. 2008;40:776–786. doi: 10.1016/j.aap.2007.09.023.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Evans L. The effectiveness of safety belts in preventing
+fatalities. Accident Analysis and Prevention. 1986;18:229–241. doi: 10.1016/0001-4575(86)90007-2.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Farmer CM, Kirkey BB, McCartt AT. Effects of in-vehicle monitoring on the driving behavior of
+teenagers. Journal of Safety Research. 2010;41:39–45. doi: 10.1016/j.jsr.2009.12.002.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Fitch GA, Soccolich SA, Guo F, McClafferty J, Fang Y, Olson RL, et al. Dingus TA.  Report no DOT HS 811 757. Washington, DC: National Highway Traffic Safety Administration; 2013. The impact of hand-held and hands-free cell phone use on driving
+performance and safety-critical event risk.
+ [
+Google Scholar
+]
+Harris AD, Bradham DD, Baumgarten M, Zuckerman IH, Fink JC, Perencevich EN. The use and interpretation of quasi-experimental studies in
+infectious diseases. Clinical Infectious Diseases. 2004;38:1586–1591. doi: 10.1086/420936.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Hickman JS, Geller ES. Self-management to increase safe driving among short-haul truck
+drivers. Journal of Organizational Behavior Management. 2003;23:1–20.
+ [
+Google Scholar
+]
+Hickman JS, Hanowski RJ.  Report no FMCSA-RRR-10-033. US Department of Transportation, Federal Motor Carrier Safety
+Administration; 2010. Evaluating the safety benefits of a low-cost driving behavior
+management system in commercial vehicle operations; p. 54.
+ [
+Google Scholar
+]
+Hickman JS, Hanowski RJ. Use of a video monitoring approach to reduce at-risk driving
+behaviors in commercial vehicle operations. Transportation Research Part F. 2011;14:189–198.
+ [
+Google Scholar
+]
+Hickman JS, Hanowski RJ, Bocanegra J.  Report to US. Vol. 2010. Department of Transportation Federal Motor Carrier Safety
+Administration; Washington, DC: 2010. Sep, Distraction in commercial trucks and buses: assessing prevalence
+and risk in conjunction with crashes and near-crashes; p. 61.
+ [
+Google Scholar
+]
+Horrey WJ, Lesch MF, Dainoff MJ, Robertson MM, Noy YI. On-board safety monitoring systems for driving: Review, knowledge
+gaps, and framework. Journal of Safety Research. 2012;43:49–58. doi: 10.1016/j.jsr.2011.11.004.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Hosmer DW, Lemeshow S.  Applied logistic regression. 2nd. New York, NY: John Wiley and Sons; 2000. p. 375.
+ [
+Google Scholar
+]
+Huang WS, Lai CH. Survival risk factors for fatal injured car and motorcycle
+drivers in single alcohol-related and alcohol-unrelated vehicle
+crashes. Journal of Safety Research. 2011;42:93–99. doi: 10.1016/j.jsr.2011.01.005.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+International Association of Oil and Gas Producers (IAOGP) Implementing an in-vehicle monitoring program — a guide
+for the oil and gas extraction industry. Land transportation safety recommended practice guidance note 12
+v.2. 2014 Mar;2014
+ [
+Google Scholar
+]
+Jones S. Driving heavy vehicle safety through technology: challenges,
+results and lessons learned at Toll Group: a contextual
+overview. Journal of the Australasian College of Road Safety. 2016;27:42–47.
+ [
+Google Scholar
+]
+Kang K, Oah S, Dickinson AM. The relative effects of different frequencies of feedback on work
+performance: A simulation. Journal of Organizational Behavior Management. 2003;23:21–53.
+ [
+Google Scholar
+]
+Lee JD, McGehee DV, Brown TL, Reyes ML. Collision warning timing, driver distraction, and driver response
+to imminent read-end collision in a high-fidelity driving
+simulator. Human Factors. 2002;44:314. doi: 10.1518/0018720024497844.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Lee LK, Monuteaux MC, Burghardt LC, Fleegler EW, Nigrovic LE, Meehan WP, … Mannix R. Motor vehicle crash fatalities in states with primary versus
+secondary seat belt laws: A time-series analysis. Annals of Internal Medicine. 2015;163:184–190. doi: 10.7326/M14-2368.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Leung S, Croft RJ, Jackson ML, Howard ME, Mckenzie RJ. Comparison of the effect of mobile phone use and alcohol
+consumption on driving simulation performance. Traffic Injury Prevention. 2012;13:566–574. doi: 10.1080/15389588.2012.683118.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Levick NR, Swanson J. An optimal solution for enhancing ambulance safety: Implementing
+a driver performance feedback and monitoring device in ground emergency
+medical service vehicles. Paper presented at The Association for the Advancement of Automotive
+Medicine, 49th Annual Proceedings; September 12–14, 2005; 2005. pp. 36–50.
+ [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Lisk D, Cruice F, Pollard T. How Perdue Farms, Inc. implemented a video-based driver risk
+management program. American Society of Safety Engineers (ASSE) Professional Development
+Conference and Exposition, Session 692; 24–27 June, 2012; Las Vegas, Nevada USA. 2013. 
+ [
+Google Scholar
+]
+McGehee DV, Raby M, Carney C, Lee JD, Reyes ML. Extending parental monitoring using an event-triggered
+intervention in rural teen drivers. Journal of Safety Research. 2007;38:215–227. doi: 10.1016/j.jsr.2007.02.009.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+McKeever JD, Schultheis MT, Padmanaban V, Blasco A. Driver performance while texting: even a little is too
+much. Traffic Injury Prevention. 2013;14:132–137. doi: 10.1080/15389588.2012.699695.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Merrikhpour M, Donmez B, Battista V. A field operational trial evaluating a feed-back reward system on
+speeding and tailgating behaviors. Transportation Research Part F. 2014;27:56–68.
+ [
+Google Scholar
+]
+Miller JW, Saldhana JP, Hunt CS, Mello JE. Combining formal controls to improve firm
+performance. Journal of Business Logistics. 2013;34:301–318.
+ [
+Google Scholar
+]
+National Highway Traffic Safety Association (NHTSA) NHTSA Fourth Report to Congress: Effectiveness of occupant protection
+systems and their use. Washington DC: Department of Transportation (DOT HS 818 909); 1999. 
+ [
+Google Scholar
+]
+Newnam S, Lewis I, Watson B. Occupational driver safety: Conceptualising a leadership-based
+intervention to improve safe driving performance. Accident Analysis and Prevention. 2012;45:29–38. doi: 10.1016/j.aap.2011.11.003.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+NIOSH. DHHS NIOSH publication 2015-111. U.S. Department of Health and Human Services, Centers for
+Disease Control and Prevention, National Institute for Occupational Safety
+and Health; 2015. NIOSH Center for Motor Vehicle Safety: Preventing work-related
+motor vehicle crashes.
+ [
+Google Scholar
+]
+Office of Management and Budget. 2007 NAICS (North American Industry Classification System) United States
+Manual. Office of Management and Budget Executive Office of the
+President; 2007. 
+ [
+Google Scholar
+]
+Olson R, Austin J. Behavior-based safety and working alone: The effects of a
+self-monitoring package on the safe performance of bus
+operators. Journal of Organizational Behavior Management. 2001;21:5–43.
+ [
+Google Scholar
+]
+Pan W. Akaike's information criterion in generalized estimating
+equations. Biometrics. 2001;57:120–125. doi: 10.1111/j.0006-341x.2001.00120.x.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Pitera K, Boyle LN, Goodchild AV.  Economic analysis of onboard monitoring system in commercial vehicles
+Transportation research record: journal of the Transportation Research
+Board. Vol. 2379. Washington, D.C.: Transportation Research Board of the National
+Academies; 2013. pp. 64–71.pp. 64–71.
+ [
+Google Scholar
+]
+Quintana R. A task-delineated safety approach for slip, trip and fall
+hazards. Safety Science. 1999;33:31–45.
+ [
+Google Scholar
+]
+Retzer KD, Hill RD, Pratt SG. Motor vehicle fatalities among oil and gas extraction
+workers. Accident Analysis and Prevention. 2013;51:168–174. doi: 10.1016/j.aap.2012.11.005.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Roberts SC, Horrey WJ, Liang Y. Measurement of driver calibration and the impact of feedback on
+drivers' estimates of performance. Accident Analysis and Prevention. 2016;88:150–158. doi: 10.1016/j.aap.2015.12.013.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Rothman KJ, Greenland S.  Modern epidemiology. 2nd. Philadelphia, PA: Lippencott-Raven Publishers; 1998. p. 738.
+ [
+Google Scholar
+]
+SAS Institute Inc. SAS/STAT® 9.3 user's guide. Cary,NC: Author; 2011. 
+ [
+Google Scholar
+]
+Shults RA, Haegerich TM, Bhat G, Zhang X. Teens and seat belt use: What makes them click? Journal of Safety Research. 2016;57:19–25. doi: 10.1016/j.jsr.2016.03.003.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Sieber WK, Robinson CF, Birdsey J, Chen GX, Hitchcock T, Lincoln JE, et al. Sweeney MH. Obesity and other risk factors: the national survey of U.S.
+long-haul truck driver health and injury. American Journal of Industrial Medicine. 2014;57:615–626. doi: 10.1002/ajim.22293.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Sigurdsson S, Taylor MA, Wirth O. Discounting the value of safety: Effects of perceived risk and
+effort. Journal of Safety Research. 2013;46:127–134. doi: 10.1016/j.jsr.2013.04.006.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Simons-Morton BG, Simons-Morton C, Bingham R, Ouimet MC, Pradhan AK, Chen R, et al. Shope JT. The effect on teenage risky driving of feedback from a safety
+MonitoringSystem: A randomized controlled trial. Journal of Adolescent Health. 2013;53(2013):21e26. doi: 10.1016/j.jadohealth.2012.11.008.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Smith G, Jones S. In-truck cameras at Toll NQX. Journal of the Australasian College of Road Safety. 2016;27:47–52.
+ [
+Google Scholar
+]
+Stokes ME, Davis CS, Koch GG.  Categorical data analysis using the SAS system. Cary, NC: SAS Institute Inc; 1995. p. 499.
+ [
+Google Scholar
+]
+Toledo T, Musicant O, Lotan T. In-vehicle data recorders for monitoring and feedback on
+drivers' behavior. Transportation Research Part C. 2008;16:320–331.
+ [
+Google Scholar
+]
+Walker G.  Common statistical methods for clinical research with SAS
+examples. Cary, NC: SAS Institute Inc; 1997. p. 315.
+ [
+Google Scholar
+]
+Wilson FA, Stimpson JP. Trends in fatalities from distracted driving in the United
+States, 1999 to 2008. American Journal of Public Health. 2010;100:2213–2219. doi: 10.2105/AJPH.2009.187179.
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Wu KF, Ageuro-Valverde J, Jovanis PP. Using naturalistic driving data to explore the association
+between traffic safety-related events and crash risk at the driver
+level. Accident Analysis and Prevention. 2014;72:210–218. doi: 10.1016/j.aap.2014.07.005.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Zohar D. Modifying supervisory practices to improve subunit safety: A
+leadership-based intervention model. Journal of Applied Psychology. 2002;87:156–163. doi: 10.1037/0021-9010.87.1.156.
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+ACTIONS
+View on publisher site
+PDF (502.9 KB)
+Cite
+Collections
+Permalink
+PERMALINK
+Copy
+RESOURCES
+                            Similar articles
+                             Cited by other articles
+                                 Links to NCBI Databases
+Cite
+Copy
+Download .nbib
+.nbib
+Format:
+        AMA
+        APA
+        MLA
+        NLM
+Add to Collections
+Create a new collection
+Add to an existing collection
+                Name your collection
+*
+                Choose a collection
+                Unable to load your collection due to an error
+Please try again
+          Add
+          Cancel
+                Follow NCBI
+NCBI on X (formerly known as Twitter)
+NCBI on Facebook
+NCBI on LinkedIn
+NCBI on GitHub
+NCBI RSS feed
+                            Connect with NLM
+NLM on X (formerly known as Twitter)
+NLM on Facebook
+NLM on YouTube
+National Library of Medicine
+ 8600 Rockville Pike
+ Bethesda, MD 20894
+            Web Policies
+            FOIA
+            HHS Vulnerability Disclosure
+            Help
+            Accessibility
+            Careers
+            NLM
+            NIH
+            HHS
+            USA.gov
+Back to Top

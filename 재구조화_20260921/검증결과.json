@@ -1,0 +1,137 @@
+{
+  "date": "2026-09-21",
+  "csv_count": 25,
+  "zip_count": 2,
+  "all_originals_unchanged": true,
+  "source_checks": [
+    {
+      "id": "D01",
+      "unchanged": true
+    },
+    {
+      "id": "D02",
+      "unchanged": true
+    },
+    {
+      "id": "D03",
+      "unchanged": true
+    },
+    {
+      "id": "D04",
+      "unchanged": true
+    },
+    {
+      "id": "D05",
+      "unchanged": true
+    },
+    {
+      "id": "D06",
+      "unchanged": true
+    },
+    {
+      "id": "D07",
+      "unchanged": true
+    },
+    {
+      "id": "D08",
+      "unchanged": true
+    },
+    {
+      "id": "D09",
+      "unchanged": true
+    },
+    {
+      "id": "D10",
+      "unchanged": true
+    },
+    {
+      "id": "D11",
+      "unchanged": true
+    },
+    {
+      "id": "D12",
+      "unchanged": true
+    },
+    {
+      "id": "D13",
+      "unchanged": true
+    },
+    {
+      "id": "D14",
+      "unchanged": true
+    },
+    {
+      "id": "D15",
+      "unchanged": true
+    },
+    {
+      "id": "D16",
+      "unchanged": true
+    },
+    {
+      "id": "D17",
+      "unchanged": true
+    },
+    {
+      "id": "D18",
+      "unchanged": true
+    },
+    {
+      "id": "D19",
+      "unchanged": true
+    },
+    {
+      "id": "D20",
+      "unchanged": true
+    },
+    {
+      "id": "D21",
+      "unchanged": true
+    },
+    {
+      "id": "D22",
+      "unchanged": true
+    },
+    {
+      "id": "D23",
+      "unchanged": true
+    },
+    {
+      "id": "D24",
+      "unchanged": true
+    },
+    {
+      "id": "D25",
+      "unchanged": true
+    },
+    {
+      "id": "D26",
+      "unchanged": true
+    },
+    {
+      "id": "D27",
+      "unchanged": true
+    }
+  ],
+  "broken_local_links": [],
+  "all_source_records_mapped": true,
+  "opinion_counts": {
+    "구체적 불편·개선 요청": 7,
+    "정보 문의": 2,
+    "긍정·평가·인사": 10,
+    "명시적 무의견": 7,
+    "해석 유보": 18
+  },
+  "opinion_total": 44,
+  "independent_review": "미실시",
+  "verification_note": "괄호가 포함된 원본 파일명에 맞춰 링크 검사기를 수정하고 재검증함",
+  "files": [
+    "01_전체데이터_반영원장.md",
+    "02_사업컨셉_재구조화.md",
+    "03_개선의견_문제정의.md",
+    "04_공식출처_권리_확인대기열.md",
+    "05_검토체크리스트.md",
+    "README.md",
+    "데이터원장.json"
+  ]
+}

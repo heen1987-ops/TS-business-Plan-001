@@ -1,0 +1,70 @@
+{
+  "files": [
+    {
+      "file": "03_TS01-16_전체사업컨셉_구체화.md",
+      "chars": 33472,
+      "expected": 33472,
+      "length_ok": true,
+      "replacement_character": false,
+      "sha256": "d95b738c9033199bec289f994f62b6a6da13ece83f5c62d96e5ebef3ba782510"
+    },
+    {
+      "file": "04_대화결정_근거_추적원장.md",
+      "chars": 12110,
+      "expected": 12110,
+      "length_ok": true,
+      "replacement_character": false,
+      "sha256": "7ca3fe631bbb424ed5e0f434cebdce7624afbdacd61748906e1fe13bc4a5e1f4"
+    },
+    {
+      "file": "05_이전_NB100_후보_보관목록.md",
+      "chars": 3987,
+      "expected": 3987,
+      "length_ok": true,
+      "replacement_character": false,
+      "sha256": "751153044e02b4353cb19eff5d465659c2156943c6350f128c43d584cc704115"
+    },
+    {
+      "file": "00_검토결과_안내.md",
+      "chars": 2743,
+      "expected": 2743,
+      "length_ok": true,
+      "replacement_character": false,
+      "sha256": "1098c2ff77523bed1589a3ffd174fce8f53fefb9ade357a5856598e9ea4347d1"
+    },
+    {
+      "file": "사업컨셉_검토원장.json",
+      "chars": 29981,
+      "expected": 29981,
+      "length_ok": true,
+      "replacement_character": false,
+      "sha256": "c30a4eb1fab9bf75bd20cbec257c94dd31d56adf975cbe40dc1c322f871b1f9a"
+    }
+  ],
+  "concept_count": 16,
+  "concept_unique": 16,
+  "concept_ids_ok": true,
+  "fields": {
+    "문제와 근거": 16,
+    "부처·부서와 책임": 16,
+    "제공 자료와 추가 자료": 16,
+    "한 사업 안에 포함할 구성": 16,
+    "사례 흐름": 16,
+    "사업 형태와 CCK의 역할": 16,
+    "기존사업과의 경계": 16,
+    "검증과 사업화 조건": 16,
+    "첫 확인 질문": 16
+  },
+  "conversation_rows": 74,
+  "historical_nb_count": 100,
+  "historical_nb_unique": 100,
+  "local_links_ok": true,
+  "local_link_failures": [],
+  "new_turns_reflected": true,
+  "false_no_new_turn_claim": false,
+  "status": "문서 구조 및 추적성 자체점검; 현업·성능 검증 미실시",
+  "passed": true,
+  "check_note": "최초 문자열 빈도 검사가 도입부의 사례 흐름 언급까지 세어 17로 표시했으므로, 실제 카드 제목 기준으로 검사식을 정정함. 본문 누락·중복은 없었음.",
+  "last_checked_at_KST": "2026-09-21 13:22",
+  "last_user_turn_without_response": "c8e14c0a-8b3e-4774-b2c9-5b3dcbb99ebb"
+}

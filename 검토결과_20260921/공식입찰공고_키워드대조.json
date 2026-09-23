@@ -1,0 +1,835 @@
+{
+  "checkedAt": "2026-09-21T13:39:30.532398+09:00",
+  "scope": "공식입찰공고 제목검색 16개 키워드, 각 최대5페이지, 첫2025이전구간 포함시 중단; 계약결과 전수조사 아님",
+  "queries": [
+    {
+      "query": "검사서비스",
+      "pages": 1,
+      "items": []
+    },
+    {
+      "query": "공통플랫폼",
+      "pages": 1,
+      "items": [
+        {
+          "title": "TS AI 공통플랫폼 고도화 및 민원·전세버스 공시 AI 구축 용역",
+          "date": "2026-06-08",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19116&menuCode=05020100"
+        }
+      ]
+    },
+    {
+      "query": "전세버스",
+      "pages": 1,
+      "items": [
+        {
+          "title": "TS AI 공통플랫폼 고도화 및 민원·전세버스 공시 AI 구축 용역",
+          "date": "2026-06-08",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19116&menuCode=05020100"
+        },
+        {
+          "title": "2022년 전세버스 경영 및 서비스 평가 연구 용역",
+          "date": "2022-06-21",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18042&menuCode=05020100"
+        },
+        {
+          "title": "2022년 전세버스 경영 및 서비스 평가 자료조사 및 분석 용역",
+          "date": "2022-06-21",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18041&menuCode=05020100"
+        },
+        {
+          "title": "전세버스 제도 개선 연구 및 경영, 서비스 평가 자료 조사 및 분석 용역",
+          "date": "2021-09-24",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=17726&menuCode=05020100"
+        },
+        {
+          "title": "전세버스 교통안전정보 공시 시스템 기능개선 및 유지관리 용역",
+          "date": "2021-05-20",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=17145&menuCode=05020100"
+        },
+        {
+          "title": "전세버스 지입실태 및 경영 서비스 평가자료 조사 및 분석 용역",
+          "date": "2020-07-22",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=15876&menuCode=05020100"
+        },
+        {
+          "title": "전세버스 교통안전정보 공시시스템 관리기능 확대",
+          "date": "2020-04-17",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=15461&menuCode=05020100"
+        },
+        {
+          "title": "전세버스 교통안전정보 공시시스템 관리기능 확대",
+          "date": "2020-04-06",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=15383&menuCode=05020100"
+        },
+        {
+          "title": "전세버스 운수사업자 경영 및 서비스평가 자료 조사,분석 용역",
+          "date": "2019-06-18",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=14107&menuCode=05020100"
+        },
+        {
+          "title": "전세버스 교통안전정보 공시제도의 단계적 확대방안 연구용역 재공고",
+          "date": "2019-05-24",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=13996&menuCode=05020100"
+        }
+      ]
+    },
+    {
+      "query": "운행기록",
+      "pages": 1,
+      "items": [
+        {
+          "title": "2026년 운행기록분석시스템 운영환경 및 기능개선 용역",
+          "date": "2026-05-06",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19057&menuCode=05020100"
+        },
+        {
+          "title": "2026년 운행기록분석시스템 운영환경 및 기능개선 용역",
+          "date": "2026-04-24",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19036&menuCode=05020100"
+        },
+        {
+          "title": "2026년 운행기록 활용 방안 연구 용역",
+          "date": "2026-04-14",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19021&menuCode=05020100"
+        },
+        {
+          "title": "2026년 운행기록장치 점검센터 운영 용역",
+          "date": "2026-04-03",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19003&menuCode=05020100"
+        },
+        {
+          "title": "2026년 운행기록 활용 방안 연구 용역",
+          "date": "2026-04-03",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19004&menuCode=05020100"
+        },
+        {
+          "title": "2025년 운행기록장치 점검센터 운영 용역",
+          "date": "2025-04-18",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18742&menuCode=05020100"
+        },
+        {
+          "title": "'24년 운행기록분석시스템 및 운영환경 기능 개선 용역",
+          "date": "2024-04-09",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18469&menuCode=05020100"
+        },
+        {
+          "title": "2024년 운행기록장치 점검센터 운영 용역",
+          "date": "2024-04-03",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18458&menuCode=05020100"
+        },
+        {
+          "title": "23년 운행기록분석시스템 운영 환경 및 기능 개선 용역",
+          "date": "2023-03-21",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18204&menuCode=05020100"
+        },
+        {
+          "title": "2023년 운행기록장치 점검센터 운영 용역",
+          "date": "2023-03-13",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18189&menuCode=05020100"
+        }
+      ]
+    },
+    {
+      "query": "운수안전컨설팅",
+      "pages": 1,
+      "items": [
+        {
+          "title": "2026년 운수안전컨설팅지원시스템 운영 및 고도화 용역",
+          "date": "2026-07-02",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19137&menuCode=05020100"
+        },
+        {
+          "title": "2026년 운수안전컨설팅지원시스템 운영 및 고도화 용역",
+          "date": "2026-05-22",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19099&menuCode=05020100"
+        },
+        {
+          "title": "2025년 운수안전컨설팅지원시스템 운영 및 고도화 용역",
+          "date": "2025-06-04",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18802&menuCode=05020100"
+        },
+        {
+          "title": "2024년 운수안전컨설팅지원시스템 운영 및 고도화 용역",
+          "date": "2024-06-03",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18528&menuCode=05020100"
+        },
+        {
+          "title": "2023년 운수안전컨설팅지원시스템 운영 및 고도화 용역",
+          "date": "2023-07-18",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18309&menuCode=05020100"
+        },
+        {
+          "title": "2022년 운수안전컨설팅 지원시스템 운영 및 고도화 용역",
+          "date": "2022-07-07",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18052&menuCode=05020100"
+        },
+        {
+          "title": "2021년 운수안전컨설팅 지원시스템 운영 및 고도화 용역",
+          "date": "2021-06-25",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=17331&menuCode=05020100"
+        },
+        {
+          "title": "2020년 운수안전컨설팅 지원시스템 운영 및 고도화",
+          "date": "2020-07-16",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=15844&menuCode=05020100"
+        },
+        {
+          "title": "운수안전컨설팅 지원시스템 3차 고도화 및 운영 용역",
+          "date": "2019-10-22",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=14620&menuCode=05020100"
+        },
+        {
+          "title": "운수안전컨설팅 지원시스템 3차 고도화 및 운영 용역",
+          "date": "2019-09-10",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=14453&menuCode=05020100"
+        }
+      ]
+    },
+    {
+      "query": "특별실태",
+      "pages": 1,
+      "items": [
+        {
+          "title": "2026년 교통안전 특별실태조사 용역",
+          "date": "2026-04-23",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19032&menuCode=05020100"
+        },
+        {
+          "title": "2025년 교통안전 특별실태조사 용역",
+          "date": "2025-05-09",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18767&menuCode=05020100"
+        },
+        {
+          "title": "2025년 교통안전 특별실태조사 용역",
+          "date": "2025-04-14",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18731&menuCode=05020100"
+        },
+        {
+          "title": "2024년 교통안전 특별실태조사 용역",
+          "date": "2024-03-27",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18452&menuCode=05020100"
+        },
+        {
+          "title": "2024년 교통안전 특별실태조사 용역",
+          "date": "2024-03-13",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18443&menuCode=05020100"
+        },
+        {
+          "title": "교통안전 특별실태조사 용역",
+          "date": "2023-03-13",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18188&menuCode=05020100"
+        },
+        {
+          "title": "2022년 교통안전 특별실태조사 용역",
+          "date": "2022-03-03",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=17915&menuCode=05020100"
+        },
+        {
+          "title": "2021년 교통안전 특별실태조사 용역",
+          "date": "2021-03-24",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=16852&menuCode=05020100"
+        },
+        {
+          "title": "교통안전 특별실태조사 용역",
+          "date": "2020-02-27",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=15145&menuCode=05020100"
+        },
+        {
+          "title": "2019년 교통안전 특별실태조사 용역",
+          "date": "2019-04-12",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=13809&menuCode=05020100"
+        }
+      ]
+    },
+    {
+      "query": "교통시설안전진단",
+      "pages": 1,
+      "items": []
+    },
+    {
+      "query": "교통문화",
+      "pages": 1,
+      "items": [
+        {
+          "title": "제19회 교통문화발전대회 행사 대행 용역",
+          "date": "2026-06-08",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19115&menuCode=05020100"
+        },
+        {
+          "title": "2026년 교통문화지수 실태조사 용역",
+          "date": "2026-04-02",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18999&menuCode=05020100"
+        },
+        {
+          "title": "2025년 교통문화지수 실태조사 및 개선연구 용역",
+          "date": "2025-04-29",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18754&menuCode=05020100"
+        },
+        {
+          "title": "2024년 교통문화지수 실태조사 및 개선연구 용역",
+          "date": "2024-04-03",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18457&menuCode=05020100"
+        },
+        {
+          "title": "2023년 교통문화지수 실태조사 및 개선 연구 용역",
+          "date": "2023-03-20",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18201&menuCode=05020100"
+        },
+        {
+          "title": "2022년 교통문화지수 실태조사 및 개선 연구 용역",
+          "date": "2022-03-22",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=17934&menuCode=05020100"
+        },
+        {
+          "title": "2021년 교통문화지수 실태조사 및 개선방안 연구 용역",
+          "date": "2021-05-07",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=17076&menuCode=05020100"
+        },
+        {
+          "title": "2020년 교통문화지수 실태조사 및 활용방안 연구 용역",
+          "date": "2020-03-26",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=15310&menuCode=05020100"
+        },
+        {
+          "title": "제13회 교통문화발전대회 행사 용역",
+          "date": "2020-03-16",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=15249&menuCode=05020100"
+        },
+        {
+          "title": "2019년 교통문화지수 실태조사",
+          "date": "2019-08-06",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=14307&menuCode=05020100"
+        }
+      ]
+    },
+    {
+      "query": "국가자격시험",
+      "pages": 1,
+      "items": [
+        {
+          "title": "AI 활용 국가자격시험 문제 출제 시스템 구축 용역",
+          "date": "2026-09-07",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19193&menuCode=05020100"
+        },
+        {
+          "title": "2021년 국가자격시험 인프라 확충·증설 용역",
+          "date": "2021-05-24",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=17158&menuCode=05020100"
+        },
+        {
+          "title": "택시운전자격시험 이관 및 국가자격시험 통합시스템 개인정보 영향평가",
+          "date": "2020-04-20",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=15465&menuCode=05020100"
+        },
+        {
+          "title": "택시운전 자격시험 이관 및 국가자격시험 통합시스템 구축 PMO 용역",
+          "date": "2020-01-03",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=14909&menuCode=05020100"
+        },
+        {
+          "title": "택시운전 자격시험 이관 및 국가자격시험 통합시스템 구축 PMO 용역",
+          "date": "2019-12-27",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=14893&menuCode=05020100"
+        },
+        {
+          "title": "택시운전자격시험 이관 및 국가자격시험 통합 시스템 구축 용역",
+          "date": "2019-12-10",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=14835&menuCode=05020100"
+        },
+        {
+          "title": "택시운전자격시험 이관 및 국가자격시험 통합 시스템 구축 용역",
+          "date": "2019-11-25",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=14773&menuCode=05020100"
+        },
+        {
+          "title": "택시운전자격시험 이관 및 국가자격시험 통합 시스템 구축 용역",
+          "date": "2019-11-25",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=14775&menuCode=05020100"
+        },
+        {
+          "title": "국가자격시험 통합운영 BPR/ISP 수립",
+          "date": "2019-02-12",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=13291&menuCode=05020100"
+        },
+        {
+          "title": "국가자격시험 자격증 및 발급기 소모품 구매",
+          "date": "2018-03-13",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=11861&menuCode=05020100"
+        }
+      ]
+    },
+    {
+      "query": "철도",
+      "pages": 1,
+      "items": [
+        {
+          "title": "철도안전 성숙도 평가 기반의 관리·감독 방안 및 기준 수립 연구",
+          "date": "2026-06-01",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19107&menuCode=05020100"
+        },
+        {
+          "title": "철도안전관리시스템(SMS) 사례 분석 및 정책 제안 용역",
+          "date": "2026-05-22",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19100&menuCode=05020100"
+        },
+        {
+          "title": "철도안전 성숙도 평가 기반의 관리·감독 방안 및 기준 수립 연구",
+          "date": "2026-05-21",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19096&menuCode=05020100"
+        },
+        {
+          "title": "철도안전관리시스템(SMS) 사례 분석 및 정책 제안 용역",
+          "date": "2026-05-11",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19075&menuCode=05020100"
+        },
+        {
+          "title": "2026년 철도역사 혼잡도·미끄럼저항·쾌적성 측정 용역",
+          "date": "2026-04-06",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19011&menuCode=05020100"
+        },
+        {
+          "title": "철도자격 기능시험(운전관제) 평가장비 유지보수 용역",
+          "date": "2026-02-25",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18956&menuCode=05020100"
+        },
+        {
+          "title": "철도자격 기능시험(운전관제) 평가장비 유지보수 용역",
+          "date": "2026-02-09",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18944&menuCode=05020100"
+        },
+        {
+          "title": "철도역사 혼잡도·미끄럼저항·쾌적성 측정 용역",
+          "date": "2025-06-23",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18818&menuCode=05020100"
+        },
+        {
+          "title": "철도운영자등의 상호협조 운영 및 현장적용 방안 검토 용역",
+          "date": "2025-05-07",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18760&menuCode=05020100"
+        },
+        {
+          "title": "철도운영자등의 상호협조 운영 및 현장적용 방안 검토 용역",
+          "date": "2025-04-17",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18739&menuCode=05020100"
+        }
+      ]
+    },
+    {
+      "query": "튜닝",
+      "pages": 1,
+      "items": [
+        {
+          "title": "전기차 튜닝안전센터 구축 건축공사 상주감리 용역",
+          "date": "2026-06-01",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19110&menuCode=05020100"
+        },
+        {
+          "title": "전기차 튜닝안전센터 구축 건축공사 상주감리 용역",
+          "date": "2026-05-21",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19097&menuCode=05020100"
+        },
+        {
+          "title": "전기차 튜닝안전센터 구축 건축공사 상주감리 용역",
+          "date": "2026-05-19",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19088&menuCode=05020100"
+        },
+        {
+          "title": "전기차 튜닝안전센터 구축공사 전기공사",
+          "date": "2026-04-27",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19038&menuCode=05020100"
+        },
+        {
+          "title": "전기차 튜닝안전센터 구축공사 건축공사",
+          "date": "2026-04-23",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19027&menuCode=05020100"
+        },
+        {
+          "title": "2026년 코리아 튜닝카 페스티벌 행사 대행 용역",
+          "date": "2026-03-18",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18981&menuCode=05020100"
+        },
+        {
+          "title": "2026년 튜닝안전기술원 청소 용역",
+          "date": "2025-12-09",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18927&menuCode=05020100"
+        },
+        {
+          "title": "2026년 튜닝안전기술원 청소 용역",
+          "date": "2025-12-05",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18923&menuCode=05020100"
+        },
+        {
+          "title": "2025년 코리아 튜닝카 페스티벌 행사 대행 용역",
+          "date": "2025-06-16",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18814&menuCode=05020100"
+        },
+        {
+          "title": "튜닝안전기술원 청소 용역",
+          "date": "2024-10-08",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18626&menuCode=05020100"
+        }
+      ]
+    },
+    {
+      "query": "첨단모빌리티",
+      "pages": 1,
+      "items": [
+        {
+          "title": "2026년 첨단모빌리티 서비스 실태조사 및 개선 연구 용역",
+          "date": "2026-06-22",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19129&menuCode=05020100"
+        },
+        {
+          "title": "2026년 첨단모빌리티 서비스 실태조사 및 개선 연구 용역",
+          "date": "2026-05-12",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19077&menuCode=05020100"
+        },
+        {
+          "title": "2025년 첨단모빌리티 활성화 방안 및 정책수립 연구",
+          "date": "2025-05-14",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18780&menuCode=05020100"
+        },
+        {
+          "title": "2025년 첨단모빌리티 조사 및 데이터 분석",
+          "date": "2025-05-13",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18776&menuCode=05020100"
+        },
+        {
+          "title": "2024년 첨단모빌리티 조사 및 데이터 분석 용역",
+          "date": "2024-04-24",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18487&menuCode=05020100"
+        },
+        {
+          "title": "첨단모빌리티 중심 도로환경 및 시범사업 추진체계 연구 용역",
+          "date": "2024-04-04",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18460&menuCode=05020100"
+        },
+        {
+          "title": "첨단모빌리티 현황조사 체계 기초연구 용역",
+          "date": "2023-03-16",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18196&menuCode=05020100"
+        }
+      ]
+    },
+    {
+      "query": "예약",
+      "pages": 1,
+      "items": [
+        {
+          "title": "내압용기 온라인 예약시스템 구축",
+          "date": "2025-06-24",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18822&menuCode=05020100"
+        },
+        {
+          "title": "스마트 자동차검사 예약시스템 구축 및 사이버검사소 고도화 구축 용역",
+          "date": "2017-11-22",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=11340&menuCode=05020100"
+        },
+        {
+          "title": "스마트 검사예약시스템 구축 및 사이버검사소(GCMS) 고도화를 위한 BPR/ISP 수립용역",
+          "date": "2017-04-19",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=10345&menuCode=05020100"
+        },
+        {
+          "title": "최저가 - 여성 및 예약고객 전용진로 하이브리드검사기기 제조구매(재공고)",
+          "date": "2010-11-11",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=1121&menuCode=05020100"
+        },
+        {
+          "title": "최저가 - 여성 및 예약고객 전용진로 하이브리드검사기기 제조구매(재공고)",
+          "date": "2010-11-04",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=1117&menuCode=05020100"
+        },
+        {
+          "title": "최저가 - 여성 및 예약고객 전용진로 하이브리드검사기기 제조구매(재공고)",
+          "date": "2010-10-28",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=1114&menuCode=05020100"
+        },
+        {
+          "title": "최저가 - 여성 및 예약고객 전용진로 기능종합진단장치 구매",
+          "date": "2010-10-21",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=1108&menuCode=05020100"
+        },
+        {
+          "title": "최저가 - 여성 및 예약고객 전용진로 하이브리드검사기기 제조구매",
+          "date": "2010-10-20",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=1106&menuCode=05020100"
+        },
+        {
+          "title": "최저가 - 여성 및 예약고객 전용진로 전조등시험기 제조·구매",
+          "date": "2010-10-19",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=1104&menuCode=05020100"
+        }
+      ]
+    },
+    {
+      "query": "AI",
+      "pages": 1,
+      "items": [
+        {
+          "title": "AI 활용 국가자격시험 문제 출제 시스템 구축 용역",
+          "date": "2026-09-07",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19193&menuCode=05020100"
+        },
+        {
+          "title": "한국교통안전공단 검사본부 AI시스템 구축 용역",
+          "date": "2026-07-23",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19156&menuCode=05020100"
+        },
+        {
+          "title": "자율주행 AI 학습센터 기능설계 연구용역",
+          "date": "2026-07-15",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19145&menuCode=05020100"
+        },
+        {
+          "title": "TS AI 공통플랫폼 고도화 및 민원·전세버스 공시 AI 구축 용역",
+          "date": "2026-06-08",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19116&menuCode=05020100"
+        },
+        {
+          "title": "2026 AI·S/W 모빌리티 경진대회 행사준비 등 대행용역",
+          "date": "2026-06-05",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19113&menuCode=05020100"
+        },
+        {
+          "title": "2026 AI·S/W 모빌리티 경진대회 행사준비 등 대행용역",
+          "date": "2026-05-20",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19089&menuCode=05020100"
+        },
+        {
+          "title": "AI·로봇을 활용한 배출가스검사 자동화시스템 제작",
+          "date": "2025-10-17",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18893&menuCode=05020100"
+        },
+        {
+          "title": "TS AI 공통 플랫폼 구축 용역",
+          "date": "2025-06-02",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18798&menuCode=05020100"
+        },
+        {
+          "title": "AI를 활용한 기관사 철도운행지원 기술개발 연구 용역",
+          "date": "2024-08-09",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18589&menuCode=05020100"
+        },
+        {
+          "title": "AI를 활용한 기관사 철도운행지원 기술개발 연구 용역",
+          "date": "2024-07-29",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18577&menuCode=05020100"
+        }
+      ]
+    },
+    {
+      "query": "운수종사자",
+      "pages": 1,
+      "items": [
+        {
+          "title": "2026년 운수종사자 관리시스템 기능 고도화 용역",
+          "date": "2026-06-30",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19134&menuCode=05020100"
+        },
+        {
+          "title": "2026년 운수종사자 관리시스템 기능 고도화 용역",
+          "date": "2026-06-19",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19128&menuCode=05020100"
+        },
+        {
+          "title": "2026년 강원특별자치도 운수종사자 교육 운영 대행 용역",
+          "date": "2026-05-12",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19076&menuCode=05020100"
+        },
+        {
+          "title": "2026년 강원특별자치도 운수종사자 교육 운영 대행 용역",
+          "date": "2026-04-29",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19053&menuCode=05020100"
+        },
+        {
+          "title": "제주특별자치도 운수종사자 교육 운영 대행 용역",
+          "date": "2026-01-23",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18938&menuCode=05020100"
+        },
+        {
+          "title": "운수종사자 관리시스템 임시택시 및 범죄기능 고도화 용역",
+          "date": "2025-05-19",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18784&menuCode=05020100"
+        },
+        {
+          "title": "고령 운수종사자 자격유지검사 개선 방안 마련 연구 용역",
+          "date": "2025-04-23",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18749&menuCode=05020100"
+        },
+        {
+          "title": "2025년 제주 운수종사자 교육 운영 대행 용역",
+          "date": "2025-03-19",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18697&menuCode=05020100"
+        },
+        {
+          "title": "운수종사자 관리시스템 고도화 및 클라우드 전환 용역",
+          "date": "2024-06-14",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18541&menuCode=05020100"
+        },
+        {
+          "title": "2024년 제주 운수종사자 교육 운영 대행 용역",
+          "date": "2024-05-17",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18518&menuCode=05020100"
+        }
+      ]
+    },
+    {
+      "query": "교육",
+      "pages": 3,
+      "items": [
+        {
+          "title": "익산 교통안전체험교육센터 건립공사 건설폐기물처리 용역(취소공고)",
+          "date": "2026-09-09",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19198&menuCode=05020100"
+        },
+        {
+          "title": "상주교통안전체험교육센터 매점 위탁운영 업체 선정",
+          "date": "2026-08-06",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19162&menuCode=05020100"
+        },
+        {
+          "title": "상주교통안전체험교육센터 매점 위탁운영 업체 선정",
+          "date": "2026-07-22",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19151&menuCode=05020100"
+        },
+        {
+          "title": "제4교통안전체험교육센터 건립 타당성 검토 및 입지선정 연구 용역",
+          "date": "2026-07-10",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19142&menuCode=05020100"
+        },
+        {
+          "title": "교육용 불용차량 폐차조건부 일괄매각",
+          "date": "2026-06-18",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19126&menuCode=05020100"
+        },
+        {
+          "title": "UAM 종사자 역량 및 미래인재 양성 교육 운영 용역",
+          "date": "2026-05-22",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19098&menuCode=05020100"
+        },
+        {
+          "title": "2026년 강원특별자치도 운수종사자 교육 운영 대행 용역",
+          "date": "2026-05-12",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19076&menuCode=05020100"
+        },
+        {
+          "title": "2026년 강원특별자치도 운수종사자 교육 운영 대행 용역",
+          "date": "2026-04-29",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19053&menuCode=05020100"
+        },
+        {
+          "title": "2026년 드론 교육, 해외진출 커리큘럼 개발 및 인력양성 아카데미 운영 용역",
+          "date": "2026-04-23",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19034&menuCode=05020100"
+        },
+        {
+          "title": "익산 교통안전체험교육센터 건립지 매장문화재 표본조사 및 시굴조사",
+          "date": "2026-04-08",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19015&menuCode=05020100"
+        },
+        {
+          "title": "2026년 시흥시민 드론 체험교육 프로그램 운영",
+          "date": "2026-04-06",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19005&menuCode=05020100"
+        },
+        {
+          "title": "2026년 전직원 역략강화 교육 운영 용역",
+          "date": "2026-04-06",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19006&menuCode=05020100"
+        },
+        {
+          "title": "2026년 상주교통안전체험교육센터 교육용 자동차 연료 구매",
+          "date": "2026-04-01",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18997&menuCode=05020100"
+        },
+        {
+          "title": "2026년 시흥시민 드론 체험교육 프로그램 운영",
+          "date": "2026-03-24",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18989&menuCode=05020100"
+        },
+        {
+          "title": "2026년 상주교통안전체험교육센터 교육용 자동차 연료 구매",
+          "date": "2026-03-20",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18985&menuCode=05020100"
+        },
+        {
+          "title": "익산 교통안전체험교육센터 건립지 매장문화재 표본조사 및 시굴조사",
+          "date": "2026-03-13",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18977&menuCode=05020100"
+        },
+        {
+          "title": "익산 교통안전체험교육센터 건립지 매장문화재 표본조사 및 시굴조사",
+          "date": "2026-03-12",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18976&menuCode=05020100"
+        },
+        {
+          "title": "2026년 상주교통안전체험교육센터 액화석유가스 구매",
+          "date": "2026-03-11",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18971&menuCode=05020100"
+        },
+        {
+          "title": "2026년 상주교통안전체험교육센터 교육용 자동차 연료 구매",
+          "date": "2026-03-10",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18970&menuCode=05020100"
+        },
+        {
+          "title": "첨단자동차검사연구센터 기술교육장 생활관 세탁 용역 수의계약 견적제출 안내공고",
+          "date": "2026-03-06",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18964&menuCode=05020100"
+        },
+        {
+          "title": "2026년 자동차안전연구원 및 화성교통안전체험교육센터 구내식당위탁운영",
+          "date": "2026-02-25",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18955&menuCode=05020100"
+        },
+        {
+          "title": "2026년 전직원 역략강화 교육 운영 용역",
+          "date": "2026-02-23",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18954&menuCode=05020100"
+        },
+        {
+          "title": "제주특별자치도 운수종사자 교육 운영 대행 용역",
+          "date": "2026-01-23",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18938&menuCode=05020100"
+        },
+        {
+          "title": "2026년 화성교통안전체험교육센터 교육생 셔틀버스 임차 운영",
+          "date": "2026-01-16",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18935&menuCode=05020100"
+        },
+        {
+          "title": "연구교육용 자율주행(레벨2.5) 자동차 구매",
+          "date": "2025-10-31",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18901&menuCode=05020100"
+        },
+        {
+          "title": "교육용 전기승합자동차(11m급) 구매",
+          "date": "2025-08-29",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18866&menuCode=05020100"
+        },
+        {
+          "title": "UAM 핵심인재 양성 체계 및 교육기관 지정 기준 수립 용역",
+          "date": "2025-08-19",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18861&menuCode=05020100"
+        },
+        {
+          "title": "신비행체 인증·증명 교육 프로그램 및 미래인재 역량 강화 기술지식 보급",
+          "date": "2025-08-19",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18860&menuCode=05020100"
+        },
+        {
+          "title": "2025년 교육용 전기승합자동차(11m급) 구매",
+          "date": "2025-06-19",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18817&menuCode=05020100"
+        },
+        {
+          "title": "2025년 교육용 전기승합자동차(11m급) 구매",
+          "date": "2025-05-26",
+          "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=18793&menuCode=05020100"
+        }
+      ]
+    }
+  ]
+}

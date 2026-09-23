@@ -1,0 +1,2941 @@
+{
+  "version": "0.3",
+  "as_of": "2026-09-21",
+  "purpose": "TS 부서별 실제 업무목록 정리. 문제·솔루션 매핑은 후속 단계.",
+  "official_complete_duty_allocation": false,
+  "source_policy": "D1는 제공된 기존 정리문서, V계열은 이번 공식 웹 보강. 부서명에 근거한 역할 추정은 확정업무에서 제외.",
+  "id_policy": "ORG 코드는 v0.2 보존. WORK 코드는 이번 업무관리용 식별자이며 공식 업무번호가 아님. 기존 TS 컨셉번호와 구분.",
+  "departments": [
+    {
+      "id": "ORG-001",
+      "name": "AI미래전략실",
+      "parent_path": "본사 별도 조직",
+      "verified_core_examples": "AI 서비스 발굴, 제도·지침·윤리기준과 정책자문·전략기획을 공개자료에서 설명",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-001",
+          "task_name": "AI 서비스 발굴",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-001-01"
+        },
+        {
+          "department_id": "ORG-001",
+          "task_name": "AI 관련 제도·지침·윤리기준",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-001-02"
+        },
+        {
+          "department_id": "ORG-001",
+          "task_name": "AI 정책자문·전략기획",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-001-03"
+        }
+      ],
+      "unverified_check_topics": "실제 사업선정·승인권한, TF01·19와의 분담",
+      "legacy_source_ids": [
+        "U01",
+        "W04"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-002",
+      "name": "AI디지털실",
+      "parent_path": "기획본부",
+      "verified_core_examples": "AI 공통플랫폼·모델 고도화·품질관리·서비스 구축지원·성과관리의 실 단위 역할을 공개자료에서 설명",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-002",
+          "task_name": "AI 공통플랫폼",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-002-01"
+        },
+        {
+          "department_id": "ORG-002",
+          "task_name": "AI 모델 고도화·품질관리",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-002-02"
+        },
+        {
+          "department_id": "ORG-002",
+          "task_name": "AI 서비스 구축지원",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-002-03"
+        },
+        {
+          "department_id": "ORG-002",
+          "task_name": "AI 성과관리",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-002-04"
+        }
+      ],
+      "unverified_check_topics": "실 산하 처별 실행·전결·운영 분담",
+      "legacy_source_ids": [
+        "U01",
+        "W04"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-003",
+      "name": "디지털기획처",
+      "parent_path": "기획본부 > AI디지털실",
+      "verified_core_examples": "정보시스템 통합유지관리, 통합회원포털 관련 공개 담당 예시",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-003",
+          "task_name": "정보시스템 통합유지관리",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-003-01"
+        },
+        {
+          "department_id": "ORG-003",
+          "task_name": "통합회원포털 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-003-02"
+        }
+      ],
+      "unverified_check_topics": "클라우드·아키텍처·전사 정보화계획의 전체 분장과 TF14 경계",
+      "legacy_source_ids": [
+        "U01",
+        "W05"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-004",
+      "name": "AI혁신처",
+      "parent_path": "기획본부 > AI디지털실",
+      "verified_core_examples": "조직의 존재와 소속 확인. 실 단위 AI 역할과 별도로 구분",
+      "evidence_status": "조직 확인; 세부업무 미확정",
+      "full_duty_allocation_confirmed": false,
+      "duties": [],
+      "unverified_check_topics": "AI사업 실행·평가·운영의 실제 담당범위, TF27 및 CCK 현재사업과의 관계",
+      "legacy_source_ids": [
+        "U01",
+        "W01",
+        "W04"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-005",
+      "name": "정보보안처",
+      "parent_path": "기획본부 > AI디지털실",
+      "verified_core_examples": "공단 정보시스템 웹취약점 점검 관련 공개 담당 예시",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-005",
+          "task_name": "공단 정보시스템 웹취약점 점검",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-005-01"
+        }
+      ],
+      "unverified_check_topics": "접근권한·보안성 검토·개인정보·망 구성의 실질 결정 및 책임분장",
+      "legacy_source_ids": [
+        "U01",
+        "W05"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-006",
+      "name": "자동차정보처",
+      "parent_path": "기획본부 > AI디지털실",
+      "verified_core_examples": "자동차365 등록원부·등록증 등 발급·열람 민원 안내 담당",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-006",
+          "task_name": "자동차365 등록원부·등록증 등 발급·열람 민원 안내",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-006-01"
+        }
+      ],
+      "unverified_check_topics": "차세대 자동차관리정보시스템의 전체 원천·운영범위와 TF15 역할",
+      "legacy_source_ids": [
+        "U01",
+        "W06"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-007",
+      "name": "경영기획처",
+      "parent_path": "기획본부 > 기획조정실",
+      "verified_core_examples": "법무팀을 포함한 조직과 사규개정예고 관리 연결 확인",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-007",
+          "task_name": "사규개정예고 관리",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-007-01"
+        }
+      ],
+      "unverified_check_topics": "중장기 경영·법무검토·신규사업 심의·내부 규정의 전체 분장",
+      "legacy_source_ids": [
+        "U01",
+        "W01",
+        "W38"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-008",
+      "name": "예산처",
+      "parent_path": "기획본부 > 기획조정실",
+      "verified_core_examples": "조직명·소속 확인",
+      "evidence_status": "조직 확인; 상세업무 미확정",
+      "full_duty_allocation_confirmed": false,
+      "duties": [],
+      "unverified_check_topics": "예산 편성·조정·투자검토 및 사업별 결정권한은 내부자료 확인",
+      "legacy_source_ids": [
+        "U01",
+        "W01"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-009",
+      "name": "혁신성과처",
+      "parent_path": "기획본부 > 기획조정실",
+      "verified_core_examples": "자동차 기술인력 만족도조사 위탁 담당 예시가 공개됨",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-009",
+          "task_name": "자동차 기술인력 만족도조사 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-009-01"
+        }
+      ],
+      "unverified_check_topics": "기관 성과·혁신과제 관리·인센티브 업무범위",
+      "legacy_source_ids": [
+        "U01",
+        "W05"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-010",
+      "name": "ESG경영처",
+      "parent_path": "기획본부 > 기획조정실",
+      "verified_core_examples": "공공기관 고객만족도조사 위탁 담당의 공개 사례",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-010",
+          "task_name": "공공기관 고객만족도조사 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-010-01"
+        }
+      ],
+      "unverified_check_topics": "ESG·고객만족·CCM·피해자지원의 현재 실질 분장; 관련 TF의 주관 여부",
+      "legacy_source_ids": [
+        "U01",
+        "W05"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-011",
+      "name": "운영지원처",
+      "parent_path": "경영지원본부",
+      "verified_core_examples": "고객콜센터 운영·상담정보 관리와 복리후생 관련 위탁 예시",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-011",
+          "task_name": "고객콜센터 운영",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-011-01"
+        },
+        {
+          "department_id": "ORG-011",
+          "task_name": "상담정보 관리",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-011-02"
+        },
+        {
+          "department_id": "ORG-011",
+          "task_name": "복리후생 관련 위탁업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-011-03"
+        }
+      ],
+      "unverified_check_topics": "총무·노사·비상대응의 전체 분장, TF19·20 접점",
+      "legacy_source_ids": [
+        "U01",
+        "W05"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-012",
+      "name": "인재개발처",
+      "parent_path": "경영지원본부",
+      "verified_core_examples": "채용·직원 교육·모바일 사원증 관련 공개 업무 예시",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-012",
+          "task_name": "채용 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-012-01"
+        },
+        {
+          "department_id": "ORG-012",
+          "task_name": "직원교육 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-012-02"
+        },
+        {
+          "department_id": "ORG-012",
+          "task_name": "모바일 사원증 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-012-03"
+        }
+      ],
+      "unverified_check_topics": "인사·보수·노사 관련 TF의 실제 주관·기간·관계",
+      "legacy_source_ids": [
+        "U01",
+        "W05"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-013",
+      "name": "재정회계처",
+      "parent_path": "경영지원본부",
+      "verified_core_examples": "수수료 수납 위탁 관련 공개 사례",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-013",
+          "task_name": "수수료 수납 관련 위탁업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-013-01"
+        }
+      ],
+      "unverified_check_topics": "계약·구매·지출·정산과 전결권한의 현재 분장",
+      "legacy_source_ids": [
+        "U01",
+        "W05"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-014",
+      "name": "자산인프라처",
+      "parent_path": "경영지원본부",
+      "verified_core_examples": "자산관리팀을 포함한 조직명·소속 확인",
+      "evidence_status": "조직 확인; 상세업무 미확정",
+      "full_duty_allocation_confirmed": false,
+      "duties": [],
+      "unverified_check_topics": "부지·건립·유지관리·임대의 실질 담당범위, 사업별 시설 총괄",
+      "legacy_source_ids": [
+        "U01",
+        "W01"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-015",
+      "name": "대외협력실",
+      "parent_path": "본사 별도 조직",
+      "verified_core_examples": "대표 홈페이지 회원정보 및 사보 제작·발송 관련 공개 담당 예시",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-015",
+          "task_name": "대표 홈페이지 회원정보 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-015-01"
+        },
+        {
+          "department_id": "ORG-015",
+          "task_name": "사보 제작·발송 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-015-02"
+        }
+      ],
+      "unverified_check_topics": "보도·국제협력·ODA의 사업별 분장; 게시판 관리자를 사업 주관자로 해석하지 않음",
+      "legacy_source_ids": [
+        "U01",
+        "W05"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-016",
+      "name": "안전보건실",
+      "parent_path": "본사 별도 조직",
+      "verified_core_examples": "조직명 확인",
+      "evidence_status": "조직 확인; 상세업무 미확정",
+      "full_duty_allocation_confirmed": false,
+      "duties": [],
+      "unverified_check_topics": "공단 사업장 안전·보건·재난 대응의 실제 분장 및 TF28 접점",
+      "legacy_source_ids": [
+        "U01",
+        "W01"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-017",
+      "name": "감사실(감사처)",
+      "parent_path": "본사 감사 조직",
+      "verified_core_examples": "공식 조직은 감사실(감사처)로 표시. 청렴도조사 관련 공개 예시",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-017",
+          "task_name": "청렴도조사 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-017-01"
+        }
+      ],
+      "unverified_check_topics": "감사·청렴·이해충돌·상시감사 AI의 계약 및 권한범위",
+      "legacy_source_ids": [
+        "U01",
+        "W01",
+        "W05"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-018",
+      "name": "모빌리티연구처",
+      "parent_path": "모빌리티교통안전본부 > 모빌리티연구실",
+      "verified_core_examples": "교통문화지수 조사, RIMS 운전자격확인 정보·시스템 관련 공개 담당",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-018",
+          "task_name": "교통문화지수 실태조사",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-018-01"
+        },
+        {
+          "department_id": "ORG-018",
+          "task_name": "버스정보시스템(BIS) 관련 업무",
+          "source_ids": [
+            "V06"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": null,
+          "activity": "버스운행정보를 수집하고 도착정보 등을 제공",
+          "output": "버스운행·도착정보",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": null,
+          "work_id": "WORK-018-02"
+        },
+        {
+          "department_id": "ORG-018",
+          "task_name": "택시운행정보관리시스템(TIMS) 정보 수집·분석·제공",
+          "source_ids": [
+            "V07"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": "운행기록장치·택시요금미터 정보",
+          "activity": "운행기록장치와 택시요금미터 정보를 수집·분석·제공",
+          "output": "택시운행·경영·위치 관련 분석정보",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": null,
+          "work_id": "WORK-018-03"
+        },
+        {
+          "department_id": "ORG-018",
+          "task_name": "앱미터 제작검정·수리검정·사용검정",
+          "source_ids": [
+            "V08"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": null,
+          "activity": "기능 증빙·주행데이터 등을 검토하고 검정 결과를 확인",
+          "output": "검정 결과·검정 확인서",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": null,
+          "work_id": "WORK-018-04"
+        },
+        {
+          "department_id": "ORG-018",
+          "task_name": "RIMS 운전자격확인·대여이력 관리",
+          "source_ids": [
+            "V10"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": null,
+          "activity": "임차인 운전면허증 유효성·진위 확인과 대여이력 관리",
+          "output": "운전자격 확인결과·대여이력",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": null,
+          "work_id": "WORK-018-05"
+        },
+        {
+          "department_id": "ORG-018",
+          "task_name": "RIMS 사업자·차량정보 관리",
+          "source_ids": [
+            "V10"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": null,
+          "activity": "대여사업자의 현황정보와 차량정보를 관리",
+          "output": "사업자·차량 관리정보",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": null,
+          "work_id": "WORK-018-06"
+        },
+        {
+          "department_id": "ORG-018",
+          "task_name": "전세버스 교통안전정보 공시",
+          "source_ids": [
+            "V11"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": null,
+          "activity": "자료요청·검증·수정, 현장실사 협조, 예비공시·본공시 절차",
+          "output": "공시 등급·점수",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": null,
+          "work_id": "WORK-018-07"
+        },
+        {
+          "department_id": "ORG-018",
+          "task_name": "전세버스 교통안전통보서 발급·진위확인 서비스",
+          "source_ids": [
+            "V11"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": null,
+          "activity": null,
+          "output": "교통안전통보서·진위확인 결과",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": null,
+          "work_id": "WORK-018-08"
+        }
+      ],
+      "unverified_check_topics": "전세버스 공시 포함 현재 분장·기존 CCK 범위; 운수종사자관리와 RIMS 구분",
+      "legacy_source_ids": [
+        "U01",
+        "W10",
+        "W05"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-019",
+      "name": "데이터융복합처",
+      "parent_path": "모빌리티교통안전본부 > 모빌리티연구실",
+      "verified_core_examples": "TMACS 교통안전정보의 수집·정제·표준화·통합·분석",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-019",
+          "task_name": "교통사고·교통안전정보 수집",
+          "source_ids": [
+            "V04"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": null,
+          "activity": "교통사고자료와 교통안전정보 수집",
+          "output": "수집된 교통안전자료",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": "교통안전정보관리시스템(TMACS)",
+          "work_id": "WORK-019-01"
+        },
+        {
+          "department_id": "ORG-019",
+          "task_name": "오류 데이터 정제·표준화",
+          "source_ids": [
+            "V04"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": null,
+          "activity": "오류 정제와 데이터 표준화",
+          "output": "정제·표준화된 자료",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": "교통안전정보관리시스템(TMACS)",
+          "work_id": "WORK-019-02"
+        },
+        {
+          "department_id": "ORG-019",
+          "task_name": "교통안전 통합자료 분석",
+          "source_ids": [
+            "V04"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": null,
+          "activity": "지자체·운수업체·종사자 정보를 통합하여 분석",
+          "output": "교통안전 분석정보",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": "교통안전정보관리시스템(TMACS)",
+          "work_id": "WORK-019-03"
+        },
+        {
+          "department_id": "ORG-019",
+          "task_name": "사고다발지점 추출·교통안전정보 제공",
+          "source_ids": [
+            "V04"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": null,
+          "activity": "사고다발지점 추출 및 관련 분석·정책 기초자료 제공",
+          "output": "사고다발지점·정책 기초자료",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": "교통안전정보관리시스템(TMACS)",
+          "work_id": "WORK-019-04"
+        },
+        {
+          "department_id": "ORG-019",
+          "task_name": "위험운전행동 비교분석",
+          "source_ids": [
+            "V05"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": null,
+          "activity": "회사·운전자·차량별 횟수와 운행거리당 횟수를 비교",
+          "output": "위험운전 비교분석",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": "운행기록분석시스템(ETAS)",
+          "work_id": "WORK-019-05"
+        },
+        {
+          "department_id": "ORG-019",
+          "task_name": "시간·지도 기반 운행기록 분석",
+          "source_ids": [
+            "V05"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": null,
+          "activity": "시간대·요일·교통사고지점 등과 교차분석",
+          "output": "운행기록 분석정보",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": "운행기록분석시스템(ETAS)",
+          "work_id": "WORK-019-06"
+        },
+        {
+          "department_id": "ORG-019",
+          "task_name": "교육 전후 비교·종합진단표 제공",
+          "source_ids": [
+            "V05"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": null,
+          "activity": "교육 전후 비교를 지원하고 개인·업체 종합진단표 제공",
+          "output": "비교정보·종합진단표",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": "운행기록분석시스템(ETAS)",
+          "work_id": "WORK-019-07"
+        },
+        {
+          "department_id": "ORG-019",
+          "task_name": "K-패스 대중교통비 환급 지원사업",
+          "source_ids": [
+            "V09"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": null,
+          "activity": "이용절차와 환급비용 지급기준 등을 안내하는 해당 사업 담당",
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": null,
+          "work_id": "WORK-019-08"
+        }
+      ],
+      "unverified_check_topics": "ETAS 등 시스템별 자료주체와 TAGO·기타 시스템의 정확한 담당; 모든 데이터 총괄로 확대 금지",
+      "legacy_source_ids": [
+        "U01",
+        "W07"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-020",
+      "name": "교통안전처",
+      "parent_path": "모빌리티교통안전본부 > 교통안전정책실",
+      "verified_core_examples": "교통수단 안전점검, 운수종사자 관리 관련 공개 업무",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-020",
+          "task_name": "운수회사 관리규정 제출 접수",
+          "source_ids": [
+            "V01"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": "교통안전관리규정",
+          "activity": "운수회사가 작성·제출한 관리규정을 받음",
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": "교통안전관리규정",
+          "work_id": "WORK-020-01"
+        },
+        {
+          "department_id": "ORG-020",
+          "task_name": "관리규정 적정성 검토·결과 통보",
+          "source_ids": [
+            "V01"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": "제출된 관리규정",
+          "activity": "규정 적정성을 검토하고 운수회사·교통행정기관에 통보",
+          "output": "적합·조건부적합·부적합 검토결과",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": "교통안전관리규정",
+          "work_id": "WORK-020-02"
+        },
+        {
+          "department_id": "ORG-020",
+          "task_name": "관리규정 이행여부 확인·평가",
+          "source_ids": [
+            "V01"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": null,
+          "activity": "규정의 실제 이행 여부 확인·평가",
+          "output": "이행 확인·평가 결과",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": "교통안전관리규정",
+          "work_id": "WORK-020-03"
+        },
+        {
+          "department_id": "ORG-020",
+          "task_name": "연간·분기 점검계획 수립 및 점검대상 선정",
+          "source_ids": [
+            "V02"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": null,
+          "activity": "점검계획을 수립하고 대상 운수회사를 선정",
+          "output": "점검계획·선정대상",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": "교통수단안전점검",
+          "work_id": "WORK-020-04"
+        },
+        {
+          "department_id": "ORG-020",
+          "task_name": "점검 실시 통보 및 서류·현장점검",
+          "source_ids": [
+            "V02"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": null,
+          "activity": "운수회사에 점검 실시를 알리고 서류 및 현장점검 수행",
+          "output": "점검결과",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": "교통수단안전점검",
+          "work_id": "WORK-020-05"
+        },
+        {
+          "department_id": "ORG-020",
+          "task_name": "점검결과·조치결과·연간 결과 보고",
+          "source_ids": [
+            "V02"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": null,
+          "activity": "점검결과·조치결과와 연간 종합분석을 보고",
+          "output": "결과·조치·연간 보고",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": "교통수단안전점검",
+          "work_id": "WORK-020-06"
+        },
+        {
+          "department_id": "ORG-020",
+          "task_name": "개선조치 이행 확인 및 사후관리",
+          "source_ids": [
+            "V02"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": null,
+          "activity": "점검결과의 개선조치 이행 여부 확인과 정기적인 교통안전관리",
+          "output": "개선조치 확인결과",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": "교통수단안전점검",
+          "work_id": "WORK-020-07"
+        },
+        {
+          "department_id": "ORG-020",
+          "task_name": "운수종사자 운전자격 관련 자료 관리",
+          "source_ids": [
+            "V03"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": "운전자격 관련 자료",
+          "activity": "운수종사자 운전자격 자료를 체계적으로 관리하여 안전정책 자료로 활용",
+          "output": "운수종사자 관리정보",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": null,
+          "work_id": "WORK-020-08"
+        }
+      ],
+      "unverified_check_topics": "본사 기준·지역 현장·처분기관 간 관계와 현재 이행평가 중복",
+      "legacy_source_ids": [
+        "U01",
+        "W08",
+        "W05"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-021",
+      "name": "자격교육처",
+      "parent_path": "모빌리티교통안전본부 > 교통안전정책실",
+      "verified_core_examples": "도로분야 자격·운전적성정밀검사·체험교육 관련 업무",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-021",
+          "task_name": "도로분야 자격 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-021-01"
+        },
+        {
+          "department_id": "ORG-021",
+          "task_name": "운전적성정밀검사 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-021-02"
+        },
+        {
+          "department_id": "ORG-021",
+          "task_name": "교통안전체험교육 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-021-03"
+        },
+        {
+          "department_id": "ORG-021",
+          "task_name": "교통안전관리자 자격시험",
+          "source_ids": [
+            "V12"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": null,
+          "activity": "응시조건 확인, 시험접수·시험·합격 이후 자격증 신청·발급 절차",
+          "output": "시험결과·자격증",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": null,
+          "work_id": "WORK-021-04"
+        }
+      ],
+      "unverified_check_topics": "교육센터의 현장 운영·장비관리 분장; 철도·항공 자격까지 총괄한다고 확대 금지",
+      "legacy_source_ids": [
+        "U01",
+        "W09",
+        "W05"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-022",
+      "name": "기후탄소물류처",
+      "parent_path": "모빌리티교통안전본부 > 교통안전정책실",
+      "verified_core_examples": "FPIS 구축·운영·관리, 위험물질 운송안전 관리의 공개 담당",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-022",
+          "task_name": "화물운송실적관리시스템(FPIS) 구축·운영·관리",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-022-01"
+        },
+        {
+          "department_id": "ORG-022",
+          "task_name": "위험물질 운송안전 관리",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-022-02"
+        }
+      ],
+      "unverified_check_topics": "탄소중립정책팀의 구체 사업 및 TF02·17의 실제 주관·연계",
+      "legacy_source_ids": [
+        "U01",
+        "W11",
+        "W05"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-023",
+      "name": "정책지원처",
+      "parent_path": "모빌리티교통안전본부 > 모빌리티지원센터",
+      "verified_core_examples": "대중교통현황조사 담당; 모빌리티지원센터 정책지원 관련 공개자료",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-023",
+          "task_name": "대중교통현황조사",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-023-01"
+        },
+        {
+          "department_id": "ORG-023",
+          "task_name": "모빌리티 정책지원 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-023-02"
+        }
+      ],
+      "unverified_check_topics": "첨단모빌리티 조사·개선계획의 세부 처리와 실증·규제부서의 경계",
+      "legacy_source_ids": [
+        "U01",
+        "W12"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-024",
+      "name": "규제혁신처",
+      "parent_path": "모빌리티교통안전본부 > 모빌리티지원센터",
+      "verified_core_examples": "모빌리티 규제샌드박스 신청·심의지원·사업관리 관련 공개 업무",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-024",
+          "task_name": "모빌리티 규제샌드박스 신청 지원",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-024-01"
+        },
+        {
+          "department_id": "ORG-024",
+          "task_name": "모빌리티 규제샌드박스 심의 지원",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-024-02"
+        },
+        {
+          "department_id": "ORG-024",
+          "task_name": "모빌리티 규제샌드박스 사업관리",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-024-03"
+        }
+      ],
+      "unverified_check_topics": "최종 심의·허가권자, 사후관리 책임과 TF13·16 관계",
+      "legacy_source_ids": [
+        "U01",
+        "W13"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-025",
+      "name": "실증사업처",
+      "parent_path": "모빌리티교통안전본부 > 모빌리티지원센터",
+      "verified_core_examples": "도로시설안전진단 교육 담당, 2024년 도로진단 결과평가 위원 공고 문의처",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-025",
+          "task_name": "도로교통시설안전진단 교육",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-025-01"
+        },
+        {
+          "department_id": "ORG-025",
+          "task_name": "도로 분야 진단 실시결과 평가 관련 업무(과거 공고 연결)",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-025-02"
+        }
+      ],
+      "unverified_check_topics": "현재 도로평가·특별실태조사·모빌리티 실증별 전체분장; 자율주행실증처와 별도 조직",
+      "legacy_source_ids": [
+        "U01",
+        "W14",
+        "W15"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-026",
+      "name": "검사기획처",
+      "parent_path": "자동차검사본부 > 검사전략실",
+      "verified_core_examples": "정기검사 제도·업무안내 담당",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-026",
+          "task_name": "자동차 정기검사 제도·업무 안내",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-026-01"
+        }
+      ],
+      "unverified_check_topics": "검사종류·현장기준·이륜차·서비스개선 관련 전체분장과 TF12·21",
+      "legacy_source_ids": [
+        "U01",
+        "W16"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-027",
+      "name": "특수검사처",
+      "parent_path": "자동차검사본부 > 검사전략실",
+      "verified_core_examples": "내압용기 재검사·기기정도검사 안내 담당",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-027",
+          "task_name": "내압용기 재검사 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-027-01"
+        },
+        {
+          "department_id": "ORG-027",
+          "task_name": "기기정도검사 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-027-02"
+        }
+      ],
+      "unverified_check_topics": "시설 건립총괄과 검사 운영수요를 분리; 개별 수소센터 사업범위 확인",
+      "legacy_source_ids": [
+        "U01",
+        "W17",
+        "W18"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-028",
+      "name": "주차안전처",
+      "parent_path": "자동차검사본부 > 검사전략실",
+      "verified_core_examples": "기계식주차장 검사 담당",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-028",
+          "task_name": "기계식주차장치 설계서 안전도 심사",
+          "source_ids": [
+            "V13"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": "기계식주차장 설계서",
+          "activity": "설계서의 성능과 안전도를 심사",
+          "output": "심사·검사결과",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": null,
+          "work_id": "WORK-028-01"
+        },
+        {
+          "department_id": "ORG-028",
+          "task_name": "기계식주차장 사용검사",
+          "source_ids": [
+            "V13"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": "설치시설·설계서",
+          "activity": "설치 후 설계서와의 일치 여부 검사",
+          "output": "심사·검사결과",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": null,
+          "work_id": "WORK-028-02"
+        },
+        {
+          "department_id": "ORG-028",
+          "task_name": "기계식주차장 정기검사",
+          "source_ids": [
+            "V13"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": "검사대상 시설",
+          "activity": "주기적으로 안전·성능 관련 검사를 실시",
+          "output": "심사·검사결과",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": null,
+          "work_id": "WORK-028-03"
+        },
+        {
+          "department_id": "ORG-028",
+          "task_name": "기계식주차장 정밀안전검사",
+          "source_ids": [
+            "V13"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": "정밀검사 대상 시설",
+          "activity": "노후·중대한 사고 등 해당 검사대상 시설의 정밀검사",
+          "output": "심사·검사결과",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": null,
+          "work_id": "WORK-028-04"
+        },
+        {
+          "department_id": "ORG-028",
+          "task_name": "기계식주차장 수시검사",
+          "source_ids": [
+            "V13"
+          ],
+          "evidence_level": "공식 업무안내 추가 확인",
+          "input": "변경된 시설·부품",
+          "activity": "주요 구동부 변경 등 해당 사유의 검사",
+          "output": "심사·검사결과",
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "공식 페이지의 사업·서비스 설명과 담당부서 표기 기준",
+          "parent_task": null,
+          "work_id": "WORK-028-05"
+        }
+      ],
+      "unverified_check_topics": "보험연계 등 이미 진행한 개선범위와 현재 잔여문제",
+      "legacy_source_ids": [
+        "U01",
+        "W19"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-029",
+      "name": "첨단검사전략처",
+      "parent_path": "자동차검사본부 > 첨단자동차검사연구센터",
+      "verified_core_examples": "검사용 진단기·첨단기술개발 업무 안내 담당",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-029",
+          "task_name": "검사용 진단기 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-029-01"
+        },
+        {
+          "department_id": "ORG-029",
+          "task_name": "첨단검사기술 개발",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-029-02"
+        }
+      ],
+      "unverified_check_topics": "검사전략·기술교육·장비보급의 상세분장; 이름만 보고 기획만 맡는다고 축소하지 않음",
+      "legacy_source_ids": [
+        "U01",
+        "W20"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-030",
+      "name": "첨단연구개발처",
+      "parent_path": "자동차검사본부 > 첨단자동차검사연구센터",
+      "verified_core_examples": "수소·전기차 등 첨단차 검사장비·검사기술 연구개발 안내",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-030",
+          "task_name": "수소·전기차 등 첨단차 검사장비 연구개발",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-030-01"
+        },
+        {
+          "department_id": "ORG-030",
+          "task_name": "첨단차 검사기술 연구개발",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-030-02"
+        }
+      ],
+      "unverified_check_topics": "KATRI 제작차 안전연구와 운행차 검사기술의 연구범위 경계",
+      "legacy_source_ids": [
+        "U01",
+        "W21"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-031",
+      "name": "AI검사인프라처",
+      "parent_path": "자동차검사본부 > 첨단자동차검사연구센터",
+      "verified_core_examples": "자동차검사관리·예약·안내발송·결제 관련 공개 담당",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-031",
+          "task_name": "자동차검사관리 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-031-01"
+        },
+        {
+          "department_id": "ORG-031",
+          "task_name": "자동차검사 예약정보 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-031-02"
+        },
+        {
+          "department_id": "ORG-031",
+          "task_name": "검사 안내발송 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-031-03"
+        },
+        {
+          "department_id": "ORG-031",
+          "task_name": "자동차검사 예약 결제 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-031-04"
+        }
+      ],
+      "unverified_check_topics": "예약 API·개인정보 이용권한, TF21과 AI 공통플랫폼의 분담",
+      "legacy_source_ids": [
+        "U01",
+        "W05"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-032",
+      "name": "기술안전처",
+      "parent_path": "자동차검사본부 > 튜닝안전기술원",
+      "verified_core_examples": "TS튜닝알리고의 정보·거래·기술지원 안내 담당",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-032",
+          "task_name": "TS튜닝알리고 정보·거래·기술지원",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-032-01"
+        }
+      ],
+      "unverified_check_topics": "안전단속·기업지원·ODA 등 나머지 기능의 실제 분장",
+      "legacy_source_ids": [
+        "U01",
+        "W22"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-033",
+      "name": "시험인증처",
+      "parent_path": "자동차검사본부 > 튜닝안전기술원",
+      "verified_core_examples": "튜닝부품 안전확인과 시험 예약·문의 담당",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-033",
+          "task_name": "튜닝부품 안전확인",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-033-01"
+        },
+        {
+          "department_id": "ORG-033",
+          "task_name": "시험 예약·문의",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-033-02"
+        }
+      ],
+      "unverified_check_topics": "시험 분야·장비·결과 인정·견적·시스템 역할",
+      "legacy_source_ids": [
+        "U01",
+        "W23"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-034",
+      "name": "기술승인처",
+      "parent_path": "자동차검사본부 > 튜닝안전기술원",
+      "verified_core_examples": "자동차 튜닝승인제도와 세부 업무규정 안내 담당",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-034",
+          "task_name": "자동차 튜닝승인제도 안내",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-034-01"
+        },
+        {
+          "department_id": "ORG-034",
+          "task_name": "튜닝 세부 업무규정 안내",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-034-02"
+        }
+      ],
+      "unverified_check_topics": "부품 안전확인과 개별 차량 튜닝승인의 적용관계",
+      "legacy_source_ids": [
+        "U01",
+        "W24"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-035",
+      "name": "항공안전처",
+      "parent_path": "항공철도안전본부 > 항공안전실",
+      "verified_core_examples": "항공안전자율보고 담당",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-035",
+          "task_name": "항공안전자율보고 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-035-01"
+        }
+      ],
+      "unverified_check_topics": "항공보안·표시등·교육 등 업무별 전체범위와 기존 항공 AI 개선의 중복",
+      "legacy_source_ids": [
+        "U01",
+        "W25"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-036",
+      "name": "항공자격처",
+      "parent_path": "항공철도안전본부 > 항공안전실",
+      "verified_core_examples": "항공종사자·경량항공기 조종사 자격증명시험 담당",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-036",
+          "task_name": "항공종사자 자격증명시험",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-036-01"
+        },
+        {
+          "department_id": "ORG-036",
+          "task_name": "경량항공기 조종사 자격증명시험",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-036-02"
+        }
+      ],
+      "unverified_check_topics": "자격분야별 신청·시험·면제·증명 책임",
+      "legacy_source_ids": [
+        "U01",
+        "W26"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-037",
+      "name": "드론관리처",
+      "parent_path": "항공철도안전본부 > 항공안전실",
+      "verified_core_examples": "초경량비행장치 기체신고, 드론 정보통합·원스톱 관련 공개 담당",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-037",
+          "task_name": "초경량비행장치 기체신고",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-037-01"
+        },
+        {
+          "department_id": "ORG-037",
+          "task_name": "드론 정보통합·원스톱 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-037-02"
+        }
+      ],
+      "unverified_check_topics": "교육기관·사용사업·자격센터와의 상세 분장, TF22와의 관계",
+      "legacy_source_ids": [
+        "U01",
+        "W27",
+        "W05"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-038",
+      "name": "도심항공정책처",
+      "parent_path": "항공철도안전본부 > 항공안전실",
+      "verified_core_examples": "UAM 정책·제도지원, 기반자료·연구·협력 등의 공개 안내",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-038",
+          "task_name": "도심항공교통(UAM) 정책·제도 지원",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-038-01"
+        },
+        {
+          "department_id": "ORG-038",
+          "task_name": "UAM 기반자료·연구·협력 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-038-02"
+        }
+      ],
+      "unverified_check_topics": "사업위탁·지원 TF05의 실제 위탁범위와 유지운영 주체",
+      "legacy_source_ids": [
+        "U01",
+        "W28"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-039",
+      "name": "철도안전처",
+      "parent_path": "항공철도안전본부 > 철도안전실",
+      "verified_core_examples": "철도안전 사업소개·종사자 자격정보 관련 공개 담당",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-039",
+          "task_name": "철도안전 사업소개 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-039-01"
+        },
+        {
+          "department_id": "ORG-039",
+          "task_name": "철도종사자 자격정보 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-039-02"
+        }
+      ],
+      "unverified_check_topics": "정비조직·안전정보·평가 등 세부 업무별 담당과 타 처의 경계",
+      "legacy_source_ids": [
+        "U01",
+        "W29",
+        "W05"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-040",
+      "name": "철도승인처",
+      "parent_path": "항공철도안전본부 > 철도안전실",
+      "verified_core_examples": "철도안전관리체계 승인제도 및 기존 형식승인 업무의 확인창구",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-040",
+          "task_name": "철도안전관리체계 승인제도",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-040-01"
+        },
+        {
+          "department_id": "ORG-040",
+          "task_name": "철도 차량·용품 형식승인 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-040-02"
+        }
+      ],
+      "unverified_check_topics": "관리체계 승인과 차량·용품 형식승인·제작자승인의 세부 사건별 권한",
+      "legacy_source_ids": [
+        "U01",
+        "W30"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-041",
+      "name": "철도검사처",
+      "parent_path": "항공철도안전본부 > 철도안전실",
+      "verified_core_examples": "GTX-A 철도안전관리체계 정기검사 보도자료의 업무담당",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-041",
+          "task_name": "철도안전관리체계 정기검사(공개 수행사례)",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-041-01"
+        }
+      ],
+      "unverified_check_topics": "승인 이후 유지상태 검사와 다른 검사·행정처분의 분담",
+      "legacy_source_ids": [
+        "U01",
+        "W31"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    },
+    {
+      "id": "ORG-042",
+      "name": "철도기술처",
+      "parent_path": "항공철도안전본부 > 철도안전실",
+      "verified_core_examples": "철도종합시험운행 결과검토, 기존 역사 이용편의 평가 연결",
+      "evidence_status": "공개 핵심업무 확인",
+      "full_duty_allocation_confirmed": false,
+      "duties": [
+        {
+          "department_id": "ORG-042",
+          "task_name": "철도종합시험운행 결과검토",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-042-01"
+        },
+        {
+          "department_id": "ORG-042",
+          "task_name": "철도역사 안전·이용편의 수준평가 관련 업무",
+          "source_ids": [
+            "D1"
+          ],
+          "evidence_level": "기존 정리문서 수록 업무",
+          "input": null,
+          "activity": null,
+          "output": null,
+          "actual_executor": null,
+          "final_approver": null,
+          "source_detail": "기존 문서 §3의 공개 확인 업무에서 추출. 확인 요청사항을 확정업무로 전환하지 않음.",
+          "parent_task": null,
+          "work_id": "WORK-042-02"
+        }
+      ],
+      "unverified_check_topics": "철도시설진단·결과평가·현장 개선별 역할, 운영기관과의 분담",
+      "legacy_source_ids": [
+        "U01",
+        "W32"
+      ],
+      "upstream_ministry_or_agency": null,
+      "upstream_assignment_status": "업무별 근거 확인 후 기입"
+    }
+  ],
+  "katri_pending": [
+    {
+      "name": "연구기획처",
+      "parent": "연구기획실",
+      "status": "조직명·소속 확인 / 부서별 세부업무 미확인",
+      "duties": [],
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "현행 업무분장·부서별 업무계획·공식 수행자료"
+    },
+    {
+      "name": "연구지원처",
+      "parent": "연구기획실",
+      "status": "조직명·소속 확인 / 부서별 세부업무 미확인",
+      "duties": [],
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "현행 업무분장·부서별 업무계획·공식 수행자료"
+    },
+    {
+      "name": "결함정책처",
+      "parent": "결함조사본부",
+      "status": "조직명·소속 확인 / 부서별 세부업무 미확인",
+      "duties": [],
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "현행 업무분장·부서별 업무계획·공식 수행자료"
+    },
+    {
+      "name": "결함조사1처",
+      "parent": "결함조사본부",
+      "status": "조직명·소속 확인 / 부서별 세부업무 미확인",
+      "duties": [],
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "현행 업무분장·부서별 업무계획·공식 수행자료"
+    },
+    {
+      "name": "결함조사2처",
+      "parent": "결함조사본부",
+      "status": "조직명·소속 확인 / 부서별 세부업무 미확인",
+      "duties": [],
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "현행 업무분장·부서별 업무계획·공식 수행자료"
+    },
+    {
+      "name": "안전연구처",
+      "parent": "미래차연구본부",
+      "status": "조직명·소속 확인 / 부서별 세부업무 미확인",
+      "duties": [],
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "현행 업무분장·부서별 업무계획·공식 수행자료"
+    },
+    {
+      "name": "미래차연구처",
+      "parent": "미래차연구본부",
+      "status": "조직명·소속 확인 / 부서별 세부업무 미확인",
+      "duties": [],
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "현행 업무분장·부서별 업무계획·공식 수행자료"
+    },
+    {
+      "name": "부품연구처",
+      "parent": "미래차연구본부",
+      "status": "조직명·소속 확인 / 부서별 세부업무 미확인",
+      "duties": [],
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "현행 업무분장·부서별 업무계획·공식 수행자료"
+    },
+    {
+      "name": "광주친환경자동차인증센터",
+      "parent": "미래차연구본부",
+      "status": "조직명·소속 확인 / 부서별 세부업무 미확인",
+      "duties": [],
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "현행 업무분장·부서별 업무계획·공식 수행자료"
+    },
+    {
+      "name": "홍성자동차부품인증지원센터",
+      "parent": "미래차연구본부",
+      "status": "조직명·소속 확인 / 부서별 세부업무 미확인",
+      "duties": [],
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "현행 업무분장·부서별 업무계획·공식 수행자료"
+    },
+    {
+      "name": "자율주행연구처",
+      "parent": "자율주행본부",
+      "status": "조직명·소속 확인 / 부서별 세부업무 미확인",
+      "duties": [],
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "현행 업무분장·부서별 업무계획·공식 수행자료"
+    },
+    {
+      "name": "커넥티드카연구처",
+      "parent": "자율주행본부",
+      "status": "조직명·소속 확인 / 부서별 세부업무 미확인",
+      "duties": [],
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "현행 업무분장·부서별 업무계획·공식 수행자료"
+    },
+    {
+      "name": "자율주행실증처",
+      "parent": "자율주행본부",
+      "status": "조직명·소속 확인 / 부서별 세부업무 미확인",
+      "duties": [],
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "현행 업무분장·부서별 업무계획·공식 수행자료"
+    },
+    {
+      "name": "안전기준 국제화센터",
+      "parent": "인증정책본부",
+      "status": "조직명·소속 확인 / 부서별 세부업무 미확인",
+      "duties": [],
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "현행 업무분장·부서별 업무계획·공식 수행자료"
+    },
+    {
+      "name": "자동차인증처",
+      "parent": "인증정책본부",
+      "status": "조직명·소속 확인 / 부서별 세부업무 미확인",
+      "duties": [],
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "현행 업무분장·부서별 업무계획·공식 수행자료"
+    },
+    {
+      "name": "건설기계인증처",
+      "parent": "인증정책본부",
+      "status": "조직명·소속 확인 / 부서별 세부업무 미확인",
+      "duties": [],
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "현행 업무분장·부서별 업무계획·공식 수행자료"
+    },
+    {
+      "name": "특장차인증센터",
+      "parent": "인증정책본부",
+      "status": "조직명·소속 확인 / 부서별 세부업무 미확인",
+      "duties": [],
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "현행 업무분장·부서별 업무계획·공식 수행자료"
+    },
+    {
+      "name": "자동차안전하자 심의위원회사무국",
+      "parent": "별도 사무국",
+      "status": "조직명·소속 확인 / 부서별 세부업무 미확인",
+      "duties": [],
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "현행 업무분장·부서별 업무계획·공식 수행자료"
+    },
+    {
+      "name": "자율주행자동차 사고조사위원회사무국",
+      "parent": "별도 사무국",
+      "status": "조직명·소속 확인 / 부서별 세부업무 미확인",
+      "duties": [],
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "현행 업무분장·부서별 업무계획·공식 수행자료"
+    }
+  ],
+  "field_nodes_pending": [
+    "지역본부",
+    "상주교통안전체험교육센터",
+    "화성교통안전체험교육센터",
+    "화성드론자격센터",
+    "김천드론자격센터",
+    "시흥드론교육센터"
+  ],
+  "unassigned_public_services": [
+    {
+      "name": "국가대중교통정보센터(TAGO)",
+      "source_ids": [
+        "V14"
+      ],
+      "status": "업무안내 열람; 부서 명시 미확인"
+    },
+    {
+      "name": "운수안전컨설팅지원시스템(COSAS)",
+      "source_ids": [
+        "V15"
+      ],
+      "status": "업무안내 열람; 이 페이지에서 부서 명시 미확인"
+    }
+  ],
+  "tf_pending": [
+    {
+      "id": "TF-01",
+      "registered_name": "TS 국정과제 추진위원회",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-02",
+      "registered_name": "물류정보 통합연계 플랫폼 연구개발 TFT",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-03",
+      "registered_name": "전기자동차 화재 대응 합동추진단",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-04",
+      "registered_name": "수소전기차 안전인증센터 장비구축 사업 TF",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-05",
+      "registered_name": "도심항공교통 사업위탁·지원 추진단(TFT)",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-06",
+      "registered_name": "레벨4 자율주행차 성능인증제 지원 TF",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-07",
+      "registered_name": "소비자중심경영(CCM) 인증 추진 TF팀",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-08",
+      "registered_name": "인사보수제도 개선 TFT",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-09",
+      "registered_name": "노사합동 근로조건 개선 추진단(TF)",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-10",
+      "registered_name": "GTX-A(수서~동탄) 개통 T/F",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-11",
+      "registered_name": "몽골 자동차 검사역량 강화 공공협력사업 TFT",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-12",
+      "registered_name": "이륜자동차 안전도 검사 도입 T/F",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-13",
+      "registered_name": "자동차 규제개선 대책 T/F",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-14",
+      "registered_name": "정보시스템 클라우드 이전 및 유지보수 추진단",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-15",
+      "registered_name": "차세대 자동차관리정보시스템 구축 추진단(TF)",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-16",
+      "registered_name": "국민체감 자동차 규제개선 대책 고도화 T/F",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-17",
+      "registered_name": "수송부문 탄소감축 사업 T/F",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-18",
+      "registered_name": "TS 사회적 위기대응 노사합동 추진단",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-19",
+      "registered_name": "대국민 체감형 서비스 개선 추진단",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-20",
+      "registered_name": "피해자지원사업 업무 안정화를 위한 TF 구성",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-21",
+      "registered_name": "자동차검사 서비스 개선 추진 TF",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-22",
+      "registered_name": "가나 드론분야 ODA 사업 추진단(TFT)",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-23",
+      "registered_name": "노사협력 인사·보수제도 혁신 추진단(TFT)",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-24",
+      "registered_name": "김제특장차검사지원센터 개소 준비 TFT",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-25",
+      "registered_name": "자율주행 실증지원 추진단 TF",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-26",
+      "registered_name": "철도안전관리체계 고도화 추진 T/F",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-27",
+      "registered_name": "업무지원분야 AI 시스템 구축 TF",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    },
+    {
+      "id": "TF-28",
+      "registered_name": "중동 상황 비상대응 TF [화면 하단 일부 표시]",
+      "status": "메신저 등록명 확인 / 실제 수행업무 미확인",
+      "confirmed_lead_department": null,
+      "confirmed_duties": [],
+      "confirmed_outputs": null,
+      "source_ids": [
+        "D1"
+      ],
+      "needed_evidence": "구성·운영계획, 역할·과제목록, 산출물·종료·인계자료"
+    }
+  ],
+  "sources": {
+    "D1": {
+      "title": "TS_조직업무_부처_TF_솔루션_통합구조_v0.2_20260921.md",
+      "source_type": "제공된 기존 정리문서",
+      "file_id": "file_00000000973081fa9c9a75380b1d5ddd",
+      "evidence_limit": "기존 정리문서에 수록된 공개 업무 예시. 직제·전결·전체 업무분장 확정자료가 아님.",
+      "reviewed_on": "2026-09-21"
+    },
+    "V01": {
+      "title": "교통안전관리규정",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040202",
+      "source_type": "이번 단계에서 열람한 TS 공식 업무안내",
+      "reviewed_on": "2026-09-21",
+      "evidence_limit": "페이지의 업무 설명과 담당부서 표기를 사용. 실제 내부 수행·승인·현장 분장은 별도 확인."
+    },
+    "V02": {
+      "title": "교통수단안전점검",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040201",
+      "source_type": "이번 단계에서 열람한 TS 공식 업무안내",
+      "reviewed_on": "2026-09-21",
+      "evidence_limit": "페이지의 업무 설명과 담당부서 표기를 사용. 실제 내부 수행·승인·현장 분장은 별도 확인."
+    },
+    "V03": {
+      "title": "운수종사자경력관리",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01050600",
+      "source_type": "이번 단계에서 열람한 TS 공식 업무안내",
+      "reviewed_on": "2026-09-21",
+      "evidence_limit": "페이지의 업무 설명과 담당부서 표기를 사용. 실제 내부 수행·승인·현장 분장은 별도 확인."
+    },
+    "V04": {
+      "title": "교통안전정보관리시스템(TMACS)",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040300",
+      "source_type": "이번 단계에서 열람한 TS 공식 업무안내",
+      "reviewed_on": "2026-09-21",
+      "evidence_limit": "페이지의 업무 설명과 담당부서 표기를 사용. 실제 내부 수행·승인·현장 분장은 별도 확인."
+    },
+    "V05": {
+      "title": "운행기록분석시스템(ETAS)",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040400",
+      "source_type": "이번 단계에서 열람한 TS 공식 업무안내",
+      "reviewed_on": "2026-09-21",
+      "evidence_limit": "페이지의 업무 설명과 담당부서 표기를 사용. 실제 내부 수행·승인·현장 분장은 별도 확인."
+    },
+    "V06": {
+      "title": "버스정보시스템(BIS)",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01080400",
+      "source_type": "이번 단계에서 열람한 TS 공식 업무안내",
+      "reviewed_on": "2026-09-21",
+      "evidence_limit": "페이지의 업무 설명과 담당부서 표기를 사용. 실제 내부 수행·승인·현장 분장은 별도 확인."
+    },
+    "V07": {
+      "title": "택시운행정보관리시스템(TIMS)",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01080600",
+      "source_type": "이번 단계에서 열람한 TS 공식 업무안내",
+      "reviewed_on": "2026-09-21",
+      "evidence_limit": "페이지의 업무 설명과 담당부서 표기를 사용. 실제 내부 수행·승인·현장 분장은 별도 확인."
+    },
+    "V08": {
+      "title": "앱미터 검정",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01080700",
+      "source_type": "이번 단계에서 열람한 TS 공식 업무안내",
+      "reviewed_on": "2026-09-21",
+      "evidence_limit": "페이지의 업무 설명과 담당부서 표기를 사용. 실제 내부 수행·승인·현장 분장은 별도 확인."
+    },
+    "V09": {
+      "title": "대중교통비 환급 지원 사업(K-패스)",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01080300",
+      "source_type": "이번 단계에서 열람한 TS 공식 업무안내",
+      "reviewed_on": "2026-09-21",
+      "evidence_limit": "페이지의 업무 설명과 담당부서 표기를 사용. 실제 내부 수행·승인·현장 분장은 별도 확인."
+    },
+    "V10": {
+      "title": "운전자격확인시스템(RIMS)",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01080900",
+      "source_type": "이번 단계에서 열람한 TS 공식 업무안내",
+      "reviewed_on": "2026-09-21",
+      "evidence_limit": "페이지의 업무 설명과 담당부서 표기를 사용. 실제 내부 수행·승인·현장 분장은 별도 확인."
+    },
+    "V11": {
+      "title": "전세버스 교통안전정보 공시",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040204",
+      "source_type": "이번 단계에서 열람한 TS 공식 업무안내",
+      "reviewed_on": "2026-09-21",
+      "evidence_limit": "페이지의 업무 설명과 담당부서 표기를 사용. 실제 내부 수행·승인·현장 분장은 별도 확인."
+    },
+    "V12": {
+      "title": "교통안전관리자 자격시험",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01050500",
+      "source_type": "이번 단계에서 열람한 TS 공식 업무안내",
+      "reviewed_on": "2026-09-21",
+      "evidence_limit": "페이지의 업무 설명과 담당부서 표기를 사용. 실제 내부 수행·승인·현장 분장은 별도 확인."
+    },
+    "V13": {
+      "title": "기계식주차장 검사",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01030401",
+      "source_type": "이번 단계에서 열람한 TS 공식 업무안내",
+      "reviewed_on": "2026-09-21",
+      "evidence_limit": "페이지의 업무 설명과 담당부서 표기를 사용. 실제 내부 수행·승인·현장 분장은 별도 확인."
+    },
+    "V14": {
+      "title": "국가대중교통정보센터(TAGO)",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01080800",
+      "source_type": "이번 단계에서 열람한 TS 공식 업무안내",
+      "reviewed_on": "2026-09-21",
+      "evidence_limit": "페이지의 업무 설명과 담당부서 표기를 사용. 실제 내부 수행·승인·현장 분장은 별도 확인."
+    },
+    "V15": {
+      "title": "운수안전컨설팅지원시스템(COSAS)",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01081000",
+      "source_type": "이번 단계에서 열람한 TS 공식 업무안내",
+      "reviewed_on": "2026-09-21",
+      "evidence_limit": "페이지의 업무 설명과 담당부서 표기를 사용. 실제 내부 수행·승인·현장 분장은 별도 확인."
+    }
+  },
+  "next_steps": [
+    "업무별 실제 처리흐름·입력·결과를 근거로 보강",
+    "부서·현장수행·외부 결정권의 분장 확인",
+    "기존 시스템·TF 과업 대조",
+    "실제 문제 확인 이후 솔루션 매핑"
+  ]
+}

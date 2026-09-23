@@ -1,0 +1,1028 @@
+{
+  "checkedAt": "2026-09-21T13:36:05.796845+09:00",
+  "items": [
+    {
+      "localFile": "국토교통부_사고연계정보_20250630.csv",
+      "searchQuery": "사고연계정보",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15149294/fileData.do",
+          "title": "국토교통부_ 사고연계정보"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15040468/openapi.do",
+          "title": "국토교통부_도로전광표지(VMS) 정보"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15076728/openapi.do",
+          "title": "한국도로공사_영업소 위치 정보"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15043364/openapi.do",
+          "title": "금융위원회_주식분포및 사고 주권 정보"
+        },
+        {
+          "url": "https://www.data.go.kr/data/3068387/fileData.do",
+          "title": "국립공원공단_국립공원 로드킬 정보"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15149294/fileData.do",
+      "portalTitle": "국토교통부_사고연계정보",
+      "dateModified": "2025-11-21",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "한국교통안전공단은 위험물질운송안전관리시스템을 통해 위험물 운송차량을 실시간으로 관제하고 있습니다. 국토교통부 ITS와 연계하여 고속도로와 국도의 사고정보를 실시간으로 받아 위험물 차량 운행 상황을 신속하게 파악하고, 사고 예방과 신속한 대응이 가능하도록 운영 중입니다. 이러한 정보를 공개함으로써 관련 기관과 국민이 위험물 운송 관련 현황을 더욱 투명하게 확인할 수 있으며, 교통사고 대응력과 안전관리를 한층 강화할 수 있습니다. 데이터 개방을 통해 운수업계와 공공 안전 향상에 기여하고자 합니다.",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003536050&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "국토교통부_사고연계정보_20250630",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "14506",
+      "department": "첨단물류과",
+      "notes": "",
+      "licenseImages": []
+    },
+    {
+      "localFile": "국토교통부_약관관리정보_20250830.csv",
+      "searchQuery": "약관관리정보",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15149285/fileData.do",
+          "title": "국토교통부_ 약관관리정보"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15154595/fileData.do",
+          "title": "한국탄소산업진흥원_ 약관 정보"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15120581/fileData.do",
+          "title": "산림청_목재자원 관리 시스템 약관 정보"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15137998/fileData.do",
+          "title": "한국철도공사_차세대예약발매_상품 약관 기본테이블"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15046909/fileData.do",
+          "title": "서울특별시_전력 사용량 (계약종별) 통계"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15149285/fileData.do",
+      "portalTitle": "국토교통부_약관관리정보",
+      "dateModified": "2025-09-16",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "한국교통안전공단은 위험물질운송차량을 실시간으로 관제하는 위험물질운송안전관리시스템을 운영하며, 해당 시스템은 차량번호, 운전자 이름, 전화번호 등 개인정보를 처리하는 개인정보처리시스템입니다. 개인정보보호법에 따라 홈페이지에는 개인정보보호약관을 공개하고 있으며, 이번에 개인정보보호약관 정보의 히스토리 데이터를 공공데이터로 제공하게 되었습니다. 공개된 데이터는 국민의 안전관리와 행정의 투명성 강화, 그리고 효율적인 정책 수립을 위한 기반 자료로 활용될 것입니다.",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003250996&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "국토교통부_약관관리정보_20250830",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "5",
+      "department": "첨단물류과",
+      "notes": "",
+      "licenseImages": []
+    },
+    {
+      "localFile": "국토교통부_지역별 인구밀도 및 행정데이터_20250829.csv",
+      "searchQuery": "지역별 인구밀도 및 행정데이터",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15149271/fileData.do",
+          "title": "국토교통부_ 지역별 인구밀도 및 행정데이터"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15050500/fileData.do",
+          "title": "강원특별자치도_ 인구 추이 통계"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15051339/fileData.do",
+          "title": "전북특별자치도_주민등록인구 및 세대현황"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15030511/fileData.do",
+          "title": "경상북도 울진군_ 인구 현황"
+        },
+        {
+          "url": "https://www.data.go.kr/data/3069669/fileData.do",
+          "title": "경기도 안산시_내국인 및 외국인 현황"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15149271/fileData.do",
+      "portalTitle": "국토교통부_지역별 인구밀도 및 행정데이터",
+      "dateModified": "2025-09-16",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "한국교통안전공단은 위험물질운송차량을 실시간으로 관제하는 위험물질운송안전관리시스템을 운영하고 있습니다. 본 시스템은 인구밀도 데이터를 활용하여 위험물질운송차량의 효과적인 관제와 국민 안전 확보에 사용하고 있습니다. 해당 특정지역의 인구밀도 데이터와 주소, 법정동코드와 행정구역코드와 함께 제공하여 이를 바탕으로 국민들에게 각 지역별 인구밀도와 행정구역 정보를 투명하게 제공하고 있습니다. 이러한 데이터 제공은 국민 안전과 재난 예방, 그리고 효과적인 교통정책 수립에 중요한 기초자료로 활용되기를 기대합니다.",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003251004&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "국토교통부_지역별 인구밀도 및 행정데이터_20250829",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "2003",
+      "department": "첨단물류과",
+      "notes": "시스템 구축 시 생성된 데이터로서 자주 바뀌지 않는 데이터라 수시로 신청합니다. 향후 데이터 업데이트 발생 시 바로 업데이트 하겠습니다.",
+      "licenseImages": []
+    },
+    {
+      "localFile": "도로교통공단_TBN 한국교통방송_교통정보 제공_통계_수집건수_20200831.csv",
+      "searchQuery": "TBN 한국교통방송 교통정보 제공 통계 수집건수",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15067801/fileData.do",
+          "title": "도로교통공단_ TBN 한국교통방송 _ 교통정보 제공 _ 통계 _ 수집건수"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15067325/fileData.do",
+          "title": "도로교통공단_ TBN 한국교통방송 _ 교통정보 수집_방송건수"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15067800/fileData.do",
+          "title": "도로교통공단_ TBN 한국교통방송 _ 교통정보 제공 _ 통계 _방송요청"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15067801/fileData.do",
+      "portalTitle": "도로교통공단_TBN 한국교통방송_교통정보 제공_통계_수집건수",
+      "dateModified": "2025-09-15",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "본 데이터는 한국도로교통공단 산하 TBN 교통방송의 교통정보 수집 실적을 계량화한 통계이다. 방송국·권역 기준과 수집경로(청취자 제보, 모바일/SNS, 관제CCTV, 협력기관, 공공DB), 분류항목(사고·공사·행사·기상·통제), 시간 단위(시간·일·월)별 수집건수를 표준 필드로 제공한다. 사건의 상세 내용이나 개인정보는 포함하지 않으며, 관리식별자와 참조 코드로 레코드 간 연계를 지원한다. 이를 통해 채널 기여도, 지역·시간대 취약 구간, 혼잡·사고 탐지 성과를 평가할 수 있고, 편성·인력 배치, 민원 응대 개선 등 운영 결정에 활용한다. 또한 내비게이션·재난안전 시스템 연계 서비스 개발, 긴급 대응 시나리오 점검, 데이터 품질 지표 산출 등 정책 설계에 유용하다.",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000002584516&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "도로교통공단_TBN 한국교통방송_교통정보 제공_통계_수집건수_20200831",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "8",
+      "department": "데이터융합처",
+      "notes": "",
+      "licenseImages": []
+    },
+    {
+      "localFile": "도로교통공단_교통안전교육_교육계획_20191231.csv",
+      "searchQuery": "교통안전교육 교육계획",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15087816/fileData.do",
+          "title": "도로교통공단_ 교통안전교육 _ 교육계획"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15087815/fileData.do",
+          "title": "도로교통공단_ 교통안전교육 _교육예약정보"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15087808/fileData.do",
+          "title": "도로교통공단_고령운전자 교통안전교육 _교육예약정보"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15087809/fileData.do",
+          "title": "도로교통공단_긴급자동차 교통안전교육 _교육예약정보"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15067020/fileData.do",
+          "title": "한국 교통 안전 공단_체험 교육 자격취득과정 장소 및 교육 계획 정보"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15087816/fileData.do",
+      "portalTitle": "도로교통공단_교통안전교육_교육계획",
+      "dateModified": "2025-09-15",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "본 데이터는 한국도로교통공단이 시행하는 교통안전 교육의 연간 편성 계획을 표준 양식으로 정리한 목록이다. 필드는 계획연도, 분기·월, 과정명, 과정코드, 대상군, 운영형태, 교육일정, 지역·교육장, 회차, 정원, 교육시간, 주관부서, 신청채널, 비고 등이다. 목록은 과정 설계와 일정 조정, 장소 배치, 강사·차량 자원 수급, 안내자료 작성, 홍보 계획, 예산 근거 마련에 활용한다. 개인정보는 포함하지 않으며 명칭·코드·일정 표기는 내부 기준에 따라 표준화되어 기계처리에 적합하다. 동일 스키마로 구축되어 대상군·지역·시기 기준 비교·검색·시각화가 용이하다. 요약하면 교육 편성 요소를 구조적으로 제시하여 행정 의사결정과 대국민 안내의 정확성을 높이는 자료다.",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000002609914&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "도로교통공단_교통안전교육_교육계획_20191231",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "106",
+      "department": "교육운영처",
+      "notes": "",
+      "licenseImages": []
+    },
+    {
+      "localFile": "도로교통공단_사회교육_교통안전사회교육 계획 정보_20210909.csv",
+      "searchQuery": "사회교육 교통안전사회교육 계획 정보",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15087814/fileData.do",
+          "title": "도로교통공단_ 사회교육 _ 교통안전사회교육 계획 정보"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15087817/fileData.do",
+          "title": "도로교통공단_ 사회교육 교육계획_어머니명예교사"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15010879/fileData.do",
+          "title": "전북특별자치도_안전교육 정보"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15096674/fileData.do",
+          "title": "제주특별자치도_택시 교통 사고 현황"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15071298/fileData.do",
+          "title": "서울특별시 용산구_행정 정보 공표"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15087814/fileData.do",
+      "portalTitle": "도로교통공단_사회교육_교통안전사회교육 계획 정보",
+      "dateModified": "2025-09-15",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "한국도로교통공단이 제공하는 교통안전 사회교육 프로그램의 계획 정보를 정리한 데이터이다. 연도별로 교육대상, 프로그램 명칭·유형, 월별 일정·회차, 운영지부, 교육시간, 장소, 문의처를 항목화하여 지역·대상별 제공 구조를 파악할 수 있다. 각 레코드는 동일 기준의 필드로 구성되어 필터링과 정렬, 교차분석이 용이하며 교육 수요 예측, 편성·운영 계획 수립, 홍보 작성 등 근거 자료로 적합하다. 지방자치단체와 학교·기업·민방위 등 수요처는 일정 조정, 공간 확보, 예산 추계, 참여자 안내에 활용할 수 있다. 개인정보는 포함하지 않으며, 사용 시 데이터 정의와 단위를 확인하고 출처를 표기한다.",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000002609692&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "도로교통공단_사회교육_교통안전사회교육 계획 정보_20210909",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "12162",
+      "department": "교육운영처",
+      "notes": "",
+      "licenseImages": []
+    },
+    {
+      "localFile": "한국교통안전공단_2022년 안전도측정기기 정밀도검사 기기종류별 부적합 및 재검사 현황_20230720.csv",
+      "searchQuery": "2022년 안전도측정기기 정밀도검사 기기종류별 부적합 및 재검사 현황",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15116941/fileData.do",
+          "title": "한국교통안전공단_ 2022년 안전도측정기기 정밀도검사 기기종류별 부적합 및 재검사 현황"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15116941/fileData.do",
+      "portalTitle": "한국교통안전공단_2022년 안전도측정기기 정밀도검사 기기종류별 부적합 및 재검사 현황",
+      "dateModified": "2023-07-26",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "자동차 점검 및 검사에 사용되는 안전도측정기기 정밀도검사 2022년 기기종류별 부적합 및 재검사 현황으로 접수본부, 업체구분, 기기명, 종별, 검사일, 재검일, 결과, 형식, 고유번호, 불합격내용으로 제공되어 있습니다.",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000002772776&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "한국교통안전공단_2022년 안전도측정기기 정밀도검사 기기종류별 부적합 및 재검사 현황_20230720",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "746",
+      "department": "특수검사처",
+      "notes": "불합격 판정이후 재검사 신청이 없는 경우 재검일에서 공란으로 되어 있습니다.",
+      "licenseImages": []
+    },
+    {
+      "localFile": "한국교통안전공단_2023년 안전도측정기기 형식 등록 현황_20230720.csv",
+      "searchQuery": "2023년 안전도측정기기 형식 등록 현황",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15116945/fileData.do",
+          "title": "한국교통안전공단_ 2023년 안전도측정기기 형식 등록 현황"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15116945/fileData.do",
+      "portalTitle": "한국교통안전공단_2023년 안전도측정기기 형식 등록 현황",
+      "dateModified": "2023-07-20",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "자동차 점검 및 검사에 사용되는 안전측정기기 종류별 형식 등록 현황으로 기기유형, 기기명, 형식명, 제작사, 사용여부, 안전도승인여부, 허용하중 내용으로 제공하고 있습니다.",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000002769545&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "한국교통안전공단_2023년 안전도측정기기 형식 등록 현황_20230720",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "1992",
+      "department": "특수검사처",
+      "notes": "제작사, 허용하중에서 공란의 경우 검사기기 제작업체 미제공 데이터 입니다",
+      "licenseImages": []
+    },
+    {
+      "localFile": "한국교통안전공단_개인형 이동장치 교통법규  교육 동영상_20220818.mp4",
+      "searchQuery": "개인형 이동장치 교통법규  교육 동영상",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15104309/fileData.do",
+          "title": "한국교통안전공단_ 개인형 이동장치 교통법규 교육 동영상"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15104309/fileData.do",
+      "portalTitle": "한국교통안전공단_ 개인형 이동장치 교통법규 교육 동영상",
+      "dateModified": null,
+      "licenseUrl": null,
+      "description": "",
+      "downloads": [],
+      "fileTitle": "한국교통안전공단_개인형 이동장치 교통법규 교육 동영상_20220818",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "1",
+      "department": "자격교육처",
+      "notes": "",
+      "licenseImages": [],
+      "licenseLinks": [
+        "/ugs/selectPortalPolicyView.do"
+      ]
+    },
+    {
+      "localFile": "한국교통안전공단_고령 보행자 교통안전교육 동영상_20220818.mp4",
+      "searchQuery": "고령 보행자 교통안전교육 동영상",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15104311/fileData.do",
+          "title": "한국교통안전공단_ 고령 보행자 교통안전교육 동영상"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15104311/fileData.do",
+      "portalTitle": "한국교통안전공단_ 고령 보행자 교통안전교육 동영상",
+      "dateModified": null,
+      "licenseUrl": null,
+      "description": "",
+      "downloads": [],
+      "fileTitle": "한국교통안전공단_고령 보행자 교통안전교육 동영상_20220818",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "1",
+      "department": "자격교육처",
+      "notes": "",
+      "licenseImages": [],
+      "licenseLinks": [
+        "/ugs/selectPortalPolicyView.do"
+      ]
+    },
+    {
+      "localFile": "한국교통안전공단_교통안전관리자 자격증발급 연도별 현황_20251231.csv",
+      "searchQuery": "교통안전관리자 자격증발급 연도별 현황",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15003928/fileData.do",
+          "title": "한국교통안전공단_ 교통안전관리자 자격증발급 연도별 현황"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15003928/fileData.do",
+      "portalTitle": "한국교통안전공단_교통안전관리자 자격증발급 연도별 현황",
+      "dateModified": "2026-08-05",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "교통안전관리자 자격증 발급 연도별 현황 데이터는 한국교통안전공단에서 교통안전관리자 자격시험을 응시한 인원 중 합격 이상의 점수를 받고 기준을 충족하여 도로교통안전관리자, 철도교통안전관리자, 항공교통안전관리자, 항만교통안전관리자, 삭도교통안전관리자 등 자격증을 발급한 현황 데이터 입니다. * 2002~2025년까지 연도별 행 기준 좌측부터 도로, 철도, 항공, 항만, 삭도교통안전관리자 순으로 자격증 발급 현황을 정리하였습니다. 연도별 데이터로 인해 현시점에서 확인이 가능한 2025년 데이터까지 포함하였습니다. 관련 제도는 교통안전법 제53조에 근거하여 시행하고 있습니다.",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003685291&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "한국교통안전공단_교통안전관리자 자격증발급 연도별 현황_20251231",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "22",
+      "department": "자격교육처",
+      "notes": "",
+      "licenseImages": []
+    },
+    {
+      "localFile": "한국교통안전공단_교통안전교육 과정별 수료자 현황_20210714.csv",
+      "searchQuery": "교통안전교육 과정별 수료자 현황",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15087681/fileData.do",
+          "title": "한국교통안전공단_ 교통안전교육 과정별 수료자 현황"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15087681/fileData.do",
+      "portalTitle": "한국교통안전공단_교통안전교육 과정별 수료자 현황",
+      "dateModified": "2026-09-04",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "- 신 기후체계 가동 및 국가 온실가스 감축 목표 달성을 위해 경제운전 생활화를 유도하여 교통부문 온실가스 배출 및 에너지 소비절감, 교통사고 감소 등에 기여하고자 정보를 제공하고 있습니다. - 개방데이터는 한국교통안전공단에서 교육하는 교통안전 관련 교육 과정별 이수 현황에 관련된 데이터 정보입니다. - 교육 과정별 이수 현황 관련하여 등록된 정보는 교통안전담당자, 에코드라이브 체험교육, 교통안전관리자 면제자교육이 있습니다. ※ 제공되는 데이터는 한국교통안전공단에서 별도 제공되는 데이터와 차이가 있을 수도 있음을 인지하여 주시기 바랍니다.",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003211198&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "한국교통안전공단_교통안전교육 과정별 수료자 현황_20210714",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "199",
+      "department": "AI혁신처",
+      "notes": "",
+      "licenseImages": []
+    },
+    {
+      "localFile": "한국교통안전공단_궤도시설 검사일자 정보_20250915.csv",
+      "searchQuery": "궤도시설 검사일자 정보",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15149631/fileData.do",
+          "title": "한국교통안전공단_ 궤도시설 검사일자 정보"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15133372/fileData.do",
+          "title": "한국교통안전공단_ 궤도시설 검사 정보"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15149631/fileData.do",
+      "portalTitle": "한국교통안전공단_궤도시설 검사일자 정보",
+      "dateModified": "2025-09-16",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "한국교통안전공단에서는 궤도운송법 제19조(안전검사)에 의거하여 궤도시설에 대하여 궤도사업자 또는 전용궤도운영자로부터 정기검사, 수시검사, 정밀안전검사에 대하여 수검희망일을 신청받아 검토 이후 협의 이후 검사업무를 수행하고 있습니다. 정기검사는 매년 실시하는 검사이며 유효기간은 정기검사일로부터 1년, 최초 정기검사는 준공검사일로부터 1년 이내, 수시검사는 궤도의 차량을 교체, 궤도의 제어반, 제동장치 또는 구동장치 교체, 와이어로프 접합부를 다시 연결하거나 위치를 변경한 경우 또는 와이어로프를 교체한 경우에 대하여 검사를 시행하고 있습니다.",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003250665&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "한국교통안전공단_궤도시설 검사일자 정보_20250915",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "75",
+      "department": "특수검사처",
+      "notes": "해당 데이터는 궤도사업자가 안전검사전문기관에 궤도시설 안전검사 신청을 하면서 수검희망일 1지망, 2지망을 직접 입력하는 정보로서 동일한 업체도 검사신청하는 종류에 따라서 수시로 변경되고 있기에 데이터는 수시로 제공됩니다.",
+      "licenseImages": []
+    },
+    {
+      "localFile": "한국교통안전공단_사업용차량 Trip단위 위험운전운행데이터(샘플).zip",
+      "searchQuery": "사업용차량 Trip단위 위험운전운행데이터(샘플)",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15050069/fileData.do",
+          "title": "한국교통안전공단_ 사업용차량 Trip단위 위험운전운행데이터 ( 샘플 )"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15050069/fileData.do",
+      "portalTitle": "한국교통안전공단_ 사업용차량 Trip단위 위험운전운행데이터 ( 샘플 )",
+      "dateModified": null,
+      "licenseUrl": null,
+      "description": "",
+      "downloads": [],
+      "fileTitle": "한국교통안전공단_사업용차량 Trip단위 위험운전운행데이터(샘플)_20191227",
+      "licenseText": "공공저작물 : 출처표시, 상업적 이용금지, 변경금지 (제 4유형)",
+      "rows": "100",
+      "department": "데이터융복합처",
+      "notes": "",
+      "licenseImages": [
+        "/images/biz/use-info/data-mark06.png",
+        "/images/biz/use-info/img_opencode4_m.jpg"
+      ],
+      "licenseLinks": [
+        "http://ccl.cckorea.org/about/",
+        "http://www.kogl.or.kr/info/license.do#04-tab"
+      ]
+    },
+    {
+      "localFile": "한국교통안전공단_운수안전컨설팅_안전등급정보_20241231.csv",
+      "searchQuery": "운수안전컨설팅 안전등급정보",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15149779/fileData.do",
+          "title": "한국교통안전공단_ 운수안전컨설팅 _ 안전등급정보"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15066689/fileData.do",
+          "title": "한국교통 안전 공단_표준링크 안전 등급 비율"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15066917/fileData.do",
+          "title": "한국교통 안전 공단_링크분석 정보"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15149779/fileData.do",
+      "portalTitle": "한국교통안전공단_운수안전컨설팅_안전등급정보",
+      "dateModified": "2025-09-18",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "한국교통안전공단에서 제공하는 정보입니다. 한국교통안전공단에서 수집하는 사업용차량의 운행기록정보와 교통사고정보(확정통계정보)를 활용하여 분석된 정보입니다. 각 링크별(국가표준노드링크 기준) 사업용차량의 운행기록정보 중 11대 위험운전행동발생건수와 교통사고와의 상관성을 분석하여 상관관계가 높은 위험운전행동 발생에 대한 정보를 제공합니다. 분석한 결과는 링크별/시도별/시군구별 도로안전등급과 링크정보를 제공합니다. 시도/시군구는 행정안전부 기준으로 제공합니다.",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003252995&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "한국교통안전공단_운수안전컨설팅_안전등급정보_20250917",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "17116",
+      "department": "교통빅데이터센터",
+      "notes": "",
+      "licenseImages": []
+    },
+    {
+      "localFile": "한국교통안전공단_운수안전컨설팅지원시스템 교육영상_20180504.zip",
+      "searchQuery": "운수안전컨설팅지원시스템 교육영상",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15064630/fileData.do",
+          "title": "한국교통안전공단_ 운수안전컨설팅지원시스템 교육영상"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15064630/fileData.do",
+      "portalTitle": "한국교통안전공단_ 운수안전컨설팅지원시스템 교육영상",
+      "dateModified": null,
+      "licenseUrl": null,
+      "description": "",
+      "downloads": [],
+      "fileTitle": "한국교통안전공단_운수안전컨설팅지원시스템 교육영상_20180504",
+      "licenseText": "공공저작물 : 출처표시, 상업적 이용금지, 변경금지 (제 4유형)",
+      "rows": "1",
+      "department": "교통빅데이터센터",
+      "notes": "",
+      "licenseImages": [
+        "/images/biz/use-info/data-mark06.png",
+        "/images/biz/use-info/img_opencode4_m.jpg"
+      ],
+      "licenseLinks": [
+        "http://ccl.cckorea.org/about/",
+        "http://www.kogl.or.kr/info/license.do#04-tab"
+      ]
+    },
+    {
+      "localFile": "한국교통안전공단_위험물질운송안전관리시스템 CCTV 목록_20260701.csv",
+      "searchQuery": "위험물질운송안전관리시스템 CCTV 목록",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15119568/fileData.do",
+          "title": "한국교통안전공단_ 위험물질운송안전관리시스템 CCTV 목록"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15122712/fileData.do",
+          "title": "국토교통부_ 위험 물질 운송 안전 관리 CCTV 목록"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15119568/fileData.do",
+      "portalTitle": "한국교통안전공단_위험물질운송안전관리시스템 CCTV 목록",
+      "dateModified": "2026-07-20",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "한국교통안전공단은 국민의 안전을 위해 주요 도로에 설치된 CCTV 영상을 실시간으로 제공하는 공공데이터를 운영하고 있습니다. 이 데이터는 관제요원들이 도로 상황을 신속하게 파악하고, 특히 위험물질 운송 차량의 이동 경로와 사고 여부를 실시간으로 모니터링하는 데 활용됩니다. 위험물질 운송 차량은 사고 발생 시 큰 피해를 초래할 수 있으므로, 관제요원들은 CCTV 영상을 통해 사고 발생 여부를 신속하게 확인하고, 필요 시 소방청과 경찰청에 즉시 연락하여 대응할 수 있습니다. 이러한 실시간 모니터링 시스템은 교통사고 발생 시 신속한 대응을 통해 피해를 최소화하는 데 중요한 역할을 합니다. 국민들은 이 공공데이터를 통해 한국교통안전공단에서 사용하는 CCTV 정보를 파악할 수 있습니다.",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003678708&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "한국교통안전공단_위험물질운송안전관리시스템 CCTV 목록_20260701",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "14562",
+      "department": "기후탄소물류처",
+      "notes": "",
+      "licenseImages": []
+    },
+    {
+      "localFile": "한국교통안전공단_이륜자동차 교통안전 교육 동영상_20220818.mp4",
+      "searchQuery": "이륜자동차 교통안전 교육 동영상",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15104313/fileData.do",
+          "title": "한국교통안전공단_ 이륜자동차 교통안전 교육 동영상"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15104313/fileData.do",
+      "portalTitle": "한국교통안전공단_ 이륜자동차 교통안전 교육 동영상",
+      "dateModified": null,
+      "licenseUrl": null,
+      "description": "",
+      "downloads": [],
+      "fileTitle": "한국교통안전공단_이륜자동차 교통안전 교육 동영상_20220818",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "1",
+      "department": "자격교육처",
+      "notes": "",
+      "licenseImages": [],
+      "licenseLinks": [
+        "/ugs/selectPortalPolicyView.do"
+      ]
+    },
+    {
+      "localFile": "한국교통안전공단_철도안전전문가교육 기본과정_사이버교육 수료현황_20251231.csv",
+      "searchQuery": "철도안전전문가교육 기본과정 사이버교육 수료현황",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15104330/fileData.do",
+          "title": "한국교통안전공단_ 철도안전전문가교육 기본과정 _ 사이버교육 수료현황"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15104330/fileData.do",
+      "portalTitle": "한국교통안전공단_철도안전전문가교육 기본과정_사이버교육 수료현황",
+      "dateModified": "2026-06-29",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "한국교통안전공단의 온라인 교육 플랫폼(TS배움터)을 활용하여 비대면 방식으로 철도안전전문가교육 기본과정을 운영 중에 있습니다. 이와 관련한 교육 수료인원 현황입니다. 기본과정 내에는 총 12개 과정이 있으며 철도사고사례, 철도사고현황, 충돌사고사례, 탈선사고사례, 종사자사고사례, 기타사고사례, 인적오류사례 등으로 사례교육이 있으며 철도안전 강화를 위한 철도사고보고체계, 철도안전관리 및 수준평가, 철도안전관리체계, 철도안전법 및 종합계획, 철도안전관리체계 승인검사, 수시검사, 정기검사 등 콘텐츠로 구성되어 있습니다.",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003661402&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "한국교통안전공단_철도안전전문가교육 기본과정_사이버교육 수료현황_20251231",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "25",
+      "department": "철도안전처",
+      "notes": "2023년까지는 과목별 월간 교육 운영으로 월간 수료생 집계가 가능하였으나 2024년부터는 교육 운영 방식이 연간으로 변경되어 연간 수료생 인원이 집계되오니 이용에 참고 부탁드립니다. 또한, 2024년 자료의 공란(빈칸)은 1월~12월 연간을 의미하여 공란으로 표현하였습니다.",
+      "licenseImages": []
+    },
+    {
+      "localFile": "한국교통안전공단_측정기기 검사정보_20250429.csv",
+      "searchQuery": "측정기기 검사정보",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15149643/fileData.do",
+          "title": "한국교통안전공단_ 측정기기 검사정보"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15132045/fileData.do",
+          "title": "한국교통안전공단_환경 측정 기기 성능시험 정보"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15133296/fileData.do",
+          "title": "한국교통안전공단_ 검사 용 자동차 정보"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15133333/fileData.do",
+          "title": "한국교통안전공단_특수 검사 서비스 정보"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15066111/fileData.do",
+          "title": "한국교통안전공단_통합홈페이지시스템_기기 검사 일정 정보"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15149643/fileData.do",
+      "portalTitle": "한국교통안전공단_측정기기 검사정보",
+      "dateModified": "2026-09-04",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "한국교통안전공단에서는 자동차관리법 제40조(기계 기구의 정밀도검사)와 환경분야 시험 검사 등에 관한 법률 제11조(측정기기의 정도검사)에 의거하여 위탁 또는 지정 받아서 검사업무를 수행하고 있습니다. 해당 데이터는 기계 기구의 정밀도검사와 측정기기 정도검사와 관련하여 검사장비의 변경 이력에 정보로서 해당 검사장비의 검사 대기 또는 폐기 등의 데이터를 제공하고 있습니다. 검사장비의 변경은 사유가 발생되는 경우에만 데이터가 생성되고 있기에 데이터 열람에 참고하시면 됩니다.",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003250777&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "한국교통안전공단_측정기기 검사정보_20250429",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "12",
+      "department": "AI혁신처",
+      "notes": "해당 검사장비에 대한 정보는 변경이력이 발생되는 경우에만 데이터가 생성되고 있기에 데이터 기준일자가 데이터 등록일자가 상이하고, 변경이력이 데이터가 생성되지 않으면 해당 데이터의 변동이 없기에, 변동사항이 발생되는 경우 수시로 데이터를 제공합니다.",
+      "licenseImages": []
+    },
+    {
+      "localFile": "한국교통안전공단_통함홈페이지시스템_연구교육지식 관련 자료_20200403.csv",
+      "searchQuery": "통함홈페이지시스템 연구교육지식 관련 자료",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15066110/fileData.do",
+          "title": "한국교통안전공단_ 통함홈페이지시스템 _ 연구교육지식 관련 자료"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15161454/fileData.do",
+          "title": "국립중앙의료원_중앙치매센터 홈 페이지 자료실"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15090282/fileData.do",
+          "title": "국립생태원_기관대표 홈 페이지 게시물_포토갤러리"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15066110/fileData.do",
+      "portalTitle": "한국교통안전공단_통함홈페이지시스템_연구교육지식 관련 자료",
+      "dateModified": "2026-09-04",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "한국교통안전공단 통합홈페이지시스템에서 관리하고 있는 연구교육지식 관련 정보입니다. 관리하고 있는 지식 정보에 대한 원본 파일명, 저장파일명, 파일에 대한 확장자, 파일크기, 파일에 대한 설명, 최초 등록일시를 칼럼으로 구성하고 있으며 해당자료는 2020년 4월 기준으로 작성되었습니다. 연구교육지식 자료에는 교통문화실태조사를 포함하여 교통연구 교육자료와 사업용자동차 교통사고 원인조사 연구등 교통안전에 대한 교육자료 등을 포함하고 있습니다. 주요자료 목록으로는 교통안전 특별실태조사, 신규제첨교육 프로그램 보고서, 교통안전체험교육 운영에 대한 내용 등을 포함하고 있습니다.",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003228223&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "한국교통안전공단_통함홈페이지시스템_연구교육지식 관련 자료_20200403",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "51",
+      "department": "AI혁신처",
+      "notes": "",
+      "licenseImages": []
+    },
+    {
+      "localFile": "한국교통안전공단_통합국가자격 상점링크정보_20251118.csv",
+      "searchQuery": "통합국가자격 상점링크정보",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15150436/fileData.do",
+          "title": "한국교통안전공단_ 통합국가자격 상점링크정보"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15150436/fileData.do",
+      "portalTitle": "한국교통안전공단_통합국가자격 상점링크정보",
+      "dateModified": "2025-11-18",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "해당 데이터는 한국교통안전공단에서 시행하고 있는 철도, 항공, 화물, 버스, 택시, 교통안전관리자 등 국가자격시험과 관련하여 한국교통안전공단에서 운영하고 있는 통합국가자격시스템에서 추출한 데이터입니다. 한국교통안전공단 국가자격시험 사이트에서 시험 수수료 결제, 자격증 발급 결제 등에 관련된 정보로써 순번, 패키지, 사용도메인, 비고 등의 데이터로 구성되어있습니다. ※ 제공되는 데이터는 한국교통안전공단에서 별도 제공되는 데이터와 차이가 있을 수 도 있음을 인지하여 주시기 바랍니다.",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003513394&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "한국교통안전공단_통합국가자격 상점링크정보_20251118",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "36",
+      "department": "자격교육처",
+      "notes": "해당 테이블 정보 내 세부 데이터가 없는 경우 공란으로 표기될 수 있습니다./URL 특수 문자 포함 되어 있습니다.",
+      "licenseImages": []
+    },
+    {
+      "localFile": "한국교통안전공단_통합국가자격_필기시험과목별결과정보_20251208.csv",
+      "searchQuery": "통합국가자격 필기시험과목별결과정보",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15156051/fileData.do",
+          "title": "한국교통안전공단_ 통합국가자격 _ 필기시험과목별결과정보"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15156051/fileData.do",
+      "portalTitle": "한국교통안전공단_통합국가자격_필기시험과목별결과정보",
+      "dateModified": "2026-09-04",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "해당 데이터는 한국교통안전공단에서 시행하고 있는 철도, 항공, 화물, 버스, 택시, 교통안전관리자 등 자격시험과 관련하여 한국교통안전공단에서 운영하고 있는 통합국가자격시험 시스테멩서 보유 중인 필기시험과목별결과에 대한 데이터 입니다. 해당 데이터는 자격구분코드, 시행년도, 시행구분코드, 시험회차, 시험구분코드, 면허종류코드, 과목코드, 과목별평균점수, 세부과목코드 등에 데이터로 구성되어 있습니다. ※ 해당 데이터중 과목별 평균점수의 경우 소수점 올림 등의 사유로 실제 데이터와 일부 상이할 수 있으며, 이 외 제공되는 데이터도 한국교통안전공단에서 별도로 제공되는 데이터와 일부 차이가 발생할 수 있음을 인지하여 주시기 바랍니다.",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003556884&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "한국교통안전공단_통합국가자격_필기시험과목별결과정보_20251208",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "204",
+      "department": "AI혁신처",
+      "notes": "데이터 미집계 사항은 공란 처리하였습니다.",
+      "licenseImages": []
+    },
+    {
+      "localFile": "한국교통안전공단_통합홈페이지시스템_검사서비스지식관련자료_20200403.csv",
+      "searchQuery": "통합홈페이지시스템 검사서비스지식관련자료",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15065885/fileData.do",
+          "title": "한국교통안전공단_ 통합홈페이지시스템 _ 검사서비스지식관련자료"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15065885/fileData.do",
+      "portalTitle": "한국교통안전공단_통합홈페이지시스템_검사서비스지식관련자료",
+      "dateModified": "2026-09-04",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "한국교통안전공단 통합홈페이지시스템에서 관리하고 있는 검사서비스지식 관련 정보입니다. 2020년 4월 기준 작성 자료이며, 자동차검사/기기정도검사/자동차튜닝/건설기계형식승인/이륜차 검사에 대한 업무관련 자료 및 매뉴얼 등을 포함하고 있습니다. 자동차 튜닝 승인절차 안내 및 매뉴얼과 세부 업무규정, 세부 업무매뉴얼 정보자료를 포함하고 있습니다. 궤도시설 및 전용궤도시설 안전검사 신청서, 기계 기구 정밀도검사 신청서, 건설기계형식승인 신청서와 같이 검사와 관련된 각 종 신청서 정보를 포함하고 있습니다. 검사서비스 관련 파일명, 파일의 용량, 최초 자료 등록일을 포함하고 있습니다.",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000002342289&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "한국교통안전공단_통합홈페이지시스템_검사서비스지식관련자료_20200403",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "1",
+      "department": "AI혁신처",
+      "notes": "",
+      "licenseImages": []
+    },
+    {
+      "localFile": "한국교통안전공단_통합홈페이지시스템_사업소 서비스_20200403.csv",
+      "searchQuery": "통합홈페이지시스템 사업소 서비스",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15066120/fileData.do",
+          "title": "한국교통안전공단_ 통합홈페이지시스템 _ 사업소 서비스"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15013731/fileData.do",
+          "title": "강원특별자치도 강릉시_행정기관현황"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15066120/fileData.do",
+      "portalTitle": "한국교통안전공단_통합홈페이지시스템_사업소 서비스",
+      "dateModified": "2026-09-18",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "한국교통안전공단 통합홈페이지시스템에서 관리하고 있는 사업소 서비스 정보입니다 한국교통안전공단이 제공하는 사업소별 서비스 현황과 안내 정보를 일목요연하게 정리한 자료로, 사업소 위치, 담당 업무, 제공 서비스 종류, 운영 시간 등 일반 행정에 필요한 핵심요소를 포함하고 있어 국민이 가까운 사업소에서 어떤 안전 서비스를 받을 수 있는지 한눈에 파악할 수 있습니다. 데이터는 사업소별 고유 식별자와 함께 서비스명, 상세 설명, 이용 절차, 연락처 등 구조화된 형태로 제공되며 공공데이터포털을 통해 무료로 다운로드 가능합니다.",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000002342296&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "한국교통안전공단_통합홈페이지시스템_사업소 서비스_20200403",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "1",
+      "department": "AI혁신처",
+      "notes": "",
+      "licenseImages": []
+    },
+    {
+      "localFile": "한국교통안전공단_통합홈페이지시스템_웹진 목차_20200403.csv",
+      "searchQuery": "통합홈페이지시스템 웹진 목차",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15066123/fileData.do",
+          "title": "한국교통안전공단_ 통합홈페이지시스템 _ 웹진 목차"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15066123/fileData.do",
+      "portalTitle": "한국교통안전공단_통합홈페이지시스템_웹진 목차",
+      "dateModified": "2025-06-12",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "한국교통안전공단 통합홈페이지시스템에서 관리하고 있는 웹진 목차 관련 정보입니다. 한국교통안전공단 웹진은 공단 홍보 매거진은 TS매거진에 대한 내용을 웹으로 볼 수 있도록 재가공한 자료이며, 공단 내 인물소개, 공단사업소개, 교통안전상식, 교통관련 주요이슈에 대한 정보 등을 포함하고 있습니다. 웹진목차 정보는 웹진 일련번호, 웹진명, 호별 웹진컨셉, 주제별 웹진 목차와 내용으로 칼럼이 구성되어 있습니다. 해당자료는 2016년 부터 2020년까지 발간된 웹진에 대한 호수정보 등을 포함하고 있습니다.",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000002342302&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "한국교통안전공단_통합홈페이지시스템_웹진 목차_20200403",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "1",
+      "department": "대외협력실",
+      "notes": "",
+      "licenseImages": []
+    },
+    {
+      "localFile": "한국교통안전공단_통합홈페이지시스템_일일접속자 및 만족도 평가관리 정보_20191130.csv",
+      "searchQuery": "통합홈페이지시스템 일일접속자 및 만족도 평가관리 정보",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15066124/fileData.do",
+          "title": "한국교통안전공단_ 통합홈페이지시스템 _ 일일접속자 및 만족도 평가관리 정보"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15066124/fileData.do",
+      "portalTitle": "한국교통안전공단_통합홈페이지시스템_일일접속자 및 만족도 평가관리 정보",
+      "dateModified": "2026-09-04",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "한국교통안전공단 통합홈페이지시스템(www.kotsa.or.kr)에서 관리하고 있는 일일접속자 및 만족도 평가관리 정보입니다. 한국교통안전공단 통합홈페이지 접속자 대상으로 만족도점수와 개선의견 등을 포함하고 있습니다. 홈페이지 이용자의 의견과 실제 이용자의 연령대와 직업구분이 분류되어 있습니다. 만족도 점수는 5점 척도로 가장낮은 점수가 1점, 가장 높은 점수가 5점으로 구성되어 있으며, 개선의견의 경우 실제 이용자 제시한 개선의견과 의견을 제시한 날짜를 포함하고 있습니다. (실제 사용자 만족도 조사 의견을 포함합니다)",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003201834&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "한국교통안전공단_통합홈페이지시스템_일일접속자 및 만족도 평가관리 정보_20191130",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "44",
+      "department": "AI혁신처",
+      "notes": "",
+      "licenseImages": []
+    },
+    {
+      "localFile": "한국교통안전공단_통합홈페이지시스템_자격시험지식 관련 자료_20200313.csv",
+      "searchQuery": "통합홈페이지시스템 자격시험지식 관련 자료",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15066125/fileData.do",
+          "title": "한국교통안전공단_ 통합홈페이지시스템 _ 자격시험지식 관련 자료"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15066125/fileData.do",
+      "portalTitle": "한국교통안전공단_통합홈페이지시스템_자격시험지식 관련 자료",
+      "dateModified": "2026-09-04",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "한국교통안전공단 통합홈페이지시스템에서 관리하고 있는 자격시험지식 관련 정보입니다. 한국교통안전공단에서는 도로, 철도, 항공 등의 자격시험을 관리 운영하고 있으며, 사업용 운수종사자격에 관한 취득절차 및 시험(운전적성정밀검사, 버스운전자격시험, 화물운송자격시험, 택시운전자격시험, 교통안전관리자 자격시험)과 항공종사자자격(운송용조종사, 사업용조종사, 자가용조정사, 항공교통관제사, 항공정비사, 운항관리사)와 항공구술영어 능력에 관련된 정보입니다. 철도의 경우 철도교통자격증명, 철도차량 운전면허에 대한 자격정보도 해당됩니다.",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003228232&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "한국교통안전공단_통합홈페이지시스템_자격시험지식 관련 자료_20200313",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "56",
+      "department": "AI혁신처",
+      "notes": "",
+      "licenseImages": []
+    },
+    {
+      "localFile": "한국교통안전공단_항공분류체계_20231214.csv",
+      "searchQuery": "항공분류체계",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/15150774/fileData.do",
+          "title": "한국교통안전공단_ 항공분류체계"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15049020/fileData.do",
+          "title": "국토교통부_ 항공 안전데이터 표준 분류 체계"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15052305/fileData.do",
+          "title": "국토교통부_연도별 항공 사고 발생현황 통계"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15061944/fileData.do",
+          "title": "국토교통부_ 항공 레저_ 항공 레저스포츠사업체"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15002669/fileData.do",
+          "title": "제주국제자유도시개발센터_제주 항공 우주박물관 현황"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/15150774/fileData.do",
+      "portalTitle": "한국교통안전공단_항공분류체계",
+      "dateModified": "2026-07-27",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "한국교통안전공단_항공안전정보통합시스템 관련 정보입니다. 한국교통안전공단은 항공안전법 제61조에 따른 항공안전 자율보고 제도 업무를 국토교통부로부터 위탁받아 수행하고 있습니다. 본 데이터는 항공안전 자율보고제도의 초도분석 및 심층분석을 위한 항공분류체계를 구분한 코드에 대한 설명이며, 해당 데이터는 2023년 12월 14일 기준 백업데이터로 현재는 사용하고 있지 않아 업데이트 되지 않는 정보입니다. 공단은 해당 업무를 수행함으로서 안전한 항공운항환경을 조성하는데 기여하고 있습니다.",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003683576&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "한국교통안전공단_항공",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "130",
+      "department": "항공안전처",
+      "notes": "항공분류체계는 국제 기준을 준용하여 영문코드가 다수 포함되어 있을 수 있습니다.",
+      "licenseImages": []
+    },
+    {
+      "localFile": "한국도로교통공단_교통안전 사회교육 실시 현황_20241231.csv",
+      "searchQuery": "교통안전 사회교육 실시 현황",
+      "candidates": [
+        {
+          "url": "https://www.data.go.kr/data/3072368/fileData.do",
+          "title": "한국도로교통공단_ 교통안전 사회교육 실시 현황"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15010879/fileData.do",
+          "title": "전북특별자치도_ 안전 교육 정보"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15094200/fileData.do",
+          "title": "서울특별시 서초구_유치원 통학차량 현황"
+        },
+        {
+          "url": "https://www.data.go.kr/data/15120024/fileData.do",
+          "title": "서울특별시 성동구_유치원 통학차량 현황"
+        }
+      ],
+      "status": "공식 상세페이지 확인",
+      "url": "https://www.data.go.kr/data/3072368/fileData.do",
+      "portalTitle": "한국도로교통공단_교통안전 사회교육 실시 현황",
+      "dateModified": "2025-04-24",
+      "licenseUrl": "https://data.go.kr/ugs/selectPortalPolicyView.do",
+      "description": "이 데이터는 한국도로교통공단이 2011년부터 2024년까지 수행한 교통안전 사회교육의 연도별·대상별 참가 현황을 정리한 자료입니다. 각 기록은 교육이 실시된 연도와 교육 대상 그룹, 해당 연도의 교육인원 수를 열로 구성하고 있습니다. 교육 대상 그룹은 어린이집·유치원·초등학생, 중고등학생, 어린이교통공원, 교통안전 담당교사, 기관·단체, 기업체, 운수업체, 군부대, 민방위, 노인(보행자), 녹색어머니, 외국인 등 12개로 구분됩니다. 연도별로 동일 그룹 내 교육인원 변동 현황을 파악할 수 있으며, 일부 그룹의 경우 교육이 미실시된 연도는 결측치로 표시되어 있습니다. 교육인원 열은 명 단위로 수집된 수치형 데이터입니다. 전체 데이터는 168개의 관측치로 구성되어 있습니다.",
+      "downloads": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "CSV",
+          "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003126788&fileDetailSn=1&insertDataPrcus=N"
+        }
+      ],
+      "fileTitle": "한국도로교통공단_교통안전 사회교육 실시 현황_20241231",
+      "licenseText": "이용허락범위 제한 없음",
+      "rows": "168",
+      "department": "교육운영처",
+      "notes": "",
+      "licenseImages": []
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+[
+  {
+    "id": "D01",
+    "filename": "국토교통부_사고연계정보_20250630.csv",
+    "query": "국토교통부 사고연계정보",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15149294/fileData.do",
+        "title": "국토교통부_사고연계정보",
+        "similarity": 1.0
+      },
+      {
+        "url": "https://www.data.go.kr/data/15072422/fileData.do",
+        "title": "국토교통부_교통안전_교통안전관리규정 평가결과 정보",
+        "similarity": 0.412
+      },
+      {
+        "url": "https://www.data.go.kr/data/15122712/fileData.do",
+        "title": "국토교통부_위험물질운송안전 관리 CCTV목록",
+        "similarity": 0.312
+      }
+    ]
+  },
+  {
+    "id": "D02",
+    "filename": "국토교통부_약관관리정보_20250830.csv",
+    "query": "국토교통부 약관관리정보",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15149285/fileData.do",
+        "title": "국토교통부_약관관리정보",
+        "similarity": 1.0
+      }
+    ]
+  },
+  {
+    "id": "D03",
+    "filename": "국토교통부_지역별 인구밀도 및 행정데이터_20250829.csv",
+    "query": "국토교통부 지역별 인구밀도 및 행정데이터",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15149271/fileData.do",
+        "title": "국토교통부_지역별 인구밀도 및 행정데이터",
+        "similarity": 1.0
+      }
+    ]
+  },
+  {
+    "id": "D04",
+    "filename": "도로교통공단_TBN 한국교통방송_교통정보 제공_통계_수집건수_20200831.csv",
+    "query": "도로교통공단 TBN 한국교통방송 교통정보 제공 통계 수집건수",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15067801/fileData.do",
+        "title": "도로교통공단_TBN 한국교통방송_교통정보 제공_통계_수집건수",
+        "similarity": 1.0
+      },
+      {
+        "url": "https://www.data.go.kr/data/15067325/fileData.do",
+        "title": "도로교통공단_TBN 한국교통방송_교통정보 수집_방송건수",
+        "similarity": 0.885
+      },
+      {
+        "url": "https://www.data.go.kr/data/15067800/fileData.do",
+        "title": "도로교통공단_TBN 한국교통방송_교통정보 제공_통계_방송요청",
+        "similarity": 0.852
+      }
+    ]
+  },
+  {
+    "id": "D05",
+    "filename": "도로교통공단_교통안전교육_교육계획_20191231.csv",
+    "query": "도로교통공단 교통안전교육 교육계획",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15087816/fileData.do",
+        "title": "도로교통공단_교통안전교육_교육계획",
+        "similarity": 1.0
+      },
+      {
+        "url": "https://www.data.go.kr/data/15087815/fileData.do",
+        "title": "도로교통공단_교통안전교육_교육예약정보",
+        "similarity": 0.824
+      },
+      {
+        "url": "https://www.data.go.kr/data/15087814/fileData.do",
+        "title": "도로교통공단_사회교육_교통안전사회교육 계획 정보",
+        "similarity": 0.737
+      }
+    ]
+  },
+  {
+    "id": "D06",
+    "filename": "도로교통공단_사회교육_교통안전사회교육 계획 정보_20210909.csv",
+    "query": "도로교통공단 사회교육 교통안전사회교육 계획 정보",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15087814/fileData.do",
+        "title": "도로교통공단_사회교육_교통안전사회교육 계획 정보",
+        "similarity": 1.0
+      },
+      {
+        "url": "https://www.data.go.kr/data/15087817/fileData.do",
+        "title": "도로교통공단_사회교육 교육계획_어머니명예교사",
+        "similarity": 0.651
+      }
+    ]
+  },
+  {
+    "id": "D07",
+    "filename": "한국교통안전공단_2022년 안전도측정기기 정밀도검사 기기종류별 부적합 및 재검사 현황_20230720.csv",
+    "query": "한국교통안전공단 2022년 안전도측정기기 정밀도검사 기기종류별 부적합 및 재검사 현황",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15116941/fileData.do",
+        "title": "한국교통안전공단_2022년 안전도측정기기 정밀도검사 기기종류별 부적합 및 재검사 현황",
+        "similarity": 1.0
+      }
+    ]
+  },
+  {
+    "id": "D08",
+    "filename": "한국교통안전공단_2023년 안전도측정기기 형식 등록 현황_20230720.csv",
+    "query": "한국교통안전공단 2023년 안전도측정기기 형식 등록 현황",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15116945/fileData.do",
+        "title": "한국교통안전공단_2023년 안전도측정기기 형식 등록 현황",
+        "similarity": 1.0
+      }
+    ]
+  },
+  {
+    "id": "D09",
+    "filename": "한국교통안전공단_교통안전관리자 자격증발급 연도별 현황_20251231.csv",
+    "query": "한국교통안전공단 교통안전관리자 자격증발급 연도별 현황",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15003928/fileData.do",
+        "title": "한국교통안전공단_교통안전관리자 자격증발급 연도별 현황",
+        "similarity": 1.0
+      }
+    ]
+  },
+  {
+    "id": "D10",
+    "filename": "한국교통안전공단_교통안전교육 과정별 수료자 현황_20210714.csv",
+    "query": "한국교통안전공단 교통안전교육 과정별 수료자 현황",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15087681/fileData.do",
+        "title": "한국교통안전공단_교통안전교육 과정별 수료자 현황",
+        "similarity": 1.0
+      }
+    ]
+  },
+  {
+    "id": "D11",
+    "filename": "한국교통안전공단_궤도시설 검사일자 정보_20250915.csv",
+    "query": "한국교통안전공단 궤도시설 검사일자 정보",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15149631/fileData.do",
+        "title": "한국교통안전공단_궤도시설 검사일자 정보",
+        "similarity": 1.0
+      },
+      {
+        "url": "https://www.data.go.kr/data/15133372/fileData.do",
+        "title": "한국교통안전공단_궤도시설 검사 정보",
+        "similarity": 0.941
+      }
+    ]
+  },
+  {
+    "id": "D12",
+    "filename": "한국교통안전공단_사업용차량 Trip단위 위험운전운행데이터(샘플).zip",
+    "query": "한국교통안전공단 사업용차량 Trip단위 위험운전운행데이터(샘플)",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15050069/fileData.do",
+        "title": "한국교통안전공단_사업용차량 Trip단위 위험운전운행데이터(샘플)",
+        "similarity": 1.0
+      }
+    ]
+  },
+  {
+    "id": "D13",
+    "filename": "한국교통안전공단_운수안전컨설팅_안전등급정보_20241231.csv",
+    "query": "한국교통안전공단 운수안전컨설팅 안전등급정보",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15149779/fileData.do",
+        "title": "한국교통안전공단_운수안전컨설팅_안전등급정보",
+        "similarity": 1.0
+      },
+      {
+        "url": "https://www.data.go.kr/data/15066689/fileData.do",
+        "title": "한국교통안전공단_표준링크 안전등급 비율",
+        "similarity": 0.615
+      },
+      {
+        "url": "https://www.data.go.kr/data/15066917/fileData.do",
+        "title": "한국교통안전공단_링크분석정보",
+        "similarity": 0.571
+      }
+    ]
+  },
+  {
+    "id": "D14",
+    "filename": "한국교통안전공단_운수안전컨설팅지원시스템 교육영상_20180504.zip",
+    "query": "한국교통안전공단 운수안전컨설팅지원시스템 교육영상",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15064630/fileData.do",
+        "title": "한국교통안전공단_운수안전컨설팅지원시스템 교육영상",
+        "similarity": 1.0
+      }
+    ]
+  },
+  {
+    "id": "D15",
+    "filename": "한국교통안전공단_위험물질운송안전관리시스템 CCTV 목록_20260701.csv",
+    "query": "한국교통안전공단 위험물질운송안전관리시스템 CCTV 목록",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15119568/fileData.do",
+        "title": "한국교통안전공단_위험물질운송안전관리시스템 CCTV 목록",
+        "similarity": 1.0
+      }
+    ]
+  },
+  {
+    "id": "D16",
+    "filename": "한국교통안전공단_철도안전전문가교육 기본과정_사이버교육 수료현황_20251231.csv",
+    "query": "한국교통안전공단 철도안전전문가교육 기본과정 사이버교육 수료현황",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15104330/fileData.do",
+        "title": "한국교통안전공단_철도안전전문가교육 기본과정_사이버교육 수료현황",
+        "similarity": 1.0
+      }
+    ]
+  },
+  {
+    "id": "D17",
+    "filename": "한국교통안전공단_측정기기 검사정보_20250429.csv",
+    "query": "한국교통안전공단 측정기기 검사정보",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15149643/fileData.do",
+        "title": "한국교통안전공단_측정기기 검사정보",
+        "similarity": 1.0
+      },
+      {
+        "url": "https://www.data.go.kr/data/15132045/fileData.do",
+        "title": "한국교통안전공단_환경측정기기 성능시험 정보",
+        "similarity": 0.778
+      },
+      {
+        "url": "https://www.data.go.kr/data/15133296/fileData.do",
+        "title": "한국교통안전공단_검사용 자동차 정보",
+        "similarity": 0.75
+      }
+    ]
+  },
+  {
+    "id": "D18",
+    "filename": "한국교통안전공단_통함홈페이지시스템_연구교육지식 관련 자료_20200403.csv",
+    "query": "한국교통안전공단 통함홈페이지시스템 연구교육지식 관련 자료",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15066110/fileData.do",
+        "title": "한국교통안전공단_통함홈페이지시스템_연구교육지식 관련 자료",
+        "similarity": 1.0
+      }
+    ]
+  },
+  {
+    "id": "D19",
+    "filename": "한국교통안전공단_통합국가자격 상점링크정보_20251118.csv",
+    "query": "한국교통안전공단 통합국가자격 상점링크정보",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15150436/fileData.do",
+        "title": "한국교통안전공단_통합국가자격 상점링크정보",
+        "similarity": 1.0
+      }
+    ]
+  },
+  {
+    "id": "D20",
+    "filename": "한국교통안전공단_통합국가자격_필기시험과목별결과정보_20251208.csv",
+    "query": "한국교통안전공단 통합국가자격 필기시험과목별결과정보",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15156051/fileData.do",
+        "title": "한국교통안전공단_통합국가자격_필기시험과목별결과정보",
+        "similarity": 1.0
+      }
+    ]
+  },
+  {
+    "id": "D21",
+    "filename": "한국교통안전공단_통합홈페이지시스템_검사서비스지식관련자료_20200403.csv",
+    "query": "한국교통안전공단 통합홈페이지시스템 검사서비스지식관련자료",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15065885/fileData.do",
+        "title": "한국교통안전공단_통합홈페이지시스템_검사서비스지식관련자료",
+        "similarity": 1.0
+      }
+    ]
+  },
+  {
+    "id": "D22",
+    "filename": "한국교통안전공단_통합홈페이지시스템_사업소 서비스_20200403.csv",
+    "query": "한국교통안전공단 통합홈페이지시스템 사업소 서비스",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15066120/fileData.do",
+        "title": "한국교통안전공단_통합홈페이지시스템_사업소 서비스",
+        "similarity": 1.0
+      }
+    ]
+  },
+  {
+    "id": "D23",
+    "filename": "한국교통안전공단_통합홈페이지시스템_웹진 목차_20200403.csv",
+    "query": "한국교통안전공단 통합홈페이지시스템 웹진 목차",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15066123/fileData.do",
+        "title": "한국교통안전공단_통합홈페이지시스템_웹진 목차",
+        "similarity": 1.0
+      }
+    ]
+  },
+  {
+    "id": "D24",
+    "filename": "한국교통안전공단_통합홈페이지시스템_일일접속자 및 만족도 평가관리 정보_20191130.csv",
+    "query": "한국교통안전공단 통합홈페이지시스템 일일접속자 및 만족도 평가관리 정보",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15066124/fileData.do",
+        "title": "한국교통안전공단_통합홈페이지시스템_일일접속자 및 만족도 평가관리 정보",
+        "similarity": 1.0
+      }
+    ]
+  },
+  {
+    "id": "D25",
+    "filename": "한국교통안전공단_통합홈페이지시스템_자격시험지식 관련 자료_20200313.csv",
+    "query": "한국교통안전공단 통합홈페이지시스템 자격시험지식 관련 자료",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15066125/fileData.do",
+        "title": "한국교통안전공단_통합홈페이지시스템_자격시험지식 관련 자료",
+        "similarity": 1.0
+      }
+    ]
+  },
+  {
+    "id": "D26",
+    "filename": "한국교통안전공단_항공분류체계_20231214.csv",
+    "query": "한국교통안전공단 항공분류체계",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/15150774/fileData.do",
+        "title": "한국교통안전공단_항공분류체계",
+        "similarity": 1.0
+      }
+    ]
+  },
+  {
+    "id": "D27",
+    "filename": "한국도로교통공단_교통안전 사회교육 실시 현황_20241231.csv",
+    "query": "한국도로교통공단 교통안전 사회교육 실시 현황",
+    "candidates": [
+      {
+        "url": "https://www.data.go.kr/data/3072368/fileData.do",
+        "title": "한국도로교통공단_교통안전 사회교육 실시 현황",
+        "similarity": 1.0
+      }
+    ]
+  }
+]

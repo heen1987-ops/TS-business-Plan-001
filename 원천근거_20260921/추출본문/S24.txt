@@ -1,0 +1,3148 @@
+[PDF 1쪽]
+Federal Motor Carrier Safety 
+Administration’s Advanced System Testing 
+Utilizing a Data Acquisition System on the 
+Highways (FAST DASH) 
+Safety Technology Evaluation Project #2: 
+Driver Monitoring  
+Final Report
+November 2016 
+
+[PDF 2쪽]
+ 
+ii 
+FOREWORD 
+The mission of the Federal Motor Carrier Safety Administration (FMCSA) is to reduce crashes, 
+injuries, and fatalities involving large trucks and buses. A key focus of FMCSA is to provide 
+leadership in the testing and evaluation of promising commercial motor vehicle (CMV) safety 
+technologies so that these technologies can be implemented more rapidly and their potential 
+benefits realized sooner. Moving promising safety technologies from the design stage to the 
+implementation and deployment stages is expected to lead to a reduction in large truck crashes 
+and their associated injuries and fatalities. The objective of FMCSA’s Advanced System Testing 
+Utilizing a Data Acquisition System on the Highways program is to perform independent 
+evaluations of promising safety technologies aimed at commercial vehicle operations. 
+For this study, an onboard monitoring system (OBMS) was evaluated. The OBMS was tested to 
+assess the performance capabilities reported by the vendor and to verify connectivity of the 
+OBMS to the Virginia Tech Transportation Institute’s “NextGen” (next generation) data 
+acquisition system. Finally, a field study implemented the OBMS within a revenue-producing 
+fleet and the system was exercised on public roadways to gain an understanding of the system’s 
+potential safety benefits, system performance, unintended consequences, and impressions of the 
+technology. 
+NOTICE 
+This document is disseminated under the sponsorship of the U.S. Department of Transportation 
+(USDOT) in the interest of information exchange. The U.S. Government assumes no liability for 
+the use of the information contained in this document. The contents of this report reflect the 
+views of the contractor, who is responsible for the accuracy of the data presented herein. The 
+contents do not necessarily reflect the official policy of the USDOT. This report does not 
+constitute a standard, specification, or regulation. 
+The U.S. Government does not endorse products or manufacturers named herein. Trademarks or 
+manufacturers’ names appear in this report only because they are considered essential to the 
+objective of this report.  
+QUALITY ASSURANCE STATEMENT 
+FMCSA provides high-quality information to serve Government, industry, and the public in a 
+manner that promotes public understanding. Standards and policies are used to ensure and 
+maximize the quality, objectivity, utility, and integrity of its information. FMCSA periodically 
+reviews quality issues and adjusts its programs and processes to ensure continuous quality 
+improvement. 
+ 
+ 
+[PDF 3쪽]
+ 
+  
+Technical Report Documentation Page 
+1. Report No. 
+FMCSA-RRR-16-002 
+2. Government Accession No. 
+ 
+3. Recipient's Catalog No. 
+ 
+4. Title and Subtitle 
+Federal Motor Carrier Safety Administration’s Advanced System 
+Testing Utilizing a Data Acquisition System on the Highways (FAST 
+DASH), Safety Technology Evaluation  Project #2: Driver Monitoring, 
+Final Report 
+5. Report Date 
+November 2016 
+6. Performing Organization Code 
+ 
+7. Author(s) 
+Krum, Andrew; Bowman, Darrell S.; Soccolich, Susan; Deal, Victoria; 
+Golusky, Mark; Joslin, Spencer; Miller, Andrew; and Hanowski, 
+Richard J.  
+ 
+8. Performing Organization Report No. 
+ 
+9. Performing Organization Name and Address 
+Virginia Tech Transportation Institute 
+3500 Transportation Research Plaza 
+Blacksburg, VA 24061 
+10. Work Unit No. (TRAIS) 
+ 
+11. Contract or Grant No. 
+FMCSA Cooperative Agreement  
+# DTMC75-010-H-00001 
+12. Sponsoring Agency Name and Address 
+U.S. Department of Transportation 
+Federal Motor Carrier Safety Administration 
+Office of Analysis, Research, and Technology 
+1200 New Jersey Ave. SE 
+Washington, DC 20590 
+13. Type of Report  
+Final Report 
+14. Sponsoring Agency Code 
+FMCSA 
+15. Supplementary Notes 
+Contracting Officer’s Representative: Jon Mueller 
+16. Abstract 
+An independent evaluation of a non-video-based onboard monitoring system (OBMS) was conducted. The objective 
+was to determine if the OBMS system performed reliably, improved driving safety and performance, and improved 
+fuel efficiency in a commercial motor vehicle (CMV) operation. The study involved a controlled test on the Virginia 
+Smart Road and a naturalistic field test with a CMV fleet. Controlled testing demonstrated capabilities for the field 
+test. The field test demonstrated OBMS reliability with positive effects for safety but inconclusive effects for fuel 
+efficiency. A reliability analysis indicated the OBMS provided speeding and seatbelt violations accurately 86 and 
+100 percent of the time, respectively. An analysis using the rate of safety-critical events (SCEs) per 10,000 miles 
+found no reduction in SCEs from intervention to baseline. However, a trend analysis of violation frequency per 
+1,000 miles over vehicle operation weeks showed a significant drop in speeding violations (37 percent) and seatbelt 
+violations (56 percent) from the baseline phase to the first 2-week intervention period. A subset of participating 
+drivers in the field study were surveyed and indicated the OBMS was easy to use and felt it had a positive impact on 
+their performance. Recommendations are presented for both system providers and fleets.  
+17. Key Words 
+Commercial motor vehicle, commercial safety 
+technology, driver monitoring, independent evaluation  
+18. Distribution Statement 
+No restrictions 
+19. Security Classif. (of this report) 
+Unclassified 
+20. Security Classif. (of this page) 
+Unclassified 
+21. No. of Pages 
+100 
+22. Price 
+ 
+Form DOT F 1700.7 (8-72) Reproduction of completed page authorized. 
+ 
+[PDF 4쪽]
+ 
+i 
+SI* (MODERN METRIC) CONVERSION FACTORS 
+Approximate Conversions to SI Units 
+Symbol When You Know Multiply By To Find Symbol 
+Length 
+in inches 25.4 millimeters mm 
+ft feet 0.305 meters m 
+yd yards 0.914 meters m 
+mi miles 1.61 kilometers km 
+Area 
+in² square inches 645.2 square millimeters mm² 
+ft² square feet 0.093 square meters m² 
+yd² square yards 0.836 square meters m² 
+ac Acres 0.405 hectares ha 
+mi² square miles 2.59 square kilometers km² 
+Volume (volumes greater than 1,000L shall be shown in m³) 
+fl oz fluid ounces 29.57 milliliters mL 
+gal gallons 3.785 liters L 
+ft³ cubic feet 0.028 cubic meters m³ 
+yd³ cubic yards 0.765 cubic meters m³ 
+Mass 
+oz ounces 28.35 grams g 
+lb pounds 0.454 kilograms kg 
+T short tons (2,000 lb) 0.907 megagrams (or “metric ton”) Mg (or “t”) 
+Temperature (exact degrees) 
+°F Fahrenheit 5(F-32)/9 or (F-32)/1.8 Celsius °C 
+Illumination 
+fc foot-candles 10.76 lux lx 
+fl foot-Lamberts 3.426 candela/m² cd/m² 
+Force and Pressure or Stress 
+lbf poundforce 4.45 newtons N 
+lbf/in² poundforce per square inch 6.89 kilopascals kPa 
+Approximate Conversions from SI Units 
+Symbol When You Know Multiply By To Find Symbol 
+Length 
+mm millimeters 0.039 inches in 
+m meters 3.28 feet ft 
+m meters 1.09 yards yd 
+km kilometers 0.621 miles mi 
+Area 
+mm² square millimeters 0.0016 square inches in² 
+m² square meters 10.764 square feet ft² 
+m² square meters 1.195 square yards yd² 
+Ha hectares 2.47 acres ac 
+km² square kilometers 0.386 square miles mi² 
+Volume 
+mL milliliters 0.034 fluid ounces fl oz 
+L liters 0.264 gallons gal 
+m³ cubic meters 35.314 cubic feet ft³ 
+m³ cubic meters 1.307 cubic yards yd³ 
+Mass 
+g grams 0.035 ounces oz 
+kg kilograms 2.202 pounds lb 
+Mg (or “t”) megagrams (or “metric ton”) 1.103 short tons (2,000 lb) T 
+Temperature (exact degrees) 
+°C Celsius 1.8c+32 Fahrenheit °F 
+Illumination 
+lx lux 0.0929 foot-candles fc 
+cd/m² candela/m² 0.2919 foot-Lamberts fl 
+Force and Pressure or Stress 
+N newtons 0.225 poundforce lbf 
+kPa kilopascals 0.145 poundforce per square inch lbf/in² 
+*SI is the symbol for the International System of Units. Appropriate rounding should be made to comply with 
+Section 4 of ASTM E380. (Revised March 2003, Section 508-accessible version September 2009.)
+[PDF 5쪽]
+ 
+ii 
+TABLE OF CONTENTS 
+EXECUTIVE SUMMARY ...........................................................................................................x 
+1. INTRODUCTION.................................................................................................................1 
+1.1 BACKGROUND AND RESEARCH OBJECTIVES ...................................................1 
+1.2 PROBLEM SCOPE .......................................................................................................3 
+1.3 ORGANIZATION OF THE CURRENT REPORT ......................................................4 
+1.3.1 Preliminary Performance Testing ..................................................................... 4 
+1.3.2 Field Study ........................................................................................................ 4 
+1.3.3 Conclusions ....................................................................................................... 4 
+1.3.4 Recommendations ............................................................................................. 4 
+2. CONTROLLED PERFORMANCE TESTING .................................................................5 
+2.1 DYNAMIC TESTING (VIRGINIA SMART ROAD) ..................................................5 
+2.1.1 Setup ................................................................................................................. 5 
+2.1.2 Shakedown Testing Trials................................................................................. 5 
+2.1.3 Onboard Monitoring System Feature Evaluation ............................................. 5 
+2.1.4 Onboard Monitoring System-to-Data Acquisition System Interface Evaluation
+ 7 
+3. FIELD STUDY ......................................................................................................................9 
+3.1 STUDY DESIGN.........................................................................................................10 
+3.2 METHOD ....................................................................................................................10 
+3.2.1 Fleet and Drivers ............................................................................................. 10 
+3.2.2 Apparatus ........................................................................................................ 11 
+3.2.3 Driver Recruitment Process ............................................................................ 20 
+3.2.4 Data Reduction................................................................................................ 21 
+3.3 RESULTS ....................................................................................................................26 
+3.3.1 Participant Demographics ............................................................................... 26 
+3.3.2 Naturalistic Data Statistics .............................................................................. 27 
+3.3.3 Onboard Monitoring System Accuracy Assessment ...................................... 27 
+3.3.4 Safety Evaluation (Safety-critical Event Analysis) ........................................ 34 
+3.3.5 Seatbelt Usage ................................................................................................. 43 
+3.3.6 Qualitative Analysis (Driver and Manager Acceptance) ................................ 48 
+3.3.7 Fuel Usage Results .......................................................................................... 53 
+4. CONCLUSIONS .................................................................................................................55 
+4.1 SYSTEM PERFORMANCE .......................................................................................55 
+[PDF 6쪽]
+ 
+iii 
+4.1.1 Controlled Testing .......................................................................................... 55 
+4.1.2 Field Testing ................................................................................................... 55 
+4.2 POTENTIAL SAFETY BENEFITS ............................................................................56 
+4.3 USER ACCEPTANCE ................................................................................................57 
+4.4 STUDY LIMITATIONS .............................................................................................57 
+5. RECOMMENDATIONS ....................................................................................................59 
+ACKNOWLEDGEMENTS ........................................................................................................81 
+REFERENCES .............................................................................................................................83 
+[PDF 7쪽]
+ 
+iv 
+LIST OF APPENDICES 
+APPENDIX A: VENDOR SOLICITATION WEB SITE ........................................................61 
+APPENDIX B: WAYSMART FEATURES AND SPECIFICATIONS ..................................63 
+APPENDIX C: WAYSMART INTERFACE GUIDE ..............................................................65 
+APPENDIX D: PRE-STUDY QUESTIONNAIRE ...................................................................67 
+APPENDIX E: POST-STUDY QUESTIONNAIRE ................................................................73 
+APPENDIX F: FLEET MANAGER INTERVIEW QUESTIONS .........................................79 
+ACKNOWLEDGEMENTS ........................................................................................................81 
+[PDF 8쪽]
+ 
+v 
+LIST OF FIGURES 
+Figure 1. Photograph. The tested OBMS driver interface and controller unit hardware. ................2 
+Figure 2. Photograph. The NextGen DAS positioned behind the passenger seat..........................12 
+Figure 3. Photograph. DAS forward and face camera mounted on windshield. ...........................13 
+Figure 4. Photograph. DAS driver-side, rear-facing side camera mounted on fender. ..................14 
+Figure 5. Photograph. Four camera images multiplexed into a single image. ...............................14 
+Figure 6. Marketing screenshot. Driver-monitoring system Web portal, driver report view. .......19 
+Figure 7. Marketing screenshot. Driver-monitoring system Web portal, driver performance  
+detail charts. .................................................................................................................19 
+Figure 8. Chart. Distribution of speed in speeding violation sample.............................................29 
+Figure 9. Chart. Distribution of speed in speeding non-violation sample. ....................................30 
+Figure 10. Chart. Distribution of speed in seatbelt violation sample.............................................31 
+Figure 11. Chart. Distribution of speed in seatbelt non-violation sample. ....................................32 
+Figure 12. Chart. Baseline and intervention rates of all SCEs per 10,000 VMT for each 
+participating driver with valid data. .............................................................................35 
+Figure 13. Chart. Baseline and intervention rates of crash, near-crash, crash-relevant conflict,  
+and unintentional lane deviation SCEs per 10,000 VMT for each participating driver 
+with valid data. .............................................................................................................36 
+Figure 14. Chart. Baseline and intervention rates of participating driver at-fault crash, near-crash, 
+crash-relevant conflict, and unintentional lane deviation SCEs per 10,000 VMT for 
+each participating driver with valid data. .....................................................................37 
+Figure 15. Chart. Speeding violation rates, per driver, in the baseline and intervention study 
+periods. .........................................................................................................................39 
+Figure 16. Line chart. Speeding violation rate per 1,000 miles over time in study (baseline  
+period and 2-week intervention period windows). ......................................................41 
+Figure 17. Bar chart. Seatbelt violation rates, per driver, in the baseline and intervention   
+periods. .........................................................................................................................44 
+Figure 18. Chart. Seatbelt violation rate per 1,000 miles over time in study (baseline period     
+and 2-week intervention period windows). ..................................................................46 
+Figure 19. Chart. Distribution of file average fuel rate (liters per hour) for files 10 minutes or 
+longer in duration, from sampled time frame, with fuel rate data in baseline and 
+intervention group phases. ...........................................................................................54
+ 
+ 
+[PDF 9쪽]
+ 
+vi 
+LIST OF TABLES 
+Table 1. Description of SCE type. ...................................................................................................9 
+Table 2. Power analysis results for an A2B4 design using data from generated data set 
+representative of a daytime heavy-vehicle data collection effort. ...............................10 
+Table 3. Number of events sampled, proportional to collected driver mileage. ............................23 
+Table 4. Participating drivers’ self-reported data on in-vehicle technology use. ..........................27 
+Table 5. The frequency of aggressive driving violations per driver. .............................................33 
+Table 6. Scenario description for driver with most frequent hard-brake violations. .....................33 
+Table 7. Scenario description for driver with most frequent hard-turn violations. ........................33 
+Table 8. Vehicle speeds (mi/h) summarized by aggressive violation type. ...................................33 
+Table 9. Vehicle g-forces summarized by aggressive violation type. ...........................................34 
+Table 10. Audio status distribution in seatbelt and speeding violations. .......................................34 
+Table 11. Distribution of SCEs in the baseline and intervention phases. ......................................35 
+Table 12. Number of drivers and average difference in SCE rate (intervention − baseline) for 
+participants with a decreased or increased SCE rate. ..................................................37 
+Table 13. Baseline and intervention mileage and speeding violation data for all participating 
+drivers. .........................................................................................................................40 
+Table 14. Speeding violation rate per 1,000 miles over time in study for all drivers (baseline 
+period and 2-week intervention period windows). ......................................................42 
+Table 15. Baseline and intervention mileage and seatbelt violation data for all participating 
+drivers. .........................................................................................................................45 
+Table 16. Seatbelt violation rate per 1,000 miles over time in study for all drivers (baseline 
+period and 2-week intervention period windows). ......................................................47 
+Table 17. Pre-study driving behavior questionnaire frequency of responses. ...............................49 
+Table 18. Comparison of pre-study and post-study questionnaire responses for the driver’s 
+opinion of the technology. ...........................................................................................50 
+Table 19. Post-study questionnaire responses on waySmart device use. ......................................52 
+Table 20. Descriptive statistics of file average fuel rate (liters per hour) for files 10 minutes or 
+longer in duration, from sampled time frame, with fuel rate data in baseline and 
+intervention group phases. ...........................................................................................54 
+ 
+[PDF 10쪽]
+ 
+vii 
+ABBREVIATIONS, ACRONYMS, AND SYMBOLS 
+Acronym Definition 
+A2B4 2-month baseline and 4-month intervention 
+C crash 
+CAN controller area network 
+CDL commercial driver’s license 
+CMV commercial motor vehicle 
+CRC crash-relevant conflict 
+CVO commercial vehicle operations 
+DAS data acquisition system 
+df degrees of freedom 
+dvX frequency for hard brake 
+dvY frequency for hard turn 
+dvZ frequency for hard bump 
+EOBR electronic on-board recorder 
+FMCSA’s Advanced System Testing utilizing a Data Acquisition System FAST DASH on the Highways 
+FMCSA Federal Motor Carrier Safety Administration 
+GPS global positioning system 
+ID identification 
+km/h kilometers per hour 
+MATLAB technical computing softwa re 
+MCMIS Motor Carrier Management Information System 
+mi/h miles per hour 
+NC near-crash 
+NextGen next generation, next “level up,” a higher technology, new development 
+OBMS onboard monitoring system 
+[PDF 11쪽]
+ 
+viii 
+Acronym Definition 
+OEM original equipment manufacturer 
+SCE safety-critical event 
+SCE-XCS safety-critical event excluding curb strike 
+SD standard deviation 
+SE standard error 
+ULD unintentional lane deviation 
+USB universal serial bus 
+VMT vehicle miles traveled 
+VTTI Virginia Tech Transportation Institute 
+[PDF 12쪽]
+ 
+ix 
+ 
+[This page intentionally left blank.] 
+[PDF 13쪽]
+ 
+x 
+EXECUTIVE SUMMARY 
+PURPOSE 
+A focus of the Federal Motor Carrier Safety Administration (FMCSA) is to provide leadership in 
+the testing and evaluation of promising safety technologies developed for commercial motor 
+vehicles (CMVs) such that their in-service benefits can be identified in a naturalistic driving 
+environment. By identifying, quantifying, and documenting the safety benefits of promising 
+technologies, FMCSA expects to positively influence the voluntary adoption of proven 
+technologies by motor carriers. The goal of FMCSA’s Advanced System Testing Utilizing a 
+Data Acquisition System on the Highways (FAST DASH) program is to conduct efficient, 
+independent evaluations of promising safety technologies aimed at commercial vehicle 
+operations (CVOs). The current report details all tasks completed for FAST DASH Safety 
+Technology Evaluation Project #2: Driver Monitoring.  
+For this study, an onboard monitoring system (OBMS) was evaluated. The tested OBMS—the 
+waySmart
+® 820—is a fleet risk management system. Using vehicle kinematic and network data, 
+accelerometers, and a global positioning system (but no video), the OBMS identifies 
+unacceptable behavior and provides feedback to the driver, which is aiming at correcting the 
+offending behavior within a given period of time. Examples of such behaviors include speeding 
+(based on the posted speed limit or other pre-set criteria), driving aggressively (based on 
+kinematic sensors), and lack of seatbelt use (also based on sensors). If the speed or seatbelt 
+violation is corrected within the allowable period (e.g., speed reduced or seatbelt fastened), no 
+violation (i.e., infraction identified by the system) is recorded. The system also monitors idling 
+and approximates fuel usage by accessing data on the controller area network (CAN).  
+PROCESS 
+In this study, the Virginia Tech Transportation Institute (VTTI) conducted an independent 
+evaluation of the waySmart 820 OBMS. The study process is described below:  
+• Controlled Performance Testing—The research team performed preliminary 
+“shakedown testing” of the technology in a controlled environment to exercise and assess 
+the performance capabilities reported by the vendor (i.e., to determine the operational 
+envelope). A secondary purpose of the shakedown testing was to verify the connectivity 
+of the OBMS to the VTTI NextGen (next generation) data acquisition system (DAS). 
+• Field Study—The OBMS has the potential to improve both safety and efficiency; 
+however, its actual effectiveness depends on system reliability, validity, driver 
+acceptance, “coaching” of drivers, and fleet manager interaction. The intent of the field 
+study was to implement the OBMS within a revenue-producing fleet and exercise the 
+system on public roadways to gain an understanding of the system’s potential safety 
+benefits, system performance under real-world conditions, unintended consequences, and 
+driver and manager impressions of the technology. 
+[PDF 14쪽]
+ 
+xi 
+RATIONALE AND BACKGROUND 
+FMCSA’s Large Truck Crash Causation Study was the first-ever national study to attempt to 
+determine the critical events and associated factors that contribute to serious large truck 
+crashes.(1) Of the crashes analyzed in this study, 87.3 percent of the critical reasons attributed to 
+the CMV (where the CMV was at fault) were assigned to driver error; 38 percent of those were 
+specifically attributed to decision errors (e.g., speeding per conditions).
+(2) Separately, a 2013 
+survey of seatbelt usage in the United States among medium- and heavy-duty truck and bus 
+drivers found that approximately 16 percent of CMV drivers were not wearing seatbelts at the 
+time of observation.(3) According to the summary provided in Large Truck and Bus Crash Facts, 
+2013, of the 3,858 large truck drivers who died in crashes in 2013, 347 (9 percent) were not 
+wearing any seatbelt.(4) Based on this previous research, speeding and seatbelt compliance are 
+noteworthy areas to address. 
+Encouraging drivers to make safe choices when driving can save on equipment and operating 
+costs, and—more importantly—save lives. Hickman and Geller demonstrated that teaching 
+short-haul truck drivers to self-manage risky behaviors can be very effective at reducing 
+activities such as extreme braking and speeding.(5) However, a later study by Hickman and 
+Hanowski indicated that this strategy has challenges for application across revenue-producing 
+fleets to maintain peer observation, feedback, and driver motivation.(6) In this later study, 
+Hickman and Hanowski deployed an OBMS in a revenue-producing environment with 
+professional CMV drivers. That study found that the number of safety-related events was 
+significantly reduced from periods of driver performance without manager coaching or in-cab 
+feedback to periods of driver performance with manager coaching and in-cab feedback. The 
+OBMS technology in that study included video monitoring and accelerometers that triggered 
+events for video capture. 
+The current study sought to evaluate a monitoring system that requires fleet management 
+interaction. The tested monitoring technology varies significantly from other OBMSs, in that it 
+applies kinematic measures (such as accelerometers) to track aggressive driving, but it does not 
+capture video for manager review, which may make the driver less conscious of the monitoring 
+system. The tested OBMS includes seatbelt usage monitoring and proprietary “Speed-by-
+Street™” monitoring, which compares real-time vehicle speed to pre-existing speed maps. A 
+feature of the tested OBMS is its driver-vehicle interface display, which sounds an audible verbal 
+alert when speeding, seatbelt, or aggressive driving criteria have been exceeded. Evaluation of 
+the effectiveness and accuracy of this OBMS can serve to provide operating fleets with a better 
+understanding of how to apply this technology, and technology vendors with a better 
+understanding of how to improve their systems to meet the needs of fleets and their drivers. 
+CONCLUSIONS 
+Results from the controlled performance testing demonstrated the OBMS’s capabilities for 
+naturalistic collection and driving performance. The field study indicated that the OBMS 
+performed reliably and had positive effects on driver performance and inconclusive effects on 
+fuel efficiency.  
+[PDF 15쪽]
+ 
+xii 
+• OBMS reliably detects speeding and seatbelt violations. Field testing demonstrated 
+that the OBMS speed monitoring sensor correctly identified when CMV drivers were 
+speeding (according to fleet-selected criteria) 86 percent of the time. The OBMS seatbelt 
+monitoring sensor correctly identified when the driver’s seatbelt was unfastened 100 
+percent of the time. Interestingly, the majority of seatbelt violations occurred in parking 
+lots (85 percent) and at low speeds (less than 15 mi/h [24.1 km/h]; 93 percent).  
+• Significant decrease in speeding. The rate of speeding violations per 1,000 miles 
+averaged across all drivers was significantly reduced (37 percent) from baseline to the 
+first 2-week intervention period, when the OBMS started providing in-cab feedback.  
+• Significant improvement in seatbelt use. The rate of seatbelt violations was 
+significantly reduced (56 percent) from baseline to the first 2-week intervention period 
+and remained so throughout the entire intervention phase.  
+• No significant change in safety-critical events (SCEs). The field testing demonstrated 
+neutral results regarding the effect of the OBMS on safe driving performance, as 
+measured by SCEs. The mean rate of driver-at-fault SCEs (excluding curb strikes) per 
+10,000 miles during the intervention phase was not significantly lower than the mean rate 
+during the baseline phase. However, the rate of driver-at-fault SCEs (excluding curb 
+strikes) decreased for two-thirds of drivers. 
+• No observed fuel usage improvement. Collected drive file average fuel rates were 
+compared between a group of drivers active in the intervention period and a group of 
+drivers active in the baseline period (during a simultaneous 1-month period). The fuel 
+efficiency results were inconclusive. 
+• Positive driver and manager reviews. A subset of drivers and fleet managers reported 
+being able to understand and respond to the OBMS technology and found it beneficial 
+and effective at improving safe driving performance. 
+• Inconsistent/irregular fleet coaching. Though the fleet management understood the 
+involvement required for this evaluation, the research team observed that the fleet did not 
+consistently follow the coaching protocol developed by the OBMS provider. For 
+example, there was limited application of weekly email reports and limited use of the 
+Web portal by fleet managers. It is likely that this lack of rigor may have had a negative 
+impact on the realization of benefits of the tested OBMS. As an example, though a 
+significant improvement in speeding violations was recorded in the early part of the study 
+when driver violations were actively coached, the speeding rate returned to near baseline 
+performance by the end of the intervention period, when it was observed that coaching 
+had dropped off. 
+[PDF 16쪽]
+ 
+xiii 
+RECOMMENDATIONS 
+The evaluation of this specific OBMS provides some valuable guidance for both system 
+providers and CMV fleets: 
+• Suggestions for improving the OBMS technology. Based on the results of this field 
+test, opportunities for some improvement became apparent, including regular audits of 
+metrics and configurations specific for truck speeds. 
+• Suggestions for fleet coaching. Active engagement between fleet managers and drivers 
+should be regular and consistent to obtain the maximum benefit from the OBMS. 
+• Industry application. The tested OBMS may provide a useful resource for fleets 
+desiring to improve safe driving performance (as clearly demonstrated in this study with 
+seatbelt sensors). Fleets should consider their specific application needs when 
+configuring OBMSs. Fleets should be conscious that occasional inconsistencies will exist 
+in the systems and allowances should be made for drivers to provide manager feedback. 
+• Better understanding of fleet manager-driver interaction. Future evaluations of 
+OBMSs should track fleet manager-driver interactions so that the exact frequency is 
+known, and compare the effects of interactions between separate fleet entities or among 
+drivers within a specific fleet. 
+FUTURE RESEARCH 
+This evaluation highlighted some areas for future research, such as the following:  
+• Effective implementation of an OBMS. Future research comparing effective and 
+ineffective implementation methods is needed to provide a roadmap for fleets to follow 
+when seeking to apply an OBMS to enhance driver performance and vehicle efficiency. 
+• Setting effective fleet performance criteria. A critical component that must be 
+considered when implementing a kinematic OBMS is the vehicle dynamic thresholds. 
+Most fleets are not equipped to run vehicle testing scenarios for calibration with full 
+vehicle and load scenarios. While a fleet may feel confident setting a speed or seatbelt 
+threshold based on policy, it most likely is not confident at setting thresholds for 
+aggressive driving, which necessarily vary by the vehicle configuration (i.e., weight, 
+single-unit, combination-unit) and transportation application (i.e., full load, less-than-
+load, dry, liquid, or hazardous materials). Joint cooperation among OBMS vendors, 
+vehicle manufacturers, and vehicle testing centers is needed to develop a range of 
+thresholds by vehicle configuration and application. 
+• Development of an OBMS coaching program. Long-term sustainable safety and 
+efficiency improvements require consistent and sustained fleet coaching. Future research 
+is needed to define effective coaching methods between fleet management and drivers, 
+with the end goal being continuous improvement.
+[PDF 17쪽]
+ 
+1 
+1. INTRODUCTION 
+1.1 BACKGROUND AND RESEARCH OBJECTIVES 
+The safety objective of the Federal Motor Carrier Safety Administration (FMCSA) is to reduce 
+crashes, injuries, and fatalities involving large trucks and buses.(7) The development, evaluation, 
+and deployment of advanced safety technologies can assist in achieving this objective.  
+While there are numerous safety systems in development that have the potential to reduce 
+crashes on our Nation’s roadways, the benefits that these systems might provide may never be 
+realized. While the reasons vary, one factor is the lack of supporting tests and evaluations to 
+understand and communicate the underlying safety systems’ true in-service benefits. FMCSA 
+envisions, through cooperation with the trucking industry, promising commercial motor vehicle 
+(CMV) safety technologies that support the expanding role of the trucking industry to transport 
+the Nation’s goods and products safely, securely, and efficiently. Implementation of vehicle 
+safety technologies—such as passive and active collision mitigation and active driver behavior 
+monitoring—could reduce large-truck and bus crashes. Data to assess the effectiveness of these 
+systems are necessary to promote their use in the trucking industry. 
+A key focus of FMCSA is to provide leadership in the testing and evaluation of promising 
+technologies so that these technologies can be implemented more rapidly and their potential 
+benefits realized in the commercial trucking industry. Moving promising safety technologies 
+from the design stage to the implementation and deployment stages is expected to lead to a 
+reduction in large-truck crashes and their associated injuries and fatalities. The goal of FMCSA’s 
+Advanced System Testing Utilizing a Data Acquisition System on the Highways (FAST DASH) 
+program is to perform efficient independent evaluations of promising safety technologies aimed 
+at commercial vehicle operations (CVO). The vision of this technology transfer program is to 
+provide technology insight to the commercial trucking industry in hopes of promoting the 
+adoption of effective and proven safety systems validated during in-service operations. The 
+efficacy of these safety systems is investigated using the following high-level metrics:  
+• Crash reduction effectiveness (i.e., safety benefits). 
+• Unintended consequences (i.e., safety disadvantages). 
+• User acceptance (e.g., driver and safety manager subjective opinions). 
+Under a 5-year cooperative agreement between FMCSA and the Virginia Tech Transportation 
+Institute (VTTI), the FAST DASH program was structured to complete three technology 
+evaluations. The body of this report focuses on the third safety technology evaluation, which has 
+been completed. 
+The FAST DASH technology evaluation process commenced with a solicitation for technology 
+candidates to submit their interest in partnering with VTTI to assess their systems. The research 
+team developed and posted a sources-sought notice via a dedicated FAST DASH Web page for 
+the purpose of soliciting proposals from safety technology vendors (see Appendix A). A 
+technology vendor statement of work (SOW) providing details on the FAST DASH program and 
+[PDF 18쪽]
+ 
+2 
+the requirements for proposal submission was made available on this Web page. In addition to 
+posting the sources-sought notice, researchers created a list of potential technology vendors and 
+notified them of the Web page solicitation. A press release regarding this solicitation was created 
+and sent to CVO media outlets and was posted on the research team’s Web site. Eight 
+technology vendors submitted proposals for a total of nine safety systems/technologies. VTTI 
+researchers conducted an initial review of these proposals and categorized the safety 
+technologies by type, potential safety benefits, and ease of implementation. A decision matrix 
+was used to identify, analyze, and rate the technology applicants systematically. Each technology 
+applicant was given a rating on a scale of 1–10 for meeting 14 relevant criteria, such as 
+FMCSA’s area of authority, FMCSA’s mission, expected safety effectiveness, technology 
+maturity, fitness for research, and prior research. These criteria were assigned weights by the 
+FAST DASH team (i.e., FMCSA and VTTI). A total score was computed for each technology 
+applicant. These scores were used in selection discussions and helped differentiate the 
+technologies, but were not the sole determinant for choosing a technology. 
+All technology proposals were presented to the contracting officer’s representative (COR) and 
+other FMCSA personnel for consideration. After a thorough review, a final candidate was 
+selected by FMCSA. A driver monitoring system—the waySmart
+® 820 (see Figure 1), developed 
+by inthinc™ Technology Solutions, Inc. (inthinc)—was selected for evaluation (see Appendix 
+B). This technology monitors the driver’s driving habits, such as speeding, aggressive maneuvers 
+(i.e., hard accelerations and braking, severe turning and swerving, and hard bumps), and seatbelt 
+usage through various sensors and data from the vehicle’s J1939 or J1708 controller area 
+network (CAN) bus. When the system detects that the driver is speeding, driving aggressively, or 
+not wearing a seatbelt, it issues an in-cab, real-time verbal and audible feedback alert to the 
+driver. If the driver fails to correct the behavior, a violation is transmitted back to the company’s 
+designated reviewer (e.g., safety manager/driver manager). More information about the tested 
+onboard monitoring system (OBMS) technology can be found in Section 3.2.2.3.  
+ 
+Figure 1. Photograph. The tested OBMS driver interface and controller unit hardware.  
+[PDF 19쪽]
+ 
+3 
+1.2 PROBLEM SCOPE 
+FMCSA’s Large Truck Crash Causation Study was the first-ever national study to attempt to 
+determine the critical events and associated factors that contribute to serious large truck 
+crashes.(8) Of the crashes analyzed in this study, 87.3 percent of the critical reasons attributed to 
+the CMV (where the CMV was at fault) were assigned to driver error; 38 percent of those were 
+specifically attributed to decision errors (e.g., speeding per conditions), 28.4 percent to 
+recognition errors (e.g., not paying attention), 11.6 percent to non-performance errors (e.g., 
+falling asleep), and 9.2 percent to performance errors (e.g., poor directional control).(9) 
+Separately, a 2013 survey of seatbelt usage in the United States among medium- and heavy-duty 
+truck and bus drivers found that approximately 16 percent of CMV drivers were not wearing 
+seatbelts at the time of observation.(10) According to the summary provided in Large Truck and 
+Bus Crash Facts, 2013, of the 3,858 large truck drivers who died in crashes in 2013, 347 (9 
+percent) were not wearing any seatbelt, 10 (0.3 percent) were wearing a shoulder belt only, and 
+52 (1.3 percent) were wearing a lap belt only.(11) An additional 269 fatalities (7.0 percent) did not 
+have a record of the seatbelt usage (i.e., it was not reported).  
+A recent summary of truck and bus driver violations collected from FMCSA’s Motor Carrier 
+Management Information System (MCMIS) demonstrated that failing to use a seatbelt while 
+operating a CMV was among the top five violation categories in 2013.(12) A 2013 survey of 
+seatbelt usage in the United States among medium- and heavy-duty truck and bus drivers found 
+an overall usage rate of 84 percent, up from 78 percent in 2010.(13) Rates were highest in the 
+western region (91 percent), including Hawaii and Alaska, and lowest in the northeastern region 
+(76 percent). Central and southeastern regions, including Texas, had rates of 79 percent and 83 
+percent, respectively. Usage rates were greater on expressways (86 percent) than on surface 
+streets (78 percent), and greater when driving in heavy traffic (85 percent) versus light traffic (71 
+percent). These data suggest that across the United States, 16 percent of truck drivers are not 
+consistently wearing seatbelts (on average).  
+Based on this previous research, speeding and seatbelt compliance are noteworthy areas to 
+address. Encouraging truck drivers to make safe driving choices (e.g., avoiding speeding and 
+aggressive driving and wearing their seatbelts) would benefit both the drivers’ personal safety 
+and the safety of surrounding vehicle operators. The current study sought to evaluate a 
+monitoring system that requires fleet management interaction. The tested monitoring technology 
+varies significantly from other OBMSs, in that it applies kinematic measures (such as 
+accelerometers) to track aggressive driving, but it does not capture video for manager review, 
+which may make the driver less conscious of the monitoring system.  
+The tested OBMS includes seatbelt usage monitoring and proprietary “Speed-by-Street™” 
+monitoring, which compares real-time vehicle speed to pre-existing speed maps. A significant 
+feature of the tested OBMS is its driver-vehicle interface display, which sounds an audible verbal 
+alert (e.g., “check your speed”) when speeding, seatbelt, or aggressive driving criteria have been 
+exceeded. For the speed and seatbelt alerts, the OBMS allows drivers a brief grace period to 
+correct performance in either of those categories before recording a violation visible to fleet 
+managers. It is worth noting that the participating fleet’s application of the OBMS included 
+delivery of weekly report cards to fleet managers, but not to drivers. The OBMS interactions 
+included real-time, in-cab verbal alerts for drivers and weekly emailed summaries and Web 
+[PDF 20쪽]
+ 
+4 
+portal access for fleet managers. Fleet managers were instructed and encouraged by the OBMS 
+technology vendor to provide regular driver coaching based on weekly emailed reports. The 
+OBMS also provided feedback to managers regarding idling time and approximate fuel usage. 
+This study investigated the effectiveness of the OBMS in affecting active safety performance 
+(speeding and aggressive driving), passive safety performance (seatbelt usage), and vehicle fuel 
+usage. This study also measured the system’s accuracy in recognizing when the criteria were 
+exceeded by the driver for speeding, aggressive driving, and seatbelt parameters. 
+1.3 ORGANIZATION OF THE CURRENT REPORT 
+The current report details all tasks completed during the second FAST DASH safety technology 
+evaluation. These tasks are briefly described in this section so that the reader can understand the 
+logical progression of events that took place. 
+1.3.1 Preliminary Performance Testing 
+An OBMS was installed in a test tractor-truck without trailer at VTTI. The OBMS was also 
+connected to the data acquisition system (DAS). The test tractor-truck was driven on the Virginia 
+Smart Road and surrounding public roads while the OBMS and DAS were actively collecting 
+driver performance and vehicle data. This section discusses the twofold purpose of the dynamic 
+testing and the results of the testing that were applied to the field study. 
+1.3.2 Field Study 
+A fleet was selected for participation in the current field study early during the first FAST DASH 
+safety technology evaluation project. Primary factors that were considered during the selection 
+process included the number of trucks and drivers available at the participating fleet, the 
+proximity of the fleet’s terminal to both team headquarters, and the fleet management’s 
+willingness to provide research and vendor team access to the trucks. Twenty CMVs were 
+instrumented with the research team’s DAS and the OBMS. Data were collected for 
+approximately 11 months, resulting in 1,450,459 miles (2,334,289 km) of data. Evaluation 
+methods and study results are discussed in this section. 
+1.3.3 Conclusions 
+Conclusions found across all methods of technology evaluation are discussed in this section. 
+These methods include preliminary performance testing, safety performance (e.g., safety-critical 
+event [SCE] comparison and driver violation trends), OBMS performance, effects on fuel usage, 
+and qualitative data from a subset of drivers and fleet managers. 
+1.3.4 Recommendations 
+Based on the findings of this evaluation, the research team has provided suggested improvements 
+to the technology in this final section. These improvements could be applied to all OBMSs (not 
+just the tested technology). 
+[PDF 21쪽]
+ 
+5 
+2. CONTROLLED PERFORMANCE TESTING 
+2.1 DYNAMIC TESTING (VIRGINIA SMART ROAD) 
+Preliminary performance testing was performed in a dynamic setting on the Virginia Smart Road 
+and on local roads and highways. All dynamic testing was performed with researchers and 
+engineers (i.e., no naive participants). Multiple testing runs were performed with two primary 
+purposes: to evaluate how the OBMS features operate on a test tractor-truck, and to determine 
+how the OBMS interfaces with the VTTI DAS. 
+The purpose of the dynamic testing was not to determine what the absolute right parameters 
+should be to make the OBMS effective in a commercial trucking operation. Rather, it was to 
+prepare for data collection during the field test, using the OBMS provided by the technology 
+vendor and per the agreement with the fleet. 
+2.1.1 Setup 
+An OBMS device was delivered to VTTI by the technology provider for testing on a tractor-
+truck. The OBMS was installed in a 1995 Peterbilt 379 in conjunction with the VTTI NextGen 
+DAS. The connection between the OBMS and the DAS was made through a serial-to-universal 
+serial bus (USB) cable. The technology provider configured the OBMS according to the test 
+tractor-truck prior to shipping. A laptop was connected to the DAS through an internet protocol 
+cable. Therefore, the system connections were linked along the following series: vehicle to 
+OBMS, OBMS to DAS, and DAS to test laptop. This connection allowed the researchers to 
+observe the vehicle–OBMS parameters through a proprietary software interface on a test laptop. 
+These parameters are described in Section 3.2.2.3 (“OBMS Description”) and included speeding 
+start time and limit, speeding stop time and limit, and violation event record and time. Therefore, 
+the software interface gave the researchers a real-time look at the parameters that were intended 
+to be collected by the DAS as measured by the OBMS. 
+2.1.2 Shakedown Testing Trials 
+For the testing trials, a trailer was not connected to the tractor. After installation of the OBMS, 
+the research team administered at least three dynamic vehicle trials (on the Virginia Smart Road 
+and local routes) based on OBMS features that were being evaluated. Trials on public roads were 
+performed using roads with limited traffic or on highways where exceeding the posted speed 
+limit by 5 mi/h (8.0 km/h) would not create an operational risk. 
+2.1.3 Onboard Monitoring System Feature Evaluation 
+The research team confirmed the availability of three OBMS violation categories:  
+• A record of audible alerts.  
+• The OBMS record of vehicle performance when performance criteria were exceeded.  
+• A record of alerts that exceeded the grace period and resulted in violations. 
+[PDF 22쪽]
+ 
+6 
+During the test trials, the process of verifying the audible alerts was straightforward. The study 
+team confirmed recordings of audible alerts, OBMS measures of vehicle performance, and 
+violations by observing the live status of the parameters on the test laptop that was connected to 
+the DAS. The research team also investigated the DAS recordings after the trials using 
+proprietary post-processing software. This post-processing software, created by VTTI software 
+developers, allows the researchers to view video data aligned with time-series data graphs. 
+Options allow researchers to navigate to a specific event, view video, view data graphs, view 
+maps and satellite images, play video at various speeds, and step through the video one frame at 
+a time. The platform also provides an interface for entering and saving responses to the variables 
+in the data dictionary, which can be in the form of questions (e.g., drop-down boxes, check 
+boxes, text boxes) or time-series video coding. 
+The application of the three violation categories (i.e., seatbelt, speeding, and aggressive driving) 
+required use of the Virginia Smart Road in addition to public roads. The seatbelt violations could 
+be evaluated on any road because the criteria were straightforward to apply. The seatbelt 
+magnetic reed switch had to be an open circuit (i.e., seatbelt buckle unlatched) and the absolute 
+vehicle speed had to be greater than or equal to 5 mi/h (8.0 km/h). For the OBMS to monitor 
+speeding, the tractor-truck had to be driven on public roads with posted speed limits (which are 
+not present on the Virginia Smart Road). The aggressive driving violations were tested primarily 
+on the Virginia Smart Road due to the nature of the abrupt vehicle maneuvers applied during 
+those trials. These maneuvers included hard turns, hard accelerations, and hard braking. The 
+research team attempted to set off hard-bump violations by performing maneuvers on a local 
+street with speed bumps in Blacksburg, VA. 
+2.1.3.1 Results 
+The research team confirmed the audible alerts, vehicle performance violations, and seatbelt 
+violations during and after the in-vehicle test trials. The seatbelt violation consistently activated 
+whenever the switch was disconnected (buckle unlatched) and the tractor-truck was moving 
+faster than 5 mi/h (8.0 km/h). The research team also confirmed the audible alerts, vehicle 
+performance violations, and violations for speeding. It was apparent during the test trials and 
+upon later review of collected data that some public roads challenged the OBMS’s ability to 
+accurately predict the posted speed. At least one two-lane road speed zone was predicted to be 5 
+mi/h (8.0 km/h) higher than the actual posted speed limit. Furthermore, one four-lane highway 
+speed zone changed from a posted limit of 65 mi/h (104.6 km/h) to a posted limit of 55 mi/h 
+(88.5 km/h) near a main crossroad, and the OBMS failed to recognize the speed zone reduction. 
+Due to the nature of the aggressive driving violations, confirmation was limited to the types of 
+violations that could be produced during the test trials. The research team successfully activated 
+and recorded hard-turn and hard-brake aggressive violations. The resultant g-forces related to the 
+hard-turn and hard-brake violations were measured after the recorded vehicle performance data 
+were ingested into the VTTI database and reviewed in analysis software. The research team 
+determined that these violations activated when vehicle accelerations met or exceeded 0.5g; 
+however, the hard acceleration violation could not be produced during the evaluation. The 
+research team was also unable to activate the hard-bump violation, despite aggressive approaches 
+over speed bumps. The hard acceleration and hard-bump violations were not tested further due to 
+safety concerns and concerns related to damaging equipment. 
+[PDF 23쪽]
+ 
+7 
+The results of the evaluation trials were shared with the technology provider, who determined 
+that the configuration of the aggressive driving criteria had been left at default settings (which 
+are commonly applied to light vehicles) prior to delivery of the OBMS test device to the research 
+team. This meant that the criteria for activating the aggressive driving violations may have been 
+too conservative during the shakedown evaluation. In other words, a heavy CMV tractor without 
+trailer that weighs approximately five times more than a light vehicle would need to be able to 
+brake, accelerate, turn, and bump at the same rate as a light vehicle to set off the aggressive 
+driving sensors. These findings reinforced the need for a calibration drive event with the fleet 
+during the early stages of the naturalistic data collection to confirm that the OBMS settings 
+would match the characteristics of the field operational vehicles and the fleet’s policies, 
+accordingly. 
+2.1.4 Onboard Monitoring System-to-Data Acquisition System Interface Evaluation 
+The other purpose of the shakedown testing was to verify that the OBMS would interface with 
+the DAS through the serial-to-USB cable, allowing the DAS to record the OBMS performance 
+parameters during real-time trips in each field test vehicle. 
+The following variables were created by the OBMS and collected by the DAS: 
+• Speeding Start: Sent when the vehicle speed exceeded the speed limit plus the allowed 
+speed buffer (5 mi/h [8.0 km/h]). 
+• Speeding Stop: Sent when the vehicle speed was less than the speed limit plus the 
+allowed speed buffer (5 mi/h [8.0 km/h]). 
+• Seatbelt Start: Sent when the seatbelt was unbuckled and the vehicle exceeded the 
+configurable seatbelt speed limit (5 mi/h [8.0 km/h], absolute vehicle speed). 
+• Seatbelt Stop: Sent when a seatbelt violation was in effect and the seatbelt was either 
+buckled or the vehicle dropped below the configurable seatbelt speed limit (5 mi/h [8.0 
+km/h], absolute vehicle speed). 
+• Hard Turn: Sent when a hard turn occurred in the vehicle. The variable was coded as 
+“AggressiveDriving_dvy” (positive and negative values). 
+• Hard Brake: Sent when a hard brake occurred in the vehicle. The variable was coded as 
+“AggressiveDriving_dvx” (positive values). 
+• Hard Acceleration: Sent when a hard acceleration occurred in the vehicle. The variable 
+was coded as “AggressiveDriving_dvx” (negative values). 
+• Hard Bump: Sent when a hard bump occurred in the vehicle. The variable was coded as 
+“HardBump_PeaktoPeak” (positive and negative values). 
+• Violation (Alert) Audio: Sent when the seatbelt or speeding alert audio was played by 
+the OBMS. The frequency of these audio alerts occurred at the time the criteria were 
+exceeded and repeated every 10 seconds until the performance criteria returned to 
+allowable levels. 
+[PDF 24쪽]
+ 
+8 
+• Violation Timeout Exceeded: The speeding and seatbelt violations had a grace period of 
+15 seconds from the time that the criteria were exceeded. This violation was sent once 
+that grace period expired.  
+2.1.4.1 Results 
+As described above, the DAS successfully collected seatbelt, speed, and aggressive driving 
+violations that were activated during the testing trials. Section 3.3.3 discusses violation 
+activation, violation records, and related audible alerts in more detail. 
+[PDF 25쪽]
+ 
+9 
+3. FIELD STUDY 
+The research team investigated the effectiveness of the OBMS using a naturalistic driving study 
+methodology. Naturalistic, or in situ, data collection for the CMV industry involves truck drivers 
+operating vehicles that have been instrumented with data collection equipment, including sensors 
+and oftentimes video cameras, to record driving performance data during normal revenue-
+producing routes. This approach provides the significant advantage of recording all activity prior 
+to, during, and after a crash or near-crash. Data recorded prior to a critical incident can provide 
+insight as to why an incident may have occurred and what might have been done to prevent it 
+from happening. The research team selected a naturalistic data collection approach for the 
+current field study because of its ability to: 
+• Evaluate the safety benefits and potential unintended consequences of using the OBMS. 
+• Explore driver acceptance. 
+• Observe overall system performance and reliability.  
+The study team applied three measures to investigate the safety benefits of the OBMS. These 
+measures were based on a before-after study design to compare driver performance during the 
+baseline phase (i.e., before the OBMS driver in-cab and manager feedback were enabled) with 
+driver performance during the intervention phase (i.e., after the driver in-cab and manager 
+feedback were enabled). The first safety benefit measure was the rate of SCEs per 10,000 miles 
+(16,093 km) of driving. For the purposes of this study, SCEs consist of all valid events that can 
+be classified into five basic event types: crashes, tire strikes, near-crashes, crash-relevant 
+conflicts, and unintentional lane deviations (see Table 1). The second and third safety benefit 
+measures were the frequency and persistence of change in the number of speeding and seatbelt 
+violations that were recorded for each driver per 1,000 miles (1,609 km) between the baseline 
+and intervention phases. 
+Table 1. Description of SCE type. 
+Event Type Description 
+Crash Any contact with an object, either moving or fixed, at any speed in which kinetic energy is 
+measurably transferred or dissipated. 
+Crash: Tire Strike Any contact with an object, either moving or fixed, at any speed in which kinetic energy is 
+measurably transferred or dissipated where the contact occurs on the truck’s tire only . No 
+damage occurs during these events (e.g., a truck is making a right turn at an intersection and 
+runs over the sidewalk/curb with a tire).  
+Near-crash Any circumstance that requires a rapid, evasive maneuver (e.g., hard braking, steering) by the 
+subject vehicle or any other vehicle, pedestrian, cyclist, or animal, in order to avoid a crash.  
+Crash-relevant 
+Conflict 
+Any circumstance that  requires a crash -avoidance response on the part of the subject vehicle, 
+any other vehicle, pedestrian, cyclist, or animal that was less severe than a rapid evasive 
+maneuver (as defined above), but greater in severity than a normal maneuver. A crash -
+avoidance response can include braking, steering, accelerating, or any combination of control 
+inputs. 
+Unintentional 
+Lane Deviation 
+Any circumstance where the subject vehicle crosses over a solid lane line (e.g., onto the 
+shoulder) where there is not a hazard (guardrail, ditch, vehicle, etc.) present. 
+[PDF 26쪽]
+ 
+10 
+The research team also evaluated the performance of the OBMS using data collected during the 
+field test. Finally, the research team surveyed a sample of participating drivers and safety 
+managers to determine user opinions on the tested OBMS.   
+3.1 STUDY DESIGN 
+The research team evaluated the potential safety benefits of the OBMS using a naturalistic 
+driving before-after study to compare driver performance during the baseline period (i.e., before 
+the system was enabled) with driver performance during the intervention phase (i.e., after the 
+system began providing in-cab feedback to the driver). Following the study design of the first 
+FAST DASH safety technology evaluation project, an A2B4 model was selected for the current 
+study where “A” and “B” refer to the baseline and intervention phases, respectively.(14)  The 
+superscript refers to the number of months in each phase (e.g., “2” refers to 2 months). A power 
+analysis conducted in the  first FAST DASH safety technology evalu ation project indicated that 
+20 CMVs at a correlation value of more than 0.8 (see Table 2) would provide a conservative 
+estimate for sufficient power for statistical significance testing at the conclusion of this current 
+data collection. 
+Table 2. Power analysis results for an A2B4 design using data from generated data set representative of a 
+daytime heavy-vehicle data collection effort.(15) 
+Correlation Value Actual Power N Pairs (# of Trucks) 
+0.7 0.806 27 
+0.8 0.804 21 
+0.9 0.800 15 
+1.0 0.831 10 
+3.2 METHOD 
+3.2.1 Fleet and Drivers 
+As with the first FAST DASH safety technology evaluation project, the research team evaluated 
+multiple fleets for participation in the FAST DASH program (i.e., fleets that have participated in 
+previous studies with the research team in addition to new fleets).(16) The research team 
+evaluated the final list of potential fleets and selected one that would meet the needs of both the 
+research team and the OBMS technology provider. Three factors were considered:  
+• The number of trucks and drivers available at the participating fleet.  
+• The proximity of the fleet’s terminal to both teams’ headquarters.  
+• The ability and willingness of the fleet’s management to facilitate research and vendor 
+team access to the trucks for installation and maintenance of the OBMS and the DAS 
+equipment by the research and technology vendor teams.  
+Based on these criteria, the research team approached the same fleet that participated in the first 
+FAST DASH safety technology evaluation project.(17) This fleet is a mid-sized fleet operating 
+[PDF 27쪽]
+ 
+11 
+out of a terminal located in Kernersville, NC, managing 85 power units (tractors) and 
+approximately 98 drivers. Of these 85 power units, 38 were assigned to a dedicated contract with 
+the fleet’s client; the remaining 47 were assigned to a for-hire fleet. A broad assortment of routes 
+was assigned to the dedicated power units that consisted mostly of long-haul deliveries in the 
+United States and Canada, while the for-hire fleet was assigned to day trip and multi-day trip 
+regional routes. Those two groups of dedicated/for-hire trucks and associated drivers were 
+considered an excellent pool for the potential recruitment of approximately 20 drivers. 
+3.2.2 Apparatus 
+3.2.2.1 Trucks 
+Twenty-five Class 8 tractors (24 sleeper-berth and 1 day-cab) were instrumented for this study. 
+Ten were manufactured in 2012, 3 in 2013, and 12 in 2014. Each tractor exclusively hauled 53-
+foot (16-meter) box-van trailers during the study. Driver and truck attrition during the participant 
+consent and baseline data collection phases created challenges and forced the research team to 
+extend the recruitment and data collection periods. The consent process for drivers and vehicle 
+instrumentation continued until at least 20 drivers and tractors were simultaneously involved in 
+the study and contributing data. This explains why more than 20 driver consents and vehicle 
+installations were required. 
+Due to the nature of the study, it is worth noting a few additional features that were present on 
+the power units during the study. An electronic logging system was pre-installed at the fleet’s 
+choice as part of the fleet’s normal operating policy. Additionally, the power units were equipped 
+with electronic-stability and roll-stability control systems. The power units were equipped with 
+standard cruise control, which did not include adaptive cruise technology. The fleet also had a 
+vehicle governor set on each power unit at 65 mi/h (104.6 km/h) when not on cruise and 68 mi/h 
+(109.4 km/h) when on cruise. 
+3.2.2.2 Data Acquisition System 
+The research team instrumented each participating CMV with a VTTI NextGen DAS (see Figure 
+2). The DAS captures three general groups of measures:  
+• DAS sensor measures (described below). 
+• Vehicle network measures. 
+• Add-on measures from the OBMS units (i.e., audio alert data and driver performance data 
+related to speeding, seatbelt use, and aggressive driving). 
+During the evaluation period, the DAS collected these data to assist in determining the 
+operational performance of the OBMS as measured by metrics such as the frequency and 
+severity of SCEs. The DAS collected data from vehicle “ignition on” to 5 seconds after “ignition 
+off,” and it saved the data continuously throughout the data collection period. For any vehicle 
+without an auxiliary power unit, the DAS shut off after 5 minutes of no change in global 
+positioning system (GPS) location. Research team personnel periodically retrieved the DAS data. 
+The general design characteristics of the VTTI NextGen DAS are as follows: 
+[PDF 28쪽]
+ 
+12 
+• Compatible with the vehicle (e.g., power obtained from vehicle battery; data from in-
+vehicle network). 
+• Unobtrusive and non-invasive.  
+• Not distracting. 
+• Does not limit driver visibility. 
+• Does not require permanent modifications to the vehicle. 
+• Minimal space requirement (e.g., for data storage unit). 
+• Automatic start-up, shut-down, and continuous operation. 
+• No subject tasks required for operation or data downloading. 
+• Reliable performance in the often harsh operational environment of driving; minimal data 
+loss and automatic detection of failures. 
+• Continuous multi-camera video recording system (15 hertz) to capture the driver’s face 
+and rearward and forward scenes. 
+• Rugged and built for crash survivability. 
+ 
+Figure 2. Photograph. The NextGen DAS positioned behind the passenger seat.  
+Research team personnel unobtrusively installed a DAS unit in each participating vehicle to 
+facilitate naturalistic driving behavior monitoring with the OBMS during on-road settings. The 
+DAS equipment was placed behind the passenger seat, concealed from the driver (see Figure 2). 
+Cameras mounted inside the cab were in a small protected housing located on the center of the 
+windshield (see Figure 3). All wires and other data-recording equipment were professionally 
+routed under interior panels.  
+[PDF 29쪽]
+ 
+13 
+ 
+Figure 3. Photograph. DAS forward and face camera mounted on windshield. 
+The NextGen DAS uses a 24-gigahertz universal medium-range radar (installed on the front 
+bumper, in center position) for object tracking and ranging measurement. In addition, the DAS 
+records multi-channel H.264 compressed video/audio on a custom electronics package designed 
+specifically for automotive use. Color and black-and-white video cameras record three external 
+views and one internal view. The three external views include one of the forward roadway 
+(camera positioned on the windshield, just left of center), one down the driver-side adjacent lane 
+(camera positioned on the driver-side front fender, facing rearward—see Figure 4), and one 
+down the passenger-side adjacent lane (camera positioned on the passenger-side front fender, 
+facing rearward). The internal view includes a front view of the driver’s head and shoulders 
+(camera positioned on the windshield just left of center—see Figure 5). Other non-video data 
+collected include turn signal use, other vehicle position/distance, speed, lateral/longitudinal g-
+forces, yaw rate, and continuous audio. The DAS interfaces with the vehicle’s J1939 CAN bus 
+via the original equipment manufacturer (OEM) onboard diagnostic port to collect data such as 
+speed and mileage. In this study, the J1939 CAN bus was taped directly behind the dash. 
+[PDF 30쪽]
+ 
+14 
+ 
+Figure 4. Photograph. DAS driver-side, rear-facing side camera mounted on fender. 
+ 
+Figure 5. Photograph. Four camera images multiplexed into a single image. 
+The NextGen DAS sensors include: 
+• GPS: A GPS device used primarily for tracking the instrumented vehicles and placing 
+them in time and space. Data output includes measures of latitude, longitude, altitude, 
+horizontal and vertical velocity, heading, and status and strength of satellite acquisition. 
+• Lane Tracker: An in-house-developed lane tracker, called the “Road Scout,” is included 
+in the DAS. The Road Scout is a custom machine-vision process that runs concurrently 
+on the DAS and grabs video frames from the forward camera feed. Note that the 
+[PDF 31쪽]
+ 
+15 
+“grabbed” video frames are not stored, but instead, are processed algorithmically in real-
+time to calculate the vehicle position relative to road lane markings. 
+• Yaw Rate: Three yaw rate (gyro) sensors are included in the NextGen DAS and provide 
+a measure of steering instability (i.e., jerky steering movements). 
+• X/Y/Z Accelerometer: Accelerometers installed in the vehicle are used to measure 
+longitudinal (x), lateral (y), and vertical (z) accelerations. 
+• Vehicle Network: The measures that can be accessed from a particular vehicle depend 
+on the make, model, and year of the vehicle. As such, it is possible that certain measures 
+are only available for certain instrumented vehicles. The available measures are defined 
+in a header file in each data set. The portion of the data set that includes the vehicle 
+network data typically contains measures of the following:  
+– Vehicle speed. 
+– Odometer. 
+– Ignition signal. 
+– Throttle position. 
+– Brake activation. 
+3.2.2.3 Onboard Monitoring System Description  
+The technology vendor (inthinc) developed the OBMS technology and was responsible for 
+installing it on participating vehicles (see Figure 1). The OBMS included a touchscreen display 
+that was mounted near the center of the dash to provide easy access for the driver. The antenna 
+associated with this system was mounted on the exterior back wall of the cab, and the system’s 
+central processing unit was mounted to the cab floor, under the sleeper-cab lower bunk 
+(accessible through the passenger-side luggage door). There was also one day-cab in the study; 
+in this case, the main box was placed under the passenger seat, alongside the DAS unit. 
+The touchscreen display also contained a speaker. The speaker was used to provide feedback to 
+the driver via audible, in-cab verbal alerts, including the following: “check your speed,” “please 
+fasten your seatbelt,” and “aggressive driving.” This audible feedback is referred to as “audible 
+alerts” for the remainder of the report. The audible alerts were only active during the intervention 
+phase of the study. During the baseline phase, the audible alerts were silent, meaning that the 
+drivers were not informed of any performance infractions. Likewise, the OBMS did not 
+communicate directly with fleet managers during the baseline phase, either through emailed 
+reports or Web portal access. However, during the intervention phase, the audible alerts were 
+provided to drivers when the acceptable vehicle performance criteria were exceeded. The vehicle 
+performance criteria were set by a combination of recommended default settings from the OBMS 
+developer and with approval from the partnering fleet. Parameters/criteria for acceptable vehicle 
+performance were as follows: 
+• Speeding: 
+– Vehicle speed less than 5 mi/h (8.0 km/h) above the posted speed limit. 
+[PDF 32쪽]
+ 
+16 
+– Posted speed limit was identified by inthinc’s proprietary Speed-by-Street™ 
+technology. 
+• Seatbelt: 
+– Vehicle speed less than 5 mi/h (8.0 km/h). 
+– Seatbelt is buckled. 
+• Aggressive Driving: 
+– Hard brake: +2. 
+– Hard turn: +3. 
+– Hard bump: 0. 
+– Hard acceleration: +6. 
+• Audio Setting (not adjustable): 
+– 85 decibels (dB) at 1 meter. 
+When OBMS instrumentation of the fleet power units began, the OBMS was configured to the 
+vehicle performance criteria previously described. The calibration was completed at a dynamic 
+driving event at the fleet’s service warehouse. Attendees included an engineering configuration 
+expert from the OBMS parent company and representatives from the fleet’s safety and service 
+management teams. During the calibration, a fleet service technician drove the truck and the 
+representatives from fleet management and the OBMS vendor rode along as passengers. The 
+calibration drive route was performed with only a power unit (no trailer attached) in an 
+abandoned parking lot near the fleet center. This setup was due to the nature of the aggressive 
+vehicle dynamics that needed to be experienced and selected by the calibration team to ensure 
+that vehicle performance criteria would meet the fleet’s safe operating policies. The selected 
+performance criteria were then applied to all OBMSs throughout the duration of the baseline and 
+intervention phases. 
+The in-cab audible alerts for speeding and seatbelt violations were provided every 10 seconds 
+after the infraction, starting just after the OBMS observed the infraction. The audible alerts 
+continued at 10-second intervals, with some delays built in to avoid annoying the drivers, until 
+the performance criteria related to the alert were satisfied. The speeding and seatbelt alerts had a 
+grace period associated with them. The OBMS would not record a speeding or seatbelt violation 
+or report it to the Web portal unless the performance criteria were exceeded for 15 seconds after 
+the first audible alert was provided to the driver. Given the 10-second intervals for audible alerts, 
+drivers were given at least two warnings that vehicle performance criteria for speeding or 
+seatbelt usage had been exceeded before the infractions were recorded. However, when the 
+vehicle exceeded the aggressive driving criteria, an immediate record of that infraction was made 
+along with at least one audible alert provided to the driver. Violation records would not be 
+repeated for a given vehicle activity (e.g., speeding) unless the criteria were satisfied and then 
+exceeded again. Therefore, each decision by drivers to exceed the criteria was not double-
+counted. 
+The tested OBMS had some available features that were not applied during the study, per the 
+fleet’s choice. An electronic logging system is available as standard equipment with the OBMS. 
+[PDF 33쪽]
+ 
+17 
+Because the fleet already had an electronic logging system installed in its power units, the fleet 
+chose not to apply the OBMS option. During the intervention phase of the study, participating 
+drivers were asked to confirm their status with the vehicle by logging in approximately once a 
+day; this was to help confirm each participating driver’s identification and association with the 
+assigned power unit. 
+The DAS units were connected to the OBMS through a serial-out to USB-in connection. The 
+DAS units were set up to record parameters from the OBMS. Not all of the parameters provided 
+to the DAS were provided to the Web portal. For example, the DAS made a frequent record of 
+instances when an audible alert was triggered in each OBMS vehicle unit; however, that 
+information was not reported to the Web portal (or elsewhere) as a violation. The following 
+parameters were recorded on the DAS from the OBMS: 
+• Speeding: 
+– Criteria fail time and status. 
+– Speeding start time and limit. 
+– Speeding stop time and limit. 
+– Audible alert time. 
+– Violation record time. 
+• Seatbelt unbuckled: 
+– Criteria fail time and status. 
+– Seatbelt start time. 
+– Seatbelt stop time. 
+– Audible alert time. 
+– Violation record time. 
+• Aggressive driving: 
+– Lateral linear acceleration criteria fail time and g-force. 
+– Longitudinal linear acceleration criteria fail time and g-force. 
+– Vertical linear acceleration criteria fail time and g-force. 
+– Audible alert captured only in WAV files. 
+– Violation record time—immediately applied at criteria fail. 
+The speeding alerts and violations were provided to the driver of each power unit in real-time. 
+The OBMS determined the state of the vehicle speed based on a connection to the vehicle CAN 
+bus. The OBMS determined the location of the vehicle and roadway using GPS technology. It 
+determined the status of the roadway speed based on a proprietary system called Speed-by-
+Street™. This standard feature of the OBMS is based on three sources of information: 
+• Data provided through a partnership with a leading global provider of digital map data. 
+[PDF 34쪽]
+ 
+18 
+• A series of editing and auditing exercises performed by the company on frequently 
+traveled customer roads. 
+• User feedback on its online portal. 
+The data provided by the mapping partner contain speed limit data for metropolitan streets and 
+highways and interstates. These data also classify roads based on speed categories, ranging from 
+1 (i.e., greater than 80 mi/h [128.7 km/h]) through 8 (i.e., less than 6 mi/h [9.7 km/h]). If a 
+vehicle and device travel down a road without precise knowledge of the speed limit, the upper 
+limit of the road category is provided to the driver as the speed limit. The feedback from the 
+online portal allows fleet managers to report feedback from their drivers by selecting specific 
+violations that have been highlighted on the vehicle list. The vehicle list includes GPS 
+coordinates or road names and thus identifies the specific roadway and/or zone where the 
+system-reported speed does not match the posted limit. 
+The OBMS fleet manager portal provides summaries and detailed reports on driver and vehicle 
+performance. The portal can be configured to view team summaries or detailed information on 
+individuals. The summaries of past performance can be selected to cover the previous week, 
+month, or year. Current tracking of vehicle units can be identified in real-time and shows 
+location and status. Driver and team scores are calculated by an algorithm that increases the 
+score penalties for higher severity events, such as speeding greater than 15 mi/h (24.1 km/h) 
+above the posted speed limit or seatbelt not fastened at highway speeds. A generic example of a 
+driver report list is provided in Figure 6. The overall score and scores for driver style (including 
+speed and aggressive driving performance) and seatbelt are available. Details on individual 
+performance are also available in the form of charts, figures, and lists (see Figure 7). For 
+example, a fleet manager can determine the exact location of a speeding violation in a map view 
+that highlights the road’s speed limit, vehicle maximum speed, and distance driven during the 
+violation. The portal can also be used to change preferences for email or other notifications. 
+These notifications can provide managers with weekly report cards or flag events of interest that 
+happen in real-time. 
+[PDF 35쪽]
+ 
+19 
+ 
+Figure 6. Marketing screenshot. Driver-monitoring system Web portal, driver report view.  
+Note: Names and values shown do not represent actual driver identities or performances. 
+ 
+Figure 7. Marketing screenshot. Driver-monitoring system Web portal, driver performance detail charts.  
+Note: Data shown do not represent actual driver performance. 
+[PDF 36쪽]
+ 
+20 
+3.2.3 Driver Recruitment Process 
+The research team worked with the fleet to recruit drivers for participation, making frequent 
+recruitment visits to the terminal’s location. The methods of communication used for driver 
+recruitment are as follows:  
+• Recruitment flyers/information posted in common areas.  
+• In-person communication utilizing an announcement script prepared by the research 
+team.  
+• Phone contact (based on the previous FAST DASH study with the same fleet).  
+Participants were eligible for inclusion in the study if they met all of the following criteria: 
+• Must be at least 21 years of age. 
+• Must hold a valid Class A commercial driver’s license (CDL) with expiration date 
+outside of the study date range. 
+• Must have at least 2 years of experience driving commercial vehicles. 
+• Must have a visual acuity of 20/40 or better. 
+• Must be able to operate a tractor-trailer. 
+• Must be willing to have driving time recorded (video and audio) for 6 months. 
+All study protocols were approved by the VTTI Human Assurances Committee Institutional 
+Review Board. Participating drivers read and signed an informed consent form and received 
+compensation for their participation. 
+When drivers indicated interest in study participation, they were escorted to a private area of the 
+terminal by a member of the research team and provided with an informed consent form to 
+review. Before each driver signed the consent form, the researcher answered any questions. The 
+researcher explained that the OBMS would be deactivated for at least the first 2 months of 
+participation; however, the research team’s DAS would be actively recording video, audio, and 
+kinematic data during that time, and the participant should drive as he or she normally would. 
+Participants were also instructed that after the OBMS was activated, a fleet safety manager or 
+member of the research team would provide a review of system functionality and any training 
+necessary to operate the system. 
+After both parties (i.e., driver and researcher) signed the informed consent form, each driver was 
+required to show a valid Class A CDL. Then, a brief screening interview was completed, which 
+included a visual acuity test and other forms and questionnaires for some drivers (see 
+Appendices D and E). 
+The research team also recruited two fleet managers to participate in a post-study interview. The 
+managers reviewed and signed an informed consent form. See Appendix E for a list of questions 
+asked by the research team during this interview. Fleet managers were not compensated for their 
+participation.  
+[PDF 37쪽]
+ 
+21 
+3.2.4 Data Reduction 
+3.2.4.1 Participant Verification  
+The research team reviewed each file recorded by the DAS to verify that the participant was 
+indeed operating the vehicle. Any recorded drivers who were not consented study participants 
+were excluded from further reduction. 
+3.2.4.2 Data Quality Control and Safety-critical Event Reduction 
+Once they were transferred to the database, data files were subject to a quality control process . 
+The research team reviewed the data to verify correct synchronization of video to sensor data. 
+Next, the research team selected several files from each hard drive for a more detailed review to 
+assess the quality and integrity of all inputs considered necessary for proper event identification 
+(i.e., sensor data necessary for data set scanning, utilizing the triggers described below).  
+To identify valid SCEs within the established calendar dates for the baseline and intervention 
+conditions (on a per-driver basis), the research team performed data reduction (to meet the A
+2B4 
+study design). SCEs of interest included crashes, near-crashes, crash-relevant conflicts, avoidable 
+curb strikes, unavoidable curb strikes, and unintentional lane deviations. Researchers identified 
+events of interest by scanning the data set for notable actions, such as hard braking, lane 
+deviations, etc. To identify these actions, researchers set threshold values (i.e., “triggers”) in 
+MATLABi code, based on previous heavy-truck naturalistic studies. The research team 
+implemented four SCE triggers in the data reduction effort. Trigger values and thresholds were 
+set low so that fewer valid events would be missed by the scan, as follows: 
+• Longitudinal Acceleration. Hard braking or sudden longitudinal acceleration 
+less than or equal to −0.2g (deceleration), speed greater than 3.579 mi/h (5.76 km/h), and 
+brake pedal status “depressed” (combined) for at least 0.1 second.  
+• Lane Deviation. Any time the truck aborts the lane line and returns to the same lane 
+without making a lane change, such that the distance from the center of the lane to the 
+outside of the lane line is greater than 55.118 inches (140 cm) with a sudden lateral 
+acceleration greater than or equal to 0.2g or less than or equal to −0.2g and a speed 
+greater than 24.606 mi/h (39.6 km/h) (combined) for at least 0.1 second. 
+• Time-to-collision. The amount of time (in seconds) that it would take for two vehicles to 
+collide if one vehicle did not perform an evasive maneuver in less than or equal to 2 
+seconds, coupled with a range of less than or equal to 250 feet (76.2 m), a target speed 
+greater than or equal to 5 mi/h (8.05 km/h), a yaw rate less than or equal to │6°/s│, and 
+an azimuth of less than or equal to │12°│( combined) for at least 0.1 second. 
+• Swerve. A sudden “jerk” of the steering wheel to return the truck to its original position 
+in the lane (S value greater than or equal to 2°/s
+2, and a speed ≥ to 5 mi/h [8.05 km/h]) 
+(combined) for at least 0.1 second.  
+                                                 
+ 
+ 
+i MATLAB is a technical computing software.  
+[PDF 38쪽]
+ 
+22 
+Once these triggers were applied to the data set, each generated trigger was reviewed to 
+determine if it was an event of interest (i.e., a valid event). For a trigger to be valid, the following 
+criteria had to be met: recorded dynamic-motion values must have occurred; the trigger must 
+have been verifiable in the video and other sensor data; and the trigger could be grouped into one 
+of the previously noted event classifications (note: one or more valid triggers may have been 
+included in an SCE). Invalid triggers were those triggers where sensor readings were spurious 
+due to a transient spike or some other anomaly (false positive), or where there was no conflict 
+(e.g., the driver braked hard for a stop sign, with no surrounding traffic). Invalid triggers were 
+not analyzed any further. Experienced reductionists confirmed valid triggers and answered 
+questions specific to each event, including conflict- and environment-related questions. For 
+further validation, an experienced reductionist performed a second round of validation. The 
+experienced reductionist used in the current study has extensive experience in naturalistic driving 
+data reduction, specifically SCE validation and conflict scenario reduction. During the second 
+round of validation, the experienced reductionist also noted any other driver behaviors or 
+environmental variables occurring during the SCE (e.g., driver distractions, if present; 
+assignment of fault in the SCE; weather or roadway characteristics, etc.). 
+3.2.4.3 Random Data Sampling to Assess Onboard Monitoring System Performance 
+The research team evaluated the performance of the OBMS by sampling a portion of all 
+violations issued to the driver and comparing the potential infraction to what actually happened 
+in the video. Researchers also randomly sampled the entire data set to ensure that the lack of a 
+violation was also accurate (where violations were not recorded). This review, which assisted in 
+validating the in-service accuracy of the OBMS, required the use of DAS video and kinematic 
+data. For this purpose, the research team examined system performance by sampling data from 
+all drivers during the intervention phase.  
+A meaningful data sampling approach was necessary given that the field study generated 
+approximately 624,933 miles (1,005,733 km) of valid driver and collected violation data during 
+the intervention period. Invalid data were removed if the driver was not a consented study 
+participant or if the violation record was inconsistent due to DAS, OBMS, or DAS-to-OBMS 
+interface malfunctions. Researchers randomly selected samples from violation data that had been 
+recorded in real-time by the DAS during on-the-road data collection (for the 17 drivers with 
+sufficient baseline and intervention OBMS data). Only speeding and seatbelt violations were 
+sampled for validation in comparison with the OBMS. Researchers also randomly selected 
+samples from periods of collection where violations were not recorded. Each sample selected for 
+reduction was equal to a 1-millisecond timeframe (sync). A set of violation syncs and a set of 
+non-violation syncs were selected. The data sample size was derived based on an estimated 
+accuracy rate for the speed subsystem and seatbelt subsystem (separately). The speeding 
+accuracy rate estimated for the validation test was 0.85. The seatbelt accuracy rate estimated for 
+the validation test was 0.95. These estimates were established based on anecdotal evidence of 
+driver feedback to the research team during on-the-road data collection. The resulting sample 
+sizes per driver, and their respective accuracy rates, are available in Table 3. Note that the 
+participant or driver numbers listed below range from 1 through 19, but driver numbers 6 and 8 
+have been removed for the accuracy assessment. An explanation for their removal is provided in 
+the results section.
+ 
+[PDF 39쪽]
+ 
+23 
+Table 3. Number of events sampled, proportional to collected driver mileage. 
+Driver No. 
+Intervention 
+Mileage 
+Proportion 
+Speeding 
+Accuracy: 
+Violation 
+(est. 85%) 
+Speeding 
+Accuracy: 
+No Violation 
+(est. 85%) 
+Seatbelt 
+Accuracy: 
+Violation 
+(est. 95%) 
+Seatbelt 
+Accuracy: 
+No Violation 
+(est. 95%) 
+1 5.9% 38 37 26 23 
+2 5.8% 45 44 24 27 
+3 4.6% 39 42 8 27 
+4 5.8% 32 65 27 28 
+5 7.2% 41 62 16 30 
+7 8.5% 66 71 33 36 
+9 4.6% 30 40 19 41 
+10 5.6% 43 51 6 28 
+11 7.8% 61 34 33 17 
+12 6.1% 37 39 21 31 
+13 6.0% 38 32 23 26 
+14 5.0% 46 28 21 21 
+15 7.2% 37 42 29 33 
+16 7.0% 49 48 30 25 
+17 7.6% 49 31 5 21 
+18 3.1% 23 15 24 17 
+19 2.3% 15 20 13 18 
+Total 100.0% 689 701 358 449 
+A relative number of violation syncs were selected from each driver’s set of collected 
+intervention violations using a random number generator (no time syncs were repeated). At each 
+identified time sync, researchers evaluated a 16-second section of the video and the OBMS 
+audible alert data. The OBMS configuration provided drivers with a 15-second delay (grace 
+period) before recording a speeding or seatbelt violation. The OBMS was configured to provide 
+at least two warning alerts to the driver during that grace period. In order to evaluate the 
+speeding alerts, audio was played to listen for in-cab alerts and a posted speed sign was 
+identified from the over-the-hood camera view. To evaluate the seatbelt alerts, audio was played 
+to listen for in-cab alerts and the seatbelt worn status was identified from the driver-face camera. 
+A relative number of non-violation syncs were selected from periods of collected data that were 
+at least 5 minutes apart from any recorded violation, to avoid interaction between driving 
+scenarios with recorded violations and scenarios without recorded violations. Periods of speeding 
+non-violations were randomly sampled from the collection where the minimum vehicle speed 
+was 25 mi/h (40.2 km/h). Due to the nature of the collection, significant proportions of the 
+collected data were known to be at speeds above 25 mi/h (40.2 km/h), but seatbelt violations 
+were set to activate at vehicle speeds greater than 5 mi/h (8.0 km/h). Preliminary results of 
+violations demonstrated that a majority of the seatbelt violations would occur at speeds lower 
+than 25 mi/h (40.2 km/h). To align the periods of seatbelt non-violations randomly sampled from 
+the collected vehicle miles, the sample was split into two groups: 
+[PDF 40쪽]
+ 
+24 
+• Greater than 5 mi/h (8.0 km/h), but less than 25 mi/h (40.2 km/h). 
+• At least 25 mi/h (40.2 km/h). 
+Reductionists observed these non-violations to obtain posted speed limits and confirm seatbelt 
+worn status. However, the in-cab audible alerts could not be confirmed during these non-
+violation periods of time since the research team had informed participants that audio would only 
+be observed around events containing recorded violations. The following questions are examples 
+of what reductionists answered at each identified sync for each type of violation and non-
+violation: 
+• Does this sync contain a speeding violation? 
+– If ‘YES,’ can you hear the audio alert in the cab? (For violations only.) 
+• If audio is present, describe the types of audio or noise present in the environment (e.g., 
+radio, window is open, conversation). 
+• Observe the posted speed. 
+• Was Google Maps used? 
+• Speed limit sign observations (e.g., sign was unreadable, event occurred in a reduced-
+speed zone, driver changed roads during event). 
+• Record sync time of speed limit sign. 
+• Does this sync contain a seatbelt violation? 
+– If ‘YES,’ can you hear the audio alert in the cab? (For violations only.) 
+• If audio is present, describe types of audio or noise present in the environment (e.g., 
+radio, window is open, conversation). 
+• Is the driver in a parking lot at the beginning of the event? 
+• Is the driver wearing the seatbelt properly? 
+– If ‘NO,’ describe how seatbelt is worn (e.g., not worn, behind driver, under arm). 
+After reductionists completed their evaluation of all violations and non-violations, the research 
+team conducted a second round of validation to confirm or adjust the details occurring during the 
+event. Events that occurred in reduced speed zones, such as construction, were removed from the 
+system accuracy analysis since they could have short-term or long-term temporary speed signs 
+posted (which would not necessarily be known by the OBMS maps). Additionally, violation 
+events selected for review at points in time when the host vehicle had moved from one road to 
+another without passing a posted speed sign, such as turning at an intersection, were also 
+removed from the system accuracy analysis. In these instances, the reductionists reviewing the 
+video would not have been able to confirm the posted road speed.  
+After each speed event was reduced and validated, a significant proportion required additional 
+information to confirm the roadside posted speed sign. Equipment and scenario factors that 
+limited the application of the DAS video for identifying speed signs included the following:  
+[PDF 41쪽]
+ 
+25 
+• Video compression.  
+• Oblique-angle view from host vehicle located in second or third inside lane. 
+• Obstruction in road, such as other vehicles being passed between the host vehicle and the 
+posted speed limit signs.  
+In these cases, the posted speed limit sign’s GPS coordinates were noted and identified in the 
+online map software, Google Maps. In order for the online posted speed limit sign to be 
+considered valid, the speed value had to be available and consistent at image dates before and 
+after the date of the DAS event collection.  
+Queries on the vehicle parameters (i.e., vehicle speed and linear accelerations) were also 
+conducted during this stage to compare to the data collected during reduction activities. Last, a 
+senior researcher evaluated a sample of the reductionists’ results by randomly selecting violation 
+events for each driver. This step was a final confirmation of OBMS errors to eliminate any other 
+possible causes before attributing those errors to the accuracy metrics. In addition, the research 
+team also evaluated all false alarms and all missed detections found by reductionists for 
+accuracy. 
+3.2.4.4 Fuel Usage 
+The research team evaluated the effect of the OBMS on fuel efficiency or fuel usage using 
+vehicle measures collected by the DAS. The research team requested fuel economy data from the 
+OBMS technology vendor at the end of data collection; however, the provided data were 
+summarized per vehicle by month, were sporadic, and did not provide enough conclusive 
+information. Furthermore, the summary carried data from multiple drivers per vehicle (i.e., not 
+only consented participants). This unfiltered vehicle data would be insensitive to individual 
+behaviors that may have changed between the baseline and intervention phases of the study. The 
+research team had prepared a priori to capture multiple measures of fuel usage on the DASs, 
+pulling data from the vehicles’ J1939 CAN. One such measure was a flow rate of the fuel 
+injectors. Although this measure is affected by injector wear over time, it does not carry other 
+sources of error inherent in other combined estimates of fuel usage by distance, such as 
+instantaneous or average fuel economy.  
+The fuel flow rate, in liters per hour, was collected at 10 hertz. Due to the tremendous volume of 
+data captured across the 17 trucks from baseline through intervention, a strategic reduction 
+method was needed. The research team decided, based on samples of fuel flow data, to split the 
+measures by driver and between two groups over a consistent 1-month period. The prolonged 
+recruitment period resulted in two groups of drivers at different stages of the study. One group of 
+drivers had finished baseline data collection and was collecting intervention data, while the other 
+group of drivers was just starting the baseline collection. Therefore, the fuel rate was analyzed 
+between Group A (intervention phase) and Group B (baseline phase). The method of reducing 
+the data collection to a 1-month period controlled for the differences in fuel usage inherent 
+within each vehicle across a lengthy collection period. Drive files that were less than 10 minutes 
+in duration were removed from the collection of files for analysis. The rates of fuel flow, which 
+were collected 10 times per second, were averaged per minute of drive time. This reduction still 
+left a tremendous number of fuel flow measures to analyze. Therefore, the average fuel flow per 
+[PDF 42쪽]
+ 
+26 
+minute was also averaged across the entire drive file. The resulting measure for analysis in each 
+phase, by group, was average fuel flow per driver’s drive file with durations ranging from 10 
+minutes to 2 hours. 
+3.3 RESULTS 
+3.3.1 Participant Demographics 
+Twenty-seven drivers were recruited over the 11-month data collection period (2 females, 25 
+males). The research team collected baseline data from 25 drivers. Of these 25 drivers, 20 
+successfully completed their 2-month baseline condition participation. Of these 20 drivers, 19 
+contributed data in the intervention phase. Of these 19 drivers, 15 successfully completed the full 
+4-month intervention phase. One driver left the study based on a request to no longer have the 
+vehicle monitored and recorded. The remaining attrition was due to fleet contract changes, driver 
+employment changes, or driver health issues. 
+The 19 drivers (1 female, 18 males) who completed the baseline condition and at least some of 
+the intervention condition reported both personal demographics and work experience during the 
+screening process. Drivers had an average height of 69.5 inches (standard deviation [SD] = 2.6) 
+and an average weight of 203.9 pounds. (SD =36.9). The majority of drivers reported an average 
+build (63.16 percent) or large build (31.58 percent). Drivers reported working an average of 11.5 
+hours per shift (SD = 1.1) and 58.1 hours per week (SD = 13.6). They reported driving 
+approximately 570.9 miles per shift, on average (SD = 79.7). Three drivers (15.79 percent) 
+reported sharing a truck with others. All drivers stated they drove the truck alone a majority of 
+the time. Drivers had worked, on average, 4.3 years (SD = 4.3) with the current company, with a 
+minimum of 6 weeks and a maximum of 18.5 years. Among the 19 drivers, the age and total 
+years of driving experience were collected for 15 drivers (these specific details were collected 
+after data collection was complete, and some drivers could not be reached). Among those 15 
+drivers, the average age was 52.53 years (SD = 8.03) and the average years of CDL driving 
+experience was 21.33 (SD = 11.27). Most drivers reported having experience with in-vehicle 
+technologies (see Table 4). 
+ 
+[PDF 43쪽]
+ 
+27 
+Table 4. Participating drivers’ self-reported data on in-vehicle technology use. 
+In-vehicle Technology Number of Drivers Who Have 
+Used the Technology 
+Percent of Drivers Who Have 
+Used the Technology 
+Qualcomm 17 89.5% 
+Front Object Detection System   4 21.1% 
+Blind-spot Warning System 10 52.6% 
+Cell Phone (Voice/Texting) 16 84.2%                  
+Electronic Onboard 
+Recorder/Electronic Log Book 19 100.0% 
+Lane Departure Warning System   2 10.5% 
+OBMS 12 63.2% 
+GPS/Route Navigation 16 84.2% 
+Other In-vehicle Technologies   2 10.5% 
+3.3.2 Naturalistic Data Statistics 
+The research team collected 1,450,459 miles (2,334,289 km) of on-road data over a calendar 
+period of approximately 11 months. (A data collection period of 11 months was necessary for a 
+substantial number of drivers to complete the 2-month baseline and 4-month intervention 
+conditions.) After all collected data were filtered for driver identification, and each participant’s 
+baseline and intervention phases were identified across the 19 drivers, a total of 1,274,452 miles 
+(2,051,033 km) remained for reduction—a distance equivalent to 458 transcontinental trips 
+between New York, NY, and Los Angeles, CA. 
+As the research team was cleaning and auditing the reduced data, it became apparent that two of 
+the drivers who had been included in the SCE reduction should not be included in the analyses of 
+system accuracy or effects on safety between baseline and intervention. An OBMS in one 
+vehicle demonstrated intermittent performance communicating with the DAS during data 
+collection. Further inspection of the data demonstrated that the OBMS appeared to be 
+experiencing system-wide malfunctions in that vehicle. A second driver was active only in the 
+intervention phase for 2 weeks due to taking medical leave; therefore, the research team thought 
+it necessary to remove these drivers’ (identified as participating driver numbers 6 and 8) baseline 
+phase and limited intervention phase data from the analyses. The total mileage (collected across 
+the baseline and intervention phases) remaining for analysis across the 17 drivers was 1,196,146 
+miles (1,925,011 km). 
+3.3.3 Onboard Monitoring System Accuracy Assessment 
+The research team performed data reduction to identify the accuracy of OBMS events in terms of 
+driver performance violations during the intervention phase. The OBMS reports speeding, 
+seatbelt, and aggressive driving violations. Events captured by the OBMS (e.g., speeding) were 
+available in a database variable called “violations,” received by the DAS from the OBMS in-
+vehicle auxiliary data port. In contrast, speeding events that may not have been captured by the 
+OBMS were identified by a randomly sampled drive file. 
+[PDF 44쪽]
+ 
+28 
+3.3.3.1 Speeding 
+Speeding events were validated by observation of posted speed signs on synchronous video 
+through the forward-facing camera near the event timeframe. Reductionists observed non-typical 
+road scenarios that would make the posted speed data unreliable, such as construction zones. 
+Those events were not included in the evaluation data set. Reductionists also checked posted 
+speed signs to determine if the event occurred within the United States or Canada. For events 
+occurring in Canada, the speeds were converted from kilometers per hour to miles per hour. 
+Reductionists also made note of signs that displayed truck speed limits (which varied from speed 
+limits for light vehicles). In some cases, the posted speed sign could not be identified from the 
+forward-facing camera due to the video compression frame rate, viewing distance across 
+multiple lanes (i.e., the vehicle was in a passing lane and the speed sign was positioned on the 
+side of the road), or another tractor-trailer drove between the host vehicle and the speed sign. In 
+those cases, the posted speed signs may have been validated by inserting the latitude and 
+longitude at the DAS sync into Google Maps. When attempting to validate an event with 
+information from Google Maps, a reductionist confirmed that: 1) map dates were available 
+before and after the date of event collection for that particular road or latitude/longitude 
+coordinates, and 2) that the speed limit posted for both dates was consistent. Approximately 18 
+percent (127) of the 689 violations that were validated required the use of Google Maps. 
+Of the 689 sampled speeding violations, 593 (86.07 percent) were issued correctly (speeding 
+observed, violation recorded). The remaining 96 (13.93 percent) were issued incorrectly (no 
+speeding observed, violation recorded). The 95-percent confidence interval for the correct 
+speeding violation rate was [83.48 percent, 88.65 percent], suggesting with 95-percent certainty 
+that the true mean of speeding violation rates is between 83.48 and 88.65 percent. The 
+distribution of speed in the violation sample is displayed in Figure 8, below. A large proportion 
+(83.0 percent) of speeding violations occurred between 60 and 85 mi/h. The speed distribution 
+for all sampled speeding violations ranged from 30.5 mi/h (49.1 km/h) to 84.0 mi/h (135.2 
+km/h). 
+[PDF 45쪽]
+ 
+29 
+ 
+Figure 8. Chart. Distribution of speed in speeding violation sample. 
+The non-violation sample used to evaluate speeding system accuracy included 701 non-violation 
+periods. Speeding non-violations included 674 (96.15 percent) correct non-violations (no 
+speeding observed, no violation recorded) and 27 (3.85 percent) incorrect non-violations 
+(speeding observed, no violation recorded). The 95-percent confidence interval for the correct 
+speeding non-violation rate was [94.72 percent, 97.57 percent], suggesting with 95-percent 
+certainty that the true mean of speeding non-violation rates is between 94.72 and 97.57 percent. 
+The speed distribution across the speeding non-violations is graphically displayed in Figure 9. 
+The speed during non-violations ranged from about 25 mi/h (40.2 km/h) to 77 mi/h (123.9 km/h), 
+with the majority (77.2 percent) of non-violations falling in the 60–70 mi/h (69.5–112.7 km/h) 
+range. 
+[PDF 46쪽]
+ 
+30 
+ 
+Figure 9. Chart. Distribution of speed in speeding non-violation sample. 
+3.3.3.2 Seatbelt 
+Seatbelt events were validated on synchronous video through a driver-facing camera at the event 
+timeframe. Reductionists made note if the vehicle was located in a parking lot during the seatbelt 
+event. Reductionists recorded if the seatbelt appeared latched or not. The OBMS relied on a 
+magnetic switch mounted to the buckle and tongue to determine if the seatbelt was being worn. 
+Reductionists also noted when the seatbelt was not properly worn over the left clavicle 
+(shoulder) in the event that the driver might be attempting to cheat the OBMS by sitting on the 
+belt or wearing it under the shoulder while latched. 
+All 358 sampled seatbelt violations were correctly issued (seatbelt not buckled properly, 
+violation recorded). The 95-percent confidence interval for the seatbelt correct violation rate was 
+(99.86 percent, 100.00 percent), suggesting with 95-percent certainty that the true mean of 
+seatbelt correct violation rates is between 99.86 and 100.00 percent. Of the 358 sampled seatbelt 
+violations, 303 or 84.6 percent occurred while driving in parking lots. The distribution of speed 
+in the seatbelt violation sample is displayed in Figure 10. The majority of seatbelt violations 
+(93.3 percent) occurred while driving less than15 mi/h (24.1 km/h). The speed distribution for all 
+sampled seatbelt violations ranged from 1.6 mi/h (2.6 km/h) to just over 68 mi/h (109.4 km/h). 
+[PDF 47쪽]
+ 
+31 
+ 
+Figure 10. Chart. Distribution of speed in seatbelt violation sample. 
+The non-violation sample used to evaluate seatbelt violations included 449 non-violation periods, 
+all of which were correct (all observations showed drivers wearing seatbelts). The 9-percent 
+confidence interval for the seatbelt correct non-violation rate was [99.89 percent, 100.00 
+percent], suggesting with 95-percent certainty that the true mean of seatbelt correct non-violation 
+rates is between 99.89 and 100.00 percent. The non-violation sample included 24 (5.3 percent) 
+observations in parking lots. The speed distribution across the seatbelt non-violations is 
+graphically displayed in Figure 11. The speed during non-violations ranged from just over 5 mi/h 
+(8.0 km/h) to about 73 mi/h (117.5 km/h), with the majority of non-violations falling in the 65–
+70 mi/h (104.7 to 112.7 km/h) range. 
+During the assessment of the non-violation sample, the research team also observed whether 
+drivers were properly wearing their seatbelts. With this type of system, it would be possible for 
+the driver to latch the seatbelt buckle and sit on the shoulder belt or the lap belt or both. Across 
+the 449 non-violation periods sampled, 33 (7.3 percent) were observed to have some deficiency 
+in proper wear across the lap and left shoulder (clavicle). All of those cases were categorized as 
+“loose shoulder belt.” 
+[PDF 48쪽]
+ 
+32 
+ 
+Figure 11. Chart. Distribution of speed in seatbelt non-violation sample. 
+3.3.3.3 Aggressive Driving 
+Aggressive driving violations were very infrequent. During the approximately 1.2 million miles 
+of (analyzed) driving data, 30 distinct aggressive driving violations were recorded by the DAS 
+from the OBMS. Because this evaluation was designed to serve as an observation of the OBMS 
+capabilities and the relationship between the OBMS and the fleet during revenue-producing 
+operations, the fleet worked with the OBMS vendor to calibrate the sensitivity of the measures of 
+aggressive driving preferred by the fleet. Due to this fleet/vendor arrangement and the limited 
+number of violations, the research team decided not to assess the system’s accuracy in the 
+aggressive driving category. Comparisons were attempted between the OBMS and synchronous 
+DAS accelerometer sensor data; however, rates of acceleration between the two different system 
+sensors varied in amplitude and axis (x, y, z), while the peaks were not synchronous. 
+Table 5 lists the types of aggressive driving violations recorded for each participating driver who 
+had at least one occurrence. Driver 16 had the highest number of “hard brake” violations, and 
+driver 17 had the highest number of “hard turn” violations. A short description of the scenario 
+and vehicle actions is provided in Table 6 and Table 7. Table 8 summarizes the vehicle speeds at 
+the time of the sync at which each aggressive driving violation occurred. The g-forces related to 
+the violations by each type are summarized in Table 9. These g-forces were measured by the 
+OBMS sensors. 
+ 
+[PDF 49쪽]
+33
+ 
+Table 5. The frequency of aggressive driving violations per driver. 
+Driver # 
+Frequency for Hard Brake 
+(dvX)  
+[n = 11] 
+Frequency for Hard Turn 
+(dvY)  
+[n = 18] 
+Frequency for Hard Bump 
+(dvZ)  
+[n = 1] 
+1 1 0 0 
+3 1 1 0 
+9 0 2 0 
+11 0 0 1 
+12 0 2 0 
+13 2 1 0 
+14 1 3 0 
+15 1 1 0 
+16 4 1 0 
+17 1 7 0 
+Table 6. Scenario description for driver with most frequent hard-brake violations. 
+Driver 16: Hard Brake Scenarios 
+1. Driver in right lane that is merging. Driver brakes hard to avoid hitting another vehicle.
+2. Driver slowed to take an exit ramp at the last minute.
+3. Driver slows rapidly at a traffic signal that has just turned red.
+4. Driver is on interstate traveling slower than flow of traffic and eventually comes to a complete stop on shoulder
+for unknown reason. 
+Table 7. Scenario description for driver with most frequent hard-turn violations.
+Driver 17 Hard Turn Scenarios 
+1. Driver stops at a traffic light and then turns left.
+2. Driver is moving slowly and turns left at a traffic light.
+3. Driver slows and turns left at a non-light intersection onto secondary road.
+4. Driver makes sharp left turn at non-standard intersection.
+5. Driver is stopped and makes sharp left turn at same non-li ght intersection as scenario "3."
+6. Driver is stopped and makes sharp left turn at same non-light intersection as scenario "3."
+7. Driver slows and makes left turn on a non-light intersection onto secondary road.
+Table 8. Vehicle speeds (mi/h) summarized by aggressive violation type. 
+Violation Type 
+Mean Vehicle Speed at 
+Violation 
+Minimum Vehicle 
+Speed at Violation 
+Maximum Vehicle 
+Speed at Violation 
+Hard Brake (n = 11) 28.6   4.2 54.7 
+Hard Turn (n = 18) 18.8 10.0 40.5 
+Hard Bump (n = 1) 61.3 61.3 61.3 
+[PDF 50쪽]
+ 
+34 
+Table 9. Vehicle g-forces summarized by aggressive violation type. 
+Violation Type Mean g-Force Minimum g-Force Maximum g-Force 
+Hard Brake (dvX) [n = 11] 0.53 0.45 0.62 
+Hard Turn (dvY) [n = 18] 0.43 0.40 0.61 
+Hard Bump (dvZ) [n = 1] 0.37 0.37 0.37 
+3.3.3.4 In-cab Audible Feedback 
+During the intervention phase, the OBMS provided drivers with in-cab audible alerts (verbal, in 
+real-time) prior to or at the time of the speeding, seatbelt, or aggressive-driving violation, in 
+order to help them correct their driving performance. In the cases of speeding and seatbelt 
+events, the system gave the drivers a 15-second grace period to adjust their vehicle speed or 
+buckle their seatbelt before a violation was recorded. The DAS was continuously collecting 
+audio, which was allowed based on consent by the participating drivers. However, the research 
+team was only allowed to observe the audio at timeframes identified by the OBMS system 
+variable recorded by the link to the DAS. Therefore, in-cab audible alerts were only being 
+validated when the OBMS had recorded a related violation. The collected audio data contained a 
+lot of background noise and interference, including wind noise, in-cab radio, and driver 
+conversations. Therefore, sampled events in which the background noise completely masked the 
+OBMS audible alert were removed from the data set for analysis. 
+Each violation was assessed for clarity or presence of the audio alert in the truck cab. Table 10 
+shows the distribution of audio status in seatbelt and speeding alerts. The audio was clear in a 
+majority of the violations (95 percent of the seatbelt violations and 77 percent of the speeding 
+violations); however, not all sampled violations with clear audio had an audible alert (12 percent 
+of seatbelt violations and 4 percent of speeding violations had clear audio and no audible alert). 
+The presence of an audible alert was undeterminable (either due to unclear audio or complete 
+silence) in 5 percent of seatbelt violations and 23 percent of speeding violations. 
+Table 10. Audio status distribution in seatbelt and speeding violations. 
+Alert Audio Status 
+Seatbelt 
+Violation Count 
+Percent of 
+Seatbelt 
+Violations 
+Speeding 
+Violations 
+Count 
+Percent of 
+Speeding 
+Violations 
+Clear Audio, Alert Heard 297   83% 505   73% 
+Clear Audio, No Alert Heard   43   12%   26     4% 
+Unclear Audio   11     3% 109   16% 
+Complete Silence     7     2%   49     7% 
+Total 358 100% 689 100% 
+3.3.4 Safety Evaluation (Safety-critical Event Analysis) 
+During this study, 311 valid SCEs were identified during the reduction process. The distribution 
+of SCEs in the baseline and intervention phases is displayed in Table 11. The baseline phase 
+included 153 SCEs and the intervention phase included 158 SCEs. The table also includes the 
+counts and proportion for all SCE types. 
+[PDF 51쪽]
+ 
+35 
+Table 11. Distribution of SCEs in the baseline and intervention phases. 
+SCE Type 
+Baseline Phase 
+(Number) 
+Baseline Phase 
+(Percent) 
+Intervention 
+Phase (Number) 
+Intervention 
+Phase (Percent) 
+Crash     3     2.0%     4     2.5% 
+Near-crash   24   15.7%   20   12.7% 
+Crash-relevant Conflict   39   25.5%   55   34.8% 
+Curb Strike: Avoidable   11     7.2%   29   18.4% 
+Curb Strike: Unavoidable   21   13.7%   20   12.7% 
+Unintentional Lane Deviation   55   35.9%   30   19.0% 
+Total 153 100.0% 158 100.0% 
+3.3.4.1 Safety-critical Event Analysis: Driver at Fault, Driver Not at Fault, Other Fault, 
+and Unknown 
+Following the process explained in the previous section, researchers completed data reduction to 
+identify valid SCEs. SCEs of interest included crashes, near-crashes, crash-relevant conflicts, 
+avoidable curb strikes, unavoidable curb strikes, and unintentional lane deviations. Events of 
+interest were obtained by scanning the collected vehicle data for notable actions. To identify 
+these actions, threshold values in MATLAB code were set based on previous heavy-truck 
+naturalistic studies. Validation of these events through video data reduction was completed by 
+trained and experienced crash reductionists. 
+For each driver, the rate of SCEs per 10,000 vehicle miles traveled (VMT) was calculated for 
+both phases of the study. In Figure 12, the per-driver baseline and intervention SCE rates are 
+plotted. Driver 18 had no SCEs in the baseline phase of the study and driver 9 had no SCEs in 
+the intervention phase of the study. 
+ 
+Figure 12. Chart. Baseline and intervention rates of all SCEs per 10,000 VMT for each participating d river 
+with valid data. 
+[PDF 52쪽]
+ 
+36 
+During the baseline phase, these 17 drivers drove a total of 571,213 miles. The mean rate of all 
+SCEs per 10,000 VMT during the baseline phase was 2.7 (SD = 2.4). During the intervention 
+phase, the drivers drove a total of 624,933 miles. The mean rate of SCEs per 10,000 VMT during 
+the intervention phase was 2.6 (SD = 2.85). A paired sample, one-sided t-test found that the 
+mean rate of SCEs per 10,000 VMT during the intervention phase was not significantly lower 
+than the mean rate of SCEs per 10,000 VMT during the baseline phase, α = 0.05, t(16) = 0.2, p = 
+0.4124.  
+The next analysis only considered the following SCE types in the SCE rate: crash (C), near-crash 
+(NC), crash-relevant conflict (CRC), and unintentional lane deviation (ULD). These events are 
+also referred to as “safety-critical event–excluding curb strike” (SCE-XCS). The mean rate of 
+these SCE-XCSs per 10,000 VMT during the baseline phase was 2.1 (SD = 2.0). The mean rate 
+of these SCE-XCSs per 10,000 VMT during the intervention phase was 1.7 (SD = 1.4). Figure 
+13 shows the rate of SCE-XCSs per 10,000 VMT per driver in the baseline and intervention 
+phases. A paired sample, one-sided t-test found that the mean rate of SCE-XCSs per 10,000 
+VMT during the intervention phase was not significantly lower than the mean rate of SCE-XCSs 
+per 10,000 VMT during the baseline phase, α = 0.05, t(16) = 1.01, p = 0.1647. 
+ 
+Figure 13. Chart. Baseline and intervention rates of crash, near-crash, crash-relevant conflict, and 
+unintentional lane deviation SCEs per 10,000 VMT for each participating driver with valid data.  
+3.3.4.2 Safety-critical Event Analysis: Driver at Fault  
+During video reduction, researchers assessed fault for each SCE. The options for fault were: 
+subject vehicle (participating driver’s vehicle); other vehicle, animal, pedestrian, or pedalcyclist; 
+no fault—object or environmental; or unknown. Only subject-vehicle at-fault SCE-XCSs were 
+used in the next analysis. 
+For at-fault SCE-XCSs, the baseline mean rate of SCE-XCSs per 10,000 VMT was  
+1.4 (SD = 1.4). The intervention mean rate for these at-fault types was 1.1 (SD = 1.1). Figure 14 
+shows the rate of at-fault SCE-XCSs per 10,000 VMT per driver in the baseline and intervention 
+[PDF 53쪽]
+ 
+37 
+phases. A paired sample, one-sided t-test found the mean rate of at-fault SCE-XCSs per 10,000 
+VMT during the intervention phase was not significantly lower than the mean rate of SCE-XCSs 
+per 10,000 VMT during the baseline phase, α = 0.05, t(16) = 1.45, p = 0.0831. 
+ 
+Figure 14. Chart. Baseline and intervention rates of participating driver at-fault crash, near-crash, crash-
+relevant conflict, and unintentional lane deviation SCEs per 10,000 VMT for each par ticipating driver with 
+valid data. 
+Although the research team did not find a statistically significant decrease in SCE rate from the 
+baseline to the intervention phase, that does not necessarily mean that the drivers experienced a 
+true static SCE rate. In Figure 12, Figure 13, and Figure 14, it can be seen that several drivers 
+had a decrease in SCE rate from baseline to intervention, while others had an increase in SCE 
+rate. Table 12 shows the number of drivers and average difference in SCE rates (intervention—
+baseline) for drivers with a decreased SCE rate and for those with an increased SCE rate. 
+Calculations were completed for rate of all SCEs, rate of SCEs excluding curb strikes, and rate of 
+at-fault SCEs excluding curb strikes. The sample of drivers was almost evenly split between 
+those with a decreased rate and those with an increased rate for the rate of all SCEs and the rate 
+of SCEs excluding curb strikes. Nearly two-thirds of the drivers had a decreased at-fault SCE 
+rate excluding curb strikes from baseline to intervention. 
+Table 12. Number of drivers and average difference in SCE rate (intervention − baseline) for participants 
+with a decreased or increased SCE rate. 
+SCEs Included in SCE Rate Analysis 
+Number of 
+Drivers with 
+Decreased 
+SCE Rate 
+Average 
+Difference in 
+Decreased 
+SCE Rate 
+Number of 
+Drivers with 
+Increased 
+SCE Rate 
+Average 
+Difference in 
+Increased 
+SCE Rate 
+All SCEs   8 -1.71 9 1.28 
+SCEs Excluding Curb Strikes (SCE-XCSs)   9 -1.33 8 0.66 
+At-fault SCE-XCSs 11 -0.74 6 0.49 
+[PDF 54쪽]
+ 
+38 
+3.3.4.3 Speeding Activity 
+As discussed previously, FMCSA’s Large Truck Crash Causation Study found that among CMV 
+crashes where the CMV driver was at fault, the large majority of critical reasons for the crash 
+(87.3 percent) were assigned to driver error. Of those factors assigned to driver error, 38 percent 
+were attributed to decision errors (e.g., speeding per conditions). 
+The evaluated OBMS provided the driver with an audible warning when the vehicle exceeded 
+the posted speed limit by 5 mi/h (8.0 km/h) or more. The built-in, proprietary OBMS map 
+software relied on pre-set, posted speed limit references for the specific road being traveled and 
+measured for each vehicle. The warning was an audible alert to drivers, telling them to check 
+their speed. As mentioned previously, this initial audible alert was repeated every 10 seconds 
+after the criteria were exceeded and continued until the vehicle speed was reduced below the 
+posted speed limit plus 5 mi/h (8.0 km/h). If the driver failed to comply within 15 seconds, the 
+OBMS recorded a violation that was communicated to the OBMS database and the fleet. For this 
+study’s purposes, drivers only received feedback on audible alerts and violations related to 
+speeding during the intervention phase. 
+To validate the occurrence of a speeding violation, the researchers sampled and reviewed the 
+video data recorded prior to the violation. This was done to determine if the posted speed limit 
+on the road being traveled matched the OBMS’s referenced speed limit. According to the 
+sample, the OBMS was 86 percent accurate at reporting speeding status during the intervention 
+phase, as discussed in the section on OBMS accuracy (see Section 3.3.3.1). Therefore, on 
+occasion, the OBMS reported that drivers were speeding (according to fleet-selected criteria) 
+when they were not actually speeding—approximately 14 percent of the time (as sampled). The 
+following results cover all recorded speeding violations from the baseline through the 
+intervention phase. 
+For each driver, researchers calculated rates of speeding violations per 1,000 miles driven for 
+both the baseline and the intervention period. Drivers averaged 29.01 violations per 1,000 miles 
+in the baseline period (SD = 17.32) and 14.65 violations per 1,000 miles in the intervention 
+period (SD = 13.11). Figure 15 compares the speeding violation rates, per driver, in both study 
+periods. Sequential speeding violations were not recorded if the driver maintained the speeding 
+behavior. Repeated violations that did occur were either due to the driver decelerating below the 
+speeding threshold and then accelerating again to go beyond the threshold of the posted speed 
+limit plus 5 mi/h (8.0 km/h), or the driver speeding beyond the posted speed limit plus 15 mi/h 
+(24.1 km/h), which was not separated in the analysis. Speeding events were examined by 
+collection file to examine violations that occurred within a short period of time. A collection file 
+represents vehicle departure to vehicle arrival, or a maximum 2-hour driving period. Of the 
+22,106 combined baseline and intervention speeding violations collected, approximately 92.3 
+percent (20,402) occurred within the same collection file as at least one other speeding violation. 
+Of the violations that occurred within the same collection file, 84 percent occurred within a 10-
+minute period from the previous speeding violation among all drivers. The average amount of 
+time between speeding violations in the same file was 6.8 minutes.  
+Of the 17 drivers with speeding violation data, 14 drivers (82.35 percent) had a decreased 
+speeding violation rate in the intervention period. The other three drivers (17.65 percent) had an 
+increased speeding violation rate in the intervention period. The average difference in speeding 
+[PDF 55쪽]
+ 
+39 
+violation rates (intervention—baseline) was 14.36 fewer violations per 1,000 miles (SD = 14.00). 
+The baseline and intervention mileage, violation counts, and rates can be found in Table 13. A 
+paired, one-sided t-test of the speeding violation rate differences (intervention—baseline) 
+showed a statistically significant decrease (t = −4.23, degrees of freedom [df] = 16, p = 0.0003). 
+ 
+ 
+Figure 15. Chart. Speeding violation rates, per driver, in the baseline and intervention study periods. 
+ 
+[PDF 56쪽]
+ 
+40 
+Table 13. Baseline and intervention mileage and speeding violation data for all participating drivers.
+Driver 
+ID 
+Baseline Miles 
+(1,000 mile units) 
+Intervention 
+Miles (1,000 mile 
+units) 
+Baseline 
+Speeding 
+Violation Count 
+Intervention 
+Speeding 
+Violation Count 
+Baseline Rate of 
+Speeding 
+Violations per 
+1,000 Miles 
+Intervention Rate 
+of Speeding 
+Violations per 
+1,000 Miles 
+Difference in 
+Violation Rate 
+(Intervention—
+Baseline) 
+1 16.24 36.94    290    688 17.86 18.62      0.77 
+2 45.78 36.45    502    238 10.97   6.53   −4.44 
+3 21.97 28.60    838    136 38.15   4.76 −33.39 
+4 30.31 36.13 2,273 1,050 75.00 29.06 −45.94 
+5 25.56 44.92    727    274 28.44   6.10 −22.34 
+7 10.72 52.99    567 2,460 52.88 46.43   −6.46 
+9 43.59 28.45 1,233    524 28.29 18.42   −9.87 
+10 34.19 30.02    719    157 21.03   5.23 −15.80 
+11 28.66 49.01    142    328 4.95   6.69     1.74 
+12 39.94 38.00 1,016    249 25.44   6.55 −18.88 
+13 23.45 37.22 1,090    690 46.48 18.54 −27.94 
+14 17.54 30.98    250    242 14.25   7.81   −6.44 
+15 27.50 44.93    940    376 34.18   8.37 −25.81 
+16 22.07 43.69    775 1,865 35.12 42.69     7.57 
+17 16.25 47.41    421    215 25.90   4.54 −21.37 
+18 13.60 19.57    297    208 21.84 10.63 −11.21 
+19 16.78 14.55    208    118 12.39   8.11   −4.29 
+[PDF 57쪽]
+ 
+41 
+The speeding violation rate per 1,000 miles was calculated for each driver for 2-week windows 
+within the intervention period (e.g., days 1–14 of the intervention period, days 15–28 of the 
+intervention period, etc.) Not every driver had data for every 2-week window due to time off 
+from driving or dropping out of the study. Figure 16 shows the average speeding violation rate 
+per 1,000 miles over time. There was a sharp decrease in the average speeding violation rate 
+from the baseline period to the first 2 weeks of the intervention (from 29.01 to 18.37, a 37 
+percent decrease in speeding violations per 1,000 miles, with 17 drivers in each of the 
+comparison phases). A Wilcoxon signed-rank test of the differences indicated a significantly 
+lower median of speeding violation rates in the first 2 weeks of the intervention than in the 
+baseline period (W = 55.5, p = 0.0067). The speeding violation rate continued to decrease until 
+the fourth 2-week window (days 43–56). From days 57 through 126, the speeding violation rate 
+increased, although it remained lower than the baseline speeding violation rate. The ninth 2-week 
+window (days 113–126) had the highest speeding violation rate during the intervention phase 
+(22.58 speeding violations per 1,000 miles, with 7 drivers with data for this window). However, 
+a Wilcoxon signed-rank test of the differences in the baseline phase and the ninth 2-week 
+window speeding violation rates was not significant, thus indicating that there is no difference in 
+the medians of speeding violation rates for drivers active in the ninth 2-week window compared 
+to their baseline rates (W = 10.0, p = 0.1094). 
+ 
+Figure 16. Line chart. Speeding violation rate per 1,000 miles over time in study (baseline period and 2-week 
+intervention period windows). 
+ 
+[PDF 58쪽]
+ 
+42 
+Table 14. Speeding violation rate per 1,000 miles over time in study for all drivers (baseline period and 2-week intervention period windows). 
+Driver ID 
+Baseline 
+Period 
+Days   
+1-14 
+Days  
+15-28 
+Days  
+29-42 
+Days  
+43-56 
+Days  
+57-70 
+Days  
+71-84 
+Days  
+85-98 
+Days  
+99-112 
+Days  
+113-126 
+Days    
+127-140 
+1 17.86   1.96   1.43 11.99 17.06 30.28 21.37 24.92 41.31   N/A   N/A 
+2 10.97 28.23   5.32 10.94   4.12 5.20   3.64   3.73   8.78   N/A   N/A 
+3 38.15   9.01   1.37   1.89   4.14 6.50   5.15   4.63   6.73   N/A   N/A 
+4 75.00 78.66   9.74   1.97   3.54 15.90 30.42 55.58 48.60   N/A   N/A 
+5 28.44   4.68 10.91   4.75   3.07 2.80   4.04   6.67   4.82 15.00   N/A 
+7 52.88 49.03 54.91 60.02 45.65 60.86 25.24 39.45 51.78 44.31 38.35 
+9 28.29   8.95 18.41 20.65 16.84 18.60 25.71   N/A 35.54   N/A   N/A 
+10 21.03   0.00   N/A   8.10   3.08 4.18 14.83   1.63   3.09   N/A   N/A 
+11   4.95   7.99   8.00   6.71   6.95 3.26   5.21   5.24   3.35 11.60 10.62 
+12 25.44   5.49   5.37   6.07   1.96 5.89   N/A   N/A   6.86 19.52   6.67 
+13 46.48   7.21 23.41   6.45 13.02 19.42 14.66 34.23 34.75 18.86 15.92 
+14 14.25   8.25 11.74 10.97   3.72 8.19   2.68   0.46 28.06   N/A  8.37 
+15 34.18 30.35 18.97 18.24   1.66 6.96   0.00   0.00   0.00   N/A   0.00 
+16 35.12 45.86 38.24 11.79 39.33 32.77 57.37 59.75 59.38 40.88 61.36 
+17 25.90 11.98   0.18   1.03   5.11 0.61 10.13   3.74   0.63   7.90 13.05 
+18 21.84   9.04 25.55   N/A   N/A 5.86   7.58 14.90 23.89   N/A   N/A 
+19 12.39   5.51   6.81 13.37   N/A  N/A   N/A   N/A   N/A   N/A   N/A 
+Average 29.01 18.37 15.02 12.18 11.28 14.21 15.20 18.21 22.35 22.58 19.29 
+ 
+[PDF 59쪽]
+ 
+43 
+3.3.5 Seatbelt Usage 
+Seatbelt usage in commercial trucking is an area of concern. As discussed in the introduction, 
+sampled seatbelt usage has increased in recent years to 84 percent; however, there are still 
+seatbelt usage trends that indicate a continuing problem. The evaluated OBMS provided 
+feedback to the driver when the seatbelt was not latched and the vehicle was traveling faster than 
+5 mi/h (8.0 km/h). This warning was an audible alert to the driver to fasten the seatbelt. The 
+initial alert occurred when the criteria was exceeded and repeated every 10 seconds until the 
+seatbelt has been latched. If the driver failed to comply within 15 seconds, the OBMS recorded a 
+violation, which was communicated to the OBMS database and the fleet. For this study’s 
+purposes, the drivers only received feedback on seatbelt usage during the intervention period. 
+To validate the occurrence of a seatbelt violation, the researchers sampled and reviewed the 
+video recorded during the violation to confirm whether the driver was wearing the seatbelt. The 
+OBMS’s level of accuracy for the seatbelt latched and unlatched status during intervention was 
+very high (100 percent as sampled), as discussed in Section 3.3.3.2. Therefore, the seatbelt usage 
+trends from the baseline to the intervention phase (below) can be understood to represent 
+scenarios where the record of the seatbelt latched status was highly consistent with the driver’s 
+state of seatbelt usage. 
+For each driver, the research team calculated rates of seatbelt violations per 1,000 miles driven, 
+for baseline and intervention periods. Drivers averaged 11.10 violations per 1,000 miles in the 
+baseline period (SD = 5.44) and 3.41 violations per 1,000 miles in the intervention period (SD = 
+3.92). Figure 17 compares the violation rates, per driver, in both study periods. Every driver had 
+a decreased seatbelt violation rate in the intervention period. The average difference in seatbelt 
+violation rates (intervention—baseline) was 7.69 less violations per 1,000 miles (SD = 5.12). The 
+baseline and intervention mileage, violation counts, and rates are shown in Table 15. 
+A paired t-test of the seatbelt violation rate differences (intervention—baseline) showed a 
+statistically significant decrease (t = ‒6.19, df = 16, p < 0.0001). 
+[PDF 60쪽]
+ 
+44 
+ 
+Figure 17. Bar chart. Seatbelt violation rates, per driver, in the baseline and intervention periods. 
+ 
+[PDF 61쪽]
+ 
+45 
+Table 15. Baseline and intervention mileage and seatbelt violation data for all participating drivers. 
+Driver ID 
+Baseline Miles 
+(1,000 Mile Units) 
+Intervention 
+Miles (1,000 
+Mile Units) 
+Baseline Seatbelt 
+Violation Count 
+Intervention 
+Seatbelt 
+Violation Count 
+Baseline Rate of 
+Seatbelt 
+Violations per 
+1,000 Miles 
+Intervention 
+Rate of Seatbelt 
+Violations per 
+1,000 Miles 
+Difference in 
+Violation Rate 
+(Intervention—
+Baseline) 
+1 16.24 36.94 187 182 11.51   4.93   −6.59 
+2 45.78 36.45 788   90 17.21   2.47 −14.74 
+3 21.97 28.60 512   15 23.31   0.52 −22.78 
+4 30.31 36.13 630 501 20.79 13.87   −6.92 
+5 25.56 44.92 245   24   9.59   0.53   −9.05 
+7 10.72 52.99 121 446 11.29   8.42   −2.87 
+9 43.59 28.45 473   22 10.85   0.77 −10.08 
+10 34.19 35.11 290    6   8.48   0.17   −8.31 
+11 28.66 49.01 134   41   4.68   0.84   −3.84 
+12 39.94 38.00 257   28   6.43   0.74   −5.70 
+13 23.45 37.22 244 104 10.40   2.79   −7.61 
+14 17.54 30.98 186   66 10.60   2.13   −8.47 
+15 27.50 44.93 119 135   4.33   3.00   −1.32 
+16 22.07 43.69 300 203 13.59   4.65   −8.95 
+17 16.25 47.41   51     6   3.14   0.13   −3.01 
+18 13.60 19.57 172 196 12.65 10.02   −2.63 
+19 16.78 14.55 166   30   9.89   2.06   −7.83 
+ 
+[PDF 62쪽]
+ 
+46 
+The seatbelt violation rate per 1,000 miles was calculated for each driver for 2-week windows 
+within the intervention period (e.g., days 1–14 of the intervention period, days 15–28 of the 
+intervention period, etc.) Not every driver had data for each 2-week window due to time off from 
+driving or dropping out of the study. Figure 18 shows the average seatbelt violation rate per 
+1,000 miles over time. There was a sharp decrease in the average seatbelt violation rate from the 
+baseline period to the first 2 weeks of the intervention (from 11.10 to 4.88, a 56 percent decrease 
+in seatbelt violations per 1,000 miles, with 17 drivers in each of the comparison periods). A 
+Wilcoxon signed-rank test of the differences indicated a significantly lower median of seatbelt 
+violations in the first 2 weeks of the intervention than in the baseline period (W = 74.5, p < 
+0.0001). The last 2-week window, days 127–140, had the lowest average seatbelt violation rate 
+(1.87 seatbelt violations per 1,000 miles, with 8 drivers with data for this window). This 2-week 
+window was also found to be significantly different than the baseline period values for the same 
+drivers (W = 18.0, p = 0.0078). 
+ 
+Figure 18. Chart. Seatbelt violation rate per 1,000 miles over time in study (baseline period and 2-week 
+intervention period windows). 
+ 
+[PDF 63쪽]
+ 
+47 
+Table 16. Seatbelt violation rate per 1,000 miles over time in study for all drivers (baseline period and 2-week intervention period windows). 
+Driver ID 
+Baseline 
+Period Days 1-14 
+Days  
+15-28 
+Days  
+29-42 
+Days  
+43-56 
+Days  
+57-70 
+Days  
+71-84 
+Days  
+85-98 
+Days  
+99-112 
+Days  
+113-126 
+Days    
+127-140 
+1 11.51   1.42   2.15   2.48 7.48 4.33   4.35 15.61   4.25 N/A N/A 
+2 17.21 10.76   3.49   3.18 0.77 2.17   3.07   1.42   1.53 N/A N/A 
+3 23.31   3.86   0.46   0.00 0.00 0.57   0.00   0.00   0.00 N/A N/A 
+4 20.79 18.44 12.93 12.19 9.02 23.30 12.99 13.80   8.33 N/A N/A 
+5 9.59   1.62   2.82   0.19 0.00 0.00   0.21   0.35   0.00 0.57 N/A 
+7 11.29   9.57   8.37 17.64 7.83 6.73   8.74   8.86   6.21 5.58 3.84 
+9 10.85   0.80   1.17   1.21 0.23 0.21   0.74   N/A   2.03 N/A N/A 
+10   8.48   1.98   0.00   0.00 0.00 0.00   0.00   0.00   0.00 N/A N/A 
+11   4.68   1.28   2.38   2.30 0.18 0.20   0.87   0.00   0.53 0.70 0.00 
+12   6.43   0.32   1.07   0.79 0.16 2.52    N/A   N/A   0.53 0.91 0.45 
+13 10.40   0.86   1.16   2.93 4.42 4.31   2.88   3.89   3.29 2.80 1.71 
+14 10.60   2.17   2.76   2.74 2.48 2.12   0.82   0.46   3.30 N/A 2.95 
+15   4.33   4.24   3.26   3.61 2.91 2.53   2.98   3.14   2.33 N/A 2.03 
+16 13.59   8.98   4.25   3.04 5.40 4.10   2.90   4.03   4.86 5.25 3.99 
+17   3.14   0.61   0.00   0.17 0.00 0.00   0.25   0.17   0.21 0.00 0.00 
+18 12.65 13.35   9.41    N/A N/A 7.11   7.41 15.87 13.57 N/A N/A 
+19 11.51   1.42   2.15   2.48 7.48 4.33   4.35 15.61   4.25 N/A N/A 
+Average 11.10   4.88   3.37   3.39 2.73 3.76   3.21   4.83   3.19 2.26 1.87 
+ 
+[PDF 64쪽]
+ 
+48 
+3.3.6 Qualitative Analysis (Driver and Manager Acceptance) 
+3.3.6.1 Driver Pre-study and Post-study Questionnaires 
+Due to the Paperwork Reduction Act, there are limitations on the number of study participants 
+who can complete surveys and/or questionnaires (no more than nine participants are allowed to 
+complete questionnaires/surveys). Therefore, only seven drivers and two safety managers were 
+selected to complete questionnaires for this study. The seven randomly selected drivers 
+completed questionnaires containing rating scales and open-ended questions. Two safety 
+managers were recruited and completed the post-study interview. The questionnaires and 
+interviews can be found in Appendices D and E. 
+The questionnaires had two purposes:  
+• To determine the baseline self-reported driving behaviors (see Table 17).  
+• To determine the participants’ expectations of the OBMS before implementation and 
+their level of acceptance after experiencing the system in their vehicle for at least 6 
+months total (see Table 18). 
+[PDF 65쪽]
+ 
+49 
+Table 17. Pre-study driving behavior questionnaire frequency of responses. 
+Question: In the past 12 months while 
+driving, how often did you… 
+Never 
+(percent) 
+Never 
+(count) 
+Rarely 
+(percent) 
+Rarely 
+(count) 
+Sometimes 
+(percent) 
+Sometimes 
+(count) 
+Often 
+(percent) 
+Often 
+(count) 
+Run red lights?   71.4% 5 28.6% 2   0.0% 0   0.0% 0 
+Change lanes suddenly to get ahead of traffic?   28.6%   2 42.9%  3 28.6% 2   0.0% 0 
+Go through a stop sign without stopping? 100.0%   7   0.0% 0   0.0% 0   0.0% 0 
+Speed for the thrill of it?   71.4%   5 28.6% 2   0.0% 0   0.0% 0 
+Not yield the right of way?   57.1%   4 42.9% 3   0.0% 0   0.0% 0 
+Make illegal turns?   42.9%   3 57.1% 4   0.0% 0   0.0% 0 
+Follow a car very closely or “tailgate”?   57.1%   4 28.6% 2 14.3% 1   0.0% 0 
+Take more risks because you were in a hurry?   71.4%   5 14.3% 1 14.3% 1   0.0% 0 
+Drive at normal speed during bad conditions, 
+like road construction, rain, ice or snow? 
+  50.0%   3 16.7% 1 16.7% 1 16.7% 1 
+Pass other cars on the right side on the shoulder 
+of the road? 
+  71.4%   5 14.3% 1 14.3% 1   0.0% 0 
+Accelerate when a traffic light turned yellow?     0.0%  0 85.7% 1 14.3% 1   0.0% 0 
+Cut off, honk or yell at other drivers who drive 
+too slowly to cut you off? 
+  42.9%   3 28.6% 2 28.6% 2   0.0% 0 
+Do other things while driving, like use cell 
+phone, eat or drink, or smoke cigarettes? 
+    0.0% 0 14.3% 1 42.9% 3 42.9% 3 
+Take your eyes off the road to adjust the CD 
+player or pick something up from the floor? 
+  28.6%   2 57.1% 4 14.3% 1   0.0% 0 
+Not check your mirrors when passing another 
+car or merging onto the highway? 
+  71.4%   5   0.0% 0   0.0% 0 28.6% 2 
+Drive 10-20 mi/h over the limit?   42.9%   3 57.1% 4   0.0% 0   0.0% 0 
+Drive more than 20 mi/h over the limit?   85.7%   6 14.3% 1   0.0% 0   0.0% 0 
+Not yield to pedestrians?   71.4%   5   0.0% 0   0.0% 0 28.6% 2 
+Drive without wearing a safety belt?   71.4%   5 14.3% 1   0.0% 0 14.3% 1 
+Turn without signaling?   71.4%   5 28.6% 2   0.0% 0   0.0% 0 
+Pass where visibility was obscured?   85.7%   6 14.3% 1   0.0% 0   0.0% 0 
+Not make a full stop at a stop sign?   57.1%   4 42.9% 3   0.0% 0   0.0% 0 
+ 
+[PDF 66쪽]
+ 
+50 
+Table 18. Comparison of pre-study and post-study questionnaire responses for the driver’s opinion of the technology. 
+Question 
+Pre-study 
+Mean 
+Response 
+Pre-study 
+Median 
+Response 
+Post-study 
+Mean 
+Response 
+Post-study 
+Median 
+Response 
+Wilcoxon Signed-
+Rank W Statistic 
+for Post—Pre p value 
+How much do you like the idea of having the waySmart on 
+your truck? 
+       Extremely Dislike It (1) to Extremely Like it (7) 
+0.5 4.0 4.4 4.5 -1.5 0.8125 
+I think the way Smart is… 
+     Useless (1) to Useful (7) 
+5.3 5.0 5.3 6.0 4.0 0.5781 
+Unpleasant (1) to Pleasant (7) 4.5 5.0 5.1 6.0 3.5 0.5000 
+Bad (1) to Good (7) 4.8 5.0 5.0 5.5 2.5 0.6875 
+Annoying (1) to Nice (7) 4.6 5.0 4.8 5.0 3.5 0.5625 
+Ineffective (1) to Effective (7) 5.3 5.0 5.0 6.0 0.5 0.9844 
+Irritating (1) to Likeable (7) 4.7 4.8 4.5 4.5 0.0 1.0000 
+Worthless (1) to Assisting (7) 4.9 5.8 5.0 6.0 2.5 0.6875 
+Undesirable (1) to Desirable (7) 4.9 5.3 5.1 6.0 3.0 0.5938 
+Sleep-inducing (1) to Raising Alertness (7) 4.9 5.3 5.8 6.0 5.0 0.3438 
+ 
+[PDF 67쪽]
+ 
+51 
+The pre-study and post-study questionnaires included a free-response section where drivers 
+could share likes and dislikes about the system. In the pre-study questionnaire, the drivers 
+indicated that their anticipated likes included improving driver safety and skills and providing 
+information or evidence. Driver comments included:  
+• “Hopefully it will be useful down the road or in the future.” 
+• “Help drivers with driving.” 
+• “Show driver their mistakes.” 
+• “Think it will help out in the long run.” 
+• “Will help keep my alertness on high.” 
+Conversely, the drivers’ anticipated dislikes were few, but focused on being watched. Responses 
+included:  
+• “Someone watching me.” 
+• “Tell and show all.” 
+As reported in the post-study questionnaire, the drivers’ actual likes included increased seatbelt 
+use and improved awareness. Comments included: 
+• “Reminds you to wear your seatbelt.” 
+• “Made me a better driver.”  
+• “Keeps me more alert to what’s going on around me.” 
+• “Alerted you on your speed, seatbelt violation.” 
+• “Make sure you use your seatbelt all the time.” 
+• “Kept you from speeding a lot.” 
+• “Kept me informed of seatbelt use.” 
+• “Made me more aware of my speed and surroundings.” 
+The drivers’ actual dislikes were concerns about the speed limit set for the seatbelt violation and 
+the accuracy of the speed limits for the speeding violations. The comments related to actual 
+dislikes included:  
+• “Need to up the speed to 6 over instead of 5 miles per hour.” 
+• “Talks too much about speed.”  
+• “Check your speed.”  
+• “Would not have correct speed limits.” 
+• “Would go off in the middle of the night with safety checks.” 
+[PDF 68쪽]
+ 
+52 
+• “Seatbelt limit is set at 5 mi/h.” 
+• “Seatbelt warning set at too low of a speed, should be at least 20 mi/h, verbal warning 
+while moving in yard, 5 mi/h = too slow.” 
+In the post-study questionnaire, drivers were also asked about their experience using the system. 
+All drivers reported adjusting to the system within 1 month. The questions, with mean and 
+median responses, are shown in Table 19. For all questions, mean and median responses were 
+near neutral to slightly above neutral. 
+Table 19. Post-study questionnaire responses on waySmart device use. 
+Question 
+Mean 
+Response SD 
+Median 
+Response 
+How does your driving performance with waySmart compare to your 
+driving performance without waySmart? 
+Scale: Extremely Worse (1) to Extremely Better (7) 
+4.68 0.80 5.00 
+How much do you agree with the statement: "I would like to have 
+waySmart in my truck" 
+Scale: Strongly Disagree (1) to Strongly Agree (7) 
+5.18 1.42 5.50 
+How much do you agree with the statement: "waySmart has made me a 
+safer driver." 
+Scale: Strongly Disagree (1) to Strongly Agree (7) 
+5.39 1.57 6.00 
+How much do you agree with the statement: "waySmart encourages regular 
+seatbelt use." 
+Scale: Strongly Disagree (1) to Strongly Agree (7) 
+5.89 0.96 6.00 
+How much do you agree with the statement: "waySmart effectively alerts 
+me about speeding." 
+Scale: Strongly Disagree (1) to Strongly Agree (7) 
+5.18 1.37 5.00 
+How much do you agree with the statement: "waySmart has improved my 
+fuel efficiency" 
+Scale: Strongly Disagree (1) to Strongly Agree (7) 
+5.25 1.25 5.00 
+How much do you agree with the statement: "waySmart is easy to use." 
+Scale: Strongly Disagree (1) to Strongly Agree (7) 
+5.96 1.05 6.00 
+How uncomfortable is the glare from the display when you are driving at 
+night and looking forward down the road? 
+Scale: Extremely Uncomfortable (1) to Extremely Comfortable (7) 
+4.82 1.01 5.00 
+How uncomfortable is the glare from the display when you are driving at 
+night and looking directly at the light? 
+Scale: Extremely Uncomfortable (1) to Extremely Comfortable (7) 
+4.54 1.21 5.00 
+3.3.6.2 Fleet Manager/Staff Interviews 
+The research team conducted post-study interviews with a fleet manager and a dispatcher to 
+identify any safety benefits the fleet may have recognized from the OBMS, the overall fleet’s 
+acceptance of the system, positives and negatives in system implementation within the fleet, and 
+economic issues with regard to technology implementation within the fleet. The fleet manager 
+for the participating fleet was responsible for the purchase and upkeep of all fleet tractors, 
+[PDF 69쪽]
+ 
+53 
+trailers, and associated equipment, including technology such as the OBMS. The dispatcher 
+assigned drivers to loads and was involved in the OBMS driver-coaching elements of this study.  
+The participating manager believed that the OBMS would change drivers’ on-road driving 
+behaviors because: 1) it would provide constant monitoring and prompting to correct hazardous 
+driving habits, and 2) the drivers were aware that a company official could review any hazardous 
+driving incidents. The fleet manager did not think that the type of route (e.g., long-haul, regional, 
+or short-haul) would affect the efficacy of the OBMS, although the participating fleet was 
+primarily long-haul.  
+When asked how the drivers initially reacted to the OBMS, the fleet manager commented that 
+there were some “big brother” concerns that quickly vanished when drivers understood that the 
+company was only seeing incidents of bad driving behavior, call-ins, or accidents. The fleet 
+manager also recalled an occasion when the application of a previous OBMS with video data 
+was helpful in understanding how to assign fault after a serious accident. Because of that OBMS 
+data, the fleet driver was exculpated of fault. After this incident, the fleet drivers had a more 
+positive view of OBMS technology. 
+When asked about their impression of the performance of the OBMS, the fleet manager felt that 
+the OBMS improved drivers’ seatbelt usage and speeding behaviors the most. The key area of 
+improvement cited by both the fleet manager and the dispatcher was the inability of the OBMS 
+to distinguish between posted speed limits for cars and trucks. According to the interviewees, 
+this seemed to occur only in specific States (e.g., Indiana and Wyoming). The dispatcher stated 
+that drivers found these erroneous violations to be distracting in the beginning of the study.  
+The fleet manager and dispatcher indicated that the fleet currently provides a broad range of 
+driver training (e.g., new driver training, fuel economy training, Smith System, etc.), and that the 
+introduction of the OBMS would not drastically affect the training currently in place.  
+A primary factor for implementing new technologies is the estimate of return on investment 
+provided by the technology vendor. The fleet manager felt it would be difficult to justify the 
+OBMS economically because the system requires the time of a manager to coach drivers. The 
+fleet manager did state that Federal or insurance incentives would indeed influence decisions on 
+the adoption of the OBMS, as well as any reduction in liability costs to the company. Despite 
+these economic concerns, the manager believed that the OBMS would be useful in the fleet. 
+3.3.7 Fuel Usage Results 
+The resulting measure of fuel usage for analysis was split between baseline and intervention 
+phases by two groups of drivers. The fuel flow, in liters per hour, was averaged per driver’s drive 
+file with durations ranging from 10 minutes up to 2 hours. The distribution of fuel rate per drive 
+file is described in Table 20 and Figure 19. Among the baseline group files, 2,833 files (50 
+percent) were 10 minutes or longer. Among the intervention group files, 3,325 files (56 percent) 
+were 10 minutes or longer. The average fuel rate was 25.69 liters per hour for baseline files  
+(SD = 10.40) and 26.81 liters per hour for intervention files (SD = 8.98). The median fuel rate 
+was 27.84 liters per hour for baseline files and 28.31 liters per hour for intervention files. Figure 
+19 illustrates the similar average fuel rate distributions between the baseline and intervention 
+groups. The baseline group had a slightly higher percentage of files with an average fuel rate of 
+[PDF 70쪽]
+ 
+54 
+0–5 liters per hour than the intervention phase (6.32 percent of baseline files and 1.62 percent of 
+intervention files). 
+Table 20. Descriptive statistics of file average fuel rate (liters per hour) for files 10 minutes or longer in 
+duration, from sampled time frame, with fuel rate data in baseline and intervention group phases. 
+ 
+Figure 19. Chart. Distribution of file average fuel rate (liters per hour) for files 10 minutes or longer in 
+duration, from sampled time frame, with fuel rate data in baseline and intervention group phases. 
+A generalized, linear-mixed model with file identification (ID) as a random effect was used to 
+model the differences in file average fuel rate by group phase for files 10 minutes or longer in 
+duration. The group phase was modeled as an indicator variable (baseline and intervention as “1” 
+and “0,” respectively). The resulting model follows: 
+Fuel rate = 26.8095 − 1.1222 × Study Phase 
+The difference in file average intervention group minus baseline group fuel rates (estimated 
+difference in least square means of −1.1222, standard error [SE] = 0.25) was found significant at  
+α = 0.05 t(6,156) = −4.54, p < 0.0001. This means that the fuel usage for the group of drivers in 
+the intervention phase was worse than the fuel usage for the group of drivers in the baseline 
+phase. These results are inconclusive as to what effect the OBMS had on fuel efficiency. 
+Study Group 
+Phase 
+Number of 
+Files 
+Average File 
+Fuel Rate 
+(Liters/hr) 
+Standard 
+Deviation 
+(Liters/hr) 
+25th %tile 
+(Liters/hr) 
+Median, 50th 
+%tile 
+(Liters/hr) 
+75th %tile 
+(Liters/hr) 
+Baseline 2,833 25.69 10.40 19.78 27.84 33.00 
+Intervention 3,325 26.81 8.98 21.41 28.31 33.00 
+[PDF 71쪽]
+ 
+55 
+4. CONCLUSIONS 
+The OBMS provided drivers with real-time feedback about their driving behavior to encourage 
+safe operations. The following conclusions demonstrate the steps that the research team took to 
+capture and measure the OBMS interface with the drivers and fleets. Some opportunities for 
+improvement are discussed in the recommendations section. 
+4.1 SYSTEM PERFORMANCE 
+The performance and reliability of the OBMS was evaluated based on controlled testing on the 
+Virginia Smart Road and on field testing in a revenue-producing fleet. The controlled testing 
+evaluated activation and DAS collection of OBMS-generated data. The field testing evaluated 
+accuracy of the OBMS based on the sampling of collected OBMS, vehicle, and DAS sensor data. 
+4.1.1 Controlled Testing 
+The purposes of the controlled testing were to determine: 1) how the OBMS interfaced with the 
+DAS, and 2) how the OBMS features operated on a test CMV. The collection of audible alerts 
+and violations were confirmed on the DASs. The controlled testing demonstrated appropriate 
+activation of violations for seatbelt usage. The controlled testing demonstrated some limitations 
+of the OBMS with regard to speeding violations on secondary roads and highways with short 
+deviations in speed limit and activation of aggressive driving violations. 
+4.1.2 Field Testing 
+The research team sampled violations and periods of non-violations to estimate the level of 
+accuracy that the OBMS provided to the fleet regarding driver performance. Based on driver 
+feedback to the research team during data collection, the research team anticipated that the 
+speeding violations would be correct approximately 85 percent of the time, and that the seatbelt 
+violations would be correct approximately 95 percent of the time. Therefore, violation and non-
+violation periods were sampled from the collected data proportional to these estimates and 
+proportional to the vehicle miles collected for each vehicle.  
+According to the speeding violations sampled, 86 percent of violations (i.e., vehicle speed 
+greater than 5 mi/h above the posted speed limit) were issued correctly. A large proportion (83.0 
+percent) of speeding violations occurred between 60 and 85 mi/h (136.8 km/h). According to the 
+non-violation speeding sample, the OBMS correctly identified that the CMV was traveling 
+below the posted speed limit 96 percent of the time. An important caveat of these findings is that 
+the status of vehicle speeding did not target posted speed limits as the threshold for speeding, but 
+rather 5 mi/h above posted speed limits. Furthermore, due care was exercised by the research 
+team to conclude the OBMS had missed a speeding violation only if the difference in vehicle 
+speed was greater than 6 mi/h above the posted speed limit. The same care was exercised for 
+concluding an OBMS violation false alarm had occurred if the difference in vehicle speed was 
+less than 4 mi/h above the posted speed limit. These findings confirm anecdotal and 
+questionnaire feedback from the drivers. 
+[PDF 72쪽]
+ 
+56 
+According to the seatbelt violations sampled, 100 percent were issued correctly. Non-violations 
+were sampled across a wide range of speeds to determine if drivers might choose to sit on the 
+seatbelt while it was latched. According to the non-violation seatbelt sample, the OBMS 
+correctly identified that the seatbelt was latched 100 percent of the time. Based on the assessment 
+of seatbelt use, drivers did not try to avoid wearing the seatbelt while leaving it latched. 
+The number of recorded aggressive driving violations was very low. There were too few 
+violations (30) during the intervention phase to establish a robust accuracy test sample for 
+violation and non-violation periods. There was only one record of a hard-bump violation. There 
+were 18 recorded hard-turn violations, with an average vehicle speed of 18.8 mi/h (30.3 km/h) 
+and a 0.43 g-force. There were 11 recorded hard-brake violations, with an average vehicle speed 
+of 28.6 mi/h (46.0 km/h) and a 0.53 g-force. 
+The research team assessed the intervention phase audible feedback activity to determine if the 
+system delivered alerts to drivers prior to and after violations were recorded (thus informing the 
+drivers of the need to adjust driving performance). Assessment of clear audio for 531 speeding 
+violations demonstrated feedback success for 505 violations (95 percent). Assessment of clear 
+audio for 340 seatbelt violations demonstrated feedback success for 297 violations (87 percent). 
+To measure fuel efficiency, researchers selected fuel flow as the vehicle measure with the least 
+inherent error. Other measures (e.g., average and instantaneous fuel efficiency) combine other 
+sensors—which carry additional error—to estimate the rate of work being accomplished. The 
+fuel flow rates were averaged per drive file and compared between separate groups of drivers 
+who were active in different phases—baseline versus intervention—during the same month. The 
+fuel flow rate for the intervention group was significantly greater than the flow rate for the 
+baseline group. The effect of the OBMS on fuel efficiency was inconclusive. 
+4.2 POTENTIAL SAFETY BENEFITS 
+The research team determined the potential safety benefits of the OBMS by assessing drivers’ 
+rate of involvement in SCEs during the baseline and intervention periods. Researchers 
+considered additional effects of the OBMS on driving behavior by analyzing the number of 
+OBMS speeding and seatbelt violations averaged across all vehicles between the baseline and 
+intervention phases and tracing the trends of speeding and seatbelt violations across the 
+intervention phase. 
+The instrumented DASs collected approximately 1.2 million miles worth of naturalistic driving 
+data for 17 drivers. That collection resulted in 311 valid SCEs across the baseline and 
+intervention phases. After curb strike and driver not-at-fault SCEs were removed, 208 SCEs 
+remained across the baseline and intervention phases. For at-fault SCEs excluding curb strikes, 
+the baseline mean rate of SCEs per 10,000 VMT was 1.4 compared to the intervention mean rate 
+of 1.1. The reduction in rate from the baseline phase to the intervention phase was not 
+significantly lower across all drivers; however, 11 of the 17 drivers did have a reduced rate of at-
+fault SCEs from baseline to intervention. 
+To further compare the effect of the OBMS on safety performance, the research team analyzed 
+the rates of OBMS speeding violations per 1,000 miles occurring during baseline, intervention, 
+[PDF 73쪽]
+ 
+57 
+and across intervention. The speeding violation rates were averaged across all 17 drivers. The 
+most striking effect of the speeding violations was the 37 percent reduction in the first 2-week 
+period of intervention. That rate continued to drop until the fourth 2-week period. Overall, the 
+reduction in the rate of speeding violations was statistically significant from baseline to 
+intervention. However, at the fifth 2-week period, the rate continued to increase until it peaked 
+again at the ninth 2-week period, which was not significantly better than the baseline phase. It is 
+apparent that the drivers responded to the in-cab feedback during the early stages of the 
+intervention period, but that effect seemed to disappear over time. 
+An additional safety performance metric was the rate of seatbelt violations per 1,000 miles 
+averaged across all drivers from baseline to intervention and across intervention. Similar to the 
+early intervention change in the rate of speeding violations, the rate of seatbelt violations per 
+1,000 miles averaged across all 17 drivers reduced by 56 percent from baseline to the first 2-
+week intervention period. Unlike the speeding violations, all 17 drivers reduced their seatbelt 
+violations from baseline to overall intervention. Similarly, the rate of seatbelt violations averaged 
+across all drivers remained significantly below the baseline rate at each 2-week intervention 
+period. 
+4.3 USER ACCEPTANCE 
+An investigation of drivers’ opinions of the OBMS performance during normal driving revealed 
+the following: 
+• The seven participants surveyed in the study agreed with the safety benefits analyses 
+performed by the research team. A majority of drivers had experience with in-vehicle 
+technologies (e.g., lane departure warning systems, GPS, etc.). All of the drivers had 
+experience with electronic logging systems due to the fleet’s instrumentation. Drivers’ 
+ratings of OBMS usefulness, effectiveness, and level of annoyance did not change 
+significantly from the pre-test to post-test period. General positive comments included the 
+following: “reminds you to wear your seatbelt,” “made me a better driver,” and “kept you 
+from speeding a lot.” General negative comments included the following: “would not 
+have correct speed limits” and “seatbelt warning set at too low of a speed, should be at 
+least 20 mi/h, verbal warning while moving in yard, 5 mi/h = too slow.” 
+• The fleet manager and the dispatcher indicated that drivers did not initially like having 
+the current OBMS (or previous OBMSs) in their trucks, but over time they tended to 
+recognize that an OBMS can help them do their job better. While the fleet manager and 
+the dispatcher thought the OBMS improved drivers’ seatbelt usage and reduced speeding, 
+they did have some concerns about the system’s inability to distinguish between CMV 
+and light vehicle split highway speeds. Finally, the fleet manager suggested that it may be 
+difficult to justify the OBMS economically because the system currently requires the time 
+of a manager to coach drivers. 
+4.4 STUDY LIMITATIONS 
+The following limitations should be considered when assessing the results of this study: 
+[PDF 74쪽]
+ 
+58 
+• The measurement of the system’s accuracy for speed is affected by the repeated number 
+of violations that a driver may get on the same road if he or she repeatedly exceeds and 
+satisfies the system’s posted speed limit status (which may not always match the roadside 
+posted speed limit). The OBMS technology provides a method for the fleet managers to 
+report road speed updates on the portal, but that requires coordination between the driver 
+and the fleet manager, as well as entry of error notes in the portal by the fleet manager. 
+• The OBMS vendor communicated during training and repeated refresher meetings that 
+significant lasting improvements come with strong engagement between fleet managers 
+and their drivers on a regular and consistent basis. Monthly meetings between the vendor 
+and the fleet, as witnessed by the research team, suggested that interactions discussing 
+drivers’ weekly performance (as measured by the OBMS) between fleet managers and 
+their drivers were limited. The frequency of attendance by any or all of the fleet team was 
+observed but not recorded. 
+• While the limited data captured on aggressive driving can be viewed as good 
+performance by the drivers, challenges created by fleet policy and instrumentation (e.g., 
+calibrating sensors with a tractor and loaded trailer connected) can lead to limited 
+application of the aggressive driving features and measures of the same. 
+• Measures of fuel efficiency can be influenced by many factors, such as differences 
+between vehicles (e.g., model years, driver-vehicle route, and vehicle sensors). 
+[PDF 75쪽]
+ 
+59 
+5. RECOMMENDATIONS 
+The evaluation of this specific OBMS provides some valuable guidance for the CMV industry. 
+• Suggestions for Improving the OBMS Technology. Based on the results of this field 
+test, there appear to be opportunities for some improvement:  
+– Providing in-cab feedback for violations, such as for speeding and seatbelt use, is a 
+useful tool for drivers to learn to improve their driving performance—as long as the 
+referenced information or posted speed limits are very accurate. 
+– Regular audits of posted speed limits should be performed as road and highway 
+posted speed limits change over time. The differentiation between light vehicle and 
+heavy vehicle (truck) speed limits should be available for CMV applications. 
+• Suggestions for Fleet Coaching. Active engagement between the fleet managers and 
+drivers should be regular and consistent to obtain the maximum benefit from the OBMS. 
+• Industry Application. The application of OBMSs may provide a useful resource for 
+fleets that desire to improve safe-driving performance: 
+– The accuracy of the seatbelt sub-system and the lasting improvement of seatbelt use 
+observed during the study suggest that the after-market application of seatbelt 
+instrumentation at the buckle alone is a beneficial step toward improving seatbelt 
+usage. 
+– Fleets that implement OBMSs should carefully consider the configuration based on 
+their application and drivers’ needs (e.g., the absolute minimum vehicle speed at 
+which seatbelt violations are activated).  
+– Fleets that implement OBMSs should be aware of occasional inconsistencies in 
+measures, such as speed, when mentoring their drivers. 
+• Better Understanding of Fleet Manager-Driver Interaction. Future evaluations of 
+OBMSs should include tracking of fleet manager-driver interactions so that the exact 
+frequency is known to enable a comparative analysis of the effects of interactions 
+between separate fleet entities or between drivers (within a specific fleet).  
+[PDF 76쪽]
+ 
+60 
+ 
+ 
+[This page intentionally left blank.] 
+[PDF 77쪽]
+ 
+61 
+APPENDIX A: VENDOR SOLICITATION WEB SITE 
+ 
+[PDF 78쪽]
+ 
+62 
+ 
+ 
+[This page intentionally left blank.] 
+[PDF 79쪽]
+ 
+63 
+APPENDIX B: WAYSMART FEATURES AND 
+SPECIFICATIONS 
+ 
+[PDF 80쪽]
+ 
+64 
+ 
+[PDF 81쪽]
+ 
+65 
+APPENDIX C: WAYSMART INTERFACE GUIDE  
+ 
+[PDF 82쪽]
+ 
+66 
+ 
+ 
+[This page intentionally left blank.] 
+ 
+[PDF 83쪽]
+ 
+67 
+APPENDIX D: PRE-STUDY QUESTIONNAIRE 
+Pre-Study Questionnaire 
+Instructions 
+Please answer the following questions by marking the answer that best matches your response. 
+Please choose only one of the following: 
+In the past 12 months while driving, how often did you… 
+1. Run red lights? 
+o Never 
+o Rarely 
+o Sometimes 
+o Often 
+2. Change lanes suddenly to get ahead of traffic? 
+o Never 
+o Rarely 
+o Sometimes 
+o Often 
+3. Go through a stop sign without stopping? 
+o Never 
+o Rarely 
+o Sometimes 
+o Often 
+4. Speed for the thrill of it? 
+o Never 
+o Rarely 
+o Sometimes 
+o Often 
+5. Not yield the right of way? 
+o Never 
+o Rarely 
+o Sometimes 
+o Often 
+[PDF 84쪽]
+ 
+68 
+ 
+6. Make illegal turns? 
+o Never 
+o Rarely 
+o Sometimes 
+o Often 
+7. Follow a car very closely or “tailgate”? 
+o Never 
+o Rarely 
+o Sometimes 
+o Often 
+8. Take more risks because you were in a hurry? 
+o Never 
+o Rarely 
+o Sometimes 
+o Often 
+9. Drive at your normal speed during bad driving conditions, like road construction, rain, ice or 
+snow? 
+o Never 
+o Rarely 
+o Sometimes 
+o Often 
+10. Pass other cars on the right side on the shoulder of the road? 
+o Never 
+o Rarely 
+o Sometimes 
+o Often 
+11. Accelerate when a traffic light turned yellow? 
+o Never 
+o Rarely 
+o Sometimes 
+o Often 
+[PDF 85쪽]
+ 
+69 
+ 
+12. Cut off, honk or yell at other drivers who drive too slowly or cut you off? 
+o Never 
+o Rarely 
+o Sometimes 
+o Often 
+13. Do other things while driving, like use cell phone, eat or drink, read things, or smoke cigarettes? 
+o Never 
+o Rarely 
+o Sometimes 
+o Often 
+14. Take your eyes off the road to adjust the CD player or pick something up from the floor? 
+o Never 
+o Rarely 
+o Sometimes 
+o Often 
+15. Not check your mirrors when passing another car or merging onto the highway? 
+o Never 
+o Rarely 
+o Sometimes 
+o Often 
+16. Driver 10-20 mph over the limit? 
+o Never 
+o Rarely 
+o Sometimes 
+o Often 
+17. Driver more than 20 mph over the limit? 
+o Never 
+o Rarely 
+o Sometimes 
+o Often 
+[PDF 86쪽]
+ 
+70 
+ 
+18. Not yield to pedestrians? 
+o Never 
+o Rarely 
+o Sometimes 
+o Often 
+19. Drive without wearing a safety belt? 
+o Never 
+o Rarely 
+o Sometimes 
+o Often 
+20. Turn without signaling? 
+o Never 
+o Rarely 
+o Sometimes 
+o Often 
+21. Pass where visibility was obscured? 
+o Never 
+o Rarely 
+o Sometimes 
+o Often 
+22. Not make a full stop at stop sign? 
+o Never 
+o Rarely 
+o Sometimes 
+o Often 
+[PDF 87쪽]
+ 
+71 
+BACKGROUND 
+The waySmart® system is a fleet management system that improves driver performance, fuel 
+efficiency, and truck-to-fleet communication. The driver is audibly alerted to aggressive driving 
+behaviors, seatbelt use, and speeding. This system also allows driver to monitor their miles per 
+gallon on a daily basis, and also provides improved communications between drivers and 
+dispatch regarding hazardous areas encountered during their driving. The purpose of this study is 
+to evaluate waySmart
+® in a real-world environment.  
+1) How much do you like the idea of having waySmart on your truck? (Please place an X 
+on each line below that best matches your response) 
+1 2 3 4 5
+Extremel y Very Much Dislike  It Neutral Li ke It Very Much
+Li ke It
+6 7
+Extremel y
+Li ke ItDislike  It Dislike  It  
+2) I think waySmart would be…  
+ 
+ 
+ 
+ 
+ 
+unpleasant pleasant 
+2 3 4 5 6 7 1 
+bad good 
+2 3 4 5 6 7 1 
+annoying nice 
+2 3 4 5 6 7 1 
+ineffective effective 
+2 3 4 5 6 7 1 
+useful useless  
+2 3 4 5 6 7 1 
+[PDF 88쪽]
+ 
+72 
+ 
+ 
+ 
+3) What are two things you think you will like about waySmart? 
+ 
+1. _____________________________________________________________________ 
+ 
+2. _____________________________________________________________________ 
+ 
+4) What are two things you think you will dislike about waySmart? 
+ 
+1. _____________________________________________________________________ 
+ 
+2. _____________________________________________________________________ 
+irritating likeable 
+2 3 4 5 6 7 1 
+worthless assisting 
+2 3 4 5 6 7 1 
+undesirable desirable 
+2 3 4 5 6 7 1 
+sleep- 
+inducing 
+raising 
+alertness 
+2 3 4 5 6 7 1 
+[PDF 89쪽]
+ 
+73 
+ 
+APPENDIX E: POST-STUDY QUESTIONNAIRE 
+Post-Study Questionnaire 
+Instructions 
+Please answer the following questions by placing an X on each line below that best matches your 
+response. 
+Placing an X on lines between numbers is also allowed (for example, placing an X halfway 
+between 4 and 5 resulting in a selection of 4.5 is allowed).  
+ 
+1) How much do you like the idea of having waySmart on your truck? 
+1 2 3 4 5
+Extremel y Very Much Dislike  It Neutral Li ke It Very Much
+Li ke It
+6 7
+Extremel y
+Li ke ItDislike  It Dislike  It  
+2) I think the waySmart is… (Please place an X on each line below that best matches your 
+response) 
+ 
+ 
+ 
+ 
+ 
+useful useless  
+2 3 4 5 6 7 1 
+unpleasant pleasant 
+2 3 4 5 6 7 1 
+bad good 
+2 3 4 5 6 7 1 
+annoying nice 
+2 3 4 5 6 7 1 
+ineffective effective 
+2 3 4 5 6 7 1 
+[PDF 90쪽]
+ 
+74 
+ 
+ 
+ 
+ 
+3) How does your driving performance with waySmart compare to your driving 
+performance without waySmart?  
+4) How much do you agree with the statement: “I would like to have waySmart in my 
+truck” 
+1 2 3 4 5 6 7
+Strongly Disagree Somewhat Neutral Somewhat Agree Strongly
+Disagree Disagree Agree Agree
+ 
+5) How much do you agree with the statement: “waySmart has made me a safer driver.” 
+1 2 3 4 5 6 7
+Strongly Disagree Somewhat Neutral Somewhat Agree Strongly
+Disagree Disagree Agree Agree
+ 
+irritating likeable 
+2 3 4 5 6 7 1 
+worthless assisting 
+2 3 4 5 6 7 1 
+undesirable desirable 
+2 3 4 5 6 7 1 
+sleep- 
+inducing 
+raising 
+alertness 
+2 3 4 5 6 7 1 
+Much Extremely
+1 2 3 4 5 6
+Better
+7
+Extremely Much Worse Neutral Better
+BetterWorse Worse
+[PDF 91쪽]
+ 
+75 
+6) How much do you agree with the statement: “waySmart encourages regular seatbelt 
+use.” 
+1 2 3 4 5 6 7
+Strongly Disagree Somewhat Neutral Somewhat Agree Strongly
+Disagree Disagree Agree Agree
+ 
+7) How much do you agree with the statement: “waySmart effectively alerts me about 
+speeding.” 
+1 2 3 4 5 6 7
+Strongly Disagree Somewhat Neutral Somewhat Agree Strongly
+Disagree Disagree Agree Agree
+ 
+8) How much do you agree with the statement: “waySmart has improved my fuel 
+efficiency.” 
+1 2 3 4 5 6 7
+Strongly Disagree Somewhat Neutral Somewhat Agree Strongly
+Disagree Disagree Agree Agree
+ 
+9) How much do you agree with the statement: “waySmart is easy to use.” 
+1 2 3 4 5 6 7
+Strongly Disagree Somewhat Neutral Somewhat Agree Strongly
+Disagree Disagree Agree Agree
+ 
+10) How uncomfortable is the glare from the display when you are driving at night and looking 
+forward down the road? 
+[PDF 92쪽]
+ 
+76 
+11) How uncomfortable is the glare from the display when you are driving at night and looking 
+directly at the light? 
+ 
+12) Were you able to become familiar with how the system worked in the first month? 
+ (Circle your answer below) 
+YES (if yes, skip to 14)  NO (if no, answer 13 and 14) 
+13) How long did it take you to become familiar with how the system worked? 
+______________________________________________________________________________
+______________________________________________________________________________ 
+14) Did your opinion about the system change during your participation in the study? (Please 
+explain) 
+______________________________________________________________________________
+______________________________________________________________________________
+______________________________________________________________________________
+______________________________________________________________________________
+______________________________________________________________________________ 
+15) What are two things you like about the system, and why? 
+ 
+1. ________________________________________________________________________ 
+ 
+2. __________________________________________________________________ 
+16) What are two things you dislike about the system, and why? 
+ 
+1. __________________________________________________________________ 
+ 
+2. __________________________________________________________________ 
+3 4 5 6 7 
+Extremely Very Uncomfort- 
+able 
+Neutral Comfortable Very Extremely 
+1 2 
+Uncomfort- 
+able 
+Uncomfort- 
+able    Comfort- 
+able 
+Comfort- 
+able 
+[PDF 93쪽]
+ 
+77 
+Additional Comments 
+ 
+Are there any additional comments you would like to make regarding the system? 
+1. __________________________________________________________________ 
+ 
+2. __________________________________________________________________ 
+ 
+[PDF 94쪽]
+ 
+78 
+[This page intentionally left blank.] 
+ 
+[PDF 95쪽]
+ 
+79 
+APPENDIX F: FLEET MANAGER INTERVIEW QUESTIONS 
+Fleet Manager Interview 
+ 
+Safety Benefits 
+ 
+1. Do you think drivers using a waySmart system would change their on-road driving? 
+1. If yes: why/in what ways? 
+2. If no: why? 
+2. What types of routes does your company primarily operate? (IF company runs different route 
+types) Would a waySmart system help local/regional, line, and long haul drivers differently? 
+1. If so, why 
+2. If not, why? 
+3. If the waySmart system was being tested in revenue generating runs, what would tell you that it 
+was working well?  
+1. What would tell you that it wasn’t working well?  
+ 
+Company/Driver Acceptance 
+ 
+4. Does your company offer or give any type of training to CDL drivers?  
+1. If so, please briefly describe. (e.g., new driver training, fuel economy training, etc.) 
+2. (IF company offers driver training) Would the waySmart technology change driver 
+training within your company.  
+1. If so, how? 
+5. What do you think drivers’ initial reaction to waySmart was? 
+6. Has your company previously implemented any aftermarket safety technologies? 
+1. If so, which ones? 
+2. How have drivers reacted to each? 
+3. What safety benefits of these technologies have you experienced? 
+ 
+Fleet Implementation  
+ 
+7. Are there any other features you would want to see in this device? 
+a. If yes, what are they? Why? 
+b. How much additional cost per unit would your company be willing to pay for this/these 
+features? 
+8. What maintenance concerns do you have regarding this system? 
+ 
+Economic Issues 
+ 
+9. If possible, could you please estimate the costs associated with crashes incurred each year by: 
+1. Your terminal? 
+2. Your company? 
+10. How much would you be willing to pay for this system in your fleet per truck? 
+[PDF 96쪽]
+ 
+80 
+11. What factors into your company’s cost-benefit analysis of this system? 
+1. What are the possible economic benefits? 
+2. What are the possible economic risks and liabilities? 
+12. In your opinion, would the additional cost of waySmart be economically justified? 
+13. Would federal or insurance incentives influence the decision on whether or not your company 
+would adopt a waySmart system?  
+14. Would liability issues affect your decision? 
+15. What is the biggest issue or issues you see in using this technology? 
+16. In general, do you feel the waySmart system would be useful in your company? 
+ 
+Thank you for answering these questions. I have two more questions about your company. 
+ 
+Company Information 
+ 
+17. Approximately how many Class-A CDL drivers are employed by: 
+1. Your terminal? 
+2. Your company? 
+18. How many power units are in: 
+1. Your terminal’s fleet? 
+2. Your company’s fleet? 
+[PDF 97쪽]
+ 
+81 
+ACKNOWLEDGEMENTS 
+The authors of this report wish to thank the following individuals for their constructive 
+comments, advice, and support throughout this project: 
+• Dr. Martin Walker, FMCSA 
+• Dr. Cem Hatipoglu, National Highway Traffic Safety Administration 
+The research team would also like to thank all the members of the participating fleet for their 
+outstanding support throughout the study, and inthinc™ Technology Solutions, Inc. for 
+providing their technology to be evaluated in the FAST DASH program, as well as their 
+company resources for installing and maintaining the waySmart® system throughout the study. 
+[PDF 98쪽]
+ 
+82 
+ 
+[This page intentionally left blank.] 
+[PDF 99쪽]
+ 
+83 
+REFERENCES 
+                                                 
+ 
+ 
+1. Federal Motor Carrier Safety Administration. (2006). Report to congress on the large 
+truck crash causation study. Washington, DC. 
+2. Ibid. 
+3. Federal Motor Carrier Safety Administration. (2014). Commercial motor vehicle safety 
+belt facts. Retrieved from:  
+http://www.fmcsa.dot.gov/sites/fmcsa.dot.gov/files/docs/Safety_Belt%20Factsheet_508.p
+df. 
+4. Federal Motor Carrier Safety Administration. (2015). Large truck and bus crash facts 
+2013. Retrieved from: https://www.fmcsa.dot.gov/sites/fmcsa.dot.gov/files/docs/Large-
+Truck-and-Bus-Crash-Facts-2013_0.pdf.  
+5. Hickman, J. S., & Geller, E. S. (2005). Self-management to increase safe driving among 
+short-haul truck drivers. Journal of Organizational Behavior Management, 23(4), 1-20. 
+6. Hickman, J. S., & Hanowski, R. J. (2011). Use of a video monitoring approach to reduce 
+at-risk driving behaviors in commercial vehicle operations. Transportation research part 
+F: Traffic psychology and behavior, 14(3), 189-198. 
+7. Federal Motor Carrier Safety Administration. (2014). Our mission. Retrieved on June 7, 
+2015, from http://www.fmcsa.dot.gov/mission. 
+8. Federal Motor Carrier Safety Administration. (2006). Report to congress on the large 
+truck crash causation study. Washington, DC. 
+9. Ibid. 
+10. Federal Motor Carrier Safety Administration. (2014). Commercial motor vehicle safety 
+belt facts. Retrieved from:  
+http://www.fmcsa.dot.gov/sites/fmcsa.dot.gov/files/docs/Safety_Belt%20Factsheet_508.p
+df. 
+11. Federal Motor Carrier Safety Administration. (2015). Large truck and bus crash facts 
+2013. Retrieved from http://www.fmcsa.dot.gov/sites/fmcsa.dot.gov/files/docs/Large-
+Truck-Bus-Crash-Facts-2012.pdf. 
+12. Federal Motor Carrier Safety Administration. (2014). Commercial motor vehicle safety 
+belt facts. Retrieved from:  
+http://www.fmcsa.dot.gov/sites/fmcsa.dot.gov/files/docs/Safety_Belt%20Factsheet_508.p
+df. 
+13. Ibid. 
+[PDF 100쪽]
+ 
+84 
+                                                                                                                                                             
+ 
+ 
+14. Schaudt, W. A., Bowman, D. S., Hanowski, R. J., Olson, R. L., Marinik, A., Soccolich, 
+S., Joslin, S., Toole, L., & Rice, J. C. (2014). Federal Motor Carrier Safety 
+Administration’s Advanced System Testing Utilizing a Data Acquisition System on the 
+Highways (FAST DASH): Safety Technology Evaluation Project #1 Blindspot Warning: 
+Final Report (FMCSA-RRT-13-008). Washington, DC: Federal Motor Carrier Safety 
+Administration. Retrieved from http://ntl.bts.gov/lib/51000/51400/51416/FAST-DASH-
+Concurrence-Package.pdf. 
+15. Ibid. 
+16. Ibid. 
+17. Ibid. 

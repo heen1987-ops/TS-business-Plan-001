@@ -1,0 +1,37 @@
+순번,패키지,사용도메인,비고
+1,상주체험교육(웹),https://lic.kotsa.or.kr,도로/체험교육/상주/웹
+2,화성체험교육(웹),https://lic.kotsa.or.kr,도로/체험교육/화성/웹
+3,상주체험교육(모바일),https://lic.kotsa.or.kr,도로/체험교육/상주/모바일
+4,화성체험교육(모바일),https://lic.kotsa.or.kr,도로/체험교육/화성/모바일
+5,항공영어구술시험(비인증),https://lic.kotsa.or.kr,항공/비인증용/항공영어구술시험접수
+6,항공영어구술시험(인증),https://lic.kotsa.or.kr,항공/인증용/항공영어구술시험접수
+7,항공자격증(비인증),https://lic.kotsa.or.kr,항공/비인증용/항공자격증발급
+8,항공자격증(인증),https://lic.kotsa.or.kr,항공/인증용/항공자격증발급
+9,항공드론자격증(비인증),https://lic.kotsa.or.kr,항공드론/비인증용/항공드론자격증발급
+10,항공드론자격증(인증),https://lic.kotsa.or.kr,항공드론/인증용/항공드론자격증발급
+11,철도자격증(비인증),https://lic.kotsa.or.kr,철도/비인증용/자격증발급
+12,철도면허(인증),https://lic.kotsa.or.kr,철도/인증용/철도면허
+13,교통안전관리자자격증(웹),https://lic.kotsa.or.kr,교통안전관리자/웹/자격증신청
+14,교통안전관리자자격증(모바일),https://lic.kotsa.or.kr,교통안전관리자/모바일/자격증신청
+15,철도정비(비인증),https://lic.kotsa.or.kr,철도/비인증용/철도정비
+16,철도정비(인증),https://lic.kotsa.or.kr,철도/인증용/철도정비
+17,항공시험(비인증),https://lic.kotsa.or.kr,항공/비인증용/항공시험접수
+18,항공시험(인증),https://lic.kotsa.or.kr,항공/인증용/항공시험접수
+19,육상종사자격시험(모바일),https://lic.kotsa.or.kr,도로/시험접수(모바일/인증용)
+20,육상종사자격시험(웹),https://lic.kotsa.or.kr,도로/시험접수(웹/비인증용)
+21,육상종사자격증(모바일),https://lic.kotsa.or.kr,도로/자격증신청(모바일/인증용)
+22,육상종사자격증(웹),https://lic.kotsa.or.kr,도로/자격증신청(웹/비인증용)
+23,정밀검사(모바일),https://lic.kotsa.or.kr,도로/정밀(모바일/인증용)
+24,정밀검사(웹),https://lic.kotsa.or.kr,도로/정밀(웹/비인증용)
+25,육상종사자격 원스탑(웹),https://lic.kotsa.or.kr,new운전정밀/원스탑/비인증용/원서접수
+26,육상종사자격 원스탑(모바일),https://lic.kotsa.or.kr,new운전정밀/원스탑/인증용/원서접수
+27,항공드론시험(비인증),https://lic.kotsa.or.kr,항공/비인증용/항공드론시험접수
+28,항공드론시험(인증),https://lic.kotsa.or.kr,항공/인증용/항공드론시험접수
+29,철도원서접수(비인증),https://lic.kotsa.or.kr,철도/비인증용/원서접수
+30,철도원서접수(인증),https://lic.kotsa.or.kr,철도/인증용/원서접수
+31,철도관제원서접수(웹),https://lic.kotsa.or.kr,철도/관제/원서접수
+32,철도관제원서접수(모바일),https://lic.kotsa.or.kr,철도/관제/원서접수(모바일/인증용)
+33,교통안전관리자원서접수(웹),https://lic.kotsa.or.kr,new안전관리자/비인증용/원서접수
+34,교통안전관리자원서접수(모바일),https://lic.kotsa.or.kr,new안전관리자/인증용/원서접수
+35,항공유효성확인증명서발급(비인증),https://lic.kotsa.or.kr,항공/비인증용/항공유효성확인증명서발급
+36,항공유효성확인증명서발급(인증),https://lic.kotsa.or.kr,항공/인증용/항공유효성확인증명서발급

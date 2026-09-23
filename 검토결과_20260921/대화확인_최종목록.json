@@ -1,0 +1,558 @@
+﻿{
+  "checkedAtKST": "2026-09-21 14:35",
+  "turns": [
+    {
+      "order": 1,
+      "id": "2b9caa26-9517-4876-b319-187765fb38d2",
+      "startedAt": 1788224907.454,
+      "completedAt": 1788225269.573044,
+      "agentMessages": 1
+    },
+    {
+      "order": 2,
+      "id": "ebc99252-b7fb-4ccf-8aa8-e275e00f0091",
+      "startedAt": 1788225433.832,
+      "completedAt": 1788225469.239394,
+      "agentMessages": 1
+    },
+    {
+      "order": 3,
+      "id": "94efb4f6-9d5a-4b07-a59e-1f2c7d1c6bbd",
+      "startedAt": 1788225695.727,
+      "completedAt": 1788225708.100231,
+      "agentMessages": 1
+    },
+    {
+      "order": 4,
+      "id": "13298b03-0a1a-425b-ace9-bb9a0ac4ce94",
+      "startedAt": 1788226097.259,
+      "completedAt": 1788226117.926039,
+      "agentMessages": 1
+    },
+    {
+      "order": 5,
+      "id": "7f97c744-5227-43a2-89dc-b91b31e9264f",
+      "startedAt": 1788226249.839,
+      "completedAt": 1788226268.134771,
+      "agentMessages": 1
+    },
+    {
+      "order": 6,
+      "id": "1494396e-7f88-4b16-94b1-55fe6039c73c",
+      "startedAt": 1788226609.348,
+      "completedAt": 1788226624.768825,
+      "agentMessages": 1
+    },
+    {
+      "order": 7,
+      "id": "f340d205-cc1b-41ee-afd9-cc4ee05efd63",
+      "startedAt": 1788226758.499,
+      "completedAt": 1788226777.178876,
+      "agentMessages": 1
+    },
+    {
+      "order": 8,
+      "id": "23860895-7958-4ebf-b7bc-888ac0a3877a",
+      "startedAt": 1788226851.842,
+      "completedAt": 1788226872.417961,
+      "agentMessages": 1
+    },
+    {
+      "order": 9,
+      "id": "f69dd9bb-af8f-430a-ba79-b820de209797",
+      "startedAt": 1788226984.484,
+      "completedAt": 1788227003.888273,
+      "agentMessages": 1
+    },
+    {
+      "order": 10,
+      "id": "b8f5b20c-a526-4272-b174-a3d86a39c74b",
+      "startedAt": 1788228210.678,
+      "completedAt": 1788228236.676459,
+      "agentMessages": 1
+    },
+    {
+      "order": 11,
+      "id": "979311e7-5aa1-4888-9e6d-78546c5caf13",
+      "startedAt": 1788228300.215,
+      "completedAt": 1788228333.173055,
+      "agentMessages": 1
+    },
+    {
+      "order": 12,
+      "id": "c6268e93-649c-4def-a8da-9fd00c9d310e",
+      "startedAt": 1788228437.823,
+      "completedAt": 1788228439.926141,
+      "agentMessages": 1
+    },
+    {
+      "order": 13,
+      "id": "3d355d3e-28d5-4413-abbd-dede677c2541",
+      "startedAt": 1788228782.838,
+      "completedAt": 1788228784.852703,
+      "agentMessages": 1
+    },
+    {
+      "order": 14,
+      "id": "e4d8c943-3793-4d57-8ebe-2f0fe69a7c62",
+      "startedAt": 1788229175.176,
+      "completedAt": 1788229175.176,
+      "agentMessages": 0
+    },
+    {
+      "order": 15,
+      "id": "e3bee046-1f5f-47d7-996a-c79a6b170584",
+      "startedAt": 1788229283.814,
+      "completedAt": 1788229284.345316,
+      "agentMessages": 1
+    },
+    {
+      "order": 16,
+      "id": "acbce84a-7b6a-4c2d-ade7-139917d7da44",
+      "startedAt": 1788229344.656,
+      "completedAt": 1788229354.311526,
+      "agentMessages": 1
+    },
+    {
+      "order": 17,
+      "id": "0d996863-d135-4995-a97b-c29f5fe6447b",
+      "startedAt": 1788229400.604,
+      "completedAt": 1788229418.197921,
+      "agentMessages": 1
+    },
+    {
+      "order": 18,
+      "id": "b21bcd2b-5924-4012-bb68-2998e8176763",
+      "startedAt": 1788229469.716,
+      "completedAt": 1788229496.813211,
+      "agentMessages": 1
+    },
+    {
+      "order": 19,
+      "id": "2b333b90-2593-46be-b130-f889df980798",
+      "startedAt": 1788229913.134,
+      "completedAt": 1788229915.234002,
+      "agentMessages": 1
+    },
+    {
+      "order": 20,
+      "id": "d4fa8dc9-aec2-4cfb-bf7a-d2470dfedb22",
+      "startedAt": 1788229978.04,
+      "completedAt": 1788229986.292165,
+      "agentMessages": 1
+    },
+    {
+      "order": 21,
+      "id": "d82e54d4-d259-489c-97eb-afc11e1c75dc",
+      "startedAt": 1788230176.801,
+      "completedAt": 1788230189.773648,
+      "agentMessages": 1
+    },
+    {
+      "order": 22,
+      "id": "a546d95d-fab5-49dd-a3c1-624955d6ddd6",
+      "startedAt": 1788235044.748,
+      "completedAt": 1788235760.154838,
+      "agentMessages": 1
+    },
+    {
+      "order": 23,
+      "id": "b7d5cf2e-1fec-48bf-bfbf-f20cb55f0525",
+      "startedAt": 1788237507.465,
+      "completedAt": 1788237507.465,
+      "agentMessages": 0
+    },
+    {
+      "order": 24,
+      "id": "9b4b0ee5-dc21-4d32-a5b2-02d2b971fb24",
+      "startedAt": 1788237602.955,
+      "completedAt": 1788238296.780667,
+      "agentMessages": 1
+    },
+    {
+      "order": 25,
+      "id": "df1d2f76-2660-4e60-b301-0ef8414abf15",
+      "startedAt": 1788239268.193,
+      "completedAt": 1788239915.766106,
+      "agentMessages": 1
+    },
+    {
+      "order": 26,
+      "id": "bbb2184d-81cd-4b4a-9c36-67413cb2d475",
+      "startedAt": 1788303477.456759,
+      "completedAt": 1788304477.340024,
+      "agentMessages": 1
+    },
+    {
+      "order": 27,
+      "id": "bbb21bae-9b99-458e-b5db-fcbe45a8bc74",
+      "startedAt": 1788304657.879728,
+      "completedAt": 1788305113.02517,
+      "agentMessages": 1
+    },
+    {
+      "order": 28,
+      "id": "bbb2196f-b19f-44e6-a353-794d64596515",
+      "startedAt": 1788305289.740651,
+      "completedAt": 1788305560.24847,
+      "agentMessages": 1
+    },
+    {
+      "order": 29,
+      "id": "bbb213e5-ac45-4d60-b9f0-d982b166f899",
+      "startedAt": 1788306219.613455,
+      "completedAt": 1788306237.39833,
+      "agentMessages": 1
+    },
+    {
+      "order": 30,
+      "id": "bbb21122-caca-44f7-b19f-7420d26b14e3",
+      "startedAt": 1788306380.112345,
+      "completedAt": 1788306380.112345,
+      "agentMessages": 0
+    },
+    {
+      "order": 31,
+      "id": "bbb21fa9-55e9-4f9d-9132-94b5f32027b1",
+      "startedAt": 1788306394.821429,
+      "completedAt": 1788306426.148908,
+      "agentMessages": 1
+    },
+    {
+      "order": 32,
+      "id": "bbb21f35-798c-4209-95d6-f73f74e26274",
+      "startedAt": 1788306466.847806,
+      "completedAt": 1788306485.947994,
+      "agentMessages": 1
+    },
+    {
+      "order": 33,
+      "id": "24f0c397-8c96-400c-ba47-518570b336e8",
+      "startedAt": 1788322407.099,
+      "completedAt": 1788322412.333132,
+      "agentMessages": 1
+    },
+    {
+      "order": 34,
+      "id": "9387ecb4-5718-40a3-bc7c-055e7d6759d6",
+      "startedAt": 1788323759.453,
+      "completedAt": 1788323764.253527,
+      "agentMessages": 1
+    },
+    {
+      "order": 35,
+      "id": "9b982140-357f-4bd9-b542-1e7a91aa5928",
+      "startedAt": 1788363169.49,
+      "completedAt": 1788308832.405191,
+      "agentMessages": 1
+    },
+    {
+      "order": 36,
+      "id": "84c8cc27-7a25-429b-97e8-4e6ed31a11e4",
+      "startedAt": 1788365180.876,
+      "completedAt": 1788310861.723644,
+      "agentMessages": 1
+    },
+    {
+      "order": 37,
+      "id": "69e0e6d1-5c3d-4f91-b145-0a4db072f30c",
+      "startedAt": 1788367925.888,
+      "completedAt": 1788313589.169221,
+      "agentMessages": 1
+    },
+    {
+      "order": 38,
+      "id": "05396baf-1552-4049-aae6-404d76cd63f6",
+      "startedAt": 1788368081.603,
+      "completedAt": 1788313744.990116,
+      "agentMessages": 1
+    },
+    {
+      "order": 39,
+      "id": "970b5e36-cd49-4b93-9c83-ea066918f657",
+      "startedAt": 1788368320.43,
+      "completedAt": 1788368320.43,
+      "agentMessages": 0
+    },
+    {
+      "order": 40,
+      "id": "b2947830-3b87-4e68-85f8-9560cec45e08",
+      "startedAt": 1788368327.957,
+      "completedAt": 1788314017.278845,
+      "agentMessages": 1
+    },
+    {
+      "order": 41,
+      "id": "882a9ad2-80a2-4d02-9710-03f94ab38bfb",
+      "startedAt": 1788397644.986,
+      "completedAt": 1788403440.609802,
+      "agentMessages": 1
+    },
+    {
+      "order": 42,
+      "id": "e3678649-62ad-4045-bb61-2b0db3626881",
+      "startedAt": 1788480888.542,
+      "completedAt": 1788480891.579916,
+      "agentMessages": 1
+    },
+    {
+      "order": 43,
+      "id": "60185817-9a7a-4a7a-9337-b0ad2392ab3e",
+      "startedAt": 1788481270.611,
+      "completedAt": 1788481274.014526,
+      "agentMessages": 1
+    },
+    {
+      "order": 44,
+      "id": "d774a86d-cd8a-468f-9b1b-24560891f94f",
+      "startedAt": 1788769853.011,
+      "completedAt": 1788769855.473956,
+      "agentMessages": 1
+    },
+    {
+      "order": 45,
+      "id": "162a18f9-e7ab-4922-a6b0-5de5ec25e959",
+      "startedAt": 1789085546.447,
+      "completedAt": 1789085548.881814,
+      "agentMessages": 1
+    },
+    {
+      "order": 46,
+      "id": "afafdf4b-64a2-4e8c-b465-9a5425e28b15",
+      "startedAt": 1789085768.301,
+      "completedAt": 1789085805.240541,
+      "agentMessages": 1
+    },
+    {
+      "order": 47,
+      "id": "a9d2acef-5777-4edf-8aed-d29e03a273f3",
+      "startedAt": 1789087364.347,
+      "completedAt": 1789088550.664684,
+      "agentMessages": 1
+    },
+    {
+      "order": 48,
+      "id": "c33983e0-a443-474b-9083-0f45fa373985",
+      "startedAt": 1789709228.094,
+      "completedAt": 1789709929.587791,
+      "agentMessages": 2
+    },
+    {
+      "order": 49,
+      "id": "bbb21bb0-8501-42b9-900e-18caf0bb2257",
+      "startedAt": 1789743701.928395,
+      "completedAt": 1789744230.597421,
+      "agentMessages": 1
+    },
+    {
+      "order": 50,
+      "id": "bbb21eb4-52c0-4617-95c2-ce9e5a15b4ad",
+      "startedAt": 1789744442.408868,
+      "completedAt": 1789745638.971973,
+      "agentMessages": 1
+    },
+    {
+      "order": 51,
+      "id": "946cd0ce-ffc1-41c5-9d2a-461408b12498",
+      "startedAt": 1789803724.415,
+      "completedAt": 1789805139.383803,
+      "agentMessages": 1
+    },
+    {
+      "order": 52,
+      "id": "c1e3477e-7150-4357-a478-5d47dc3703ba",
+      "startedAt": 1789805259.943,
+      "completedAt": 1789805869.158329,
+      "agentMessages": 1
+    },
+    {
+      "order": 53,
+      "id": "b38fbd04-d40d-4d06-8640-bfe14a0ab068",
+      "startedAt": 1789806349.38,
+      "completedAt": 1789806870.821731,
+      "agentMessages": 1
+    },
+    {
+      "order": 54,
+      "id": "7d4c521c-dafc-41ae-bf8a-6c43386dc83c",
+      "startedAt": 1789807023.365,
+      "completedAt": 1789808614.106571,
+      "agentMessages": 1
+    },
+    {
+      "order": 55,
+      "id": "bbb21f56-e10c-4ed7-a74b-0c486a54f2d7",
+      "startedAt": 1789823612.18069,
+      "completedAt": 1789824181.178498,
+      "agentMessages": 1
+    },
+    {
+      "order": 56,
+      "id": "bbb21eaa-71bf-481c-a1d4-be9c18dec9d8",
+      "startedAt": 1789824367.486421,
+      "completedAt": 1789824922.01817,
+      "agentMessages": 1
+    },
+    {
+      "order": 57,
+      "id": "bbb2171e-ffe6-4501-8000-8dea9792f0de",
+      "startedAt": 1789825645.345047,
+      "completedAt": 1789827297.942477,
+      "agentMessages": 1
+    },
+    {
+      "order": 58,
+      "id": "bbb21676-8e58-468b-961c-09b58954b3f7",
+      "startedAt": 1789875786.867794,
+      "completedAt": 1789876361.759809,
+      "agentMessages": 1
+    },
+    {
+      "order": 59,
+      "id": "bbb21bc9-d7cf-4adf-916d-1f29a044ac88",
+      "startedAt": 1789876895.226375,
+      "completedAt": 1789877178.194269,
+      "agentMessages": 1
+    },
+    {
+      "order": 60,
+      "id": "bbb218b9-43c0-4e91-96ef-d69c22c4c293",
+      "startedAt": 1789910239.582817,
+      "completedAt": 1789910936.569844,
+      "agentMessages": 1
+    },
+    {
+      "order": 61,
+      "id": "bbb21514-66f9-40dc-a0d8-025eaab94911",
+      "startedAt": 1789911845.202295,
+      "completedAt": 1789912570.897342,
+      "agentMessages": 1
+    },
+    {
+      "order": 62,
+      "id": "bbb21040-d372-475b-b9f9-976a977787f4",
+      "startedAt": 1789915570.774622,
+      "completedAt": 1789916408.937295,
+      "agentMessages": 1
+    },
+    {
+      "order": 63,
+      "id": "bbb213de-3334-4a1f-894f-d72fcbd4c05f",
+      "startedAt": 1789916453.049935,
+      "completedAt": 1789917263.970294,
+      "agentMessages": 1
+    },
+    {
+      "order": 64,
+      "id": "7e598494-b399-44e0-979a-f95dafde913d",
+      "startedAt": 1789948439.229,
+      "completedAt": 1789948624.633121,
+      "agentMessages": 1
+    },
+    {
+      "order": 65,
+      "id": "bbb21402-33c3-49e7-9cff-5ee2ee063192",
+      "startedAt": 1789952270.256913,
+      "completedAt": 1789952628.325594,
+      "agentMessages": 1
+    },
+    {
+      "order": 66,
+      "id": "bbb211fc-eb43-47f1-a68e-29a6a37e330c",
+      "startedAt": 1789954278.661458,
+      "completedAt": 1789954702.070617,
+      "agentMessages": 1
+    },
+    {
+      "order": 67,
+      "id": "cc763929-71dc-40bc-b322-4cfca5aaa474",
+      "startedAt": 1789956223.465,
+      "completedAt": 1789956223.465,
+      "agentMessages": 0
+    },
+    {
+      "order": 68,
+      "id": "98230bcd-e681-4e90-914e-a6844b7a46d6",
+      "startedAt": 1789956258.978,
+      "completedAt": 1789956675.402794,
+      "agentMessages": 1
+    },
+    {
+      "order": 69,
+      "id": "bbb21155-6739-4ee9-a129-6d9aa5b6925c",
+      "startedAt": 1789958369.155579,
+      "completedAt": 1789958840.439041,
+      "agentMessages": 1
+    },
+    {
+      "id": "bbb21a7e-a2d9-4678-a508-6c73f88c504f",
+      "startedAt": 1789959307.727501,
+      "completedAt": 1789959717.303259,
+      "agentMessages": 1,
+      "order": 70
+    },
+    {
+      "id": "bbb21fb8-b910-4771-a23c-534701253ac6",
+      "startedAt": 1789960072.944192,
+      "completedAt": 1789960507.511024,
+      "agentMessages": 1,
+      "order": 71
+    },
+    {
+      "id": "7f7db900-c411-44a2-bf5a-66788dd01fbf",
+      "startedAt": 1789962448.764,
+      "completedAt": 1789962897.265065,
+      "agentMessages": 1,
+      "order": 72
+    },
+    {
+      "id": "8474c1e1-7e5e-491a-b7f8-4959a5232c7b",
+      "startedAt": 1789962935.211,
+      "completedAt": 1789963243.363528,
+      "agentMessages": 1,
+      "order": 73
+    },
+    {
+      "id": "c8e14c0a-8b3e-4774-b2c9-5b3dcbb99ebb",
+      "startedAt": 1789964343.026,
+      "completedAt": 1789964695.777971,
+      "agentMessages": 1,
+      "order": 74
+    },
+    {
+      "id": "8f99bf17-cf17-4c62-8a42-c580a6b85d5d",
+      "startedAt": 1789964748.625,
+      "completedAt": 1789965146.658819,
+      "agentMessages": 1,
+      "order": 75
+    },
+    {
+      "id": "fedac33c-8995-4f1d-8468-030cd9fb3435",
+      "startedAt": 1789965162.42,
+      "completedAt": 1789965671.300707,
+      "agentMessages": 1,
+      "order": 76
+    },
+    {
+      "id": "83331c5a-e31d-475e-979c-637a5496e4bd",
+      "startedAt": 1789966956.499,
+      "completedAt": 1789967906.419357,
+      "agentMessages": 1,
+      "order": 77
+    },
+    {
+      "id": "4028f979-19be-43ff-96ad-4f1f77bd4b8f",
+      "startedAt": 1789967977.079,
+      "completedAt": 1789968397.380079,
+      "agentMessages": 1,
+      "order": 78
+    },
+    {
+      "id": "f527ac38-0198-4286-a76f-7cf4e683d45c",
+      "startedAt": 1789968527.324,
+      "completedAt": 1789968527.324,
+      "agentMessages": 0,
+      "order": 79
+    }
+  ]
+}

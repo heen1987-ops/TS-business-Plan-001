@@ -1,0 +1,1410 @@
+
+[PDF 1쪽]
+Safer Micromobility
+
+[PDF 2쪽]
+Safer Micromobility
+
+[PDF 3쪽]
+3 Safer Micromobility
+XX Safer Micromobility
+Contents Key messages 4
+What is micromobility? 6
+Micromobility safety 7
+Safety and health 8
+Micromobility crash risk 9
+Micromobility crashes 11
+Micromobility crash factors: Infrastructure 15
+Micromobility crash factors: Riders 19
+Micromobility crash factors: Vehicles 23
+Summary of key micromobility risk factors 28
+Summary of micromobility safety recommendations 29
+Acknowledgements 30
+About the International Transport Forum 31
+About this report 32
+
+[PDF 4쪽]
+Micromobility is becoming safer
+But, an increase in severe injuries from e-scooter crashes is cause for concern. 
+Overall, shared e-scooter crash risk is decreasing as their usage is increasing 
+faster than injuries.
+Safe infrastructure and vehicle design matter 
+A focus on rider behaviour and safety equipment must be complemented by 
+better infrastructure and improved vehicle design – especially for e-scooters.
+Reinforcing existing policies improves safety
+Road safety measures also make micromobility safer – managing speed, 
+providing training to road users and enforcing rules against impaired driving 
+and riding.
+4 Safer Micromobility
+
+[PDF 5쪽]
+Micromobility provides viable 
+options for car-free travelling and 
+improves first and last-kilometre 
+connectivity to public transport, 
+but it must be safe.
+The uptake of micromobility, boosted by the arrival of 
+privately owned and shared e-scooters and e-bikes, benefits 
+people and cities. It offers real alternatives for car-free travel 
+and enhances first and last-kilometre connectivity to public 
+transport. However, the most popular forms of micromobility 
+also raise challenges for safety within busy city spaces largely 
+dominated by cars. 
+5 Safer Micromobility
+
+[PDF 6쪽]
+“Micromobility” describes personal vehicles that are much 
+smaller and lighter than cars. There is no standard definition 
+of the term. Micromobility partially intersects with or lies 
+outside various vehicle classification or approval schemes 
+used by public authorities or industry associations. 
+Micromobility plays an important role in daily mobility on its 
+own or in conjunction with other modes. It is popular in many 
+contexts, is suited to many trips and is more environmentally 
+sustainable than heavier and larger vehicles.
+Micromobility vehicles come in a range of established ( e.g. 
+bicycles), less established and rapidly evolving form factors 
+(e.g. standing or seated e-scooters, electric unicycles, 
+powered skateboards, etc.). 
+Some of these vehicles are approved for use on roads, others 
+not. Some are allowed to be used in pedestrian environments 
+in some countries and cities but not in others. 
+Finally, some micromobility vehicles require human exertion 
+to move (bicycles, pedal-assist e-bicycles, kick-scooters, 
+skateboards, etc.), and others accelerate and move only with 
+direct traction from a motor. The former active modes confer 
+important health benefits, unlike the latter. 
+There are many ways to classify micromobility according to 
+different features or policy objectives. This report adopts the 
+ITF’s generic approach to classifying micromobility from a 
+safety perspective – an approach which is descriptive rather 
+than normative. 
+Following the Safe System approach and highlighting two key 
+crash severity parameters – speed and mass – the ITF 
+framework identifies four broad micromobility vehicle types:
+Type A: powered or unpowered vehicles weighing less than 
+35 kg and with a maximum powered design speed 
+of 25 km/h.
+Type B: powered or unpowered vehicles weighing between 
+35 kg and 350 kg and with a maximum powered 
+design speed of 25 km/h.
+Type C: powered vehicles weighing less than 35 kg and with 
+a design speed between 25 km/h and 45 km/h.
+Type D: powered vehicles weighing between 35 kg and 350 
+kg and with a design speed between 25 km/h and 
+45 km/h.
+What is micromobility?
+Type A Type B
+This report focuses on e-scooters and e-bikes 
+weighing less than ~35 kg, including models that 
+can travel up to 45 km/h or beyond. 
+6 Safer Micromobility
+Type C Type D
+
+
+[PDF 7쪽]
+Micromobility safety
+ How to assess micromobility safety?
+Micromobility safety must be addressed in the broader 
+context of health since poor safety results in degraded 
+health outcomes. 
+Safety, according to the World Health Organization, is “the 
+absence of preventable harm […] and the reduction of risk 
+of unnecessary harm […] to an acceptable minimum.”
+Crash risk addresses the probability of harm faced by 
+micromobility users. This means assessing crash 
+occurrences against some measure of people’s exposure 
+to those harms. For instance, what is the probability of a 
+serious injury occurring for a given number of trips? This 
+approach goes beyond simply counting crashes, providing 
+a more accurate measure of micromobility safety.
+Crashes and injuries are relevant harms. This assessment 
+reviews evidence on their occurrence and nature. It then 
+assesses the factors contributing to the number and 
+severity of crashes – notably vehicles, riders and 
+infrastructure.
+According to the Safe System approach, no fatalities or 
+serious injuries are acceptable. The road traffic system 
+must be proactively designed, and the environment should 
+be forgiving so that even when people make mistakes, 
+they are not seriously injured or die. This requires focusing 
+on preventing crashes, including by managing speeds and 
+ensuring traffic separation where appropriate, rather than 
+primarily mitigating their negative outcomes.
+7 Safer Micromobility
+
+[PDF 8쪽]
+Policy must seek to ensure the highest overall health 
+outcomes. Thus, it must balance the positive health 
+contributions of active modes versus the adverse health 
+outcomes of all micromobility when assessing safety, 
+physical accessibility and other policies. 
+If safety is a concern for micromobility, it is because 
+crashes and ensuing injuries negatively impact health and 
+impose personal and societal costs. However, physically 
+active forms of micromobility confer significant health 
+benefits across multiple health endpoints. 
+Safety impacts from micromobility use must be considered 
+in the overall context of health. On balance, active travel’s 
+positive contribution to good health is far greater than the 
+negative health impacts of crashes and rider exposure to 
+air pollution. From a health perspective, active and passive 
+forms of micromobility are not on the same footing. 
+While micromobility modes like cycling and electrically -
+assisted cycling are physically active, other powered 
+micromobility modes, such as e -scooters, require much 
+less physical exertion. Nonetheless, e -scootering and other 
+forms of non-active micromobility are generally associated 
+with more active lifestyles. This is possibly linked to the 
+greater use of micromobility in conjunction with public 
+transport and other non-private car modes. 
+A key, context-based factor to consider when looking at 
+micromobility-linked health outcomes is how non -active 
+micromobility replaces walking and cycling versus highly 
+sedentary car travel.
+Safety and health
+From a health 
+perspective, active 
+and passive forms of 
+micromobility are 
+not equal.
+8 Safer Micromobility
+
+[PDF 9쪽]
+In addition to crash frequency, risk reflects the probability 
+of crashes and their severity. It is characterised as the road 
+safety outcome for an amount of exposure, such as the 
+overall number of trips or distance travelled. This concept 
+recognises that safety is not solely determined by the 
+number of incidents but is also influenced by how much 
+individuals are exposed to potential risks. In fact, risk may 
+diminish even with a rise in absolute crash numbers, 
+emphasising the complex interplay between exposure and 
+road safety outcomes. Policy targets should not only target 
+incremental risk improvements but should also aim to 
+eliminate the risk of severe or fatal crashes.
+Assessing crash risk for micromobility is complicated by 
+two factors. First, official crash statistics suffer from 
+underreporting, showing only part of the crash risk. 
+Second, reliable exposure data – especially for privately 
+owned micromobility trips – is rarely available. 
+Micromobility crash risk
+Lack of data on 
+micromobility trips 
+and crashes makes it 
+hard to assess crash 
+risk.
+5 crashes / 60 trips
+Crash risk  = .083
+Time = t
+8 crashes / 120 trips
+Crash risk = .066
+Time = t+1
+60% increase in number of crashes
+*but*
+20% reduction of crash risk
+If trips increase 
+faster than crashes, 
+then overall crash 
+risk decreases
+trips
+trips with crashes
+Safety risk can diminish even as crash numbers go up
+9 Safer Micromobility
+
+[PDF 10쪽]
+XX How Safe is Micromobility?
+Shared e-scooter casualties 
+requiring medical treatment per 
+million trips
+E-scooter Safety Regulations
+2021 2022 2022/ 
+2021
+Min age 
+(y/o)
+Max speed 
+(km/h)
+Max 
+power (w)
+Ride on 
+sidewalks? Drink-ride limit Helmet required Mandatory 
+insurance
+Austria 4.1 1.5 -63.6% 12 25 600 No1 0.8 <12 y/o No
+Belgium 7.1 7.0 -1.8% 16 25 NA No Same as car No No
+Bulgaria NA NA NA 16 25 NA Yes1 NA <18 No
+Cyprus NA NA NA 14 20 NA Yes1 0.5 Yes No
+Czechia 9.2 15.6 69.3% NA 25 250 >10 y/o No <18 No
+Denmark 8.6 14.8 72.3% 15 20 NA No Same as mopeds Yes  >Jan 2022 Yes
+Finland 5.0 2.9 -41.6% No 25 1 000 No No Yes - as bikes No
+France 9.0 12..1 34.8% 12 25 NA No1 Forbidden to ride Recommended Yes
+Germany 4,3 4,0 -7.7% 14 20 500 No1 Same as car No Yes
+Greece NA NA NA 15 25 NA Yes1 No Yes No
+Italy 12.1 4.4 -63.3% 14 202 500 No NA <18 No5
+Norway 3.2 2.7 -17.5% 12 20 NA No Same as cars <15 No
+Poland 4.9 4.5 -8.0% 10 20 NA Yes1 Forbidden to ride No No
+Portugal 22.3 25.0 12.0% No 25 1 000 >10 y/o Same as cars No No
+Slovenia NA NA NA 144 25 NA No 0.5 <18 No
+Spain 22.4 14.8 -34.1% 14-16 25 1 000 No Same as cars
+Yes
+>March 2022 No5
+Sweden 5.2 5.3 0.5% NA 20 250 NA NA <15 - as bikes NA
+Switzerland 2.2 4.4 100.3% 163 20 500 No1 Same as cars No No
+United Kingdom 31.9 20.6 -35.5% 16 25
+500
+(trials) No Same as cars No Trial5
+Cumulative -25.7%
+This table illustrates how the casualty risk of shared e -
+scooters has evolved between 2021 and 2022 in Europe. 
+As this data refers to commercial shared e -scooter services 
+involving certain types of vehicles, users, experience levels 
+and uses, these findings do not reflect the evolution of 
+overall e-scooter crash risk, also taking into account non -
+negligible underreporting, especially of single -vehicle 
+crashes.
+Regulatory measures have been taken to reduce crash risk, 
+yet assessing their impact requires further investigation. 
+These include enforcing minimum age requirements and 
+imposing maximum design speed limits and other vehicle 
+design specifications. Assessing the efficacy of these 
+measures will require monitoring and further investigation. 
+Comparisons of e-scooter crash risk versus the crash risk 
+of other forms of micromobility are sparse. Micromobility 
+operators report e-scooter risk levels 32% lower than e -
+bike risk within their fleets across nine European countries. 
+In contrast, other studies indicate that e -scooter risk levels 
+are up to four times higher for e -scooters than for bicycles. 
+Multiple factors may explain these differences, including 
+different types of vehicles, use patterns and contexts. 
+Robust cross-micromobility crash risk assessments are 
+needed to better guide policy.
+shared e-scooter 
+casualty risk in Europe
+-26%
+1 “local” authorities can make exceptions (e.g., if no cycling lane, travel speed up to 6 km/h, if the road speed limit is <30km/h or <50 km/h, riders aged 14-16 should 
+only ride them on bicycle lanes etc.),  2 6km/h in pedestrian areas. 3 14 with moped license. 412, with cycling licence, 5required for sharing providers. Sources: MMfE, 
+2023; ETSC, 2023.
+10 Safer Micromobility
+
+[PDF 11쪽]
+Most reported micromobility crashes result in only minor 
+injuries. Severe injuries comprise a small portion of total 
+reported injuries, and a relatively small percentage of 
+reported micromobility crashes lead to fatal injuries.
+According to available data and studies, fatality rates are 
+very low for all injury-inducing crashes (<1%), with no clear 
+difference between e-scooters, e-bikes and conventional 
+bikes. Fatality rates for severe trauma injury crashes are 
+higher (<10%) than rates reported for all-injury crashes. 
+Despite studies assessing fatality and severe injury risk, 
+more granular data is needed to better assess the specific 
+risk of different micromobility modes.
+Injury severity is correlated to crash mechanisms, vehicle 
+types and road users. E-scooter riders, adopting a free-
+standing and upright posture, present a high and forward 
+centre of gravity. Loss of control crashes lead riders to 
+either attempt to hop off the e-scooter (contributing to 
+lower extremity and foot injuries) or, in forward obstacle 
+crashes, be catapulted forward and over the handlebar 
+and steering column. Such vaulting injuries result in upper 
+extremity injuries as riders seek to break their fall. These 
+crashes also result in a high incidence of face and head 
+injuries as face- or head-first ground contact occurs before 
+the rider can brace themselves. 
+Alcohol consumption further suppresses reaction times, 
+leading to a high incidence of head and face injuries for 
+alcohol-inhibited e-scooter riders.
+Micromobility crashes
+Injury severity is 
+correlated to crash 
+mechanisms, vehicle 
+types and road 
+users. 
+11 Safer Micromobility
+
+
+[PDF 12쪽]
+XX How Safe is Micromobility?
+Most e-scooter-related crashes involve the rider and no 
+other road user. Single road user collisions involve falls due 
+to loss of vehicle control or collisions with stationary 
+objects. Such single road user collisions account for up to 
+93% of all reported e-scooter-related casualties (persons 
+injured and fatalities). This range is similar to the 
+percentage of cyclist single road user collisions. Another 
+crash type involves pedestrians tripping over e -scooters or 
+fallen bicycles.
+E-scooter-related casualties resulting from falls and not 
+collisions with stationary objects constitute a substantial 
+proportion of overall e-scooter-related casualties (64-85%). 
+This range compares with the respective percentage of 
+cyclist single road user collision casualties due to falls 
+(75%). Injuries resulting from e -scooter-motor vehicle 
+collisions account for 8-19% of all e-scooter-related 
+casualties, a slightly higher proportion than for bicycle 
+injuries. Up to 1 in 10 reported motor vehicle crashes with 
+e-scooters or bicycles result in the injury or fatality of the e -
+scooter rider or cyclist. 
+Pedestrians are exposed to e-scooter crash risk in contexts 
+where e-scooters operate legally or illegally on the sidewalk 
+in the presence of pedestrians. This is especially the case in 
+the absence of bicycle infrastructure. The co-existence of 
+pedestrians and e-scooter riders results in pedestrian 
+injuries (1 to 10% of all e-scooter-related casualties). 
+Pedestrians are injured through collisions (30%) or tripping 
+over parked e-scooters (59%).
+Collisions Vehicle 
+type %
+Involved road 
+users (% of 
+casualties)
+Single road user es 93% 
+Multiple road users es 7%
+Falls
+% of total crashes es 79-90% 
+% of total casualties es 64-85%
+cb 75%
+With objects % of total casualties es 1-39% 
+With 
+motor
+vehicles
+% of total casualties
+es 8-19% 
+cb 10%
+% of total fatalities
+es >86%
+(24% hit-and-run)
+cb 93-96%
+With 
+pedestrians
+Involved 
+pedestrians 
+(% of total crashes)
+es 4-17%
+Injured pedestrians
+(% of total 
+casualties)
+es 1-10%
+tripped over 
+(of non-rider 
+casualties)
+es 30%
+Struck 
+(of non-rider 
+casualties)
+es 59%
+es=electric scooter, eb=electric bike, cb=conventional bike
+Casualties: persons injured and fatalities.
+All sources are detailed in the accompanying technical report.
+Micromobility crash types
+12 Safer Micromobility
+
+[PDF 13쪽]
+XX How Safe is Micromobility?
+E-scooter injuries are characterised by injuries 
+concentrating in the head and face, particularly the lower 
+third (chin and jaw). Besides head and face injuries, upper 
+and lower extremities injuries are also common among e -
+scooter crashes. Fractures, particularly involving the lower 
+arm and wrist, are a recurring injury type for e -scooter 
+riders, as is lower extremity trauma. 
+Most injury categories are not mutually exclusive, and 
+numerous patients presented with more than one injury 
+type or location.
+Micromobility injury patterns
+Injuries Incident description Vehicle Type %
+Severity
+No injury (% of riders) es 6-9%
+Minor injury 
+(% of casualties)
+es 56-70%
+eb 65-70%
+Severe injury
+(% of casualties)
+es 8-13%
+eb 5-17%
+Fatality
+(% of casualties)
+es <1%
+eb <1.3%
+cb <0.2%
+Injured 
+Body 
+Region 
+(% of 
+casualties)
+Upper extremity es 25-55%
+Lower extremity es 23-45%
+Head/ Face
+es Head: 18-41%
+Face: 30-60%
+cb
+Head: 20-24%
+Face: 20%
+eb Head: 35%
+es = electric scooter, eb = electric bike, cb = conventional bike
+Casualties: injuries and fatalities.
+All sources are detailed in the accompanying technical report.
+13 Safer Micromobility
+
+[PDF 14쪽]
+XX How Safe is Micromobility?
+E-scooter riders presented to hospitals with a greater share 
+of head, face and neck injuries than cyclists. They 
+experience up to twice the incidence of severe head 
+injuries and between 50% to 100% more maxillofacial 
+injuries compared to conventional cyclists. Even when 
+wearing helmets, cyclists also present with maxillofacial 
+(face, jaw and neck) injuries, albeit at lower rates than e -
+scooter riders. This difference may partly be explained by 
+significantly lower helmet use among e -scooter riders, 
+though helmets generally do not prevent maxillofacial 
+injuries. A higher incidence of alcohol -involved crashes for 
+e-scooter riders may also help explain these differences. 
+Injuries to lower extremities are more prevalent among e -
+scooter riders than cyclists – possibly reflecting injuries 
+sustained as e-scooter riders hop off their e-scooter just 
+before or at the moment of losing control.
+Bicycle
+All injuries of AIS≥1
+n=1954 (70.3%)
+E-scooter
+All injuries of AIS≥1 
+n=825 (29.7%)
+Face 20.5%
+Neck 2.5%
+Thorax 9.0%
+Spine7.9%
+Upper 
+extremities 
+57.6%
+Lower extremities 
+38.8%
+Abdomen Pelvis 
+3.2%
+Head 24.2%
+Severe injury (>AIS3) 1.9%
+Face 30.6%
+Neck 3.3%
+Thorax 7.3%
+Spine 6.7%
+Upper 
+extremities 
+48.9%
+Abdomen Pelvis 
+3.4%
+Lower extremities 
+41.8%
+Head 19.9%
+Severe injury (>AIS3) 1.0%
+Admitted to
+intensive care  
+2.1%
+Admitted to
+intensive care  
+1.7%
+Helmet use 6.1% Helmet use 30.7%
+E-scooter and bicycle crash 
+injuries are different
+Adapted from Benhamed et al., 2022
+14 Safer Micromobility
+
+[PDF 15쪽]
+The type and quality of road infrastructure have an impact 
+on safety. Safe infrastructure design prevents 
+micromobility crashes, whereas speed management – 
+especially of cars – helps reduce both crashes and their 
+severity.
+Safe and convenient cycling infrastructure can attract road 
+users to micromobility. The presence, quality and 
+continuity of bicycle or other micromobility infrastructure 
+contribute to safety outcomes. This is especially the case 
+for infrastructure separated from car traffic and for low -
+speed streets.
+In the United States, e-scooter riders generally ride on bike 
+infrastructure when it is present (27 -67%), on the road (20-
+49%) and on sidewalks, where it is sometimes legal (10 -
+36%). In Europe, the trend is similar, although the shares 
+are different, with a higher prevalence of bicycle 
+infrastructure use (up to 93%) compared to general traffic 
+lanes (11-36%) and sidewalks, where it is rarely legal (4 -
+24%).
+Micromobility crash factors: Infrastructure
+Poorly maintained 
+surfaces, with 
+potholes and other 
+irregularities, 
+contribute to 30-40% 
+of e-scooter crashes. 
+15 Safer Micromobility
+
+[PDF 16쪽]
+XX How Safe is Micromobility?
+Risk factor Vehicle 
+type %
+Poor road 
+infrastructure
+(% of tot. crashes)
+es 30-40%
+Paved vs unpaved 
+road es 2.66 greater crash risk
+Road environment
+es Traffic lane: 23-55% (all)
+es Sidewalk: 17-58% (all)
+es Bike lane: 0.04-25% (all)
+es Intersection: 65% (% of total 
+fatalities)
+cb Intersection: 67% (% of total 
+fatalities)
+es Non-junction: 17% (% of total 
+fatalities)
+cb Non-junction: 17-27% (% of total 
+fatalities)
+es = electric scooter, eb = electric bike, cb = conventional bike
+All sources are detailed in the accompanying technical report.
+Poor surface quality for cycling and road infrastructure 
+contributes to single road user crashes, particularly for e -
+scooters. Unpaved surfaces have also been associated with 
+higher crash risk. 
+Sidewalks and higher-speed traffic lanes are the least safe 
+locations to ride e-scooters. This is due to the heightened 
+conflicts with pedestrians on sidewalks and the presence of 
+obstacles, cracks and uneven joints. Narrow lane widths 
+can elevate micromobility crash risk due to proximity to 
+stationary and moving motor vehicles. Micromobility tracks 
+separated from car traffic and correctly implemented 
+shared spaces are the safest locations to ride e -scooters 
+and bicycles and are associated with lower injury risk. 
+Micromobility safety can be further improved when 
+micromobility infrastructure is physically separated and 
+when it is connected and easy to navigate on both existing 
+segments and intersections.
+Evidence indicates that the conflict rate of e -bikes is higher 
+than that of conventional bikes, irrespective of fault. This 
+evidence suggests that on sidewalks and bike 
+infrastructure, the probability of conflicts is highest 
+between e-bikes and pedestrians and lowest between two 
+conventional bicycles. Overall, however, evidence indicates 
+that the dangerous driving behaviour of car drivers causes 
+the most observed conflicts
+Safe infrastructure contributes 
+to safe micromobility
+16 Safer Micromobility
+
+[PDF 17쪽]
+XX How Safe is Micromobility?
+Safe infrastructure: Recommendations for authorities
+Proactively maintain micromobility infrastructure 
+Authorities should implement proactive and regular 
+maintenance for micromobility infrastructure, shared paths 
+and road surfaces, with priority in high micromobility traffic 
+areas. Proactive maintenance ensures that infrastructure 
+elements like bike tracks, sidewalks and roads remain in 
+good condition. This minimises the risk of crashes caused 
+by potholes, debris or poorly maintained surfaces. Prompt 
+reporting of infrastructure issues by road users and near -
+crash hot spots by micromobility operators contributes to 
+efficient, proactive maintenance. Implementing this 
+measure could reduce falls, a major contributor to e -
+scooter and (e-)bike-related injuries, and facilitate a 
+smoother learning curve for inexperienced e -scooter 
+riders. 
+Establish a dedicated and well -connected micromobility 
+network
+Authorities should develop a comprehensive urban plan 
+incorporating mixed and protected micromobility 
+infrastructure, ensuring connectivity with existing 
+transportation networks. Specific focus should be given to 
+junction treatments to ensure increased visibility and 
+awareness for car and truck traffic. Seamless connections 
+with public transport, sidewalks and shared mobility 
+services should be encouraged to create a well -connected 
+micromobility network. The effective implementation of 
+this recommendation can reduce collisions of 
+micromobility vehicles with motor vehicles (especially in 
+junctions) and pedestrians on sidewalks.
+Establish micromobility parking policy and designate 
+parking areas where needed
+Authorities should formulate consistent micromobility 
+parking guidelines that enhance its use. This includes 
+establishing clearly delineated parking zones for e -
+scooters and bicycles in high-traffic areas. These should be 
+placed at the curb or, where legal and where it does not 
+impede pedestrian activity, in pedestrian or shared zones. 
+Their implementation requires uniform and systematic 
+enforcement. It also involves careful planning and 
+traditional and digital signage to guide riders to these 
+designated zones. This ensures that parked micromobility 
+vehicles do not impede pedestrians, contributing to safer 
+urban environments. Authorities should simultaneously 
+enforce motor vehicle parking policy to ensure 
+micromobility infrastructure and parking zones are not 
+encumbered by illegally parked cars, vans and trucks. 
+Shared micromobility parking should allow sufficient 
+access for operators’ support cargo bikes and vans. 
+17 Safer Micromobility
+
+[PDF 18쪽]
+XX How Safe is Micromobility?
+Safe infrastructure: Recommendations for shared micromobility operators
+Establish collaborative partnerships with authorities for 
+infrastructure condition reporting 
+Micromobility operators collect valuable data on potholes, 
+falls, and near-crashes through in-vehicle sensors. They 
+should use this information to help authorities proactively 
+maintain urban infrastructure by identifying and reporting 
+areas with subpar road conditions. This effort, fuelled by 
+data-driven insights, contributes to maintaining and 
+improving micromobility infrastructure, ultimately 
+enhancing overall safety for riders and pedestrians. 
+Additionally, operators should initiate programs to evaluate 
+the effectiveness and costs of this reporting.
+Onboard parking zones in shared micromobility apps and 
+deploy smart docking in high -traffic areas 
+Shared micromobility apps should onboard designated 
+parking areas and restrictions. Deploying smart docking 
+and charging stations in high pedestrian or vehicular traffic 
+zones can reduce obstruction on sidewalks. This ensures 
+convenient access to charged shared micromobility 
+vehicles. Such hubs could also minimise the use of vans or 
+other vehicles for re-positioning, swapping batteries or 
+otherwise re-charging shared micromobility fleets, which 
+may impose additional risks on all road users. Also, 
+operators can reinforce responsible parking, e.g. by 
+offering rewards for users who comply with parking 
+requirements or in docks if these are available.  
+18 Safer Micromobility
+
+[PDF 19쪽]
+Behaviour, experience and other rider-related factors 
+strongly correlate with micromobility safety. Rider-related 
+safety factors associated with bicycles differ from those of 
+e-scooters, especially concerning nighttime riding, alcohol 
+consumption and helmet use.
+Nighttime and reduced lighting conditions are positively 
+correlated with both injury and fatal crashes and are 
+responsible for 30-44% of e-scooter-rela ted casualties.
+A prominent cause of e-scooter riders’ injuries is alcohol 
+impairment. Riders under the influence of alcohol are 
+more likely to be involved in injury collisions. Alcohol 
+impairment reduces reaction times and crash bracing 
+behaviour, thus contributing to more severe injuries.
+In contrast with conventional and electric bicycle riders in 
+many countries, injured e-scooter riders display low levels 
+of helmet-wearing – even when required by law. 
+International evidence indicates that up to 11% of 
+observed shared e-scooter riders wear helmets. Helmets 
+contribute to reducing the severity of head injuries, which 
+are common in e-scooter crashes. Evidence suggests that 
+while current bicycle helmet standards are generally well-
+adapted to bicycle crashes, they may not provide sufficient 
+protection from face and jaw injuries common in e-scooter 
+crashes. Type C and D micromobility (travelling up to 45 
+km/h) call for enhanced helmet protection that may go 
+beyond current bicycle helmets.
+Some e-scooter users occasionally ride with an additional 
+passenger (tandem riding). Evidence indicates that 2% to 
+5% of all observed trips involve two riders on a single e-
+scooter. Tandem riding contributes to 17% of all e-scooter-
+related casualties.
+Micromobility crash factors: Riders
+Rider-related safety 
+factors associated 
+with bicycles are 
+different to those of 
+e-scooters.
+19 Safer Micromobility
+
+[PDF 20쪽]
+Rider-related safety factors 
+(continued)
+Risk factor Vehicle type Effect
+Nighttime
+(% of fatal 
+crashes)
+es 82%
+eb 48%
+cb 57%
+es 43%
+Nighttime & 
+Reduced lighting 
+(% of casualties)
+es 30-44%
+cb 14-28%
+eb 18%
+Nighttime crash 
+risk es
+4.8 crashes per 
+100 000 trips
+vs 2.2 for daytime 
+crashes
+Helmet use 
+(% of casualties)
+es 0-3%
+cb 16-64%
+eb 53%
+Alcohol es Fatalities: 41%
+es Casualties: 7-53%
+cb Casualties: 6-13%
+Double riding 
+(% of casualties) es 14-17%: >one rider/ 
+vehicle
+Experience
+es
+24-37% of injuries 
+occurred during the 1st 
+ride
+es
+78% of crashes 
+involved riders with low 
+riding rates
+es = electric scooter, eb = electric bike, cb = conventional bike
+Casualties: persons injured and fatalities
+All sources are detailed in the accompanying technical report.
+Excessive speeding contributes to 30% of e -scooter injury 
+crashes. When e-scooter riders travel on bicycle 
+infrastructure, their speed is comparable to, but slightly 
+higher than, conventional cyclists (~15 km/hour). E -bike 
+average speeds are even higher than average conventional 
+or e-scooter speeds, potentially leading to higher-severity 
+crash injuries. Crash data is sparse on the use of fast e -
+scooters capable of speeds up to 45 km/h (where these are 
+legal). This suggests the need to capture these types of 
+vehicles separately from mopeds (where they are often 
+grouped) and lower-speed e-scooters.
+E-scooter riders are mostly younger males. With driving 
+and cycling, younger males are associated with higher 
+incidences of risky behaviour, crash rates and severe crash 
+outcomes. However, evidence indicates that male and 
+female e-scooter riders display similar injury and crash 
+probabilities. 
+Inexperienced riders are linked to high crash risk, whether 
+due to a limited number of rides or unfamiliarity with the 
+local context. Unfamiliarity with the local context is 
+particularly relevant to shared e -scooter use, considering 
+that in many cities, e-scooters are used by a high share of 
+non-residents. Up to 78% of e-scooter crashes involve 
+infrequent users, while first-time riders face three times the 
+crash risk of more experienced riders. Experience levels 
+differ between riders who own their e -scooters and those 
+using shared services, with the former displaying 
+significantly better riding skills and greater experience. 
+More experienced 
+riders are safer. 
+20 Safer Micromobility
+
+[PDF 21쪽]
+Safe riders: Recommendations for authorities
+Implement a 30km/h (or lower) speed limit in areas with 
+high micromobility use
+Authorities should default to a 30 km/h (or 20 km/h) speed 
+limit for car and truck traffic in areas with high 
+micromobility traffic. Lowering the speed limit to 30 km/h  
+or lower provides a crucial safety buffer, allowing motorists 
+to react more effectively to unexpected situations and 
+reducing the severity of potential micromobility vehicle -
+motor vehicle collisions.
+Establish low-speed limits for micromobility vehicles in 
+pedestrian or shared zones
+In areas where micromobility riders legally can or must 
+share pedestrian spaces, authorities should default to 
+establishing a safe (~6-10 km/h) speed limit for 
+micromobility modes to enhance pedestrian safety. 
+Implementation involves clear signage, providing access to 
+geospatially-referenced speed control zones. It also 
+involves educating road users on speed limitation rules 
+and enforcement to reduce the risk of crashes and 
+conflicts. This ensures a safe co-existence between 
+micromobility riders and pedestrians.
+Take enforcement action against risky micromobility riding
+Authorities should impose penalties for illegal 
+micromobility riding, including:
+• speeding for micromobility vehicles in speed -restricted 
+zones,
+• riding under the influence of drugs and alcohol,
+• riding under the age limit,
+• riding with two or more people,
+• riding on sidewalks when it is forbidden,
+• riding outside designated infrastructure where its use is 
+obligatory, 
+• illegal parking.
+Authorities should define a common limit for alcohol and 
+drug levels and establish minimum age requirements for 
+micromobility.
+Promote the use of appropriate helmets
+Authorities should encourage helmet use for private and 
+shared micromobility in a way that does not discourage 
+using active micromobility, which would diminish overall 
+health benefits. Further research is needed regarding 
+closed-face helmets or equivalent protection to protect 
+against maxillofacial injuries common in e -scooter crashes. 
+Authorities should require adapted helmets for riders of 
+high-speed e-scooters and e-bikes (e.g. with a maximum 
+speed between 25 km/h and 45 km/h and above).
+Introduce rider education in secondary schools 
+Micromobility training should be integrated into the 
+curriculum of secondary schools. Introducing 
+micromobility training at this level equips students with the 
+knowledge and skills necessary for safe and sustainable 
+urban mobility. Implementation should involve developing 
+age-appropriate micromobility training modules, training 
+qualified instructors, and integrating these lessons into the 
+school curriculum to ensure students are well -prepared for 
+micromobility usage.
+21 Safer Micromobility
+
+[PDF 22쪽]
+Safe riders: Recommendations for shared micromobility operators
+Provide safety feedback via telematics data
+Operators can use telematics data on speeding, 
+acceleration/deceleration or distracted riding to provide 
+riders with post-trip feedback. This feedback gives riders 
+insights into their habits and opportunities for operators 
+or insurers to incentivise safe behaviour. Real-time safety 
+alerts to riders could also be considered where these do 
+not contribute to rider distraction. These alerts detect risky 
+riding behaviours and notify riders of speed limits, 
+especially in high-risk areas like sidewalks and junctions. 
+Operators should explore how real-time safety alerts 
+impact micromobility safety.
+Provide economic incentives for safe riding
+Shared micromobility operators may encourage helmet 
+use with economic incentives such as providing free 
+helmets or discounts to encourage safety-conscious 
+ridership. They can also discourage inappropriate parking 
+and alcohol- or drug-impaired riding with incentives or 
+automatic vehicle locking, pending a better understanding 
+of the necessary costs and potential public and private 
+funding schemes.
+Implement mandatory initial rider training 
+To enhance rider safety, shared micromobility operators 
+can require new riders to pass through safe riding screens 
+for the first few rides they make to help ensure that riders 
+are familiar with local rules and guidelines before 
+embarking on their e-scooter trips.
+Verify age to start riding
+Operators should implement age verification procedures 
+to ensure riders meet the minimum age requirements 
+defined in each city, ensuring compliance with local 
+regulations and safety standards.
+22 Safer Micromobility
+
+[PDF 23쪽]
+The rapid uptake of micromobility vehicles, specifically e -
+scooters, brings a range of safety concerns linked to 
+vehicle design. E-scooters, e-bikes and conventional 
+bicycles differ greatly in their design and stability. 
+A key distinction between e-scooters and bicycles lies in 
+the rider’s position. Unlike bicycles, e -scooter users stand 
+on the vehicle while riding and can fall freely from the 
+vehicle, absorbing the full impact of the fall. The standing 
+posture on e-scooters has been identified as risky, 
+particularly during braking to manoeuvre around or away 
+from obstacles. Conversely, the seated posture offers 
+improved braking and handling performance for both 
+seated e-scooters and bicycles. 
+The maximum design speed of powered micromobility 
+vehicles remains a core determinant of safety. Evidence 
+shows that the reduction of e-scooter riding speed can 
+lead to a significant reduction in the mean head-ground 
+impact speed during crashes. 
+The differences in vehicle handling profiles affect safety 
+outcomes. Bicycles are the most stable vehicles – 
+especially at low speeds – followed by seated e-scooters 
+and finally by standing e-scooters whose stability increases 
+with speed. As with bicycles, changing the fork-steerer 
+column or headtube angle of e-scooters impacts front 
+wheel handling characteristics and shifts the 
+rider’s/vehicle’s centre of mass. In some cases, this brings 
+it nearer to the self-stability range of a larger-wheeled 
+bicycle.  
+Micromobility crash factors: Vehicles
+E-scooters differ
+greatly in their
+design and stability
+from both electric
+and conventional
+bicycles.
+23 Safer Micromobility
+
+[PDF 24쪽]
+Wheel size
+Larger wheels prevent deflection, improve 
+obstacle clearing and provide gyroscopic 
+stability, but are less agile
+Steering column
+Steering column near centre of gravity, high 
+frame attachment point and large wheel 
+size reduce handlebar vaulting risk  
+Braking
+Standard dual mechanical or hydraulic 
+brakes and a low centre of gravity provide 
+improved emergency braking
+Centre of gravity
+Lower and less forward centre of gravity 
+contributes to more stability, better 
+emergency braking and less risk of vaulting 
+over the handlebar in crashes
+Head height
+Lower head height means less free-
+fall distance and lower acceleration to 
+the ground in a crash
+Acceleration
+Pedalling-initiated acceleration can be less 
+sudden
+Wheel size
+Smaller wheel sizes are more agile but more 
+prone to deflection and stoppage by obstacles. 
+Less gyroscopic stability
+Steering column
+Steering column serves as a fulcrum, increasing 
+the risk of the rider vaulting over the handlebar in 
+forward crashes if the rider places weight on it
+Braking
+Single front braking reduces stability and 
+contributes to loss of rear wheel ground 
+contact in emergency braking
+Centre of gravity
+Higher and more forward centre of gravity reduces 
+stability and makes the rider more prone to vaulting 
+over the handlebar in forward crashes.
+Head height
+Higher head height and distance to the 
+ground due to standing position may 
+increase head acceleration in crashes
+Acceleration
+Throttle-initiated acceleration 
+can be  more sudden
+Platform
+A narrow or insufficiently large platform 
+reduces rider stability
+BicyclesE-scooters
+Various e-scooter and bicycle characteristics and 
+safety
+Newer shared e-scooter models 
+address these design issues with 
+larger wheels, wider tyres, lower and 
+more anterior frame/battery weight 
+distribution, dual front and back 
+braking and wider foot platforms.
+E-bikes are generally heavier and
+operated at higher speeds than
+traditional bikes, increasing kinetic
+energy in self-crashes and crashes
+with pedestrians and other users.
+24 Safer Micromobility
+
+[PDF 25쪽]
+Compared to bicycles, the slightly higher and more forward -
+facing centre of mass of e-scooters leads to forward obstacle 
+crashes. In these instances, e-scooter riders exerting weight 
+on the steering bar and column can induce a fulcrum effect, 
+potentially leading to over-the-handlebar vaulting. Many 
+recent-generation shared scooters place weight lower and to 
+the rear of the e-scooter, thus improving stability.  
+Head-ground impact velocities during e -scooter falls align 
+with those observed in bicycle falls. However, the difference 
+in injury characteristics discussed earlier suggests dissimilar 
+head-ground impact configurations.
+The foot platform's width determines the e -scooter rider's 
+stability, with crash injury rates significantly higher in narrow 
+“foot-behind-foot” riding stances than in a “side -by-side“ 
+stance. 
+Wheel size is linked to safety; larger wheels prevent 
+deflection, improve obstacle clearing and provide gyroscopic 
+stability. 
+E-scooters have much smaller wheels and more solid and 
+less forgiving tyres compared to bicycles. Bicycle wheels
+also have a shallower angle of attack than smaller e -scooter 
+wheels and are thus more stable when encountering 
+obstacles of the same height. E-scooters with smaller wheels 
+have been linked to a higher likelihood of falls, elevating the 
+risk of head injuries for riders. Recent generations of shared 
+e-scooters adopt larger front wheel sizes and air -chambered 
+tyres, thus improving stability and shock absorption.  
+Braking systems are critical to micromobility vehicle design, 
+and their diversity warrants attention. Effective braking 
+systems employ separate hand-lever operated front and rear 
+brakes. E-scooters display lesser efficacy in braking than 
+bicycles – especially in emergency stops – whereas e-scooters 
+exhibit superior performance in steering avoidance 
+manoeuvres. This suggests that crash avoidance techniques 
+may differ between e-scooters and bicycles.
+E-scooters and bicycles display different acceleration profiles. 
+E-scooter throttled acceleration is more rapid and responsive 
+than pedal-powered or motor-assisted pedal acceleration. In 
+most cases of the latter, most implementations of pedal 
+torque-input-linked acceleration are smoother and less 
+sudden than torqueless motor engagement. 
+Ensuring visibility and audibility on the road is paramount for 
+the safety of both micromobility riders and pedestrians. Bikes 
+often come equipped with front and rear lights, offering 
+visibility in various lighting conditions, while pedal and wheel 
+reflectors offer extra visibility. In contrast, e -scooters often 
+feature just a single headlight, and due to their small wheel 
+size, side reflectors show small movement. Without turn 
+indicators on most e-scooters, riders risk instability when 
+resorting to hand signals, unlike bike riders who maintain 
+stability during such manoeuvres due to the gyroscopic effect 
+of the larger wheels. 
+In addition to the above design features, combined vehicle -
+rider weight matters from a handling and safety perspective. 
+Considering the standing riding position of e -scooter riders 
+and the fact that the overall average weight of the scooter is 
+less than the average weight of the rider, the rider’s position 
+drastically impacts the centre of gravity. 
+Standing e-scooters may pose physical accessibility 
+challenges for those with mobility-related disabilities as 
+compared to seated e-scooters, bicycles and tricycles. But, for 
+some people, standing e-scooters may be more easily 
+accessible. 
+Shared e-scooter fleets are generally comprised of vehicles 
+with safer design characteristics compared to private e -
+scooters (larger wheels, wider tyres, lower and more anterior 
+frame/battery weight distribution, dual front and back 
+braking and wider foot platforms). They undergo regular 
+technical inspections to ensure their roadworthiness. Shared 
+e-scooters are also designed to conform to dynamic 
+geofenced speed controls, unlike privately-owned e-scooters.
+Micromobility vehicle 
+design and safety
+25 Safer Micromobility
+
+[PDF 26쪽]
+Set universal technical requirements for e -scooter design
+Establishing and joining technical standards for e -scooters 
+is essential. E-scooter standards should account for the 
+following:
+• maximum speed (e.g. <20/25 km/h. Vehicles operating
+at higher speeds would be regulated differently and
+more stringently)
+• maximum power (e.g. <250-500 W. Vehicles with higher
+power should be regulated differently and more
+stringently)
+• minimum wheel size (the larger, the better)
+• foot platform area (e.g. at least 150 cm2)
+• dual, separate and hand-initiated braking systems
+• independent front and rear lights
+• indicator lights (due to the difficulties of using hand
+signals)
+• reflective markings
+• phone attachment feature.
+Further investigation into the impact of weight on e-
+scooter safety is needed due to the limited current data
+and potential implications on collision energy.
+Adopt riding support systems in micromobility vehicles
+Authorities should foster the adoption of riding support 
+systems in micromobility vehicles, including automatic 
+emergency braking assistance, audible warning devices 
+providing alerts when speeding, detection technology 
+capable of assessing factors like unsteady movement, 
+occupancy detection sensors and alerts when 
+inappropriately parking.
+Safe management
+Establish and collect data on distinct micromobility 
+categories in safety statistics
+Creating distinct categories for each micromobility mode 
+(i.e., conventional bikes, e-bikes, e-scooters, speed e-
+scooters/e-bikes, monowheels/e-unicycles) in road traffic 
+casualty records, including police records and medical 
+records, improves safety assessment. Micromobility -
+related incidents are often grouped under broad 
+categories, making it challenging to track and understand 
+the specific risks and injuries associated with these modes. 
+Additionally, collecting exposure data for each category is 
+essential to calculate casualty risk accurately.
+Safe vehicles and management recommendations for authorities
+26 Safer Micromobility
+
+[PDF 27쪽]
+Safe Vehicles  and Management Recommendations for 
+Shared Micromobility Operators
+Restrict e-scooter access if tandem riding and/or alcohol 
+use is detected
+Shared micromobility operators should be encouraged to 
+incorporate in-vehicle sensors to detect tandem riding and 
+introduce in-app tests to identify users under the influence 
+of alcohol and drugs. If violations are detected, e -scooter 
+access can be disabled, ensuring responsible and sober 
+usage.
+Implement riding support systems in shared e -scooters
+Operators should be encouraged to implement safe riding 
+support systems in e-scooters, including automatic 
+emergency braking assistance and detection technology 
+capable of assessing factors like unsteady movement, 
+tandem riding and inappropriate parking.
+Safe management
+Enable in-vehicle or in-app crash detection technology  
+Shared micromobility operators can enhance the safety 
+and user experience of their services and address the low 
+availability of micromobility crash data by integrating crash 
+detection technology into their vehicles or mobile 
+applications. In cases where the technology detects a 
+potential crash, and the user does not respond within a 
+specified timeframe, the app can automatically notify 
+emergency services (e-call). Micromobility operators can 
+establish partnerships with local emergency services, 
+medical facilities or roadside assistance providers to 
+ensure a swift response to detected crashes and improve 
+the effectiveness of this app feature. However, it is crucial 
+to conduct research and pilots to prevent the 
+overexposure of false calls to emergency services.
+Ensure systematic maintenance of micromobility fleets
+Operators should maintain their fleets in good repair and 
+follow state-of-the-art maintenance protocols, emphasising 
+regular checks and upkeep of essential components, 
+including brakes, lights and batteries. This approach 
+ensures the vehicles’ continued safety and optimal 
+performance, enhancing the micromobility service’s overall 
+reliability.
+Enable context-dependent maximum speed control using 
+geofencing
+Shared micromobility operators can employ geofencing 
+technology to smoothly and dynamically lower maximum 
+speeds to designated speed limits in high-risk zones, such 
+as pedestrian areas or during risky hours like nighttime, 
+prioritising safety for all road users.
+27 Safer Micromobility
+
+[PDF 28쪽]
+A holistic approach that combines improved infrastructure, 
+safe riding behaviour, vehicle design standards , and safety 
+and exposure data collection is essential to improve 
+micromobility safety.
+Poorly maintained or unpaved surfaces are linked to a 
+heightened crash risk. What is particularly concerning is 
+that these infrastructure-related issues often result in falls, 
+further emphasising the need for infrastructure 
+improvements to bolster rider safety. Riding location can 
+also influence crash probability, with intersections and 
+sidewalks the least safe locations due to high conflict rates. 
+The risk for other road users is heightened by vehicles 
+being parked inappropriately .
+Speeding is a significant concern, as excessive speed of 
+micromobility and other vehicles (in particular cars, vans 
+and trucks) is a key risk factor for e -scooter and e-bike 
+injuries. Riders who exceed safe speed limits are more 
+susceptible to crashes. At the same time, large motor 
+vehicles speeding is the main source of serious injuries to 
+users of micromobility. 
+The use of helmets, particularly those adapted to crash 
+injury profiles of e-scooter riders and vehicles travelling 
+above 25 km/h, is another critical factor. .
+The influence of alcohol and drugs, mainly among e-
+scooter riders, is a significant concern, as riders under the 
+influence are more likely to be involved in injury collisions 
+and are more likely to suffer serious injuries. 
+Visibility is an essential safety factor, with nighttime and 
+reduced lighting conditions positively correlated with injury 
+and fatal crashes. Low rider experience is a recurrent 
+factor in e-scooter collisions, contributing to most crashes 
+and falls. Furthermore, mobile phone use while riding is a 
+distraction that can impair a rider’s focus and reaction 
+time. 
+Rider stability is a key contributor to crashes and falls and 
+is linked to parameters such as the rider’s position, vehicle 
+dimensions and riding experience.
+Larger wheels contribute to stability and vehicle control, as 
+does centring weight lower and further back . Optimised 
+braking systems enhance riders’ ability to slow down or 
+stop safely. 
+Setting appropriate maximum speeds for e-scooters and e-
+bikes helps prevent excessive travel speed, a significant 
+risk factor for e-scooter, e-bike and pedestrian injuries. 
+Efforts to manage micromobility travel speed (e.g. via 
+geofencing) should be fair and proportionate to risk. This 
+means addressing active speed management for privately 
+owned micromobility vehicles as well as for larger motor 
+vehicles.
+Effective lighting and auditory signalling mechanisms 
+ensure visibility and communication with other road users, 
+reducing the risk of crashes in low-light conditions or 
+situations where awareness is critical. Increasing the e -
+scooter foot platform width improves stability.
+The availability of micromobility safety data and exposure 
+data (preferably distance or time travelled) is crucial for 
+informed decision-making and effective policymaking. 
+Consistently gathering and analysing data on 
+micromobility crashes, injuries and near -miss incidents can 
+provide valuable insights into these events’ root causes 
+and patterns and address the under-reporting. 
+Summary of key micromobility risk factors 
+28 Safer Micromobility
+
+[PDF 29쪽]
+Safe infrastructure
+Proactively maintain micromobility infrastructure 
+(Authorities)
+Establish a dedicated and well-connected micromobility 
+network (Authorities)
+Establish micromobility parking policy and designate 
+parking areas where needed (Authorities)
+Establish collaborative partnerships with authorities for 
+infrastructure condition reporting (Operators)
+Onboard parking zones in shared micromobility apps and 
+deploy smart docking in high-traffic areas (Operators)
+Safe riders
+Implement a 30km/h (or lower) speed limit in areas with 
+high micromobility use (Authorities)
+Establish low-speed limits for micromobility vehicles in 
+pedestrian or shared zones (Authorities)
+Take enforcement action against risky micromobility  
+(Authorities)
+Promote the use of appropriate helmets (Authorities)
+Introduce rider education in secondary schools 
+(Authorities)
+Enable real-time safety interventions via telematics 
+(Operators)
+Provide post-trip feedback via telematics data (Operators)
+Provide economic incentives for safe riding (Operators)
+Implement mandatory initial rider training  (Operators)
+Verify age to start riding (Operators)
+Safe vehicles
+Set universal technical requirements for e-scooter design 
+(Authorities)
+Adopt riding support systems in micromobility vehicles 
+(Authorities)
+Ensure systematic maintenance of micromobility fleets 
+(Operators)
+Enable context-dependent maximum speed control using 
+geofencing (Operators)
+Restrict e-scooter access if tandem riding and/or alcohol 
+use is detected (Operators)
+Implement riding support systems in shared e -scooters 
+(Operators)
+Safe management
+Establish and collect data on distinct micromobility 
+categories in safety statistics (Authorities)
+Enable in-vehicle or in-app crash detection technology  
+(Operators)
+Summary of micromobility safety recommendations
+29 Safer Micromobility
+
+[PDF 30쪽]
+XX How Safe is Micromobility?30 Safer Micromobility
+Acknowledgements The authors of this publication are Virginia Petraki and George Yannis 
+of the National Technical University of Athens (NTUA) and Philippe Crist 
+of the International Transport Forum (ITF). Katerina Deliali (NTUA) 
+assisted with research coordination. Lauren Chester edited the 
+publication with input from Michael Kloth (both ITF). Philippe Crist 
+designed the publication and graphics with advice and input from Chris 
+Wells (ITF).
+The authors would like to thank the following CPB representatives who 
+participated in the project workshop: Julian Alhers (Tier), Sarah Badoux 
+(Voi), Georgia Heathman (Tier), Enzo Lanoue (Allianz Partners), Victoria 
+Delicado Montoya (ENEL), Christy Pearson (Voi), Robert Morgenstern 
+(Allianz), Welmoed Neijmeijer (Bolt) and Tatiana Samsonova (Bolt). 
+Thank you also for other workshop participants who provided inputs at 
+and after the workshop: Adil Bahi (Ministère du Transport et de la 
+Logistique), Alasdair Cain (United States Department of Transportation), 
+Pierpaolo Cazzola (University of California, Institute of Transportation 
+Studies), Julien Chamussy (Fluctuo), Chris Cherry (University of 
+Tennessee), Wanda Debauche (Belgian Road Research Center), Laurent 
+Demilie (SPF Mobilité et Transports), Storm Gibbons (TIER Mobility), 
+Bjorne Grimsrud (Institute of Transport Economics - Norwegian Centre 
+for Transport Research), Firas Ibrahim (United States Department of 
+Transportation), Jade Kawan (Cabinet Elke Van den Brandt), Laurent 
+Kennel (Dott), Konstantin Krauss (Fraunhofer Institute for Systems and 
+Innovation Research ISI), Soichiro Minami (Ministry of Land, 
+Infrastructure and Tourism), Stefano Porro (Pirelli), Alexandre 
+Santacreu (European Metropolitan Transport Authorities (EMTA), 
+Sebastian Schlebusch (Dott), Lidia Signor (UITP), Alejandro Tirachini 
+(University of Twente), Anatole Reboul (Fluctuo), Karen Vancluysen 
+(POLIS), Marie Vignat-Cerasa (Lime), Ceri Woolsgrove (European 
+Cyclists' Federation), Teruki Yamada (Ministry of Land, Infrastructure 
+and Tourism). 
+The authors would also like to thank  Aisling Dunne (Bolt), Alex Liaw 
+(Lime), Saša Jevšnik Kafol (AVP-Slovenia) who provided additional inputs 
+to the report and the following reviewers of the report: Andrea John 
+(DETEC – Switzerland), Benoît Hiron (CEREMA – France), Dominique 
+Mignot (Université Eiffel and ITRD), Riikka Rajamäki (Traficom – Finland), 
+Manuelle Salathé (ONISR – France), Sebastian Schlebusch 
+(Micromobility for Europe and Dott), Kishan Vandael Schreurs (VIAS-
+Belgium), Ceri Woolsgrove (European Cyclists’ Federation) as well as 
+Jagoda Egeland and Guineng Chen (both ITF). 
+This publication is part of the Corporate Partnership Board (CPB) 
+workstream. Sharon Masterson is the CPB manager and Philippe Crist 
+provides project guidance.  
+Front cover: © Philippe Crist – Paris, France 
+Page  4: © Philippe Crist – Paris, France
+Page 5: © Philippe Crist – Washington, DC, USA
+Page 7: © Philippe Crist – Stockholm, Sweden
+Page 8: © Philippe Crist – Copenhagen, Denmark
+Page 9: © Philippe Crist – Barcelona, Spain
+Page 11: © Photohobo, Freepik.com
+Page 15: © Philippe Crist – Barcelona, Spain
+Page 19: © Philippe Crist – Lille, France
+Page 23: © Philippe Crist – Brussels, Belgium
+Image credits
+
+[PDF 31쪽]
+XX How Safe is Micromobility?
+Who we are
+The International Transport Forum at the 
+OECD is an intergovernmental organisation 
+with 66 member countries. It acts as a think 
+tank for transport policy and organises the 
+Annual Summit of transport ministers. ITF is 
+the only global body that covers all transport 
+modes. The ITF is administratively integrated 
+with the OECD, yet politically autonomous.
+31 Safer Micromobility
+About the 
+International 
+Transport Forum
+What we do
+The ITF works for transport policies that 
+improve peoples’ lives. Our mission is to 
+foster a deeper understanding of the role of 
+transport in economic growth, environmental 
+sustainability and social inclusion and to raise 
+the public profile of transport policy.
+How we do it
+The ITF organises global dialogue for better 
+transport. We act as a platform for discussion 
+and pre-negotiation of policy issues across all 
+transport modes. We analyse trends, share 
+knowledge and promote exchange among 
+transport decision-makers and civil society. 
+The ITF’s Annual Summit is the world’s largest 
+gathering of transport ministers and the 
+leading global platform for dialogue on 
+transport policy.
+About the Corporate Partnership Board
+The Corporate Partnership Board (CPB) is the ITF’s platform for engaging with the private sector 
+and enriching global transport policy discussion with a business perspective. The members of the 
+ITF Corporate Partnership Board are: Airbus, Allianz Partners, Alstom, Amazon, Aramco, AutoCrypt, 
+Bolt, Bosch, BP, CEIIA, Cruise, DP World, Enel, ExxonMobil, FS Italiane, Honda, Hyundai Motor 
+Company, Iberdrola, Kakao Mobility, Michelin, Microsoft, Mott Macdonald, NXP, PTV Group, 
+RATP Group, Rolls Royce, Shell, Siemens, TotalEnergies, Toyota, Trucknet, Uber, Valeo and 
+Volvo Group.
+Cite this work as: ITF (2024), “Safer Micromobility”, International Transport Forum Policy 
+Papers, No. 129, OECD Publishing, Paris.
+
+[PDF 32쪽]
+32 Safer Micromobility
+Link to the technical report and references
+About this report In 2020, the ITF published Safe 
+Micromobility, a report assessing the 
+safety of micromobility and new 
+mobility services. In the four years 
+since publication, much has changed 
+in terms of the evidence base 
+regarding the safety of micromobility. 
+This publication summarises an 
+analysis of the current evidence on 
+recent micromobility safety trends and 
+risks. It provides safety 
+recommendations for authorities and 
+micromobility operators in line with 
+the Safe System approach. It does not 
+address safety issues related to fire 
+risk from defective or damaged 
+battery packs which is typically 
+addressed via battery-specific 
+standards and policies. 
+It is based on a comprehensive 
+technical report written by the same 
+authors. The technical report contains 
+more detailed information and a full 
+list of references for all of the data and 
+findings of this publication.

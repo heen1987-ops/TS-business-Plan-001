@@ -1,0 +1,28 @@
+{
+  "pages": [
+    {
+      "file": "00_여기서_시작.html",
+      "title": "TS 사업기획 · 여기서 시작",
+      "localLinks": 46,
+      "broken": []
+    },
+    {
+      "file": "05_통합사업기획/P23_정책기획_예산요구_발주전환_v1.1_2026-09-15/제안서_v1.4/00_P23_도입제안서.html",
+      "title": "P23 도입제안서 | 근거 기반 정책·예산·발주 기획지원",
+      "localLinks": 56,
+      "broken": []
+    }
+  ],
+  "errors": [],
+  "widths": [
+    {
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    }
+  ],
+  "pass": true
+}

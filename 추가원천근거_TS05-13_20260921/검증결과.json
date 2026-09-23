@@ -1,0 +1,93 @@
+{
+  "registered": 15,
+  "downloaded": 14,
+  "reviewed": 10,
+  "all_files_and_hashes_pass": true,
+  "checks": [
+    {
+      "id": "S26",
+      "exists": true,
+      "hash_match": true,
+      "text_exists": true
+    },
+    {
+      "id": "S27",
+      "exists": true,
+      "hash_match": true,
+      "text_exists": true
+    },
+    {
+      "id": "S28",
+      "exists": true,
+      "hash_match": true,
+      "text_exists": true
+    },
+    {
+      "id": "S29",
+      "exists": true,
+      "hash_match": true,
+      "text_exists": true
+    },
+    {
+      "id": "S30",
+      "exists": true,
+      "hash_match": true,
+      "text_exists": true
+    },
+    {
+      "id": "S31",
+      "exists": true,
+      "hash_match": true,
+      "text_exists": true
+    },
+    {
+      "id": "S32",
+      "exists": true,
+      "hash_match": true,
+      "text_exists": true
+    },
+    {
+      "id": "S33",
+      "exists": true,
+      "hash_match": true,
+      "text_exists": true
+    },
+    {
+      "id": "S34",
+      "exists": true,
+      "hash_match": true,
+      "text_exists": true
+    },
+    {
+      "id": "S35",
+      "exists": true,
+      "hash_match": true,
+      "text_exists": true
+    },
+    {
+      "id": "S36",
+      "exists": true,
+      "hash_match": true,
+      "text_exists": true
+    },
+    {
+      "id": "S37",
+      "exists": true,
+      "hash_match": true,
+      "text_exists": true
+    },
+    {
+      "id": "S38",
+      "exists": true,
+      "hash_match": true,
+      "text_exists": true
+    },
+    {
+      "id": "S39",
+      "exists": true,
+      "hash_match": true,
+      "text_exists": true
+    }
+  ],
+  "limitations": "내용 검증 범위는 원장 상태 참조. 독립 평가 미수행."
+}

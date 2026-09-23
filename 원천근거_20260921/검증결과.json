@@ -1,0 +1,171 @@
+{
+  "checked_at": "2026-09-21",
+  "sources_registered": 25,
+  "downloaded": 19,
+  "pdf": 8,
+  "html": 11,
+  "download_failed": 6,
+  "checks": [
+    {
+      "id": "S01",
+      "file": "원문\\S01_TS_COSAS_업무소개.html",
+      "bytes": 67758,
+      "sha256_matches": true,
+      "text_exists": true
+    },
+    {
+      "id": "S02",
+      "file": "원문\\S02_TS_교통수단안전점검.html",
+      "bytes": 77448,
+      "sha256_matches": true,
+      "text_exists": true
+    },
+    {
+      "id": "S03",
+      "file": "원문\\S03_TS_ETAS_업무소개.html",
+      "bytes": 69043,
+      "sha256_matches": true,
+      "text_exists": true
+    },
+    {
+      "id": "S04",
+      "file": "원문\\S04_TS_교통안전체험교육.html",
+      "bytes": 71498,
+      "sha256_matches": true,
+      "text_exists": true
+    },
+    {
+      "id": "S05",
+      "file": "원문\\S05_TS_2024_ESG보고서.pdf",
+      "bytes": 8221224,
+      "sha256_matches": true,
+      "text_exists": true,
+      "pdf_magic": true,
+      "pdf_pages": 106,
+      "pages_match": true
+    },
+    {
+      "id": "S06",
+      "file": "원문\\S06_TS_고령운전자_교육적용사례.html",
+      "bytes": 76453,
+      "sha256_matches": true,
+      "text_exists": true
+    },
+    {
+      "id": "S09",
+      "file": "원문\\S09_ACRC_2025_성과관리시행계획.pdf",
+      "bytes": 4583767,
+      "sha256_matches": true,
+      "text_exists": true,
+      "pdf_magic": true,
+      "pdf_pages": 216,
+      "pages_match": true
+    },
+    {
+      "id": "S10",
+      "file": "원문\\S10_ACRC_2024_자체평가결과.pdf",
+      "bytes": 2029490,
+      "sha256_matches": true,
+      "text_exists": true,
+      "pdf_magic": true,
+      "pdf_pages": 55,
+      "pages_match": true
+    },
+    {
+      "id": "S11",
+      "file": "원문\\S11_NIST_AI_600_1_2024.pdf",
+      "bytes": 1174643,
+      "sha256_matches": true,
+      "text_exists": true,
+      "pdf_magic": true,
+      "pdf_pages": 64,
+      "pages_match": true
+    },
+    {
+      "id": "S12",
+      "file": "원문\\S12_EC_고령운전자_기능평가.html",
+      "bytes": 74893,
+      "sha256_matches": true,
+      "text_exists": true
+    },
+    {
+      "id": "S13",
+      "file": "원문\\S13_EC_Seniors_2026.pdf",
+      "bytes": 766556,
+      "sha256_matches": true,
+      "text_exists": true,
+      "pdf_magic": true,
+      "pdf_pages": 24,
+      "pages_match": true
+    },
+    {
+      "id": "S17",
+      "file": "원문\\S17_ITF_Safer_Micromobility_2024.pdf",
+      "bytes": 7762828,
+      "sha256_matches": true,
+      "text_exists": true,
+      "pdf_magic": true,
+      "pdf_pages": 32,
+      "pages_match": true
+    },
+    {
+      "id": "S19",
+      "file": "원문\\S19_PPS_혁신제품지정_시범사용.html",
+      "bytes": 103929,
+      "sha256_matches": true,
+      "text_exists": true
+    },
+    {
+      "id": "S20",
+      "file": "원문\\S20_운전자교육_체계적문헌고찰_2021.pdf",
+      "bytes": 654269,
+      "sha256_matches": true,
+      "text_exists": true,
+      "pdf_magic": true,
+      "pdf_pages": 12,
+      "pages_match": true
+    },
+    {
+      "id": "S21",
+      "file": "원문\\S21_고령운전자_훈련_메타분석_2024.html",
+      "bytes": 195980,
+      "sha256_matches": true,
+      "text_exists": true
+    },
+    {
+      "id": "S22",
+      "file": "원문\\S22_초보운전자_행동중재_RCT고찰_2025.html",
+      "bytes": 232145,
+      "sha256_matches": true,
+      "text_exists": true
+    },
+    {
+      "id": "S23",
+      "file": "원문\\S23_상용운전자_IVMS_코칭_원연구.html",
+      "bytes": 238821,
+      "sha256_matches": true,
+      "text_exists": true
+    },
+    {
+      "id": "S24",
+      "file": "원문\\S24_FMCSA_FAST_DASH_2016_원연구.pdf",
+      "bytes": 1716145,
+      "sha256_matches": true,
+      "text_exists": true,
+      "pdf_magic": true,
+      "pdf_pages": 100,
+      "pages_match": true
+    },
+    {
+      "id": "S25",
+      "file": "원문\\S25_TS_교통시설안전진단_평가위원_공고.html",
+      "bytes": 88679,
+      "sha256_matches": true,
+      "text_exists": true
+    }
+  ],
+  "all_file_checks_passed": true,
+  "limits": "파일 무결성·형식 검사이며 문헌 전체의 사실 검증 또는 효과 재현 실험을 뜻하지 않음",
+  "local_links_checked": 48,
+  "broken_local_links": []
+}

@@ -1,0 +1,1218 @@
+
+[PDF 1쪽]
+ROAD  SAFETY  
+ 
+ 
+* 
+Thematic Report 
+   Seniors 
+
+
+[PDF 2쪽]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This document is part of a series of 20 thematic reports on road safety. The purpose 
+is to give road safety practitioners and the general public an overview of the most 
+important research questions and results on the topic in question. The level of detail 
+is intermediate, with more detailed papers or reports suggested for further reading. 
+Each report has a 1-page summary. 
+ 
+ 
+Contract: This document has been prepared in the framework of the EC 
+Service Contract MOVE/C2/SER/2022-55/SI2.888215 with 
+National Technical University of Athens (NTUA), SWOV Institute 
+for Road Safety Research and Kuratorium für Verkehrssicherheit 
+(KFV). 
+ 
+Version November 2025 
+ 
+Author Original: Heike Martensen (Vias Institute) 
+Update 2023: Ragnhild Davidse (SWOV) 
+ Update 2025: Michelle Doumen (SWOV) 
+ 
+Internal Review: Armira Kontaxi (NTUA) 
+ 
+External Review: Laurence Paire-Ficout (Université Gustaf Eiffel) 
+ 
+Referencing: Reproduction of this document is allowed with due 
+acknowledgement. Please refer to the document as follows: 
+ 
+European Commission (2025). Road safety thematic report – 
+Seniors. European Road Safety Observatory. Brussels, European 
+Commission, Directorate General for Transport. 
+ 
+ 
+ 
+Disclaimer 
+Whilst every effort has been made to ensure that the matter presented in this 
+document is relevant, accurate and up to date, the (sub)contractors cannot accept 
+any liability for any error or omission, or reliance on part or all of the content in 
+another context. 
+ 
+Any information and views set out in this document are those of the author(s) and do 
+not necessarily reflect the official opinion of the European Commission. The 
+Commission does not guarantee the accuracy of the data included in this study. 
+Neither the Com mission nor any person acting on the Commission’s behalf may be 
+held responsible for the use that may be made of the information contained therein.  
+ 
+ 
+© European Commission, 2025. 
+The EU does not own the copyright in relation to the following elements:  
+- Cover page photos, © www.shutterstock.com 
+  
+
+[PDF 3쪽]
+ 
+ 
+3 
+Thematic Report  
+  Seniors   
+Contents 
+ 
+Summary................................................................................... 4 
+1. What is the problem? ............................................................. 5 
+2. How do seniors participate in traffic? ....................................... 5 
+3. Seniors and road safety ......................................................... 6 
+3.1 Crash risk ........................................................................ 6 
+3.2 Causation factors .............................................................. 7 
+3.3 Frailty ............................................................................. 7 
+3.4 Age-related changes ......................................................... 8 
+3.5 Typical crashes ................................................................. 8 
+3.5.1 Pedestrians ................................................................... 8 
+3.5.2 Cyclists ......................................................................... 9 
+3.5.3 Car drivers .................................................................. 10 
+4. Countermeasures ................................................................ 11 
+4.1 Infrastructure ................................................................ 11 
+4.2 Road users .................................................................... 11 
+4.2.1 Fitness-to-drive ........................................................... 11 
+4.2.2 Training ...................................................................... 12 
+4.3 Vehicles ........................................................................ 13 
+4.3.1 Passive protection systems ............................................ 13 
+4.3.2 Assistance and information systems ............................... 14 
+4.3.3 Vehicle automation ....................................................... 16 
+4.3.4 Bicycles for seniors ....................................................... 16 
+5. Further reading ................................................................... 16 
+6. References ........................................................................ 17 
+ 
+ 
+  
+
+[PDF 4쪽]
+ 
+ 
+4 
+Thematic Report  
+  Seniors   
+Summary 
+This report considers seniors as those aged 65 years and over. 
+Health conditions that reduce mobility and increase crash risk can 
+occur at any age, but do so more frequently from 50 years on. The 
+highest risk is observed for road users over 75 years of age.   
+ 
+Seniors are most at risk in  traffic as pedestrians or cyclists . Seniors 
+form a high proportion of casualties as well as being at significantly 
+greater risk per kilometre travelled. As drivers, seniors are a greater 
+risk to themselves than to other road users. 
+ 
+Seniors’ high crash risk  is due to three factors: Vulnerability: 
+crashes are more likely to have serious consequences. This is the 
+most important reason for the overrepresentation of seniors in crash 
+statistics. Reduced driving: Seniors typically drive fewer kilometres 
+than younger drivers. Drivers with a low mileage have a higher risk 
+per kilometre (regardless of age) because of the higher proportion 
+of kilometres driven in urban areas and a lack of routine; and 
+Fitness to drive : on average seniors have a greater crash risk 
+because of age-related cognitive and physical limitations and health 
+conditions that affect fitness to drive. 
+ 
+Crashes involving seniors typically occur at complex traffic situations . 
+Senior drivers and riders are particularly involved in left-turn 
+crashes (right-turn in case of left-hand traffic countries) and 
+senior pedestrians while crossing at unsignalized locations. 
+ 
+With respect to infrastructure, seniors particularly benefit from a 
+clear and predictable lay-out of intersections with ample time to 
+react, as do other road users. 
+ 
+The fitness of older drivers should be monitored in a staged system 
+of screening (self-test, advice from the primary care physician; 
+reference to a specialist for a more thorough examination). A 
+general age-based screening of all drivers is not deemed advisable.  
+ 
+Training may counter age-related problems in traffic and support 
+seniors’ compensation strategies. However, there is mixed evidence on 
+the effectiveness of such training. 
+ 
+Passive safety measures such as smart seatbelts and bicycle helmets 
+are important for seniors to compensate for their physical 
+vulnerability. Advanced Driver Assistant Systems (ADAS) can help 
+seniors by  compensating for some age-related problems. Forward 
+collision warning/mitigation, navigation systems, and parking 
+assistants have been favourably evaluated.   
+
+[PDF 5쪽]
+ 
+ 
+5 
+Thematic Report  
+  Seniors   
+1. What is the problem?  
+Society is continuously aging and the baby boomer generation, who is 
+getting older, is healthier and more mobile than any other previous 
+generation of seniors. The proportion of people aged 65 years or over 
+in the total population of the European Union (EU-27) has been 
+projected to increase from 21.1% in 2022 to 31.3% in 2100 (Eurostat, 
+2023). Similarly, the number of people aged 80 years or over is 
+expected to grow from 6.1% in 2022 to 14.6% in 2060.  With larger 
+absolute numbers and greater participation in traffic , the number of 
+senior road crash casualties is also rising. 
+ 
+Most statistics define seniors as people aged 65 and over. However, it 
+is not possible to draw a firm line here, because this group is very 
+heterogeneous (Bell et al., 2013). Some studies consider 50 or 55 year-
+olds as seniors already, while others only start with the age group of 
+70 (Krarup, 2012). This practice reflects the fact that seniors form a 
+very heterogeneous group. Some struggle with health problems and 
+functional loss as early as 50 to 60 years, whereas others are fit until 
+high in their 80s (GOAL, 2013). This report considers seniors as those 
+aged 65 years and over. 
+ 
+On average, the risk of being fatally injured increases from the age of 
+75 on ward. Among those aged 65 –74, the average risk is also 
+increased, though to a lesser extent  (CONSOL, 2014). It is important 
+to make a distinction between the risk that older adults run themselves, 
+and the risk that they pose to other road users. Evidence, albeit 
+somewhat dated, indicates that older people are primarily at higher risk 
+of being severely or fatally injured in crashes compared with middle -
+aged road users, while their likelihood of causing a crash that harms 
+others appears less strongly elevated (e.g., Davidse, 2007). Older road 
+users’ greater physical vulnerability and the changes associated with 
+ageing form a challenge for policymakers to make the infrastructure 
+‘foolproof’, ensure this groups’ fitness to drive or  cycle, and promote 
+technical solutions that can comp ensate for certain age -related 
+problems (e.g., Karthaus & Falkenstein, 2016). 
+2. How do seniors participate in 
+traffic? 
+With increasing age, seniors reduce both the number and length of 
+their trips. In particular, in between the age of 75 and 79 a drop in 
+the number of trips is observed in many European countries (Bell et 
+al., 2013). A more recent EU-wide survey reports a decline in 
+
+[PDF 6쪽]
+ 
+ 
+6 
+Thematic Report  
+  Seniors   
+mobility already from the age of 55  (Armoogum et al., 2022) . 
+Although the distribution of transport modes varies between 
+countries, typically the proportion of trips as a car driver decreases 
+while the share of walking and riding as a passenger is increased 
+(Bell et al., 2013). In countries where cycling is common, there is a 
+strong increase in the use of pedelecs (electrically assisted bicycles) 
+by older cyclists. In Germany, for example, 11% of senior 
+households have at least one pedelec, and half of the distances 
+covered by pedelecs are by persons of 60 years and above (Nobis & 
+Kuhnimhof, 2018). In the Netherlands, around 25% of total bicycle 
+distance in the general population is covered by pedelec; among 
+those 65 –75 it is almost 50%, and among those 75+ it exceeds 
+60% (de Haas & Hamersma, 2020). Several European countries are 
+in transition to encourage sustainable modes of transport, but 1. they 
+have not yet completely modified their infrastructure to safely include 
+cyclists and personal mobility devices as scooters, and 2. older users, 
+whether motorists or cyclists, have not yet been able to adapt their 
+behavior to these changes. 
+3. Seniors and road safety 
+The rising number of seniors in the population is reflected in the crash 
+statistics. In 1992, in the European Union (EU27)  17% of the  people 
+who were killed in a road crash w ere 65 and older ; whereas in 20 23 
+this share had risen to 28%. Seniors make up a large proportion of the 
+pedestrians ( 47%) and cyclists (4 7%) killed in road traffic crashes. 
+Accordingly, almost half (49%) of the senior fatalities in Europe (2023) 
+was either a pedestrian or cyclist. In contrast, among younger road 
+users (0-64 years old), pedestrians and cyclists account for only 20% 
+of the fatalities. For more details see Facts and Figures Seniors 
+(European Commission, 2025). 
+3.1  Crash risk 
+Compared to middle -aged adults, seniors – especially from 75 years 
+onward – have a greater risk of severe injury or even death in every 
+mode of transport (Bell et al., 2013). For example, in 2013 -2022 in 
+the Netherlands, older (70+) car drivers carried a risk of dying in a road 
+crash 2.8 times higher than younger car drivers (60-) (SWOV, 2024). 
+For older (70+) pedestrians the risk was 6.6 times higher and for older 
+(70+) cyclists the risk was even higher; 12.4 times higher than for 
+younger pedestrians. Whereas 60 -69-year old p edestrians and car  
+drivers have a comparable risk to younger pedestrians and car drivers, 
+the risk of dying in a road crash for cyclists increases from the age of 
+60 years (SWOV, 2024). 
+ 
+
+[PDF 7쪽]
+ 
+ 
+7 
+Thematic Report  
+  Seniors   
+For motor-vehicle drivers, we can differentiate between two types of 
+risk: sustaining injuries (or death) oneself due to a crash, or , being 
+involved in a crash where someone else is injured (a passenger or 
+another party). Older drivers are at especially increased risk of dying 
+or being seriously injured due to a crash, but less so to be involved in 
+a crash in which someone else is hurt (Davidse, 2007; Dellinger et al., 
+2004; Lafont et al., 2010; Tefft, 2008). Seniors are more at risk 
+themselves than being a danger to others in traffic. 
+3.2  Causation factors 
+Increased risk for older road users can be ascribed to three factors: 
+ 
+• Frailty bias: older people are more vulnerable. A crash that would 
+leave a younger person with relatively minor injuries can cause 
+severe injuries in older persons. Moreover, seniors have an 
+increased likelihood of complications and even with fatal 
+consequences. Accordingly, older road users are overrepresented 
+in all crash statistics, in particular regarding severe injury and 
+fatality. See for more information Paragraph 3.3. Frailty) 
+ 
+• Reduced driving: older drivers travel less than younger people. 
+Low mileage drivers have a higher risk per kilometre travelled 
+(regardless of age) – particularly because of the type of road that 
+is mostly used (more high -risk urban traffic, fewer low -risk 
+motorways) (Zhu et al., 2025),  but also because of the lack of 
+routine ( Charlton et al., 2019; Janke, 1991; Langford et al., 
+2006; Rolison & Moutari, 2018). 
+  
+• Fitness to drive: on average seniors are at greater risk of being 
+involved in a crash because of age-related cognitive and physical 
+limitations and because of the higher occurrence of diseases that 
+increase crash risk (Charlton et al., 2010; Falkenstein et al., 
+2020; Vaa, 2003).  
+3.3  Frailty 
+Older people’s bones break more easily, broken tissue takes longer to 
+heal, and complications are more likely – in particular in conjunction 
+with possible existing health conditions. For this reason , older road 
+users are severely injured or even killed in crashes that would be less 
+serious for younger people (Ang et al., 2017; Johannsen & Müller, 
+2013). The EC project SENIORS (Wisch et al., 2017) gives a good 
+overview of injuries for senior road users: 
+ 
+
+[PDF 8쪽]
+ 
+ 
+8 
+Thematic Report  
+  Seniors   
+• For car occupants, thorax injuries especially are more frequent 
+and more severe in older occupants. For example, breaking three 
+ribs or more is the most common injury type, with the risk being 
+approximately 1.5 times greater for the 65+ age group compared 
+with the 25-64 age group. These injuries are often caused by the 
+seatbelt. 
+ 
+• For cyclists, most very severe injuries occur to head, thorax and 
+lower extremities. Injuries to the upper extremity are common 
+among injuries of moderate severity. Moreover, for users of 
+pedelecs, the injury risk is greater for injuries to the head and 
+the upper and lower extremities (Poos et al., 2017). 
+ 
+• In the case of pedestrians, the body regions most affected are 
+similar to those for younger pedestrians, namely the lower 
+extremities, the head, and the thorax. Also, senior pedestrians 
+often suffer injuries to the upper extremities, although these are 
+mostly of moderate severity. 
+3.4  Age-related changes 
+Older road users are less likely to exhibit risky behaviour. As drivers, 
+they tend to drive more slowly, keep a greater following distance, and 
+are less likely to execute dangerous manoeuvres (such as risky 
+overtaking). A number of functions required to drive a vehicle can 
+however deteriorate with increasing age: sight, in particular peripheral 
+sight and night vision; balance; agility; reaction time. Such 
+deterioration does not affect everybody to the same extent at the same 
+age and does not necessarily lea d to reduced fitness to participate in 
+traffic. Often these limitations are compensated for by choosing the 
+place and time where one drives or rides and by a careful driving/riding 
+style. Apart from the “normal” age-related symptoms, chronic diseases 
+such as heart and arterial problems, dementia or arthritis become more 
+frequent at an older age. While limitations related to just one illness 
+can often be compensated for, the risk of crashes increases clearly with 
+multiple diseases. Medicine that is taken bec ause of these conditions 
+can moreover cause drowsiness and inattentiveness and therefore also 
+impair driving (Ramaekers, 2017). (See, e.g., Karthaus and Falkenstein 
+(2016) for more details). 
+3.5  Typical crashes 
+3.5.1 Pedestrians 
+When a pedestrian falls, this is not considered as a road crash if no 
+vehicle is involved (UNECE, 2019). This is estimated to be the case with 
+
+[PDF 9쪽]
+ 
+ 
+9 
+Thematic Report  
+  Seniors   
+three out of four injured pedestrians treated in hospital. Consequently, 
+these cases do not figure in any statistics on transport crashes. The 
+cause of this type of crash is often found to be a poorly maintained road 
+surface (Methorst et al., 2017). 
+ 
+In 2022, almost 1 in 2 pedestrian fatalities  (47%) was a person aged 
+65 or older, and the share had increased since 2012 when 44% of the 
+fatally injured pedestrians was over 65 (European Commission, 2024a).  
+In pedestrian crashes with other road users , older pedestrians are 
+overrepresented in crashes at intersections (e.g., O’Hern et al., 2015; 
+Fiorentino et al., 2017 ). In a literature review (Oxley et al., 2004) it 
+was shown that older adults – especially those with reduced mobility – 
+are less likely to use crossing facilities if this involves more walking. On 
+unsignalised crossings, older pedestrians fail more often than younger 
+ones to take their (slower) walking speed into account, especially in 
+complex traffic environments (Wilmut & Purcell, 2022). Moreover, they 
+are more likely to look down to the ground to avoid falling  (Zito et al., 
+2015) and therefore fail to see other road users. Other causal factors 
+include incorrectly judging the speed of the oncoming vehicle or not 
+expecting the vehicle’s manoeuvre (e.g. vehicles reversing or turning). 
+Finally, pedestrians’ reduced visibility plays an important role in crashes 
+of all age groups (Ewert, 2012; Oxley et al., 2004). 
+3.5.2 Cyclists 
+In 2022, 1 out of 2 cyclist fatalities were persons aged 65 years or older 
+(European Commission, 2024b). The vast majority of the injury crashes 
+of cyclists do not involve motor vehicles, but are falls or collisions with 
+non-motorised vehicles. A study a mong cyclists who were treated in 
+hospital or the emergency rooms in the Netherlands, Austria, and 
+Switzerland, showed that approximately 90% had been involved in a 
+crash without a motor vehicle (Methorst et al., 20 16). This study 
+concerned all age groups, but the share of non-motor vehicle crashes 
+can be expected to be even higher for older cyclists, as they generally 
+have more problems with balancing and getting on and off their bicycle 
+(Methorst et al., 2016). It must be noted that bicycle crashes without 
+motor vehicle involvement are severely underreported and hence much 
+more frequent than crash statistics suggest.    
+ 
+Older cyclists who were involved in a crash without a motor vehicle 
+were studied in the Netherlands. Three types of crashes were identified, 
+each with an approximately equal share (Boele-Vos et al., 2017): 
+1) collided with another cyclist (mainly not so old cyclists, 50-70) 
+2) bumped into an obstacle (all ages 50+) 
+3) fell (e.g. due to a steering error or when stopping or turning) 
+(mainly 70+). 
+
+[PDF 10쪽]
+ 
+ 
+10 
+Thematic Report  
+  Seniors   
+ 
+Older cyclists colliding with a motor vehicle are often turning left (right 
+in countries with left -hand traffic) (Goldenbeld, 1992; Oxley et al., 
+2004). 
+ 
+Pedelecs (electrically assisted bicycles) are a new, attractive means of 
+transport for senior citizens. In a naturalistic cycling study, it was found 
+that seniors ride their pedelecs more slowly than middle -aged cyclists 
+but faster than their peers on conv entional bikes (Schleinitz et al., 
+2017). The crash-involvement risk when using a pedelec is subject to 
+scientific debate. For older women riding pedelecs poses greater injury 
+risk as compared to riding conventional bicycles, but this effect is not 
+clear for older men (Schepers et al., 2020). Important crash causation 
+factors are problems with balance and unfamiliarity with the pedelec 
+(Fyhri et al., 2019; Schepers et al., 2020). 
+3.5.3 Car drivers 
+Intersections are challenging for all drivers because they require 
+simultaneous observation of multiple road users, estimation of their 
+speeds, and rapid decision-making. Some of these skills can deteriorate 
+with ageing, which makes these situations particularly difficult for 
+seniors. Accordingly, senior drivers have a higher percentage of crashes 
+at intersections, especially in left-turn conflicts (or right-turn in left-
+hand traffic countries). Senior drivers fail more often than middle-aged 
+drivers to giv e priority to other road users and commit more driving 
+errors such as crossing a red light or deviating from their lane (Fornells 
+et al., 2017; Johannsen & Müller, 2013). In Denmark, an in -depth 
+investigation of 32 crashes involving car drivers of 70 years  or over 
+found three types of crash, each taking up about one third of the sample 
+(HVU, 2012): 
+1) The driver became ill and therefore incapacitated to drive. 
+Denmark had at the time of the study a mandatory medical 
+check-up for senior drivers and all drivers had passed the 
+mandatory examination within the year preceding the crash. The 
+investigator judg ed in two cases that there could have been 
+doubts regarding the fitness to drive at the time of testing. For 
+two other drivers, it was concluded that they should have realised 
+before departure that their health condition was deteriorating. 
+2) The driver should have given priority or had crossed a red light. 
+In all cases the senior driver missed some vital information. 
+Contributing factors were stress or anxiety on the senior’s part, 
+exaggerated speed by the other party, and complexity of the 
+infrastructure. 
+
+[PDF 11쪽]
+ 
+ 
+11 
+Thematic Report  
+  Seniors   
+3) The driver was innocently involved because of another road user’s 
+error. There was nothing the senior driver could have done to 
+prevent the crash. 
+4. Countermeasures 
+4.1  Infrastructure 
+Infrastructure that is good for seniors is good for everyone. Seniors 
+particularly benefit from clear and predictable layout at intersections, 
+but younger road users also benefit. Important aspects include 
+(Davidse, 2007): 
+  
+• Pedestrian islands between wide crossover intersections where 
+pedestrians and cyclists can safely wait. With fewer lanes to cross 
+and only one direction to check, the complexity of crossing is 
+reduced. 
+• Good maintenance of pavement and cycle paths, reducing the 
+risk of falling and the need to look down. 
+• Good visibility in the approach to an intersection, giving drivers 
+time to anticipate. 
+• Joining roads at an angle of 90° so that looking back over the 
+shoulder to see oncoming traffic can be avoided. 
+• Conflict-free traffic lights and separate lanes for left -turning 
+traffic (right turning in case of left hand traffic). 
+• Clear traffic signs, installed well in advance (right -of-way rules, 
+warnings, indication of lanes). 
+• Traffic signs and road markings with high contrast and large font. 
+• Reduced speed. 
+ 
+For the benefit of walking and cycling seniors, road -crossings should 
+have flattened curbs and all walking and cycling infrastructure should 
+be well maintained to prevent potholes, slippery surfaces, protruding 
+tiles, etc. that can cause falls or distract seniors from attending to other 
+aspects of the traffic (Methorst et al., 2017). 
+4.2  Road users 
+4.2.1 Fitness-to-drive 
+Due to the increased numbers and mobility of older drivers in most 
+industrialised countries, there has been a growing concern to ensure 
+the fitness of older drivers. General screening from a certain age seems 
+intuitively the most obvious solution. However,  the evidence does not 
+support it (Grabowski et al., 2004; Langford et al., 2008; Martensen, 
+
+[PDF 12쪽]
+ 
+ 
+12 
+Thematic Report  
+  Seniors   
+2017; Siren & Haustein, 2015; Siren & Meng, 2012; Skyving et al., 
+2018; Vlakveld & Davidse, 2011) . In practice, broad testing of all 
+seniors (without any specific reason) has even proven to be 
+counterproductive (Hakamies-Blomqvist et al. 1996; Mikkonen, 2014). 
+One of the reasons is that people who do not drive very often voluntarily 
+cease driving because of the medical examination.  This could be a 
+problem for road safety because older road users are typically more at 
+risk when they walk or cycle instead of using the car (Hakamies -
+Blomqvist et al., 1996; Vlakveld & Davidse, 2011). Moreover, 
+disqualification could mean for those affect ed a dramatic and 
+unnecessary reduction in social integration (Marottoli et al., 2000).  
+Furthermore, driving cessation is associated with depressive symptoms 
+in older people (Carpenter et al., 2025) 
+ 
+Advising against age -based screening does not mean that it is not 
+necessary to pay attention to the fitness of drivers. A staged system of 
+screening, starting with a simple self-test and /or a visit to the primary 
+care physician, is an alternative to mass screening.  If primary care 
+physicians doubt the patient’s fitness to drive, they can refer patients 
+to specialist s for a more thorough examination, which should be 
+focused on maintaining mobility, e.g. by issuing a limited licence (e.g. 
+day-time only), adjusting medication, or possibly adapting the vehicle 
+(Helman et al., 2017). Medical professionals need to be well informed 
+about the potential risks posed by medical conditions (ETSC, 2021).   
+ 
+The fitness to drive of driving licence holders will in the future be more 
+systematically checked  across the EU . The new Directive  (EU) 
+2025/2205 on driving licences1, which entered into force in November 
+2025, contains several provisions that aim at ascertaining whether a 
+driver is still (physically and mentally) fit to drive. As a minimum, 
+drivers will be asked to fill in a self-assessment before a licence is issued 
+to them and at each licence renewal or comply  with other assessment 
+systems designed at the national level.  
+4.2.2 Training 
+In general, no reductions in crash risk or improvements to driving 
+performance have been demonstrated simply as a result of educational 
+measures (e.g., awareness -raising with respect to age -related 
+problems in driving; encouragement to minimise difficulties by avoiding 
+certain situations like not driving at night or during rush -hours; 
+refreshing the knowledge of traffic rules; Fausto et al., 2021). However, 
+the combination of this type of e ducational measures and practical 
+ 
+1 https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202502205 
+
+[PDF 13쪽]
+ 
+ 
+13 
+Thematic Report  
+  Seniors   
+driving lessons has been shown to improve driving performance (Fausto 
+et al., 2021; Poschadel et al., 2012). 
+ 
+One well-known type of training for older drivers are refresher courses. 
+These courses are offered in many countries and usually consist of a 
+theoretical and a practical part (Marin-Lamellet & Haustein, 2015). The 
+practical part often consists of a feedback drive, where the participants 
+take a ride with an instructor and get feedback afterwards on how to 
+improve their driving.  
+ 
+Another type of training focusses on functionalities that are reduced 
+specifically in older adults, such as useful field of view, information 
+processing speed, or physical agility.  This kind of training often takes 
+place in much longer courses (typically 4 to 12 sessions) and has been 
+shown to improve driving performance (Fausto et al., 2021). 
+ 
+Courses can also be aimed at encouraging walking, cycling, and the use 
+of public transport. The drawback of this type of courses is that they 
+usually attract persons who have already adopted the desired 
+behaviours, and the courses are less successful in increasing 
+acceptance of other transport modes by car -reliant users (Marin -
+Lamellet & Haustein, 2015). 
+ 
+For cyclists, in particular for new users of pedelecs, courses to improve 
+safe cycling have also been suggested (Fyhri et al., 2019; Schepers et 
+al., 2020)  and been implemented , for example in the CycleOn 
+programme in the Netherlands.  However, effectiveness of these 
+courses has not been investigated yet. 
+4.3  Vehicles 
+4.3.1 Passive protection systems 
+Seatbelts have an important protective function, but nevertheless they 
+can also be the source of injuries (rib fractures) that can be very serious 
+and even life -threatening for senior car occupants  (Ekambaram, 
+Frampton & Lenard, 2019). To improve their protection, it is necessary 
+to test vehicles and restraint systems with crash test dummies that 
+reflect the frailty of senior car occupants. Since injury probability for 
+seniors starts increasing at lower speeds, crash tests should also 
+include a moderate speed condition (e.g. 35 km/h) to optimize research 
+into protective measures for this target group. New restraint system 
+concepts can greatly reduce the risk of serious thorax injury to older 
+car occupants in frontal impacts  (see e.g. Ekambaram et al., 2015) . 
+While benefits will also accrue for occupants of other ages, it has been 
+estimated that new restraint  systems would potentially save 800 to 
+
+[PDF 14쪽]
+ 
+ 
+14 
+Thematic Report  
+  Seniors   
+1,200 lives among the 65+ age group and avert 6,500 to 10,500 
+serious injuries over ten years if implemented in all new cars in Europe, 
+resulting in an estimated economic benefit between 4.7-8.1 billion euro, 
+over the period 2020-2030 (Thomas et al., 2018). 
+ 
+Bicycle helmets can reduce serious head injury by 48% (Høye, 2018), 
+which would be important for senior cyclists who have a heightened 
+risk of head injury – especially if they use a pedelec (Poos et al., 2017). 
+4.3.2 Assistance and information systems 
+A distinction can be made between advanced driver assistance systems 
+(ADAS) and in -vehicle navigation systems (IVNS). In a general wa y, 
+ADAS and IVNS are considered useful for older motorists if they  
+(Davidse, 2006; Mitchell & Suen, 1997): 
+• draw the driver's attention to oncoming traffic; 
+• signal road users who are in the driver's blind spot; 
+• help the driver to focus his or her attention on the important 
+aspects of traffic; 
+• provide advance information on the traffic situation. 
+ 
+In-vehicle navigation systems (IVNS) 
+Navigation systems are favourably evaluated, because they help 
+drivers to focus on their driving rather than be distracted by searching 
+for particular roads or streets (Eby et al., 2016; Young et al., 2017). 
+They can however also be a source of distraction  from driving 
+(Emmerson et al., 2013). For senior drivers, the reference to landmarks 
+(as icons or audio instructions) can improve the support in way finding 
+(Edwards et al., 2016). 
+ 
+Possible extensions tailored to specific problems of senior drivers have 
+been suggested: specially adapted route selection, e.g. avoid turning 
+left – or right in case of left hand traffic (Schwarze et al., 2014); or 
+displaying relevant information from the environment, e.g. signs or 
+cyclists/pedestrians (Hoffmann et al., 2013). However, products 
+"especially for the elderly" can be perceived as stigmatizing and might 
+not therefore reach their intended user group (Braun et al., 2019). 
+ 
+Advanced Driving Assistance Systems (ADAS) 
+To  evaluate the effects on traffic safety of advanced driving assistance 
+systems, three questions need to be asked: (1) does it (if applied) 
+prevent crashes? (2) is it used?, and (3) could drivers put too much 
+trust in the system (overconfidence)? 
+ 
+
+[PDF 15쪽]
+ 
+ 
+15 
+Thematic Report  
+  Seniors   
+Forward collision warning or mitigation  can compensate for reduced 
+vision and attention and slower execution of movements due to age. 
+Since the systems work on the basis of radar (among other things) they 
+can compensate for poor night vision. It is estimated that the number 
+of crashes could be reduced by 20% if all vehicles (independent of 
+driver age) were equipped with such a system. Forward collision 
+warning systems are well received by seniors and do not cause 
+overconfidence (Eby et al., 2016). 
+ 
+Intersection assistants can compensate for some seniors’ problems by 
+estimating speed and distance of oncoming vehicles and simultaneously 
+monitoring different road users. However, the results of simulator 
+studies are mixed. Some positive results were found, but other studies 
+found no clear improvement in crossing behaviour, and even 
+deterioration. There appeared to be overconfidence in the system in 
+that participants did not check intersections as they did before using 
+the assistant (Becic et al., 2018). 
+ 
+Behavioural adaptation can also be established for blind-spot warnings. 
+Many seniors find it increasingly difficult to turn their head and check 
+their blind-spot, which therefore makes a blind -spot warning system 
+welcome to them. Users report increased awareness of the vehicles 
+around them and are seen to check their mirrors more frequently. 
+However, they also make less use of their indicator lights and take 
+fewer looks over their shoulder, which could be seen as overconfidence 
+in the system (Eby et al., 2016). 
+ 
+Parking assistants  do not only increase comfort and reduce stress 
+levels, but also reduce some actual dangers such as running into a 
+passing vehicle or pedestrian when backing out of a parking space (Eby 
+et al., 2016). 
+ 
+Use of ADAS and INVS: senior drivers have as many driving assistance 
+systems in their car as the middle -aged generation and are more 
+concerned about safety: and yet older drivers are less comfortable with 
+using modern advanced technology , and less likely to use carry -in 
+technology such as smartphones in their car. However, they tended to 
+use in-vehicle technology such as navigation systems, collision warning 
+systems, and backup cameras at the same rate as younger generations 
+(Owens et al., 2015) . Promoting the use of ADAS and INVS would 
+increase the safety of this group. Driving simulators appear to be a safe 
+way of introducing senior citizens to assistance systems. Such hands -
+on learning appears more effective in promoting the use of such 
+systems than verbal explanation (Bellet et al., 2018).  
+ 
+
+[PDF 16쪽]
+ 
+ 
+16 
+Thematic Report  
+  Seniors   
+4.3.3 Vehicle automation 
+While great hope is placed on ADAS and INVS systems, vehicle 
+automation that takes over the driving task (almost) completely from 
+the driver is seen as even more promising. However, the degree of 
+automation that can realistically be achieved within the nex t few 
+decades is that of Highly Automated Vehicles (Level 3, SAE/ISO, 2021), 
+and this will not resolve the problem of fitness to drive. When a take -
+over request from the vehicle occurs, one has to switch from passenger 
+to driver and the mental flexibility required at that moment could be 
+subject to age -related decline. Most s tudies that have investigated 
+takeover performance by senior drivers in a driving simulator conclude 
+that their performance is poorer compared to younger adults (see the 
+overview of Li et al., 2019 and review by Gasne et al., 2022) . Their 
+takeover times are longer, and they steered and braked  a little too 
+hard. Older drivers are more intensively engaged in their side activities 
+and benefit more from earlier warning of taking over.  
+ 
+These findings do not address the effect of certain health conditions on 
+the ability to take over the wheel again. To conclude, there are health 
+requirements that must be met for driving an automated vehicle, 
+although they may not be the same as for conventional vehicles. 
+Guidelines will therefore be needed in the foreseeable future for the 
+fitness to drive highly automated vehicles which still require human 
+involvement. 
+4.3.4 Bicycles for seniors 
+Older cyclists can benefit from a few simple bicycle modifications like 
+anti-slip pedals, a rearview mirror on the handlebars or a more powerful 
+headlight to see obstacles or suchlike well ahead of time (Schepers, et 
+al., 2020) . In order to improve balance and  improve safety  when 
+gaining speed or slowing down, modified bicycles are being developed. 
+A tricycle can provide stability even at standstill  (Schepers et al., 
+2020); an electric tilting tricycle can provide extra stability while 
+cornering (Stelling, Hettema & Boele, 2024) . Another example is a  
+bicycle with a low saddle height - to enable the riders to put their feet 
+on the ground - and an active handlebar support - to keep the bicycle 
+stable at lower speeds (Dubbeldam et al., 2017). 
+ 
+ 
+5. Further reading 
+Davidse, R. J. (2007). Assisting the older driver: intersection design and in -car devices to 
+improve the safety of the older driver . Dissertation Groningen University. SWOV, 
+
+[PDF 17쪽]
+ 
+ 
+17 
+Thematic Report  
+  Seniors   
+Leidschendam. 
+www.swov.nl/sites/default/files/publicaties/dissertatie/ragnhild_davidse.pdf  
+ 
+Karthaus, M., & Falkenstein, M. (2016). Functional changes and driving performance in 
+older drivers: Assessment and interventions. Geriatrics 1(2). 
+https://doi.org/10.3390/geriatrics1020012  
+ 
+Eby, D. W., Molnar, L. J., Zhang, L., St. Louis, R. M., Zanier, N., Kostyniuk, L. P., & 
+Stanciu, S. (2016).  Use, perceptions, and benefits of automotive technologies among 
+aging drivers. Injury Epidemiology , 3(1). https://doi.org/10.1186/s40621 -016-0093-4 
+ 
+Li, S., Blythe, P., Guo, W., & Namdeo, A. (2019). Investigation of older drivers’ 
+requirements of the human -machine interaction in highly automated vehicles. 
+Transportation Research Part F: Traffic Psychology and Behaviour , 62, 546–563. 
+https://doi.org/10.1016/j.trf.2019.02.009.  
+ 
+6. References 
+Achermann Stürmer, Y., Berbatovci, H., & Butler, I. (2020). Cyclists. ESRA2 Thematic report 
+Nr. 11. ESRA project (E-Survey of Road users’ Attitudes). Swiss Council for Accident 
+Prevention. esranet.eu/storage/minisites/esra2018thematicreportno11cyclists.pdf 
+ 
+Ang, B. H., Chen, W. S., & Lee, S. W. H. (2017). Global burden of road traffic accidents in 
+older adults: A systematic review and meta-regression analysis. Archives of Gerontology 
+and Geriatrics, 72, 32–38. https://doi.org/10.1016/j.archger.2017.05.004 
+ 
+Armoogum J., Garcia C., Gopal Y., Borgato S., Fiorello D., Maffii S., Mars K-J., Popovska T., 
+Schlemmer L., Vincent V., Bogaert M., Gayda S. (2022) Study on new mobility patterns in 
+European cities. Task A: EU-Wide Passenger Mobility Survey. Brussels, European 
+Commission.  
+ 
+Becic, E., Edwards, C. J., Manser, M. P., & Donath, M. (2018). Aging and the use of an in- 
+vehicle intersection crossing assist system: An on-road study. Transportation Research 
+Part F: Traffic Psychology and Behaviour, 56, 113–122. 
+https://doi.org/10.1016/j.trf.2018.03.032 
+ 
+Bell, D., Pokriefke, E., Risser, R., Biler, S., Šenk, P., Parkes, A., Stannard, J., Armoogum, J., 
+Marin Lamellet, C., Gabaude, C., Loupe Madre, J., Alauzet, A., Monterde i Bort, H., & 
+Henriksson, P. (2013). Mobility Patterns in the Ageing Populations. Deliverable WP2 of the 
+EC FP7 Project CONSOL. 
+ 
+Bellet, T., Paris, J. C., & Marin-Lamellet, C. (2018). Difficulties experienced by older drivers 
+during their regular driving and their expectations towards Advanced Driving Aid Systems 
+and vehicle automation. Transportation Research Part F: Traffic Psychology and Behaviour, 
+52, 138–163. https://doi.org/10.1016/j.trf.2017.11.014 
+ 
+Boele-Vos, M. J., Van Duijvenvoorde, K., Doumen, M. J. A., Duivenvoorden, C. W. A. E., 
+Louwerse, W. J. R., & Davidse, R. J. (2017). Crashes involving cyclists aged 50 and over in 
+the Netherlands: An in-depth study. Accident Analysis and Prevention, 105, 4–10. 
+https://doi.org/10.1016/j.aap.2016.07.016 
+ 
+Braun, H., Gärtner, M., Trösterer, S., Akkermans, L. E. M., Seinen, M., Meschtscherjakov, A., 
+& Tscheligi, M. (2019). Advanced driver assistance systems for aging drivers. Proceedings 
+- 11th International ACM Conference on Automotive User Interfaces and Interactive 
+Vehicular Applications, AutomotiveUI 2019, 123–133. 
+https://doi.org/10.1145/3342197.3344517 
+ 
+Carpenter, J., Koppel, S., & Bennett, J. M. (2025). Understanding the relationship between 
+driving cessation and depressive symptomology in older adults: A systematic review. 
+
+[PDF 18쪽]
+ 
+ 
+18 
+Thematic Report  
+  Seniors   
+Transportation Research Part F: Traffic Psychology and Behaviour, 114 , 535 –549. 
+https://doi.org/https://doi.org/10.1016/j.trf.2025.05.035  
+ 
+ 
+Charlton, J. L., Koppel, S., Odelll, M., Devlin, A., & Langford, J. (2010). Influence of chronic 
+illness on crash involvement of motor vehicle drivers. Monash University Accident 
+Research Centre, Melbourne. 
+ 
+Charlton, J.L., Koppel, S., D'Elia, A., Hua, P., et al. (2019). Changes in driving patterns of 
+older Australians: Findings from the Candrive/Ozcandrive cohort study. Safety Science, 
+119, 219-226. 
+ 
+CONSOL (2014). CONcerns & SOLutions - Road Safety in the Ageing Societies. Synthesis & 
+Recommendations. Deliverable 6 of the EC FP6 project CONSOL. 
+https://ec.europa.eu/transport/road_safety/sites/roadsafety/files/pdf/projects_sour  
+ces/consol_synthesis_recommendations.pdf 
+ 
+Davidse, R.J. (2006). Older drivers and ADAS; Which systems improve road safety? IATSS 
+Research, 30(1), 6-20. 
+ 
+Davidse, R. J. (2007). Assisting the older driver : intersection design and in-car devices to 
+improve the safety of the older driver. Dissertation Groningen University. SWOV, 
+Leidschendam. 
+www.swov.nl/sites/default/files/publicaties/dissertatie/ragnhild_davidse.pdf  
+ 
+De Haas, M., & Hamersma, M. (2020) Cycling facts new insights. The Hague, Netherlands 
+Institute for Transport Policy Analysis – KiM.  
+ 
+Dellinger, A. M., Kresnow, M. J., White, D. D., & Sehgal, M. (2004). Risk to self versus risk to 
+others: How do older drivers compare to others on the road? American Journal of 
+Preventive Medicine, 26(3), 217–221. https://doi.org/10.1016/j.amepre.2003.10.021 
+ 
+Dubbeldam, R., Baten, C., Buurke, J. H., & Rietman, J. S. (2017). SOFIE, a bicycle that 
+supports older cyclists? Accident Analysis and Prevention, 105, 117–123. 
+https://doi.org/10.1016/j.aap.2016.09.006 
+ 
+Eby, D. W., Molnar, L. J., Zhang, L., St. Louis, R. M., Zanier, N., Kostyniuk, L. P., & Stanciu, 
+S. (2016). Use, perceptions, and benefits of automotive technologies among aging drivers. 
+Injury Epidemiology, 3(1). https://doi.org/10.1186/s40621-016-0093-4 
+ 
+Edwards, S. J., Emmerson, C., Namdeo, A., Blythe, P. T., & Guo, W. (2016). Optimising 
+landmark-based route guidance for older drivers. Transportation Research Part F: Traffic 
+Psychology and Behaviour, 43, 225–237. https://doi.org/10.1016/j.trf.2016.10.017 
+ 
+Ekambaram, K., Frampton, R., & Bartlett, L. (2015). Improving the Chest Protection of 
+Elderly Occupants in Frontal Crashes Using SMART Load Limiters. Traffic injury prevention, 
+16(Suppl 2), S77–S86. https://doi.org/10.1080/15389588.2015.1064528 
+ 
+Ekambaram, K., Frampton, R. & Lenard, J. (2019). Factors associated with chest injuries to 
+front seat occupants in frontal impacts. Traffic Injury Prevention, 20 (sup2), S37–S42. 
+ 
+Emmerson, C., Guo, W., Blythe, P., Namdeo, A., & Edwards, S. (2013). Fork in the road: In- 
+vehicle navigation systems and older drivers. Transportation Research Part F: Traffic 
+Psychology and Behaviour, 21, 173–180. https://doi.org/10.1016/j.trf.2013.09.013 
+ 
+Engbers, C., Dubbeldam, R., Brusse-Keizer, M. G. J., Buurke, J. H., de Waard, D., & Rietman, 
+J. S. (2018). Characteristics of older cyclists (65+) and factors associated with self-
+reported cycling accidents in the Netherlands. Transportation Research Part F: Traffic 
+Psychology and Behaviour, 56, 522–530. https://doi.org/10.1016/j.trf.2018.05.020 
+ 
+
+[PDF 19쪽]
+ 
+ 
+19 
+Thematic Report  
+  Seniors   
+ETSC (2021). Are medical fitness to drive procedures fit for purpose? PIN Flash Report 40. 
+European Traffic Safety Council. Brussels. https://etsc.eu/are-medical-fitness-to-drive-
+procedures-fit-for-purpose-pin-flash-40/ 
+ 
+European Commission (2024b). Facts and Figures - Cyclists. European Road Safety 
+Observatory. Brussels, European Commission, Directorate General for Transport. 
+ 
+European Commission (2024a). Facts and Figures - Pedestrians. European Road Safety 
+Observatory. Brussels, European Commission, Directorate General for Transport. 
+ 
+European Commission (2025). Facts and Figures - Seniors. European Road Safety 
+Observatory. European Commission, Directorate General for Transport, Brussels. 
+ 
+European Commission (2023b) Facts and Figures Cyclists. European Road Safety 
+Observatory. Brussels, European Commission, Directorate General for Transport. 
+ 
+Ewert, U. (2012). Senioren als Fussgänger. Bfu-Faktenblatt Nr.08. Bfu – Beratungsstelle für 
+Unfallverhütung, Bern. 
+ 
+Falkenstein, M., Karthaus, M. & Brüne-Cohrs, U. (2020). Age-Related diseases and driving 
+safety. Geriatrics, 5 (4), 80. https://doi.org/10.3390/geriatrics5040080. 
+ 
+Fastenmeier, W., Gstalter, H., Rompe, K., & Risser, R. (2015). Selektion oder Befähigung: 
+Wie kann die Mobilität älterer Fahrer aufrechterhalten werden? Stellungnahme des 
+Vorstandes der Deutschen Gesellschaft für Verkehrspsychologie e.V. Zeitschrift Für 
+Verkehrssicherheit, 61(1), 33–42. 
+ 
+Fausto, B. A., Adorno Maldonado, P. F., Ross, L. A., Lavallière, M., & Edwards, J. D. (2021). A 
+systematic review and meta-analysis of older driver interventions. Accident Analysis and 
+Prevention, 149. https://doi.org/10.1016/j.aap.2020.105852 
+ 
+Fiorentino, A., Fornells, A., Schubert, K. & Medina, K.F. (2017). Behavioural aspects of elderly 
+as road traffic participants and modal split. SENIORS Deliverable 1.1. European 
+Commission Eight Framework Programme Horizon 2020, Brussels. 
+ 
+Fornells, A., Parera, N., Ferrer, A., & Fiorentino, A. (2017). Senior Drivers, Bicyclists and 
+Pedestrian Behavior Related with Traffic Accidents and Injuries. SAE Technical Papers, 
+2017-March(March). https://doi.org/10.4271/2017-01-1397 
+ 
+Fyhri, A., Johansson, O., & Bjørnskau, T. (2019). Gender differences in accident risk with e-
+bikes—Survey data from Norway. Accident Analysis and Prevention, 132(March), 105248. 
+https://doi.org/10.1016/j.aap.2019.07.024 
+ 
+Gasne, C., Paire-Ficout, L., Bordel, S., Lafont, S., & Ranchet, M. (2022). Takeover 
+performance of older drivers in automated driving: a review. Transportation Research Part 
+F: Traffic Psychology and Behaviour, 87, 347-364. 
+https://doi.org/10.1016/j.trf.2022.04.015 
+ 
+GOAL. (2013). GOAL Transport Needs for an Ageing Society. Action Plan. 
+https://trimis.ec.europa.eu/sites/default/files/project/documents/20140115_095617_325
+15_Action_Plan Transport_Needs_of_an_Aging_Society.pdf 
+ 
+Goldenbeld, C. (1992). Ongevallen van oudere fietsers in 1991. R-92-71. SWOV, 
+Leidschendam. 
+ 
+Grabowski, D. C., Campbell, C. M., & Morrisey, M. A. (2004). Elderly Licensure Laws and 
+Motor Vehicle Fatalities. Journal of the American Medical Association, 291 (23), 2840-
+2846. https://jamanetwork.com/journals/jama/fullarticle/198945 
+ 
+Hakamies-Blomqvist, L., Johansson, K., & Lundberg, C. (1996). Medical screening of older 
+drivers as a traffic safety measure - A comparative Finnish-Swedish evaluation study. 
+
+[PDF 20쪽]
+ 
+ 
+20 
+Thematic Report  
+  Seniors   
+Journal of the American Geriatrics Society, 44(6), 650–653. 
+https://doi.org/10.1111/j.1532-5415.1996.tb01826.x 
+ 
+Helman, S., Vlakveld, W., Fildes, B., Oxley, J., Fernández-medina, K., & Weekley, J. (2017). 
+Study on driver training, testing and medical fitness. European Commission, DG MOVE. 
+ 
+Hoffmann, H., Wipking, C., Blanke, L., & Falkenstein, M. (2013). Experimentelle 
+Untersuchung zur Unterstützung der Entwicklung von Fahrerassistenzsystemen für ältere 
+Kraftfahrer. Bundesanstalt für Straßenwesen (BASt), Bergisch Gladbach. 
+ 
+Holte, H. (2018). Seniorinnen und Senioren im Straßenverkehr - Bedarfsanalysen im Kontext 
+von Lebenslagen, Lebensstilen und verkehrssicherheitsrelevanten Erwartungen. 
+Bundesanstalt für Straßenwesen (BASt), Bergisch Gladbach. 
+ 
+Hoye, A. (2018). Bicycle helmets – To wear or not to wear? A meta-analyses of the effects of 
+bicycle helmets on injuries. Accident Analysis and Prevention, 117(December 2017), 85–
+97. https://doi.org/10.1016/j.aap.2018.03.026 
+ 
+HVU (2012). Ulykker med aeldre bilister. Temarapport 9. HVU, Havarikommissionen for 
+Vejtrafikulykker, Copenhagen. 
+ 
+Janke, M.K. (1991). Accidents, mileage, and the exaggeration of risk. Accident Analysis & 
+Prevention, 23(2–3), 183-188. https://doi.org/10.1016/0001-4575(91)90048-A 
+ 
+Johannsen, H., & Müller, G. (2013). Accident and injury risks of elderly car occupants. Paper 
+presented at the 23rd International Technical Conference on the Enhanced Safety of 
+Vehicles (ESV), 27-30 May 2013, Seoul, South Korea. 
+ 
+Karthaus, M., & Falkenstein, M. (2016). Functional changes and driving performance in older 
+drivers: Assessment and interventions. Geriatrics, 1(2), 12. 
+https://doi.org/10.3390/geriatrics1020012 
+ 
+Lafont S, Gabaude C, Paire-Ficout L. et al., (2010) Older drivers less dangerous for the 
+others: results of A study including all injury crashes in France between 1996 and 2005», 
+Le travail humain, 2010/1 (Vol. 73), p. 75-92. https://doi.org/10.3917/th.731.0075. 
+ 
+Langford, J., Bohensky, M., Koppel, S., & Newstead, S. (2008). Do age-based mandatory 
+assessments reduce older drivers’ risk to other road users? Accident Analysis and 
+Prevention, 40(6), 1913–1918. https://doi.org/10.1016/j.aap.2008.08.010 
+ 
+Langford, J., Methorst, R., & Hakamies-Blomqvist, L. (2006). Older drivers do not have a high 
+crash risk - A replication of low mileage bias. Accident Analysis and Prevention, 38(3), 
+574–578. https://doi.org/10.1016/j.aap.2005.12.002 
+ 
+Li, S., Blythe, P., Guo, W., & Namdeo, A. (2019). Investigation of older drivers’ requirements 
+of the human-machine interaction in highly automated vehicles. Transportation Research 
+Part F: Traffic Psychology and Behaviour, 62, 546–563. 
+https://doi.org/10.1016/j.trf.2019.02.009 
+ 
+Marin-Lamellet, C., & Haustein, S. (2015). Managing the safe mobility of older road users: 
+How to cope with their diversity? Journal of Transport and Health, 2(1), 22–31. 
+https://doi.org/10.1016/j.jth.2014.07.006 
+ 
+Marottoli, R. A., de Leon, C. F. M., Glass, T. A., Williams, C. S., Cooney, L. M., & Berkman, L. 
+F. (2000). Consequences of Driving Cessation: Decreased Out-of-Home Activity Levels. 
+The Journals of Gerontology Series B: Psychological Sciences and Social Sciences, 55(6), 
+S334–S340. https://doi.org/10.1093/geronb/55.6.s334 
+ 
+Martensen, H (2017), Age-based screening of elderly drivers, European Road Safety Decision 
+Support System, developed by the H2020 project SafetyCube. Retrieved from 
+www.roadsafety-dss.eu on 24-9-2023. 
+ 
+
+[PDF 21쪽]
+ 
+ 
+21 
+Thematic Report  
+  Seniors   
+Methorst, R., Eenink, R., Cardoso, J., MacHata, K., & Malasek, J. (2016). Single Unprotected 
+Road User Crashes: Europe we have a Problem! Transportation Research Procedia, 14, 
+2297–2305. https://doi.org/10.1016/j.trpro.2016.05.246 
+ 
+Methorst, R., Schepers, P., Christie, N., Dijst, M., Risser, R., Sauter, D., & van Wee, B. 
+(2017). 'Pedestrian falls’ as necessary addition to the current definition of traffic crashes 
+for improved public health policies. Journal of Transport and Health, 6, 10–12. 
+https://doi.org/10.1016/j.jth.2017.02.005 
+ 
+Mikkonen, V. (2014). Ajokortin uusintaan liittyvien ikäkausitarkastusten vaikutus 
+liikennemenestykseen. Trafi Research Report 02/2014. Finnish Transport Safety Agency 
+Trafi, Helsinki. 
+https://www.lvk.fi/document/81935/2BBA82BC430D9938529A102CD53F1D51C8BA859B1
+58699D634BB082BB5BD74DF 
+ 
+Mitchell, C.G.B. & Suen, S.L. (1997). ITS impact on elderly drivers. Paper presented at the 
+13th International Road Federation IRF World Meeting, Toronto, Ontario, Canada, June 16 
+to 20, 1997. 
+ 
+Nobis, C., & Kuhnimhof, T. (2018). Mobilität in Deutschland – MiD Ergebnisbericht. Studie 
+von infas, DLR, IVT und infas 306 im Auftrag des Bundesministers für Verkehr und digitale 
+Infrastruktur (FE-Nr. 70.904/15). www.mobilitaet-in-deutschland.de 
+ 
+O’Hern, S., Oxley, J., & Logan, D. (2015) Older adults at increased risk as pedestrians in 
+Victoria, Australia: An examination of crash characteristics and injury outcomes. Traffic 
+Injury Prevention, 16, S161-S167. https://doi.org/10.1080/15389588.2015.1061662. 
+ 
+Oxley, J., Corben, B., Fildes, B., O’HARE, M., & Rothengatter, T. (2004). Older Vulnerable 
+Road Users: Measures To Reduce Crash and Injury Risk. Report No. 218. Report. Monash 
+University Accident Research Centre, Melbourne. 
+ 
+Owens, J.M., Antin, J.F., Doerzaph, Z. & Willis, S. (2015). Cross-generational acceptance of 
+and interest in advanced vehicle technologies: A nationwide survey. Transportation 
+Research Part F: Traffic Psychology and Behaviour, 35, 139–151. 
+ 
+ 
+Pelssers, B. (2020). Hoe verplaatsen we ons het veiligst? – Onderzoek naar de wijze waarop 
+we ons verplaatsen en verkeersveiligheid. Vias institute – Kenniscentrum 
+Verkeersveiligheid, Brussels. 
+ 
+Poos, H. P. A. M. J., Lefarth, T. L., Harbers, J. S., Wendt, K. W., El Moumni, M., & Reininga, I. 
+H. F. (2017). E-bikers raken vaker ernstig gewond na fietsongeval: Resultaten uit de 
+Groningse fietsongevallendatabase. Nederlands Tijdschrift Voor Geneeskunde, 161(20), 1–
+17. 
+ 
+Poschadel, S., Boenke, D., Blöbaum, A., & Rabczinski, S. (2012). Ältere Autofahrer: Erhalt, 
+Verbesserung und Verlängerung der Fahrkompetenz durch Training. Mobilität im Alter, 
+Band 06. TÜV Rheinland. 
+ 
+Ramaekers, J. G. (2017). Drugs and Driving Research in Medicinal Drug Development. Trends 
+in Pharmacological Sciences, 38(4), 319–321. https://doi.org/10.1016/j.tips.2017.01.006 
+ 
+Rolison, J.J., & Moutari, S.S. (2018). Risk-Exposure Density and Mileage Bias in Crash Risk 
+for Older Drivers. American Journal of Epidemiology, 187 (1), 53–59. 
+https://doi.org/10.1093/aje/kwx220.  
+ 
+SAE/ISO. (2021). J3016TM Taxonomy and Definitions for Terms Related to Driving 
+Automation Systems for On-Road Motor Vehicles. J3016_202104. SAE International/ISO. 
+ 
+Schepers, P., de Geus, B., van Cauwenberg, J., Ampe, T., & Engbers, C. (2020a). The 
+perception of bicycle crashes with and without motor vehicles: Which crash types do older 
+
+[PDF 22쪽]
+ 
+ 
+22 
+Thematic Report  
+  Seniors   
+and middle-aged cyclists fear most? Transportation Research Part F: Traffic Psychology 
+and Behaviour, 71, 157–167. https://doi.org/10.1016/j.trf.2020.03.021 
+ 
+Schepers, P., Klein Wolt, K., Helbich, M., & Fishman, E. (2020b). Safety of e-bikes compared 
+to conventional bicycles: What role does cyclists’ health condition play? Journal of 
+Transport and Health, 19(December 2019), 100961. 
+https://doi.org/10.1016/j.jth.2020.100961 
+ 
+Schleinitz, K., Petzoldt, T., Franke-Bartholdt, L., Krems, J., & Gehlert, T. (2017). The German 
+Naturalistic Cycling Study – Comparing cycling speed of riders of different e-bikes and 
+conventional bicycles. Safety Science, 92, 290–297. 
+https://doi.org/10.1016/j.ssci.2015.07.027 
+ 
+Schwarze, A., Ehrenpfordt, I., & Eggert, F. (2014). Workload of younger and elderly drivers in 
+different infrastructural situations. Transportation Research Part F: Traffic Psychology and 
+Behaviour, 26(PART A), 102–115. https://doi.org/10.1016/j.trf.2014.06.017 
+ 
+Siren, A., & Haustein, S. (2015). Driving licences and medical screening in old age: Review of 
+literature and European licensing policies. Journal of Transport and Health, 2(1), 68–78. 
+https://doi.org/10.1016/j.jth.2014.09.003 
+ 
+Siren, A., & Meng, A. (2012). Cognitive screening of older drivers does not produce safety 
+benefits. Accident Analysis and Prevention, 45, 634–638. 
+https://doi.org/10.1016/j.aap.2011.09.032 
+ 
+Skyving, M., Forsman, A., & Dukic, T. (2018). Samband mellan sjukdomar och äldre 
+bilförares inblandning i trafikolyckor. TSV 2018-4875. Transportstyrelsen, Stockholm. 
+ 
+Stelling, A., Hettema, Z.J.A. & Boele, M.J. (2024). Ervaringen met een elektrische 
+kanteldriewieler; Praktijktest in de provincie Fryslân. SWOV, The Hague. 
+ 
+ 
+SWOV (2024). Ouderen in het verkeer. SWOV-factsheet, August 2024. SWOV, The Hague. 
+ 
+Tefft, B. C. (2008). Risks older drivers pose to themselves and to other road users. Journal of 
+Safety Research, 39(6), 577–582. https://doi.org/10.1016/j.jsr.2008.10.002 
+ 
+Thomas, A., Hynd, D., Kent, J., Appleby, J., & Zander, O. (2018). Benefit analysis SENIORS 
+project. Deliverable 4.3 of the EC H2020 project SENIORS. 
+ 
+UNECE. (2019). Glossary for Transport Statistics 2019, 5th edition. UNECE, Geneva. 
+https://doi.org/10.1787/505b670b-en 
+ 
+Vaa, T. (2003). Impairments, diseases, age and their relative risks of accident involvement: 
+results from meta-analysis. Deliverable R1.1 of the EU-project IMMORTAL. 
+https://www.toi.no/getfile.php?mmfileid=5780 
+ 
+Vlakveld, W., & Davidse, R. (2011). Effect van de verhoging van de keuringsleeftijd op de 
+verkeersveiligheid. R-2011-6. SWOV, Leidschendam. 
+ 
+Wilmut, K., & Purcell, C. (2022). Why Are Older Adults More at Risk as Pedestrians? A 
+Systematic Review. Human Factors, 64(8), 1269–1291. 
+https://doi.org/10.1177/0018720821989511 
+ 
+Wisch, M., Vukovic, E., Schäfer, R., Hynd, D., Barrow, A., Khatry, R., Fiorentino, A., Fornells, 
+A., Pradeep, P., & Lübbe, N. (2017). Road traffic accidents involving the elderly and obese 
+people in Europe incl. investigation of the risk of injury and disabilities. Deliverable 1.2 of 
+EC H2020 project SENIORS. 
+ 
+Young, K. L., Koppel, S., & Charlton, J. L. (2017). Toward best practice in Human Machine 
+Interface design for older drivers: A review of current design guidelines. Accident Analysis 
+and Prevention, 106, 460–467. https://doi.org/10.1016/j.aap.2016.06.010 
+
+[PDF 23쪽]
+ 
+ 
+23 
+Thematic Report  
+  Seniors   
+ 
+Zhu, Y., Jiang, M., & Yamamoto, T. (2025). Personality, functional performance, and travel 
+patterns related to older drivers’ risky driving behavior: A naturalistic driving study. 
+Accident Analysis & Prevention, 209, 107833. 
+https://doi.org/https://doi.org/10.1016/j.aap.2024.107833 
+ 
+Zito, G.A., Cazzoli, D., Scheffler, L., Jäger, M., et al. (2015). Street crossing behavior in 
+younger and older pedestrians: an eye- and head-tracking study. BMC Geriatrics, 15 (1), 
+176.  
+
+[PDF 24쪽]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,898 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta name="_csrf_parameter" content="_csrf" /><meta name="_csrf_header" content="X-CSRF-TOKEN" /><meta name="_csrf" content="e930e51f-4f10-4120-9396-7770c851f9c5" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>한국교통안전공단 국민생각함 기관홈</title>
+
+	<link rel="stylesheet" type="text/css" href="/resource/krds/css/import.css"/> <!-- 디지털정부 UI/UX -->
+	<link rel="stylesheet" type="text/css" href="/resource/css/paid/nep/thk/org3/root.css?t_=20260921_1443"/>
+	<link rel="stylesheet" type="text/css" href="/resource/css/paid/nep/thk/org3/default.css?t_=20260921_1443"/>
+	<link rel="stylesheet" type="text/css" href="/resource/css/paid/nep/thk/org3/common.css?t_=20260921_1443"/>
+	<link rel="stylesheet" type="text/css" href="/resource/css/paid/nep/thk/org3/layout.css?t_=20260921_1443"/>
+	<link rel="stylesheet" type="text/css" href="/resource/css/paid/nep/thk/org3/main.css?t_=20260921_1443"/>
+	
+	
+		<link rel="stylesheet" type="text/css" href="/resource/css/paid/nep/thk/content.css?t_=20260921_1443"/>
+	
+
+	<link rel="stylesheet" type="text/css" href="/resource/css/paid/nep/thk/main.css?t_=20260921_1443"/>
+	
+
+	<link rel="stylesheet" type="text/css" href="/resource/css/paid/cmmn/jquery-ui.min.css"/>
+
+	<script type="text/javascript" src="/resource/js/paid/cmmn/common.js?t_=20260921_1443"></script>
+	<script type="text/javascript" src="/resource/js/paid/cmmn/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="/resource/js/paid/cmmn/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="/resource/js/paid/cmmn/jquery.cookie.js"></script>
+	<script type="text/javascript" src="/resource/js/paid/cmmn/jquery.form.js"></script>
+	<script type="text/javascript" src="/resource/js/paid/cmmn/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript" src="/resource/js/paid/cmmn/pgwslideshow/pgwslideshow.min.js"></script>
+	<script type="text/javascript" src="/resource/js/paid/cmmn/loading.js"></script>
+	<script type="text/javascript" src="/resource/js/paid/cmmn/common.utils.js"></script>
+	<script type="text/javascript" src="/resource/js/paid/cmmn/sendAjaxReq.js"></script>
+	
+	<script type="text/javascript" src="/resource/js/paid/cmmn/jquery.money.plus.js"></script>
+	<script type="text/javascript" src="/resource/js/paid/cmmn/jquery.alphanumeric.js"></script>
+	<script type="text/javascript" src="/resource/js/paid/cmmn/jquery.alerts.js"></script>
+	<script type="text/javascript" src="/resource/js/paid/cmmn/validation.js"></script>
+	
+	<script type="text/javascript" src="/resource/js/paid/nep/cmmn/tagmanager.js"></script>
+	
+	<script type="text/javascript" src="/resource/js/paid/cmmn/common.file.js"></script>
+	
+	<script type="text/javascript" src="/resource/js/paid/cmmn/common.popup.js"></script>
+
+	<script src="/resource/js/paid/nep/thk/org3/common.js"></script>
+	<script type="text/javascript" src="/resource/krds/js/component/ui-script.js" defer></script> <!-- 디지털정부 UI/UX -->
+	
+    <link rel="stylesheet" type="text/css" href="/resource/js/paid/nep/cmmn/jquery.bxslider.css">
+    <script src="/resource/js/paid/nep/cmmn/jquery.bxslider.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/resource/js/paid/cmmn/pgwslideshow/pgwslideshow.min.css">
+    <script src="/resource/js/paid/cmmn/pgwslideshow/pgwslideshow.min.js"></script>
+    <script src="/resource/js/paid/cmmn/pgwslideshow/pgwslideshow.js"></script>
+    <script src="/resource/js/paid/nep/thk/owl.carousel.min.js"></script>
+    <script src="/resource/js/paid/nep/thk/owl.carousel.js"></script>
+
+	<!-- [if lt IE 9]>
+	<script src="/resource/js/paid/nep/thk/html5shiv.min.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="/resource/css/paid/cmmn/jAlert.css">
+	<script type="text/javascript">
+		var contexts = "";
+		
+		
+		var exnMnTxt = "jpg, jpeg, gif, png, bmp, txt, pdf, hwp, gul, docx, doc, zip, xls, xlsx, ppt, pptx, mp4, avi, wmv, asf, flv, mov, mkv, mpeg, mpg, 3gp, wmv, webm, ogm, asx, m2t, m2ts, mts, tif, tiff, wav, mp3, 3ga, m4a, amr, mp2, hwpx, odt, csv";
+		var exnMnArr = ["jpg","jpeg","gif","png","bmp","txt","pdf","hwp","gul","docx","doc","zip","xls","xlsx","ppt","pptx","mp4","avi","wmv","asf","flv","mov","mkv","mpeg","mpg","3gp","wmv","webm","ogm","asx","m2t","m2ts","mts","tif","tiff","wav","mp3","3ga","m4a","amr","mp2","hwpx","odt","csv"];
+	</script>
+</head>
+<body>
+<div id="skip">
+	<strong class="hide">반복영역 건너뛰기</strong>
+	<a href="#gnb">주매뉴 바로가기</a>
+	<a href="#containerAcc">본문 바로가기</a>
+</div>
+
+<div id="wrap" class="main">
+	<input type="hidden" id="instHmpgYn" name="instHmpgYn" value="Y"/>
+	<input type="hidden" id="instHmpgUrl" name="instHmpgUrl" value="kotsa"/>
+	
+
+
+
+
+
+	<header id="header">
+		<!-- 헤더 상단 : s -->
+		<div class="header_top">
+			<div class="layout">
+				<ul class="htop_link">
+					
+						<li><a href="https://www.kotsa.or.kr" target="_blank" title="새창" class="hm_p">한국교통안전공단 홈페이지</a></li>
+					
+					
+				</ul>
+				<div class="htop_viewsize">
+                    <!-- <select><option>전문가</option></select> -->
+				    <div class="etcM_link">
+						<a href="/idea/" title="국민생각함 이동"><img src="/resource/images/paid/nep/thk/org3/layout/img_thk_logo.png" alt="국민생각함"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 헤더 상단 : e -->
+
+		<!-- 헤더 하단 : s -->
+		<div class="header_bottom">
+			<div class="hd_wrap">
+                <div id="gnbWrap">
+			    <h1 class="logo">
+			    	
+			    		<a href="/idea/kotsa"><img src="/utl/web/imgPrvw.npaid?atchFileGrpId=20221215203024151317&amp;atchFileId=20221215203024112135" alt="기관로고"></a>
+			    	
+				</h1>
+				<!-- gnb 메뉴 : s -->
+				
+				    <strong class="hide">상단메뉴</strong>	        
+					<ul id="gnb">
+						
+							
+								<li>
+									<a href='/idea/kotsa'><span>기관소개</span></a>
+									
+										<div class="sub">
+											<div class="m_inner">
+												<div class="subM t01">
+													<div class="subM_tit">
+														<strong>기관소개</strong>
+													</div>
+													<div class="lt_box">
+														<ul>
+															
+																<li><a href='/idea/kotsa/232/notice.npaid'>공지사항</a></li>
+															
+																<li><a href='/idea/kotsa/233/faq.npaid'>자주하는 질문</a></li>
+															
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									
+								</li>
+							
+								<li>
+									<a href='/idea/kotsa/ideajoin.npaid'><span>생각모음</span></a>
+									
+								</li>
+							
+								<li>
+									<a href='/idea/kotsa/cmplt.npaid'><span>생각완성</span></a>
+									
+								</li>
+							
+								<li>
+									<a href='/idea/kotsa/myidea.paid'><span>나의 생각</span></a>
+									
+								</li>
+							
+						
+					</ul>
+
+                    <div class="etcMenu">
+                        <div class="etcM_util">
+                        	
+	                            <a href="/idea/kotsa/choiceIdea.paid" class="etcM_write" title="글쓰기"><span>글쓰기</span></a>
+                        	
+                        	
+	                            <a href="/nep/crtf/userLogn.npaid" class="etcM_login" title="로그인"><span>로그인 </span></a>
+							
+							
+                        </div>
+                        <button type="button" class="mMenu_btn">메뉴</button>
+				    </div>	
+				</div>
+				<div class="subM_Bg"></div>
+				<!-- gnb 메뉴 : e -->
+			</div>
+		</div>
+		<!-- 헤더 하단 : e -->
+	</header>
+
+	<!-- 모바일메뉴 : s -->
+	<nav id="mMenu">
+		
+			<div class="mMenu_top">
+				<a href="/nep/crtf/userLogn.npaid" class="mMenu_login">로그인</a>
+			</div>
+		
+		
+		
+		<!-- 2 또는 3뎁스 메뉴의 a태그에 class="on"을 주면 메뉴를 열때 해당 뎁스의 메뉴가 열려진 상태로 메뉴가 표시됩니다. 서브페이지에 사용하시면 됩니다.-->
+		<ul class="mMenu_list">	        
+			
+				
+					<li>
+						<a href='/idea/kotsa'><span>기관소개</span></a>
+						
+							<ul>
+								
+									<li><a href='/idea/kotsa/232/notice.npaid'>공지사항</a></li>
+								
+									<li><a href='/idea/kotsa/233/faq.npaid'>자주하는 질문</a></li>
+								
+							</ul>
+						
+					</li>
+				
+					<li>
+						<a href='/idea/kotsa/ideajoin.npaid'><span>생각모음</span></a>
+						
+					</li>
+				
+					<li>
+						<a href='/idea/kotsa/cmplt.npaid'><span>생각완성</span></a>
+						
+					</li>
+				
+					<li>
+						<a href='/idea/kotsa/myidea.paid'><span>나의 생각</span></a>
+						
+					</li>
+				
+			
+		</ul>
+		
+			<div class="write_thk">
+			    <a href="/idea/kotsa/choiceIdea.paid">생각쓰기</a>
+			</div>
+		
+		<a href="#" class="mMenu_close">메뉴 닫기</a>
+	</nav>
+	
+	<script type="text/javascript">
+		//20191115/통합연계 김정원/프레임통합메뉴 관련 변수 추가 시작 - 20200610
+		var frm_frmMenuMngNo = '';  //프레임메뉴관리번호
+		//20191115/통합연계 김정원/프레임통합메뉴 관련 변수 추가 끝
+		
+		$(document).ready(function(){
+			
+			var nav = "";
+			var currUrl = window.location.pathname;
+			var currMenu = undefined;
+			var parentMenu = undefined;
+			
+			var mainUrl = [	"/idea/kotsa"
+							, "/idea/kotsa/"
+							, "/idea/kotsa/index.npaid"	];
+			for (var i = 0; i < mainUrl.length; i++) {
+				
+				if(mainUrl[i].trim() === currUrl.trim())$("section#navigator").css("display","none");
+				else $("section#navigator").removeAttr("display");
+			}
+			
+			var pathArr = currUrl.substr(0, currUrl.lastIndexOf(".")).split("/");
+			if(pathArr.length > 4){
+				
+				$("ul#gnb a").each(function(){
+					var checkUrl = "/idea/kotsa/"+pathArr[3].trim()+"/"+pathArr[4].trim();
+					if($(this).attr("href").trim().match(checkUrl))currMenu = $(this);
+					if($(currMenu) !== undefined)parentMenu = $(currMenu).closest("ul").prev().filter("a");
+					
+				});
+				
+				if($(parentMenu).length > 0)nav = '<li class="depth1"><span>'+$(parentMenu).text()+'</span></li><li class="depth2"><span>'+$(currMenu).text()+'</span></li>';
+				else nav = '<li class="depth1"><span>'+$(currMenu).text()+'</span></li>';
+				
+			}else{
+				
+				$("ul#gnb a").each(function(){
+					
+					if($(this).attr("href").trim().match(currUrl.trim())){
+						currMenu = $(this);
+					}else if($(this).attr("href").trim().match("/idea/kotsa/my")){
+						currMenu = $(this);
+					}
+					
+					if($(currMenu) !== undefined)parentMenu = $(currMenu).closest("ul").prev().filter("a");
+					if($(parentMenu).length > 0)nav = '<li class="depth1"><span>'+$(parentMenu).text()+'</span></li><li class="depth2"><span>'+$(currMenu).text()+'</span></li>';
+					else nav = '<li class="depth1"><span>'+$(currMenu).text()+'</span></li>';
+				});
+				
+			}
+			
+			$("ul.location").append(nav);
+			
+		});
+	</script>
+	<!-- 모바일메뉴 : e  -->
+
+	<div id="containerAcc"></div>
+	<main id="container" class="main">
+	
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/resource/js/paid/nep/thk/kakao.min.js" ></script>
+<script type="text/javascript" src="/resource/js/paid/nep/thk/bcmtCommonEvent.js" ></script>
+	<header class="sub_tit thkD_mo" id="subTit"  style="display:none;" >
+		<div class="stb">
+	        <h2 class="thin_tit">실현된 생각</h2>  
+		</div>
+	</header>
+	<!-- 생각의 발자취 : s -->
+    
+        
+
+
+<!-- 생각의 발자취 : s -->
+<div class="foot_open" id="div_head">
+    <a href="javascript:void(0)" class="openD"><span>생각의 발자취</span></a>
+</div>
+<div class="thk_history" id="div_head2">
+    <div class="layout">
+        <div class="thkH_wrap">
+            <div class="thkH_tit">
+                <h4>생각의 발자취</h4>
+                <div class="thkH_msg">
+                    
+                        
+                            
+                            
+                            
+                                이 생각은 <b>2026년 07월 27일</b> 시작되어 총 0명이 참여하였습니다.
+                            
+                        
+                    
+                    
+                </div>
+            </div>
+            <div class="thkH_body">
+                <ul class="thk_timeLine">
+                    <li class="step1">
+                        
+                        
+                        
+                            <h5 class="thk_step step1">생각의 탄생</h5>
+                        
+
+                        <div class="step_sub">
+                            <ul>
+                                
+                                    
+                                        <li>
+                                            
+                                            <div class="step_detail ">
+                                                <span>2026-07-27</span>
+                                                <a href="javascript:void(0)" data-ideaRegNo="1AE-2607-0001921" data-ideaStepCd="3A030010" data-ideaTyCd="3A020010" onclick="fn_detail(this);">
+                                                    
+                                                    
+                                                        종료
+                                                    
+                                                </a>
+                                            </div>
+                                        </li>
+                                    
+                                
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li class="step2">
+                        
+                        
+                            <h5 class="thk_step step2">생각의 발전</h5>
+                        
+
+                        <div class="step_sub">
+                            <ul>
+                                
+                                
+                                    
+                                
+                                
+
+                                
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li class="step3">
+                        
+                            <h5 class="thk_step step3 on">생각의 완성</h5>
+                        
+                        
+
+                        <div class="step_sub">
+                            <ul>
+                                
+                                
+                                    
+                                
+                                
+
+                                
+                                    
+                                        <li>
+                                            
+                                            <div class="step_detail on">
+                                                <span>2026-09-02</span>
+                                                <a href="javascript:void(0)" data-ideaRegNo="1AE-2609-0000160" data-ideaStepCd="3A030030" data-ideaTyCd="" onclick="fn_detail(this);">
+                                                    
+                                                    
+                                                        종료
+                                                    
+                                                </a>
+                                            </div>
+                                        </li>
+                                    
+                                
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="thkH_close"><span class="sr-only">생각의 발자취 닫기</span></button>
+</div>
+<div class="dark_bg"></div>
+
+    
+	<!-- 생각의 발자취 : e -->
+	<div class="layout">
+		<form method="post" id="thinkBoxDetailVO" name="thinkBoxDetailVO">
+			
+			<input type="hidden" name="sympCnt" id="sympCnt" value="0">
+			<input type="hidden" name="mbrBookmarkYn" id="mbrBookmarkYn" value="N"/>
+            <input type="hidden" name="mbrOpnPtcnYn" id="mbrOpnPtcnYn" value="N"/>
+            <input type="hidden" name="bltnBgnDt" id="bltnBgnDt" value=""/>
+            <input type="hidden" name="bltnFnshDt" id="bltnFnshDt" value=""/>
+            
+            <input type="hidden" name="mbrId" id="mbrId" value=""/>
+            <input type="hidden" name="ideaRegrId" id="ideaRegrId" value=""/>
+  	            
+  	            <input type="hidden" name="frgnSctnCd" id="frgnSctnCd" value="">
+       		<input type="hidden" name="myMibxAthrGrpCd" id="myMibxAthrGrpCd" value=""/>
+       		<input type="hidden" name="opnSn" id="opnSn"/>
+       		<input type="hidden" name="uprOpnSn" id="uprOpnSn"/>
+       		<input type="hidden" name="handlingMode" id="handlingMode"/>
+       		<input type="hidden" name="epDutySctnCd" id="epDutySctnCd" value="5B050050"/>
+       		<input type="hidden" name="opnCntnCl" id="opnCntnCl"/>
+       		<input type="hidden" name="cntnCl" id="cntnCl"/>
+       		<input type="hidden" name="regrSctnCd" id="regrSctnCd" value="3A260001"/>
+       		<input type="hidden" name="_csrf" value="e930e51f-4f10-4120-9396-7770c851f9c5" />
+       		<input type="hidden" name="pageUnit" id="pageUnit" value="10"/>
+			<input type="hidden" name="userNm" id="userNm" value="한국교통안전공단"/>
+			
+            <input type="hidden" name="ideaRegNo" id="ideaRegNo" value="1AE-2609-0000160"/>
+            <input type="hidden" name="returnUrl" id="returnUrl" value=""/>
+            <input type="hidden" name="evntYn" id="evntYn" value=""/>
+            <input type="hidden" name="frstRegrId" id="frstRegrId" value="X61김영현002"/>
+            <input type="hidden" name="bcmtRegrId" id="bcmtRegrId"/>
+            <input type="hidden" id="bcmtLayerDiv" value="1"/>
+            <input type="hidden" name="dntnrSn" id="dntnrSn"/>
+            <input type="hidden" name="subjLrclSn" id="subjLrclSn" value=""/>
+            <input type="hidden" name="subjMdclSn" id="subjMdclSn" value=""/>
+			
+			<div class="sm_wrap">
+                <div class="small_top left">
+                    <ul>
+                        <li>
+	                        
+	                        
+	                            
+                        </li>
+                        <li> 
+                        	
+	                        
+	                        
+	                            <a href="javascript:void(0)" class="sm_t02 s03 cs_default">완성</a>
+	                        
+                        </li>
+                        
+                        
+                        
+                    </ul>
+		        </div>
+            </div>
+            
+            <div class="tit_top_wrap">
+                <strong class="details_tit">수소차검사센터 적기 건립</strong>
+                <div class="sns_top">
+	                    
+
+<div class="krds-drop-wrap sns_share">
+	<button type="button" class="krds-btn icon medium drop-btn">
+		<span class="sr-only">페이지 공유하기</span>
+		<i class="svg-icon ico-share"></i>
+	</button>
+	<div class="drop-menu">
+		<div class="drop-in">
+			<ul>
+				<li><a href="javascript:void(0)" title="네이버 블로그 공유하기" class="sns sns_01" onclick="agndCnrs('naver')"><span class="sr-only">네이버 블로그 공유하기</span></a></li>
+				<li><a href="javascript:void(0)" title="X 공유하기" class="sns sns_02" onclick="agndCnrs('twitter')"><span class="sr-only">X 공유하기</span></a></li>
+				<li><a href="javascript:void(0)" title="카카오 공유하기" class="sns sns_04" onclick="agndCnrs('kakao')"><span class="sr-only">카카오 공유하기</span></a></li>
+				<li><a href="javascript:void(0)" title="주소 복사하기" class="sns sns_05" onclick="agndCnrs('url')"><span class="sr-only">URL 복사하기</span></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+                </div>
+            </div>
+            
+            <div class="talk_details_wrap">
+                <div class="sm_tit_top new">
+                    <dl>
+                        <dt class="my_pageBt">
+                            <a href="javascript:void(0)" class="ms"><b>한국교통안전공단</b></a> 님의 생각
+                            <div class="my_page">
+                                <ul>
+                                    
+	                                <li><a href="javascript:void(0)" class="lpop_Btn" onclick="fn_thinkBoxList(this);">전체 글보기</a></li>
+	                                
+	                                <li><a href="javascript:void(0)" onclick="javaScript:fn_itrsMbr();">관심사용자 등록</a></li>
+                                </ul>
+                            </div>
+    <!--
+                            <script>
+                              $( document ).ready( function() {
+                                $( '.sm_tit_top .ms' ).click( function() {
+                                  $(this).siblings().toggleClass( 'op' );
+                                } );
+                              } );
+                            </script>
+    -->
+                        </dt>
+                        <dd>2026.09.02</dd>
+                    </dl>
+                    <div class="ov_wrap">
+                        <ul>
+                            <li class="cnt_like"><a href="javascript:void(0)" class="book" id="bookmark" onclick="fn_mbrBookmarkYn();">북마크</a></li>
+<!-- 		                    <li class="cnt_like"><a href="javascript:void(0)" class="love" id="likemark" onclick="fn_mbrOpnPtcnYn();"><span class="hide">좋아요 수</span>0</a></li> -->
+		                    <li><a href="javascript:void(0)" class="reply"><span class="hide">댓글 수</span>0</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>    
+                <div class="details_cont">
+                    
+	                
+	                <div class="st_tit"> 
+						<strong>이 생각은 <a href="javascript:void(0)" data-ideaRegNo="1AE-2607-0001921" onclick="fn_detail(this);" ><span>"수소차검사센터 적기 건립을 위한 의견 수렴"</span></a>에서 출발하였습니다.</strong>
+	                </div>
+		            
+                    <div class="st_txt">
+                        
+							국민 의견 분석 결과, 참여자들은 수소전기차 검세산터 조기 구축 필요성에 대체로 공감하였으며, 특히 국민 안전 확보를 위한 검사 인프라 확충과 행정절차 개선을 중요한 과제로 인식해주셨습니다.<br />
+<br />
+또한 지자체와 공공기관이 역할을 분담하여 용도변경 등 행정절차를 선제적으로 추진하는 적극행정 방식에 긍정적인 평가를 보여줬습니다. 다만 사업 추진 과정에서는 공영주차장 폐지에 따른 주민 불편 해소, 대체 주차공간 마련, 수의계약 과정의 투명성 확보 등 주민 신뢰를 확보하기 위한 보완책 마련이 필요하다는 의견이 제시되었습니다. <br />
+ * 수소차 안전 및 검사 인프라 필요성의 의견수 44건으로 전체 52건중 84.6%로 가장 많은 비율의 의견을 제시<br />
+<br />
+이에 따라 사업 추진 시 △기관간 협업체계 강화 △행정절차 간소화를 통한 사업기간 단축 △주민 의견수렴 및 상생방안 마련 △공정하고 투명한 사업관리 체계 구축을 통해 국민이 체감하는 적극행정 모델로 발전시키도록 하겠습니다. <br />
+ 
+						
+						
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+            <!-- 참여기간 일 때 댓글 입력 폼 s -->
+			<div class="reply_agree" id="replyAgreeDiv">
+			</div>
+			
+			<div class="reply_content mt_20" id="replyContentDiv">
+				<div class="txt_ar">
+					<textarea rows="2" placeholder="당신의 의견을 등록해 주세요. 주제와 무관한 댓글이나 악플은 삭제될 수 있습니다." data-replStrLimit='1000' title='댓글' id="replyCntnCl"></textarea>
+					<div class="inPy">
+					</div>
+				</div>
+				<div class="file_att reple">
+					<div class="at_wrap">
+						<span class="total_n"><b>0</b>/1000</span>
+						<button type="button" class="sub_mit" onclick="javaScript:fn_insertReply();">등록</button>
+					</div>
+					<script>
+                        $( document ).ready( function() {
+                        	
+                        	//비활성화건은 접근 못하도록 개선
+            				if('N' == 'Y'){
+            					jAlert("비활성화된 안건입니다.", function() {
+            					location.href= "/nep/thk/change/ThinkBoxChange.npaid";
+            					});
+            				}
+                        	
+                            var tooltip = $('.link_box');
+                            $( '.at_wrap>div .click' ).click( function() {
+                                if($(this).siblings('.link_box').is(':hidden')){
+                                    $('.file_att.reple').addClass('ov');
+                                    tooltip.removeClass('ov');
+                                    $(this).siblings('.link_box').addClass('ov');
+                                    $(this).addClass('ov')
+                                }else{
+                                    $('.file_att.reple').removeClass('ov');
+                                    $(this).siblings('.link_box').removeClass('ov');
+                                    $(this).removeClass('ov')
+								}
+                            } );
+                        } );
+					</script>
+				</div>
+			</div>
+			<!-- 참여기간 일 때 댓글 입력 폼 e -->
+			
+			<!-- 댓글 목록 s -->
+			<div class="comment_wrap" id="replyMainDiv">
+				<script>
+					$(document).ready(function() {
+						$(document).on("click",'.cm_box_wrap .rp_t',function(){
+							$(this).parent().parent().siblings('.wrap_reple').toggleClass( 'ov' );
+						});
+					});
+				</script>
+			</div>
+			
+			<!-- 댓글 목록 e -->
+			
+		</form>
+		
+		<div class="default_bt basic">
+			<div class="center">
+				<a href="javascript:void(0)" onclick="fn_rcmnOpen('3A210003')" ><img src="/resource/images/paid/nep/thk/content/icon_01.png" alt="추천">
+					<span id="rcmn">
+						추천 0</span>
+				</a>
+				<a href="javascript:void(0)" onclick="fn_rcmnOpen('3A210004')" ><img src="/resource/images/paid/nep/thk/content/icon_02.png" alt="비추천">
+					<span id="nRcmn">
+						비추천 0
+					</span>
+   				</a>
+			</div>
+		</div>
+		
+		<div class="default_bt basic border_plus">
+			
+			
+				<a href="/idea/kotsa/cmplt.npaid" class="right">목록</a>
+			
+			
+		</div>
+	</div>
+	
+	<script>
+ 		(function () {
+
+ 			var param = '.section_6',
+ 				obj = '.slide_item',
+ 				btn = '.s6_control',
+ 				interval = 5000,
+ 				speed = 500,
+ 				viewSize = 1,
+ 				moreSize = 0,
+ 				dir = 'x',
+ 				data = 0,
+ 				auto = true,
+ 				hover = false,
+ 				method = 'easeOutCubic',
+ 				op1 = false;;
+
+ 			touchSlideScrollCustom(param, obj, btn, interval, speed, viewSize, moreSize, dir, data, auto, hover, method, op1);
+
+ 		})();
+	</script>
+	<!-- 끝 section_6 -->
+	
+	<form method="post" id="frm" name="frm">
+        <input type="hidden" name="ideaRegNo" id="ideaRegDetailNo"/>
+        <input type="hidden" name="uprIdeaRegNo" id="uprIdeaRegNo"/>
+        <input type="hidden" name="spusIdeaRegNo" id="spusIdeaRegNo"/>
+        <input type="hidden" name="ideaTyCd" id="ideaTyCd"/>
+        <input type="hidden" name="ideaStepCd" id="ideaStepCd"/>
+        <input type="hidden" name="_csrf" value="e930e51f-4f10-4120-9396-7770c851f9c5" />
+	</form>
+	
+	<div class="popup_wrap save_all type02 l_LayerPopTop" id="allAgndList">
+		<div class="pop_tit">
+			<strong>작성 안건 보기</strong>
+			<a href="javascript:void(0)" class="defPop_close">닫기</a>
+		</div>
+		<div class="pop_contxt fixed_height">
+			<div class="list_tit">
+				<input type="hidden" name="userId">
+				<strong><span id="agndUserNm"></span> 님의 안건 작성 목록</strong>
+			</div>
+               <div class="save_box" id="thinkBoxList"></div>
+              	<div class="more_wrap">
+                  	<a href="javascript:void(0)" onclick="moreList()"><span>더보기</span> <img src="/resource/images/paid/nep/thk/content/more_btn.png" alt="더보기"></a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="popup_wrap letter l_LayerPopTop" id="sendNote">
+		<div class="pop_tit">
+			<strong>쪽지보내기</strong>
+			<a href="javascript:void(0)" class="defPop_close" onclick="fn_thinkBoxClose();">닫기</a>
+		</div>
+		<div class="pop_contxt">
+			<dl class="sc_tit">
+				<dt>받는사람</dt>
+				<dd>한국교통안전공단</dd>
+			</dl>
+			<div class="textarea">
+				<input type="hidden" name="userId">
+				<textarea rows="5" data-limit="1000" id="noteCntn" name="noteCntn" placeholder="내용을 입력해 주세요." title="내  용입력"></textarea>
+				<span class="fl">0/1000자</span>
+			</div>
+			<div class="default_bt basic right">
+				<a href="javascript:void(0)" class="defPop_close">취소</a>
+				<a href="javascript:void(0)" onclick="javaScript:fn_SendMessage();">보내기</a>
+			</div>
+		</div>
+	</div>
+	</main>
+	<!-- footer : s -->
+	
+
+
+
+
+
+	<footer id="footer">
+		<div class="footer_top">
+			
+				<div class="footer_wrap">
+					<div class="other_sit">
+                        <div class="layout">
+                            <a href="http://www.epeople.go.kr/nep/gdnc/PlHndPlc.npaid" target="_blank" title="새창">개인정보처리방침</a>
+                            <a href="http://www.epeople.go.kr/nep/gdnc/TermsConditions.npaid" target="_blank" title="새창">이용약관</a>
+                        </div>
+					</div>
+					<address>
+					    <div class="layout">
+						<ul>
+							<li>(39660) 경상북도 김천시 혁신6로 17(율곡동)</li>
+							<li>모두의 일상을 지키는 안전한 모빌리티 파트너</li>
+						</ul>
+                        </div>
+					</address>
+					
+				</div>
+			</div>
+	</footer>
+	<!-- footer : e -->
+    <div class="popup_wrap kind type02 l_LayerPopTop">
+            <div class="pop_tit">
+                <strong>알림</strong>
+                <a href="#" class="defPop_close">닫기</a>
+            </div>
+            <div class="pop_contxt">
+                <div class="comment_wrap">
+                        <div class="cm_top">
+                            <strong>홍길동 님께 <span>21건</span>의 알림이 도착했습니다.</strong>
+                            <a href="#">전체삭제</a>
+                        </div>
+                        <div class="answer_wrap">
+                        <div class="answer_low">
+                            <div class="ans_tit ov">
+                                <strong>김똘똘님이 공동발제자 요청을 하였습니다.</strong>
+                                <span>2018.10.16 ｜ 15:20</span> 
+                                <a href="#" class="delete">삭제</a>  
+                            </div>
+                            <div class="ans_txt open">
+                                <p>저도 공동발제자 하고 싶어요. 하게해주세요~~~네?</p>
+                                <div class="btn_box type02">
+
+                                <a href="#" class="btn_default cancel">거절</a>
+                                <a href="#" class="btn_default">수락</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="answer_low">
+                            <div class="ans_tit">
+                                <strong>행정안전부가 ‘주차위반에 대한…’ 생각을 스카우트했습니다.</strong>
+                                <span>2018.10.16 ｜ 15:20</span>   
+                                <a href="#" class="delete">삭제</a>  
+                            </div>
+
+                        </div>
+                        <div class="answer_low">
+                            <div class="ans_tit">
+                                <strong>행정안전부가 ‘주차위반에 대한…’ 생각을 스카우트했습니다.</strong>
+                                <span>2018.10.16 ｜ 15:20</span>
+                                <a href="#" class="delete">삭제</a>     
+                            </div>
+
+                        </div>
+                        <div class="answer_low">
+                            <div class="ans_tit">
+                                <strong>행정안전부가 ‘주차위반에 대한…’ 생각을 스카우트했습니다.</strong>
+                                <span>2018.10.16 ｜ 15:20</span>
+                                <a href="#" class="delete">삭제</a>     
+                            </div>
+
+                        </div>
+                        <div class="answer_low">
+                            <div class="ans_tit">
+                                <strong>행정안전부가 ‘주차위반에 대한…’ 생각을 스카우트했습니다.</strong>
+                                <span>2018.10.16 ｜ 15:20</span>
+                                <a href="#" class="delete">삭제</a>     
+                            </div>
+
+                        </div>
+                        <div class="answer_low">
+                            <div class="ans_tit">
+                                <strong>행정안전부가 ‘주차위반에 대한…’ 생각을 스카우트했습니다.</strong>
+                                <span>2018.10.16 ｜ 15:20</span>
+                                <a href="#" class="delete">삭제</a>     
+                            </div>
+
+                        </div>
+                        <div class="answer_low">
+                            <div class="ans_tit">
+                                <strong>행정안전부가 ‘주차위반에 대한…’ 생각을 스카우트했습니다.</strong>
+                                <span>2018.10.16 ｜ 15:20</span>
+                                <a href="#" class="delete">삭제</a>     
+                            </div>
+
+                        </div>
+                        <div class="answer_low">
+                            <div class="ans_tit">
+                                <strong>행정안전부가 ‘주차위반에 대한…’ 생각을 스카우트했습니다.</strong>
+                                <span>2018.10.16 ｜ 15:20</span>
+                                <a href="#" class="delete">삭제</a>     
+                            </div>
+
+                        </div>
+                        <div class="answer_low">
+                            <div class="ans_tit">
+                                <strong>행정안전부가 ‘주차위반에 대한…’ 생각을 스카우트했습니다.</strong>
+                                <span>2018.10.16 ｜ 15:20</span>
+                                <a href="#" class="delete">삭제</a>     
+                            </div>
+
+                        </div>
+                        </div>    
+                    </div>
+                    <div class="more_wrap">
+                <a href="#"><span>더보기</span> <img src="/resource/images/paid/nep/thk/content/more_btn.png" alt="더보기"></a>
+            </div>
+        </div>
+    </div>
+    <script>
+        l_layerTop();
+    </script>
+	<!-- top btn : s -->
+	<div class="page_topBtn">
+		<a href="#skip"><img src="/resource/images/paid/nep/thk/org1/layout/btn_top.gif" alt="제일 상단으로 이동"></a>
+	</div>
+	<!-- top btn : e -->
+</div>
+
+
+
+
+
+
+
+
+<!-- 1 : 개인정보 스크립트 -->
+<script type="text/javascript" src="/resource/app/applex_wdigm_html5/applex_local.js?version=1.08"></script>
+
+<!-- 2 : 첨부파일 변환 스크립트 -->
+<iframe id="uploadIFrame1" name="uploadIFrame1" class="uploadIFrame1" style="display: none; visibility: hidden;" title="첨부파일 변환"></iframe>
+
+<!-- 3 : 개인정보 차단 스크립트 -->
+
+<!-- 4 : onchang 함수 -->
+
+<!-- 5 : 첨부파일 변환 알림 문구 -->
+<!-- <div id="applex_wdigm_html5_waiting"></div> -->
+
+</body>
+</html>

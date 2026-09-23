@@ -1,0 +1,197 @@
+﻿{
+  "version": "1.2",
+  "files": [
+    {
+      "file": "00_검토결과_안내.md",
+      "chars": 3064,
+      "sha256": "dafa7704cf47bf745ca216470ef2c5eb1474472f56eaef4fa8ba5fcda2e6c134",
+      "replacementCharacter": false
+    },
+    {
+      "file": "02_공공데이터_파일별활용목록.md",
+      "chars": 15255,
+      "sha256": "51e73ea7c0cc15b5c994ee1ac7549b5bb952c4802f8f44119cc744af8416aa33",
+      "replacementCharacter": false
+    },
+    {
+      "file": "03_TS01-16_전체사업컨셉_구체화.md",
+      "chars": 38990,
+      "sha256": "ecea363ead062d3a0b6aaf67df1eab245b65d12b3909b4ef601da2e50d594c47",
+      "replacementCharacter": false
+    },
+    {
+      "file": "04_대화결정_근거_추적원장.md",
+      "chars": 13537,
+      "sha256": "be11d095070972cd2883db897a168e695a442a65e912e9544d855420d982d589",
+      "replacementCharacter": false
+    },
+    {
+      "file": "05_이전_NB100_후보_보관목록.md",
+      "chars": 3987,
+      "sha256": "751153044e02b4353cb19eff5d465659c2156943c6350f128c43d584cc704115",
+      "replacementCharacter": false
+    },
+    {
+      "file": "06_전면재검증_결과.md",
+      "chars": 14143,
+      "sha256": "7bd8467f5d40b06ca6d2a3101236dc4f3e25320f636602a3d7577a692e5a60b5",
+      "replacementCharacter": false
+    },
+    {
+      "file": "07_공공데이터_공식출처_이용조건.md",
+      "chars": 6272,
+      "sha256": "7aa02e147ef3c51f61967327a2518ae4d59b740a8b943d6dd7eff2299443f975",
+      "replacementCharacter": false
+    }
+  ],
+  "originalCSVTables": 26,
+  "originalUnchanged": true,
+  "originalHashes": [
+    {
+      "file": "국토교통부_사고연계정보_20250630.csv",
+      "unchanged": true
+    },
+    {
+      "file": "국토교통부_약관관리정보_20250830.csv",
+      "unchanged": true
+    },
+    {
+      "file": "국토교통부_지역별 인구밀도 및 행정데이터_20250829.csv",
+      "unchanged": true
+    },
+    {
+      "file": "도로교통공단_TBN 한국교통방송_교통정보 제공_통계_수집건수_20200831.csv",
+      "unchanged": true
+    },
+    {
+      "file": "도로교통공단_교통안전교육_교육계획_20191231.csv",
+      "unchanged": true
+    },
+    {
+      "file": "도로교통공단_사회교육_교통안전사회교육 계획 정보_20210909.csv",
+      "unchanged": true
+    },
+    {
+      "file": "한국교통안전공단_2022년 안전도측정기기 정밀도검사 기기종류별 부적합 및 재검사 현황_20230720.csv",
+      "unchanged": true
+    },
+    {
+      "file": "한국교통안전공단_2023년 안전도측정기기 형식 등록 현황_20230720.csv",
+      "unchanged": true
+    },
+    {
+      "file": "한국교통안전공단_교통안전관리자 자격증발급 연도별 현황_20251231.csv",
+      "unchanged": true
+    },
+    {
+      "file": "한국교통안전공단_교통안전교육 과정별 수료자 현황_20210714.csv",
+      "unchanged": true
+    },
+    {
+      "file": "한국교통안전공단_궤도시설 검사일자 정보_20250915.csv",
+      "unchanged": true
+    },
+    {
+      "file": "사업용차량 Trip단위 위험운전운행데이터_샘플.csv",
+      "unchanged": true
+    },
+    {
+      "file": "한국교통안전공단_운수안전컨설팅_안전등급정보_20241231.csv",
+      "unchanged": true
+    },
+    {
+      "file": "한국교통안전공단_위험물질운송안전관리시스템 CCTV 목록_20260701.csv",
+      "unchanged": true
+    },
+    {
+      "file": "한국교통안전공단_철도안전전문가교육 기본과정_사이버교육 수료현황_20251231.csv",
+      "unchanged": true
+    },
+    {
+      "file": "한국교통안전공단_측정기기 검사정보_20250429.csv",
+      "unchanged": true
+    },
+    {
+      "file": "한국교통안전공단_통함홈페이지시스템_연구교육지식 관련 자료_20200403.csv",
+      "unchanged": true
+    },
+    {
+      "file": "한국교통안전공단_통합국가자격 상점링크정보_20251118.csv",
+      "unchanged": true
+    },
+    {
+      "file": "한국교통안전공단_통합국가자격_필기시험과목별결과정보_20251208.csv",
+      "unchanged": true
+    },
+    {
+      "file": "한국교통안전공단_통합홈페이지시스템_검사서비스지식관련자료_20200403.csv",
+      "unchanged": true
+    },
+    {
+      "file": "한국교통안전공단_통합홈페이지시스템_사업소 서비스_20200403.csv",
+      "unchanged": true
+    },
+    {
+      "file": "한국교통안전공단_통합홈페이지시스템_웹진 목차_20200403.csv",
+      "unchanged": true
+    },
+    {
+      "file": "한국교통안전공단_통합홈페이지시스템_일일접속자 및 만족도 평가관리 정보_20191130.csv",
+      "unchanged": true
+    },
+    {
+      "file": "한국교통안전공단_통합홈페이지시스템_자격시험지식 관련 자료_20200313.csv",
+      "unchanged": true
+    },
+    {
+      "file": "한국교통안전공단_항공분류체계_20231214.csv",
+      "unchanged": true
+    },
+    {
+      "file": "한국도로교통공단_교통안전 사회교육 실시 현황_20241231.csv",
+      "unchanged": true
+    }
+  ],
+  "conceptIds": [
+    "TS-01",
+    "TS-02",
+    "TS-03",
+    "TS-04",
+    "TS-05",
+    "TS-06",
+    "TS-07",
+    "TS-08",
+    "TS-09",
+    "TS-10",
+    "TS-11",
+    "TS-12",
+    "TS-13",
+    "TS-14",
+    "TS-15",
+    "TS-16"
+  ],
+  "fields": {
+    "문제와 근거": 16,
+    "부처·부서와 책임": 16,
+    "제공 자료와 추가 자료": 16,
+    "한 사업 안에 포함할 구성": 16,
+    "사례 흐름": 16,
+    "사업 형태와 CCK의 역할": 16,
+    "기존사업과의 경계": 16,
+    "검증과 사업화 조건": 16,
+    "첫 확인 질문": 16
+  },
+  "conversationTurns": 77,
+  "portalPages": 30,
+  "licenseCounts": {
+    "이용허락범위 제한 없음": 28,
+    "공공저작물 : 출처표시, 상업적 이용금지, 변경금지 (제 4유형)": 2
+  },
+  "hwpTableExtractionSuccess": 12,
+  "localLinkFailures": [],
+  "errors": [],
+  "passed": true,
+  "scope": "원자료 해시·문서 편제·상태 일치·로컬 링크·추적성 점검. 현업 실증·운영·안전효과 검증 아님",
+  "checkedAtKST": "2026-09-21 14:07",
+  "independentFinalReview": "필수 보완 3건 반영: 미확인 문제의 가설 표시, PMO 계약 서명 미확인, 예약자료 부재의 제공자료 범위 한정"
+}
