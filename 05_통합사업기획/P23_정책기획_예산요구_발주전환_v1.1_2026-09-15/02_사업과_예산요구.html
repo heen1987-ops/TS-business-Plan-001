@@ -1,0 +1,84 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>문제정의를 예산 설명으로 | P23 정책기획</title><link rel="stylesheet" href="자산/report.css"></head><body><a class="skip" href="#main">본문으로 이동</a><aside><small>CCK · NOA × TS</small><div class="brand">정책·예산·발주<br>기획지원</div><nav aria-label="설명자료 목차"><a href="시각설계_v1.2/00_서비스_로직맵.html" style="background:#d4eeea;color:#123b42;font-weight:bold">서비스 로직맵 · v1.2</a><a href="00_기획_전체보기.html" >00 근거에서 예산·발주까지</a><a href="01_자료와_문제정의.html" >01 부서가 함께 보는 문제와 근거</a><a href="02_사업과_예산요구.html" aria-current="page">02 문제정의를 예산 설명으로</a><a href="03_양식과_필드매핑.html" >03 하나의 사업원장에서 여러 문서로</a><a href="04_아키텍처와_흐름.html" >04 로컬 LLM 기반 구성과 검토 흐름</a><a href="05_RFP와_공고전환.html" >05 승인된 사업을 발주 가능한 요구로</a><a href="06_요구사항과_검증.html" >06 무엇을 만들고 어떻게 확인할 것인가</a><a href="07_비용과_도입계획.html" >07 확장 범위와 추가 개발비</a><a href="08_문서전환_시연.html" >08 사업원장 → 문서 초안 시연</a><div class="formnav"><a href="서식/F01_문제정의_정책사업_검토서.html" >F01 문제정의·정책사업 검토서</a><a href="서식/F02_예산요구_사업설명자료.html" >F02 예산 요구·사업설명자료</a><a href="서식/F03_2027_신규사업_리스트.html" >F03 2027 신규사업 리스트 작성지원</a><a href="서식/F04_발주기관_RFP_초안.html" >F04 발주기관 RFP 초안</a><a href="서식/F05_공고작성_인계서.html" >F05 공고 작성 인계서</a><a href="서식/F06_심의질의_답변보완표.html" >F06 예산 심의 질의응답·보완표</a></div></nav></aside><div class="shell"><header><div class="eyebrow">POLICY PLANNING / P23 v1.1</div><h1>문제정의를 예산 설명으로</h1><p class="lead">재원·제출 경로·총비용을 먼저 구분</p><div class="meta"><span>기존 서버 · 로컬 LLM</span><span>신규 인프라 0원</span><span>기획·초안 · 실증 전</span></div></header><main id="main" tabindex="-1"><section data-visual-v12="true" style="padding:19px 21px;margin:0 0 25px;background:#e2f3ed;border:1px solid #a6cfc2;border-radius:9px"><strong style="display:block;font-size:19px;color:#15584e">서비스가 어떻게 동작하는지 도식으로 보기</strong><p style="margin:8px 0 13px;color:#3b615d;font-size:14px">각 단계를 선택하면 입력·처리·출력·담당자 판단과 보완 경로가 표시됩니다.</p><div style="display:flex;gap:8px;flex-wrap:wrap"><a style="display:inline-block;padding:8px 12px;border-radius:5px;background:#0b7164;color:white;text-decoration:none;font-size:14px" href="시각설계_v1.2/00_서비스_로직맵.html">컨셉·로직맵</a><a style="display:inline-block;padding:8px 12px;border-radius:5px;background:#0b7164;color:white;text-decoration:none;font-size:14px" href="시각설계_v1.2/01_서비스_흐름도.html">서비스 흐름</a><a style="display:inline-block;padding:8px 12px;border-radius:5px;background:#0b7164;color:white;text-decoration:none;font-size:14px" href="시각설계_v1.2/03_데이터_흐름도.html">데이터 흐름</a><a style="display:inline-block;padding:8px 12px;border-radius:5px;background:#0b7164;color:white;text-decoration:none;font-size:14px" href="시각설계_v1.2/06_사용자화면_시연.html">사용자 화면</a></div></section><h2>예산 경로를 선택한다</h2>
+<div class="tablewrap" tabindex="0" role="region" aria-label="좌우로 이동 가능한 표"><table>
+<thead>
+<tr>
+<th>경로</th>
+<th>설계상 업무 흐름</th>
+<th>자동으로 확정하지 않을 것</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>TS 자체예산</td>
+<td>업무부서 검토 → 기획·예산 협의 → 기관의 예산·의사결정 절차 → 발주 준비</td>
+<td>모든 자체예산이 중앙 예산기관에 직접 제출된다는 가정</td>
+</tr>
+<tr>
+<td>정부예산 연계</td>
+<td>TS 작성지원 자료 → 해당 소관부처 취합·검토 → 정부 예산 절차 → 결과 확인</td>
+<td>TS의 직접 제출 권한·경로·서식·기한</td>
+</tr>
+<tr>
+<td>위탁·보조·특정 사업재원</td>
+<td>협약·재원 기준 확인 → 해당 제출기관 양식 → 비용 인정·승인 절차</td>
+<td>일반 정보화사업과 동일한 비용·제출 규칙</td>
+</tr>
+</tbody></table></div>
+<p>사용자께서 말씀하신 ‘기획재정부 전달용’은 <strong>중앙 예산 심의에 필요한 자료를 준비한다는 요구</strong>로 반영한다. 확인한 2027년도 지침 발간 기관은 기획예산처다. 시스템에서는 기관명을 고정하지 않고 연도·수신처·재원에 맞는 승인 양식을 선택한다. <a href="https://www.mpb.go.kr/web/main/bbs/b_0005/2225">공식 2027 세부지침</a></p>
+<h2>예산을 설명하는 연결</h2>
+<p><strong>근거 → 해결할 문제 → 공공 개입 필요성 → 정책 대안 → 선택 사업 → 수행범위 → 비용 항목 → 성과·검수 → 집행계획</strong>을 동일한 ID로 연결한다. 필요성을 설명할 근거가 부족하면 예산 설명 문장을 늘리는 대신 필요한 조사를 표시한다.</p>
+<div class="tablewrap" tabindex="0" role="region" aria-label="좌우로 이동 가능한 표"><table>
+<thead>
+<tr>
+<th>예산 설명 항목</th>
+<th>필요한 입력</th>
+<th>출력</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>왜 지금인가</td>
+<td>발생 규모·지속성·정책목표·미대응 영향</td>
+<td>사업 필요성과 시급성 초안</td>
+</tr>
+<tr>
+<td>왜 TS인가</td>
+<td>소관 근거·현행 수행주체·협업 관계</td>
+<td>수행 주체와 협업 범위</td>
+</tr>
+<tr>
+<td>왜 이 방법인가</td>
+<td>비SW 대안·기존 시스템 활용·추가 도입 비교</td>
+<td>선택 사유·포기한 대안·전제조건</td>
+</tr>
+<tr>
+<td>얼마가 필요한가</td>
+<td>항목별 수량·단가·기간·요율·VAT·출처</td>
+<td>연차별 비용·총비용·산식</td>
+</tr>
+<tr>
+<td>기존 예산과 다른가</td>
+<td>기구축·계약·추가 범위·관련 기관 의견</td>
+<td>유사중복 검토 및 실제 의견조회 결과</td>
+</tr>
+<tr>
+<td>집행 가능한가</td>
+<td>자료 접근·서식·자원·조달 일정·담당자</td>
+<td>선행조건·집행계획·유보조건</td>
+</tr>
+<tr>
+<td>무엇이 달라지는가</td>
+<td>실측 기준선·검증 대상·측정 방법</td>
+<td>산출물 지표와 사업 성과지표</td>
+</tr>
+</tbody></table></div>
+<h2>총비용과 연차</h2>
+<p>2027 세부지침의 정보화사업 항목은 연차별·항목별 투자소요를 요구하며, 신규사업에 구축 경비 외 구축 후 5년간 운영유지관리비·추가구축비·이용료 등을 포함하도록 설명한다. 사업별 총소요비용 작성양식은 필요시 별도 공지될 수 있다. <strong>단일 고정 양식이 모든 제출에 통용된다고 가정하지 않는다.</strong> <a href="https://www.mpb.go.kr/web/main/bbs/b_0005/2225">공식 지침, 인쇄45쪽</a></p>
+<p>입력 모델은 구축연도 Y0, 운영 Y1–Y5, 기타 승인 연차를 관리한다. 기존 서버 사용으로 신규 인프라 투자액은 0원이지만 추가 운영인력·SW 이용권·유지보수까지 자동으로 0원 처리하지 않는다. 미견적 항목은 ‘미확정’으로 남겨 알려진 소계와 구분한다.</p>
+<h2>실제 예산 심의의 피드백</h2>
+<ul>
+<li>질의: 질문 원문·발신처·기한·담당자를 등록하고 근거를 연결한 답변 초안을 작성한다.</li>
+<li>감액: 감액된 금액을 승인·제안·가정 중 어느 상태인지 구분한다. 우선 기능 유지·범위 축소·단계 분리안을 다시 산정한다.</li>
+<li>증액: 증가 항목·사유·단가·수량을 기록하고 원래 문제와 연결되는지 재검토한다.</li>
+<li>부결·유보: 사유·보완 근거·재검토 조건을 남긴다. 자동 공고 준비 상태로 넘어가지 않는다.</li>
+</ul>
+<p>ISP·ISMP·사전협의·각종 심사·예비타당성조사 등의 적용 여부는 재원·유형·규모·연도·소관 기준으로 담당자가 확인한다. 여기서는 해당 여부와 근거를 보관할 필드를 설계하며 개별 사업의 법적 의무 판정을 완료한 것으로 보지 않는다.</p>
+</main><div class="doclinks"><a href="02_사업과_예산요구.md">이 페이지 Markdown</a><a href="근거_출처와_검증상태.md">근거·검증 상태</a><a href="검증기록.md">산출물 검증기록</a></div><footer>2026.09.15 · P23 추가후보 v1.1 · 실제 예산 제출·공고·운영 연계는 수행하지 않았습니다.</footer></div></body></html>

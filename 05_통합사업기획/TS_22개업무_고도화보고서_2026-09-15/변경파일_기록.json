@@ -1,0 +1,356 @@
+{
+  "date": "2026-09-15",
+  "scope": "새 고도화 보고서 생성 및 루트 README 행 추가",
+  "created": [
+    {
+      "path": "개별보고서/TS-P01_고도화보고서.md",
+      "bytes": 24673,
+      "sha256": "fc6c67835319691c7cab737a3c97fc54c503efa3daa0663221f4bcdccb71762e"
+    },
+    {
+      "path": "개별보고서/TS-P01_고도화보고서.html",
+      "bytes": 39283,
+      "sha256": "2935b62a3451e4636c043ce1a5f81479710f9d3d615d5c8c126c86480a253624"
+    },
+    {
+      "path": "개별보고서/TS-P02_고도화보고서.md",
+      "bytes": 24312,
+      "sha256": "2a348038864facbef96e226b1b5f2e9bdf6da297514d91b82f2d1ff585885bc2"
+    },
+    {
+      "path": "개별보고서/TS-P02_고도화보고서.html",
+      "bytes": 38959,
+      "sha256": "2f45451da4411de61160c0fb47d62abc8c215ec66ca728a5a6994d3d71e814d1"
+    },
+    {
+      "path": "개별보고서/TS-P03_고도화보고서.md",
+      "bytes": 23904,
+      "sha256": "a467e80d37f0450aa9d6d8e28a39cdc22ef20197eaaa3f4b707811df8e4d886c"
+    },
+    {
+      "path": "개별보고서/TS-P03_고도화보고서.html",
+      "bytes": 38518,
+      "sha256": "3d28ff6ff9e031fb601faef36d068ea0a9ce164fd92189bb54a33674e80bb727"
+    },
+    {
+      "path": "개별보고서/TS-P04_고도화보고서.md",
+      "bytes": 23996,
+      "sha256": "0a9551f6a4c367078f1d34c8d7f111d633a8043de941c5bedbb4789fe2304af8"
+    },
+    {
+      "path": "개별보고서/TS-P04_고도화보고서.html",
+      "bytes": 38598,
+      "sha256": "9db851ec157c056f27188809d9fc6f698bdeb983fc5097591a1439e1339c222b"
+    },
+    {
+      "path": "개별보고서/TS-P05_고도화보고서.md",
+      "bytes": 23549,
+      "sha256": "b4b31027b5d9bbe9fd89e8bd1f6b7e24bab8a37f6a8035798cefe74c406d88b0"
+    },
+    {
+      "path": "개별보고서/TS-P05_고도화보고서.html",
+      "bytes": 38114,
+      "sha256": "28820ced8d0163238b4253e7519c994e9f5ddaefcbd3ac1807c9abdfc4053334"
+    },
+    {
+      "path": "개별보고서/TS-P06_고도화보고서.md",
+      "bytes": 23698,
+      "sha256": "90a6fe2925dd58beabc64c1e204b0350f64302147bfb6ddc235ede4a219b624d"
+    },
+    {
+      "path": "개별보고서/TS-P06_고도화보고서.html",
+      "bytes": 38245,
+      "sha256": "72e1cf256fb952c8687bb6b6f7e0e9317841c94f643d0adb3d7df156426b2c5c"
+    },
+    {
+      "path": "개별보고서/TS-P07_고도화보고서.md",
+      "bytes": 23290,
+      "sha256": "1649625767ca081b64108bc090e348a3497505c6406070a650732e064d1fbb7e"
+    },
+    {
+      "path": "개별보고서/TS-P07_고도화보고서.html",
+      "bytes": 37835,
+      "sha256": "ec7f32c59aa0af7f20772323fbf7ef775af8b1f2be6b4adbbfe8923f3e80f148"
+    },
+    {
+      "path": "개별보고서/TS-P08_고도화보고서.md",
+      "bytes": 23643,
+      "sha256": "0779bfed05b991bfbe986cd70b4c474507bc172e08f93e666526fd5b57750a82"
+    },
+    {
+      "path": "개별보고서/TS-P08_고도화보고서.html",
+      "bytes": 38202,
+      "sha256": "5b1cee7a8c6ec693ee7379eccbe4f974aea0149835173bb132d6e7c795d56464"
+    },
+    {
+      "path": "개별보고서/TS-P09_고도화보고서.md",
+      "bytes": 23764,
+      "sha256": "be298843456db0fe955346268317a8b8765005d62775891fd631344e2691d996"
+    },
+    {
+      "path": "개별보고서/TS-P09_고도화보고서.html",
+      "bytes": 38354,
+      "sha256": "985d51903aab1974a3cccb89f718628172adf667e019d6e23a521eb347eb83f6"
+    },
+    {
+      "path": "개별보고서/TS-P10_고도화보고서.md",
+      "bytes": 25563,
+      "sha256": "f5b2be8afe5612d23065c59b26984d76a855d925be037ea3ca54d56603fb123f"
+    },
+    {
+      "path": "개별보고서/TS-P10_고도화보고서.html",
+      "bytes": 40216,
+      "sha256": "5f6e6d7e680957840db5ddf06ebe255446ad6d0b9b8014f159a1c980026bb271"
+    },
+    {
+      "path": "개별보고서/TS-P11_고도화보고서.md",
+      "bytes": 23939,
+      "sha256": "e83ef8c0711e0cb44ea033d3204448903f2405e701443a007d5edd6e416f017e"
+    },
+    {
+      "path": "개별보고서/TS-P11_고도화보고서.html",
+      "bytes": 38572,
+      "sha256": "d5adf6447646209856e9e789bb50218335ed83beb06b1c50bb770272786e96d1"
+    },
+    {
+      "path": "개별보고서/TS-P12_고도화보고서.md",
+      "bytes": 23991,
+      "sha256": "66aa49db2e97e37cfc38a35cce1d10922e64729b19703dc2ad8bb40c8a447010"
+    },
+    {
+      "path": "개별보고서/TS-P12_고도화보고서.html",
+      "bytes": 38593,
+      "sha256": "8bf04999f3eb77a5965bb633f5d4553318bee96261fd73a32a7edb8cc8b8db9a"
+    },
+    {
+      "path": "개별보고서/TS-P13_고도화보고서.md",
+      "bytes": 24064,
+      "sha256": "1d8459c1b6b042c52d1f94d186680b979a2f116dc4383638962bac69e0eeba12"
+    },
+    {
+      "path": "개별보고서/TS-P13_고도화보고서.html",
+      "bytes": 38678,
+      "sha256": "ec6491402349bc887cf8e9161a5aa26ad557ef69084be88ea4e2e0ca65150607"
+    },
+    {
+      "path": "개별보고서/TS-P14_고도화보고서.md",
+      "bytes": 23798,
+      "sha256": "9564a6ac3172ca35885e0b8211c5a5076cc8f867d9a5ade1e6f6e74fb95d45ac"
+    },
+    {
+      "path": "개별보고서/TS-P14_고도화보고서.html",
+      "bytes": 38430,
+      "sha256": "fd2d348434ddd1ae52f22673bbb9e843da3805654b7c27f9791be1d686a98f83"
+    },
+    {
+      "path": "개별보고서/TS-P15_고도화보고서.md",
+      "bytes": 23464,
+      "sha256": "a86af85e85f99caadec34c50dcf54ddf8eaa9cd4a94616b9ddad38ca75131a55"
+    },
+    {
+      "path": "개별보고서/TS-P15_고도화보고서.html",
+      "bytes": 38021,
+      "sha256": "92f7a7dcf8fc683c3a715489d2673101bbb7b876825abd38082d127c03b665fb"
+    },
+    {
+      "path": "개별보고서/TS-P16_고도화보고서.md",
+      "bytes": 23806,
+      "sha256": "835e7b10c975b2b7585c2b689ce494cf4e82ea68d7ade7ab901ff228ddba1c3a"
+    },
+    {
+      "path": "개별보고서/TS-P16_고도화보고서.html",
+      "bytes": 38410,
+      "sha256": "ff823944f83cb1110d8075cd51421e181d839f148102c0cfa98ca17a4c2f58fe"
+    },
+    {
+      "path": "개별보고서/TS-P17_고도화보고서.md",
+      "bytes": 23182,
+      "sha256": "c11936f51ae4471f988bcf6a73b4f3dbff889ec428136d03e1e148816922e8ab"
+    },
+    {
+      "path": "개별보고서/TS-P17_고도화보고서.html",
+      "bytes": 37713,
+      "sha256": "ad36267c8f09232453695c324fb742d011082608df14a627fa4460bf849325d3"
+    },
+    {
+      "path": "개별보고서/TS-P18_고도화보고서.md",
+      "bytes": 23452,
+      "sha256": "a9cddf34fc689e56d529d7bb77782f9b0a41d6f2cde76130cb1780ce08d78ac8"
+    },
+    {
+      "path": "개별보고서/TS-P18_고도화보고서.html",
+      "bytes": 38003,
+      "sha256": "8fcbfc5dc899d6678b122b43bdd680ff510f5f7aa24df0581b4bbe683ad61087"
+    },
+    {
+      "path": "개별보고서/TS-P19_고도화보고서.md",
+      "bytes": 24368,
+      "sha256": "5ad265359e49691fdae8010e65b9c1e3c66e513b95a272e07d241dc1edd5dbd1"
+    },
+    {
+      "path": "개별보고서/TS-P19_고도화보고서.html",
+      "bytes": 38938,
+      "sha256": "3745ae4a51da07ca5f41844c3ae8ca8f50d29f224827e51cdf71659c1b904e49"
+    },
+    {
+      "path": "개별보고서/TS-P20_고도화보고서.md",
+      "bytes": 23749,
+      "sha256": "760d1433a369b543af88ef2b5cc8a99c129deb61af7e2c33236fa15b0a4486c9"
+    },
+    {
+      "path": "개별보고서/TS-P20_고도화보고서.html",
+      "bytes": 38302,
+      "sha256": "b21c969a9d7e9edeea8857759fe29aa76f3d353747045bf543d35f2c29734b77"
+    },
+    {
+      "path": "개별보고서/TS-P21_고도화보고서.md",
+      "bytes": 23770,
+      "sha256": "c1417441eaee6812761a7aceb117fca3e3ef8b9d33c7b168923119c58f7a58d4"
+    },
+    {
+      "path": "개별보고서/TS-P21_고도화보고서.html",
+      "bytes": 38354,
+      "sha256": "fbecdb30428655a24fe0dfa1058c14cdfc57e0985c6c4a060824bdc59808a82d"
+    },
+    {
+      "path": "개별보고서/TS-P22_고도화보고서.md",
+      "bytes": 23943,
+      "sha256": "5dab04aab675219cccb447e8d54f2129aa3fbcebcc052290a5cd5147cb7d75dc"
+    },
+    {
+      "path": "개별보고서/TS-P22_고도화보고서.html",
+      "bytes": 38543,
+      "sha256": "e121a08cd5d3b20c896709db300acb7093eeaaf5624b7d2333f546047317b8d4"
+    },
+    {
+      "path": "검증/01_통합_데스크톱.png",
+      "bytes": 69962,
+      "sha256": "45946adcf700182184c8b14ec0e78a6887ea80813a98942d688b76c266a65180"
+    },
+    {
+      "path": "검증/02_검색_모바일.png",
+      "bytes": 30099,
+      "sha256": "b5560c8acbafcd65d0ff646fa7be60e37e9000dc8cc6c338c79f8c140a21bc88"
+    },
+    {
+      "path": "검증/03_P10_데스크톱.png",
+      "bytes": 77164,
+      "sha256": "6015e2042603ca40989b61ef00a84283d0e6c6ed9fabb6addc1696428d79a773"
+    },
+    {
+      "path": "검증/04_P10_요구사항.png",
+      "bytes": 91782,
+      "sha256": "ecb9af9955fcd68c428e853abe7cce6dbd1220e540aa29bffe5ac9185f37aafb"
+    },
+    {
+      "path": "검증/05_P10_모바일표.png",
+      "bytes": 37602,
+      "sha256": "40bfc0c63ce34a995cb1da264324256142b6f906a77cb76ce9dd3bb121a9aa83"
+    },
+    {
+      "path": "검증/06_공통_예산산식.png",
+      "bytes": 106982,
+      "sha256": "ac058ea611976bc6d09b9fc5c3eb05e482c965339c688b05ff6c17d4eab5b16e"
+    },
+    {
+      "path": "검증/자동검증_결과.json",
+      "bytes": 22753,
+      "sha256": "9d0838ac03ccd00253f5728668ec0548e680c610a71337d97a5221ee67386f88"
+    },
+    {
+      "path": "검증/07_목차_모바일도착.png",
+      "bytes": 41613,
+      "sha256": "bd4b9d708079e214e75ed740570ef4d421afe145173380b52687f42787053271"
+    },
+    {
+      "path": "작성자료/ts_enhance_data.cjs",
+      "bytes": 35271,
+      "sha256": "c4c6cd60cc1ca463cc90d7458754aba151be782fd5108260f557eb43249a9099"
+    },
+    {
+      "path": "작성자료/ts_enhance_data2.cjs",
+      "bytes": 34853,
+      "sha256": "2126bdad6f4abb142ba7756215de4fbecb6d1012093792aed106fe762dce43f3"
+    },
+    {
+      "path": "작성자료/ts_enhance_build.cjs",
+      "bytes": 57021,
+      "sha256": "979be0b6118e53e94c7f712e5b921ff35898214cb9bbba31a6824920dce927c8"
+    },
+    {
+      "path": "작성자료/ts_enhance_qa.cjs",
+      "bytes": 9503,
+      "sha256": "f1c0c0c60b09234eebb55b8d599bdd0514f1f67c52e87b1b0de0350f09fa200d"
+    },
+    {
+      "path": "작성자료/ts_enhance_finish.cjs",
+      "bytes": 8364,
+      "sha256": "f2895cf0ca64baa58900f3b1906a66aced41a44099505d1e5bb2a3408acabbbf"
+    },
+    {
+      "path": "01_공통설계_추진계획_비용산정.md",
+      "bytes": 27285,
+      "sha256": "debaffdfd3a4747fa4384532da95e78cf75f1376eb9107c47e2ab02e1673ca19"
+    },
+    {
+      "path": "01_공통설계_추진계획_비용산정.html",
+      "bytes": 40410,
+      "sha256": "87ffb6b8cd09967b52b29b842d73cfc76a5b4ea14a83e6834479a176142746cd"
+    },
+    {
+      "path": "00_고도화보고서_통합보기.md",
+      "bytes": 31664,
+      "sha256": "ee7555f769a5455cf542b287a751cedb3f937d17ad75b4cd2e1f4ec487008173"
+    },
+    {
+      "path": "00_고도화보고서_통합보기.html",
+      "bytes": 41496,
+      "sha256": "1b48badfc1b178f947b5780249f945a885206df7bb31bb782f1ec295c6b12872"
+    },
+    {
+      "path": "02_고도화보고서_원장.json",
+      "bytes": 248381,
+      "sha256": "c64bda88d775b64c15af9c49adc939b74127e086a4c0557466e8ec48bad147ee"
+    },
+    {
+      "path": "03_요구사항_시험추적.json",
+      "bytes": 203176,
+      "sha256": "08af52104ee7923c7bc5bf408d9fdc3d1c74ed9bac15cfc8841316439df65453"
+    },
+    {
+      "path": "04_작업분해_공수원장.json",
+      "bytes": 37042,
+      "sha256": "3890a9fc4e240a5f3e26fdd93a666e6515a9908d32c160d5d607716e078021cb"
+    },
+    {
+      "path": "근거원장.json",
+      "bytes": 31604,
+      "sha256": "74ebd3a89ed6e9e1e6fdcdf4c40a07f022204583e2a91b0564c4ccb31a49908e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8154,
+      "sha256": "8247711a396648b6d9d762389daf878ba4f9f8750ff953b709ff3b3d39c8bb06"
+    },
+    {
+      "path": "검증기록.md",
+      "bytes": 4335,
+      "sha256": "a88768c19856f5fa9430454e7ed7160260f8571a4c460d9ee0337d6c45464c45"
+    },
+    {
+      "path": "기준_변경전/README.md",
+      "bytes": 22212,
+      "sha256": "344651c9bb5fe52ba8fb1e4a2275bcd684ab2454800e6acfc731c9f513544f83"
+    }
+  ],
+  "modified": [
+    {
+      "path": "README.md",
+      "before_backup": "05_통합사업기획/TS_22개업무_고도화보고서_2026-09-15/기준_변경전/README.md",
+      "before_sha256": "344651c9bb5fe52ba8fb1e4a2275bcd684ab2454800e6acfc731c9f513544f83",
+      "after_sha256": "38fcf3b38e63d4d9abc9855e2c5461a8bff47b27095a208e1405d1ad8ab81d52"
+    }
+  ],
+  "deleted": [],
+  "product_deployed": false
+}

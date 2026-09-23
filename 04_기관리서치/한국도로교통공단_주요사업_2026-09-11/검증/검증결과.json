@@ -1,0 +1,23 @@
+{
+  "main": 36,
+  "additional": 28,
+  "counts": {
+    "교통안전사업": 11,
+    "교통교육사업": 6,
+    "교통방송사업": 4,
+    "운전면허사업": 5,
+    "연구개발사업": 6,
+    "교통AI디지털사업": 4
+  },
+  "fitCount": 5,
+  "bad": [],
+  "skipFocus": true,
+  "empty": true,
+  "expand": true,
+  "collapse": true,
+  "reset": true,
+  "desktopOverflow": false,
+  "mobileOverflow": false,
+  "errors": [],
+  "limits": "기본 화면·링크·분류·검색 검사. 전체 WCAG 또는 실제 포털 이용·업무 성능 검증 아님"
+}

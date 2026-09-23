@@ -1,0 +1,1071 @@
+{
+  "date": "2026-09-15",
+  "scope": "산출물 구조·수량·링크·계보·산술·브라우저·대표 상호작용. 제품 성능시험 아님",
+  "summary": {
+    "checks": 162,
+    "passed": 162,
+    "failed": 0,
+    "html_files": 24,
+    "local_link_occurrences": 685,
+    "anchor_occurrences": 348,
+    "viewports": [
+      1440,
+      768,
+      390
+    ],
+    "screenshots": 7
+  },
+  "checks": [
+    {
+      "name": "22개 보고서 및 7개 대분류",
+      "passed": true
+    },
+    {
+      "name": "요구132·시험154·작업88",
+      "passed": true
+    },
+    {
+      "name": "고유 요구사항·시험 ID",
+      "passed": true
+    },
+    {
+      "name": "제품 시험 모두 미실행",
+      "passed": true
+    },
+    {
+      "name": "신규 인프라 0원",
+      "passed": true
+    },
+    {
+      "name": "기존 요구사항 88개 연결 유효",
+      "passed": true
+    },
+    {
+      "name": "요구→시험 연결 유효",
+      "passed": true
+    },
+    {
+      "name": "증분 공수 합계",
+      "passed": true,
+      "detail": [
+        531,
+        874
+      ]
+    },
+    {
+      "name": "P01/P17·P21/P22 통합 그룹",
+      "passed": true
+    },
+    {
+      "name": "TS-P01 개별 구성·원문",
+      "passed": true,
+      "detail": {
+        "characters": 12082
+      }
+    },
+    {
+      "name": "TS-P01 고유 시험·최소범위·책임",
+      "passed": true
+    },
+    {
+      "name": "TS-P02 개별 구성·원문",
+      "passed": true,
+      "detail": {
+        "characters": 11919
+      }
+    },
+    {
+      "name": "TS-P02 고유 시험·최소범위·책임",
+      "passed": true
+    },
+    {
+      "name": "TS-P03 개별 구성·원문",
+      "passed": true,
+      "detail": {
+        "characters": 11930
+      }
+    },
+    {
+      "name": "TS-P03 고유 시험·최소범위·책임",
+      "passed": true
+    },
+    {
+      "name": "TS-P04 개별 구성·원문",
+      "passed": true,
+      "detail": {
+        "characters": 11893
+      }
+    },
+    {
+      "name": "TS-P04 고유 시험·최소범위·책임",
+      "passed": true
+    },
+    {
+      "name": "TS-P05 개별 구성·원문",
+      "passed": true,
+      "detail": {
+        "characters": 11487
+      }
+    },
+    {
+      "name": "TS-P05 고유 시험·최소범위·책임",
+      "passed": true
+    },
+    {
+      "name": "TS-P06 개별 구성·원문",
+      "passed": true,
+      "detail": {
+        "characters": 11508
+      }
+    },
+    {
+      "name": "TS-P06 고유 시험·최소범위·책임",
+      "passed": true
+    },
+    {
+      "name": "TS-P07 개별 구성·원문",
+      "passed": true,
+      "detail": {
+        "characters": 11373
+      }
+    },
+    {
+      "name": "TS-P07 고유 시험·최소범위·책임",
+      "passed": true
+    },
+    {
+      "name": "TS-P08 개별 구성·원문",
+      "passed": true,
+      "detail": {
+        "characters": 11511
+      }
+    },
+    {
+      "name": "TS-P08 고유 시험·최소범위·책임",
+      "passed": true
+    },
+    {
+      "name": "TS-P09 개별 구성·원문",
+      "passed": true,
+      "detail": {
+        "characters": 11792
+      }
+    },
+    {
+      "name": "TS-P09 고유 시험·최소범위·책임",
+      "passed": true
+    },
+    {
+      "name": "TS-P10 개별 구성·원문",
+      "passed": true,
+      "detail": {
+        "characters": 12703
+      }
+    },
+    {
+      "name": "TS-P10 고유 시험·최소범위·책임",
+      "passed": true
+    },
+    {
+      "name": "TS-P11 개별 구성·원문",
+      "passed": true,
+      "detail": {
+        "characters": 11955
+      }
+    },
+    {
+      "name": "TS-P11 고유 시험·최소범위·책임",
+      "passed": true
+    },
+    {
+      "name": "TS-P12 개별 구성·원문",
+      "passed": true,
+      "detail": {
+        "characters": 11706
+      }
+    },
+    {
+      "name": "TS-P12 고유 시험·최소범위·책임",
+      "passed": true
+    },
+    {
+      "name": "TS-P13 개별 구성·원문",
+      "passed": true,
+      "detail": {
+        "characters": 11780
+      }
+    },
+    {
+      "name": "TS-P13 고유 시험·최소범위·책임",
+      "passed": true
+    },
+    {
+      "name": "TS-P14 개별 구성·원문",
+      "passed": true,
+      "detail": {
+        "characters": 11677
+      }
+    },
+    {
+      "name": "TS-P14 고유 시험·최소범위·책임",
+      "passed": true
+    },
+    {
+      "name": "TS-P15 개별 구성·원문",
+      "passed": true,
+      "detail": {
+        "characters": 11425
+      }
+    },
+    {
+      "name": "TS-P15 고유 시험·최소범위·책임",
+      "passed": true
+    },
+    {
+      "name": "TS-P16 개별 구성·원문",
+      "passed": true,
+      "detail": {
+        "characters": 11752
+      }
+    },
+    {
+      "name": "TS-P16 고유 시험·최소범위·책임",
+      "passed": true
+    },
+    {
+      "name": "TS-P17 개별 구성·원문",
+      "passed": true,
+      "detail": {
+        "characters": 11477
+      }
+    },
+    {
+      "name": "TS-P17 고유 시험·최소범위·책임",
+      "passed": true
+    },
+    {
+      "name": "TS-P18 개별 구성·원문",
+      "passed": true,
+      "detail": {
+        "characters": 11437
+      }
+    },
+    {
+      "name": "TS-P18 고유 시험·최소범위·책임",
+      "passed": true
+    },
+    {
+      "name": "TS-P19 개별 구성·원문",
+      "passed": true,
+      "detail": {
+        "characters": 12045
+      }
+    },
+    {
+      "name": "TS-P19 고유 시험·최소범위·책임",
+      "passed": true
+    },
+    {
+      "name": "TS-P20 개별 구성·원문",
+      "passed": true,
+      "detail": {
+        "characters": 11542
+      }
+    },
+    {
+      "name": "TS-P20 고유 시험·최소범위·책임",
+      "passed": true
+    },
+    {
+      "name": "TS-P21 개별 구성·원문",
+      "passed": true,
+      "detail": {
+        "characters": 11594
+      }
+    },
+    {
+      "name": "TS-P21 고유 시험·최소범위·책임",
+      "passed": true
+    },
+    {
+      "name": "TS-P22 개별 구성·원문",
+      "passed": true,
+      "detail": {
+        "characters": 11751
+      }
+    },
+    {
+      "name": "TS-P22 고유 시험·최소범위·책임",
+      "passed": true
+    },
+    {
+      "name": "00_고도화보고서_통합보기.html 문서 구조",
+      "passed": true
+    },
+    {
+      "name": "00_고도화보고서_통합보기.html 1440px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "00_고도화보고서_통합보기.html 768px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "00_고도화보고서_통합보기.html 390px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "01_공통설계_추진계획_비용산정.html 문서 구조",
+      "passed": true
+    },
+    {
+      "name": "01_공통설계_추진계획_비용산정.html 1440px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "01_공통설계_추진계획_비용산정.html 768px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "01_공통설계_추진계획_비용산정.html 390px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "TS-P01_고도화보고서.html 문서 구조",
+      "passed": true
+    },
+    {
+      "name": "TS-P01_고도화보고서.html 1440px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "TS-P01_고도화보고서.html 768px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "TS-P01_고도화보고서.html 390px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "TS-P02_고도화보고서.html 문서 구조",
+      "passed": true
+    },
+    {
+      "name": "TS-P02_고도화보고서.html 1440px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "TS-P02_고도화보고서.html 768px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "TS-P02_고도화보고서.html 390px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "TS-P03_고도화보고서.html 문서 구조",
+      "passed": true
+    },
+    {
+      "name": "TS-P03_고도화보고서.html 1440px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "TS-P03_고도화보고서.html 768px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "TS-P03_고도화보고서.html 390px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "TS-P04_고도화보고서.html 문서 구조",
+      "passed": true
+    },
+    {
+      "name": "TS-P04_고도화보고서.html 1440px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "TS-P04_고도화보고서.html 768px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "TS-P04_고도화보고서.html 390px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "TS-P05_고도화보고서.html 문서 구조",
+      "passed": true
+    },
+    {
+      "name": "TS-P05_고도화보고서.html 1440px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "TS-P05_고도화보고서.html 768px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "TS-P05_고도화보고서.html 390px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "TS-P06_고도화보고서.html 문서 구조",
+      "passed": true
+    },
+    {
+      "name": "TS-P06_고도화보고서.html 1440px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "TS-P06_고도화보고서.html 768px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "TS-P06_고도화보고서.html 390px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "TS-P07_고도화보고서.html 문서 구조",
+      "passed": true
+    },
+    {
+      "name": "TS-P07_고도화보고서.html 1440px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "TS-P07_고도화보고서.html 768px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "TS-P07_고도화보고서.html 390px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "TS-P08_고도화보고서.html 문서 구조",
+      "passed": true
+    },
+    {
+      "name": "TS-P08_고도화보고서.html 1440px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "TS-P08_고도화보고서.html 768px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "TS-P08_고도화보고서.html 390px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "TS-P09_고도화보고서.html 문서 구조",
+      "passed": true
+    },
+    {
+      "name": "TS-P09_고도화보고서.html 1440px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "TS-P09_고도화보고서.html 768px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "TS-P09_고도화보고서.html 390px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "TS-P10_고도화보고서.html 문서 구조",
+      "passed": true
+    },
+    {
+      "name": "TS-P10_고도화보고서.html 1440px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "TS-P10_고도화보고서.html 768px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "TS-P10_고도화보고서.html 390px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "TS-P11_고도화보고서.html 문서 구조",
+      "passed": true
+    },
+    {
+      "name": "TS-P11_고도화보고서.html 1440px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "TS-P11_고도화보고서.html 768px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "TS-P11_고도화보고서.html 390px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "TS-P12_고도화보고서.html 문서 구조",
+      "passed": true
+    },
+    {
+      "name": "TS-P12_고도화보고서.html 1440px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "TS-P12_고도화보고서.html 768px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "TS-P12_고도화보고서.html 390px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "TS-P13_고도화보고서.html 문서 구조",
+      "passed": true
+    },
+    {
+      "name": "TS-P13_고도화보고서.html 1440px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "TS-P13_고도화보고서.html 768px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "TS-P13_고도화보고서.html 390px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "TS-P14_고도화보고서.html 문서 구조",
+      "passed": true
+    },
+    {
+      "name": "TS-P14_고도화보고서.html 1440px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "TS-P14_고도화보고서.html 768px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "TS-P14_고도화보고서.html 390px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "TS-P15_고도화보고서.html 문서 구조",
+      "passed": true
+    },
+    {
+      "name": "TS-P15_고도화보고서.html 1440px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "TS-P15_고도화보고서.html 768px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "TS-P15_고도화보고서.html 390px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "TS-P16_고도화보고서.html 문서 구조",
+      "passed": true
+    },
+    {
+      "name": "TS-P16_고도화보고서.html 1440px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "TS-P16_고도화보고서.html 768px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "TS-P16_고도화보고서.html 390px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "TS-P17_고도화보고서.html 문서 구조",
+      "passed": true
+    },
+    {
+      "name": "TS-P17_고도화보고서.html 1440px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "TS-P17_고도화보고서.html 768px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "TS-P17_고도화보고서.html 390px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "TS-P18_고도화보고서.html 문서 구조",
+      "passed": true
+    },
+    {
+      "name": "TS-P18_고도화보고서.html 1440px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "TS-P18_고도화보고서.html 768px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "TS-P18_고도화보고서.html 390px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "TS-P19_고도화보고서.html 문서 구조",
+      "passed": true
+    },
+    {
+      "name": "TS-P19_고도화보고서.html 1440px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "TS-P19_고도화보고서.html 768px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "TS-P19_고도화보고서.html 390px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "TS-P20_고도화보고서.html 문서 구조",
+      "passed": true
+    },
+    {
+      "name": "TS-P20_고도화보고서.html 1440px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "TS-P20_고도화보고서.html 768px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "TS-P20_고도화보고서.html 390px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "TS-P21_고도화보고서.html 문서 구조",
+      "passed": true
+    },
+    {
+      "name": "TS-P21_고도화보고서.html 1440px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "TS-P21_고도화보고서.html 768px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "TS-P21_고도화보고서.html 390px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "TS-P22_고도화보고서.html 문서 구조",
+      "passed": true
+    },
+    {
+      "name": "TS-P22_고도화보고서.html 1440px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "TS-P22_고도화보고서.html 768px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "TS-P22_고도화보고서.html 390px 가로 넘침",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "전체 로컬 링크·앵커",
+      "passed": true,
+      "detail": {
+        "links": 685,
+        "anchors": 348,
+        "broken": []
+      }
+    },
+    {
+      "name": "검색 P17",
+      "passed": true
+    },
+    {
+      "name": "철도 분류 3개",
+      "passed": true
+    },
+    {
+      "name": "보호 사례 2개",
+      "passed": true
+    },
+    {
+      "name": "검색 빈 상태",
+      "passed": true
+    },
+    {
+      "name": "초기화·초점 복귀",
+      "passed": true
+    },
+    {
+      "name": "목차 클릭 실제 도착",
+      "passed": true,
+      "detail": {
+        "top": 11.890625,
+        "method": "목표 도착 조건 대기"
+      }
+    },
+    {
+      "name": "키보드 본문 바로가기",
+      "passed": true
+    },
+    {
+      "name": "바로가기 본문 초점",
+      "passed": true
+    },
+    {
+      "name": "모바일 상세표 내부 스크롤",
+      "passed": true
+    },
+    {
+      "name": "인쇄용 탐색 숨김",
+      "passed": true
+    },
+    {
+      "name": "브라우저 실행 오류 없음",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "HTML 외부 네트워크 요청 없음",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "broken": [],
+  "pageErrors": [],
+  "external_requests": [],
+  "screenshots": [
+    "01_통합_데스크톱.png",
+    "02_검색_모바일.png",
+    "07_목차_모바일도착.png",
+    "03_P10_데스크톱.png",
+    "04_P10_요구사항.png",
+    "05_P10_모바일표.png",
+    "06_공통_예산산식.png"
+  ],
+  "product_tests_run": 0,
+  "manual_visual_review": {
+    "status": "작성자 대표 화면 직접 검토",
+    "files": [
+      "01_통합_데스크톱.png",
+      "02_검색_모바일.png",
+      "04_P10_요구사항.png",
+      "05_P10_모바일표.png",
+      "06_공통_예산산식.png",
+      "07_목차_모바일도착.png"
+    ],
+    "final_recheck": [
+      "05_P10_모바일표.png",
+      "07_목차_모바일도착.png"
+    ],
+    "not_performed": [
+      "독립 평가위원 승인",
+      "실제 사용자 조사",
+      "제품/모델/API 시험",
+      "정식 접근성 인증"
+    ]
+  }
+}

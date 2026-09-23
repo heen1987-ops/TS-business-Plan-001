@@ -1,0 +1,704 @@
+[
+  {
+    "source_table": 1,
+    "phase": "PM00. 사업관리",
+    "activity": "PM00. 사업관리",
+    "task": "PM00. 착수",
+    "raw_output": "과업 및 제안요청서",
+    "code": "",
+    "source_note": ""
+  },
+  {
+    "source_table": 1,
+    "phase": "PM00. 사업관리",
+    "activity": "PM00. 사업관리",
+    "task": "PM00. 착수",
+    "raw_output": "제안서",
+    "code": "",
+    "source_note": ""
+  },
+  {
+    "source_table": 1,
+    "phase": "PM00. 사업관리",
+    "activity": "PM00. 사업관리",
+    "task": "PM00. 착수",
+    "raw_output": "사업수행계획서",
+    "code": "",
+    "source_note": ""
+  },
+  {
+    "source_table": 1,
+    "phase": "PM00. 사업관리",
+    "activity": "PM00. 사업관리",
+    "task": "PM00. 착수",
+    "raw_output": "착수계",
+    "code": "",
+    "source_note": ""
+  },
+  {
+    "source_table": 1,
+    "phase": "PM00. 사업관리",
+    "activity": "PM00. 사업관리",
+    "task": "PM01. 보고관리",
+    "raw_output": "PM01-1. 착수보고서",
+    "code": "PM01-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 1,
+    "phase": "PM00. 사업관리",
+    "activity": "PM00. 사업관리",
+    "task": "PM01. 보고관리",
+    "raw_output": "PM01-2. 결과보고서",
+    "code": "PM01-2",
+    "source_note": ""
+  },
+  {
+    "source_table": 1,
+    "phase": "PM00. 사업관리",
+    "activity": "PM00. 사업관리",
+    "task": "PM01. 보고관리",
+    "raw_output": "PM01-3. 주간보고서",
+    "code": "PM01-3",
+    "source_note": ""
+  },
+  {
+    "source_table": 1,
+    "phase": "PM00. 사업관리",
+    "activity": "PM00. 사업관리",
+    "task": "PM01. 보고관리",
+    "raw_output": "PM01-4. 월간보고서",
+    "code": "PM01-4",
+    "source_note": ""
+  },
+  {
+    "source_table": 1,
+    "phase": "PM00. 사업관리",
+    "activity": "PM00. 사업관리",
+    "task": "PM01. 보고관리",
+    "raw_output": "PM01-5. 상시보고서",
+    "code": "PM01-5",
+    "source_note": ""
+  },
+  {
+    "source_table": 1,
+    "phase": "PM00. 사업관리",
+    "activity": "PM00. 사업관리",
+    "task": "PM01. 보고관리",
+    "raw_output": "PM01-6. 회의록",
+    "code": "PM01-6",
+    "source_note": ""
+  },
+  {
+    "source_table": 1,
+    "phase": "PM00. 사업관리",
+    "activity": "PM00. 사업관리",
+    "task": "PM02. 산출물관리",
+    "raw_output": "PM02-1. 산출물 관리계획서",
+    "code": "PM02-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 1,
+    "phase": "PM00. 사업관리",
+    "activity": "PM00. 사업관리",
+    "task": "PM02. 산출물관리",
+    "raw_output": "PM02-2. 산출물 표준양식",
+    "code": "PM02-2",
+    "source_note": ""
+  },
+  {
+    "source_table": 1,
+    "phase": "PM00. 사업관리",
+    "activity": "PM00. 사업관리",
+    "task": "PM03. 위험관리",
+    "raw_output": "PM03-1. 위험관리대장",
+    "code": "PM03-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 1,
+    "phase": "PM00. 사업관리",
+    "activity": "PM00. 사업관리",
+    "task": "PM03. 위험관리",
+    "raw_output": "PM03-2. 이슈관리대장",
+    "code": "PM03-2",
+    "source_note": ""
+  },
+  {
+    "source_table": 1,
+    "phase": "PM00. 사업관리",
+    "activity": "PM00. 사업관리",
+    "task": "P M04. 보안관리",
+    "raw_output": "PM04-1. 보안관리 계획서",
+    "code": "PM04-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 1,
+    "phase": "PM00. 사업관리",
+    "activity": "PM00. 사업관리",
+    "task": "P M04. 보안관리",
+    "raw_output": "PM04-2. 보안 교육결과서",
+    "code": "PM04-2",
+    "source_note": ""
+  },
+  {
+    "source_table": 1,
+    "phase": "PM00. 사업관리",
+    "activity": "PM00. 사업관리",
+    "task": "P M05. 인력관리",
+    "raw_output": "PM05-1. 인력투입현황",
+    "code": "PM05-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 1,
+    "phase": "PM00. 사업관리",
+    "activity": "PM00. 사업관리",
+    "task": "P M06. 품질관리",
+    "raw_output": "PM06-1. 품질관리 계획서",
+    "code": "PM06-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "PP00. (Project Planing) 개발준비",
+    "activity": "PP10.테일러링",
+    "task": "PP11. 사업 적용범위 확정",
+    "raw_output": "PP11-1. 테일러링 내역서",
+    "code": "PP11-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "PP00. (Project Planing) 개발준비",
+    "activity": "PP10.테일러링",
+    "task": "PP11. 사업 적용범위 확정",
+    "raw_output": "PP11-2. WBS ",
+    "code": "PP11-2",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "AN00. (Analysis) 분석",
+    "activity": "AN10. 요구사항분석",
+    "task": "AN11. 요구사항수집",
+    "raw_output": "AN11-1. 인터뷰계획서",
+    "code": "AN11-1",
+    "source_note": "회의록 갈음 가능"
+  },
+  {
+    "source_table": 2,
+    "phase": "AN00. (Analysis) 분석",
+    "activity": "AN10. 요구사항분석",
+    "task": "AN11. 요구사항수집",
+    "raw_output": "AN11-2. 인터뷰결과서",
+    "code": "AN11-2",
+    "source_note": "회의록 갈음 가능"
+  },
+  {
+    "source_table": 2,
+    "phase": "AN00. (Analysis) 분석",
+    "activity": "AN10. 요구사항분석",
+    "task": "AN12. 요구사항정의",
+    "raw_output": "AN12-1. 요구사항정의서",
+    "code": "AN12-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "AN00. (Analysis) 분석",
+    "activity": "AN10. 요구사항분석",
+    "task": "AN13. 요구사항 추적",
+    "raw_output": "AN13-1. 요구사항 추적표",
+    "code": "AN13-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "AN00. (Analysis) 분석",
+    "activity": "AN10. 요구사항분석",
+    "task": "AN13. 요구사항 추적",
+    "raw_output": "AN13-2. 기능점수(FP)",
+    "code": "AN13-2",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "AN00. (Analysis) 분석",
+    "activity": "AN20. 업무 분석",
+    "task": "AN21. 프로세스 분석",
+    "raw_output": "AN21-1. To-Be비즈니스프로세스정의서",
+    "code": "AN21-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "AN00. (Analysis) 분석",
+    "activity": "AN20. 업무 분석",
+    "task": "AN21. 프로세스 분석",
+    "raw_output": "AN21-2. To-Be비즈니스업무흐름도",
+    "code": "AN21-2",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "AN00. (Analysis) 분석",
+    "activity": "AN30. 현행 분석",
+    "task": "AN31. 데이터 현황 분석",
+    "raw_output": "AN31-1. 현행 데이터 분석서",
+    "code": "AN31-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "DE00. (Design) 설계",
+    "activity": "DE10. 아키텍처 설계",
+    "task": "DE11. 아키텍처 전반 설계",
+    "raw_output": "DE11-1. 아키텍처설계서",
+    "code": "DE11-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "DE00. (Design) 설계",
+    "activity": "DE20. 어플리케이션설계",
+    "task": "DE21. 클래스 설계",
+    "raw_output": "DE21-1. 클래스 설계서",
+    "code": "DE21-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "DE00. (Design) 설계",
+    "activity": "DE20. 어플리케이션설계",
+    "task": "DE22. 사용자 인터페이스 설계",
+    "raw_output": "DE22-1. 사용자 인터페이스 설계서",
+    "code": "DE22-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "DE00. (Design) 설계",
+    "activity": "DE20. 어플리케이션설계",
+    "task": "DE22. 사용자 인터페이스 설계",
+    "raw_output": "DE22-2. 화면설계서",
+    "code": "DE22-2",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "DE00. (Design) 설계",
+    "activity": "DE20. 어플리케이션설계",
+    "task": "DE23. 컴포넌트 설계",
+    "raw_output": "DE23-1. 컴포넌트설계서",
+    "code": "DE23-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "DE00. (Design) 설계",
+    "activity": "DE20. 어플리케이션설계",
+    "task": "DE24. 인터페이스 설계",
+    "raw_output": "DE24-1. 인터페이스설계서",
+    "code": "DE24-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "DE00. (Design) 설계",
+    "activity": "DE30. DB 설계",
+    "task": "DE31. DB 및 트랜잭션 설계",
+    "raw_output": "DE31-1. ERD",
+    "code": "DE31-1",
+    "source_note": "개념데이터모델다이어그램, 논리데이터모델 다이어그램 통합"
+  },
+  {
+    "source_table": 2,
+    "phase": "DE00. (Design) 설계",
+    "activity": "DE30. DB 설계",
+    "task": "DE31. DB 및 트랜잭션 설계",
+    "raw_output": "DE31-2. 물리테이블정의서",
+    "code": "DE31-2",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "DE00. (Design) 설계",
+    "activity": "DE40. 데이터전환설계",
+    "task": "DE41. 데이터 전환/검증계획",
+    "raw_output": "DE41-1. 데이터전환 계획서",
+    "code": "DE41-1",
+    "source_note": "지식데이터 승계 및 DB·벡터DB 이관 과업 포함"
+  },
+  {
+    "source_table": 2,
+    "phase": "DE00. (Design) 설계",
+    "activity": "DE40. 데이터전환설계",
+    "task": "DE41. 데이터 전환/검증계획",
+    "raw_output": "DE41-2. 데이터 전환 맵핑 정의서",
+    "code": "DE41-2",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "CO00. (Construction) 구현",
+    "activity": "CO10.구현준비",
+    "task": "CO11.환경 구성",
+    "raw_output": "CO11-1.환경 구성 계획서 (시스템 연계 신청서·연계구성도, 작업계획서 등 관련 계획서 포함)",
+    "code": "CO11-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "CO00. (Construction) 구현",
+    "activity": "CO20.개발",
+    "task": "CO21. 프로그램 개발",
+    "raw_output": "CO21-1. 프로그램소스",
+    "code": "CO21-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "CO00. (Construction) 구현",
+    "activity": "CO20.개발",
+    "task": "CO22. 지식 DB 구축",
+    "raw_output": "CO22-1. 지식 DB 스키마 정의서",
+    "code": "CO22-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "CO00. (Construction) 구현",
+    "activity": "CO20.개발",
+    "task": "CO22. 지식 DB 구축",
+    "raw_output": "CO22-2. 지식저장소 아키텍처 정의서",
+    "code": "CO22-2",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "CO00. (Construction) 구현",
+    "activity": "CO20.개발",
+    "task": "CO22. 지식 DB 구축",
+    "raw_output": "CO22-3. 온톨로지 모델 정의서",
+    "code": "CO22-3",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "CO00. (Construction) 구현",
+    "activity": "CO20.개발",
+    "task": "CO23. 연계 구현",
+    "raw_output": "CO23-1. 송수신 자료 및 연계 명세서",
+    "code": "CO23-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "CO00. (Construction) 구현",
+    "activity": "CO20.개발",
+    "task": "CO23. 연계 구현",
+    "raw_output": "CO23-2. 인터페이스 설계서(연계)",
+    "code": "CO23-2",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "CO00. (Construction) 구현",
+    "activity": "CO20.개발",
+    "task": "CO23. 연계 구현",
+    "raw_output": "CO23-3. 연계 정의서",
+    "code": "CO23-3",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "CO00. (Construction) 구현",
+    "activity": "CO30. 구현단계점검",
+    "task": "CO32. 소스코드취약점점검",
+    "raw_output": "CO32-1. 소스코드취약점점검 결과서",
+    "code": "CO32-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "CO00. (Construction) 구현",
+    "activity": "CO30. 구현단계점검",
+    "task": "CO32. 소스코드취약점점검",
+    "raw_output": "CO32-2. 개발보안 절차적용확인서",
+    "code": "CO32-2",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TE00. (Test) 시험",
+    "activity": "TE10.테스트",
+    "task": "TE11. 단위 테스트",
+    "raw_output": "TE11-1. 단위테스트 케이스",
+    "code": "TE11-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TE00. (Test) 시험",
+    "activity": "TE10.테스트",
+    "task": "TE11. 단위 테스트",
+    "raw_output": "TE11-2. 단위테스트 결과서",
+    "code": "TE11-2",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TE00. (Test) 시험",
+    "activity": "TE10.테스트",
+    "task": "TE12. 통합 테스트",
+    "raw_output": "TE12-1. 통합테스트 시나리오",
+    "code": "TE12-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TE00. (Test) 시험",
+    "activity": "TE10.테스트",
+    "task": "TE12. 통합 테스트",
+    "raw_output": "TE12-2. 통합테스트 결과서",
+    "code": "TE12-2",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TE00. (Test) 시험",
+    "activity": "TE10.테스트",
+    "task": "TE13. 사용자인수테스트",
+    "raw_output": "TE13-1. 사용자인수테스트 시나리오",
+    "code": "TE13-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TE00. (Test) 시험",
+    "activity": "TE10.테스트",
+    "task": "TE13. 사용자인수테스트",
+    "raw_output": "TE13-2. 사용자인수테스트 결과서",
+    "code": "TE13-2",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TE00. (Test) 시험",
+    "activity": "TE10.테스트",
+    "task": "TE14. 모델 성능 테스트",
+    "raw_output": "TE14-1. 모델 성능 검증 결과서",
+    "code": "TE14-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TE00. (Test) 시험",
+    "activity": "TE10.테스트",
+    "task": "TE15. 성능시험",
+    "raw_output": "TE15-1. 성능시험 계획서",
+    "code": "TE15-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TE00. (Test) 시험",
+    "activity": "TE10.테스트",
+    "task": "TE15. 성능시험",
+    "raw_output": "TE15-2. 성능시험 결과서",
+    "code": "TE15-2",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "IM00. (Implementation) 전개·이행",
+    "activity": "IM10.배포 및 설치",
+    "task": "IM11. 형상관리서버(SVN) 등록",
+    "raw_output": "IM11-1. 응용프로그램 소스 인계·인수 대장",
+    "code": "IM11-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "IM00. (Implementation) 전개·이행",
+    "activity": "IM10.배포 및 설치",
+    "task": "IM12. 시스템 설치",
+    "raw_output": "IM12-1. 시스템설치 결과서",
+    "code": "IM12-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "IM00. (Implementation) 전개·이행",
+    "activity": "IM10.배포 및 설치",
+    "task": "IM12. 시스템 설치",
+    "raw_output": "IM12-2. 연계 테스트 결과서",
+    "code": "IM12-2",
+    "source_note": "연계 증적 포함"
+  },
+  {
+    "source_table": 2,
+    "phase": "IM00. (Implementation) 전개·이행",
+    "activity": "IM10.배포 및 설치",
+    "task": "IM13. 웹서비스취약점점검",
+    "raw_output": "IM13-1. 웹서비스취약점점검 결과서",
+    "code": "IM13-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TO00. (Take Over) 인도",
+    "activity": "TO10. 인수인계",
+    "task": "TO11. EA 현행화",
+    "raw_output": "TO11-1. EA 표준 등록항목 현행화 결과 문서(엑셀)",
+    "code": "TO11-1",
+    "source_note": "IRM 시스템 등록 완료로 증적 별도 제출"
+  },
+  {
+    "source_table": 2,
+    "phase": "TO00. (Take Over) 인도",
+    "activity": "TO10. 인수인계",
+    "task": "TO12. 매뉴얼 작성",
+    "raw_output": "TO12-1. 사용자매뉴얼",
+    "code": "TO12-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TO00. (Take Over) 인도",
+    "activity": "TO10. 인수인계",
+    "task": "TO12. 매뉴얼 작성",
+    "raw_output": "TO12-2. 운영자매뉴얼",
+    "code": "TO12-2",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TO00. (Take Over) 인도",
+    "activity": "TO10. 인수인계",
+    "task": "TO13. 인프라 산출물 현행화",
+    "raw_output": "TO13-1. 시스템 백업정책",
+    "code": "TO13-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TO00. (Take Over) 인도",
+    "activity": "TO10. 인수인계",
+    "task": "TO13. 인프라 산출물 현행화",
+    "raw_output": "TO13-2. DBMS 개인정보암호화목록",
+    "code": "TO13-2",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TO00. (Take Over) 인도",
+    "activity": "TO10. 인수인계",
+    "task": "TO13. 인프라 산출물 현행화",
+    "raw_output": "TO13-3. DBMS 연계현황",
+    "code": "TO13-3",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TO00. (Take Over) 인도",
+    "activity": "TO10. 인수인계",
+    "task": "TO13. 인프라 산출물 현행화",
+    "raw_output": "TO13-4. DBMS 백업정책",
+    "code": "TO13-4",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TO00. (Take Over) 인도",
+    "activity": "TO10. 인수인계",
+    "task": "TO13. 인프라 산출물 현행화",
+    "raw_output": "TO13-5. DB 테이블 정의서",
+    "code": "TO13-5",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TO00. (Take Over) 인도",
+    "activity": "TO10. 인수인계",
+    "task": "TO13. 인프라 산출물 현행화",
+    "raw_output": "TO13-8. 인프라 자산현황",
+    "code": "TO13-8",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TO00. (Take Over) 인도",
+    "activity": "TO10. 인수인계",
+    "task": "TO13. 인프라 산출물 현행화",
+    "raw_output": "TO13-9. 랙실장도",
+    "code": "TO13-9",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TO00. (Take Over) 인도",
+    "activity": "TO10. 인수인계",
+    "task": "TO13. 인프라 산출물 현행화",
+    "raw_output": "TO13-10. 패치내역",
+    "code": "TO13-10",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TO00. (Take Over) 인도",
+    "activity": "TO10. 인수인계",
+    "task": "TO13. 인프라 산출물 현행화",
+    "raw_output": "TO13-11. 기동절차서",
+    "code": "TO13-11",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TO00. (Take Over) 인도",
+    "activity": "TO10. 인수인계",
+    "task": "TO13. 인프라 산출물 현행화",
+    "raw_output": "TO13-12. 계정현황",
+    "code": "TO13-12",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TO00. (Take Over) 인도",
+    "activity": "TO10. 인수인계",
+    "task": "TO13. 인프라 산출물 현행화",
+    "raw_output": "TO13-13. 포트맵 구성도",
+    "code": "TO13-13",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TO00. (Take Over) 인도",
+    "activity": "TO10. 인수인계",
+    "task": "TO13. 인프라 산출물 현행화",
+    "raw_output": "TO13-14. 시스템 구축결과서",
+    "code": "TO13-14",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TO00. (Take Over) 인도",
+    "activity": "TO20.교육",
+    "task": "TO21. 교육준비 및 교육",
+    "raw_output": "TO21-1. 교육결과서",
+    "code": "TO21-1",
+    "source_note": ""
+  },
+  {
+    "source_table": 2,
+    "phase": "TO00. (Take Over) 인도",
+    "activity": "TO30. 최종 확인",
+    "task": "TO31. 종료단계 점검",
+    "raw_output": "TO31-1. 종료단계 점검결과서",
+    "code": "TO31-1",
+    "source_note": ""
+  }
+]

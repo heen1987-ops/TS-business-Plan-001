@@ -1,0 +1,22 @@
+[
+  {
+    "id": "M01",
+    "url": "https://www.molit.go.kr/USR/NEWS/m_71/dtl.jsp?id=95090903&lcmspage=9",
+    "error": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect"
+  },
+  {
+    "id": "M02",
+    "url": "https://xn--299al2izzav4r95g5xi.kr/Action",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "M03",
+    "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=06020100",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "id": "M04",
+    "url": "https://main.kotsa.or.kr/portal/bbs/report_list.do?menuCode=05010200",
+    "error": "<urlopen error timed out>"
+  }
+]

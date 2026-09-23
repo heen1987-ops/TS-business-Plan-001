@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NoA Public AI-PMS & Continuous Assurance v0.2</title>
+<style>
+:root{--navy:#0d2d57;--blue:#1f68aa;--sky:#eaf4ff;--teal:#0e7872;--mint:#e9f7f3;--purple:#66529a;--lav:#f3effb;--amber:#fff4df;--orange:#b25c15;--ink:#17212d;--muted:#63707e;--line:#d9e2eb;--bg:#f6f8fb}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);font-family:Pretendard,"Noto Sans KR","Malgun Gothic",Arial,sans-serif;color:var(--ink);line-height:1.6}
+.wrap{max-width:1320px;margin:auto;padding:28px 24px 80px} .hero{background:linear-gradient(135deg,var(--navy),var(--blue));color:white;border-radius:24px;padding:38px 42px}
+.hero h1{font-size:35px;line-height:1.2;margin:6px 0 12px} .hero p{font-size:17px;max-width:1050px;margin:0;opacity:.94}
+section{background:white;border:1px solid var(--line);border-radius:18px;padding:28px;margin-top:18px} h2{color:var(--navy);margin:0 0 17px;font-size:24px} h3{color:#294b6d}
+.grid{display:grid;gap:14px} .g3{grid-template-columns:repeat(3,1fr)} .g4{grid-template-columns:repeat(4,1fr)} .card{border:1px solid var(--line);border-radius:14px;padding:16px}
+.note{background:var(--sky);border-left:4px solid var(--blue);padding:14px 16px;border-radius:10px} .warn{background:var(--amber);border-left:4px solid var(--orange);padding:14px 16px;border-radius:10px}
+.stack{display:grid;gap:8px} .layer{padding:18px;border:1px solid var(--line);border-radius:15px} .l0{background:#f2f5f8} .l1{background:var(--sky)} .l2{background:var(--mint)} .l3{background:var(--lav)} .arrow{text-align:center;font-size:25px;color:#7b8998}
+table{width:100%;border-collapse:collapse;font-size:13px} th,td{border:1px solid var(--line);padding:9px 10px;vertical-align:top} th{background:#f2f5f8;text-align:left;color:#294760}
+pre{background:#111b29;color:#edf3fa;border-radius:14px;padding:16px;overflow:auto} .flow{display:grid;grid-template-columns:repeat(8,minmax(130px,1fr));gap:10px;overflow:auto}
+.step{min-width:130px;border:1px solid var(--line);border-radius:14px;padding:14px 10px;text-align:center} .step b{display:block;color:var(--navy)}
+.road{display:grid;grid-template-columns:repeat(3,1fr);gap:14px} .year{border:1px solid var(--line);border-radius:16px;padding:18px} .y1{background:#eef5ff} .y2{background:#eaf8f5} .y3{background:#f4f0fb}
+small,.small{color:var(--muted)} @media(max-width:900px){.g3,.g4,.road{grid-template-columns:1fr}}
+</style>
+</head>
+<body><div class="wrap">
+<div class="hero"><small>NoA × CCK Assurance Engine</small><h1>Public AI-PMS · Continuous Public Assurance</h1><p>공공 정보화사업을 관리하면서 Evidence를 만들고, AI와 감리사가 이를 함께 검사한 뒤, 검증된 수행이력을 다음 사업의 Reference와 RFP로 환류하는 NoA 3개년 고도화안</p></div>
+
+<section><h2>1. 핵심 Concept</h2><div class="note"><b>NoA에 범용 PMS를 새로 만드는 것이 아니다.</b> 기관·수행기업이 공식 사업상태를 공유하는 Project Layer를 만들고, 그 과정에서 생성된 Evidence를 CCK Assurance Engine이 검사한다.</div>
+<div class="stack" style="margin-top:14px"><div class="layer l0"><b>NoA Core</b><div class="small">Workspace · Drive · Skill · AI · Document</div></div><div class="arrow">↓</div><div class="layer l1"><b>1차 NoA Project</b><div class="small">WBS · Task · Deliverable · Review · Evidence</div></div><div class="arrow">↓</div><div class="layer l2"><b>2차 NoA Assurance</b><div class="small">AI Inspection · Human Audit · Finding · Retest</div></div><div class="arrow">↓</div><div class="layer l3"><b>3차 NoA Intelligence</b><div class="small">Reference · Satisfaction · Risk · RFP</div></div></div></section>
+
+<section><h2>2. 도입 필요성</h2><div class="grid g4">
+<div class="card"><b>담당자 부담</b><p>일정·산출물·보완·승인 추적</p></div><div class="card"><b>사업관리 지원</b><p>단계별 산출물·기한·예시 안내</p></div><div class="card"><b>검증 최소선</b><p>모든 Project에 AI Assurance</p></div><div class="card"><b>투명성</b><p>AI와 감리사 판단 차이까지 기록</p></div></div></section>
+
+<section><h2>3. AI 감리엔진</h2><pre>Audit Scope Resolver
+        ↓
+Standard & Audit Domain Pack
+        ↓
+Audit Baseline / Plan Builder
+        ↓
+Evidence Mapper
+        ↓
+Inspection Orchestrator
+ ├ Rule Engine
+ ├ RAG
+ ├ LLM Semantic Inspector
+ ├ Traceability
+ ├ Evidence Sufficiency
+ └ External Tool Adapter
+        ↓
+Finding Candidate
+        ↓
+Human Auditor Review
+        ↓
+Cross Validation
+        ↓
+Remediation / Retest</pre></section>
+
+<section><h2>4. 7대 검사영역</h2><table><thead><tr><th>영역</th><th>핵심 질문</th></tr></thead><tbody>
+<tr><td>Completeness</td><td>필요한 내용·자료가 있는가?</td></tr><tr><td>Compliance</td><td>계약·지침과 부합하는가?</td></tr><tr><td>Consistency</td><td>문서 사이가 일치하는가?</td></tr><tr><td>Traceability</td><td>요구가 설계·시험·결과까지 이어지는가?</td></tr><tr><td>Evidence Sufficiency</td><td>주장을 검증할 증거가 충분한가?</td></tr><tr><td>Change Consistency</td><td>승인 변경이 모두 반영됐는가?</td></tr><tr><td>Risk Pattern</td><td>반복되는 결함·이상패턴이 있는가?</td></tr></tbody></table></section>
+
+<section><h2>5. 서비스 흐름</h2><div class="flow">
+<div class="step"><b>기준설정</b>RFP·계약·지침</div><div class="step"><b>Baseline</b>요구·산출물</div><div class="step"><b>사업수행</b>Task·일정</div><div class="step"><b>Evidence</b>문서·시험·결정</div><div class="step"><b>AI 검사</b>Finding 후보</div><div class="step"><b>사람 검증</b>담당자·감리사</div><div class="step"><b>시정</b>소명·Retest</div><div class="step"><b>환류</b>Reference·RFP</div></div></section>
+
+<section><h2>6. 3개년</h2><div class="road"><div class="year y1"><h3>1차 · Project</h3><b>Evidence를 만든다</b><ul><li>Baseline</li><li>일정·Task</li><li>산출물</li><li>Pre-Check</li><li>Evidence</li></ul></div><div class="year y2"><h3>2차 · Assurance</h3><b>Evidence를 검사한다</b><ul><li>Inspection</li><li>Domain Pack</li><li>Human Audit</li><li>Cross Validation</li><li>Retest</li></ul></div><div class="year y3"><h3>3차 · Intelligence</h3><b>경험을 환류한다</b><ul><li>다면평가</li><li>Reference</li><li>Satisfaction</li><li>Risk</li><li>RFP</li></ul></div></div></section>
+
+<section><h2>7. 핵심 원칙</h2><div class="warn">AI는 법정 감리를 대체하지 않는다. AI는 동일 Baseline을 이용한 전수·상시 검사채널이고, 감리사는 전문·현장·맥락·공식판단 채널이다. 기업 Reference도 AI Finding 수를 그대로 점수화하지 않고 사람 검토·소명·시정·재검증 결과를 반영한다.</div></section>
+</div></body></html>

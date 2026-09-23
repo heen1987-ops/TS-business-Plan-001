@@ -1,0 +1,1303 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-09-09",
+  "nodes": [
+    {
+      "id": "TS-BIZ-001",
+      "type": "candidate",
+      "path": "01_후보별/TS-BIZ-001_안전정보_이해선택/README.md",
+      "scope_status": "제외",
+      "nature": "AX 전환"
+    },
+    {
+      "id": "PRB-001",
+      "type": "problem",
+      "status": "hypothesis"
+    },
+    {
+      "id": "TS-BIZ-002",
+      "type": "candidate",
+      "path": "01_후보별/TS-BIZ-002_사업용차_위험예방/README.md",
+      "scope_status": "검토대상",
+      "nature": "AX 전환"
+    },
+    {
+      "id": "PRB-002",
+      "type": "problem",
+      "status": "hypothesis"
+    },
+    {
+      "id": "TS-BIZ-003",
+      "type": "candidate",
+      "path": "01_후보별/TS-BIZ-003_튜닝검사_절차안내/README.md",
+      "scope_status": "유보",
+      "nature": "디지털전환+AI+정보화"
+    },
+    {
+      "id": "PRB-003",
+      "type": "problem",
+      "status": "hypothesis"
+    },
+    {
+      "id": "TS-BIZ-004",
+      "type": "candidate",
+      "path": "01_후보별/TS-BIZ-004_교통약자_이동정보/README.md",
+      "scope_status": "검토대상",
+      "nature": "디지털전환+AI+정보화"
+    },
+    {
+      "id": "PRB-004",
+      "type": "problem",
+      "status": "hypothesis"
+    },
+    {
+      "id": "TS-BIZ-005",
+      "type": "candidate",
+      "path": "01_후보별/TS-BIZ-005_기계식주차장_예방관리/README.md",
+      "scope_status": "검토대상",
+      "nature": "디지털전환+AI+정보화"
+    },
+    {
+      "id": "PRB-005",
+      "type": "problem",
+      "status": "hypothesis"
+    },
+    {
+      "id": "TS-BIZ-006",
+      "type": "candidate",
+      "path": "01_후보별/TS-BIZ-006_철도_안전증빙/README.md",
+      "scope_status": "검토대상",
+      "nature": "AX 전환"
+    },
+    {
+      "id": "PRB-006",
+      "type": "problem",
+      "status": "hypothesis"
+    },
+    {
+      "id": "TS-BIZ-007",
+      "type": "candidate",
+      "path": "01_후보별/TS-BIZ-007_위험물_공동대응/README.md",
+      "scope_status": "검토대상",
+      "nature": "디지털전환+AI+정보화"
+    },
+    {
+      "id": "PRB-007",
+      "type": "problem",
+      "status": "hypothesis"
+    },
+    {
+      "id": "TS-BIZ-008",
+      "type": "candidate",
+      "path": "01_후보별/TS-BIZ-008_드론_절차안내/README.md",
+      "scope_status": "유보",
+      "nature": "디지털전환+AI+정보화"
+    },
+    {
+      "id": "PRB-008",
+      "type": "problem",
+      "status": "hypothesis"
+    },
+    {
+      "id": "SOL-01",
+      "type": "solution",
+      "path": "02_공통솔루션/SOL-01.md"
+    },
+    {
+      "id": "SOL-02",
+      "type": "solution",
+      "path": "02_공통솔루션/SOL-02.md"
+    },
+    {
+      "id": "SOL-03",
+      "type": "solution",
+      "path": "02_공통솔루션/SOL-03.md"
+    },
+    {
+      "id": "SOL-04",
+      "type": "solution",
+      "path": "02_공통솔루션/SOL-04.md"
+    },
+    {
+      "id": "SOL-05",
+      "type": "solution",
+      "path": "02_공통솔루션/SOL-05.md"
+    },
+    {
+      "id": "SOL-06",
+      "type": "solution",
+      "path": "02_공통솔루션/SOL-06.md"
+    },
+    {
+      "id": "SOL-07",
+      "type": "solution",
+      "path": "02_공통솔루션/SOL-07.md"
+    },
+    {
+      "id": "CASE-001",
+      "type": "case",
+      "path": "03_도입사례/CASE-001.md",
+      "status": "공식 서비스 안내"
+    },
+    {
+      "id": "CASE-002",
+      "type": "case",
+      "path": "03_도입사례/CASE-002.md",
+      "status": "공식 서비스 안내"
+    },
+    {
+      "id": "CASE-003",
+      "type": "case",
+      "path": "03_도입사례/CASE-003.md",
+      "status": "공식 서비스 안내·검색/수집 응답 불일치"
+    },
+    {
+      "id": "CASE-004",
+      "type": "case",
+      "path": "03_도입사례/CASE-004.md",
+      "status": "운영 개선·구매 및 확대 계획"
+    },
+    {
+      "id": "CASE-005",
+      "type": "case",
+      "path": "03_도입사례/CASE-005.md",
+      "status": "공식 서비스 안내"
+    },
+    {
+      "id": "CASE-006",
+      "type": "case",
+      "path": "03_도입사례/CASE-006.md",
+      "status": "공식 안내문 제공"
+    },
+    {
+      "id": "CASE-007",
+      "type": "case",
+      "path": "03_도입사례/CASE-007.md",
+      "status": "정식 출시 발표"
+    },
+    {
+      "id": "CASE-008",
+      "type": "case",
+      "path": "03_도입사례/CASE-008.md",
+      "status": "과거 실증·확대 계획"
+    },
+    {
+      "id": "CASE-009",
+      "type": "case",
+      "path": "03_도입사례/CASE-009.md",
+      "status": "공식 업무·서비스 안내"
+    },
+    {
+      "id": "CASE-010",
+      "type": "case",
+      "path": "03_도입사례/CASE-010.md",
+      "status": "공급사 서비스 설명"
+    },
+    {
+      "id": "CASE-011",
+      "type": "case",
+      "path": "03_도입사례/CASE-011.md",
+      "status": "공급사 기능 설명"
+    },
+    {
+      "id": "CASE-012",
+      "type": "case",
+      "path": "03_도입사례/CASE-012.md",
+      "status": "공식 업무 안내"
+    },
+    {
+      "id": "CASE-013",
+      "type": "case",
+      "path": "03_도입사례/CASE-013.md",
+      "status": "운영 사례·확대 및 AI 고도화 계획"
+    },
+    {
+      "id": "CASE-014",
+      "type": "case",
+      "path": "03_도입사례/CASE-014.md",
+      "status": "운영기관 사용 설명"
+    },
+    {
+      "id": "CASE-015",
+      "type": "case",
+      "path": "03_도입사례/CASE-015.md",
+      "status": "직접 열람 미완료"
+    },
+    {
+      "id": "CASE-016",
+      "type": "case",
+      "path": "03_도입사례/CASE-016.md",
+      "status": "공식 서비스 안내·접근성 개선 권고"
+    },
+    {
+      "id": "CASE-017",
+      "type": "case",
+      "path": "03_도입사례/CASE-017.md",
+      "status": "공식 서비스 안내"
+    },
+    {
+      "id": "CASE-018",
+      "type": "case",
+      "path": "03_도입사례/CASE-018.md",
+      "status": "공식 서비스 안내"
+    },
+    {
+      "id": "CASE-019",
+      "type": "case",
+      "path": "03_도입사례/CASE-019.md",
+      "status": "공개 실험·접근 확대 발표"
+    },
+    {
+      "id": "DRS-001",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-001.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-002",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-002.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-003",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-003.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-004",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-004.md",
+      "status": "검색·수집 본문 불일치 확인"
+    },
+    {
+      "id": "DRS-005",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-005.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-006",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-006.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-007",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-007.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-008",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-008.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-009",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-009.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-010",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-010.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-011",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-011.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-012",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-012.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-013",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-013.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-014",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-014.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-015",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-015.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-016",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-016.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-017",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-017.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-018",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-018.md",
+      "status": "열람 실패"
+    },
+    {
+      "id": "DRS-019",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-019.md",
+      "status": "열람 실패"
+    },
+    {
+      "id": "DRS-020",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-020.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-021",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-021.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-022",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-022.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-023",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-023.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-024",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-024.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-025",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-025.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-026",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-026.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-027",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-027.md",
+      "status": "검색 본문 확인·직접 열람 일부 실패"
+    },
+    {
+      "id": "DRS-028",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-028.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-029",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-029.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-030",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-030.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-031",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-031.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-032",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-032.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "DRS-033",
+      "type": "source",
+      "path": "04_출처아카이브/검토노트/DRS-033.md",
+      "status": "공식 페이지 관련 본문 검토"
+    },
+    {
+      "id": "D_TS_02",
+      "type": "mandate",
+      "path": "../04_기관리서치/관계도/TS_검토관계.json",
+      "status": "기존 검토 참조"
+    },
+    {
+      "id": "D_TS_03",
+      "type": "mandate",
+      "path": "../04_기관리서치/관계도/TS_검토관계.json",
+      "status": "기존 검토 참조"
+    },
+    {
+      "id": "D_TS_04",
+      "type": "mandate",
+      "path": "../04_기관리서치/관계도/TS_검토관계.json",
+      "status": "기존 검토 참조"
+    },
+    {
+      "id": "D_TS_05",
+      "type": "mandate",
+      "path": "../04_기관리서치/관계도/TS_검토관계.json",
+      "status": "기존 검토 참조"
+    },
+    {
+      "id": "D_TS_06",
+      "type": "mandate",
+      "path": "../04_기관리서치/관계도/TS_검토관계.json",
+      "status": "기존 검토 참조"
+    },
+    {
+      "id": "D_TS_07",
+      "type": "mandate",
+      "path": "../04_기관리서치/관계도/TS_검토관계.json",
+      "status": "기존 검토 참조"
+    },
+    {
+      "id": "D_TS_09",
+      "type": "mandate",
+      "path": "../04_기관리서치/관계도/TS_검토관계.json",
+      "status": "기존 검토 참조"
+    },
+    {
+      "id": "D_TS_10",
+      "type": "mandate",
+      "path": "../04_기관리서치/관계도/TS_검토관계.json",
+      "status": "기존 검토 참조"
+    },
+    {
+      "id": "D_TS_11",
+      "type": "mandate",
+      "path": "../04_기관리서치/관계도/TS_검토관계.json",
+      "status": "기존 검토 참조"
+    },
+    {
+      "id": "D_TS_12",
+      "type": "mandate",
+      "path": "../04_기관리서치/관계도/TS_검토관계.json",
+      "status": "기존 검토 참조"
+    },
+    {
+      "id": "D_TS_13",
+      "type": "mandate",
+      "path": "../04_기관리서치/관계도/TS_검토관계.json",
+      "status": "기존 검토 참조"
+    },
+    {
+      "id": "D_TS_14",
+      "type": "mandate",
+      "path": "../04_기관리서치/관계도/TS_검토관계.json",
+      "status": "기존 검토 참조"
+    }
+  ],
+  "edges": [
+    {
+      "from": "TS-BIZ-001",
+      "to": "PRB-001",
+      "type": "addresses"
+    },
+    {
+      "from": "TS-BIZ-001",
+      "to": "SOL-01",
+      "type": "considers"
+    },
+    {
+      "from": "TS-BIZ-001",
+      "to": "SOL-02",
+      "type": "considers"
+    },
+    {
+      "from": "TS-BIZ-001",
+      "to": "SOL-07",
+      "type": "considers"
+    },
+    {
+      "from": "TS-BIZ-001",
+      "to": "CASE-001",
+      "type": "compares"
+    },
+    {
+      "from": "TS-BIZ-001",
+      "to": "CASE-002",
+      "type": "compares"
+    },
+    {
+      "from": "TS-BIZ-001",
+      "to": "CASE-019",
+      "type": "compares"
+    },
+    {
+      "from": "TS-BIZ-001",
+      "to": "DRS-001",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-001",
+      "to": "DRS-002",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-001",
+      "to": "DRS-029",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-001",
+      "to": "DRS-030",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-001",
+      "to": "D_TS_02",
+      "type": "references_prior_mandate"
+    },
+    {
+      "from": "TS-BIZ-001",
+      "to": "D_TS_04",
+      "type": "references_prior_mandate"
+    },
+    {
+      "from": "TS-BIZ-001",
+      "to": "D_TS_12",
+      "type": "references_prior_mandate"
+    },
+    {
+      "from": "TS-BIZ-002",
+      "to": "PRB-002",
+      "type": "addresses"
+    },
+    {
+      "from": "TS-BIZ-002",
+      "to": "SOL-03",
+      "type": "considers"
+    },
+    {
+      "from": "TS-BIZ-002",
+      "to": "SOL-07",
+      "type": "considers"
+    },
+    {
+      "from": "TS-BIZ-002",
+      "to": "CASE-003",
+      "type": "compares"
+    },
+    {
+      "from": "TS-BIZ-002",
+      "to": "CASE-004",
+      "type": "compares"
+    },
+    {
+      "from": "TS-BIZ-002",
+      "to": "DRS-003",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-002",
+      "to": "DRS-004",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-002",
+      "to": "DRS-005",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-002",
+      "to": "DRS-026",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-002",
+      "to": "DRS-027",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-002",
+      "to": "D_TS_03",
+      "type": "references_prior_mandate"
+    },
+    {
+      "from": "TS-BIZ-002",
+      "to": "D_TS_04",
+      "type": "references_prior_mandate"
+    },
+    {
+      "from": "TS-BIZ-003",
+      "to": "PRB-003",
+      "type": "addresses"
+    },
+    {
+      "from": "TS-BIZ-003",
+      "to": "SOL-02",
+      "type": "considers"
+    },
+    {
+      "from": "TS-BIZ-003",
+      "to": "SOL-07",
+      "type": "considers"
+    },
+    {
+      "from": "TS-BIZ-003",
+      "to": "CASE-005",
+      "type": "compares"
+    },
+    {
+      "from": "TS-BIZ-003",
+      "to": "CASE-006",
+      "type": "compares"
+    },
+    {
+      "from": "TS-BIZ-003",
+      "to": "CASE-019",
+      "type": "compares"
+    },
+    {
+      "from": "TS-BIZ-003",
+      "to": "DRS-006",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-003",
+      "to": "DRS-007",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-003",
+      "to": "DRS-008",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-003",
+      "to": "DRS-029",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-003",
+      "to": "DRS-030",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-003",
+      "to": "DRS-031",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-003",
+      "to": "D_TS_05",
+      "type": "references_prior_mandate"
+    },
+    {
+      "from": "TS-BIZ-003",
+      "to": "D_TS_06",
+      "type": "references_prior_mandate"
+    },
+    {
+      "from": "TS-BIZ-003",
+      "to": "D_TS_07",
+      "type": "references_prior_mandate"
+    },
+    {
+      "from": "TS-BIZ-004",
+      "to": "PRB-004",
+      "type": "addresses"
+    },
+    {
+      "from": "TS-BIZ-004",
+      "to": "SOL-04",
+      "type": "considers"
+    },
+    {
+      "from": "TS-BIZ-004",
+      "to": "SOL-07",
+      "type": "considers"
+    },
+    {
+      "from": "TS-BIZ-004",
+      "to": "CASE-007",
+      "type": "compares"
+    },
+    {
+      "from": "TS-BIZ-004",
+      "to": "CASE-008",
+      "type": "compares"
+    },
+    {
+      "from": "TS-BIZ-004",
+      "to": "DRS-009",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-004",
+      "to": "DRS-010",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-004",
+      "to": "DRS-028",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-004",
+      "to": "D_TS_14",
+      "type": "references_prior_mandate"
+    },
+    {
+      "from": "TS-BIZ-004",
+      "to": "D_TS_12",
+      "type": "references_prior_mandate"
+    },
+    {
+      "from": "TS-BIZ-005",
+      "to": "PRB-005",
+      "type": "addresses"
+    },
+    {
+      "from": "TS-BIZ-005",
+      "to": "SOL-05",
+      "type": "considers"
+    },
+    {
+      "from": "TS-BIZ-005",
+      "to": "SOL-07",
+      "type": "considers"
+    },
+    {
+      "from": "TS-BIZ-005",
+      "to": "CASE-009",
+      "type": "compares"
+    },
+    {
+      "from": "TS-BIZ-005",
+      "to": "CASE-010",
+      "type": "compares"
+    },
+    {
+      "from": "TS-BIZ-005",
+      "to": "CASE-011",
+      "type": "compares"
+    },
+    {
+      "from": "TS-BIZ-005",
+      "to": "CASE-014",
+      "type": "compares"
+    },
+    {
+      "from": "TS-BIZ-005",
+      "to": "DRS-011",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-005",
+      "to": "DRS-012",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-005",
+      "to": "DRS-013",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-005",
+      "to": "DRS-014",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-005",
+      "to": "DRS-017",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-005",
+      "to": "D_TS_11",
+      "type": "references_prior_mandate"
+    },
+    {
+      "from": "TS-BIZ-006",
+      "to": "PRB-006",
+      "type": "addresses"
+    },
+    {
+      "from": "TS-BIZ-006",
+      "to": "SOL-05",
+      "type": "considers"
+    },
+    {
+      "from": "TS-BIZ-006",
+      "to": "SOL-06",
+      "type": "considers"
+    },
+    {
+      "from": "TS-BIZ-006",
+      "to": "SOL-07",
+      "type": "considers"
+    },
+    {
+      "from": "TS-BIZ-006",
+      "to": "CASE-012",
+      "type": "compares"
+    },
+    {
+      "from": "TS-BIZ-006",
+      "to": "CASE-013",
+      "type": "compares"
+    },
+    {
+      "from": "TS-BIZ-006",
+      "to": "CASE-014",
+      "type": "compares"
+    },
+    {
+      "from": "TS-BIZ-006",
+      "to": "DRS-015",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-006",
+      "to": "DRS-016",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-006",
+      "to": "DRS-017",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-006",
+      "to": "DRS-031",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-006",
+      "to": "D_TS_09",
+      "type": "references_prior_mandate"
+    },
+    {
+      "from": "TS-BIZ-007",
+      "to": "PRB-007",
+      "type": "addresses"
+    },
+    {
+      "from": "TS-BIZ-007",
+      "to": "SOL-03",
+      "type": "considers"
+    },
+    {
+      "from": "TS-BIZ-007",
+      "to": "SOL-06",
+      "type": "considers"
+    },
+    {
+      "from": "TS-BIZ-007",
+      "to": "SOL-07",
+      "type": "considers"
+    },
+    {
+      "from": "TS-BIZ-007",
+      "to": "CASE-015",
+      "type": "compares"
+    },
+    {
+      "from": "TS-BIZ-007",
+      "to": "CASE-016",
+      "type": "compares"
+    },
+    {
+      "from": "TS-BIZ-007",
+      "to": "DRS-018",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-007",
+      "to": "DRS-019",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-007",
+      "to": "DRS-020",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-007",
+      "to": "DRS-021",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-007",
+      "to": "DRS-033",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-007",
+      "to": "D_TS_13",
+      "type": "references_prior_mandate"
+    },
+    {
+      "from": "TS-BIZ-008",
+      "to": "PRB-008",
+      "type": "addresses"
+    },
+    {
+      "from": "TS-BIZ-008",
+      "to": "SOL-02",
+      "type": "considers"
+    },
+    {
+      "from": "TS-BIZ-008",
+      "to": "SOL-07",
+      "type": "considers"
+    },
+    {
+      "from": "TS-BIZ-008",
+      "to": "CASE-017",
+      "type": "compares"
+    },
+    {
+      "from": "TS-BIZ-008",
+      "to": "CASE-018",
+      "type": "compares"
+    },
+    {
+      "from": "TS-BIZ-008",
+      "to": "CASE-019",
+      "type": "compares"
+    },
+    {
+      "from": "TS-BIZ-008",
+      "to": "DRS-022",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-008",
+      "to": "DRS-023",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-008",
+      "to": "DRS-024",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-008",
+      "to": "DRS-025",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-008",
+      "to": "DRS-029",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-008",
+      "to": "DRS-030",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-008",
+      "to": "DRS-031",
+      "type": "uses_source"
+    },
+    {
+      "from": "TS-BIZ-008",
+      "to": "D_TS_10",
+      "type": "references_prior_mandate"
+    },
+    {
+      "from": "SOL-01",
+      "to": "CASE-001",
+      "type": "compares"
+    },
+    {
+      "from": "SOL-01",
+      "to": "CASE-002",
+      "type": "compares"
+    },
+    {
+      "from": "SOL-01",
+      "to": "CASE-019",
+      "type": "compares"
+    },
+    {
+      "from": "SOL-02",
+      "to": "CASE-005",
+      "type": "compares"
+    },
+    {
+      "from": "SOL-02",
+      "to": "CASE-006",
+      "type": "compares"
+    },
+    {
+      "from": "SOL-02",
+      "to": "CASE-017",
+      "type": "compares"
+    },
+    {
+      "from": "SOL-02",
+      "to": "CASE-018",
+      "type": "compares"
+    },
+    {
+      "from": "SOL-02",
+      "to": "CASE-019",
+      "type": "compares"
+    },
+    {
+      "from": "SOL-03",
+      "to": "CASE-003",
+      "type": "compares"
+    },
+    {
+      "from": "SOL-03",
+      "to": "CASE-004",
+      "type": "compares"
+    },
+    {
+      "from": "SOL-03",
+      "to": "CASE-016",
+      "type": "compares"
+    },
+    {
+      "from": "SOL-04",
+      "to": "CASE-007",
+      "type": "compares"
+    },
+    {
+      "from": "SOL-04",
+      "to": "CASE-008",
+      "type": "compares"
+    },
+    {
+      "from": "SOL-05",
+      "to": "CASE-009",
+      "type": "compares"
+    },
+    {
+      "from": "SOL-05",
+      "to": "CASE-010",
+      "type": "compares"
+    },
+    {
+      "from": "SOL-05",
+      "to": "CASE-011",
+      "type": "compares"
+    },
+    {
+      "from": "SOL-05",
+      "to": "CASE-013",
+      "type": "compares"
+    },
+    {
+      "from": "SOL-05",
+      "to": "CASE-014",
+      "type": "compares"
+    },
+    {
+      "from": "SOL-06",
+      "to": "CASE-012",
+      "type": "compares"
+    },
+    {
+      "from": "SOL-06",
+      "to": "CASE-014",
+      "type": "compares"
+    },
+    {
+      "from": "SOL-06",
+      "to": "CASE-015",
+      "type": "compares"
+    },
+    {
+      "from": "SOL-06",
+      "to": "CASE-016",
+      "type": "compares"
+    },
+    {
+      "from": "SOL-07",
+      "to": "CASE-019",
+      "type": "compares"
+    },
+    {
+      "from": "SOL-07",
+      "to": "CASE-018",
+      "type": "compares"
+    },
+    {
+      "from": "SOL-07",
+      "to": "CASE-016",
+      "type": "compares"
+    },
+    {
+      "from": "CASE-001",
+      "to": "DRS-001",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-002",
+      "to": "DRS-002",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-003",
+      "to": "DRS-003",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-003",
+      "to": "DRS-004",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-004",
+      "to": "DRS-005",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-005",
+      "to": "DRS-006",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-005",
+      "to": "DRS-007",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-006",
+      "to": "DRS-008",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-007",
+      "to": "DRS-009",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-008",
+      "to": "DRS-010",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-009",
+      "to": "DRS-011",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-010",
+      "to": "DRS-012",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-011",
+      "to": "DRS-013",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-011",
+      "to": "DRS-014",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-012",
+      "to": "DRS-015",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-013",
+      "to": "DRS-016",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-014",
+      "to": "DRS-017",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-015",
+      "to": "DRS-018",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-015",
+      "to": "DRS-019",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-015",
+      "to": "DRS-033",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-016",
+      "to": "DRS-020",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-016",
+      "to": "DRS-021",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-017",
+      "to": "DRS-022",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-017",
+      "to": "DRS-023",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-018",
+      "to": "DRS-024",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-018",
+      "to": "DRS-025",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-019",
+      "to": "DRS-029",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-019",
+      "to": "DRS-030",
+      "type": "evidence"
+    },
+    {
+      "from": "CASE-019",
+      "to": "DRS-031",
+      "type": "evidence"
+    }
+  ]
+}

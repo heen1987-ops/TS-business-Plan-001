@@ -1,0 +1,27 @@
+{
+  "root": "G:/내 드라이브/1. 업무영역/6. CCK/1. 사업관리/TS/bizops/[TS 사업기획]",
+  "changes": [
+    {
+      "path": "00_여기서_시작.html",
+      "created": true,
+      "afterSha256": "93e89b3700126307f2f8c8bf14d350df3d2b09a237003695f43a458d5ee8454a"
+    },
+    {
+      "path": "00_여기서_시작.md",
+      "beforeSha256": "ff2022f3b7e9b4392cf23df2d88150614d5809fa6b12de144eab04da17aaba76",
+      "afterSha256": "4a8a7a6ce31048bfe6ae6d709e6868ae0e069517a7a578f98d023f7d2510387e",
+      "backup": "00_자료목록/폴더정리_2026-09-15_최신안내/정리전_보존/00_여기서_시작.md.txt"
+    },
+    {
+      "path": "README.md",
+      "beforeSha256": "974d1a288884d4ea9b256f35db6abffac1abe1dd5528833e478f2599aaf3d324",
+      "afterSha256": "31f7e5667031140fd4426785a2b5a021e971706aaf6953f5516d273c12120109",
+      "backup": "00_자료목록/폴더정리_2026-09-15_최신안내/정리전_보존/README.md.txt"
+    }
+  ],
+  "method": "시작 화면·색인 정리. 원래 자료 이동·삭제 없음.",
+  "qaFixes": [
+    "공백 기준 복수 검색어 분리",
+    "PMS와 KoROAD 개별 검색 결과 분리"
+  ]
+}

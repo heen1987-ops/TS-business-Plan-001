@@ -1,0 +1,135 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TS-P07 · 서비스 정의·컨셉 | TS · CCK NOA</title><link rel="stylesheet" href="../../자산/report.css"></head><body><a class="skip" href="#main">본문으로 이동</a><header><div class="eyebrow">TS × CCK NOA · 2026.09.15 · 기획 검토 v1.0</div><h1>TS-P07 · 서비스 정의·컨셉</h1><p>항공 자격 응시 준비자료 점검 지원</p></header><nav class="topnav" aria-label="자료 메뉴"><a href="../../00_상세설계_통합보기.html">전체 업무</a><a href="../../01_공통_아키텍처.html">공통 아키텍처</a><a href="../../02_통합_비용산정.html">업무 선택·예산 계산</a><a href="../../03_산정기준_근거.html">산정 기준·근거</a></nav><main id="main" class="shell"><nav class="tabs" aria-label="TS-P07 상세 주제"><a href="01_서비스_컨셉.html" aria-current="page">01 서비스 정의·컨셉</a><a href="02_전체_아키텍처.html">02 전체 아키텍처</a><a href="03_사용자_흐름.html">03 사용자 흐름</a><a href="04_데이터_흐름.html">04 데이터 흐름</a><a href="05_요구사항_검수.html">05 요구사항·검수</a><a href="06_비용_산정.html">06 개발·용역·운영 산정</a><a href="07_일정_운영.html">07 추진 일정·운영</a></nav><div class="note">기획 검토안 · 로컬 LLM·기존 서버 · 신규 인프라 0원</div><section aria-label="TS-P07 서비스 정의·컨셉 도식"><div class="diagram-tools"><button type="button" data-zoom="0.2">확대 +</button><button type="button" data-zoom="-0.2">축소 −</button><button type="button" data-zoom="reset">기본 크기</button><a href="concept.svg">SVG 원본</a><span class="small">작은 화면에서는 가로로 이동할 수 있습니다.</span></div><div class="diagram" tabindex="0" aria-label="가로 이동 가능한 TS-P07 서비스 정의·컨셉 도식"><img src="concept.svg" alt="TS-P07 서비스 정의·컨셉 도식. 처리·연결 설명은 아래 표에 제공." /></div></section><article><h2>서비스 정의</h2>
+<p><strong>항공 자격 신청자의 경력 서술과 증빙을 요구자료에 연결하는 응시 준비 지원</strong></p>
+<div class="tablewrap" tabindex="0" aria-label="가로로 이동 가능한 표"><table>
+<thead>
+<tr>
+<th>항목</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>대상 사용자</td>
+<td>항공종사자·경량항공기 조종사 자격 응시자와 담당자</td>
+</tr>
+<tr>
+<td>문제·관찰</td>
+<td>자격 종류·경력·제출자료의 조건 차이를 이해하지 못해 신청 준비를 반복하는 가설</td>
+</tr>
+<tr>
+<td>이용 장면</td>
+<td>응시자가 경력 설명을 제출했지만 신청하려는 자격의 요구 자료와 연결되지 않는 상황</td>
+</tr>
+<tr>
+<td>확인된 TS 업무</td>
+<td>자격증명 시험 등 항공 자격 업무</td>
+</tr>
+<tr>
+<td>초기 범위 가정</td>
+<td>항공 자격 1종의 신청 준비, 문서 유형 2종, 상태 조회·인계 각 1개</td>
+</tr>
+<tr>
+<td>기존 기반</td>
+<td>항공 자격 안내·경력 증빙·신청 시스템</td>
+</tr>
+<tr>
+<td>CCK AI 적용</td>
+<td>경력 서술과 자격별 준비자료 비교, 개인별 설명·보완 질문</td>
+</tr>
+<tr>
+<td>추가 수행분</td>
+<td>항공 자격 지식·경력 서술 대조·신청 연계</td>
+</tr>
+<tr>
+<td>비교 기준선</td>
+<td>자격별 구조화 문진표와 제출서류 체크리스트</td>
+</tr>
+<tr>
+<td>효과 측정</td>
+<td>잘못된 준비자료 안내·보완 요구 재발·신청 준비시간</td>
+</tr>
+</tbody></table></div>
+<h2>제공 결과</h2>
+<ul>
+<li>경력 진술·증빙 대응표</li>
+<li>확인된 수치와 미확인 수치</li>
+<li>준비자료 보완 질문</li>
+<li>응시 가능 여부의 공식 확인 경로</li>
+<li>이용자가 확인한 인계 요약</li>
+</ul>
+<h2>중복·수행 가능성</h2>
+<p>P02와 자격 지원 구조 공유; 항공 경력 인정·증명서·심사 규칙 별도</p>
+<p>항공 자격 1종의 경력 인정 기준·공식 증빙 유형·인계 가능 범위를 자격 담당자가 확인한다.</p>
+<p>LLM의 경력 합산이나 해석이 응시 자격 판정처럼 보일 위험. 공식 확인과 준비 지원을 결과 필드에서 구분한다.</p>
+<h2>대안 검토</h2>
+<div class="tablewrap" tabindex="0" aria-label="가로로 이동 가능한 표"><table>
+<thead>
+<tr>
+<th>대안</th>
+<th>적용 내용</th>
+<th>선택 조건</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>A 기존 절차·규칙·화면 개선</td>
+<td>자격별 구조화 문진표와 제출서류 체크리스트</td>
+<td>같은 효과가 나면 LLM 범위 축소</td>
+</tr>
+<tr>
+<td>B 기존 NOA + 업무 지식·연계</td>
+<td>항공 자격 지식·경력 서술 대조·신청 연계</td>
+<td>권고 검토안. 공통 재사용·실제 증분 산정</td>
+</tr>
+<tr>
+<td>C 자료·업무·기관 확대</td>
+<td>공공 전문자격의 증빙 준비 패턴; 자격 인정은 담당기관 고유 규칙</td>
+<td>초기 효과·권한·자원 검증 후 재산정</td>
+</tr>
+</tbody></table></div>
+<h2>도식의 연결</h2>
+<div class="tablewrap" tabindex="0" aria-label="가로로 이동 가능한 표"><table>
+<thead>
+<tr>
+<th>연결</th>
+<th>전달 내용</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>항공 자격 신청자 → 입력·업무 맥락</td>
+<td>조건·자료</td>
+</tr>
+<tr>
+<td>입력·업무 맥락 → 자격별 규칙 분리</td>
+<td>승인 범위</td>
+</tr>
+<tr>
+<td>자격별 규칙 분리 → 경력·증빙 대조</td>
+<td>정리 결과</td>
+</tr>
+<tr>
+<td>경력·증빙 대조 → 증빙 부족 질문</td>
+<td>검토 후보</td>
+</tr>
+<tr>
+<td>증빙 부족 질문 → 사람의 확인</td>
+<td>초안·근거</td>
+</tr>
+<tr>
+<td>사람의 확인 → 경력 대응표·보완 질문</td>
+<td>수정·확인</td>
+</tr>
+<tr>
+<td>경력 대응표·보완 질문 → 공식 자격 심사·접수</td>
+<td>선택·인계</td>
+</tr>
+<tr>
+<td>공식 자격 심사·접수 → 효과 검증</td>
+<td>검토 결과</td>
+</tr>
+</tbody></table></div>
+<h2>출처와 확인 범위</h2>
+<ul>
+<li><a href="https://main.kotsa.or.kr/portal/contents.do?menuCode=02010200">항공종사자/경량항공기조종사 자격증명 시험</a> — 확인일 2026-09-14; 자격 종류·공식 수행 업무·법령 안내 확인. 응시 세부 요건 전수 대조 아님</li>
+</ul>
+<p>기존 22개 출처는 이전 원장 확인일을 승계했다. 공급사 성능·자료 접근권한·법령 전체를 새로 검증한 자료는 아니다.</p>
+<p><a href="file:///G:/%EB%82%B4%20%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C/1.%20%EC%97%85%EB%AC%B4%EC%98%81%EC%97%AD/6.%20CCK/1.%20%EC%82%AC%EC%97%85%EA%B4%80%EB%A6%AC/TS/bizops/%5BTS%20%EC%82%AC%EC%97%85%EA%B8%B0%ED%9A%8D%5D/05_%ED%86%B5%ED%95%A9%EC%82%AC%EC%97%85%EA%B8%B0%ED%9A%8D/TS_22%EA%B0%9C%EC%97%85%EB%AC%B4_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C_2026-09-15/%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P07_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">이전 고도화 보고서</a></p>
+</article><div class="paging"><span></span><a href="01_서비스_컨셉.md">Markdown 원본</a><a href="02_전체_아키텍처.html">전체 아키텍처 →</a></div></main><footer>한국교통안전공단(TS) 대상 · 기존 서버 활용 · 신규 인프라 0원 · 실제 NOA·원 시스템 시험과 공급사 견적 미확인.<br><a href="../../README.md">자료 안내·제약</a> · <a href="../../검증기록.md">문서 검증 기록</a></footer><script>document.querySelectorAll('[data-zoom]').forEach(b=>b.addEventListener('click',()=>{const img=b.closest('section').querySelector('.diagram img');let v=Number(img.dataset.scale||1);v=b.dataset.zoom==='reset'?1:Math.max(.8,Math.min(2,v+Number(b.dataset.zoom)));img.dataset.scale=v;img.style.width=(v*100)+'%';}));const s=document.getElementById('search');if(s)s.addEventListener('input',()=>{let n=0;document.querySelectorAll('.card[data-key]').forEach(c=>{c.hidden=!c.dataset.key.toLowerCase().includes(s.value.toLowerCase());if(!c.hidden)n++;});document.getElementById('search-status').textContent=n+'개 업무 표시';});</script></body></html>

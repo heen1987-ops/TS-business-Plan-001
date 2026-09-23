@@ -1,0 +1,2327 @@
+{
+  "date": "2026-09-15",
+  "changed_existing": [
+    {
+      "path": "README.md",
+      "before_sha256": "38fcf3b38e63d4d9abc9855e2c5461a8bff47b27095a208e1405d1ad8ab81d52",
+      "after_sha256": "4768bbece0e718d36ef05de1c8c74e7b236beb2a2a1cecadc76d718d3d5babd9",
+      "backup": "기준_변경전\\README.md"
+    },
+    {
+      "path": "05_통합사업기획\\TS_22개업무_고도화보고서_2026-09-15\\00_고도화보고서_통합보기.html",
+      "before_sha256": "1b48badfc1b178f947b5780249f945a885206df7bb31bb782f1ec295c6b12872",
+      "after_sha256": "7465c31b4c499d609d8f4343462c29ade5792e2375b3443b85115b50de066947",
+      "backup": "기준_변경전\\05_통합사업기획\\TS_22개업무_고도화보고서_2026-09-15\\00_고도화보고서_통합보기.html"
+    },
+    {
+      "path": "05_통합사업기획\\TS_22개업무_고도화보고서_2026-09-15\\00_고도화보고서_통합보기.md",
+      "before_sha256": "ee7555f769a5455cf542b287a751cedb3f937d17ad75b4cd2e1f4ec487008173",
+      "after_sha256": "a41f2c3931772ced5deecd2fa14f19371389947ca33f8c0720b0250561c18ce1",
+      "backup": "기준_변경전\\05_통합사업기획\\TS_22개업무_고도화보고서_2026-09-15\\00_고도화보고서_통합보기.md"
+    }
+  ],
+  "created_package": [
+    {
+      "path": "업무\\TS-P01\\concept.svg",
+      "bytes": 6282,
+      "sha256": "5790b7e1e20a6e6e1ef968ba695a50920a256539881a4009b7a7e3d33f2d8853"
+    },
+    {
+      "path": "업무\\TS-P01\\architecture.svg",
+      "bytes": 7338,
+      "sha256": "b792dbc7a06c684b74dd0cbcf33e287e42b210f7fdb5d85313f761f3caeaa299"
+    },
+    {
+      "path": "업무\\TS-P01\\user.svg",
+      "bytes": 7213,
+      "sha256": "67f7c35c013c1d17f5e43b23f57cbccb693c3482516f9ed912685e44c65b72cf"
+    },
+    {
+      "path": "업무\\TS-P01\\data.svg",
+      "bytes": 6756,
+      "sha256": "a7f4e799da891a6cff82308c367a2734d1ec8bd7d8064a66d8f2b73a2fcb4f76"
+    },
+    {
+      "path": "업무\\TS-P01\\01_서비스_컨셉.md",
+      "bytes": 4648,
+      "sha256": "e2cef76fc021b6a5ebe47e7f743dba011a8980918ffce403d9875ee78ab4bdcf"
+    },
+    {
+      "path": "업무\\TS-P01\\01_서비스_컨셉.html",
+      "bytes": 8646,
+      "sha256": "521a75e0d16f64010634ea680b1ee0dc7d9088f9e062a3f48126d2edea4105d0"
+    },
+    {
+      "path": "업무\\TS-P01\\02_전체_아키텍처.md",
+      "bytes": 5662,
+      "sha256": "413e06129548b677f55aeb3dc5793fd85895132e57a7d33f2beb0c1178e5a62a"
+    },
+    {
+      "path": "업무\\TS-P01\\02_전체_아키텍처.html",
+      "bytes": 9749,
+      "sha256": "6f094e25ab10c178f59fac4c82de860023146363decf375aeaa6676570dc3ffa"
+    },
+    {
+      "path": "업무\\TS-P01\\03_사용자_흐름.md",
+      "bytes": 5410,
+      "sha256": "12e08aa45be2dbda45abf9e02da259ecd59b98b93d7f030725228e530767cd1b"
+    },
+    {
+      "path": "업무\\TS-P01\\03_사용자_흐름.html",
+      "bytes": 9733,
+      "sha256": "62ffb9eb87f7834a438bc3640e79dc7f358a72046720c412917bd168a54dc379"
+    },
+    {
+      "path": "업무\\TS-P01\\04_데이터_흐름.md",
+      "bytes": 4743,
+      "sha256": "55d7921714a50e6991041a4e4842d327ec42e73e817f867db985f057cabc0351"
+    },
+    {
+      "path": "업무\\TS-P01\\04_데이터_흐름.html",
+      "bytes": 8939,
+      "sha256": "e74eee0f41a5acf5c4477c778365ead951cede77a433da018787fb29983a9793"
+    },
+    {
+      "path": "업무\\TS-P01\\05_요구사항_검수.md",
+      "bytes": 7494,
+      "sha256": "4d88b019ae8e54fe803f039c9575469578aa5cdc51ec61b69e4e7c8b9fcb6c37"
+    },
+    {
+      "path": "업무\\TS-P01\\05_요구사항_검수.html",
+      "bytes": 11504,
+      "sha256": "d859c67ef9fbd3b15e606824f74e586a45cf734cc5c74ffe85ce33a6589be468"
+    },
+    {
+      "path": "업무\\TS-P01\\06_비용_산정.md",
+      "bytes": 5140,
+      "sha256": "d0ac414b58c632e4da272e3081ca43a93d056d322513e580ba15c0451c24e818"
+    },
+    {
+      "path": "업무\\TS-P01\\06_비용_산정.html",
+      "bytes": 14545,
+      "sha256": "87acce5c24b4067e92367d87ef414bdb7be14e8157ae97f1f25b78a47f29e5cb"
+    },
+    {
+      "path": "업무\\TS-P01\\07_일정_운영.md",
+      "bytes": 4942,
+      "sha256": "94326348b977be8efe82d0f1f151fcffd316347d9a0fc43422b1a158ee19f17c"
+    },
+    {
+      "path": "업무\\TS-P01\\07_일정_운영.html",
+      "bytes": 8049,
+      "sha256": "3b4d975df4efe301623d648c18423090e489b1d39cd7d3b386b1c526281593a2"
+    },
+    {
+      "path": "업무\\TS-P02\\concept.svg",
+      "bytes": 6268,
+      "sha256": "e6bdd86c79198ebc7f6cd14b75415a3a6329300370f4b9e7f137c8e63cf7c389"
+    },
+    {
+      "path": "업무\\TS-P02\\architecture.svg",
+      "bytes": 7349,
+      "sha256": "e771875edbd86adc6515b163160e0eccf5864656b51424d1528aeed413bd4e3d"
+    },
+    {
+      "path": "업무\\TS-P02\\user.svg",
+      "bytes": 7223,
+      "sha256": "7ec75ad96d5ff1209a2701bc51f9dd2537577989e5b833334bb4bcab86fe4c4a"
+    },
+    {
+      "path": "업무\\TS-P02\\data.svg",
+      "bytes": 6755,
+      "sha256": "56a3300015e2931c3c145de46fe64184d05ec27d5dfd3867aca33177aea39944"
+    },
+    {
+      "path": "업무\\TS-P02\\01_서비스_컨셉.md",
+      "bytes": 4608,
+      "sha256": "c98cd7dc2e9c7e30598228f9c4f765e8376778e46fbd9e13a73b1a199b9fa262"
+    },
+    {
+      "path": "업무\\TS-P02\\01_서비스_컨셉.html",
+      "bytes": 8624,
+      "sha256": "1f09e25a7c6e4864c1f8dc8bf4da173864ddc999e67f0358d6a37113a0d53a32"
+    },
+    {
+      "path": "업무\\TS-P02\\02_전체_아키텍처.md",
+      "bytes": 5720,
+      "sha256": "b42fcee44b1e455474963b07165ece7eb21fcb533570c3a9693412c828bcabd9"
+    },
+    {
+      "path": "업무\\TS-P02\\02_전체_아키텍처.html",
+      "bytes": 9825,
+      "sha256": "fbbad3208579f16aa46c66dca458aba15c993e946c5b402dd8297a03f287276d"
+    },
+    {
+      "path": "업무\\TS-P02\\03_사용자_흐름.md",
+      "bytes": 5514,
+      "sha256": "35ad4be0266f3d1e9717afbbd44752a70f4ac6cb4a3d74d94ba017c59b16ad4e"
+    },
+    {
+      "path": "업무\\TS-P02\\03_사용자_흐름.html",
+      "bytes": 9855,
+      "sha256": "b0aab6286171dbda5df4a831e303d2e4b88a96931d0a78fdd27b1d35e2adff80"
+    },
+    {
+      "path": "업무\\TS-P02\\04_데이터_흐름.md",
+      "bytes": 4785,
+      "sha256": "9a06aa49e794f67d1a035cbe93a704e34408d4624bb8a56b3458239258392be9"
+    },
+    {
+      "path": "업무\\TS-P02\\04_데이터_흐름.html",
+      "bytes": 8999,
+      "sha256": "9c684eb71f76bc1f7d16410a069380ad652d4bc31569c52567ed9ae99a0d77d9"
+    },
+    {
+      "path": "업무\\TS-P02\\05_요구사항_검수.md",
+      "bytes": 7458,
+      "sha256": "b93b27560b3e9793ef24b2863eef32d7c51bc6a81fe210adb3f702c962521361"
+    },
+    {
+      "path": "업무\\TS-P02\\05_요구사항_검수.html",
+      "bytes": 11486,
+      "sha256": "225de17086c65a81fea02543ba260d63db2c5709a864765b6832dc6e44a1cef1"
+    },
+    {
+      "path": "업무\\TS-P02\\06_비용_산정.md",
+      "bytes": 5194,
+      "sha256": "da57ea7188ecb54b369f818022da020bd51833f0337eb7cc35d3f2cec6e9eda0"
+    },
+    {
+      "path": "업무\\TS-P02\\06_비용_산정.html",
+      "bytes": 14617,
+      "sha256": "07ecb925014b72e81d0382227169479d5637dc47c6b9976eda0f23689ef8fe09"
+    },
+    {
+      "path": "업무\\TS-P02\\07_일정_운영.md",
+      "bytes": 4903,
+      "sha256": "7779fc6ab4e9b733a1226db9a08102ca787c3ec1beaba0c252ae4a65e94afbd3"
+    },
+    {
+      "path": "업무\\TS-P02\\07_일정_운영.html",
+      "bytes": 8028,
+      "sha256": "99b0d1bfd448cb97c204503a8a7e8f249dda9d90d9a93e80d8970824f359fd57"
+    },
+    {
+      "path": "업무\\TS-P03\\concept.svg",
+      "bytes": 6275,
+      "sha256": "189f7ba092703d3756083046f766e5c46aeba708230b61fe5c8bccb29b038586"
+    },
+    {
+      "path": "업무\\TS-P03\\architecture.svg",
+      "bytes": 7348,
+      "sha256": "869ee9be0daab15456835d99ef77f38ce0d3af32ff84f86b229b9d4cc192c1d5"
+    },
+    {
+      "path": "업무\\TS-P03\\user.svg",
+      "bytes": 7234,
+      "sha256": "dfd519c95eedda72527596bbdd5bf872ec585fe6685215bb72906bb0d5dfcd1d"
+    },
+    {
+      "path": "업무\\TS-P03\\data.svg",
+      "bytes": 6757,
+      "sha256": "3876f440e0e47417e132f95aa8d681bf600588feb391d7811a316dd803caf9f8"
+    },
+    {
+      "path": "업무\\TS-P03\\01_서비스_컨셉.md",
+      "bytes": 4840,
+      "sha256": "43f45963bc55a9f09d39da915d88c694ad8c001da49aebe704e38ff4dc8ccbbf"
+    },
+    {
+      "path": "업무\\TS-P03\\01_서비스_컨셉.html",
+      "bytes": 8838,
+      "sha256": "0e62b055df3212b7d4101ed76b749e209f11ecac655c4930422ed788aeb5c1bb"
+    },
+    {
+      "path": "업무\\TS-P03\\02_전체_아키텍처.md",
+      "bytes": 5968,
+      "sha256": "7ea1637c3eb6124ec69bc480363d1f8dd189043be75b266f3b0b1cc3eeed2669"
+    },
+    {
+      "path": "업무\\TS-P03\\02_전체_아키텍처.html",
+      "bytes": 10055,
+      "sha256": "ad6b334b1be4b88847deba16e84acebb7fb9994391290eb21127d3854da1129c"
+    },
+    {
+      "path": "업무\\TS-P03\\03_사용자_흐름.md",
+      "bytes": 5690,
+      "sha256": "0c58010836cd9269394d21c1c031c76bac2f181489859c8868c14232edbaa5fa"
+    },
+    {
+      "path": "업무\\TS-P03\\03_사용자_흐름.html",
+      "bytes": 10013,
+      "sha256": "35cd3390a7dcc55fef88a3e35207aa9ad0350e938b9617b55d28ade1757a5d1a"
+    },
+    {
+      "path": "업무\\TS-P03\\04_데이터_흐름.md",
+      "bytes": 4953,
+      "sha256": "c7157f91bec7be206745703e59e9fb358b6be42fee334865f36a594014551e4d"
+    },
+    {
+      "path": "업무\\TS-P03\\04_데이터_흐름.html",
+      "bytes": 9149,
+      "sha256": "a4a93c4d29ba51c4f59fbb7ae573465276474e8b46824bac9f61f9c7e1fba1c3"
+    },
+    {
+      "path": "업무\\TS-P03\\05_요구사항_검수.md",
+      "bytes": 7483,
+      "sha256": "a8749ad7683c57cc329f52893317f6c78c74c1421fea94f882024010201e7f06"
+    },
+    {
+      "path": "업무\\TS-P03\\05_요구사항_검수.html",
+      "bytes": 11493,
+      "sha256": "7f0d3eeaf7f2d472e8172ba066edcb0f92d2111411cdc7d3d6889bed1fac6bf5"
+    },
+    {
+      "path": "업무\\TS-P03\\06_비용_산정.md",
+      "bytes": 5448,
+      "sha256": "11ebe012fccac5e25292f4f261b396f5d2b493b38979e9f1f4324ce76cbbff62"
+    },
+    {
+      "path": "업무\\TS-P03\\06_비용_산정.html",
+      "bytes": 14853,
+      "sha256": "90ff52e6e7b71a7befda622c8a235ca1dd7b8deff6fbeb23c9248432830f8df9"
+    },
+    {
+      "path": "업무\\TS-P03\\07_일정_운영.md",
+      "bytes": 5107,
+      "sha256": "b4d8950ca86aea8ac670846d56d9bffb5c605dc77a61049bdc43058ff93c1e77"
+    },
+    {
+      "path": "업무\\TS-P03\\07_일정_운영.html",
+      "bytes": 8214,
+      "sha256": "c8cc44a3a688b6ac30609a558d42bcb0b77325281c775013d7139a6c30ee210b"
+    },
+    {
+      "path": "업무\\TS-P04\\concept.svg",
+      "bytes": 6280,
+      "sha256": "84ab7dcd1fbd7696c54f25aaf370b214b3f987dbfe89faf8f2a2be192b9d2e96"
+    },
+    {
+      "path": "업무\\TS-P04\\architecture.svg",
+      "bytes": 7361,
+      "sha256": "f2ab5878dca3a2555b2f9787ada5659da97c71b9b32126b08dc7b5d398b6dd77"
+    },
+    {
+      "path": "업무\\TS-P04\\user.svg",
+      "bytes": 7225,
+      "sha256": "f49f8aac172cc956b7a594212a05462d418cfc2549171721405887498cd668a3"
+    },
+    {
+      "path": "업무\\TS-P04\\data.svg",
+      "bytes": 6756,
+      "sha256": "986a0ea109f07c96900b4f2006de1d537b46928977008385e1c5a78ef887d680"
+    },
+    {
+      "path": "업무\\TS-P04\\01_서비스_컨셉.md",
+      "bytes": 4850,
+      "sha256": "bf8245b4dad74d85f475dfdfa988fe9a095e95dd0ea3626a491a590ed4f28b29"
+    },
+    {
+      "path": "업무\\TS-P04\\01_서비스_컨셉.html",
+      "bytes": 8848,
+      "sha256": "9da7cbfc865ac583436e6daaa73b20136e5184082fbc5836dacd16a955474b9c"
+    },
+    {
+      "path": "업무\\TS-P04\\02_전체_아키텍처.md",
+      "bytes": 5978,
+      "sha256": "76df38dc5d9b4b62e91e0e4aa0088ec12385d98dd12b6e83b4dad3384978b850"
+    },
+    {
+      "path": "업무\\TS-P04\\02_전체_아키텍처.html",
+      "bytes": 10065,
+      "sha256": "ab909287be5960d89a78dc3c1faffe510857b2d6044fad82c9d58628e682d030"
+    },
+    {
+      "path": "업무\\TS-P04\\03_사용자_흐름.md",
+      "bytes": 5678,
+      "sha256": "72892feb9e039eebf3244240eefec79381f260ed4c35ccd8ee2dd333cdfeaf9e"
+    },
+    {
+      "path": "업무\\TS-P04\\03_사용자_흐름.html",
+      "bytes": 10001,
+      "sha256": "ea8e183aaf601f6c6109509a00142d8df8909bf73d14be90a0d86957b6fc8eb2"
+    },
+    {
+      "path": "업무\\TS-P04\\04_데이터_흐름.md",
+      "bytes": 4887,
+      "sha256": "97542610f70ed9440b3e68d5cc8b5f16a6acd1873a9007a1b478228681562e94"
+    },
+    {
+      "path": "업무\\TS-P04\\04_데이터_흐름.html",
+      "bytes": 9083,
+      "sha256": "0e141e674767cf65269ae695ac5dd82da37565a1cd96d4f3d5fcdef3fdcd6841"
+    },
+    {
+      "path": "업무\\TS-P04\\05_요구사항_검수.md",
+      "bytes": 7556,
+      "sha256": "f62a7f997186b25d47fe15020b165d742c51a844ff24da57f4f980d221526c06"
+    },
+    {
+      "path": "업무\\TS-P04\\05_요구사항_검수.html",
+      "bytes": 11566,
+      "sha256": "973cf832517a26c2cfcd5e790180451d484214aeb10777e40bbb59330f491c1e"
+    },
+    {
+      "path": "업무\\TS-P04\\06_비용_산정.md",
+      "bytes": 5426,
+      "sha256": "2678846c9815bbfe39021be22bdea68585c2e30d010463deca6b334832dfe8b7"
+    },
+    {
+      "path": "업무\\TS-P04\\06_비용_산정.html",
+      "bytes": 14831,
+      "sha256": "b34ae8dcf89e7d2aad4d54ad4a261159d727353f1b9eec72ae59d21447713216"
+    },
+    {
+      "path": "업무\\TS-P04\\07_일정_운영.md",
+      "bytes": 5065,
+      "sha256": "9a3e0d2ce466a2478bcf21a37c486bdcbc1f9f284dd5c36984585b552bfb7030"
+    },
+    {
+      "path": "업무\\TS-P04\\07_일정_운영.html",
+      "bytes": 8172,
+      "sha256": "c0bcc906dda012094f3514bd4a37a68ee0026f1b1084847f02a10cce42e9063b"
+    },
+    {
+      "path": "업무\\TS-P05\\concept.svg",
+      "bytes": 6325,
+      "sha256": "4c0905da7a7776de94c5f32c693dbbb9d19424efffeaa11ba9f3367a2eef3e5a"
+    },
+    {
+      "path": "업무\\TS-P05\\architecture.svg",
+      "bytes": 7361,
+      "sha256": "745932db8df25fbda79885ad2f5bcf1ce82b6a96153a0cfb031be3f04115a974"
+    },
+    {
+      "path": "업무\\TS-P05\\user.svg",
+      "bytes": 7234,
+      "sha256": "af3e9a7779c08564f2c813389adc2a361ddf6d456f94c8df5595681f747d4f9e"
+    },
+    {
+      "path": "업무\\TS-P05\\data.svg",
+      "bytes": 6765,
+      "sha256": "180b4ca39cfcbbd6f3e34805f41b547efe9d7ed3153bb5edf7cba63d129879dc"
+    },
+    {
+      "path": "업무\\TS-P05\\01_서비스_컨셉.md",
+      "bytes": 4488,
+      "sha256": "7863e13b6a8b439ad45241a8801821eaf38e4d555ac6df7cc80e71ae7f7bbcf4"
+    },
+    {
+      "path": "업무\\TS-P05\\01_서비스_컨셉.html",
+      "bytes": 8468,
+      "sha256": "477a7f3d1aeb658256ba34b6d2afd290d1823ae3292a4daf5a0574a9d4bfbb98"
+    },
+    {
+      "path": "업무\\TS-P05\\02_전체_아키텍처.md",
+      "bytes": 5450,
+      "sha256": "1b0e96c6344d24d5781eeb404a8d8f39ac111ea04dd47e48197c04c06346b3a6"
+    },
+    {
+      "path": "업무\\TS-P05\\02_전체_아키텍처.html",
+      "bytes": 9519,
+      "sha256": "9aff03a0f2782b240c0017ae430c41d75c6678a991072c2b46838e08f37f9db8"
+    },
+    {
+      "path": "업무\\TS-P05\\03_사용자_흐름.md",
+      "bytes": 5205,
+      "sha256": "1f914e1565f7292fd9b2dd9a31987faea9b66f6d96a8d40b8061cd41bccc58fc"
+    },
+    {
+      "path": "업무\\TS-P05\\03_사용자_흐름.html",
+      "bytes": 9510,
+      "sha256": "4ed16b91ee1ad0e114c6832e9b2d9ed20aaa8240f4854ef26e7df01338afae4c"
+    },
+    {
+      "path": "업무\\TS-P05\\04_데이터_흐름.md",
+      "bytes": 4421,
+      "sha256": "093ce145128e78d61aa14e72ce098280d49a80f2665aca2bf07a4869a7028316"
+    },
+    {
+      "path": "업무\\TS-P05\\04_데이터_흐름.html",
+      "bytes": 8599,
+      "sha256": "341a9a2f9588727981f5dec59e3ea5450f8a20815ba3f4f3c3c785884737e293"
+    },
+    {
+      "path": "업무\\TS-P05\\05_요구사항_검수.md",
+      "bytes": 7021,
+      "sha256": "8d49d40df3df6ac7fc80698a8a653e063532d81987a380ebabd27d3e51a7f2c6"
+    },
+    {
+      "path": "업무\\TS-P05\\05_요구사항_검수.html",
+      "bytes": 11013,
+      "sha256": "800560405d28c65694ce9836f5bf1f23e921a40ae1c4f4cb1a21dd980c5b69c5"
+    },
+    {
+      "path": "업무\\TS-P05\\06_비용_산정.md",
+      "bytes": 4954,
+      "sha256": "b417ac97e42c09d77b39219cf1b5806d3e0795845e1e3a969285c3439ee4b877"
+    },
+    {
+      "path": "업무\\TS-P05\\06_비용_산정.html",
+      "bytes": 14341,
+      "sha256": "54b7c554d5fff5ddf1a6b82cbf0a5e1cf2db986708a88150ab35f42655f6eac1"
+    },
+    {
+      "path": "업무\\TS-P05\\07_일정_운영.md",
+      "bytes": 4624,
+      "sha256": "a82e67bf5ad05527fdcc629c344a829ef794a2986679e3f9d7a795edba6a5dc5"
+    },
+    {
+      "path": "업무\\TS-P05\\07_일정_운영.html",
+      "bytes": 7713,
+      "sha256": "acc0538db65004e62abcf56b1202a097e837c243cecd68f3689e8cee5e2c7cd5"
+    },
+    {
+      "path": "업무\\TS-P06\\concept.svg",
+      "bytes": 6269,
+      "sha256": "32f34269d6b1df527601cd00508b1baaba4ba74c1cff46083e3fe096476c0c05"
+    },
+    {
+      "path": "업무\\TS-P06\\architecture.svg",
+      "bytes": 7354,
+      "sha256": "97fa33beaf70a0b34fe2dcabc21625fd78aefae018771303119e44a236d14622"
+    },
+    {
+      "path": "업무\\TS-P06\\user.svg",
+      "bytes": 7176,
+      "sha256": "fe8845306004f8eda8330a606549fe2643b46dcedfecc02de1e13199ad0207ec"
+    },
+    {
+      "path": "업무\\TS-P06\\data.svg",
+      "bytes": 6756,
+      "sha256": "acb70ad2e1439a9300221f55712c65201a3618762c7827f39cf2b5be4d91b3eb"
+    },
+    {
+      "path": "업무\\TS-P06\\01_서비스_컨셉.md",
+      "bytes": 4337,
+      "sha256": "46d6e9aa7476fd8ee050c64b03edfe89ff9d6cbc13718f5ee17703e4b058a166"
+    },
+    {
+      "path": "업무\\TS-P06\\01_서비스_컨셉.html",
+      "bytes": 8317,
+      "sha256": "0d9fd6263acc144a6e4fd30fdc8e23eb4083b700279b46d1100b1b0ddc554d89"
+    },
+    {
+      "path": "업무\\TS-P06\\02_전체_아키텍처.md",
+      "bytes": 5589,
+      "sha256": "fb8073ce16429cfd60bd4fcbd19a7577b770d2e61a7baf3c78d55ec8fa74e1a0"
+    },
+    {
+      "path": "업무\\TS-P06\\02_전체_아키텍처.html",
+      "bytes": 9666,
+      "sha256": "335926771efdc90826c05233410137f5d55bdcd27b21c9d3986c1f476715cb9d"
+    },
+    {
+      "path": "업무\\TS-P06\\03_사용자_흐름.md",
+      "bytes": 5124,
+      "sha256": "210f37e0bfed155655a3c4abb639d4600daf408e75eb61c65531f932bb5931cc"
+    },
+    {
+      "path": "업무\\TS-P06\\03_사용자_흐름.html",
+      "bytes": 9429,
+      "sha256": "4f9be7880693bda96420874cccbfbf1cf07d37d40f52b744fbce1174325f7801"
+    },
+    {
+      "path": "업무\\TS-P06\\04_데이터_흐름.md",
+      "bytes": 4336,
+      "sha256": "1e646fd3360f4566894d6830d5b468fff3eb587e1a8b2b7663b28602127a4cfd"
+    },
+    {
+      "path": "업무\\TS-P06\\04_데이터_흐름.html",
+      "bytes": 8514,
+      "sha256": "9c929a40aabd778d539c9438bdf32ea9c6f3311e3b95e22581bf79174b9c6ff1"
+    },
+    {
+      "path": "업무\\TS-P06\\05_요구사항_검수.md",
+      "bytes": 6960,
+      "sha256": "3ca871bba26eff8166f8a3d252ca3e3fd35f1ad98d0995bed2bfc9adcf02fdb7"
+    },
+    {
+      "path": "업무\\TS-P06\\05_요구사항_검수.html",
+      "bytes": 10952,
+      "sha256": "7d1a6dbcd660f725dac27530936c4a6037b20b1c7ef7e11ca2631834d91f62ad"
+    },
+    {
+      "path": "업무\\TS-P06\\06_비용_산정.md",
+      "bytes": 4874,
+      "sha256": "f7b101e029cf3b64e0756609f6cbf58ec8e2024db628b0e5cb86b7382818835a"
+    },
+    {
+      "path": "업무\\TS-P06\\06_비용_산정.html",
+      "bytes": 14261,
+      "sha256": "c4131b84c65da1029c8a99c217743c3bfa4611391168e155b526aa3d24762374"
+    },
+    {
+      "path": "업무\\TS-P06\\07_일정_운영.md",
+      "bytes": 4638,
+      "sha256": "453e69ab3b4642db2604e065df599a448426a1336367002eba65db72c09074f5"
+    },
+    {
+      "path": "업무\\TS-P06\\07_일정_운영.html",
+      "bytes": 7727,
+      "sha256": "464d943e194e1b57a8dbaf1817abb41ec903f11c7c86ce02e0b98822ea7a0108"
+    },
+    {
+      "path": "업무\\TS-P07\\concept.svg",
+      "bytes": 6263,
+      "sha256": "ac11440a14a92ffe079c7066ef5a9769899593e8a5364baa3944dfab32bf76bd"
+    },
+    {
+      "path": "업무\\TS-P07\\architecture.svg",
+      "bytes": 7354,
+      "sha256": "725988f7be3910cc80cf74f569ae470c6df98d5fccd3903a0763153b22e2125d"
+    },
+    {
+      "path": "업무\\TS-P07\\user.svg",
+      "bytes": 7209,
+      "sha256": "92035914f9ee19dfe7f8db355615cec049eb4d66529a515c8cd93d6e8c103516"
+    },
+    {
+      "path": "업무\\TS-P07\\data.svg",
+      "bytes": 6749,
+      "sha256": "65f1bf4b7dcc766ae24a3fcdad5091bab6fe9f616ef0a3ed1ae61001728760a5"
+    },
+    {
+      "path": "업무\\TS-P07\\01_서비스_컨셉.md",
+      "bytes": 4254,
+      "sha256": "68ff7fe514f73b03f76940d8c8619671b426f2478d07943a3ec5d287f325fe0f"
+    },
+    {
+      "path": "업무\\TS-P07\\01_서비스_컨셉.html",
+      "bytes": 8234,
+      "sha256": "9b01537b2f545cba27fbc8459473596a6e3f5641bb1ee537a188e3b29c8e697a"
+    },
+    {
+      "path": "업무\\TS-P07\\02_전체_아키텍처.md",
+      "bytes": 5398,
+      "sha256": "9554ae6d2d91387f5b172ad641216dcd871fbec0f966bcbaeb3846987edc8931"
+    },
+    {
+      "path": "업무\\TS-P07\\02_전체_아키텍처.html",
+      "bytes": 9467,
+      "sha256": "a23ae36ca0714a65521043115b0d3aeae14cd0a36ab188862c87f11521e1cdcf"
+    },
+    {
+      "path": "업무\\TS-P07\\03_사용자_흐름.md",
+      "bytes": 5144,
+      "sha256": "bd9e51c2544e4bbd84f9b2ffa2328797923b9eae5ebb61d5f0b67b39729fc8ff"
+    },
+    {
+      "path": "업무\\TS-P07\\03_사용자_흐름.html",
+      "bytes": 9449,
+      "sha256": "74ff26d42bdf0e7cd122e40c00430dd22db134e3d73b37a9496ba1b2a3887e94"
+    },
+    {
+      "path": "업무\\TS-P07\\04_데이터_흐름.md",
+      "bytes": 4424,
+      "sha256": "1605c9125968c0819cd8dd445a97d439be06d1f1daeee91b37d1b45e5bcc8e83"
+    },
+    {
+      "path": "업무\\TS-P07\\04_데이터_흐름.html",
+      "bytes": 8602,
+      "sha256": "c7eaa23447b9e7c1d0452a5d4a9efc486be94373eb90c201763496c39b2ada04"
+    },
+    {
+      "path": "업무\\TS-P07\\05_요구사항_검수.md",
+      "bytes": 6993,
+      "sha256": "ea594171c6477d3eeb3b66fef90d96ec19e34f11c90287281258296cebfb7870"
+    },
+    {
+      "path": "업무\\TS-P07\\05_요구사항_검수.html",
+      "bytes": 10985,
+      "sha256": "eb34d6f190fa3f2e61136f9c361d484ed7d898297fead347e14aa2071fbde09d"
+    },
+    {
+      "path": "업무\\TS-P07\\06_비용_산정.md",
+      "bytes": 4904,
+      "sha256": "6bc1fce95b940928a1dd3ca990d0075d880543a545fd6cb8c46dbba84d52e02e"
+    },
+    {
+      "path": "업무\\TS-P07\\06_비용_산정.html",
+      "bytes": 14291,
+      "sha256": "f1ec5228e7760d16aac44897ce2578325afd969dc976e631f14cfbf197fd15e6"
+    },
+    {
+      "path": "업무\\TS-P07\\07_일정_운영.md",
+      "bytes": 4554,
+      "sha256": "6bf95bbd06770cdd313a350c336878f3526ac1d22ce102ad4829161bb15cac53"
+    },
+    {
+      "path": "업무\\TS-P07\\07_일정_운영.html",
+      "bytes": 7643,
+      "sha256": "c8dd03c510b0e7c897200c3e22a5c8561afb6745d06d75c9f295d643eeafd06b"
+    },
+    {
+      "path": "업무\\TS-P08\\concept.svg",
+      "bytes": 6268,
+      "sha256": "7756a513fe317470a5905c375db32d0dc78ad0ce97feb89119cde32f574ca24c"
+    },
+    {
+      "path": "업무\\TS-P08\\architecture.svg",
+      "bytes": 7363,
+      "sha256": "c0a816f77a0ff03a83ea605e1e4961d61fc6ec1082e313dde92e3dade54e1968"
+    },
+    {
+      "path": "업무\\TS-P08\\user.svg",
+      "bytes": 7218,
+      "sha256": "c5f5fd012ec4ce11e53f8dc336c8ec580a17893d469de0aa6b162c5010ca2acb"
+    },
+    {
+      "path": "업무\\TS-P08\\data.svg",
+      "bytes": 6763,
+      "sha256": "13f91d2215a3130dcd631d00efce7aa255651ab073d439920765577847e50b00"
+    },
+    {
+      "path": "업무\\TS-P08\\01_서비스_컨셉.md",
+      "bytes": 4273,
+      "sha256": "7c942c8c1f84b836bd0b65cb16ee79b540c3926e88ae655561977542ea1f3069"
+    },
+    {
+      "path": "업무\\TS-P08\\01_서비스_컨셉.html",
+      "bytes": 8253,
+      "sha256": "1ad5dc993772f863de91d14961fc54ac3af2ee74b77b30e8bb3269d20b931b9b"
+    },
+    {
+      "path": "업무\\TS-P08\\02_전체_아키텍처.md",
+      "bytes": 5656,
+      "sha256": "2ac322f58488a4b317b2ff05b6394332917586ead5194e35e5cb4038f65dba86"
+    },
+    {
+      "path": "업무\\TS-P08\\02_전체_아키텍처.html",
+      "bytes": 9733,
+      "sha256": "f5510fcf5a792ab9e359a63f120f1a641debb4ae92ec7bbe7fec470362ef4480"
+    },
+    {
+      "path": "업무\\TS-P08\\03_사용자_흐름.md",
+      "bytes": 5154,
+      "sha256": "a61e5ece3b1e4060e2d33a492db7422eb42de0dc53656ec983f0c306967f5bde"
+    },
+    {
+      "path": "업무\\TS-P08\\03_사용자_흐름.html",
+      "bytes": 9459,
+      "sha256": "89079173edabb4d5f694c70de73ce1d14659c4baa91edc40b8a4698d63d77187"
+    },
+    {
+      "path": "업무\\TS-P08\\04_데이터_흐름.md",
+      "bytes": 4414,
+      "sha256": "0460802c4ab650975db254c9bb15d895c4daaab678f6c0d97eef0e0e4313a7a1"
+    },
+    {
+      "path": "업무\\TS-P08\\04_데이터_흐름.html",
+      "bytes": 8592,
+      "sha256": "fafe1a2459410efd2d611a2c7608c54ca99953450c401a111bb76c6066b916f4"
+    },
+    {
+      "path": "업무\\TS-P08\\05_요구사항_검수.md",
+      "bytes": 7004,
+      "sha256": "c9f1b276cff272a3892761ac7d85be19d99989cc801622b0169e843f06639a46"
+    },
+    {
+      "path": "업무\\TS-P08\\05_요구사항_검수.html",
+      "bytes": 10996,
+      "sha256": "21bd35eeb4bba864269c04a7a1f59a8439483403591b92d3c53dcaded5904111"
+    },
+    {
+      "path": "업무\\TS-P08\\06_비용_산정.md",
+      "bytes": 4897,
+      "sha256": "84fea07fb8865334cb047c6c43f8cc1ba6958e74fa4bd399386b16692b040bf6"
+    },
+    {
+      "path": "업무\\TS-P08\\06_비용_산정.html",
+      "bytes": 14284,
+      "sha256": "b6fdb299a44c6143ff09f3c0448b23fd02830557cc6139dd6bf87273d2e78798"
+    },
+    {
+      "path": "업무\\TS-P08\\07_일정_운영.md",
+      "bytes": 4565,
+      "sha256": "2c164d557f7feb914abeb63ae9fa7119724f4680458d4e4d6bdefea5adad40b6"
+    },
+    {
+      "path": "업무\\TS-P08\\07_일정_운영.html",
+      "bytes": 7654,
+      "sha256": "827906fd0b8501eda9f3f7c454c85068912da40c99f7f5f829cae00542babbcb"
+    },
+    {
+      "path": "업무\\TS-P09\\concept.svg",
+      "bytes": 6262,
+      "sha256": "ba1db7b861ef848ccc1e0f220dfcdce00c90c20d0a7e34596c9889e8419a1c25"
+    },
+    {
+      "path": "업무\\TS-P09\\architecture.svg",
+      "bytes": 7350,
+      "sha256": "02b1ea0f2cac5dcc44af9a249e74cdf23a91c68af155cbf35502f8738ab5f070"
+    },
+    {
+      "path": "업무\\TS-P09\\user.svg",
+      "bytes": 7166,
+      "sha256": "1fbfba117030c90f8c7eb831039866ece722cba9fb4b03014a30a8a3b2557990"
+    },
+    {
+      "path": "업무\\TS-P09\\data.svg",
+      "bytes": 6748,
+      "sha256": "7ceb939c3fd5288d679da66e179185004d7aed65bc832395a795e1f894fd4bb5"
+    },
+    {
+      "path": "업무\\TS-P09\\01_서비스_컨셉.md",
+      "bytes": 4627,
+      "sha256": "a18a7491899ff9e1fda10cc6252c658d9c35dd7475ffa4b9554fb72ced6fec5c"
+    },
+    {
+      "path": "업무\\TS-P09\\01_서비스_컨셉.html",
+      "bytes": 8625,
+      "sha256": "fa98dd0e46117f329ca1376a20abaa421268ede14172de0b417a821863d637c0"
+    },
+    {
+      "path": "업무\\TS-P09\\02_전체_아키텍처.md",
+      "bytes": 5835,
+      "sha256": "0da418ac8b7822a88cb6ab343649f5a2285e0afb8ee1a0093f4e02fe26e24a52"
+    },
+    {
+      "path": "업무\\TS-P09\\02_전체_아키텍처.html",
+      "bytes": 9922,
+      "sha256": "a7d52fca17d168ebb28753bda36d9f80c1fe9215676a82333a922c82ef4efa84"
+    },
+    {
+      "path": "업무\\TS-P09\\03_사용자_흐름.md",
+      "bytes": 5573,
+      "sha256": "3cbab37b3aaba5f0fb5666675d96d264acf632e854c9ccbbfaf60f545e451b70"
+    },
+    {
+      "path": "업무\\TS-P09\\03_사용자_흐름.html",
+      "bytes": 9896,
+      "sha256": "126ded221e428b621c4199644a5ebc12185032ad00056be771b0b8fd76347b49"
+    },
+    {
+      "path": "업무\\TS-P09\\04_데이터_흐름.md",
+      "bytes": 4860,
+      "sha256": "98ca506c912c6e225d19c4143fd44059c5af11be45c4b356ef39e024e3a650b4"
+    },
+    {
+      "path": "업무\\TS-P09\\04_데이터_흐름.html",
+      "bytes": 9056,
+      "sha256": "ee4188c3f14d84a19c976652dc5307a9bffbf95f34ddb36a89bc1759fbdb9533"
+    },
+    {
+      "path": "업무\\TS-P09\\05_요구사항_검수.md",
+      "bytes": 7410,
+      "sha256": "57dfc97c53a8447c0e1a45a89b3a5f1ea658bb54644fb6061cd1f452cdb19750"
+    },
+    {
+      "path": "업무\\TS-P09\\05_요구사항_검수.html",
+      "bytes": 11420,
+      "sha256": "2414646c8b031b5cea85272e815db5f6a1ed1b67bc37f4915f4f73a1943f05ed"
+    },
+    {
+      "path": "업무\\TS-P09\\06_비용_산정.md",
+      "bytes": 5368,
+      "sha256": "60cb8e375c9f735b9444ae488f956179eb0d5f54eefbd7b37b10c5e4a514f61d"
+    },
+    {
+      "path": "업무\\TS-P09\\06_비용_산정.html",
+      "bytes": 14773,
+      "sha256": "e10c6bb611918fec020d2b7e7f8584f6b404f4a891589df7ae66f47bd4a805a7"
+    },
+    {
+      "path": "업무\\TS-P09\\07_일정_운영.md",
+      "bytes": 4949,
+      "sha256": "0349c935247d99f4c3c149fd1cae2224569478aa3f6fe5b9b019642c30c99440"
+    },
+    {
+      "path": "업무\\TS-P09\\07_일정_운영.html",
+      "bytes": 8056,
+      "sha256": "122eb78f5747c356f1ecab5d8b8ba7ecd4f3620c7eea0ddb5e90f53b11fb1443"
+    },
+    {
+      "path": "업무\\TS-P10\\concept.svg",
+      "bytes": 6254,
+      "sha256": "e513aafb2c1593f1e9ac98b2aea4fd9ff5014cf90a681cdb29e7cb26918d59bd"
+    },
+    {
+      "path": "업무\\TS-P10\\architecture.svg",
+      "bytes": 7357,
+      "sha256": "99b463d8140f99b917090d0c9eb1495b6fd780d07ad0008cb2972a078aca52bf"
+    },
+    {
+      "path": "업무\\TS-P10\\user.svg",
+      "bytes": 7214,
+      "sha256": "b672f34b8029b475f8b5a9a99aafc6b5e65dd10cba8a6b8225f6bcf77b054f10"
+    },
+    {
+      "path": "업무\\TS-P10\\data.svg",
+      "bytes": 6753,
+      "sha256": "6f4f300a6b823a3408280ae387e94cb3b429b601d79186aa575c9a9d75dfc826"
+    },
+    {
+      "path": "업무\\TS-P10\\01_서비스_컨셉.md",
+      "bytes": 5380,
+      "sha256": "1b78a36a919fcb8ce803d20f5e5e79a0bc0b2741519c15e5b6ff6c588a4a2288"
+    },
+    {
+      "path": "업무\\TS-P10\\01_서비스_컨셉.html",
+      "bytes": 9396,
+      "sha256": "09a421c3794438f84a0d26cd5dc6538d0b9d92b114797b1c0dc87bdfb65d11d8"
+    },
+    {
+      "path": "업무\\TS-P10\\02_전체_아키텍처.md",
+      "bytes": 6499,
+      "sha256": "145674a4953d927a6ab5923e96ce7cc0be722a3aa9b3c3a039ea0e96fb5ef1e2"
+    },
+    {
+      "path": "업무\\TS-P10\\02_전체_아키텍처.html",
+      "bytes": 10604,
+      "sha256": "2d0ae9ecdd335b65d3d76b52feb7b2207121161464184b8b491ab43b27e14590"
+    },
+    {
+      "path": "업무\\TS-P10\\03_사용자_흐름.md",
+      "bytes": 6197,
+      "sha256": "e122ce292c8702b1564a5ec01e8269f7aff931cda33ef94ce542ee8fae7dea91"
+    },
+    {
+      "path": "업무\\TS-P10\\03_사용자_흐름.html",
+      "bytes": 10538,
+      "sha256": "526f74901ffdfd7f98b23dfda3e2e6473f1543852720b04e13a3acfdaf2ce052"
+    },
+    {
+      "path": "업무\\TS-P10\\04_데이터_흐름.md",
+      "bytes": 5482,
+      "sha256": "145dda042356684879740429c2ba107feb35e93012a0a4bb58a8f4cdb94c7396"
+    },
+    {
+      "path": "업무\\TS-P10\\04_데이터_흐름.html",
+      "bytes": 9696,
+      "sha256": "0764d3c3d1f411180d63a4d5c97eb2ce1bb867cc9734396ad936148536fb8252"
+    },
+    {
+      "path": "업무\\TS-P10\\05_요구사항_검수.md",
+      "bytes": 8233,
+      "sha256": "4b1377f6a30aa1b12f96613c7d50b78a63424c3b46aa331d9feb32b7690b6087"
+    },
+    {
+      "path": "업무\\TS-P10\\05_요구사항_검수.html",
+      "bytes": 12261,
+      "sha256": "6b3124864479fde72acd7a461c6b2c4d6c371a7d927e7c4af37413725337d204"
+    },
+    {
+      "path": "업무\\TS-P10\\06_비용_산정.md",
+      "bytes": 5887,
+      "sha256": "3604b5e2a5d7dc3ed79af505a1863b0de0229ca260e9e4277a6c0b1372794c5f"
+    },
+    {
+      "path": "업무\\TS-P10\\06_비용_산정.html",
+      "bytes": 15311,
+      "sha256": "52b362e2db85da6e7240a6690ad80ef3d2a5285a9bf7ccf2696805d419404a5d"
+    },
+    {
+      "path": "업무\\TS-P10\\07_일정_운영.md",
+      "bytes": 5644,
+      "sha256": "80163e875eb0cea61f843b33ca7b9be6dc8a64793da2c8c9939402ee78fe845c"
+    },
+    {
+      "path": "업무\\TS-P10\\07_일정_운영.html",
+      "bytes": 8769,
+      "sha256": "e4e042540d2908b9664498611b9220b1096ede18b8548b1fb41fde684602fc99"
+    },
+    {
+      "path": "업무\\TS-P11\\concept.svg",
+      "bytes": 6348,
+      "sha256": "b25ae771bd796f06ece0c9e783ac49d073eabe8b8088663f11de532fea9421e8"
+    },
+    {
+      "path": "업무\\TS-P11\\architecture.svg",
+      "bytes": 7394,
+      "sha256": "7ba3393bde9f459842f866745406c9dda8551dffc469ebba3fa8f9c64bc2cf80"
+    },
+    {
+      "path": "업무\\TS-P11\\user.svg",
+      "bytes": 7192,
+      "sha256": "bc44c611eea4f3bf86ddf556598e69fd6b0996993560ee2589b7f6f7a5dd6577"
+    },
+    {
+      "path": "업무\\TS-P11\\data.svg",
+      "bytes": 6761,
+      "sha256": "cf9efbec8a8e4e4d9033792acf9be9d68179b405b72e08dccdf8b5ef3cf730f0"
+    },
+    {
+      "path": "업무\\TS-P11\\01_서비스_컨셉.md",
+      "bytes": 4973,
+      "sha256": "12c50e11ce457ad0ee5216d16c4f577202e6f4f133fab06b4a70ecb567cd0f7b"
+    },
+    {
+      "path": "업무\\TS-P11\\01_서비스_컨셉.html",
+      "bytes": 8989,
+      "sha256": "d0a337bbfd264f9a826b65fdd5489fd02615dca8929881604cc734906e330332"
+    },
+    {
+      "path": "업무\\TS-P11\\02_전체_아키텍처.md",
+      "bytes": 6053,
+      "sha256": "19f4ee3bd6c63178f4b219a4cc140c0e9d0d206d7fe7f4be2e487109d2036eda"
+    },
+    {
+      "path": "업무\\TS-P11\\02_전체_아키텍처.html",
+      "bytes": 10158,
+      "sha256": "e6c851061e1ff2ffac78d9aee9e8da416d02f76a013a1296a6644673dae76c54"
+    },
+    {
+      "path": "업무\\TS-P11\\03_사용자_흐름.md",
+      "bytes": 5821,
+      "sha256": "4b1f26c4ca78f60a1bf84376fb76d978d2f18335ad6306048dd92265253b470a"
+    },
+    {
+      "path": "업무\\TS-P11\\03_사용자_흐름.html",
+      "bytes": 10162,
+      "sha256": "bb687159082bdb8932389ecc55a142d82d8e136efba4509fd93da87b5cc12177"
+    },
+    {
+      "path": "업무\\TS-P11\\04_데이터_흐름.md",
+      "bytes": 5015,
+      "sha256": "8eee5ba888d57fb021e030de717c2fea2afcb44cd55b55e00927c2992073c50b"
+    },
+    {
+      "path": "업무\\TS-P11\\04_데이터_흐름.html",
+      "bytes": 9229,
+      "sha256": "09b98deef7e09e37734234327e8a5014d8fde67a68b0924a138d345bfdd5ec3e"
+    },
+    {
+      "path": "업무\\TS-P11\\05_요구사항_검수.md",
+      "bytes": 7577,
+      "sha256": "fe224460357faaf585590101fe99f575e9a0d56130e3f771065268cfb8d6f799"
+    },
+    {
+      "path": "업무\\TS-P11\\05_요구사항_검수.html",
+      "bytes": 11605,
+      "sha256": "3c0f952381a09774c5ad228c1541797157bc750ed6a85390a661887a0ad2da43"
+    },
+    {
+      "path": "업무\\TS-P11\\06_비용_산정.md",
+      "bytes": 5559,
+      "sha256": "12d05626a2c2d4bc865ded41f993c59e528917afd9af68459a116e3ade98e560"
+    },
+    {
+      "path": "업무\\TS-P11\\06_비용_산정.html",
+      "bytes": 14983,
+      "sha256": "5bbc09a25e466c335734b4214e178b993e5b33ca4f6f9cd88affa12ded3460cd"
+    },
+    {
+      "path": "업무\\TS-P11\\07_일정_운영.md",
+      "bytes": 5201,
+      "sha256": "6355efa028a8a9e190657659883e7670170f4d8fb62efad29cd85a1bb64f2458"
+    },
+    {
+      "path": "업무\\TS-P11\\07_일정_운영.html",
+      "bytes": 8326,
+      "sha256": "e8063d8a8efcb2bc302fa3b56e0e225638288f3e215a0d82c80b058ca5a862f7"
+    },
+    {
+      "path": "업무\\TS-P12\\concept.svg",
+      "bytes": 6248,
+      "sha256": "46a648146a9424ab7903111f097e59115149b34d4df530e0de1fdf3fc5074102"
+    },
+    {
+      "path": "업무\\TS-P12\\architecture.svg",
+      "bytes": 7349,
+      "sha256": "414256f4df09b14dd69818b3216b55b1e99199a2762730ae204af07daa56619c"
+    },
+    {
+      "path": "업무\\TS-P12\\user.svg",
+      "bytes": 7171,
+      "sha256": "5b2ed28933d94bac582eb584d7713851cc099b03fe174198c6c59cfc285b3e97"
+    },
+    {
+      "path": "업무\\TS-P12\\data.svg",
+      "bytes": 6742,
+      "sha256": "8ac7a7cf72c1efa58b39bc9fe2ff3acefe4036b7e63b7502029f9e96dad2e844"
+    },
+    {
+      "path": "업무\\TS-P12\\01_서비스_컨셉.md",
+      "bytes": 4449,
+      "sha256": "9f3e7b9d2467d12d4ee9a1a848a97dcb2ed38e174e2f8ddd860e4189474c0d14"
+    },
+    {
+      "path": "업무\\TS-P12\\01_서비스_컨셉.html",
+      "bytes": 8447,
+      "sha256": "5c4bd08d3e0696d0d559fa3f1d839011784a5de911800f4f8ee898f56e2c4792"
+    },
+    {
+      "path": "업무\\TS-P12\\02_전체_아키텍처.md",
+      "bytes": 5639,
+      "sha256": "0b9102a9b3b056ff5a79cb9672e906cd5c9995cb19f6b00620f3ffd208b2d400"
+    },
+    {
+      "path": "업무\\TS-P12\\02_전체_아키텍처.html",
+      "bytes": 9726,
+      "sha256": "1918bb1b9b4ab102678675449f09e164f0054b882b35038ecb7f818a25cd5763"
+    },
+    {
+      "path": "업무\\TS-P12\\03_사용자_흐름.md",
+      "bytes": 5315,
+      "sha256": "4532dc37b63a7d5bafd889df6812ae24bb4c8602f9a20ac8618a4fcf2713df70"
+    },
+    {
+      "path": "업무\\TS-P12\\03_사용자_흐름.html",
+      "bytes": 9638,
+      "sha256": "abc45bc57fe3e6ff6bacff3c09a57e13bb844e39527c6114671b27f24b0f70f1"
+    },
+    {
+      "path": "업무\\TS-P12\\04_데이터_흐름.md",
+      "bytes": 4614,
+      "sha256": "ab63a13e9a4ab87fe0cdcba2ed276de86393b8c63d101d109e20647ea78aa775"
+    },
+    {
+      "path": "업무\\TS-P12\\04_데이터_흐름.html",
+      "bytes": 8810,
+      "sha256": "2988244d496b1448f0fd871900ea09c90275d95570c830f029b4cc1eb6dcfac2"
+    },
+    {
+      "path": "업무\\TS-P12\\05_요구사항_검수.md",
+      "bytes": 7188,
+      "sha256": "f49ffeb92023358009cdb74bf1d04b69beb9132609fbd81d51a8c10a38312818"
+    },
+    {
+      "path": "업무\\TS-P12\\05_요구사항_검수.html",
+      "bytes": 11198,
+      "sha256": "84bb5a572b8bbff2abfb53812e16f72a121e59c6c9e91dd39afdcdccac3d43d1"
+    },
+    {
+      "path": "업무\\TS-P12\\06_비용_산정.md",
+      "bytes": 5061,
+      "sha256": "03a764df339c6c4f5317baee853903f32ed34d5d04f4bb76120e0e3fdfa3b242"
+    },
+    {
+      "path": "업무\\TS-P12\\06_비용_산정.html",
+      "bytes": 14467,
+      "sha256": "7ffe9a90ecc18e87da53af2ee2772220082be7c58e9dcfe611c0e8310b597862"
+    },
+    {
+      "path": "업무\\TS-P12\\07_일정_운영.md",
+      "bytes": 4704,
+      "sha256": "7adba4cc1fd877bbdccfd4b428b51900b583f4c55d8c579a423ed5cac725b84a"
+    },
+    {
+      "path": "업무\\TS-P12\\07_일정_운영.html",
+      "bytes": 7811,
+      "sha256": "783dc56874ebc210120108b8814cd12779f989240c901a3821e7a945065167bf"
+    },
+    {
+      "path": "업무\\TS-P13\\concept.svg",
+      "bytes": 6318,
+      "sha256": "b58ea7b8bfa6096c515c8ce5b7e7b0424eec1322f72b1d1cffa5749e21a1f9b1"
+    },
+    {
+      "path": "업무\\TS-P13\\architecture.svg",
+      "bytes": 7355,
+      "sha256": "d920d19d27cccf43217ebef993f6e55f61d41325656ea7175346145cbd8c42e8"
+    },
+    {
+      "path": "업무\\TS-P13\\user.svg",
+      "bytes": 7197,
+      "sha256": "56cb762946b193855b6b07f53c0ed695b6d0dbda887a5dadb02e8d18c191cb66"
+    },
+    {
+      "path": "업무\\TS-P13\\data.svg",
+      "bytes": 6759,
+      "sha256": "b2929dcfbaf0e5d2adefbac7ece90cfdc92f024dd28d510809741733ee872074"
+    },
+    {
+      "path": "업무\\TS-P13\\01_서비스_컨셉.md",
+      "bytes": 4653,
+      "sha256": "b89568f793ec11166ab1cfb7672fef14cbbec34a51aed26341831811dc6b1a1e"
+    },
+    {
+      "path": "업무\\TS-P13\\01_서비스_컨셉.html",
+      "bytes": 8651,
+      "sha256": "2ce9a3bf061e9452a93f19d03444dea28f38b377d011736d3d5c38e32ea0c796"
+    },
+    {
+      "path": "업무\\TS-P13\\02_전체_아키텍처.md",
+      "bytes": 5762,
+      "sha256": "cfab905a30d7b389bcf0f41011bcf0f096890242976e1ec6793918b9b36d7a4e"
+    },
+    {
+      "path": "업무\\TS-P13\\02_전체_아키텍처.html",
+      "bytes": 9849,
+      "sha256": "e9d9bf38e428eef7af616512e9a7ab96ec89cade98670ce7fa15818abab7855e"
+    },
+    {
+      "path": "업무\\TS-P13\\03_사용자_흐름.md",
+      "bytes": 5493,
+      "sha256": "ae05222ca75de73d8461cf7639ee0bd1f9b30696979de2a84eeac721e6525dc1"
+    },
+    {
+      "path": "업무\\TS-P13\\03_사용자_흐름.html",
+      "bytes": 9816,
+      "sha256": "6bc5f79aa71b9b3d183fd5cf3c548dac36102b39cddab3ba47e12a69c5ba4f87"
+    },
+    {
+      "path": "업무\\TS-P13\\04_데이터_흐름.md",
+      "bytes": 4687,
+      "sha256": "8405cd79961b3b05951d6b6e77c36b20c96d4db2995b4a118112e468505604fe"
+    },
+    {
+      "path": "업무\\TS-P13\\04_데이터_흐름.html",
+      "bytes": 8883,
+      "sha256": "aaafec9ca716337577a93aa9f6cc465118b83a30bd6a67416dcdd0be3dc5f0e1"
+    },
+    {
+      "path": "업무\\TS-P13\\05_요구사항_검수.md",
+      "bytes": 7313,
+      "sha256": "c5d75e88c7b629f73bb2cc624e6cc48e120cc813226cd17741fce55dc5cae102"
+    },
+    {
+      "path": "업무\\TS-P13\\05_요구사항_검수.html",
+      "bytes": 11323,
+      "sha256": "c1bf0ac7fa816f942f29dd6e956cb4152330a2f8c8894018761dc249a87bb072"
+    },
+    {
+      "path": "업무\\TS-P13\\06_비용_산정.md",
+      "bytes": 5171,
+      "sha256": "467618b227a28f818c01ff486e36d79799d8a91322d636e4a1d20068f8554c0a"
+    },
+    {
+      "path": "업무\\TS-P13\\06_비용_산정.html",
+      "bytes": 14577,
+      "sha256": "0e4ec537a6fd7c0b1a60b74fcef5c97f6deb25e46b1bfea7a9e9a5953336e9a1"
+    },
+    {
+      "path": "업무\\TS-P13\\07_일정_운영.md",
+      "bytes": 4901,
+      "sha256": "243258b4e1576c6dc3ab8daf45a569e035bf9d11e5688d2d4fbe4b24692405ea"
+    },
+    {
+      "path": "업무\\TS-P13\\07_일정_운영.html",
+      "bytes": 8008,
+      "sha256": "c7faf10a76a00caba42e07a8e36851778dbe16b8ae69176e4c7c10ef9cda0f9b"
+    },
+    {
+      "path": "업무\\TS-P14\\concept.svg",
+      "bytes": 6271,
+      "sha256": "59b10cfd3c283c35a65529b6173284b19409e579c6572594214df59f28d49b93"
+    },
+    {
+      "path": "업무\\TS-P14\\architecture.svg",
+      "bytes": 7365,
+      "sha256": "f27f0578add19112ca9940acf69437a1c99b18bc9e0dd4dbf55087247583da9d"
+    },
+    {
+      "path": "업무\\TS-P14\\user.svg",
+      "bytes": 7225,
+      "sha256": "546fa2f6d8988548b796bf49b46d7aa6dfeb7e187e0d5b5b89c9cd85d97eb32c"
+    },
+    {
+      "path": "업무\\TS-P14\\data.svg",
+      "bytes": 6750,
+      "sha256": "6d4ccc2879f769a5e9ea4af249801e62d659c93ce35b67bc13a498faf5482086"
+    },
+    {
+      "path": "업무\\TS-P14\\01_서비스_컨셉.md",
+      "bytes": 4491,
+      "sha256": "eb55360d3266977784a6a6f11d2cddcaeb6f9490a7bd3de4ad173a5e5399601e"
+    },
+    {
+      "path": "업무\\TS-P14\\01_서비스_컨셉.html",
+      "bytes": 8489,
+      "sha256": "aa56cbd667813a6eab5c3f2ba1dedc6c4bac464685178987fdb02795dd26fab6"
+    },
+    {
+      "path": "업무\\TS-P14\\02_전체_아키텍처.md",
+      "bytes": 5644,
+      "sha256": "77ff9b7de2389b2dd384e9a51b968278038e5e029ddf6bbd26028e2fa8c2cf1d"
+    },
+    {
+      "path": "업무\\TS-P14\\02_전체_아키텍처.html",
+      "bytes": 9731,
+      "sha256": "96237d77bfd888fd46b8e629758a68897fc3558c6026df64b723d34444f31a6f"
+    },
+    {
+      "path": "업무\\TS-P14\\03_사용자_흐름.md",
+      "bytes": 5341,
+      "sha256": "5530a461fc8c545969a6bb6760dc87b5f02a8cb4e50b0133dc685a866ce3fe3e"
+    },
+    {
+      "path": "업무\\TS-P14\\03_사용자_흐름.html",
+      "bytes": 9664,
+      "sha256": "e50b24b1d958048711c20151509e20d245baab58e79b375a2d73fba86775e931"
+    },
+    {
+      "path": "업무\\TS-P14\\04_데이터_흐름.md",
+      "bytes": 4599,
+      "sha256": "7fe0e61a9f9f8756157f390f1b079b1cde2c8cace8e192bd4d0c46ec8f0f9589"
+    },
+    {
+      "path": "업무\\TS-P14\\04_데이터_흐름.html",
+      "bytes": 8795,
+      "sha256": "0358e8aff1c5c46aa104a55fd58ad52efd111b01e473c0bf0633aff7aa685b1b"
+    },
+    {
+      "path": "업무\\TS-P14\\05_요구사항_검수.md",
+      "bytes": 7180,
+      "sha256": "6365573def203686e824200fc5e1e6f7a97e5a29b86e61b21050ff7224cdd105"
+    },
+    {
+      "path": "업무\\TS-P14\\05_요구사항_검수.html",
+      "bytes": 11190,
+      "sha256": "ba46b2f818f771064d025892c3f429decaa4e01c906a9656a5ba10891a621eb7"
+    },
+    {
+      "path": "업무\\TS-P14\\06_비용_산정.md",
+      "bytes": 5115,
+      "sha256": "93200ab62bb82a2220e8429125913b0618a3aa4136a5f0f73f46ceab3cf9d424"
+    },
+    {
+      "path": "업무\\TS-P14\\06_비용_산정.html",
+      "bytes": 14521,
+      "sha256": "9eeb529a776cca1294adcfa4392a4146f3e4f39ccee4703d179d2fff12f87f5d"
+    },
+    {
+      "path": "업무\\TS-P14\\07_일정_운영.md",
+      "bytes": 4762,
+      "sha256": "206445de7401ee7953bc5510d195a764b59f267248da6f9235c5c9bfa9e3eeaf"
+    },
+    {
+      "path": "업무\\TS-P14\\07_일정_운영.html",
+      "bytes": 7869,
+      "sha256": "de874419cb4ba1d3499feb8c891e2ad219ff39c0f3ae184c90ba90cc7c01c408"
+    },
+    {
+      "path": "업무\\TS-P15\\concept.svg",
+      "bytes": 6263,
+      "sha256": "df6058ca39b275cf38a99c12acae51bd90f55a8fa75bff8fa25ea55b6d40ba86"
+    },
+    {
+      "path": "업무\\TS-P15\\architecture.svg",
+      "bytes": 7350,
+      "sha256": "a3b939de659cec753b2fa0157d995f3630d541df96992d36a0e42910260ed3a2"
+    },
+    {
+      "path": "업무\\TS-P15\\user.svg",
+      "bytes": 7211,
+      "sha256": "cc422f1e9e1960d5794ec69d87e30ea8cef4b29e19fa4dc03a5c4feaf49eb740"
+    },
+    {
+      "path": "업무\\TS-P15\\data.svg",
+      "bytes": 6743,
+      "sha256": "bbb5aeb0b2ef5a7b835a01ce7a45b87b9ff5b5bb2fd3c38dfb7cbe941d068010"
+    },
+    {
+      "path": "업무\\TS-P15\\01_서비스_컨셉.md",
+      "bytes": 4264,
+      "sha256": "83edec33246722cdc87259507f5e83357e903397d027e6c29bed34d882d5aaab"
+    },
+    {
+      "path": "업무\\TS-P15\\01_서비스_컨셉.html",
+      "bytes": 8244,
+      "sha256": "346631a6faa46e1bccb8e243ed0f7d78ad56962125c8c5cfc6d366357804d103"
+    },
+    {
+      "path": "업무\\TS-P15\\02_전체_아키텍처.md",
+      "bytes": 5369,
+      "sha256": "921b72d7947bf55c18274ca9c9ac244fe52e78a1c961d5c11582b249649fa046"
+    },
+    {
+      "path": "업무\\TS-P15\\02_전체_아키텍처.html",
+      "bytes": 9438,
+      "sha256": "97c30155d7864322ca0cfa246aa15b07e5c05cf29dfb5ec1a6e532b53d7d4019"
+    },
+    {
+      "path": "업무\\TS-P15\\03_사용자_흐름.md",
+      "bytes": 5133,
+      "sha256": "87f6598f28749e3b962efd071f14ebd3c63e2df8c71cb1672c1f289dc9050e80"
+    },
+    {
+      "path": "업무\\TS-P15\\03_사용자_흐름.html",
+      "bytes": 9438,
+      "sha256": "4bc582a619d6d24f94b34dd1caed2672acffc1c7624a5ba22ecc26d194daaf29"
+    },
+    {
+      "path": "업무\\TS-P15\\04_데이터_흐름.md",
+      "bytes": 4302,
+      "sha256": "8b0beb0d0215d2c0f2f01435165769ef4360b204717c45ad5600cf55a595cbbc"
+    },
+    {
+      "path": "업무\\TS-P15\\04_데이터_흐름.html",
+      "bytes": 8480,
+      "sha256": "38493eae141a1125351d25ec33071eb64f406e72a48724b128f59a241ca9bd93"
+    },
+    {
+      "path": "업무\\TS-P15\\05_요구사항_검수.md",
+      "bytes": 6835,
+      "sha256": "1a2ce4774987dfe651b739fbd3c16c9b3fc5695316ea0f9f32d109027bc5cc0c"
+    },
+    {
+      "path": "업무\\TS-P15\\05_요구사항_검수.html",
+      "bytes": 10827,
+      "sha256": "9aa4de1a9e7fc144baa740a1ed51eeb3a35653959d41bf63d2de8ba2b5656fa8"
+    },
+    {
+      "path": "업무\\TS-P15\\06_비용_산정.md",
+      "bytes": 4812,
+      "sha256": "ce6184bed747675bd00c0ed46afd3c1e6da108f8c3b79475cd55fea933b72c9f"
+    },
+    {
+      "path": "업무\\TS-P15\\06_비용_산정.html",
+      "bytes": 14200,
+      "sha256": "05143dadcbd74cf13f8de88026a1cd1c8b2bbf0eb06505d89ae4ec9bd58404d2"
+    },
+    {
+      "path": "업무\\TS-P15\\07_일정_운영.md",
+      "bytes": 4541,
+      "sha256": "dc54070c825d53ffd87d72dd3702d44565d0337c8e1e65361806626541005482"
+    },
+    {
+      "path": "업무\\TS-P15\\07_일정_운영.html",
+      "bytes": 7630,
+      "sha256": "527e0fbcec4d205d4b8084c81a01d7e824004ef867053734563d47bb636e3472"
+    },
+    {
+      "path": "업무\\TS-P16\\concept.svg",
+      "bytes": 6267,
+      "sha256": "def1c9d204e23e71de9bd869a112cc15bd4a2efc0a4012dbf86a2bbe73d0858d"
+    },
+    {
+      "path": "업무\\TS-P16\\architecture.svg",
+      "bytes": 7344,
+      "sha256": "422cd83c79c4bf5968b0a76e6971f89841da46790934e3ffcd210ac52f5840db"
+    },
+    {
+      "path": "업무\\TS-P16\\user.svg",
+      "bytes": 7216,
+      "sha256": "df66e595fa1754f4240b33717ed4adeb8b70740f1c43f25810383fc55f463979"
+    },
+    {
+      "path": "업무\\TS-P16\\data.svg",
+      "bytes": 6754,
+      "sha256": "685567d1bb88d30d1ddd4a02ce515a8005b50b78a4028a90c9e2be0e2612d3e0"
+    },
+    {
+      "path": "업무\\TS-P16\\01_서비스_컨셉.md",
+      "bytes": 4381,
+      "sha256": "de330464e0633497529ed779fb6ae4e03892564924c34aabf8ff4720031fccef"
+    },
+    {
+      "path": "업무\\TS-P16\\01_서비스_컨셉.html",
+      "bytes": 8379,
+      "sha256": "06b8b0ab5f4d34d560c863fade62f89df372f503069678383c37308ca6b7251e"
+    },
+    {
+      "path": "업무\\TS-P16\\02_전체_아키텍처.md",
+      "bytes": 5614,
+      "sha256": "ea9aba9d7852483b75626abfa4bf1712bd8c6259ceb8b38c0af9400a3bb5ba53"
+    },
+    {
+      "path": "업무\\TS-P16\\02_전체_아키텍처.html",
+      "bytes": 9701,
+      "sha256": "ba649bf960a146645210266c8fc3b6edd975b5379c6dd5362b4bb4f2451831bc"
+    },
+    {
+      "path": "업무\\TS-P16\\03_사용자_흐름.md",
+      "bytes": 5302,
+      "sha256": "983fe4501e6b73b184773831687e86572405b295630680618fe14b5d740bf200"
+    },
+    {
+      "path": "업무\\TS-P16\\03_사용자_흐름.html",
+      "bytes": 9625,
+      "sha256": "5b15bf8dfdae71ef2eebcb67bfd3cf529bd1f763170000fc4f00ccc0f61c5a22"
+    },
+    {
+      "path": "업무\\TS-P16\\04_데이터_흐름.md",
+      "bytes": 4491,
+      "sha256": "9457f647d4bde8d722b42009b9f1c32205b5426f09762b896397569bab3cf39c"
+    },
+    {
+      "path": "업무\\TS-P16\\04_데이터_흐름.html",
+      "bytes": 8687,
+      "sha256": "9b17f0ec83d5e826e8fb6f287518e82e303e833702b6f4ee53fd2d5f08acf1a6"
+    },
+    {
+      "path": "업무\\TS-P16\\05_요구사항_검수.md",
+      "bytes": 7105,
+      "sha256": "de8d5224902ad2ea6cbbf693efb30190ab928453aaa4f48e15b8f1be82ecb0c2"
+    },
+    {
+      "path": "업무\\TS-P16\\05_요구사항_검수.html",
+      "bytes": 11115,
+      "sha256": "c467bc0948d017398c7a5d037905257170096f7d47904b2f536d2320f2d691d5"
+    },
+    {
+      "path": "업무\\TS-P16\\06_비용_산정.md",
+      "bytes": 5009,
+      "sha256": "aaea408e97207eef4bf406f5e2fa19eae83b74c10f229eac1c2987ee3c63b6d9"
+    },
+    {
+      "path": "업무\\TS-P16\\06_비용_산정.html",
+      "bytes": 14415,
+      "sha256": "1ad5f4ed3abbb9e1651107dbb33eb38f91fa6d2df1b977207c1eaae06a010988"
+    },
+    {
+      "path": "업무\\TS-P16\\07_일정_운영.md",
+      "bytes": 4685,
+      "sha256": "31c0be7e39edb778f075830ef78b0849004a2e7ec3a7081882aa32c12a891984"
+    },
+    {
+      "path": "업무\\TS-P16\\07_일정_운영.html",
+      "bytes": 7792,
+      "sha256": "ae5141b29abd95873ae3257cd221ef1aab9675a01509c6f5d6adcd30082c5e1b"
+    },
+    {
+      "path": "업무\\TS-P17\\concept.svg",
+      "bytes": 6344,
+      "sha256": "1c0a478945271efcc60961489567ae993e4cc1db13cd8a83aa10509c2a35e95d"
+    },
+    {
+      "path": "업무\\TS-P17\\architecture.svg",
+      "bytes": 7378,
+      "sha256": "4c5df9622b33e58068b338374d5dc991afd992088c22ead47ff1d30b9e4adde4"
+    },
+    {
+      "path": "업무\\TS-P17\\user.svg",
+      "bytes": 7221,
+      "sha256": "c59a710b17023df0b5674ffbbc0f10ff600ca69b3dd193615b155a525c4fd74c"
+    },
+    {
+      "path": "업무\\TS-P17\\data.svg",
+      "bytes": 6759,
+      "sha256": "0b745f4558bb8c99fcb80d57e42a28363edc20bfcdf84c443ed3902ded803fbe"
+    },
+    {
+      "path": "업무\\TS-P17\\01_서비스_컨셉.md",
+      "bytes": 4210,
+      "sha256": "c1e010ea7826d3ca699bf40f83289466172fd9305ff3e3fe79b7e01987bec5df"
+    },
+    {
+      "path": "업무\\TS-P17\\01_서비스_컨셉.html",
+      "bytes": 8190,
+      "sha256": "207397c412bdfc719136ba2f1ef5c098a7b2e872fb96f2e3ba2dce015a1943fa"
+    },
+    {
+      "path": "업무\\TS-P17\\02_전체_아키텍처.md",
+      "bytes": 5374,
+      "sha256": "521770c6c1eaf8f57e2cc078dd1a4f69fbb4c8eddf7e0823f58d33b8a5331142"
+    },
+    {
+      "path": "업무\\TS-P17\\02_전체_아키텍처.html",
+      "bytes": 9443,
+      "sha256": "64cb836e10cfc6ecd63e47399ee67b1a77cd1fb30ef19ff58d7f2687e99c6f38"
+    },
+    {
+      "path": "업무\\TS-P17\\03_사용자_흐름.md",
+      "bytes": 5075,
+      "sha256": "ff9ebcb9c21631f1857e3d7fc89d93674620a85c7de596db1785e24ac0a0bee4"
+    },
+    {
+      "path": "업무\\TS-P17\\03_사용자_흐름.html",
+      "bytes": 9380,
+      "sha256": "c8d4648834181caebcc267830b22771a285a8694f60e701903768e4b4e65b2e8"
+    },
+    {
+      "path": "업무\\TS-P17\\04_데이터_흐름.md",
+      "bytes": 4323,
+      "sha256": "f7cd6ffbbedbb7901b760611b892b43b8319d6954988f9481ae63b82444e8caf"
+    },
+    {
+      "path": "업무\\TS-P17\\04_데이터_흐름.html",
+      "bytes": 8501,
+      "sha256": "4ca35c6afbd6e0d94e43003ad66bcb30c2ce002df4f10b5775b3e5f29916f856"
+    },
+    {
+      "path": "업무\\TS-P17\\05_요구사항_검수.md",
+      "bytes": 6869,
+      "sha256": "0013025f566c61ec13244d2472e8fd61553184c15f3173f6457b5267feab00ef"
+    },
+    {
+      "path": "업무\\TS-P17\\05_요구사항_검수.html",
+      "bytes": 10861,
+      "sha256": "9530867d7ddeb4944349e8a2a9ed9026d99b89ec1e54787f45d32baf4e1dfd7a"
+    },
+    {
+      "path": "업무\\TS-P17\\06_비용_산정.md",
+      "bytes": 4886,
+      "sha256": "433d4d7e517326013d58ad91ad2bfe7676858f5223d8aa160e9558850ffcd74a"
+    },
+    {
+      "path": "업무\\TS-P17\\06_비용_산정.html",
+      "bytes": 14274,
+      "sha256": "4c0fad836b3af3647b2f37506ea686e39a5e622bf6582441f72504f8f00781ae"
+    },
+    {
+      "path": "업무\\TS-P17\\07_일정_운영.md",
+      "bytes": 4550,
+      "sha256": "02d11cbecff5719bdc5882166551c1baa5f27f71a62fdf28b3ba0fdd1e16220d"
+    },
+    {
+      "path": "업무\\TS-P17\\07_일정_운영.html",
+      "bytes": 7639,
+      "sha256": "37d2a9624443b15d92465346b8b3222438f9f5ab6bc8578d18e76fab3e463c58"
+    },
+    {
+      "path": "업무\\TS-P18\\concept.svg",
+      "bytes": 6242,
+      "sha256": "a4e7e5b7f716e9ecbb26e25e389a1cb9cb9ee3988e22527793b061f98d68805b"
+    },
+    {
+      "path": "업무\\TS-P18\\architecture.svg",
+      "bytes": 7343,
+      "sha256": "bf1700a165089e7445def78b432f916508425d792fef4c2add5232918c63bfb4"
+    },
+    {
+      "path": "업무\\TS-P18\\user.svg",
+      "bytes": 7170,
+      "sha256": "34db6d2639654802f2dbeb5f2b4124e88d28cd8555d861a46f3db148c4382789"
+    },
+    {
+      "path": "업무\\TS-P18\\data.svg",
+      "bytes": 6750,
+      "sha256": "9d3003f5012fca94a86873f850bdc238f563058a5b976dcf7125309cbab8027d"
+    },
+    {
+      "path": "업무\\TS-P18\\01_서비스_컨셉.md",
+      "bytes": 4269,
+      "sha256": "ea57b4ce46ae2807d15a5c2a4e7f95098e4664ab6371650ddfca338981a7227a"
+    },
+    {
+      "path": "업무\\TS-P18\\01_서비스_컨셉.html",
+      "bytes": 8249,
+      "sha256": "68b73fa6b9314625a1a7e16daaedd64ea072950c21c8cfe20d54a49726cf51fd"
+    },
+    {
+      "path": "업무\\TS-P18\\02_전체_아키텍처.md",
+      "bytes": 5358,
+      "sha256": "31c13bea37825abfcaaaf91822b5e2f70c17a00b47fbccd564e4f41c047bbf1c"
+    },
+    {
+      "path": "업무\\TS-P18\\02_전체_아키텍처.html",
+      "bytes": 9427,
+      "sha256": "03791504846bc873e71cb40f9b384cce22f6ae7d9b89fc424cdc6370f0172284"
+    },
+    {
+      "path": "업무\\TS-P18\\03_사용자_흐름.md",
+      "bytes": 5180,
+      "sha256": "19132d8366f1f2d41739dfef43f1ce74700e6016c1240bc83072ffda80ddf078"
+    },
+    {
+      "path": "업무\\TS-P18\\03_사용자_흐름.html",
+      "bytes": 9485,
+      "sha256": "c918979aa8a17746d0d66cacecdfd98e251d209133a4c8b1061e6a7dc5d3442c"
+    },
+    {
+      "path": "업무\\TS-P18\\04_데이터_흐름.md",
+      "bytes": 4350,
+      "sha256": "588758dd51adc63045a75c726f118ef78fda8ec4c68ed1491ad7d900bd79b8cd"
+    },
+    {
+      "path": "업무\\TS-P18\\04_데이터_흐름.html",
+      "bytes": 8528,
+      "sha256": "17926728a832157b6097a7dda83757d17a95d336192b870d2c98013e575d6def"
+    },
+    {
+      "path": "업무\\TS-P18\\05_요구사항_검수.md",
+      "bytes": 6959,
+      "sha256": "ca4ff8c44bc1d2540a8dba15502b53db0f38840bbd72ebd6a32cefc091b2bc90"
+    },
+    {
+      "path": "업무\\TS-P18\\05_요구사항_검수.html",
+      "bytes": 10951,
+      "sha256": "e6f31c6ade511fc8006903b20a21223265003d89c32bc67ddd3621bfa4d48e7f"
+    },
+    {
+      "path": "업무\\TS-P18\\06_비용_산정.md",
+      "bytes": 4915,
+      "sha256": "7da52bc7151b317070aabaad2118af276ca3c35ef8267483857c411e8b8ef4f0"
+    },
+    {
+      "path": "업무\\TS-P18\\06_비용_산정.html",
+      "bytes": 14303,
+      "sha256": "791527c1d392df191d0afb9c3eed85fab9722adf74ca8ffc99baea8a893a762b"
+    },
+    {
+      "path": "업무\\TS-P18\\07_일정_운영.md",
+      "bytes": 4621,
+      "sha256": "1b8e561801ee648cdef8d26a40c39f357d7bd392901ae414d54dee1321e7a876"
+    },
+    {
+      "path": "업무\\TS-P18\\07_일정_운영.html",
+      "bytes": 7710,
+      "sha256": "506a1161f810cb918c88b7d3a1adc804c59d63d5e7f6d33549cba338534d9d86"
+    },
+    {
+      "path": "업무\\TS-P19\\concept.svg",
+      "bytes": 6305,
+      "sha256": "f23b56b78c127f75ea10d3234570ce165521939264ea66e384b8703e484132de"
+    },
+    {
+      "path": "업무\\TS-P19\\architecture.svg",
+      "bytes": 7361,
+      "sha256": "4ba00f83e60ca64ac73660d4c59b935c3d5e203799204281bb29de7846cd7f4b"
+    },
+    {
+      "path": "업무\\TS-P19\\user.svg",
+      "bytes": 7188,
+      "sha256": "437e6a0fd8df46fdb784883efb8d62c63161cbd2d276233444eff7f90b94c200"
+    },
+    {
+      "path": "업무\\TS-P19\\data.svg",
+      "bytes": 6764,
+      "sha256": "e6217a3f6b13883cf2bf60950c755c8911b6c23da4cb7539fe2325ef5b67fa4d"
+    },
+    {
+      "path": "업무\\TS-P19\\01_서비스_컨셉.md",
+      "bytes": 4857,
+      "sha256": "f3fd55ac9ad18825b89f7a277aec1e81e5492ceddc4959e76210fb1df21ebbb6"
+    },
+    {
+      "path": "업무\\TS-P19\\01_서비스_컨셉.html",
+      "bytes": 8855,
+      "sha256": "4ff6ab94f1ee3c75a19894829996960229d04727ccfdfa08452c7038b305f3ea"
+    },
+    {
+      "path": "업무\\TS-P19\\02_전체_아키텍처.md",
+      "bytes": 6091,
+      "sha256": "0dfa43a66ce42f4379b480db5dc687c341d550b361aa2c2dcd7759751377728b"
+    },
+    {
+      "path": "업무\\TS-P19\\02_전체_아키텍처.html",
+      "bytes": 10178,
+      "sha256": "e193907989b1d69d26ae9cec876a3a6ab232acc50814944dbbcd5388a686404e"
+    },
+    {
+      "path": "업무\\TS-P19\\03_사용자_흐름.md",
+      "bytes": 5750,
+      "sha256": "720b10796735eba0e1b841fbfcb0a38f6dddfbc83b5bf4f182dbc2a3e8d832f5"
+    },
+    {
+      "path": "업무\\TS-P19\\03_사용자_흐름.html",
+      "bytes": 10073,
+      "sha256": "9dce25df047b27599f16b97a2d685c47edee8f1eadef0dbf2119888c850aeaab"
+    },
+    {
+      "path": "업무\\TS-P19\\04_데이터_흐름.md",
+      "bytes": 4959,
+      "sha256": "0b428b46e13e42b0b4faf8c5724b7a3c3ae9203aaf3905af43d27773a9867df1"
+    },
+    {
+      "path": "업무\\TS-P19\\04_데이터_흐름.html",
+      "bytes": 9155,
+      "sha256": "430218b2a1f2917de1c731754ea19ad538a2d615610372b5666b619c1593bbdb"
+    },
+    {
+      "path": "업무\\TS-P19\\05_요구사항_검수.md",
+      "bytes": 7595,
+      "sha256": "ceb350265046e050c3076643904701e20151fbda590f7c688f80af4aa172a549"
+    },
+    {
+      "path": "업무\\TS-P19\\05_요구사항_검수.html",
+      "bytes": 11605,
+      "sha256": "53469677097ca2e172325d165ac7c895004eee8f711526b54aa336724a4fa737"
+    },
+    {
+      "path": "업무\\TS-P19\\06_비용_산정.md",
+      "bytes": 5443,
+      "sha256": "0e1073bab3f6347ed81d021e40e094e2ac35fec3504a74381353a803bf0e6370"
+    },
+    {
+      "path": "업무\\TS-P19\\06_비용_산정.html",
+      "bytes": 14849,
+      "sha256": "ea93680b21eb4c2ff877624f3b25884e64946fd343326ef382168ba8f0e9da0f"
+    },
+    {
+      "path": "업무\\TS-P19\\07_일정_운영.md",
+      "bytes": 5148,
+      "sha256": "c103394a1f158c818c54956197525aae734fca6e2812ecdc49600ee5b327b6e3"
+    },
+    {
+      "path": "업무\\TS-P19\\07_일정_운영.html",
+      "bytes": 8255,
+      "sha256": "f3281aab25c3d51d9bfcff713bcf9ebbc254e499b2daad4812ef16c8d6126a93"
+    },
+    {
+      "path": "업무\\TS-P20\\concept.svg",
+      "bytes": 6265,
+      "sha256": "64c6c3eb43f29e1a180f718ed626ea5ec048167ece066fd7ae2a3fe946c35847"
+    },
+    {
+      "path": "업무\\TS-P20\\architecture.svg",
+      "bytes": 7366,
+      "sha256": "a2ac7b0afa65ad2ef8f9bac02f1b6fcb1361ef983ad9014cd00fdf532d77a009"
+    },
+    {
+      "path": "업무\\TS-P20\\user.svg",
+      "bytes": 7178,
+      "sha256": "ccd130ef0ab832d48c02cf6cc6285ae461a13c7acbc8c05e5e321de503a97e36"
+    },
+    {
+      "path": "업무\\TS-P20\\data.svg",
+      "bytes": 6759,
+      "sha256": "e8dfb0947a633aa0c983b1aa4f112eeaa66f386d093b5cc08c05cca09a91ead5"
+    },
+    {
+      "path": "업무\\TS-P20\\01_서비스_컨셉.md",
+      "bytes": 4331,
+      "sha256": "fa590a732a9c370b1595d589252bfa696224f9ef5433e208b0dbbc2a49f905e1"
+    },
+    {
+      "path": "업무\\TS-P20\\01_서비스_컨셉.html",
+      "bytes": 8311,
+      "sha256": "05df41b9b78ae4c9d675a92c31e6349e1dc70e284030a0fa56a6c4c908845a5f"
+    },
+    {
+      "path": "업무\\TS-P20\\02_전체_아키텍처.md",
+      "bytes": 5377,
+      "sha256": "375d1676f410e8b72aeea13b630f3c6d4a0cd6a0be5ef24c2f38928b9385f206"
+    },
+    {
+      "path": "업무\\TS-P20\\02_전체_아키텍처.html",
+      "bytes": 9446,
+      "sha256": "095b4be4dfd5ab06de13cd95a74f00ace78660436651c6ef64e09c342155a208"
+    },
+    {
+      "path": "업무\\TS-P20\\03_사용자_흐름.md",
+      "bytes": 5117,
+      "sha256": "118c04ecc3c594a750e8da9e60cc3be9a313f2378702f39820324c389cb8d5f9"
+    },
+    {
+      "path": "업무\\TS-P20\\03_사용자_흐름.html",
+      "bytes": 9422,
+      "sha256": "e85fd33cbad293649d9f9d6923fd78fc5f1956d876c29e728ebeceae69b9e4a0"
+    },
+    {
+      "path": "업무\\TS-P20\\04_데이터_흐름.md",
+      "bytes": 4325,
+      "sha256": "228fcc727efde2bd6dee2d4b2cd07a3327b9dc49acdeebc29df933aeca5eab17"
+    },
+    {
+      "path": "업무\\TS-P20\\04_데이터_흐름.html",
+      "bytes": 8503,
+      "sha256": "7d23e154656d6d7c666b41a8d2dbb4851042ef69ec074d7d2418ad9a99db2a1f"
+    },
+    {
+      "path": "업무\\TS-P20\\05_요구사항_검수.md",
+      "bytes": 6992,
+      "sha256": "be455511a6182f3e1ef1d9e126316433521c882b72a4534db196dd551433c69a"
+    },
+    {
+      "path": "업무\\TS-P20\\05_요구사항_검수.html",
+      "bytes": 10984,
+      "sha256": "66dcebe8f1a9d42fae3c929b6cedbdfde50178dee0ce4e97ec24c3eaf64f7087"
+    },
+    {
+      "path": "업무\\TS-P20\\06_비용_산정.md",
+      "bytes": 4867,
+      "sha256": "c1ad979a767fdafce140075438bbb5cd983b241664c03df16d1ba8ef7b006091"
+    },
+    {
+      "path": "업무\\TS-P20\\06_비용_산정.html",
+      "bytes": 14255,
+      "sha256": "c85f411e00715f50d0c2090fc15755bdad550d9793ca411037606ab7a105bd59"
+    },
+    {
+      "path": "업무\\TS-P20\\07_일정_운영.md",
+      "bytes": 4563,
+      "sha256": "05a44739ce1c1e4f756a349bc6d75c38dc02de4e744fdf03e36ae0b930347953"
+    },
+    {
+      "path": "업무\\TS-P20\\07_일정_운영.html",
+      "bytes": 7652,
+      "sha256": "e9a19a71316ac858cb56a2ddb66b0af553842ece8a3ae4f5f21f3141b865b153"
+    },
+    {
+      "path": "업무\\TS-P21\\concept.svg",
+      "bytes": 6268,
+      "sha256": "c5fd6d3e22eebcce504e11e9d171e3d22ab066df9b318d2735893fc3762a5b6e"
+    },
+    {
+      "path": "업무\\TS-P21\\architecture.svg",
+      "bytes": 7352,
+      "sha256": "19734354714fcc6cc3d8fa52e7ad3cfaef5f07543c8ffd5e4c316fd875374048"
+    },
+    {
+      "path": "업무\\TS-P21\\user.svg",
+      "bytes": 7170,
+      "sha256": "cdfb9139efc201e20cb24687e8ab692dbb79e69339cfc47903ed2d86b144792e"
+    },
+    {
+      "path": "업무\\TS-P21\\data.svg",
+      "bytes": 6749,
+      "sha256": "657397b3e93d8d20f54236599a0ce0f82d9fe9ba1d66891c2cc97155ad92879b"
+    },
+    {
+      "path": "업무\\TS-P21\\01_서비스_컨셉.md",
+      "bytes": 4506,
+      "sha256": "a3606fb15ba826c3a1f3020970531476354f36185118156b940e5bf3987c1ac9"
+    },
+    {
+      "path": "업무\\TS-P21\\01_서비스_컨셉.html",
+      "bytes": 8504,
+      "sha256": "568da1fc3a4c5047c721a12093256504902f393c956c0b05d03d44c60b7fc426"
+    },
+    {
+      "path": "업무\\TS-P21\\02_전체_아키텍처.md",
+      "bytes": 5555,
+      "sha256": "3a7a39164e90123c3f4a434aef574b2923d5b56a6dfe5037908496bea3bd195c"
+    },
+    {
+      "path": "업무\\TS-P21\\02_전체_아키텍처.html",
+      "bytes": 9642,
+      "sha256": "fd0cb4e02895f1d3cf2b70070cbf805107ebf87d22db03dd258727e3da93ffb7"
+    },
+    {
+      "path": "업무\\TS-P21\\03_사용자_흐름.md",
+      "bytes": 5300,
+      "sha256": "d6354c1385212f029e66569c07168a1e1ff1890877554998ffab9047b4c9cac3"
+    },
+    {
+      "path": "업무\\TS-P21\\03_사용자_흐름.html",
+      "bytes": 9623,
+      "sha256": "61fb159609f9f7a2cb81c393cf8b455c7a7814d701e77050bc33e7e78f1255c8"
+    },
+    {
+      "path": "업무\\TS-P21\\04_데이터_흐름.md",
+      "bytes": 4481,
+      "sha256": "50f1f47a212e1947b55b3e3e79291bc031a79d733d2e6617d38e75700ba5db8e"
+    },
+    {
+      "path": "업무\\TS-P21\\04_데이터_흐름.html",
+      "bytes": 8677,
+      "sha256": "a2a79e42e375f7e7c5a7923ff4bd2e3393d0f7f6f1cfe1738a9c3fef97a6b1a9"
+    },
+    {
+      "path": "업무\\TS-P21\\05_요구사항_검수.md",
+      "bytes": 7086,
+      "sha256": "6498e2a58ed19c869a66917eea5ca6a32a36a763855099cd1b628db941bab40b"
+    },
+    {
+      "path": "업무\\TS-P21\\05_요구사항_검수.html",
+      "bytes": 11096,
+      "sha256": "49234e22773b5340bea15fb7604d88289730e88a118873eff6a206f0ff21ee39"
+    },
+    {
+      "path": "업무\\TS-P21\\06_비용_산정.md",
+      "bytes": 5014,
+      "sha256": "007b282e1ea939e46687b0b19e8ad06c4498a6805c47e613c63da7064842c45d"
+    },
+    {
+      "path": "업무\\TS-P21\\06_비용_산정.html",
+      "bytes": 14420,
+      "sha256": "80bec2d8cbc2c2a3e76f4c4375a3f2d0dc5def91ae329685778acb977babd3a6"
+    },
+    {
+      "path": "업무\\TS-P21\\07_일정_운영.md",
+      "bytes": 4757,
+      "sha256": "ebb60007065b5a06578feecb6a3b96a19ffb1cf6199767e8218609b4202fe2e9"
+    },
+    {
+      "path": "업무\\TS-P21\\07_일정_운영.html",
+      "bytes": 7864,
+      "sha256": "d0e6233cda0a97533c4e49dfcdf846fd8b7b2383337af27e958a60ad42203cb4"
+    },
+    {
+      "path": "업무\\TS-P22\\concept.svg",
+      "bytes": 6284,
+      "sha256": "407a50b59b8211d80a32ce9bcc5a4a1d6a52562dfdfd19ea5e0fcefb899dd1d5"
+    },
+    {
+      "path": "업무\\TS-P22\\architecture.svg",
+      "bytes": 7363,
+      "sha256": "bceb82062060bed013eab66013a513ea06dbefcf14abe25f8ee81adff56fd4de"
+    },
+    {
+      "path": "업무\\TS-P22\\user.svg",
+      "bytes": 7213,
+      "sha256": "8986e3e1a0f69cda3095d86d63551f124389c4b5d74cca95c4cf4597a0cfc98d"
+    },
+    {
+      "path": "업무\\TS-P22\\data.svg",
+      "bytes": 6767,
+      "sha256": "89a57686c69d6ef38de986e7a628f53a24616926c5b48b159bc7eedd94fb206e"
+    },
+    {
+      "path": "업무\\TS-P22\\01_서비스_컨셉.md",
+      "bytes": 4601,
+      "sha256": "215ca88669bcf9b6b813169ba2fca73106ea073a4ad438ce6722208914fcfe0f"
+    },
+    {
+      "path": "업무\\TS-P22\\01_서비스_컨셉.html",
+      "bytes": 8599,
+      "sha256": "cb815dc750cb6574aa54393abd35aaf4d0cda47a466d4256a6a06864f001228a"
+    },
+    {
+      "path": "업무\\TS-P22\\02_전체_아키텍처.md",
+      "bytes": 5599,
+      "sha256": "0082c64a3e7d5c5f19a4adbfa1f8b71a08e33027f427c4bbfddc8dc2202d802d"
+    },
+    {
+      "path": "업무\\TS-P22\\02_전체_아키텍처.html",
+      "bytes": 9686,
+      "sha256": "8d58756ca970330a857b7c5356338e71b2d58e1d555a030b625931d3e4942c97"
+    },
+    {
+      "path": "업무\\TS-P22\\03_사용자_흐름.md",
+      "bytes": 5397,
+      "sha256": "2ffcf764a8b40ed07cfe084e64602d31ff738fffbdce605898bccedd9543af78"
+    },
+    {
+      "path": "업무\\TS-P22\\03_사용자_흐름.html",
+      "bytes": 9720,
+      "sha256": "ff9bff02de1f6f51c5a4f48553d6727b65a7e5bcfa6418c157d9bb4b4ec7d2e7"
+    },
+    {
+      "path": "업무\\TS-P22\\04_데이터_흐름.md",
+      "bytes": 4632,
+      "sha256": "2615861649bfa5b211b3d4033efd6a4ff381c9ba7e8b981f038ae1e238c03d0d"
+    },
+    {
+      "path": "업무\\TS-P22\\04_데이터_흐름.html",
+      "bytes": 8828,
+      "sha256": "8340be8bfc69f365f9d705bec9c8128a9b6c22965503b8c34d45b7e73b299687"
+    },
+    {
+      "path": "업무\\TS-P22\\05_요구사항_검수.md",
+      "bytes": 7233,
+      "sha256": "1743dac0c99045cbc067acab55df20aea8374f26cdcd023047f9d94a2cc24ca5"
+    },
+    {
+      "path": "업무\\TS-P22\\05_요구사항_검수.html",
+      "bytes": 11243,
+      "sha256": "3dbd9be97ada5113dfb8baad137d6bb3390c43cff4ee62e6378fa90c54c25061"
+    },
+    {
+      "path": "업무\\TS-P22\\06_비용_산정.md",
+      "bytes": 5136,
+      "sha256": "b7cd8c8fe9823320a9c245471c4ea7352f071b1eaa01b6260d05162b3664f9c4"
+    },
+    {
+      "path": "업무\\TS-P22\\06_비용_산정.html",
+      "bytes": 14542,
+      "sha256": "269943d0e27f9e9629b62a4a9c00460b68ef8b7c791bba78ed2dcb13ed4eacd2"
+    },
+    {
+      "path": "업무\\TS-P22\\07_일정_운영.md",
+      "bytes": 4864,
+      "sha256": "c74944b119bdcbc6ab46f8c09e0974e02616e64ebafc3e768fd4eaa0ff096a2a"
+    },
+    {
+      "path": "업무\\TS-P22\\07_일정_운영.html",
+      "bytes": 7971,
+      "sha256": "c0c988b2729dd2b590e46e3d95c4b3acc77b21c8f60cd34653f90356683534b7"
+    },
+    {
+      "path": "추가후보\\TS-P23\\concept.svg",
+      "bytes": 6402,
+      "sha256": "0c7a11e21a6e96e49e3c1aa1f1aa2b38c795a47ff109227e6f585fd5c11c1972"
+    },
+    {
+      "path": "추가후보\\TS-P23\\architecture.svg",
+      "bytes": 7418,
+      "sha256": "9efc3fcb986b57db619855ae90babc463ea70cbcbf2787b75171d1e74978d027"
+    },
+    {
+      "path": "추가후보\\TS-P23\\user.svg",
+      "bytes": 7315,
+      "sha256": "84c22559f9033a4cb02e7ee22dca8f1eb782d2a87143030c3fc169aed518de96"
+    },
+    {
+      "path": "추가후보\\TS-P23\\data.svg",
+      "bytes": 6846,
+      "sha256": "c16ad230a60701fa881a10dde35280b0cdc664f24ee63dd4ab43a8c5ea367db5"
+    },
+    {
+      "path": "추가후보\\TS-P23\\01_서비스_컨셉.md",
+      "bytes": 8112,
+      "sha256": "0e2c3a6e5942339d3e838d67e426e7f5b8af0daf6ce826dfc8a3ef5d7bb8b44c"
+    },
+    {
+      "path": "추가후보\\TS-P23\\01_서비스_컨셉.html",
+      "bytes": 12782,
+      "sha256": "e5cbfa70b96901e47b6463b1fc3a9fb864b14af9eb04c112f136620632739c0a"
+    },
+    {
+      "path": "추가후보\\TS-P23\\02_전체_아키텍처.md",
+      "bytes": 6514,
+      "sha256": "97a85a1ae6d9dd262ab40a7bf02774680ae2831042981a4af88774ca081c6afa"
+    },
+    {
+      "path": "추가후보\\TS-P23\\02_전체_아키텍처.html",
+      "bytes": 10583,
+      "sha256": "1078c3a46ec2f376a62a300ff2f4dbaa4c49493a7a74a8dffd9a908f1dcfade3"
+    },
+    {
+      "path": "추가후보\\TS-P23\\03_사용자_흐름.md",
+      "bytes": 5739,
+      "sha256": "0250f7cd64e5c838fbced777bdf568f483e582b3d8ddf6346ea4d8a06c9a78f4"
+    },
+    {
+      "path": "추가후보\\TS-P23\\03_사용자_흐름.html",
+      "bytes": 10036,
+      "sha256": "406865ee009837f48ec9868cfe62270ab0c28ba7b8e118fe77c2c64fc593d05b"
+    },
+    {
+      "path": "추가후보\\TS-P23\\04_데이터_흐름.md",
+      "bytes": 5141,
+      "sha256": "aab3006b068781ebee9d8c7e5e0cf2f6427cbd74d70e2a9825d6cb3a4810df64"
+    },
+    {
+      "path": "추가후보\\TS-P23\\04_데이터_흐름.html",
+      "bytes": 9319,
+      "sha256": "aec56b63739831e88951f67381746eb04dc9d50926b81cff08470cb3fc162c3b"
+    },
+    {
+      "path": "추가후보\\TS-P23\\05_요구사항_검수.md",
+      "bytes": 7808,
+      "sha256": "204bb293ba35c10d45a1fa2c64aa63760f4554c02e006888f500b836f5a64705"
+    },
+    {
+      "path": "추가후보\\TS-P23\\05_요구사항_검수.html",
+      "bytes": 11792,
+      "sha256": "b9f7695bf3a7c7ed08c8a26ad4e2b03ef3abd5d86e2f043bce96e40fe4666ad5"
+    },
+    {
+      "path": "추가후보\\TS-P23\\06_비용_산정.md",
+      "bytes": 5950,
+      "sha256": "6994aa996a3d7cfcbca1dc17f7bbb73015468871cf774ac16e68dfadc2b1ea52"
+    },
+    {
+      "path": "추가후보\\TS-P23\\06_비용_산정.html",
+      "bytes": 15517,
+      "sha256": "601a317e5fd534f8b974d31aa6eda444a4ef199d04f10a37fc5b4b5f3abcde5a"
+    },
+    {
+      "path": "추가후보\\TS-P23\\07_일정_운영.md",
+      "bytes": 5403,
+      "sha256": "1ab3ff96277666ed81066b1e97f213a8d5fe0ddc355dcd460546fb1cb2ab7fcd"
+    },
+    {
+      "path": "추가후보\\TS-P23\\07_일정_운영.html",
+      "bytes": 8492,
+      "sha256": "39e4c7d650651cf1407aa4d2705db9f2925a6d769d9a7d02fa5a771c4036c124"
+    },
+    {
+      "path": "자산\\report.css",
+      "bytes": 4428,
+      "sha256": "58b47d5c4d6a8e1d75c914b0a89030910e88a8e137d40dd1cfb0b7d8e53bc635"
+    },
+    {
+      "path": "자산\\cost.js",
+      "bytes": 3488,
+      "sha256": "f79a7324818081ed0b8a2459f5e7e0bdab3c4b69524a2f80d02d3fc90eff3b50"
+    },
+    {
+      "path": "자산\\calculator.js",
+      "bytes": 4368,
+      "sha256": "fb8c73f420cb27d2aa84a3ce5ce24b2fca5531f6a64f3cfb861d700472fbb9a4"
+    },
+    {
+      "path": "자산\\common-architecture.svg",
+      "bytes": 7382,
+      "sha256": "d30508e078f729ac7cbba0125835f0ae2e8d318e83c6bcf0d25110d0e6c5b6be"
+    },
+    {
+      "path": "04_설계_산정원장.json",
+      "bytes": 261502,
+      "sha256": "e940be363af84946ce98f8d0a3f8bf734522f40d0ea6c1631edbf3a703084d51"
+    },
+    {
+      "path": "05_도식_연결원장.json",
+      "bytes": 327213,
+      "sha256": "6e03850a36e1254501978abca98836bab5e5c0835dbe7fce43e05a209a071c4d"
+    },
+    {
+      "path": "00_상세설계_통합보기.md",
+      "bytes": 12987,
+      "sha256": "f9a4e8bebce5761ec42644d325ae9d12c5d526424ffde3da612e5f2c97d1134d"
+    },
+    {
+      "path": "00_상세설계_통합보기.html",
+      "bytes": 28678,
+      "sha256": "ba3c41b52ad874117a7d0758edfdcd98a5c919a1b83a6f2821e16465d95db706"
+    },
+    {
+      "path": "03_산정기준_근거.md",
+      "bytes": 5180,
+      "sha256": "314aed198888c674ad66553121be7a098cab1defca14ca0425a3220616da508d"
+    },
+    {
+      "path": "03_산정기준_근거.html",
+      "bytes": 7845,
+      "sha256": "e489418dc2a1fe54c38a41ccbeee3b68b5814c38c3520f66821cb3428e11820e"
+    },
+    {
+      "path": "02_통합_비용산정.md",
+      "bytes": 877,
+      "sha256": "fb0666a860c32c2bdbe92768dc989240b4d7b3ac90e5ef709d691fba4884b226"
+    },
+    {
+      "path": "02_통합_비용산정.html",
+      "bytes": 17448,
+      "sha256": "bdaa15b204ea4e6739511bbcc2f209c8f646689496052fc07d49498d9cec7a97"
+    },
+    {
+      "path": "01_공통_아키텍처.md",
+      "bytes": 3375,
+      "sha256": "4310c49478789ffbc3e191523ec18d99d249cdf069923547d35a97611bfa9c73"
+    },
+    {
+      "path": "01_공통_아키텍처.html",
+      "bytes": 6519,
+      "sha256": "ece4755a59ee4bab61047a7aaa9e8666bc95750757c0c2935128a48189165c4d"
+    },
+    {
+      "path": "근거\\출처원장.json",
+      "bytes": 31637,
+      "sha256": "126889816ea232b68da72f4e4c0096d9d1a44e956182568c6b7218dd86f58d51"
+    },
+    {
+      "path": "06_요구사항_시험추적.json",
+      "bytes": 81349,
+      "sha256": "2c55f008e53b7853d40193e2e17c4f274375ecf8d33fe10cf09583fc063cec1a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1716,
+      "sha256": "4a0fcf06460e48a14cde6fdfc1fd277070d5a8ac4af977136f71e4870b704d28"
+    },
+    {
+      "path": "검증기록.md",
+      "bytes": 3730,
+      "sha256": "8082e45f378805eb9a685e0561155bb22d4e915f4f3690eb711f79a9f260a2a8"
+    },
+    {
+      "path": "작성자료\\ts_pages_build.cjs",
+      "bytes": 30781,
+      "sha256": "4dad8a74ed6c053af666727c368160e0f347964ca0c33d5c9a3e82554d5b0f70"
+    },
+    {
+      "path": "작성자료\\ts_pages_content.cjs",
+      "bytes": 19743,
+      "sha256": "3cae9529b413a2d6e46e6675fac56d42b103473b3a37a6f2127c3073ab92ed78"
+    },
+    {
+      "path": "작성자료\\ts_pages_profiles.cjs",
+      "bytes": 7722,
+      "sha256": "cad983a5573b7dd16aca99de342232eb46ad6a3f2b21ed3092baa406c558f894"
+    },
+    {
+      "path": "작성자료\\ts_pages_p23.cjs",
+      "bytes": 8419,
+      "sha256": "91e3fd510cb87e2fffe0d9295b231ede6c6817525474a997bbea14ffe7bb86cc"
+    },
+    {
+      "path": "작성자료\\ts_pages_diagrams.cjs",
+      "bytes": 10067,
+      "sha256": "1b09e5d1896ef3b6a24866e1595a773fbbcbf1f2e58b7d2f22236569458bb689"
+    },
+    {
+      "path": "작성자료\\ts_pages_cost.js",
+      "bytes": 3488,
+      "sha256": "f79a7324818081ed0b8a2459f5e7e0bdab3c4b69524a2f80d02d3fc90eff3b50"
+    },
+    {
+      "path": "작성자료\\ts_pages_client.js",
+      "bytes": 4368,
+      "sha256": "fb8c73f420cb27d2aa84a3ce5ce24b2fca5531f6a64f3cfb861d700472fbb9a4"
+    },
+    {
+      "path": "작성자료\\ts_pages_qa.cjs",
+      "bytes": 9025,
+      "sha256": "6f7e68a3fa944ac87c1b3df3220a375144767c3794dd7204d28f5ad95b879991"
+    },
+    {
+      "path": "작성자료\\ts_pages_visual_qa.cjs",
+      "bytes": 2673,
+      "sha256": "c72ad1a6a6d13deabf7b6a9a35103d9d06ba85dbc33649102111f1771d3714e2"
+    },
+    {
+      "path": "작성자료\\ts_pages_polish.cjs",
+      "bytes": 4467,
+      "sha256": "84c4e51737676a476635e62b326375f7fd571ffb0f1e8627f51509361157ab4c"
+    },
+    {
+      "path": "작성자료\\ts_pages_fix.cjs",
+      "bytes": 1117,
+      "sha256": "e4f1c24b9d840cb2209d9c732635116a0efc9bc172f16a21f1c164a7dba85030"
+    },
+    {
+      "path": "작성자료\\ts_pages_finish.cjs",
+      "bytes": 8927,
+      "sha256": "5a839a4d89721c426795b70bdea59089606c372660cfe9d263aafb136b9446b3"
+    },
+    {
+      "path": "작성자료\\ts_pages_audit_finalize.cjs",
+      "bytes": 1427,
+      "sha256": "49ead64927b3f53e3387d22be3670526dd99b94f1d6f4e9203763cee3aac6506"
+    },
+    {
+      "path": "검증\\자동검증_결과.json",
+      "bytes": 28471,
+      "sha256": "7752e2250b01b8445cef0df9daacd5c38abdd6690e71b4b8b5d3b58c384b0ebe"
+    },
+    {
+      "path": "검증\\도식_경계_키보드_결과.json",
+      "bytes": 227,
+      "sha256": "44a4fc71359922e726044e14ee3fa03947a52b2ae914984a8e6a7dcd7d4ea482"
+    },
+    {
+      "path": "검증\\index.png",
+      "bytes": 79283,
+      "sha256": "06f989ac404c9f8493bfcc92be9165871e74776d978ba776867561abed624a83"
+    },
+    {
+      "path": "검증\\p06-architecture.png",
+      "bytes": 87562,
+      "sha256": "e3314caaafdffd922cbca10d7dc84d415d9510696bb757bf0e2b5ede944a809a"
+    },
+    {
+      "path": "검증\\p10-concept.png",
+      "bytes": 77733,
+      "sha256": "bf8a7d69a90725e7a0c4bdf9f7456119b2eb5716a9886b219cdd0b66abe8d584"
+    },
+    {
+      "path": "검증\\p17-user.png",
+      "bytes": 92453,
+      "sha256": "cce029e02a471b67fa0347635e2671b73bbac4eff31cc01f82621eaed331ef43"
+    },
+    {
+      "path": "검증\\p23-concept.png",
+      "bytes": 80724,
+      "sha256": "ae82a19915fcd6f9e25c19d6860db9ea6d6da25a84b4cb31d6536b86c70b5cb9"
+    },
+    {
+      "path": "검증\\p23-cost-mobile.png",
+      "bytes": 41283,
+      "sha256": "b33c446370adfe5c0937ca70e6c1cde34258a067a543652c887a96ef27a09f82"
+    },
+    {
+      "path": "검증\\p23-cost-results-mobile.png",
+      "bytes": 22969,
+      "sha256": "0f47511a51e4b652e9daceb73744b977e86411012d738061ac2da13c65bbe44c"
+    },
+    {
+      "path": "검증\\p23-cost-results.png",
+      "bytes": 22229,
+      "sha256": "72356a968366f715968190a83920db354a38af501cb4c8792cdd777bd6350388"
+    },
+    {
+      "path": "검증\\p23-data.png",
+      "bytes": 85222,
+      "sha256": "bd1102b3ca87e93f3ffce32bba14b658465cf198bae398476b1b992869c1e38e"
+    },
+    {
+      "path": "검증\\최신_안내_연결검증.json",
+      "bytes": 1276,
+      "sha256": "edefd98f9f449b44ab29517a47196d06d12d38fb16dbb8d183f9e2d0dc25c0f4"
+    },
+    {
+      "path": "기준_변경전\\README.md",
+      "bytes": 22933,
+      "sha256": "38fcf3b38e63d4d9abc9855e2c5461a8bff47b27095a208e1405d1ad8ab81d52"
+    },
+    {
+      "path": "기준_변경전\\05_통합사업기획\\TS_22개업무_고도화보고서_2026-09-15\\00_고도화보고서_통합보기.html",
+      "bytes": 41496,
+      "sha256": "1b48badfc1b178f947b5780249f945a885206df7bb31bb782f1ec295c6b12872"
+    },
+    {
+      "path": "기준_변경전\\05_통합사업기획\\TS_22개업무_고도화보고서_2026-09-15\\00_고도화보고서_통합보기.md",
+      "bytes": 31664,
+      "sha256": "ee7555f769a5455cf542b287a751cedb3f937d17ad75b4cd2e1f4ec487008173"
+    }
+  ],
+  "delete_count": 0,
+  "operational_deployment": false
+}

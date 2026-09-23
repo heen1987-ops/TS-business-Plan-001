@@ -1,0 +1,68 @@
+{
+  "checked_at": "2026-09-14",
+  "checks": [
+    {
+      "name": "22개 업무 행",
+      "pass": true
+    },
+    {
+      "name": "7개 분야 필터",
+      "pass": true
+    },
+    {
+      "name": "언어·제목",
+      "pass": true
+    },
+    {
+      "name": "키보드 본문 바로가기",
+      "pass": true
+    },
+    {
+      "name": "본문 포커스",
+      "pass": true
+    },
+    {
+      "name": "철도 3개 필터",
+      "pass": true
+    },
+    {
+      "name": "분야·검색 조합",
+      "pass": true
+    },
+    {
+      "name": "빈 결과 안내",
+      "pass": true
+    },
+    {
+      "name": "초기화 복구",
+      "pass": true
+    },
+    {
+      "name": "리스트 로컬 링크",
+      "pass": true
+    },
+    {
+      "name": "외부 스크립트 없음",
+      "pass": true
+    },
+    {
+      "name": "768 본문 가로 넘침 없음",
+      "pass": true
+    },
+    {
+      "name": "390 본문 가로 넘침 없음",
+      "pass": true
+    },
+    {
+      "name": "심층보고서 가설 장 실제 스크롤 도착",
+      "pass": true
+    },
+    {
+      "name": "자바스크립트 오류 없음",
+      "pass": true
+    }
+  ],
+  "passed": 15,
+  "failed": 0,
+  "scope": "리스트 및 기존 보고서의 실제 목차 도착 검증. 제품 시험 아님."
+}

@@ -1,0 +1,226 @@
+[
+  {
+    "id": "KC01",
+    "parent": "KB07",
+    "group": "교통안전사업",
+    "title": "검사안내",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03010302.do",
+    "level": "내부 하위 탭"
+  },
+  {
+    "id": "KC02",
+    "parent": "KB08",
+    "group": "교통안전사업",
+    "title": "공인시험기관 안내",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03010602.do",
+    "level": "내부 하위 탭"
+  },
+  {
+    "id": "KC03",
+    "parent": "KB08",
+    "group": "교통안전사업",
+    "title": "공인교정기관 안내",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03010603.do",
+    "level": "내부 하위 탭"
+  },
+  {
+    "id": "KC04",
+    "parent": "KB08",
+    "group": "교통안전사업",
+    "title": "공인시험/교정기관조직",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03010604.do",
+    "level": "내부 하위 탭"
+  },
+  {
+    "id": "KC05",
+    "parent": "KB08",
+    "group": "교통안전사업",
+    "title": "관련정보 및 양식",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03010605.do",
+    "level": "내부 하위 탭"
+  },
+  {
+    "id": "KC06",
+    "parent": "KB12",
+    "group": "교통교육사업",
+    "title": "특별교통안전교육 바로가기",
+    "url": "https://www.safedriving.or.kr/spcTraSafeEdu/selectSpcTraSafeEduGuide.do?menuCd=MN-PO-1321",
+    "level": "연결 안내·목록"
+  },
+  {
+    "id": "KC07",
+    "parent": "KB12",
+    "group": "교통교육사업",
+    "title": "교통교육사업 안내 연결 안내",
+    "url": "https://www.safedriving.or.kr/eeGuide/selectEeGuide10.do?menuCd=MN-PO-1521",
+    "level": "연결 안내·목록"
+  },
+  {
+    "id": "KC08",
+    "parent": "KB12",
+    "group": "교통교육사업",
+    "title": "교통교육사업 안내 연결 안내",
+    "url": "https://www.safedriving.or.kr/st/guide/eduStGuide11View.do?menuCode=MN-PO-1521",
+    "level": "연결 안내·목록"
+  },
+  {
+    "id": "KC09",
+    "parent": "KB12",
+    "group": "교통교육사업",
+    "title": "교통교육사업 안내 연결 안내",
+    "url": "https://trafficedu.koroad.or.kr:8443",
+    "level": "연결 안내·목록"
+  },
+  {
+    "id": "KC10",
+    "parent": "KB14",
+    "group": "교통교육사업",
+    "title": "교통안전전문교육 연결 안내",
+    "url": "https://www.safedriving.or.kr/eeGuide/selectEeGuide06.do?menuCd=MN-PO-1511",
+    "level": "연결 안내·목록"
+  },
+  {
+    "id": "KC11",
+    "parent": "KB14",
+    "group": "교통교육사업",
+    "title": "교통안전전문교육 연결 안내",
+    "url": "https://www.safedriving.or.kr/itGuide/selectItGuide04.do?menuCd=MN-PO-1412",
+    "level": "연결 안내·목록"
+  },
+  {
+    "id": "KC12",
+    "parent": "KB15",
+    "group": "교통교육사업",
+    "title": "교통안전사회교육 연결 안내",
+    "url": "https://www.safedriving.or.kr/geGuide/selectGeGuide08.do?menuCd=MN-PO-1315",
+    "level": "연결 안내·목록"
+  },
+  {
+    "id": "KC13",
+    "parent": "KB16",
+    "group": "교통교육사업",
+    "title": "도로교통사고감정사 연결 안내",
+    "url": "https://www.safedriving.or.kr/eeGuide/selectEeGuide01.do?menuCd=MN-PO-1541",
+    "level": "연결 안내·목록"
+  },
+  {
+    "id": "KC14",
+    "parent": "KB16",
+    "group": "교통교육사업",
+    "title": "보수교육 신청 바로가기",
+    "url": "https://www.safedriving.or.kr/rdTfcAccdtConEdu/selectRdTfcAccdtConEduGuide.do?menuCd=MN-PO-1543",
+    "level": "연결 안내·목록"
+  },
+  {
+    "id": "KC15",
+    "parent": "KB20",
+    "group": "교통방송사업",
+    "title": "교통방송 편성표 바로가기",
+    "url": "https://www.tbn.or.kr/broadcast/program.tbn?BOARD_ID=P001&page_code=1&area_code=1",
+    "level": "연결 안내·목록"
+  },
+  {
+    "id": "KC16",
+    "parent": "KB23",
+    "group": "운전면허사업",
+    "title": "운전면허시험 바로가기",
+    "url": "https://www.safedriving.or.kr/dtGuide/selectDtGuide01.do?menuCd=MN-PO-1111",
+    "level": "연결 안내·목록"
+  },
+  {
+    "id": "KC17",
+    "parent": "KB24",
+    "group": "운전면허사업",
+    "title": "운전면허행정서비스 바로가기",
+    "url": "https://www.safedriving.or.kr/diGuide/selectDiGuide18.do?menuCd=MN-PO-12111",
+    "level": "연결 안내·목록"
+  },
+  {
+    "id": "KC18",
+    "parent": "KB25",
+    "group": "운전면허사업",
+    "title": "공지사항",
+    "url": "https://www.koroad.or.kr/main/board/5/board_list.do",
+    "level": "내부 하위 탭"
+  },
+  {
+    "id": "KC19",
+    "parent": "KB26",
+    "group": "운전면허사업",
+    "title": "운전면허 민원현황",
+    "url": "https://www.koroad.or.kr/main/content/view/MN0103020307.do",
+    "level": "연결 안내·목록"
+  },
+  {
+    "id": "KC20",
+    "parent": "KB28",
+    "group": "연구개발사업",
+    "title": "연구용역",
+    "url": "https://www.koroad.or.kr/main/research/res_service_list.do?sc=2026",
+    "level": "내부 하위 탭"
+  },
+  {
+    "id": "KC21",
+    "parent": "KB28",
+    "group": "연구개발사업",
+    "title": "주요연구사업 2쪽",
+    "url": "https://www.koroad.or.kr/main/research/res_basic_list.do?cp=2&sc=2026&cp=1&listType=list",
+    "level": "연결 안내·목록"
+  },
+  {
+    "id": "KC22",
+    "parent": "KB29",
+    "group": "연구개발사업",
+    "title": "교통안전연구 브리프",
+    "url": "https://www.koroad.or.kr/main/research/res_brief_list.do",
+    "level": "내부 하위 탭"
+  },
+  {
+    "id": "KC23",
+    "parent": "KB29",
+    "group": "연구개발사업",
+    "title": "연구논문게재",
+    "url": "https://www.koroad.or.kr/main/research/res_thesis_list.do",
+    "level": "내부 하위 탭"
+  },
+  {
+    "id": "KC24",
+    "parent": "KB29",
+    "group": "연구개발사업",
+    "title": "국내 세미나 및 연구발표회",
+    "url": "https://www.koroad.or.kr/main/research/res_seminar_list.do",
+    "level": "내부 하위 탭"
+  },
+  {
+    "id": "KC25",
+    "parent": "KB29",
+    "group": "연구개발사업",
+    "title": "국제회의",
+    "url": "https://www.koroad.or.kr/main/research/res_meeting_list.do",
+    "level": "내부 하위 탭"
+  },
+  {
+    "id": "KC26",
+    "parent": "KB29",
+    "group": "연구개발사업",
+    "title": "경찰청 기준 및 규격 제개정",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03050406.do",
+    "level": "내부 하위 탭"
+  },
+  {
+    "id": "KC27",
+    "parent": "KB29",
+    "group": "연구개발사업",
+    "title": "도로교통사고비용 추계",
+    "url": "https://www.koroad.or.kr/main/research/res_estimate_list.do",
+    "level": "내부 하위 탭"
+  },
+  {
+    "id": "KC28",
+    "parent": "KB34",
+    "group": "교통AI디지털사업",
+    "title": "결합 신청 안내",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03060420.do",
+    "level": "내부 하위 탭"
+  }
+]

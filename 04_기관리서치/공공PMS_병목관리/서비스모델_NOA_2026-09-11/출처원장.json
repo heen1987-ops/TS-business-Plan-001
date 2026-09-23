@@ -1,0 +1,93 @@
+[
+  {
+    "id": "N01",
+    "title": "NOA 공식 제품 소개",
+    "url": "https://www.ccksolution.com/noa",
+    "kind": "공급사 공식 설명",
+    "access": "직접 열람 시간 초과 / 공식 페이지 검색 색인 본문 확인",
+    "verified": "소개 기능의 기재 여부",
+    "unverified": "설치본 기능·API·소스·사용권·실행성능",
+    "checked_on": "2026-09-11"
+  },
+  {
+    "id": "N02",
+    "title": "Accio 공식 제품 소개",
+    "url": "https://www.ccksolution.com/accio",
+    "kind": "공급사 공식 설명",
+    "access": "공식 검색 본문 확인",
+    "verified": "문서 버전 비교와 검사 기능 소개",
+    "unverified": "PMS 적용성·효과",
+    "checked_on": "2026-09-11"
+  },
+  {
+    "id": "N03",
+    "title": "Power BI dashboards for business users",
+    "url": "https://learn.microsoft.com/en-us/power-bi/consumer/end-user-dashboards",
+    "kind": "공식 문서",
+    "access": "검색 본문 확인",
+    "verified": "현황 요약 화면의 참고 개념",
+    "unverified": "NOA와의 기능 대응",
+    "checked_on": "2026-09-11"
+  },
+  {
+    "id": "N04",
+    "title": "Get started with approvals",
+    "url": "https://learn.microsoft.com/en-us/power-automate/modern-approvals",
+    "kind": "공식 문서",
+    "access": "원문 열람",
+    "verified": "승인 작업의 흐름",
+    "unverified": "NOA와의 기능 대응",
+    "checked_on": "2026-09-11"
+  },
+  {
+    "id": "N05",
+    "title": "Camunda User tasks",
+    "url": "https://docs.camunda.io/docs/components/modeler/bpmn/user-tasks/",
+    "version": "8.9",
+    "kind": "공식 문서",
+    "access": "원문 열람",
+    "verified": "사람 작업과 외부 폼 연결",
+    "unverified": "NOA와의 기능 대응",
+    "checked_on": "2026-09-11"
+  },
+  {
+    "id": "L01",
+    "title": "CCK 기술 자산 목록",
+    "path": "G:\\내 드라이브\\1. 업무영역\\6. CCK\\#. 회사정보\\01. 아카이브\\(AX-CHATGPT)\\01_TECH_ASSETS\\00_TECH_CATALOG.md",
+    "version": "26.09 draft v1 / 2026-09-05",
+    "kind": "내부 파생 자료",
+    "access": "관련 항목 부분 열람",
+    "verified": "자산 설명 및 문서 내 미확정 표기",
+    "unverified": "원 소스·계약·실제 NOA 구성",
+    "checked_on": "2026-09-11"
+  },
+  {
+    "id": "L02",
+    "title": "서비스모델 정의서",
+    "path": "G:\\내 드라이브\\1. 업무영역\\6. CCK\\1. 사업관리\\TS\\bizops\\[TS 사업기획]\\04_기관리서치\\공공PMS_병목관리\\서비스모델_정의서.md",
+    "kind": "내부 기획 자료",
+    "access": "관련 부분 열람",
+    "verified": "기존 기획 경계",
+    "unverified": "기관 승인·시장 검증",
+    "checked_on": "2026-09-11"
+  },
+  {
+    "id": "L03",
+    "title": "공공 RFP 요구사항 추적표",
+    "path": "G:\\내 드라이브\\1. 업무영역\\6. CCK\\1. 사업관리\\TS\\bizops\\[TS 사업기획]\\04_기관리서치\\공공PMS_병목관리\\공공RFP_2026-09-11\\공공RFP_요구사항_추적표.md",
+    "kind": "내부 기획 자료",
+    "access": "원문 열람",
+    "verified": "52개 요구사항 기준선",
+    "unverified": "기관 발주 승인",
+    "checked_on": "2026-09-11"
+  },
+  {
+    "id": "L04",
+    "title": "현재 대화 사용자 요청",
+    "kind": "사용자 요구",
+    "access": "현재 대화",
+    "verified": "기획 요청과 출력 제약",
+    "unverified": "기관 전체 수요·합의",
+    "checked_on": "2026-09-11"
+  }
+]

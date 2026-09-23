@@ -1,0 +1,80 @@
+{
+  "date": "2026-09-10",
+  "institution_id": "ORG-0001",
+  "scope": "이 문서의 선별 공식 업무소개. 모집단 전수조사 아님",
+  "publication_dates": "열람 범위에서 미확인",
+  "sources": [
+    {
+      "id": "O01",
+      "title": "TS 자동차검사 소개",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01010101",
+      "location": "자동차검사란·검사목적·법적근거, 열람 본문 369~390행",
+      "claim": "자동차검사 업무와 공식 채널 연결 존재",
+      "limit": "개인별 결과·예약 API·현재 UI 사용성·현행 법령 시행일 미검증"
+    },
+    {
+      "id": "O02",
+      "title": "자동차리콜센터",
+      "url": "https://www.car.go.kr/home/main.do",
+      "location": "내차리콜확인·결함신고·리콜정보, 17~90행",
+      "claim": "대상·조치여부 조회와 신고·알리미가 이미 제공됨",
+      "limit": "실제 차량 조회·API·제작사 수리 일정·데이터 최신성 미시험"
+    },
+    {
+      "id": "O03",
+      "title": "TS 항공안전 자율보고제도",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=02010500",
+      "location": "제도소개·대상 및 기준·절차, 339~377행",
+      "claim": "항공 자율보고의 대상과 접수 접점 안내",
+      "limit": "법령 현행 시행일·개별 보호 적용·내부 처리 API 미검증"
+    },
+    {
+      "id": "O04",
+      "title": "TS 철도안전 자율보고 제도",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=02030500",
+      "location": "자율보고 원칙·보고주체·법적 근거, 339~374행",
+      "claim": "철도 자율보고·신고자 보호 안내 존재",
+      "limit": "이미지로 된 세부 절차·관계기관 R&R은 텍스트 열람에서 미확인. 법령 현행 대조 미완료"
+    },
+    {
+      "id": "O05",
+      "title": "TS 기계식주차장 검사소개",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01030401",
+      "location": "기계식주차장 검사란·법적근거, 360~383행",
+      "claim": "설계서 안전도 심사와 사용·정기·정밀안전검사 업무 소개",
+      "limit": "실제 조치관리 기능·증빙 누락·법령 현행 시행일 미검증"
+    },
+    {
+      "id": "O06",
+      "title": "TS 사업용 화물 운송자격 취득절차",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01050800",
+      "location": "사업용 화물 운송자격 취득절차, 360~397행",
+      "claim": "검사·자격시험·교육의 여러 단계가 안내됨",
+      "limit": "기간·자격기준을 현행 법령으로 재검증하지 않아 수치 규칙으로 옮기지 않음. 반려·보완 규모 미확인"
+    },
+    {
+      "id": "O07",
+      "title": "TS 운수안전컨설팅지원시스템(COSAS)",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01081000",
+      "location": "서비스 내용·안전관리 지원, 347~391행",
+      "claim": "안전자료·분석·진행상황 모니터링·의사소통 기능을 기존 서비스로 안내",
+      "limit": "실제 로그인 기능·고도화 계약 범위 미열람. 안내만으로 추가 AX 공백을 확정할 수 없음"
+    },
+    {
+      "id": "O08",
+      "title": "TS 철도역사 안전 및 이용편의 수준평가",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=02040400",
+      "location": "평가항목·평가절차, 353~430행",
+      "claim": "서류평가·현장조사·시설개선서 통보 등 단계 안내",
+      "limit": "지적사항 조치 이행 데이터·실시간 시설 가동 여부·개별 위탁 원문 미검증"
+    },
+    {
+      "id": "O09",
+      "title": "TS 튜닝제도",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01020101",
+      "location": "주요 서비스·절차, 367~392행",
+      "claim": "신청·첨부서류·승인·작업·검사 절차 안내",
+      "limit": "안전기준 적용·도면 심사·기간 규칙의 현행 원문 검증을 수행하지 않음"
+    }
+  ]
+}

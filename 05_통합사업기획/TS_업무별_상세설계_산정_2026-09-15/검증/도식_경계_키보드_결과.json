@@ -1,0 +1,9 @@
+{
+  "date": "2026-09-15",
+  "svg": 93,
+  "nodeCount": 860,
+  "failures": [],
+  "keyboard": "목록 화면 Tab→본문 이동 확인",
+  "actual_screenreader": "미실행",
+  "status": "도식 경계·키보드 확인 통과"
+}

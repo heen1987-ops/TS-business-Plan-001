@@ -1,0 +1,1202 @@
+﻿
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<title>eTas 운행기록분석시스템</title>
+<link rel="canonical"
+	href="https://etas.kotsa.or.kr/etas/frtg0100/goList.do" />
+	
+
+	
+<meta name="description" content="운행기록자료 분석을 통한 운전습관 안전관리 분석시스템" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="eTas 운행기록분석시스템" />
+<meta property="og:description"
+	content="자동차의 운행정보를 실시간으로 저장하여 시시각각 변화하는 운행상황을 자동적으로 기록할 수 있는 운행기록장치를 통해 자동차의 순간속도, 분당 엔진회전수(RPM), 브레이크 신호, GPS, 방위각, 가속도 등의 운행기록 자료를 분석하여 운전자의 과속, 급감속 등의 운전습관 파악을 위한 과학적이고 실증적인 운전자 안전관리를 위한 분석시스템" />
+<meta property="og:image"
+	content="https://etas.kotsa.or.kr/images/etas/layout/bg_collect_method.gif" />
+<meta property="og:uri" content="https://etas.kotsa.or.kr" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<!-- ********** CSS 시작 ********** -->
+<!-- <link rel="stylesheet" type="text/css" href="/css/etas/main.css" /> -->
+<link rel="stylesheet" type="text/css" href="/css/etas/contents.css" />
+<link rel="stylesheet" type="text/css" href="/css/etas/main2.css" />
+<!-- ********** CSS 끝 ********** -->
+
+<!-- ********** Javascript 영역 시작 ********** -->
+<!-- ********** Javascript 임포트 시작 ********** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/js/common/jquery-1.10.2.min.js"></script>
+
+<script type="text/javascript">	//HHTP프로토콜 HTTPS로 변경	if(document.location.href.indexOf("etas.kotsa.or.kr") > -1 ) {		if(document.location.protocol == 'http:') {			document.location.href = document.location.href.replace('http:', 'https:');		}	}
+  
+	
+	
+
+	
+</script>
+<script type="text/javascript">
+	 
+	function viewProgress(v)
+	{	
+		if(v)
+		{
+			$('#divCenter').show();
+		}
+		else
+		{
+			$('#divCenter').hide();	
+		}
+	}		/* var _csrfAjax = $.ajax;    $.ajax = function(options) {    	if(typeof options.type != 'undefined'){         	if(options.type.toUpperCase() == "POST"){    			$.extend(options, {    				beforeSend: function(xhr){    					var csrfHeader = $("meta[name='_csrf_header']").attr("content");     					var csrfToken = $("meta[name='_csrf']").attr("content");    	    					xhr.setRequestHeader(csrfHeader, csrfToken);    	          	}    	     	});        	}    	}    			return _csrfAjax(options);	}; */</script>
+<style type="text/css">	
+	.divCenter { 
+		z-index:1; 
+		/* position:absolute;  */
+		position:fixed; 
+		top:0; 
+		left:0; 
+		right:0;
+		bottom:0;
+		text-align:center;		
+		opacity:0.2;
+		background-color:black;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=30)";/* alpha(opacity=30); */ /* For IE8 and earlier */  
+	}	
+	.tableCenter { 
+		/* position:fixed; 
+		top:35%;  */ 
+		/* left:50%; */ 
+		/* left:46%; 
+		boder:1px;  */
+		width:100%;
+		height:100%;
+	} 
+</style>
+
+<script type="text/javascript" src="/js/common/jquery.watermark.min.js"></script>
+<script type="text/javascript" src="/js/etas/etasCommon.js"></script>
+<script type="text/javascript" src="/js/etas/design.js"></script>
+<script type="text/javascript" src="/js/etas/etasMain.js"></script>
+<!-- ********** Javascript 임포트 끝 ********** -->
+<!-- ********** 사용자 정의 스크립트 시작 ********** -->
+<script language="javascript" type="text/javascript">
+
+	if (/android|webos|iphone|ipad|ipod|blackberry|windows phone/i
+			.test(navigator.userAgent)
+			&& '' !== "Y") {
+		location.href = "/m/main.do";
+	}
+	
+
+
+	var sido= ''; 
+	var sgg= ''; 
+	var authGrp= ''; 
+	var tsdmCorpSts= ''; 
+	
+	var date = new Date();
+    const lastAlertDate = localStorage.getItem('lastAlertDate');
+    const today = date.toISOString().split('T')[0];
+    // 기록된 날짜가 오늘과 다를 경우에만 alert 실행
+    if(lastAlertDate != today){
+
+        if(tsdmCorpSts == 'X'){
+        	if(authGrp == 'AUTH_000000000000001' || authGrp == 'AUTH_000000000000002'){
+        		if(sido == '0040'){
+        			if(sgg == '2811000000' ||  sgg=='2814000000' || sgg=='2826000000'){
+        		        localStorage.setItem('lastAlertDate', today);
+        				if(confirm("행정체제 개편으로 인해 인천 소속 사용자의 경우 운수회사의 등록 소재지 정보를 수정해주시기 바랍니다.")){
+        					location.href="/etas/frtb0506/goList.do"	
+        				}
+        			}
+        		}
+        	}
+        }
+    }
+</script>
+<!-- ********** 사용자 정의 스크립트 끝 ********** -->
+<!-- ********** Javascript 영역 끝 ********** -->
+</head>
+<body id="main">
+	<!-- skip navi -->
+	<ul id="skip_navi">
+		<li><a href="#main_container">본문내용 바로가기</a></li>
+		<li><a href="#gnb">주메뉴 바로가기</a></li>
+	</ul>
+	<!--// skip navi -->
+	<div id="wrap">
+		<!-- header -->
+		<div id="header_wrap">
+			<div id="header">
+				<h1>
+					<a href="/main.do"><img src="/images/etas/layout/logo.gif"
+						alt="eTas 운행기록분석시스템" /></a>
+				</h1>
+				<div class="util-menu">
+					<h2 class="blind">유틸메뉴</h2>
+					<ul>
+						
+						
+						
+						
+						
+							<li><a href="javascript:go_top_link('10');"><img
+									src="/images/etas/layout/util_menu01.gif" alt="HOME" /></a></li>
+							<li><a href="javascript:go_top_link('20');"><img
+									src="/images/etas/layout/util_menu02.gif" alt="로그인" /></a></li>
+							<li><a href="javascript:go_top_link('40');"><img
+									src="/images/etas/layout/util_menu03.gif" alt="회원가입" /></a></li>
+							<li><a href="javascript:go_top_link('50');"><img
+									src="/images/etas/layout/util_menu04.gif" alt="아이디/비밀번호 찾기" /></a></li>
+
+						
+						
+					</ul>
+				</div>
+				<div class="quick-zoom">
+					<h2>
+						<img src="/images/etas/layout/quick_zoom.gif" alt="화면크기" />
+					</h2>
+					<ul>
+						<li>
+							<button type="button" class="button" title="화면 작게 보기">
+								<img src="/images/etas/layout/quick_zoom01.gif" alt="화면 작게 보기" />
+							</button>
+						</li>
+						<li>
+							<button type="button" class="button" title="화면 크게 보기">
+								<img src="/images/etas/layout/quick_zoom02.gif" alt="화면 크게 보기" />
+							</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- gnb -->
+			
+			
+			
+				
+					
+				
+			
+				
+					
+				
+			
+				
+					
+				
+			
+				
+					
+				
+			
+				
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+			
+			<div id="gnb" class="col5">
+				<h2 class="blind">주메뉴</h2>
+				<ul>
+					
+					
+						
+							
+							<li class="gnb01"><a href="javascript:;"><img
+									src="/images/etas/layout/gnb01.gif"
+									alt="운수회사/개인사업자" /></a>
+								<ul class="dep2">
+									
+									
+										
+											
+											
+												
+												
+													
+												
+												
+														
+													
+													
+														<li class="disable-menu">비회원 종합진단표</li>
+													
+												
+											
+										
+									
+										
+											
+											
+												
+												
+													
+												
+												
+														
+													
+													
+														<li class="disable-menu">운행정보 분석 통계</li>
+													
+												
+											
+										
+									
+										
+											
+											
+												
+												
+													
+												
+												
+														
+													
+													
+														<li class="disable-menu">위험운전행동 통계</li>
+													
+												
+											
+										
+									
+										
+											
+											
+												
+												
+													
+												
+												
+														
+													
+													
+														<li class="disable-menu">자료제출현황</li>
+													
+												
+											
+										
+									
+										
+											
+											
+												
+												
+													
+												
+												
+														
+													
+													
+														<li class="disable-menu">기초정보 관리</li>
+													
+												
+											
+										
+									
+										
+											
+											
+												
+												
+													
+												
+												
+														
+													
+													
+														<li class="disable-menu">연비통계</li>
+													
+												
+											
+										
+									
+									
+								</ul></li>
+						
+					
+						
+							
+							<li class="gnb02"><a href="javascript:;"><img
+									src="/images/etas/layout/gnb02.gif"
+									alt="GIS 분석" /></a>
+								<ul class="dep2">
+									
+									
+										
+											
+											
+												
+												
+													
+												
+												
+														
+													
+													
+														<li class="disable-menu">운행 궤적분석</li>
+													
+												
+											
+										
+									
+										
+											
+											
+												
+												
+													
+												
+												
+														
+													
+													
+														<li class="disable-menu">위험운전 행동분석</li>
+													
+												
+											
+										
+									
+									
+								</ul></li>
+						
+					
+						
+							
+							<li class="gnb06"><a href="javascript:;"><img
+									src="/images/etas/layout/gnb06.gif"
+									alt="통계분석" /></a>
+								<ul class="dep2">
+									
+									
+										
+											
+											
+												
+												
+													
+												
+												
+														
+													
+													
+														<li class="disable-menu">자동차운행정보 통계</li>
+													
+												
+											
+										
+									
+										
+											
+											
+												
+												
+													
+												
+												
+														
+													
+													
+														<li class="disable-menu">위험운전행동 통계</li>
+													
+												
+											
+										
+									
+									
+								</ul></li>
+						
+					
+						
+							
+							<li class="gnb07"><a href="javascript:;"><img
+									src="/images/etas/layout/gnb07.gif"
+									alt="정보마당" /></a>
+								<ul class="dep2">
+									
+									
+										
+											
+											
+												
+												
+													
+														
+															
+																
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+													
+												
+												
+														
+													
+														<li><a href="/etas/frtf1500/goList.do"
+															
+															onClick="insertMenuAccessLog('/etas/frtf1500/goList.do')">DTG 정보안내</a></li>
+													
+													
+												
+											
+										
+									
+										
+											
+											
+												
+												
+													
+														
+															
+														
+															
+																
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+													
+												
+												
+														
+													
+														<li><a href="/etas/frtf1400/goList.do"
+															
+															onClick="insertMenuAccessLog('/etas/frtf1400/goList.do')">대행제출기관 안내</a></li>
+													
+													
+												
+											
+										
+									
+										
+											
+											
+												
+												
+													
+														
+															
+														
+															
+														
+															
+																
+															
+														
+															
+														
+															
+														
+															
+														
+													
+												
+												
+														
+													
+														<li><a href="/etas/frtf0500/goList.do"
+															
+															onClick="insertMenuAccessLog('/etas/frtf0500/goList.do')">소프트웨어 자료실</a></li>
+													
+													
+												
+											
+										
+									
+										
+											
+											
+												
+												
+													
+														
+															
+														
+															
+														
+															
+														
+															
+																
+															
+														
+															
+														
+															
+														
+													
+												
+												
+														
+													
+														<li><a href="/etas/frtf0600/goList.do"
+															
+															onClick="insertMenuAccessLog('/etas/frtf0600/goList.do')">매뉴얼 자료실</a></li>
+													
+													
+												
+											
+										
+									
+										
+											
+											
+												
+												
+													
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+																
+															
+														
+															
+														
+													
+												
+												
+														
+													
+														<li><a href="/etas/frtf0100/goList.do"
+															
+															onClick="insertMenuAccessLog('/etas/frtf0100/goList.do')">공지사항</a></li>
+													
+													
+												
+											
+										
+									
+										
+											
+											
+												
+												
+													
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+																
+															
+														
+													
+												
+												
+														
+													
+														<li><a href="/etas/frtf0300/goList.do"
+															
+															onClick="insertMenuAccessLog('/etas/frtf0300/goList.do')">FAQ</a></li>
+													
+													
+												
+											
+										
+									
+										
+											
+											
+												
+												
+													
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+													
+												
+												
+														
+													
+													
+														<li class="disable-menu">묻고 답하기</li>
+													
+												
+											
+										
+									
+									
+								</ul></li>
+						
+					
+						
+							
+							<li class="gnb08"><a href="javascript:;"><img
+									src="/images/etas/layout/gnb08.gif"
+									alt="시스템소개" /></a>
+								<ul class="dep2">
+									
+									
+										
+											
+											
+												
+												
+													
+														
+															
+																
+															
+														
+															
+														
+															
+														
+													
+												
+												
+														
+													
+														<li><a href="/etas/frtg0100/goList.do"
+															
+															onClick="insertMenuAccessLog('/etas/frtg0100/goList.do')">시스템 소개</a></li>
+													
+													
+												
+											
+										
+									
+										
+											
+											
+												
+												
+													
+														
+															
+														
+															
+																
+															
+														
+															
+														
+													
+												
+												
+														
+													
+														<li><a href="/etas/frtg0200/goList.do"
+															
+															onClick="insertMenuAccessLog('/etas/frtg0200/goList.do')">법령 및 지침</a></li>
+													
+													
+												
+											
+										
+									
+										
+											
+											
+												
+												
+													
+														
+															
+														
+															
+														
+															
+																
+															
+														
+													
+												
+												
+														
+													
+														<li><a href="/etas/frtg0300/goList.do"
+															
+															onClick="insertMenuAccessLog('/etas/frtg0300/goList.do')">활용 방법</a></li>
+													
+													
+												
+											
+										
+									
+									
+								</ul></li>
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+					
+				</ul>
+				<div class="gnb-bg">
+					<div>
+						<button type="button" class="button" title="하위 메뉴 닫기"
+							onclick="window.focus();">
+							<img src="/images/etas/layout/btn_gnb_close.gif" alt="하위 메뉴 닫기" />
+						</button>
+					</div>
+				</div>
+			</div>
+			
+			<!--// gnb -->
+		</div>
+		<!-- //header -->
+		<!-- container -->
+		<div id="main_container">
+			<div class="visual">
+				<img src="/images/etas/main/visual01.jpg"
+					alt="Digital Tachograph Analysis System, 운행기록 분석시스템 eTAS" />
+			</div>
+			<form name="frmList" id="frmList" method="post"
+				action="/etas/frtf0100/goList.do">
+
+				<input type="hidden" id="bbsId" name="bbsId" /> <input type="hidden"
+					id="nttId" name="nttId" /> <input type="hidden" name="mbrId"
+					id="mbrId" value="" /> <input type="hidden"
+					name="mbrAuthGrpCd" id="mbrAuthGrpCd"
+					value="" />
+				<div class="section-top">
+					
+					
+						
+						
+						
+						
+						
+							<div class="main-login">
+								<ul>
+									<li class="login-btn"><a
+										href="javascript:go_top_link('20');"><img
+											src="/images/etas/main/btn_login.gif" alt="공단통합 로그인" /></a></li>
+									<li><span><img
+											src="/images/etas/main/txt_join01.gif" alt="한국교통안전공단 통합 회원으로" /></span><a
+										href="http://www.kotsa.or.kr/mbs/insFrmMemberType.do"><img
+											src="/images/etas/main/btn_join01.gif" alt="회원가입" /></a></li>
+									<li><span><img
+											src="/images/etas/main/txt_join02.gif" alt="통합회원 가입 후 eTAS" /></span><a
+										href="javascript:go_list_link('1');"><img
+											src="/images/etas/main/btn_join02.gif" alt="권한신청" /></a></li>
+								</ul>
+							</div>
+						
+						
+					
+					
+					<div class="manual-dnl">
+						<h2>
+							<img src="/images/etas/main/tit_manual.gif" alt="매뉴얼 다운로드" />
+						</h2>
+						<ul>
+							<li><a
+								href="javascript:fn_downFile('5DE9BB65E1CB4B1DCE23D04279232103450041617556456D','017CE38DA48C7F77');"><img
+									src="/images/etas/main/btn_manual01.gif" alt="운행자료 제출방법 다운로드" /></a></li>
+							<li><a
+								href="javascript:fn_downFile('5DE9BB65E1CB4B1DCE23D04279232103BF96A24524A5610B','017CE38DA48C7F77');"><img
+									src="/images/etas/main/btn_manual02.gif" alt="DTG시험 통과제품 다운로드" /></a></li>
+							<li><a
+								href="javascript:fn_downFile('5DE9BB65E1CB4B1DECDCD15E6EA1E2998E182CEA61E77D94','017CE38DA48C7F77');"><img
+									src="/images/etas/main/btn_manual03.gif"
+									alt="DTG 제품별사용 설명서 다운로드" /></a></li>
+							<li><a
+								href="javascript:fn_downFile('5DE9BB65E1CB4B1DECDCD15E6EA1E2998E182CEA61E77D94','663AACFA570ED4E6');"><img
+									src="/images/etas/main/btn_manual04.gif"
+									alt="시스템 사용설명서(간편매뉴얼) 다운로드" /></a></li>
+							<!-- 2020.06.03 jeong.ks 주석  -->
+							<!-- <li><a href="javascript:fn_downFile('5DE9BB65E1CB4B1DCE23D042792321030C5B4114551C2B36','017CE38DA48C7F77');"><img src="/images/etas/main/btn_manual05.gif" alt="시스템 사용설명서(상세매뉴얼) 다운로드" /></a></li> -->
+							<!-- <li><a href="javascript:fn_downFile('5DE9BB65E1CB4B1DECDCD15E6EA1E299926947E9F3004A75','017CE38DA48C7F77');"><img src="/images/etas/main/btn_manual05.gif" alt="시스템 사용설명서(상세매뉴얼) 다운로드" /></a></li> -->
+							<li><a
+								href="javascript:fn_downFile('5DE9BB65E1CB4B1DECDCD15E6EA1E299998765F2EBFD213F','663AACFA570ED4E6');"><img
+									src="/images/etas/main/btn_manual05.gif"
+									alt="시스템 사용설명서(상세매뉴얼) 다운로드" /></a></li>
+						</ul>
+					</div>
+					<div class="software-dnl">
+				        <h2><img src="/images/etas/main/tit_software01.gif" alt="소프트웨어 다운로드" /></h2>
+				        <!-- <a href="javascript:fn_downFile('5DE9BB65E1CB4B1DECDCD15E6EA1E299BBFD42BFBE667110','663AACFA570ED4E6');"><img src="/images/etas/main/btn_software.gif" alt="ETAS 업로드 다운로드" /></a> -->
+				        <!-- 2022.06.15 업로드 프로그램 EDGE 적용(7.6.0.3)으로 적용 -->  
+				        <!-- <a href="javascript:fn_downFile('5DE9BB65E1CB4B1DECDCD15E6EA1E299E948CDBCA1280084','663AACFA570ED4E6');"><img src="/images/etas/main/btn_software.gif" alt="ETAS 업로드 다운로드" /></a> -->
+				        <!-- 2022.09.23 업로드 프로그램 차량번호 3자리 업로드 적용(7.6.0.3)으로 적용 ** EDGE기능 적용안됨 -->  
+				        <!-- <a href="javascript:fn_downFile('5DE9BB65E1CB4B1DECDCD15E6EA1E299D38BF29685D17E95','663AACFA570ED4E6');"><img src="/images/etas/main/btn_software.gif" alt="ETAS 업로드 다운로드" /></a> -->
+				      	<!-- 2023.05.15 업로드 프로그램 EDGE 적용(7.6.0.4)으로 적용 -->  
+				      	<!-- <a href="javascript:fn_downFile('5DE9BB65E1CB4B1DECDCD15E6EA1E29987310C8A57A89411','663AACFA570ED4E6');"><img src="/images/etas/main/btn_software.gif" alt="ETAS 업로드 다운로드" /></a> -->
+				      	
+				      	<!-- 2024.06.18 최신 업로드 -->
+						<a href="javascript:fn_downFile('5DE9BB65E1CB4B1DECDCD15E6EA1E29903DC308A2F9FCACB','663AACFA570ED4E6')">
+							<img src="/images/etas/main/btn_software.gif" alt="ETAS 업로드 다운로드" />
+						</a>
+				      </div>
+				</div>
+			</form>
+			<div class="section-bottom" style="position: relative; clear: both; height: 343px;">
+				<div class="dtgrequired" style="float: left; width: 475px; height: 74px; position: relative; border-bottom: 1px solid #dfdfdf; border-right: 1px solid #dfdfdf;">
+					<div class="search-wrap02 mgb0" style="background: white; border: 0; padding: 8px 8px;">
+						<fieldset>
+							<!-- <label for="sch_word" class="lbl-id" style="font-size: 14px; color: black;">DTG 의무장착 조회</label> -->
+							<div class="lbl-id" style="font-size: 14px; color: black; float: left; margin-top: 4px; font-weight: bold; padding: 0 5px 0 10px;">(사업용 버스·택시·화물) DTG 의무장착 및 운행기록 의무제출 대상 조회</div>
+							<div class="lbl-id" style="font-size: 14px; color: black; float: left; margin-top: 4px; font-weight: bold; padding: 0 5px 0 10px;">
+							<input type="text" id="textInput" class="wid-type txt" placeholder="자동차번호를 입력하세요." style="height: 15px; border-radius: 4px; border: 2px solid #666; width: 300px;">
+							<a href="javascript:go_dtgRequired();" class="btn-type-04">조회</a>
+							</div>
+						</fieldset>
+					</div>
+				</div>
+				<div class="callcenter" style="width: 345px; position: relative; float: left; height: 22px; padding: 26px 20px; border-bottom: 1px solid #dfdfdf; border-right: 1px solid #dfdfdf; border-right: 0;">
+					<h2>
+						<img src="/images/etas/main/tit_callcenter.gif" alt="콜센터"
+							style="padding-bottom: 10px;" />
+					</h2>
+					<div style="margin-top: -10px;">
+						<strong>054-459-7244, 7245, 7246 </strong><br>
+						<span style="font-size: 11px;">(운영:평일 09시~18시)<br></span>
+					</div>
+				</div>
+				
+				<!--
+	  
+        
+        
+        
+        
+        
+          
+ 			<div class="gov30" ></div> 
+ 			
+        
+        
+      
+-->
+
+				<div class="notice" style="position: relative; float: right; width: 391px; height: 193px; padding: 20px 20px 0;">
+					<h2>
+						<img src="/images/etas/main/tit_notice.gif" alt="공지사항" />
+					</h2>
+					<ul>
+						
+							
+							
+								
+									<li style="padding: 0px 10px 0;"><a
+										href="javascript:go_read(0,'BBSMSTR_000000000001', '7406');"><span
+											class="nr">공지</span>운행기록자료 수집을 위한 대행기관 신청 안내(신청서, 동의서 변경)</a></li>
+								
+									<li style="padding: 0px 10px 0;"><a
+										href="javascript:go_read(0,'BBSMSTR_000000000001', '7333');"><span
+											class="nr">공지</span>2026년 운행기록장치 점검센터 운영 알림</a></li>
+								
+									<li style="padding: 0px 10px 0;"><a
+										href="javascript:go_read(0,'BBSMSTR_000000000001', '7224');"><span
+											class="nr">공지</span>2026년 화물차 안전운전 실천 이벤트 계획 알림</a></li>
+								
+									<li style="padding: 0px 10px 0;"><a
+										href="javascript:go_read(0,'BBSMSTR_000000000001', '7133');"><span
+											class="nr">공지</span>2025년 운행기록장치 점검센터 연장운영 알림</a></li>
+								
+									<li style="padding: 0px 10px 0;"><a
+										href="javascript:go_read(0,'BBSMSTR_000000000001', '6753');"><span
+											class="nr">공지</span>2025년 운행기록장치 점검센터 운영 알림</a></li>
+								
+									<li style="padding: 0px 10px 0;"><a
+										href="javascript:go_read(0,'BBSMSTR_000000000001', '6323');"><span
+											class="nr">공지</span>대형화물차 운행기록자료 제출 의무화 시행 안내(24년10월)</a></li>
+								
+									<li style="padding: 0px 10px 0;"><a
+										href="javascript:go_read(0,'BBSMSTR_000000000001', '6203');"><span
+											class="nr">공지</span>2024년 운행기록장치 점검센터 운영 알림</a></li>
+								
+							
+						
+					</ul>
+					<span class="more" style="top: 17px;"><a href="javascript:go_list(0);"><img
+							src="/images/etas/btn/btn_more01.gif" alt="공지사항 더보기" /></a></span>
+				</div>
+				<!-- <div class="movie" style="float: left; width: 390px; height: 248px; padding: 20px 20px 0; border-right: 1px solid #dfdfdf;">
+					<h2>
+						<img src="/images/etas/main/tit_movie.gif" alt="홍보 동영상" />
+					</h2>
+					<ul>
+						<li class="bg1"><span class="name">시스템 홍보 동영상</span> <a
+							href="http://youtu.be/C8wb9tkIZ5k" target="_blank"
+							title="시스템 홍보 동영상 재생 새창에서 열림"><img
+								src="/images/etas/main/btn_play.png" alt="동영상 재생" /></a></li>
+						<li class="bg2"><span class="name">운수회사 인터뷰 동영상</span> <a
+							href="http://youtu.be/bf74dh-Fd_0" target="_blank"
+							title="운수회사 인터뷰 동영상 재생 새청에서 열림"><img
+								src="/images/etas/main/btn_play.png" alt="동영상 재생" /></a></li>
+					</ul>
+				</div> -->
+				<div class="faq" style="position: relative; float: right; width: 391px; height: 193px; padding: 20px 20px 0;">
+					<h2>
+						<img src="/images/etas/main/tit_faq.gif" alt="FAQ" />
+					</h2>
+					<ul>
+						
+							
+							
+								
+									<li><a
+										href="javascript:go_read(1,'BBSMSTR_000000000002', '3003');"><span
+											class="ir">질문</span><span>eTAS 업로드 프로그램에서 eTAS홈페이지 호출시 500 오류 발생시 조치사항</span></a></li>
+								
+									<li><a
+										href="javascript:go_read(1,'BBSMSTR_000000000002', '2408');"><span
+											class="ir">질문</span><span><span style='font-size:15px;font-weight:bold'>★★★ 운행기록 제출방법 ★★★</span></span></a></li>
+								
+									<li><a
+										href="javascript:go_read(1,'BBSMSTR_000000000002', '2166');"><span
+											class="ir">질문</span><span>[전송] TXT 형식의 운행기록자료를 업로드 시 “표준형식이 아닙니다”라고 나오는 이유는 뭔가요?</span></a></li>
+								
+									<li><a
+										href="javascript:go_read(1,'BBSMSTR_000000000002', '613');"><span
+											class="ir">질문</span><span>[웹페이지]회원가입 및 권한신청에서  새주소 검색 문제발생 시</span></a></li>
+								
+									<li><a
+										href="javascript:go_read(1,'BBSMSTR_000000000002', '539');"><span
+											class="ir">질문</span><span>[웹페이지] 종합진단표 출력 설정관련</span></a></li>
+								
+									<li><a
+										href="javascript:go_read(1,'BBSMSTR_000000000002', '519');"><span
+											class="ir">질문</span><span>[웹페이지] 기초정보(자동차, 운전자, 배차정보)는 반드시 올려야 하나요 ?</span></a></li>
+								
+									<li><a
+										href="javascript:go_read(1,'BBSMSTR_000000000002', '518');"><span
+											class="ir">질문</span><span>[웹페이지] DTG 제품사용 설명서에 우리 회사 제품은 없는데, 어떻게 해야 하나요 ?</span></a></li>
+								
+							
+						
+					</ul>
+					<span class="more" style="top: 17px;"><a href="javascript:go_list(1);"><img
+							src="/images/etas/btn/btn_more01.gif" alt="FAQ 더보기" /></a></span>
+				</div>
+			</div>
+		</div>
+		<!-- //container -->
+		<!-- quick menu -->
+		<div id="quick_menu">
+			<h2>
+				<img src="/images/etas/layout/quick_tit.gif" alt="QUICK MENU" />
+			</h2>
+			<ul>
+				
+					
+					
+						<li><a href="javascript:go_list_link('1');" onClick=""><img
+								src="/images/etas/layout/quick_menu01.gif" alt="eTAS 권한 신청" /></a></li>
+					
+				
+				<li><a href="javascript:go_list_link('2');"><img
+						src="/images/etas/layout/quick_menu02.gif" alt="FAQ" /></a></li>
+				<li><a href="javascript:go_list_link('3');"><img
+						src="/images/etas/layout/quick_menu03.gif" alt="소프트웨어 자료실" /></a></li>
+				<li><a href="javascript:go_list_link('4');"><img
+						src="/images/etas/layout/quick_menu04.gif" alt="매뉴얼 자료실" /></a></li>
+				<li><a href="javascript:go_list_link('6');" title="새창에서 열림"><img
+						src="/images/etas/layout/quick_menu07.gif" alt="위험운전행동기준" /></a></li>
+						
+				<!-- 대행제출기관 지원시스템 AUTH_000000000000009: 시스템관리자, AUTH_000000000000013: 관제사 -->
+				
+				
+										
+				<li><a href="http://aid2.kotsa.or.kr/start/manual.html"
+					target="_blank" title="새창에서 열림"><img
+						src="/images/etas/layout/quick_menu05.gif" alt="원격지원 서비스" /></a></li>
+			</ul>
+		</div>
+		<!-- //quick menu -->
+
+		<!-- footer -->
+		<div id="footer">
+			<div class="family-site">
+				<ul>
+					<li><a href="https://www.molit.go.kr/portal.do"
+						target="_blank" title="새 창으로 이동"><img
+							src="/images/etas/layout/footer_family02.gif" alt="국토교통부" /></a></li>
+					<li><a href="http://www.kotsa.or.kr/" target="_blank"
+						title="새 창으로 이동"><img
+							src="/images/etas/layout/footer_family01.gif" alt="TS 한국교통안전공단" /></a></li>
+					<li><a href="http://drv.kotsa.or.kr/" target="_blank"
+						title="새 창으로 이동"><img
+							src="/images/etas/layout/footer_family03.gif"
+							alt="운수종사자 관리 정보시스템" /></a></li>
+					<li><a href="https://tmacs.kotsa.or.kr/" target="_blank"
+						title="새 창으로 이동"><img
+							src="/images/etas/layout/footer_family04.gif"
+							alt="TMACS - 교통안전정보관리시스템" /></a></li>
+				</ul>
+			</div>
+			<div class="copyright">
+				<!-- <p class="foot-logo"><img src="/images/etas/layout/footer_logo.gif" alt="국토교통부 - TS 한국교통안전공단" /></p> -->
+				<div class="qrcode">
+					<img src="/images/etas/common/mow_qrcode.png"
+						alt="운행기록 분석시스템 모바일 전송 앱 다운로드 QR코드" />
+				</div>
+				<p class="app_download">
+					<img src="/images/etas/common/mow_down.gif" alt="모바일 전송 App 다운로드" />
+					&nbsp;&nbsp; <a href="javascript:go_top_link('100');"><img
+						src="/images/etas/layout/util_menu09.gif" alt="개인정보처리방침" /></a>
+					&nbsp;&nbsp; <a href="javascript:go_top_link('101');"><img
+						src="/images/etas/layout/util_menu12.gif" alt="공공데이터 이용정책" /></a>
+					&nbsp;&nbsp; <a href="javascript:go_top_link('102');"><img
+						src="/images/etas/layout/util_menu11.gif" alt="저작권 정책" /></a>
+					&nbsp;&nbsp; <a
+						href="https://www.kotsa.or.kr/ind/wnl/InqListWAPTsForYou.do"
+						target="_blank" title="새 창으로 이동"><img
+						src="/images/etas/layout/util_newsletter.png" alt="뉴스레터" /></a>
+					<!-- 
+	  &nbsp;&nbsp;
+	  <a href="http://stat.molit.go.kr/portal/quality/qualityCenterWrite.do?system_id=S0036" target="_blank"><img src="/images/etas/layout/util_menu_new01.gif" alt="품질오류신고" /></a> -->
+					&nbsp;&nbsp; <a
+						href="https://data.molit.go.kr/systemQuality/list?system_id=S0036"
+						target="_blank"><img
+						src="/images/etas/layout/util_menu_new02.png" alt="품질오류신고확인" /></a>
+				</p>
+
+				<address>
+					<div style="height: 20px; valign: middle;" style="nowrap">
+						<span
+							style="display: inline-block; font-size: 10px; height: 20px; valign: center; letter-spacing: -1px">
+							(우)740-220 경상북도 김천시 혁신6로 17 (율곡동,
+							한국교통안전공단)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">운행기록분석센터:
+								054-459-7244, 7245, 7246</font>
+						</span>
+						<!-- 
+      <img src="/images/etas/layout/address.gif" alt="(우)740-220 경상북도 김천시 혁신6로 17(율곡동, 한국교통안전공단) 운행기록분석센터: 054-459-7244~6" />
+      </p> -->
+
+						<p class="foot-logo">
+							<a href="https://www.molit.go.kr/portal.do" target="_blank"
+								title="새 창으로 이동" class="mgl0"><img
+								src="/images/etas/layout/footer_logo01.gif" alt="국토교통부" /></a> <a
+								href="https://www.kotsa.or.kr/" target="_blank" title="새 창으로 이동"><img
+								src="/images/etas/layout/footer_logo02.gif" alt="TS 한국교통안전공단" /></a>
+					</div>
+				</address>
+
+
+
+				<p>
+					<img src="/images/etas/layout/copyright.gif"
+						alt="Copyright(C) 2013 by TLS., All right reserved." />
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<!-- <font color="red"><B>DTG점검센터 1566-6281</B></font> -->
+				</p>
+			</div>
+		</div>
+		<!-- //footer -->
+	</div>
+</body>
+</html>
+

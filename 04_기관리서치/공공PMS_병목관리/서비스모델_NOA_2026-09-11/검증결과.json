@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-11",
+  "document": "NOA_기반_공공PMS_서비스모델_검토서_v0.1.docx",
+  "pages": 14,
+  "tables": 13,
+  "requirements": 52,
+  "checks": {
+    "word_opens": true,
+    "letter_portrait": true,
+    "heading_sections_14": true,
+    "pages_14": true,
+    "no_empty_pages": true,
+    "all_pages_visually_reviewed": true,
+    "no_title_or_heading_borders": true,
+    "no_fixed_table_row_heights": true,
+    "rfp_mapping_matches_52": true,
+    "source_paths_exist": true,
+    "no_internal_web_tokens": true,
+    "example_arithmetic": true
+  },
+  "source_paths": {
+    "L01": true,
+    "L02": true,
+    "L03": true
+  },
+  "sha256": "710f30e6da1c5fb0221558b1dc11876aefcc0bff68b9d8fd0188a7148b02e1ef",
+  "visual_review": "최종 Word 출력 14쪽 전체 PNG 확인. 본문·표·제목·기호·쪽 나눔 확인. 11쪽 제목 번호는 확대 확인.",
+  "not_performed": [
+    "NOA 실제 기능·성능 시험",
+    "기관 사용자 조사",
+    "법무·조달 승인",
+    "독립 평가위원 심의",
+    "서비스 구현·배포"
+  ]
+}

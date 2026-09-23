@@ -1,0 +1,97 @@
+{
+  "study_id": "TS-DR-20260911",
+  "population_definition": "TS 공식 주요사업 요약 페이지 06020300의 7개 분류",
+  "summary_categories_total": 7,
+  "summary_categories_reviewed": 7,
+  "all_leaf_menu_review_complete": false,
+  "all_contract_review_complete": false,
+  "actual_product_test_runs": 0,
+  "categories": [
+    {
+      "name": "도로 교통안전 관리",
+      "source_ids": [
+        "TSDR-008",
+        "TSDR-009",
+        "TSDR-011",
+        "TSDR-012",
+        "TSDR-041"
+      ],
+      "status": "공식 요약 및 선택 상세자료 검토"
+    },
+    {
+      "name": "철도교통안전 관리",
+      "source_ids": [
+        "TSDR-018",
+        "TSDR-019",
+        "TSDR-020"
+      ],
+      "status": "공식 요약 및 선택 상세자료 검토"
+    },
+    {
+      "name": "항공 교통안전 관리",
+      "source_ids": [
+        "TSDR-021",
+        "TSDR-022"
+      ],
+      "status": "공식 요약 및 선택 상세자료 검토"
+    },
+    {
+      "name": "자동차 검사",
+      "source_ids": [
+        "TSDR-013",
+        "TSDR-014",
+        "TSDR-039"
+      ],
+      "status": "공식 요약 및 선택 상세자료 검토"
+    },
+    {
+      "name": "자동차 안전시험·연구",
+      "source_ids": [
+        "TSDR-015",
+        "TSDR-016",
+        "TSDR-017",
+        "TSDR-040"
+      ],
+      "status": "공식 요약 및 선택 상세자료 검토"
+    },
+    {
+      "name": "교통정보 서비스",
+      "source_ids": [
+        "TSDR-008",
+        "TSDR-009",
+        "TSDR-023",
+        "TSDR-024",
+        "TSDR-025"
+      ],
+      "status": "공식 요약 및 선택 상세자료 검토"
+    },
+    {
+      "name": "교통안전 체험교육",
+      "source_ids": [
+        "TSDR-026",
+        "TSDR-027"
+      ],
+      "status": "공식 요약 및 선택 상세자료 검토"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H01",
+      "title": "기준 변경 반영",
+      "status": "수요·비중복·데이터·제품 검증 전",
+      "added_to_existing_candidate_count": false
+    },
+    {
+      "id": "H02",
+      "title": "조치 증빙 대조",
+      "status": "수요·비중복·데이터·제품 검증 전",
+      "added_to_existing_candidate_count": false
+    },
+    {
+      "id": "H03",
+      "title": "보호된 사례 전환",
+      "status": "수요·비중복·데이터·제품 검증 전",
+      "added_to_existing_candidate_count": false
+    }
+  ]
+}

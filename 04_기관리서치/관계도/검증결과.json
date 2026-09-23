@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-09-09",
+  "stats": {
+    "date": "2026-09-09",
+    "central_roster": 63,
+    "designated": 342,
+    "subsidiary": 13,
+    "alio_reports": 355,
+    "local_public_roster": 423,
+    "local_invested_roster": 892,
+    "local_live_profiles": 1331,
+    "local_profiles_fetched": 1313,
+    "local_founding_fields": 882,
+    "local_roster_profile_matches": 1284,
+    "local_roster_profile_pending": 31,
+    "nondesignated_reference": 183,
+    "law_bodies": 412,
+    "ordinance_bodies": 498,
+    "ordinance_current_bodies": 497,
+    "curated_ts_relations": 15,
+    "agency_nodes": 1966,
+    "nodes": 3129,
+    "edges": 10488,
+    "full_coverage": false
+  },
+  "checks": {
+    "JSON 생성": "통과",
+    "ID 고유성": "통과",
+    "관계 참조 무결성": "통과",
+    "출처 참조 무결성": "통과",
+    "공공기관·부설기관 분리": "통과",
+    "지방 기준명단 1315개 보존": "통과",
+    "기관 항목별 미확인 대장 연결": "통과",
+    "법령 본문 시행일이 조사일 이내": "통과",
+    "미검증의 완료 승격 방지": "통과"
+  },
+  "legal_review": "전수·독립 법률검토 미실시",
+  "ui_review": "뷰어_검증결과.json 참조. 재생성 시 뷰어 생성·검증을 다시 실행할 것."
+}

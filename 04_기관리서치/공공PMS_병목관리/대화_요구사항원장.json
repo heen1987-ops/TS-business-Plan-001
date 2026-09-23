@@ -1,0 +1,666 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "PMS-RESEARCH-001",
+  "revision": "v0.2",
+  "checked_on": "2026-09-09",
+  "source_conversation_id": "6aa098d5-82b0-83e9-81af-668c665dc3b4",
+  "source_snapshot": "대화원문_2차.json",
+  "turns": [
+    {
+      "id": "PMS-T01",
+      "source_turn_id": "bbb21c3e-863e-4288-928c-d0638288caae",
+      "user_text": "공공 AI 플랫폼에 삽입할 내용으로 정보화사업이나 기타 다른 사업 ( 공공은 주로 외주를 주니까) PMS 즉, 프로젝트 매니징 시스템을 통해 각 법령과 지침을 가이드하고 일정( 일정별 산출물 체크 및 산출물 타당성) 진척도 관리등 엑셀이나 한글의 각각 다른 양식으로 인한 분절, 담당자가 직접 연락해야되는 추적 시스템등의 프로젝트의 병목이 보입"
+    },
+    {
+      "id": "PMS-T02",
+      "source_turn_id": "e91a338c-668d-45b7-95aa-a887b4ec0b0f",
+      "user_text": "거기다가 추가적으로 사용자의 만족도 조사도 기본으로 넣어서 현행 만족도와 피드백을 수렴하는 장치까지 구성하면 좋을 것같음 // 그리고 다음 고도화 스텝도 같이 담당자에게 가이드하는 로직이면 어떨까 // RFP등을 수립하는데 업체의 의견보다는 AI를 통한 객관적인 고도화등을 하기 위한 로직을"
+    },
+    {
+      "id": "PMS-T03",
+      "source_turn_id": "bbb211c7-6f45-4e41-8771-74a96d2ea464",
+      "user_text": "응 이게 음.. 업무 효율화 측면이기도 한데 기관에서 수주한 기업들의 평가를 객관적으로 하여 이해관계자간이나 특수관계자의 이득구조, 카르텔등의 사항을 줄이고, 변별력있고 투명한 사회구조를 수행하고자하는 거지 / 실제로는 수행기간중의 담당자의 프로젝트 진행도 리뷰 및 일자별 요구 문서 제출 태도, 요구문서의 질적평가 등이 수행되어 / 과제 진행중의 업체의 과업수행태도 및 실 산출물에 대한 만족도 조사까지 하여 추후 유사 사업 또는 신사업 수행시 다른 기관등이나 다른 담당자들이 배속되어도 업체에 정보를 시스템적으로 좀더 객관적으로 보게하는 툴인거지 \n담당자의 프로젝트관리도 편해질꺼니까"
+    },
+    {
+      "id": "PMS-T04",
+      "source_turn_id": "bbb21ad2-2599-4301-8ecc-13442be2964c",
+      "user_text": "이거면 다른데서도 가능하잖아 확대 가능성도 있고 / 담당자가 프로젝트 관리하고 어렵고/ 유지보수기간이라던지 등등.. 파악하기 편하고 연계성에 따라 컨소구성도 용이해지고( 공단이나 기관 특성상 담당이 바뀌니까 자주)"
+    },
+    {
+      "id": "PMS-T05",
+      "source_turn_id": "bbb21245-7a55-4ecc-bd02-2cab0f5cedb5",
+      "user_text": "그리고 감리원에서의 감리자격기준이 그렇게 높지않고 전문성이 떨어지는것같은데 감리업무도 추후에 추가 개발하년 될것같은데 ( 첫번째 감리업무는 정보화사업의 감리업무로)"
+    },
+    {
+      "id": "PMS-T06",
+      "source_turn_id": "bbb21e9b-ed38-465c-a57c-2348d336ad6c",
+      "user_text": "어떻게 해야할까"
+    },
+    {
+      "id": "PMS-T07",
+      "source_turn_id": "bbb219bd-bcd8-4efd-9463-5358487aeb6d",
+      "user_text": "LLM과 문서, 지침등으로 충분히 가능하다보는데 정보화사업등의 성공률도 올릴수있고 업체 레퍼런스 관리도 되니까"
+    },
+    {
+      "id": "PMS-T08",
+      "source_turn_id": "bbb2187d-9091-4cbd-9cfe-0277c9ff1404",
+      "user_text": "정보화사업에 관련된 산출물이나 기타 등등의 처리 로직과 사업 일정관리 (담당자/수행업체) 가 같이 관리하는 구조로"
+    },
+    {
+      "id": "PMS-T09",
+      "source_turn_id": "bbb21537-ac3f-4869-a622-0c3a4a421655",
+      "user_text": "제목과 필요성등의 육하원칙의 서류와 현행한계/ 기술적 접근 / 편의성 로직등으로 전체적인 구조를 잡아보자"
+    },
+    {
+      "id": "PMS-T10",
+      "source_turn_id": "bbb2105b-e2e2-47bd-896f-3af021166e16",
+      "user_text": "구현 예시까지 설계 및 아키텍처 구상"
+    }
+  ],
+  "requirements": [
+    {
+      "id": "PMS-R01",
+      "title": "공공 AI 플랫폼 내 사업관리 서비스",
+      "requirement": "공공 AI 플랫폼에 사업관리·문서·지침 기능을 탑재한다.",
+      "origin": "사용자 직접 발언에서 도출",
+      "turn_ids": [
+        "PMS-T01"
+      ],
+      "interpretation_limit": "공통 기반 재사용 범위는 계약 대조 전 미확정",
+      "proposed_phase": "기반",
+      "feature_id": "PMS-F01",
+      "design_id": "PMS-D01",
+      "acceptance_status": "요구 의도 확인·상세 수용기준 제안",
+      "implementation_status": "미구현",
+      "evidence_status": "대화상 요구 확인·실제 수요와 효과 미검증"
+    },
+    {
+      "id": "PMS-R02",
+      "title": "법령·지침과 이행기준",
+      "requirement": "사업·단계별 법령·지침을 확인하고 일정·산출물의 근거에 연결한다.",
+      "origin": "사용자 직접 발언에서 도출",
+      "turn_ids": [
+        "PMS-T01"
+      ],
+      "interpretation_limit": "자동 법적 판단은 요구로 확정하지 않음",
+      "proposed_phase": "1차",
+      "feature_id": "PMS-F02",
+      "design_id": "PMS-D02",
+      "acceptance_status": "요구 의도 확인·상세 수용기준 제안",
+      "implementation_status": "미구현",
+      "evidence_status": "대화상 요구 확인·실제 수요와 효과 미검증"
+    },
+    {
+      "id": "PMS-R03",
+      "title": "발주기관·수행업체 공동 일정",
+      "requirement": "양측의 산출물 처리와 사업 일정을 같은 업무공간에서 관리한다.",
+      "origin": "사용자 직접 발언에서 도출",
+      "turn_ids": [
+        "PMS-T01",
+        "PMS-T08"
+      ],
+      "interpretation_limit": "공유 범위와 확정 권한은 설계안",
+      "proposed_phase": "1차",
+      "feature_id": "PMS-F03",
+      "design_id": "PMS-D03",
+      "acceptance_status": "요구 의도 확인·상세 수용기준 제안",
+      "implementation_status": "미구현",
+      "evidence_status": "대화상 요구 확인·실제 수요와 효과 미검증"
+    },
+    {
+      "id": "PMS-R04",
+      "title": "산출물 처리와 타당성 검토",
+      "requirement": "일정별 산출물 제출·내용 타당성·검토·보완을 연결한다.",
+      "origin": "사용자 직접 발언에서 도출",
+      "turn_ids": [
+        "PMS-T01",
+        "PMS-T08"
+      ],
+      "interpretation_limit": "문서 검토와 실제 시험 검증 구분",
+      "proposed_phase": "1차",
+      "feature_id": "PMS-F04",
+      "design_id": "PMS-D04",
+      "acceptance_status": "요구 의도 확인·상세 수용기준 제안",
+      "implementation_status": "미구현",
+      "evidence_status": "대화상 요구 확인·실제 수요와 효과 미검증"
+    },
+    {
+      "id": "PMS-R05",
+      "title": "문서 분절·연락 추적 부담 완화",
+      "requirement": "한글·엑셀의 서로 다른 양식과 개별 연락으로 생기는 추적 부담을 줄인다.",
+      "origin": "사용자 직접 발언에서 도출",
+      "turn_ids": [
+        "PMS-T01"
+      ],
+      "interpretation_limit": "전 기관 공통 실태나 발생빈도 미검증",
+      "proposed_phase": "1차",
+      "feature_id": "PMS-F05",
+      "design_id": "PMS-D05",
+      "acceptance_status": "요구 의도 확인·상세 수용기준 제안",
+      "implementation_status": "미구현",
+      "evidence_status": "대화상 요구 확인·실제 수요와 효과 미검증"
+    },
+    {
+      "id": "PMS-R06",
+      "title": "현행 만족도·피드백 기본 수집",
+      "requirement": "현재 만족도와 사용자 피드백을 기본 기능으로 수집한다.",
+      "origin": "사용자 직접 발언에서 도출",
+      "turn_ids": [
+        "PMS-T02",
+        "PMS-T03"
+      ],
+      "interpretation_limit": "대상 집단·문항·조사 주기는 제안",
+      "proposed_phase": "1차",
+      "feature_id": "PMS-F06",
+      "design_id": "PMS-D06",
+      "acceptance_status": "요구 의도 확인·상세 수용기준 제안",
+      "implementation_status": "미구현",
+      "evidence_status": "대화상 요구 확인·실제 수요와 효과 미검증"
+    },
+    {
+      "id": "PMS-R07",
+      "title": "개선 방향·차기 RFP 지원",
+      "requirement": "피드백에서 고도화 방향과 RFP 기획의 판단 근거를 도출한다.",
+      "origin": "사용자 직접 발언에서 도출",
+      "turn_ids": [
+        "PMS-T02"
+      ],
+      "interpretation_limit": "AI 이용 자체의 객관성은 검증 가설",
+      "proposed_phase": "후속",
+      "feature_id": "PMS-F07",
+      "design_id": "PMS-D07",
+      "acceptance_status": "요구 의도 확인·상세 수용기준 제안",
+      "implementation_status": "미구현",
+      "evidence_status": "대화상 요구 확인·실제 수요와 효과 미검증"
+    },
+    {
+      "id": "PMS-R08",
+      "title": "공정성·투명성·이해관계 편향 감소",
+      "requirement": "기업 수행을 근거로 평가하여 관계 의존과 부당한 이득구조를 줄이는 데 기여한다.",
+      "origin": "사용자 직접 발언에서 도출",
+      "turn_ids": [
+        "PMS-T03"
+      ],
+      "interpretation_limit": "카르텔 감소는 사용자 목표이며 입증된 효과 아님",
+      "proposed_phase": "전 단계",
+      "feature_id": "PMS-F08",
+      "design_id": "PMS-D08",
+      "acceptance_status": "요구 의도 확인·상세 수용기준 제안",
+      "implementation_status": "미구현",
+      "evidence_status": "대화상 요구 확인·실제 수요와 효과 미검증"
+    },
+    {
+      "id": "PMS-R09",
+      "title": "수행 행동·산출물 품질의 지속 기록",
+      "requirement": "진행도, 제출·대응 행동, 산출물 품질과 만족도를 수행 중 기록한다.",
+      "origin": "사용자 직접 발언에서 도출",
+      "turn_ids": [
+        "PMS-T03"
+      ],
+      "interpretation_limit": "태도의 구체적 지표·평가 배점은 미확정",
+      "proposed_phase": "1차",
+      "feature_id": "PMS-F08",
+      "design_id": "PMS-D08",
+      "acceptance_status": "요구 의도 확인·상세 수용기준 제안",
+      "implementation_status": "미구현",
+      "evidence_status": "대화상 요구 확인·실제 수요와 효과 미검증"
+    },
+    {
+      "id": "PMS-R10",
+      "title": "담당자 인수인계·업무 연속성",
+      "requirement": "담당자가 바뀌어도 과업·결정·미결 책임·수행이력을 파악한다.",
+      "origin": "사용자 직접 발언에서 도출",
+      "turn_ids": [
+        "PMS-T03",
+        "PMS-T04"
+      ],
+      "interpretation_limit": "교체 빈도는 사용자 경험, 기관 전체 통계 아님",
+      "proposed_phase": "1차",
+      "feature_id": "PMS-F09",
+      "design_id": "PMS-D09",
+      "acceptance_status": "요구 의도 확인·상세 수용기준 제안",
+      "implementation_status": "미구현",
+      "evidence_status": "대화상 요구 확인·실제 수요와 효과 미검증"
+    },
+    {
+      "id": "PMS-R11",
+      "title": "유지관리 기간·책임 연결",
+      "requirement": "유지보수 기간과 관련 계약·책임·미결 사항을 확인한다.",
+      "origin": "사용자 직접 발언에서 도출",
+      "turn_ids": [
+        "PMS-T04"
+      ],
+      "interpretation_limit": "하자·유상 유지관리·제품지원 구분은 설계 보완",
+      "proposed_phase": "1차",
+      "feature_id": "PMS-F10",
+      "design_id": "PMS-D10",
+      "acceptance_status": "요구 의도 확인·상세 수용기준 제안",
+      "implementation_status": "미구현",
+      "evidence_status": "대화상 요구 확인·실제 수요와 효과 미검증"
+    },
+    {
+      "id": "PMS-R12",
+      "title": "기관·담당자 간 확산",
+      "requirement": "다른 기관이나 후임 담당자가 수행정보와 같은 기능을 활용할 수 있게 한다.",
+      "origin": "사용자 직접 발언에서 도출",
+      "turn_ids": [
+        "PMS-T03",
+        "PMS-T04"
+      ],
+      "interpretation_limit": "기능 재사용과 평가정보 공유의 조건은 각각 미확정",
+      "proposed_phase": "후속",
+      "feature_id": "PMS-F11",
+      "design_id": "PMS-D11",
+      "acceptance_status": "요구 의도 확인·상세 수용기준 제안",
+      "implementation_status": "미구현",
+      "evidence_status": "대화상 요구 확인·실제 수요와 효과 미검증"
+    },
+    {
+      "id": "PMS-R13",
+      "title": "컨소시엄·협업 역량 탐색",
+      "requirement": "사업의 연계성과 수행역량을 활용해 협업·컨소시엄 구성을 지원한다.",
+      "origin": "사용자 직접 발언에서 도출",
+      "turn_ids": [
+        "PMS-T04"
+      ],
+      "interpretation_limit": "기관 필요역량 정의와 기업 후보 탐색을 분리하는 안",
+      "proposed_phase": "후속",
+      "feature_id": "PMS-F12",
+      "design_id": "PMS-D12",
+      "acceptance_status": "요구 의도 확인·상세 수용기준 제안",
+      "implementation_status": "미구현",
+      "evidence_status": "대화상 요구 확인·실제 수요와 효과 미검증"
+    },
+    {
+      "id": "PMS-R14",
+      "title": "정보시스템 감리 후속 확장",
+      "requirement": "감리업무를 추후 개발하며 최초 범위는 정보화사업 감리로 한다.",
+      "origin": "사용자 직접 발언에서 도출",
+      "turn_ids": [
+        "PMS-T05"
+      ],
+      "interpretation_limit": "감리자격·전문성 우려는 사용자 의견; 일반화하지 않음",
+      "proposed_phase": "후속",
+      "feature_id": "PMS-F13",
+      "design_id": "PMS-D13",
+      "acceptance_status": "요구 의도 확인·상세 수용기준 제안",
+      "implementation_status": "미구현",
+      "evidence_status": "대화상 요구 확인·실제 수요와 효과 미검증"
+    },
+    {
+      "id": "PMS-R15",
+      "title": "LLM·문서·지침 중심 구현 접근",
+      "requirement": "기존 LLM과 사업 문서·지침을 활용하는 구현 가능성을 검토한다.",
+      "origin": "사용자 직접 발언에서 도출",
+      "turn_ids": [
+        "PMS-T07"
+      ],
+      "interpretation_limit": "충분히 가능하다는 판단은 사용자 가설; 실제 성능 미검증",
+      "proposed_phase": "1차",
+      "feature_id": "PMS-F14",
+      "design_id": "PMS-D14",
+      "acceptance_status": "요구 의도 확인·상세 수용기준 제안",
+      "implementation_status": "미구현",
+      "evidence_status": "대화상 요구 확인·실제 수요와 효과 미검증"
+    },
+    {
+      "id": "PMS-R16",
+      "title": "정보화사업 성공 지원",
+      "requirement": "누락·지연을 수행 중 발견·조치하여 사업 성공 가능성을 높인다.",
+      "origin": "사용자 직접 발언에서 도출",
+      "turn_ids": [
+        "PMS-T07"
+      ],
+      "interpretation_limit": "성공률 증가 효과 미측정",
+      "proposed_phase": "전 단계",
+      "feature_id": "PMS-F15",
+      "design_id": "PMS-D15",
+      "acceptance_status": "요구 의도 확인·상세 수용기준 제안",
+      "implementation_status": "미구현",
+      "evidence_status": "대화상 요구 확인·실제 수요와 효과 미검증"
+    },
+    {
+      "id": "PMS-R17",
+      "title": "업체 레퍼런스 관리",
+      "requirement": "사업관리 기록을 실제 수행역량을 보여주는 업체 레퍼런스로 축적한다.",
+      "origin": "사용자 직접 발언에서 도출",
+      "turn_ids": [
+        "PMS-T03",
+        "PMS-T07"
+      ],
+      "interpretation_limit": "확인된 레퍼런스의 축적은 초기, 고도화 분석·외부 공유는 후속",
+      "proposed_phase": "1차",
+      "feature_id": "PMS-F08",
+      "design_id": "PMS-D08",
+      "acceptance_status": "요구 의도 확인·상세 수용기준 제안",
+      "implementation_status": "미구현",
+      "evidence_status": "대화상 요구 확인·실제 수요와 효과 미검증"
+    },
+    {
+      "id": "PMS-R18",
+      "title": "육하원칙 중심 사업 서류",
+      "requirement": "제목·필요성·육하원칙·현행 한계·기술적 접근·편의성 로직으로 전체 구조를 작성한다.",
+      "origin": "사용자 직접 발언에서 도출",
+      "turn_ids": [
+        "PMS-T09"
+      ],
+      "interpretation_limit": "사업명과 세부 단계의 최종 승인 미확인",
+      "proposed_phase": "문서",
+      "feature_id": "PMS-DOC01",
+      "design_id": "PMS-D16",
+      "acceptance_status": "요구 의도 확인·상세 수용기준 제안",
+      "implementation_status": "미구현",
+      "evidence_status": "대화상 요구 확인·실제 수요와 효과 미검증"
+    },
+    {
+      "id": "PMS-R19",
+      "title": "구현 예시·설계·아키텍처 구상",
+      "requirement": "구현 사례, 논리 아키텍처, 데이터·상태·API를 연결해 구체화한다.",
+      "origin": "사용자 직접 발언에서 도출",
+      "turn_ids": [
+        "PMS-T10"
+      ],
+      "interpretation_limit": "참조 대화의 과거 요청을 구조화; 이번에는 실제 제품 구현을 실행하지 않음",
+      "proposed_phase": "문서",
+      "feature_id": "PMS-DOC02",
+      "design_id": "PMS-D17",
+      "acceptance_status": "요구 의도 확인·상세 수용기준 제안",
+      "implementation_status": "미구현",
+      "evidence_status": "대화상 요구 확인·실제 수요와 효과 미검증"
+    },
+    {
+      "id": "PMS-R20",
+      "title": "실행 순서와 진입 범위",
+      "requirement": "넓어진 구상을 어떤 순서로 추진할지 정리한다.",
+      "origin": "사용자 직접 발언에서 도출",
+      "turn_ids": [
+        "PMS-T06"
+      ],
+      "interpretation_limit": "단계별 범위는 AI 제안·이번 정리안으로 사용자 확정과 구별",
+      "proposed_phase": "문서",
+      "feature_id": "PMS-DOC03",
+      "design_id": "PMS-D18",
+      "acceptance_status": "요구 의도 확인·상세 수용기준 제안",
+      "implementation_status": "미구현",
+      "evidence_status": "대화상 요구 확인·실제 수요와 효과 미검증"
+    }
+  ],
+  "designs": [
+    {
+      "id": "PMS-D01",
+      "title": "기존 계정·문서·검색·LLM 기반 연계",
+      "proposal": "공통 플랫폼 재구축 없이 항목별 재사용·신규 구현을 확인한다.",
+      "origin": "참조 대화 AI 제안의 정리",
+      "turn_ids": [
+        "PMS-T09",
+        "PMS-T10"
+      ],
+      "approval_status": "사용자 최종 승인 미확인",
+      "implementation_status": "실행·실증 미확인"
+    },
+    {
+      "id": "PMS-D02",
+      "title": "완료조건이 있는 의무 관리",
+      "proposal": "법정·계약·내부·권고 기준과 적용시점·예외·완료증빙을 연결한다.",
+      "origin": "참조 대화 AI 제안의 정리",
+      "turn_ids": [
+        "PMS-T08",
+        "PMS-T09",
+        "PMS-T10"
+      ],
+      "approval_status": "사용자 최종 승인 미확인",
+      "implementation_status": "실행·실증 미확인"
+    },
+    {
+      "id": "PMS-D03",
+      "title": "네 종류 일정·선후행·양측 대기",
+      "proposal": "최초·현재 승인·예상·실제 날짜와 기관/업체 일정을 별도로 보존한다.",
+      "origin": "참조 대화 AI 제안의 정리",
+      "turn_ids": [
+        "PMS-T08",
+        "PMS-T09",
+        "PMS-T10"
+      ],
+      "approval_status": "사용자 최종 승인 미확인",
+      "implementation_status": "실행·실증 미확인"
+    },
+    {
+      "id": "PMS-D04",
+      "title": "산출물 상태·분석 상태·검수 상태 분리",
+      "proposal": "AI 분석 실패로 제출을 취소하지 않고 현재본 검토·승인 일치를 확인한다.",
+      "origin": "참조 대화 AI 제안의 정리",
+      "turn_ids": [
+        "PMS-T08",
+        "PMS-T10"
+      ],
+      "approval_status": "사용자 최종 승인 미확인",
+      "implementation_status": "실행·실증 미확인"
+    },
+    {
+      "id": "PMS-D05",
+      "title": "업무함·원문 위치·한 사건의 연계 반영",
+      "proposal": "사용자의 한 처리 결과에서 산출물·일정·업무·이력을 함께 갱신한다.",
+      "origin": "참조 대화 AI 제안의 정리",
+      "turn_ids": [
+        "PMS-T08",
+        "PMS-T09",
+        "PMS-T10"
+      ],
+      "approval_status": "사용자 최종 승인 미확인",
+      "implementation_status": "실행·실증 미확인"
+    },
+    {
+      "id": "PMS-D06",
+      "title": "네 종류 만족도·피드백 구분",
+      "proposal": "기관 협업·업무사용자 산출물·최종 서비스·PMS 사용성을 나눠 수집한다.",
+      "origin": "참조 대화 AI 제안의 정리",
+      "turn_ids": [
+        "PMS-T09",
+        "PMS-T10"
+      ],
+      "approval_status": "사용자 최종 승인 미확인",
+      "implementation_status": "실행·실증 미확인"
+    },
+    {
+      "id": "PMS-D07",
+      "title": "피드백의 문제·원인·계약·대안 비교",
+      "proposal": "현 계약 보완·운영 개선·신규 투자 경로를 비교한 뒤 RFP를 작성한다.",
+      "origin": "참조 대화 AI 제안의 정리",
+      "turn_ids": [
+        "PMS-T02",
+        "PMS-T09",
+        "PMS-T10"
+      ],
+      "approval_status": "사용자 최종 승인 미확인",
+      "implementation_status": "실행·실증 미확인"
+    },
+    {
+      "id": "PMS-D08",
+      "title": "맥락 있는 수행 프로필·소명·정정",
+      "proposal": "기업×사업×실제 역할×평가시점 단위로 사실과 의견을 분리한다.",
+      "origin": "참조 대화 AI 제안의 정리",
+      "turn_ids": [
+        "PMS-T03",
+        "PMS-T07",
+        "PMS-T09",
+        "PMS-T10"
+      ],
+      "approval_status": "사용자 최종 승인 미확인",
+      "implementation_status": "실행·실증 미확인"
+    },
+    {
+      "id": "PMS-D09",
+      "title": "상시 인수인계·권한 이관",
+      "proposal": "과거 작성·승인은 보존하고 현재 역할·미결 조치를 새 담당자에게 연결한다.",
+      "origin": "참조 대화 AI 제안의 정리",
+      "turn_ids": [
+        "PMS-T04",
+        "PMS-T10"
+      ],
+      "approval_status": "사용자 최종 승인 미확인",
+      "implementation_status": "실행·실증 미확인"
+    },
+    {
+      "id": "PMS-D10",
+      "title": "계약별 기산조건·지원범위·미결 조치",
+      "proposal": "기산 사건 미확정 상태에서 종료일을 임의 계산하지 않는다.",
+      "origin": "참조 대화 AI 제안의 정리",
+      "turn_ids": [
+        "PMS-T04",
+        "PMS-T10"
+      ],
+      "approval_status": "사용자 최종 승인 미확인",
+      "implementation_status": "실행·실증 미확인"
+    },
+    {
+      "id": "PMS-D11",
+      "title": "공통 기능 재사용·기관별 규칙과 권한",
+      "proposal": "기관 간 평가정보 공유는 기능 설치와 다른 결정으로 남긴다.",
+      "origin": "참조 대화 AI 제안의 정리",
+      "turn_ids": [
+        "PMS-T04",
+        "PMS-T09",
+        "PMS-T10"
+      ],
+      "approval_status": "사용자 최종 승인 미확인",
+      "implementation_status": "실행·실증 미확인"
+    },
+    {
+      "id": "PMS-D12",
+      "title": "필요역량 정의와 협력 후보 탐색 구분",
+      "proposal": "적법한 정보에서 실제 역할·보완역량을 확인한다.",
+      "origin": "참조 대화 AI 제안의 정리",
+      "turn_ids": [
+        "PMS-T04",
+        "PMS-T09",
+        "PMS-T10"
+      ],
+      "approval_status": "사용자 최종 승인 미확인",
+      "implementation_status": "실행·실증 미확인"
+    },
+    {
+      "id": "PMS-D13",
+      "title": "감리 지원 및 감리품질 검토",
+      "proposal": "점검·증빙·시정·재검증과 감리의 판단 근거를 별도 권한으로 연결한다.",
+      "origin": "참조 대화 AI 제안의 정리",
+      "turn_ids": [
+        "PMS-T05",
+        "PMS-T09",
+        "PMS-T10"
+      ],
+      "approval_status": "사용자 최종 승인 미확인",
+      "implementation_status": "실행·실증 미확인"
+    },
+    {
+      "id": "PMS-D14",
+      "title": "업무서버·AI 작업자·원본·업무 DB 분리",
+      "proposal": "파싱·권한검색·항목별 LLM 검토는 비동기, 업무 상태는 구조화된 기록으로 관리한다.",
+      "origin": "참조 대화 AI 제안의 정리",
+      "turn_ids": [
+        "PMS-T07",
+        "PMS-T10"
+      ],
+      "approval_status": "사용자 최종 승인 미확인",
+      "implementation_status": "실행·실증 미확인"
+    },
+    {
+      "id": "PMS-D15",
+      "title": "세 종류 성공 구분",
+      "proposal": "이행 성공·결과물 성공·활용 성공을 구분한다.",
+      "origin": "참조 대화 AI 제안의 정리",
+      "turn_ids": [
+        "PMS-T07"
+      ],
+      "approval_status": "사용자 최종 승인 미확인",
+      "implementation_status": "실행·실증 미확인"
+    },
+    {
+      "id": "PMS-D16",
+      "title": "육하원칙·편의성·전주기 사업 정의",
+      "proposal": "전체 사업 서류를 목적→한계→공동처리→근거→후속활용 순으로 정리한다.",
+      "origin": "참조 대화 AI 제안의 정리",
+      "turn_ids": [
+        "PMS-T09"
+      ],
+      "approval_status": "사용자 최종 승인 미확인",
+      "implementation_status": "실행·실증 미확인"
+    },
+    {
+      "id": "PMS-D17",
+      "title": "버전·중복방지·후속작업·배포경계",
+      "proposal": "API 예시와 파일/DB 대사·승인 충돌·내외부 접근을 설계한다.",
+      "origin": "참조 대화 AI 제안의 정리",
+      "turn_ids": [
+        "PMS-T10"
+      ],
+      "approval_status": "사용자 최종 승인 미확인",
+      "implementation_status": "실행·실증 미확인"
+    },
+    {
+      "id": "PMS-D18",
+      "title": "완결 흐름 우선·후속 확장 조건",
+      "proposal": "한 산출물의 끝까지 처리와 기본 레퍼런스·피드백을 초기 범위에 둔다.",
+      "origin": "참조 대화 AI 제안의 정리",
+      "turn_ids": [
+        "PMS-T06",
+        "PMS-T09",
+        "PMS-T10"
+      ],
+      "approval_status": "사용자 최종 승인 미확인",
+      "implementation_status": "실행·실증 미확인"
+    }
+  ],
+  "unverified_claims": [
+    {
+      "id": "PMS-C01",
+      "turn_ids": [
+        "PMS-T07"
+      ],
+      "claim": "LLM·문서·지침으로 충분한 구현 가능성 및 사업 성공률 향상",
+      "status": "사용자 기대·AI 동의 표현. 실증 검증 아님"
+    },
+    {
+      "id": "PMS-C02",
+      "turn_ids": [
+        "PMS-T05"
+      ],
+      "claim": "감리자격 수준·전문성에 대한 우려",
+      "status": "사용자 의견. 감리원 전체의 전문성 결론 아님"
+    },
+    {
+      "id": "PMS-C03",
+      "turn_ids": [
+        "PMS-T10"
+      ],
+      "claim": "HTML 시제품 및 데이터·설계 산출물 생성",
+      "status": "참조 AI 작성 주장. content-reference 8·9·10만 확인, attachments 배열 비어 있음; 실물 미확보"
+    },
+    {
+      "id": "PMS-C04",
+      "turn_ids": [
+        "PMS-T10"
+      ],
+      "claim": "시제품 화면·상태 분기 24개 브라우저 점검",
+      "status": "참조 AI의 실행 주장. 이번 작업에서 재실행·검증하지 않음"
+    },
+    {
+      "id": "PMS-C05",
+      "turn_ids": [
+        "PMS-T10"
+      ],
+      "claim": "동시 사용자100·p95 2초·보고값1.6초, 시연용 일정",
+      "status": "가상 사례 수치. TS 실제 요구·실적·성능목표로 사용하지 않음"
+    },
+    {
+      "id": "PMS-C06",
+      "turn_ids": [
+        "PMS-T08",
+        "PMS-T09",
+        "PMS-T10"
+      ],
+      "claim": "새로 인용한 법조항·특정 기술제품 기능·효과",
+      "status": "대화에 있는 설명으로만 수록. 기존 조사에서 직접 확인하지 않은 인용은 미검증"
+    }
+  ],
+  "phase_note": "개발 순서와 후속 배치는 AI·이번 구조화 제안. 핵심 요구의 삭제 또는 기관 승인으로 해석하지 않음."
+}

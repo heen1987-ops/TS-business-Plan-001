@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 790" role="img" aria-labelledby="title desc">
+<title id="title">CCK 검사·검증 엔진과 Public AI-PMS의 연결 구조</title>
+<desc id="desc">상단에 기관·수행사·감리사의 업무 서비스, 가운데에 분야별 기준과 공통 검사·검증 엔진, 하단에 데이터·연계 기반이 있다. AI는 검사 후보를 만들고, 확정권한은 사람에게 있다. 후속 분야는 별도 검증이 필요하다.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1 8 5 0 9" fill="none" stroke="#527080" stroke-width="1.5"/></marker></defs>
+<rect width="1120" height="790" fill="#ffffff"/>
+<g font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif" fill="#142c40">
+<text x="32" y="39" font-size="25" font-weight="700">업무 서비스와 검사 엔진을 분리하는 구조</text>
+<text x="32" y="68" font-size="17" fill="#526778">설계 제안 · 실제 제품 구성·연계·기관 승인은 미확정</text>
+<rect x="32" y="94" width="1056" height="122" rx="12" fill="#eff4fa" stroke="#c4d2df"/>
+<text x="54" y="130" font-size="18" fill="#355c7f">01  업무 서비스</text>
+<text x="54" y="167" font-size="28" font-weight="700">Public AI-PMS</text>
+<text x="354" y="155" font-size="23">기관·수행사 공동 일정 · 제출·보완·승인</text>
+<text x="354" y="187" font-size="20">수행이력 · 인수인계 · 유지관리 · 감리 · 후속 기획</text>
+<path d="M560 218V248" stroke="#527080" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="32" y="260" width="1056" height="92" rx="12" fill="#fafbfc" stroke="#c4d2df"/>
+<text x="54" y="292" font-size="18" fill="#355c7f">분야별 기준팩</text>
+<text x="54" y="326" font-size="22" font-weight="700">정보화사업·감리 기준</text>
+<text x="429" y="326" font-size="20">회계감사 · 내부감사 · 기타 검사: 후속 검토</text>
+<path d="M560 354V384" stroke="#527080" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="32" y="396" width="1056" height="184" rx="12" fill="#e7f5f2" stroke="#8cc3b9"/>
+<text x="54" y="431" font-size="18" fill="#00675e">02  공통 검사·검증 엔진</text>
+<g font-size="23" font-weight="700">
+<text x="65" y="482">기준·의무</text><text x="263" y="482">증거 연결</text><text x="461" y="482">검사 후보</text><text x="659" y="482">사람 검토</text><text x="857" y="482">조치·재검증</text>
+</g>
+<g stroke="#527080" stroke-width="2" marker-end="url(#arrow)"><path d="M192 475H236"/><path d="M390 475H434"/><path d="M588 475H632"/><path d="M790 475H835"/></g>
+<path d="M963 512V531H118V512" fill="none" stroke="#527080" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="376" y="557" font-size="19">판단 근거 · 소명·정정 · 버전 · 권한 · 이력 보존</text>
+<path d="M560 582V612" stroke="#527080" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="32" y="624" width="1056" height="104" rx="12" fill="#eff4fa" stroke="#c4d2df"/>
+<text x="54" y="658" font-size="18" fill="#355c7f">03  데이터·연계 기반</text>
+<text x="54" y="697" font-size="22">원본·제출 버전 · 업무 DB · 권한 검색 · 비동기 분석 · 기존 계약·결재 연계</text>
+<text x="32" y="768" font-size="19" fill="#526778">AI 분석과 업무상태는 분리합니다. 공식 판단·감리의견은 권한 있는 사람이 확정합니다.</text>
+</g>
+</svg>
+

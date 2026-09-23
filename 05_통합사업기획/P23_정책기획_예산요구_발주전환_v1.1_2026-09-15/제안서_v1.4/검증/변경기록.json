@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-15T11:07:19.108Z",
+  "destination": "G:\\내 드라이브\\1. 업무영역\\6. CCK\\1. 사업관리\\TS\\bizops\\[TS 사업기획]\\05_통합사업기획\\P23_정책기획_예산요구_발주전환_v1.1_2026-09-15\\제안서_v1.4",
+  "existingFilesModified": [
+    {
+      "path": "00_여기서_시작.html",
+      "before": "93e89b3700126307f2f8c8bf14d350df3d2b09a237003695f43a458d5ee8454a",
+      "after": "644ad4edb9bd95b54d1e2ff3bf487c8d73172d08170aed9013db120bfd7c14e9"
+    },
+    {
+      "path": "00_여기서_시작.md",
+      "before": "4a8a7a6ce31048bfe6ae6d709e6868ae0e069517a7a578f98d023f7d2510387e",
+      "after": "ae171f20b44f111fc165bbc09845699e4b4d56820eeea13397e0a942c009f3c9"
+    },
+    {
+      "path": "README.md",
+      "before": "31f7e5667031140fd4426785a2b5a021e971706aaf6953f5516d273c12120109",
+      "after": "e9b69034884e52cce18f25d7e8f56a627faaf890b0c091b6aa6f20781bca55d8"
+    }
+  ],
+  "newFiles": [
+    {
+      "path": "00_P23_도입제안서.html",
+      "bytes": 70992,
+      "sha256": "34a01f86f525224666cd1d96a274d12d21652cfe8d26b0422c902bca4bac7890"
+    },
+    {
+      "path": "assets/proposal.css",
+      "bytes": 8283,
+      "sha256": "498efbc396f20250d69b263d8d7b1e7f4c35003743eb34ec209e8d5de53e2c99"
+    },
+    {
+      "path": "assets/proposal.js",
+      "bytes": 730,
+      "sha256": "13265663ec02dfb5b0a248da23ba0d8e27285a63b2b989ba00cb8caf82c4ebcc"
+    },
+    {
+      "path": "assets/전체_서비스컨셉.png",
+      "bytes": 1952205,
+      "sha256": "ee39f96db5b4731ed4fff44276302b5c23eea79b7577e7fc8ed1f39e5cfab99d"
+    },
+    {
+      "path": "assets/표지_협업컨셉.png",
+      "bytes": 1836677,
+      "sha256": "683f03a314d5579339b4fe98a38f9e265865385e484c9575e502135f6b9b6c87"
+    },
+    {
+      "path": "diagrams/architecture.svg",
+      "bytes": 6587,
+      "sha256": "1215fc68fe90e6cc1a0716608c943fe347dd1a1331a17c8019f0c08381e98ecd"
+    },
+    {
+      "path": "diagrams/concept.svg",
+      "bytes": 4827,
+      "sha256": "0cd47030325ad020a257bfcbc04f8f251a43eb7a3863fbc575008e977db0de46"
+    },
+    {
+      "path": "diagrams/data.svg",
+      "bytes": 4938,
+      "sha256": "b864fc76516626f0c34194863e62477f016aa0b92e76a6ae01ab5ccc5ea4faf4"
+    },
+    {
+      "path": "diagrams/service.svg",
+      "bytes": 5851,
+      "sha256": "c7fc07f3985e7663c882504eb2c51d5522ee9ab22ed288092874f74179c1159f"
+    },
+    {
+      "path": "P23_도입제안서.md",
+      "bytes": 34071,
+      "sha256": "951aebd1c77b4d7937bfdd2c9314743cf0af2ea00d83b55b2b682798a18af184"
+    },
+    {
+      "path": "README.md",
+      "bytes": 555,
+      "sha256": "fb922ee1c944c027db07320a879b25295c7e48a5fbda252eb01c37d18662c127"
+    },
+    {
+      "path": "검증/검증결과.json",
+      "bytes": 1602,
+      "sha256": "813b3371173eba47560fa3f8cbb35d3e7e84e717b4d5f4b5970a41d0958d84db"
+    },
+    {
+      "path": "검증/검토와_검증.md",
+      "bytes": 3374,
+      "sha256": "11f76f5805a7b65aa952135d1b666dcb6a38aabae2c805fc90372a644a74f8fc"
+    },
+    {
+      "path": "검증/변경전/00_여기서_시작.html.txt",
+      "bytes": 20148,
+      "sha256": "93e89b3700126307f2f8c8bf14d350df3d2b09a237003695f43a458d5ee8454a"
+    },
+    {
+      "path": "검증/변경전/00_여기서_시작.md.txt",
+      "bytes": 8237,
+      "sha256": "4a8a7a6ce31048bfe6ae6d709e6868ae0e069517a7a578f98d023f7d2510387e"
+    },
+    {
+      "path": "검증/변경전/README.md.txt",
+      "bytes": 3086,
+      "sha256": "31f7e5667031140fd4426785a2b5a021e971706aaf6953f5516d273c12120109"
+    },
+    {
+      "path": "비용산정_참조원장.json",
+      "bytes": 3770,
+      "sha256": "2235f6215cb9deedb740a061aef560a5cb76b7f87d31ab11366c51102850582b"
+    }
+  ]
+}

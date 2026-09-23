@@ -1,0 +1,62 @@
+{
+  "date": "2026-09-15",
+  "existing_files_overwritten": 0,
+  "deleted_files": 0,
+  "root_pointer": {
+    "path": "G:\\내 드라이브\\1. 업무영역\\6. CCK\\1. 사업관리\\TS\\bizops\\[TS 사업기획]\\00_공공PMS_여기서_시작.md",
+    "sha256": "74B1970202658C230D55C4800A9D80451D15AA54A65E59090216ED13C8C4A67A"
+  },
+  "target": "G:\\내 드라이브\\1. 업무영역\\6. CCK\\1. 사업관리\\TS\\bizops\\[TS 사업기획]\\05_통합사업기획\\공공PMS_서비스기획_통합정리_2026-09-15",
+  "cloud_sync_verified": false,
+  "copied_files": 8,
+  "files": [
+    {
+      "match": true,
+      "file": "01_자료목록.md",
+      "bytes": 8626,
+      "sha256": "0317609FC27E921B1B82BBD8586BC44E81A25674AD8A543A896055B47F3390F0"
+    },
+    {
+      "match": true,
+      "file": "02_후속설계_작업목록.md",
+      "bytes": 3295,
+      "sha256": "EBEE69716FE87E6F7B9890EDEEE07624B2F98F2AA70D06C25DBE386354419392"
+    },
+    {
+      "match": true,
+      "file": "03_원본자료_목록과해시.json",
+      "bytes": 26522,
+      "sha256": "40B28A7A815BCDF264068D4FF2255169EB90353378DB08710BABED53082B77D9"
+    },
+    {
+      "match": true,
+      "file": "04_정리검증.md",
+      "bytes": 1781,
+      "sha256": "6EB954E64291A445600F73D8396B67BCC30F47727E3BDBF16DED248B2648E943"
+    },
+    {
+      "match": true,
+      "file": "05_정리검증_원장.json",
+      "bytes": 824,
+      "sha256": "9563AF2F7CE7AFE79765BA8D482D7BF03E2F141DE4A8D007C0ABB161DE4E26F7"
+    },
+    {
+      "match": true,
+      "file": "공공PMS_서비스모델과_설계현황_통합정리_v0.1.docx",
+      "bytes": 45281,
+      "sha256": "5EB74B4275D37750A0BD7B7892597B369439DB3AB3DF8EE971A4972A9409140E"
+    },
+    {
+      "match": true,
+      "file": "공공PMS_서비스모델과_설계현황_통합정리_v0.1.md",
+      "bytes": 15865,
+      "sha256": "DBFA63DB9D597F872BE3D300108C86E4BC0FDA3097201EFE19C368944AD77A1F"
+    },
+    {
+      "match": true,
+      "file": "README.md",
+      "bytes": 1657,
+      "sha256": "1CD73BE3BD6EE42B334AD25442405B8CDC80F9893BCCC4D173C2DBAEEDA2F7F4"
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "date": "2026-09-10",
+  "scope": "설명자료 기능·계산·참조·반응형 자체 검사. 실제 PMS·AI·감리·사회경제 효과 실증 아님.",
+  "browser": "Microsoft Edge / Playwright",
+  "passed": true,
+  "count": 50,
+  "checks": [
+    {
+      "name": "산출물 무결성 CCK_Public_AI_PMS_설명서.html",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "산출물 무결성 CCK_Public_AI_PMS_설명서.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "산출물 무결성 CCK_Public_AI_PMS_아키텍처.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "기존 원장·문서 보존",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "생성 입력과 산출물의 일치",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "기존 10건 발언·원본 ID 일치",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "15건 발언·신규 5건·기능 17건",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Markdown의 기능·신규 요구 연결",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "제목·언어·핵심 정의",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "기능 17개·단계 7개",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "기본 계산 289시간·14,450만원·차이5,116.7만원",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "단계 선택 1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "단계 선택 2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "단계 선택 3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "단계 선택 4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "단계 선택 5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "단계 선택 6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "단계 선택 7",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "키보드 단계 선택",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "분석 실패 접수 유지 설명",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "소명·정정 재사용 설명",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "사업 수 변경 반영",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "추가업무가 큰 경우 음수 유지",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "사업 0건·비용만 남는 경우",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "배분기간 0 차단",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "100% 초과 감소율 차단",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "빈 입력 오류·이전 결과 숨김",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "전체 초기화",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "계산 산식 12개 조합 독립 대조",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "목차 내부 대상 존재",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "HTML 로컬 링크 존재",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Markdown 로컬 링크 존재",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "중복 ID 없음",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "입력·선택·버튼 접근 가능한 이름",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "가로 넘침 없음 320",
+      "pass": true,
+      "detail": {
+        "width": 320,
+        "scroll": 320,
+        "body": 320
+      }
+    },
+    {
+      "name": "가로 넘침 없음 390",
+      "pass": true,
+      "detail": {
+        "width": 390,
+        "scroll": 390,
+        "body": 390
+      }
+    },
+    {
+      "name": "가로 넘침 없음 768",
+      "pass": true,
+      "detail": {
+        "width": 768,
+        "scroll": 768,
+        "body": 768
+      }
+    },
+    {
+      "name": "가로 넘침 없음 1500",
+      "pass": true,
+      "detail": {
+        "width": 1500,
+        "scroll": 1500,
+        "body": 1500
+      }
+    },
+    {
+      "name": "200% 확대 본문 범위",
+      "pass": true,
+      "detail": {
+        "width": 1500,
+        "right": 1500
+      }
+    },
+    {
+      "name": "키보드 목차 이동",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "키보드 포커스 표시",
+      "pass": true,
+      "detail": {
+        "style": "solid",
+        "width": "3px"
+      }
+    },
+    {
+      "name": "인쇄 7단계 모두 표시",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "인쇄 상세 내용 펼침",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "인쇄 조작 버튼 숨김",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "인쇄 후 원래 상세상태 복원",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "모바일 상단 복귀 시 목차 동기화",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "실행 중 외부 요청 없음",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "JavaScript 오류 없음",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "JavaScript 비활성 본문·7단계·고정 계산",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "주요 본문·메타 색상 대비 4.5 이상",
+      "pass": true,
+      "detail": [
+        {
+          "colors": [
+            "16334a",
+            "f3f6fa"
+          ],
+          "ratio": 12.059343880601874
+        },
+        {
+          "colors": [
+            "536a7b",
+            "ffffff"
+          ],
+          "ratio": 5.652111398197786
+        },
+        {
+          "colors": [
+            "006f65",
+            "f3f6fa"
+          ],
+          "ratio": 5.596588283493784
+        },
+        {
+          "colors": [
+            "c5d8e5",
+            "102b41"
+          ],
+          "ratio": 9.922921301847698
+        },
+        {
+          "colors": [
+            "d9e6f0",
+            "102b41"
+          ],
+          "ratio": 11.446201046378906
+        },
+        {
+          "colors": [
+            "805013",
+            "fff2dc"
+          ],
+          "ratio": 6.175000111563171
+        }
+      ]
+    }
+  ],
+  "visual_review": "스크린샷 생성 완료. 직접 시각 검토 결과는 설명자료_검증.md에 별도 기록."
+}

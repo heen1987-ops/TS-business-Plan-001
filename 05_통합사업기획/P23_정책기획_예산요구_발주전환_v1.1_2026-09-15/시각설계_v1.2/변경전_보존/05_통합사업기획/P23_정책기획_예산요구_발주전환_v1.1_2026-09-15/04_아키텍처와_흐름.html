@@ -1,0 +1,92 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>로컬 LLM 기반 구성과 검토 흐름 | P23 정책기획</title><link rel="stylesheet" href="자산/report.css"></head><body><a class="skip" href="#main">본문으로 이동</a><aside><small>CCK · NOA × TS</small><div class="brand">정책·예산·발주<br>기획지원</div><nav aria-label="설명자료 목차"><a href="00_기획_전체보기.html" >00 근거에서 예산·발주까지</a><a href="01_자료와_문제정의.html" >01 부서가 함께 보는 문제와 근거</a><a href="02_사업과_예산요구.html" >02 문제정의를 예산 설명으로</a><a href="03_양식과_필드매핑.html" >03 하나의 사업원장에서 여러 문서로</a><a href="04_아키텍처와_흐름.html" aria-current="page">04 로컬 LLM 기반 구성과 검토 흐름</a><a href="05_RFP와_공고전환.html" >05 승인된 사업을 발주 가능한 요구로</a><a href="06_요구사항과_검증.html" >06 무엇을 만들고 어떻게 확인할 것인가</a><a href="07_비용과_도입계획.html" >07 확장 범위와 추가 개발비</a><a href="08_문서전환_시연.html" >08 사업원장 → 문서 초안 시연</a><div class="formnav"><a href="서식/F01_문제정의_정책사업_검토서.html" >F01 문제정의·정책사업 검토서</a><a href="서식/F02_예산요구_사업설명자료.html" >F02 예산 요구·사업설명자료</a><a href="서식/F03_2027_신규사업_리스트.html" >F03 2027 신규사업 리스트 작성지원</a><a href="서식/F04_발주기관_RFP_초안.html" >F04 발주기관 RFP 초안</a><a href="서식/F05_공고작성_인계서.html" >F05 공고 작성 인계서</a><a href="서식/F06_심의질의_답변보완표.html" >F06 예산 심의 질의응답·보완표</a></div></nav></aside><div class="shell"><header><div class="eyebrow">POLICY PLANNING / P23 v1.1</div><h1>로컬 LLM 기반 구성과 검토 흐름</h1><p class="lead">기존 서버 위에 논리 모듈을 연결하는 제안 설계</p><div class="meta"><span>기존 서버 · 로컬 LLM</span><span>신규 인프라 0원</span><span>기획·초안 · 실증 전</span></div></header><main id="main" tabindex="-1"><h2>전체 아키텍처</h2>
+<p><img src="%EC%9E%90%EC%82%B0/architecture.svg" alt="전체 논리 아키텍처"></p>
+<p>표시한 모듈은 새 장비 수량을 의미하지 않는다. 외부 자료는 승인된 반입 경로를 통해 로컬 저장소에 넣고 내부 문서·질문·임베딩·모델 입력을 외부 LLM으로 전송하지 않는 구성이다. 인터넷 수집이 허용되지 않는 환경에서는 제공 파일 반입 방식으로 작동한다.</p>
+<div class="tablewrap" tabindex="0" role="region" aria-label="좌우로 이동 가능한 표"><table>
+<thead>
+<tr>
+<th>역할</th>
+<th>재사용 후보</th>
+<th>추가 구현·검증</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>문서 의미 파악·근거 검색</td>
+<td>NOA, TA01 Argus, TA20 RAG 관련 자산</td>
+<td>근거 카드·문제 틀·부서별 권한 필터·평가셋</td>
+</tr>
+<tr>
+<td>실행·도구 연결</td>
+<td>TA02 Keeper·TA03 Nexus 관련 자산</td>
+<td>허용 도구·실패 처리·단계별 결과 저장; 사람 검토의 중단·재개 기능은 신규 구현 가정</td>
+</tr>
+<tr>
+<td>양식 출력</td>
+<td>TA18 docsmith 및 python-hwpx 활용 후보</td>
+<td>서식 등록·확정 매핑·HWPX 어댑터·렌더 검수</td>
+</tr>
+<tr>
+<td>숫자·규칙</td>
+<td>기존 산정 산식과 통상적인 SW 개발</td>
+<td>연차·단위·누락값·증감·범위 일치 검사; LLM 산술에 의존하지 않음</td>
+</tr>
+<tr>
+<td>변경·검토·공개본</td>
+<td>현행 권한·결재체계의 확인 가능한 부분</td>
+<td>사업 버전·승인 증빙·변경 영향·공개본 분리</td>
+</tr>
+<tr>
+<td>미구축 기술</td>
+<td>TA23 NL2SQL+EvidenceTrail은 계획 상태</td>
+<td>즉시 사용 가능한 기본 기능으로 산정하지 않음</td>
+</tr>
+</tbody></table></div>
+<h2>사용자 흐름</h2>
+<p><img src="%EC%9E%90%EC%82%B0/user.svg" alt="담당자 검토와 인계 흐름"></p>
+<p>상태는 자료검토 → 문제확인 → 대안검토 → 사업안검토 → 예산요구준비 → 심의결과확인 → 발주검토 → 인계준비로 진행한다. 각 상태에서 보완·유보·종결이 가능하다. 화면의 클릭만으로 공식 예산 승인·전자결재·나라장터 공고 상태를 생성하지 않는다.</p>
+<h2>데이터 흐름</h2>
+<p><img src="%EC%9E%90%EC%82%B0/data.svg" alt="근거와 문서의 데이터 흐름"></p>
+<div class="tablewrap" tabindex="0" role="region" aria-label="좌우로 이동 가능한 표"><table>
+<thead>
+<tr>
+<th>엔터티</th>
+<th>핵심 필드·관계</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Source / Claim</td>
+<td>출처·원문 위치·자료군·권리·접근권한·수집일·주장·지지/반대/미확인</td>
+</tr>
+<tr>
+<td>Issue / Alternative</td>
+<td>문제·대상·원인가설·소관·근거 ID·대안·선택 사유</td>
+</tr>
+<tr>
+<td>Project / Scope / Requirement</td>
+<td>사업목표·범위 버전·제외 항목·요구사항·검수·책임자</td>
+</tr>
+<tr>
+<td>CostLine / BudgetScenario</td>
+<td>원 단위 금액·VAT 상태·수량·단가·요율·산식·연차·근거·제안/승인 구분</td>
+</tr>
+<tr>
+<td>TemplateProfile / FieldMapping</td>
+<td>수신기관·연도·양식 해시·슬롯·원장 필드·필수 여부·공개 등급</td>
+</tr>
+<tr>
+<td>Artifact / Decision / ChangeImpact</td>
+<td>원장·양식·모델 버전·근거 묶음·검토자·실제 승인증빙·영향 문서</td>
+</tr>
+<tr>
+<td>AuditEvent</td>
+<td>행동·시각·주체·참조 ID·결과만 최소 기록; 원문·민원 개인정보 중복 저장 최소화</td>
+</tr>
+</tbody></table></div>
+<h2>운영 규칙</h2>
+<ul>
+<li>변경 전 검토본은 보존하고 새 버전에 영향 문서·검토 사유를 붙인다. 원문 철회·권한 회수 시 검색 인덱스·캐시·생성물 참조 사용을 중지한다.</li>
+<li>자료 문장 안의 명령은 지시로 실행하지 않는다. 문서 입력은 근거 데이터이며 자동 도구 권한을 부여하지 않는다.</li>
+<li>생성 작업은 큐로 관리하고 실패·부분 완료·재시도 여부를 표시한다. 저장된 초안을 유지하며 공식 처리 성공으로 오인시키지 않는다.</li>
+<li>외부 제출은 검토 파일 인계까지다. 실제 예산 시스템·전자결재·나라장터 연계는 API·권한·계약 범위 확인 후 별도 변경 판단한다.</li>
+<li>서버 실측 전 응답시간·동시 사용 인원을 보장하지 않는다. 시범 자료로 메모리·저장공간·처리량을 측정하고 범위를 확정한다.</li>
+</ul>
+</main><div class="doclinks"><a href="04_아키텍처와_흐름.md">이 페이지 Markdown</a><a href="근거_출처와_검증상태.md">근거·검증 상태</a><a href="검증기록.md">산출물 검증기록</a></div><footer>2026.09.15 · P23 추가후보 v1.1 · 실제 예산 제출·공고·운영 연계는 수행하지 않았습니다.</footer></div></body></html>

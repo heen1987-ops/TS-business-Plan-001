@@ -1,0 +1,73 @@
+{
+  "date": "2026-09-15",
+  "checked_link_occurrences": 112,
+  "current_restriction_patterns_removed": true,
+  "checks": [
+    {
+      "file": "00_기획지침/기구축사업_CCK_AI_적용과_중복판정.md",
+      "new_links_pass": true,
+      "new_bad": [],
+      "preexisting_unresolved_links": []
+    },
+    {
+      "file": "00_기획지침/신규사업_범위와_중복배제.md",
+      "new_links_pass": true,
+      "new_bad": [],
+      "preexisting_unresolved_links": []
+    },
+    {
+      "file": "AGENTS.md",
+      "new_links_pass": true,
+      "new_bad": [],
+      "preexisting_unresolved_links": []
+    },
+    {
+      "file": "00_기획지침/TS_신규사업기획_지침.md",
+      "new_links_pass": true,
+      "new_bad": [],
+      "preexisting_unresolved_links": []
+    },
+    {
+      "file": "00_기획지침/CCK_로컬LLM_적용범위.md",
+      "new_links_pass": true,
+      "new_bad": [],
+      "preexisting_unresolved_links": []
+    },
+    {
+      "file": "00_기획지침/국민체감형_AX_선정기준.md",
+      "new_links_pass": true,
+      "new_bad": [],
+      "preexisting_unresolved_links": []
+    },
+    {
+      "file": "02_사업기획서/사업기획서_작성양식.md",
+      "new_links_pass": true,
+      "new_bad": [],
+      "preexisting_unresolved_links": []
+    },
+    {
+      "file": "03_검토결과/검토_체크리스트.md",
+      "new_links_pass": true,
+      "new_bad": [],
+      "preexisting_unresolved_links": []
+    },
+    {
+      "file": "README.md",
+      "new_links_pass": true,
+      "new_bad": [],
+      "preexisting_unresolved_links": []
+    },
+    {
+      "file": "04_기관리서치/한국교통안전공단_심층조사_2026-09-11/README.md",
+      "new_links_pass": true,
+      "new_bad": [],
+      "preexisting_unresolved_links": []
+    },
+    {
+      "file": "05_통합사업기획/TS_22개업무_사업기획_2026-09-14/README.md",
+      "new_links_pass": true,
+      "new_bad": [],
+      "preexisting_unresolved_links": []
+    }
+  ]
+}

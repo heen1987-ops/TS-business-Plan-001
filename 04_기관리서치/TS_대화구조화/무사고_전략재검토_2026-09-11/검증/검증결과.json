@@ -1,0 +1,11 @@
+{
+  "localAndAnchorLinks": 12,
+  "bad": [],
+  "desktopOverflow": false,
+  "mobileOverflow": false,
+  "skipFocus": true,
+  "tableKeyboardScroll": true,
+  "candidateAnchorVisible": true,
+  "errors": [],
+  "limits": "구조·링크·기본 키보드·반응형 검사. 전체 WCAG 적합성 또는 스크린리더 검증 아님"
+}

@@ -1,0 +1,1732 @@
+[
+  {
+    "id": "KB01",
+    "group": "교통안전사업",
+    "title": "교통안전사업 안내",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03010100.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03010100.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "자세히보기",
+        "url": "https://www.koroad.or.kr/main/content/view/MN03010200.do",
+        "action": "",
+        "css": "sm"
+      },
+      {
+        "text": "자세히보기",
+        "url": "https://www.koroad.or.kr/main/content/view/MN03010301.do",
+        "action": "",
+        "css": "sm"
+      },
+      {
+        "text": "자세히보기",
+        "url": "https://www.koroad.or.kr/main/content/view/MN03010400.do",
+        "action": "",
+        "css": "sm"
+      },
+      {
+        "text": "자세히보기",
+        "url": "https://www.koroad.or.kr/main/content/view/MN03010500.do",
+        "action": "",
+        "css": "sm"
+      },
+      {
+        "text": "자세히보기",
+        "url": "https://www.koroad.or.kr/main/content/view/MN03010601.do",
+        "action": "",
+        "css": "sm"
+      },
+      {
+        "text": "자세히보기",
+        "url": "https://www.koroad.or.kr/main/content/view/MN03010700.do",
+        "action": "",
+        "css": "sm"
+      },
+      {
+        "text": "자세히보기",
+        "url": "https://www.koroad.or.kr/main/content/view/MN03010800.do",
+        "action": "",
+        "css": "sm"
+      },
+      {
+        "text": "자세히보기",
+        "url": "https://www.koroad.or.kr/main/content/view/MN03050601.do",
+        "action": "",
+        "css": "sm"
+      },
+      {
+        "text": "자세히보기",
+        "url": "https://www.koroad.or.kr/main/content/view/MN03050701.do",
+        "action": "",
+        "css": "sm"
+      }
+    ],
+    "sha256": "fe6c05a4fa3a4db55338ba642226a18cb51c0cdb410d4f6449dd58817a8b8396",
+    "text_file": "근거/KB01.txt",
+    "text_chars": 728,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB02",
+    "group": "교통안전사업",
+    "title": "교통안전시설 기술지원 및 기술용역",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03010200.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03010200.do",
+    "content_found": true,
+    "links": [],
+    "sha256": "3c1b308b908d41ec7622d726a3b0fea61c77e08fea4ab39aa0df31bae5b2c8c7",
+    "text_file": "근거/KB02.txt",
+    "text_chars": 1236,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB03",
+    "group": "교통안전사업",
+    "title": "교통신호체계 기술운영 및 신호연동화",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03010400.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03010400.do",
+    "content_found": true,
+    "links": [],
+    "sha256": "8f02cdd8c85d2c33e5a6ecbfdd2dd31aced02ca606c7e622cefeea7a2515c7ad",
+    "text_file": "근거/KB03.txt",
+    "text_chars": 1227,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB04",
+    "group": "교통안전사업",
+    "title": "교통과학장비 운영관리",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03010500.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03010500.do",
+    "content_found": true,
+    "links": [],
+    "sha256": "35a4e58169185ee7e08c717131b36f097091dd70cdae8e3406caf3a6ceeb7096",
+    "text_file": "근거/KB04.txt",
+    "text_chars": 2380,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB05",
+    "group": "교통안전사업",
+    "title": "교통사고 잦은 곳 개선",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03010700.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03010700.do",
+    "content_found": true,
+    "links": [],
+    "sha256": "7cc6a781c907cd1cad34ed865785cf01ec765b4b6193500ee342b1aeb0f3167d",
+    "text_file": "근거/KB05.txt",
+    "text_chars": 1327,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB06",
+    "group": "교통안전사업",
+    "title": "교통사고 조사 및 분석",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03010800.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03010800.do",
+    "content_found": true,
+    "links": [],
+    "sha256": "66366cb6de81a446680c688975cf7c05ceccdd115ac395153e93a2ee8682e050",
+    "text_file": "근거/KB06.txt",
+    "text_chars": 1209,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB07",
+    "group": "교통안전사업",
+    "title": "KOLAS 공인검사",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03010301.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03010301.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "검사소개\n선택됨",
+        "url": "https://www.koroad.or.kr/main/content/view/MN03010301.do",
+        "action": "location.href='/main/content/view/MN03010301.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "검사안내",
+        "url": "https://www.koroad.or.kr/main/content/view/MN03010302.do",
+        "action": "location.href='/main/content/view/MN03010302.do';",
+        "css": "btn-tab"
+      }
+    ],
+    "sha256": "3463a9fa16b1a766979af52d46eb3be7309ea33c5117634b1269559362783878",
+    "text_file": "근거/KB07.txt",
+    "text_chars": 1484,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB08",
+    "group": "교통안전사업",
+    "title": "KOLAS 공인시험 및 교정",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03010601.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03010601.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "기관소개\n선택됨",
+        "url": "https://www.koroad.or.kr/main/content/view/MN03010601.do",
+        "action": "location.href='/main/content/view/MN03010601.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "공인시험기관 안내",
+        "url": "https://www.koroad.or.kr/main/content/view/MN03010602.do",
+        "action": "location.href='/main/content/view/MN03010602.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "공인교정기관 안내",
+        "url": "https://www.koroad.or.kr/main/content/view/MN03010603.do",
+        "action": "location.href='/main/content/view/MN03010603.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "공인시험/교정기관조직",
+        "url": "https://www.koroad.or.kr/main/content/view/MN03010604.do",
+        "action": "location.href='/main/content/view/MN03010604.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "관련정보 및 양식",
+        "url": "https://www.koroad.or.kr/main/content/view/MN03010605.do",
+        "action": "location.href='/main/content/view/MN03010605.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "[이미지 대체텍스트] 이미지 확대보기",
+        "url": "https://www.koroad.or.kr/main/img_view.do?src=/static/img/sub/sub_033.png",
+        "action": "window.open('/main/img_view.do?src=/static/img/sub/sub_033.png')",
+        "css": "moPinch modal-Pinch01"
+      }
+    ],
+    "sha256": "b205b71fbb52487631e94bff511be660eec47b01ef2c452264a5a3b548dfd860",
+    "text_file": "근거/KB08.txt",
+    "text_chars": 601,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB09",
+    "group": "교통안전사업",
+    "title": "교통신호제어기 기능검사 안내",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03050601.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03050601.do",
+    "content_found": true,
+    "links": [],
+    "sha256": "dc381c8ff28e93f7797889c582920801b40007766b71909b33b7222701ed19db",
+    "text_file": "근거/KB09.txt",
+    "text_chars": 2793,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB10",
+    "group": "교통안전사업",
+    "title": "검지기 성능인증시험/현장성능검사",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03050701.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03050701.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "미리보기",
+        "url": "https://www.koroad.or.kr/preview?atchFileId=FID00137643&fileSn=2",
+        "action": "",
+        "css": "sml preview"
+      },
+      {
+        "text": "안내서 다운로드",
+        "url": "https://www.koroad.or.kr/file/FileDown.do?atchFileId=FID00137643&fileSn=2",
+        "action": "",
+        "css": "sml black"
+      },
+      {
+        "text": "미리보기",
+        "url": "https://www.koroad.or.kr/preview?atchFileId=FID00141991&fileSn=1",
+        "action": "",
+        "css": "sml preview"
+      },
+      {
+        "text": "신청서 다운로드",
+        "url": "https://www.koroad.or.kr/file/FileDown.do?atchFileId=FID00141991&fileSn=1",
+        "action": "",
+        "css": "sml black"
+      },
+      {
+        "text": "미리보기",
+        "url": "https://www.koroad.or.kr/preview?atchFileId=FID00141993&fileSn=0",
+        "action": "",
+        "css": "sml preview"
+      },
+      {
+        "text": "안내서 다운로드",
+        "url": "https://www.koroad.or.kr/file/FileDown.do?atchFileId=FID00141993&fileSn=0",
+        "action": "",
+        "css": "sml black"
+      },
+      {
+        "text": "미리보기",
+        "url": "https://www.koroad.or.kr/preview?atchFileId=FID00141991&fileSn=0",
+        "action": "",
+        "css": "sml preview"
+      },
+      {
+        "text": "신청서 다운로드",
+        "url": "https://www.koroad.or.kr/file/FileDown.do?atchFileId=FID00141991&fileSn=0",
+        "action": "",
+        "css": "sml black"
+      }
+    ],
+    "sha256": "9500b2fd47825270dba90dae3b3790516184ee0783dde83e5d2fb5502635c6d8",
+    "text_file": "근거/KB10.txt",
+    "text_chars": 2354,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB11",
+    "group": "교통안전사업",
+    "title": "교통안전검사인증센터",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03010123.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03010123.do",
+    "content_found": true,
+    "links": [],
+    "sha256": "083a7103cb17f9e50ff35db53baac4a5895cbf07bc9a8b0fd1848a632363fdf4",
+    "text_file": "근거/KB11.txt",
+    "text_chars": 504,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB12",
+    "group": "교통교육사업",
+    "title": "교통교육사업 안내",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03020100.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03020100.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "특별교통안전교육 바로가기",
+        "url": "https://www.safedriving.or.kr/spcTraSafeEdu/selectSpcTraSafeEduGuide.do?menuCd=MN-PO-1321",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "교통안전전문교육 바로가기",
+        "url": "https://www.koroad.or.kr/main/content/view/MN03020300.do",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "바로가기",
+        "url": "https://www.safedriving.or.kr/eeGuide/selectEeGuide10.do?menuCd=MN-PO-1521",
+        "action": "",
+        "css": "sm"
+      },
+      {
+        "text": "바로가기",
+        "url": "https://www.koroad.or.kr/main/content/view/MN03020400.do",
+        "action": "",
+        "css": "sm"
+      },
+      {
+        "text": "바로가기",
+        "url": "https://www.koroad.or.kr/main/content/view/MN03020300.do",
+        "action": "",
+        "css": "sm"
+      },
+      {
+        "text": "바로가기",
+        "url": "https://www.koroad.or.kr/main/content/view/MN03020500.do",
+        "action": "",
+        "css": "sm"
+      },
+      {
+        "text": "바로가기",
+        "url": "https://www.safedriving.or.kr/st/guide/eduStGuide11View.do?menuCode=MN-PO-1521",
+        "action": "",
+        "css": "sm"
+      },
+      {
+        "text": "바로가기",
+        "url": "https://trafficedu.koroad.or.kr:8443",
+        "action": "",
+        "css": "sm"
+      }
+    ],
+    "sha256": "3d7749f418ee7268c662d8fe1a9fb98cf83d9228ae7afced356ede7394fee8a1",
+    "text_file": "근거/KB12.txt",
+    "text_chars": 555,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB13",
+    "group": "교통교육사업",
+    "title": "특별교통안전교육",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03020200.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03020200.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "특별교통안전교육 바로가기",
+        "url": "https://www.safedriving.or.kr/spcTraSafeEdu/selectSpcTraSafeEduGuide.do?menuCd=MN-PO-1321",
+        "action": "",
+        "css": ""
+      }
+    ],
+    "sha256": "03d7147296b7d947d3d163a0d30a0602e481a2efbad76c5de1453b49f7f6410c",
+    "text_file": "근거/KB13.txt",
+    "text_chars": 156,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB14",
+    "group": "교통교육사업",
+    "title": "교통안전전문교육",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03020300.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03020300.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "바로가기",
+        "url": "https://www.safedriving.or.kr/eeGuide/selectEeGuide06.do?menuCd=MN-PO-1511",
+        "action": "",
+        "css": "sml black wide"
+      },
+      {
+        "text": "바로가기",
+        "url": "https://www.safedriving.or.kr/itGuide/selectItGuide04.do?menuCd=MN-PO-1412",
+        "action": "",
+        "css": "sml black wide"
+      }
+    ],
+    "sha256": "e2683ee12b008562b772490e7d5b49451100a6cc8eb587960953bf5ff86c48ab",
+    "text_file": "근거/KB14.txt",
+    "text_chars": 879,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB15",
+    "group": "교통교육사업",
+    "title": "교통안전사회교육",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03020400.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03020400.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "바로가기",
+        "url": "https://www.safedriving.or.kr/geGuide/selectGeGuide08.do?menuCd=MN-PO-1315",
+        "action": "",
+        "css": "sml black wide"
+      }
+    ],
+    "sha256": "0b0d23b171760c840aa3f2057b9dd8b2d3158ac58ca7a9062a26e2d8ae4b2f79",
+    "text_file": "근거/KB15.txt",
+    "text_chars": 750,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB16",
+    "group": "교통교육사업",
+    "title": "도로교통사고감정사",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03020500.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03020500.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "바로가기",
+        "url": "https://www.safedriving.or.kr/eeGuide/selectEeGuide01.do?menuCd=MN-PO-1541",
+        "action": "",
+        "css": "sml black wide"
+      },
+      {
+        "text": "자격시험 신청 바로가기",
+        "url": "https://www.safedriving.or.kr/rdTfcAccdtExam/selectRdTfcAccdtExamTerms.do?menuCd=MN-PO-1542",
+        "action": "",
+        "css": "sm"
+      },
+      {
+        "text": "보수교육 신청 바로가기",
+        "url": "https://www.safedriving.or.kr/rdTfcAccdtConEdu/selectRdTfcAccdtConEduGuide.do?menuCd=MN-PO-1543",
+        "action": "",
+        "css": "sm"
+      },
+      {
+        "text": "자격관리 신청 바로가기",
+        "url": "https://www.safedriving.or.kr/rdTfcAccdtMng/selectRdTfcAccdtPubCertiUserTerms.do?menuCd=MN-PO-1544",
+        "action": "",
+        "css": "sm"
+      }
+    ],
+    "sha256": "958bb5c12f2fc63427c54b2b4b5824e2ee771e4bf503e63cadf1ebfaa028f169",
+    "text_file": "근거/KB16.txt",
+    "text_chars": 497,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB17",
+    "group": "교통교육사업",
+    "title": "안전운전인증",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03020600.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03020600.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "안전운전인증 바로가기",
+        "url": "https://www.safedriving.or.kr/eeGuide/selectEeGuide10.do?menuCd=MN-PO-1521",
+        "action": "",
+        "css": ""
+      }
+    ],
+    "sha256": "4218164c9d5d3fbf3b0423ba9f7fa1ae4b8a1e28f4c457c59c3aabab409ce23c",
+    "text_file": "근거/KB17.txt",
+    "text_chars": 136,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB18",
+    "group": "교통방송사업",
+    "title": "교통방송사업 안내",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03030100.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03030100.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "[이미지 대체텍스트] 한국도로교통공단 tbn 교통방송",
+        "url": "https://www.tbn.or.kr/main.tbn",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "바로가기",
+        "url": "https://www.tbn.or.kr/notice/sponsor.tbn?BOARD_ID=N006&area_code=1",
+        "action": "",
+        "css": "sml black wide"
+      }
+    ],
+    "sha256": "2a0b98e150454fdb0e25d12b59b43e707357d646dac4e20613a72b3c6194c1d6",
+    "text_file": "근거/KB18.txt",
+    "text_chars": 904,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB19",
+    "group": "교통방송사업",
+    "title": "교통방송국 현황",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03030200.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03030200.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "홈페이지 바로가기",
+        "url": "https://www.tbn.or.kr/main.tbn?area_code=3",
+        "action": "",
+        "css": "mid lightGray"
+      },
+      {
+        "text": "홈페이지 바로가기",
+        "url": "https://www.tbn.or.kr/main.tbn?area_code=2",
+        "action": "",
+        "css": "mid lightGray"
+      },
+      {
+        "text": "홈페이지 바로가기",
+        "url": "https://www.tbn.or.kr/main.tbn?area_code=4",
+        "action": "",
+        "css": "mid lightGray"
+      },
+      {
+        "text": "홈페이지 바로가기",
+        "url": "https://www.tbn.or.kr/main.tbn?area_code=6",
+        "action": "",
+        "css": "mid lightGray"
+      },
+      {
+        "text": "홈페이지 바로가기",
+        "url": "https://www.tbn.or.kr/main.tbn?area_code=5",
+        "action": "",
+        "css": "mid lightGray"
+      },
+      {
+        "text": "홈페이지 바로가기",
+        "url": "https://www.tbn.or.kr/main.tbn?area_code=9",
+        "action": "",
+        "css": "mid lightGray"
+      },
+      {
+        "text": "홈페이지 바로가기",
+        "url": "https://www.tbn.or.kr/main.tbn?area_code=7",
+        "action": "",
+        "css": "mid lightGray"
+      },
+      {
+        "text": "홈페이지 바로가기",
+        "url": "https://www.tbn.or.kr/main.tbn?area_code=13",
+        "action": "",
+        "css": "mid lightGray"
+      },
+      {
+        "text": "홈페이지 바로가기",
+        "url": "https://www.tbn.or.kr/main.tbn?area_code=14",
+        "action": "",
+        "css": "mid lightGray"
+      },
+      {
+        "text": "홈페이지 바로가기",
+        "url": "https://www.tbn.or.kr/main.tbn?area_code=8",
+        "action": "",
+        "css": "mid lightGray"
+      },
+      {
+        "text": "홈페이지 바로가기",
+        "url": "https://www.tbn.or.kr/main.tbn?area_code=11",
+        "action": "",
+        "css": "mid lightGray"
+      },
+      {
+        "text": "홈페이지 바로가기",
+        "url": "https://www.tbn.or.kr/main.tbn?area_code=10",
+        "action": "",
+        "css": "mid lightGray"
+      },
+      {
+        "text": "홈페이지 바로가기",
+        "url": "https://www.tbn.or.kr/main.tbn?area_code=12",
+        "action": "",
+        "css": "mid lightGray"
+      }
+    ],
+    "sha256": "6bd9fb5656ac2d930e75e79c78718077c98e2cedbb631ffae771c3e28df691f7",
+    "text_file": "근거/KB19.txt",
+    "text_chars": 1219,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB20",
+    "group": "교통방송사업",
+    "title": "교통방송 편성표",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03030300.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03030300.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "교통방송 편성표 바로가기",
+        "url": "https://www.tbn.or.kr/broadcast/program.tbn?BOARD_ID=P001&page_code=1&area_code=1",
+        "action": "",
+        "css": ""
+      }
+    ],
+    "sha256": "f346394cfa7e3595dec7c4df9a85aa38d83ea6260e12d9a6315d25b9ede0f91c",
+    "text_file": "근거/KB20.txt",
+    "text_chars": 144,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB21",
+    "group": "교통방송사업",
+    "title": "교통방송 청취율",
+    "url": "https://www.koroad.or.kr/main/content/view/MN0103020305.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN0103020305.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "일반현황/기관운영",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020201.do",
+        "action": "location.href='/main/content/view/MN0103020201.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "주요사업 및 경영성과\n선택됨",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020301.do",
+        "action": "location.href='/main/content/view/MN0103020301.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "대내외평가",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020401.do",
+        "action": "location.href='/main/content/view/MN0103020401.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "정보공개",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020502.do",
+        "action": "location.href='/main/content/view/MN0103020502.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "핵심사업활동",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020301.do",
+        "action": "location.href='/main/content/view/MN0103020301.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "주요사업",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020302.do",
+        "action": "location.href='/main/content/view/MN0103020302.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "중장기 경영목표",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020303.do",
+        "action": "location.href='/main/content/view/MN0103020303.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "연도별 사업계획",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020304.do",
+        "action": "location.href='/main/content/view/MN0103020304.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "교통방송 청취율\n선택됨",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020305.do",
+        "action": "location.href='/main/content/view/MN0103020305.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "운전면허 시험현황",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020306.do",
+        "action": "location.href='/main/content/view/MN0103020306.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "운전면허 민원현황",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020307.do",
+        "action": "location.href='/main/content/view/MN0103020307.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "전화상담 현황",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020308.do",
+        "action": "location.href='/main/content/view/MN0103020308.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "중증 장애인 및 녹색제품 구매",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020309.do",
+        "action": "location.href='/main/content/view/MN0103020309.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "중소기업제품 및 전통시장 온누리상품권 구매",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020310.do",
+        "action": "location.href='/main/content/view/MN0103020310.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "지식재산권 등록현황",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020311.do",
+        "action": "location.href='/main/content/view/MN0103020311.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "교통안전사회교육 현황",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020312.do",
+        "action": "location.href='/main/content/view/MN0103020312.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "미션연계 사회공헌 활동 실적",
+        "url": "https://www.koroad.or.kr/main/mission/mission_list.do",
+        "action": "location.href='/main/mission/mission_list.do';",
+        "css": "btn-tab"
+      }
+    ],
+    "sha256": "a4c6cd041746a98e67258ec1c20ed4adcf4479a2fdd3b2ecc2f2dd29ffa6d756",
+    "text_file": "근거/KB21.txt",
+    "text_chars": 5225,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB22",
+    "group": "운전면허사업",
+    "title": "운전면허사업 안내",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03040100.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03040100.do",
+    "content_found": true,
+    "links": [],
+    "sha256": "de0ac5a996e6b19bac118f78c799b40efadaa356bba75dc96a27746148bb9e94",
+    "text_file": "근거/KB22.txt",
+    "text_chars": 1231,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB23",
+    "group": "운전면허사업",
+    "title": "운전면허시험 운영",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03040200.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03040200.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "운전면허시험 바로가기",
+        "url": "https://www.safedriving.or.kr/dtGuide/selectDtGuide01.do?menuCd=MN-PO-1111",
+        "action": "",
+        "css": "sm"
+      }
+    ],
+    "sha256": "a518547df11bac072f0dfaf305601b6c9aee25cb6c8f4b838480c1b59be6fd5d",
+    "text_file": "근거/KB23.txt",
+    "text_chars": 816,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB24",
+    "group": "운전면허사업",
+    "title": "운전면허행정서비스",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03040300.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03040300.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "운전면허행정서비스 바로가기",
+        "url": "https://www.safedriving.or.kr/diGuide/selectDiGuide18.do?menuCd=MN-PO-12111",
+        "action": "",
+        "css": "sm"
+      }
+    ],
+    "sha256": "3fe56ae940aece2832d6ee3b140e61890e80f0635197a2ad80107886e3ced42c",
+    "text_file": "근거/KB24.txt",
+    "text_chars": 433,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB25",
+    "group": "운전면허사업",
+    "title": "디딤돌 운전면허지원센터 운영",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03040401.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03040401.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "사업안내\n선택됨",
+        "url": "https://www.koroad.or.kr/main/content/view/MN03040401.do",
+        "action": "location.href='/main/content/view/MN03040401.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "공지사항",
+        "url": "https://www.koroad.or.kr/main/board/5/board_list.do",
+        "action": "location.href='/main/board/5/board_list.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "바로가기",
+        "url": "https://cafe.naver.com/nbdrivingrehab",
+        "action": "",
+        "css": "sml xs black wide"
+      }
+    ],
+    "sha256": "d2dd6049e46a8b06683a48c5e2189de52a0de4a055ae3f1fad06fd0cdf691a36",
+    "text_file": "근거/KB25.txt",
+    "text_chars": 1573,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB26",
+    "group": "운전면허사업",
+    "title": "운전면허시험/민원처리현황",
+    "url": "https://www.koroad.or.kr/main/content/view/MN0103020306.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN0103020306.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "일반현황/기관운영",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020201.do",
+        "action": "location.href='/main/content/view/MN0103020201.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "주요사업 및 경영성과\n선택됨",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020301.do",
+        "action": "location.href='/main/content/view/MN0103020301.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "대내외평가",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020401.do",
+        "action": "location.href='/main/content/view/MN0103020401.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "정보공개",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020502.do",
+        "action": "location.href='/main/content/view/MN0103020502.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "핵심사업활동",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020301.do",
+        "action": "location.href='/main/content/view/MN0103020301.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "주요사업",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020302.do",
+        "action": "location.href='/main/content/view/MN0103020302.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "중장기 경영목표",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020303.do",
+        "action": "location.href='/main/content/view/MN0103020303.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "연도별 사업계획",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020304.do",
+        "action": "location.href='/main/content/view/MN0103020304.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "교통방송 청취율",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020305.do",
+        "action": "location.href='/main/content/view/MN0103020305.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "운전면허 시험현황\n선택됨",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020306.do",
+        "action": "location.href='/main/content/view/MN0103020306.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "운전면허 민원현황",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020307.do",
+        "action": "location.href='/main/content/view/MN0103020307.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "전화상담 현황",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020308.do",
+        "action": "location.href='/main/content/view/MN0103020308.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "중증 장애인 및 녹색제품 구매",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020309.do",
+        "action": "location.href='/main/content/view/MN0103020309.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "중소기업제품 및 전통시장 온누리상품권 구매",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020310.do",
+        "action": "location.href='/main/content/view/MN0103020310.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "지식재산권 등록현황",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020311.do",
+        "action": "location.href='/main/content/view/MN0103020311.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "교통안전사회교육 현황",
+        "url": "https://www.koroad.or.kr/main/content/view/MN0103020312.do",
+        "action": "location.href='/main/content/view/MN0103020312.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "미션연계 사회공헌 활동 실적",
+        "url": "https://www.koroad.or.kr/main/mission/mission_list.do",
+        "action": "location.href='/main/mission/mission_list.do';",
+        "css": "btn-tab"
+      }
+    ],
+    "sha256": "d6703b40ea31af951df7f6483154f7000b79613e382974f542b348d385e4df20",
+    "text_file": "근거/KB26.txt",
+    "text_chars": 13963,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB27",
+    "group": "연구개발사업",
+    "title": "연구개발사업 안내",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03050100.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03050100.do",
+    "content_found": true,
+    "links": [],
+    "sha256": "0983e206195a28a74a8a4b4c7606ca3cb43c68376fff0ac3c24d534f43714c3c",
+    "text_file": "근거/KB27.txt",
+    "text_chars": 886,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB28",
+    "group": "연구개발사업",
+    "title": "주요연구사업",
+    "url": "https://www.koroad.or.kr/main/research/res_basic_list.do?sc=2026",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/research/res_basic_list.do?sc=2026",
+    "content_found": true,
+    "links": [
+      {
+        "text": "기본연구\n선택됨",
+        "url": "https://www.koroad.or.kr/main/research/res_basic_list.do?sc=2026",
+        "action": "location.href='/main/research/res_basic_list.do?sc=2026';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "연구용역",
+        "url": "https://www.koroad.or.kr/main/research/res_service_list.do?sc=2026",
+        "action": "location.href='/main/research/res_service_list.do?sc=2026';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "처음",
+        "url": "https://www.koroad.or.kr/main/research/res_basic_list.do?cp=1&sc=2026&cp=1&listType=list",
+        "action": "",
+        "css": "pageMove"
+      },
+      {
+        "text": "이전",
+        "url": "https://www.koroad.or.kr/main/research/res_basic_list.do?cp=1&sc=2026&cp=1&listType=list",
+        "action": "",
+        "css": "pageMove"
+      },
+      {
+        "text": "1",
+        "url": "https://www.koroad.or.kr/main/research/res_basic_list.do?cp=1&sc=2026&cp=1&listType=list",
+        "action": "",
+        "css": "isActive"
+      },
+      {
+        "text": "2",
+        "url": "https://www.koroad.or.kr/main/research/res_basic_list.do?cp=2&sc=2026&cp=1&listType=list",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "다음",
+        "url": "https://www.koroad.or.kr/main/research/res_basic_list.do?cp=2&sc=2026&cp=1&listType=list",
+        "action": "",
+        "css": "pageMove"
+      },
+      {
+        "text": "마지막",
+        "url": "https://www.koroad.or.kr/main/research/res_basic_list.do?cp=2&sc=2026&cp=1&listType=list",
+        "action": "",
+        "css": "pageMove"
+      }
+    ],
+    "sha256": "3d4ff45cf80883bd2fe655c1ddf49a9987979731bd10e1d00a69ed051b784717",
+    "text_file": "근거/KB28.txt",
+    "text_chars": 1490,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB29",
+    "group": "연구개발사업",
+    "title": "주요연구성과",
+    "url": "https://www.koroad.or.kr/main/research/res_safe_list.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/research/res_safe_list.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "교통안전연구\n선택됨",
+        "url": "https://www.koroad.or.kr/main/research/res_safe_list.do",
+        "action": "location.href='/main/research/res_safe_list.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "교통안전연구 브리프",
+        "url": "https://www.koroad.or.kr/main/research/res_brief_list.do",
+        "action": "location.href='/main/research/res_brief_list.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "연구논문게재",
+        "url": "https://www.koroad.or.kr/main/research/res_thesis_list.do",
+        "action": "location.href='/main/research/res_thesis_list.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "국내 세미나 및 연구발표회",
+        "url": "https://www.koroad.or.kr/main/research/res_seminar_list.do",
+        "action": "location.href='/main/research/res_seminar_list.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "국제회의",
+        "url": "https://www.koroad.or.kr/main/research/res_meeting_list.do",
+        "action": "location.href='/main/research/res_meeting_list.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "경찰청 기준 및 규격 제개정",
+        "url": "https://www.koroad.or.kr/main/content/view/MN03050406.do",
+        "action": "location.href='/main/content/view/MN03050406.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "도로교통사고비용 추계",
+        "url": "https://www.koroad.or.kr/main/research/res_estimate_list.do",
+        "action": "location.href='/main/research/res_estimate_list.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "다운로드",
+        "url": "https://www.koroad.or.kr/file/FileDown.do?atchFileId=FID00142001&fileSn=0&mtIdx=MN03050401",
+        "action": "location.href='/file/FileDown.do?atchFileId=FID00142001&fileSn=0&mtIdx=MN03050401'",
+        "css": "sml black"
+      },
+      {
+        "text": "미리보기",
+        "url": "https://www.koroad.or.kr/preview?atchFileId=FID00142001&fileSn=0",
+        "action": "javascript:window.open('/preview?atchFileId=FID00142001&fileSn=0');",
+        "css": "sml preview"
+      },
+      {
+        "text": "다운로드",
+        "url": "https://www.koroad.or.kr/file/FileDown.do?atchFileId=FID00140690&fileSn=0&mtIdx=MN03050401",
+        "action": "location.href='/file/FileDown.do?atchFileId=FID00140690&fileSn=0&mtIdx=MN03050401'",
+        "css": "sml black"
+      },
+      {
+        "text": "미리보기",
+        "url": "https://www.koroad.or.kr/preview?atchFileId=FID00140690&fileSn=0",
+        "action": "javascript:window.open('/preview?atchFileId=FID00140690&fileSn=0');",
+        "css": "sml preview"
+      },
+      {
+        "text": "다운로드",
+        "url": "https://www.koroad.or.kr/file/FileDown.do?atchFileId=FID00140661&fileSn=0&mtIdx=MN03050401",
+        "action": "location.href='/file/FileDown.do?atchFileId=FID00140661&fileSn=0&mtIdx=MN03050401'",
+        "css": "sml black"
+      },
+      {
+        "text": "미리보기",
+        "url": "https://www.koroad.or.kr/preview?atchFileId=FID00140661&fileSn=0",
+        "action": "javascript:window.open('/preview?atchFileId=FID00140661&fileSn=0');",
+        "css": "sml preview"
+      },
+      {
+        "text": "다운로드",
+        "url": "https://www.koroad.or.kr/file/FileDown.do?atchFileId=FID00133463&fileSn=0&mtIdx=MN03050401",
+        "action": "location.href='/file/FileDown.do?atchFileId=FID00133463&fileSn=0&mtIdx=MN03050401'",
+        "css": "sml black"
+      },
+      {
+        "text": "미리보기",
+        "url": "https://www.koroad.or.kr/preview?atchFileId=FID00133463&fileSn=0",
+        "action": "javascript:window.open('/preview?atchFileId=FID00133463&fileSn=0');",
+        "css": "sml preview"
+      },
+      {
+        "text": "다운로드",
+        "url": "https://www.koroad.or.kr/file/FileDown.do?atchFileId=FID00133366&fileSn=0&mtIdx=MN03050401",
+        "action": "location.href='/file/FileDown.do?atchFileId=FID00133366&fileSn=0&mtIdx=MN03050401'",
+        "css": "sml black"
+      },
+      {
+        "text": "미리보기",
+        "url": "https://www.koroad.or.kr/preview?atchFileId=FID00133366&fileSn=0",
+        "action": "javascript:window.open('/preview?atchFileId=FID00133366&fileSn=0');",
+        "css": "sml preview"
+      },
+      {
+        "text": "다운로드",
+        "url": "https://www.koroad.or.kr/file/FileDown.do?atchFileId=FID00125494&fileSn=0&mtIdx=MN03050401",
+        "action": "location.href='/file/FileDown.do?atchFileId=FID00125494&fileSn=0&mtIdx=MN03050401'",
+        "css": "sml black"
+      },
+      {
+        "text": "미리보기",
+        "url": "https://www.koroad.or.kr/preview?atchFileId=FID00125494&fileSn=0",
+        "action": "javascript:window.open('/preview?atchFileId=FID00125494&fileSn=0');",
+        "css": "sml preview"
+      },
+      {
+        "text": "다운로드",
+        "url": "https://www.koroad.or.kr/file/FileDown.do?atchFileId=FID00121867&fileSn=0&mtIdx=MN03050401",
+        "action": "location.href='/file/FileDown.do?atchFileId=FID00121867&fileSn=0&mtIdx=MN03050401'",
+        "css": "sml black"
+      },
+      {
+        "text": "미리보기",
+        "url": "https://www.koroad.or.kr/preview?atchFileId=FID00121867&fileSn=0",
+        "action": "javascript:window.open('/preview?atchFileId=FID00121867&fileSn=0');",
+        "css": "sml preview"
+      },
+      {
+        "text": "다운로드",
+        "url": "https://www.koroad.or.kr/file/FileDown.do?atchFileId=FID00117679&fileSn=0&mtIdx=MN03050401",
+        "action": "location.href='/file/FileDown.do?atchFileId=FID00117679&fileSn=0&mtIdx=MN03050401'",
+        "css": "sml black"
+      },
+      {
+        "text": "미리보기",
+        "url": "https://www.koroad.or.kr/preview?atchFileId=FID00117679&fileSn=0",
+        "action": "javascript:window.open('/preview?atchFileId=FID00117679&fileSn=0');",
+        "css": "sml preview"
+      },
+      {
+        "text": "다운로드",
+        "url": "https://www.koroad.or.kr/file/FileDown.do?atchFileId=FID00117491&fileSn=0&mtIdx=MN03050401",
+        "action": "location.href='/file/FileDown.do?atchFileId=FID00117491&fileSn=0&mtIdx=MN03050401'",
+        "css": "sml black"
+      },
+      {
+        "text": "미리보기",
+        "url": "https://www.koroad.or.kr/preview?atchFileId=FID00117491&fileSn=0",
+        "action": "javascript:window.open('/preview?atchFileId=FID00117491&fileSn=0');",
+        "css": "sml preview"
+      },
+      {
+        "text": "다운로드",
+        "url": "https://www.koroad.or.kr/file/FileDown.do?atchFileId=FID00053359&fileSn=0&mtIdx=MN03050401",
+        "action": "location.href='/file/FileDown.do?atchFileId=FID00053359&fileSn=0&mtIdx=MN03050401'",
+        "css": "sml black"
+      },
+      {
+        "text": "미리보기",
+        "url": "https://www.koroad.or.kr/preview?atchFileId=FID00053359&fileSn=0",
+        "action": "javascript:window.open('/preview?atchFileId=FID00053359&fileSn=0');",
+        "css": "sml preview"
+      },
+      {
+        "text": "처음",
+        "url": "https://www.koroad.or.kr/main/research/res_safe_list.do?cp=1&cp=1&listType=list",
+        "action": "",
+        "css": "pageMove"
+      },
+      {
+        "text": "이전",
+        "url": "https://www.koroad.or.kr/main/research/res_safe_list.do?cp=1&cp=1&listType=list",
+        "action": "",
+        "css": "pageMove"
+      },
+      {
+        "text": "1",
+        "url": "https://www.koroad.or.kr/main/research/res_safe_list.do?cp=1&cp=1&listType=list",
+        "action": "",
+        "css": "isActive"
+      },
+      {
+        "text": "2",
+        "url": "https://www.koroad.or.kr/main/research/res_safe_list.do?cp=2&cp=1&listType=list",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "3",
+        "url": "https://www.koroad.or.kr/main/research/res_safe_list.do?cp=3&cp=1&listType=list",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "다음",
+        "url": "https://www.koroad.or.kr/main/research/res_safe_list.do?cp=3&cp=1&listType=list",
+        "action": "",
+        "css": "pageMove"
+      },
+      {
+        "text": "마지막",
+        "url": "https://www.koroad.or.kr/main/research/res_safe_list.do?cp=3&cp=1&listType=list",
+        "action": "",
+        "css": "pageMove"
+      }
+    ],
+    "sha256": "a7b494dccd6b0fb47c3c080cb7ad8aff29295f0da2472ccf319bf23efa056132",
+    "text_file": "근거/KB29.txt",
+    "text_chars": 6606,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB30",
+    "group": "연구개발사업",
+    "title": "국제교류 및 협력",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03050800.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03050800.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "미국 교통연구원 TRB 바로가기",
+        "url": "https://www.nationalacademies.org/trb/transportation-research-board",
+        "action": "",
+        "css": "sml black"
+      },
+      {
+        "text": "세계도로협회 PIARC 바로 가기",
+        "url": "https://www.piarc.org",
+        "action": "",
+        "css": "sml black"
+      }
+    ],
+    "sha256": "26e7949fcfdee836c841878814ef86a4b9631b6998938006b0c229201e780d2a",
+    "text_file": "근거/KB30.txt",
+    "text_chars": 767,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB31",
+    "group": "연구개발사업",
+    "title": "국내·외 관련기관",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03050900.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03050900.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "AASHTO\n(www.transportation.org)",
+        "url": "http://www.transportation.org",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "ETCRI\n(www.ectri.org)",
+        "url": "http://www.ectri.org",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "FHWA\n(www.fhwa.dot.gov)",
+        "url": "http://www.fhwa.dot.gov",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "TRB\n(trb.org)",
+        "url": "https://www.nationalacademies.org/trb/transportation-research-board",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "PRI\n(www.lapri.org)",
+        "url": "http://www.lapri.org",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "U.S. DOT\n(www.transportation.gov)",
+        "url": "http://www.transportation.gov",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "국토교통성\n(www.mlit.go.jp)",
+        "url": "http://www.mlit.go.jp",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "국토지리원\n(www.gsi.go.jp)",
+        "url": "http://www.gsi.go.jp",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "DBpia\n(dbpia.co.kr)",
+        "url": "http://dbpia.co.kr",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "e-나라지표\n(www.index.go.kr)",
+        "url": "http://www.index.go.kr",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "경기연구원\n(www.gri.re.kr)",
+        "url": "http://www.gri.re.kr",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "교통량정보제공시스템\n(www.road.re.kr)",
+        "url": "http://www.road.re.kr",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "교통사고분석시스템\n(taas.koroad.or.kr)",
+        "url": "http://taas.koroad.or.kr",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "교통안전공단\n(www.kotsa.or.kr)",
+        "url": "http://www.kotsa.or.kr",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "국토교통과학기술진흥원\n(www.kaia.re.kr)",
+        "url": "http://www.kaia.re.kr",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "국토연구원\n(www.krihs.re.kr)",
+        "url": "http://www.krihs.re.kr",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "국회도서관\n(www.nanet.go.kr)",
+        "url": "http://www.nanet.go.kr",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "대한교통학회\n(korst.or.kr)",
+        "url": "http://korst.or.kr",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "대한국토도시계획학회\n(www.kpa1959.or.kr)",
+        "url": "http://www.kpa1959.or.kr",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "대한토목학회\n(www.ksce.or.kr)",
+        "url": "http://www.ksce.or.kr",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "사이버경찰청\n(www.police.go.kr)",
+        "url": "http://www.police.go.kr",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "서울연구원\n(www.si.re.kr)",
+        "url": "http://www.si.re.kr",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "스칼라구글\n(scholar.google.co.kr)",
+        "url": "http://scholar.google.co.kr",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "한국ITS학회\n(www.kits.or.kr)",
+        "url": "http://www.kits.or.kr",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "한국교통연구원\n(www.koti.re.kr)",
+        "url": "https://www.koti.re.kr/index.do",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "한국도로공사\n(www.ex.co.kr/research)",
+        "url": "http://www.ex.co.kr/research",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "한국도로학회\n(www.ksre.or.kr)",
+        "url": "http://www.ksre.or.kr",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "한국학술정보\n(kiss.kstudy.com)",
+        "url": "http://kiss.kstudy.com",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "RISS\n(www.riss.kr)",
+        "url": "http://www.riss.kr",
+        "action": "",
+        "css": ""
+      }
+    ],
+    "sha256": "83e3b69494be5d8c2f5e0e229d104168ae460c0a2cf034d58e5d0293e22a3663",
+    "text_file": "근거/KB31.txt",
+    "text_chars": 1467,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB32",
+    "group": "연구개발사업",
+    "title": "지식재산권",
+    "url": "https://www.koroad.or.kr/main/propertyRight/propertyRight_list.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/propertyRight/propertyRight_list.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "처음",
+        "url": "https://www.koroad.or.kr/main/propertyRight/propertyRight_list.do?cp=1&cp=1&listType=list",
+        "action": "",
+        "css": "pageMove"
+      },
+      {
+        "text": "이전",
+        "url": "https://www.koroad.or.kr/main/propertyRight/propertyRight_list.do?cp=1&cp=1&listType=list",
+        "action": "",
+        "css": "pageMove"
+      },
+      {
+        "text": "1",
+        "url": "https://www.koroad.or.kr/main/propertyRight/propertyRight_list.do?cp=1&cp=1&listType=list",
+        "action": "",
+        "css": "isActive"
+      },
+      {
+        "text": "2",
+        "url": "https://www.koroad.or.kr/main/propertyRight/propertyRight_list.do?cp=2&cp=1&listType=list",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "3",
+        "url": "https://www.koroad.or.kr/main/propertyRight/propertyRight_list.do?cp=3&cp=1&listType=list",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "4",
+        "url": "https://www.koroad.or.kr/main/propertyRight/propertyRight_list.do?cp=4&cp=1&listType=list",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "5",
+        "url": "https://www.koroad.or.kr/main/propertyRight/propertyRight_list.do?cp=5&cp=1&listType=list",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "다음",
+        "url": "https://www.koroad.or.kr/main/propertyRight/propertyRight_list.do?cp=5&cp=1&listType=list",
+        "action": "",
+        "css": "pageMove"
+      },
+      {
+        "text": "마지막",
+        "url": "https://www.koroad.or.kr/main/propertyRight/propertyRight_list.do?cp=5&cp=1&listType=list",
+        "action": "",
+        "css": "pageMove"
+      }
+    ],
+    "sha256": "7d06f088703bdf638f3ef07aaaf1663bd7d4d6c48edb9d109f8f9d1c5cb4d7c9",
+    "text_file": "근거/KB32.txt",
+    "text_chars": 5310,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB33",
+    "group": "교통AI디지털사업",
+    "title": "교통AI빅데이터 융합플랫폼 구축",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03060100.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03060100.do",
+    "content_found": true,
+    "links": [],
+    "sha256": "da6b5f6173a1881080ad27821c909a01b66d8905f2d750d735389b0105ac8513",
+    "text_file": "근거/KB33.txt",
+    "text_chars": 650,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB34",
+    "group": "교통AI디지털사업",
+    "title": "가명정보결합",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03060410.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03060410.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "가명정보 결합이란\n선택됨",
+        "url": "https://www.koroad.or.kr/main/content/view/MN03060410.do",
+        "action": "location.href='/main/content/view/MN03060410.do';",
+        "css": "btn-tab"
+      },
+      {
+        "text": "결합 신청 안내",
+        "url": "https://www.koroad.or.kr/main/content/view/MN03060420.do",
+        "action": "location.href='/main/content/view/MN03060420.do';",
+        "css": "btn-tab"
+      }
+    ],
+    "sha256": "9504eff7c925f362e07bc6bfb2a0d7e3d00a8f92941f9aeca379b6ffb1f6995a",
+    "text_file": "근거/KB34.txt",
+    "text_chars": 1288,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB35",
+    "group": "교통AI디지털사업",
+    "title": "교통사고DB 구축 및 운영",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03060200.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03060200.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "바로가기",
+        "url": "http://taas.koroad.or.kr/",
+        "action": "",
+        "css": ""
+      },
+      {
+        "text": "바로가기",
+        "url": "http://taas.koroad.or.kr/web/shp/sbm/initUnityAnalsSys.do?menuId=WEB_KMP_OVT_UAS",
+        "action": "",
+        "css": "sml xs black wide"
+      },
+      {
+        "text": "바로가기",
+        "url": "http://taas.koroad.or.kr/web/shp/sbm/initGisAnals.do?menuId=WEB_KMP_GIS_TAS",
+        "action": "",
+        "css": "sml xs black wide"
+      },
+      {
+        "text": "바로가기",
+        "url": "http://taas.koroad.or.kr/web/bdm/srs/selectStaticalReportsList.do?menuId=WEB_KMP_IDA_SRS_TAA",
+        "action": "",
+        "css": "sml xs black wide"
+      },
+      {
+        "text": "바로가기",
+        "url": "https://opendata.koroad.or.kr/api/",
+        "action": "",
+        "css": "sml xs black wide"
+      },
+      {
+        "text": "국제비교 교통사고통계 보기",
+        "url": "http://taas.koroad.or.kr/ons/omp/mcm/initOecd.do?menuId=ONS_OMP",
+        "action": "",
+        "css": "sml black wide"
+      }
+    ],
+    "sha256": "18b9f390a306c41342ebd5215a223c8f4287d2b7a00e3a853d9bc85e7b597416",
+    "text_file": "근거/KB35.txt",
+    "text_chars": 1087,
+    "status": "본문 수집"
+  },
+  {
+    "id": "KB36",
+    "group": "교통AI디지털사업",
+    "title": "정보보안 및 개인정보보호",
+    "url": "https://www.koroad.or.kr/main/content/view/MN03060300.do",
+    "level": "주요사업 메뉴",
+    "accessed_at": "2026-09-11",
+    "http_status": 200,
+    "final_url": "https://www.koroad.or.kr/main/content/view/MN03060300.do",
+    "content_found": true,
+    "links": [
+      {
+        "text": "[이미지 대체텍스트] 이미지 확대보기",
+        "url": "https://www.koroad.or.kr/main/img_view.do?src=/static/img/sub/sub_074.png",
+        "action": "window.open('/main/img_view.do?src=/static/img/sub/sub_074.png')",
+        "css": "moPinch modal-Pinch01"
+      }
+    ],
+    "sha256": "6f5893223a318c111e43662daabb866b5446edf859e9185a09f9fda351578116",
+    "text_file": "근거/KB36.txt",
+    "text_chars": 597,
+    "status": "본문 수집"
+  }
+]

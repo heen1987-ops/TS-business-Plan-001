@@ -1,0 +1,137 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TS-P02 · 서비스 정의·컨셉 | TS · CCK NOA</title><link rel="stylesheet" href="../../자산/report.css"></head><body><a class="skip" href="#main">본문으로 이동</a><header><div class="eyebrow">TS × CCK NOA · 2026.09.15 · 기획 검토 v1.0</div><h1>TS-P02 · 서비스 정의·컨셉</h1><p>사업용 운전자 자격 취득 단계별 처리 지원</p></header><nav class="topnav" aria-label="자료 메뉴"><a href="../../00_상세설계_통합보기.html">전체 업무</a><a href="../../01_공통_아키텍처.html">공통 아키텍처</a><a href="../../02_통합_비용산정.html">업무 선택·예산 계산</a><a href="../../03_산정기준_근거.html">산정 기준·근거</a></nav><main id="main" class="shell"><nav class="tabs" aria-label="TS-P02 상세 주제"><a href="01_서비스_컨셉.html" aria-current="page">01 서비스 정의·컨셉</a><a href="02_전체_아키텍처.html">02 전체 아키텍처</a><a href="03_사용자_흐름.html">03 사용자 흐름</a><a href="04_데이터_흐름.html">04 데이터 흐름</a><a href="05_요구사항_검수.html">05 요구사항·검수</a><a href="06_비용_산정.html">06 개발·용역·운영 산정</a><a href="07_일정_운영.html">07 추진 일정·운영</a></nav><div class="note">기획 검토안 · 로컬 LLM·기존 서버 · 신규 인프라 0원</div><section aria-label="TS-P02 서비스 정의·컨셉 도식"><div class="diagram-tools"><button type="button" data-zoom="0.2">확대 +</button><button type="button" data-zoom="-0.2">축소 −</button><button type="button" data-zoom="reset">기본 크기</button><a href="concept.svg">SVG 원본</a><span class="small">작은 화면에서는 가로로 이동할 수 있습니다.</span></div><div class="diagram" tabindex="0" aria-label="가로 이동 가능한 TS-P02 서비스 정의·컨셉 도식"><img src="concept.svg" alt="TS-P02 서비스 정의·컨셉 도식. 처리·연결 설명은 아래 표에 제공." /></div></section><article><h2>서비스 정의</h2>
+<p><strong>화물 자격 준비자가 현재 단계와 미확인 조건을 확인하고 공식 신청으로 이어가는 안내 서비스</strong></p>
+<div class="tablewrap" tabindex="0" aria-label="가로로 이동 가능한 표"><table>
+<thead>
+<tr>
+<th>항목</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>대상 사용자</td>
+<td>버스·택시·화물 자격 취득을 준비하는 국민과 자격 상담 담당자</td>
+</tr>
+<tr>
+<td>문제·관찰</td>
+<td>검사·시험·교육·발급을 따로 확인하면서 다음 단계나 준비자료를 놓치는 가설</td>
+</tr>
+<tr>
+<td>이용 장면</td>
+<td>검사를 마친 신청자가 자격시험 응시 전에 무엇을 더 해야 하는지 다시 묻는 상황</td>
+</tr>
+<tr>
+<td>확인된 TS 업무</td>
+<td>운전적성정밀검사, 화물 등 사업용 자격의 시험·교육·발급</td>
+</tr>
+<tr>
+<td>초기 범위 가정</td>
+<td>초기는 화물 자격 1개 경로, 상태 조회 1개, 신청 시스템 인계 1개</td>
+</tr>
+<tr>
+<td>기존 기반</td>
+<td>자격 안내·검사/시험/교육/발급 시스템</td>
+</tr>
+<tr>
+<td>CCK AI 적용</td>
+<td>자유로운 경력·질문을 조건으로 정리, 개인별 안내·준비자료 점검·다음 단계 지원</td>
+</tr>
+<tr>
+<td>추가 수행분</td>
+<td>화물 자격 지식·문진·상태 연계·예외 평가</td>
+</tr>
+<tr>
+<td>비교 기준선</td>
+<td>자격별 단계형 안내와 링크·입력값 유지</td>
+</tr>
+<tr>
+<td>효과 측정</td>
+<td>잘못된 다음 단계 안내·조건 재입력·신청 완료 실패</td>
+</tr>
+</tbody></table></div>
+<h2>제공 결과</h2>
+<ul>
+<li>현재 단계와 확인 시점</li>
+<li>충족·미확인 요건 구분표</li>
+<li>사용자가 더 확인할 최소 질문</li>
+<li>공식 신청 인계용 확인 요약</li>
+<li>접수번호 또는 접수 미확인 상태</li>
+</ul>
+<h2>중복·수행 가능성</h2>
+<p>P07의 자격 지원 구조 재사용; 자격 기준·증빙·접수권한은 별도</p>
+<p>자격 업무부서가 상태코드·유효기간 규칙을 확정하고 운영부서가 본인확인과 인계 허용 범위를 제공한다.</p>
+<p>친절한 설명이 자격 충족 판정으로 읽힐 위험. 공식 확인 상태와 개인 진술을 화면에서 분리한다.</p>
+<h2>대안 검토</h2>
+<div class="tablewrap" tabindex="0" aria-label="가로로 이동 가능한 표"><table>
+<thead>
+<tr>
+<th>대안</th>
+<th>적용 내용</th>
+<th>선택 조건</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>A 기존 절차·규칙·화면 개선</td>
+<td>자격별 단계형 안내와 링크·입력값 유지</td>
+<td>같은 효과가 나면 LLM 범위 축소</td>
+</tr>
+<tr>
+<td>B 기존 NOA + 업무 지식·연계</td>
+<td>화물 자격 지식·문진·상태 연계·예외 평가</td>
+<td>권고 검토안. 공통 재사용·실제 증분 산정</td>
+</tr>
+<tr>
+<td>C 자료·업무·기관 확대</td>
+<td>공공 자격 신청의 단계 안내·완료 확인 재사용; 자격요건은 별도</td>
+<td>초기 효과·권한·자원 검증 후 재산정</td>
+</tr>
+</tbody></table></div>
+<h2>도식의 연결</h2>
+<div class="tablewrap" tabindex="0" aria-label="가로로 이동 가능한 표"><table>
+<thead>
+<tr>
+<th>연결</th>
+<th>전달 내용</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>화물 자격 준비자 → 입력·업무 맥락</td>
+<td>조건·자료</td>
+</tr>
+<tr>
+<td>입력·업무 맥락 → 경로 범위 고정</td>
+<td>승인 범위</td>
+</tr>
+<tr>
+<td>경로 범위 고정 → 미조회 요건 보류</td>
+<td>정리 결과</td>
+</tr>
+<tr>
+<td>미조회 요건 보류 → 다음 행동 설명</td>
+<td>검토 후보</td>
+</tr>
+<tr>
+<td>다음 행동 설명 → 사람의 확인</td>
+<td>초안·근거</td>
+</tr>
+<tr>
+<td>사람의 확인 → 다음 단계·준비자료</td>
+<td>수정·확인</td>
+</tr>
+<tr>
+<td>다음 단계·준비자료 → 공식 신청·접수 확인</td>
+<td>선택·인계</td>
+</tr>
+<tr>
+<td>공식 신청·접수 확인 → 효과 검증</td>
+<td>검토 결과</td>
+</tr>
+</tbody></table></div>
+<h2>출처와 확인 범위</h2>
+<ul>
+<li><a href="https://main.kotsa.or.kr/portal/contents.do?menuCode=01050800">사업용 운송자격 취득절차: 화물</a> — 확인일 2026-09-14; 검사·시험·교육·발급 절차 확인</li>
+<li><a href="https://main.kotsa.or.kr/portal/contents.do?menuCode=06020300">주요사업</a> — 확인일 2026-09-14; 공식 요약의 7개 사업 분류 확인</li>
+<li><a href="https://main.kotsa.or.kr/portal/contents.do?menuCode=04050400">TS AI 체험존</a> — 확인일 2026-09-11; 3종 AI 상담·위험도 분석 컨설팅 안내 확인; 서비스 직접 시험 없음</li>
+</ul>
+<p>기존 22개 출처는 이전 원장 확인일을 승계했다. 공급사 성능·자료 접근권한·법령 전체를 새로 검증한 자료는 아니다.</p>
+<p><a href="file:///G:/%EB%82%B4%20%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C/1.%20%EC%97%85%EB%AC%B4%EC%98%81%EC%97%AD/6.%20CCK/1.%20%EC%82%AC%EC%97%85%EA%B4%80%EB%A6%AC/TS/bizops/%5BTS%20%EC%82%AC%EC%97%85%EA%B8%B0%ED%9A%8D%5D/05_%ED%86%B5%ED%95%A9%EC%82%AC%EC%97%85%EA%B8%B0%ED%9A%8D/TS_22%EA%B0%9C%EC%97%85%EB%AC%B4_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C_2026-09-15/%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P02_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">이전 고도화 보고서</a></p>
+</article><div class="paging"><span></span><a href="01_서비스_컨셉.md">Markdown 원본</a><a href="02_전체_아키텍처.html">전체 아키텍처 →</a></div></main><footer>한국교통안전공단(TS) 대상 · 기존 서버 활용 · 신규 인프라 0원 · 실제 NOA·원 시스템 시험과 공급사 견적 미확인.<br><a href="../../README.md">자료 안내·제약</a> · <a href="../../검증기록.md">문서 검증 기록</a></footer><script>document.querySelectorAll('[data-zoom]').forEach(b=>b.addEventListener('click',()=>{const img=b.closest('section').querySelector('.diagram img');let v=Number(img.dataset.scale||1);v=b.dataset.zoom==='reset'?1:Math.max(.8,Math.min(2,v+Number(b.dataset.zoom)));img.dataset.scale=v;img.style.width=(v*100)+'%';}));const s=document.getElementById('search');if(s)s.addEventListener('input',()=>{let n=0;document.querySelectorAll('.card[data-key]').forEach(c=>{c.hidden=!c.dataset.key.toLowerCase().includes(s.value.toLowerCase());if(!c.hidden)n++;});document.getElementById('search-status').textContent=n+'개 업무 표시';});</script></body></html>

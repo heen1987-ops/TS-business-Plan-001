@@ -1,0 +1,146 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TS-P23 · 전체 아키텍처 | TS · CCK NOA</title><link rel="stylesheet" href="../../자산/report.css"></head><body><div data-p23x="1" style="padding:16px 22px;background:#e1f1ed;border-bottom:2px solid #0b756a;color:#163e43;font:15px/1.8 Malgun Gothic,sans-serif">P23 확장안: 부서별 문제정의 → 정책·사업 → 예산 요구 → RFP·공고 준비 · <a style="color:#075d59;font-weight:bold" href="../../../P23_정책기획_예산요구_발주전환_v1.1_2026-09-15/00_기획_전체보기.html">정책·예산·발주 기획지원 v1.1 보기</a></div><a class="skip" href="#main">본문으로 이동</a><header><div class="eyebrow">TS × CCK NOA · 2026.09.15 · 기획 검토 v1.0</div><h1>TS-P23 · 전체 아키텍처</h1><p>교통안전 문제정의·정책사업 기획 AI 에이전트</p></header><nav class="topnav" aria-label="자료 메뉴"><a href="../../00_상세설계_통합보기.html">전체 업무</a><a href="../../01_공통_아키텍처.html">공통 아키텍처</a><a href="../../02_통합_비용산정.html">업무 선택·예산 계산</a><a href="../../03_산정기준_근거.html">산정 기준·근거</a></nav><main id="main" class="shell"><nav class="tabs" aria-label="TS-P23 상세 주제"><a href="01_서비스_컨셉.html">01 서비스 정의·컨셉</a><a href="02_전체_아키텍처.html" aria-current="page">02 전체 아키텍처</a><a href="03_사용자_흐름.html">03 사용자 흐름</a><a href="04_데이터_흐름.html">04 데이터 흐름</a><a href="05_요구사항_검수.html">05 요구사항·검수</a><a href="06_비용_산정.html">06 개발·용역·운영 산정</a><a href="07_일정_운영.html">07 추진 일정·운영</a></nav><div class="note">추가 정책기획 후보 · 22개 업무 분류와 별도. 기획 검토안 · 로컬 LLM·기존 서버 · 신규 인프라 0원</div><section aria-label="TS-P23 전체 아키텍처 도식"><div class="diagram-tools"><button type="button" data-zoom="0.2">확대 +</button><button type="button" data-zoom="-0.2">축소 −</button><button type="button" data-zoom="reset">기본 크기</button><a href="architecture.svg">SVG 원본</a><span class="small">작은 화면에서는 가로로 이동할 수 있습니다.</span></div><div class="diagram" tabindex="0" aria-label="가로 이동 가능한 TS-P23 전체 아키텍처 도식"><img src="architecture.svg" alt="TS-P23 전체 아키텍처 도식. 처리·연결 설명은 아래 표에 제공." /></div></section><article><h2>시스템 경계·수행 책임</h2>
+<div class="tablewrap" tabindex="0" aria-label="가로로 이동 가능한 표"><table>
+<thead>
+<tr>
+<th>영역</th>
+<th>구성·역할</th>
+<th>책임</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>기존 기반</td>
+<td>TMACS 공식 현황·분석 결과, 승인된 정책보고·사업목록·민원 분석 결과, 기존 NOA 문서 검색·검토 구성</td>
+<td>TS 원 시스템·자료 운영부서</td>
+</tr>
+<tr>
+<td>업무 화면</td>
+<td>민원·뉴스·정책보고·공식 현황을 근거로 문제를 정의하고 원인 가설·TS 역할·기존사업 차이·추가 사업 대안을 검토하는 기획 작업대</td>
+<td>CCK 구현·연계 / TS 업무 승인</td>
+</tr>
+<tr>
+<td>NOA·로컬 LLM</td>
+<td>출처별 주장 구조화, 사건·중복 기사 묶음, 문제정의 초안, 원인 가설·반대 근거 연결, 소관·기존사업 대조, 대안·평가계획 초안</td>
+<td>CCK 설치 버전·호출·사용권 확인</td>
+</tr>
+<tr>
+<td>규칙·연계</td>
+<td>외부 자료는 승인된 수집 경로·업로드를 통해 로컬로 반입한다. 내부 LLM에서 직접 무제한 인터넷을 조회하지 않는다. TMACS·민원·정책자료 API는 실존·권한 확인 후 읽기 연계한다. 자동 정책 확정·제안 발송·사업 등록 쓰기는 초기 0개다.</td>
+<td>CCK 어댑터 / 원 시스템 공식 결과</td>
+</tr>
+<tr>
+<td>공통 모듈</td>
+<td>C00, C06</td>
+<td>통합 선택 시 1회 계상</td>
+</tr>
+<tr>
+<td>공식 결정</td>
+<td>현업 검토·기획 채택</td>
+<td>해당 업무 권한자</td>
+</tr>
+</tbody></table></div>
+<p>도식은 <strong>논리 모듈</strong>이며 새 서버 수량이 아니다. 신규 GPU·서버·스토리지·망 장비·클라우드 비용은 0원이다. 자원이 부족하면 범위·동시 처리·배치 주기를 조정한다.</p>
+<h2>재사용·구현 경계</h2>
+<p>P14 기준 변경·P20 카탈로그 설명과 검색 구성 일부 공유. 기존 민원 분류·답변 AI와는 문제 단위 통합·반대 근거·소관·기존사업·대안 선택까지의 산출물 차이를 확인. P23이 찾은 과제가 기존 P01–P22에 해당하면 새 ID 대신 기존 기획 고도화로 연결</p>
+<p>추가 작업: 문제/주장/근거 데이터 모델·출처 중복·원인 가설 검토·소관/기존사업 대조·기획 단계 승인·정책보고 출력·평가 자료</p>
+<p>NOA·보유 기술의 공개 설명은 설치 버전의 API·사용권·성능·검증 완료 증거가 아니다. 지식 검색·근거 연결·업무 상태 관리의 실제 보유 여부를 확인해 설정과 추가 개발을 구분한다.</p>
+<h2>논리 인터페이스 계약</h2>
+<div class="tablewrap" tabindex="0" aria-label="가로로 이동 가능한 표"><table>
+<thead>
+<tr>
+<th>계약</th>
+<th>입력→출력</th>
+<th>실패·권한</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>승인 자료 반입</td>
+<td>승인된 뉴스 본문/발췌·민원 비식별 자료·정책보고·공식 현황·기관업무·기존사업 정보 → 대상·기간·버전이 있는 자료</td>
+<td>형식·이용권한·자료 분류 확인. 이미지 전용 자료는 텍스트 요청·수동 확인</td>
+</tr>
+<tr>
+<td>원천 조회</td>
+<td>TMACS·정책·기존사업 자료 → 상태·시점·참조키</td>
+<td>실제 API·권한 확인 후 읽기 연계</td>
+</tr>
+<tr>
+<td>AI 요청</td>
+<td>request_id, actor_scope, source_refs, question → draft, evidence_refs, uncertainty</td>
+<td>원문 내 지시는 분석 대상. 허용 도구·권한을 변경하지 못함</td>
+</tr>
+<tr>
+<td>검토·처리</td>
+<td>문제정의·원인 가설·사업대안 → 현업 검토·기획 채택</td>
+<td>자동 공식 쓰기 없음. 검토 결과·공식 경로 제공</td>
+</tr>
+</tbody></table></div>
+<p>실제 API 명칭·주소·스키마는 미확인이다. 외부 자료는 승인된 수집 경로·업로드를 통해 로컬로 반입한다. 내부 LLM에서 직접 무제한 인터넷을 조회하지 않는다. TMACS·민원·정책자료 API는 실존·권한 확인 후 읽기 연계한다. 자동 정책 확정·제안 발송·사업 등록 쓰기는 초기 0개다.</p>
+<h2>보안·운영·복귀</h2>
+<ul>
+<li>현행 인증과 기관·업무·자료 권한 연결. 검색·색인·첨부·캐시에 같은 정책 적용</li>
+<li>외부 자료는 승인된 경로로 반입. 내부 문서·질문은 외부 모델로 전송하지 않음</li>
+<li>프롬프트·규칙·모델·색인 버전을 묶어 배포·이전 승인 버전 보관</li>
+<li>권한 누출·허위 확정·심각한 오류 발견 시 기능 중지 후 기존 업무 경로 복귀</li>
+</ul>
+<p>뉴스·민원 본문 이용권한을 확인하고 공개 분석보고·승인된 비식별 자료부터 시작한다. 자동 외부 제출·사업 등록은 초기 범위 0개다.</p>
+<h2>도식의 연결</h2>
+<div class="tablewrap" tabindex="0" aria-label="가로로 이동 가능한 표"><table>
+<thead>
+<tr>
+<th>연결</th>
+<th>전달 내용</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>TS 정책·사업 기획자 → 업무 화면·검토 작업대</td>
+<td>인증·입력</td>
+</tr>
+<tr>
+<td>업무 화면·검토 작업대 → 기존 공식 업무 시스템</td>
+<td>공식 경로 확인</td>
+</tr>
+<tr>
+<td>업무 화면·검토 작업대 → NOA 업무 실행 구성</td>
+<td>요청·검토 맥락</td>
+</tr>
+<tr>
+<td>권한·입력·상태 검증 → NOA 업무 실행 구성</td>
+<td>검증된 요청</td>
+</tr>
+<tr>
+<td>NOA 업무 실행 구성 → 연계·승인된 자료 반입</td>
+<td>허용 도구 호출</td>
+</tr>
+<tr>
+<td>연계·승인된 자료 반입 → 기존 공식 업무 시스템</td>
+<td>권한 범위 연계</td>
+</tr>
+<tr>
+<td>NOA 업무 실행 구성 → 권한 적용 지식 검색</td>
+<td>권한·질문</td>
+</tr>
+<tr>
+<td>권한 적용 지식 검색 → 기존 로컬 LLM</td>
+<td>근거·규칙</td>
+</tr>
+<tr>
+<td>기존 로컬 LLM → 권한·입력·상태 검증</td>
+<td>초안 재검증</td>
+</tr>
+<tr>
+<td>연계·승인된 자료 반입 → 최소 감사·승인 기록</td>
+<td>호출 상태</td>
+</tr>
+<tr>
+<td>권한 적용 지식 검색 → 최소 감사·승인 기록</td>
+<td>근거 참조</td>
+</tr>
+</tbody></table></div>
+<h2>출처와 확인 범위</h2>
+<ul>
+<li><a href="https://main.kotsa.or.kr/portal/contents.do?menuCode=01040300">TMACS 공식 업무 안내</a> — 확인일 2026-09-15; 정책 기초자료·원인분석 정보의 기존 기반; 원시 데이터 권한 미확인</li>
+<li><a href="https://www.acrc.go.kr/menu.es?mid=a10104050100">국민권익위 민원 빅데이터 분석·활용 개요</a> — 확인일 2026-09-15; 기존 민원 분석·정책 및 제도 개선 지원과의 비교</li>
+<li><a href="https://www.acrc.go.kr/menu.es?mid=a10104050200">한눈에 보는 민원 빅데이터 소개</a> — 확인일 2026-09-15; 공개 분석자료 활용 가능 범위의 참고; 모든 개별 원문 개방 아님</li>
+</ul>
+<p>기존 22개 출처는 이전 원장 확인일을 승계했다. 공급사 성능·자료 접근권한·법령 전체를 새로 검증한 자료는 아니다.</p>
+<p>사용자 제안에 대한 추가 기획이며 공식 업무 신설·예산 확정 아님.</p>
+</article><div class="paging"><a href="01_서비스_컨셉.html">← 서비스 정의·컨셉</a><a href="02_전체_아키텍처.md">Markdown 원본</a><a href="03_사용자_흐름.html">사용자 흐름 →</a></div></main><footer>한국교통안전공단(TS) 대상 · 기존 서버 활용 · 신규 인프라 0원 · 실제 NOA·원 시스템 시험과 공급사 견적 미확인.<br><a href="../../README.md">자료 안내·제약</a> · <a href="../../검증기록.md">문서 검증 기록</a></footer><script>document.querySelectorAll('[data-zoom]').forEach(b=>b.addEventListener('click',()=>{const img=b.closest('section').querySelector('.diagram img');let v=Number(img.dataset.scale||1);v=b.dataset.zoom==='reset'?1:Math.max(.8,Math.min(2,v+Number(b.dataset.zoom)));img.dataset.scale=v;img.style.width=(v*100)+'%';}));const s=document.getElementById('search');if(s)s.addEventListener('input',()=>{let n=0;document.querySelectorAll('.card[data-key]').forEach(c=>{c.hidden=!c.dataset.key.toLowerCase().includes(s.value.toLowerCase());if(!c.hidden)n++;});document.getElementById('search-status').textContent=n+'개 업무 표시';});</script></body></html>

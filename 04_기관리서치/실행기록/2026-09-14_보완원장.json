@@ -1,0 +1,99 @@
+{
+  "date": "2026-09-14",
+  "scope": "NEXT-06 3기관 부분 확인. 기존 관계도 ID를 참조하는 증분 원장. 본체·화면에 미병합.",
+  "sources": [
+    {
+      "id": "D20260914-S01",
+      "url": "https://www.kr.or.kr/boardCnts/view.do?boardID=52&boardSeq=1122698",
+      "title": "철도보호지구 행위 신고 서비스 혁신",
+      "publisher": "국가철도공단",
+      "published_at": "2026-09-10",
+      "location": "본문 제도·절차·성과 및 담당부서",
+      "finding": "RAFIS 원스톱 신고, 단계별 알림과 AI 상담을 구축했다고 발표. 처리기간 약 30일→22일은 기관 발표 수치.",
+      "limitation": "측정기간·표본·독립 효과 검증 없음. 남은 22일의 원인과 AI 기여도는 분리 불가.",
+      "accessed_at": "2026-09-14",
+      "effective_date": null,
+      "status": "관련 본문 확인",
+      "full_legal_review": false
+    },
+    {
+      "id": "D20260914-S02",
+      "url": "https://www.krri.re.kr/web/contents/krri030701.do",
+      "title": "한국철도기술연구원 일반현황",
+      "publisher": "한국철도기술연구원",
+      "published_at": "2026-04-29",
+      "location": "설립근거·주요기능·조직",
+      "finding": "과학기술분야 정부출연연구기관 관련 법률을 설립근거로 안내. 철도안전 연구·시험평가·인증 및 철도교통AX본부 신설을 명시.",
+      "limitation": "기관 설명 확인. 현행 법령 별표·정관·개별 지정 및 조직별 상세 권한 대조 미완료.",
+      "accessed_at": "2026-09-14",
+      "effective_date": null,
+      "status": "관련 본문 확인",
+      "full_legal_review": false
+    },
+    {
+      "id": "D20260914-S03",
+      "url": "https://www.kiast.or.kr/kr/sub05_04_02.do",
+      "title": "항공안전 의무보고 분석·전파",
+      "publisher": "항공안전기술원",
+      "published_at": null,
+      "location": "의무보고 정의·분석업무 절차",
+      "finding": "의무보고 분석·전파 수행을 명시. 정보 사실확인·누락 보완·분석·안전조치 효용성 모니터링 절차를 안내.",
+      "limitation": "업무 안내는 확인. 실제 위탁 고시·시행일·AI 사용 여부·잔존 오류율 미확인.",
+      "accessed_at": "2026-09-14",
+      "effective_date": null,
+      "status": "관련 본문 확인",
+      "full_legal_review": false
+    },
+    {
+      "id": "D20260914-S04",
+      "url": "https://www.molit.go.kr/USR/law/m_46/lst.jsp?lcmspage=1&psize=10",
+      "title": "입법예고·행정예고 목록",
+      "publisher": "국토교통부",
+      "published_at": null,
+      "location": "검색 결과 목록",
+      "finding": "항공안전관리시스템 승인 및 모니터링 지침, 항공안전 의무보고 및 자율보고 요령 개정예고 단서.",
+      "limitation": "목록 직접 열람 실패. 세부안·확정 여부·시행일 미확인; 법령 변경 확정으로 사용하지 않음.",
+      "accessed_at": "2026-09-14",
+      "effective_date": null,
+      "status": "검색 단서·본문 미확인",
+      "full_legal_review": false
+    }
+  ],
+  "reviews": [
+    {
+      "id": "D20260914-R01",
+      "agency_id": "A_C0270",
+      "source_ids": [
+        "D20260914-S01"
+      ],
+      "finding": "국가철도공단 신고 서비스의 실제 디지털전환 사례 및 시설본부 시설계획처 표시 확인. AI 상담·알림 전체를 미도입으로 분류하지 않음.",
+      "remaining": "국가철도공단법 현행 사업 조문, 보호지구 업무의 개별 위탁·관리 범위, 22일 내부 구간별 소요시간",
+      "full_legal_review": false,
+      "new_business_selected": false
+    },
+    {
+      "id": "D20260914-R02",
+      "agency_id": "N_0c5530b71ce152",
+      "source_ids": [
+        "D20260914-S02"
+      ],
+      "finding": "한국철도기술연구원의 설립근거 안내·핵심 업무·AX 조직 설명 확인. 기존 미지정 참고목록의 법적 유형을 임의 변경하지 않음.",
+      "remaining": "설립법 별표·정관과 시험인증 지정 근거·유효기간",
+      "full_legal_review": false,
+      "new_business_selected": false
+    },
+    {
+      "id": "D20260914-R03",
+      "agency_id": "A_C0900",
+      "source_ids": [
+        "D20260914-S03"
+      ],
+      "finding": "항공안전기술원 분석·전파와 결과 모니터링 절차 확인. TS 업무와 구별하고 일반 분석 절차 자체를 미도입으로 부르지 않음.",
+      "remaining": "항공안전법 현행 위탁 조문·지정고시·수행조직·개정예고 원문",
+      "full_legal_review": false,
+      "new_business_selected": false
+    }
+  ],
+  "population_update": false,
+  "full_legal_reviews_completed": 0
+}

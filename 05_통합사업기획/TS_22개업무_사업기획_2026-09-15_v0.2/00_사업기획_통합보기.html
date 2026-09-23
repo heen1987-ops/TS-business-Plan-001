@@ -1,0 +1,180 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TS 22개 CCK AI 적용 기획 v0.2</title><style>*{box-sizing:border-box}body{margin:0;background:#fff;color:#222;font:16px/1.85 'Malgun Gothic','Apple SD Gothic Neo',sans-serif;word-break:keep-all;overflow-wrap:anywhere}main{max-width:1120px;margin:auto;padding:48px 32px 80px;min-width:0}h1{font-size:34px;line-height:1.4;margin:0 0 30px;padding-bottom:24px;border-bottom:2px solid #333}h2{font-size:24px;line-height:1.5;margin-top:48px;padding-top:18px;border-top:1px solid #bbb}h3{font-size:19px;margin-top:30px}p{margin:0 0 20px}a{color:#333;text-underline-offset:3px}a:hover{color:#555}table{width:100%;min-width:730px;border-collapse:collapse;font-size:13px;line-height:1.8}th,td{padding:11px 10px;text-align:left;vertical-align:top;border-bottom:1px solid #ccc}th{background:#f1f1f1}.table-wrap{overflow-x:auto;margin:22px 0}.table-wrap:focus-visible,a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #333;outline-offset:3px}.contents{margin:18px 0 28px;padding:12px 16px;border:1px solid #aaa}.contents summary{cursor:pointer;min-height:32px}.contents ol{columns:2;padding-left:22px}.contents li{break-inside:avoid;font-size:14px}.actions,.filters{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:22px 0}.actions a,button,input,select{font:inherit;background:#fff;color:#222;border:1px solid #777;padding:8px 12px;min-height:44px}.actions a{text-decoration:none}button{cursor:pointer}.skip{position:absolute;left:10px;top:-70px;background:white;padding:10px}.skip:focus{top:10px}li{margin:8px 0}.sources{font-size:12px;line-height:1.8}.sources li{margin-bottom:16px}sup{font-size:10px;line-height:0}[hidden]{display:none!important}.small{font-size:13px;color:#555}.empty{padding:15px;background:#f3f3f3}.filters label{font-size:14px}#index-table{min-width:1000px}@media(max-width:640px){main{padding:28px 20px 55px}h1{font-size:27px}h2{font-size:21px}body{font-size:15px}.contents ol{columns:1}.filters{display:grid;grid-template-columns:1fr}.filters input,.filters select{width:100%}.table-wrap:before{content:'표는 좌우로 스크롤하여 확인할 수 있습니다.';position:sticky;left:0;display:block;font-size:12px;color:#555;margin-bottom:8px}}@media print{@page{size:A4;margin:16mm}.actions,.filters,.skip{display:none}main{max-width:none;padding:0}body{font-size:9.5pt;line-height:1.6}h1{font-size:21pt}h2{font-size:14pt;break-after:avoid}h3{font-size:11pt;break-after:avoid}.table-wrap{overflow:visible}.table-wrap:before{display:none}table,#index-table{min-width:0;font-size:7.5pt}th,td{padding:5px}thead{display:table-header-group}tr{break-inside:avoid}p{orphans:3;widows:3}.sources{font-size:7pt}[hidden]{display:table-row!important}}.revision{padding:15px 18px;border-left:3px solid #333;background:#f5f5f5;margin:22px 0}td:first-child{min-width:75px}summary{cursor:pointer}</style></head><body><a class="skip" href="#main">본문 바로가기</a><main id="main" tabindex="-1"><div class="actions"><a href="00_중복검토_및_AI추가적용.html">중복·AI 적용 검토</a><a href="#chapter-2">22개 비교표</a><a download href="00_사업기획_통합보기.md">Markdown</a></div><h1>TS 22개 업무별 CCK AI 적용 기획 v0.2</h1>
+<p>기구축 사업·기존 안내·기존 AI의 후속 적용까지 포함한 2026-09-15 개정본이다. <a href="00_%EC%A4%91%EB%B3%B5%EA%B2%80%ED%86%A0_%EB%B0%8F_AI%EC%B6%94%EA%B0%80%EC%A0%81%EC%9A%A9.html">중복 검토 결과와 적용 기준</a>에서 달라진 판단을 먼저 볼 수 있다. 22개 업무 ID를 유지하며 사업 선정·계약·예산 확정 건수는 아니다.<sup><a href="#source-49" aria-label="출처 49">[49]</a></sup></p>
+<h2 id="chapter-1">적용 방향</h2>
+<p>기존 시스템은 재사용 기반으로 보고 CCK AI 추가 기능·연계·지식·검증의 수행비를 산정한다. P01+P17, P21+P22는 공통 기능과 업무 모듈로 통합한다. 로컬 LLM·기존 서버·신규 인프라 0원 조건을 유지한다.</p>
+<h2 id="chapter-2">22개 기획 비교</h2><div class="filters"><label for="cat">대분류</label><select id="cat"><option value="">전체</option><option>도로 교통안전 관리</option><option>철도교통안전 관리</option><option>항공 교통안전 관리</option><option>자동차 검사</option><option>자동차 안전시험·연구</option><option>교통정보 서비스</option><option>교통안전 체험교육</option></select><label for="state">판단</label><select id="state"><option value="">전체</option><option>기구축 업무 AI 적용</option><option>보호조건 확인 후 AI 적용</option><option>기구축 업무 AI 적용·재검토</option><option>AI+화면·연계 개선</option><option>기구축 업무 AI 적용·수요 우선확인</option><option>공통 상담 모듈 적용·효과 확인</option><option>통합 적용 모듈</option><option>연계조건 확인 후 AI 적용</option><option>공통 지식 모듈 적용·효과 확인</option></select><label for="q">검색</label><input id="q" type="search" placeholder="업무·AI 적용·ID 검색"><button id="reset">초기화</button><span id="count" role="status" aria-live="polite">22개 기획</span></div>
+<div class="table-wrap" role="region" aria-label="표, 좌우 스크롤" tabindex="0"><table id="index-table">
+<thead>
+<tr>
+<th>ID</th>
+<th>대분류·업무</th>
+<th>사업기획</th>
+<th>현재 판단</th>
+<th>추가 적용</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>TS-P01</td>
+<td>도로 교통안전 관리 / 운수회사 안전점검 개선조치 증빙 검토 지원</td>
+<td><a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P01_%EC%9A%B4%EC%88%98%ED%9A%8C%EC%82%AC%20%EC%95%88%EC%A0%84%EC%A0%90%EA%B2%80%20%EA%B0%9C%EC%84%A0%EC%A1%B0%EC%B9%98%20%EC%A6%9D%EB%B9%99%20%EA%B2%80%ED%86%A0%20%EC%A7%80%EC%9B%90.html">운수회사 안전점검 개선조치 증빙 검토 지원</a> · <a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P01_%EC%9A%B4%EC%88%98%ED%9A%8C%EC%82%AC%20%EC%95%88%EC%A0%84%EC%A0%90%EA%B2%80%20%EA%B0%9C%EC%84%A0%EC%A1%B0%EC%B9%98%20%EC%A6%9D%EB%B9%99%20%EA%B2%80%ED%86%A0%20%EC%A7%80%EC%9B%90.md">MD</a></td>
+<td>기구축 업무 AI 적용</td>
+<td>지적 내용과 조치 증빙의 의미 대조, 누락 질의와 보완 초안</td>
+</tr>
+<tr>
+<td>TS-P02</td>
+<td>도로 교통안전 관리 / 사업용 운전자 자격 취득 단계별 처리 지원</td>
+<td><a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P02_%EC%82%AC%EC%97%85%EC%9A%A9%20%EC%9A%B4%EC%A0%84%EC%9E%90%20%EC%9E%90%EA%B2%A9%20%EC%B7%A8%EB%93%9D%20%EB%8B%A8%EA%B3%84%EB%B3%84%20%EC%B2%98%EB%A6%AC%20%EC%A7%80%EC%9B%90.html">사업용 운전자 자격 취득 단계별 처리 지원</a> · <a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P02_%EC%82%AC%EC%97%85%EC%9A%A9%20%EC%9A%B4%EC%A0%84%EC%9E%90%20%EC%9E%90%EA%B2%A9%20%EC%B7%A8%EB%93%9D%20%EB%8B%A8%EA%B3%84%EB%B3%84%20%EC%B2%98%EB%A6%AC%20%EC%A7%80%EC%9B%90.md">MD</a></td>
+<td>기구축 업무 AI 적용</td>
+<td>자유로운 경력·질문을 조건으로 정리, 개인별 안내·준비자료 점검·다음 단계 지원</td>
+</tr>
+<tr>
+<td>TS-P03</td>
+<td>도로 교통안전 관리 / 위험물질 운송계획·점검 인계 문서 일치 확인</td>
+<td><a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P03_%EC%9C%84%ED%97%98%EB%AC%BC%EC%A7%88%20%EC%9A%B4%EC%86%A1%EA%B3%84%ED%9A%8D%C2%B7%EC%A0%90%EA%B2%80%20%EC%9D%B8%EA%B3%84%20%EB%AC%B8%EC%84%9C%20%EC%9D%BC%EC%B9%98%20%ED%99%95%EC%9D%B8.html">위험물질 운송계획·점검 인계 문서 일치 확인</a> · <a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P03_%EC%9C%84%ED%97%98%EB%AC%BC%EC%A7%88%20%EC%9A%B4%EC%86%A1%EA%B3%84%ED%9A%8D%C2%B7%EC%A0%90%EA%B2%80%20%EC%9D%B8%EA%B3%84%20%EB%AC%B8%EC%84%9C%20%EC%9D%BC%EC%B9%98%20%ED%99%95%EC%9D%B8.md">MD</a></td>
+<td>기구축 업무 AI 적용</td>
+<td>문서 간 차량·물질·일정 상충 확인과 인계 질의 초안</td>
+</tr>
+<tr>
+<td>TS-P04</td>
+<td>철도교통안전 관리 / 철도 안전관리체계 요건·증빙·보완 연결</td>
+<td><a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P04_%EC%B2%A0%EB%8F%84%20%EC%95%88%EC%A0%84%EA%B4%80%EB%A6%AC%EC%B2%B4%EA%B3%84%20%EC%9A%94%EA%B1%B4%C2%B7%EC%A6%9D%EB%B9%99%C2%B7%EB%B3%B4%EC%99%84%20%EC%97%B0%EA%B2%B0.html">철도 안전관리체계 요건·증빙·보완 연결</a> · <a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P04_%EC%B2%A0%EB%8F%84%20%EC%95%88%EC%A0%84%EA%B4%80%EB%A6%AC%EC%B2%B4%EA%B3%84%20%EC%9A%94%EA%B1%B4%C2%B7%EC%A6%9D%EB%B9%99%C2%B7%EB%B3%B4%EC%99%84%20%EC%97%B0%EA%B2%B0.md">MD</a></td>
+<td>기구축 업무 AI 적용</td>
+<td>요건-제출자료 의미 연결과 보완 검토</td>
+</tr>
+<tr>
+<td>TS-P05</td>
+<td>철도교통안전 관리 / 철도 시험운행·시설평가 보고서 검토 준비</td>
+<td><a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P05_%EC%B2%A0%EB%8F%84%20%EC%8B%9C%ED%97%98%EC%9A%B4%ED%96%89%C2%B7%EC%8B%9C%EC%84%A4%ED%8F%89%EA%B0%80%20%EB%B3%B4%EA%B3%A0%EC%84%9C%20%EA%B2%80%ED%86%A0%20%EC%A4%80%EB%B9%84.html">철도 시험운행·시설평가 보고서 검토 준비</a> · <a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P05_%EC%B2%A0%EB%8F%84%20%EC%8B%9C%ED%97%98%EC%9A%B4%ED%96%89%C2%B7%EC%8B%9C%EC%84%A4%ED%8F%89%EA%B0%80%20%EB%B3%B4%EA%B3%A0%EC%84%9C%20%EA%B2%80%ED%86%A0%20%EC%A4%80%EB%B9%84.md">MD</a></td>
+<td>기구축 업무 AI 적용</td>
+<td>결과 보고서의 항목·근거 위치·누락·버전 차이 검토</td>
+</tr>
+<tr>
+<td>TS-P06</td>
+<td>철도교통안전 관리 / 철도안전 자율보고의 보호된 사례화</td>
+<td><a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P06_%EC%B2%A0%EB%8F%84%EC%95%88%EC%A0%84%20%EC%9E%90%EC%9C%A8%EB%B3%B4%EA%B3%A0%EC%9D%98%20%EB%B3%B4%ED%98%B8%EB%90%9C%20%EC%82%AC%EB%A1%80%ED%99%94.html">철도안전 자율보고의 보호된 사례화</a> · <a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P06_%EC%B2%A0%EB%8F%84%EC%95%88%EC%A0%84%20%EC%9E%90%EC%9C%A8%EB%B3%B4%EA%B3%A0%EC%9D%98%20%EB%B3%B4%ED%98%B8%EB%90%9C%20%EC%82%AC%EB%A1%80%ED%99%94.md">MD</a></td>
+<td>보호조건 확인 후 AI 적용</td>
+<td>사건 구조화, 핵심 맥락을 보존한 요약, 검토용·전파용 초안</td>
+</tr>
+<tr>
+<td>TS-P07</td>
+<td>항공 교통안전 관리 / 항공 자격 응시 준비자료 점검 지원</td>
+<td><a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P07_%ED%95%AD%EA%B3%B5%20%EC%9E%90%EA%B2%A9%20%EC%9D%91%EC%8B%9C%20%EC%A4%80%EB%B9%84%EC%9E%90%EB%A3%8C%20%EC%A0%90%EA%B2%80%20%EC%A7%80%EC%9B%90.html">항공 자격 응시 준비자료 점검 지원</a> · <a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P07_%ED%95%AD%EA%B3%B5%20%EC%9E%90%EA%B2%A9%20%EC%9D%91%EC%8B%9C%20%EC%A4%80%EB%B9%84%EC%9E%90%EB%A3%8C%20%EC%A0%90%EA%B2%80%20%EC%A7%80%EC%9B%90.md">MD</a></td>
+<td>기구축 업무 AI 적용</td>
+<td>경력 서술과 자격별 준비자료 비교, 개인별 설명·보완 질문</td>
+</tr>
+<tr>
+<td>TS-P08</td>
+<td>항공 교통안전 관리 / 항공안전 자율보고 분석·전파 초안 지원</td>
+<td><a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P08_%ED%95%AD%EA%B3%B5%EC%95%88%EC%A0%84%20%EC%9E%90%EC%9C%A8%EB%B3%B4%EA%B3%A0%20%EB%B6%84%EC%84%9D%C2%B7%EC%A0%84%ED%8C%8C%20%EC%B4%88%EC%95%88%20%EC%A7%80%EC%9B%90.html">항공안전 자율보고 분석·전파 초안 지원</a> · <a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P08_%ED%95%AD%EA%B3%B5%EC%95%88%EC%A0%84%20%EC%9E%90%EC%9C%A8%EB%B3%B4%EA%B3%A0%20%EB%B6%84%EC%84%9D%C2%B7%EC%A0%84%ED%8C%8C%20%EC%B4%88%EC%95%88%20%EC%A7%80%EC%9B%90.md">MD</a></td>
+<td>보호조건 확인 후 AI 적용</td>
+<td>사건 순서·조건 구조화, 유사사례 차이 비교, 안전사례 초안</td>
+</tr>
+<tr>
+<td>TS-P09</td>
+<td>항공 교통안전 관리 / 드론 기체 변경·말소 신고 준비 지원</td>
+<td><a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P09_%EB%93%9C%EB%A1%A0%20%EA%B8%B0%EC%B2%B4%20%EB%B3%80%EA%B2%BD%C2%B7%EB%A7%90%EC%86%8C%20%EC%8B%A0%EA%B3%A0%20%EC%A4%80%EB%B9%84%20%EC%A7%80%EC%9B%90.html">드론 기체 변경·말소 신고 준비 지원</a> · <a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P09_%EB%93%9C%EB%A1%A0%20%EA%B8%B0%EC%B2%B4%20%EB%B3%80%EA%B2%BD%C2%B7%EB%A7%90%EC%86%8C%20%EC%8B%A0%EA%B3%A0%20%EC%A4%80%EB%B9%84%20%EC%A7%80%EC%9B%90.md">MD</a></td>
+<td>기구축 업무 AI 적용·재검토</td>
+<td>변경 사유를 이해한 맞춤 안내·필요자료 질문·신고서 준비·인계</td>
+</tr>
+<tr>
+<td>TS-P10</td>
+<td>자동차 검사 / 자동차검사 예약 탐색·재검사 후속행동 지원</td>
+<td><a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P10_%EC%9E%90%EB%8F%99%EC%B0%A8%EA%B2%80%EC%82%AC%20%EC%98%88%EC%95%BD%20%ED%83%90%EC%83%89%C2%B7%EC%9E%AC%EA%B2%80%EC%82%AC%20%ED%9B%84%EC%86%8D%ED%96%89%EB%8F%99%20%EC%A7%80%EC%9B%90.html">자동차검사 예약 탐색·재검사 후속행동 지원</a> · <a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P10_%EC%9E%90%EB%8F%99%EC%B0%A8%EA%B2%80%EC%82%AC%20%EC%98%88%EC%95%BD%20%ED%83%90%EC%83%89%C2%B7%EC%9E%AC%EA%B2%80%EC%82%AC%20%ED%9B%84%EC%86%8D%ED%96%89%EB%8F%99%20%EC%A7%80%EC%9B%90.md">MD</a></td>
+<td>AI+화면·연계 개선</td>
+<td>날짜·이동 범위의 자연어 조건 이해, 대안 설명, 확인 질문·예약 인계</td>
+</tr>
+<tr>
+<td>TS-P11</td>
+<td>자동차 검사 / 기계식주차장 검사 후 보완 증빙 연결</td>
+<td><a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P11_%EA%B8%B0%EA%B3%84%EC%8B%9D%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EA%B2%80%EC%82%AC%20%ED%9B%84%20%EB%B3%B4%EC%99%84%20%EC%A6%9D%EB%B9%99%20%EC%97%B0%EA%B2%B0.html">기계식주차장 검사 후 보완 증빙 연결</a> · <a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P11_%EA%B8%B0%EA%B3%84%EC%8B%9D%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EA%B2%80%EC%82%AC%20%ED%9B%84%20%EB%B3%B4%EC%99%84%20%EC%A6%9D%EB%B9%99%20%EC%97%B0%EA%B2%B0.md">MD</a></td>
+<td>기구축 업무 AI 적용</td>
+<td>지적사항과 보수 설명의 대응·누락·추가 확인 질문</td>
+</tr>
+<tr>
+<td>TS-P12</td>
+<td>자동차 안전시험·연구 / 자동차 결함·수리 이력의 사건 정리 지원</td>
+<td><a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P12_%EC%9E%90%EB%8F%99%EC%B0%A8%20%EA%B2%B0%ED%95%A8%C2%B7%EC%88%98%EB%A6%AC%20%EC%9D%B4%EB%A0%A5%EC%9D%98%20%EC%82%AC%EA%B1%B4%20%EC%A0%95%EB%A6%AC%20%EC%A7%80%EC%9B%90.html">자동차 결함·수리 이력의 사건 정리 지원</a> · <a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P12_%EC%9E%90%EB%8F%99%EC%B0%A8%20%EA%B2%B0%ED%95%A8%C2%B7%EC%88%98%EB%A6%AC%20%EC%9D%B4%EB%A0%A5%EC%9D%98%20%EC%82%AC%EA%B1%B4%20%EC%A0%95%EB%A6%AC%20%EC%A7%80%EC%9B%90.md">MD</a></td>
+<td>기구축 업무 AI 적용</td>
+<td>수리·증상 연표와 사실/불확실 구분, 신청자 확인·사건 요약</td>
+</tr>
+<tr>
+<td>TS-P13</td>
+<td>자동차 안전시험·연구 / 자동차 제작자 자기인증 준비·변경 반영 지원</td>
+<td><a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P13_%EC%9E%90%EB%8F%99%EC%B0%A8%20%EC%A0%9C%EC%9E%91%EC%9E%90%20%EC%9E%90%EA%B8%B0%EC%9D%B8%EC%A6%9D%20%EC%A4%80%EB%B9%84%C2%B7%EB%B3%80%EA%B2%BD%20%EB%B0%98%EC%98%81%20%EC%A7%80%EC%9B%90.html">자동차 제작자 자기인증 준비·변경 반영 지원</a> · <a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P13_%EC%9E%90%EB%8F%99%EC%B0%A8%20%EC%A0%9C%EC%9E%91%EC%9E%90%20%EC%9E%90%EA%B8%B0%EC%9D%B8%EC%A6%9D%20%EC%A4%80%EB%B9%84%C2%B7%EB%B3%80%EA%B2%BD%20%EB%B0%98%EC%98%81%20%EC%A7%80%EC%9B%90.md">MD</a></td>
+<td>기구축 업무 AI 적용·수요 우선확인</td>
+<td>제작자 상황별 안내, 준비서류 비교, 적용기준 변경 영향 설명</td>
+</tr>
+<tr>
+<td>TS-P14</td>
+<td>자동차 안전시험·연구 / 미래차 안전기준 변경의 시험·안내 문서 영향 검토</td>
+<td><a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P14_%EB%AF%B8%EB%9E%98%EC%B0%A8%20%EC%95%88%EC%A0%84%EA%B8%B0%EC%A4%80%20%EB%B3%80%EA%B2%BD%EC%9D%98%20%EC%8B%9C%ED%97%98%C2%B7%EC%95%88%EB%82%B4%20%EB%AC%B8%EC%84%9C%20%EC%98%81%ED%96%A5%20%EA%B2%80%ED%86%A0.html">미래차 안전기준 변경의 시험·안내 문서 영향 검토</a> · <a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P14_%EB%AF%B8%EB%9E%98%EC%B0%A8%20%EC%95%88%EC%A0%84%EA%B8%B0%EC%A4%80%20%EB%B3%80%EA%B2%BD%EC%9D%98%20%EC%8B%9C%ED%97%98%C2%B7%EC%95%88%EB%82%B4%20%EB%AC%B8%EC%84%9C%20%EC%98%81%ED%96%A5%20%EA%B2%80%ED%86%A0.md">MD</a></td>
+<td>기구축 업무 AI 적용</td>
+<td>개정 기준의 영향 문서 후보와 반영 확인 목록</td>
+</tr>
+<tr>
+<td>TS-P15</td>
+<td>자동차 안전시험·연구 / 전기차 배터리 식별정보 확인 절차 지원</td>
+<td><a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P15_%EC%A0%84%EA%B8%B0%EC%B0%A8%20%EB%B0%B0%ED%84%B0%EB%A6%AC%20%EC%8B%9D%EB%B3%84%EC%A0%95%EB%B3%B4%20%ED%99%95%EC%9D%B8%20%EC%A0%88%EC%B0%A8%20%EC%A7%80%EC%9B%90.html">전기차 배터리 식별정보 확인 절차 지원</a> · <a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P15_%EC%A0%84%EA%B8%B0%EC%B0%A8%20%EB%B0%B0%ED%84%B0%EB%A6%AC%20%EC%8B%9D%EB%B3%84%EC%A0%95%EB%B3%B4%20%ED%99%95%EC%9D%B8%20%EC%A0%88%EC%B0%A8%20%EC%A7%80%EC%9B%90.md">MD</a></td>
+<td>공통 상담 모듈 적용·효과 확인</td>
+<td>질문 의도·제작사·확인 목적을 이해한 근거 안내와 예외 질문</td>
+</tr>
+<tr>
+<td>TS-P16</td>
+<td>교통정보 서비스 / 공식 운행분석 결과의 안전행동 설명 지원</td>
+<td><a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P16_%EA%B3%B5%EC%8B%9D%20%EC%9A%B4%ED%96%89%EB%B6%84%EC%84%9D%20%EA%B2%B0%EA%B3%BC%EC%9D%98%20%EC%95%88%EC%A0%84%ED%96%89%EB%8F%99%20%EC%84%A4%EB%AA%85%20%EC%A7%80%EC%9B%90.html">공식 운행분석 결과의 안전행동 설명 지원</a> · <a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P16_%EA%B3%B5%EC%8B%9D%20%EC%9A%B4%ED%96%89%EB%B6%84%EC%84%9D%20%EA%B2%B0%EA%B3%BC%EC%9D%98%20%EC%95%88%EC%A0%84%ED%96%89%EB%8F%99%20%EC%84%A4%EB%AA%85%20%EC%A7%80%EC%9B%90.md">MD</a></td>
+<td>기구축 업무 AI 적용</td>
+<td>공식 수치·기간의 맥락 설명, 질의응답·맞춤 실천 문답</td>
+</tr>
+<tr>
+<td>TS-P17</td>
+<td>교통정보 서비스 / COSAS 협업 문서 검토 기능 연계</td>
+<td><a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P17_COSAS%20%ED%98%91%EC%97%85%20%EB%AC%B8%EC%84%9C%20%EA%B2%80%ED%86%A0%20%EA%B8%B0%EB%8A%A5%20%EC%97%B0%EA%B3%84.html">COSAS 협업 문서 검토 기능 연계</a> · <a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P17_COSAS%20%ED%98%91%EC%97%85%20%EB%AC%B8%EC%84%9C%20%EA%B2%80%ED%86%A0%20%EA%B8%B0%EB%8A%A5%20%EC%97%B0%EA%B3%84.md">MD</a></td>
+<td>통합 적용 모듈</td>
+<td>P01 증빙 검토 결과를 기존 점검 화면에서 확인·정정·인계</td>
+</tr>
+<tr>
+<td>TS-P18</td>
+<td>교통정보 서비스 / K-패스 이용 등록·처리결과 이해 지원</td>
+<td><a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P18_K-%ED%8C%A8%EC%8A%A4%20%EC%9D%B4%EC%9A%A9%20%EB%93%B1%EB%A1%9D%C2%B7%EC%B2%98%EB%A6%AC%EA%B2%B0%EA%B3%BC%20%EC%9D%B4%ED%95%B4%20%EC%A7%80%EC%9B%90.html">K-패스 이용 등록·처리결과 이해 지원</a> · <a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P18_K-%ED%8C%A8%EC%8A%A4%20%EC%9D%B4%EC%9A%A9%20%EB%93%B1%EB%A1%9D%C2%B7%EC%B2%98%EB%A6%AC%EA%B2%B0%EA%B3%BC%20%EC%9D%B4%ED%95%B4%20%EC%A7%80%EC%9B%90.md">MD</a></td>
+<td>기구축 업무 AI 적용</td>
+<td>상태·사유의 개인별 설명, 누락 질문·정정 안내·문의 인계</td>
+</tr>
+<tr>
+<td>TS-P19</td>
+<td>교통정보 서비스 / DRT 이용 조건·예약 완료 지원</td>
+<td><a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P19_DRT%20%EC%9D%B4%EC%9A%A9%20%EC%A1%B0%EA%B1%B4%C2%B7%EC%98%88%EC%95%BD%20%EC%99%84%EB%A3%8C%20%EC%A7%80%EC%9B%90.html">DRT 이용 조건·예약 완료 지원</a> · <a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P19_DRT%20%EC%9D%B4%EC%9A%A9%20%EC%A1%B0%EA%B1%B4%C2%B7%EC%98%88%EC%95%BD%20%EC%99%84%EB%A3%8C%20%EC%A7%80%EC%9B%90.md">MD</a></td>
+<td>연계조건 확인 후 AI 적용</td>
+<td>자유로운 이동 요구를 필수 조건으로 정리, 대안 설명·예약 준비</td>
+</tr>
+<tr>
+<td>TS-P20</td>
+<td>교통정보 서비스 / 데이터 개방센터 이용·분석 준비 지원</td>
+<td><a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P20_%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EA%B0%9C%EB%B0%A9%EC%84%BC%ED%84%B0%20%EC%9D%B4%EC%9A%A9%C2%B7%EB%B6%84%EC%84%9D%20%EC%A4%80%EB%B9%84%20%EC%A7%80%EC%9B%90.html">데이터 개방센터 이용·분석 준비 지원</a> · <a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P20_%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EA%B0%9C%EB%B0%A9%EC%84%BC%ED%84%B0%20%EC%9D%B4%EC%9A%A9%C2%B7%EB%B6%84%EC%84%9D%20%EC%A4%80%EB%B9%84%20%EC%A7%80%EC%9B%90.md">MD</a></td>
+<td>공통 지식 모듈 적용·효과 확인</td>
+<td>자연어 목적에 맞는 자료 후보 설명, 변수·제약 안내, 신청 준비</td>
+</tr>
+<tr>
+<td>TS-P21</td>
+<td>교통안전 체험교육 / 교통안전 체험교육 전후 실천 지원</td>
+<td><a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P21_%EA%B5%90%ED%86%B5%EC%95%88%EC%A0%84%20%EC%B2%B4%ED%97%98%EA%B5%90%EC%9C%A1%20%EC%A0%84%ED%9B%84%20%EC%8B%A4%EC%B2%9C%20%EC%A7%80%EC%9B%90.html">교통안전 체험교육 전후 실천 지원</a> · <a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P21_%EA%B5%90%ED%86%B5%EC%95%88%EC%A0%84%20%EC%B2%B4%ED%97%98%EA%B5%90%EC%9C%A1%20%EC%A0%84%ED%9B%84%20%EC%8B%A4%EC%B2%9C%20%EC%A7%80%EC%9B%90.md">MD</a></td>
+<td>기구축 업무 AI 적용</td>
+<td>교육생 상황별 문답·실천 확인지와 강사용 설명 초안</td>
+</tr>
+<tr>
+<td>TS-P22</td>
+<td>교통안전 체험교육 / 배달업 이륜차 강사 교안·상황문답 지원</td>
+<td><a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P22_%EB%B0%B0%EB%8B%AC%EC%97%85%20%EC%9D%B4%EB%A5%9C%EC%B0%A8%20%EA%B0%95%EC%82%AC%20%EA%B5%90%EC%95%88%C2%B7%EC%83%81%ED%99%A9%EB%AC%B8%EB%8B%B5%20%EC%A7%80%EC%9B%90.html">배달업 이륜차 강사 교안·상황문답 지원</a> · <a href="%EA%B0%9C%EB%B3%84%EA%B8%B0%ED%9A%8D%EC%84%9C/TS-P22_%EB%B0%B0%EB%8B%AC%EC%97%85%20%EC%9D%B4%EB%A5%9C%EC%B0%A8%20%EA%B0%95%EC%82%AC%20%EA%B5%90%EC%95%88%C2%B7%EC%83%81%ED%99%A9%EB%AC%B8%EB%8B%B5%20%EC%A7%80%EC%9B%90.md">MD</a></td>
+<td>통합 적용 모듈</td>
+<td>이륜차 상황에 맞는 문답·교안 보완·안전수칙 대조</td>
+</tr>
+</tbody></table></div>
+<h2 id="chapter-3">관련 자료</h2>
+<ul>
+<li><a href="01_%EA%B3%B5%ED%86%B5_%EC%88%98%ED%96%89%EC%84%A4%EA%B3%84.html">공통 수행설계</a></li>
+<li><a href="02_%EC%97%85%EB%AC%B4%EB%B3%84_%ED%99%95%EC%9D%B8%EC%9B%90%EC%9E%A5.json">업무 확인 원장</a> · <a href="03_%EC%82%AC%EC%97%85%EA%B8%B0%ED%9A%8D_%EC%9B%90%EC%9E%A5.json">기획 원장</a></li>
+<li><a href="04_%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD_%EC%B6%94%EC%A0%81%ED%91%9C.json">요구사항 추적</a> · <a href="05_%ED%9B%84%EC%86%8D%ED%99%95%EC%9D%B8_%EB%8C%80%EA%B8%B0%EC%97%B4.md">후속 확인</a></li>
+<li><a href="06_%EA%B8%B0%ED%9A%8D%EA%B0%84_%EC%A0%84%EC%B2%B4%EB%B9%84%EA%B5%90.md">231쌍 비교</a> · <a href="07_AI%EC%B6%94%EA%B0%80%EC%A0%81%EC%9A%A9_%EC%9E%AC%ED%8C%90%EC%A0%95.json">재판정 원장</a></li>
+<li><a href="%EA%B2%80%EC%A6%9D%EA%B8%B0%EB%A1%9D.md">검증 기록</a></li>
+</ul>
+<h2 id="chapter-4">출처</h2>
+<ol class="sources"><li id="source-49" value="49">현재 사용자 지시를 반영한 프로젝트 기획 기준. <a href="file:///G:/%EB%82%B4%20%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C/1.%20%EC%97%85%EB%AC%B4%EC%98%81%EC%97%AD/6.%20CCK/1.%20%EC%82%AC%EC%97%85%EA%B4%80%EB%A6%AC/TS/bizops/%5BTS%20%EC%82%AC%EC%97%85%EA%B8%B0%ED%9A%8D%5D/00_%EA%B8%B0%ED%9A%8D%EC%A7%80%EC%B9%A8/%EA%B8%B0%EA%B5%AC%EC%B6%95%EC%82%AC%EC%97%85_CCK_AI_%EC%A0%81%EC%9A%A9%EA%B3%BC_%EC%A4%91%EB%B3%B5%ED%8C%90%EC%A0%95.md">기구축 사업의 CCK AI 적용과 중복판정</a>. 2026-09-15. 열람 2026-09-15. 기구축 사업도 CCK AI 적용 대상에 포함한다는 사용자 정정; 기관 승인 아님. 이번 기획 개정의 기준.</li></ol></main><script>const rows=[...document.querySelectorAll("#index-table tbody tr")],cat=document.getElementById("cat"),state=document.getElementById("state"),q=document.getElementById("q"),count=document.getElementById("count");const empty=document.createElement("p");empty.className="empty";empty.hidden=true;empty.textContent="조건에 맞는 기획이 없습니다. 조건을 바꾸거나 초기화하세요.";document.getElementById("index-table").parentElement.after(empty);function filter(){let n=0;for(const r of rows){const ok=(!cat.value||r.cells[1].textContent.startsWith(cat.value+" / "))&&(!state.value||r.cells[3].textContent===state.value)&&r.textContent.toLowerCase().includes(q.value.trim().toLowerCase());r.hidden=!ok;if(ok)n++}count.textContent=n+" / 22개 기획";empty.hidden=n!==0}for(const e of [cat,state])e.addEventListener("change",filter);q.addEventListener("input",filter);document.getElementById("reset").addEventListener("click",()=>{cat.value="";state.value="";q.value="";filter();q.focus()})</script></body></html>

@@ -1,0 +1,1877 @@
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	
+
+    
+	<!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="index"/>
+	
+	<title>교통안전 교육센터</title>
+	
+	
+
+    <meta name="keywords" content="한국도로교통공단,동승보호자,통학버스,교통안전 교육센터,교통안전교육센터,긴급자동차,고령운전자,어린이통학버스,콘텐츠,교통안전,교통안전교육" />
+    <meta name="description" content="한국도로교통공단의 대표 온라인 교육플랫폼으로 교통안전교육 수강 및 교육자료를 PC와 모바일을 통해 제공하는 홈페이지">
+    <meta name="author" content="한국도로교통공단">
+    <meta name="naver-site-verification" content="8625ffca28a636177aade5c7d86e8e8162967136" />
+
+    <meta property="og:type" content="website"> 
+	<meta property="og:title" content="교통안전 교육센터">
+	<meta property="og:description" content="한국도로교통공단의 대표 온라인 교육플랫폼으로 교통안전교육 수강 및 교육자료를 PC와 모바일을 통해 제공하는 홈페이지">
+	<meta property="og:image" content="/resources/favicon.ico">
+	<meta property="og:url" content="https://trafficedu.koroad.or.kr:8443">
+
+
+    <!-- Intermorph CSS & JS -->
+    <script src="/resources/home/js/design.js"></script>
+    <link href="/resources/home/css/www/style.css" rel="stylesheet">
+    <script src="/resources/home/js/page.js"></script>
+    <script src="/resources/home/js/swiper-11.2.6.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+
+
+<!-- Favicon -->
+	<link rel="shortcut icon" href="https://trafficedu.koroad.or.kr:8443/resources/favicon.ico" type="image/x-icon" />
+	<line rel="icon" href="/resources/favicon.ico" type="image/x-icon" />
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/resources/home/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+	<link rel="stylesheet" href="/resources/home/vendor/swiper/css/swiper.min.css">
+
+    <link href="/resources/home/css/custom.css" rel="stylesheet" type="text/css">
+    <link href="/resources/home/css/custom2.css" rel="stylesheet" type="text/css">
+    <link href="/resources/home/css/custom3.css" rel="stylesheet" type="text/css">
+
+    <script src="/resources/home/vendor/jquery/jquery.min.js"></script>
+    <script src="/resources/home/js/jquery-ui-effect.js"></script>
+    <!-- Bootstrap 3.3.7 -->
+    <script src="/resources/home/vendor/bootstrap/js/bootstrap.min.js"></script>
+	
+	<script src="/resources/home/vendor/swiper/js/swiper.min.js"></script>
+
+    <script src="/resources/common/commonCustom.js"></script>
+    <script src="/resources/home/js/custom.js"></script>
+    
+	<link href="/resources/home/fonts/material-icons.css" rel="stylesheet" type="text/css">
+	<link href="/resources/home/fonts/notosanskr.css" rel="stylesheet" type="text/css">
+	<link href="/resources/home/css/common.css" rel="stylesheet" type="text/css">
+	<script src="/resources/home/js/slick.min.js"></script><!-- 20201221 : slick 추가 -->
+	<script src="/resources/home/js/design.js"></script>
+	<script src="/resources/home/js/Chart.min.js"></script>
+	<!-- 20220824 : 이미지 뷰어 소스 추가 -->
+	<link rel="stylesheet" href="/resources/lib/ekko-lightbox/5.3.0/ekko-lightbox.css">
+	<script src="/resources/lib/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+	<!-- //20220824 : 이미지 뷰어 소스 추가 -->
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="/resources/common/html5shiv/html5shiv.js"></script>
+        <script src="/resources/common/respond.js/respond.min.js"></script>
+    <![endif]-->
+
+    <script>
+    
+    $(document).ready(function(){
+    	$(document).on("click", "#btn-view", function(){
+    		var url = $(this).attr("data-url").replace('{selectId}', $(this).attr("data-id")).trim();
+    		fn_searchForm_submit(url);
+    	});
+    	
+    	$(document).on("click", "#btn-list", function(){
+    		var url = $(this).attr("data-url").trim();
+    		fn_searchForm_submit(url);
+    	});
+    });
+    
+    function fn_searchForm_submit(url){
+    	$("#searchForm").attr("action", url);
+		$("#searchForm").submit();
+    }
+    
+    /* pagination 페이지 링크 function */
+    function fn_link_page(pageNo){
+        document.searchForm.pageIndex.value = pageNo;
+        document.searchForm.method = "POST";
+        document.searchForm.submit();
+    }
+    </script>
+<body class="main">
+
+</head>
+
+<body class="sub">
+	
+	
+	
+
+
+
+
+
+
+<script>
+
+	function localStorageClean() {
+		localStorage.removeItem("guestMicroHistory");
+		localStorage.removeItem("guestBoardHistory");
+	}
+</script>
+<header>
+<div class="header-top">
+	<div class="logo">
+		<h1>
+			<a href="/">
+				<span class="sr-only">한구도로교통공단 교통안전 교육센터</span>
+			</a>
+		</h1>
+	</div>
+	<div class="user-wrap">
+		<!-- <p class="user-login">기관 관리자</p> -->
+		<div class="info-menu">
+			
+				
+				
+					<a href="/home/login" class="link-login"><i class="i-login"></i>로그인</a>
+					<a href="/home/join/joinAgreement" class="link-join">회원가입</a>
+				
+			
+		</div>
+	</div>
+	<div class="m-menu">
+		<button class="nav_toggle" title="사이트맵">
+			<span class="line"></span>
+			<span class="line"></span>
+			<span class="line"></span>
+			<span class="sr-only">사이트맵</span>
+		</button>
+	</div>
+</div>
+<div class="wrap-gnb">
+	<div class="container">
+		<nav class="gnb">
+			<div class="gnb-item">
+				<a href="#">교육소개</a>
+				<div class="sub-item">
+					<ul>
+						<li class="menu_0_0"><a href="/home/intro/centerIntro">교육센터 소개</a></li>
+						<li class="menu_0_1"><a href="/home/intro/eduGuide1">법정교육 영상<br>학습 가이드</a></li>
+						<li class="menu_0_2"><a href="/home/intro/trafficVideoGuide">교통안전 영상<br>활용 가이드</a></li>
+						<li class="menu_0_3"><a href="http://news.koroad.or.kr" target="_blank">웹진</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="gnb-item">
+				<a href="#">법정교육</a>
+				<div class="sub-item">
+					<ul>
+						<li class="menu_1_0"><a href="/home/course/grayingCourseIntro">고령운전자</a></li>
+						<li class="menu_1_1"><a href="/home/course/guardCourseIntro">통학버스</a></li>
+						<li class="menu_1_2"><a href="/home/course/urgentCourseIntro">긴급자동차</a></li>
+						<li class="menu_1_3"><a href="/home/course/autoCourseIntro">자율주행</a></li>
+						<li class="menu_1_4"><a href="/home/course/drinkCourseIntro">음주운전 방지장치</a></li>
+						<li class="menu_1_5"><a href="/home/course/teacherCourseIntro">교통안전 교사</a></li>
+						<li class="menu_1_6"><a href="/home/safe/courseList">직무 단체 교육</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="gnb-item">
+				<a href="#">마이크로러닝</a>
+				<div class="sub-item">
+					<ul>
+						<li class="menu_2_0"><a href="/home/micro/microList">교통안전 영상 학습</a></li>
+						<li class="menu_2_1"><a href="/home/board/microPromotionList">홍보물 및 교재 학습</a></li>
+						
+						<li class="menu_2_3"><a href="http://taas.koroad.or.kr/childTaas/main.do" target="_blank">어린이 TAAS</a></li>
+						
+						<li class="menu_2_4"><a href="/home/micro/nonLoginMicroList">비로그인 보관함</a></li>
+						
+					</ul>
+				</div>
+			</div>
+			<div class="gnb-item">
+				<a href="#">안전운전인증</a>
+				<div class="sub-item">
+					<ul>
+						<li class="menu_5_0"><a href="/home/safe/safeIntro">인증제 소개</a></li>
+						<li class="menu_5_1"><a href="/home/safe/safeStatus">인증제 현황</a></li>
+						<li class="menu_5_2"><a href="/home/safe/safeCourseList">교육 수강</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="gnb-item">
+				<a href="#">알림·참여</a>
+				<div class="sub-item">
+					<ul>
+						<li class="menu_4_0"><a href="/home/board/noticeList">공지사항</a></li>
+						<li class="menu_4_1"><a href="/home/board/faq">자주 묻는 질문</a></li>
+						
+						<li class="menu_4_2"><a href="/home/reservation/reservationIntro">체험관 예약</a></li>
+						
+					</ul>
+				</div>
+			</div>
+			<div class="gnb-item">
+				<a href="#">마이페이지</a>
+				<div class="sub-item">
+					<ul>
+						<li class="menu_3_0"><a href="/home/mypage/studyStatus">학습활동 현황</a></li>
+
+
+
+						<li class="menu_3_4"><a href="/home/mypage/myInfo">개인정보 수정</a></li>
+
+						<li class="menu_3_6"><a href="/home/mypage/approvalStatus">기관관리 현황</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<button class="nav_toggle" title="사이트맵">
+			<span class="line"></span>
+			<span class="line"></span>
+			<span class="line"></span>
+			<span class="sr-only">사이트맵</span>
+		</button>
+
+	</div>
+
+	<!-- 모바일 메뉴 -->
+	<div class="side_bar" id="sidr">
+		<div class="inner">
+			<div class="head">
+				<button type="button" class="close-btn">
+					<span class="close-top"></span>
+					<span class="close-bottom"></span>
+				</button>
+				<ul class="gl">
+					<li><a href="#">로그인</a></li>
+					<li><a href="#">회원가입</a></li>
+				</ul>
+			</div>
+			<p class="user-login"><strong>강경희외국인4</strong>님 반갑습니다.</p>
+			<ul class="nav">
+				<li>
+					<a href="#" class="opener">수강신청</a>
+					<ul class="sub">
+						<li><a href="#">커뮤니티교육원 수강신청</a></li>
+						<li><a href="#">한림스포트센터 수강신청</a></li>
+						<li><a href="#">비학위 과정 수강신청</a></li>
+						<li><a href="#">과정 찾기</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="#" class="opener">수강안내</a>
+					<ul class="sub">
+						<li><a href="#">접수및등록안내</a></li>
+						<li><a href="#">환불 안내</a></li>
+						<li><a href="#">E-리플릿</a></li>
+						<li><a href="#">수강생준수사항</a></li>
+						<li><a href="#">수강혜택</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="#" class="opener">열린광장</a>
+					<ul class="sub">
+						<li><a href="#">교육원 공지사항</a></li>
+						<li><a href="#">스포츠센터 공지사항</a></li>
+						<li><a href="#">자료실</a></li>
+						<li><a href="#">갤러리</a></li>
+						<li><a href="#">자주하는 질문</a></li>
+						<li><a href="#">희망강좌 신청</a></li>
+						<li><a href="#">강사 신청</a></li>
+						<li><a href="#">공간 예약</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="#" class="opener">교육원소개</a>
+					<ul class="sub">
+						<li><a href="#">인사말</a></li>
+						<li><a href="#">연혁</a></li>
+						<li><a href="#">조직도</a></li>
+						<li><a href="#">시설안내</a></li>
+						<li><a href="#">오시는길</a></li>
+						<li><a href="#">캠퍼스맵</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="#" class="opener">마이페이지</a>
+					<ul class="sub">
+						<li><a href="#">학습 대시보드</a></li>
+						<li><a href="#">강사대시보드</a></li>
+						<li><a href="#">기타환불 관리</a></li>
+						<li><a href="#">희망강좌 신청현황</a></li>
+						<li><a href="#">주차 이용현황</a></li>
+						<li><a href="#">사물함 이용현황</a></li>
+						<li><a href="#">공간 예약현황</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+</header>
+
+
+<!-- <div class="h_banner nds">
+	<div class="bowl">
+		<div class="sd">
+			<div class="li">
+				<a href="#" class="chrome">
+					<span class="sort">[뉴스/공지사항]</span>
+					<div class="group">
+						<p class="sub els_cl">
+							<span class="em">교통안전 교육센터 수강에 관한 사용 안내(권장) :</span>
+							<br>저희 교통안전 교육센터는 온라인 강좌를 수강하기에 앞서 크롬 브라우저 사용을 권장합니다.
+						</p>
+					</div>
+					<span class="date">2020-08-21</span>
+				</a>
+			</div>
+			<!-- <div class="li">
+				<a href="#">
+					<span class="sort">[뉴스/공지사항]</span>
+					<p class="sub">
+						<span class="em">교통안전 교육센터 수강에 관한 사용 안내(권장) :</span>
+						저희 교통안전 교육센터는 온라인 강좌를 수강하기에 앞서 크롬 브라우저 사용을 권장합니다.
+					</p>
+					<span class="date">2020-08-21</span>
+				</a>
+			</div> -- >
+		</div>
+		<div class="count">
+			<div class="group">
+				<span class="current"></span> / <span class="total"></span>
+			</div>
+			<a href="#" class="close">닫기</a>
+		</div>
+	</div>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="gnbMenu">
+	<!-- <div class="gnbMenu hide"> -->
+	<div class="gnbMenu_box">
+		<div class="gnbMenu_title">
+
+			<button class="navbar-toggleBtn">
+				<img src="../../resources/home/img/closeBtn_gnb.png" alt="GNB메뉴 닫기">
+			</button>
+		</div>
+		<div class="gnbMenu_con">
+			<a class="gnbMenu_logo" href="/">
+				<img src="../../resources/home/img/logo_gnb.png" alt="교통안전 교육센터">
+			</a>
+			<div class="gnbMenu-loginBox">
+				<!-- 로그인 전 -->
+				<!-- <a href="#" class="link-login"><i class="i-login"></i>로그인</a>
+                <ul>
+                  <li class="loginBtn"><a href="/home/login">기관관리자</a></li>
+                  <li class="joinBtn"><a href="/home/join/joinAgreement">회원가입</a></li>
+                </ul> -->
+
+				
+					
+					
+						<ul>
+							<li class="loginBtn"><a href="/home/login"><i class="i-login"></i>로그인</a></li>
+							<li class="joinBtn"><a href="/home/join/joinAgreement">회원가입</a></li>
+						</ul>
+					
+				
+			</div>
+			<ul class="gnbMenu_nav">
+				<li class="nav-item">
+					<span>교육소개</span>
+					<button><span>교육소개</span></button>
+					<ul>
+						<li class="menu_0_0"><a href="/home/intro/centerIntro">교육센터 소개</a></li>
+						<li class="menu_0_1"><a href="/home/intro/eduGuide1">법정교육 영상 학습 가이드</a></li>
+						<li class="menu_0_2"><a href="/home/intro/trafficVideoGuide">교통안전 영상 활용 가이드</a></li>
+						<li class="menu_0_3"><a href="http://news.koroad.or.kr" target="_blank">웹진</a></li>
+					</ul>
+				</li>
+				<li class="nav-item">
+					<span>법정교육</span>
+					<button><span>법정교육</span></button>
+					<ul>
+						<li class="menu_1_0"><a href="/home/course/grayingCourseIntro">고령운전자</a></li>
+						<li class="menu_1_1"><a href="/home/course/guardCourseIntro">통학버스</a></li>
+						<li class="menu_1_2"><a href="/home/course/urgentCourseIntro">긴급자동차</a></li>
+						<li class="menu_1_3"><a href="/home/course/autoCourseIntro">자율주행</a></li>
+						<li class="menu_1_4"><a href="/home/course/drinkCourseIntro">음주운전 방지장치</a></li>
+						<li class="menu_1_5"><a href="/home/course/teacherCourseIntro">교통안전 교사</a></li>
+						<li class="menu_1_6"><a href="/home/safe/courseList">직무 단체 교육</a></li>
+					</ul>
+				</li>
+				<li class="nav-item">
+					<span>마이크로러닝</span>
+					<button><span>마이크로러닝</span></button>
+					<ul>
+						<li class="menu_2_0"><a href="/home/micro/microList">교통안전 영상 학습</a></li>
+						<li class="menu_2_1"><a href="/home/board/microPromotionList">홍보물 및 교재 학습</a></li>
+
+						<li class="menu_2_3"><a href="http://taas.koroad.or.kr/childTaas/main.do" target="_blank">어린이 TAAS</a></li>
+					</ul>
+				</li>
+				<li class="nav-item">
+					<span>안전운전인증</span>
+					<button><span>안전운전인증</span></button>
+					<ul>
+						<li class="menu_5_0"><a href="/home/safe/safeIntro">인증제 소개</a></li>
+						<li class="menu_5_1"><a href="/home/safe/safeStatus">인증제 현황</a></li>
+						<li class="menu_5_2"><a href="/home/safe/safeCourseList">교육 수강</a></li>
+					</ul>
+				</li>
+				<li class="nav-item">
+					<span>알림·참여</span>
+					<button><span>알림·참여</span></button>
+					<ul>
+						<li class="menu_4_0"><a href="/home/board/noticeList">공지사항</a></li>
+						<li class="menu_4_1"><a href="/home/board/faq">자주 묻는 질문</a></li>
+
+						<li class="menu_4_2"><a href="/home/reservation/reservationIntro">체험관 예약</a></li>
+
+					</ul>
+				</li>
+				<li class="nav-item">
+					<span>마이페이지</span>
+					<button><span>마이페이지</span></button>
+					<ul>
+						<li class="menu_3_0"><a href="/home/mypage/studyStatus">학습활동 현황</a></li>
+
+
+
+						<li class="menu_3_4"><a href="/home/mypage/myInfo">개인정보 수정</a></li>
+
+						<li class="menu_3_6"><a href="/home/mypage/approvalStatus">기관관리 현황</a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul class="gnb_footerMenu">
+				<li><a href="https://www.koroad.or.kr/kp_web/privacyPolicy.do" target="_blank">개인정보처리방침</a></li>
+				<li><a href="https://www.koroad.or.kr/kp_web/emailSpam.do" target="_blank">이메일무단수집거부</a></li>
+				<li><a href="https://www.koroad.or.kr/kp_web/customerCharter.do" target="_blank">고객헌장</a></li>
+				<li><a href="https://www.koroad.or.kr/me_web/codeConduct.do" target="_blank">임직원행동강령</a></li>
+				<li><a href="/home/common/map">찾아오시는길</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+	
+
+
+
+
+<style>
+	/* 기존 카드 크기 유지 */
+	#microSwiper1 .swiper-slide,
+	#microSwiper2 .swiper-slide,
+	#microSwiper3 .swiper-slide,
+	#microSwiper4 .swiper-slide,
+	#microSwiper5 .swiper-slide{
+		width: 272px !important;   /* 핵심 */
+	}
+
+	.thumbnail img.thumbnailImage{
+		width: 272px;
+		height: 144px;
+	}
+</style>
+<script>
+    function fn_post_view(id){
+        document.searchForm.action = "/home/board/"+id+"/noticeView";
+        document.searchForm.submit();
+    }
+    
+    function fn_openEdu_view(id){
+        document.searchForm.action = "/home/openEdu/EDU/" + id + "/openEduView";
+        document.searchForm.submit();
+    }
+    
+    // function certConfirm() {
+    //	$("#mberNm").val("");
+    //	$("#brthdy").val("");
+    //	$("#certList").hide();
+    //	$("#certConfirm").show();
+    // } 
+    
+    function certNext() {
+    	var result = kbcValidator.validate([
+            [$("#mberNm"), "이름"],
+            [$("#brthdy"), "생년월일", [kbcValidator.rules.numberOnly()]]
+        ]);
+
+        if (!result.success) return;
+        
+        var htmlData = "";
+        $.ajax({
+			dataType : 'json',
+			data : {
+				"mberNm" : $("#mberNm").val(),
+				"brthdy" : $("#brthdy").val()
+			},
+			url : "/home/main/ajaxCertificateList",
+			type : "POST",
+			async : false,
+			success : function(data){
+				var result = data.result.list;
+				$("#certificateList").empty();
+				
+				if(result.length > 0) {
+					$(result).each(function(index, object) {
+						htmlData += "<tr>";
+						htmlData += "	<td>" + (result.length - index) + "</td>";
+						htmlData += "	<td>" + object.completeDate + "</td>";
+						htmlData += "	<td><a href=\"javascript:certPop('" + object.completeNo + "');\" class=\"c_btn blue study-button\">수료증 출력</a></td>";
+						htmlData += "</tr>";
+					});					
+					$("#previewBtn").hide();
+				} else {
+					htmlData += "<tr>";
+					htmlData += "	<td colspan=\"3\">수료증 정보가 없습니다.<br/>이름과 생년월일이 정확히 입력되었는지 확인하세요.</td>";
+					htmlData += "</tr>";
+					$("#previewBtn").show();
+				}
+			},
+			error:function(request, status, error){
+				console.log(error);
+			}
+        });
+        
+        $("#certificateList").html(htmlData);
+        
+        $("#certConfirm").hide();
+        $("#certList").show();
+    }
+    
+    var DEFAULTPRT = 0;
+	var AUTOPRINT = 0;
+	var HIDEFRAME = 0;
+	var HIDEPRTBUTTON = 0;
+	//var src = "/markany/sample/MarkAnySample_road.jsp";
+	function certPop(completeNo) {
+		cw = 1260;
+		//스크린의 크기
+		sw = screen.availWidth;
+		sh = screen.availHeight;
+		ch = 850;
+		//열 창의 포지션
+		winPosLeft = (sw - cw) / 2;
+		winPosTop = 10;
+		
+		var src = "/home/main/homeMainCert";
+		var param = "?completeNo=" + completeNo;
+		var option = 'width=' + cw + ',height=' + ch + ',top=' + winPosTop + ',left=' + winPosLeft + ',toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no';
+		
+		window.open(src + param, 'popWinC', option);
+		//window.open("/resources/markany/index.jsp", "_blank", "");
+	}
+	
+	function fn_change_post(type) {
+		$(".postview").removeClass("on");
+		$("#" + type).addClass("on");
+		$(".edu_li").hide();
+		$("."+type).show();
+	}
+
+	document.addEventListener("DOMContentLoaded", () => {
+		const popup = document.querySelector(".main-popup");
+		const checkbox = popup.querySelector("#hide-today");
+		const closeButtons = popup.querySelectorAll(".main-popup-close, .c-btn.primary-line");
+
+		const COOKIE_NAME = "mainPopup";
+
+		function getCookie(name) {
+			const value = document.cookie.split("; ").find(row => row.startsWith(name + "="));
+
+			return value ? value.split("=")[1] : null;
+		}
+
+		const cookieValue = getCookie(COOKIE_NAME);
+		if (cookieValue === "N") {
+			popup.style.display = "none";
+		} else {
+			popup.style.display = "block";  // 팝업 보이기
+		}
+
+		function mainPopClose() {
+			if (checkbox && checkbox.checked) {
+				document.cookie = `${COOKIE_NAME}=N; max-age=86400; path=/`;
+			}
+			popup.style.display = "none";
+		}
+
+		// 닫기 이벤트 바인딩
+		closeButtons.forEach(btn => btn.addEventListener("click", mainPopClose));
+	});
+
+	function goMicroView(microId) {
+		location.href = "/home/micro/" + microId + "/microView";
+	}
+
+	$(document).ready(function () {
+		const linkMap = {
+			"main-menu-01": "/home/course/grayingCourseIntro",
+			"main-menu-02": "/home/course/guardCourseIntro",
+			"main-menu-03": "/home/course/urgentCourseIntro",
+			"main-menu-04": "/home/course/drinkCourseIntro",
+			"main-menu-05": "/home/course/autoCourseIntro",
+			"main-menu-06": "/home/course/teacherCourseIntro",
+			"main-menu-07": "/home/safe/safeIntro"
+		};
+
+		$.each(linkMap, function (cls, url) {
+			$(document).on("click", "." + cls, function (e) {
+				window.location.href = url;
+			});
+		});
+	});
+
+	function initMicroSwiper(el) {
+		// 이미 초기화되어 있으면 완전 제거 (duplicate 포함 DOM 정리)
+		if (el.swiper) el.swiper.destroy(true, true);
+
+		// ✅ destroy 이후 "진짜 슬라이드" 개수 계산
+		const realCount = el.querySelectorAll('.swiper-wrapper > .swiper-slide').length;
+
+		new Swiper(el, {
+			slidesPerView: 'auto',
+			spaceBetween: 20,
+			loop: realCount > 1,      // 1개면 loop 끔
+			watchOverflow: true,      // 1개면 드래그/네비 비활성화 도움
+			navigation: {
+				nextEl: el.querySelector('.slider-button.next'),
+				prevEl: el.querySelector('.slider-button.prev'),
+			},
+			observer: true,
+			observeParents: true,
+		});
+	}
+
+	// 최초 로드
+	$(function () {
+		document.querySelectorAll('.edu-slider').forEach(initMicroSwiper);
+
+		$('.tab-content > div').hide();
+		$('#tab1').show();
+	});
+
+	// 탭 클릭 시: 해당 탭 swiper만 재초기화
+	$(document).on('click', 'ul.tabs a', function(e){
+		e.preventDefault();
+
+		const target = $(this).attr('href');
+
+		$(this).closest('ul.tabs').find('li').removeClass('active');
+		$(this).parent('li').addClass('active');
+
+		$('.tab-content > div').hide();
+		$(target).show();
+
+		document.querySelectorAll(target + ' .edu-slider').forEach(initMicroSwiper);
+	});
+
+	function modalClose(){
+		$('.p-dialog-close').click();
+	}
+
+	function showVideo() {
+		$(".mov-link").click();
+	}
+
+	function resetPopupVideoById(dialogId) {
+		const $dialog = $('[data-dialog-content="' + dialogId + '"]');
+		const video = $dialog.find('video').get(0);
+		if (!video) return;
+
+		video.pause();
+		video.currentTime = 0;
+		video.load();
+	}
+
+	$(document).on('click', '.p-dialog-close, .c-btn.primary-line.lg', function () {
+		resetPopupVideoById('popup-01');
+	});
+
+
+
+</script>
+
+
+
+<body>
+<div class="main-popup" style="display: none;">
+	<div class="main-popup-header">
+		<h5>주요 공지</h5>
+		<button class="main-popup-close">
+			<i class="close"></i>
+		</button>
+	</div>
+
+	<div class="main-popup-body">
+		<div class="main-popup-slider">
+			<div class="popup-slider-wrap">
+				
+					<div class="swiper-slide swiper-slide-next swiper-slide-prev">
+						<div class="title">
+							<div class="title-badge">필수안내사항</div>
+							<p>교통안전 교육센터 2차 본인인증 시행 안내</p>
+							<span>2025-11-12</span>
+						</div>
+						<div class="contents">
+								2025년 11월 12일(화)부터 로그인 시 본인 명의 인증 절차가 추가 됩니다.
+						</div>
+					</div>
+				
+					<div class="swiper-slide swiper-slide-next swiper-slide-prev">
+						<div class="title">
+							<div class="title-badge">필수안내사항</div>
+							<p>(안내사항)교통안전 교육센터 개명(이름) 변경방법 안내</p>
+							<span>2025-10-15</span>
+						</div>
+						<div class="contents">
+								개명(이름) 변경으로 수정 방법 안내
+						</div>
+					</div>
+				
+					<div class="swiper-slide swiper-slide-next swiper-slide-prev">
+						<div class="title">
+							<div class="title-badge">필수안내사항</div>
+							<p>(필수안내사항) 본인인증 의무화 및 회원정보 삭제 안내</p>
+							<span>2025-05-30</span>
+						</div>
+						<div class="contents">
+								기존 성명,생년월일,휴대폰번호가입 대상자 분들은 반드시 본인인증 절차를 반드시 거치셔야 서비스 이용이 가능함을 안내드립니다.
+						</div>
+					</div>
+				
+			</div>
+			<div class="swiper-footer">
+				<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"></div>
+				<button class="toggle-btn">
+					<span class="ico-stop"></span>
+				</button>
+			</div>
+			<button class="popup-slider-btn next">
+				<i><span class="sr-only">다음</span></i>
+			</button>
+			<button class="popup-slider-btn prev">
+				<i><span class="sr-only">이전</span></i>
+			</button>
+		</div>
+	</div>
+	<div class="main-popup-footer">
+		<div class="check-wrap">
+			<input type="checkbox" id="hide-today">
+			<label class="txt-fs-16" for="hide-today">오늘 하루 보지 않기</label>
+		</div>
+		<button class="c-btn primary-line">닫기</button>
+	</div>
+</div>
+<div class="wrapper">
+	<main class="home">
+		<div class="main-link">
+			<div class="container">
+				
+				
+				<div class="main-link-wrap">
+					<div class="senior senior-edu">
+						<div class="link-wrap" style="text-align: center">
+							<h4>고령운전자 교육</h4>
+							<div class="link-area">
+								<a href="/home/course/grayingCourseIntro">
+									<i class="main-link-01"></i>
+									<span>수강신청<i class="ico-more"></i></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="senior senior-register">
+						<div class="link-wrap" style="text-align: center">
+							<h4>고령운전자 수강신청 방법</h4>
+							<div class="link-area">
+								<a onclick="alert('준비중 입니다.')">
+									<i class="main-link-01-01"></i>
+									<span>시청하기<i class="ico-more"></i></span>
+								</a>
+							</div>
+						</div>
+						<div class="video-wrap">
+							<div class="video-area">
+								<div class="play-wrap">
+									<button class="btn-play mov-link" data-dialog="popup-01"><i><span class="sr-only">재생</span></i></button>
+								</div>
+								<img src="../../resources/home/images/main/tmp_video.png">
+							</div>
+						</div>
+					</div>
+					<div class="main-menu-01">
+						<a>
+							<i class="main-link-01"></i>
+							<span>고령운전자 교육</span>
+						</a>
+					</div>
+
+					<div class="main-menu-02">
+						<a>
+							<i class="main-link-02"></i>
+							<span>통학버스<br> 교육</span>
+						</a>
+					</div>
+
+					<div class="main-menu-03">
+						<a>
+							<i class="main-link-03"></i>
+							<span>긴급자동차 교육</span>
+						</a>
+					</div>
+
+					<div class="main-menu-04">
+						<a>
+							<i class="main-link-04"></i>
+							<span>음주운전 방지장치 교육</span>
+						</a>
+					</div>
+
+					<div class="main-menu-05">
+						<a>
+							<i class="main-link-05"></i>
+							<span>자율주행 교육</span>
+						</a>
+					</div>
+
+					<div class="main-menu-06">
+						<a>
+							<i class="main-link-06"></i>
+							<span>교통안전교사 교육</span>
+						</a>
+					</div>
+					<div class="main-menu-07">
+						<a>
+							<i class="main-link-07"></i>
+							<span>안전운전인증 교육</span>
+						</a>
+					</div>
+					
+						<div class="empty-link">
+							<span class="sr-only">이미지</span>
+						</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<section>
+				
+					<div class="edu-card img-left">
+						<button class="mov-link" onclick="alert('준비중 입니다.')">
+
+							<img src="../../resources/home/images/main/bg_edu_02.svg" />
+						</button>
+						<div class="edu-card-header">
+							<h3>고령운전자 교육 이란?</h3>
+						</div>
+						<div class="edu-card-body">
+							<p class="edu-card-desc">75세 이상 운전자의 운전면허 갱신(적성검사)을 위한 의무교육으로,
+								자연스러운 노화과정에 따른 신체·인지기능의 변화를 고려한
+								안전운전 방법을 습득하기 위한 교육</p>
+						</div>
+						<div class="edu-card-footer">
+							<button class="c-btn primary-line lg" onclick="location.href='/home/course/grayingCourseIntro'">
+								<span>수강신청 바로 가기</span>
+								<i class="arrow-right"></i>
+							</button>
+						</div>
+					</div>
+				
+
+				<div class="edu-card img-right">
+					<div class="edu-card-header">
+						<h3>안전운전 인증이란?</h3>
+					</div>
+					<div class="edu-card-body">
+						<p class="edu-card-desc">회사(민간기업과 국가・공공기관 포함)가 교통사고(교통법규위반)에 따른 경제적・사회적 비용 손실을 감소시키고
+							안전한 교통 문화를 정착시키기 위하여 회사의 교통안전성에 대하여 공단이 인증하는 제도</p>
+					</div>
+					<div class="edu-card-footer">
+						<button class="c-btn primary-line lg" onclick="location.href='/home/safe/safeCourseList'">
+							<span>단체 교육 바로가기</span>
+							<i class="arrow-right"></i>
+						</button>
+					</div>
+				</div>
+			</section>
+			<section class="micro-learning">
+				<div class="title">
+					<h3>마이크로러닝</h3>
+					<div class="title-right">
+						<ul class="tabs">
+							<li class="active"><a href="#tab1">전체</a></li>
+							<li><a href="#tab2">고령운전자</a></li>
+							<li><a href="#tab3">어린이</a></li>
+							<li><a href="#tab4">성인</a></li>
+							<li><a href="#tab5">기타</a></li>
+						</ul>
+						<button type="button" class="btn-more" onclick="location.href='/home/micro/microList'">더보기<i class="ico_more"></i></button>
+					</div>
+				</div>
+				<div class="tab-content">
+					<div id="tab1">
+						<div class="edu-slider" id="microSwiper1">
+							<div class="swiper-wrapper">
+								
+									<div class="swiper-slide">
+										<a href="#" onclick="goMicroView('733')">
+											<div class="thumbnail">
+												<img class="thumbnailImage" style="width: 272px; height: 144px;"
+													 src="
+														
+															/common/getImage?fileId=1208
+														
+														
+													 " />
+											</div>
+											<div class="info">
+												<div class="c-badge-wrap">
+													<div class="c-badge type-green">
+														<span>
+															
+																
+																무료
+															
+														</span>
+													</div>
+													<div class="c-badge type-green">
+														<span>
+															
+																자체
+																
+															
+														</span>
+													</div>
+													<div class="c-badge type-blue">
+														<span>
+															
+																성인
+																
+																
+																
+															
+														</span>
+													</div>
+												</div>
+												<div class="txt-box">
+													<h4>견인차 운전자의 교통안전</h4>
+												</div>
+											</div>
+										</a>
+									</div>
+								
+									<div class="swiper-slide">
+										<a href="#" onclick="goMicroView('731')">
+											<div class="thumbnail">
+												<img class="thumbnailImage" style="width: 272px; height: 144px;"
+													 src="
+														
+															/common/getImage?fileId=1211
+														
+														
+													 " />
+											</div>
+											<div class="info">
+												<div class="c-badge-wrap">
+													<div class="c-badge type-green">
+														<span>
+															
+																
+																무료
+															
+														</span>
+													</div>
+													<div class="c-badge type-green">
+														<span>
+															
+																자체
+																
+															
+														</span>
+													</div>
+													<div class="c-badge type-blue">
+														<span>
+															
+																성인
+																
+																
+																
+															
+														</span>
+													</div>
+												</div>
+												<div class="txt-box">
+													<h4>탑승객 승하차 안전과 사고방지 조치</h4>
+												</div>
+											</div>
+										</a>
+									</div>
+								
+									<div class="swiper-slide">
+										<a href="#" onclick="goMicroView('729')">
+											<div class="thumbnail">
+												<img class="thumbnailImage" style="width: 272px; height: 144px;"
+													 src="
+														
+															/common/getImage?fileId=1203
+														
+														
+													 " />
+											</div>
+											<div class="info">
+												<div class="c-badge-wrap">
+													<div class="c-badge type-green">
+														<span>
+															
+																
+																무료
+															
+														</span>
+													</div>
+													<div class="c-badge type-green">
+														<span>
+															
+																자체
+																
+															
+														</span>
+													</div>
+													<div class="c-badge type-blue">
+														<span>
+															
+																성인
+																
+																
+																
+															
+														</span>
+													</div>
+												</div>
+												<div class="txt-box">
+													<h4>자율주행차의 이해와 안전운전</h4>
+												</div>
+											</div>
+										</a>
+									</div>
+								
+									<div class="swiper-slide">
+										<a href="#" onclick="goMicroView('728')">
+											<div class="thumbnail">
+												<img class="thumbnailImage" style="width: 272px; height: 144px;"
+													 src="
+														
+															/common/getImage?fileId=1202
+														
+														
+													 " />
+											</div>
+											<div class="info">
+												<div class="c-badge-wrap">
+													<div class="c-badge type-green">
+														<span>
+															
+																
+																무료
+															
+														</span>
+													</div>
+													<div class="c-badge type-green">
+														<span>
+															
+																자체
+																
+															
+														</span>
+													</div>
+													<div class="c-badge type-blue">
+														<span>
+															
+																성인
+																
+																
+																
+															
+														</span>
+													</div>
+												</div>
+												<div class="txt-box">
+													<h4>사고예방을 위한 주기적인 자동차 점검</h4>
+												</div>
+											</div>
+										</a>
+									</div>
+								
+							</div>
+							<!-- 하단 컨트롤 -->
+							<div class="edu-progress-bar">
+								<div class="progress"></div>
+							</div>
+							<button class="slider-button prev"></button>
+							<button class="slider-button next"></button>
+						</div>
+					</div>
+					<div id="tab2">
+						<div class="edu-slider" id="microSwiper2">
+							<div class="swiper-wrapper">
+								
+							</div>
+							<!-- 하단 컨트롤 -->
+							<div class="edu-progress-bar">
+								<div class="progress"></div>
+							</div>
+							<button class="slider-button prev"></button>
+							<button class="slider-button next"></button>
+						</div>
+					</div>
+
+					<div id="tab3">
+						<div class="edu-slider" id="microSwiper3">
+							<div class="swiper-wrapper">
+								
+							</div>
+							<!-- 하단 컨트롤 -->
+							<div class="edu-progress-bar">
+								<div class="progress"></div>
+							</div>
+							<button class="slider-button prev"></button>
+							<button class="slider-button next"></button>
+						</div>
+					</div>
+
+					<div id="tab4">
+						<div class="edu-slider" id="microSwiper4">
+							<div class="swiper-wrapper">
+								
+									<div class="swiper-slide">
+										<a href="#" onclick="goMicroView('733')">
+											<div class="thumbnail">
+												<img class="thumbnailImage" style="width: 272px; height: 144px;"
+													 src="
+														
+															/common/getImage?fileId=1208
+														
+														
+													 " />
+											</div>
+											<div class="info">
+												<div class="c-badge-wrap">
+													<div class="c-badge type-green">
+															<span>
+																
+																	
+																	무료
+																
+															</span>
+													</div>
+													<div class="c-badge type-green">
+															<span>
+																
+																	자체
+																	
+																
+															</span>
+													</div>
+													<div class="c-badge type-blue">
+															<span>
+																
+																	성인
+																	
+																	
+																	
+																
+															</span>
+													</div>
+												</div>
+												<div class="txt-box">
+													<h4>견인차 운전자의 교통안전</h4>
+												</div>
+											</div>
+										</a>
+									</div>
+								
+									<div class="swiper-slide">
+										<a href="#" onclick="goMicroView('731')">
+											<div class="thumbnail">
+												<img class="thumbnailImage" style="width: 272px; height: 144px;"
+													 src="
+														
+															/common/getImage?fileId=1211
+														
+														
+													 " />
+											</div>
+											<div class="info">
+												<div class="c-badge-wrap">
+													<div class="c-badge type-green">
+															<span>
+																
+																	
+																	무료
+																
+															</span>
+													</div>
+													<div class="c-badge type-green">
+															<span>
+																
+																	자체
+																	
+																
+															</span>
+													</div>
+													<div class="c-badge type-blue">
+															<span>
+																
+																	성인
+																	
+																	
+																	
+																
+															</span>
+													</div>
+												</div>
+												<div class="txt-box">
+													<h4>탑승객 승하차 안전과 사고방지 조치</h4>
+												</div>
+											</div>
+										</a>
+									</div>
+								
+									<div class="swiper-slide">
+										<a href="#" onclick="goMicroView('729')">
+											<div class="thumbnail">
+												<img class="thumbnailImage" style="width: 272px; height: 144px;"
+													 src="
+														
+															/common/getImage?fileId=1203
+														
+														
+													 " />
+											</div>
+											<div class="info">
+												<div class="c-badge-wrap">
+													<div class="c-badge type-green">
+															<span>
+																
+																	
+																	무료
+																
+															</span>
+													</div>
+													<div class="c-badge type-green">
+															<span>
+																
+																	자체
+																	
+																
+															</span>
+													</div>
+													<div class="c-badge type-blue">
+															<span>
+																
+																	성인
+																	
+																	
+																	
+																
+															</span>
+													</div>
+												</div>
+												<div class="txt-box">
+													<h4>자율주행차의 이해와 안전운전</h4>
+												</div>
+											</div>
+										</a>
+									</div>
+								
+									<div class="swiper-slide">
+										<a href="#" onclick="goMicroView('728')">
+											<div class="thumbnail">
+												<img class="thumbnailImage" style="width: 272px; height: 144px;"
+													 src="
+														
+															/common/getImage?fileId=1202
+														
+														
+													 " />
+											</div>
+											<div class="info">
+												<div class="c-badge-wrap">
+													<div class="c-badge type-green">
+															<span>
+																
+																	
+																	무료
+																
+															</span>
+													</div>
+													<div class="c-badge type-green">
+															<span>
+																
+																	자체
+																	
+																
+															</span>
+													</div>
+													<div class="c-badge type-blue">
+															<span>
+																
+																	성인
+																	
+																	
+																	
+																
+															</span>
+													</div>
+												</div>
+												<div class="txt-box">
+													<h4>사고예방을 위한 주기적인 자동차 점검</h4>
+												</div>
+											</div>
+										</a>
+									</div>
+								
+							</div>
+							<!-- 하단 컨트롤 -->
+							<div class="edu-progress-bar">
+								<div class="progress"></div>
+							</div>
+							<button class="slider-button prev"></button>
+							<button class="slider-button next"></button>
+						</div>
+					</div>
+
+					<div id="tab5">
+						<div class="edu-slider" id="microSwiper5">
+							<div class="swiper-wrapper">
+								
+									<div class="swiper-slide">
+										<a href="#" onclick="goMicroView('702')">
+											<div class="thumbnail">
+												<img class="thumbnailImage" style="width: 272px; height: 144px;"
+													 src="
+														
+															/common/getImage?fileId=1076
+														
+														
+													 " />
+											</div>
+											<div class="info">
+												<div class="c-badge-wrap">
+													<div class="c-badge type-green">
+															<span>
+																
+																	
+																	무료
+																
+															</span>
+													</div>
+													<div class="c-badge type-green">
+															<span>
+																
+																	자체
+																	
+																
+															</span>
+													</div>
+													<div class="c-badge type-blue">
+															<span>
+																
+																	
+																	
+																	
+																	기타
+																
+															</span>
+													</div>
+												</div>
+												<div class="txt-box">
+													<h4>[공유모빌리티의 이해] 전기자전거 안전수칙</h4>
+												</div>
+											</div>
+										</a>
+									</div>
+								
+									<div class="swiper-slide">
+										<a href="#" onclick="goMicroView('344')">
+											<div class="thumbnail">
+												<img class="thumbnailImage" style="width: 272px; height: 144px;"
+													 src="
+														
+															/common/getImage?fileId=741
+														
+														
+													 " />
+											</div>
+											<div class="info">
+												<div class="c-badge-wrap">
+													<div class="c-badge type-green">
+															<span>
+																
+																	
+																	무료
+																
+															</span>
+													</div>
+													<div class="c-badge type-green">
+															<span>
+																
+																	자체
+																	
+																
+															</span>
+													</div>
+													<div class="c-badge type-blue">
+															<span>
+																
+																	
+																	
+																	
+																	기타
+																
+															</span>
+													</div>
+												</div>
+												<div class="txt-box">
+													<h4>픽시자전거 교통사고예방을 위한 교사 및 보호자 교육</h4>
+												</div>
+											</div>
+										</a>
+									</div>
+								
+									<div class="swiper-slide">
+										<a href="#" onclick="goMicroView('321')">
+											<div class="thumbnail">
+												<img class="thumbnailImage" style="width: 272px; height: 144px;"
+													 src="
+														
+															/common/getImage?fileId=715
+														
+														
+													 " />
+											</div>
+											<div class="info">
+												<div class="c-badge-wrap">
+													<div class="c-badge type-green">
+															<span>
+																
+																	
+																	무료
+																
+															</span>
+													</div>
+													<div class="c-badge type-green">
+															<span>
+																
+																	자체
+																	
+																
+															</span>
+													</div>
+													<div class="c-badge type-blue">
+															<span>
+																
+																	
+																	
+																	
+																	기타
+																
+															</span>
+													</div>
+												</div>
+												<div class="txt-box">
+													<h4>[자율주행] 기술 및 원리</h4>
+												</div>
+											</div>
+										</a>
+									</div>
+								
+									<div class="swiper-slide">
+										<a href="#" onclick="goMicroView('320')">
+											<div class="thumbnail">
+												<img class="thumbnailImage" style="width: 272px; height: 144px;"
+													 src="
+														
+															/common/getImage?fileId=714
+														
+														
+													 " />
+											</div>
+											<div class="info">
+												<div class="c-badge-wrap">
+													<div class="c-badge type-green">
+															<span>
+																
+																	
+																	무료
+																
+															</span>
+													</div>
+													<div class="c-badge type-green">
+															<span>
+																
+																	자체
+																	
+																
+															</span>
+													</div>
+													<div class="c-badge type-blue">
+															<span>
+																
+																	
+																	
+																	
+																	기타
+																
+															</span>
+													</div>
+												</div>
+												<div class="txt-box">
+													<h4>[자율주행] 환경변화</h4>
+												</div>
+											</div>
+										</a>
+									</div>
+								
+							</div>
+							<!-- 하단 컨트롤 -->
+							<div class="edu-progress-bar">
+								<div class="progress"></div>
+							</div>
+							<button class="slider-button prev"></button>
+							<button class="slider-button next"></button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main-notice">
+				<div class="notice">
+					<div class="title">
+						<h3>공지사항</h3>
+						<button type="button" class="btn-more" onclick="location.href='/home/board/noticeList'">더보기<i class="ico_more"></i></button>
+					</div>
+					<ul class="notice-list">
+						
+							<li>
+								<a href="/home/board/655/noticeView">
+									
+									<p>교통안전 교육센터 본인확인 서비스 일시 중단 안내</p>
+									<span class="date">2026.06.06</span>
+								</a>
+							</li>
+						
+							<li>
+								<a href="/home/board/234/noticeView">
+									
+									<p>교통안전 교육센터 서비스 일시 중단 안내</p>
+									<span class="date">2026.01.15</span>
+								</a>
+							</li>
+						
+							<li>
+								<a href="/home/board/231/noticeView">
+									
+										<span class="c-badge">공지</span>
+									
+									<p>교통안전 교육센터 2차 본인인증 시행 안내</p>
+									<span class="date">2025.11.12</span>
+								</a>
+							</li>
+						
+							<li>
+								<a href="/home/board/229/noticeView">
+									
+										<span class="c-badge">공지</span>
+									
+									<p>(안내사항)교통안전 교육센터 개명(이름) 변경방법 안내</p>
+									<span class="date">2025.10.15</span>
+								</a>
+							</li>
+						
+					</ul>
+				</div>
+				<div class="link">
+					<a href="/home/reservation/reservationIntro">
+						<i></i>
+						<span>어린이 교통안전<br>체험관 예약</span>
+					</a>
+					<a href="https://www.939.co.kr/dlskoroad/" target="_blank">
+						<i></i>
+						<span>원격지원<br>서비스</span>
+					</a>
+					<a href="https://taas.koroad.or.kr/childTaas/main.do" target="_blank">
+						<i></i>
+						<span>어린이<br>TAAS</span>
+					</a>
+					<a href="https://www.law.go.kr/main.html" target="_blank">
+						<i></i>
+						<span>관련 법령</span>
+					</a>
+				</div>
+			</section>
+		</div>
+	</main>
+</div>
+<div class="p-dialog-mask" data-dialog-content="popup-01">
+	<div class="p-dialog-wrap">
+		<div class="p-dialog-header">
+			<span class="p-dialog-title">고령운전자 교육이란?</span>
+			<button class="p-dialog-close"><span class="sr-only">팝업 닫기</span></button>
+		</div>
+		<div class="p-dialog-contents" preload="metadata">
+			<div class="dialog-vid">
+				<video controls preload="metadata">
+					<source src="https://koroad-edu.speedycdn.net/2025_04/30.mp4" type="video/mp4">
+				</video>
+			</div>
+		</div>
+		<div class="p-dialog-footer">
+			<button class="c-btn primary-line lg" onclick="modalClose();">
+				<span>닫기</span>
+			</button>
+		</div>
+	</div>
+</div>
+</body>
+
+	
+<!-- footer -->
+<script>
+jQuery(function($){
+$('.site button').on("click",function(){
+	var link = $('.site select option:selected').val();
+		if(link == ''){
+			return false;
+		}else{
+			window.open(link, '_blank');
+		}
+	});
+});
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DZ98HZ0RLN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DZ98HZ0RLN');
+</script>
+<!-- 푸터 -->
+<footer id="footer">
+	<div class="footer_menu">
+		<div class="rows">
+			<ul class="link">
+				<li><a href="https://www.koroad.or.kr/main/content/view/MN06010000.do" target="_blank" style="font-size:18px; font-weight:500;">개인정보처리방침</a></li>
+				<li><a href="https://www.koroad.or.kr/main/content/view/MN06020000.do" target="_blank">이메일무단수집거부</a></li>
+				<li><a href="https://www.koroad.or.kr/main/content/view/MN06030000.do" target="_blank">고객현장</a></li>
+				<li><a href="https://www.koroad.or.kr/main/content/view/MN05040203.do" target="_blank">임직원행동강령</a></li>
+				<!-- <li><a href="/home/common/map">찾아오시는길</a></li> -->
+			</ul>
+			<div class="rel_menu">
+				<ul class="sns">
+					<li><a target="_blank" href="https://www.facebook.com/korearoad/?fref=ts"><img src="/resources/home/images/www/common/sns_facebook.png" alt="페이스북" title="페이스북 바로가기"></a></li>
+					<li><a target="_blank" href="https://blog.naver.com/koroadblog"><img src="/resources/home/images/www/common/sns_blog.png" alt="블로그" title="블로그 바로가기"></a></li>
+					<li><a target="_blank" href="https://www.youtube.com/channel/UCGPvcR_72yc5wPqsKefo4jg"><img src="/resources/home/images/www/common/sns_youtube.png" alt="유튜브" title="유튜브 바로가기"></a></li>
+				</ul>
+				<div class="site">
+					<select id="" title="관련 사이트 선택">
+						<option value="">관련 사이트</option>
+						<option value="https://www.koroad.or.kr">한국도로교통공단</option>
+						<option value="http://taas.koroad.or.kr/index.jsp">교통사고분석시스템</option>
+						<option value="https://www.safedriving.or.kr/main.do">안전운전 통합민원</option>
+					</select>
+					<button type="button" title="새창열림">바로가기</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="rows">
+		<div class="site_info">
+			<div class="group">
+				<ul class="link">
+					<li><img src="/resources/home/img/footer/koroad-logo.jpg" alt="한국도로교통공단 KOROAD"></li>
+					<li class="eprivacy">
+						<img src="https://www.eprivacy.or.kr/images/mng/sub/mark1_eprivacy.png" style="cursor:pointer;width:33px;" onclick="window.open('https://www.eprivacy.or.kr/front/certifiedSiteMark/certifiedSiteMarkPopup.do?certCmd=E&amp;certNum=2025-E-R064','seal','width=527,height=720,location=no,status=no,scrollbars=no')" title="ePRIVACY 인증서">
+					</li>
+					<li>
+						<a href="https://www.kogl.or.kr/index.do" target="_blank"><img src="/resources/home/img/footer/KOGL_Mrak_Korean_Basic.jpg" alt="OPEN 공공누리 공공저작물 자유이용허락" title="OPEN 공공누리 공공저작물 자유이용허락" style="width:80px"></a>
+					</li>
+				</ul>
+				<ul class="addr">
+					<li>26466 강원특별자치도 원주시 혁신로 2 (반곡동)</li>
+					<li class="em">고객지원센터 1577-1120</li>
+				</ul>
+			</div>
+			<div class="end">
+				<a href="https://www.939.co.kr/dlskoroad/" target="_blank" class="remote">원격지원</a>
+				<p class="copy">Copyright © 2013 Koroad All rights reserved</p>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- //푸터 -->
+<!-- //footer -->
+	<div id="modalPortal">
+		<div class="modal">
+			<div class="modal-content-wrapper max-height-full">
+				<div class="modal-title"></div>
+				<div class="modal-body-wrapper max-height-full" data-max-height-offset="16"></div>
+			</div>
+			<button class="modal-close-button"></button>
+            <div class="modal-buttons"></div>
+		</div>
+		<div class="bg"></div>
+	</div>
+
+	<div class="modal modal-simple" id="modalAlert">
+		<div class="modal-title"></div>
+		<div class="modal-body"></div>
+	</div>
+
+    <div class="modal modal-big" id="agreementModal">
+        <div class="modal-title">교통안전 교육센터</div>
+        <div class="modal-body" id="agreementModalBody">
+            <h3></h3>
+            <div class="content"></div>
+        </div>
+    </div>
+    
+    <div class="wrap-loading">
+    	<div><img src="/resources/common/images/loding.gif" width="100" alt="로딩중..." /></div>
+    </div>
+	<script>
+	$(document).ready(function(){
+		$(".wrap-loading").addClass('display-none');
+	});
+	</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "requirements": 36,
+  "localLinks": 15,
+  "bad": [],
+  "desktopOverflow": false,
+  "mobileOverflow": false,
+  "filter": true,
+  "empty": true,
+  "expand": true,
+  "focus": "SELECT",
+  "errors": []
+}

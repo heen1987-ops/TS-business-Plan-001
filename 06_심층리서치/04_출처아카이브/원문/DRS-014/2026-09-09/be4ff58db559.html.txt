@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>街路・連立・新交通：機械式立体駐車場の安全対策 - 国土交通省</title>
+<meta name="keywords" content="国土交通省,Ministry of Land, Infrastructure, Transport and Toursim" />
+<meta name="description" content="国土交通省のウェブサイトです。政策、報道発表資料、統計情報、各種申請手続きに関する情報などを掲載しています。" />
+<meta name="copyright" content="(C) Copyright MLIT Japan. All Rights Reserved. " />
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="/com/17_cmn_layout.css" media="all and (min-width : 769px)" />
+<link rel="stylesheet" type="text/css" href="/com/pc_layout.css" media="all and (min-width : 769px)" />
+<link rel="stylesheet" type="text/css" href="/com/sp_layout.css" media="all and (max-width : 768px)" />
+<link rel="stylesheet" type="text/css" href="/com/17_cmn_style.css" media="all" />
+<link rel="stylesheet" type="text/css" href="/com/13_print.css" media="print">
+<link rel="stylesheet" type="text/css" href="/aly.css" media="all" />
+<script type="text/javascript" src="/com/13_jquery.js"></script>
+<script type="text/javascript" src="/com/17_header.js"></script>
+<script type="text/javascript" src="/com/17_footer.js"></script>
+<script type="text/javascript" src="/com/13_print.js"></script>
+<script type="text/javascript" src="/com/13_common.js"></script>
+<script type="text/javascript" src="/com/13_flatheights.js"></script>
+<script type="text/javascript" src="/com/13_bukyokuImageChange.js"></script>
+<script type="text/javascript" src="/com/13_minmax.js"></script>
+<script type="text/javascript" src="/com/sp_common.js"></script>
+</head>
+<body id="gDef" class="lDef" onload="javascript:bukyokuImageChange('','','','/common/000000030.gif');">
+<!-- wrapper start --><div id="wrapper">
+
+
+<!-- #header start -->
+<script type="text/javascript">header();</script>
+<!-- #header end -->
+
+
+<!-- .pageTitle01 start --><div class="pageTitle01" id="bukyoku">
+<h1><img src="/common/000235901.gif" alt="街路・連立・新交通" /></h1>
+<!-- .pageTitle01 end --></div>
+
+
+
+
+<!-- #breadcrumb start --><div id="breadcrumb">
+<ul>
+<li class="home"><a href="/index_old.html">ホーム</a></li>
+<li><span class="arrow">&gt;</span><a href="/policy/index.html">政策・仕事</a></li>
+<li><span class="arrow">&gt;</span><a href="/toshi/index.html">都市</a></li>
+<li><span class="arrow">&gt;</span><a href="/toshi/gairo/index.html">街路・連立・新交通</a></li>
+<li><span class="arrow">&gt;</span>機械式立体駐車場の安全対策</li>
+</ul>
+<!-- #breadcrumb end --></div>
+
+<!-- #contents start --><div id="contents">
+
+
+<!-- 中コンテンツ -->
+<!-- .section start --><div class="section">
+<div class="titleType01">
+<div class="titleInner">
+<h2 class="title">機械式立体駐車場の安全対策</h2>
+
+
+<!-- /titleInner --></div>
+<!-- /titleType01 --></div>
+
+<div class="clearfix">
+<p> 　 国土交通省では、機械式立体駐車場の安全性の一層の向上を図るため、平成25年11月、「機械式立体駐車場の安全対策検討委員会」（座長：向殿政男・明治大学名誉教授）を設置し、計４回にわたって検討を行い、平成26年3月に報告書がとりまとめられました。<br />
+　 本報告を踏まえ、機械式立体駐車場に関わる製造者、設置者、管理者、利用者が先ず早期に取り組むべき事項を「機械式立体駐車場の安全対策に関するガイドライン」として策定・公表するとともに、関係団体へ安全対策の強化及び適正利用の周知について要請を行っています。<br />
+　 また、平成２６年７月、消費者安全調査委員会において、「消費者安全法第２３条第１項に基づく事故等原因調査報告書」がとりまとめられたことなどを踏まえ、同年１０月、ガイドラインの改定を行い、機械式立体駐車場の安全対策及び適正利用の一層の推進を要請しています。<br />
+<br />
+　 <a href="/common/001055580.pdf">機械式立体駐車場の安全対策検討委員会　報告書</a>(PDFファイル)<br />
+　 <a href="/common/001056799.pdf">機械式立体駐車場の安全対策に関するガイドライン(平成２６年１０月改定)</a>(PDFファイル)<br />
+　 <a href="/common/001145272.pdf">機械式立体駐車場の安全対策に関するガイドライン」の手引き(平成２８年９月)</a>(PDFファイル)<br />
+　　【分割版はこちらから】<br />
+　　<a href="/common/001145265.pdf">１：総則</a>(PDFファイル)<br />
+　　<a href="/common/001145266.pdf">２：製造者の取組</a>(PDFファイル)<br />
+　　<a href="/common/001145267.pdf">３：設置者の取組</a>(PDFファイル)<br />
+　　<a href="/common/001145268.pdf">４：管理者の取組</a>(PDFファイル)<br />
+　　<a href="/common/001145269.pdf">５：利用者の取組</a>(PDFファイル)<br />
+　　<a href="/common/001145270.pdf">６：関係主体間の連携・協働による取組</a>(PDFファイル)<br />
+　　<a href="/common/001145271.pdf">参考資料</a>(PDFファイル)<br />
+　 <a href="/common/001055582.pdf">注意喚起（消費者庁共同）</a>(PDFファイル)<br />
+　 <a href="/common/001145264.pdf">管理者向け自己チェックシート（消費者庁合同）</a>(PDFファイル)<br />
+<br />
+  （参考）<br />
+　 <a href="/toshi/toshi_gairo_tk_000037.html">機械式立体駐車場の安全対策検討委員会</a><br />
+   <a href="/toshi/toshi_gairo_tk_000064.html">機械式駐車装置安全基準等ＷＧ</a><br />
+<br />
+  （過去の取組）<br />
+　 平成24年8月　立体駐車場工業会による安全基準の見直し<br />
+   <a href="/common/001018511.pdf"> （参考資料）　機械式立体駐車場の安全対策の強化について</a>(PDFファイル)<br />
+<br />
+　（お知らせ）<br />
+　　<a href="/toshi/toshi_gairo_tk_000063.html">機械式立体駐車場の事故情報</a><br />
+　　<a href="/toshi/toshi_gairo_tk_000068.html">「駐車場法施行規則の一部を改正する省令」（平成２７年１月１日施行）について</a><br />
+<br />
+ </p>
+<!-- /clearfix --></div>
+<!-- .section end --></div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /中コンテンツ -->
+
+
+
+
+
+
+<!-- #contents end --></div>
+
+
+<div id="pageTopWrap">
+<p class="pageTop"><a href="#wrapper"><img src="/common/000235489.gif" width="296" height="28" alt="ページの先頭に戻る" /></a></p>
+<!-- /pageTopWrap --></div>
+
+
+<!-- wrapper end --></div>
+<!-- #footer start -->
+<script type="text/javascript">footer();</script>
+<!-- #footer end -->
+
+
+</body>
+</html>

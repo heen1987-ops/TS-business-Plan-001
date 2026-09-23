@@ -1,0 +1,85 @@
+{
+  "as_of": "2026-09-11",
+  "note": "분석 간선이며 확정 위탁·선정 사업 관계가 아님. 신규 후보 ID 미부여.",
+  "groups": [
+    {
+      "analysis_group": "A",
+      "problem": "반복 준비·보완·방문 부담",
+      "solution": "신청·보완 완료 AX",
+      "existing_ids": [
+        "X01",
+        "X05",
+        "N01",
+        "N02"
+      ],
+      "case_ids": [
+        "CASE-019",
+        "CASE-022"
+      ],
+      "agency_ids": [
+        "A_C0019",
+        "A_C0064",
+        "A_C0209"
+      ],
+      "status": "조건부 우선 검증",
+      "gate": "기존 민원·예약 사업 중복과 특정 업무 권한 확인"
+    },
+    {
+      "analysis_group": "B",
+      "problem": "지적 요구와 제출 증빙의 누락·불일치",
+      "solution": "안전조치·증빙 대조 AX",
+      "existing_ids": [
+        "X04",
+        "N03",
+        "TS-BIZ-005",
+        "TS-BIZ-006"
+      ],
+      "case_ids": [
+        "CASE-020"
+      ],
+      "agency_ids": [
+        "A_C0019",
+        "A_C0064",
+        "A_C0209",
+        "A_C0224",
+        "A_C0244"
+      ],
+      "status": "조건부 우선 검증",
+      "gate": "대상 기관 실제 추적 책임·증빙 접근 확인; 사례는 직접 동종 실증이 아님"
+    },
+    {
+      "analysis_group": "C",
+      "problem": "위험신고 정보 누락과 잘못된 연결",
+      "solution": "신고 품질·조사 인계 AX",
+      "existing_ids": [
+        "X03",
+        "X02"
+      ],
+      "case_ids": [
+        "CASE-020",
+        "CASE-024",
+        "CASE-025"
+      ],
+      "agency_ids": [
+        "A_C0019"
+      ],
+      "status": "탐색",
+      "gate": "익명 표본·전문가 분류·병합 오류 평가"
+    },
+    {
+      "analysis_group": "공통",
+      "problem": "기준 변경이 업무에 누락 반영",
+      "solution": "기준 버전·영향 연결",
+      "existing_ids": [
+        "N04"
+      ],
+      "case_ids": [
+        "CASE-021",
+        "CASE-023"
+      ],
+      "agency_ids": [],
+      "status": "공통 기능",
+      "gate": "자동 법률 해석·규칙 배포 제외; 신규 기반 사업 아님"
+    }
+  ]
+}

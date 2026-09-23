@@ -1,0 +1,1067 @@
+{
+  "as_of": "2026-09-09",
+  "scope": "파일·참조·출처 보존·미확인 상태 검증. 법률·현장·독립 성과 검증 아님",
+  "counts": {
+    "candidates": 8,
+    "solutions": 7,
+    "cases_including_leads": 19,
+    "sources": 33,
+    "archived_responses": 20,
+    "unarchived_sources": 13,
+    "documents_checked": 125,
+    "local_links_checked": 525,
+    "footnote_definitions": 91,
+    "graph_nodes": 87,
+    "graph_edges": 156,
+    "generated_files": 113,
+    "checks": 261
+  },
+  "checks": [
+    {
+      "check": "후보 ID 중복 없음",
+      "passed": true
+    },
+    {
+      "check": "솔루션 ID 중복 없음",
+      "passed": true
+    },
+    {
+      "check": "사례 ID 중복 없음",
+      "passed": true
+    },
+    {
+      "check": "출처 ID 중복 없음",
+      "passed": true
+    },
+    {
+      "check": "후보별 문제 ID 고유성",
+      "passed": true
+    },
+    {
+      "check": "기존 포트폴리오 후보 ID 일치",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-001 참조 무결성",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-001 선정·예산·사업 성격 보존",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-001 범위·전환 정의 동기화",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-001 독립 R&D 분류 없음",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-001 업무·데이터·AI·정보화·운영 구성",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-001 문제·대안·실증 필드",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-001 상세 문서 6종",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-001 P01~P07 추적",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-001 상세 문서 직접 진입 범위 표시",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-002 참조 무결성",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-002 선정·예산·사업 성격 보존",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-002 범위·전환 정의 동기화",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-002 독립 R&D 분류 없음",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-002 업무·데이터·AI·정보화·운영 구성",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-002 문제·대안·실증 필드",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-002 상세 문서 6종",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-002 P01~P07 추적",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-002 상세 문서 직접 진입 범위 표시",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-003 참조 무결성",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-003 선정·예산·사업 성격 보존",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-003 범위·전환 정의 동기화",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-003 독립 R&D 분류 없음",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-003 업무·데이터·AI·정보화·운영 구성",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-003 문제·대안·실증 필드",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-003 상세 문서 6종",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-003 P01~P07 추적",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-003 상세 문서 직접 진입 범위 표시",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-004 참조 무결성",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-004 선정·예산·사업 성격 보존",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-004 범위·전환 정의 동기화",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-004 독립 R&D 분류 없음",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-004 업무·데이터·AI·정보화·운영 구성",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-004 문제·대안·실증 필드",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-004 상세 문서 6종",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-004 P01~P07 추적",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-004 상세 문서 직접 진입 범위 표시",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-005 참조 무결성",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-005 선정·예산·사업 성격 보존",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-005 범위·전환 정의 동기화",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-005 독립 R&D 분류 없음",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-005 업무·데이터·AI·정보화·운영 구성",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-005 문제·대안·실증 필드",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-005 상세 문서 6종",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-005 P01~P07 추적",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-005 상세 문서 직접 진입 범위 표시",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-006 참조 무결성",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-006 선정·예산·사업 성격 보존",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-006 범위·전환 정의 동기화",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-006 독립 R&D 분류 없음",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-006 업무·데이터·AI·정보화·운영 구성",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-006 문제·대안·실증 필드",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-006 상세 문서 6종",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-006 P01~P07 추적",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-006 상세 문서 직접 진입 범위 표시",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-007 참조 무결성",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-007 선정·예산·사업 성격 보존",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-007 범위·전환 정의 동기화",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-007 독립 R&D 분류 없음",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-007 업무·데이터·AI·정보화·운영 구성",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-007 문제·대안·실증 필드",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-007 상세 문서 6종",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-007 P01~P07 추적",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-007 상세 문서 직접 진입 범위 표시",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-008 참조 무결성",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-008 선정·예산·사업 성격 보존",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-008 범위·전환 정의 동기화",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-008 독립 R&D 분류 없음",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-008 업무·데이터·AI·정보화·운영 구성",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-008 문제·대안·실증 필드",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-008 상세 문서 6종",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-008 P01~P07 추적",
+      "passed": true
+    },
+    {
+      "check": "TS-BIZ-008 상세 문서 직접 진입 범위 표시",
+      "passed": true
+    },
+    {
+      "check": "SOL-01 참조",
+      "passed": true
+    },
+    {
+      "check": "SOL-02 참조",
+      "passed": true
+    },
+    {
+      "check": "SOL-03 참조",
+      "passed": true
+    },
+    {
+      "check": "SOL-04 참조",
+      "passed": true
+    },
+    {
+      "check": "SOL-05 참조",
+      "passed": true
+    },
+    {
+      "check": "SOL-06 참조",
+      "passed": true
+    },
+    {
+      "check": "SOL-07 참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-001 참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-001 지역·주체·단계·AI·한계 필드",
+      "passed": true
+    },
+    {
+      "check": "CASE-001 미검증 효과·비용 보존",
+      "passed": true
+    },
+    {
+      "check": "CASE-001↔TS-BIZ-001 역참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-002 참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-002 지역·주체·단계·AI·한계 필드",
+      "passed": true
+    },
+    {
+      "check": "CASE-002 미검증 효과·비용 보존",
+      "passed": true
+    },
+    {
+      "check": "CASE-002↔TS-BIZ-001 역참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-003 참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-003 지역·주체·단계·AI·한계 필드",
+      "passed": true
+    },
+    {
+      "check": "CASE-003 미검증 효과·비용 보존",
+      "passed": true
+    },
+    {
+      "check": "CASE-003↔TS-BIZ-002 역참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-004 참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-004 지역·주체·단계·AI·한계 필드",
+      "passed": true
+    },
+    {
+      "check": "CASE-004 미검증 효과·비용 보존",
+      "passed": true
+    },
+    {
+      "check": "CASE-004↔TS-BIZ-002 역참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-005 참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-005 지역·주체·단계·AI·한계 필드",
+      "passed": true
+    },
+    {
+      "check": "CASE-005 미검증 효과·비용 보존",
+      "passed": true
+    },
+    {
+      "check": "CASE-005↔TS-BIZ-003 역참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-006 참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-006 지역·주체·단계·AI·한계 필드",
+      "passed": true
+    },
+    {
+      "check": "CASE-006 미검증 효과·비용 보존",
+      "passed": true
+    },
+    {
+      "check": "CASE-006↔TS-BIZ-003 역참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-007 참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-007 지역·주체·단계·AI·한계 필드",
+      "passed": true
+    },
+    {
+      "check": "CASE-007 미검증 효과·비용 보존",
+      "passed": true
+    },
+    {
+      "check": "CASE-007↔TS-BIZ-004 역참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-008 참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-008 지역·주체·단계·AI·한계 필드",
+      "passed": true
+    },
+    {
+      "check": "CASE-008 미검증 효과·비용 보존",
+      "passed": true
+    },
+    {
+      "check": "CASE-008↔TS-BIZ-004 역참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-009 참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-009 지역·주체·단계·AI·한계 필드",
+      "passed": true
+    },
+    {
+      "check": "CASE-009 미검증 효과·비용 보존",
+      "passed": true
+    },
+    {
+      "check": "CASE-009↔TS-BIZ-005 역참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-010 참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-010 지역·주체·단계·AI·한계 필드",
+      "passed": true
+    },
+    {
+      "check": "CASE-010 미검증 효과·비용 보존",
+      "passed": true
+    },
+    {
+      "check": "CASE-010↔TS-BIZ-005 역참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-011 참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-011 지역·주체·단계·AI·한계 필드",
+      "passed": true
+    },
+    {
+      "check": "CASE-011 미검증 효과·비용 보존",
+      "passed": true
+    },
+    {
+      "check": "CASE-011↔TS-BIZ-005 역참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-012 참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-012 지역·주체·단계·AI·한계 필드",
+      "passed": true
+    },
+    {
+      "check": "CASE-012 미검증 효과·비용 보존",
+      "passed": true
+    },
+    {
+      "check": "CASE-012↔TS-BIZ-006 역참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-013 참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-013 지역·주체·단계·AI·한계 필드",
+      "passed": true
+    },
+    {
+      "check": "CASE-013 미검증 효과·비용 보존",
+      "passed": true
+    },
+    {
+      "check": "CASE-013↔TS-BIZ-006 역참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-014 참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-014 지역·주체·단계·AI·한계 필드",
+      "passed": true
+    },
+    {
+      "check": "CASE-014 미검증 효과·비용 보존",
+      "passed": true
+    },
+    {
+      "check": "CASE-014↔TS-BIZ-006 역참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-014↔TS-BIZ-005 역참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-015 참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-015 지역·주체·단계·AI·한계 필드",
+      "passed": true
+    },
+    {
+      "check": "CASE-015 미검증 효과·비용 보존",
+      "passed": true
+    },
+    {
+      "check": "CASE-015↔TS-BIZ-007 역참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-016 참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-016 지역·주체·단계·AI·한계 필드",
+      "passed": true
+    },
+    {
+      "check": "CASE-016 미검증 효과·비용 보존",
+      "passed": true
+    },
+    {
+      "check": "CASE-016↔TS-BIZ-007 역참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-017 참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-017 지역·주체·단계·AI·한계 필드",
+      "passed": true
+    },
+    {
+      "check": "CASE-017 미검증 효과·비용 보존",
+      "passed": true
+    },
+    {
+      "check": "CASE-017↔TS-BIZ-008 역참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-018 참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-018 지역·주체·단계·AI·한계 필드",
+      "passed": true
+    },
+    {
+      "check": "CASE-018 미검증 효과·비용 보존",
+      "passed": true
+    },
+    {
+      "check": "CASE-018↔TS-BIZ-008 역참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-019 참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-019 지역·주체·단계·AI·한계 필드",
+      "passed": true
+    },
+    {
+      "check": "CASE-019 미검증 효과·비용 보존",
+      "passed": true
+    },
+    {
+      "check": "CASE-019↔TS-BIZ-001 역참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-019↔TS-BIZ-003 역참조",
+      "passed": true
+    },
+    {
+      "check": "CASE-019↔TS-BIZ-008 역참조",
+      "passed": true
+    },
+    {
+      "check": "DRS-001 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-001 미취득 원문에 해시 없음",
+      "passed": true
+    },
+    {
+      "check": "DRS-002 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-002 미취득 원문에 해시 없음",
+      "passed": true
+    },
+    {
+      "check": "DRS-003 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-003 미취득 원문에 해시 없음",
+      "passed": true
+    },
+    {
+      "check": "DRS-004 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-004 실제 원문 파일",
+      "passed": true
+    },
+    {
+      "check": "DRS-004 SHA-256·크기 일치",
+      "passed": true
+    },
+    {
+      "check": "DRS-005 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-005 실제 원문 파일",
+      "passed": true
+    },
+    {
+      "check": "DRS-005 SHA-256·크기 일치",
+      "passed": true
+    },
+    {
+      "check": "DRS-006 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-006 미취득 원문에 해시 없음",
+      "passed": true
+    },
+    {
+      "check": "DRS-007 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-007 미취득 원문에 해시 없음",
+      "passed": true
+    },
+    {
+      "check": "DRS-008 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-008 실제 원문 파일",
+      "passed": true
+    },
+    {
+      "check": "DRS-008 SHA-256·크기 일치",
+      "passed": true
+    },
+    {
+      "check": "DRS-009 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-009 실제 원문 파일",
+      "passed": true
+    },
+    {
+      "check": "DRS-009 SHA-256·크기 일치",
+      "passed": true
+    },
+    {
+      "check": "DRS-010 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-010 실제 원문 파일",
+      "passed": true
+    },
+    {
+      "check": "DRS-010 SHA-256·크기 일치",
+      "passed": true
+    },
+    {
+      "check": "DRS-011 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-011 미취득 원문에 해시 없음",
+      "passed": true
+    },
+    {
+      "check": "DRS-012 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-012 실제 원문 파일",
+      "passed": true
+    },
+    {
+      "check": "DRS-012 SHA-256·크기 일치",
+      "passed": true
+    },
+    {
+      "check": "DRS-013 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-013 실제 원문 파일",
+      "passed": true
+    },
+    {
+      "check": "DRS-013 SHA-256·크기 일치",
+      "passed": true
+    },
+    {
+      "check": "DRS-014 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-014 실제 원문 파일",
+      "passed": true
+    },
+    {
+      "check": "DRS-014 SHA-256·크기 일치",
+      "passed": true
+    },
+    {
+      "check": "DRS-015 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-015 미취득 원문에 해시 없음",
+      "passed": true
+    },
+    {
+      "check": "DRS-016 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-016 실제 원문 파일",
+      "passed": true
+    },
+    {
+      "check": "DRS-016 SHA-256·크기 일치",
+      "passed": true
+    },
+    {
+      "check": "DRS-017 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-017 실제 원문 파일",
+      "passed": true
+    },
+    {
+      "check": "DRS-017 SHA-256·크기 일치",
+      "passed": true
+    },
+    {
+      "check": "DRS-018 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-018 미취득 원문에 해시 없음",
+      "passed": true
+    },
+    {
+      "check": "DRS-019 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-019 미취득 원문에 해시 없음",
+      "passed": true
+    },
+    {
+      "check": "DRS-020 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-020 실제 원문 파일",
+      "passed": true
+    },
+    {
+      "check": "DRS-020 SHA-256·크기 일치",
+      "passed": true
+    },
+    {
+      "check": "DRS-021 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-021 미취득 원문에 해시 없음",
+      "passed": true
+    },
+    {
+      "check": "DRS-022 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-022 미취득 원문에 해시 없음",
+      "passed": true
+    },
+    {
+      "check": "DRS-023 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-023 실제 원문 파일",
+      "passed": true
+    },
+    {
+      "check": "DRS-023 SHA-256·크기 일치",
+      "passed": true
+    },
+    {
+      "check": "DRS-024 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-024 실제 원문 파일",
+      "passed": true
+    },
+    {
+      "check": "DRS-024 SHA-256·크기 일치",
+      "passed": true
+    },
+    {
+      "check": "DRS-025 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-025 실제 원문 파일",
+      "passed": true
+    },
+    {
+      "check": "DRS-025 SHA-256·크기 일치",
+      "passed": true
+    },
+    {
+      "check": "DRS-026 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-026 실제 원문 파일",
+      "passed": true
+    },
+    {
+      "check": "DRS-026 SHA-256·크기 일치",
+      "passed": true
+    },
+    {
+      "check": "DRS-027 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-027 미취득 원문에 해시 없음",
+      "passed": true
+    },
+    {
+      "check": "DRS-028 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-028 실제 원문 파일",
+      "passed": true
+    },
+    {
+      "check": "DRS-028 SHA-256·크기 일치",
+      "passed": true
+    },
+    {
+      "check": "DRS-029 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-029 실제 원문 파일",
+      "passed": true
+    },
+    {
+      "check": "DRS-029 SHA-256·크기 일치",
+      "passed": true
+    },
+    {
+      "check": "DRS-030 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-030 실제 원문 파일",
+      "passed": true
+    },
+    {
+      "check": "DRS-030 SHA-256·크기 일치",
+      "passed": true
+    },
+    {
+      "check": "DRS-031 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-031 실제 원문 파일",
+      "passed": true
+    },
+    {
+      "check": "DRS-031 SHA-256·크기 일치",
+      "passed": true
+    },
+    {
+      "check": "DRS-032 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-032 실제 원문 파일",
+      "passed": true
+    },
+    {
+      "check": "DRS-032 SHA-256·크기 일치",
+      "passed": true
+    },
+    {
+      "check": "DRS-033 서지·위치·열람·한계",
+      "passed": true
+    },
+    {
+      "check": "DRS-033 미취득 원문에 해시 없음",
+      "passed": true
+    },
+    {
+      "check": "원문 파일 경로 중복 없음",
+      "passed": true
+    },
+    {
+      "check": "동일 URL 중복 등록 없음",
+      "passed": true
+    },
+    {
+      "check": "직접 열람 미완료 2건 확인 승격 없음",
+      "passed": true
+    },
+    {
+      "check": "eTAS 검색·직접 응답 불일치 기록",
+      "passed": true
+    },
+    {
+      "check": "공급사 2건 실명 도입 승격 없음",
+      "passed": true
+    },
+    {
+      "check": "추적원장 노드 고유성",
+      "passed": true
+    },
+    {
+      "check": "추적원장 관계 대상 무결성",
+      "passed": true
+    },
+    {
+      "check": "추적 노드 문서 실재",
+      "passed": true
+    },
+    {
+      "check": "모든 문서 각주 참조·정의 일치",
+      "passed": true
+    },
+    {
+      "check": "모든 로컬 문서 링크 실재·프로젝트 내부",
+      "passed": true
+    },
+    {
+      "check": "생성 문서 해시·입력 기반 결과 일치",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

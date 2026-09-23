@@ -1,0 +1,16 @@
+{
+  "Public_AI_PMS_요구사항_분석서_v0.1.docx": {
+    "source": "요구사항_분석서.md",
+    "sha256_source": "d942825c05cffee2b2030829f378fdfa27ba8fd90a286c45268d30b19ca900bb",
+    "cards": 0,
+    "paragraphs": 88,
+    "tables": 17
+  },
+  "Public_AI_PMS_요구사항_명세서_v0.1.docx": {
+    "source": "요구사항_명세서.md",
+    "sha256_source": "0e83b0c88e77b7bb85edd2da2e9384cf65b3d7629bf2f7ca90427768b1158dc1",
+    "cards": 58,
+    "paragraphs": 752,
+    "tables": 68
+  }
+}

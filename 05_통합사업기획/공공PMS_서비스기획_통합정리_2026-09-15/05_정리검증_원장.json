@@ -1,0 +1,32 @@
+{
+  "requirements": 52,
+  "mapped_requirements": 52,
+  "missing_ids": [],
+  "extra_ids": [],
+  "conditions": {
+    "필수": 50,
+    "조건부": 2
+  },
+  "functional_groups": 16,
+  "dispositions": {
+    "재사용 후보": 6,
+    "설정과 확장 검토": 2,
+    "전용 업무 설계": 6,
+    "연계 설계": 1,
+    "기술과 계약 확인": 1
+  },
+  "catalog_files": 44,
+  "source_hashes_saved": true,
+  "source_content_modified": false,
+  "render_review": "pending",
+  "product_test": "not performed",
+  "render_pages": 6,
+  "page_images": 6,
+  "visual_review": "all six pages inspected",
+  "link_count": 64,
+  "missing_links": [],
+  "source_hashes_unchanged": 44,
+  "review_type": "author document self-review",
+  "independent_review": "not performed",
+  "cloud_sync": "not verified"
+}

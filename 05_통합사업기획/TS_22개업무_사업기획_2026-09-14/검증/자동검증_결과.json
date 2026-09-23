@@ -1,0 +1,744 @@
+{
+  "checked_at": "2026-09-14",
+  "scope": "문서·데이터·HTML 기능 검증. 실제 제품·독립 평가·사용자 조사 아님",
+  "total": 137,
+  "passed": 137,
+  "html_pages": 24,
+  "local_link_occurrences_checked": 330,
+  "anchor_occurrences_checked": 528,
+  "checks": [
+    {
+      "name": "22개 고유 기획과 7개 분류",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "기존 업무 22개 1대1 연결",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "신규 후보·인프라·실제시험 상태 보존",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "요구사항 88개 고유·참조 일치",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "근거 식별자 연결",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "P17·P22 통합 및 예산 상태",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TS-P01 문서·내용·시험 설계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TS-P02 문서·내용·시험 설계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TS-P03 문서·내용·시험 설계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TS-P04 문서·내용·시험 설계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TS-P05 문서·내용·시험 설계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TS-P06 문서·내용·시험 설계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TS-P07 문서·내용·시험 설계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TS-P08 문서·내용·시험 설계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TS-P09 문서·내용·시험 설계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TS-P10 문서·내용·시험 설계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TS-P11 문서·내용·시험 설계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TS-P12 문서·내용·시험 설계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TS-P13 문서·내용·시험 설계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TS-P14 문서·내용·시험 설계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TS-P15 문서·내용·시험 설계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TS-P16 문서·내용·시험 설계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TS-P17 문서·내용·시험 설계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TS-P18 문서·내용·시험 설계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TS-P19 문서·내용·시험 설계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TS-P20 문서·내용·시험 설계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TS-P21 문서·내용·시험 설계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TS-P22 문서·내용·시험 설계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "00_사업기획_통합보기.html HTML·링크·화면",
+      "pass": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "name": "01_공통_수행설계.html HTML·링크·화면",
+      "pass": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "name": "개별기획서/TS-P01_운수회사 안전점검 개선조치 증빙 검토 지원.html HTML·링크·화면",
+      "pass": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "name": "개별기획서/TS-P01_운수회사 안전점검 개선조치 증빙 검토 지원.html 11개 절과 출처",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "개별기획서/TS-P02_사업용 운전자 자격 취득 단계별 처리 지원.html HTML·링크·화면",
+      "pass": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "name": "개별기획서/TS-P02_사업용 운전자 자격 취득 단계별 처리 지원.html 11개 절과 출처",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "개별기획서/TS-P03_위험물질 운송계획·점검 인계 문서 일치 확인.html HTML·링크·화면",
+      "pass": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "name": "개별기획서/TS-P03_위험물질 운송계획·점검 인계 문서 일치 확인.html 11개 절과 출처",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "개별기획서/TS-P04_철도 안전관리체계 요건·증빙·보완 연결.html HTML·링크·화면",
+      "pass": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "name": "개별기획서/TS-P04_철도 안전관리체계 요건·증빙·보완 연결.html 11개 절과 출처",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "개별기획서/TS-P05_철도 시험운행·시설평가 보고서 검토 준비.html HTML·링크·화면",
+      "pass": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "name": "개별기획서/TS-P05_철도 시험운행·시설평가 보고서 검토 준비.html 11개 절과 출처",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "개별기획서/TS-P06_철도안전 자율보고의 보호된 사례화.html HTML·링크·화면",
+      "pass": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "name": "개별기획서/TS-P06_철도안전 자율보고의 보호된 사례화.html 11개 절과 출처",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "개별기획서/TS-P07_항공 자격 응시 준비자료 점검 지원.html HTML·링크·화면",
+      "pass": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "name": "개별기획서/TS-P07_항공 자격 응시 준비자료 점검 지원.html 11개 절과 출처",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "개별기획서/TS-P08_항공안전 자율보고 분석·전파 초안 지원.html HTML·링크·화면",
+      "pass": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "name": "개별기획서/TS-P08_항공안전 자율보고 분석·전파 초안 지원.html 11개 절과 출처",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "개별기획서/TS-P09_드론 기체 변경·말소 신고 준비 지원.html HTML·링크·화면",
+      "pass": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "name": "개별기획서/TS-P09_드론 기체 변경·말소 신고 준비 지원.html 11개 절과 출처",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "개별기획서/TS-P10_자동차검사 예약 탐색·재검사 후속행동 지원.html HTML·링크·화면",
+      "pass": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "name": "개별기획서/TS-P10_자동차검사 예약 탐색·재검사 후속행동 지원.html 11개 절과 출처",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "개별기획서/TS-P11_기계식주차장 검사 후 보완 증빙 연결.html HTML·링크·화면",
+      "pass": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "name": "개별기획서/TS-P11_기계식주차장 검사 후 보완 증빙 연결.html 11개 절과 출처",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "개별기획서/TS-P12_자동차 결함·수리 이력의 사건 정리 지원.html HTML·링크·화면",
+      "pass": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "name": "개별기획서/TS-P12_자동차 결함·수리 이력의 사건 정리 지원.html 11개 절과 출처",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "개별기획서/TS-P13_자동차 제작자 자기인증 준비·변경 반영 지원.html HTML·링크·화면",
+      "pass": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "name": "개별기획서/TS-P13_자동차 제작자 자기인증 준비·변경 반영 지원.html 11개 절과 출처",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "개별기획서/TS-P14_미래차 안전기준 변경의 시험·안내 문서 영향 검토.html HTML·링크·화면",
+      "pass": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "name": "개별기획서/TS-P14_미래차 안전기준 변경의 시험·안내 문서 영향 검토.html 11개 절과 출처",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "개별기획서/TS-P15_전기차 배터리 식별정보 확인 절차 지원.html HTML·링크·화면",
+      "pass": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "name": "개별기획서/TS-P15_전기차 배터리 식별정보 확인 절차 지원.html 11개 절과 출처",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "개별기획서/TS-P16_공식 운행분석 결과의 안전행동 설명 지원.html HTML·링크·화면",
+      "pass": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "name": "개별기획서/TS-P16_공식 운행분석 결과의 안전행동 설명 지원.html 11개 절과 출처",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "개별기획서/TS-P17_COSAS 협업 문서 검토 기능 연계.html HTML·링크·화면",
+      "pass": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "name": "개별기획서/TS-P17_COSAS 협업 문서 검토 기능 연계.html 11개 절과 출처",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "개별기획서/TS-P18_K-패스 이용 등록·처리결과 이해 지원.html HTML·링크·화면",
+      "pass": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "name": "개별기획서/TS-P18_K-패스 이용 등록·처리결과 이해 지원.html 11개 절과 출처",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "개별기획서/TS-P19_DRT 이용 조건·예약 완료 지원.html HTML·링크·화면",
+      "pass": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "name": "개별기획서/TS-P19_DRT 이용 조건·예약 완료 지원.html 11개 절과 출처",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "개별기획서/TS-P20_데이터 개방센터 이용·분석 준비 지원.html HTML·링크·화면",
+      "pass": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "name": "개별기획서/TS-P20_데이터 개방센터 이용·분석 준비 지원.html 11개 절과 출처",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "개별기획서/TS-P21_교통안전 체험교육 전후 실천 지원.html HTML·링크·화면",
+      "pass": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "name": "개별기획서/TS-P21_교통안전 체험교육 전후 실천 지원.html 11개 절과 출처",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "개별기획서/TS-P22_배달업 이륜차 강사 교안·상황문답 지원.html HTML·링크·화면",
+      "pass": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "name": "개별기획서/TS-P22_배달업 이륜차 강사 교안·상황문답 지원.html 11개 절과 출처",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "통합표 22행·44개 파일 링크",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "키보드 본문 건너뛰기 초점",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "본문 초점 이동",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "비교표 앵커 실제 도착",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "철도 분류 3개",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "P13 검색 1개",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "통합 판정 2개",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "상태+검색 결합 1개",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "검색 빈 상태",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "초기화 22개·검색 초점",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "개별 P13 이동",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "개별 목차 실제 도착",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 00_사업기획_통합보기.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 01_공통_수행설계.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 개별기획서/TS-P01_운수회사 안전점검 개선조치 증빙 검토 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 개별기획서/TS-P02_사업용 운전자 자격 취득 단계별 처리 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 개별기획서/TS-P03_위험물질 운송계획·점검 인계 문서 일치 확인.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 개별기획서/TS-P04_철도 안전관리체계 요건·증빙·보완 연결.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 개별기획서/TS-P05_철도 시험운행·시설평가 보고서 검토 준비.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 개별기획서/TS-P06_철도안전 자율보고의 보호된 사례화.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 개별기획서/TS-P07_항공 자격 응시 준비자료 점검 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 개별기획서/TS-P08_항공안전 자율보고 분석·전파 초안 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 개별기획서/TS-P09_드론 기체 변경·말소 신고 준비 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 개별기획서/TS-P10_자동차검사 예약 탐색·재검사 후속행동 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 개별기획서/TS-P11_기계식주차장 검사 후 보완 증빙 연결.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 개별기획서/TS-P12_자동차 결함·수리 이력의 사건 정리 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 개별기획서/TS-P13_자동차 제작자 자기인증 준비·변경 반영 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 개별기획서/TS-P14_미래차 안전기준 변경의 시험·안내 문서 영향 검토.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 개별기획서/TS-P15_전기차 배터리 식별정보 확인 절차 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 개별기획서/TS-P16_공식 운행분석 결과의 안전행동 설명 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 개별기획서/TS-P17_COSAS 협업 문서 검토 기능 연계.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 개별기획서/TS-P18_K-패스 이용 등록·처리결과 이해 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 개별기획서/TS-P19_DRT 이용 조건·예약 완료 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 개별기획서/TS-P20_데이터 개방센터 이용·분석 준비 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 개별기획서/TS-P21_교통안전 체험교육 전후 실천 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 개별기획서/TS-P22_배달업 이륜차 강사 교안·상황문답 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 00_사업기획_통합보기.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 01_공통_수행설계.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 개별기획서/TS-P01_운수회사 안전점검 개선조치 증빙 검토 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 개별기획서/TS-P02_사업용 운전자 자격 취득 단계별 처리 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 개별기획서/TS-P03_위험물질 운송계획·점검 인계 문서 일치 확인.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 개별기획서/TS-P04_철도 안전관리체계 요건·증빙·보완 연결.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 개별기획서/TS-P05_철도 시험운행·시설평가 보고서 검토 준비.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 개별기획서/TS-P06_철도안전 자율보고의 보호된 사례화.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 개별기획서/TS-P07_항공 자격 응시 준비자료 점검 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 개별기획서/TS-P08_항공안전 자율보고 분석·전파 초안 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 개별기획서/TS-P09_드론 기체 변경·말소 신고 준비 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 개별기획서/TS-P10_자동차검사 예약 탐색·재검사 후속행동 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 개별기획서/TS-P11_기계식주차장 검사 후 보완 증빙 연결.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 개별기획서/TS-P12_자동차 결함·수리 이력의 사건 정리 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 개별기획서/TS-P13_자동차 제작자 자기인증 준비·변경 반영 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 개별기획서/TS-P14_미래차 안전기준 변경의 시험·안내 문서 영향 검토.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 개별기획서/TS-P15_전기차 배터리 식별정보 확인 절차 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 개별기획서/TS-P16_공식 운행분석 결과의 안전행동 설명 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 개별기획서/TS-P17_COSAS 협업 문서 검토 기능 연계.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 개별기획서/TS-P18_K-패스 이용 등록·처리결과 이해 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 개별기획서/TS-P19_DRT 이용 조건·예약 완료 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 개별기획서/TS-P20_데이터 개방센터 이용·분석 준비 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 개별기획서/TS-P21_교통안전 체험교육 전후 실천 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 개별기획서/TS-P22_배달업 이륜차 강사 교안·상황문답 지원.html 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "모바일 필터",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "모바일 표 키보드 스크롤",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "브라우저 스크립트 오류 없음",
+      "pass": true,
+      "detail": []
+    }
+  ]
+}

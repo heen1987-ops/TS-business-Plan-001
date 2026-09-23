@@ -1,0 +1,267 @@
+{
+  "date": "2026-09-11",
+  "source": "https://www.koroad.or.kr/main/content/view/MN03010100.do",
+  "groups": [
+    "교통안전사업",
+    "교통교육사업",
+    "교통방송사업",
+    "운전면허사업",
+    "연구개발사업",
+    "교통AI디지털사업"
+  ],
+  "count": 36,
+  "items": [
+    {
+      "id": "KB01",
+      "group": "교통안전사업",
+      "title": "교통안전사업 안내",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03010100.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB02",
+      "group": "교통안전사업",
+      "title": "교통안전시설 기술지원 및 기술용역",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03010200.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB03",
+      "group": "교통안전사업",
+      "title": "교통신호체계 기술운영 및 신호연동화",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03010400.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB04",
+      "group": "교통안전사업",
+      "title": "교통과학장비 운영관리",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03010500.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB05",
+      "group": "교통안전사업",
+      "title": "교통사고 잦은 곳 개선",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03010700.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB06",
+      "group": "교통안전사업",
+      "title": "교통사고 조사 및 분석",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03010800.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB07",
+      "group": "교통안전사업",
+      "title": "KOLAS 공인검사",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03010301.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB08",
+      "group": "교통안전사업",
+      "title": "KOLAS 공인시험 및 교정",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03010601.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB09",
+      "group": "교통안전사업",
+      "title": "교통신호제어기 기능검사 안내",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03050601.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB10",
+      "group": "교통안전사업",
+      "title": "검지기 성능인증시험/현장성능검사",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03050701.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB11",
+      "group": "교통안전사업",
+      "title": "교통안전검사인증센터",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03010123.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB12",
+      "group": "교통교육사업",
+      "title": "교통교육사업 안내",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03020100.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB13",
+      "group": "교통교육사업",
+      "title": "특별교통안전교육",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03020200.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB14",
+      "group": "교통교육사업",
+      "title": "교통안전전문교육",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03020300.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB15",
+      "group": "교통교육사업",
+      "title": "교통안전사회교육",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03020400.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB16",
+      "group": "교통교육사업",
+      "title": "도로교통사고감정사",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03020500.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB17",
+      "group": "교통교육사업",
+      "title": "안전운전인증",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03020600.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB18",
+      "group": "교통방송사업",
+      "title": "교통방송사업 안내",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03030100.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB19",
+      "group": "교통방송사업",
+      "title": "교통방송국 현황",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03030200.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB20",
+      "group": "교통방송사업",
+      "title": "교통방송 편성표",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03030300.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB21",
+      "group": "교통방송사업",
+      "title": "교통방송 청취율",
+      "url": "https://www.koroad.or.kr/main/content/view/MN0103020305.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB22",
+      "group": "운전면허사업",
+      "title": "운전면허사업 안내",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03040100.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB23",
+      "group": "운전면허사업",
+      "title": "운전면허시험 운영",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03040200.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB24",
+      "group": "운전면허사업",
+      "title": "운전면허행정서비스",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03040300.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB25",
+      "group": "운전면허사업",
+      "title": "디딤돌 운전면허지원센터 운영",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03040401.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB26",
+      "group": "운전면허사업",
+      "title": "운전면허시험/민원처리현황",
+      "url": "https://www.koroad.or.kr/main/content/view/MN0103020306.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB27",
+      "group": "연구개발사업",
+      "title": "연구개발사업 안내",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03050100.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB28",
+      "group": "연구개발사업",
+      "title": "주요연구사업",
+      "url": "https://www.koroad.or.kr/main/research/res_basic_list.do?sc=2026",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB29",
+      "group": "연구개발사업",
+      "title": "주요연구성과",
+      "url": "https://www.koroad.or.kr/main/research/res_safe_list.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB30",
+      "group": "연구개발사업",
+      "title": "국제교류 및 협력",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03050800.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB31",
+      "group": "연구개발사업",
+      "title": "국내·외 관련기관",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03050900.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB32",
+      "group": "연구개발사업",
+      "title": "지식재산권",
+      "url": "https://www.koroad.or.kr/main/propertyRight/propertyRight_list.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB33",
+      "group": "교통AI디지털사업",
+      "title": "교통AI빅데이터 융합플랫폼 구축",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03060100.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB34",
+      "group": "교통AI디지털사업",
+      "title": "가명정보결합",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03060410.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB35",
+      "group": "교통AI디지털사업",
+      "title": "교통사고DB 구축 및 운영",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03060200.do",
+      "level": "주요사업 메뉴"
+    },
+    {
+      "id": "KB36",
+      "group": "교통AI디지털사업",
+      "title": "정보보안 및 개인정보보호",
+      "url": "https://www.koroad.or.kr/main/content/view/MN03060300.do",
+      "level": "주요사업 메뉴"
+    }
+  ]
+}

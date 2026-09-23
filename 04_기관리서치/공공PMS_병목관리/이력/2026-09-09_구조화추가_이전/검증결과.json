@@ -1,0 +1,72 @@
+{
+  "as_of": "2026-09-09",
+  "scope": "문서·참조·보존 무결성만 검사. 현행법 전수·제품 성능·실증·독립 검증은 제외.",
+  "passed": true,
+  "checks": [
+    {
+      "check": "출처 ID 중복 없음",
+      "passed": true,
+      "details": 16
+    },
+    {
+      "check": "출처 필수 필드",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "사업 적용 미검증 상태 유지",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "보고서 출처 참조 존재",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "P01~P07 검토 존재",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "후속조사 12건",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "한글 파일 UTF-8·대체문자 없음",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "미검증·제한사항 표기 존재",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "주제 문서 로컬 링크 존재",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "공개 HTML 13개 보존",
+      "passed": true,
+      "details": 13
+    },
+    {
+      "check": "보존본 SHA-256 일치",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "핵심 근거의 본문·시행일 표식 존재",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "기존 원장 보존",
+      "passed": true,
+      "details": "연결문서 편집 직전 해시와 비교"
+    }
+  ]
+}

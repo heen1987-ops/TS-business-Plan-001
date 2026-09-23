@@ -1,0 +1,53 @@
+{
+  "at": "2026-09-15T08:36:43.467Z",
+  "checks": {
+    "entryCount": 21,
+    "images": true,
+    "views": [
+      {
+        "width": 1440,
+        "noPageOverflow": true
+      },
+      {
+        "width": 768,
+        "noPageOverflow": true
+      },
+      {
+        "width": 390,
+        "noPageOverflow": true
+      }
+    ],
+    "searches": [
+      {
+        "query": "공공 PMS",
+        "shown": 2,
+        "pass": true
+      },
+      {
+        "query": "KoROAD",
+        "shown": 2,
+        "pass": true
+      },
+      {
+        "query": "비용 RFP",
+        "shown": 1,
+        "pass": true
+      },
+      {
+        "query": "절대없는검색어123",
+        "shown": 0,
+        "pass": true
+      }
+    ],
+    "emptyMessage": true,
+    "reset": true,
+    "keyboard": true,
+    "latestP23Loads": true,
+    "localLinks": 38,
+    "brokenLinks": 0,
+    "jsErrors": [],
+    "externalRequests": []
+  },
+  "scope": "이번 시작 화면의 파일·탐색·검색·반응형 확인. 전체 기존 파일의 본문·제품 기능·원격 동기화 검증은 아님.",
+  "pass": true
+}

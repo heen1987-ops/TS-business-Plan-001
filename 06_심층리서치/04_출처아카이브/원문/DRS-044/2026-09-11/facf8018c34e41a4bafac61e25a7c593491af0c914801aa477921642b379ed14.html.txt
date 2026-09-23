@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+	<head>
+		<title>ASRS - Aviation Safety Reporting System - Report Processing</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="Author" content="Booz Allen Hamilton" />
+		
+		<link rel="stylesheet" type="text/css" href="../css/main.css" media="screen"/>
+		<link rel="stylesheet" href="../css/print.css" media="print"  />
+		<script type="text/javascript" src="../js/dropdown.js"></script>
+        <script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=ARC&dclink=true"></script>
+	</head>
+	<body id="internal">
+		<div id="container">
+			<div id="header">
+				<a href="../index.html" title="Click to Go Home"><img id="logo" src="../images/logo.jpg" alt="Click to Go Home" /></a>
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../contact.php">Contact Us</a></li>
+				</ul>
+			</div>
+			<div id="metalBar"></div>
+			<noscript>Script to display drop down menus. Content accessable through Quick Links in each category page.</noscript>
+			<ul id="nav" class="clearfix">
+				<li><a id="current" href="../overview/summary.html">Program Information</a>
+					<ul class="dropdown">
+						<li><a href="summary.html">Program Briefing</a></li>
+						<li><a href="staff.html">About Our Staff</a></li>
+						<li><a href="confidentiality.html">Confidentiality and Incentives to Report</a></li>
+						<li><a href="immunity.html">Immunity Policy</a></li>
+						<li><a href="report.html">Report Processing</a></li>
+						<li><a href="database.html">Database</a></li>
+						<li><a href="outputs.html">Program Outputs</a></li>
+						<li><a href="caveats.html">Caveats</a></li>
+					</ul>
+				</li>
+				<li><a href="../report/electronic.html">Report to ASRS</a>
+					<ul class="dropdown">
+						<li><a href="../report/electronic.html">Electronic Report Submission (ERS)</a></li>
+						<li><a href="../report/mail.html">Download &amp; Print for US Mail</a></li>
+					</ul>
+				</li>
+				<li><a href="../search/database.html">Search ASRS Database</a>
+					<ul class="dropdown">
+						<li><a href="../search/database.html">ASRS Database Online</a></li>
+						<li><a href="../search/reportsets.html">ASRS Database Report Sets</a></li>
+						<li><a href="../search/requesting.html">Requesting ASRS Data</a></li>
+					</ul>
+				</li>
+				<li><a href="../publications/callback.html">Publications/Studies</a>
+					<ul class="dropdown">
+						<li><a href="../publications/callback.html"><em>CALLBACK</em></a></li>
+						<li><a href="../publications/directline.html"><em>ASRS Directline</em></a></li>
+						<li><a href="../publications/operations.html">Operational Issues Bulletin</a></li>
+						<li><a href="../publications/research.html">ASRS Research Papers</a></li>
+                        <li><a href="../publications/studies.html">Special Studies</a></li>
+					</ul>
+				</li>
+				<li><a href="../international/overview.html">International</a></li>
+				<li class="last"><a href="../resources.html">Online Resources</a></li>
+			</ul>
+			
+			<div id="content">
+				<h1>Report Processing</h1>
+				
+				<p>Incident reports are read and analyzed by ASRS's corps of aviation safety analysts. The analyst staff is composed 
+				entirely of experienced pilots, air traffic controllers, and mechanics. Their years of experience are uniformly measured in 
+				decades, and cover the full spectrum of aviation activity: air carrier, military, and general aviation; Air Traffic 
+				Control in Towers, TRACONs, Centers, and Military Facilities.</p>
+				
+				<p>Each report received by the ASRS is read by a minimum of two analysts. Their first mission is to identify any 
+				aviation hazards which are discussed in reports and flag that information for immediate action. When such hazards 
+				are identified, an alerting message is issued to the appropriate FAA office or aviation authority. Analysts' 
+				second mission is to classify reports and diagnose the causes underlying each reported event. Their observations, 
+				and the original de-identified report, are then incorporated into the ASRS's database.</p>
+			</div>
+			
+			<div id="sidebar">
+				<div class="module">
+					<h1>Program Information</h1>
+					<div class="moduleContent">
+						<ul>
+							<li><a href="summary.html">Program Briefing</a></li>
+							<li><a href="staff.html">About Our Staff</a></li>
+							<li><a href="confidentiality.html">Confidentiality and Incentives to Report</a></li>
+							<li><a href="immunity.html">Immunity Policy</a></li>
+							<li class="current"><a href="report.html">Report Processing</a></li>
+						  <li><a href="database.html">Database</a></li>
+							<li><a href="outputs.html">Program Outputs</a></li>
+							<li><a href="caveats.html">Caveats</a></li>
+						</ul>
+					</div>
+					<div class="moduleFooter"></div>
+				</div>
+				
+			</div>
+			
+			<div id="footer" class="clearfix">
+				<a href="http://www.nasa.gov" target="_blank" title="Go to NASA"><img src="../images/logo_nasa.jpg" alt="NASA Logo" /></a>
+				<p>Webmaster: <a href="mailto:mariana.carmona@nasa.gov">Mariana Carmona</a> | NASA Official: <a href="mailto:Becky.L.Hooey@nasa.gov">Becky L. Hooey</a></p>
+				<p><a href="https://www.nasa.gov">NASA.gov</a> | <a href="https://www.nasa.gov/ames/">NASA Ames</a> | <a href="https://www.nasa.gov/privacy/">Privacy</a> | <a href="https://www.nasa.gov/general/accessibility/">Accessibility</a></p>
+			</div>
+		</div>
+	</body>
+</html>

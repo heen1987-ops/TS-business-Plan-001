@@ -1,0 +1,59 @@
+[
+  {
+    "id": "E-C01",
+    "title": "CCK NOA 공식 제품 소개",
+    "url": "https://www.ccksolution.com/noa",
+    "retrieved": "2026-09-11",
+    "read": "HTTP 200 본문 직접 확인",
+    "claim": "폐쇄망·자체 LLM, 업무 연결·결과 생성, 정책·승인·감사를 제품 설명에 명시",
+    "limit": "공급사 설명이며 특정 납품 버전·독립 성능·인증·기관 적용 검증 아님",
+    "retrieved_html_sha256": "8604a5ca8adcd6082f1e9df477c7fcb6932f7d5c95bc5145ccc6c9ebcae49630",
+    "retrieval_note": "web 도구 재열람 오류 후 Python HTTPS로 공식 본문 확인. 원문 URL·해시 및 검토 내용을 기록."
+  },
+  {
+    "id": "E-C02",
+    "title": "CCK Grantee 공식 제품 소개",
+    "url": "https://www.ccksolution.com/grantee",
+    "retrieved": "2026-09-11",
+    "read": "HTTP 200 본문 직접 확인",
+    "claim": "규정–증빙 대응, 규칙·LLM 결합, Argus·사람 최종검토·폐쇄망 지원 설명",
+    "limit": "교통 문서 파서·NOA 결합 구현·재사용 라이선스 확인 아님. OCR·수기 인식은 이번 범위 제외",
+    "retrieved_html_sha256": "12f5c808d8648980f91a295d5f79bdb755973f9217fe52684463068af2dbf1cf",
+    "retrieval_note": "web 도구 재열람 오류 후 Python HTTPS로 공식 본문 확인. 원문 URL·해시 및 검토 내용을 기록."
+  },
+  {
+    "id": "E-C03",
+    "title": "[2026-2] 교통AI플랫폼 서비스 구축사업",
+    "url": "https://www.koroad.or.kr/main/board/16/306460/board_view.do?bdNoticeYn=N&bdOpenYn=Y&cp=1&listType=list",
+    "published": "2026-03-31",
+    "retrieved": "2026-09-11",
+    "read": "공식 게시 제목·게시일·첨부 표기 재확인",
+    "claim": "해당 사업의 공식 공시 존재",
+    "limit": "이번 추가 검색에서 최종 RFP·계약·낙찰 결과 미확보. 부재를 입증한 것은 아님"
+  },
+  {
+    "id": "E-C04",
+    "title": "CCK 기술자산 대장 26.09",
+    "path": "G:/내 드라이브/1. 업무영역/6. CCK/#. 회사정보/01. 아카이브/(AX-CHATGPT)/01_TECH_ASSETS/00_TECH_CATALOG.md",
+    "updated": "2026-09-05",
+    "read": "내부 파생 대장의 요약표 및 Argus 상세 직접 확인",
+    "claim": "TA-01~03·05·07·18·20·23의 역할·확인 한계",
+    "limit": "내부 CONFIRMED/TRL을 이번 실행 검증으로 승격하지 않음. 원 코드·납품 버전 미확인"
+  },
+  {
+    "id": "E-C05",
+    "title": "기존 NOA 7개 후보 원장",
+    "path": "../병렬조사_2026-09-11/후보별_검토결과.json",
+    "read": "원장 직접 확인",
+    "claim": "7개 후보·36개 메뉴·기존 중복 및 선행조건",
+    "limit": "후보 등록은 사업 선정 아님"
+  },
+  {
+    "id": "E-C06",
+    "title": "사람 중심 교통안전 AX v0.2",
+    "path": "../../사람중심_교통안전_AX/사업구상서.md",
+    "read": "권고·기술경계·편람 반영·대기열 대조",
+    "claim": "KR-H01~03과 공개/개인자료 적용 경계",
+    "limit": "개별 법률·의료 주장 최신성은 이번에 재검증하지 않음"
+  }
+]

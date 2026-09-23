@@ -1,0 +1,232 @@
+{
+  "status": "구조·대응 검사",
+  "checks": [
+    {
+      "check": "RFP 요구사항 52개 및 고유 ID",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "원 요구사항 58개 보존",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "원 1차 대응 46개",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "후속 제외 12개",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "발주 보강 6개",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "조건부 연계 2개",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "요구별 검수기준 두 개",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "요구별 산출물 연결 존재",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "알 수 없는 산출물 참조 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "테일러링 원 코드 74개 및 기초 4개",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "테일러링 원 코드 중복 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "판정 집계",
+      "pass": true,
+      "detail": {
+        "적용": 50,
+        "통합": 17,
+        "조건부": 5,
+        "제외": 2
+      }
+    },
+    {
+      "check": "표준 보완 7개",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "공고 전 확정 항목 15개",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "L01 Desktop 원본 무변경",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "L02 Desktop 원본 무변경",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "L03 Desktop 원본 무변경",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "L04 Desktop 원본 무변경",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "L05 Desktop 원본 무변경",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "공공_정보화사업_AI_이행관리_제안요청서_v0.1.docx 깨진 문자 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "공공_정보화사업_AI_이행관리_제안요청서_v0.1.docx 개인정보·원본 가격·특정 업체 미승계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "RFP DOCX 요구번호 52개 존재",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "RFP DOCX 상세설명 표 52개",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "RFP 신규 인프라 조건 존재",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "RFP 일곱 장 존재",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "공공_정보화사업_AI_이행관리_제안요청서_v0.1.docx 변경 추적·댓글 미포함",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "공공_정보화사업_테일러링_내역서_v0.1.docx 깨진 문자 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "공공_정보화사업_테일러링_내역서_v0.1.docx 개인정보·원본 가격·특정 업체 미승계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "테일러링 DOCX 원 코드 74개 존재",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "공공_정보화사업_테일러링_내역서_v0.1.docx 변경 추적·댓글 미포함",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "공공_정보화사업_AI_이행관리_제안요청서_v0.1.docx Word 페이지 수 일치",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "공공_정보화사업_AI_이행관리_제안요청서_v0.1.docx 과도하게 짧은 분리 페이지 없음",
+      "pass": true,
+      "detail": {
+        "pages": 49,
+        "min_page_text": 568
+      }
+    },
+    {
+      "check": "공공_정보화사업_테일러링_내역서_v0.1.docx Word 페이지 수 일치",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "공공_정보화사업_테일러링_내역서_v0.1.docx 과도하게 짧은 분리 페이지 없음",
+      "pass": true,
+      "detail": {
+        "pages": 15,
+        "min_page_text": 660
+      }
+    }
+  ],
+  "documents": [
+    {
+      "file": "공공_정보화사업_AI_이행관리_제안요청서_v0.1.docx",
+      "bytes": 93065,
+      "sha256": "4f1676e06bcf040db6fd39c9a75efeb7ba1843ccd7919baa2fe7bddcb7cb747e",
+      "tables": 95
+    },
+    {
+      "file": "공공_정보화사업_테일러링_내역서_v0.1.docx",
+      "bytes": 58158,
+      "sha256": "ed257ef4087ab2d58a5287b2b6d4432985563320cb93da751544899fa96b4a9e",
+      "tables": 19
+    }
+  ],
+  "sources": [
+    {
+      "id": "L01",
+      "sha256": "c91f53879981c70ff0be6994ca03c31b442ff1fb02c57d8cf7f5b4c38cc128a0"
+    },
+    {
+      "id": "L02",
+      "sha256": "7ab7977ec419d5673e76b333b2d8bf0ad4fd2336da528a8fba93aa0458e851f0"
+    },
+    {
+      "id": "L03",
+      "sha256": "884a5f432325f5784538586b9778b3c665b00e91d786715ae16a41691f7cb15b"
+    },
+    {
+      "id": "L04",
+      "sha256": "7403569aa70bff72c21dec19bd2367c0162a6566fcbb30b87aba1922eaf3e6a5"
+    },
+    {
+      "id": "L05",
+      "sha256": "9a5d6e28ea680d1cd3df12d1ab0b008fd0eef26b2056bb87365b44027f82b853"
+    }
+  ],
+  "product_tests": "미실시",
+  "visual_review": {
+    "status": "완료",
+    "method": "Microsoft Word 읽기 전용 출력 및 페이지 PNG 원본 배율 확인",
+    "rfp_pages": 49,
+    "tailoring_pages": 15,
+    "total_pages": 64,
+    "visible_clipping_or_overlap": "발견하지 않음"
+  },
+  "independent_review": "외부 독립 검토 미실시"
+}

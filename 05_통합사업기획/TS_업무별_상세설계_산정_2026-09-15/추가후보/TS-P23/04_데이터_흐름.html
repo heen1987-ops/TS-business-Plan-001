@@ -1,0 +1,155 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TS-P23 · 데이터 흐름 | TS · CCK NOA</title><link rel="stylesheet" href="../../자산/report.css"></head><body><div data-p23x="1" style="padding:16px 22px;background:#e1f1ed;border-bottom:2px solid #0b756a;color:#163e43;font:15px/1.8 Malgun Gothic,sans-serif">P23 확장안: 부서별 문제정의 → 정책·사업 → 예산 요구 → RFP·공고 준비 · <a style="color:#075d59;font-weight:bold" href="../../../P23_정책기획_예산요구_발주전환_v1.1_2026-09-15/00_기획_전체보기.html">정책·예산·발주 기획지원 v1.1 보기</a></div><a class="skip" href="#main">본문으로 이동</a><header><div class="eyebrow">TS × CCK NOA · 2026.09.15 · 기획 검토 v1.0</div><h1>TS-P23 · 데이터 흐름</h1><p>교통안전 문제정의·정책사업 기획 AI 에이전트</p></header><nav class="topnav" aria-label="자료 메뉴"><a href="../../00_상세설계_통합보기.html">전체 업무</a><a href="../../01_공통_아키텍처.html">공통 아키텍처</a><a href="../../02_통합_비용산정.html">업무 선택·예산 계산</a><a href="../../03_산정기준_근거.html">산정 기준·근거</a></nav><main id="main" class="shell"><nav class="tabs" aria-label="TS-P23 상세 주제"><a href="01_서비스_컨셉.html">01 서비스 정의·컨셉</a><a href="02_전체_아키텍처.html">02 전체 아키텍처</a><a href="03_사용자_흐름.html">03 사용자 흐름</a><a href="04_데이터_흐름.html" aria-current="page">04 데이터 흐름</a><a href="05_요구사항_검수.html">05 요구사항·검수</a><a href="06_비용_산정.html">06 개발·용역·운영 산정</a><a href="07_일정_운영.html">07 추진 일정·운영</a></nav><div class="note">추가 정책기획 후보 · 22개 업무 분류와 별도. 기획 검토안 · 로컬 LLM·기존 서버 · 신규 인프라 0원</div><section aria-label="TS-P23 데이터 흐름 도식"><div class="diagram-tools"><button type="button" data-zoom="0.2">확대 +</button><button type="button" data-zoom="-0.2">축소 −</button><button type="button" data-zoom="reset">기본 크기</button><a href="data.svg">SVG 원본</a><span class="small">작은 화면에서는 가로로 이동할 수 있습니다.</span></div><div class="diagram" tabindex="0" aria-label="가로 이동 가능한 TS-P23 데이터 흐름 도식"><img src="data.svg" alt="TS-P23 데이터 흐름 도식. 처리·연결 설명은 아래 표에 제공." /></div></section><article><h2>자료의 입력·결과</h2>
+<p>승인된 뉴스 본문/발췌·민원 비식별 자료·정책보고·공식 현황·기관업무·기존사업 정보 → 문제정의 카드, 주장·근거 원장, 원인 가설 및 추가 확인표, 기존사업 차이표, 정책·사업 대안 비교, 사업기획서 초안. 실제 DB명·API·보존기간은 자료 소유자와 확정한다.</p>
+<div class="tablewrap" tabindex="0" aria-label="가로로 이동 가능한 표"><table>
+<thead>
+<tr>
+<th>논리 저장소</th>
+<th>내용</th>
+<th>권한·수명주기</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>D1 승인 근거</td>
+<td>문제·주장·근거·정책 결정 / 원문 위치·버전·적용일</td>
+<td>권한 계승 / 변경·삭제 시 색인 갱신</td>
+</tr>
+<tr>
+<td>D2 검토 결과</td>
+<td>문제정의·원인 가설·사업대안 / 초안·수정·근거</td>
+<td>업무 대상키·역할별 접근 / 승인본 분리</td>
+</tr>
+<tr>
+<td>D3 결정·처리 이력</td>
+<td>현업 검토·기획 채택 / 검토자·이유·참조</td>
+<td>공식 상태는 원 시스템 기준</td>
+</tr>
+<tr>
+<td>D4 최소 감사</td>
+<td>권한·자료 버전·행동·성공/실패</td>
+<td>원문 전체 중복 저장 금지 / 보존기간 협의</td>
+</tr>
+</tbody></table></div>
+<h2>데이터 정의·검증</h2>
+<div class="tablewrap" tabindex="0" aria-label="가로로 이동 가능한 표"><table>
+<thead>
+<tr>
+<th>논리 필드</th>
+<th>의미·검증</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>source_id / type / rights</td>
+<td>기사·민원·보고·통계의 유형, 이용 범위·원문 위치</td>
+</tr>
+<tr>
+<td>event_date / publish_date / region</td>
+<td>사건일·게시일·수집일·지역을 분리</td>
+</tr>
+<tr>
+<td>claim_id / evidence_refs / stance</td>
+<td>주장·근거·찬성/반대/미확인 연결; 인용 문장 확인</td>
+</tr>
+<tr>
+<td>issue_id / affected_group / denominator</td>
+<td>문제·영향 집단·노출 또는 이용 규모; 미확인 분모는 미확인</td>
+</tr>
+<tr>
+<td>cause_hypothesis / alternatives</td>
+<td>원인 가설·대체 설명·반대 근거·검증 방법</td>
+</tr>
+<tr>
+<td>ts_scope / existing_project / decision</td>
+<td>TS 소관·기존사업 버전·채택/유보 사유</td>
+</tr>
+</tbody></table></div>
+<h2>품질·예외·변경 처리</h2>
+<div class="tablewrap" tabindex="0" aria-label="가로로 이동 가능한 표"><table>
+<thead>
+<tr>
+<th>조건</th>
+<th>처리</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>대상·기간·단위 불일치</td>
+<td>예약 민원 증가만으로 검사 역량 부족이 원인이라고 확정하지 않는다.</td>
+</tr>
+<tr>
+<td>문서 변경·근거 철회</td>
+<td>재색인·캐시 만료·생성물 근거 상태를 함께 갱신. 최신 확정 표시 중지</td>
+</tr>
+<tr>
+<td>권한 변경·삭제</td>
+<td>원문·색인·캐시·결과 참조에 전파. 보존 의무·삭제 권한 담당자 확인</td>
+</tr>
+<tr>
+<td>자료 내 명령</td>
+<td>입력은 분석 대상이며 시스템 권한·도구 설정을 덮어쓰지 못함</td>
+</tr>
+<tr>
+<td>자료 없음·모호함</td>
+<td>존재하지 않는 기사·조문·통계를 인용하지 않고 근거가 없으면 유보하며 자동 외부 제출하지 않는다.</td>
+</tr>
+</tbody></table></div>
+<h2>데이터 주권의 구현 조건</h2>
+<ul>
+<li>기관이 원문·색인·임베딩·질문·생성물·감사의 저장 위치와 접근을 통제</li>
+<li>외부 공개자료 반입 권한과 내부 모델 처리 경계 분리</li>
+<li>운영자·원격 유지보수·백업·반출·정정·삭제 경로까지 검증</li>
+<li>납품 시 지식·규칙·구성·근거·검토 이력을 이관할 형식 명시</li>
+</ul>
+<p>기사 수·민원 수·고유 사건 수·주장 수를 따로 기록한다. 사건일·게시일·수집일을 분리하고 분모 없는 빈도를 위험률로 표시하지 않는다. 원인 가설에는 반대 근거·대체 설명·검증 방법을 연결한다.</p>
+<h2>도식의 연결</h2>
+<div class="tablewrap" tabindex="0" aria-label="가로로 이동 가능한 표"><table>
+<thead>
+<tr>
+<th>연결</th>
+<th>전달 내용</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>E1 승인된 원천 → P1 반입·구조 검증</td>
+<td>허용 자료</td>
+</tr>
+<tr>
+<td>P1 반입·구조 검증 → D1 근거 자료</td>
+<td>검증·분리 결과</td>
+</tr>
+<tr>
+<td>D1 근거 자료 → P2 근거·규칙 검색</td>
+<td>원문·메타정보</td>
+</tr>
+<tr>
+<td>P2 근거·규칙 검색 → P3 로컬 LLM 구성</td>
+<td>근거·규칙</td>
+</tr>
+<tr>
+<td>P3 로컬 LLM 구성 → P4 검토·수정</td>
+<td>초안·불확실성</td>
+</tr>
+<tr>
+<td>P4 검토·수정 → D2 검토 결과</td>
+<td>검토된 결과</td>
+</tr>
+<tr>
+<td>D2 검토 결과 → D3 결정·처리 이력</td>
+<td>승인·선택</td>
+</tr>
+<tr>
+<td>D3 결정·처리 이력 → D4 최소 감사기록</td>
+<td>참조·행동</td>
+</tr>
+<tr>
+<td>P2 근거·규칙 검색 → D4 최소 감사기록</td>
+<td>검색·권한 기록</td>
+</tr>
+</tbody></table></div>
+<h2>출처와 확인 범위</h2>
+<ul>
+<li><a href="https://main.kotsa.or.kr/portal/contents.do?menuCode=01040300">TMACS 공식 업무 안내</a> — 확인일 2026-09-15; 정책 기초자료·원인분석 정보의 기존 기반; 원시 데이터 권한 미확인</li>
+<li><a href="https://www.acrc.go.kr/menu.es?mid=a10104050100">국민권익위 민원 빅데이터 분석·활용 개요</a> — 확인일 2026-09-15; 기존 민원 분석·정책 및 제도 개선 지원과의 비교</li>
+<li><a href="https://www.acrc.go.kr/menu.es?mid=a10104050200">한눈에 보는 민원 빅데이터 소개</a> — 확인일 2026-09-15; 공개 분석자료 활용 가능 범위의 참고; 모든 개별 원문 개방 아님</li>
+</ul>
+<p>기존 22개 출처는 이전 원장 확인일을 승계했다. 공급사 성능·자료 접근권한·법령 전체를 새로 검증한 자료는 아니다.</p>
+<p>사용자 제안에 대한 추가 기획이며 공식 업무 신설·예산 확정 아님.</p>
+</article><div class="paging"><a href="03_사용자_흐름.html">← 사용자 흐름</a><a href="04_데이터_흐름.md">Markdown 원본</a><a href="05_요구사항_검수.html">요구사항·검수 →</a></div></main><footer>한국교통안전공단(TS) 대상 · 기존 서버 활용 · 신규 인프라 0원 · 실제 NOA·원 시스템 시험과 공급사 견적 미확인.<br><a href="../../README.md">자료 안내·제약</a> · <a href="../../검증기록.md">문서 검증 기록</a></footer><script>document.querySelectorAll('[data-zoom]').forEach(b=>b.addEventListener('click',()=>{const img=b.closest('section').querySelector('.diagram img');let v=Number(img.dataset.scale||1);v=b.dataset.zoom==='reset'?1:Math.max(.8,Math.min(2,v+Number(b.dataset.zoom)));img.dataset.scale=v;img.style.width=(v*100)+'%';}));const s=document.getElementById('search');if(s)s.addEventListener('input',()=>{let n=0;document.querySelectorAll('.card[data-key]').forEach(c=>{c.hidden=!c.dataset.key.toLowerCase().includes(s.value.toLowerCase());if(!c.hidden)n++;});document.getElementById('search-status').textContent=n+'개 업무 표시';});</script></body></html>

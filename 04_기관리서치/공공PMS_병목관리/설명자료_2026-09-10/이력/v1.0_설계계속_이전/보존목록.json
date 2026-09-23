@@ -1,0 +1,66 @@
+[
+  {
+    "name": "검증_설명자료.cjs",
+    "sha256": "361ac892e00712988bcbfc05b8a9f63faec6f2626a3c6743d946242f21d13797"
+  },
+  {
+    "name": "대화추가_2026-09-10.json",
+    "sha256": "3a1188f57a8e48d4d17d3a4eea79b22df0d3804f35eae8133c458f95ead1b72b"
+  },
+  {
+    "name": "생성_설명자료.py",
+    "sha256": "0e84041eee266ab54f01823256f6a445174e12c0f6cd14cf2a7f767a06159438"
+  },
+  {
+    "name": "생성기록.json",
+    "sha256": "dfee113a4af00659c1969d597d214e013378a381961e04cc2b1162cca2aaed90"
+  },
+  {
+    "name": "설명서_동작.js",
+    "sha256": "a63547c552ddf3330616db326ad36466905df8f8b529ea84e85a9abc80fffc32"
+  },
+  {
+    "name": "설명서_스타일.css",
+    "sha256": "5f5b67550f3f78fec73752b29579a8dd6bca279e7f8591b376243c6bda8f431e"
+  },
+  {
+    "name": "설명서_템플릿.html",
+    "sha256": "491a404c75f54e36aed3f414e5e8721e7dc04e6b5e34175996036bca7c916932"
+  },
+  {
+    "name": "설명자료_검증.json",
+    "sha256": "4a22e27703892c2edfad5c6df0618afb4f01009708c81151964df9a08d2a9d97"
+  },
+  {
+    "name": "설명자료_검증.md",
+    "sha256": "e9165bdbaa50455bb78f3843e0d0da862d548bd187acb6ed168fa3595a37df8b"
+  },
+  {
+    "name": "설명자료_데이터.json",
+    "sha256": "efe6791ccca0953f70f705a50a5617912987d1372d3fe63baaa0f9daa30420c8"
+  },
+  {
+    "name": "설명자료_설계.md",
+    "sha256": "3baae88a1ded9c57af3d00c06cb9c6636180d2e0f1ee6290fdf1f72d4205174a"
+  },
+  {
+    "name": "설명자료_후속확인.md",
+    "sha256": "86d16e8e1b53b11ac4d5ebdf43cfbccbfae40c24285cae735f963155e194c30f"
+  },
+  {
+    "name": "시각검토.md",
+    "sha256": "d94accba5af093cccef80de571f2dd13ebff7c4cbf7a3044fb170ba44a4a195a"
+  },
+  {
+    "name": "CCK_Public_AI_PMS_설명서.html",
+    "sha256": "b25232fec2e9820a9173bd4ebb508c8805e8ab5a30a4e22960401bcc44e7250f"
+  },
+  {
+    "name": "CCK_Public_AI_PMS_설명서.md",
+    "sha256": "1e925cf0ae68846d5a3ab8bcd56b3110b513002d11c96c2647f3569d4b23e7b2"
+  },
+  {
+    "name": "CCK_Public_AI_PMS_아키텍처.svg",
+    "sha256": "8e25dca3d44fa2693ab11903e0eafe75f1ca483a807e2ff9d9a69d9fef1bc34f"
+  }
+]

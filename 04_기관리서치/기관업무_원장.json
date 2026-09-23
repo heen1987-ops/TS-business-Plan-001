@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-09-15",
+  "description": "기관과 법정·위탁업무의 초기 원장. 전수조사 완료본이 아님.",
+  "coverage": {
+    "population_source_ids": [
+      "PUB-002"
+    ],
+    "population_total": null,
+    "population_status": "전체 공식 명단 확보 대기",
+    "scope": [
+      "중앙행정기관·소속기관",
+      "지정 공공기관",
+      "지방공기업",
+      "관련 출자·출연·별도 법정기관"
+    ]
+  },
+  "institutions": [
+    {
+      "id": "ORG-0001",
+      "name": "한국교통안전공단",
+      "aliases": [
+        "TS"
+      ],
+      "institution_family": "공공기관",
+      "designation_type": "위탁집행형 준정부기관",
+      "supervising_body": "국토교통부",
+      "classification_source_ids": [
+        "PUB-008"
+      ],
+      "classification_reference_period": "2026년도 공공기관 지정 자료 / 2026-01-29 발표",
+      "current_designation_status": "2026 지정자료 첨부 PDF 5쪽의 소관·유형 개별 행 대조 완료 (2026-09-11 조사)",
+      "founding_basis": {
+        "law_name": "한국교통안전공단법",
+        "article": "제1조",
+        "effective_date": "2018-01-01",
+        "source_ids": [
+          "PUB-003"
+        ],
+        "status": "한국교통안전공단법 제1조·제6조 원문 확인(2018-01-01 시행본); 개별 업무 현행 위탁법령 전수검토 아님",
+        "research_evidence": {
+          "source_id": "TSDR-002",
+          "url": "https://law.go.kr/LSW/lsInfoP.do?lsiSeq=198271",
+          "evidence_register": "한국교통안전공단_심층조사_2026-09-11/근거원장.json"
+        }
+      },
+      "last_checked_at": "2026-09-11",
+      "classification_evidence": {
+        "source_id": "TSDR-001",
+        "url": "https://mofe.go.kr/nw/nes/detailNesDtaView.do?menuNo=4010100&searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000076666",
+        "evidence_register": "한국교통안전공단_심층조사_2026-09-11/근거원장.json",
+        "archive": "한국교통안전공단_심층조사_2026-09-11/근거보존/designation.pdf",
+        "pdf_page": 5
+      },
+      "research_record": "한국교통안전공단_심층조사_2026-09-11/근거원장.json",
+      "business_list_record": "한국교통안전공단_심층조사_2026-09-11/한국교통안전공단_업무와_NOA_검토리스트_2026-09-14.json",
+      "research_scope": "공식 주요사업 7개 요약 분류 및 선택 상세자료 41개 근거; 세부 메뉴·계약 전수검토 아님",
+      "business_planning_record": "../05_통합사업기획/TS_22개업무_사업기획_2026-09-15_v0.2/03_사업기획_원장.json",
+      "business_planning_scope": "2026-09-15 v0.2: 기구축 사업·기존 AI의 CCK AI 추가 적용·고도화를 포함한 22개 기획 재판정. 현재 업무·권한·제품·계약 전수검증 아님",
+      "business_planning_checked_at": "2026-09-15",
+      "ai_application_review_record": "../05_통합사업기획/TS_22개업무_사업기획_2026-09-15_v0.2/07_AI추가적용_재판정.json"
+    },
+    {
+      "id": "ORG-0002",
+      "name": "한국도로교통공단",
+      "aliases": [
+        "KoROAD",
+        "도로교통공단"
+      ],
+      "institution_family": "공식 기관명·주요사업 확인 / 지정 유형 검증 대기",
+      "designation_type": null,
+      "supervising_body": null,
+      "classification_source_ids": [],
+      "current_designation_status": "주요사업 메뉴 조사에서 현재 지정고시·소관 법령을 별도 대조하지 않음",
+      "research_record": "한국도로교통공단_주요사업_2026-09-11/주요사업_확인원장.json",
+      "planning_record": "한국도로교통공단_주요사업_2026-09-11/NOA_기반_확장/NOA_서비스_확장원장.json",
+      "planning_status": "3분기·7후보 공개근거 조사 완료 / 2026 기존 플랫폼 계약 중복·제품·수요·주관 수행 검증 전",
+      "parallel_research_record": "한국도로교통공단_주요사업_2026-09-11/NOA_기반_확장/병렬조사_2026-09-11/후보별_검토결과.json",
+      "research_scope": "공식 주요사업 6개 분야·36개 메뉴 및 하위 안내. 법정·위탁 관계, 전체 기능·계약·첨부 전문 전수조사는 아님",
+      "last_checked_at": "2026-09-11"
+    }
+  ],
+  "mandates": [
+    {
+      "id": "MAN-0001",
+      "name": "교통수단안전점검",
+      "public_benefit": "운수업체 위험요인 점검을 통한 교통사고 예방",
+      "legal_basis_candidates": [
+        {
+          "law_name": "교통안전법",
+          "article": "제33조",
+          "effective_date": null
+        },
+        {
+          "law_name": "교통안전법",
+          "article": "제59조",
+          "effective_date": null
+        },
+        {
+          "law_name": "교통안전법 시행령",
+          "article": "제48조의2",
+          "effective_date": null
+        }
+      ],
+      "source_ids": [
+        "PUB-004"
+      ],
+      "status": "기관 공식 사업 설명과 근거 안내 확인 / 현행 조항·위탁 범위 미검증",
+      "last_checked_at": "2026-09-09"
+    }
+  ],
+  "institution_mandates": [
+    {
+      "id": "REL-0001",
+      "institution_id": "ORG-0001",
+      "mandate_id": "MAN-0001",
+      "role": "기관 공식 페이지에 수행 업무로 안내",
+      "legal_relationship_type": null,
+      "delegating_body": null,
+      "responsible_department": null,
+      "valid_from": null,
+      "valid_to": null,
+      "source_ids": [
+        "PUB-004"
+      ],
+      "legal_applicability_verified": false,
+      "status": "위탁·지정 등 구체적 관계와 수행조직 대조 대기"
+    }
+  ],
+  "issues": [],
+  "opportunities": [],
+  "change_log": [
+    {
+      "date": "2026-09-15",
+      "target_ids": [
+        "ORG-0001"
+      ],
+      "change": "사용자 지시로 기구축 사업 CCK AI 적용·고도화 포함. 22개 기획의 기존 기반·AI 추가분·공통 재사용·증분 원가를 재판정. 기존 후보 집계는 이력, 현재 판단은 v0.2. 법정 관계·타 기관 기록 유지.",
+      "business_planning_record": "../05_통합사업기획/TS_22개업무_사업기획_2026-09-15_v0.2/03_사업기획_원장.json"
+    },
+    {
+      "date": "2026-09-14",
+      "target_ids": [
+        "ORG-0001"
+      ],
+      "change": "7개 대분류·22개 업무 묶음을 TS-P01~22 개별 사업기획으로 연결. NOA·기존 서버·신규 인프라 0원, P17/P22 통합 검토. 기존 후보 수·예산·기관리스트·법정 관계 판정 유지.",
+      "business_planning_record": "../05_통합사업기획/TS_22개업무_사업기획_2026-09-14/03_사업기획_원장.json"
+    },
+    {
+      "date": "2026-09-14",
+      "target_ids": [
+        "ORG-0001"
+      ],
+      "change": "2026-09-11 TS 심층조사(공식 7개 분류·41개 근거)를 원장에 반영하고 22개 업무 묶음으로 목록화. H01~H03은 검증 전 가설로 기존 후보 수·예산·전체 기관 모집단에 합산하지 않음.",
+      "research_record": "한국교통안전공단_심층조사_2026-09-11/근거원장.json",
+      "business_list_record": "한국교통안전공단_심층조사_2026-09-11/한국교통안전공단_업무와_NOA_검토리스트_2026-09-14.json"
+    },
+    {
+      "date": "2026-09-11",
+      "target_ids": [
+        "ORG-0002"
+      ],
+      "change": "NOA 공통 기반·범용 공공업무·교통안전 3개 분기 병렬조사. 36개 근거 기록과 7개 후보 검토결과 추가. R01 교통AI플랫폼 사업계획을 확인해 기존 계약 중복 대조를 공통 선행조건으로 반영. 구축 완료·실제 수요·제품 성능으로 승격하지 않음.",
+      "research_record": "한국도로교통공단_주요사업_2026-09-11/NOA_기반_확장/병렬조사_2026-09-11/근거원장.json"
+    },
+    {
+      "date": "2026-09-11",
+      "target_ids": [
+        "ORG-0002"
+      ],
+      "change": "KoROAD 주요사업 조사에 NOA 기반 서비스 확장 원장 연결. 7개 서비스 묶음을 36개 메뉴와 매핑했으며 확정 사업기회·법정 권한·제품 성능으로 등록하지 않음.",
+      "research_record": "한국도로교통공단_주요사업_2026-09-11/NOA_기반_확장/NOA_서비스_확장원장.json"
+    },
+    {
+      "date": "2026-09-09",
+      "target_ids": [
+        "ORG-0001",
+        "MAN-0001",
+        "REL-0001"
+      ],
+      "change": "TS 초기 기관·업무·관계 기록. 미검증 법적 관계와 시행일은 비워 두고 상태를 명시함.",
+      "source_ids": [
+        "PUB-003",
+        "PUB-004",
+        "PUB-008"
+      ]
+    }
+  ]
+}

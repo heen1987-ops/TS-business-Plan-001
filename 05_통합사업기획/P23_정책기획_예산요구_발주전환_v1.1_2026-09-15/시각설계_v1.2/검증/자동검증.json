@@ -1,0 +1,1643 @@
+{
+  "date": "2026-09-15",
+  "pages": 7,
+  "graphs": 6,
+  "nodes": 65,
+  "screen_stages": 7,
+  "links": 139,
+  "viewports": 21,
+  "checks": 402,
+  "failures": [],
+  "results": [
+    {
+      "name": "00_서비스_로직맵.html 주제목 1개",
+      "pass": true
+    },
+    {
+      "name": "연결 00_서비스_로직맵.html assets/visual.css",
+      "pass": true
+    },
+    {
+      "name": "연결 00_서비스_로직맵.html #main",
+      "pass": true
+    },
+    {
+      "name": "연결 00_서비스_로직맵.html ../00_기획_전체보기.html",
+      "pass": true
+    },
+    {
+      "name": "연결 00_서비스_로직맵.html 00_서비스_로직맵.html",
+      "pass": true
+    },
+    {
+      "name": "연결 00_서비스_로직맵.html 01_서비스_흐름도.html",
+      "pass": true
+    },
+    {
+      "name": "연결 00_서비스_로직맵.html 02_전체_아키텍처.html",
+      "pass": true
+    },
+    {
+      "name": "연결 00_서비스_로직맵.html 03_데이터_흐름도.html",
+      "pass": true
+    },
+    {
+      "name": "연결 00_서비스_로직맵.html 04_판단과_예외.html",
+      "pass": true
+    },
+    {
+      "name": "연결 00_서비스_로직맵.html 05_변경과_문서추적.html",
+      "pass": true
+    },
+    {
+      "name": "연결 00_서비스_로직맵.html 06_사용자화면_시연.html",
+      "pass": true
+    },
+    {
+      "name": "연결 00_서비스_로직맵.html ../서식/F01_문제정의_정책사업_검토서.html",
+      "pass": true
+    },
+    {
+      "name": "연결 00_서비스_로직맵.html 06_사용자화면_시연.html?stage=1",
+      "pass": true
+    },
+    {
+      "name": "연결 00_서비스_로직맵.html diagrams/concept.svg",
+      "pass": true
+    },
+    {
+      "name": "연결 00_서비스_로직맵.html diagrams/concept.svg",
+      "pass": true
+    },
+    {
+      "name": "연결 00_서비스_로직맵.html 00_서비스_로직맵.md",
+      "pass": true
+    },
+    {
+      "name": "연결 00_서비스_로직맵.html 06_사용자화면_시연.html",
+      "pass": true
+    },
+    {
+      "name": "연결 00_서비스_로직맵.html ../근거_출처와_검증상태.md",
+      "pass": true
+    },
+    {
+      "name": "연결 00_서비스_로직맵.html 검증기록.md",
+      "pass": true
+    },
+    {
+      "name": "연결 00_서비스_로직맵.html assets/model.js",
+      "pass": true
+    },
+    {
+      "name": "연결 00_서비스_로직맵.html assets/visual.js",
+      "pass": true
+    },
+    {
+      "name": "01_서비스_흐름도.html 주제목 1개",
+      "pass": true
+    },
+    {
+      "name": "연결 01_서비스_흐름도.html assets/visual.css",
+      "pass": true
+    },
+    {
+      "name": "연결 01_서비스_흐름도.html #main",
+      "pass": true
+    },
+    {
+      "name": "연결 01_서비스_흐름도.html ../00_기획_전체보기.html",
+      "pass": true
+    },
+    {
+      "name": "연결 01_서비스_흐름도.html 00_서비스_로직맵.html",
+      "pass": true
+    },
+    {
+      "name": "연결 01_서비스_흐름도.html 01_서비스_흐름도.html",
+      "pass": true
+    },
+    {
+      "name": "연결 01_서비스_흐름도.html 02_전체_아키텍처.html",
+      "pass": true
+    },
+    {
+      "name": "연결 01_서비스_흐름도.html 03_데이터_흐름도.html",
+      "pass": true
+    },
+    {
+      "name": "연결 01_서비스_흐름도.html 04_판단과_예외.html",
+      "pass": true
+    },
+    {
+      "name": "연결 01_서비스_흐름도.html 05_변경과_문서추적.html",
+      "pass": true
+    },
+    {
+      "name": "연결 01_서비스_흐름도.html 06_사용자화면_시연.html",
+      "pass": true
+    },
+    {
+      "name": "연결 01_서비스_흐름도.html ../서식/F01_문제정의_정책사업_검토서.html",
+      "pass": true
+    },
+    {
+      "name": "연결 01_서비스_흐름도.html 06_사용자화면_시연.html?stage=0",
+      "pass": true
+    },
+    {
+      "name": "연결 01_서비스_흐름도.html diagrams/service.svg",
+      "pass": true
+    },
+    {
+      "name": "연결 01_서비스_흐름도.html diagrams/service.svg",
+      "pass": true
+    },
+    {
+      "name": "연결 01_서비스_흐름도.html 01_서비스_흐름도.md",
+      "pass": true
+    },
+    {
+      "name": "연결 01_서비스_흐름도.html 06_사용자화면_시연.html",
+      "pass": true
+    },
+    {
+      "name": "연결 01_서비스_흐름도.html ../근거_출처와_검증상태.md",
+      "pass": true
+    },
+    {
+      "name": "연결 01_서비스_흐름도.html 검증기록.md",
+      "pass": true
+    },
+    {
+      "name": "연결 01_서비스_흐름도.html assets/model.js",
+      "pass": true
+    },
+    {
+      "name": "연결 01_서비스_흐름도.html assets/visual.js",
+      "pass": true
+    },
+    {
+      "name": "02_전체_아키텍처.html 주제목 1개",
+      "pass": true
+    },
+    {
+      "name": "연결 02_전체_아키텍처.html assets/visual.css",
+      "pass": true
+    },
+    {
+      "name": "연결 02_전체_아키텍처.html #main",
+      "pass": true
+    },
+    {
+      "name": "연결 02_전체_아키텍처.html ../00_기획_전체보기.html",
+      "pass": true
+    },
+    {
+      "name": "연결 02_전체_아키텍처.html 00_서비스_로직맵.html",
+      "pass": true
+    },
+    {
+      "name": "연결 02_전체_아키텍처.html 01_서비스_흐름도.html",
+      "pass": true
+    },
+    {
+      "name": "연결 02_전체_아키텍처.html 02_전체_아키텍처.html",
+      "pass": true
+    },
+    {
+      "name": "연결 02_전체_아키텍처.html 03_데이터_흐름도.html",
+      "pass": true
+    },
+    {
+      "name": "연결 02_전체_아키텍처.html 04_판단과_예외.html",
+      "pass": true
+    },
+    {
+      "name": "연결 02_전체_아키텍처.html 05_변경과_문서추적.html",
+      "pass": true
+    },
+    {
+      "name": "연결 02_전체_아키텍처.html 06_사용자화면_시연.html",
+      "pass": true
+    },
+    {
+      "name": "연결 02_전체_아키텍처.html ../서식/F01_문제정의_정책사업_검토서.html",
+      "pass": true
+    },
+    {
+      "name": "연결 02_전체_아키텍처.html 06_사용자화면_시연.html?stage=1",
+      "pass": true
+    },
+    {
+      "name": "연결 02_전체_아키텍처.html diagrams/architecture.svg",
+      "pass": true
+    },
+    {
+      "name": "연결 02_전체_아키텍처.html diagrams/architecture.svg",
+      "pass": true
+    },
+    {
+      "name": "연결 02_전체_아키텍처.html 02_전체_아키텍처.md",
+      "pass": true
+    },
+    {
+      "name": "연결 02_전체_아키텍처.html 06_사용자화면_시연.html",
+      "pass": true
+    },
+    {
+      "name": "연결 02_전체_아키텍처.html ../근거_출처와_검증상태.md",
+      "pass": true
+    },
+    {
+      "name": "연결 02_전체_아키텍처.html 검증기록.md",
+      "pass": true
+    },
+    {
+      "name": "연결 02_전체_아키텍처.html assets/model.js",
+      "pass": true
+    },
+    {
+      "name": "연결 02_전체_아키텍처.html assets/visual.js",
+      "pass": true
+    },
+    {
+      "name": "03_데이터_흐름도.html 주제목 1개",
+      "pass": true
+    },
+    {
+      "name": "연결 03_데이터_흐름도.html assets/visual.css",
+      "pass": true
+    },
+    {
+      "name": "연결 03_데이터_흐름도.html #main",
+      "pass": true
+    },
+    {
+      "name": "연결 03_데이터_흐름도.html ../00_기획_전체보기.html",
+      "pass": true
+    },
+    {
+      "name": "연결 03_데이터_흐름도.html 00_서비스_로직맵.html",
+      "pass": true
+    },
+    {
+      "name": "연결 03_데이터_흐름도.html 01_서비스_흐름도.html",
+      "pass": true
+    },
+    {
+      "name": "연결 03_데이터_흐름도.html 02_전체_아키텍처.html",
+      "pass": true
+    },
+    {
+      "name": "연결 03_데이터_흐름도.html 03_데이터_흐름도.html",
+      "pass": true
+    },
+    {
+      "name": "연결 03_데이터_흐름도.html 04_판단과_예외.html",
+      "pass": true
+    },
+    {
+      "name": "연결 03_데이터_흐름도.html 05_변경과_문서추적.html",
+      "pass": true
+    },
+    {
+      "name": "연결 03_데이터_흐름도.html 06_사용자화면_시연.html",
+      "pass": true
+    },
+    {
+      "name": "연결 03_데이터_흐름도.html ../서식/F01_문제정의_정책사업_검토서.html",
+      "pass": true
+    },
+    {
+      "name": "연결 03_데이터_흐름도.html 06_사용자화면_시연.html?stage=0",
+      "pass": true
+    },
+    {
+      "name": "연결 03_데이터_흐름도.html diagrams/data.svg",
+      "pass": true
+    },
+    {
+      "name": "연결 03_데이터_흐름도.html diagrams/data.svg",
+      "pass": true
+    },
+    {
+      "name": "연결 03_데이터_흐름도.html 03_데이터_흐름도.md",
+      "pass": true
+    },
+    {
+      "name": "연결 03_데이터_흐름도.html 06_사용자화면_시연.html",
+      "pass": true
+    },
+    {
+      "name": "연결 03_데이터_흐름도.html ../근거_출처와_검증상태.md",
+      "pass": true
+    },
+    {
+      "name": "연결 03_데이터_흐름도.html 검증기록.md",
+      "pass": true
+    },
+    {
+      "name": "연결 03_데이터_흐름도.html assets/model.js",
+      "pass": true
+    },
+    {
+      "name": "연결 03_데이터_흐름도.html assets/visual.js",
+      "pass": true
+    },
+    {
+      "name": "04_판단과_예외.html 주제목 1개",
+      "pass": true
+    },
+    {
+      "name": "연결 04_판단과_예외.html assets/visual.css",
+      "pass": true
+    },
+    {
+      "name": "연결 04_판단과_예외.html #main",
+      "pass": true
+    },
+    {
+      "name": "연결 04_판단과_예외.html ../00_기획_전체보기.html",
+      "pass": true
+    },
+    {
+      "name": "연결 04_판단과_예외.html 00_서비스_로직맵.html",
+      "pass": true
+    },
+    {
+      "name": "연결 04_판단과_예외.html 01_서비스_흐름도.html",
+      "pass": true
+    },
+    {
+      "name": "연결 04_판단과_예외.html 02_전체_아키텍처.html",
+      "pass": true
+    },
+    {
+      "name": "연결 04_판단과_예외.html 03_데이터_흐름도.html",
+      "pass": true
+    },
+    {
+      "name": "연결 04_판단과_예외.html 04_판단과_예외.html",
+      "pass": true
+    },
+    {
+      "name": "연결 04_판단과_예외.html 05_변경과_문서추적.html",
+      "pass": true
+    },
+    {
+      "name": "연결 04_판단과_예외.html 06_사용자화면_시연.html",
+      "pass": true
+    },
+    {
+      "name": "연결 04_판단과_예외.html ../서식/F01_문제정의_정책사업_검토서.html",
+      "pass": true
+    },
+    {
+      "name": "연결 04_판단과_예외.html 06_사용자화면_시연.html?stage=1",
+      "pass": true
+    },
+    {
+      "name": "연결 04_판단과_예외.html diagrams/logic.svg",
+      "pass": true
+    },
+    {
+      "name": "연결 04_판단과_예외.html diagrams/logic.svg",
+      "pass": true
+    },
+    {
+      "name": "연결 04_판단과_예외.html 04_판단과_예외.md",
+      "pass": true
+    },
+    {
+      "name": "연결 04_판단과_예외.html 06_사용자화면_시연.html",
+      "pass": true
+    },
+    {
+      "name": "연결 04_판단과_예외.html ../근거_출처와_검증상태.md",
+      "pass": true
+    },
+    {
+      "name": "연결 04_판단과_예외.html 검증기록.md",
+      "pass": true
+    },
+    {
+      "name": "연결 04_판단과_예외.html assets/model.js",
+      "pass": true
+    },
+    {
+      "name": "연결 04_판단과_예외.html assets/visual.js",
+      "pass": true
+    },
+    {
+      "name": "05_변경과_문서추적.html 주제목 1개",
+      "pass": true
+    },
+    {
+      "name": "연결 05_변경과_문서추적.html assets/visual.css",
+      "pass": true
+    },
+    {
+      "name": "연결 05_변경과_문서추적.html #main",
+      "pass": true
+    },
+    {
+      "name": "연결 05_변경과_문서추적.html ../00_기획_전체보기.html",
+      "pass": true
+    },
+    {
+      "name": "연결 05_변경과_문서추적.html 00_서비스_로직맵.html",
+      "pass": true
+    },
+    {
+      "name": "연결 05_변경과_문서추적.html 01_서비스_흐름도.html",
+      "pass": true
+    },
+    {
+      "name": "연결 05_변경과_문서추적.html 02_전체_아키텍처.html",
+      "pass": true
+    },
+    {
+      "name": "연결 05_변경과_문서추적.html 03_데이터_흐름도.html",
+      "pass": true
+    },
+    {
+      "name": "연결 05_변경과_문서추적.html 04_판단과_예외.html",
+      "pass": true
+    },
+    {
+      "name": "연결 05_변경과_문서추적.html 05_변경과_문서추적.html",
+      "pass": true
+    },
+    {
+      "name": "연결 05_변경과_문서추적.html 06_사용자화면_시연.html",
+      "pass": true
+    },
+    {
+      "name": "연결 05_변경과_문서추적.html ../서식/F06_심의질의_답변보완표.html",
+      "pass": true
+    },
+    {
+      "name": "연결 05_변경과_문서추적.html 06_사용자화면_시연.html?stage=6",
+      "pass": true
+    },
+    {
+      "name": "연결 05_변경과_문서추적.html diagrams/impact.svg",
+      "pass": true
+    },
+    {
+      "name": "연결 05_변경과_문서추적.html diagrams/impact.svg",
+      "pass": true
+    },
+    {
+      "name": "연결 05_변경과_문서추적.html 05_변경과_문서추적.md",
+      "pass": true
+    },
+    {
+      "name": "연결 05_변경과_문서추적.html 06_사용자화면_시연.html",
+      "pass": true
+    },
+    {
+      "name": "연결 05_변경과_문서추적.html ../근거_출처와_검증상태.md",
+      "pass": true
+    },
+    {
+      "name": "연결 05_변경과_문서추적.html 검증기록.md",
+      "pass": true
+    },
+    {
+      "name": "연결 05_변경과_문서추적.html assets/model.js",
+      "pass": true
+    },
+    {
+      "name": "연결 05_변경과_문서추적.html assets/visual.js",
+      "pass": true
+    },
+    {
+      "name": "06_사용자화면_시연.html 주제목 1개",
+      "pass": true
+    },
+    {
+      "name": "연결 06_사용자화면_시연.html assets/visual.css",
+      "pass": true
+    },
+    {
+      "name": "연결 06_사용자화면_시연.html #main",
+      "pass": true
+    },
+    {
+      "name": "연결 06_사용자화면_시연.html ../00_기획_전체보기.html",
+      "pass": true
+    },
+    {
+      "name": "연결 06_사용자화면_시연.html 00_서비스_로직맵.html",
+      "pass": true
+    },
+    {
+      "name": "연결 06_사용자화면_시연.html 01_서비스_흐름도.html",
+      "pass": true
+    },
+    {
+      "name": "연결 06_사용자화면_시연.html 02_전체_아키텍처.html",
+      "pass": true
+    },
+    {
+      "name": "연결 06_사용자화면_시연.html 03_데이터_흐름도.html",
+      "pass": true
+    },
+    {
+      "name": "연결 06_사용자화면_시연.html 04_판단과_예외.html",
+      "pass": true
+    },
+    {
+      "name": "연결 06_사용자화면_시연.html 05_변경과_문서추적.html",
+      "pass": true
+    },
+    {
+      "name": "연결 06_사용자화면_시연.html 06_사용자화면_시연.html",
+      "pass": true
+    },
+    {
+      "name": "연결 06_사용자화면_시연.html ../서식/F01_문제정의_정책사업_검토서.html",
+      "pass": true
+    },
+    {
+      "name": "연결 06_사용자화면_시연.html 06_사용자화면_시연.html?stage=0",
+      "pass": true
+    },
+    {
+      "name": "연결 06_사용자화면_시연.html 01_서비스_흐름도.html",
+      "pass": true
+    },
+    {
+      "name": "연결 06_사용자화면_시연.html 04_판단과_예외.html",
+      "pass": true
+    },
+    {
+      "name": "연결 06_사용자화면_시연.html 06_사용자화면_시연.md",
+      "pass": true
+    },
+    {
+      "name": "연결 06_사용자화면_시연.html ../근거_출처와_검증상태.md",
+      "pass": true
+    },
+    {
+      "name": "연결 06_사용자화면_시연.html 검증기록.md",
+      "pass": true
+    },
+    {
+      "name": "연결 06_사용자화면_시연.html assets/model.js",
+      "pass": true
+    },
+    {
+      "name": "연결 06_사용자화면_시연.html assets/visual.js",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 concept C01→C04",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 concept C02→C04",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 concept C03→C04",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 concept C04→C05",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 concept C04→C06",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 concept C04→C07",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 concept C04→C08",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 service S01→S02",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 service S02→S03",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 service S04→S05",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 service S05→S06",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 service S07→S08",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 service S08→S09",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 service S10→S11",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 service S11→S12",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 service S03→S04",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 service S06→S07",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 service S09→S10",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 architecture A01→A03",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 architecture A02→A04",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 architecture A03→A04",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 architecture A04→A05",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 architecture A04→A07",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 architecture A07→A04",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 architecture A06→A07",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 architecture A09→A06",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 architecture A03→A09",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 architecture A04→A06",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 architecture A04→A08",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 architecture A04→A10",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 architecture A10→A11",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 architecture A08→A11",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 architecture A05→A11",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 architecture A11→A12",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 data E1→P1",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 data E2→P1",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 data P1→D1",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 data D1→P2",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 data P2→D2",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 data D2→P3",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 data P3→D3",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 data D3→P4",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 data D5→P4",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 data P4→P5",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 data P5→D4",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 data D4→E3",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 data E3→D3",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 logic L00→L01",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 logic L01→L02",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 logic L01→L11",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 logic L11→L01",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 logic L02→L12",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 logic L02→L03",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 logic L03→L04",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 logic L03→L13",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 logic L13→L03",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 logic L04→L05",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 logic L04→L14",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 logic L14→L04",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 logic L12→L02",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 impact V01→V02",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 impact V02→V03",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 impact V03→V04",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 impact V04→V05",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 impact V05→V06",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 impact V01→V06",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 impact V06→V07",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 impact V06→V08",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 impact V06→V09",
+      "pass": true
+    },
+    {
+      "name": "선 끝점 impact V06→V10",
+      "pass": true
+    },
+    {
+      "name": "연결선이 무관한 노드를 관통하지 않음",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "문서 가로넘침 00_서비스_로직맵.html 1440",
+      "pass": true
+    },
+    {
+      "name": "문서 가로넘침 00_서비스_로직맵.html 768",
+      "pass": true
+    },
+    {
+      "name": "문서 가로넘침 00_서비스_로직맵.html 390",
+      "pass": true
+    },
+    {
+      "name": "문서 가로넘침 01_서비스_흐름도.html 1440",
+      "pass": true
+    },
+    {
+      "name": "문서 가로넘침 01_서비스_흐름도.html 768",
+      "pass": true
+    },
+    {
+      "name": "문서 가로넘침 01_서비스_흐름도.html 390",
+      "pass": true
+    },
+    {
+      "name": "문서 가로넘침 02_전체_아키텍처.html 1440",
+      "pass": true
+    },
+    {
+      "name": "문서 가로넘침 02_전체_아키텍처.html 768",
+      "pass": true
+    },
+    {
+      "name": "문서 가로넘침 02_전체_아키텍처.html 390",
+      "pass": true
+    },
+    {
+      "name": "문서 가로넘침 03_데이터_흐름도.html 1440",
+      "pass": true
+    },
+    {
+      "name": "문서 가로넘침 03_데이터_흐름도.html 768",
+      "pass": true
+    },
+    {
+      "name": "문서 가로넘침 03_데이터_흐름도.html 390",
+      "pass": true
+    },
+    {
+      "name": "문서 가로넘침 04_판단과_예외.html 1440",
+      "pass": true
+    },
+    {
+      "name": "문서 가로넘침 04_판단과_예외.html 768",
+      "pass": true
+    },
+    {
+      "name": "문서 가로넘침 04_판단과_예외.html 390",
+      "pass": true
+    },
+    {
+      "name": "문서 가로넘침 05_변경과_문서추적.html 1440",
+      "pass": true
+    },
+    {
+      "name": "문서 가로넘침 05_변경과_문서추적.html 768",
+      "pass": true
+    },
+    {
+      "name": "문서 가로넘침 05_변경과_문서추적.html 390",
+      "pass": true
+    },
+    {
+      "name": "문서 가로넘침 06_사용자화면_시연.html 1440",
+      "pass": true
+    },
+    {
+      "name": "문서 가로넘침 06_사용자화면_시연.html 768",
+      "pass": true
+    },
+    {
+      "name": "문서 가로넘침 06_사용자화면_시연.html 390",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 concept C01",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 concept C02",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 concept C03",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 concept C04",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 concept C05",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 concept C06",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 concept C07",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 concept C08",
+      "pass": true
+    },
+    {
+      "name": "노드 글자 경계 concept",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "연결 설명 잘림 없음 concept",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "연결 설명·상자 겹침 없음 concept",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "시나리오 설명 concept normal",
+      "pass": true
+    },
+    {
+      "name": "시나리오 설명 concept insufficient",
+      "pass": true
+    },
+    {
+      "name": "시나리오 노드 강조 concept insufficient",
+      "pass": true
+    },
+    {
+      "name": "시나리오 설명 concept reduced",
+      "pass": true
+    },
+    {
+      "name": "시나리오 노드 강조 concept reduced",
+      "pass": true
+    },
+    {
+      "name": "시나리오 설명 concept withdrawn",
+      "pass": true
+    },
+    {
+      "name": "시나리오 노드 강조 concept withdrawn",
+      "pass": true
+    },
+    {
+      "name": "확대 concept",
+      "pass": true
+    },
+    {
+      "name": "기본 배율 concept",
+      "pass": true
+    },
+    {
+      "name": "키보드 노드 선택 concept",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 service S01",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 service S02",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 service S03",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 service S04",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 service S05",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 service S06",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 service S07",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 service S08",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 service S09",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 service S10",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 service S11",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 service S12",
+      "pass": true
+    },
+    {
+      "name": "노드 글자 경계 service",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "연결 설명 잘림 없음 service",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "연결 설명·상자 겹침 없음 service",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "시나리오 설명 service normal",
+      "pass": true
+    },
+    {
+      "name": "시나리오 설명 service insufficient",
+      "pass": true
+    },
+    {
+      "name": "시나리오 노드 강조 service insufficient",
+      "pass": true
+    },
+    {
+      "name": "시나리오 설명 service reduced",
+      "pass": true
+    },
+    {
+      "name": "시나리오 노드 강조 service reduced",
+      "pass": true
+    },
+    {
+      "name": "시나리오 설명 service withdrawn",
+      "pass": true
+    },
+    {
+      "name": "시나리오 노드 강조 service withdrawn",
+      "pass": true
+    },
+    {
+      "name": "확대 service",
+      "pass": true
+    },
+    {
+      "name": "기본 배율 service",
+      "pass": true
+    },
+    {
+      "name": "키보드 노드 선택 service",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 architecture A01",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 architecture A02",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 architecture A03",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 architecture A04",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 architecture A05",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 architecture A06",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 architecture A07",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 architecture A08",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 architecture A09",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 architecture A10",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 architecture A11",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 architecture A12",
+      "pass": true
+    },
+    {
+      "name": "노드 글자 경계 architecture",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "연결 설명 잘림 없음 architecture",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "연결 설명·상자 겹침 없음 architecture",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "시나리오 설명 architecture normal",
+      "pass": true
+    },
+    {
+      "name": "시나리오 설명 architecture insufficient",
+      "pass": true
+    },
+    {
+      "name": "시나리오 노드 강조 architecture insufficient",
+      "pass": true
+    },
+    {
+      "name": "시나리오 설명 architecture reduced",
+      "pass": true
+    },
+    {
+      "name": "시나리오 노드 강조 architecture reduced",
+      "pass": true
+    },
+    {
+      "name": "시나리오 설명 architecture withdrawn",
+      "pass": true
+    },
+    {
+      "name": "시나리오 노드 강조 architecture withdrawn",
+      "pass": true
+    },
+    {
+      "name": "확대 architecture",
+      "pass": true
+    },
+    {
+      "name": "기본 배율 architecture",
+      "pass": true
+    },
+    {
+      "name": "키보드 노드 선택 architecture",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 data E1",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 data E2",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 data P1",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 data D1",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 data P2",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 data D2",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 data P3",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 data D3",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 data D5",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 data P4",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 data P5",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 data D4",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 data E3",
+      "pass": true
+    },
+    {
+      "name": "노드 글자 경계 data",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "연결 설명 잘림 없음 data",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "연결 설명·상자 겹침 없음 data",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "시나리오 설명 data normal",
+      "pass": true
+    },
+    {
+      "name": "시나리오 설명 data insufficient",
+      "pass": true
+    },
+    {
+      "name": "시나리오 노드 강조 data insufficient",
+      "pass": true
+    },
+    {
+      "name": "시나리오 설명 data reduced",
+      "pass": true
+    },
+    {
+      "name": "시나리오 노드 강조 data reduced",
+      "pass": true
+    },
+    {
+      "name": "시나리오 설명 data withdrawn",
+      "pass": true
+    },
+    {
+      "name": "시나리오 노드 강조 data withdrawn",
+      "pass": true
+    },
+    {
+      "name": "확대 data",
+      "pass": true
+    },
+    {
+      "name": "기본 배율 data",
+      "pass": true
+    },
+    {
+      "name": "키보드 노드 선택 data",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 logic L00",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 logic L01",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 logic L02",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 logic L11",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 logic L12",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 logic L03",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 logic L04",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 logic L05",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 logic L13",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 logic L14",
+      "pass": true
+    },
+    {
+      "name": "노드 글자 경계 logic",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "연결 설명 잘림 없음 logic",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "연결 설명·상자 겹침 없음 logic",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "시나리오 설명 logic normal",
+      "pass": true
+    },
+    {
+      "name": "시나리오 설명 logic insufficient",
+      "pass": true
+    },
+    {
+      "name": "시나리오 노드 강조 logic insufficient",
+      "pass": true
+    },
+    {
+      "name": "시나리오 설명 logic reduced",
+      "pass": true
+    },
+    {
+      "name": "시나리오 노드 강조 logic reduced",
+      "pass": true
+    },
+    {
+      "name": "시나리오 설명 logic withdrawn",
+      "pass": true
+    },
+    {
+      "name": "시나리오 노드 강조 logic withdrawn",
+      "pass": true
+    },
+    {
+      "name": "확대 logic",
+      "pass": true
+    },
+    {
+      "name": "기본 배율 logic",
+      "pass": true
+    },
+    {
+      "name": "키보드 노드 선택 logic",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 impact V01",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 impact V02",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 impact V03",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 impact V04",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 impact V05",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 impact V06",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 impact V07",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 impact V08",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 impact V09",
+      "pass": true
+    },
+    {
+      "name": "노드 입출력 impact V10",
+      "pass": true
+    },
+    {
+      "name": "노드 글자 경계 impact",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "연결 설명 잘림 없음 impact",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "연결 설명·상자 겹침 없음 impact",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "시나리오 설명 impact normal",
+      "pass": true
+    },
+    {
+      "name": "시나리오 설명 impact insufficient",
+      "pass": true
+    },
+    {
+      "name": "시나리오 노드 강조 impact insufficient",
+      "pass": true
+    },
+    {
+      "name": "시나리오 설명 impact reduced",
+      "pass": true
+    },
+    {
+      "name": "시나리오 노드 강조 impact reduced",
+      "pass": true
+    },
+    {
+      "name": "시나리오 설명 impact withdrawn",
+      "pass": true
+    },
+    {
+      "name": "시나리오 노드 강조 impact withdrawn",
+      "pass": true
+    },
+    {
+      "name": "확대 impact",
+      "pass": true
+    },
+    {
+      "name": "기본 배율 impact",
+      "pass": true
+    },
+    {
+      "name": "키보드 노드 선택 impact",
+      "pass": true
+    },
+    {
+      "name": "사용자 화면 0",
+      "pass": true
+    },
+    {
+      "name": "화면·로직 연결 0",
+      "pass": true
+    },
+    {
+      "name": "사용자 화면 1",
+      "pass": true
+    },
+    {
+      "name": "화면·로직 연결 1",
+      "pass": true
+    },
+    {
+      "name": "사용자 화면 2",
+      "pass": true
+    },
+    {
+      "name": "화면·로직 연결 2",
+      "pass": true
+    },
+    {
+      "name": "사용자 화면 3",
+      "pass": true
+    },
+    {
+      "name": "화면·로직 연결 3",
+      "pass": true
+    },
+    {
+      "name": "사용자 화면 4",
+      "pass": true
+    },
+    {
+      "name": "화면·로직 연결 4",
+      "pass": true
+    },
+    {
+      "name": "사용자 화면 5",
+      "pass": true
+    },
+    {
+      "name": "화면·로직 연결 5",
+      "pass": true
+    },
+    {
+      "name": "사용자 화면 6",
+      "pass": true
+    },
+    {
+      "name": "화면·로직 연결 6",
+      "pass": true
+    },
+    {
+      "name": "마지막 다음 버튼 비활성",
+      "pass": true
+    },
+    {
+      "name": "첫 화면 이전 비활성",
+      "pass": true
+    },
+    {
+      "name": "다음 화면 전환",
+      "pass": true
+    },
+    {
+      "name": "본문 이동 포커스",
+      "pass": true
+    },
+    {
+      "name": "본문 이동",
+      "pass": true
+    },
+    {
+      "name": "브라우저 오류 없음",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "외부 네트워크 요청 없음",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "product_tests_run": 0
+}

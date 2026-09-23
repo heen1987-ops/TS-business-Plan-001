@@ -1,0 +1,129 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>확장 범위와 추가 개발비 | P23 정책기획</title><link rel="stylesheet" href="자산/report.css"></head><body><a class="skip" href="#main">본문으로 이동</a><aside><small>CCK · NOA × TS</small><div class="brand">정책·예산·발주<br>기획지원</div><nav aria-label="설명자료 목차"><a href="시각설계_v1.2/00_서비스_로직맵.html" style="background:#d4eeea;color:#123b42;font-weight:bold">서비스 로직맵 · v1.2</a><a href="00_기획_전체보기.html" >00 근거에서 예산·발주까지</a><a href="01_자료와_문제정의.html" >01 부서가 함께 보는 문제와 근거</a><a href="02_사업과_예산요구.html" >02 문제정의를 예산 설명으로</a><a href="03_양식과_필드매핑.html" >03 하나의 사업원장에서 여러 문서로</a><a href="04_아키텍처와_흐름.html" >04 로컬 LLM 기반 구성과 검토 흐름</a><a href="05_RFP와_공고전환.html" >05 승인된 사업을 발주 가능한 요구로</a><a href="06_요구사항과_검증.html" >06 무엇을 만들고 어떻게 확인할 것인가</a><a href="07_비용과_도입계획.html" aria-current="page">07 확장 범위와 추가 개발비</a><a href="08_문서전환_시연.html" >08 사업원장 → 문서 초안 시연</a><div class="formnav"><a href="서식/F01_문제정의_정책사업_검토서.html" >F01 문제정의·정책사업 검토서</a><a href="서식/F02_예산요구_사업설명자료.html" >F02 예산 요구·사업설명자료</a><a href="서식/F03_2027_신규사업_리스트.html" >F03 2027 신규사업 리스트 작성지원</a><a href="서식/F04_발주기관_RFP_초안.html" >F04 발주기관 RFP 초안</a><a href="서식/F05_공고작성_인계서.html" >F05 공고 작성 인계서</a><a href="서식/F06_심의질의_답변보완표.html" >F06 예산 심의 질의응답·보완표</a></div></nav></aside><div class="shell"><header><div class="eyebrow">POLICY PLANNING / P23 v1.1</div><h1>확장 범위와 추가 개발비</h1><p class="lead">P23 기존 문제정의 기능에 양식·예산·발주 전환을 추가</p><div class="meta"><span>기존 서버 · 로컬 LLM</span><span>신규 인프라 0원</span><span>기획·초안 · 실증 전</span></div></header><main id="main" tabindex="-1"><section data-visual-v12="true" style="padding:19px 21px;margin:0 0 25px;background:#e2f3ed;border:1px solid #a6cfc2;border-radius:9px"><strong style="display:block;font-size:19px;color:#15584e">서비스가 어떻게 동작하는지 도식으로 보기</strong><p style="margin:8px 0 13px;color:#3b615d;font-size:14px">각 단계를 선택하면 입력·처리·출력·담당자 판단과 보완 경로가 표시됩니다.</p><div style="display:flex;gap:8px;flex-wrap:wrap"><a style="display:inline-block;padding:8px 12px;border-radius:5px;background:#0b7164;color:white;text-decoration:none;font-size:14px" href="시각설계_v1.2/00_서비스_로직맵.html">컨셉·로직맵</a><a style="display:inline-block;padding:8px 12px;border-radius:5px;background:#0b7164;color:white;text-decoration:none;font-size:14px" href="시각설계_v1.2/01_서비스_흐름도.html">서비스 흐름</a><a style="display:inline-block;padding:8px 12px;border-radius:5px;background:#0b7164;color:white;text-decoration:none;font-size:14px" href="시각설계_v1.2/03_데이터_흐름도.html">데이터 흐름</a><a style="display:inline-block;padding:8px 12px;border-radius:5px;background:#0b7164;color:white;text-decoration:none;font-size:14px" href="시각설계_v1.2/06_사용자화면_시연.html">사용자 화면</a></div></section><h2>두 가지 예산을 구분한다</h2>
+<p><strong>이 페이지는 P23 플랫폼을 만드는 개발비</strong>다. 플랫폼을 이용해 나중에 기획할 자동차검사·운수안전 등 개별 사업의 요구예산은 다른 원장이다. 두 예산을 합쳐 한 사업의 비용처럼 보여주지 않는다.</p>
+<h2>산정 전제</h2>
+<p>시범 의제1개·부서2개·기존 원천 유형4개·HTML/MD 문서6종·발주처 제공 고정 HWPX2종·예산 경로2종·단일 로컬 운영환경을 가정한다. 기존 서버와 모델의 사용권·성능, NOA 인터페이스, HWPX 라이브러리 이용조건, 실제 서식을 착수 때 확인한다. 임의 서식 자동학습, 외부 제출 API, 대규모 전사 배포는 포함하지 않는다.</p>
+<div class="tablewrap" tabindex="0" role="region" aria-label="좌우로 이동 가능한 표"><table>
+<thead>
+<tr>
+<th>추가 작업</th>
+<th>인일 범위</th>
+<th>직무 배분</th>
+<th>인수할 범위</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>X01 예산 경로·양식·검토 규칙 분석</td>
+<td>6–10</td>
+<td>업무분석가 80% · IT PM 20%</td>
+<td>TS 자체예산·정부예산 경로 2종, 문서 프로필 6종</td>
+</tr>
+<tr>
+<td>X02 공통 사업원장·필드 매핑</td>
+<td>8–14</td>
+<td>응용SW개발자 70% · 데이터분석가 30%</td>
+<td>사업·근거·예산·양식 버전 연결, 누락값 처리</td>
+</tr>
+<tr>
+<td>X03 양식 출력·HWPX 어댑터</td>
+<td>12–20</td>
+<td>응용SW개발자 70% · UI/UX기획·개발자 30%</td>
+<td>HTML/MD 6종, 발주처 제공 고정 HWPX 2종까지의 연동·실제 렌더 검수</td>
+</tr>
+<tr>
+<td>X04 예산 산식·단위·연차 검증</td>
+<td>6–10</td>
+<td>응용SW개발자 70% · 데이터분석가 30%</td>
+<td>금액·증감·연차·TCO·불완전 합계 표시</td>
+</tr>
+<tr>
+<td>X05 역할 검토·변경 영향 관리</td>
+<td>8–14</td>
+<td>응용SW개발자 70% · IT아키텍트 20% · IT품질관리자 10%</td>
+<td>문제→사업→예산→발주 상태, 버전 무효화·재검토</td>
+</tr>
+<tr>
+<td>X06 RFP·공고 초안·공개본 분리</td>
+<td>6–10</td>
+<td>응용SW개발자 70% · UI/UX기획·개발자 30%</td>
+<td>요구사항·검수 연결, 보호정보 제외, 계약 미확정 필드</td>
+</tr>
+<tr>
+<td>X07 통합 검증·업무 인수</td>
+<td>8–14</td>
+<td>IT테스터 60% · IT품질관리자 40%</td>
+<td>권한·양식·변경·렌더 시험 및 시범부서 교육</td>
+</tr>
+</tbody></table></div>
+<p>추가 공수 합계 <strong>54–92인일</strong>, 중간 시나리오 <strong>73인일</strong>. 이는 실제 투입 관측값이 아닌 기획 가정이다. 업무분석·템플릿 난도·소스 재사용 정도에 따라 조정한다.</p>
+<h2>금액 시나리오 · VAT 포함</h2>
+<div class="tablewrap" tabindex="0" role="region" aria-label="좌우로 이동 가능한 표"><table>
+<thead>
+<tr>
+<th>상황</th>
+<th>낮음</th>
+<th>중간</th>
+<th>높음</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>v1.0이 이미 구현되어 있는 경우: v1.1 추가분만</td>
+<td>67,609,987원</td>
+<td>91,381,506원</td>
+<td>115,153,025원</td>
+</tr>
+<tr>
+<td>P23 신규 도입: v1.0+C00+C06+확장분</td>
+<td>164,543,667원</td>
+<td>220,087,560원</td>
+<td>275,631,454원</td>
+</tr>
+<tr>
+<td>C00 공통 기반만 준비된 경우: P23+C06+확장분</td>
+<td>126,543,457원</td>
+<td>169,420,614원</td>
+<td>212,297,771원</td>
+</tr>
+</tbody></table></div>
+<p>첫 행은 <strong>v1.0 기능이 실제로 준비되어 있을 때만</strong> 적용한다. 이전에 설계 보고서가 작성되었다는 사실은 제품 구축 완료가 아니다. 기존 P23 소범위 비용을 v1.1 전체 비용으로 사용하지 않는다. 다른 22개 업무를 함께 도입하면 C00 및 재사용 가능한 공통 기능은 한 번만 산정한다.</p>
+<h2>계산 근거</h2>
+<p>직접인건비 = 작업별 인일 × 직무별 가중 일단가. 제경비 = 직접인건비 × 144%. 기술료 = (직접인건비 + 제경비) × 20%. 공급가액 = 인건비 + 제경비 + 기술료 + 별도 이용권·직접경비. 총액 = 공급가액 × 1.10. 반올림은 최종 원 단위 표시 시 적용한다.</p>
+<p>2026 적용 평균임금과 2025 개정 대가산정 가이드의 투입공수 방식을 승계했다. 별도 FP 이윤을 중복 가산하지 않았다. <a href="https://www.swai.or.kr/site/sw/ex/board/View.do?bcIdx=64717&cbIdx=304">공식 평균임금</a>, <a href="https://www.swai.or.kr/site/sw/ex/board/View.do?bcIdx=63607&cbIdx=276&searchExt1=">2025 대가산정 가이드</a></p>
+<p>신규 인프라 투자 <strong>0원</strong>. 표의 이용권·직접경비는 추가금액 0을 넣은 비교 시나리오이며 무료 확인이 아니다. NOA·모델·문서 라이브러리·기타 SW 이용권이 기존 계약으로 충족되는지 확인하고 미충족 금액은 별도 가산한다. 운영유지·서식의 매년 개정 대응·백업·자료 갱신비는 별도 산정 대상이다. 운영연차 미확정 항목이 남으면 완전한 총사업비가 아니다.</p>
+<h2>단계 도입</h2>
+<div class="tablewrap" tabindex="0" role="region" aria-label="좌우로 이동 가능한 표"><table>
+<thead>
+<tr>
+<th>시기 가정</th>
+<th>완료할 것</th>
+<th>다음 단계 조건</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1–2주</td>
+<td>실제 양식·소관 경로·데이터·서버·재사용 기술 확인</td>
+<td>서식2종 확보, 권리·성능·비용 전제 검토</td>
+</tr>
+<tr>
+<td>3–6주</td>
+<td>근거·문제·공통 원장과 문서 프로필 시범</td>
+<td>업무 담당자의 문제 카드·필드 매핑 검토</td>
+</tr>
+<tr>
+<td>7–10주</td>
+<td>예산 계산·변경 영향·초안 변환</td>
+<td>단위·연차·미확인·감액 시험 통과</td>
+</tr>
+<tr>
+<td>11–14주</td>
+<td>고정 HWPX2종·RFP·공개본 검수</td>
+<td>실제 양식 렌더·권한·검수 추적 통과</td>
+</tr>
+<tr>
+<td>15–16주</td>
+<td>시범부서 운영·교육·인수</td>
+<td>제품 인수시험과 담당자 확인 완료</td>
+</tr>
+</tbody></table></div>
+<p>약 4개월은 역할 혼합 투입과 의제1개를 가정한 일정안이며, 예산 심의·발주 행정기간을 포함하지 않는다. 실제 재사용 기반이 없거나 양식 제공이 지연되면 일정·범위를 다시 산정한다.</p>
+<p>기존 전체 사업 예산 논의인 1차7억·2차추가5억은 승인된 배정액이 아니다. P23 채택 시 다른 업무 후보와 공통 비용을 함께 재배분해야 하며, 본 확장안을 단순히 모두 추가해 상한을 넘기지 않는다.</p>
+</main><div class="doclinks"><a href="07_비용과_도입계획.md">이 페이지 Markdown</a><a href="근거_출처와_검증상태.md">근거·검증 상태</a><a href="검증기록.md">산출물 검증기록</a></div><footer>2026.09.15 · P23 추가후보 v1.1 · 실제 예산 제출·공고·운영 연계는 수행하지 않았습니다.</footer></div></body></html>

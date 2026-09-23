@@ -1,0 +1,153 @@
+{
+  "date": "2026-09-11",
+  "checks": [
+    {
+      "name": "7개 후보 전체·중복 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "두 서비스 축 3개·4개",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "기존 36개 메뉴 고유 ID",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "36개 근거 고유 ID",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "모든 후보 근거 ID 유효",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "모든 후보 검토항목 완성",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "인프라0·KoROAD·미검증 경계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "핵심 정정 사항 MD 포함",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 문서·앵커 링크",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML 고유 ID",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "본문 언어·제목",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "첫 키보드 포커스 본문 건너뛰기",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "범용 축 필터",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "안전 축 필터",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "후보 ID 검색",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "빈 검색 결과",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "필터 초기화",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "전체 펼침",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "전체 접기",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "후보 직접 링크 펼침",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "근거 직접 링크 펼침",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "데스크톱 문서 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 문서 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "모바일 직접 링크 실제 위치",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 상세 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "320px 문서 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "인쇄 시 후보·근거 전체 펼침",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "인쇄 후 상태 복원",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "브라우저 스크립트 오류 없음",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "errors": [],
+  "bad": [],
+  "limits": "설명문서 구조·브라우저 기능 검사. 실제 NOA·기관 시스템·API·전체 WCAG 검수 아님."
+}

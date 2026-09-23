@@ -1,0 +1,49 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>기구축 사업 CCK AI 적용 공통 수행설계</title><style>*{box-sizing:border-box}body{margin:0;background:#fff;color:#222;font:16px/1.85 'Malgun Gothic','Apple SD Gothic Neo',sans-serif;word-break:keep-all;overflow-wrap:anywhere}main{max-width:1120px;margin:auto;padding:48px 32px 80px;min-width:0}h1{font-size:34px;line-height:1.4;margin:0 0 30px;padding-bottom:24px;border-bottom:2px solid #333}h2{font-size:24px;line-height:1.5;margin-top:48px;padding-top:18px;border-top:1px solid #bbb}h3{font-size:19px;margin-top:30px}p{margin:0 0 20px}a{color:#333;text-underline-offset:3px}a:hover{color:#555}table{width:100%;min-width:730px;border-collapse:collapse;font-size:13px;line-height:1.8}th,td{padding:11px 10px;text-align:left;vertical-align:top;border-bottom:1px solid #ccc}th{background:#f1f1f1}.table-wrap{overflow-x:auto;margin:22px 0}.table-wrap:focus-visible,a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #333;outline-offset:3px}.contents{margin:18px 0 28px;padding:12px 16px;border:1px solid #aaa}.contents summary{cursor:pointer;min-height:32px}.contents ol{columns:2;padding-left:22px}.contents li{break-inside:avoid;font-size:14px}.actions,.filters{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:22px 0}.actions a,button,input,select{font:inherit;background:#fff;color:#222;border:1px solid #777;padding:8px 12px;min-height:44px}.actions a{text-decoration:none}button{cursor:pointer}.skip{position:absolute;left:10px;top:-70px;background:white;padding:10px}.skip:focus{top:10px}li{margin:8px 0}.sources{font-size:12px;line-height:1.8}.sources li{margin-bottom:16px}sup{font-size:10px;line-height:0}[hidden]{display:none!important}.small{font-size:13px;color:#555}.empty{padding:15px;background:#f3f3f3}.filters label{font-size:14px}#index-table{min-width:1000px}@media(max-width:640px){main{padding:28px 20px 55px}h1{font-size:27px}h2{font-size:21px}body{font-size:15px}.contents ol{columns:1}.filters{display:grid;grid-template-columns:1fr}.filters input,.filters select{width:100%}.table-wrap:before{content:'표는 좌우로 스크롤하여 확인할 수 있습니다.';position:sticky;left:0;display:block;font-size:12px;color:#555;margin-bottom:8px}}@media print{@page{size:A4;margin:16mm}.actions,.filters,.skip{display:none}main{max-width:none;padding:0}body{font-size:9.5pt;line-height:1.6}h1{font-size:21pt}h2{font-size:14pt;break-after:avoid}h3{font-size:11pt;break-after:avoid}.table-wrap{overflow:visible}.table-wrap:before{display:none}table,#index-table{min-width:0;font-size:7.5pt}th,td{padding:5px}thead{display:table-header-group}tr{break-inside:avoid}p{orphans:3;widows:3}.sources{font-size:7pt}[hidden]{display:table-row!important}}.revision{padding:15px 18px;border-left:3px solid #333;background:#f5f5f5;margin:22px 0}td:first-child{min-width:75px}summary{cursor:pointer}</style></head><body><a class="skip" href="#main">본문 바로가기</a><main id="main" tabindex="-1"><div class="actions"><a href="00_중복검토_및_AI추가적용.html">검토 결과</a><a href="00_사업기획_통합보기.html">22개 기획</a></div><h1>기구축 사업 CCK AI 적용 공통 수행설계</h1>
+<p>2026-09-15 v0.2. 기존 구축 업무와 AI 기능의 후속 적용·개선을 포함한다.<sup><a href="#source-49" aria-label="출처 49">[49]</a></sup></p>
+<h2 id="chapter-1">1. 적용 방식</h2>
+<p>기존 문서·DB·서비스 화면 → 허용된 조회/자료 연결 → CCK NOA·로컬 LLM의 설명·검토·초안 → 사용자/담당자 확인 → 공식 시스템 인계·결과 확인으로 구성한다. 기존 자료를 쓰는 독립 보조 화면, 기존 화면 내 AI 기능, 허용 API를 통한 처리 지원 중 현재 연계 조건에 맞춰 선택한다. API가 없으면 승인 자료 업로드·내보내기와 공식 화면 인계로 범위를 정할 수 있다.</p>
+<h2 id="chapter-2">2. 공통 기능과 업무별 추가 작업</h2>
+<div class="table-wrap" role="region" aria-label="표, 좌우 스크롤" tabindex="0"><table>
+<thead>
+<tr>
+<th>공통화할 부분</th>
+<th>각 업무에서 추가할 부분</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>사용 가능한 NOA 실행·접근권한·근거 UI·감사</td>
+<td>설치 환경·업무 권한·모델 설정 차이 검증</td>
+</tr>
+<tr>
+<td>증빙 대조 P01·03·04·05·11·12·17</td>
+<td>문서 구조·식별자·법정 기준·검토 사례·커넥터</td>
+</tr>
+<tr>
+<td>안내/처리 P02·07·09·10·15·18·19·20</td>
+<td>질문·지식·규칙·조회·접수/배차/지급 상태·본인확인</td>
+</tr>
+<tr>
+<td>보호된 사례 P06·08</td>
+<td>제도별 분류·보호 규칙·저장/접근 영역·전파 승인</td>
+</tr>
+<tr>
+<td>기준 변경 P13·14</td>
+<td>기준군·영향 문서·제작자/시험기관의 승인 절차</td>
+</tr>
+<tr>
+<td>교육 P16·21·22</td>
+<td>분석결과·과정·교재·강사 역할·학습 평가</td>
+</tr>
+</tbody></table></div>
+<p>공통 기능군은 발주 사업 수가 아니다. P01/P17과 P21/P22의 통합은 중복 개발을 피하는 구성 제안이며 사업 영역을 제외하는 판정이 아니다.</p>
+<h2 id="chapter-3">3. CCK의 수행·검수</h2>
+<p>CCK는 사용권이 확인된 솔루션의 구성, 업무 지식·규칙, 화면·연계, 실제 자료 평가, 배포 설정·교육·운영 인수를 총괄하는 역할안이다. 기존 운영사는 조회·변경 인터페이스와 권한·상태 호환을 협의한다. 담당기관이 자격·접수·공개·안전·지급의 최종 권한을 갖는다. 제품 소개가 실제 해당 버전의 구현·품질 증거를 대신하지 않는다.<sup><a href="#source-33" aria-label="출처 33">[33]</a></sup><sup><a href="#source-48" aria-label="출처 48">[48]</a></sup></p>
+<h2 id="chapter-4">4. 비용 산식과 계약 대조</h2>
+<p>기존 구축비 전체를 재산정하지 않고 공통 구성 1회 + 업무별 설정·지식·화면·연계·시험 추가 공수 + 확인된 증분 사용료·운영비로 산정한다. 새 적용을 위한 데이터 정비·설치·설정·튜닝·시험은 수행비 대상이다. 이미 계약된 같은 납품물은 기존 이행 또는 재사용으로 표시한다. 기존 AI의 기능 개선은 전후 기능·수용기준·작업량으로 증분을 설명한다.<sup><a href="#source-43" aria-label="출처 43">[43]</a></sup></p>
+<p>1차 7억·2차 추가 5억은 VAT 포함 해석의 프로그램 목표 상한이며 22개 전체 견적이 아니다. 신규 GPU·서버·저장/백업/망 구매·증설·임차·클라우드 자원비는 0원이다. 기존 환경의 응용 SW 구성·통합·검증 공수는 별도다. 공식 단가·가용인력·물량 확인 전 금액을 확정하지 않는다.<sup><a href="#source-48" aria-label="출처 48">[48]</a></sup></p>
+<h2 id="chapter-5">5. 운영·품질</h2>
+<p>원본·검색 인덱스·로그·백업·라이선스 호출을 포함해 로컬 처리와 접근권한을 확인한다. 변경된 원문·권한을 검색·초안에 반영하고 근거가 없으면 미확인으로 표시한다. 실제 접수 응답 전에 완료라고 하지 않는다. 문서 제안 기능을 중단해도 기존 업무로 복귀할 수 있도록 버전·설정과 원 시스템을 보존한다.</p>
+<h2 id="chapter-6">6. 적용 규모 결정</h2>
+<p>기존 기능표 → CCK 적용 단위 → 추가 작업 물량 → 현업 사례·품질/효과 비교 → 공수·견적 → 단계 확대 순서로 본다. 비AI 비교는 적용 규모·효과를 확인하는 방법이며 기구축 업무를 일괄 제외하는 조건이 아니다. P15처럼 작은 안내는 공통 상담 모듈로, P01/P17처럼 같은 업무는 통합 적용으로 구성한다.</p>
+<h2 id="chapter-7">출처</h2>
+<ol class="sources"><li id="source-33" value="33">CCK Solution. <a href="https://www.ccksolution.com/noa">Noa</a>. 게시·개정일 미표시. 열람 2026-09-15. 공식 HTML 직접 수집 및 텍스트 확인; 제품 설치·성능 시험 없음. 공식 소개 본문 재확인; 운영 시스템·제품 실행 시험 아님.</li><li id="source-43" value="43">프로젝트 내부 정리자료. <a href="file:///G:/%EB%82%B4%20%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C/1.%20%EC%97%85%EB%AC%B4%EC%98%81%EC%97%AD/6.%20CCK/1.%20%EA%B5%90%ED%86%B5%EC%95%88%EC%A0%84%EA%B3%B5%EB%8B%A8/04.%20%EC%88%98%ED%96%89%ED%8F%B4%EB%8D%94/TS_AI_RFP_72%EA%B1%B4_%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%EC%B6%94%EC%A0%81%ED%91%9C_RTM_v1.0.md">TS AI RFP 72건 요구사항추적표 RTM v1.0</a>. 2026-09-03 내부 정리. 열람 2026-09-15. SFR-001~009 행 확인. 최종 계약·승인 요구사항 원본을 대신하지 않음. 내부 문서 관련 범위 확인; 계약 확정·제품 성능 증거 아님.</li><li id="source-48" value="48">프로젝트 기획 기준. <a href="file:///G:/%EB%82%B4%20%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C/1.%20%EC%97%85%EB%AC%B4%EC%98%81%EC%97%AD/6.%20CCK/1.%20%EC%82%AC%EC%97%85%EA%B4%80%EB%A6%AC/TS/bizops/%5BTS%20%EC%82%AC%EC%97%85%EA%B8%B0%ED%9A%8D%5D/00_%EA%B8%B0%ED%9A%8D%EC%A7%80%EC%B9%A8/CCK_%EB%A1%9C%EC%BB%ACLLM_%EC%A0%81%EC%9A%A9%EB%B2%94%EC%9C%84.md">CCK 솔루션·로컬 LLM 적용 기준</a>. 2026-09 프로젝트 기준. 열람 2026-09-15. 기구축 업무 CCK AI 적용 포함. 로컬 LLM·주관 수행·신규 인프라 0원 유지. 내부 문서 관련 범위 확인; 계약 확정·제품 성능 증거 아님.</li><li id="source-49" value="49">현재 사용자 지시를 반영한 프로젝트 기획 기준. <a href="file:///G:/%EB%82%B4%20%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C/1.%20%EC%97%85%EB%AC%B4%EC%98%81%EC%97%AD/6.%20CCK/1.%20%EC%82%AC%EC%97%85%EA%B4%80%EB%A6%AC/TS/bizops/%5BTS%20%EC%82%AC%EC%97%85%EA%B8%B0%ED%9A%8D%5D/00_%EA%B8%B0%ED%9A%8D%EC%A7%80%EC%B9%A8/%EA%B8%B0%EA%B5%AC%EC%B6%95%EC%82%AC%EC%97%85_CCK_AI_%EC%A0%81%EC%9A%A9%EA%B3%BC_%EC%A4%91%EB%B3%B5%ED%8C%90%EC%A0%95.md">기구축 사업의 CCK AI 적용과 중복판정</a>. 2026-09-15. 열람 2026-09-15. 기구축 사업도 CCK AI 적용 대상에 포함한다는 사용자 정정; 기관 승인 아님. 이번 기획 개정의 기준.</li></ol></main></body></html>

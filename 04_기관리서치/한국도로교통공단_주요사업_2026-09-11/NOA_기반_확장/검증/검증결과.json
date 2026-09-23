@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-11",
+  "checks": [
+    {
+      "name": "7개 서비스 고유 ID",
+      "pass": true
+    },
+    {
+      "name": "36개 주요사업 누락 없음",
+      "pass": true
+    },
+    {
+      "name": "기획 경계 보존",
+      "pass": true
+    },
+    {
+      "name": "로컬 파일·문서 앵커 링크",
+      "pass": true
+    },
+    {
+      "name": "HTML 중복 ID 없음",
+      "pass": true
+    },
+    {
+      "name": "첫 키보드 포커스 본문 이동",
+      "pass": true
+    },
+    {
+      "name": "필터 작게 시작",
+      "pass": true
+    },
+    {
+      "name": "필터 같은 구조 확장",
+      "pass": true
+    },
+    {
+      "name": "필터 연계 조건부",
+      "pass": true
+    },
+    {
+      "name": "교통약자 검색",
+      "pass": true
+    },
+    {
+      "name": "검색 결과 없음",
+      "pass": true
+    },
+    {
+      "name": "초기화",
+      "pass": true
+    },
+    {
+      "name": "전체 펼침",
+      "pass": true
+    },
+    {
+      "name": "전체 접기",
+      "pass": true
+    },
+    {
+      "name": "직접 링크 진입",
+      "pass": true
+    },
+    {
+      "name": "데스크톱 가로 넘침 없음",
+      "pass": true
+    },
+    {
+      "name": "모바일 가로 넘침 없음",
+      "pass": true
+    },
+    {
+      "name": "모바일 상세 가로 넘침 없음",
+      "pass": true
+    },
+    {
+      "name": "인쇄 시 모든 서비스 표시",
+      "pass": true
+    },
+    {
+      "name": "인쇄 후 상태 복원",
+      "pass": true
+    },
+    {
+      "name": "브라우저 스크립트 오류 없음",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "bad": [],
+  "limits": "설명 문서의 정적 구조·브라우저 탐색 검증. 실제 NOA 기능·로컬 성능·업무·전체 WCAG 검증 아님"
+}

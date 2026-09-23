@@ -1,0 +1,1417 @@
+
+
+<!DOCTYPE html>
+<html class="govuk-template" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title lang="en">Making changes to a vehicle and registering kit-built, kit-converted and reconstructed classic vehicles (INF318) - GOV.UK</title>
+
+    <script src="/assets/frontend/govuk_publishing_components/vendor/lux/lux-measurer-d66192b1b665d415e1874e49a48138b7ae339548aa6cdb8687c7f9933e72b969.js" async="async"></script>
+    <script src="/assets/frontend/govuk_publishing_components/rum-custom-data-b9e1806d1da2fa8ef1855d01aa71ba5eb0afc010dd2c4de3672cc7c7a39b0c8c.js" type="module"></script>
+    <script src="/assets/frontend/govuk_publishing_components/rum-loader-a65b10e18ceeba3bd8a2eac507c7f2c513cdc82f35097df903fdea87f1dc2e33.js" async="async" data-lux-reporter-script="/assets/frontend/govuk_publishing_components/vendor/lux/lux-reporter-6d39cda3705e6dea64c8ee54a41d52526887a04dac98d19e1cd0464900d6f542.js"></script>
+
+    <meta name="govuk:components_gem_version" content="69.0.0">
+    <script src="/assets/frontend/govuk_publishing_components/load-analytics-ad855bc6d5d323fbe2be3d683cb5dd15cf884cbe864bfb965bce0d9ec4847a36.js" type="module"></script>
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="UGLL0JKtD04UVKLzNZRnlt1oKp6TuZhTDReshPVzrue3iuqazJILx9_PqPVJLCy9tLKJdDivHrNkO83q3Bg_NQ" />
+
+    <link rel="stylesheet" href="/assets/frontend/application-72637e350ccd0c263145e88cb7178a95d631c38e1ad3fe6f25cbee25e23d17a5.css" media="all" />
+    <link rel="icon" sizes="48x48" href="/assets/frontend/favicon-24f9fbe064118d58937932e73edafd1d50cb60f7bd84f52308382a309bc2d655.ico">
+    <link rel="icon" sizes="any" href="/assets/frontend/favicon-d962d21b5bb443f546c097ea21b567cde639adef7370da45be5e349ba8d62d33.svg" type="image/svg+xml">
+    <link rel="mask-icon" href="/assets/frontend/govuk-icon-mask-cdf4265165f8d7f9eec54aa2c1dfbb3d8b6d297c5d7919f0313e0836a5804bb6.svg" color="#1d70b8">
+    <link rel="apple-touch-icon" href="/assets/frontend/govuk-icon-180-d45a306f0549414cfa5085f16e4a3816a77558b139e5bc226f23162d1d0decb0.png">
+
+    <meta name="theme-color" content="#1d70b8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:image" content="https://www.gov.uk/assets/frontend/govuk-opengraph-image-4196a4d6333cf92aaf720047f56cfd91b3532d7635fc21ebcf0d5897df6b5f77.png">
+
+      
+<script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+  "@type": "FAQPage",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.gov.uk/government/publications/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318"
+  },
+  "name": "Making changes to a vehicle and registering kit-built, kit-converted and reconstructed classic vehicles (INF318)",
+  "datePublished": "2025-08-26T00:01:01+01:00",
+  "dateModified": "2026-08-03T00:01:00+01:00",
+  "text": null,
+  "publisher": {
+    "@type": "Organization",
+    "name": "GOV.UK",
+    "url": "https://www.gov.uk",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.gov.uk/assets/frontend/govuk_publishing_components/govuk-logo-b8553f688131fad665e52a8c2df7633f9cd1c0fffb9f69703cc68c728e7b3b74.png"
+    }
+  },
+  "image": [
+    "https://www.gov.uk/assets/frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-2672c0fb7a5d5f947d880522c509ebe7f2be090885883cc94418f6860e812e15.png",
+    "https://www.gov.uk/assets/frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-194fde4197f00e669f6f52c182df2ed707bfb2024c9ef39f7a2ed20da62b90eb.png",
+    "https://www.gov.uk/assets/frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-30e6c0e035636ee6b9dc72ae254bcd4a925182805afe7c5b7170cf2394894b28.png"
+  ],
+  "author": {
+    "@type": "Organization",
+    "name": "Driver and Vehicle Licensing Agency",
+    "url": "https://www.gov.uk/government/organisations/driver-and-vehicle-licensing-agency"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Introduction",
+      "url": "https://www.gov.uk/government/publications/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318#introduction",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "url": "https://www.gov.uk/government/publications/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318#introduction",
+        "text": "\u003ch3 id=\"telling-dvla-of-changes-made-to-a-vehicle\"\u003eTelling DVLA of changes made to a vehicle\u003c/h3\u003e\u003cp\u003eThere is a legal requirement to notify DVLA of any changes made to a vehicle which affects the information shown on the V5C registration certificate (log book) such as replacing the engine. \u003ca href=\"https://www.gov.uk/change-vehicle-details-registration-certificate\"\u003eCheck when you need to update your V5C.\u003c/a\u003e\u003c/p\u003e\u003ch3 id=\"vehicle-safety\"\u003eVehicle safety\u003c/h3\u003e\u003cp\u003eA vehicle keeper is responsible for making sure their vehicle is always safe to drive (‘roadworthy’). A vehicle can be unsafe even if it has a current MOT certificate as the MOT only tests the vehicle’s roadworthiness at the time of the test. There are penalties for driving a vehicle in a dangerous condition.\u003c/p\u003e\u003cp\u003e\u003ca href=\"https://www.gov.uk/check-vehicle-safe\"\u003eFind more information on roadworthiness and penalties.\u003c/a\u003e\u003c/p\u003e\u003ch3 id=\"vehicles-with-personalised-registration-numbers\"\u003eVehicles with personalised registration numbers\u003c/h3\u003e\u003cp\u003eNot all registration numbers are transferable. Check your V5C registration certificate (log book) first. You may want to \u003ca href=\"https://www.gov.uk/personalised-vehicle-registration-numbers\"\u003earrange a transfer or retain the registration number\u003c/a\u003e before you carry out any modifications or conversions.\u003c/p\u003e\u003ch3 id=\"before-you-start\"\u003eBefore you start\u003c/h3\u003e\u003cp\u003eThe INF318 leaflet provides guidance, but it does not cover every possible situation. You should identify and classify the changes made to your vehicle (for example, repair, structural modification or reconstructed classic) as accurately as possible and follow the relevant instructions.\u003c/p\u003e\u003cp\u003eYou can (and should, if helpful), include extra information and supporting evidence to help DVLA process your application efficiently.\u003c/p\u003e\u003cp\u003eDVLA will contact you if your submission is incomplete or needs clarification.\u003c/p\u003e\u003cp\u003eDVLA cannot confirm the outcome in advance (such as inspection requirements, retaining the original identity, or issuing a new or ‘Q’ registration), as a full review of the evidence and vehicle record is required before any decision is made.\u003c/p\u003e\u003ch3 id=\"when-to-apply\"\u003eWhen to apply\u003c/h3\u003e\u003cp\u003eYou should only make your notification if your vehicle is fully built, complete and ready for road use. Applications submitted before this stage cannot be fully assessed and may be delayed or returned.\u003c/p\u003e"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Part 1 – repairs, restorations and structural modifications",
+      "url": "https://www.gov.uk/government/publications/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318#part-1--repairs-restorations-and-structural-modifications",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "url": "https://www.gov.uk/government/publications/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318#part-1--repairs-restorations-and-structural-modifications",
+        "text": "\u003ch3 id=\"repairs-and-restorations\"\u003eRepairs and restorations\u003c/h3\u003e\u003ch4 id=\"vehicles-which-have-been-repaired-or-restored\"\u003eVehicles which have been repaired or restored\u003c/h4\u003e\u003cp\u003eUnless the vehicle information shown on the V5C is affected (details held in the vehicle details section of the V5C), there is no requirement to notify DVLA where a vehicle has been repaired or restored to return it to its original working standard.\u003c/p\u003e\u003cp\u003eRepairs and restorations will include the replacement of worn-out components or body panels, on a like-for-like basis, and of the same standard as the originals. The appearance of the structural parts of the vehicle must be the same as when it was originally manufactured, or to a period-correct specification. Period-correct or period specific means consistent with what would have been available and commonly used at the time.\u003c/p\u003e\u003cp\u003eThere is one ‘exception’ to the above, which is the like-for-like replacement of chassis, monocoque bodyshell or frame (for motorcycles) as this would be a notifiable repair - \u003ca href=\"#replacing-a-vehicles-chassis-monocoque-bodyshell-or-frame\"\u003esee the section on replacing a vehicle’s chassis, monocoque bodyshell or frame (for motorcycles)\u003c/a\u003e.\u003c/p\u003e\u003cp\u003eWhile repair or restoration work will not affect a vehicle’s registration details, we advise that you present your vehicle for an MOT as a roadworthiness check of the work that has been done, as you are responsible for the roadworthiness of the vehicle. There are penalties for driving a vehicle in a dangerous condition.\u003c/p\u003e\u003cp\u003eIt’s also advised that you contact your vehicle insurance provider to check whether the changes affect the motor insurance cover.\u003c/p\u003e\u003ch4 id=\"examples-of-repairs-and-restorations-for-cars-and-light-goods-vehicles-under-3500kg\"\u003eExamples of repairs and restorations for cars and light goods vehicles (under 3,500kg)\u003c/h4\u003e\u003cp\u003eRepairs and restorations will include, but are not limited to the following:\u003c/p\u003e\u003cul\u003e\n  \u003cli\u003ereplacing a boot floor\u003c/li\u003e\n  \u003cli\u003ereplacing footwells\u003c/li\u003e\n  \u003cli\u003ereplacing front or rear wheel arches or adapting front or rear wings to allow for wider wheels\u003c/li\u003e\n  \u003cli\u003ereplacing sills\u003c/li\u003e\n  \u003cli\u003ereplacing steering or suspension\u003c/li\u003e\n  \u003cli\u003ereplacing the gearbox or axles\u003c/li\u003e\n  \u003cli\u003eadding a roll bar or roll cage\u003c/li\u003e\n  \u003cli\u003eremoving an existing roll bar or roll cage fitted post manufacture – any attachment holes left after removal must be welded over, using a continuous seam weld to return a vehicle to its original condition\u003c/li\u003e\n  \u003cli\u003ereplacing damaged or corroded body panels\u003c/li\u003e\n  \u003cli\u003ereplacing a like-for-like component or panel with one that is made from different materials with equal-to or better-than performance characteristics than the original\u003c/li\u003e\n  \u003cli\u003ecorroded areas of the chassis or monocoque bodyshell repaired using a patch, but must be continuously seam welded\u003c/li\u003e\n  \u003cli\u003ereplacement of sub-frames\u003c/li\u003e\n  \u003cli\u003efitting seatbelts (providing these are fitted as per the manufacturer’s guidance)\u003c/li\u003e\n  \u003cli\u003efitting period-correct accessories (for example, additional lamps, tow bars and radio aerials)\u003c/li\u003e\n  \u003cli\u003ealterations to the firewall or transmission tunnel to accommodate a different bell housing or transmission (vehicles with a separate chassis only – for a monocoque vehicle, this needs to be notified as a modification)\u003c/li\u003e\n\u003c/ul\u003e\u003cp\u003eIf you’re altering the firewall or transmission tunnel to accommodate a different bell housing or transmission on vehicles with a separate chassis, replacement sections must be fitted in the same manner as the removed section – for example, screwed or bolted if originally fitted that way, or continuously seam welded if sheet metal was cut to remove the original panel.\u003c/p\u003e\u003cp\u003eA vehicle which has been classed as a Category A or B write off and received a Certificate of Destruction (CoD) cannot be reinstated or put back on the road. Only undamaged components can be salvaged and reused.\u003c/p\u003e\u003ch4 id=\"examples-of-repairs-and-restorations-for-motorcycles\"\u003eExamples of repairs and restorations for motorcycles\u003c/h4\u003e\u003cp\u003eRepairs and restorations will include, but is not limited to the following:\u003c/p\u003e\u003cul\u003e\n  \u003cli\u003erepairing damage or corrosion to a motorcycle frame\u003c/li\u003e\n  \u003cli\u003ereplacing the forks\u003c/li\u003e\n\u003c/ul\u003e\u003ch4 id=\"repairs-and-restorations-that-affect-the-vehicle-identification-number-vin\"\u003eRepairs and restorations that affect the Vehicle Identification Number (VIN)\u003c/h4\u003e\u003cp\u003eIf the repair or restoration affects sight of the VIN, it will need to be re-stamped or attached to the replacement chassis, monocoque bodyshell or frame by a garage that provides this service.\u003c/p\u003e\u003cp\u003eTo avoid losing entitlement to the original VIN, you must keep photographic evidence of the original VIN prior to the repair, should the identity of the vehicle be questioned at a later stage.\u003c/p\u003e\u003ch4 id=\"replacing-a-vehicles-chassis-monocoque-bodyshell-or-frame\"\u003eReplacing a vehicle’s chassis, monocoque bodyshell or frame (for motorcycles)\u003c/h4\u003e\u003cp\u003eWhere a chassis, monocoque bodyshell or frame for a motorcycle has been replaced like-for-like (for example, without changing the vehicle’s appearance or dimensions from its original manufacturer’s specification) this is classed as a repair, but it does need to be notified to DVLA using the form \u003ca href=\"https://www.gov.uk/government/publications/vehicle-parts-statement-v6271\"\u003e‘Vehicle parts statement’ V627/1\u003c/a\u003e.\u003c/p\u003e\u003cp\u003eThe replacement can be either brand new or second-hand but must be of the same specification as the original, although a non-galvanised chassis, monocoque bodyshell or frame can be replaced with a galvanised one.\u003c/p\u003e\u003cp\u003eWe advise that the vehicle is presented for a voluntary MOT as a roadworthiness check after the chassis, monocoque bodyshell or frame (for motorcycles) replacement has been completed. Alternatively, a car or light goods vehicle can be presented for a voluntary Individual Vehicle Approval (IVA) inspection as a safety check following the replacement. You can \u003ca href=\"http://www.gov.uk/vehicle-approval/voluntary-approval\"\u003efind out more about voluntary approval\u003c/a\u003e.\u003c/p\u003e\u003cp\u003eIf you’re using a second-hand replacement, evidence of the identity of the donor vehicle must be provided, this includes the V5C registration certificate (log book) for the donor vehicle, or official receipts from identifiable suppliers.\u003c/p\u003e\u003cp\u003eWhere second-hand replacement parts are used to repair or restore a vehicle, these should be sourced carefully with only minor components being able to be taken from a vehicle which has been issued with a Certificate of Destruction (CoD). Major components from such a vehicle must not be used \u003ca href=\"#major-components\"\u003e(see the section on major components)\u003c/a\u003e.\u003c/p\u003e\u003cp\u003eYou can \u003ca href=\"http://www.gov.uk/scrapped-and-written-off-vehicles/insurance-writeoffs\"\u003efind out more about scrapped and written off vehicles\u003c/a\u003e.\u003c/p\u003e\u003cp\u003eOnce your application is processed, we will provide authorisation for the part to be re-stamped with the VIN or frame number of the vehicle. This must be re-stamped next to or in the same area as the existing stamping.\u003c/p\u003e\u003cp\u003eAny existing identification number must be partially obliterated by stamping a series of ‘—– ’ characters.\u003c/p\u003e\u003cp\u003eIf there is no existing stamping, the VIN should be stamped on the right-hand side of the vehicle in a clearly visible and accessible position, in a way that it cannot deteriorate or be destroyed.\u003c/p\u003e\u003cp\u003eOnce confirmation that the original VIN has been re-stamped, we will issue a new V5C registration certificate (log book) which will include a marker in the ‘Special Notes’ section.\u003c/p\u003e\u003ch3 id=\"structural-modifications\"\u003eStructural modifications\u003c/h3\u003e\u003ch4 id=\"vehicles-that-have-been-structurally-modified-from-their-original-specification\"\u003eVehicles that have been structurally modified from their original specification\u003c/h4\u003e\u003cp\u003eYou must notify DVLA when a vehicle has undergone a structural modification. This must be done using the form \u003ca href=\"https://www.gov.uk/government/publications/modified-vehicle-statement-v6273\"\u003e‘Modified vehicle statement’ (V627/3)\u003c/a\u003e. An MOT may be required - \u003ca href=\"#MOT-requirements-for-modifications\"\u003esee the MOT requirements for modifications\u003c/a\u003e.\u003c/p\u003e\u003cp\u003eThis work should only be carried out by a person with the relevant engineering knowledge to carry out a modification safely. It’s also recommended that you contact your vehicle insurance provider to check whether the changes affect the motor insurance cover.\u003c/p\u003e\u003ch4 id=\"definition-of-a-structural-modification\"\u003eDefinition of a structural modification\u003c/h4\u003e\u003cp\u003eA structural modification will include cutting into a vehicle’s chassis (in the case of a vehicle with a separate chassis), monocoque bodyshell (in the case of a monocoque vehicle) or frame (for motorcycles) and changing a vehicle’s appearance or dimensions from its original manufacturer’s specification.\u003c/p\u003e\u003cp\u003eIt’s important to note that cutting into the above components for repair without changing the original specification (for example, replacing a section which\nis damaged or rusted), is classed as a repair or restoration.\u003c/p\u003e\u003ch4 id=\"component-definitions\"\u003eComponent definitions\u003c/h4\u003e\u003cp\u003eChassis: the load-bearing framework of a motor vehicle that is constructed with a separate non-load bearing bodyshell. Typically, it takes the form of a ladder-like frame upon which the body, powertrain and suspension are mounted.\u003c/p\u003e\u003cp\u003eMonocoque bodyshell: a type of vehicle construction where the body and chassis are integrated into a single, cohesive structure.\u003c/p\u003e\u003cp\u003eMotorcycle frame: a vehicle’s core structure and supports the engine and other components as well as the rider, passenger, and luggage.\u003c/p\u003e\u003ch4 id=\"examples-of-structural-modification-for-cars-and-light-goods-vehicles-under-3500kg\"\u003eExamples of structural modification for cars and light goods vehicles (under 3,500kg)\u003c/h4\u003e\u003cp\u003eA structural modification will include, but is not limited to the following:\u003c/p\u003e\u003cul\u003e\n  \u003cli\u003elengthening, shortening, or widening a vehicle’s chassis or monocoque bodyshell to accommodate a different shape or style of bodyshell or resemble a different type of vehicle (for example, changing a vehicle’s specification or appearance from a coupe to a roadster or changing the appearance of a car or van to resemble a pickup)\u003c/li\u003e\n  \u003cli\u003ecutting one or more roof pillars and lengthening or shortening them\u003c/li\u003e\n  \u003cli\u003eremoving the roof\u003c/li\u003e\n  \u003cli\u003eremoving an integrated roll cage, (for example, incorporated into the roof pillars as part of a vehicle’s original specification)\u003c/li\u003e\n  \u003cli\u003emodifying the design of load-bearing sub-frames or support members\u003c/li\u003e\n  \u003cli\u003eremoving load-bearing sub-frames or support members\u003c/li\u003e\n  \u003cli\u003emaking any additional holes within 30cm from any suspension, steering, braking, or seatbelt mounting point\u003c/li\u003e\n  \u003cli\u003emotorcycle to tricycle modification*\u003c/li\u003e\n  \u003cli\u003econversion to electric propulsion**\u003c/li\u003e\n  \u003cli\u003esidecar welded to motorcycle***\u003c/li\u003e\n  \u003cli\u003ealterations to the firewall or transmission tunnel to accommodate a different bell housing or transmission (for monocoque vehicles only)\u003c/li\u003e\n\u003c/ul\u003e\u003cp\u003eIf you’re altering the firewall or transmission tunnel to accommodate a different bell housing or transmission on vehicles with a separate chassis, replacement sections must be fitted in the same manner as the removed section – for example, screwed or bolted if originally fitted that way, or continuously seam welded if sheet metal was cut to remove the original panel.\u003c/p\u003e\u003ch4 id=\"examples-of-structural-modification-for-motorcycles\"\u003eExamples of structural modification for motorcycles\u003c/h4\u003e\u003cp\u003eA structural modification will include, but is not limited to, any lengthening, shortening, or widening of a vehicle’s frame or changing its appearance.\u003c/p\u003e\u003ch4 id=\"motorcycle-to-tricycle-modification\"\u003e*Motorcycle to tricycle modification\u003c/h4\u003e\u003cp\u003eWhere a motorcycle to tricycle conversion has been carried out using a conversion kit or plans, these will be assessed in accordance with the \u003ca href=\"http://www.gov.uk/vehicle-registration/kitconverted-vehicles\"\u003ekit-conversion guidance\u003c/a\u003e. See the section on \u003ca href=\"#Kit-conversions\"\u003ekit conversions\u003c/a\u003e.\u003c/p\u003e\u003cp\u003eWhere a motorcycle has been converted to a tricycle without using a conversion kit or plans, this is classed as a modification. Note that:\u003c/p\u003e\u003cul\u003e\n  \u003cli\u003ewhere the tricycle system has been welded onto a vehicle, a DVLA VIN will be allocated, and the vehicle will be required to undergo Motorcycle Single Vehicle Approval (MSVA) before it can be used on public roads\u003c/li\u003e\n  \u003cli\u003ewhere the tricycle system has been bolted onto a vehicle, MSVA is not required\u003c/li\u003e\n\u003c/ul\u003e\u003ch4 id=\"vehicles-converted-to-electric-propulsion\"\u003e**Vehicles converted to electric propulsion\u003c/h4\u003e\u003cp\u003eConverting a vehicle with an internal combustion engine to electric propulsion must only be undertaken by a specialist with the electrical engineering knowledge necessary to carry out a conversion safely.\u003c/p\u003e\u003cp\u003eThe process of converting a vehicle from an internal combustion engine to electric propulsion is considered a modification. This is because it requires the engine and transmission to be removed and significant modifications to key vehicle control systems, including braking and steering assistance, as well as changes to accommodate an electric motor and battery pack.\u003c/p\u003e\u003cp\u003eThere is a legal requirement to notify DVLA of a change of fuel type as this may affect the information shown on the V5C. This must include full details of the modifications that have been done to the vehicle as part of the conversion to electric. The MOT requirements (over or under 40 years old) are also applicable for electric conversions.\u003c/p\u003e\u003cp\u003eWhere the law allows, DVLA will amend the fuel type and tax class to electric.\u003c/p\u003e\u003cp\u003eCars and light goods vehicles first registered on or after 1 March 2001 are taxed according to the CO2 emission figure. When a vehicle has been converted to electric propulsion, the law requires DVLA to retain the CO2 emissions figure recorded at first registration. This means the vehicle must remain in a CO2 based tax class and cannot be moved into the electric tax class.\u003c/p\u003e\u003ch4 id=\"motorcycle-with-welded-on-sidecar\"\u003e***Motorcycle with welded on sidecar\u003c/h4\u003e\u003cp\u003eAttachment of a sidecar to a motorcycle through welding is classed as a modification and must be notified to DVLA.\u003c/p\u003e\u003cp\u003eWhere a sidecar has been welded onto a vehicle, a DVLA VIN will be allocated, and the vehicle will be required to undergo Motorcycle Single Vehicle Approval (MSVA), before it can be used on public roads.\u003c/p\u003e\u003ch4 id=\"MOT-requirements-for-modifications\"\u003eMOT requirements for modifications\u003c/h4\u003e\u003cp\u003eVehicles over 40 years old:\u003c/p\u003e\u003cp\u003eTo submit a modification for vehicles over 40 years old, you will need to provide an MOT.\u003c/p\u003e\u003cp\u003eThe requirement to present an MOT with your notification is applicable to all modifications including motorcycle to tricycle and electric conversion.\u003c/p\u003e\u003cp\u003eVehicles under 40 years old:\u003c/p\u003e\u003cp\u003eWe advise that you consider presenting the vehicle for a voluntary MOT as a roadworthiness check after the modifications have been completed. Alternatively, a car or van can be presented for a voluntary Individual Vehicle Approval inspection (IVA) as a safety check of the modifications.\u003c/p\u003e\u003cp\u003e\u003ca href=\"https://www.gov.uk/government/publications/historic-classic-vehicles-mot-exemption-criteria/historic-classic-vehicles-mot-exemption-criteria\"\u003eFind out more information about the MOT requirements for vehicles that have been substantially changed.\u003c/a\u003e\u003c/p\u003e\u003cp\u003eMotorcycle to tricycle modification:\u003c/p\u003e\u003cp\u003eWe advise that you consider presenting the vehicle for a voluntary MOT as a roadworthiness check after the modifications have been completed.\u003c/p\u003e\u003cp\u003eIf the vehicle is over 3 years old, as the MOT class will be affected by this type of conversion, you will be legally required to obtain an MOT in the correct class. This must be provided as part of your notification to DVLA. This includes a vehicle that is over 40 years old and previously exempt from MOT.\u003c/p\u003e\u003ch4 id=\"dvla-vehicle-identification-numbers-and-q-registration-numbers\"\u003eDVLA vehicle identification numbers and Q registration numbers\u003c/h4\u003e\u003cp\u003eWhere there is a question over the identity of a vehicle, DVLA may require the vehicle to be inspected.\u003c/p\u003e\u003cp\u003eWhere the identity or age of a vehicle cannot be determined, a vehicle may require re-registration with a DVLA VIN, IVA/MSVA and a \u003ca href=\"https://www.gov.uk/vehicle-registration/q-registration-numbers\"\u003eQ registration number\u003c/a\u003e.\u003c/p\u003e\u003cp\u003eIf you are considering buying a vehicle without a VIN or registration number, you should beware. If the police suspect that the vehicle has been stolen, you may lose it and the money you paid for it. You should \u003ca href=\"https://www.gov.uk/checks-when-buying-a-used-car\"\u003echeck you’re not buying a stolen or unsafe vehicle\u003c/a\u003e.\u003c/p\u003e\u003cp\u003e‘Q’ and ‘QNI’ registration numbers are issued where the age or identity of the vehicle is not known. The display of a ‘Q’ or ‘QNI’ registration number is a visible sign to a prospective purchaser that the age or identity of the vehicle is in doubt. The vehicle must have IVA or MSVA before a ‘Q’ or ‘QNI’ registration number can be used.\u003c/p\u003e\u003cp\u003eThe level of type approval and type of test required will depend on the vehicle. If your vehicle cannot be tested or it is unable to pass the test, DVLA will not register it. \u003ca href=\"https://www.gov.uk/vehicle-approval\"\u003eFurther information on type approval is available online\u003c/a\u003e, from the Driver and Vehicle Standards Agency (DVSA) on 0300 123 9000, or from the Driver and Vehicle Agency (DVA) on 0300 200 7862.\u003c/p\u003e\u003cp\u003eVehicle identity:\u003c/p\u003e\u003cp\u003eThe inability to determine the identity of a vehicle could occur (but is not limited to) when:\u003c/p\u003e\u003cul\u003e\n  \u003cli\u003ea vehicle is presented for registration without its original registration documents and where a club is unable to accurately date a vehicle\u003c/li\u003e\n  \u003cli\u003ea vehicle is not displaying a VIN or chassis number or has been modified to an extent that the VIN cannot be identified\u003c/li\u003e\n  \u003cli\u003ethe VIN or chassis number has been lost and valid evidence to confirm its identity cannot be provided\u003c/li\u003e\n  \u003cli\u003ea VIN appears to have been tampered with\u003c/li\u003e\n  \u003cli\u003emore than one vehicle is claiming the same identity\u003c/li\u003e\n  \u003cli\u003ea vehicle is not presented for a requested inspection\u003c/li\u003e\n  \u003cli\u003ethe results of an inspection do not confirm the identity of the vehicle or identifies further concerns regarding the identity of the vehicle or its components\u003c/li\u003e\n  \u003cli\u003eif the specific identity of the vehicle cannot be determined (providing the year of manufacture can be evidenced, an age-related registration number may be assigned to a vehicle)\u003c/li\u003e\n\u003c/ul\u003e\u003cp\u003eIt’s the vehicle keeper’s responsibility to provide enough reliable evidence to prove the vehicle’s identity so it can keep its original VIN and registration. Keepers should try to gather as much evidence as possible about any work carried out throughout the vehicle’s life.\u003c/p\u003e\u003cp\u003eThere are additional sources for supporting documentation and evidence.\u003c/p\u003e\u003cp\u003eIf the vehicle was registered with local authorities prior to 1974 – you may wish to seek out local archived information.\u003c/p\u003e\u003cp\u003eIf the manufacturer of the vehicle is still in existence – you may wish to contact them.\u003c/p\u003e\u003cp\u003eYou can \u003ca href=\"https://www.gov.uk/government/publications/register-a-vehicle-under-its-original-registration-number-form-v765\"\u003efind a list of vehicle owners clubs\u003c/a\u003e which may offer services to help you evidence the identity or age of a vehicle.\u003c/p\u003e\u003cp\u003eAny costs incurred are the responsibility of the vehicle keeper and will not be reimbursed by DVLA.\u003c/p\u003e\u003ch4 id=\"inspection-request\"\u003eInspection request\u003c/h4\u003e\u003cp\u003eAs part of our assessment of your application and before we can consider issuing a V5C registration certificate (log book), your vehicle may need to be examined so that we can:\u003c/p\u003e\u003cul\u003e\n  \u003cli\u003everify the information provided in your application\u003c/li\u003e\n  \u003cli\u003esupplement the information already provided by you\u003c/li\u003e\n  \u003cli\u003everify the identification details on the vehicle against the vehicle record\u003c/li\u003e\n  \u003cli\u003everify the existence and particulars of the vehicle\u003c/li\u003e\n\u003c/ul\u003e\u003cp\u003eYou will be contacted if this applies. The examination report, along with the information you have already provided, will support our assessment and help determine the outcome of your application.\u003c/p\u003e\u003ch4 id=\"making-your-notification\"\u003eMaking your notification\u003c/h4\u003e\u003cp\u003eTo notify DVLA that you’re replacing a vehicle’s chassis, monocoque bodyshell or frame (for motorcycles), you will need the current V5C registration certificate or a completed \u003ca href=\"https://www.gov.uk/government/publications/application-for-a-vehicle-registration-certificate\"\u003e‘Application for a vehicle registration certificate’ (V62)\u003c/a\u003e.\u003c/p\u003e\u003cp\u003eYou will need photographic evidence for the vehicle receiving the replacement chassis, monocoque bodyshell or frame (recipient vehicle) showing:\u003c/p\u003e\u003cul\u003e\n  \u003cli\u003ethe whole vehicle, including front, back, sides, interior and the registration number plate\u003c/li\u003e\n  \u003cli\u003ethe stamped-in VIN or chassis number of the existing chassis, monocoque bodyshell, or frame (the one that is being replaced)\u003c/li\u003e\n  \u003cli\u003eVIN sticker if available (usually located in the door shut), of the existing chassis, monocoque bodyshell, or frame (the one that is being replaced)\u003c/li\u003e\n  \u003cli\u003eVIN plate and its location on the vehicle of the existing chassis, monocoque bodyshell, or frame (the one that is being replaced)\u003c/li\u003e\n  \u003cli\u003ethe engine number of the existing vehicle\u003c/li\u003e\n\u003c/ul\u003e\u003cp\u003eYou will need a completed \u003ca href=\"https://www.gov.uk/government/publications/vehicle-parts-statement-v6271\"\u003e‘Vehicle parts statement’ V627/1\u003c/a\u003e, providing full details of the replacement chassis, monocoque bodyshell or frame.\u003c/p\u003e\u003cp\u003eYou will need support and confirmation of specification (reconstructed classics) from an appropriate owners club.\u003c/p\u003e\u003cp\u003eEvidence for the replacement chassis, monocoque bodyshell, or frame must include either a copy of the receipt or invoice from the supplier which evidences its specification or the latest V5C registration certificate (log book) for this vehicle, if the replacement is taken from a registered vehicle.\u003c/p\u003e\u003cp\u003eStructural modifications:\u003c/p\u003e\u003cp\u003eInclude the following supporting documentation for a modification notification:\u003c/p\u003e\u003cul\u003e\n  \u003cli\u003ea completed \u003ca href=\"https://www.gov.uk/government/publications/modified-vehicle-statement-v6273\"\u003e‘Modified vehicle statement’ V627/3\u003c/a\u003e, including the vehicle registration number and full details of the modifications that have been done to the vehicle\u003c/li\u003e\n  \u003cli\u003ethe vehicle’s current V5C\u003c/li\u003e\n  \u003cli\u003eevidence of a current MOT (if required)\u003c/li\u003e\n  \u003cli\u003esupporting evidence from an owners club (if required)\u003c/li\u003e\n  \u003cli\u003ean MSVA – for motorcycle to tricycle modifications where the attachment has been welded on\u003c/li\u003e\n  \u003cli\u003ephotographic evidence of the changes made to the vehicle\u003c/li\u003e\n\u003c/ul\u003e\u003ch4 id=\"what-happens-next\"\u003eWhat happens next\u003c/h4\u003e\u003cp\u003eProviding there are no concerns over a vehicle’s identity, a structurally modified vehicle will keep its original VIN and registration number. A new V5C will be issued to reflect any changes to the vehicle details.\u003c/p\u003e\u003cp\u003eAn explanation will also be included in the ‘Special Notes’ section of the V5C that the vehicle has been modified from its original manufacturer’s specification or has had a like-for-like notifiable chassis, monocoque bodyshell or frame replacement. Examples of the special notes are as follows:\u003c/p\u003e\u003cul\u003e\n  \u003cli\u003e‘Rebuilt’ – assembled from parts some or all of which were not new\u003c/li\u003e\n  \u003cli\u003e‘Modified’ – the original chassis, monocoque or frame has been modified from the manufacturer’s original specification*\u003c/li\u003e\n  \u003cli\u003e‘Electric conversion’ – the original combustion engine has been replaced by an electric motor and battery*\u003c/li\u003e\n\u003c/ul\u003e\u003cp\u003e*These new markers will be available in the future, but for now, the current ‘Rebuilt’ marker will still be used because it effectively shows that changes have been made to the vehicle. Once the new markers are available, they will be applied to any applications processed after that date.\u003c/p\u003e"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Part 2 – kit-builds, kit-conversions and reconstructed vehicles",
+      "url": "https://www.gov.uk/government/publications/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318#part-2--kit-builds-kit-conversions-and-reconstructed-vehicles",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "url": "https://www.gov.uk/government/publications/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318#part-2--kit-builds-kit-conversions-and-reconstructed-vehicles",
+        "text": "\u003ch3 id=\"kit-built-vehicles\"\u003eKit-built vehicles\u003c/h3\u003e\u003cp\u003eIf all the parts of a vehicle are supplied new by the manufacturer, the vehicle will be allocated a current registration number as long as satisfactory receipts and a certificate of newness are provided.\u003c/p\u003e\u003cp\u003eKit cars which have been built using no more than one reconditioned component will also be registered under a current registration number, as long as satisfactory evidence that the component has been reconditioned to an ‘as new’ standard has been provided. The vehicle must have IVA or MSVA.\u003c/p\u003e\u003ch3 id=\"Kit-conversions\"\u003eKit-conversions\u003c/h3\u003e\u003cp\u003eThis is where a kit of new parts is added to an existing vehicle, or old parts are added to a kit of a manufactured body, chassis or monocoque bodyshell. The general appearance of the vehicle will change and result in a different description being put on the V5C registration certificate (log book).\u003c/p\u003e\u003cp\u003eA vehicle will keep the registration number of the original vehicle if the original unaltered chassis or monocoque bodyshell has been used along with 2 other major components from the original vehicle.\u003c/p\u003e\u003cp\u003eIf a new monocoque bodyshell or chassis from a specialist kit manufacturer (or an altered chassis or bodyshell from an existing vehicle) is used with 2 original major components from the donor vehicle, a replacement registration number will be issued based on the age of the donor vehicle. The vehicle must have IVA or MSVA. The date of manufacture for the vehicle will be taken from the IVA or MSVA certificate.\u003c/p\u003e\u003cp\u003eWhere insufficient parts from a donor vehicle are used or in cases where the original registration is unknown, IVA or MSVA will be required to register the vehicle and a ‘Q’ or ‘QNI’ registration number will be allocated.\u003c/p\u003e\u003ch3 id=\"major-components\"\u003eMajor components for cars and light vans\u003c/h3\u003e\u003cp\u003eThere are 6 major components that are used by DVLA when assessing changes made to cars and light vans. These are the:\u003c/p\u003e\u003cul\u003e\n  \u003cli\u003echassis (ladder or running chassis) or monocoque bodyshell\u003c/li\u003e\n  \u003cli\u003eengine or electric motor\u003c/li\u003e\n  \u003cli\u003etransmission\u003c/li\u003e\n  \u003cli\u003esteering assembly\u003c/li\u003e\n  \u003cli\u003eaxles\u003c/li\u003e\n  \u003cli\u003esuspension\u003c/li\u003e\n\u003c/ul\u003e\u003ch3 id=\"major-components-for-motorcycles-and-tricycles\"\u003eMajor components for motorcycles and tricycles\u003c/h3\u003e\u003cp\u003eThere are 4 major components that are used by DVLA when assessing changes made to motorcycles and tricycles. These are the:\u003c/p\u003e\u003cul\u003e\n  \u003cli\u003eframe\u003c/li\u003e\n  \u003cli\u003eengine and gearbox\u003c/li\u003e\n  \u003cli\u003ewheels\u003c/li\u003e\n  \u003cli\u003eforks\u003c/li\u003e\n\u003c/ul\u003e\u003ch3 id=\"reconstructed-classics\"\u003eReconstructed classics\u003c/h3\u003e\u003ch4 id=\"historic-vehicles-reconstructed-using-genuine-period-components\"\u003eHistoric vehicles reconstructed using genuine period components\u003c/h4\u003e\u003cp\u003eThe reconstructed classic registration scheme supports the restoration of unregistered vehicles over 40 years old.\u003c/p\u003e\u003cp\u003eThe major components used to reconstruct a vehicle must be over 40 years old but not necessarily from a single vehicle.\u003c/p\u003e\u003cp\u003eThese must be genuine period components and of the same specification and from the same period as when a vehicle was in production. This includes the chassis, monocoque or frame.\u003c/p\u003e\u003cp\u003eWhere a vehicle has been reconstructed using period major components, providing an appropriate owners club are willing to support the vehicle as being a true representation of a marque and date the vehicle, it can be registered with an age-related registration number.\u003c/p\u003e\u003cp\u003eA DVLA VIN must be allocated, as any original chassis, VIN or frame number cannot be used as there cannot be a link to another vehicle.\u003c/p\u003e\u003cp\u003eIn all instances an appropriate owners club must inspect a vehicle and support the vehicle as being a true reflection of a marque, and date the major components used. This is critical as the vehicle will be registered with an age-related registration number which is assigned based on the age of the newest major component.\u003c/p\u003e\u003cp\u003eWhere a mixture of period and non-period components (except for a non-period replacement body) are used, an age-related registration number cannot be assigned, and a vehicle will require type approval before it can be registered with a ‘Q’ registration number.\u003c/p\u003e\u003cp\u003eIn all instances the rebuild marker is added to the record, and for pre-1963 dated vehicles the non-transferable marker is also set.\u003c/p\u003e\u003cp\u003eA current MOT is required at the point of registration.\u003c/p\u003e\u003cp\u003eVehicles supported by an owners club and dated as being over 40 years old will qualify for the historic tax and MOT exemptions.\u003c/p\u003e\u003cp\u003eUnregistered vehicles under 40 years old that have been restored or reconstructed can still be registered, but not under the reconstructed classic scheme. Where required, an appropriate owners club would need to accurately date the vehicle. Where a vehicle does not have a VIN, a DVLA VIN will be allocated.\u003c/p\u003e\u003ch3 id=\"separate-chassisbodyshell-construction-vehicles\"\u003eSeparate chassis/bodyshell construction vehicles\u003c/h3\u003e\u003cp\u003eFor vehicles with a separate chassis/bodyshell construction, where the original body that would have been fitted is beyond repair and an original period replacement body is not available, a newly built replacement body can be used to reconstruct a vehicle.\u003c/p\u003e\u003cp\u003eThe owners club will need to confirm that the replacement body is the same specification as it would have been when a vehicle was in production. This will not affect the allocation of an age-related registration number, which will be assigned based on the other newest period major component.\u003c/p\u003e\u003cp\u003eAlternatively, an original interchangeable body can also be used where the owners club advise this was originally available as an option by the manufacturer and does not involve any modifications being made to the chassis. For example, if a 4-door body is replaced by a 2-door.\u003c/p\u003e\u003ch4 id=\"specials\"\u003eSpecials:\u003c/h4\u003e\u003cp\u003eThese are separate chassis/bodyshell vehicles, reconstructed using a 1930s chassis and running gear with 1950s or 1960s fibreglass or aluminium bodywork.\u003c/p\u003e\u003cp\u003eProviding the appropriate owners club are able to support a vehicle as being a genuine known example of a ‘Special’ from this era, the vehicle will be registered based on the age of the newest major component, for example, the replacement different-style body.\u003c/p\u003e\u003ch3 id=\"making-your-application\"\u003eMaking your application\u003c/h3\u003e\u003cp\u003eInclude the following supporting documentation with your application:\u003c/p\u003e\u003cul\u003e\n  \u003cli\u003eform \u003ca href=\"https://www.gov.uk/government/publications/apply-for-first-vehicle-tax-and-registration-of-a-new-motor-vehicle-v554\"\u003e‘Application for first vehicle tax and registration of a new motor vehicle’ (V55/4)\u003c/a\u003e (for new kit-built vehicles) or form \u003ca href=\"https://www.gov.uk/government/publications/register-a-used-vehicle-for-the-first-time-v555\"\u003e‘Application for first vehicle tax and registration of a used motor vehicle’ (V55/5)\u003c/a\u003e\n\u003c/li\u003e\n  \u003cli\u003evehicle tax (where appropriate)\u003c/li\u003e\n  \u003cli\u003eform \u003ca href=\"https://www.gov.uk/government/publications/vehicle-parts-statement-v6271\"\u003e‘Vehicle parts statement’ (V627/1)\u003c/a\u003e\n\u003c/li\u003e\n  \u003cli\u003eIVA/MSVA certificate (if required)\u003c/li\u003e\n  \u003cli\u003eMOT certificate (if required)\u003c/li\u003e\n  \u003cli\u003einsurance certificate for vehicles registered with a Northern Ireland address (downloaded copies are acceptable, photocopies are not)\u003c/li\u003e\n  \u003cli\u003ecertificate of newness (kit vehicles)\u003c/li\u003e\n  \u003cli\u003eregistration fee (if required)\u003c/li\u003e\n  \u003cli\u003ereceipts – these must show detail of the component (any identification or serial number shown), its specification and provenance - you must provide  official receipts or an invoice(copies of either are acceptable) from identifiable suppliers for the major components used in the build\u003c/li\u003e\n  \u003cli\u003eV5C registration certificate (log book) if a donor vehicle is used\u003c/li\u003e\n  \u003cli\u003econfirmation of ‘Notification of Vehicle Arrival’ (NOVA) if applicable - \u003ca href=\"https://www.gov.uk/importing-vehicles-into-the-uk/making-import-declarations\"\u003esee more information at ‘Importing vehicles into the UK’\u003c/a\u003e\n\u003c/li\u003e\n  \u003cli\u003edocumentation confirming your name and address – see the information below\u003c/li\u003e\n\u003c/ul\u003e\u003cp\u003eSend a photocopy of your UK photocard driving licence with your application form to prove your identity. Do not send the original.\u003c/p\u003e\u003cp\u003eIf you cannot do this, you must send in photocopies of one document that proves your name and another document that proves your address.\u003c/p\u003e\u003ch4 id=\"documents-we-will-accept-to-confirm-your-name-are-your\"\u003eDocuments we will accept to confirm your name are your:\u003c/h4\u003e\u003cul\u003e\n  \u003cli\u003epassport\u003c/li\u003e\n  \u003cli\u003emarriage or civil partnership certificate\u003c/li\u003e\n  \u003cli\u003edivorce or end of civil partnership document (decree nisi, decree absolute, conditional order or final order)\u003c/li\u003e\n  \u003cli\u003ebirth certificate or adoption certificate\u003c/li\u003e\n  \u003cli\u003egender recognition certificate\u003c/li\u003e\n\u003c/ul\u003e\u003ch4 id=\"documents-we-will-accept-to-confirm-your-address-are-a\"\u003eDocuments we will accept to confirm your address are a:\u003c/h4\u003e\u003cul\u003e\n  \u003cli\u003egas, electricity, water or landline phone bill issued in the last 3 months\u003c/li\u003e\n  \u003cli\u003ecouncil tax bill for the current year\u003c/li\u003e\n  \u003cli\u003ebank or building society statement issued in the last 3 months\u003c/li\u003e\n  \u003cli\u003emedical card or letter\u003c/li\u003e\n\u003c/ul\u003e\u003ch3 id=\"what-happens-next-1\"\u003eWhat happens next\u003c/h3\u003e\u003cp\u003eKit-built vehicles – a current registration number is allocated to a kit-built vehicle that uses no more than one reconditioned component. If the vehicle has more than one reconditioned component, a ‘Q’ registration number will be allocated.\u003c/p\u003e\u003cp\u003eKit-converted vehicles – dependent on the parts used, a kit-converted vehicle can be assigned the original registration number, an age-related registration number or ‘Q’ VRN.\u003c/p\u003e\u003cp\u003eReconstructed classic vehicles will be assigned an age-related registration number. Where a vehicle has been reconstructed with a mixture of new and used parts, a ‘Q’ registration number will be allocated.\u003c/p\u003e\u003cp\u003eAn explanation will also be included in the ‘Special Notes’ section of the V5C. Examples of the special notes are as follows:\u003c/p\u003e\u003cul\u003e\n  \u003cli\u003e‘Rebuilt’ – assembled from parts some or all of which were not new\u003c/li\u003e\n  \u003cli\u003e‘Kit-built converted’ – assembled from parts all of which may not be new\u003c/li\u003e\n\u003c/ul\u003e\u003ch3 id=\"where-to-send-your-application\"\u003eWhere to send your application\u003c/h3\u003e\u003cp\u003eYou must send your application and supporting documents to the address below:\u003c/p\u003e\u003cdiv class=\"address\"\u003e\u003cdiv class=\"adr org fn\"\u003e\u003cp\u003e\nKits and Rebuilds\u003cbr\u003eD10\u003cbr\u003eDVLA\u003cbr\u003eSwansea\u003cbr\u003eSA99 1ZZ\n\u003c/p\u003e\u003c/div\u003e\u003c/div\u003e"
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="canonical" href="https://www.gov.uk/government/publications/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318">
+
+<meta property="og:site_name" content="GOV.UK">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.gov.uk/government/publications/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318">
+<meta property="og:title" content="Making changes to a vehicle and registering kit-built, kit-converted and reconstructed classic vehicles (INF318)">
+<meta property="og:description" content="">
+
+  <meta name="twitter:card" content="summary">
+
+
+  <link rel="stylesheet" href="/assets/frontend/views/_html-publication-d183ff6655d34a5cea8d3f6f863d5b6c74654d40325c0a970e8e96ca046b4d07.css" />
+  <link rel="stylesheet" href="/assets/frontend/views/_csv_preview-ddf66f9f13d0fb5e8672480d53d092910344fca34f35e21fc2220e1500143904.css" />
+
+  <meta name="csp-nonce" content="olaGYn3eWNrEWou1gsv5/A==" />
+
+<link title="Search" rel="search" type="application/opensearchdescription+xml" href="/search/opensearch.xml">
+
+  
+  <meta name="govuk:format" content="html_publication">
+  <meta name="govuk:publishing-app" content="whitehall">
+  <meta name="govuk:rendering-app" content="frontend">
+  <meta name="govuk:schema-name" content="html_publication">
+  <meta name="govuk:content-id" content="6ad22520-ab04-499e-893d-be1344cd41e3">
+  <meta name="govuk:ga4-base-path" content="/government/publications/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318">
+  <meta name="govuk:first-published-at" content="2025-08-26T00:01:01+01:00">
+  <meta name="govuk:updated-at" content="2026-08-24T14:32:01+01:00">
+  <meta name="govuk:public-updated-at" content="2026-08-03T00:01:00+01:00">
+  <meta name="govuk:primary-publishing-organisation" content="Driver and Vehicle Licensing Agency">
+  <meta name="govuk:organisations" content="&lt;EA74&gt;">
+
+
+
+
+
+
+
+
+  </head>
+  <body class="gem-c-layout-for-public govuk-template__body">
+    <script nonce="olaGYn3eWNrEWou1gsv5/A==">
+//<![CDATA[
+      document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' govuk-frontend-supported' : '');
+
+//]]>
+</script>      
+<div id="global-cookie-message" data-module="cookie-banner" data-nosnippet="" aria-label="Cookies on GOV.UK" class="gem-c-cookie-banner govuk-clearfix govuk-cookie-banner js-banner-wrapper" role="region" hidden="hidden">
+  <div class="govuk-cookie-banner__message govuk-width-container">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <h2 class="govuk-cookie-banner__heading govuk-heading-m">Cookies on GOV.UK</h2>
+        <div tabindex="-1" class="govuk-cookie-banner__content gem-c-cookie-banner__confirmation">
+          <div class="gem-c-cookie-banner__content"><p class='govuk-body'>We use some essential cookies to make this website work.</p><p class='govuk-body'>We’d like to set additional cookies to understand how you use GOV.UK, remember your settings and improve government services.</p><p class='govuk-body'>We also use cookies set by other sites to help us deliver content from their services.</p></div>
+          <p class="gem-c-cookie-banner__confirmation-message--accepted govuk-body" hidden
+            data-ga4-cookie-banner 
+            data-module="ga4-link-tracker"
+            data-ga4-set-indexes
+            data-ga4-link='{"event_name":"navigation","type":"cookie banner","section":"You have accepted additional cookies"}'
+          >You have accepted additional cookies. <span class="gem-c-cookie-banner__confirmation-message">You can <a class="govuk-link" href="/help/cookies">change your cookie settings</a> at any time.</span></p>
+          <p class="gem-c-cookie-banner__confirmation-message--rejected govuk-body" hidden>You have rejected additional cookies. <span class="gem-c-cookie-banner__confirmation-message">You can <a class="govuk-link" href="/help/cookies">change your cookie settings</a> at any time.</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="js-confirmation-buttons govuk-button-group">
+      
+
+  <button class="gem-c-button govuk-button" type="submit" data-accept-cookies="true" data-cookie-types="all">Accept additional cookies</button>
+
+
+      
+
+  <button class="gem-c-button govuk-button" type="submit" data-reject-cookies="true">Reject additional cookies</button>
+
+
+      <a class="govuk-link" href="/help/cookies">View cookies</a>
+    </div>
+    <div hidden class="js-hide-button govuk-button-group">
+      <button
+        class="gem-c-cookie-banner__hide-button govuk-button"
+        data-hide-cookie-banner="true"
+        data-module="ga4-event-tracker"
+         data-ga4-event='{"event_name":"select_content","type":"cookie banner","action":"closed","section":"You have accepted additional cookies"}' >
+          Hide cookie message
+        </button>
+    </div>
+  </div>
+</div>
+      <a data-module="govuk-skip-link" class="gem-c-skip-link govuk-skip-link govuk-!-display-none-print" href="#content">Skip to main content</a>
+
+      <header>
+            <div data-module="ga4-event-tracker ga4-link-tracker" data-ga4-expandable="" class="gem-c-layout-super-navigation-header">
+<div class="gem-c-layout-super-navigation-header__nav-wrapper">
+  <div class="gem-c-layout-super-navigation-header__container govuk-width-container">
+    <nav
+      aria-labelledby="super-navigation-menu-heading"
+      class="gem-c-layout-super-navigation-header__content"
+      data-module="super-navigation-mega-menu">
+      <div class="gem-c-layout-super-navigation-header__header-logo">
+        <a class="govuk-header__homepage-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","external":"false","text":"GOV.UK","section":"Logo","index_link":1,"index_section":0,"index_section_count":2,"index_total":1}' id="logo" aria-label="Go to the GOV.UK homepage" href="/">
+          <svg
+  xmlns="http://www.w3.org/2000/svg"
+  focusable="false"
+  role="img"
+  viewBox="0 0 324 60"
+  height="30"
+  width="162"
+  fill="currentcolor"
+  class="govuk-header__logotype"
+  aria-label="GOV.UK">
+  <title>GOV.UK</title>
+  <g>
+    <circle cx="20" cy="17.6" r="3.7"></circle>
+    <circle cx="10.2" cy="23.5" r="3.7"></circle>
+    <circle cx="3.7" cy="33.2" r="3.7"></circle>
+    <circle cx="31.7" cy="30.6" r="3.7"></circle>
+    <circle cx="43.3" cy="17.6" r="3.7"></circle>
+    <circle cx="53.2" cy="23.5" r="3.7"></circle>
+    <circle cx="59.7" cy="33.2" r="3.7"></circle>
+    <circle cx="31.7" cy="30.6" r="3.7"></circle>
+    <path d="M33.1,9.8c.2-.1.3-.3.5-.5l4.6,2.4v-6.8l-4.6,1.5c-.1-.2-.3-.3-.5-.5l1.9-5.9h-6.7l1.9,5.9c-.2.1-.3.3-.5.5l-4.6-1.5v6.8l4.6-2.4c.1.2.3.3.5.5l-2.6,8c-.9,2.8,1.2,5.7,4.1,5.7h0c3,0,5.1-2.9,4.1-5.7l-2.6-8ZM37,37.9s-3.4,3.8-4.1,6.1c2.2,0,4.2-.5,6.4-2.8l-.7,8.5c-2-2.8-4.4-4.1-5.7-3.8.1,3.1.5,6.7,5.8,7.2,3.7.3,6.7-1.5,7-3.8.4-2.6-2-4.3-3.7-1.6-1.4-4.5,2.4-6.1,4.9-3.2-1.9-4.5-1.8-7.7,2.4-10.9,3,4,2.6,7.3-1.2,11.1,2.4-1.3,6.2,0,4,4.6-1.2-2.8-3.7-2.2-4.2.2-.3,1.7.7,3.7,3,4.2,1.9.3,4.7-.9,7-5.9-1.3,0-2.4.7-3.9,1.7l2.4-8c.6,2.3,1.4,3.7,2.2,4.5.6-1.6.5-2.8,0-5.3l5,1.8c-2.6,3.6-5.2,8.7-7.3,17.5-7.4-1.1-15.7-1.7-24.5-1.7h0c-8.8,0-17.1.6-24.5,1.7-2.1-8.9-4.7-13.9-7.3-17.5l5-1.8c-.5,2.5-.6,3.7,0,5.3.8-.8,1.6-2.3,2.2-4.5l2.4,8c-1.5-1-2.6-1.7-3.9-1.7,2.3,5,5.2,6.2,7,5.9,2.3-.4,3.3-2.4,3-4.2-.5-2.4-3-3.1-4.2-.2-2.2-4.6,1.6-6,4-4.6-3.7-3.7-4.2-7.1-1.2-11.1,4.2,3.2,4.3,6.4,2.4,10.9,2.5-2.8,6.3-1.3,4.9,3.2-1.8-2.7-4.1-1-3.7,1.6.3,2.3,3.3,4.1,7,3.8,5.4-.5,5.7-4.2,5.8-7.2-1.3-.2-3.7,1-5.7,3.8l-.7-8.5c2.2,2.3,4.2,2.7,6.4,2.8-.7-2.3-4.1-6.1-4.1-6.1h10.6,0Z"></path>
+  </g>
+  <circle class="govuk-logo-dot" cx="226" cy="36" r="7.3"></circle>
+  <path d="M93.94 41.25c.4 1.81 1.2 3.21 2.21 4.62 1 1.4 2.21 2.41 3.61 3.21s3.21 1.2 5.22 1.2 3.61-.4 4.82-1c1.4-.6 2.41-1.4 3.21-2.41.8-1 1.4-2.01 1.61-3.01s.4-2.01.4-3.01v.14h-10.86v-7.02h20.07v24.08h-8.03v-5.56c-.6.8-1.38 1.61-2.19 2.41-.8.8-1.81 1.2-2.81 1.81-1 .4-2.21.8-3.41 1.2s-2.41.4-3.81.4a18.56 18.56 0 0 1-14.65-6.63c-1.6-2.01-3.01-4.41-3.81-7.02s-1.4-5.62-1.4-8.83.4-6.02 1.4-8.83a20.45 20.45 0 0 1 19.46-13.65c3.21 0 4.01.2 5.82.8 1.81.4 3.61 1.2 5.02 2.01 1.61.8 2.81 2.01 4.01 3.21s2.21 2.61 2.81 4.21l-7.63 4.41c-.4-1-1-1.81-1.61-2.61-.6-.8-1.4-1.4-2.21-2.01-.8-.6-1.81-1-2.81-1.4-1-.4-2.21-.4-3.61-.4-2.01 0-3.81.4-5.22 1.2-1.4.8-2.61 1.81-3.61 3.21s-1.61 2.81-2.21 4.62c-.4 1.81-.6 3.71-.6 5.42s.8 5.22.8 5.22Zm57.8-27.9c3.21 0 6.22.6 8.63 1.81 2.41 1.2 4.82 2.81 6.62 4.82S170.2 24.39 171 27s1.4 5.62 1.4 8.83-.4 6.02-1.4 8.83-2.41 5.02-4.01 7.02-4.01 3.61-6.62 4.82-5.42 1.81-8.63 1.81-6.22-.6-8.63-1.81-4.82-2.81-6.42-4.82-3.21-4.41-4.01-7.02-1.4-5.62-1.4-8.83.4-6.02 1.4-8.83 2.41-5.02 4.01-7.02 4.01-3.61 6.42-4.82 5.42-1.81 8.63-1.81Zm0 36.73c1.81 0 3.61-.4 5.02-1s2.61-1.81 3.61-3.01 1.81-2.81 2.21-4.41c.4-1.81.8-3.61.8-5.62 0-2.21-.2-4.21-.8-6.02s-1.2-3.21-2.21-4.62c-1-1.2-2.21-2.21-3.61-3.01s-3.21-1-5.02-1-3.61.4-5.02 1c-1.4.8-2.61 1.81-3.61 3.01s-1.81 2.81-2.21 4.62c-.4 1.81-.8 3.61-.8 5.62 0 2.41.2 4.21.8 6.02.4 1.81 1.2 3.21 2.21 4.41s2.21 2.21 3.61 3.01c1.4.8 3.21 1 5.02 1Zm36.32 7.96-12.24-44.15h9.83l8.43 32.77h.4l8.23-32.77h9.83L200.3 58.04h-12.24Zm74.14-7.96c2.18 0 3.51-.6 3.51-.6 1.2-.6 2.01-1 2.81-1.81s1.4-1.81 1.81-2.81a13 13 0 0 0 .8-4.01V13.9h8.63v28.15c0 2.41-.4 4.62-1.4 6.62-.8 2.01-2.21 3.61-3.61 5.02s-3.41 2.41-5.62 3.21-4.62 1.2-7.02 1.2-5.02-.4-7.02-1.2c-2.21-.8-4.01-1.81-5.62-3.21s-2.81-3.01-3.61-5.02-1.4-4.21-1.4-6.62V13.9h8.63v26.95c0 1.61.2 3.01.8 4.01.4 1.2 1.2 2.21 2.01 2.81.8.8 1.81 1.4 2.81 1.81 0 0 1.34.6 3.51.6Zm34.22-36.18v18.92l15.65-18.92h10.82l-15.03 17.32 16.03 26.83h-10.21l-11.44-20.21-5.62 6.22v13.99h-8.83V13.9"></path>
+</svg>
+
+</a></div>      <h2 id="super-navigation-menu-heading" class="govuk-visually-hidden">
+        Navigation menu
+      </h2>
+
+
+      <div class="gem-c-layout-super-navigation-header__navigation-item">
+        <a class="gem-c-layout-super-navigation-header__navigation-item-link" href="/browse"><span class="gem-c-layout-super-navigation-header__navigation-item-link-inner">            Menu
+</span></a>
+        <button aria-controls="super-navigation-menu" aria-expanded="false" aria-label="Show navigation menu" class="gem-c-layout-super-navigation-header__navigation-top-toggle-button" data-text-for-hide="Hide navigation menu" data-text-for-show="Show navigation menu" data-toggle-desktop-group="top" data-toggle-mobile-group="top" data-ga4-event='{"event_name":"select_content","type":"header menu bar","text":"Menu","index_section":1,"index_section_count":2,"section":"Menu"}' hidden="hidden" id="super-navigation-menu-toggle" type="button">
+          <span class="gem-c-layout-super-navigation-header__navigation-top-toggle-button-inner">Menu</span>
+</button>      </div>
+      <div id="super-navigation-menu" hidden="hidden" class="gem-c-layout-super-navigation-header__navigation-dropdown-menu">
+        <div class="govuk-grid-row gem-c-layout-super-navigation-header__navigation-items">
+
+
+            <div class="govuk-grid-column-two-thirds-from-desktop gem-c-layout-super-navigation-header__column--services-and-information">
+              <h3 class="govuk-heading-m gem-c-layout-super-navigation-header__column-header">
+                Services and information
+              </h3>
+              <ul class="gem-c-layout-super-navigation-header__navigation-second-items gem-c-layout-super-navigation-header__navigation-second-items--services-and-information">
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":1,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/benefits">Benefits</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":2,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/births-deaths-marriages">Births, death, marriages and care</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":3,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/business">Business and self-employed</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":4,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/childcare-parenting">Childcare and parenting</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":5,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/citizenship">Citizenship and living in the UK</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":6,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/justice">Crime, justice and the law</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":7,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/disabilities">Disabled people</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":8,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/driving">Driving and transport</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":9,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/education">Education and learning</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":10,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/employing-people">Employing people</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":11,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/environment-countryside">Environment and countryside</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":12,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/housing-local-services">Housing and local services</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":13,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/tax">Money and tax</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":14,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/abroad">Passports, travel and living abroad</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":15,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/visas-immigration">Visas and immigration</a>
+                      
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":1,"index_link":16,"index_section_count":3,"index_total":16,"section":"Services and information"}' href="/browse/working">Working, jobs and pensions</a>
+                      
+                    </li>
+              </ul>
+            </div>
+
+            <div class="govuk-grid-column-one-third-from-desktop gem-c-layout-super-navigation-header__column--government-activity">
+              <h3 class="govuk-heading-m gem-c-layout-super-navigation-header__column-header">
+                Government activity
+              </h3>
+              <ul class="gem-c-layout-super-navigation-header__navigation-second-items gem-c-layout-super-navigation-header__navigation-second-items--government-activity">
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link gem-c-layout-super-navigation-header__navigation-second-item-link--with-description" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":2,"index_link":1,"index_section_count":3,"index_total":6,"section":"Government activity"}' href="/government/organisations">Departments</a>
+                      <p class="gem-c-layout-super-navigation-header__navigation-second-item-description">Departments, agencies and public bodies</p>
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link gem-c-layout-super-navigation-header__navigation-second-item-link--with-description" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":2,"index_link":2,"index_section_count":3,"index_total":6,"section":"Government activity"}' href="/search/news-and-communications">News</a>
+                      <p class="gem-c-layout-super-navigation-header__navigation-second-item-description">News stories, speeches, letters and notices</p>
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link gem-c-layout-super-navigation-header__navigation-second-item-link--with-description" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":2,"index_link":3,"index_section_count":3,"index_total":6,"section":"Government activity"}' href="/search/guidance-and-regulation">Guidance and regulation</a>
+                      <p class="gem-c-layout-super-navigation-header__navigation-second-item-description">Detailed guidance, regulations and rules</p>
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link gem-c-layout-super-navigation-header__navigation-second-item-link--with-description" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":2,"index_link":4,"index_section_count":3,"index_total":6,"section":"Government activity"}' href="/search/research-and-statistics">Research and statistics</a>
+                      <p class="gem-c-layout-super-navigation-header__navigation-second-item-description">Reports, analysis and official statistics</p>
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link gem-c-layout-super-navigation-header__navigation-second-item-link--with-description" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":2,"index_link":5,"index_section_count":3,"index_total":6,"section":"Government activity"}' href="/search/policy-papers-and-consultations">Policy papers and consultations</a>
+                      <p class="gem-c-layout-super-navigation-header__navigation-second-item-description">Consultations and strategy</p>
+                    </li>
+                    <li class="gem-c-layout-super-navigation-header__dropdown-list-item">
+                      <a class="govuk-link gem-c-layout-super-navigation-header__navigation-second-item-link gem-c-layout-super-navigation-header__navigation-second-item-link--with-description" data-ga4-link='{"event_name":"navigation","type":"header menu bar","index_section":2,"index_link":6,"index_section_count":3,"index_total":6,"section":"Government activity"}' href="/search/transparency-and-freedom-of-information-releases">Transparency</a>
+                      <p class="gem-c-layout-super-navigation-header__navigation-second-item-description">Data, Freedom of Information releases and corporate reports</p>
+                    </li>
+              </ul>
+            </div>
+        </div>
+</div>      <div class="gem-c-layout-super-navigation-header__search-item">
+        <button id="super-search-menu-toggle" class="gem-c-layout-super-navigation-header__search-toggle-button" aria-controls="super-search-menu" aria-expanded="true" aria-label="Hide search menu" data-text-for-hide="Hide search menu" data-text-for-show="Show search menu" data-toggle-mobile-group="top" data-toggle-desktop-group="top" data-ga4-event='{"event_name":"select_content","type":"header menu bar","text":"Search","index_section":2,"index_section_count":2,"section":"Search"}' hidden="hidden" type="button">
+          <span class="govuk-visually-hidden">
+            Search GOV.UK
+          </span>
+          
+<svg
+  class="gem-c-layout-super-navigation-header__search-toggle-button-link-icon"
+  width="27"
+  height="27"
+  viewBox="0 0 27 27"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  aria-hidden="true"
+  focusable="false">
+  <circle
+    cx="12.0161"
+    cy="11.0161"
+    r="8.51613"
+    stroke="currentColor"
+    stroke-width="3" />
+  <line
+    x1="17.8668"
+    y1="17.3587"
+    x2="26.4475"
+    y2="25.9393"
+    stroke="currentColor"
+    stroke-width="3" />
+</svg>
+
+          <span
+            aria-hidden="true"
+            class="gem-c-layout-super-navigation-header__navigation-top-toggle-close-icon">
+            &times;
+          </span>
+</button>
+        <a class="gem-c-layout-super-navigation-header__search-item-link" href="/search">
+          <span class="govuk-visually-hidden">
+            Search GOV.UK
+          </span>
+          
+<svg
+  class="gem-c-layout-super-navigation-header__search-item-link-icon"
+  width="27"
+  height="27"
+  viewBox="0 0 27 27"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  aria-hidden="true"
+  focusable="false">
+  <circle
+    cx="12.0161"
+    cy="11.0161"
+    r="8.51613"
+    stroke="currentColor"
+    stroke-width="3" />
+  <line
+    x1="17.8668"
+    y1="17.3587"
+    x2="26.4475"
+    y2="25.9393"
+    stroke="currentColor"
+    stroke-width="3" />
+</svg>
+
+</a>      </div>
+      <div id="super-search-menu" hidden="hidden" class="gem-c-layout-super-navigation-header__navigation-dropdown-menu">
+        <div class="gem-c-layout-super-navigation-header__search-container gem-c-layout-super-navigation-header__search-items">
+          <h3 class="govuk-visually-hidden">
+            Search
+          </h3>
+          <div class="govuk-grid-row">
+            <div class="govuk-grid-column-full">
+              <form class="gem-c-layout-super-navigation-header__search-form" id="search" data-module="ga4-search-tracker" data-ga4-search-type="header menu bar" data-ga4-search-url="/search/all" data-ga4-search-section="Search GOV.UK" data-ga4-search-index-section="3" data-ga4-search-index-section-count="3" action="/search/all" method="get" role="search" aria-label="Site-wide">
+                <div class="gem-c-search-with-autocomplete gem-c-search-with-autocomplete--large govuk-!-margin-bottom-0" data-module="gem-search-with-autocomplete" data-source-url="https://www.gov.uk/api/search/autocomplete.json" data-source-key="suggestions">
+  <div data-module="gem-toggle-input-class-on-focus" class="gem-c-search govuk-!-display-none-print gem-c-search--large gem-c-search--on-white gem-c-search--separate-label govuk-!-margin-bottom-0">
+    <label for="search-main-38f41049" class="govuk-label govuk-label--m gem-c-layout-super-navigation-header__search-label--large-navbar">Search GOV.UK</label>
+  <div class="gem-c-search__item-wrapper">
+    <div class="js-search-input-wrapper">
+      <input enterkeyhint="search" class="gem-c-search__item gem-c-search__input js-class-toggle" id="search-main-38f41049" name="keywords" title="Search" type="search" value="" autocorrect="off" autocapitalize="off">
+    </div>
+    <div class="gem-c-search__item gem-c-search__submit-wrapper">
+      <button class="gem-c-search__submit" type="submit" enterkeyhint="search">
+        Search
+        
+<svg
+  class="gem-c-search__icon"
+  width="27"
+  height="27"
+  viewBox="0 0 27 27"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  aria-hidden="true"
+  focusable="false">
+  <circle
+    cx="12.0161"
+    cy="11.0161"
+    r="8.51613"
+    stroke="currentColor"
+    stroke-width="3" />
+  <line
+    x1="17.8668"
+    y1="17.3587"
+    x2="26.4475"
+    y2="25.9393"
+    stroke="currentColor"
+    stroke-width="3" />
+</svg>
+
+</button>    </div>
+  </div>
+</div>
+</div>
+</form>            </div>
+          </div>
+        </div>
+</div>    </nav>
+  </div>
+</div>
+</div>
+
+        
+
+</header>
+      
+  
+
+  <div class="govuk-width-container">
+
+      
+<div class="gem-c-contextual-breadcrumbs">
+    
+<script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "name": "Home",
+        "@id": "https://www.gov.uk/"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "name": "Transport",
+        "@id": "https://www.gov.uk/transport"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "name": "Driving and road transport",
+        "@id": "https://www.gov.uk/transport/driving-and-road-transport"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "name": "Vehicle ownership, approval and standards",
+        "@id": "https://www.gov.uk/transport/vehicle-ownership-approval-and-standards"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "name": "Vehicle manufacturing and modification",
+        "@id": "https://www.gov.uk/transport/vehicle-manufacturing-and-modification"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "name": "Making changes to a vehicle and registering kit-built, kit-converted and reconstructed classic vehicles (INF318)",
+        "@id": "https://www.gov.uk/government/publications/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318"
+      }
+    }
+  ]
+}
+</script>
+
+<nav data-module="ga4-link-tracker" aria-label="Breadcrumb" class="gem-c-breadcrumbs govuk-breadcrumbs govuk-!-display-none-print govuk-breadcrumbs--collapse-on-mobile">
+  <ol class="govuk-breadcrumbs__list">
+        <li class="govuk-breadcrumbs__list-item">
+          <a data-ga4-link='{"event_name":"navigation","type":"breadcrumb","index_link":"1","index_total":"6"}' class="govuk-breadcrumbs__link" href="/">Home</a>
+        </li>
+        <li class="govuk-breadcrumbs__list-item">
+          <a data-ga4-link='{"event_name":"navigation","type":"breadcrumb","index_link":"2","index_total":"6"}' class="govuk-breadcrumbs__link" href="/transport">Transport</a>
+        </li>
+        <li class="govuk-breadcrumbs__list-item">
+          <a data-ga4-link='{"event_name":"navigation","type":"breadcrumb","index_link":"3","index_total":"6"}' class="govuk-breadcrumbs__link" href="/transport/driving-and-road-transport">Driving and road transport</a>
+        </li>
+        <li class="govuk-breadcrumbs__list-item">
+          <a data-ga4-link='{"event_name":"navigation","type":"breadcrumb","index_link":"4","index_total":"6"}' class="govuk-breadcrumbs__link" href="/transport/vehicle-ownership-approval-and-standards">Vehicle ownership, approval and standards</a>
+        </li>
+        <li class="govuk-breadcrumbs__list-item">
+          <a data-ga4-link='{"event_name":"navigation","type":"breadcrumb","index_link":"5","index_total":"6"}' class="govuk-breadcrumbs__link" href="/transport/vehicle-manufacturing-and-modification">Vehicle manufacturing and modification</a>
+        </li>
+        <li class="govuk-breadcrumbs__list-item">
+          <a data-ga4-link='{"event_name":"navigation","type":"breadcrumb","index_link":"6","index_total":"6"}' class="govuk-breadcrumbs__link" href="/government/publications/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318">Making changes to a vehicle and registering kit-built, kit-converted and reconstructed classic vehicles (INF318)</a>
+        </li>
+  </ol>
+</nav>
+</div>
+
+    
+
+    <main id="content" class="govuk-main-wrapper  " >
+      <span id="Top"></span>
+      
+  <div class="publication-external">
+    <ul class="organisation-logos">
+        <li class="organisation-logos__logo">
+          
+<div class="gem-c-organisation-logo brand--department-for-transport">
+    <a class="gem-c-organisation-logo__container gem-c-organisation-logo__link gem-c-organisation-logo__crest gem-c-organisation-logo__crest--single-identity brand__border-color" href="/government/organisations/driver-and-vehicle-licensing-agency">
+      <span class="gem-c-organisation-logo__name">Driver &amp; Vehicle<br/>Licensing<br/>Agency</span>
+</a></div>
+        </li>
+    </ul>
+  </div>
+
+  <header class="gem-c-inverse-header gem-c-inverse-header--html-publication-header govuk-!-padding-top-6 govuk-!-padding-bottom-6" dir="ltr">
+    
+  
+<div class="gem-c-heading  gem-c-heading--inverse govuk-!-margin-bottom-0">
+      <span class="govuk-caption-xl gem-c-heading__context" >
+    Guidance
+  </span>
+
+
+  <h1 class="gem-c-heading__text govuk-heading-xl">
+    Making changes to a vehicle and registering kit-built, kit-converted and reconstructed classic vehicles (INF318)
+</h1></div>
+
+    <p class="gem-c-inverse-header__subtext">Updated 3 August 2026</p>
+</header>
+
+
+
+
+<div id="contents">
+  <div class="govuk-grid-row gem-print-columns-none">
+    <div class="govuk-grid-column-one-quarter-from-desktop sticky-column">
+          <nav data-module="ga4-link-tracker" aria-label="Contents" class="gem-c-contents-list govuk-!-margin-bottom-4">
+    <h2 class="gem-c-contents-list__title">
+      Contents
+</h2>
+    <ol class="gem-c-contents-list__list">
+        <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--numbered" >
+          <span class="gem-c-contents-list__list-item-dash" aria-hidden="true"></span>
+          <a class="gem-c-contents-list__link govuk-link gem-print-force-link-styles govuk-link--no-underline" data-ga4-link='{"event_name":"select_content","section":"Contents","type":"contents list","index_total":3,"index_link":1}' href="#introduction">Introduction</a>
+        </li>
+        <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--numbered" >
+          <span class="gem-c-contents-list__list-item-dash" aria-hidden="true"></span>
+          <a class="gem-c-contents-list__link govuk-link gem-print-force-link-styles govuk-link--no-underline" data-ga4-link='{"event_name":"select_content","section":"Contents","type":"contents list","index_total":3,"index_link":2}' href="#part-1--repairs-restorations-and-structural-modifications">Part 1 – repairs, restorations and structural modifications</a>
+        </li>
+        <li class="gem-c-contents-list__list-item gem-c-contents-list__list-item--numbered" >
+          <span class="gem-c-contents-list__list-item-dash" aria-hidden="true"></span>
+          <a class="gem-c-contents-list__link govuk-link gem-print-force-link-styles govuk-link--no-underline" data-ga4-link='{"event_name":"select_content","section":"Contents","type":"contents list","index_total":3,"index_link":3}' href="#part-2--kit-builds-kit-conversions-and-reconstructed-vehicles">Part 2 – kit-builds, kit-conversions and reconstructed vehicles</a>
+        </li>
+    </ol>
+</nav>
+      <div class="gem-c-print-link govuk-!-display-none-print govuk-!-margin-bottom-6">
+    <button class="govuk-link gem-c-print-link__button" data-module="print-link">Print this page</button>
+</div>
+    </div>
+
+    <div class="print-metadata">
+      <p>
+  <img class="print-metadata__licence" src="/assets/frontend/open-government-licence-min-93b6a51b518ff99714a1aa2a7d2162735c155ec3cb073c75fb88b2a332fa83d3.png" />
+</p>
+<p>
+  © Crown copyright 2026
+</p>
+<p>
+  This publication is licensed under the terms of the Open Government Licence v3.0 except where otherwise stated. To view this licence, visit <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3">nationalarchives.gov.uk/doc/open-government-licence/version/3</a> or write to the Information Policy Team, The National Archives, Kew, London TW9 4DU, or email: <a href="mailto:psi@nationalarchives.gov.uk">psi@nationalarchives.gov.uk</a>.
+</p>
+<p>
+  Where we have identified any third party copyright information you will need to obtain permission from the copyright holders concerned.
+</p>
+<p>
+  This publication is available at https://www.gov.uk/government/publications/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318
+</p>
+
+    </div>
+
+    <div class="govuk-grid-column-three-quarters-from-desktop contents-container">
+      <div class="gem-c-govspeak-html-publication">
+  <div data-module="govspeak" class="gem-c-govspeak gem-c-govspeak--direction-ltr govuk-!-margin-bottom-0">
+    
+    
+        <div class="govspeak"><h2 id="introduction">Introduction</h2>
+
+<h3 id="telling-dvla-of-changes-made-to-a-vehicle">Telling DVLA of changes made to a vehicle</h3>
+
+<p>There is a legal requirement to notify DVLA of any changes made to a vehicle which affects the information shown on the V5C registration certificate (log book) such as replacing the engine. <a href="https://www.gov.uk/change-vehicle-details-registration-certificate">Check when you need to update your V5C.</a></p>
+
+<h3 id="vehicle-safety">Vehicle safety</h3>
+
+<p>A vehicle keeper is responsible for making sure their vehicle is always safe to drive (‘roadworthy’). A vehicle can be unsafe even if it has a current MOT certificate as the MOT only tests the vehicle’s roadworthiness at the time of the test. There are penalties for driving a vehicle in a dangerous condition.</p>
+
+<p><a href="https://www.gov.uk/check-vehicle-safe">Find more information on roadworthiness and penalties.</a></p>
+
+<h3 id="vehicles-with-personalised-registration-numbers">Vehicles with personalised registration numbers</h3>
+
+<p>Not all registration numbers are transferable. Check your V5C registration certificate (log book) first. You may want to <a href="https://www.gov.uk/personalised-vehicle-registration-numbers">arrange a transfer or retain the registration number</a> before you carry out any modifications or conversions.</p>
+
+<h3 id="before-you-start">Before you start</h3>
+
+<p>The INF318 leaflet provides guidance, but it does not cover every possible situation. You should identify and classify the changes made to your vehicle (for example, repair, structural modification or reconstructed classic) as accurately as possible and follow the relevant instructions.</p>
+
+<p>You can (and should, if helpful), include extra information and supporting evidence to help DVLA process your application efficiently.</p>
+
+<p>DVLA will contact you if your submission is incomplete or needs clarification.</p>
+
+<p>DVLA cannot confirm the outcome in advance (such as inspection requirements, retaining the original identity, or issuing a new or ‘Q’ registration), as a full review of the evidence and vehicle record is required before any decision is made.</p>
+
+<h3 id="when-to-apply">When to apply</h3>
+
+<p>You should only make your notification if your vehicle is fully built, complete and ready for road use. Applications submitted before this stage cannot be fully assessed and may be delayed or returned.</p>
+
+<h2 id="part-1--repairs-restorations-and-structural-modifications">Part 1 – repairs, restorations and structural modifications</h2>
+
+<h3 id="repairs-and-restorations">Repairs and restorations</h3>
+
+<h4 id="vehicles-which-have-been-repaired-or-restored">Vehicles which have been repaired or restored</h4>
+
+<p>Unless the vehicle information shown on the V5C is affected (details held in the vehicle details section of the V5C), there is no requirement to notify DVLA where a vehicle has been repaired or restored to return it to its original working standard.</p>
+
+<p>Repairs and restorations will include the replacement of worn-out components or body panels, on a like-for-like basis, and of the same standard as the originals. The appearance of the structural parts of the vehicle must be the same as when it was originally manufactured, or to a period-correct specification. Period-correct or period specific means consistent with what would have been available and commonly used at the time.</p>
+
+<p>There is one ‘exception’ to the above, which is the like-for-like replacement of chassis, monocoque bodyshell or frame (for motorcycles) as this would be a notifiable repair - <a href="#replacing-a-vehicles-chassis-monocoque-bodyshell-or-frame">see the section on replacing a vehicle’s chassis, monocoque bodyshell or frame (for motorcycles)</a>.</p>
+
+<p>While repair or restoration work will not affect a vehicle’s registration details, we advise that you present your vehicle for an MOT as a roadworthiness check of the work that has been done, as you are responsible for the roadworthiness of the vehicle. There are penalties for driving a vehicle in a dangerous condition.</p>
+
+<p>It’s also advised that you contact your vehicle insurance provider to check whether the changes affect the motor insurance cover.</p>
+
+<h4 id="examples-of-repairs-and-restorations-for-cars-and-light-goods-vehicles-under-3500kg">Examples of repairs and restorations for cars and light goods vehicles (under 3,500kg)</h4>
+
+<p>Repairs and restorations will include, but are not limited to the following:</p>
+
+<ul>
+  <li>replacing a boot floor</li>
+  <li>replacing footwells</li>
+  <li>replacing front or rear wheel arches or adapting front or rear wings to allow for wider wheels</li>
+  <li>replacing sills</li>
+  <li>replacing steering or suspension</li>
+  <li>replacing the gearbox or axles</li>
+  <li>adding a roll bar or roll cage</li>
+  <li>removing an existing roll bar or roll cage fitted post manufacture – any attachment holes left after removal must be welded over, using a continuous seam weld to return a vehicle to its original condition</li>
+  <li>replacing damaged or corroded body panels</li>
+  <li>replacing a like-for-like component or panel with one that is made from different materials with equal-to or better-than performance characteristics than the original</li>
+  <li>corroded areas of the chassis or monocoque bodyshell repaired using a patch, but must be continuously seam welded</li>
+  <li>replacement of sub-frames</li>
+  <li>fitting seatbelts (providing these are fitted as per the manufacturer’s guidance)</li>
+  <li>fitting period-correct accessories (for example, additional lamps, tow bars and radio aerials)</li>
+  <li>alterations to the firewall or transmission tunnel to accommodate a different bell housing or transmission (vehicles with a separate chassis only – for a monocoque vehicle, this needs to be notified as a modification)</li>
+</ul>
+
+<p>If you’re altering the firewall or transmission tunnel to accommodate a different bell housing or transmission on vehicles with a separate chassis, replacement sections must be fitted in the same manner as the removed section – for example, screwed or bolted if originally fitted that way, or continuously seam welded if sheet metal was cut to remove the original panel.</p>
+
+<p>A vehicle which has been classed as a Category A or B write off and received a Certificate of Destruction (CoD) cannot be reinstated or put back on the road. Only undamaged components can be salvaged and reused.</p>
+
+<h4 id="examples-of-repairs-and-restorations-for-motorcycles">Examples of repairs and restorations for motorcycles</h4>
+
+<p>Repairs and restorations will include, but is not limited to the following:</p>
+
+<ul>
+  <li>repairing damage or corrosion to a motorcycle frame</li>
+  <li>replacing the forks</li>
+</ul>
+
+<h4 id="repairs-and-restorations-that-affect-the-vehicle-identification-number-vin">Repairs and restorations that affect the Vehicle Identification Number (VIN)</h4>
+
+<p>If the repair or restoration affects sight of the VIN, it will need to be re-stamped or attached to the replacement chassis, monocoque bodyshell or frame by a garage that provides this service.</p>
+
+<p>To avoid losing entitlement to the original VIN, you must keep photographic evidence of the original VIN prior to the repair, should the identity of the vehicle be questioned at a later stage.</p>
+
+<h4 id="replacing-a-vehicles-chassis-monocoque-bodyshell-or-frame">Replacing a vehicle’s chassis, monocoque bodyshell or frame (for motorcycles)</h4>
+
+<p>Where a chassis, monocoque bodyshell or frame for a motorcycle has been replaced like-for-like (for example, without changing the vehicle’s appearance or dimensions from its original manufacturer’s specification) this is classed as a repair, but it does need to be notified to DVLA using the form <a href="https://www.gov.uk/government/publications/vehicle-parts-statement-v6271">‘Vehicle parts statement’ V627/1</a>.</p>
+
+<p>The replacement can be either brand new or second-hand but must be of the same specification as the original, although a non-galvanised chassis, monocoque bodyshell or frame can be replaced with a galvanised one.</p>
+
+<p>We advise that the vehicle is presented for a voluntary MOT as a roadworthiness check after the chassis, monocoque bodyshell or frame (for motorcycles) replacement has been completed. Alternatively, a car or light goods vehicle can be presented for a voluntary Individual Vehicle Approval (IVA) inspection as a safety check following the replacement. You can <a href="http://www.gov.uk/vehicle-approval/voluntary-approval">find out more about voluntary approval</a>.</p>
+
+<p>If you’re using a second-hand replacement, evidence of the identity of the donor vehicle must be provided, this includes the V5C registration certificate (log book) for the donor vehicle, or official receipts from identifiable suppliers.</p>
+
+<p>Where second-hand replacement parts are used to repair or restore a vehicle, these should be sourced carefully with only minor components being able to be taken from a vehicle which has been issued with a Certificate of Destruction (CoD). Major components from such a vehicle must not be used <a href="#major-components">(see the section on major components)</a>.</p>
+
+<p>You can <a href="http://www.gov.uk/scrapped-and-written-off-vehicles/insurance-writeoffs">find out more about scrapped and written off vehicles</a>.</p>
+
+<p>Once your application is processed, we will provide authorisation for the part to be re-stamped with the VIN or frame number of the vehicle. This must be re-stamped next to or in the same area as the existing stamping.</p>
+
+<p>Any existing identification number must be partially obliterated by stamping a series of ‘—– ’ characters.</p>
+
+<p>If there is no existing stamping, the VIN should be stamped on the right-hand side of the vehicle in a clearly visible and accessible position, in a way that it cannot deteriorate or be destroyed.</p>
+
+<p>Once confirmation that the original VIN has been re-stamped, we will issue a new V5C registration certificate (log book) which will include a marker in the ‘Special Notes’ section.</p>
+
+<h3 id="structural-modifications">Structural modifications</h3>
+
+<h4 id="vehicles-that-have-been-structurally-modified-from-their-original-specification">Vehicles that have been structurally modified from their original specification</h4>
+
+<p>You must notify DVLA when a vehicle has undergone a structural modification. This must be done using the form <a href="https://www.gov.uk/government/publications/modified-vehicle-statement-v6273">‘Modified vehicle statement’ (V627/3)</a>. An MOT may be required - <a href="#MOT-requirements-for-modifications">see the MOT requirements for modifications</a>.</p>
+
+<p>This work should only be carried out by a person with the relevant engineering knowledge to carry out a modification safely. It’s also recommended that you contact your vehicle insurance provider to check whether the changes affect the motor insurance cover.</p>
+
+<h4 id="definition-of-a-structural-modification">Definition of a structural modification</h4>
+
+<p>A structural modification will include cutting into a vehicle’s chassis (in the case of a vehicle with a separate chassis), monocoque bodyshell (in the case of a monocoque vehicle) or frame (for motorcycles) and changing a vehicle’s appearance or dimensions from its original manufacturer’s specification.</p>
+
+<p>It’s important to note that cutting into the above components for repair without changing the original specification (for example, replacing a section which
+is damaged or rusted), is classed as a repair or restoration.</p>
+
+<h4 id="component-definitions">Component definitions</h4>
+
+<p>Chassis: the load-bearing framework of a motor vehicle that is constructed with a separate non-load bearing bodyshell. Typically, it takes the form of a ladder-like frame upon which the body, powertrain and suspension are mounted.</p>
+
+<p>Monocoque bodyshell: a type of vehicle construction where the body and chassis are integrated into a single, cohesive structure.</p>
+
+<p>Motorcycle frame: a vehicle’s core structure and supports the engine and other components as well as the rider, passenger, and luggage.</p>
+
+<h4 id="examples-of-structural-modification-for-cars-and-light-goods-vehicles-under-3500kg">Examples of structural modification for cars and light goods vehicles (under 3,500kg)</h4>
+
+<p>A structural modification will include, but is not limited to the following:</p>
+
+<ul>
+  <li>lengthening, shortening, or widening a vehicle’s chassis or monocoque bodyshell to accommodate a different shape or style of bodyshell or resemble a different type of vehicle (for example, changing a vehicle’s specification or appearance from a coupe to a roadster or changing the appearance of a car or van to resemble a pickup)</li>
+  <li>cutting one or more roof pillars and lengthening or shortening them</li>
+  <li>removing the roof</li>
+  <li>removing an integrated roll cage, (for example, incorporated into the roof pillars as part of a vehicle’s original specification)</li>
+  <li>modifying the design of load-bearing sub-frames or support members</li>
+  <li>removing load-bearing sub-frames or support members</li>
+  <li>making any additional holes within 30cm from any suspension, steering, braking, or seatbelt mounting point</li>
+  <li>motorcycle to tricycle modification*</li>
+  <li>conversion to electric propulsion**</li>
+  <li>sidecar welded to motorcycle***</li>
+  <li>alterations to the firewall or transmission tunnel to accommodate a different bell housing or transmission (for monocoque vehicles only)</li>
+</ul>
+
+<p>If you’re altering the firewall or transmission tunnel to accommodate a different bell housing or transmission on vehicles with a separate chassis, replacement sections must be fitted in the same manner as the removed section – for example, screwed or bolted if originally fitted that way, or continuously seam welded if sheet metal was cut to remove the original panel.</p>
+
+<h4 id="examples-of-structural-modification-for-motorcycles">Examples of structural modification for motorcycles</h4>
+
+<p>A structural modification will include, but is not limited to, any lengthening, shortening, or widening of a vehicle’s frame or changing its appearance.</p>
+
+<h4 id="motorcycle-to-tricycle-modification">*Motorcycle to tricycle modification</h4>
+
+<p>Where a motorcycle to tricycle conversion has been carried out using a conversion kit or plans, these will be assessed in accordance with the <a href="http://www.gov.uk/vehicle-registration/kitconverted-vehicles">kit-conversion guidance</a>. See the section on <a href="#Kit-conversions">kit conversions</a>.</p>
+
+<p>Where a motorcycle has been converted to a tricycle without using a conversion kit or plans, this is classed as a modification. Note that:</p>
+
+<ul>
+  <li>where the tricycle system has been welded onto a vehicle, a DVLA VIN will be allocated, and the vehicle will be required to undergo Motorcycle Single Vehicle Approval (MSVA) before it can be used on public roads</li>
+  <li>where the tricycle system has been bolted onto a vehicle, MSVA is not required</li>
+</ul>
+
+<h4 id="vehicles-converted-to-electric-propulsion">**Vehicles converted to electric propulsion</h4>
+
+<p>Converting a vehicle with an internal combustion engine to electric propulsion must only be undertaken by a specialist with the electrical engineering knowledge necessary to carry out a conversion safely.</p>
+
+<p>The process of converting a vehicle from an internal combustion engine to electric propulsion is considered a modification. This is because it requires the engine and transmission to be removed and significant modifications to key vehicle control systems, including braking and steering assistance, as well as changes to accommodate an electric motor and battery pack.</p>
+
+<p>There is a legal requirement to notify DVLA of a change of fuel type as this may affect the information shown on the V5C. This must include full details of the modifications that have been done to the vehicle as part of the conversion to electric. The MOT requirements (over or under 40 years old) are also applicable for electric conversions.</p>
+
+<p>Where the law allows, DVLA will amend the fuel type and tax class to electric.</p>
+
+<p>Cars and light goods vehicles first registered on or after 1 March 2001 are taxed according to the CO2 emission figure. When a vehicle has been converted to electric propulsion, the law requires DVLA to retain the CO2 emissions figure recorded at first registration. This means the vehicle must remain in a CO2 based tax class and cannot be moved into the electric tax class.</p>
+
+<h4 id="motorcycle-with-welded-on-sidecar">***Motorcycle with welded on sidecar</h4>
+
+<p>Attachment of a sidecar to a motorcycle through welding is classed as a modification and must be notified to DVLA.</p>
+
+<p>Where a sidecar has been welded onto a vehicle, a DVLA VIN will be allocated, and the vehicle will be required to undergo Motorcycle Single Vehicle Approval (MSVA), before it can be used on public roads.</p>
+
+<h4 id="MOT-requirements-for-modifications">MOT requirements for modifications</h4>
+
+<p>Vehicles over 40 years old:</p>
+
+<p>To submit a modification for vehicles over 40 years old, you will need to provide an MOT.</p>
+
+<p>The requirement to present an MOT with your notification is applicable to all modifications including motorcycle to tricycle and electric conversion.</p>
+
+<p>Vehicles under 40 years old:</p>
+
+<p>We advise that you consider presenting the vehicle for a voluntary MOT as a roadworthiness check after the modifications have been completed. Alternatively, a car or van can be presented for a voluntary Individual Vehicle Approval inspection (IVA) as a safety check of the modifications.</p>
+
+<p><a href="https://www.gov.uk/government/publications/historic-classic-vehicles-mot-exemption-criteria/historic-classic-vehicles-mot-exemption-criteria">Find out more information about the MOT requirements for vehicles that have been substantially changed.</a></p>
+
+<p>Motorcycle to tricycle modification:</p>
+
+<p>We advise that you consider presenting the vehicle for a voluntary MOT as a roadworthiness check after the modifications have been completed.</p>
+
+<p>If the vehicle is over 3 years old, as the MOT class will be affected by this type of conversion, you will be legally required to obtain an MOT in the correct class. This must be provided as part of your notification to DVLA. This includes a vehicle that is over 40 years old and previously exempt from MOT.</p>
+
+<h4 id="dvla-vehicle-identification-numbers-and-q-registration-numbers">DVLA vehicle identification numbers and Q registration numbers</h4>
+
+<p>Where there is a question over the identity of a vehicle, DVLA may require the vehicle to be inspected.</p>
+
+<p>Where the identity or age of a vehicle cannot be determined, a vehicle may require re-registration with a DVLA VIN, IVA/MSVA and a <a href="https://www.gov.uk/vehicle-registration/q-registration-numbers">Q registration number</a>.</p>
+
+<p>If you are considering buying a vehicle without a VIN or registration number, you should beware. If the police suspect that the vehicle has been stolen, you may lose it and the money you paid for it. You should <a href="https://www.gov.uk/checks-when-buying-a-used-car">check you’re not buying a stolen or unsafe vehicle</a>.</p>
+
+<p>‘Q’ and ‘QNI’ registration numbers are issued where the age or identity of the vehicle is not known. The display of a ‘Q’ or ‘QNI’ registration number is a visible sign to a prospective purchaser that the age or identity of the vehicle is in doubt. The vehicle must have IVA or MSVA before a ‘Q’ or ‘QNI’ registration number can be used.</p>
+
+<p>The level of type approval and type of test required will depend on the vehicle. If your vehicle cannot be tested or it is unable to pass the test, DVLA will not register it. <a href="https://www.gov.uk/vehicle-approval">Further information on type approval is available online</a>, from the Driver and Vehicle Standards Agency (DVSA) on 0300 123 9000, or from the Driver and Vehicle Agency (DVA) on 0300 200 7862.</p>
+
+<p>Vehicle identity:</p>
+
+<p>The inability to determine the identity of a vehicle could occur (but is not limited to) when:</p>
+
+<ul>
+  <li>a vehicle is presented for registration without its original registration documents and where a club is unable to accurately date a vehicle</li>
+  <li>a vehicle is not displaying a VIN or chassis number or has been modified to an extent that the VIN cannot be identified</li>
+  <li>the VIN or chassis number has been lost and valid evidence to confirm its identity cannot be provided</li>
+  <li>a VIN appears to have been tampered with</li>
+  <li>more than one vehicle is claiming the same identity</li>
+  <li>a vehicle is not presented for a requested inspection</li>
+  <li>the results of an inspection do not confirm the identity of the vehicle or identifies further concerns regarding the identity of the vehicle or its components</li>
+  <li>if the specific identity of the vehicle cannot be determined (providing the year of manufacture can be evidenced, an age-related registration number may be assigned to a vehicle)</li>
+</ul>
+
+<p>It’s the vehicle keeper’s responsibility to provide enough reliable evidence to prove the vehicle’s identity so it can keep its original VIN and registration. Keepers should try to gather as much evidence as possible about any work carried out throughout the vehicle’s life.</p>
+
+<p>There are additional sources for supporting documentation and evidence.</p>
+
+<p>If the vehicle was registered with local authorities prior to 1974 – you may wish to seek out local archived information.</p>
+
+<p>If the manufacturer of the vehicle is still in existence – you may wish to contact them.</p>
+
+<p>You can <a href="https://www.gov.uk/government/publications/register-a-vehicle-under-its-original-registration-number-form-v765">find a list of vehicle owners clubs</a> which may offer services to help you evidence the identity or age of a vehicle.</p>
+
+<p>Any costs incurred are the responsibility of the vehicle keeper and will not be reimbursed by DVLA.</p>
+
+<h4 id="inspection-request">Inspection request</h4>
+
+<p>As part of our assessment of your application and before we can consider issuing a V5C registration certificate (log book), your vehicle may need to be examined so that we can:</p>
+
+<ul>
+  <li>verify the information provided in your application</li>
+  <li>supplement the information already provided by you</li>
+  <li>verify the identification details on the vehicle against the vehicle record</li>
+  <li>verify the existence and particulars of the vehicle</li>
+</ul>
+
+<p>You will be contacted if this applies. The examination report, along with the information you have already provided, will support our assessment and help determine the outcome of your application.</p>
+
+<h4 id="making-your-notification">Making your notification</h4>
+
+<p>To notify DVLA that you’re replacing a vehicle’s chassis, monocoque bodyshell or frame (for motorcycles), you will need the current V5C registration certificate or a completed <a href="https://www.gov.uk/government/publications/application-for-a-vehicle-registration-certificate">‘Application for a vehicle registration certificate’ (V62)</a>.</p>
+
+<p>You will need photographic evidence for the vehicle receiving the replacement chassis, monocoque bodyshell or frame (recipient vehicle) showing:</p>
+
+<ul>
+  <li>the whole vehicle, including front, back, sides, interior and the registration number plate</li>
+  <li>the stamped-in VIN or chassis number of the existing chassis, monocoque bodyshell, or frame (the one that is being replaced)</li>
+  <li>VIN sticker if available (usually located in the door shut), of the existing chassis, monocoque bodyshell, or frame (the one that is being replaced)</li>
+  <li>VIN plate and its location on the vehicle of the existing chassis, monocoque bodyshell, or frame (the one that is being replaced)</li>
+  <li>the engine number of the existing vehicle</li>
+</ul>
+
+<p>You will need a completed <a href="https://www.gov.uk/government/publications/vehicle-parts-statement-v6271">‘Vehicle parts statement’ V627/1</a>, providing full details of the replacement chassis, monocoque bodyshell or frame.</p>
+
+<p>You will need support and confirmation of specification (reconstructed classics) from an appropriate owners club.</p>
+
+<p>Evidence for the replacement chassis, monocoque bodyshell, or frame must include either a copy of the receipt or invoice from the supplier which evidences its specification or the latest V5C registration certificate (log book) for this vehicle, if the replacement is taken from a registered vehicle.</p>
+
+<p>Structural modifications:</p>
+
+<p>Include the following supporting documentation for a modification notification:</p>
+
+<ul>
+  <li>a completed <a href="https://www.gov.uk/government/publications/modified-vehicle-statement-v6273">‘Modified vehicle statement’ V627/3</a>, including the vehicle registration number and full details of the modifications that have been done to the vehicle</li>
+  <li>the vehicle’s current V5C</li>
+  <li>evidence of a current MOT (if required)</li>
+  <li>supporting evidence from an owners club (if required)</li>
+  <li>an MSVA – for motorcycle to tricycle modifications where the attachment has been welded on</li>
+  <li>photographic evidence of the changes made to the vehicle</li>
+</ul>
+
+<h4 id="what-happens-next">What happens next</h4>
+
+<p>Providing there are no concerns over a vehicle’s identity, a structurally modified vehicle will keep its original VIN and registration number. A new V5C will be issued to reflect any changes to the vehicle details.</p>
+
+<p>An explanation will also be included in the ‘Special Notes’ section of the V5C that the vehicle has been modified from its original manufacturer’s specification or has had a like-for-like notifiable chassis, monocoque bodyshell or frame replacement. Examples of the special notes are as follows:</p>
+
+<ul>
+  <li>‘Rebuilt’ – assembled from parts some or all of which were not new</li>
+  <li>‘Modified’ – the original chassis, monocoque or frame has been modified from the manufacturer’s original specification*</li>
+  <li>‘Electric conversion’ – the original combustion engine has been replaced by an electric motor and battery*</li>
+</ul>
+
+<p>*These new markers will be available in the future, but for now, the current ‘Rebuilt’ marker will still be used because it effectively shows that changes have been made to the vehicle. Once the new markers are available, they will be applied to any applications processed after that date.</p>
+
+<h2 id="part-2--kit-builds-kit-conversions-and-reconstructed-vehicles">Part 2 – kit-builds, kit-conversions and reconstructed vehicles</h2>
+
+<h3 id="kit-built-vehicles">Kit-built vehicles</h3>
+
+<p>If all the parts of a vehicle are supplied new by the manufacturer, the vehicle will be allocated a current registration number as long as satisfactory receipts and a certificate of newness are provided.</p>
+
+<p>Kit cars which have been built using no more than one reconditioned component will also be registered under a current registration number, as long as satisfactory evidence that the component has been reconditioned to an ‘as new’ standard has been provided. The vehicle must have IVA or MSVA.</p>
+
+<h3 id="Kit-conversions">Kit-conversions</h3>
+
+<p>This is where a kit of new parts is added to an existing vehicle, or old parts are added to a kit of a manufactured body, chassis or monocoque bodyshell. The general appearance of the vehicle will change and result in a different description being put on the V5C registration certificate (log book).</p>
+
+<p>A vehicle will keep the registration number of the original vehicle if the original unaltered chassis or monocoque bodyshell has been used along with 2 other major components from the original vehicle.</p>
+
+<p>If a new monocoque bodyshell or chassis from a specialist kit manufacturer (or an altered chassis or bodyshell from an existing vehicle) is used with 2 original major components from the donor vehicle, a replacement registration number will be issued based on the age of the donor vehicle. The vehicle must have IVA or MSVA. The date of manufacture for the vehicle will be taken from the IVA or MSVA certificate.</p>
+
+<p>Where insufficient parts from a donor vehicle are used or in cases where the original registration is unknown, IVA or MSVA will be required to register the vehicle and a ‘Q’ or ‘QNI’ registration number will be allocated.</p>
+
+<h3 id="major-components">Major components for cars and light vans</h3>
+
+<p>There are 6 major components that are used by DVLA when assessing changes made to cars and light vans. These are the:</p>
+
+<ul>
+  <li>chassis (ladder or running chassis) or monocoque bodyshell</li>
+  <li>engine or electric motor</li>
+  <li>transmission</li>
+  <li>steering assembly</li>
+  <li>axles</li>
+  <li>suspension</li>
+</ul>
+
+<h3 id="major-components-for-motorcycles-and-tricycles">Major components for motorcycles and tricycles</h3>
+
+<p>There are 4 major components that are used by DVLA when assessing changes made to motorcycles and tricycles. These are the:</p>
+
+<ul>
+  <li>frame</li>
+  <li>engine and gearbox</li>
+  <li>wheels</li>
+  <li>forks</li>
+</ul>
+
+<h3 id="reconstructed-classics">Reconstructed classics</h3>
+
+<h4 id="historic-vehicles-reconstructed-using-genuine-period-components">Historic vehicles reconstructed using genuine period components</h4>
+
+<p>The reconstructed classic registration scheme supports the restoration of unregistered vehicles over 40 years old.</p>
+
+<p>The major components used to reconstruct a vehicle must be over 40 years old but not necessarily from a single vehicle.</p>
+
+<p>These must be genuine period components and of the same specification and from the same period as when a vehicle was in production. This includes the chassis, monocoque or frame.</p>
+
+<p>Where a vehicle has been reconstructed using period major components, providing an appropriate owners club are willing to support the vehicle as being a true representation of a marque and date the vehicle, it can be registered with an age-related registration number.</p>
+
+<p>A DVLA VIN must be allocated, as any original chassis, VIN or frame number cannot be used as there cannot be a link to another vehicle.</p>
+
+<p>In all instances an appropriate owners club must inspect a vehicle and support the vehicle as being a true reflection of a marque, and date the major components used. This is critical as the vehicle will be registered with an age-related registration number which is assigned based on the age of the newest major component.</p>
+
+<p>Where a mixture of period and non-period components (except for a non-period replacement body) are used, an age-related registration number cannot be assigned, and a vehicle will require type approval before it can be registered with a ‘Q’ registration number.</p>
+
+<p>In all instances the rebuild marker is added to the record, and for pre-1963 dated vehicles the non-transferable marker is also set.</p>
+
+<p>A current MOT is required at the point of registration.</p>
+
+<p>Vehicles supported by an owners club and dated as being over 40 years old will qualify for the historic tax and MOT exemptions.</p>
+
+<p>Unregistered vehicles under 40 years old that have been restored or reconstructed can still be registered, but not under the reconstructed classic scheme. Where required, an appropriate owners club would need to accurately date the vehicle. Where a vehicle does not have a VIN, a DVLA VIN will be allocated.</p>
+
+<h3 id="separate-chassisbodyshell-construction-vehicles">Separate chassis/bodyshell construction vehicles</h3>
+
+<p>For vehicles with a separate chassis/bodyshell construction, where the original body that would have been fitted is beyond repair and an original period replacement body is not available, a newly built replacement body can be used to reconstruct a vehicle.</p>
+
+<p>The owners club will need to confirm that the replacement body is the same specification as it would have been when a vehicle was in production. This will not affect the allocation of an age-related registration number, which will be assigned based on the other newest period major component.</p>
+
+<p>Alternatively, an original interchangeable body can also be used where the owners club advise this was originally available as an option by the manufacturer and does not involve any modifications being made to the chassis. For example, if a 4-door body is replaced by a 2-door.</p>
+
+<h4 id="specials">Specials:</h4>
+
+<p>These are separate chassis/bodyshell vehicles, reconstructed using a 1930s chassis and running gear with 1950s or 1960s fibreglass or aluminium bodywork.</p>
+
+<p>Providing the appropriate owners club are able to support a vehicle as being a genuine known example of a ‘Special’ from this era, the vehicle will be registered based on the age of the newest major component, for example, the replacement different-style body.</p>
+
+<h3 id="making-your-application">Making your application</h3>
+
+<p>Include the following supporting documentation with your application:</p>
+
+<ul>
+  <li>form <a href="https://www.gov.uk/government/publications/apply-for-first-vehicle-tax-and-registration-of-a-new-motor-vehicle-v554">‘Application for first vehicle tax and registration of a new motor vehicle’ (V55/4)</a> (for new kit-built vehicles) or form <a href="https://www.gov.uk/government/publications/register-a-used-vehicle-for-the-first-time-v555">‘Application for first vehicle tax and registration of a used motor vehicle’ (V55/5)</a>
+</li>
+  <li>vehicle tax (where appropriate)</li>
+  <li>form <a href="https://www.gov.uk/government/publications/vehicle-parts-statement-v6271">‘Vehicle parts statement’ (V627/1)</a>
+</li>
+  <li>IVA/MSVA certificate (if required)</li>
+  <li>MOT certificate (if required)</li>
+  <li>insurance certificate for vehicles registered with a Northern Ireland address (downloaded copies are acceptable, photocopies are not)</li>
+  <li>certificate of newness (kit vehicles)</li>
+  <li>registration fee (if required)</li>
+  <li>receipts – these must show detail of the component (any identification or serial number shown), its specification and provenance - you must provide  official receipts or an invoice(copies of either are acceptable) from identifiable suppliers for the major components used in the build</li>
+  <li>V5C registration certificate (log book) if a donor vehicle is used</li>
+  <li>confirmation of ‘Notification of Vehicle Arrival’ (NOVA) if applicable - <a href="https://www.gov.uk/importing-vehicles-into-the-uk/making-import-declarations">see more information at ‘Importing vehicles into the UK’</a>
+</li>
+  <li>documentation confirming your name and address – see the information below</li>
+</ul>
+
+<p>Send a photocopy of your UK photocard driving licence with your application form to prove your identity. Do not send the original.</p>
+
+<p>If you cannot do this, you must send in photocopies of one document that proves your name and another document that proves your address.</p>
+
+<h4 id="documents-we-will-accept-to-confirm-your-name-are-your">Documents we will accept to confirm your name are your:</h4>
+
+<ul>
+  <li>passport</li>
+  <li>marriage or civil partnership certificate</li>
+  <li>divorce or end of civil partnership document (decree nisi, decree absolute, conditional order or final order)</li>
+  <li>birth certificate or adoption certificate</li>
+  <li>gender recognition certificate</li>
+</ul>
+
+<h4 id="documents-we-will-accept-to-confirm-your-address-are-a">Documents we will accept to confirm your address are a:</h4>
+
+<ul>
+  <li>gas, electricity, water or landline phone bill issued in the last 3 months</li>
+  <li>council tax bill for the current year</li>
+  <li>bank or building society statement issued in the last 3 months</li>
+  <li>medical card or letter</li>
+</ul>
+
+<h3 id="what-happens-next-1">What happens next</h3>
+
+<p>Kit-built vehicles – a current registration number is allocated to a kit-built vehicle that uses no more than one reconditioned component. If the vehicle has more than one reconditioned component, a ‘Q’ registration number will be allocated.</p>
+
+<p>Kit-converted vehicles – dependent on the parts used, a kit-converted vehicle can be assigned the original registration number, an age-related registration number or ‘Q’ VRN.</p>
+
+<p>Reconstructed classic vehicles will be assigned an age-related registration number. Where a vehicle has been reconstructed with a mixture of new and used parts, a ‘Q’ registration number will be allocated.</p>
+
+<p>An explanation will also be included in the ‘Special Notes’ section of the V5C. Examples of the special notes are as follows:</p>
+
+<ul>
+  <li>‘Rebuilt’ – assembled from parts some or all of which were not new</li>
+  <li>‘Kit-built converted’ – assembled from parts all of which may not be new</li>
+</ul>
+
+<h3 id="where-to-send-your-application">Where to send your application</h3>
+
+<p>You must send your application and supporting documents to the address below:</p>
+
+<div class="address"><div class="adr org fn"><p>
+Kits and Rebuilds<br>D10<br>DVLA<br>Swansea<br>SA99 1ZZ
+</p></div></div>
+
+</div>
+
+
+</div></div>
+    </div>
+  </div>
+
+  <div class="govuk-grid-row back-to-top-wrapper">
+    
+<a class="govuk-link gem-c-back-to-top-link govuk-!-display-none-print" href="#contents">
+    <svg class="gem-c-back-to-top-link__icon" xmlns="http://www.w3.org/2000/svg" width="13" height="17" viewBox="0 0 13 17" aria-hidden="true" focusable="false">
+      <path fill="currentColor" d="M6.5 0L0 6.5 1.4 8l4-4v12.7h2V4l4.3 4L13 6.4z" />
+    </svg>
+    Back to top
+</a>
+  </div>
+</div>
+
+    </main>
+  </div>
+
+
+      <div class="govuk-width-container">
+          
+<div data-module="feedback ga4-event-tracker" class="gem-c-feedback govuk-!-display-none-print">
+  
+<div class="gem-c-feedback__prompt gem-c-feedback__js-show js-prompt" tabindex="-1">
+  <div class="gem-c-feedback__prompt-content">
+    <div class="gem-c-feedback__prompt-questions js-prompt-questions" hidden>
+      <div class="gem-c-feedback__prompt-question-answer">
+        <h2 class="gem-c-feedback__prompt-question">Is this page useful?</h2>
+        <ul class="gem-c-feedback__option-list">
+          <li class="gem-c-feedback__option-list-item govuk-visually-hidden" hidden>
+            <a class="gem-c-feedback__prompt-link" role="button" hidden="hidden" href="/contact/govuk">
+              Maybe
+</a>          </li>
+          <li class="gem-c-feedback__option-list-item">
+            <button class="govuk-button gem-c-feedback__prompt-link js-page-is-useful" data-ga4-event='{"event_name":"form_submit","type":"feedback","text":"Yes","section":"Is this page useful?","tool_name":"Is this page useful?"}'>
+              Yes <span class="govuk-visually-hidden">this page is useful</span>
+</button>          </li>
+          <li class="gem-c-feedback__option-list-item">
+
+            <button class="govuk-button gem-c-feedback__prompt-link js-toggle-form js-page-is-not-useful" aria-controls="page-is-not-useful" data-ga4-event='{"event_name":"form_submit","type":"feedback","text":"No","section":"Is this page useful?","tool_name":"Is this page useful?"}'>
+              No <span class="govuk-visually-hidden">this page is not useful</span>
+</button>          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="gem-c-feedback__prompt-questions gem-c-feedback__prompt-success js-prompt-success" role="alert" hidden>
+      Thank you for your feedback
+    </div>
+
+    <div class="gem-c-feedback__prompt-questions gem-c-feedback__prompt-questions--something-is-wrong js-prompt-questions" hidden>
+      <button class="govuk-button gem-c-feedback__prompt-link js-toggle-form js-something-is-wrong" aria-controls="something-is-wrong" data-ga4-event='{"event_name":"form_submit","type":"feedback","text":"Report a problem with this page","section":"Is this page useful?","tool_name":"Is this page useful?"}'>
+        Report a problem with this page
+</button>    </div>
+  </div>
+</div>
+
+  <form action="/contact/govuk/problem_reports"
+  id="something-is-wrong"
+  class="gem-c-feedback__form js-feedback-form"
+  method="post"
+  hidden>
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <div class="gem-c-feedback__error-summary gem-c-feedback__js-show js-errors" tabindex="-1" hidden></div>
+
+      <input type="hidden" name="url" value="https://www.gov.uk/government/publications/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318">
+
+      <h2 class="gem-c-feedback__form-heading">Help us improve GOV.UK</h2>
+      <p id="feedback_explanation" class="gem-c-feedback__form-paragraph">Do not include personal or financial information like your National Insurance number or credit card details.</p>
+
+      <div class="govuk-visually-hidden" aria-hidden="true">
+        <label for="giraffe">This field is for robots only. Please leave blank</label>
+        <input id="giraffe" name="giraffe" type="text" pattern=".{0}" tabindex="-1" autocomplete="off">
+      </div>
+
+      <div class="gem-c-textarea govuk-form-group govuk-!-margin-bottom-6">
+    
+  <label for="textarea-b62bc7f9" class="gem-c-label govuk-label">What were you doing?</label>
+
+
+
+
+
+  <textarea name="what_doing" class="govuk-textarea" id="textarea-b62bc7f9" rows="3" spellcheck="true" aria-describedby="feedback_explanation">
+</textarea>
+     
+</div>
+
+      <div class="gem-c-textarea govuk-form-group govuk-!-margin-bottom-6">
+    
+  <label for="textarea-74d13f48" class="gem-c-label govuk-label">What went wrong?</label>
+
+
+
+
+
+  <textarea name="what_wrong" class="govuk-textarea" id="textarea-74d13f48" rows="3" spellcheck="true">
+</textarea>
+     
+</div>
+
+
+      <div class="gem-c-feedback__button-wrapper">
+        
+
+  <button class="gem-c-button govuk-button govuk-!-margin-bottom-6" type="submit" data-ga4-event='{"event_name":"form_submit","type":"feedback","text":"Send","section":"Help us improve GOV.UK","tool_name":"Help us improve GOV.UK"}'>Send</button>
+
+
+
+        
+
+  <button class="gem-c-button govuk-button gem-c-button--secondary-quiet govuk-!-margin-bottom-0 js-close-form" type="submit" aria-controls="something-is-wrong">Cancel</button>
+
+
+      </div>
+    </div>
+  </div>
+</form>
+
+
+ <script nonce="olaGYn3eWNrEWou1gsv5/A==">
+//<![CDATA[
+  document.addEventListener("DOMContentLoaded", function () {
+    var input = document.querySelector("#giraffe"),
+      form = document.querySelector("#something-is-wrong")
+
+    form.addEventListener("submit", spamCapture);
+
+    function spamCapture(e) {
+      if (input.value.length !== 0) return;
+      e.preventDefault();
+    }
+  });
+
+//]]>
+</script>
+  <div id="page-is-not-useful" class="gem-c-feedback__form gem-c-feedback__form--email gem-c-feedback__js-show js-feedback-form">
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds" id="survey-wrapper">
+      <div class="gem-c-feedback__error-summary js-errors" tabindex="-1" hidden></div>
+
+      <h2 class="gem-c-feedback__form-heading">Help us improve GOV.UK</h2>
+      <p id="survey_explanation" class="gem-c-feedback__form-paragraph">
+        To help us improve GOV.UK, we’d like to know more about your visit today.
+        <a href="https://www.smartsurvey.co.uk/s/gov-uk-banner/?c=no-js" class="govuk-link" target="_blank" rel="noopener noreferrer external">Please fill in this survey (opens in a new tab<noscript> and requires JavaScript</noscript>)</a>.
+      </p>
+
+      
+
+  <button class="gem-c-button govuk-button gem-c-button--secondary-quiet govuk-!-margin-bottom-6 js-close-form" type="submit" aria-controls="page-is-not-useful">Cancel</button>
+
+
+    </div>
+  </div>
+</div>
+
+</div>
+      </div>
+
+        <footer data-module="ga4-link-tracker" class="gem-c-layout-footer govuk-footer">
+  <div class="govuk-width-container">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      focusable="false"
+      role="presentation"
+      viewBox="0 0 64 60"
+      height="30"
+      width="32"
+      fill="currentcolor"
+      class="govuk-footer__crown">
+      <g>
+        <circle cx="20" cy="17.6" r="3.7"></circle>
+        <circle cx="10.2" cy="23.5" r="3.7"></circle>
+        <circle cx="3.7" cy="33.2" r="3.7"></circle>
+        <circle cx="31.7" cy="30.6" r="3.7"></circle>
+        <circle cx="43.3" cy="17.6" r="3.7"></circle>
+        <circle cx="53.2" cy="23.5" r="3.7"></circle>
+        <circle cx="59.7" cy="33.2" r="3.7"></circle>
+        <circle cx="31.7" cy="30.6" r="3.7"></circle>
+        <path d="M33.1,9.8c.2-.1.3-.3.5-.5l4.6,2.4v-6.8l-4.6,1.5c-.1-.2-.3-.3-.5-.5l1.9-5.9h-6.7l1.9,5.9c-.2.1-.3.3-.5.5l-4.6-1.5v6.8l4.6-2.4c.1.2.3.3.5.5l-2.6,8c-.9,2.8,1.2,5.7,4.1,5.7h0c3,0,5.1-2.9,4.1-5.7l-2.6-8ZM37,37.9s-3.4,3.8-4.1,6.1c2.2,0,4.2-.5,6.4-2.8l-.7,8.5c-2-2.8-4.4-4.1-5.7-3.8.1,3.1.5,6.7,5.8,7.2,3.7.3,6.7-1.5,7-3.8.4-2.6-2-4.3-3.7-1.6-1.4-4.5,2.4-6.1,4.9-3.2-1.9-4.5-1.8-7.7,2.4-10.9,3,4,2.6,7.3-1.2,11.1,2.4-1.3,6.2,0,4,4.6-1.2-2.8-3.7-2.2-4.2.2-.3,1.7.7,3.7,3,4.2,1.9.3,4.7-.9,7-5.9-1.3,0-2.4.7-3.9,1.7l2.4-8c.6,2.3,1.4,3.7,2.2,4.5.6-1.6.5-2.8,0-5.3l5,1.8c-2.6,3.6-5.2,8.7-7.3,17.5-7.4-1.1-15.7-1.7-24.5-1.7h0c-8.8,0-17.1.6-24.5,1.7-2.1-8.9-4.7-13.9-7.3-17.5l5-1.8c-.5,2.5-.6,3.7,0,5.3.8-.8,1.6-2.3,2.2-4.5l2.4,8c-1.5-1-2.6-1.7-3.9-1.7,2.3,5,5.2,6.2,7,5.9,2.3-.4,3.3-2.4,3-4.2-.5-2.4-3-3.1-4.2-.2-2.2-4.6,1.6-6,4-4.6-3.7-3.7-4.2-7.1-1.2-11.1,4.2,3.2,4.3,6.4,2.4,10.9,2.5-2.8,6.3-1.3,4.9,3.2-1.8-2.7-4.1-1-3.7,1.6.3,2.3,3.3,4.1,7,3.8,5.4-.5,5.7-4.2,5.8-7.2-1.3-.2-3.7,1-5.7,3.8l-.7-8.5c2.2,2.3,4.2,2.7,6.4,2.8-.7-2.3-4.1-6.1-4.1-6.1h10.6,0Z"></path>
+      </g>
+    </svg>
+      <div class="govuk-footer__navigation">
+            <div class="govuk-grid-column-two-thirds govuk-!-display-none-print">
+              <h2 class="govuk-footer__heading govuk-heading-m">Services and information</h2>
+                <ul class="govuk-footer__list govuk-footer__list--columns-2">
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"1","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/benefits">Benefits</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"2","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/births-deaths-marriages">Births, death, marriages and care</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"3","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/business">Business and self-employed</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"4","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/childcare-parenting">Childcare and parenting</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"5","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/citizenship">Citizenship and living in the UK</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"6","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/justice">Crime, justice and the law</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"7","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/disabilities">Disabled people</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"8","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/driving">Driving and transport</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"9","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/education">Education and learning</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"10","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/employing-people">Employing people</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"11","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/environment-countryside">Environment and countryside</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"12","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/housing-local-services">Housing and local services</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"13","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/tax">Money and tax</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"14","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/abroad">Passports, travel and living abroad</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"15","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/visas-immigration">Visas and immigration</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"16","index_section":"1","index_section_count":"5","index_total":"16","section":"Services and information"}' href="/browse/working">Working, jobs and pensions</a>
+                      </li>
+                </ul>
+            </div>
+            <div class="govuk-grid-column-one-third govuk-!-display-none-print">
+              <h2 class="govuk-footer__heading govuk-heading-m">Government activity</h2>
+                <ul class="govuk-footer__list govuk-footer__list--columns-1">
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"1","index_section":"2","index_section_count":"5","index_total":"8","section":"Government activity"}' href="/government/organisations">Departments</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"2","index_section":"2","index_section_count":"5","index_total":"8","section":"Government activity"}' href="/search/news-and-communications">News</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"3","index_section":"2","index_section_count":"5","index_total":"8","section":"Government activity"}' href="/search/guidance-and-regulation">Guidance and regulation</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"4","index_section":"2","index_section_count":"5","index_total":"8","section":"Government activity"}' href="/search/research-and-statistics">Research and statistics</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"5","index_section":"2","index_section_count":"5","index_total":"8","section":"Government activity"}' href="/search/policy-papers-and-consultations">Policy papers and consultations</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"6","index_section":"2","index_section_count":"5","index_total":"8","section":"Government activity"}' href="/search/transparency-and-freedom-of-information-releases">Transparency</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"7","index_section":"2","index_section_count":"5","index_total":"8","section":"Government activity"}' href="/government/how-government-works">How government works</a>
+                      </li>
+                      <li class="govuk-footer__list-item">
+                        <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"8","index_section":"2","index_section_count":"5","index_total":"8","section":"Government activity"}' href="/government/get-involved">Get involved</a>
+                      </li>
+                </ul>
+            </div>
+      </div>
+
+      <hr class="govuk-footer__section-break govuk-!-display-none-print">
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          <ul class="govuk-footer__inline-list govuk-!-display-none-print">
+              <li class="govuk-footer__inline-list-item">
+                <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"1","index_section":"3","index_section_count":"5","index_total":"8","section":"Support links"}' href="/help">Help</a>
+              </li>
+              <li class="govuk-footer__inline-list-item">
+                <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"2","index_section":"3","index_section_count":"5","index_total":"8","section":"Support links"}' href="/help/privacy-notice">Privacy</a>
+              </li>
+              <li class="govuk-footer__inline-list-item">
+                <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"3","index_section":"3","index_section_count":"5","index_total":"8","section":"Support links"}' href="/help/cookies">Cookies</a>
+              </li>
+              <li class="govuk-footer__inline-list-item">
+                <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"4","index_section":"3","index_section_count":"5","index_total":"8","section":"Support links"}' href="/help/accessibility-statement">Accessibility statement</a>
+              </li>
+              <li class="govuk-footer__inline-list-item">
+                <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"5","index_section":"3","index_section_count":"5","index_total":"8","section":"Support links"}' href="/contact">Contact</a>
+              </li>
+              <li class="govuk-footer__inline-list-item">
+                <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"6","index_section":"3","index_section_count":"5","index_total":"8","section":"Support links"}' href="/help/terms-conditions">Terms and conditions</a>
+              </li>
+              <li class="govuk-footer__inline-list-item">
+                <a class="govuk-footer__link" lang="cy" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"7","index_section":"3","index_section_count":"5","index_total":"8","section":"Support links"}' href="/cymraeg">Rhestr o Wasanaethau Cymraeg</a>
+              </li>
+              <li class="govuk-footer__inline-list-item">
+                <a class="govuk-footer__link" data-ga4-link='{"event_name":"navigation","type":"footer","index_link":"8","index_section":"3","index_section_count":"5","index_total":"8","section":"Support links"}' href="/government/organisations/government-digital-service">Government Digital Service</a>
+              </li>
+          </ul>
+          <svg aria-hidden="true" focusable="false" class="govuk-footer__licence-logo" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 483.2 195.7" height="17" width="41">
+            <path
+              fill="currentColor"
+              d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145" />
+          </svg>
+          <span
+            class="govuk-footer__licence-description"
+            data-ga4-link='{"event_name":"navigation","section":"Licence","index_section":"4","index_link":"1","index_section_count":"5","text":"Open Government Licence v3.0","index_total":"1","type":"footer"}'>
+            All content is available under the <a class="govuk-footer__link" href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated
+          </span>
+      </div>
+      <div
+        class="govuk-footer__meta-item"
+        data-ga4-link='{"event_name":"navigation","section":"Copyright","index_section":"5","index_link":"1","index_section_count":"5","text":"© Crown copyright","index_total":"1","type":"footer"}'>
+        <a class="govuk-footer__link govuk-footer__copyright-logo" href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>
+      </div>
+    </div>
+  </div>
+</footer>
+    <script src="/assets/frontend/application-b09184c8490762098578a5eb91820933613fdc7285506dd2edd2c4291bd6d485.js" type="module"></script>
+</body></html>

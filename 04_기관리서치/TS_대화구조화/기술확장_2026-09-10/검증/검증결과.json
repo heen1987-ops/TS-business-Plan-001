@@ -1,0 +1,135 @@
+{
+  "testedAt": "2026-09-10T11:49:45.406Z",
+  "checks": [
+    {
+      "name": "한국어 문서·하나의 제목·본문",
+      "pass": true
+    },
+    {
+      "name": "HTML 내장 Markdown과 편집 문서 일치",
+      "pass": true
+    },
+    {
+      "name": "5개 사업군·2개 보조 기능·9개 출처",
+      "pass": true
+    },
+    {
+      "name": "기술 자산을 실행 검증으로 승격하지 않음",
+      "pass": true
+    },
+    {
+      "name": "X01 근거·기술·추가 개발·납품·비AI·실패 경계 포함",
+      "pass": true
+    },
+    {
+      "name": "X02 근거·기술·추가 개발·납품·비AI·실패 경계 포함",
+      "pass": true
+    },
+    {
+      "name": "X03 근거·기술·추가 개발·납품·비AI·실패 경계 포함",
+      "pass": true
+    },
+    {
+      "name": "X04 근거·기술·추가 개발·납품·비AI·실패 경계 포함",
+      "pass": true
+    },
+    {
+      "name": "X05 근거·기술·추가 개발·납품·비AI·실패 경계 포함",
+      "pass": true
+    },
+    {
+      "name": "출처 링크의 근거와 한계 포함",
+      "pass": true
+    },
+    {
+      "name": "DOM ID 중복 없음",
+      "pass": true
+    },
+    {
+      "name": "목차 앵커 유효",
+      "pass": true
+    },
+    {
+      "name": "로컬 파일 링크 유효",
+      "pass": true
+    },
+    {
+      "name": "연계 수준 0의 5개 납품 범위와 상태",
+      "pass": true
+    },
+    {
+      "name": "연계 수준 1의 5개 납품 범위와 상태",
+      "pass": true
+    },
+    {
+      "name": "연계 수준 2의 5개 납품 범위와 상태",
+      "pass": true
+    },
+    {
+      "name": "키보드로 연계 수준 변경",
+      "pass": true
+    },
+    {
+      "name": "기술 상세 키보드 펼침",
+      "pass": true
+    },
+    {
+      "name": "768px 본문 가로 넘침 없음",
+      "pass": true
+    },
+    {
+      "name": "768px 연계 선택 가능",
+      "pass": true
+    },
+    {
+      "name": "390px 본문 가로 넘침 없음",
+      "pass": true
+    },
+    {
+      "name": "390px 연계 선택 가능",
+      "pass": true
+    },
+    {
+      "name": "320px 본문 가로 넘침 없음",
+      "pass": true
+    },
+    {
+      "name": "320px 연계 선택 가능",
+      "pass": true
+    },
+    {
+      "name": "200% 확대 가로 넘침 없음",
+      "pass": true
+    },
+    {
+      "name": "인쇄에서 모든 상세와 연계 수준 표시",
+      "pass": true
+    },
+    {
+      "name": "인쇄 후 펼침 상태 복원",
+      "pass": true
+    },
+    {
+      "name": "JavaScript 없이 연계 3종·본문 열람",
+      "pass": true
+    },
+    {
+      "name": "JavaScript 없이 상세 펼침",
+      "pass": true
+    },
+    {
+      "name": "외부 HTTP 요청 0건",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "JavaScript 오류 0건",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "limitations": [
+    "실제 CCK·로컬 LLM·업무 API 미시험",
+    "독립 평가·실제 사용자·스크린리더·WCAG 전체 검증 미수행"
+  ]
+}

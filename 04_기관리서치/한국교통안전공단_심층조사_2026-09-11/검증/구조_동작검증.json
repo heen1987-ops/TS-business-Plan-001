@@ -1,0 +1,112 @@
+{
+  "checked_at": "2026-09-11",
+  "browser": "Microsoft Edge / Playwright headless",
+  "checks": [
+    {
+      "name": "문서 언어",
+      "pass": true
+    },
+    {
+      "name": "제목 1개",
+      "pass": true
+    },
+    {
+      "name": "본문 12개 장과 출처",
+      "pass": true
+    },
+    {
+      "name": "출처 41개",
+      "pass": true
+    },
+    {
+      "name": "외부 스크립트·스타일 없음",
+      "pass": true
+    },
+    {
+      "name": "모든 내부 앵커 연결",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "중복 ID 없음",
+      "pass": true
+    },
+    {
+      "name": "로컬 문서 연결",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "자리표시·깨진 인용 없음",
+      "pass": true
+    },
+    {
+      "name": "예산의 조건 표시",
+      "pass": true
+    },
+    {
+      "name": "데이터주권·두 적용축 유지",
+      "pass": true
+    },
+    {
+      "name": "사업 확정·제품 시험과 구별",
+      "pass": true
+    },
+    {
+      "name": "키보드 첫 이동은 본문 바로가기",
+      "pass": true
+    },
+    {
+      "name": "본문 바로가기 작동",
+      "pass": true
+    },
+    {
+      "name": "가설 장 목차 이동",
+      "pass": true
+    },
+    {
+      "name": "인용에서 출처 이동",
+      "pass": true
+    },
+    {
+      "name": "출처에서 본문 복귀",
+      "pass": true
+    },
+    {
+      "name": "인쇄 버튼 연결",
+      "pass": true
+    },
+    {
+      "name": "tablet 본문 가로 넘침 없음",
+      "pass": true
+    },
+    {
+      "name": "mobile 본문 가로 넘침 없음",
+      "pass": true
+    },
+    {
+      "name": "모바일 목차 접힘",
+      "pass": true
+    },
+    {
+      "name": "모바일 목차 펼침",
+      "pass": true
+    },
+    {
+      "name": "모바일 목차 이동",
+      "pass": true
+    },
+    {
+      "name": "페이지 스크립트 오류 없음",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "passed": 24,
+  "failed": 0,
+  "limitations": [
+    "실제 사용자 조사·스크린리더·WCAG 전체 적합성 인증 미수행",
+    "NOA 설치·LLM 실행·업무 API·부하 시험 미수행",
+    "외부 출처 접근은 조사 시점 도구·일부 원문 보존으로 확인; 모든 링크의 영속 접속 보장 아님"
+  ]
+}

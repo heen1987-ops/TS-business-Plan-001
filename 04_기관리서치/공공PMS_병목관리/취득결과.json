@@ -1,0 +1,163 @@
+[
+  {
+    "id": "PMS-S01",
+    "url": "chatgpt-conversation://6aa098d5-82b0-83e9-81af-668c665dc3b4",
+    "captured_at": "2026-09-09T10:54:54.740653+00:00",
+    "status": "별도 대화·로컬 참조 또는 미열람 첨부로 취득 제외"
+  },
+  {
+    "id": "PMS-S02",
+    "url": "https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?bcIdx=25213&cbIdx=99852&parentSeq=25213",
+    "captured_at": "2026-09-09T10:54:54.740969+00:00",
+    "content_type": "text/html;charset=utf-8",
+    "resolved_url": "https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?bcIdx=25213&cbIdx=99852&parentSeq=25213",
+    "status": "HTTP 응답 보존·본문 검토와 구별",
+    "path": "근거자료\\PMS-S02.html",
+    "bytes": 16790,
+    "sha256": "a929fbab22ad66ed84a9e9200ab0aaa723bb3c079ebe7aa56d6f779c5b0423ba"
+  },
+  {
+    "id": "PMS-S03",
+    "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000246488&admRulId=35023&joTpYn=Y&languageType=KO&chrClsCd=010202&prmlNo=2641&prmlYd=20240901&efYd=20240901",
+    "captured_at": "2026-09-09T10:54:54.741231+00:00",
+    "content_type": "text/html;charset=UTF-8",
+    "resolved_url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000246488&admRulId=35023&joTpYn=Y&languageType=KO&chrClsCd=010202&prmlNo=2641&prmlYd=20240901&efYd=20240901",
+    "status": "HTTP 응답 보존·본문 검토와 구별",
+    "path": "근거자료\\PMS-S03.html",
+    "bytes": 79489,
+    "sha256": "492eba888e6eb7c86b993fdff299d7fb69d0f0a1f85f5b072724b1c94287efd3"
+  },
+  {
+    "id": "PMS-S04",
+    "url": "https://steg.co.kr/kr/sub/product/ppms.php",
+    "captured_at": "2026-09-09T10:54:54.743172+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "resolved_url": "https://steg.co.kr/kr/sub/product/ppms.php",
+    "status": "HTTP 응답 보존·본문 검토와 구별",
+    "path": "근거자료\\PMS-S04.html",
+    "bytes": 16276,
+    "sha256": "5801fa0e11be8993ff5d7fddb2a87849ff41ca9cdd90966edb40d6481a3ab9f6"
+  },
+  {
+    "id": "PMS-S05",
+    "url": "https://watch2.co.kr/watch2project/",
+    "captured_at": "2026-09-09T10:54:54.962960+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "resolved_url": "https://watch2.co.kr/watch2project/",
+    "status": "HTTP 응답 보존·본문 검토와 구별",
+    "path": "근거자료\\PMS-S05.html",
+    "bytes": 165460,
+    "sha256": "572869be9d95bb1ffe5c682ebf23e3e5a4b9bd5eae578ddf23127d645a07397c"
+  },
+  {
+    "id": "PMS-S06",
+    "url": "https://www.acquisition.gov/far/42.1503",
+    "captured_at": "2026-09-09T10:54:55.088925+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "resolved_url": "https://www.acquisition.gov/far/42.1503",
+    "status": "HTTP 응답 보존·본문 검토와 구별",
+    "path": "근거자료\\PMS-S06.html",
+    "bytes": 170136,
+    "sha256": "e3d22ce69bd5b5c0f4a52da5d895dd80b81f1e227d526065908b5037c99e0a1a"
+  },
+  {
+    "id": "PMS-S07",
+    "url": "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900621262",
+    "captured_at": "2026-09-09T10:54:55.291514+00:00",
+    "content_type": "text/html;charset=UTF-8",
+    "resolved_url": "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900621262",
+    "status": "HTTP 응답 보존·본문 검토와 구별",
+    "path": "근거자료\\PMS-S07.html",
+    "bytes": 6307,
+    "sha256": "9e338d1e94c0586fe8b82ef743d661181578cad6c1b85de7bb75c0a3522fa7f5"
+  },
+  {
+    "id": "PMS-S08",
+    "url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900124845",
+    "captured_at": "2026-09-09T10:54:55.375135+00:00",
+    "content_type": "text/html;charset=UTF-8",
+    "resolved_url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900124845",
+    "status": "HTTP 응답 보존·본문 검토와 구별",
+    "path": "근거자료\\PMS-S08.html",
+    "bytes": 5938,
+    "sha256": "a77f4cdc776ba667c1b0599a4f5f484998a8168682d61864361f06bba5a145b7"
+  },
+  {
+    "id": "PMS-S09",
+    "url": "https://www.law.go.kr/lsLinkProc.do?chrClsCd=010202&joLnkStr=%EC%A0%9C6%EC%A1%B0&joNo=000600000&lsId=000113&lsNm=%EA%B5%90%ED%86%B5%EC%95%88%EC%A0%84%EA%B3%B5%EB%8B%A8%EB%B2%95&mode=2",
+    "captured_at": "2026-09-09T10:54:55.496577+00:00",
+    "content_type": "text/html;charset=UTF-8",
+    "resolved_url": "https://www.law.go.kr/lsLinkProc.do?chrClsCd=010202&joLnkStr=%EC%A0%9C6%EC%A1%B0&joNo=000600000&lsId=000113&lsNm=%EA%B5%90%ED%86%B5%EC%95%88%EC%A0%84%EA%B3%B5%EB%8B%A8%EB%B2%95&mode=2",
+    "status": "HTTP 응답 보존·본문 검토와 구별",
+    "path": "근거자료\\PMS-S09.html",
+    "bytes": 6359,
+    "sha256": "c5a6a6bdad7a48630ff0ae1286387da0cc6c5272809507b1653c02929bc2049a"
+  },
+  {
+    "id": "PMS-S10",
+    "url": "https://law.go.kr/LSW/flDownload.do?bylClsCd=110201&flSeq=110473155&gubun=",
+    "captured_at": "2026-09-09T10:54:55.540999+00:00",
+    "status": "별도 대화·로컬 참조 또는 미열람 첨부로 취득 제외"
+  },
+  {
+    "id": "PMS-S11",
+    "url": "https://pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=C020010000&nttId=10611",
+    "captured_at": "2026-09-09T10:54:55.541017+00:00",
+    "content_type": "text/html;charset=utf-8",
+    "resolved_url": "https://pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=C020010000&nttId=10611",
+    "status": "HTTP 응답 보존·본문 검토와 구별",
+    "path": "근거자료\\PMS-S11.html",
+    "bytes": 94838,
+    "sha256": "eb521b0262089256b62d8ed225ef2a0d6f33be487b18e78a567d5c3fbcbe385e"
+  },
+  {
+    "id": "PMS-S12",
+    "url": "https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1031810895",
+    "captured_at": "2026-09-09T10:54:55.586628+00:00",
+    "content_type": "text/html;charset=UTF-8",
+    "resolved_url": "https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1031810895",
+    "status": "HTTP 응답 보존·본문 검토와 구별",
+    "path": "근거자료\\PMS-S12.html",
+    "bytes": 13453,
+    "sha256": "871ff2eaa11c064577515e652db77de49a1809ca50f9d804eb7695f48ec561c4"
+  },
+  {
+    "id": "PMS-S13",
+    "url": "https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1031810855",
+    "captured_at": "2026-09-09T10:54:55.707906+00:00",
+    "content_type": "text/html;charset=UTF-8",
+    "resolved_url": "https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1031810855",
+    "status": "HTTP 응답 보존·본문 검토와 구별",
+    "path": "근거자료\\PMS-S13.html",
+    "bytes": 13406,
+    "sha256": "dd918503c621eb871fa155a14df38564243b27f25b6829af4359ebe41b92ef5f"
+  },
+  {
+    "id": "PMS-S14",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "captured_at": "2026-09-09T10:54:55.749535+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "resolved_url": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "status": "HTTP 응답 보존·본문 검토와 구별",
+    "path": "근거자료\\PMS-S14.html",
+    "bytes": 93781,
+    "sha256": "5e2d7b01aa72448abf978aea9a4cf8a1f3960e6b7aa7f681ee8c0a74bda070d6"
+  },
+  {
+    "id": "PMS-S15",
+    "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0067&lsiSeq=283701&urlMode=lsScJoRltInfoR",
+    "captured_at": "2026-09-09T10:54:55.891910+00:00",
+    "content_type": "text/html;charset=UTF-8",
+    "resolved_url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0067&lsiSeq=283701&urlMode=lsScJoRltInfoR",
+    "status": "HTTP 응답 보존·본문 검토와 구별",
+    "path": "근거자료\\PMS-S15.html",
+    "bytes": 75634,
+    "sha256": "0d1ba5a9a3dd7083db9443f3704e81acaea9e111000a839c0522b3f9e5c8ece8"
+  },
+  {
+    "id": "PMS-S16",
+    "url": "",
+    "captured_at": "2026-09-09T10:54:55.990217+00:00",
+    "status": "별도 대화·로컬 참조 또는 미열람 첨부로 취득 제외"
+  }
+]

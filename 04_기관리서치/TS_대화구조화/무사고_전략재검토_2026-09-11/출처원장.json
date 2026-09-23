@@ -1,0 +1,134 @@
+{
+  "date": "2026-09-11",
+  "version": "1.0",
+  "institution_id": "ORG-0001",
+  "scope": "캠페인·전략·연관 업무에 대한 선별 추가 조사. 전수조사 아님",
+  "source_count_note": "8개 기록 중 S01·S01a는 동일 보도자료의 원 게시와 재게시 PDF. 독립 근거 2건으로 계산하지 않음",
+  "distinction": "공식 업무소개 확인과 현행 법령·실제 기능·제품 수행 검증을 구별",
+  "retrieval_note": "웹 도구 본문 열람과 urllib 파일 수집 결과는 서로 다름. 수집 실패는 근거/수집기록.json 보존",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "교통안전 대한민국, 모두의 참여로 — 오늘도 무사고 통합 캠페인 선포식",
+      "publisher": "국토교통부",
+      "url": "https://www.molit.go.kr/USR/NEWS/m_71/dtl.jsp?id=95090903&lcmspage=9",
+      "date": "2025-04-29",
+      "status": "공식 검색 결과에서 제목·등록일·담당부서·첨부명 확인. 원 게시 본문 직접 열람 실패",
+      "location": "보도자료 검색 결과",
+      "claim": "국토교통부·TS 캠페인 선포 보도자료 존재",
+      "limit": "본문은 S01a 게시본으로 보완",
+      "linked_source": "S01a",
+      "accessed_at": "2026-09-11"
+    },
+    {
+      "id": "S01a",
+      "title": "국토교통부 오늘도 무사고 통합 캠페인 선포식 보도자료 PDF",
+      "publisher": "국토교통부·한국교통안전공단",
+      "host": "ITS Korea",
+      "url": "https://itskorea.kr/downloadFile.do?fileId=FILE_000000000101210&fileSn=0",
+      "date": "2025-04-29",
+      "event_date": "2025-04-30",
+      "status": "PDF 3쪽의 추출 본문 열람. 화면 캡처는 도구 내부 오류",
+      "location": "1쪽: 주최·일정·여섯 수칙 / 2쪽: 당시 활동계획 / 3쪽: 캠페인 취지·발행부서",
+      "claim": "일상 안전행동을 위한 통합 캠페인. 사망 없는 일상 지향",
+      "limit": "기관 원 호스팅이 아닌 협회 게시본. 2025년 계획을 2026년 계획으로 해석하지 않음",
+      "linked_source": "S01",
+      "accessed_at": "2026-09-11"
+    },
+    {
+      "id": "S02",
+      "title": "경영목표 및 전략체계",
+      "publisher": "한국교통안전공단",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=06020100",
+      "date": null,
+      "version": "2026–2030 중장기 경영목표 체계도",
+      "status": "공식 웹 본문 열람",
+      "location": "미션·비전·전략방향·12대 전략과제",
+      "claim": "사고 예방·안전관리·AI 전환과 국민 서비스 편익을 함께 제시",
+      "limit": "게시·개정일 미표기. 특정 LLM 사업의 승인·예산 근거가 아님",
+      "accessed_at": "2026-09-11"
+    },
+    {
+      "id": "S03",
+      "title": "TS 보도자료 목록 — 여수엑스포역 캠페인",
+      "publisher": "한국교통안전공단",
+      "url": "https://main.kotsa.or.kr/portal/bbs/report_list.do?menuCode=05010200",
+      "date": "2026-09-07",
+      "status": "목록 열람",
+      "location": "열람 당시 목록 번호 2652·제목·등록일",
+      "claim": "2026년 9월에도 해당 캠페인 관련 공식 게시 확인",
+      "limit": "개별 기사 본문·행사일·효과 미확인. 갱신되는 목록이므로 이후 페이지 위치가 달라질 수 있음",
+      "accessed_at": "2026-09-11"
+    },
+    {
+      "id": "S04",
+      "title": "운수안전컨설팅지원시스템(COSAS)",
+      "publisher": "한국교통안전공단",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01081000",
+      "date": null,
+      "status": "공식 웹 본문 열람",
+      "location": "제도소개·대상·서비스 내용·업무 흐름 설명",
+      "claim": "운수회사·지자체 안전관리와 위험 대상·점검 진행 관리 기능 소개",
+      "limit": "실제 운영 화면·API·성과·개별 LLM 기능·계약 중복은 미검증",
+      "accessed_at": "2026-09-11"
+    },
+    {
+      "id": "S05",
+      "title": "자동차검사 소개",
+      "publisher": "한국교통안전공단",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01010101",
+      "date": null,
+      "status": "공식 웹 본문 열람",
+      "location": "자동차검사란·검사목적",
+      "claim": "자동차검사의 안전 확인·사고 예방 목적과 기존 수행업무 확인",
+      "limit": "현행 법령 원문·시행일·개인별 결과·조치 API·실제 미조치 빈도 미확인",
+      "prior_source_id": "기술확장_2026-09-10/O01",
+      "accessed_at": "2026-09-11"
+    },
+    {
+      "id": "S06",
+      "title": "기계식주차장 검사 소개",
+      "publisher": "한국교통안전공단",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01030401",
+      "date": null,
+      "status": "공식 웹 본문 열람",
+      "location": "검사 소개·검사 유형·관련 서비스",
+      "claim": "주차설비 안전·성능 관련 기존 검사 업무 확인",
+      "limit": "LLM 조치 검토의 신규성·실제 현장 상태·운영권한은 확인하지 않음",
+      "accessed_at": "2026-09-11"
+    },
+    {
+      "id": "S07",
+      "title": "운수회사 교통안전담당자 교육",
+      "publisher": "한국교통안전공단",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01070101",
+      "date": null,
+      "status": "공식 웹 본문 열람",
+      "location": "교육목적·대상·교육과정",
+      "claim": "안전담당자 대상 기존 안전관리 교육 존재",
+      "limit": "현재 교육 시스템의 대화·평가 기능, 학습 효과·법정 수료 인정 조건은 미검증",
+      "accessed_at": "2026-09-11"
+    }
+  ],
+  "assessment": {
+    "claim": "X02·X04의 안전조치 이행 연결을 보완하고 X01은 접근성 가치로 검토한다",
+    "type": "조사자의 적용 판단",
+    "support": [
+      "S01a",
+      "S02",
+      "S05",
+      "S06"
+    ],
+    "counter_evidence": [
+      "S04: 기존 안전관리 기능 존재",
+      "S07: 기존 교육 존재"
+    ],
+    "not_established": [
+      "실제 미해결 문제 규모",
+      "기존 계약·기능 대비 신규성",
+      "CCK 로컬 제품 수행성",
+      "사고 감소 효과"
+    ],
+    "new_hypothesis": "H01 상황별 안전학습·이해 확인. 조사 가설이며 신규사업 집계·기존 비용에 미포함"
+  }
+}

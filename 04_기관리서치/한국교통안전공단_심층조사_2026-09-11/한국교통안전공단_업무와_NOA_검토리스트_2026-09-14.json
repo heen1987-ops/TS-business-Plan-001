@@ -1,0 +1,375 @@
+{
+  "prepared_at": "2026-09-14",
+  "evidence_as_of": "2026-09-11",
+  "scope": "공식 7개 대분류와 조사한 22개 업무 묶음. 공식 세부 사업 총수·전수검토 아님.",
+  "categories": [
+    "도로 교통안전 관리",
+    "철도교통안전 관리",
+    "항공 교통안전 관리",
+    "자동차 검사",
+    "자동차 안전시험·연구",
+    "교통정보 서비스",
+    "교통안전 체험교육"
+  ],
+  "items": [
+    {
+      "id": "TS-L01",
+      "category": "도로 교통안전 관리",
+      "business": "운수회사 교통수단안전점검",
+      "verified_work": "서류·현장 점검, 조치 이행 확인과 사후관리",
+      "noa_hypothesis": "지적사항과 전자문서 증빙의 대응·상충·누락 후보 제시",
+      "conditions": "COSAS·현행 사후관리와 중복 대조, 현장 적합 판정 제외",
+      "source_ids": [
+        "TSDR-011",
+        "TSDR-008"
+      ],
+      "sources": [
+        11,
+        8
+      ]
+    },
+    {
+      "id": "TS-L02",
+      "category": "도로 교통안전 관리",
+      "business": "사업용 운전자 검사·자격",
+      "verified_work": "운전적성정밀검사, 화물 등 사업용 자격의 시험·교육·발급",
+      "noa_hypothesis": "이용자 조건에 따른 다음 절차 설명과 신청 입력 지원",
+      "conditions": "기존 상담 과업·실제 처리 API 확인, 자격 판정은 규칙·담당자",
+      "source_ids": [
+        "TSDR-012",
+        "TSDR-007"
+      ],
+      "sources": [
+        12,
+        7
+      ]
+    },
+    {
+      "id": "TS-L03",
+      "category": "도로 교통안전 관리",
+      "business": "위험물질 운송 안전관리",
+      "verified_work": "운송계획서·단말 준수사항 확인, 지자체 합동점검",
+      "noa_hypothesis": "운송계획·점검·인계 기록의 누락과 상충 검토",
+      "conditions": "TS-BIZ-007과 대조, 단말·위치관제·긴급 지휘 제외",
+      "source_ids": [
+        "TSDR-041",
+        "TSDR-031"
+      ],
+      "sources": [
+        41,
+        31
+      ]
+    },
+    {
+      "id": "TS-L04",
+      "category": "철도교통안전 관리",
+      "business": "철도 안전관리체계 검사",
+      "verified_work": "운영기관의 체계에 대한 서류·현장 검사",
+      "noa_hypothesis": "기준·제출 문서·지적사항·조치 증빙 연결",
+      "conditions": "기존 검사시스템과 중복 확인, 검사관 최종 판단 유지",
+      "source_ids": [
+        "TSDR-018"
+      ],
+      "sources": [
+        18
+      ]
+    },
+    {
+      "id": "TS-L05",
+      "category": "철도교통안전 관리",
+      "business": "철도 시설·시험운행·역사 평가",
+      "verified_work": "안전진단, 시험운행 결과검토, 정밀진단·성능평가 및 역사 평가",
+      "noa_hypothesis": "평가 자료의 근거 위치 검색·기준 대조 초안",
+      "conditions": "전문가 모집 공고로 업무 확인, AI 수요·설비진단 성능은 미확인",
+      "source_ids": [
+        "TSDR-020"
+      ],
+      "sources": [
+        20
+      ]
+    },
+    {
+      "id": "TS-L06",
+      "category": "철도교통안전 관리",
+      "business": "철도안전 자율보고",
+      "verified_work": "잠재 위험 접수, 분석·개선 및 신고자 보호",
+      "noa_hypothesis": "위해요인 구조화, 유사사례 검색, 전파용 사례 초안",
+      "conditions": "H03 검증 대상, 원본 보호·목적별 권한·재식별 검토",
+      "source_ids": [
+        "TSDR-019"
+      ],
+      "sources": [
+        19
+      ]
+    },
+    {
+      "id": "TS-L07",
+      "category": "항공 교통안전 관리",
+      "business": "항공종사자 자격",
+      "verified_work": "자격증명 시험 등 항공 자격 업무",
+      "noa_hypothesis": "구비자료·절차·진행상태 설명과 처리 지원",
+      "conditions": "업무별 법적 권한·자격 규칙·API 확인, 일반 면허 업무와 구분",
+      "source_ids": [
+        "TSDR-003"
+      ],
+      "sources": [
+        3
+      ]
+    },
+    {
+      "id": "TS-L08",
+      "category": "항공 교통안전 관리",
+      "business": "항공안전 자율보고",
+      "verified_work": "자율보고의 전문 분석과 일반화된 안전정보 전파",
+      "noa_hypothesis": "사건·위해요인 정리, 전문가 검토용·전파용 초안 분리",
+      "conditions": "H03 검증 대상, 의무보고 대체·원인 확정·자동 공개 제외",
+      "source_ids": [
+        "TSDR-021"
+      ],
+      "sources": [
+        21
+      ]
+    },
+    {
+      "id": "TS-L09",
+      "category": "항공 교통안전 관리",
+      "business": "드론 기체신고·안전·교육",
+      "verified_work": "기체 신고·변경·말소, 자격·안전·교육 관련 안내",
+      "noa_hypothesis": "규칙과 서류·상태 연결, 동의하에 다음 처리 지원",
+      "conditions": "기존 드론 민원 안내 후보 유보 유지, 비행 승인과 구분",
+      "source_ids": [
+        "TSDR-022",
+        "TSDR-031"
+      ],
+      "sources": [
+        22,
+        31
+      ]
+    },
+    {
+      "id": "TS-L10",
+      "category": "자동차 검사",
+      "business": "자동차검사·예약·튜닝",
+      "verified_work": "검사 예약, 정기·종합·신규검사, 튜닝·재검사 등",
+      "noa_hypothesis": "가능 상태 설명, 결과·재검사 안내, 조건 입력 보조",
+      "conditions": "예약 UI·원천 API 우선, 튜닝 민원 안내 유보, 검사 판정 제외",
+      "source_ids": [
+        "TSDR-013",
+        "TSDR-035",
+        "TSDR-039",
+        "TSDR-031"
+      ],
+      "sources": [
+        13,
+        35,
+        39,
+        31
+      ]
+    },
+    {
+      "id": "TS-L11",
+      "category": "자동차 검사",
+      "business": "기계식주차장 검사·안전",
+      "verified_work": "설계서 안전도 심사, 사용·정기·정밀안전검사와 교육",
+      "noa_hypothesis": "제출자료·기준·조치 문서 대조",
+      "conditions": "기존 AI 상담·검사시스템 확인, 도면·사진 판독 제외",
+      "source_ids": [
+        "TSDR-014",
+        "TSDR-007"
+      ],
+      "sources": [
+        14,
+        7
+      ]
+    },
+    {
+      "id": "TS-L12",
+      "category": "자동차 안전시험·연구",
+      "business": "제작결함조사·리콜·소비자 보호",
+      "verified_work": "결함정보 수집·분석, 조사와 교환·환불 중재 관련 업무",
+      "noa_hypothesis": "결함 서술·수리 이력·안전기준의 근거 검색과 검토 초안",
+      "conditions": "기존 리콜 AI 상담과 대조, 결함 원인·리콜 필요성 자동 확정 제외",
+      "source_ids": [
+        "TSDR-015",
+        "TSDR-007"
+      ],
+      "sources": [
+        15,
+        7
+      ]
+    },
+    {
+      "id": "TS-L13",
+      "category": "자동차 안전시험·연구",
+      "business": "자동차 자기인증 지원",
+      "verified_work": "자기인증 적합조사 및 제작자 절차·서류 안내",
+      "noa_hypothesis": "제작자별 제출자료 점검과 기준·서식 변경 영향 확인",
+      "conditions": "기존 영상·문서 안내 대비 추가 가치, H01 수요 확인",
+      "source_ids": [
+        "TSDR-015",
+        "TSDR-040"
+      ],
+      "sources": [
+        15,
+        40
+      ]
+    },
+    {
+      "id": "TS-L14",
+      "category": "자동차 안전시험·연구",
+      "business": "자동차 안전도평가·미래차 연구",
+      "verified_work": "시험·안전도평가, 자율주행·사이버보안 관련 연구 기반",
+      "noa_hypothesis": "연구·시험 문서와 기준의 검색·변경 영향 검토",
+      "conditions": "시험설비·차량제어·센서·영상 개발 제외, 개별 수탁·데이터 권한 확인",
+      "source_ids": [
+        "TSDR-015",
+        "TSDR-016"
+      ],
+      "sources": [
+        15,
+        16
+      ]
+    },
+    {
+      "id": "TS-L15",
+      "category": "자동차 안전시험·연구",
+      "business": "배터리 정보·소유자 관리",
+      "verified_work": "배터리 식별번호 확인 및 소유자 자율관리 안내",
+      "noa_hypothesis": "확인 절차·준비자료·공식 관리정보 설명",
+      "conditions": "실시간 상태·잔존수명·화재위험 예측 데이터 확보로 해석 금지",
+      "source_ids": [
+        "TSDR-017"
+      ],
+      "sources": [
+        17
+      ]
+    },
+    {
+      "id": "TS-L16",
+      "category": "교통정보 서비스",
+      "business": "운행기록·교통·자동차 정보",
+      "verified_work": "ETAS 위험운전 분석, TAGO·TIMS·자동차 정보 등",
+      "noa_hypothesis": "권한이 허용된 분석 결과의 설명, 기준과 이력 연결",
+      "conditions": "ETAS 분석·교육 전후 비교 중복 제외, 시스템별 권한 유지",
+      "source_ids": [
+        "TSDR-003",
+        "TSDR-009"
+      ],
+      "sources": [
+        3,
+        9
+      ]
+    },
+    {
+      "id": "TS-L17",
+      "category": "교통정보 서비스",
+      "business": "COSAS 운수안전 협업",
+      "verified_work": "TS·지자체·운수회사 자료 공유 및 진행상황 관리",
+      "noa_hypothesis": "기존 기록 사이의 증빙 대조 보조 가능성 검토",
+      "conditions": "별도 협업 포털·일정·조치 추적을 신규 기능으로 재포장 금지",
+      "source_ids": [
+        "TSDR-008"
+      ],
+      "sources": [
+        8
+      ]
+    },
+    {
+      "id": "TS-L18",
+      "category": "교통정보 서비스",
+      "business": "K-패스",
+      "verified_work": "대중교통비 환급 관련 이용 지원",
+      "noa_hypothesis": "대상·신청 절차·확정 처리결과 설명",
+      "conditions": "환급 계산은 기존 규칙·시스템, 개인별 데이터·연계 권한 확인",
+      "source_ids": [
+        "TSDR-023"
+      ],
+      "sources": [
+        23
+      ]
+    },
+    {
+      "id": "TS-L19",
+      "category": "교통정보 서비스",
+      "business": "DRT 지원플랫폼",
+      "verified_work": "지자체 수요응답형 교통의 정산·예약·운행 지원",
+      "noa_hypothesis": "이용 조건·예약 대안·처리상태 설명",
+      "conditions": "배차·정산 엔진 및 차량 공급 확대 제외, 현행 플랫폼과 대조",
+      "source_ids": [
+        "TSDR-024"
+      ],
+      "sources": [
+        24
+      ]
+    },
+    {
+      "id": "TS-L20",
+      "category": "교통정보 서비스",
+      "business": "데이터 개방센터",
+      "verified_work": "자동차 생애주기 등 데이터의 통제된 분석 이용 지원",
+      "noa_hypothesis": "허용 범위 내 자료 설명·검색·분석 결과 해설",
+      "conditions": "원본 반출 제한·제공결정 준수, 자유로운 LLM 학습 권한 아님",
+      "source_ids": [
+        "TSDR-025"
+      ],
+      "sources": [
+        25
+      ]
+    },
+    {
+      "id": "TS-L21",
+      "category": "교통안전 체험교육",
+      "business": "교통안전 체험교육",
+      "verified_work": "사업용 운수종사자 등 대상 현장·실기 교육",
+      "noa_hypothesis": "신청·교육 자료 검색, 승인된 교육 내용의 맞춤 설명",
+      "conditions": "현장 실기·숙련 평가 대체 제외, 기존 민원·교육 시스템과 대조",
+      "source_ids": [
+        "TSDR-026"
+      ],
+      "sources": [
+        26
+      ]
+    },
+    {
+      "id": "TS-L22",
+      "category": "교통안전 체험교육",
+      "business": "배달업 이륜차 교육",
+      "verified_work": "2026년 배달업 이륜차 전문강사 양성 교육생 모집 확인",
+      "noa_hypothesis": "교육 신청 지원과 승인된 사례·교재 정리",
+      "conditions": "모집 공고를 AI 발주 수요로 간주하지 않음",
+      "source_ids": [
+        "TSDR-027"
+      ],
+      "sources": [
+        27
+      ]
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H01",
+      "title": "안전기준 변경과 서비스 반영 확인",
+      "input_output": "개정 전후 기준·적용일·업무문서 → 영향 후보·원문 위치·반영 상태",
+      "gate": "실제 개정 사례와 영향 문서, 기존 플랫폼 기능을 확인",
+      "status": "검증 전 가설",
+      "registered_as_new_opportunity": false
+    },
+    {
+      "id": "H02",
+      "title": "안전점검 개선조치의 증빙 대조",
+      "input_output": "지적사항·전자문서 증빙 → 대응·누락·상충·판단불가 항목",
+      "gate": "COSAS·검사시스템 중복과 실제 반복 대조 문제부터 확인",
+      "status": "검증 전 가설",
+      "registered_as_new_opportunity": false
+    },
+    {
+      "id": "H03",
+      "title": "안전 자율보고의 보호된 사례 전환",
+      "input_output": "허용된 보고서 → 구조화 요약·유사사례·전파용 초안",
+      "gate": "이용 목적·신고자 보호·기존 분석 기능·전문가 승인 확인",
+      "status": "검증 전 가설",
+      "registered_as_new_opportunity": false
+    }
+  ],
+  "actual_product_test_runs": 0
+}

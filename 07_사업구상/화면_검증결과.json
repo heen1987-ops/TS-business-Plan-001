@@ -1,0 +1,301 @@
+{
+  "checked_at": "2026-09-09T08:45:44.376Z",
+  "pass": true,
+  "passed": 58,
+  "total": 58,
+  "checks": [
+    {
+      "name": "현행 검토대상 5개 ID",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "유보·제외 3건 이력 분리",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "입력 최신성 05_통합사업기획/사업포트폴리오.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "입력 최신성 06_심층리서치/01_후보별/후보분석_원장.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "입력 최신성 06_심층리서치/03_도입사례/사례원장.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "입력 최신성 06_심층리서치/02_공통솔루션/솔루션원장.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "입력 최신성 04_기관리서치/관계도/TS_검토관계.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "입력 최신성 04_기관리서치/관계도/기관법령_관계원장.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "입력 최신성 00_기획지침/신규사업_범위와_중복배제.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "입력 최신성 07_사업구상/기획_보완.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "입력 최신성 07_사업구상/생성_사업구상.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "입력 최신성 07_사업구상/국민체감_재검토.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "입력 최신성 00_기획지침/국민체감형_AX_선정기준.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "입력 최신성 07_사업구상/고령자_민원완결_AX_구상.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "출력 무결성 TS_신규사업_마인드맵.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "출력 무결성 TS_사업화_흐름도.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "출력 무결성 TS_신규사업_마인드맵.mmd",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "출력 무결성 사업기획_구상서.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "출력 무결성 사업기획_구상보기.html",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "사업 카드 수",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "국민 중심 제목·첫 질문",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "기존 후보의 차등 재검토",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "이전 구현 가설은 기본 접힘",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "AX 2건·디지털전환 3건",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "후보별 이동 TS-BIZ-002",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "필수 기획 항목 TS-BIZ-002",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "국민 WHY·효율성·파급력 TS-BIZ-002",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "후보별 이동 TS-BIZ-004",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "필수 기획 항목 TS-BIZ-004",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "국민 WHY·효율성·파급력 TS-BIZ-004",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "후보별 이동 TS-BIZ-005",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "필수 기획 항목 TS-BIZ-005",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "국민 WHY·효율성·파급력 TS-BIZ-005",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "후보별 이동 TS-BIZ-006",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "필수 기획 항목 TS-BIZ-006",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "국민 WHY·효율성·파급력 TS-BIZ-006",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "후보별 이동 TS-BIZ-007",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "필수 기획 항목 TS-BIZ-007",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "국민 WHY·효율성·파급력 TS-BIZ-007",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "키보드 목차 이동",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "키보드 후보 이동",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "키보드 상세 열기",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "키보드 상세 닫기",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "로컬 문서·그림·목차 링크",
+      "pass": true,
+      "detail": {
+        "count": 66,
+        "invalid": []
+      }
+    },
+    {
+      "name": "데스크톱 본문 가로 넘침 없음",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "768px 본문 가로 넘침 없음",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "360px 본문 가로 넘침 없음",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "360px 기획 2열 표 전체 폭 읽기",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "360px 도식 대체 후보 목록 5개",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "320px 본문 가로 넘침 없음",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "320px 기획 2열 표 전체 폭 읽기",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "320px 도식 대체 후보 목록 5개",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TS_신규사업_마인드맵.svg 텍스트가 노드 영역 안에 배치",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "TS_신규사업_마인드맵.svg 접근성 제목·설명",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TS_사업화_흐름도.svg 텍스트가 노드 영역 안에 배치",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "TS_사업화_흐름도.svg 접근성 제목·설명",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "스크립트 오류 없음",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "외부 네트워크 호출 없음",
+      "pass": true,
+      "detail": []
+    }
+  ]
+}

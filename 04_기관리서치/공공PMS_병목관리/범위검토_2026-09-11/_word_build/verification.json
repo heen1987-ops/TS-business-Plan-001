@@ -1,0 +1,48 @@
+{
+  "source_checks": {
+    "requirements_total": 58,
+    "y1": 46,
+    "y1_m": 44,
+    "y1_c": 2,
+    "later": 12,
+    "open_items": 14,
+    "acceptance_total": 116,
+    "y1_dependencies_outside_y1": [],
+    "source_sha256": "218e5bcb6b68d40d2d61308409e00b53058c15812c9eebe8c4346f3512cb7280"
+  },
+  "documents": [
+    {
+      "file": "Public_AI_PMS_미확정사항_검토표_v0.1.docx",
+      "sha256": "22f6b838cae191a14699be2f61c8ee31fe6517b388c13e8dc4d56c9bb23b59d7",
+      "pages": 9,
+      "checks": {
+        "text_preserved": true,
+        "editable": true,
+        "repeat_table_headers": true,
+        "no_fixed_row_heights": true,
+        "no_tool_citation_tokens": true,
+        "title_style": true,
+        "no_orphan_pages": true
+      },
+      "missing": [],
+      "sparse_pages": []
+    },
+    {
+      "file": "Public_AI_PMS_1차개발범위_정의서_v0.1.docx",
+      "sha256": "7dff4112d8355123746821087f7d85726c672d6fdd51d70d4f2c3401018dbca9",
+      "pages": 10,
+      "checks": {
+        "text_preserved": true,
+        "editable": true,
+        "repeat_table_headers": true,
+        "no_fixed_row_heights": true,
+        "no_tool_citation_tokens": true,
+        "title_style": true,
+        "no_orphan_pages": true
+      },
+      "missing": [],
+      "sparse_pages": []
+    }
+  ],
+  "source_unchanged": true
+}

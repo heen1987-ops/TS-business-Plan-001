@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head prefix="og: http://ogp.me/ns#">
+<meta charset="UTF-8" />
+<title>After-Sales Services | IHI Parking Systems</title>
+<meta name="keywords" content="mechanized parking systems, mechanical parking systems, automated parking, automatic parking" />
+<meta name="description" content="IHI Group has been providing maintenance service in Japan for more than 50 years. Through our rich experience and knowhow, we will also provide high quality after sales service in Southeast Asia." />
+
+<!-- [ ogp ] -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{URL}" />
+<meta property="og:title" content="IHI Parking Systems" />
+<meta property="og:image" content="{ogp_image}" />
+<meta property="og:description" content="{description}" />
+<meta property="og:site_name" content="IHI Parking Systems" />
+<!-- [ ogp end ] -->
+
+<!-- head_setting.inc -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<link rel="shortcut icon" href="../i/favicon.ico" type="" />
+<link rel="stylesheet" href="../styles/main.css" media="all" />
+<link rel="stylesheet" href="../styles/global.css" media="all" />
+<link rel="stylesheet" href="../styles/print.css" media="print" />
+
+<!-- Plugins or Flameworks -->
+<script src="../scripts/vendor/lib.js"></script>
+<script src="../scripts/main.js"></script>
+<script type="text/javascript" src="https://i25.dga.jp/ihi/search_tool.js" charset="UTF-8"></script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TH4TN6');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body class="en">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TH4TN6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="base" class="base"> 
+  
+  <!-- include/header.inc -->
+  <div id="header" class="header">
+    <div class="header__body">
+      <div class="header__body__logo">
+        <p><img src="../i/logo_main.png" width="360" height="60" alt="IHI Parking Systems"></p>
+      </div>
+      <div class="header__body__left">
+        <p class="logo"><a href="../index.html"><img src="../i/logo_ihi.png" alt="IHI Realize your dreams" /></a></p>
+      </div>
+      <!-- /.header__body__left -->
+      <div class="header__body__right headerUtility">
+        <div class="headerUtility__item">
+          <ul class="h-linkList">
+            <li class="h-linkList__item"><a href="../index.html" class="h-linkList__item__link icon-home">Home</a></li>
+            <!--<li class="h-linkList__item"><a href="index.html" class="h-linkList__item__link icon-news">News</a></li>-->
+            <li class="h-linkList__item"><a href="../download/index.html" class="h-linkList__item__link icon-book">Download Documents</a></li>
+            <li class="h-linkList__item"><a href="../contact/index.html" class="h-linkList__item__link icon-mail">Contact Us</a></li>
+            <li class="h-linkList__item"><a href="javascript:void(0);" class="h-linkList__item__link icon-global navGlobal__box__link" data-name="#global">Global</a></li>
+          </ul>
+          <!-- /.h-linkList --> 
+        </div>
+        <!-- /.headerUtility__item --> 
+      </div>
+      <!-- /.header__body__left --> 
+    </div>
+    <!-- /.header__body --> 
+    
+    <a href="javascript:void(0);" class="btn-gnavOpen"><img src="../i/menu.png" height="30" width="30" alt="Menu" /></a> </div>
+  <!-- /#header -->
+  
+  <h1 class="hide">IHI Parking Systems</h1>
+  <nav id="navGlobal" class="navGlobal">
+    <div class="navGlobal__body">
+      <ul class="listGnav">
+      	<li class="listGnav__item"> <a href="../about/index.html" class="listGnav__item__link" data-id="topics"><span class="listGnav__item__link__body">About Us</span></a> </li>
+        <li class="listGnav__item"> <a href="../products/index.html" class="listGnav__item__link" data-id="topics"><span class="listGnav__item__link__body">Products</span></a> </li>
+        <li class="listGnav__item"> <a href="index.html" class="listGnav__item__link" data-id="topics"><span class="listGnav__item__link__body">After-Sales Services</span></a> </li>
+        <li class="listGnav__item"> <a href="../news/index.html" class="listGnav__item__link" data-id="topics"><span class="listGnav__item__link__body">News</span></a> </li>
+      </ul>
+      <!-- /.listGnav --> 
+    </div>
+    <!-- /.navGlobal__body -->
+    <div class="navGlobal__foot">
+      <ul class="h-linkList">
+        <li class="h-linkList__item"><a href="../index.html" class="h-linkList__item__link icon-home">Home</a></li>
+        <!--<li class="h-linkList__item"><a href="ihi/all_news/" class="h-linkList__item__link icon-news">News</a></li>-->
+        <li class="h-linkList__item"><a href="#" class="h-linkList__item__link icon-book">Download Documents</a></li>
+        <li class="h-linkList__item"><a href="#" class="h-linkList__item__link icon-mail">Contact Us</a></li>
+        <li class="h-linkList__item"><a href="javascript:void(0);" class="h-linkList__item__link icon-global navGlobal__box__link" data-name="#global">Global</a></li>
+      </ul>
+      <!-- /.h-linkList --> 
+    </div>
+    <!-- /.navGlobal__foot -->
+    <div id="global" class="navGlobal__box">
+      <div class="navGlobal__box__body">
+        <h3>IHI Parking Systems</h3>
+        <div class="h-global_select">
+          <div class="h-global_select__item">
+            <ul class="linkList">
+              <li><a href="../th/index.html">Thai</a></li>
+            </ul>
+            <!-- /.h-global__item --> 
+          </div>
+          <hr>
+        </div>
+        <!-- /.h-global -->
+        <h3>IHI Group Global Network</h3>
+        <div class="h-global">
+          <div class="h-global__item">
+            <p>IHI Website</p>
+            <ul class="linkList">
+              <li><a href="http://www.ihi.co.jp/en/" target="_blank">English</a></li>
+              <li><a href="http://www.ihi.co.jp/" target="_blank">Japanese</a></li>
+            </ul>
+            <!-- /.h-global__item --> 
+          </div>
+          <div class="h-global__item">
+            <p>Regional HQ’s Websites</p>
+            <ul class="linkList">
+              <li><a href="http://www.ihiincus.com/" target="_blank">AMERICAS (English)</a></li>
+              <li><a href="http://www.ihi-china.cn/" target="_blank">CHINA (Chinese)</a></li>
+              <li><a href="http://www.ihi.co.jp/ihiap/" target="_blank">ASIA PACIFIC (English)</a></li>
+            </ul>
+            <!-- /.h-global__item --> 
+          </div>
+          <div class="h-global__item">
+            <p>OTHER</p>
+            <ul class="linkList">
+              <li><a href="http://www.ihi.co.jp/en/company/offices/#offices03" target="_blank">Overseas Offices</a></li>
+              <li><a href="http://www.ihi.co.jp/en/company/offices/#offices04" target="_blank">Main Overseas Subsidiaries / Main Overseas Joint Ventures</a></li>
+            </ul>
+            <!-- /.h-global__item --> 
+          </div>
+        </div>
+        <!-- /.h-global --> 
+      </div>
+      <!-- /.navGlobal__box__body -->
+      <div class="navGlobal__box__footer"><a href="javascript:void(0);" class="navGlobal__box__footer__close">Close</a></div>
+      <!-- /.navGlobal__box__footer --> 
+    </div>
+    <!-- /#global --> 
+  </nav>
+  <!-- /#navGlobal -->
+  
+  <div id="breadCrumb" class="breadCrumb">
+    <div class="breadCrumb__body">
+      <ol class="listBreadCrumb" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+        <li class="listBreadCrumb__item"><a href="../index.html" class="listBreadCrumb__item__link" itemprop="url"><span itemprop="title">Home</span></a></li>
+        <li class="listBreadCrumb__item"><span itemprop="title">After-Sales Services</span></li>
+      </ol>
+    </div>
+    <!-- /.breadCrumb__body --> 
+  </div>
+  <!-- /.breadCrumb -->
+  
+  <div id="main" class="main">
+    <div class="main__body">
+      <div id="content" class="content">
+        <div class="content__body">
+          <h1>After-Sales Services</h1>
+          <p class="text-center"><img src="i/service_img01.jpg" alt="Maintenance" /></p>
+          
+          <div class="row">
+			<div class="col width-9">
+          	<p>Regular care is key to keep mechanical / automated parking system in good conditions in the long run.<br>
+            IHI's After-Sales Services, such as Preventive Maintenance package, helps to reduce malfunctions which may cause unexpected expenditures.<br>
+            It is very important for systems to be maintained by authorized and professional technicians.<br>
+			Emergency call-outs are available upon request.</p>
+            </div>
+			<div class="col width-3 text-center"><img src="i/services_mainte-illust.jpg" alt="Maintenance" />
+			</div>
+		</div>
+        
+          <div class="linkBlock size-s">
+            <div class="linkBlock__item">
+              <!--<p class="linkBlock__item__image"><img src="../i/sample/sample-img_02.png" alt=""></p>-->
+              <p class="linkBlock__item__title product_ptitle" style="font-size:15px;font-weight:bold;">Preventive Maintenance Service</p>
+              <p>Regular care is essential for safe use of mechanical / automated parking system.<br>
+IHI' s experience from Japan can help you sustain the system for longer period of time.</p>
+            </div>
+            <div class="linkBlock__item">
+              <!--<p class="linkBlock__item__image"><img src="../i/sample/sample-img_02.png" alt=""> </p>-->
+              <p class="linkBlock__item__title product_ptitle" style="font-size:15px;font-weight:bold;">24-Hour Emergency Response Service</p>
+              <p>IHI' s experienced team is on standby 24 hours, 7 days a week just in case of emergency.<br>
+IHI Parking System is also remotely monitored, to lessen client' s stress in case of emergency.</p>
+            </div>
+            <div class="linkBlock__item">
+              <!--<p class="linkBlock__item__image"><img src="../i/sample/sample-img_02.png" alt=""></p>-->
+              <p class="linkBlock__item__title product_ptitle" style="font-size:15px;font-weight:bold;">Refurbishment Service</p>
+              <p>Having trouble with existing system? IHI can help you refurbish the existing system.</p>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col width-12 text-center"><a href="../contact/index.html" target="_blank" class="btn">Contact Us</a></div>
+          </div>
+               
+        </div>
+        <!-- /.content__body --> 
+      </div>
+      <!-- /.content --> 
+      
+    </div>
+    <!-- /.main__body --> 
+  </div>
+  
+  <!-- include/footer.inc -->
+  <div class="returnTop">
+    <p class="returnTop__body"><a href="#base" class="returnTop__body__link">BACK to TOP</a></p>
+  </div>
+  <!-- /.returnTop -->
+  
+  <footer id="footer" class="footer">
+    <div class="footer__top">
+      <div class="footer__top__body">
+        <div class="f-sitemap">
+          <div class="f-sitemap__item size-quarter">
+            <div class="f-accordion">
+              <div class="f-accordion__head">
+                <h2 class="f-accordion__head__btn"><a href="javascript:void(0);" class="f-accordion__head__btn__link" data-href="#fSitemap_01">About Us</a></h2>
+              </div>
+              <div id="fSitemap_01" class="f-accordion__body">
+                <ul class="f-linkList">
+                  <li class="f-linkList__item"><a href="../about/index.html" class="f-linkList__item__link">About Us TOP</a></li>
+                  <li class="f-linkList__item"><a href="../about/company/index.html" class="f-linkList__item__link">Company</a></li>
+                  <li class="f-linkList__item"><a href="../about/message/index.html" class="f-linkList__item__link">Top Message</a></li>
+                  <li class="f-linkList__item"><a href="../about/history/index.html" class="f-linkList__item__link">History</a></li>
+                </ul>
+                <!-- /.f-linkList --> 
+              </div>
+            </div>
+            <!-- /.f-accordion --> 
+          </div>
+          <!-- /.f-sitemap__item -->
+          
+          <div class="f-sitemap__item size-quarter">
+            <div class="f-accordion">
+              <div class="f-accordion__head">
+                <h2 class="f-accordion__head__btn"><a href="javascript:void(0);" class="f-accordion__head__btn__link" data-href="#fSitemap_02">Products</a></h2>
+              </div>
+              <div id="fSitemap_02" class="f-accordion__body">
+                <ul class="f-linkList">
+                  <li class="f-linkList__item"><a href="../products/index.html" class="f-linkList__item__link">Products TOP</a></li>
+                  <li class="f-linkList__item"><a href="../products/tower-parking/index.html" class="f-linkList__item__link">Above-Ground Use:<br>IHI TOWER PARKING SYSTEM</a></li>
+                  <li class="f-linkList__item"><a href="../products/multi-storey-parking/index.html" class="f-linkList__item__link">Outdoor Use:<br>IHI MULTI-STOREY PARKING SYSTEM</a></li>
+                  <li class="f-linkList__item"><a href="../products/underground-parking/index.html" class="f-linkList__item__link">Underground Use:<br>IHI SUPER SQUARE PARKING SYSTEM</a></li>
+                </ul>
+                <!-- /.f-linkList --> 
+              </div>
+            </div>
+            <!-- /.f-accordion --> 
+          </div>
+          <!-- /.f-sitemap__item -->
+          
+          <div class="f-sitemap__item size-quarter">
+            <div class="f-accordion">
+              <div class="f-accordion__head">
+                <h2 class="f-accordion__head__btn"><a href="javascript:void(0);" class="f-accordion__head__btn__link" data-href="#fSitemap_03">After-Sales Services</a></h2>
+              </div>
+              <div id="fSitemap_03" class="f-accordion__body">
+                <ul class="f-linkList">
+                  <li class="f-linkList__item"><a href="index.html" class="f-linkList__item__link">After-Sales Services TOP</a></li>
+                </ul>
+                <!-- /.f-linkList --> 
+              </div>
+            </div>
+            <!-- /.f-accordion --> 
+          </div>
+          <!-- /.f-sitemap__item -->
+          
+          <div class="f-sitemap__item size-quarter">
+            <div class="f-accordion">
+              <div class="f-accordion__head">
+                <h2 class="f-accordion__head__btn"><a href="javascript:void(0);" class="f-accordion__head__btn__link" data-href="#fSitemap_04">News</a></h2>
+              </div>
+              <div id="fSitemap_04" class="f-accordion__body">
+                <ul class="f-linkList">
+                  <li class="f-linkList__item"><a href="../news/index.html" class="f-linkList__item__link">News TOP</a></li>
+                </ul>
+                <!-- /.f-linkList --> 
+              </div>
+            </div>
+            <!-- /.f-accordion --> 
+            
+          </div>
+          <!-- /.f-sitemap__item --> 
+          
+        </div>
+        <!-- /.f-sitemap --> 
+      </div>
+      <!-- /.footer__top__body --> 
+    </div>
+    <!-- /.footer__top -->
+    
+    <div class="footer__middle">
+      <div class="footer__middle__body">
+        <ul class="f-linkList for-inline">
+          <li class="f-linkList__item"><a href="../download/index.html" class="f-linkList__item__link"><span class="f-linkList__item__link__body">Download Documents</span></a></li>
+          <li class="f-linkList__item"><a href="../contact/index.html" class="f-linkList__item__link"><span class="f-linkList__item__link__body">Contact Us</span></a></li>
+        </ul>
+      </div>
+      <!-- /.footer__middle__body --> 
+    </div>
+    <!-- /.footer__middle -->
+    
+    <div class="footer__bottom">
+      <div class="footer__bottom__body">
+        <div class="footer__bottom__body__left">
+          <ul class="f-linkList for-inline">
+            <li class="f-linkList__item"><a href="../sitemap/index.html" class="f-linkList__item__link">Sitemap</a></li>
+            <li class="f-linkList__item"><a href="../privacy/index.html" class="f-linkList__item__link">Privacy Policy</a></li>
+            <li class="f-linkList__item"><a href="../sitepolicy/index.html" class="f-linkList__item__link">Terms of Use</a></li>
+          </ul>
+        </div>
+        <!-- /.footer__bottom__body__left -->
+        <div class="footer__bottom__body__right">
+          <p class="copyright">All rights reserved, Copyright &copy; IHI Corporation</p>
+        </div>
+        <!-- /.footer__bottom__body__left --> 
+      </div>
+      <!-- /.footer__bottom__body --> 
+    </div>
+    <!-- /.footer__bottom --> 
+  </footer>
+  <!-- /#footer --> 
+  
+  <!-- include/reader/site_info_end.inc --> 
+</div>
+<!-- /.base -->
+</body>
+</html>

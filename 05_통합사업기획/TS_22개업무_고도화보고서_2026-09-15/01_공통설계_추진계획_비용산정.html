@@ -1,0 +1,482 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>공통 설계·추진·비용 | TS · CCK AI 고도화</title><style>:root{--ink:#142635;--muted:#536879;--line:#dbe4e9;--soft:#f3f6f8;--accent:#075e68;--paper:#fff}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:80px}body{margin:0;background:var(--soft);color:var(--ink);font:16px/1.8 'Malgun Gothic','Apple SD Gothic Neo',sans-serif;overflow-wrap:anywhere}a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:4px}a:hover{color:#052d34}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #bd7300;outline-offset:3px}.skip{position:absolute;top:-100px;background:#fff;padding:12px;z-index:99}.skip:focus{top:0}.top{background:var(--ink);color:white;position:sticky;top:0;z-index:5;display:flex;gap:18px;flex-wrap:wrap;padding:12px max(20px,calc((100vw - 1260px)/2));font-size:14px}.top a{color:white}.layout{max-width:1280px;margin:36px auto;display:grid;grid-template-columns:230px minmax(0,1fr);gap:32px;padding:0 24px}aside{align-self:start;position:sticky;top:95px;max-height:calc(100vh - 115px);overflow:auto;font-size:13px}aside summary{font-weight:bold;cursor:pointer;margin-bottom:10px}aside a{display:block;padding:5px 7px;text-decoration:none}main{min-width:0;background:white;border:1px solid var(--line);border-radius:12px;padding:42px 44px;box-shadow:0 6px 28px #17344305}h1{font-size:34px;line-height:1.45;letter-spacing:-1.3px;margin:12px 0 24px}h2{font-size:24px;line-height:1.5;margin:56px 0 22px;padding-top:18px;border-top:2px solid var(--ink)}h3{font-size:19px;margin:32px 0 14px}p{margin:16px 0}li{margin:7px 0}blockquote{margin:24px 0;padding:16px 22px;background:#eef6f6;border-left:4px solid var(--accent)}.eyebrow{font-size:12px;font-weight:bold;letter-spacing:2px;color:var(--accent)}.meta{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}.badge{font-size:12px;padding:4px 10px;border:1px solid var(--line);border-radius:20px;background:var(--soft)}.tablehint{display:none;font-size:12px;color:var(--muted)}.tablewrap{max-width:100%;overflow:auto;margin:20px 0;border:1px solid var(--line);border-radius:6px}.tablewrap:focus{outline:2px solid var(--accent)}table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.75;min-width:650px}th{text-align:left;background:var(--soft);font-weight:700}th,td{padding:13px 14px;border-bottom:1px solid var(--line);vertical-align:top}td:first-child{font-weight:600}tr:last-child td{border-bottom:0}code{font-size:.88em;background:#edf1f4;border-radius:3px;padding:2px 4px}pre{padding:20px;background:#edf1f4;overflow:auto;font-size:13px}.filters{display:grid;grid-template-columns:2fr 1.4fr 1.3fr auto;gap:12px;padding:20px;background:var(--soft);border:1px solid var(--line);border-radius:8px}.filters label{font-size:13px;font-weight:bold}.filters input,.filters select{display:block;width:100%;margin-top:6px;padding:11px 10px;font:inherit;font-size:14px;background:white;border:1px solid #9eafb9;border-radius:4px}.filters button{align-self:end;min-height:46px;padding:10px 14px;background:var(--ink);color:white;border:0;border-radius:4px;font:inherit;cursor:pointer}.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:22px 0}.card{border:1px solid var(--line);padding:22px;border-radius:8px}.card h3{font-size:19px;margin:9px 0 13px;line-height:1.6}.card p{font-size:14px;margin:10px 0}.card[hidden]{display:none}.card .num{font-size:12px;font-weight:bold;color:var(--accent)}.card .range{font-weight:bold}.empty{border:1px dashed #83959f;padding:24px;background:var(--soft)}.count{font-size:14px;color:var(--muted)}.footer{margin-top:46px;padding-top:20px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}button.print{background:none;color:white;border:0;cursor:pointer;font:inherit;padding:0}.flow{display:flex;align-items:stretch;gap:8px;margin:24px 0;flex-wrap:wrap}.flow span{padding:10px 13px;background:var(--soft);border:1px solid var(--line);border-radius:5px;flex:1;min-width:130px;font-size:14px}@media(max-width:1050px){.layout{grid-template-columns:190px minmax(0,1fr);gap:18px}main{padding:30px 26px}.filters{grid-template-columns:1fr 1fr}}@media(max-width:800px){.layout{display:block;margin:20px auto;padding:0 16px}aside{position:static;max-height:none;margin:0 0 20px}aside nav{columns:2}.tablehint{display:block}main{padding:24px 22px}h1{font-size:28px}.cards{grid-template-columns:1fr}.top{position:static;padding:12px 18px;gap:10px 18px}html{scroll-padding-top:12px}}@media(max-width:480px){main{padding:22px 18px}.layout{padding:0 10px}.filters{grid-template-columns:1fr}h1{font-size:25px;letter-spacing:-.8px}h2{font-size:21px;margin-top:38px}body{font-size:15px}aside nav{columns:1}.card{padding:18px}.meta{gap:5px}table{min-width:610px}.flow{display:block}.flow span{display:block;margin:8px 0}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{body{background:white;font-size:10pt}.top,aside,.skip,.filters,.count,.tablehint{display:none}.layout{display:block;margin:0;padding:0}main{padding:0;border:0;box-shadow:none}h1{font-size:24pt}h2{break-after:avoid;font-size:16pt;margin-top:28px}h3{break-after:avoid}.tablewrap{overflow:visible;border:0}table{min-width:0;font-size:8pt}th,td{padding:7px 6px}tr{break-inside:avoid}.cards{display:block}.card{break-inside:avoid;margin:10px 0}.card[hidden]{display:block}a{color:inherit}.footer{font-size:8pt}}</style></head><body><a class="skip" href="#main">본문으로 이동</a><header class="top"><strong>TS × CCK AI</strong><a href="00_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C_%ED%86%B5%ED%95%A9%EB%B3%B4%EA%B8%B0.html">22개 고도화 보고서</a><a href="01_%EA%B3%B5%ED%86%B5%EC%84%A4%EA%B3%84_%EC%B6%94%EC%A7%84%EA%B3%84%ED%9A%8D_%EB%B9%84%EC%9A%A9%EC%82%B0%EC%A0%95.html">공통 설계·비용</a><button class="print" type="button">인쇄 / PDF 저장</button></header><div class="layout"><aside><details open><summary>보고서 목차</summary><nav aria-label="보고서 목차"><a href="#s01">1. 결론과 가정</a><a href="#s02">2. 기술 보유 근거와 추가 개발</a><a href="#s03">3. 구현 경계·데이터 주권</a><a href="#s04">4. 공통 기능과 중복 제거</a><a href="#s05">5. 22개 실행 물량·공수</a><a href="#s06">6. 예산 상한과 견적 산식</a><a href="#s07">7. 추진 로드맵과 착수 조건</a><a href="#s08">8. 요구사항 추적과 평가 설계</a><a href="#s09">9. 품질게이트·운영 인수</a><a href="#s10">10. 다음 협의 입력과 문서 사용법</a></nav></details></aside><main id="main" tabindex="-1"><div class="eyebrow">고도화 설계 · 2026.09.15</div><h1>CCK AI 적용 공통 설계·추진계획·비용 산정</h1>
+<p>22개 고도화 보고서의 구현 경계와 비용 계산을 통합한 v1.0 설계안이다. 2026-09-15. <a href="00_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C_%ED%86%B5%ED%95%A9%EB%B3%B4%EA%B8%B0.html">22개 보고서</a></p>
+<h2 id="s01">1. 결론과 가정</h2>
+<p>기존 TS 시스템에 CCK AI를 추가하는 <strong>공통 기반 + 업무별 증분</strong> 방식으로 추진한다. 22개는 업무별 설명 단위이며 22개의 독립 플랫폼·독립 계약이 아니다. P01/P17, P21/P22를 각각 묶으면 20개 실행 묶음이지만 이 역시 발주 건수 확정이 아니다.</p>
+<p>기구축 시스템·기존 AI에 CCK AI를 추가 적용하는 AX+SI. NOA·로컬 LLM·기존 서버 사용. 신규 인프라 비용 0원. 비전·OCR·STT/TTS·신규 센서·물리 제어 제외. 독립 R&amp;D 제외.</p>
+<p>작업 유형은 공공 AX+SI 기획·설계 고도화, 규모 L, 위험도 High(원 서비스 적용 시), 방법론은 Stage-Gate·요구사항 추적·기존 기능 영향분석이다. 공식 업무와 공급사 기능 설명 → 제안 설계 → 검수 기준 → 견적 조건의 근거를 분리한다. 이번 납품은 문서이며 제품 개발·운영 배포는 수행하지 않는다.</p>
+<p>가정: 기존 NOA 사용권과 실행환경을 활용할 수 있고, 각 보고서의 최소 적용 단위에 필요한 텍스트·공식 결과를 확보할 수 있다. 확인되지 않으면 공개 지식·승인 파일 기반 단계로 축소하거나 해당 연계를 보류한다. 기구축 사업이라는 이유로 AI 적용을 제외하지 않는다.</p>
+<h2 id="s02">2. 기술 보유 근거와 추가 개발</h2>
+<p class="tablehint">넓은 표는 좌우로 이동해 확인할 수 있습니다.</p><div class="tablewrap" tabindex="0" role="region" aria-label="가로로 이동 가능한 상세표"><table>
+<thead>
+<tr>
+<th>근거·기술</th>
+<th>확인 범위</th>
+<th>본 사업 적용 판단</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://www.ccksolution.com/noa">NOA 공식 소개</a></td>
+<td>폐쇄망 LLM·문서/지식·업무 지원·검토/이력에 대한 공급사 설명. 2026-09-15 재열람</td>
+<td>실제 설치 버전·사용권·성능·TS 연계는 별도 검증. 사이트의 멀티모달 기능은 사용자 범위에서 제외</td>
+</tr>
+<tr>
+<td>TA-01 Argus</td>
+<td>내부 기술목록의 감사 추론 엔진 기록</td>
+<td>대조·추론 구성 재사용 후보. 정확도·자율 판정 능력으로 확대 해석하지 않음</td>
+</tr>
+<tr>
+<td>TA-02 Keeper</td>
+<td>내부 기술목록의 Agent 실행 엔진(gRPC) 기록</td>
+<td>업무 흐름 실행 후보. 승인·권한 철회·중단/복귀 보장은 계약·실행 시험 필요</td>
+</tr>
+<tr>
+<td>TA-03 Nexus</td>
+<td>내부 기술목록의 LLM 호출 게이트웨이 기록</td>
+<td>호출 설정·한도·로그 구성 후보. 외부 호출 차단·기존 부하 보장은 시험 필요</td>
+</tr>
+<tr>
+<td>TA-20 RAG·지식DB</td>
+<td>내부 기술목록의 지식검색 파이프라인 기록</td>
+<td>업무 지식 적재·근거 검색 후보. 과거 성능·자료 규모를 TS 성능으로 전용하지 않음</td>
+</tr>
+<tr>
+<td>TA-23 NL2SQL·Evidence Trail</td>
+<td>내부 기술목록상 계획 기능</td>
+<td>기본 보유 기능·납품 약속에 포함하지 않음</td>
+</tr>
+<tr>
+<td>CCK 주관 수행</td>
+<td>사용자가 정한 수행 전제</td>
+<td>설정·지식·SI·검수·운영 인수 총괄안. 실제 투입 인원·파트너·일정은 견적으로 확정</td>
+</tr>
+</tbody></table></div>
+<p>내부 근거: <a href="file:///G:/%EB%82%B4%20%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C/1.%20%EC%97%85%EB%AC%B4%EC%98%81%EC%97%AD/6.%20CCK/%23.%20%ED%9A%8C%EC%82%AC%EC%A0%95%EB%B3%B4/01.%20%EC%95%84%EC%B9%B4%EC%9D%B4%EB%B8%8C/_ARCHIVE/01_TECH_ASSETS/00_TECH_CATALOG.md">기술 카탈로그</a> · <a href="file:///G:/%EB%82%B4%20%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C/1.%20%EC%97%85%EB%AC%B4%EC%98%81%EC%97%AD/6.%20CCK/%23.%20%ED%9A%8C%EC%82%AC%EC%A0%95%EB%B3%B4/01.%20%EC%95%84%EC%B9%B4%EC%9D%B4%EB%B8%8C/_ARCHIVE/00_INDEX/01_MASTER_INDEX.md">마스터 색인</a> · <a href="file:///G:/%EB%82%B4%20%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C/1.%20%EC%97%85%EB%AC%B4%EC%98%81%EC%97%AD/6.%20CCK/%23.%20%ED%9A%8C%EC%82%AC%EC%A0%95%EB%B3%B4/01.%20%EC%95%84%EC%B9%B4%EC%9D%B4%EB%B8%8C/_ARCHIVE/10_DATA/current_corrections.json">최신 정정 원장</a>. 관련 항목만 확인했으며 회사 원본은 수정하지 않았다. 기술목록 자체가 소스코드 실행·성능·특허 청구항 적용의 검증은 아니다.</p>
+<h2 id="s03">3. 구현 경계·데이터 주권</h2>
+<div class="flow"><span>기존 문서·공식 결과</span><span>권한 있는 조회·적재</span><span>NOA·로컬 LLM</span><span>근거·초안·검토</span><span>확인 후 공식 처리</span></div>
+
+<p>LLM은 의미 추출·대조·설명·초안에 사용한다. 식별키 검증·권한·상태전이·예약 중복 방지·금액·단위·승인·쓰기 여부는 응용 계층과 기존 공식 시스템의 결정 규칙이 담당한다. LLM이 만든 도구 호출이라도 허용 목록·입력 계약·사용자 확인을 거쳐야 한다.</p>
+<p class="tablehint">넓은 표는 좌우로 이동해 확인할 수 있습니다.</p><div class="tablewrap" tabindex="0" role="region" aria-label="가로로 이동 가능한 상세표"><table>
+<thead>
+<tr>
+<th>영역</th>
+<th>필수 확인·설계</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>자료</td>
+<td>텍스트 추출 가능성·필드·원문 위치·기준 버전·보존/삭제 권한. 스캔·이미지는 수동 확인</td>
+</tr>
+<tr>
+<td>검색</td>
+<td>기관/업무/역할에 따른 검색·원문 접근권한. 문서 접근 철회와 색인 갱신 시험</td>
+</tr>
+<tr>
+<td>추론</td>
+<td>모델·프롬프트·지식·도구 버전 기록. 근거 없는 사실과 공식 완료 상태 생성 금지</td>
+</tr>
+<tr>
+<td>외부 경로</td>
+<td>모델·임베딩·라이선스·로그·모니터링·백업까지 호출 경로 점검. 외부 전송 미관측이 영구 보장을 뜻하지 않음</td>
+</tr>
+<tr>
+<td>쓰기</td>
+<td>실제 API·승인·인증·요청키·상태 조회·충돌·타임아웃 계약 확인 후 도입. 초기는 읽기/초안·기존 화면 인계 우선</td>
+</tr>
+<tr>
+<td>중단·복귀</td>
+<td>AI 기능 단위 비활성화, 직전 지식·설정 복원, 원 시스템 정상 사용. 실제 쓰기는 정정·취소 업무 절차로 복구</td>
+</tr>
+<tr>
+<td>역할</td>
+<td>TS는 정책·자료·최종 업무 판단, CCK는 주관 구축·검증 지원, 기존 운영사는 연계·운영 호환 제공</td>
+</tr>
+</tbody></table></div>
+<p>허용 API가 없으면 승인 파일·공식 화면 인계로 가능한 기능까지 구현한다. 실제 시스템의 무단 화면 수집·우회 접속을 연계 대안으로 가정하지 않는다.</p>
+<h2 id="s04">4. 공통 기능과 중복 제거</h2>
+<p class="tablehint">넓은 표는 좌우로 이동해 확인할 수 있습니다.</p><div class="tablewrap" tabindex="0" role="region" aria-label="가로로 이동 가능한 상세표"><table>
+<thead>
+<tr>
+<th>공통 ID·구성</th>
+<th>적용 업무</th>
+<th>설계·비용 경계</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>C00 기존 NOA 환경·권한·근거·운영 구성</td>
+<td>P01 · P02 · P03 · P04 · P05 · P06 · P07 · P08 · P09 · P10 · P11 · P12 · P13 · P14 · P15 · P16 · P17 · P18 · P19 · P20 · P21 · P22</td>
+<td>설치 버전·사용권·로컬 호출 점검, 역할별 권한, 원문 근거·로그·배포/복귀, 기존 서버 부하 측정. 이미 제공된 기능은 재구현하지 않고 설정·연계·누락 기능만 산정</td>
+</tr>
+<tr>
+<td>C01 증빙 대조 공통 기능</td>
+<td>P01 · P03 · P04 · P05 · P11 · P12 · P17</td>
+<td>텍스트 구조·원문 위치·요건별 근거·검토 이력 공통 처리. P17에는 대조 엔진 비용 재배정 없음</td>
+</tr>
+<tr>
+<td>C02 국민 안내·처리 공통 기능</td>
+<td>P02 · P07 · P09 · P10 · P15 · P18 · P19 · P20</td>
+<td>조건 확인·상태 표시·근거 응답·인계 오류 처리. 실제 본인확인·예약·지급은 각 공식 시스템이 담당</td>
+</tr>
+<tr>
+<td>C03 보호된 안전사례 공통 기능</td>
+<td>P06 · P08</td>
+<td>원본/검토본/전파본 구획·검토·승인. 코드 재사용과 데이터 공유를 분리</td>
+</tr>
+<tr>
+<td>C04 기준 변경 공통 기능</td>
+<td>P13 · P14</td>
+<td>기준 버전·개정 대조·영향 근거·문서 상태. 관할·기준 적용은 분야별 검토</td>
+</tr>
+<tr>
+<td>C05 교육·결과 설명 공통 기능</td>
+<td>P16 · P21 · P22</td>
+<td>승인 교재 연결·문답·강사 검토·버전 관리. P22는 이륜차 콘텐츠만 추가</td>
+</tr>
+</tbody></table></div>
+<p class="tablehint">넓은 표는 좌우로 이동해 확인할 수 있습니다.</p><div class="tablewrap" tabindex="0" role="region" aria-label="가로로 이동 가능한 상세표"><table>
+<thead>
+<tr>
+<th>조합</th>
+<th>통합할 부분</th>
+<th>분리할 증분</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>P01 + P17</td>
+<td>운수회사 점검 후속 검토 사업</td>
+<td>P01 지적·증빙·보완 검토, P17 COSAS 키·권한·화면·상태 호환</td>
+</tr>
+<tr>
+<td>P21 + P22</td>
+<td>교육 문답·강사 승인 공통 기능</td>
+<td>P21 기본 과정, P22 이륜차 교재·안전 수칙·문항·강사 설정</td>
+</tr>
+<tr>
+<td>P04 / P05</td>
+<td>문서 항목·근거 위치·검토 이력</td>
+<td>안전관리체계 요건 vs 시험운행 검토 기준</td>
+</tr>
+<tr>
+<td>P13 / P14</td>
+<td>개정·버전·영향 문서 추적</td>
+<td>제작자 준비 절차 vs 시험·안내 문서 반영</td>
+</tr>
+<tr>
+<td>P16 / P21 / P22</td>
+<td>교육 해설·질문·검토 출력</td>
+<td>ETAS 결과 단위·기간 vs 교육과정·이륜차 자료</td>
+</tr>
+<tr>
+<td>P02 / P07</td>
+<td>자격 문진·진행단계 UI</td>
+<td>화물 vs 항공 자격·경력·증빙 기준</td>
+</tr>
+<tr>
+<td>P06 / P08</td>
+<td>보호·검토·전파 승인 코드</td>
+<td>원본·인덱스·접근권한·보고 제도</td>
+</tr>
+<tr>
+<td>P10 / P19</td>
+<td>조건 확인·요청 결과 재조회 패턴</td>
+<td>검사 예약 슬롯 vs DRT 접수·배차·취소</td>
+</tr>
+</tbody></table></div>
+<p>기존 기획 231쌍 비교는 기능군 규칙으로 확장한 설계 비교이며 개별 계약 231건을 조사했다는 의미가 아니다. <a href="../TS_22%EA%B0%9C%EC%97%85%EB%AC%B4_%EC%82%AC%EC%97%85%EA%B8%B0%ED%9A%8D_2026-09-15_v0.2/06_%EA%B8%B0%ED%9A%8D%EA%B0%84_%EC%A0%84%EC%B2%B4%EB%B9%84%EA%B5%90.md">v0.2 전체 비교</a>와 <a href="../TS_22%EA%B0%9C%EC%97%85%EB%AC%B4_%EC%82%AC%EC%97%85%EA%B8%B0%ED%9A%8D_2026-09-15_v0.2/00_%EC%A4%91%EB%B3%B5%EA%B2%80%ED%86%A0_%EB%B0%8F_AI%EC%B6%94%EA%B0%80%EC%A0%81%EC%9A%A9.html">추가 적용 판정</a>을 승계한다. 이번에 사업 제외를 추가하지 않았다.</p>
+<h2 id="s05">5. 22개 실행 물량·공수</h2>
+<p>각 보고서의 최소 적용 단위를 전제로 <strong>추가 업무 531–874인일</strong>, 공통 구성·보완 <strong>86–148인일</strong>, 단순 합계 <strong>617–1022인일</strong>로 가정했다. 1인일=8시간. 견적·실측·통계적 신뢰구간이 아니다. 22개 전체 달력 기간·수행 약속이나 사업비 확정으로 읽으면 안 된다.</p>
+<p class="tablehint">넓은 표는 좌우로 이동해 확인할 수 있습니다.</p><div class="tablewrap" tabindex="0" role="region" aria-label="가로로 이동 가능한 상세표"><table>
+<thead>
+<tr>
+<th>업무</th>
+<th>최초 추가 납품 단위</th>
+<th>증분 인일</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P01_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">TS-P01 운수회사 안전점검 개선조치 증빙 검토 지원</a></td>
+<td>지적사항마다 조치 증빙과 보완 질문을 붙여 점검자가 검토를 마칠 수 있는 작업 화면</td>
+<td>24–40</td>
+</tr>
+<tr>
+<td><a href="%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P02_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">TS-P02 사업용 운전자 자격 취득 단계별 처리 지원</a></td>
+<td>화물 자격 준비자가 현재 단계와 미확인 조건을 확인하고 공식 신청으로 이어가는 안내 서비스</td>
+<td>24–40</td>
+</tr>
+<tr>
+<td><a href="%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P03_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">TS-P03 위험물질 운송계획·점검 인계 문서 일치 확인</a></td>
+<td>위험물 운송계획·점검·인계 기록의 상충과 수신 누락을 한 건으로 검토하는 문서 지원</td>
+<td>26–42</td>
+</tr>
+<tr>
+<td><a href="%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P04_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">TS-P04 철도 안전관리체계 요건·증빙·보완 연결</a></td>
+<td>철도 안전관리체계의 요건별 제출·보완·현장 확인 근거를 연결하는 검사관 검토 화면</td>
+<td>30–48</td>
+</tr>
+<tr>
+<td><a href="%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P05_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">TS-P05 철도 시험운행·시설평가 보고서 검토 준비</a></td>
+<td>시험운행 결과보고서의 누락·조건·근거 위치를 정리해 전문가 검토 준비시간을 줄이는 지원</td>
+<td>28–44</td>
+</tr>
+<tr>
+<td><a href="%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P06_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">TS-P06 철도안전 자율보고의 보호된 사례화</a></td>
+<td>철도 자율보고 원본을 보호하면서 검토용 분석과 전파용 사례 초안을 분리하는 업무 지원</td>
+<td>32–52</td>
+</tr>
+<tr>
+<td><a href="%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P07_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">TS-P07 항공 자격 응시 준비자료 점검 지원</a></td>
+<td>항공 자격 신청자의 경력 서술과 증빙을 요구자료에 연결하는 응시 준비 지원</td>
+<td>27–45</td>
+</tr>
+<tr>
+<td><a href="%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P08_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">TS-P08 항공안전 자율보고 분석·전파 초안 지원</a></td>
+<td>항공 자율보고에서 사건 조건과 유사사례의 차이를 보존한 전문가 분석·전파 초안 지원</td>
+<td>31–49</td>
+</tr>
+<tr>
+<td><a href="%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P09_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">TS-P09 드론 기체 변경·말소 신고 준비 지원</a></td>
+<td>드론 소유권 이전 신고의 필요한 정보와 증빙을 확인해 공식 접수로 넘기는 준비 지원</td>
+<td>23–39</td>
+</tr>
+<tr>
+<td><a href="%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P10_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">TS-P10 자동차검사 예약 탐색·재검사 후속행동 지원</a></td>
+<td>검사소와 날짜를 오가며 마감을 확인하는 불편을 줄이는 예약 가능 상태 중심 탐색 화면</td>
+<td>31–51</td>
+</tr>
+<tr>
+<td><a href="%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P11_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">TS-P11 기계식주차장 검사 후 보완 증빙 연결</a></td>
+<td>기계식주차장 지적사항과 보수·재확인 증빙을 시설별로 연결하는 검사 후속 검토 지원</td>
+<td>24–40</td>
+</tr>
+<tr>
+<td><a href="%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P12_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">TS-P12 자동차 결함·수리 이력의 사건 정리 지원</a></td>
+<td>자동차 증상·수리·재발 진술을 원문과 연결해 소비자와 조사 담당자가 확인하는 사건 정리 지원</td>
+<td>25–41</td>
+</tr>
+<tr>
+<td><a href="%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P13_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">TS-P13 자동차 제작자 자기인증 준비·변경 반영 지원</a></td>
+<td>자동차 제작자가 자기인증 절차의 준비자료와 기준 개정 영향을 확인하는 업무 지원</td>
+<td>26–43</td>
+</tr>
+<tr>
+<td><a href="%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P14_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">TS-P14 미래차 안전기준 변경의 시험·안내 문서 영향 검토</a></td>
+<td>미래차 안전기준 개정이 시험계획·서식·안내문에 미치는 영향을 검토하고 반영 이력을 추적하는 지원</td>
+<td>27–44</td>
+</tr>
+<tr>
+<td><a href="%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P15_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">TS-P15 전기차 배터리 식별정보 확인 절차 지원</a></td>
+<td>배터리 식별정보를 찾으려는 국민에게 제작사별 공식 확인 절차를 쉽게 설명하는 기존 상담 AI의 지식 확장</td>
+<td>10–18</td>
+</tr>
+<tr>
+<td><a href="%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P16_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">TS-P16 공식 운행분석 결과의 안전행동 설명 지원</a></td>
+<td>확정된 ETAS 운행분석 지표를 운전자가 이해할 수 있는 설명과 실천 질문으로 바꾸는 교육 지원</td>
+<td>23–38</td>
+</tr>
+<tr>
+<td><a href="%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P17_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">TS-P17 COSAS 협업 문서 검토 기능 연계</a></td>
+<td>P01의 검토 결과를 COSAS의 올바른 점검건·기관 권한·화면에 연결하는 통합 과업</td>
+<td>16–27</td>
+</tr>
+<tr>
+<td><a href="%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P18_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">TS-P18 K-패스 이용 등록·처리결과 이해 지원</a></td>
+<td>K-패스 이용자가 공식 등록 상태와 처리 사유를 이해하고 필요한 정정·문의로 이어가는 지원</td>
+<td>24–40</td>
+</tr>
+<tr>
+<td><a href="%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P19_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">TS-P19 DRT 이용 조건·예약 완료 지원</a></td>
+<td>DRT 이용 조건을 텍스트로 확인하고 지역별 공식 접수·배차 상태를 알려주는 이용 지원</td>
+<td>29–48</td>
+</tr>
+<tr>
+<td><a href="%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P20_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">TS-P20 데이터 개방센터 이용·분석 준비 지원</a></td>
+<td>데이터 개방센터 공개 카탈로그를 이해하고 이용 신청 목적·항목을 준비하는 기존 지식서비스 확장</td>
+<td>13–22</td>
+</tr>
+<tr>
+<td><a href="%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P21_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">TS-P21 교통안전 체험교육 전후 실천 지원</a></td>
+<td>체험교육 전후에 운전자의 상황을 승인 교재와 연결해 강사가 검토한 실천 질문을 제공하는 지원</td>
+<td>23–38</td>
+</tr>
+<tr>
+<td><a href="%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P22_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">TS-P22 배달업 이륜차 강사 교안·상황문답 지원</a></td>
+<td>P21의 공통 교육 기능에 이륜차 배달 상황·수칙·강사 교안을 추가하는 전문 콘텐츠 모듈</td>
+<td>15–25</td>
+</tr>
+</tbody></table></div>
+<p class="tablehint">넓은 표는 좌우로 이동해 확인할 수 있습니다.</p><div class="tablewrap" tabindex="0" role="region" aria-label="가로로 이동 가능한 상세표"><table>
+<thead>
+<tr>
+<th>공통 단위</th>
+<th>인일 가정</th>
+<th>산정 설명</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>C00 기존 NOA 환경·권한·근거·운영 구성</td>
+<td>24–40</td>
+<td>설치 버전·사용권·로컬 호출 점검, 역할별 권한, 원문 근거·로그·배포/복귀, 기존 서버 부하 측정. 이미 제공된 기능은 재구현하지 않고 설정·연계·누락 기능만 산정</td>
+</tr>
+<tr>
+<td>C01 증빙 대조 공통 기능</td>
+<td>14–24</td>
+<td>텍스트 구조·원문 위치·요건별 근거·검토 이력 공통 처리. P17에는 대조 엔진 비용 재배정 없음</td>
+</tr>
+<tr>
+<td>C02 국민 안내·처리 공통 기능</td>
+<td>14–24</td>
+<td>조건 확인·상태 표시·근거 응답·인계 오류 처리. 실제 본인확인·예약·지급은 각 공식 시스템이 담당</td>
+</tr>
+<tr>
+<td>C03 보호된 안전사례 공통 기능</td>
+<td>14–24</td>
+<td>원본/검토본/전파본 구획·검토·승인. 코드 재사용과 데이터 공유를 분리</td>
+</tr>
+<tr>
+<td>C04 기준 변경 공통 기능</td>
+<td>10–18</td>
+<td>기준 버전·개정 대조·영향 근거·문서 상태. 관할·기준 적용은 분야별 검토</td>
+</tr>
+<tr>
+<td>C05 교육·결과 설명 공통 기능</td>
+<td>10–18</td>
+<td>승인 교재 연결·문답·강사 검토·버전 관리. P22는 이륜차 콘텐츠만 추가</td>
+</tr>
+</tbody></table></div>
+<p>산정 방법은 업무분석·지식/규칙 구성·응용/연계·시험의 4개 작업을 수작업으로 분해한 기획 추정이다. 개별 보고서의 업무 내 1·2단계 중 WBS에 명시한 기본 설정·연계를 포함하고 3단계의 유형·기관 확대는 제외한다. 업무 내 단계와 프로그램 예산 차수는 구별하며, 실제 계약에서는 단계별 산출물·공수를 다시 배분한다. 대부분 문서 1–3종·규칙 1팩·조회 0–1개·신청/예약 인계 0–1개를 가정했다. 인계는 실제 쓰기 API와 같지 않다. 문서 종수와 전체 페이지 수, 한 조회 계약과 백엔드 실제 API 개수도 같지 않으므로 물량 확정 후 보정한다.</p>
+<p>공통 구성의 하한은 기존 기능을 설정·연결할 수 있는 경우, 상한은 제한된 보완 구현·예외 검증이 필요한 경우를 상정했다. 실제 NOA 기능이 이미 충분하면 기존 이행 확인·설정·회귀 시험량만 남긴다. 제시 상한을 초과할 수 있는 사유는 API 신설, 법정 규칙 다수, 대규모 문서 정비, 보호 원본 사용 협의, 기존 서버 용량 부족이다. 이 경우 범위를 줄이거나 다시 산정하며 신규 인프라를 넣어 해결하지 않는다.</p>
+<h2 id="s06">6. 예산 상한과 견적 산식</h2>
+<p>사용자 검토안은 1차 7억 원, 2차 추가 5억 원, 합계 12억 원(VAT 포함 해석)이다. 이는 프로그램 상한이며 현재 전체 22개 범위를 해당 금액에 납품할 수 있다고 확인한 것은 아니다.</p>
+<ul>
+<li>단계 사업비 = 선택된 공통 비용 1회 + 선택 업무별 증분 인건비 + 확인된 추가 사용료·필요 경비 + 계약 방식에 따른 제경비·이윤·세금.</li>
+<li>업무 증분 인건비 = Σ(역할별 인일 × 확인된 역할별 일단가). 역할별 실제 배분·단가는 견적 시 확정한다.</li>
+<li>단가에 이미 포함된 관리·제경비·이윤은 별도 중복 가산하지 않는다. 법정 세금 적용은 계약 방식과 확인 단가 기준에 맞춘다.</li>
+<li>1차에 구축한 공통 기능을 2차에 재구축비로 넣지 않는다. 2차의 신규 업무 지식·커넥터·평가·필요한 공통 변경·운영비만 반영한다.</li>
+<li>신규 GPU·서버·저장·백업·망의 구매·증설·임차·클라우드 자원비는 0원이다. 기존 장비에서 실행될 수 있는 범위로 물량·모델·동시성을 조정한다.</li>
+<li>라이선스 추가비·운영 지원비는 미확인이다. 0원이라고 가정하지 않고 기존 계약 포함 여부와 증분 견적으로 판단한다.</li>
+</ul>
+<p>금액 단가를 임의 채우지 않았으므로 공수의 원화 환산표는 확정하지 않았다. 인일 범위는 견적 비교의 입력이며 기능점수 기반 공공 SW 대가 산정을 대체하지 않는다. 발주 방식에서 요구하는 산정 기준·현행 공식 단가를 정한 뒤 검증 가능한 원가표로 전환해야 한다.</p>
+<p class="tablehint">넓은 표는 좌우로 이동해 확인할 수 있습니다.</p><div class="tablewrap" tabindex="0" role="region" aria-label="가로로 이동 가능한 상세표"><table>
+<thead>
+<tr>
+<th>견적 조정 요인</th>
+<th>줄이거나 별도 산정할 단위</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>API 협의 지연</td>
+<td>공개 지식·승인 파일·기존 화면 인계부터 시행</td>
+</tr>
+<tr>
+<td>부하 초과</td>
+<td>요청 동시성·문서 길이·자료 범위를 줄이고 큐/캐시·모델 설정을 검증</td>
+</tr>
+<tr>
+<td>예산 초과</td>
+<td>모든 업무 일괄 구축을 약속하지 않고 적용 유형·규칙팩·연계 개수·단계 범위를 조정</td>
+</tr>
+<tr>
+<td>동일 계약 기능 발견</td>
+<td>새 개발비 제외; 추가 설정·데이터 정비·회귀 검증만 인정</td>
+</tr>
+<tr>
+<td>작은 안내 확장</td>
+<td>P15·P20은 별도 플랫폼 대신 공통 상담 지식팩 단위 산정</td>
+</tr>
+</tbody></table></div>
+<h2 id="s07">7. 추진 로드맵과 착수 조건</h2>
+<p>사업 선정 순위가 아닌 <strong>의존성 기반 실행 순서안</strong>이다. 보호·연계가 늦으면 먼저 준비된 업무로 순서를 바꾼다. 특정 업무 제외를 뜻하지 않는다.</p>
+<p class="tablehint">넓은 표는 좌우로 이동해 확인할 수 있습니다.</p><div class="tablewrap" tabindex="0" role="region" aria-label="가로로 이동 가능한 상세표"><table>
+<thead>
+<tr>
+<th>순서</th>
+<th>대상·활동</th>
+<th>이 단계에서 확인할 것</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>준비 · Gate A</td>
+<td>22개 공통: 기존 기능·최종 계약·사용권·원천 자료·샘플·담당자</td>
+<td>공통 재사용과 증분 구분, 기존 서버 실행 한계, 1차 선택 범위</td>
+</tr>
+<tr>
+<td>1차 묶음 후보</td>
+<td>P01/P17·P10·P13/P14·P16·P21/P22 + P15/P20 지식팩</td>
+<td>검토·예약·기준 변경·교육 대표 기능의 효과와 공통 기반 검증. 전부 채택한다는 의미 아님</td>
+</tr>
+<tr>
+<td>병행 준비</td>
+<td>P02·P07·P09·P18 및 P03·P04·P05·P11·P12</td>
+<td>자격/신고/처리 상태 계약 또는 분야별 기준·증빙 확보</td>
+</tr>
+<tr>
+<td>별도 조건 확보</td>
+<td>P06·P08: 보호 정책·원본 접근 / P19: 지자체·운영사 연계</td>
+<td>조건 충족 시 1차에도 편입 가능; 조건 미확보만으로 사업 영구 제외 안 함</td>
+</tr>
+<tr>
+<td>2차 추가 적용</td>
+<td>앞 단계에서 준비된 잔여 업무와 시범 결과가 좋은 업무의 후속 연결</td>
+<td>이미 구축한 공통비 제외, 추가 물량·현업 효과·운영비로 5억 상한과 대조</td>
+</tr>
+</tbody></table></div>
+<p>실행 기간안: 자료·책임·최소 연계가 준비된 대표 묶음에 대해 1–2주 기준·데이터 확정, 3–4주 지식·읽기/화면 시범, 5–8주 연계·예외 검증, 9–12주 현업 시범·인수를 계획한다. 이는 22개 전체 납기나 실제 인력 확약이 아니다. 선택 업무 수·투입 가능 인력·승인 대기에 따라 재산정한다.</p>
+<h2 id="s08">8. 요구사항 추적과 평가 설계</h2>
+<p>기능 88개(HF01–HF04 × 22), 업무별 공통 비기능 44개(HN01–HN02 × 22), 합계 132개 요구사항을 구성했다. 시험은 요구사항별 132개와 정상 흐름 22개로 <strong>154개 설계 사례</strong>다. 모두 미실행이다. 공통 비기능 44개는 업무별 적용 확인 행이며 별도 보안 기능 44개를 개발하는 물량이 아니다.</p>
+<p><a href="03_%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD_%EC%8B%9C%ED%97%98%EC%B6%94%EC%A0%81.json">요구사항·시험 추적 원장</a>에서 요구→화면→보고서→시험→미실행 상태를 확인한다. 기존 v0.2 88개 요구는 기능 계보로 연결했고 동일 계약 충족으로 자동 인정하지 않는다.</p>
+<p>평가 절차:</p>
+<ol>
+<li>업무별 정답·필수 누락·금지 결정·오류 심각도를 TS 현업이 정의한다. 원문·규칙·역할·모델·프롬프트 버전을 고정한다.</li>
+<li>같은 사례로 현행 처리, 화면/규칙 개선, AI 추가 결과를 비교한다. 자동 채점만 쓰지 않고 수정 전 초안과 현업 확정본을 함께 본다.</li>
+<li>첫 반복은 정상·정보 부족·상충·버전 변경·권한·외부 요청 오류를 포괄하는 최소 설계 사례로 오류 종류를 찾는다. 반복 생성은 독립 사례 수로 세지 않는다.</li>
+<li>실제 사례의 표본 수는 처리량·사례 분포·허용 오류·목표 개선 폭·가용 검수시간으로 사전 결정한다. 숫자 하나를 모든 업무의 합격 표본으로 강제하지 않는다.</li>
+<li>결과를 본 뒤 성공 기준을 낮추거나 유리한 사례만 골라 성과를 제시하지 않는다. 실패·애매함·평가자 불일치를 보존한다.</li>
+<li>중대 오류, 권한 누출, 허위 접수/종결 등은 배포 보류 후 원인·회귀 사례로 남긴다. 0건 관측을 위험 0으로 일반화하지 않는다.</li>
+<li>근거 정확성·누락·시간·사용성·운영비를 함께 보고한다. 처리시간 감소만으로 사고 감소·감축 인원을 주장하지 않는다.</li>
+</ol>
+<p>성능 수치가 확정되지 않은 상태다. Gate A에서 기존 서버·모델·동시 요청·문서 길이별 기준선을 측정하고, 검수 시험 전에 목표값·측정법·허용 오차·책임자를 확정해야 성능 요구를 완료로 판정할 수 있다.</p>
+<h2 id="s09">9. 품질게이트·운영 인수</h2>
+<p class="tablehint">넓은 표는 좌우로 이동해 확인할 수 있습니다.</p><div class="tablewrap" tabindex="0" role="region" aria-label="가로로 이동 가능한 상세표"><table>
+<thead>
+<tr>
+<th>게이트</th>
+<th>통과 조건</th>
+<th>현재 상태</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>A 범위·근거</td>
+<td>현행 계약·업무 책임·데이터·사용권·물량 확정</td>
+<td>기획 근거 확보, 실무 확정 전</td>
+</tr>
+<tr>
+<td>B 설계</td>
+<td>실제 스키마·권한·상태·예외·목표 수치·표본 설계 승인</td>
+<td>논리 설계 완료, 실환경 확인 전</td>
+</tr>
+<tr>
+<td>C 구현</td>
+<td>승인 범위 구현·기존 기능 재사용·변경 이력</td>
+<td>미수행</td>
+</tr>
+<tr>
+<td>D 제품 검증</td>
+<td>정상·예외·권한·성능·복귀·현업 평가</td>
+<td>미수행</td>
+</tr>
+<tr>
+<td>E 인수</td>
+<td>실제 TS 검수자·운영 담당자의 수용</td>
+<td>미수행</td>
+</tr>
+<tr>
+<td>F 운영 반영</td>
+<td>모니터링·복귀·인수·배포 승인</td>
+<td>미수행</td>
+</tr>
+</tbody></table></div>
+<p>주관 수행사는 CCK로 가정한다. 구현자와 검수 담당을 실제 프로젝트에서 분리한다. 본 문서의 자체 검토는 독립 평가위원 승인이나 기관 승인으로 대체되지 않는다. 문서 링크·내용 수량·화면 검사와 실제 제품 품질 시험을 별도로 기록한다.</p>
+<p>운영 인수물은 지식·규칙 버전, 모델/호출 설정, 권한표, 인터페이스 계약, 업무별 평가 사례, 오류·복귀 절차, 담당자 교육, 운영 지표 정의다. 요청 수·대기·근거 미확인·담당자 수정·권한 거부·공식 처리 실패를 개인정보 최소화 방식으로 기록한다.</p>
+<h2 id="s10">10. 다음 협의 입력과 문서 사용법</h2>
+<p>개별 보고서에서 업무 담당·최소 적용 단위·선행조건·공수 4개 작업을 확인하고, 준비된 업무를 선택한다. 선택한 공통 기능만 한 번 계산한 뒤 개별 증분을 더한다. 최종 계약·단가·운영사 협의를 거쳐 요구사항 정의·명세·RFP·견적에 반영한다. 본 패키지는 그 협의를 위한 고도화 설계안이며 확정 RFP 또는 최종 견적을 대신하지 않는다.</p>
+<p><a href="00_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C_%ED%86%B5%ED%95%A9%EB%B3%B4%EA%B8%B0.html">보고서 통합보기</a> · <a href="%EA%B7%BC%EA%B1%B0%EC%9B%90%EC%9E%A5.json">근거원장</a> · <a href="%EA%B2%80%EC%A6%9D%EA%B8%B0%EB%A1%9D.md">검증기록</a></p>
+<div class="footer">기획·설계 제안 v1.0 · 실제 서비스 구축·제품 성능시험·기관 승인 전<br>한국교통안전공단의 선정된 22개 업무 묶음. TS 전체 세부업무의 전수 목록을 의미하지 않습니다.</div></main></div><script>document.querySelector('.print')?.addEventListener('click',()=>window.print());const q=document.getElementById('q');if(q){const c=document.getElementById('cat'),f=document.getElementById('family'),cards=[...document.querySelectorAll('.card')];function update(){const term=q.value.trim().toLocaleLowerCase();let n=0;cards.forEach(x=>{const ok=(!term||x.textContent.toLocaleLowerCase().includes(term))&&(!c.value||x.dataset.category===c.value)&&(!f.value||x.dataset.family===f.value);x.hidden=!ok;n+=ok?1:0});document.getElementById('count').textContent=n+' / 22개 보고서';document.getElementById('empty').hidden=n>0}q.addEventListener('input',update);c.addEventListener('change',update);f.addEventListener('change',update);document.getElementById('reset').addEventListener('click',()=>{q.value='';c.value='';f.value='';update();q.focus()});update()}</script></body></html>

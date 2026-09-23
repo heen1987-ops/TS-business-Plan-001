@@ -1,0 +1,720 @@
+{
+  "schema_version": "1.0",
+  "cases": [
+    {
+      "id": "CASE-001",
+      "country": "대한민국",
+      "title": "TS 전세버스 교통안전정보 공시",
+      "operator": "한국교통안전공단",
+      "deployment_stage": "공식 서비스 안내",
+      "event_date": "도입일 미확인·2026-09-09 안내 확인",
+      "ai_evidence": "AI 확인 안 됨",
+      "source_ids": [
+        "DRS-001"
+      ],
+      "candidate_ids": [
+        "TS-BIZ-001"
+      ],
+      "comparability": "같은 업무의 국내 기준 서비스",
+      "application_judgment": "정보를 제공하는 기능의 존재와 국민 이해도·선택 개선을 분리한다.",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-09",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-002",
+      "country": "미국",
+      "title": "FMCSA Bus Safety Search",
+      "operator": "FMCSA",
+      "deployment_stage": "공식 서비스 안내",
+      "event_date": "2026-09-09 안내 확인",
+      "ai_evidence": "AI 확인 안 됨",
+      "source_ids": [
+        "DRS-002"
+      ],
+      "candidate_ids": [
+        "TS-BIZ-001"
+      ],
+      "comparability": "같은 목적·다른 평가제도",
+      "application_judgment": "운수사업자 검색과 안전 이력 해석을 연결하는 흐름을 비교한다.",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-09",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-003",
+      "country": "대한민국",
+      "title": "eTAS 운행기록 분석",
+      "operator": "한국교통안전공단",
+      "deployment_stage": "공식 서비스 안내·검색/수집 응답 불일치",
+      "event_date": "2026-09-09 공개 응답 대조·현재 기능 미검증",
+      "ai_evidence": "AI 확인 안 됨",
+      "source_ids": [
+        "DRS-003",
+        "DRS-004"
+      ],
+      "candidate_ids": [
+        "TS-BIZ-002"
+      ],
+      "comparability": "직접 중복 검토 대상",
+      "application_judgment": "기존 위험운전 분석에 없는 개입 효과를 먼저 찾고 실제 데이터 접근부터 확인한다.",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-09",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-004",
+      "country": "싱가포르",
+      "title": "LTA 버스 안전기술·근무환경 개선",
+      "operator": "LTA·대중교통 운영사",
+      "deployment_stage": "운영 개선·구매 및 확대 계획",
+      "event_date": "2025-08-23 발표",
+      "ai_evidence": "AI 충돌경고 명시",
+      "source_ids": [
+        "DRS-005"
+      ],
+      "candidate_ids": [
+        "TS-BIZ-002"
+      ],
+      "comparability": "유사 안전목적·센서와 사업환경 다름",
+      "application_judgment": "경보만 추가하지 않고 운전자 교육·근무조건·차량특성을 함께 설계한다.",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-09",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-005",
+      "country": "대한민국",
+      "title": "튜닝제도 안내·TS튜닝알리고",
+      "operator": "한국교통안전공단",
+      "deployment_stage": "공식 서비스 안내",
+      "event_date": "2026-09-09 안내 확인",
+      "ai_evidence": "AI 확인 안 됨",
+      "source_ids": [
+        "DRS-006",
+        "DRS-007"
+      ],
+      "candidate_ids": [
+        "TS-BIZ-003"
+      ],
+      "comparability": "직접 중복 검토 대상",
+      "application_judgment": "산업지원 플랫폼과 승인·검사 절차 안내를 혼동하지 않는다.",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-09",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-006",
+      "country": "영국",
+      "title": "DVLA 차량 변경 안내 INF318",
+      "operator": "DVLA",
+      "deployment_stage": "공식 안내문 제공",
+      "event_date": "2025-08 최초 게시·2026-08 개정",
+      "ai_evidence": "비AI 문서·절차 안내",
+      "source_ids": [
+        "DRS-008"
+      ],
+      "candidate_ids": [
+        "TS-BIZ-003"
+      ],
+      "comparability": "유사 절차·법체계 다름",
+      "application_judgment": "상황별 조건·예외·증빙을 구조화하는 SI 기준안으로 비교한다.",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-09",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-007",
+      "country": "대한민국",
+      "title": "서울동행맵",
+      "operator": "서울특별시",
+      "deployment_stage": "정식 출시 발표",
+      "event_date": "2024-11-01 서비스 시작 발표",
+      "ai_evidence": "해당 자료에서 AI 확인 안 됨",
+      "source_ids": [
+        "DRS-009"
+      ],
+      "candidate_ids": [
+        "TS-BIZ-004"
+      ],
+      "comparability": "유사 사용자·지자체 서비스",
+      "application_judgment": "새 길찾기 앱보다 시설정보의 정확성·갱신 책임과 기존 앱 연계를 검증한다.",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-09",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-008",
+      "country": "싱가포르",
+      "title": "MAVIS 이동 지원",
+      "operator": "LTA·SG Enable·SAVH·INIT",
+      "deployment_stage": "과거 실증·확대 계획",
+      "event_date": "2019년 1차 실증·2020년 후속 발표",
+      "ai_evidence": "AI 확인 안 됨",
+      "source_ids": [
+        "DRS-010"
+      ],
+      "candidate_ids": [
+        "TS-BIZ-004"
+      ],
+      "comparability": "유사 승하차 지원",
+      "application_judgment": "이용자 화면과 버스기사의 지원 행동을 함께 검증한다. 현재 전면 운영 근거로 쓰지 않는다.",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-09",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-009",
+      "country": "대한민국",
+      "title": "기계식주차장 검사·관리시스템 안내",
+      "operator": "한국교통안전공단",
+      "deployment_stage": "공식 업무·서비스 안내",
+      "event_date": "2026-09-09 안내 확인",
+      "ai_evidence": "AI 확인 안 됨",
+      "source_ids": [
+        "DRS-011"
+      ],
+      "candidate_ids": [
+        "TS-BIZ-005"
+      ],
+      "comparability": "같은 시설·업무",
+      "application_judgment": "정보망·검사·관리자 조치를 각각 구별하고 기존 이력 품질부터 확인한다.",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-09",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-010",
+      "country": "일본계 공급사·현장국가 미확인",
+      "title": "IHI 기계식주차설비 예방보전·원격감시",
+      "operator": "IHI",
+      "deployment_stage": "공급사 서비스 설명",
+      "event_date": "게시일·실명 도입일 미확인",
+      "ai_evidence": "AI 확인 안 됨",
+      "source_ids": [
+        "DRS-012"
+      ],
+      "candidate_ids": [
+        "TS-BIZ-005"
+      ],
+      "comparability": "관련 솔루션·개별 도입 미검증",
+      "application_judgment": "예방보전 서비스는 비교 대안이다. 실명 고객·설치 규모·성과가 추가로 필요하다.",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-09",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-011",
+      "country": "일본계 공급사·현장국가 미확인",
+      "title": "미쓰비시 주차설비 원격감시·갱신",
+      "operator": "미쓰비시중공업",
+      "deployment_stage": "공급사 기능 설명",
+      "event_date": "게시일·실명 도입일 미확인",
+      "ai_evidence": "AI 확인 안 됨",
+      "source_ids": [
+        "DRS-013",
+        "DRS-014"
+      ],
+      "candidate_ids": [
+        "TS-BIZ-005"
+      ],
+      "comparability": "관련 솔루션·개별 도입 미검증",
+      "application_judgment": "노후화·안전센서·이상통보를 비교하되 예지 AI 성과로 표시하지 않는다.",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-09",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-012",
+      "country": "대한민국",
+      "title": "TS 철도안전관리체계 검사",
+      "operator": "한국교통안전공단",
+      "deployment_stage": "공식 업무 안내",
+      "event_date": "2026-09-09 안내 확인",
+      "ai_evidence": "AI 확인 안 됨",
+      "source_ids": [
+        "DRS-015"
+      ],
+      "candidate_ids": [
+        "TS-BIZ-006"
+      ],
+      "comparability": "기획 대상의 현행 업무",
+      "application_judgment": "운영기관의 설비 유지보수와 TS의 안전관리체계 검토를 구별한다.",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-09",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-013",
+      "country": "대한민국",
+      "title": "코레일 영업열차 자동검측",
+      "operator": "한국철도공사",
+      "deployment_stage": "운영 사례·확대 및 AI 고도화 계획",
+      "event_date": "2025-08-17 발표",
+      "ai_evidence": "AI 적용·통합 고도화 계획 명시",
+      "source_ids": [
+        "DRS-016"
+      ],
+      "candidate_ids": [
+        "TS-BIZ-006"
+      ],
+      "comparability": "인접 업무·운영기관 역할",
+      "application_judgment": "검측 데이터와 실제 조치의 연결은 참고하되 TS의 신규 검측 플랫폼 과업으로 전용하지 않는다.",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-09",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-014",
+      "country": "영국",
+      "title": "Network Rail Insight",
+      "operator": "Network Rail",
+      "deployment_stage": "운영기관 사용 설명",
+      "event_date": "2023-12-22 발표",
+      "ai_evidence": "AI 예측 활용 명시",
+      "source_ids": [
+        "DRS-017"
+      ],
+      "candidate_ids": [
+        "TS-BIZ-006",
+        "TS-BIZ-005"
+      ],
+      "comparability": "예측정비 패턴·다른 운영환경",
+      "application_judgment": "센서 데이터의 예측과 전문인력의 정비 판단을 구분해 증빙 검토에 필요한 인터페이스만 검토한다.",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-09",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-015",
+      "country": "대한민국",
+      "title": "위험물질운송안전관리 체계",
+      "operator": "한국교통안전공단·국토교통부 관련 체계",
+      "deployment_stage": "직접 열람 미완료",
+      "event_date": "서비스 링크 확인·운영 세부 미확인",
+      "ai_evidence": "AI 미확인",
+      "source_ids": [
+        "DRS-018",
+        "DRS-019",
+        "DRS-033"
+      ],
+      "candidate_ids": [
+        "TS-BIZ-007"
+      ],
+      "comparability": "직접 중복 조사 대기",
+      "application_judgment": "관제 화면을 새로 제안하기 전에 실제 대행·가동·공동활용·알림 체계를 확인한다.",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-09",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-016",
+      "country": "미국",
+      "title": "AskRail 위험물 정보 전달",
+      "operator": "철도회사·Railinc·대응기관",
+      "deployment_stage": "공식 서비스 안내·접근성 개선 권고",
+      "event_date": "2023년 안내·2026-05-01 검토 표기",
+      "ai_evidence": "AI 확인 안 됨",
+      "source_ids": [
+        "DRS-020",
+        "DRS-021"
+      ],
+      "candidate_ids": [
+        "TS-BIZ-007"
+      ],
+      "comparability": "철도 위험물·도로운송과 차이",
+      "application_judgment": "대응요원 자격·현장 통신·교육·대체 연락을 모두 도입 조건으로 둔다.",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-09",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-017",
+      "country": "대한민국",
+      "title": "TS 기체신고·드론원스톱",
+      "operator": "TS·국토교통부 등 관계기관",
+      "deployment_stage": "공식 서비스 안내",
+      "event_date": "2026-09-09 공개 화면 확인",
+      "ai_evidence": "AI 확인 안 됨",
+      "source_ids": [
+        "DRS-022",
+        "DRS-023"
+      ],
+      "candidate_ids": [
+        "TS-BIZ-008"
+      ],
+      "comparability": "직접 중복 검토 대상",
+      "application_judgment": "기체신고·자격·비행 승인을 질문 단계에서 구별하고 소관 공식 채널로 연결한다.",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-09",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-018",
+      "country": "미국",
+      "title": "FAA B4UFLY·LAANC",
+      "operator": "FAA·승인 서비스 공급사",
+      "deployment_stage": "공식 서비스 안내",
+      "event_date": "2026-08-25 페이지 갱신",
+      "ai_evidence": "데이터·규칙 기반 자동화 설명·생성형 AI 미확인",
+      "source_ids": [
+        "DRS-024",
+        "DRS-025"
+      ],
+      "candidate_ids": [
+        "TS-BIZ-008"
+      ],
+      "comparability": "공공·민간 분담·다른 공역제도",
+      "application_judgment": "안내와 공역 승인, 기관과 공급사의 권한, 데이터 최신성을 분리하는 구조를 비교한다.",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-09",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-019",
+      "country": "영국",
+      "title": "GOV.UK Chat",
+      "operator": "Government Digital Service",
+      "deployment_stage": "공개 실험·접근 확대 발표",
+      "event_date": "2024년 초기 평가→2026년 평가·기술 설명",
+      "ai_evidence": "RAG·생성형 AI 명시",
+      "source_ids": [
+        "DRS-029",
+        "DRS-030",
+        "DRS-031",
+        "DRS-051"
+      ],
+      "candidate_ids": [
+        "TS-BIZ-001",
+        "TS-BIZ-003",
+        "TS-BIZ-008"
+      ],
+      "comparability": "범정부 공통 안내 패턴",
+      "application_judgment": "공식 자료만 검색해도 오류가 남는다. 근거·최신성·질문 확인·답변 거절·사람 연결을 성능과 함께 평가한다.",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-09",
+      "version": "0.1",
+      "supersedes": null,
+      "observations": [
+        {
+          "checked_at": "2026-09-11",
+          "source_id": "DRS-030",
+          "finding": "2026-03 시범 발표 재검토; 9월 전면 운영 상태 단정 안 함"
+        },
+        {
+          "checked_at": "2026-09-11",
+          "study": "병목_미해소_미도입",
+          "source_ids": [
+            "DRS-051",
+            "DRS-030"
+          ],
+          "finding": "앱 제공 및 서비스 접근 경계의 공식 2026-03 안내로 보완"
+        }
+      ]
+    },
+    {
+      "id": "CASE-020",
+      "country": "영국",
+      "title": "Consult",
+      "operator": "DSIT",
+      "deployment_stage": "투명성 기록·특정 표본 평가",
+      "event_date": "문서 상태는 출처 원장 참조; 2026-09-11 검토",
+      "ai_evidence": "텍스트 주제 분류 보조",
+      "source_ids": [
+        "DRS-040",
+        "DRS-055"
+      ],
+      "candidate_ids": [],
+      "comparability": "확대 분석의 공통 비교 자료; 후보 채택 아님",
+      "application_judgment": "사람의 주제 판단과 수정 필요",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-11",
+      "version": "0.1",
+      "supersedes": null,
+      "observations": [
+        {
+          "checked_at": "2026-09-11",
+          "study": "병목_미해소_미도입",
+          "source_ids": [
+            "DRS-040",
+            "DRS-055"
+          ],
+          "finding": "투명성 기록의 Pre-deployment와 실제 시범을 구분; 사람 전수 병행 검토는 당시 실증"
+        }
+      ]
+    },
+    {
+      "id": "CASE-021",
+      "country": "싱가포르",
+      "title": "MAESTRO",
+      "operator": "GovTech",
+      "deployment_stage": "공식 제품 소개",
+      "event_date": "문서 상태는 출처 원장 참조; 2026-09-11 검토",
+      "ai_evidence": "공통 AI 제공 기반",
+      "source_ids": [
+        "DRS-041"
+      ],
+      "candidate_ids": [],
+      "comparability": "확대 분석의 공통 비교 자료; 후보 채택 아님",
+      "application_judgment": "상용 클라우드; 인프라 0 제약의 직접 근거 아님",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-11",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-022",
+      "country": "싱가포르",
+      "title": "Application Management Solution",
+      "operator": "GovTech",
+      "deployment_stage": "참조 설계",
+      "event_date": "문서 상태는 출처 원장 참조; 2026-09-11 검토",
+      "ai_evidence": "AI 문서 확인·규칙·업무흐름",
+      "source_ids": [
+        "DRS-042",
+        "DRS-056"
+      ],
+      "candidate_ids": [],
+      "comparability": "확대 분석의 공통 비교 자료; 후보 채택 아님",
+      "application_judgment": "실명 운영성과 미확인; 스캔 기능 제외",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-11",
+      "version": "0.1",
+      "supersedes": null,
+      "observations": [
+        {
+          "checked_at": "2026-09-11",
+          "study": "병목_미해소_미도입",
+          "source_ids": [
+            "DRS-056",
+            "DRS-042"
+          ],
+          "finding": "AISAY 제품 기능과 참조 구성 연결; 특정 기관 업무 완료 효과는 미확인"
+        }
+      ]
+    },
+    {
+      "id": "CASE-023",
+      "country": "프랑스",
+      "title": "Albert API",
+      "operator": "DINUM",
+      "deployment_stage": "공식 서비스 문서",
+      "event_date": "문서 상태는 출처 원장 참조; 2026-09-11 검토",
+      "ai_evidence": "추론·임베딩·RAG",
+      "source_ids": [
+        "DRS-043"
+      ],
+      "candidate_ids": [],
+      "comparability": "확대 분석의 공통 비교 자료; 후보 채택 아님",
+      "application_judgment": "국내 운영 성능 미검증",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-11",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-024",
+      "country": "미국",
+      "title": "ASRS 보고 처리",
+      "operator": "NASA",
+      "deployment_stage": "공식 업무 절차",
+      "event_date": "문서 상태는 출처 원장 참조; 2026-09-11 검토",
+      "ai_evidence": "AI 적용 확인 안 됨",
+      "source_ids": [
+        "DRS-044"
+      ],
+      "candidate_ids": [],
+      "comparability": "확대 분석의 공통 비교 자료; 후보 채택 아님",
+      "application_judgment": "전문가 처리와 비식별 흐름 참고",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-11",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-025",
+      "country": "미국",
+      "title": "NHTSA 조사·리콜",
+      "operator": "NHTSA",
+      "deployment_stage": "공식 업무 설명",
+      "event_date": "문서 상태는 출처 원장 참조; 2026-09-11 검토",
+      "ai_evidence": "AI 적용 확인 안 됨",
+      "source_ids": [
+        "DRS-045"
+      ],
+      "candidate_ids": [],
+      "comparability": "확대 분석의 공통 비교 자료; 후보 채택 아님",
+      "application_judgment": "민원과 결함 확정을 구별",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-11",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-026",
+      "country": "대한민국",
+      "title": "근로복지공단 AI 산재조사 분류",
+      "operator": "근로복지공단",
+      "deployment_stage": "사례집상 2025-08 개시; 후속 연계 완료 미확인",
+      "event_date": "출처별 시점 참조; 조사 2026-09-11",
+      "ai_evidence": "AI·규칙 기반 분류",
+      "source_ids": [
+        "DRS-049"
+      ],
+      "candidate_ids": [],
+      "comparability": "업무 병목 비교; 사업 선정 아님",
+      "application_judgment": "입력 시점과 결과 시점 구분",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-11",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-027",
+      "country": "대한민국",
+      "title": "근로감독관 AI 지원시스템",
+      "operator": "고용노동부",
+      "deployment_stage": "사례집상 2025-09 개시; 개별 운영 상태는 자료 범위",
+      "event_date": "출처별 시점 참조; 조사 2026-09-11",
+      "ai_evidence": "상담·내부 지원 LLM",
+      "source_ids": [
+        "DRS-049"
+      ],
+      "candidate_ids": [],
+      "comparability": "업무 병목 비교; 사업 선정 아님",
+      "application_judgment": "전문가 인계와 운영 지속성",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-11",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-028",
+      "country": "대한민국",
+      "title": "TS 운전자격확인 RIMS",
+      "operator": "TS",
+      "deployment_stage": "자격 조회·얼굴대조의 단계적 도입 사례",
+      "event_date": "출처별 시점 참조; 조사 2026-09-11",
+      "ai_evidence": "비전 AI 포함; 이번 신규 범위 제외",
+      "source_ids": [
+        "DRS-049"
+      ],
+      "candidate_ids": [],
+      "comparability": "업무 병목 비교; 사업 선정 아님",
+      "application_judgment": "기술 도입과 민간 채택을 구분",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-11",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-029",
+      "country": "대한민국",
+      "title": "법제처 지능형·생성형 법령검색",
+      "operator": "법제처",
+      "deployment_stage": "문장 검색 운영; 생성형 2027-07 개통 예정(2026-06 발표)",
+      "event_date": "출처별 시점 참조; 조사 2026-09-11",
+      "ai_evidence": "기존 지능형 검색과 생성형 구축 구별",
+      "source_ids": [
+        "DRS-049",
+        "DRS-050"
+      ],
+      "candidate_ids": [],
+      "comparability": "업무 병목 비교; 사업 선정 아님",
+      "application_judgment": "검색 한계는 확인; 추진중 사업 재포장 금지",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-11",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-030",
+      "country": "대한민국",
+      "title": "TS 자동차검사 예약 비교",
+      "operator": "TS",
+      "deployment_stage": "공식 서비스 확인; 병목 원인·자동화 상태 미확인",
+      "event_date": "출처별 시점 참조; 조사 2026-09-11",
+      "ai_evidence": "예약 서비스와 AI 도입 여부 구별",
+      "source_ids": [
+        "DRS-057"
+      ],
+      "candidate_ids": [],
+      "comparability": "업무 병목 비교; 사업 선정 아님",
+      "application_judgment": "사용자 제보 기반 가설, 공백 확정 아님",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-11",
+      "version": "0.1",
+      "supersedes": null
+    },
+    {
+      "id": "CASE-031",
+      "country": "영국",
+      "title": "DVSA 운전시험 예약",
+      "operator": "DVSA",
+      "deployment_stage": "2025 감사·2026 정책 변경·2026-09 기능 안내",
+      "event_date": "출처별 시점 참조; 조사 2026-09-11",
+      "ai_evidence": "온라인화·봇 방지; LLM 실효성 사례 아님",
+      "source_ids": [
+        "DRS-052",
+        "DRS-053",
+        "DRS-054"
+      ],
+      "candidate_ids": [],
+      "comparability": "업무 병목 비교; 사업 선정 아님",
+      "application_judgment": "공급·배정·알림을 분리",
+      "cost": null,
+      "independent_effect_verified": false,
+      "checked_at": "2026-09-11",
+      "version": "0.1",
+      "supersedes": null
+    }
+  ]
+}

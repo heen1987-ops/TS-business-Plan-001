@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-11",
+  "scope": "NEXT-06 부분 검토. 기존 관계도에 연결하는 증분 원장; 본체 및 화면에는 아직 병합하지 않음",
+  "sources": [
+    {"id":"D20260911-S01","url":"https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1024777279","status":"본문 확인","effective_date":"2024-07-31","location":"제6조 제11~13호","limitation":"표시 판본 확인. 이후 개정 연혁 전수 대조 미완료"},
+    {"id":"D20260911-S02","url":"https://www.koti.re.kr/user/cms/historyList.do","status":"부분 본문 확인","effective_date":null,"location":"정부대행사업 메뉴 및 조직도","limitation":"홈페이지 설명은 실제 위탁 지정고시를 대체하지 않음"},
+    {"id":"D20260911-S03","url":"https://www.kr.or.kr/sub/info.do?m=03010301","status":"열람 실패","effective_date":null,"location":null,"limitation":"도구 Internal Error. 업무 확인 근거로 사용하지 않음"}
+  ],
+  "reviews": [
+    {"id":"D20260911-R01","agency_id":"A_C0064","source_ids":["D20260911-S01"],"finding":"운전면허시험 관리 및 면허 소지자 정기·수시 적성검사는 제6조 사업으로 규정. 위탁 일반조항만으로 특정 위탁을 확정하지 않음","application":"TS 자동차검사·운전적성정밀검사와 기관 역할 혼동 방지","full_legal_review":false,"remaining":"현행 연혁·실제 수행조직·개별 위탁 대조"},
+    {"id":"D20260911-R02","agency_id":"A_C0170","source_ids":["D20260911-S02"],"finding":"국가교통DB와 민자도로·민자철도 관리지원센터가 정부대행사업 메뉴에 표시. 교통빅데이터연구본부·국가교통DB센터 조직 표시 확인","application":"연구·데이터 협업 가능성의 참고. TS 권한이나 기관 간 데이터 공유권으로 해석하지 않음","full_legal_review":false,"remaining":"설립법 별표 및 개별 사업 지정고시·위탁기간 대조"},
+    {"id":"D20260911-R03","agency_id":"A_C0270","source_ids":["D20260911-S03"],"finding":"공식 소개 페이지 열람 실패로 새 업무 관계 확정 없음","application":"기존 원장 유지","full_legal_review":false,"remaining":"현행 설립법 사업 조문 및 현재 사용 중인 기관 소개 URL 확보"}
+  ]
+}

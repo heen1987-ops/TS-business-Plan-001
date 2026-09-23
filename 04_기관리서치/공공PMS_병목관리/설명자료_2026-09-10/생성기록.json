@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-10",
+  "scope": "설명용 HTML·Markdown·SVG; 제품 구현·외부 배포 아님",
+  "input_hashes": {
+    "설명자료_데이터.json": "7f623f13a4cbc04b272448d8446b509f8b3cc60c892469c2cb2aaaf37b0b7bc5",
+    "설명서_템플릿.html": "e933a3d9a152bbc44b5f62a8e74727abb08fd2f0d057aa207bf21f554852b282",
+    "설명서_스타일.css": "0c63da94fdb4f970cc1a4d3e81f678281f7e8d1ee2d44264abb9b1f1cbc590c6",
+    "설명서_동작.js": "b239bb0c8a6d3784819ba81048122bd6eada63189405c1180d5461ba158079ab",
+    "대화추가_2026-09-10.json": "3a1188f57a8e48d4d17d3a4eea79b22df0d3804f35eae8133c458f95ead1b72b",
+    "대화전체_설계계속_2026-09-10.json": "439a74b87da6dace0af76bbb4fedc28a5ea07cc8650dd5994128b93697596580",
+    "설계확장_데이터.json": "69498aca4a42a02df1ed25c223468003985e8d122c712392d5e7aa249b217ded",
+    "생성_설명자료.py": "1e9c10ac8e93e8a320f4fedda0e25fcb728215bb6906dd59fabe28395dcd2021",
+    "CCK_Public_AI_PMS_연차별_상세설계.md": "37486a4dcd558825282cf0dba83587959e070ff20b72c5b226a339988f768bc8"
+  },
+  "outputs": {
+    "CCK_Public_AI_PMS_설명서.html": "93d07f945b4470e478d36350bf5b6967f010cb7dd583426fc4873af3ea52fe5d",
+    "CCK_Public_AI_PMS_설명서.md": "b0168032722bc28ac94c6abd0ccad1e1baaf42d6ae71e12a205bf39de936100b",
+    "CCK_Public_AI_PMS_아키텍처.svg": "4554e202abb65c7c37ac636648e821c2509f85975cae9d847d57351d41c2a458",
+    "연차별_구조한장.svg": "0a682df14211bbd4ea70f55c1342e402041e5c29b1e15306c4884a68210c9cb7",
+    "CCK_Public_AI_PMS_연차별_상세설계.md": "37486a4dcd558825282cf0dba83587959e070ff20b72c5b226a339988f768bc8"
+  },
+  "protected_hashes": {
+    "05_통합사업기획/사업포트폴리오.json": "b842402eeb5462df92d87cc9646f12f4d7c929f25679108d9db41bf27641cdf4",
+    "04_기관리서치/관계도/기관법령_관계원장.json": "52b9a8293b68650a2ca19f1a42b336099f328a90e67645129ddb07df51008bc1",
+    "04_기관리서치/공공PMS_병목관리/공공PMS_전체구조화_2026-09-09.md": "9086ca910b422eacbd349dafc8da2e4c09770ec5f5c93ffebfb96bede1f55aff",
+    "04_기관리서치/공공PMS_병목관리/대화_요구사항원장.json": "8751c20ea16977f8c9a82b5ee24f924db6c9e24d951557edc8b6f976e7f1efa1",
+    "04_기관리서치/공공PMS_병목관리/대화원문_2차.json": "7a1daa8fd4483e20fad839c9f9f0d4001b4188f6c132de90e71399b47490cef4"
+  },
+  "source_user_turns": 21,
+  "features": 17,
+  "new_requirements": 13,
+  "example": {
+    "base_hours": 1480,
+    "gross_hours": 329.0,
+    "net_hours": 289.0,
+    "annual_value_won": 144500000.0,
+    "annual_cost_won": 93333333.33333333,
+    "annual_balance_won": 51166666.66666667
+  }
+}

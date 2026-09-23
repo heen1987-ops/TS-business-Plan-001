@@ -1,0 +1,34 @@
+{
+  "source": "C:/Users/김희섭/OneDrive/문서/ChatGPT/[TS] 사업기획",
+  "target": "G:/내 드라이브/1. 업무영역/6. CCK/1. 사업관리/TS/bizops/[TS 사업기획]",
+  "sourceCount": 6445,
+  "missing": [],
+  "changed": [
+    {
+      "path": "05_통합사업기획/TS_22개업무_고도화보고서_2026-09-15/00_고도화보고서_통합보기.html",
+      "sourceBytes": 41496,
+      "targetBytes": 42686,
+      "sourceDate": "2026-09-15T03:59:23.916Z",
+      "targetDate": "2026-09-15T06:25:56.531Z"
+    },
+    {
+      "path": "05_통합사업기획/TS_22개업무_고도화보고서_2026-09-15/00_고도화보고서_통합보기.md",
+      "sourceBytes": 31664,
+      "targetBytes": 32368,
+      "sourceDate": "2026-09-15T03:59:23.898Z",
+      "targetDate": "2026-09-15T06:25:57.224Z"
+    },
+    {
+      "path": "README.md",
+      "sourceBytes": 22212,
+      "targetBytes": 24807,
+      "sourceDate": "2026-09-15T02:27:49.665Z",
+      "targetDate": "2026-09-15T08:20:01.269Z"
+    }
+  ],
+  "excluded": [
+    "_pms_html_20260915",
+    "_pms_정리_20260915"
+  ],
+  "note": "경로·크기·시각 기반 비교. 변경 파일 덮어쓰기 또는 전체 내용 해시 대조를 수행하지 않음."
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "file": "Public_AI_PMS_요구사항_분석서_v0.1.docx",
+    "source": "요구사항_분석서.md",
+    "source_units": 536,
+    "missing": [],
+    "checks": {
+      "source_units_preserved": true,
+      "all_tables_repeat_header": true,
+      "no_fixed_row_heights": true,
+      "editable_no_protection": true,
+      "toc_field_exists": true
+    },
+    "pages": 17,
+    "sparse_pages": [],
+    "sha256": "679b9e48142d863c3decc31bf0fdf3696bd5c0d9922aa47d523ceceb7fedb3b4"
+  },
+  {
+    "file": "Public_AI_PMS_요구사항_명세서_v0.1.docx",
+    "source": "요구사항_명세서.md",
+    "source_units": 2144,
+    "missing": [],
+    "checks": {
+      "source_units_preserved": true,
+      "all_tables_repeat_header": true,
+      "no_fixed_row_heights": true,
+      "editable_no_protection": true,
+      "toc_field_exists": true,
+      "all_58_requirements_preserved": true,
+      "all_116_acceptance_preserved": true,
+      "all_58_internal_bookmarks": true
+    },
+    "pages": 73,
+    "sparse_pages": [],
+    "sha256": "c2344f61c9298e15bfb93287bdb5909745701690a10bac96eb599e9ee643ac39"
+  }
+]

@@ -1,0 +1,445 @@
+<title>IT 프로젝트 관리시스템 (PMS) | 에스티이지(STEG)</title>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<!-- <title>타이틀</title> -->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="format-detection" content="telephone=no" />
+<meta property="og:image" content="/img/common/steg_ogimg.jpg" />
+<meta name="google" value="notranslate" />
+
+	<title>IT 프로젝트 관리 시스템 (PPMS) | 에스티이지(STEG)</title>
+	<meta name="title" content="IT 프로젝트 관리 시스템 (PPMS) | 에스티이지(STEG)" />
+	<meta name="author" content="" />
+	<meta name="keywords" content="" />
+	<meta name="subject" content=""/>
+	<meta name="description" content="IT 정보화사업의 라이프사이클을 하나의 흐름으로 연결하고 통합 관리를 지원합니다." />
+	<meta name="copyright" content="" />
+	<meta name="content-language" content="" />
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="IT 프로젝트 관리 시스템 (PPMS) | 에스티이지(STEG)">
+	<meta property="og:site_name" content="IT 프로젝트 관리 시스템 (PPMS) | 에스티이지(STEG)">
+	<meta property="og:description" content="IT 정보화사업의 라이프사이클을 하나의 흐름으로 연결하고 통합 관리를 지원합니다.">
+
+	<!-- css block -->
+	<link rel="stylesheet" type="text/css" href="/site/css/axj.css" />
+	<link rel="stylesheet" type="text/css" href="/site/css/AXButton.css" />
+	<link rel="stylesheet" type="text/css" href="/site/css/site.css?d=20260909" />
+	<link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/jquery-ui-timepicker-addon/1.6.3/jquery-ui-timepicker-addon.min.css">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/@xpressengine/xeicon@2.3.3/xeicon.min.css">
+	
+	<!-- js block -->
+	<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-ui-timepicker-addon/1.6.3/jquery-ui-timepicker-addon.min.js"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/bPopup/0.11.0/jquery.bpopup.min.js"></script>
+	<script type="text/javascript" src="/site/js/common.js?d=20260909"></script>
+	<script type="text/javascript" src="/site/plugin/kcaptcha/kcaptcha.js" charset="utf-8"></script>
+
+<link rel="shortcut icon" href="/img/common/steg_favicon.ico">
+<link rel="icon" href="/img/common/steg_favicon.ico">
+<meta name="naver-site-verification" content="d04b014e90e59bd3592570ac33fcf1773c837b72" />
+<link rel="stylesheet" href="/css/aos.css?v=260909075638">
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<link rel="stylesheet" href="/css/base.css?v=260909075638">
+<link rel="stylesheet" href="/css/common.css?v=260909075638">
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="/js/aos.js"></script>
+<link rel="stylesheet" href="/css/board.css?v=260909075638">
+<link rel="stylesheet" href="/css/sub.css?v=260909075638">
+<script defer src="/js/sub.js?v=260909075638"></script>
+
+<link rel="stylesheet" href="/css/animation.css?v=260909075638">
+
+<script src="/js/common.js?v=260909075638"></script>
+
+<!-- Google Tag Manager -->
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TPDXCXBV');
+</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C9101WVHRH"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){
+	dataLayer.push(arguments);
+}
+gtag('js', new Date());
+
+gtag('config', 'G-C9101WVHRH');
+</script>
+
+<script>
+if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
+	window.location = 'microsoft-edge:' + window.location;
+	setTimeout(function() {
+	window.location = 'https://go.microsoft.com/fwlink/?linkid=2135547';
+	}, 1);
+}
+
+var windowWidth = window.screen.width
+setViewPort(windowWidth);
+function updateOrientation(){
+	var chk = window.orientation
+	if(chk == 90 || chk == -90){
+		$("meta[name=viewport]").attr("content", "width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes, target-densitydpi=medium-dpi");
+	}
+}
+window.onload = function() {
+	document.body.onorientationchange = updateOrientation;
+}
+function setViewPort(w_width) {
+	if (w_width <= 480 ){
+		$("meta[name=viewport]").attr("content", "width=480, maximum-scale=2.0, user-scalable=yes, target-densitydpi=medium-dpi");
+	}
+	else{
+		$("meta[name=viewport]").attr("content", "width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes, target-densitydpi=medium-dpi");
+	}
+}
+$(window).resize(function(){
+windowWidth = window.screen.width
+setViewPort(windowWidth);
+});
+</script>
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "Organization",
+	"name": "STEG",
+	"url": "https://steg.co.kr/kr/",
+	"sameAs": [
+	"https://blog.naver.com/stegofficial",
+	"https://www.youtube.com/@주식회사에스티이지",
+	"https://www.linkedin.com/company/stegofficial",
+	"https://www.facebook.com/STEGEGI/"
+	]
+}
+</script>
+</head>
+<body>
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPDXCXBV"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+	<div id="wrap">
+	<header id="header" class="kr">
+	<div class="navBg"></div>
+	<div class="w1720">
+	<div class="flex-box">
+	<h1 class="logo">
+	<a href="/kr">
+	<img src="/img/common/steg_logo.svg" alt="" class="svg">
+	</a>
+	</h1>
+	<nav>
+	<ul class="depth01">
+	<li><a href="/kr/sub/aism/aism.php">AI SM</a>
+	<div class="depthBox">
+	<ul class="depth02">
+	<li><a href="/kr/sub/aism/aism.php">AI SM</a></li>
+	</ul>
+	</div>
+	</li>
+	<li class="wide"><a href="/kr/sub/product/platform.php">제품</a>
+	<div class="depthBox">
+	<ul class="depth02" style="flex-wrap: wrap;">
+
+	<li><a href="/kr/sub/product/platform.php">E-GENE™</a></li>
+	<li><a href="/kr/sub/product/itsm.php">ITSM</a></li>
+	<li><a href="/kr/sub/product/itam.php">ITAM</a></li>
+	<li><a href="/kr/sub/product/itbm.php">ITBM</a></li>
+	<li><a href="/kr/sub/product/ppms.php">PMS</a></li>
+	<li><a href="/kr/sub/product/aigc.php">AIGC</a></li>
+	<li><a href="/kr/sub/product/she.php">SHE</a></li>
+	<li><a href="/kr/sub/product/smart.php">SmartDiscovery</a></li>
+	<li><a href="/kr/sub/product/crm.php">CRM</a></li>
+	<li><a href="/kr/sub/product/other.php">Others</a></li>
+
+	
+	</ul>
+	</div>
+	</li>
+	<li><a href="/kr/sub/service/consulting.php">서비스</a>
+	<div class="depthBox">
+	<ul class="depth02">
+	<li><a href="/kr/sub/service/consulting.php">컨설팅서비스</a></li>
+	<li><a href="/kr/sub/service/bootcamp.php">부트캠프 교육서비스</a></li>
+	<li><a href="/kr/sub/service/exin.php">EXIN 교육서비스</a></li>
+	</ul>
+	</div>
+	</li>
+	<li><a href="/kr/sub/case/case.php">성공사례</a>
+	<div class="depthBox">
+	<ul class="depth02">
+	<li><a href="/kr/sub/case/case.php">고객사례</a></li>
+	</ul>
+	</div>
+	</li>
+	<li><a href="/kr/sub/community/news.php">리소스</a>
+	<div class="depthBox">
+	<ul class="depth02">
+	<li><a href="/kr/sub/community/news.php">뉴스룸</a></li>
+	<li><a href="/kr/sub/community/insight.php">인사이트</a></li>
+	<li><a href="/kr/sub/community/brochure.php">브로슈어</a></li>
+	<li><a href="/kr/sub/community/video.php">영상</a></li>
+	<li><a href="/kr/sub/community/story.php">스토리</a></li>
+	</ul>
+	</div>
+	</li>
+	<li><a href="https://sd.steg.co.kr/" target="_blank">고객지원</a>
+	<div class="depthBox">
+	<ul class="depth02">
+	<li><a href="https://sd.steg.co.kr/" target="_blank">부트캠프</a></li>
+	<li><a href="https://sd.steg.co.kr/" target="_blank">서비스데스크</a></li>
+	<li><a href="https://cafe.naver.com/stegrnd" target="_blank">Resource Center</a></li>
+	<li><a href="https://113366.io/" target="_blank">Remote Support</a></li>
+	</ul>
+	</div>
+	</li>
+	<li><a href="/kr/sub/company/overview.php">회사소개</a>
+	<div class="depthBox">
+	<ul class="depth02">
+	<li><a href="/kr/sub/company/overview.php">기업개요</a></li>
+	<li><a href="/kr/sub/company/certify.php">대외인증 및 자격</a></li>
+	<li><a href="/kr/sub/company/location.php">오시는길</a></li>
+	<li><a href="/kr/sub/company/recruit.php">인재채용</a></li>
+	</ul>
+	</div>
+	</li>
+	</ul>
+	</nav>
+	<div class="right">
+	<a href="/kr/sub/contact/contact_form.php" class="btn btn-contact">문의하기</a>
+	<div class="lang">
+	<ul>
+	<li class="on"><a href="/kr">KOR</a></li>
+	<li><a href="/en/">ENG</a></li>
+	</ul>
+	</div>
+	<button class="search">
+	<img src="/img/common/search_icon.svg" alt="" class="svg">
+	</button>
+	<button class="menu">
+	<span></span>
+	<span></span>
+	<span></span>
+	</button>
+	</div>
+	</div>
+	</div>
+	</header>
+
+
+	<div id="search" class="popupH">
+	<div class="blank"></div>
+	<div class="inner">
+	<div class="cc">
+	<h3>Search</h3>
+	<form name="search" method="get" action="/kr/sub/search/result.php">
+		<input type="text" name="s_keyword" placeholder="검색어를 입력해주세요" required>
+		<button>
+		<img src="/img/common/search_icon.svg" alt="">
+		</button>
+		</form>
+			</div>
+			</div>
+			</div>
+
+			<div id="menu" class="popupH">
+			<div class="blank"></div>
+			<nav class="inner">
+			<div class="pc"></div>
+			<div class="mobile"></div>
+			</nav>
+			</div>
+
+			<div class="floating-box">
+			<a href="/kr/sub/contact/contact_form.php" class="btn btn-f-contact">
+			<img src="/img/common/icon_f_contact.svg" alt="">
+			문의하기
+</a>
+</div>
+
+	<script>
+	$pageIdx = 2;
+</script>
+
+<article id="sub">
+<section id="visual" class="visual2">
+<div class="bg bg2"></div>
+<div class="text-box">
+  <div class="w1500">
+    <!-- 2026-06-17 수정
+						<div id="lnb" class="lnb2">
+							<ul>
+								<li class="home">
+									<a href="/kr">
+										<img src="/img/sub/home_icon.svg" alt="" class="svg">
+									</a>
+								</li>
+								<li class="local local01"></li>
+																	<li class="local local02 "></li>
+															</ul>
+						</div>
+						-->
+    <h2><em>제품</em></h2>
+    <div id="tab" class="lnb2"></div>
+  </div>
+</div>
+</section>
+<!-- container -->
+<div id="ppms" class="sub-content">
+	<section>
+		<div class="w1500">
+			<div class="sub-title" data-aos="fade-down">
+				<h4>E-GENE™ PMS(Project Management System)</h4>
+				<p>• 프로젝트의 표준 프로세스와 공정을 단일 워크플로우 플랫폼 상에서 체계적으로 구현<br>• WBS, 일정, 예산, 리스크, 산출물 등을 실시간으로 통합 관리함으로써 프로젝트 관리 시스템 고도화</p>
+			</div>
+			<div class="dot-sec">
+				<div data-aos="fade-up">
+					<div class="target-figure">
+						<figure>
+							<img src="/img/sub/product/ppms_img04_01.png" alt="">
+						</figure>
+						<a href="#" target="_blank">
+							<i></i>
+						</a>
+					</div>
+					<div class="sub-title" data-aos="fade-down">
+					<p>• 프로젝트 표준 프로세스 및 공정 지원: 프로젝트 생명주기 표준화 절차 및 기능, 솔루션 워크플로우 기반의 공정 단계 시스템화</p>
+					<p style="margin-top: 0;">• WBS 및 일정·범위·자원·이슈·리스크 관리: WBS 구성, 작업 패키지 정의, 사업범위 변경 관리, 투입 인력·자원의 할당 및 현황 관리, 이슈 및 리스크의 등록·해결·승인 프로세스 관리</p>
+					<p style="margin-top: 0;">• 산출물 및 품질 관리: 공정 단계별 산출물 표준화와 이력 관리, 전체 산출물 및 검수 관리</p>
+					<p style="margin-top: 0;">• 실시간 통합 모니터링, 대시보드: 프로젝트별 워크스페이스 기반 상태 진척도 확인, 대시보드 모니터링을 통한 프로젝트 현황 관리</p>
+				</div>
+					<i class="line"></i>
+				</div>
+				<div>
+					<div class="sub-title" data-aos="fade-up">
+						<h4>운영 데이터 기반 실시간 모니터링 및 시각화</h4>
+						<p>• 실 운영 데이터 기반의 실시간 모니터링으로 IT 프로젝트 관리와 통제, 모니터링의 체계화</p>
+						<p>• 프로젝트별 워크스페이스와 대시보드로 가시적인 프로젝트 통합 모니터링 진행 및 활용 가능</p>
+					</div>
+					<div class="grid-box">
+						<div data-aos="fade-right">
+							<figure class="shadow">
+								<img src="/img/sub/product/ppms_img05_01.jpg" alt="">
+							</figure>
+							<span>PMS 포탈</span>
+						</div>
+						<div data-aos="fade-left">
+							<figure class="shadow">
+								<img src="/img/sub/product/ppms_img06_01.jpg" alt="">
+							</figure>
+							<span>프로젝트 별 워크 스페이스</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+</article>
+<!-- container end -->
+				</div><!--subContents-->
+			</div><!--#subWrap-->
+				<footer id="footer">
+			<div class="w1720">
+				<div class="grid-box">
+					<div>
+						<h1 class="logo">
+							<a href="/kr">
+								<img src="/img/common/footer_logo.svg" alt="" class="svg">
+							</a>
+						</h1>
+					</div>
+					<div>
+						<ul class="link">
+							 
+							<li><button onclick="location.href='/kr/sub/contact/contact_form.php';">온라인 문의</button></li>
+							<li><button onclick="window.open('https://page.stibee.com/subscriptions/481340', 'STEG Contact', 'width=820, height=860, location=no, status=no, scrollbars=yes');">STEG 뉴스레터 구독하기</button></li>
+							<li><a href="/kr/privacy.php">개인정보처리방침</a></li>
+						</ul>
+					</div>
+					<div>
+						<address>
+							<p>주소: 서울특별시 금천구 가산디지털 1로 128 STXV타워 10층</p>
+							<p>전화: 02-3473-3477</p>
+							<p>팩스: 02-811-3477</p>
+							<p>메일: sd@steg.co.kr</p>	
+						</address>	
+					</div>
+					<div>
+						<ul class="sns">
+							<li>
+								<a href="https://cafe.naver.com/stegrnd" target="_blank">
+									<img src="/img/common/cafe_icon.svg" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="https://blog.naver.com/stegofficial" target="_blank">
+									<img src="/img/common/blog_icon.svg" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="https://www.youtube.com/@주식회사에스티이지" target="_blank">
+									<img src="/img/common/youtube_icon.svg" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/company/stegofficial" target="_blank">
+									<img src="/img/common/linkedin_icon.svg" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="https://www.facebook.com/STEGEGI/" target="_blank">
+									<img src="/img/common/facebook_icon.svg" alt="">
+								</a>
+							</li>
+						</ul>
+						<p class="copyright"> ⓒ STEG. All rights reserved</p>
+					</div>
+				</div>
+				<div class="top">
+					<button id="top">Top</button>
+				</div>
+			</div>
+		</footer>
+	</div><!--#wrap-->
+<!-- 네이버 애널리틱스 스크립트 260402추가 -->
+<script type="text/javascript" src="//wcs.pstatic.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "196bd672cd18700";
+if(window.wcs) {
+  wcs_do();
+}
+</script>
+</body>
+</html><script>
+	$(function(){
+		$(".it .item").each(function(){
+			$(this).find(".pc > p").clone().appendTo($(this).find(".mobile"));
+		});
+
+		$(window).on("load resize", function(){
+			$(".it .pc").each(function(){
+				const start = $(".it .diagram").offset().top;
+				const end = $(this).offset().top;
+				const dotT = Math.ceil(end - start);
+				const dotH = $(this).outerHeight();
+				const pH = $(this).find("> p").outerHeight(true);
+				$(".it .diagram").attr("style", `--dotT: ${dotT}px; --dotH: ${dotH}px; --pH: ${pH}px;`);
+			});
+		});
+	});
+</script>

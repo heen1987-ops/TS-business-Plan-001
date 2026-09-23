@@ -1,0 +1,167 @@
+[
+  {
+    "id": "D_TS_01",
+    "name": "국민 생명·신체·재산 보호",
+    "law": "한국교통안전공단법",
+    "article": "제1조(목적)",
+    "relation": "설립 목적",
+    "status": "법정목적",
+    "authority": "",
+    "note": "안전한 교통환경 및 교통안전 관리의 효율화를 통한 국민 보호.",
+    "source": "https://www.law.go.kr/LSW//lsInfoP.do?lsiSeq=198271&chrClsCd=010202&urlMode=lsInfoP&efYd=20180101&ancYnChk=0"
+  },
+  {
+    "id": "D_TS_02",
+    "name": "교통안전 교육·연구·정보시스템",
+    "law": "한국교통안전공단법",
+    "article": "제6조(사업)",
+    "relation": "법정 사업",
+    "status": "법정사업",
+    "authority": "",
+    "note": "도로교통 교육은 자동차운송사업 안전관리·자동차 관리, 기술개발은 자동차 성능·안전으로 범위 제한. 제12호 지정·승인사업은 별도 근거 필요.",
+    "source": "https://www.law.go.kr/LSW//lsInfoP.do?lsiSeq=198271&chrClsCd=010202&urlMode=lsInfoP&efYd=20180101&ancYnChk=0"
+  },
+  {
+    "id": "D_TS_03",
+    "name": "교통수단 점검·안전진단 결과 평가",
+    "law": "교통안전법 시행령",
+    "article": "제48조의2(업무의 위탁)",
+    "relation": "법정 위탁",
+    "status": "위탁확정",
+    "authority": "국토교통부",
+    "note": "제1항: 교통수단안전점검, 교통시설안전진단 결과 평가, 교통안전관리자 시험·자격증명 업무.",
+    "source": "https://www.law.go.kr/LSW//lsInfoP.do?lsiSeq=281255&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0"
+  },
+  {
+    "id": "D_TS_04",
+    "name": "운행기록 분석·교통안전 정보체계",
+    "law": "교통안전법 시행령",
+    "article": "제48조의2(업무의 위탁)",
+    "relation": "법정 위탁",
+    "status": "위탁확정",
+    "authority": "국토교통부",
+    "note": "제2항: 안전관리규정 확인·평가, 정보관리체계, 자동차 운행기록 제출·점검·분석 등. 제1호 및 제4호 업무에는 시·도지사등도 위탁 주체.",
+    "source": "https://www.law.go.kr/LSW//lsInfoP.do?lsiSeq=281255&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0"
+  },
+  {
+    "id": "D_TS_05",
+    "name": "튜닝 안전연구·자동차 이력정보",
+    "law": "자동차관리법 시행령",
+    "article": "제19조(업무의 위탁)",
+    "relation": "법정 위탁",
+    "status": "위탁확정",
+    "authority": "국토교통부",
+    "note": "제3항: 튜닝 안전성 연구·장비개발·전문인력 양성, 정밀도검사 및 이력정보 제공.",
+    "source": "https://www.law.go.kr/LSW//lsInfoP.do?lsiSeq=286479&chrClsCd=010202&urlMode=lsInfoP&efYd=20260603&ancYnChk=0"
+  },
+  {
+    "id": "D_TS_06",
+    "name": "자동차 튜닝 승인",
+    "law": "자동차관리법 시행령",
+    "article": "제19조(업무의 위탁)",
+    "relation": "법정 위탁",
+    "status": "위탁확정",
+    "authority": "시장·군수·구청장(법정 주체)",
+    "note": "제5항: 시장·군수·구청장이 자동차 튜닝 승인 권한을 TS에 위탁. 중앙부처 위탁과 구분.",
+    "source": "https://www.law.go.kr/LSW//lsInfoP.do?lsiSeq=286479&chrClsCd=010202&urlMode=lsInfoP&efYd=20260603&ancYnChk=0"
+  },
+  {
+    "id": "D_TS_07",
+    "name": "자동차 전산정보처리조직 운영",
+    "law": "자동차관리법 시행령",
+    "article": "제19조(업무의 위탁)",
+    "relation": "법정 위탁",
+    "status": "위탁확정",
+    "authority": "국토교통부",
+    "note": "제9항: 전산정보처리조직의 설치·운영. 제4항의 전자적 등록사무 위탁은 재량과 고시가 필요해 별도.",
+    "source": "https://www.law.go.kr/LSW//lsInfoP.do?lsiSeq=286479&chrClsCd=010202&urlMode=lsInfoP&efYd=20260603&ancYnChk=0"
+  },
+  {
+    "id": "D_TS_08",
+    "name": "건설기계 부품인증·경력관리",
+    "law": "건설기계관리법 시행령",
+    "article": "제18조의3(업무의 위탁)",
+    "relation": "법정 위탁",
+    "status": "위탁확정",
+    "authority": "국토교통부",
+    "note": "제2항제2·3호: 부품인증, 조종사 경력관리 및 전산정보처리조직. 제1호 형식승인 등은 검사대행자와 분담하고 타워크레인 예외가 존재.",
+    "source": "https://www.law.go.kr/LSW//lsInfoP.do?lsiSeq=284659&chrClsCd=010202&urlMode=lsInfoP&efYd=20260324&ancYnChk=0"
+  },
+  {
+    "id": "D_TS_09",
+    "name": "철도 안전체계 검사·자격관리",
+    "law": "철도안전법 시행령",
+    "article": "제63조(업무의 위탁)",
+    "relation": "법정 위탁",
+    "status": "위탁확정",
+    "authority": "국토교통부",
+    "note": "제1항: 안전관리체계 검사·수준평가, 운전·관제 자격, 철도차량 정비기술자, 철도안전 정보체계 등. 제2항 철도기술연구원 및 제3항 국가철도공단 위탁은 별도.",
+    "source": "https://www.law.go.kr/LSW//lsInfoP.do?lsiSeq=284881&chrClsCd=010202&urlMode=lsInfoP&efYd=20260324&ancYnChk=0"
+  },
+  {
+    "id": "D_TS_10",
+    "name": "항공자격·드론 신고·안전보고",
+    "law": "항공안전법 시행령",
+    "article": "제26조(권한 및 업무의 위임ㆍ위탁)",
+    "relation": "법정 위탁",
+    "status": "위탁확정",
+    "authority": "국토교통부",
+    "note": "제6항: 항공자격시험, 항공안전 자율보고, 초경량비행장치 신고·조종자 증명·전문교육기관 등. 제8항 영어시험의 지정 전문기관 위탁과 구분.",
+    "source": "https://www.law.go.kr/LSW//lsInfoP.do?lsiSeq=287495&chrClsCd=010202&urlMode=lsInfoP&efYd=20260709&ancYnChk=0"
+  },
+  {
+    "id": "D_TS_11",
+    "name": "기계식주차장 정보망",
+    "law": "주차장법 시행령",
+    "article": "제12조의11(기계식주차장 정보망의 구축ㆍ운영 업무의 위탁)",
+    "relation": "법정 위탁",
+    "status": "위탁확정",
+    "authority": "국토교통부",
+    "note": "기계식주차장 정보망 구축·운영을 TS에 위탁. 검사·사고조사와 개별 조문을 구분.",
+    "source": "https://www.law.go.kr/LSW//lsInfoP.do?lsiSeq=288729&chrClsCd=010202&urlMode=lsInfoP&efYd=20260828&ancYnChk=0"
+  },
+  {
+    "id": "D_TS_12",
+    "name": "대중교통 통합정보시스템",
+    "law": "대중교통의 육성 및 이용촉진에 관한 법률 시행령",
+    "article": "제11조의9(통합정보시스템 구축ㆍ운영 업무의 위탁)",
+    "relation": "법정 위탁",
+    "status": "위탁확정",
+    "authority": "국토교통부",
+    "note": "법 제10조의10제4항에 따른 통합정보시스템 구축·운영 업무.",
+    "source": "https://www.law.go.kr/LSW//lsInfoP.do?lsiSeq=261377&chrClsCd=010202&urlMode=lsInfoP&efYd=20240501&ancYnChk=0"
+  },
+  {
+    "id": "D_TS_13",
+    "name": "위험물질 운송안전센터",
+    "law": "물류정책기본법",
+    "article": "제29조(위험물질운송안전관리센터의 설치ㆍ운영)",
+    "relation": "대행 가능",
+    "status": "가능규정",
+    "authority": "국토교통부",
+    "note": "제1항은 TS에 대행하게 할 수 있는 근거. 실제 대행 지정·운영 근거는 별도 대조. 제4항 목적 외 사용 금지와 제5항 관계행정기관 공동활용을 함께 검토.",
+    "source": "https://www.law.go.kr/LSW//lsInfoP.do?lsiSeq=276993&chrClsCd=010202&urlMode=lsInfoP&efYd=20251001&ancYnChk=0"
+  },
+  {
+    "id": "D_TS_14",
+    "name": "교통약자 조사·정보체계·교육교재",
+    "law": "교통약자의 이동편의 증진법 시행령",
+    "article": "제21조의3(권한의 위임 또는 위탁)",
+    "relation": "위탁 대상 자격",
+    "status": "가능규정",
+    "authority": "국토교통부",
+    "note": "제3·4항: TS와 한국교통연구원이 수탁 가능한 대상. 제5항 실제 위탁기관·업무 고시를 추가 확인해야 함.",
+    "source": "https://www.law.go.kr/LSW//lsInfoP.do?lsiSeq=282895&chrClsCd=010202&urlMode=lsInfoP&efYd=20260201&ancYnChk=0"
+  },
+  {
+    "id": "D_TS_15",
+    "name": "UAM 실증·버티포트 등 지원",
+    "law": "도심항공교통 활용 촉진 및 지원에 관한 법률 시행령",
+    "article": "제25조(업무의 위탁)",
+    "relation": "위탁 대상 자격",
+    "status": "가능규정",
+    "authority": "국토교통부",
+    "note": "제2항 TS·LX·항우연·항공안전기술원 등은 수탁 가능한 기관군. 제3항 실제 위탁 고시를 확인하기 전 TS의 확정 업무로 사용하지 않음.",
+    "source": "https://www.law.go.kr/LSW//lsInfoP.do?lsiSeq=288153&chrClsCd=010202&urlMode=lsInfoP&efYd=20260721&ancYnChk=0"
+  }
+]

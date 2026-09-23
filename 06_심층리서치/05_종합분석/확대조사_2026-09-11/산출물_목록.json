@@ -1,0 +1,42 @@
+[
+  {
+    "path": "출처원장_변경전.json",
+    "bytes": 51912,
+    "sha256": "cfab4864213d24b1c6077352e7be4d8b2dd0907f980a53fadc022bd2dab19746"
+  },
+  {
+    "path": "출처_검토기록.json",
+    "bytes": 20470,
+    "sha256": "ca84c2b1403198f590d67175fbedaf8d603e350a875ea90df0a65f5fc432c3d2"
+  },
+  {
+    "path": "확대_딥리서치_보고서.md",
+    "bytes": 28423,
+    "sha256": "3677654ecaa94d098e54c24bd009b12babecc935e1a6e324fa3223d41edfd72a"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1578,
+    "sha256": "81c6321fc29b634309d125d495bd586b1f52713156871e0437cc12786e3b8b91"
+  },
+  {
+    "path": "다음_조사_대기열.md",
+    "bytes": 2693,
+    "sha256": "d054036a20a18cb413d2de9f741bcded5a975a7318186589caee31b2a886dd2f"
+  },
+  {
+    "path": "사례원장_변경전.json",
+    "bytes": 15611,
+    "sha256": "43910622dc1fcaf97a95c72d502320d6da8795f9c7a867c9456952a211b65c36"
+  },
+  {
+    "path": "문제_솔루션_사례_연결.json",
+    "bytes": 2233,
+    "sha256": "a13da0a51953fa5388af2850fbc831c0e3da0c655de93184ef14feae25f68204"
+  },
+  {
+    "path": "검증_결과.md",
+    "bytes": 1232,
+    "sha256": "7d9f0dd5f9f84e40a88419bf5ef6759b9516ecf0c59e5c31c3ef2f6c93327922"
+  }
+]

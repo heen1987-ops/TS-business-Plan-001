@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-09-09",
+  "documents": 7,
+  "local_links_checked": 51,
+  "missing_links": [],
+  "ts_review_rows": 15,
+  "manifest_files": 4659,
+  "manifest_hashes_from_acquisition": 2578,
+  "notes": [
+    "원천 해시의 전 파일 재계산 검사는 중단. 취득 시 기록을 연결함.",
+    "독립 법률검토·스크린리더 검증 미실시"
+  ]
+}

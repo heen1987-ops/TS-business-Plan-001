@@ -1,0 +1,143 @@
+{
+  "as_of": "2026-09-09",
+  "revision": "v0.2",
+  "scope": "문서·대화·요구추적·참조·보존 무결성만 검사. 수용 시나리오의 제품 실행, 현행법 전수·AI 성능·실증·독립 검증은 제외.",
+  "passed": true,
+  "checks": [
+    {
+      "check": "출처 ID 중복 없음",
+      "passed": true,
+      "details": 16
+    },
+    {
+      "check": "출처 필수 필드",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "사업 적용 미검증 상태 유지",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "보고서 출처 참조 존재",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "P01~P07 검토 존재",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "후속조사 ID 01~15 연결",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "한글 파일 UTF-8·대체문자 없음",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "미검증·제한사항 표기 존재",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "주제 문서 로컬 링크 존재",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "공개 HTML 13개 보존",
+      "passed": true,
+      "details": 13
+    },
+    {
+      "check": "보존본 SHA-256 일치",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "핵심 근거의 본문·시행일 표식 존재",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "기존 원장 보존",
+      "passed": true,
+      "details": "연결문서 편집 직전 해시와 비교"
+    },
+    {
+      "check": "대화 조회 10건·페이지 종료 상태",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "보존본과 요구원장의 사용자 발언 일치",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "요구 20건 ID·원발언 참조",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "사용자 발언 10건 모두 요구에 연결",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "설계 18건 ID·원발언 참조",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "요구의 기능·설계 연결과 원장 상태",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "추적표의 요구·기능·설계·발언 연결",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "미검증 주장 6건과 구현·시험 구별",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "수용 시나리오 14건·실행 결과 아님 표기",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "기본 만족도·수행이력·레퍼런스 초기 범위 보존",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "이전 문서 7개 보존 해시",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "출처 S01의 대화·요구원장·조회범위 연결",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "기존 외부 출처의 검증 수준 보존",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "구조화 문서의 근거·요구·조치 ID 존재",
+      "passed": true,
+      "details": []
+    }
+  ]
+}

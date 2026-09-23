@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-10",
+  "scope": "설명용 HTML·Markdown·SVG; 제품 구현·외부 배포 아님",
+  "input_hashes": {
+    "설명자료_데이터.json": "efe6791ccca0953f70f705a50a5617912987d1372d3fe63baaa0f9daa30420c8",
+    "설명서_템플릿.html": "491a404c75f54e36aed3f414e5e8721e7dc04e6b5e34175996036bca7c916932",
+    "설명서_스타일.css": "5f5b67550f3f78fec73752b29579a8dd6bca279e7f8591b376243c6bda8f431e",
+    "설명서_동작.js": "a63547c552ddf3330616db326ad36466905df8f8b529ea84e85a9abc80fffc32",
+    "대화추가_2026-09-10.json": "3a1188f57a8e48d4d17d3a4eea79b22df0d3804f35eae8133c458f95ead1b72b"
+  },
+  "outputs": {
+    "CCK_Public_AI_PMS_설명서.html": "b25232fec2e9820a9173bd4ebb508c8805e8ab5a30a4e22960401bcc44e7250f",
+    "CCK_Public_AI_PMS_설명서.md": "1e925cf0ae68846d5a3ab8bcd56b3110b513002d11c96c2647f3569d4b23e7b2",
+    "CCK_Public_AI_PMS_아키텍처.svg": "8e25dca3d44fa2693ab11903e0eafe75f1ca483a807e2ff9d9a69d9fef1bc34f"
+  },
+  "protected_hashes": {
+    "05_통합사업기획/사업포트폴리오.json": "b842402eeb5462df92d87cc9646f12f4d7c929f25679108d9db41bf27641cdf4",
+    "04_기관리서치/관계도/기관법령_관계원장.json": "52b9a8293b68650a2ca19f1a42b336099f328a90e67645129ddb07df51008bc1",
+    "04_기관리서치/공공PMS_병목관리/공공PMS_전체구조화_2026-09-09.md": "9086ca910b422eacbd349dafc8da2e4c09770ec5f5c93ffebfb96bede1f55aff",
+    "04_기관리서치/공공PMS_병목관리/대화_요구사항원장.json": "8751c20ea16977f8c9a82b5ee24f924db6c9e24d951557edc8b6f976e7f1efa1",
+    "04_기관리서치/공공PMS_병목관리/대화원문_2차.json": "7a1daa8fd4483e20fad839c9f9f0d4001b4188f6c132de90e71399b47490cef4"
+  },
+  "source_user_turns": 15,
+  "features": 17,
+  "new_requirements": 5,
+  "example": {
+    "base_hours": 1480,
+    "gross_hours": 329.0,
+    "net_hours": 289.0,
+    "annual_value_won": 144500000.0,
+    "annual_cost_won": 93333333.33333333,
+    "annual_balance_won": 51166666.66666667
+  }
+}

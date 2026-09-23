@@ -1,0 +1,144 @@
+{
+  "date": "2026-09-11",
+  "scope": "문서·구조화 데이터·기본 HTML 표시 검증. NOA/로컬 LLM·기관 API·실제 업무 검증 아님",
+  "checks": [
+    {
+      "name": "기존 7개와 추가 3개 ID 보존",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "5개 패턴에서 10개 ID를 정확히 한 번 연결",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "재사용 패턴과 기관별 조건 보존",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "공통 요구 14개 고유 ID",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "합성 사례의 요구 참조 유효",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "공통 요구 전부에 사례 참조 존재",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "합성 14개, 실제 모델 결과 0개",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "사람 검토와 안전 종료 구분",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "추가 근거 6개 고유 ID",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "공식 제품 본문의 수집 해시 보존",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "예산·기관·인프라·미실행 경계",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "CCK_NOA_주관수행_구체화.md 내부 연결",
+      "pass": true,
+      "detail": "8개"
+    },
+    {
+      "name": "후속확인_대기열.md 내부 연결",
+      "pass": true,
+      "detail": "1개"
+    },
+    {
+      "name": "desktop 본문·표 표시",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop 페이지 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop JavaScript 오류 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop 한국어 문서",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop HTML 내부 파일 연결",
+      "pass": true,
+      "detail": "9개"
+    },
+    {
+      "name": "desktop 목차 앵커",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop 키보드 첫 목차 접근",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile 본문·표 표시",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile 페이지 가로 넘침 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile JavaScript 오류 없음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile 한국어 문서",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile HTML 내부 파일 연결",
+      "pass": true,
+      "detail": "9개"
+    },
+    {
+      "name": "mobile 목차 앵커",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile 키보드 첫 목차 접근",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "passed": 27,
+  "failed": 0,
+  "model_runs": 0
+}

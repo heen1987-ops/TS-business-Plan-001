@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-10",
+  "version": "1.0",
+  "source_turns": 14,
+  "inputs": {
+    "내용.json": "8c9c73ca9db9d8a0020b32c2cf3982f9cd520fb48f31badae8f09cbc33a3e743",
+    "참조대화_보존.json": "2908d33a7187626a8c21cfe50c7b66736911ce4bbe2087d453d0893e9fffafa7",
+    "제작_설명자료.py": "3c7f9db0c95173b11299f40b5fe09c8cbe2567d0f2adf3f476e533a241cf4986"
+  },
+  "outputs": {
+    "TS_편의안전_AX_설명자료.md": "83a1c8f1e301eb8182724842391ece13cd38d9a6bd8c0f3aac57ff777330c586",
+    "TS_편의안전_AX_설명자료.html": "6881a3a133e9357f05a1f1a4497f06d79cecdea3d54bf690a927a19ebf102e50"
+  }
+}

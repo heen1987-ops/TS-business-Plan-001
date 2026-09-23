@@ -1,0 +1,47 @@
+{
+  "baseline": [
+    642386048,
+    476001056,
+    1118387104
+  ],
+  "expected": [
+    642386048,
+    476001056,
+    1118387104
+  ],
+  "changed": 1143361586,
+  "zero": 1074387104,
+  "blank": "입력 누락",
+  "sensitivity": 1214605812,
+  "infrastructureZeroGuard": "통과",
+  "errors": {
+    "recordCount": 1,
+    "truncated": false,
+    "metadata": {
+      "revision": "3eajwg",
+      "target": {
+        "id": "wb/t23vqh",
+        "beforeLines": 0,
+        "afterLines": 0
+      },
+      "kind": {
+        "requested": "match",
+        "tokens": [
+          "match"
+        ]
+      },
+      "include": {
+        "tokens": []
+      },
+      "exclude": {
+        "tokens": []
+      },
+      "notices": []
+    }
+  },
+  "restored": [
+    642386048,
+    476001056,
+    1118387104
+  ]
+}

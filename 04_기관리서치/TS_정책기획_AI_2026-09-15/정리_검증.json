@@ -1,0 +1,82 @@
+{
+  "checked_at": "2026-09-15T17:02:40.2576756+09:00",
+  "scope": "문서 저장·UTF-8·추가 상대 링크·기존 초안 보존",
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 3696,
+      "utf8": "valid",
+      "sha256": "F3E92BD13346B5DF33A544929B98EB45AC575377AA874E2A39EE0EBBCEE1DFBA"
+    },
+    {
+      "file": "조사근거와_후속확인.md",
+      "bytes": 4661,
+      "utf8": "valid",
+      "sha256": "59E945DFD847964B73EAC9F653063835847076996DE8AD3FEFD2AAAB8FBF2433"
+    },
+    {
+      "file": "변경이력.md",
+      "bytes": 1337,
+      "utf8": "valid",
+      "sha256": "3E1ADB0C3F01669E2EAF77ACEA4D7A5C65BBDF0CCF8CA9261DB20AB4D27DBE9B"
+    },
+    {
+      "file": "문제정의_정책기획_AI_사업구상_v0.1.md",
+      "bytes": 12880,
+      "utf8": "valid",
+      "sha256": "45E55DCA69C30C7AF1ECB1A285ED6BF0FE123B4E0EA51E2580714C7E36CB387C"
+    }
+  ],
+  "local_links": [
+    {
+      "source": "README.md",
+      "target": "문제정의_정책기획_AI_사업구상_v0.1.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "../../05_통합사업기획/TS_업무별_상세설계_산정_2026-09-15/추가후보/TS-P23/01_서비스_컨셉.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "../../05_통합사업기획/P23_정책기획_예산요구_발주전환_v1.1_2026-09-15/00_기획_전체보기.html",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "../../05_통합사업기획/P23_정책기획_예산요구_발주전환_v1.1_2026-09-15/시각설계_v1.2/00_서비스_로직맵.html",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "조사근거와_후속확인.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "변경이력.md",
+      "exists": true
+    },
+    {
+      "source": "조사근거와_후속확인.md",
+      "target": "../../05_통합사업기획/TS_업무별_상세설계_산정_2026-09-15/추가후보/TS-P23/01_서비스_컨셉.md",
+      "exists": true
+    },
+    {
+      "source": "조사근거와_후속확인.md",
+      "target": "../../05_통합사업기획/P23_정책기획_예산요구_발주전환_v1.1_2026-09-15/01_자료와_문제정의.md",
+      "exists": true
+    }
+  ],
+  "root_readme_linked": true,
+  "p23_readme_linked": true,
+  "original_preserved": true,
+  "passed": true,
+  "not_tested": [
+    "AI 성능",
+    "현업 검토",
+    "기관 승인",
+    "Google Drive 클라우드 동기화 상태"
+  ]
+}

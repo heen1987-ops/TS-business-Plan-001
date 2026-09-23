@@ -1,0 +1,67 @@
+{
+  "retrieved_on": "2026-09-10",
+  "conversation_id": "6aa11a29-2290-83ee-9cd9-538a30598764",
+  "notice": "본문 대신 도구가 반환한 4~6차 연구 시작 요청 3개만 추가 보존. 연구 결과 본문은 이번 반환 범위에 없으며 완료 여부를 판정하지 않음.",
+  "turns": [
+    {
+      "id": "61278b81-a254-48b8-8f38-6944e2318979",
+      "status": "completed",
+      "error": null,
+      "startedAt": 1789002535.781,
+      "completedAt": 1789002535.781,
+      "durationMs": null,
+      "items": [
+        {
+          "type": "userMessage",
+          "id": "61278b81-a254-48b8-8f38-6944e2318979",
+          "content": [
+            {
+              "type": "text",
+              "text": "심층리서치 4 시작"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "98d06ac7-335f-4b39-96df-a43dd7665178",
+      "status": "completed",
+      "error": null,
+      "startedAt": 1789005580.31,
+      "completedAt": 1789005580.31,
+      "durationMs": null,
+      "items": [
+        {
+          "type": "userMessage",
+          "id": "98d06ac7-335f-4b39-96df-a43dd7665178",
+          "content": [
+            {
+              "type": "text",
+              "text": "심층리서치 5 시작"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d68c761a-0323-4eef-a886-be7a793ae82d",
+      "status": "completed",
+      "error": null,
+      "startedAt": 1789020024.481,
+      "completedAt": 1789020024.481,
+      "durationMs": null,
+      "items": [
+        {
+          "type": "userMessage",
+          "id": "d68c761a-0323-4eef-a886-be7a793ae82d",
+          "content": [
+            {
+              "type": "text",
+              "text": "심층리서치 6 시작"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

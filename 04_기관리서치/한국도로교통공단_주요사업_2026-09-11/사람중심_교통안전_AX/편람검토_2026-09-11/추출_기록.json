@@ -1,0 +1,66 @@
+{
+  "source": "C:\\Users\\김희섭\\Desktop\\한국도로교통공단 정보공개업무편람(2025).hwpx",
+  "sha256": "1bfe410e75d61345689cb0bcee79788b0eabe174c2468adc2be5855e4d567388",
+  "bytes": 302535,
+  "extracted_on": "2026-09-11",
+  "sections": [
+    {
+      "file": "Contents/section0.xml",
+      "paragraphs": 503,
+      "nonempty": 368,
+      "tables": 9
+    },
+    {
+      "file": "Contents/section1.xml",
+      "paragraphs": 164,
+      "nonempty": 118,
+      "tables": 9
+    },
+    {
+      "file": "Contents/section2.xml",
+      "paragraphs": 235,
+      "nonempty": 210,
+      "tables": 5
+    },
+    {
+      "file": "Contents/section3.xml",
+      "paragraphs": 394,
+      "nonempty": 299,
+      "tables": 9
+    },
+    {
+      "file": "Contents/section4.xml",
+      "paragraphs": 168,
+      "nonempty": 30,
+      "tables": 2
+    },
+    {
+      "file": "Contents/section5.xml",
+      "paragraphs": 51,
+      "nonempty": 24,
+      "tables": 1
+    },
+    {
+      "file": "Contents/section6.xml",
+      "paragraphs": 330,
+      "nonempty": 206,
+      "tables": 8
+    },
+    {
+      "file": "Contents/section7.xml",
+      "paragraphs": 103,
+      "nonempty": 13,
+      "tables": 1
+    },
+    {
+      "file": "Contents/section8.xml",
+      "paragraphs": 750,
+      "nonempty": 559,
+      "tables": 8
+    }
+  ],
+  "records": 1827,
+  "scripts_executed": false,
+  "rendered": false,
+  "preview_characters": 1017
+}

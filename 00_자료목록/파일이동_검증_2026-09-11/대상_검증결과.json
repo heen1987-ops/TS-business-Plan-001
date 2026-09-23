@@ -1,0 +1,18 @@
+{
+  "Source": "C:\\Users\\김희섭\\OneDrive\\문서\\ChatGPT\\[TS] 사업기획",
+  "Destination": "G:\\내 드라이브\\1. 업무영역\\6. CCK\\1. 사업관리\\TS\\bizops\\[TS 사업기획]",
+  "ExpectedFiles": 11685,
+  "VerifiedFiles": 11685,
+  "Bytes": 513553593,
+  "Issues": [],
+  "ExternalLinks": [
+    {
+      "Path": "05_통합사업기획\\CCK_TS_AX_정의_RFP_비용산정_2026-09-10\\node_modules",
+      "Type": "Junction",
+      "Target": [
+        "C:\\Users\\김희섭\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules"
+      ]
+    }
+  ],
+  "ElapsedSeconds": 368.0
+}

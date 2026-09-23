@@ -1,0 +1,552 @@
+{
+  "checked_at": "2026-09-14",
+  "population": "기존 TS-L01~22 업무 묶음",
+  "items": [
+    {
+      "source_item_id": "TS-L01",
+      "plan_id": "TS-P01",
+      "category": "도로 교통안전 관리",
+      "business": "운수회사 교통수단안전점검",
+      "verified_work": "서류·현장 점검, 조치 이행 확인과 사후관리",
+      "source_ids": [
+        "TSDR-011",
+        "TSDR-008"
+      ],
+      "verification_scope": "핵심 업무의 공식 안내 확인; 수요·현행 법령 전체·최종 계약·제품 성능 미검증",
+      "legal_pointer": "공식 안내의 교통안전법 제33조·제59조 및 시행령 제48조의2 안내를 확인. 현행 조문·위탁 범위 확정 전",
+      "initial_scope": "운수회사 한 업종, 점검 유형 1개, 전자문서 3종, 기존 기록 조회 1개",
+      "source_date_notes": [
+        {
+          "id": "TSDR-011",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        },
+        {
+          "id": "TSDR-008",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        }
+      ]
+    },
+    {
+      "source_item_id": "TS-L02",
+      "plan_id": "TS-P02",
+      "category": "도로 교통안전 관리",
+      "business": "사업용 운전자 검사·자격",
+      "verified_work": "운전적성정밀검사, 화물 등 사업용 자격의 시험·교육·발급",
+      "source_ids": [
+        "TSDR-012",
+        "TSDR-003",
+        "TSDR-007"
+      ],
+      "verification_scope": "핵심 업무의 공식 안내 확인; 수요·현행 법령 전체·최종 계약·제품 성능 미검증",
+      "legal_pointer": "TS 공식 자격 취득절차 확인. 각 자격의 법정 요건·최종 결정 권한은 별도 확인",
+      "initial_scope": "초기는 화물 자격 1개 경로, 상태 조회 1개, 신청 시스템 인계 1개",
+      "source_date_notes": [
+        {
+          "id": "TSDR-012",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        },
+        {
+          "id": "TSDR-003",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        },
+        {
+          "id": "TSDR-007",
+          "checked": "2026-09-11",
+          "status": "기존 조사 근거 유지; 이번에 재열람하지 않음"
+        }
+      ]
+    },
+    {
+      "source_item_id": "TS-L03",
+      "plan_id": "TS-P03",
+      "category": "도로 교통안전 관리",
+      "business": "위험물질 운송 안전관리",
+      "verified_work": "운송계획서·단말 준수사항 확인, 지자체 합동점검",
+      "source_ids": [
+        "TSDR-041",
+        "TSDR-031"
+      ],
+      "verification_scope": "핵심 업무의 공식 안내 확인; 수요·현행 법령 전체·최종 계약·제품 성능 미검증",
+      "legal_pointer": "2026년 정기단속 공식 발표에서 물류정책기본법 준수사항과 지자체 합동점검 확인. 개별 위임 권한은 미확정",
+      "initial_scope": "위험물 운송 업무 유형 1개, 계획/점검/인계 문서 3종, 조회 1개",
+      "source_date_notes": [
+        {
+          "id": "TSDR-041",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        },
+        {
+          "id": "TSDR-031",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        }
+      ]
+    },
+    {
+      "source_item_id": "TS-L04",
+      "plan_id": "TS-P04",
+      "category": "철도교통안전 관리",
+      "business": "철도 안전관리체계 검사",
+      "verified_work": "운영기관의 체계에 대한 서류·현장 검사",
+      "source_ids": [
+        "TSDR-018",
+        "TSDR-031"
+      ],
+      "verification_scope": "핵심 업무의 공식 안내 확인; 수요·현행 법령 전체·최종 계약·제품 성능 미검증",
+      "legal_pointer": "공식 안내의 철도안전법 제7조·시행령 제63조 위탁 근거 확인. 적용 시행본·세부 권한 원문 대조 필요",
+      "initial_scope": "운영기관 1곳, 검사 요건군 1개, 텍스트 전자문서 3종, 읽기 연계 1개",
+      "source_date_notes": [
+        {
+          "id": "TSDR-018",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        },
+        {
+          "id": "TSDR-031",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        }
+      ]
+    },
+    {
+      "source_item_id": "TS-L05",
+      "plan_id": "TS-P05",
+      "category": "철도교통안전 관리",
+      "business": "철도 시설·시험운행·역사 평가",
+      "verified_work": "안전진단, 시험운행 결과검토, 정밀진단·성능평가 및 역사 평가",
+      "source_ids": [
+        "TSDR-020"
+      ],
+      "verification_scope": "핵심 업무의 공식 안내 확인; 수요·현행 법령 전체·최종 계약·제품 성능 미검증",
+      "legal_pointer": "2026년 전문위원 공고의 시험운행·시설·역사 평가 업무 확인. 개별 평가법령의 현행 위탁 범위 미확정",
+      "initial_scope": "여러 평가 중 시험운행 결과검토 1종 우선, 보고서 유형 3종, 조회 연계 0~1개",
+      "source_date_notes": [
+        {
+          "id": "TSDR-020",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        }
+      ]
+    },
+    {
+      "source_item_id": "TS-L06",
+      "plan_id": "TS-P06",
+      "category": "철도교통안전 관리",
+      "business": "철도안전 자율보고",
+      "verified_work": "잠재 위험 접수, 분석·개선 및 신고자 보호",
+      "source_ids": [
+        "TSDR-019"
+      ],
+      "verification_scope": "핵심 업무의 공식 안내 확인; 수요·현행 법령 전체·최종 계약·제품 성능 미검증",
+      "legal_pointer": "공식 안내의 철도안전법 제61조의3 및 신고자 보호 원칙 확인. 새 AI 이용 목적의 허용 여부는 별도",
+      "initial_scope": "철도 자율보고 유형 1개, 승인된 보고서·사례 문서 2종, 외부 쓰기 0개",
+      "source_date_notes": [
+        {
+          "id": "TSDR-019",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        }
+      ]
+    },
+    {
+      "source_item_id": "TS-L07",
+      "plan_id": "TS-P07",
+      "category": "항공 교통안전 관리",
+      "business": "항공종사자 자격",
+      "verified_work": "자격증명 시험 등 항공 자격 업무",
+      "source_ids": [
+        "TS22-S42"
+      ],
+      "verification_scope": "핵심 업무의 공식 안내 확인; 수요·현행 법령 전체·최종 계약·제품 성능 미검증",
+      "legal_pointer": "공식 안내의 항공안전법 제34조·제109조 업무 확인. 응시 요건의 현행 시행본·심사권한 미확정",
+      "initial_scope": "항공 자격 1종의 신청 준비, 문서 유형 2종, 상태 조회·인계 각 1개",
+      "source_date_notes": [
+        {
+          "id": "TS22-S42",
+          "checked": "2026-09-14",
+          "status": "본문 관련 범위 확인"
+        }
+      ]
+    },
+    {
+      "source_item_id": "TS-L08",
+      "plan_id": "TS-P08",
+      "category": "항공 교통안전 관리",
+      "business": "항공안전 자율보고",
+      "verified_work": "자율보고의 전문 분석과 일반화된 안전정보 전파",
+      "source_ids": [
+        "TSDR-021"
+      ],
+      "verification_scope": "핵심 업무의 공식 안내 확인; 수요·현행 법령 전체·최종 계약·제품 성능 미검증",
+      "legal_pointer": "공식 안내의 항공안전법 제61조·시행령 제26조 및 의무보고 대상 제외 확인. 현행 적용·AI 이용조건 별도",
+      "initial_scope": "항공 위해요인 보고 유형 1개, 원본·사례 문서 2종, 전문가 검토만 제공",
+      "source_date_notes": [
+        {
+          "id": "TSDR-021",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        }
+      ]
+    },
+    {
+      "source_item_id": "TS-L09",
+      "plan_id": "TS-P09",
+      "category": "항공 교통안전 관리",
+      "business": "드론 기체신고·안전·교육",
+      "verified_work": "기체 신고·변경·말소, 자격·안전·교육 관련 안내",
+      "source_ids": [
+        "TSDR-022",
+        "TSDR-031"
+      ],
+      "verification_scope": "핵심 업무의 공식 안내 확인; 수요·현행 법령 전체·최종 계약·제품 성능 미검증",
+      "legal_pointer": "공식 기체신고·변경·말소 안내와 항공안전법 제122조 인용 확인. 비행 승인 권한과 별도",
+      "initial_scope": "소유권 이전 또는 말소 중 1개 경로, 문서 2종, 공식 접수 경로 인계",
+      "source_date_notes": [
+        {
+          "id": "TSDR-022",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        },
+        {
+          "id": "TSDR-031",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        }
+      ]
+    },
+    {
+      "source_item_id": "TS-L10",
+      "plan_id": "TS-P10",
+      "category": "자동차 검사",
+      "business": "자동차검사·예약·튜닝",
+      "verified_work": "검사 예약, 정기·종합·신규검사, 튜닝·재검사 등",
+      "source_ids": [
+        "TSDR-013",
+        "TSDR-035",
+        "TSDR-039"
+      ],
+      "verification_scope": "핵심 업무의 공식 안내 확인; 수요·현행 법령 전체·최종 계약·제품 성능 미검증",
+      "legal_pointer": "공식 자동차검사 업무·자동차관리법 제43조 등 안내 확인. 기한·수수료·판정은 공식 규칙으로 관리",
+      "initial_scope": "예약 탐색 1개 흐름을 우선, 차량 유형 1개, 가용성 조회 1개; 재검사 지원은 후속 범위",
+      "source_date_notes": [
+        {
+          "id": "TSDR-013",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        },
+        {
+          "id": "TSDR-035",
+          "checked": "2026-09-11",
+          "status": "기존 조사 근거 유지; 이번에 재열람하지 않음"
+        },
+        {
+          "id": "TSDR-039",
+          "checked": "2026-09-11",
+          "status": "기존 조사 근거 유지; 이번에 재열람하지 않음"
+        }
+      ]
+    },
+    {
+      "source_item_id": "TS-L11",
+      "plan_id": "TS-P11",
+      "category": "자동차 검사",
+      "business": "기계식주차장 검사·안전",
+      "verified_work": "설계서 안전도 심사, 사용·정기·정밀안전검사와 교육",
+      "source_ids": [
+        "TSDR-014",
+        "TSDR-007",
+        "TSDR-031"
+      ],
+      "verification_scope": "핵심 업무의 공식 안내 확인; 수요·현행 법령 전체·최종 계약·제품 성능 미검증",
+      "legal_pointer": "공식 안내의 주차장법상 안전도 심사·사용/정기/정밀안전검사 확인. 개별 시행본·수탁 범위 대조 전",
+      "initial_scope": "검사 종류 1개·시설 1개 시범, 지적/보수/재확인 문서 3종, 조회 1개",
+      "source_date_notes": [
+        {
+          "id": "TSDR-014",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        },
+        {
+          "id": "TSDR-007",
+          "checked": "2026-09-11",
+          "status": "기존 조사 근거 유지; 이번에 재열람하지 않음"
+        },
+        {
+          "id": "TSDR-031",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        }
+      ]
+    },
+    {
+      "source_item_id": "TS-L12",
+      "plan_id": "TS-P12",
+      "category": "자동차 안전시험·연구",
+      "business": "제작결함조사·리콜·소비자 보호",
+      "verified_work": "결함정보 수집·분석, 조사와 교환·환불 중재 관련 업무",
+      "source_ids": [
+        "TSDR-015",
+        "TSDR-007"
+      ],
+      "verification_scope": "핵심 업무의 공식 안내 확인; 수요·현행 법령 전체·최종 계약·제품 성능 미검증",
+      "legal_pointer": "KATRI 공식 제작결함·자기인증·교환환불 업무 확인. 결함 인정·보상·리콜 결정 권한을 AI에 이전하지 않음",
+      "initial_scope": "소비자 제출자료 준비 흐름 1개, 수리내역·신고서 2종, 조회 0~1개",
+      "source_date_notes": [
+        {
+          "id": "TSDR-015",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        },
+        {
+          "id": "TSDR-007",
+          "checked": "2026-09-11",
+          "status": "기존 조사 근거 유지; 이번에 재열람하지 않음"
+        }
+      ]
+    },
+    {
+      "source_item_id": "TS-L13",
+      "plan_id": "TS-P13",
+      "category": "자동차 안전시험·연구",
+      "business": "자동차 자기인증 지원",
+      "verified_work": "자기인증 적합조사 및 제작자 절차·서류 안내",
+      "source_ids": [
+        "TSDR-040",
+        "TSDR-015"
+      ],
+      "verification_scope": "핵심 업무의 공식 안내 확인; 수요·현행 법령 전체·최종 계약·제품 성능 미검증",
+      "legal_pointer": "TS 공식 자기인증 가이드 및 KATRI 조사 업무 확인. 제작자의 자기인증 책임과 TS 조사 역할을 구별",
+      "initial_scope": "제작자 유형 1개·절차 1개, 전자문서 3종·기준집 1개, 승인된 개정 사례 1개",
+      "source_date_notes": [
+        {
+          "id": "TSDR-040",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        },
+        {
+          "id": "TSDR-015",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        }
+      ]
+    },
+    {
+      "source_item_id": "TS-L14",
+      "plan_id": "TS-P14",
+      "category": "자동차 안전시험·연구",
+      "business": "자동차 안전도평가·미래차 연구",
+      "verified_work": "시험·안전도평가, 자율주행·사이버보안 관련 연구 기반",
+      "source_ids": [
+        "TSDR-015",
+        "TSDR-016"
+      ],
+      "verification_scope": "핵심 업무의 공식 안내 확인; 수요·현행 법령 전체·최종 계약·제품 성능 미검증",
+      "legal_pointer": "KATRI 공식 미래차 연구·안전도평가 업무 확인. 독립 R&D와 시험설비 개발은 기획 범위 제외",
+      "initial_scope": "안전기준군 1개, 시험계획/서식/안내 3종, 실제 개정 사례 1개",
+      "source_date_notes": [
+        {
+          "id": "TSDR-015",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        },
+        {
+          "id": "TSDR-016",
+          "checked": "2026-09-11",
+          "status": "기존 조사 근거 유지; 이번에 재열람하지 않음"
+        }
+      ]
+    },
+    {
+      "source_item_id": "TS-L15",
+      "plan_id": "TS-P15",
+      "category": "자동차 안전시험·연구",
+      "business": "배터리 정보·소유자 관리",
+      "verified_work": "배터리 식별번호 확인 및 소유자 자율관리 안내",
+      "source_ids": [
+        "TSDR-017"
+      ],
+      "verification_scope": "핵심 업무의 공식 안내 확인; 수요·현행 법령 전체·최종 계약·제품 성능 미검증",
+      "legal_pointer": "TS 마이배터리 공식 안내의 식별번호 제공·소유자 직접 관리 확인. 제작사 데이터 이용권 별도",
+      "initial_scope": "제작사 1곳의 공식 절차 안내, 공개 문서 1종, 개인 데이터 연계 0개",
+      "source_date_notes": [
+        {
+          "id": "TSDR-017",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        }
+      ]
+    },
+    {
+      "source_item_id": "TS-L16",
+      "plan_id": "TS-P16",
+      "category": "교통정보 서비스",
+      "business": "운행기록·교통·자동차 정보",
+      "verified_work": "ETAS 위험운전 분석, TAGO·TIMS·자동차 정보 등",
+      "source_ids": [
+        "TSDR-009",
+        "TSDR-003"
+      ],
+      "verification_scope": "핵심 업무의 공식 안내 확인; 수요·현행 법령 전체·최종 계약·제품 성능 미검증",
+      "legal_pointer": "ETAS 공식 서비스와 교통안전법 제55조 안내 확인. 개인 운행정보의 목적·권한 검토 필요",
+      "initial_scope": "ETAS 결과 유형 1개·승인된 안전지침 1개, 조회 1개, 다른 정보시스템은 후속",
+      "source_date_notes": [
+        {
+          "id": "TSDR-009",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        },
+        {
+          "id": "TSDR-003",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        }
+      ]
+    },
+    {
+      "source_item_id": "TS-L17",
+      "plan_id": "TS-P17",
+      "category": "교통정보 서비스",
+      "business": "COSAS 운수안전 협업",
+      "verified_work": "TS·지자체·운수회사 자료 공유 및 진행상황 관리",
+      "source_ids": [
+        "TSDR-008"
+      ],
+      "verification_scope": "핵심 업무의 공식 안내 확인; 수요·현행 법령 전체·최종 계약·제품 성능 미검증",
+      "legal_pointer": "COSAS 공식 협업·진행상황 서비스 확인. 기관별 제공 권한·새 기능 이용 목적 별도",
+      "initial_scope": "L01의 문서 대조 결과를 COSAS 한 업무 화면에 연계하는 부속 과업",
+      "source_date_notes": [
+        {
+          "id": "TSDR-008",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        }
+      ]
+    },
+    {
+      "source_item_id": "TS-L18",
+      "plan_id": "TS-P18",
+      "category": "교통정보 서비스",
+      "business": "K-패스",
+      "verified_work": "대중교통비 환급 관련 이용 지원",
+      "source_ids": [
+        "TSDR-023"
+      ],
+      "verification_scope": "핵심 업무의 공식 안내 확인; 수요·현행 법령 전체·최종 계약·제품 성능 미검증",
+      "legal_pointer": "TS K-패스 사업·이용 절차 확인. 지원 조건·환급 기준을 고정하지 않고 시행시점 원문으로 관리",
+      "initial_scope": "등록 완료 확인 또는 미지급 상태 설명 중 1개 흐름, 조회 1개·인계 1개",
+      "source_date_notes": [
+        {
+          "id": "TSDR-023",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        }
+      ]
+    },
+    {
+      "source_item_id": "TS-L19",
+      "plan_id": "TS-P19",
+      "category": "교통정보 서비스",
+      "business": "DRT 지원플랫폼",
+      "verified_work": "지자체 수요응답형 교통의 정산·예약·운행 지원",
+      "source_ids": [
+        "TSDR-024",
+        "TSDR-031"
+      ],
+      "verification_scope": "핵심 업무의 공식 안내 확인; 수요·현행 법령 전체·최종 계약·제품 성능 미검증",
+      "legal_pointer": "TS 공식 DRT 지원플랫폼 역할 확인. TS의 시스템 지원과 지자체 운행·예약 운영 책임 구분",
+      "initial_scope": "지자체 1곳·운송모델 1개, 텍스트 또는 직원 입력 보조, 조회·예약 각 1개",
+      "source_date_notes": [
+        {
+          "id": "TSDR-024",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        },
+        {
+          "id": "TSDR-031",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        }
+      ]
+    },
+    {
+      "source_item_id": "TS-L20",
+      "plan_id": "TS-P20",
+      "category": "교통정보 서비스",
+      "business": "데이터 개방센터",
+      "verified_work": "자동차 생애주기 등 데이터의 통제된 분석 이용 지원",
+      "source_ids": [
+        "TSDR-025"
+      ],
+      "verification_scope": "핵심 업무의 공식 안내 확인; 수요·현행 법령 전체·최종 계약·제품 성능 미검증",
+      "legal_pointer": "TS 데이터 개방센터 열람·분석 지원과 반출 제한 안내 확인. AI 학습·재배포 허용으로 확대하지 않음",
+      "initial_scope": "공개 카탈로그 1개 분야·이용 절차 문서 2종, 원시 데이터 연계 0개",
+      "source_date_notes": [
+        {
+          "id": "TSDR-025",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        }
+      ]
+    },
+    {
+      "source_item_id": "TS-L21",
+      "plan_id": "TS-P21",
+      "category": "교통안전 체험교육",
+      "business": "교통안전 체험교육",
+      "verified_work": "사업용 운수종사자 등 대상 현장·실기 교육",
+      "source_ids": [
+        "TSDR-026",
+        "TSDR-009"
+      ],
+      "verification_scope": "핵심 업무의 공식 안내 확인; 수요·현행 법령 전체·최종 계약·제품 성능 미검증",
+      "legal_pointer": "교통안전체험교육 공식 목적·과정과 교통안전법 제56조 안내 확인. 실기·수료 대체 금지",
+      "initial_scope": "교육과정 1개·승인된 교재/사례 2종, 교육상태 조회 1개, 강사 검토 후 사용",
+      "source_date_notes": [
+        {
+          "id": "TSDR-026",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        },
+        {
+          "id": "TSDR-009",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        }
+      ]
+    },
+    {
+      "source_item_id": "TS-L22",
+      "plan_id": "TS-P22",
+      "category": "교통안전 체험교육",
+      "business": "배달업 이륜차 교육",
+      "verified_work": "2026년 배달업 이륜차 전문강사 양성 교육생 모집 확인",
+      "source_ids": [
+        "TSDR-027",
+        "TSDR-026"
+      ],
+      "verification_scope": "핵심 업무의 공식 안내 확인; 수요·현행 법령 전체·최종 계약·제품 성능 미검증",
+      "legal_pointer": "2026년 전문강사 양성 공고로 업무 확인. 공고 내 신청연도 2025 표기는 다른 2026 일정과 불일치해 현행 접수 근거로 사용하지 않음",
+      "initial_scope": "강사 양성 또는 신규입사 교육 모듈 1개, 승인 교재/문답 2종, 외부 연계 0개",
+      "source_date_notes": [
+        {
+          "id": "TSDR-027",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        },
+        {
+          "id": "TSDR-026",
+          "checked": "2026-09-14",
+          "status": "공식 본문 또는 공개 안내 재확인"
+        }
+      ]
+    }
+  ],
+  "count": 22,
+  "all_TS_leaf_businesses_reviewed": false,
+  "all_legal_delegations_verified": false,
+  "all_contracts_verified": false
+}

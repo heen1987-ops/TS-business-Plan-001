@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 1120" role="img" aria-labelledby="one-title one-desc">
+<title id="one-title">Public AI-PMS 3개년 개발과 업무·평가 연결</title>
+<desc id="one-desc">1차년도 AI-PMS, 2차년도 감리 검사엔진, 3차년도 레퍼런스와 성과환류를 구축한다. 사업 내부는 기준설정, 증거축적, 검사와 사람 검토를 반복한다. 다면평가 기초는 1차년도부터 수집한다.</desc>
+<defs><marker id="one-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1 8 5 0 9" fill="none" stroke="#587384" stroke-width="1.8"/></marker></defs>
+<rect width="1120" height="1120" fill="#f3f6fa"/>
+<g font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif" fill="#16334a">
+<text x="44" y="51" font-size="16" fill="#006f65" font-weight="700">CCK · PUBLIC AI-PMS · 설계 제안 v1.1</text>
+<text x="44" y="103" font-size="36" font-weight="700">플랫폼을 먼저, 검사와 성과환류를 다음으로</text>
+<text x="44" y="139" font-size="19" fill="#536a7b">실제 착수연도·예산은 미확정 · 업무의 1~3단계와 개발 연차를 구분합니다.</text>
+
+<rect x="40" y="167" width="1040" height="112" rx="12" fill="#102b41"/>
+<text x="63" y="199" font-size="16" fill="#b9d3e2">1차년도 · Y1</text>
+<text x="63" y="241" font-size="29" font-weight="700" fill="#fff">AI-PMS 플랫폼</text>
+<text x="371" y="205" font-size="21" fill="#fff">공동 일정·제출·보완·기초 AI 검토</text>
+<text x="371" y="242" font-size="19" fill="#d4e4ec">기준·원본·버전·권한·기초 평가·인수인계·유지관리</text>
+<path d="M560 282V302" stroke="#587384" stroke-width="2" marker-end="url(#one-arrow)"/>
+
+<rect x="40" y="314" width="1040" height="112" rx="12" fill="#e6f5f1" stroke="#8cbeb4"/>
+<text x="63" y="346" font-size="16" fill="#006f65">2차년도 · Y2</text>
+<text x="63" y="388" font-size="29" font-weight="700">감리 검사엔진</text>
+<text x="371" y="352" font-size="21">요구사항·증거 대조, Finding·시정·재검증</text>
+<text x="371" y="389" font-size="19" fill="#536a7b">정보시스템 감리 기준팩 · AI와 감리사의 두 경로</text>
+<path d="M560 429V449" stroke="#587384" stroke-width="2" marker-end="url(#one-arrow)"/>
+
+<rect x="40" y="461" width="1040" height="112" rx="12" fill="#fff" stroke="#bdccd8"/>
+<text x="63" y="493" font-size="16" fill="#355c7f">3차년도 · Y3</text>
+<text x="63" y="535" font-size="28" font-weight="700">레퍼런스·성과환류</text>
+<text x="371" y="499" font-size="21">기업×사업×역할 이력, 다면평가 시계열</text>
+<text x="371" y="536" font-size="19" fill="#536a7b">개선 대안·차기 RFP · 기관별 기준·권한·운영 검증</text>
+
+<text x="44" y="618" font-size="22" font-weight="700">사업 내부의 반복 업무 · 1차년도부터 연결</text>
+<g fill="#fff" stroke="#c8d5df"><rect x="40" y="639" width="312" height="96" rx="10"/><rect x="404" y="639" width="312" height="96" rx="10"/><rect x="768" y="639" width="312" height="96" rx="10"/></g>
+<text x="61" y="674" font-size="22" font-weight="700">B1 기준설정</text><text x="61" y="709" font-size="18" fill="#536a7b">원문 → 공동 검토 → 승인 버전</text>
+<text x="425" y="674" font-size="22" font-weight="700">B2 증거축적</text><text x="425" y="709" font-size="18" fill="#536a7b">과업 → 제출·접수 → Evidence</text>
+<text x="789" y="674" font-size="22" font-weight="700">B3 검사·사람 검토</text><text x="789" y="709" font-size="18" fill="#536a7b">후보 → 소명·조치 → 재검증</text>
+<g fill="none" stroke="#587384" stroke-width="2" marker-end="url(#one-arrow)"><path d="M362 684H391"/><path d="M726 684H755"/></g>
+
+<rect x="40" y="757" width="1040" height="119" rx="12" fill="#fff" stroke="#bdccd8"/>
+<text x="62" y="793" font-size="22" font-weight="700">AI 상시 검사 + 감리사의 독립 전문검토</text>
+<text x="62" y="829" font-size="19">같은 허용 증거 → 일치·불일치·동시 미발견 확인 → 보완·재검증</text>
+<text x="62" y="859" font-size="17" fill="#536a7b">동의는 정확성의 증명이 아닙니다. 공식 판단·감리의견은 권한 있는 사람이 확정합니다.</text>
+
+<rect x="40" y="899" width="1040" height="136" rx="12" fill="#e6f5f1"/>
+<text x="62" y="935" font-size="22" font-weight="700">주기적 다면평가 · 기초 수집은 1차년도부터</text>
+<text x="62" y="969" font-size="19">직접 담당 · 검토자 · 중간관리 · 최종 결재 · 업무부서 · 사용자 · 전문가</text>
+<text x="62" y="1006" font-size="19">확정 사실 + 검사·감리 결과 + 관찰 범위별 평가 → 소명·정정이 이어지는 이력</text>
+<text x="44" y="1073" font-size="17" fill="#536a7b">신규기업 무이력은 미평가 · 공식 입찰 가감점은 별도 근거·권한 확인 · 효과·비용은 실증 전</text>
+<text x="44" y="1100" font-size="15" fill="#536a7b">2026.09.10 · 대화 21건 종합 · 설명용 구조도, 실제 시스템 구현·기관 승인 결과가 아닙니다.</text>
+</g>
+</svg>

@@ -1,0 +1,826 @@
+{
+  "date": "2026-09-09",
+  "version": "v0.2",
+  "meaning": "조사 자료 보존 시점·사업 승인 아님",
+  "files": [
+    {
+      "path": "00_관리/검증_결과.md",
+      "sha256": "fb203e76a006a9b0faef97e3e0ef698598251f894ae3c3edc2975bac67a6136e",
+      "bytes": 5911
+    },
+    {
+      "path": "00_관리/검증_리서치.py",
+      "sha256": "ad7215e0f17686a8ba907e05f6108f26c56c898a7f04bbcffb802aa00f3c6ab4",
+      "bytes": 7917
+    },
+    {
+      "path": "00_관리/검증_재생성.py",
+      "sha256": "a69345ddf5e8ac7b16bfeabf20eaff06f834530c3634d3f319fbc0164ae5046f",
+      "bytes": 2932
+    },
+    {
+      "path": "00_관리/검증결과.json",
+      "sha256": "f17c4712dbba08c53c192c5c29ddb5d288ea0b28020e8bcba2691eaccff3699f",
+      "bytes": 24608
+    },
+    {
+      "path": "00_관리/기존원장_보존확인.json",
+      "sha256": "d87f96559ec0a0f1eeabba43d6f09da9fc6863e6d97e07b3fe4c34b17f333187",
+      "bytes": 370
+    },
+    {
+      "path": "00_관리/리서치설계.md",
+      "sha256": "ca7bf438e6cbce40fcd1123aa74fcc09ea9682897d20819c2f6344ef175199ad",
+      "bytes": 4848
+    },
+    {
+      "path": "00_관리/범위정정_v0_2.py",
+      "sha256": "a547d9a8534de320191663ca91b129c4873e8634d15da92bb9ccab70f0083ef3",
+      "bytes": 8845
+    },
+    {
+      "path": "00_관리/변경이력.md",
+      "sha256": "2e36545aa523b4fee86c62901643db13a9eb259c0bd129a2fcde70e68a3717ee",
+      "bytes": 2753
+    },
+    {
+      "path": "00_관리/생성_리서치문서.py",
+      "sha256": "4da4f0171e26918a79090debaea9f4a7a61e7fba8da558af0c9f0ba3ea1eb75e",
+      "bytes": 32408
+    },
+    {
+      "path": "00_관리/생성파일_원장.json",
+      "sha256": "1b2b01415e3b09788eea3b4b24dd3e0ec847acbc70d475ed99075b5a310d5f1a",
+      "bytes": 14358
+    },
+    {
+      "path": "00_관리/스냅샷_보존.py",
+      "sha256": "ae0553c6c1860f4bec071d2a048e0375dd6232a567bec6d4acb2cab429cf5790",
+      "bytes": 2747
+    },
+    {
+      "path": "00_관리/원문_보존.py",
+      "sha256": "bc02329e83173ccb77da8df362edf0a73dd2c21071e8e54445e42c62983015b2",
+      "bytes": 2699
+    },
+    {
+      "path": "00_관리/재생성_검증결과.json",
+      "sha256": "0bfc3b5054202cc13272f761176afbf4fde4b6a8c3a02d12baa3e5a974559ff5",
+      "bytes": 479
+    },
+    {
+      "path": "00_관리/조사_대기열.md",
+      "sha256": "8611e25d2659b0d8ffc2d4ff8025456e3799a98dcdba69cd2bf65bf49f8e9cb4",
+      "bytes": 4995
+    },
+    {
+      "path": "00_관리/초기분석_구성.py",
+      "sha256": "6b0e2130e1ccd21abeda3167e8450e3fe0bcdd4bd1752d7b5bc93b43b1d7644f",
+      "bytes": 27183
+    },
+    {
+      "path": "00_관리/초기출처_구성.py",
+      "sha256": "d49a9e73b8ed5c153dcf1fb48118e2249486adaf44820d8ed4b3070d16d55297",
+      "bytes": 16977
+    },
+    {
+      "path": "00_관리/폴더_아카이빙_운영규칙.md",
+      "sha256": "a4c3b500d6187b22488f63adfd56d6f2fc9bd4dd18ea47fb1617da96e1739e5e",
+      "bytes": 11428
+    },
+    {
+      "path": "01_후보별/TS-BIZ-001_안전정보_이해선택/01_문제정의.md",
+      "sha256": "1b823b1ba16eca3bdd9191495aba00a2bafe16e4390f29c0fd758ee7b4238f48",
+      "bytes": 3626
+    },
+    {
+      "path": "01_후보별/TS-BIZ-001_안전정보_이해선택/02_연관솔루션.md",
+      "sha256": "d49ccde4f3e06912eca49cddcd432844b148b964e3fddb52700f0031c6f1cc73",
+      "bytes": 4393
+    },
+    {
+      "path": "01_후보별/TS-BIZ-001_안전정보_이해선택/03_국내외사례.md",
+      "sha256": "d1aec3e2fdab5cbac58d8ab8650573b3bc96591319ac9cd0a12820523d0caed5",
+      "bytes": 2614
+    },
+    {
+      "path": "01_후보별/TS-BIZ-001_안전정보_이해선택/04_사업화_실증.md",
+      "sha256": "7f3c85b5d19459ef6ce91ed1431122f0ad142273306b51226642fecafb8938e0",
+      "bytes": 7656
+    },
+    {
+      "path": "01_후보별/TS-BIZ-001_안전정보_이해선택/05_근거_미확인.md",
+      "sha256": "382d815b395350d24c6606767f706ce46a696640066a0bd85ae57a9e7813739c",
+      "bytes": 4323
+    },
+    {
+      "path": "01_후보별/TS-BIZ-001_안전정보_이해선택/README.md",
+      "sha256": "ff4375d7745dc11306820ba3e7bf92a15e499671c0178c59a1c92c7ec162acd1",
+      "bytes": 1909
+    },
+    {
+      "path": "01_후보별/TS-BIZ-002_사업용차_위험예방/01_문제정의.md",
+      "sha256": "0b8b58ae2d7c9a49d3d8cece0636282e7b112ed7bebfd5246d41709c0b8dbb1e",
+      "bytes": 3688
+    },
+    {
+      "path": "01_후보별/TS-BIZ-002_사업용차_위험예방/02_연관솔루션.md",
+      "sha256": "fc07a96fc9a0d7b26e056a89c7b8d52938c02247c8bb07cdfbb6d778822945f6",
+      "bytes": 4451
+    },
+    {
+      "path": "01_후보별/TS-BIZ-002_사업용차_위험예방/03_국내외사례.md",
+      "sha256": "1d662bea899c81f2897219c573fbb6ff66a32f0eb0f5a620c523c5796d8fdf8d",
+      "bytes": 2476
+    },
+    {
+      "path": "01_후보별/TS-BIZ-002_사업용차_위험예방/04_사업화_실증.md",
+      "sha256": "5a8847f4b8bf08fb0158e2271e46d66e296375ffa502979433c275e85cbc7ec5",
+      "bytes": 7624
+    },
+    {
+      "path": "01_후보별/TS-BIZ-002_사업용차_위험예방/05_근거_미확인.md",
+      "sha256": "0d561b03ed325d107c32ae89c11f55acb5e48ee87c42eea7641005236c5942d5",
+      "bytes": 4199
+    },
+    {
+      "path": "01_후보별/TS-BIZ-002_사업용차_위험예방/README.md",
+      "sha256": "38fc5a4f4c2ea5d720bba6f1c7aa3e271b7443b1eef4ecec61d2ab6ff9a5ee9c",
+      "bytes": 1976
+    },
+    {
+      "path": "01_후보별/TS-BIZ-003_튜닝검사_절차안내/01_문제정의.md",
+      "sha256": "7a1c933cd2a6f8a10a0bf463276a39b01de20cf993912378a7dc8e139c7c69b3",
+      "bytes": 3622
+    },
+    {
+      "path": "01_후보별/TS-BIZ-003_튜닝검사_절차안내/02_연관솔루션.md",
+      "sha256": "a555424bec3538470a5f7a85fb13087c88a875c2302c004d08fb6d5abfc6b1c1",
+      "bytes": 4470
+    },
+    {
+      "path": "01_후보별/TS-BIZ-003_튜닝검사_절차안내/03_국내외사례.md",
+      "sha256": "4758ce7b0d91ec429586bdeea6ab68cecf2abff26d92a2e01e5a474011d0235f",
+      "bytes": 2662
+    },
+    {
+      "path": "01_후보별/TS-BIZ-003_튜닝검사_절차안내/04_사업화_실증.md",
+      "sha256": "9feed8ac3ac6403798d1de0c78f611dcbb156c96c3de95da828a78357985fe8a",
+      "bytes": 7575
+    },
+    {
+      "path": "01_후보별/TS-BIZ-003_튜닝검사_절차안내/05_근거_미확인.md",
+      "sha256": "c0a2c64c4885732d3c57895abaae304e84bb1228b6208efcd39d2904ad92b920",
+      "bytes": 4546
+    },
+    {
+      "path": "01_후보별/TS-BIZ-003_튜닝검사_절차안내/README.md",
+      "sha256": "4aea20e66adf098ab9efc955a47c7662bb6356e6b916f401b1fcb97674caed30",
+      "bytes": 2050
+    },
+    {
+      "path": "01_후보별/TS-BIZ-004_교통약자_이동정보/01_문제정의.md",
+      "sha256": "ff7e58cb690cfaae1d07ab9f27f9c735497344c3e6b5aad7ee2451d7d87c2233",
+      "bytes": 3728
+    },
+    {
+      "path": "01_후보별/TS-BIZ-004_교통약자_이동정보/02_연관솔루션.md",
+      "sha256": "42aeff78a652d6d2ad1ebbb8b91f5c04f1440c126910300b309df8e23c1232da",
+      "bytes": 4465
+    },
+    {
+      "path": "01_후보별/TS-BIZ-004_교통약자_이동정보/03_국내외사례.md",
+      "sha256": "99463f5a80a54e73970d4a5bc4586f41d381cf4cf69ccd165b7c960b20f2dea3",
+      "bytes": 2391
+    },
+    {
+      "path": "01_후보별/TS-BIZ-004_교통약자_이동정보/04_사업화_실증.md",
+      "sha256": "2d096e744d5bba5cc5e8295bb14d548fcd039c61903118636ea5044f5f5fe681",
+      "bytes": 7589
+    },
+    {
+      "path": "01_후보별/TS-BIZ-004_교통약자_이동정보/05_근거_미확인.md",
+      "sha256": "de77a95098287aedcc1caf7e64c6c9008fb15f62701efd6fa8a05dad05fb32c2",
+      "bytes": 3969
+    },
+    {
+      "path": "01_후보별/TS-BIZ-004_교통약자_이동정보/README.md",
+      "sha256": "f0fdc2fdba86a6f894c76026ce976a7697fc3f6a90b2fad8547297fdbc23cb8e",
+      "bytes": 2013
+    },
+    {
+      "path": "01_후보별/TS-BIZ-005_기계식주차장_예방관리/01_문제정의.md",
+      "sha256": "962ceb543c13e628a4366dc96636b737e14e9d1d4a9a67b212ff5ce133abe7df",
+      "bytes": 3618
+    },
+    {
+      "path": "01_후보별/TS-BIZ-005_기계식주차장_예방관리/02_연관솔루션.md",
+      "sha256": "4c75dab504cc0efed4a517c9567b595f85f52fd971c9a52fae514330ce1051ce",
+      "bytes": 4421
+    },
+    {
+      "path": "01_후보별/TS-BIZ-005_기계식주차장_예방관리/03_국내외사례.md",
+      "sha256": "0c502c61dfa9264ff107dd304f22099f207e206cf491489132b564423db8bafe",
+      "bytes": 3058
+    },
+    {
+      "path": "01_후보별/TS-BIZ-005_기계식주차장_예방관리/04_사업화_실증.md",
+      "sha256": "93345c1c3cda66a3fbbee092bc8b68e52ae70667f89db5229ac8737b2764ed9b",
+      "bytes": 7235
+    },
+    {
+      "path": "01_후보별/TS-BIZ-005_기계식주차장_예방관리/05_근거_미확인.md",
+      "sha256": "585622cf5c68e228b994022b244504e180ccd86b9091226e9fdeb4ed2378d809",
+      "bytes": 3920
+    },
+    {
+      "path": "01_후보별/TS-BIZ-005_기계식주차장_예방관리/README.md",
+      "sha256": "8e22044ec155d7bb054bfca1c0775754e46921fead9c89aefcd48f8829182e48",
+      "bytes": 2033
+    },
+    {
+      "path": "01_후보별/TS-BIZ-006_철도_안전증빙/01_문제정의.md",
+      "sha256": "c84bdcecdb76f225708a9f720aadd60fd6ee29bd1fd162158e858ddcdd016ac7",
+      "bytes": 3682
+    },
+    {
+      "path": "01_후보별/TS-BIZ-006_철도_안전증빙/02_연관솔루션.md",
+      "sha256": "879ba6ca1f37d3634b8186e716e3c9d3f379e14d76098621f29a2829997b1fc8",
+      "bytes": 4585
+    },
+    {
+      "path": "01_후보별/TS-BIZ-006_철도_안전증빙/03_국내외사례.md",
+      "sha256": "9e5bcdf82bda2ec461145274b1a9db9fa2416f3e519f9c548ec9840916bde974",
+      "bytes": 2704
+    },
+    {
+      "path": "01_후보별/TS-BIZ-006_철도_안전증빙/04_사업화_실증.md",
+      "sha256": "51973a80de0f7aeb08a14153d34c0c7f91c3d72aec77e13c62a1d59b01b68467",
+      "bytes": 7575
+    },
+    {
+      "path": "01_후보별/TS-BIZ-006_철도_안전증빙/05_근거_미확인.md",
+      "sha256": "75679ac65d866fab5170244fb0fa952275f696e7fb2a06c3b069e918f2d6fae0",
+      "bytes": 3827
+    },
+    {
+      "path": "01_후보별/TS-BIZ-006_철도_안전증빙/README.md",
+      "sha256": "b5c066df8c932394ec71a94952dc8c04764184ac8730e176ce536be48f69f86c",
+      "bytes": 1957
+    },
+    {
+      "path": "01_후보별/TS-BIZ-007_위험물_공동대응/01_문제정의.md",
+      "sha256": "00e833c6b25d0668d692af55efc4973ac05b951657bf4a5acccc0d467c0c4371",
+      "bytes": 3643
+    },
+    {
+      "path": "01_후보별/TS-BIZ-007_위험물_공동대응/02_연관솔루션.md",
+      "sha256": "12312a7cc42b720f593d1487fc3c8ccf1fbf4336bb7ba9e71aa250c956ab5b67",
+      "bytes": 4644
+    },
+    {
+      "path": "01_후보별/TS-BIZ-007_위험물_공동대응/03_국내외사례.md",
+      "sha256": "b167961b4ffaffde55ec24bcadeace8fde4e715d9d25b8880f87c83888c417f7",
+      "bytes": 2416
+    },
+    {
+      "path": "01_후보별/TS-BIZ-007_위험물_공동대응/04_사업화_실증.md",
+      "sha256": "9dc71b8f5ae194ebd519fbf24e6ef3304de78965e7d5cf0ff0271ff4e553aaf8",
+      "bytes": 7640
+    },
+    {
+      "path": "01_후보별/TS-BIZ-007_위험물_공동대응/05_근거_미확인.md",
+      "sha256": "df369474aac2764f65dad321ed29bd9ad7a63d0336ac8479dd3f034cbf383243",
+      "bytes": 3962
+    },
+    {
+      "path": "01_후보별/TS-BIZ-007_위험물_공동대응/README.md",
+      "sha256": "30e95c8322557bf9a38125c942b0c9b8edecab843776381773d779963e1701b3",
+      "bytes": 1967
+    },
+    {
+      "path": "01_후보별/TS-BIZ-008_드론_절차안내/01_문제정의.md",
+      "sha256": "8cefa77aad1d9d4bf5ffa0ef90f681acc1a1b97d6b8c33a87de3bbdfbd011ae7",
+      "bytes": 3641
+    },
+    {
+      "path": "01_후보별/TS-BIZ-008_드론_절차안내/02_연관솔루션.md",
+      "sha256": "60bc6c4087e0ce7308f48b582e6dc274e38e7fe44b4311d829d27ca9f59e1dcf",
+      "bytes": 4349
+    },
+    {
+      "path": "01_후보별/TS-BIZ-008_드론_절차안내/03_국내외사례.md",
+      "sha256": "c9184b70337f7f88f816140d1ca23a4a3072a68e0f3d7ff2d611fbb8c50b41a3",
+      "bytes": 2697
+    },
+    {
+      "path": "01_후보별/TS-BIZ-008_드론_절차안내/04_사업화_실증.md",
+      "sha256": "b7f4e2c425ddc7d7483b5c3d9b45a48342fe186ee57c73f4e04e2a1f7333f4d5",
+      "bytes": 7485
+    },
+    {
+      "path": "01_후보별/TS-BIZ-008_드론_절차안내/05_근거_미확인.md",
+      "sha256": "bea2141e7db8ff6b71ffc923261da27ba210460ef8f78ee29c7cf5156f3494a1",
+      "bytes": 4277
+    },
+    {
+      "path": "01_후보별/TS-BIZ-008_드론_절차안내/README.md",
+      "sha256": "72414ba30295932f1eb62dea461650eb9a99ae595a1f7bafb1359a35f8d9e68f",
+      "bytes": 1988
+    },
+    {
+      "path": "01_후보별/후보분석_원장.json",
+      "sha256": "ec716b38e168c104097657e28aebbcd3138e6424679699a1c81868eaa0969b3d",
+      "bytes": 36153
+    },
+    {
+      "path": "02_공통솔루션/README.md",
+      "sha256": "110e25964bc6114cd52e45237db7a4505f6bbbf4d537e5c2695bfcbc02b45830",
+      "bytes": 1281
+    },
+    {
+      "path": "02_공통솔루션/SOL-01.md",
+      "sha256": "e5afbb7dc938833ce020a163ae8b19271c41cd38d63723b1e5ae7c3c2ff9b69c",
+      "bytes": 2790
+    },
+    {
+      "path": "02_공통솔루션/SOL-02.md",
+      "sha256": "61ba778785833c52733e89f08a42ced8c55c3c213be8e3087945176920ebfa24",
+      "bytes": 3133
+    },
+    {
+      "path": "02_공통솔루션/SOL-03.md",
+      "sha256": "a684f8600a35ba5bab0b96bf485f4f478df71cf7d77b613910271cef6c309cc3",
+      "bytes": 2927
+    },
+    {
+      "path": "02_공통솔루션/SOL-04.md",
+      "sha256": "d75fba89308e9db42758f84a0f58929a3785a0252f577bacb586326f58df1dcb",
+      "bytes": 2739
+    },
+    {
+      "path": "02_공통솔루션/SOL-05.md",
+      "sha256": "25262ab7b0c3be5d93ad6a504e7aa8e871f25edf786f9dd665c4734306ee30f0",
+      "bytes": 3116
+    },
+    {
+      "path": "02_공통솔루션/SOL-06.md",
+      "sha256": "edada61951cf8d2703222ddef641c40dff43e2a27b2f8f135eb65dc6d3c47f69",
+      "bytes": 2998
+    },
+    {
+      "path": "02_공통솔루션/SOL-07.md",
+      "sha256": "44ed1a10a346bf32cf5560d949d68d23d4624f3ceac9c34fa50fffb484b53849",
+      "bytes": 3473
+    },
+    {
+      "path": "02_공통솔루션/솔루션원장.json",
+      "sha256": "3d332937442d66562cd4449ef485110d157755c96b2e466c09f235291ff48c5f",
+      "bytes": 5405
+    },
+    {
+      "path": "03_도입사례/CASE-001.md",
+      "sha256": "972eda6aa30144e2d57e69080fd1bfe09427c820d6fbbcdc27e953a32dd99f58",
+      "bytes": 2671
+    },
+    {
+      "path": "03_도입사례/CASE-002.md",
+      "sha256": "5f129ca26746dbcdf7d78bef067b8bf435fd174d375938bec45de9788a85e9a0",
+      "bytes": 2563
+    },
+    {
+      "path": "03_도입사례/CASE-003.md",
+      "sha256": "6b437875fbc2140f9f49283fa6b200eda2e01d702f5f051affe1a455fbd84052",
+      "bytes": 3388
+    },
+    {
+      "path": "03_도입사례/CASE-004.md",
+      "sha256": "3b30b73161ef75f6605388aab399fb7a4ca2ef28bf1fdc36329fbe18c0023eca",
+      "bytes": 2751
+    },
+    {
+      "path": "03_도입사례/CASE-005.md",
+      "sha256": "44ae6fba2078119de0e90ee997b304c3d442f0ff6f39a8b6f5f814902327dc5e",
+      "bytes": 3158
+    },
+    {
+      "path": "03_도입사례/CASE-006.md",
+      "sha256": "d77d6d2289891ad1c9639ca2c95574a8b06cae3a3e165dcab064333b1df04c6c",
+      "bytes": 2816
+    },
+    {
+      "path": "03_도입사례/CASE-007.md",
+      "sha256": "8f902267bc93ac02374c1110205daa2cdccb68ae64efb38c8429b45b2d6f3cc5",
+      "bytes": 2789
+    },
+    {
+      "path": "03_도입사례/CASE-008.md",
+      "sha256": "55db8328e94a5b406ded6a7ebdd23c0072fa31631fadd02adfe84d3f8faa4b11",
+      "bytes": 2789
+    },
+    {
+      "path": "03_도입사례/CASE-009.md",
+      "sha256": "c6bc47db2a9cc1845058a8850b840d7b5158beae6c91c631d76f9f237d2fb9bb",
+      "bytes": 2673
+    },
+    {
+      "path": "03_도입사례/CASE-010.md",
+      "sha256": "21908db6b0b0fb1b2a6f5f1b53c6826e26c9f8ec16e3545f6bb00069e7961764",
+      "bytes": 2763
+    },
+    {
+      "path": "03_도입사례/CASE-011.md",
+      "sha256": "9a2f23f8cb870fdb449c95951b643c4ccf0cd794a526f2d3b499e800bf3d2572",
+      "bytes": 3356
+    },
+    {
+      "path": "03_도입사례/CASE-012.md",
+      "sha256": "97c403ed099501a435d57a882c7a48e2ab8f6b3661c955c41979ec6e16b5d641",
+      "bytes": 2641
+    },
+    {
+      "path": "03_도입사례/CASE-013.md",
+      "sha256": "faab2ddeacf8dda5ac5fd24ca1453055d9eb53f852cdcb4caa6a2cfe59c60857",
+      "bytes": 2863
+    },
+    {
+      "path": "03_도입사례/CASE-014.md",
+      "sha256": "c590fcb553672e2cdc0fd67631801d67b1363497efe1b7ba7ffec0797b980f0d",
+      "bytes": 2874
+    },
+    {
+      "path": "03_도입사례/CASE-015.md",
+      "sha256": "2dac8431ac70b3593d006e422c86e724a4eb326abaa7e56b69c5d746642947d0",
+      "bytes": 3777
+    },
+    {
+      "path": "03_도입사례/CASE-016.md",
+      "sha256": "be30857ad5855420182be1a14962d50b2c690efc7443c4deb34d3dae1c323ff6",
+      "bytes": 3529
+    },
+    {
+      "path": "03_도입사례/CASE-017.md",
+      "sha256": "a6d038da3b21ff819bc90d10e03360976487f0798c07ad1e8e837aeed114a7ad",
+      "bytes": 3215
+    },
+    {
+      "path": "03_도입사례/CASE-018.md",
+      "sha256": "9e4b9d1ab6230d933c858676e206fc1ca2c260a314ac4ee0b6ea4a2767b447e2",
+      "bytes": 3254
+    },
+    {
+      "path": "03_도입사례/CASE-019.md",
+      "sha256": "7e3a0a99f9cb1739e451b9945b99b64f7590595916f6d70eca11975478c594c4",
+      "bytes": 4333
+    },
+    {
+      "path": "03_도입사례/README.md",
+      "sha256": "8c9e6b0610b605e64f8a477f38803605846cd76943003b5a54370b26ec79a9b8",
+      "bytes": 3524
+    },
+    {
+      "path": "03_도입사례/사례원장.json",
+      "sha256": "43910622dc1fcaf97a95c72d502320d6da8795f9c7a867c9456952a211b65c36",
+      "bytes": 15611
+    },
+    {
+      "path": "04_출처아카이브/README.md",
+      "sha256": "8511a20bc32415929d25dacb033b7065a759828a187271cec7a0058bf994e509",
+      "bytes": 6253
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-001.md",
+      "sha256": "166ebcd162408095c04ab6776b2ae036e5a1654ef2059beacb5bb138c4386653",
+      "bytes": 2118
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-002.md",
+      "sha256": "2e1581bce79d695871472ca9c811547c4159ffdf524b5f59317c81e1389fd4f0",
+      "bytes": 2042
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-003.md",
+      "sha256": "110b612324db3b1daa50a1bfb458e2098d75bd45f6baf7cf86052830635fd512",
+      "bytes": 2044
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-004.md",
+      "sha256": "0da81065a727780b2f279b774f694ec71145f0fc5461abd393e0e4f3c764c78e",
+      "bytes": 2373
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-005.md",
+      "sha256": "41c2c5ac37a1bacc0f2da5c7d0d2591ff1dbfe6a65e29ef5165629ab4c7da71c",
+      "bytes": 2283
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-006.md",
+      "sha256": "e745c9c35bc1b606d8fdd3bd038469ab5fe5d4111a0ac7aed729b3d74816979e",
+      "bytes": 2042
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-007.md",
+      "sha256": "af4f141d837d3fa23fe9902f7cb8a1526112fbf44ee33fd38d044d4e6c2bc0a9",
+      "bytes": 2115
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-008.md",
+      "sha256": "209dd87a7125e9a2f97bb6750363671b0455d6da74d8cf41e4977798ef052785",
+      "bytes": 2573
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-009.md",
+      "sha256": "fe3eb5b43e818b2aa5f8527041d7deca4c5793dd975ba6de8d366a82aec7c0a1",
+      "bytes": 2548
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-010.md",
+      "sha256": "d5148402fa6c55b79350abdd2b795ca508c0085cff5fc66f27048de75421c736",
+      "bytes": 2421
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-011.md",
+      "sha256": "edbd9faba0cd5c19a4531c5f60bc3c11a832dfd3cedd54690e8e1ae321c267b5",
+      "bytes": 2126
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-012.md",
+      "sha256": "28dd499e770568581cfb33453389cb5b091d96e2687f02525d9946acdc091edb",
+      "bytes": 2326
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-013.md",
+      "sha256": "71ef09d52dacdb0ba506461526a812f141d04889b7365a21759f4712a45ba7b6",
+      "bytes": 2395
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-014.md",
+      "sha256": "1e577e08a77f4c9c277c1c069c9cc03c6a58e662741007b783b165da7f4092f7",
+      "bytes": 2372
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-015.md",
+      "sha256": "0247e48ba81ece910c8b86ab1e89b5b229e713eae4e0581b2e84302bd5a7b131",
+      "bytes": 2106
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-016.md",
+      "sha256": "066757aca433cfcecb19c2059f48e02ee2da796af3b0790bf686093ee897c42a",
+      "bytes": 2518
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-017.md",
+      "sha256": "105715dd3f165d1e9d049d5ab066f1c546d2b5823e9a8a78af16435b1afb85cd",
+      "bytes": 2433
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-018.md",
+      "sha256": "266c9031963b809b95670c69602e29577ec9384c09ad9d2b985042c919dc6cdf",
+      "bytes": 2057
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-019.md",
+      "sha256": "7265ec2e4768141b48bf12d8588c4c2ed9e3e12d7e79209ce2257b3b2df9696e",
+      "bytes": 2230
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-020.md",
+      "sha256": "e024d51344b26b2d4993a2b4959a1803fee7e5475ec39911d30a3fcc88925c4f",
+      "bytes": 2407
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-021.md",
+      "sha256": "e02a756e0b2af26029bcfcecd05aebae381c83ab7cc057345eb39126e0ebe69f",
+      "bytes": 2261
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-022.md",
+      "sha256": "3d8fba92ff34aeecaf6f244004f76bd89a46688d07a7ce7e95516468631d34f0",
+      "bytes": 2113
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-023.md",
+      "sha256": "acba79b406d1c13cd04593fbc31722f31bbbe2adec2a1f1dce892f1c8a9d00ae",
+      "bytes": 2233
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-024.md",
+      "sha256": "d6da1f89a1595f91ec7d7d16afe85a97ec0bb81abdc38a96aaac38fc20fcd00b",
+      "bytes": 2227
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-025.md",
+      "sha256": "7c1eb9800f524530047490ababfd04e208bffc4f98cb56e33649a09a899f3e54",
+      "bytes": 2301
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-026.md",
+      "sha256": "c80ab23b08969f8722af07f9c92164c784b484ec22c60571dbaf9c28b77afbff",
+      "bytes": 2263
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-027.md",
+      "sha256": "53ee66d55d2182b7ba0b1ddc43161652e07e69d1bef08ebc355360976af5c60c",
+      "bytes": 2247
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-028.md",
+      "sha256": "4b9a1b50542b156c016307210d223019dfac326ee9b8023961361ea32b8667d0",
+      "bytes": 2454
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-029.md",
+      "sha256": "b6b0a6dd34215f9ef169ee6c5daacc5ad13f8ecaee2d945eff8f35c72b9d933f",
+      "bytes": 2343
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-030.md",
+      "sha256": "2db5b87a0677bdcbf35cb18c1fe4ccf4b7bdab4aa88b657efe757ed00cc10c62",
+      "bytes": 2410
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-031.md",
+      "sha256": "e4520e643dfc7a898fb6031214d569d78abe4fb1b3aa4ed2c29d29ebaaf34508",
+      "bytes": 2503
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-032.md",
+      "sha256": "fe5c99d0ff1822be7f27359f4a95205b6df31c3b2f9b06208ad69ba5ca2f6310",
+      "bytes": 2105
+    },
+    {
+      "path": "04_출처아카이브/검토노트/DRS-033.md",
+      "sha256": "e2d297dffeb21f6281e839218bca8ef3aba70181c578d67793929031935a5e19",
+      "bytes": 2003
+    },
+    {
+      "path": "04_출처아카이브/출처원장.json",
+      "sha256": "cfab4864213d24b1c6077352e7be4d8b2dd0907f980a53fadc022bd2dab19746",
+      "bytes": 51912
+    },
+    {
+      "path": "05_종합분석/비교매트릭스.md",
+      "sha256": "ab63f57b52c1ec5315b4788aff2149fd7a9327bc85684d8eb84964e2c3b0fd26",
+      "bytes": 5776
+    },
+    {
+      "path": "05_종합분석/종합보고서.md",
+      "sha256": "f4ef81173c9cd88f1bac5d5375a1c9329e8da5627515703d77bbcb70e9259ee6",
+      "bytes": 37146
+    },
+    {
+      "path": "05_종합분석/추적원장.json",
+      "sha256": "8b77a967d407001ff5f98cd7f0080a60a70aa1798f484bd14d1b150c0ed4c785",
+      "bytes": 28219
+    },
+    {
+      "path": "90_템플릿/README.md",
+      "sha256": "8878e86d4b5b4b30a4ca0f614fd67a120af7c4641e78b4d1b6f4e5093ce3689e",
+      "bytes": 612
+    },
+    {
+      "path": "90_템플릿/사례_템플릿.md",
+      "sha256": "31bc44afed6084539a6725fd300665c719243d3a6577459eab40cafffbdc513c",
+      "bytes": 981
+    },
+    {
+      "path": "90_템플릿/출처_조사기록_템플릿.md",
+      "sha256": "a64487ae6f177e5a32a607a28aa1e4d190ef7d765e12273db5ff56de5ec20413",
+      "bytes": 1035
+    },
+    {
+      "path": "90_템플릿/후보_템플릿.md",
+      "sha256": "a98bdd185a011297ffb6fe64eaa1b2bb7233b0b9983ba9c85fba88a8ae3afef7",
+      "bytes": 1693
+    },
+    {
+      "path": "README.md",
+      "sha256": "f8d576ab73f5dff1c1811f8530371ab72c38f93045fd512551863d791541dc03",
+      "bytes": 4726
+    }
+  ],
+  "raw_references": [
+    {
+      "id": "DRS-004",
+      "path": "04_출처아카이브/원문/DRS-004/2026-09-09/98f8cd3509c9.html.txt",
+      "sha256": "98f8cd3509c9c4334b35680da9a5b83429141dd2a7a1d42bb7ccb83a5a5c335e",
+      "bytes": 35469
+    },
+    {
+      "id": "DRS-005",
+      "path": "04_출처아카이브/원문/DRS-005/2026-09-09/305d1648dcba.html.txt",
+      "sha256": "305d1648dcba1604fbbca5d6eadc99e129f1b2d79cd023bf897d20a70a05b792",
+      "bytes": 53500
+    },
+    {
+      "id": "DRS-008",
+      "path": "04_출처아카이브/원문/DRS-008/2026-09-09/e10a8d95c520.html.txt",
+      "sha256": "e10a8d95c520ba87eec27f97b2831dda5cad91eedb78e5abe886b11cc4ee31ee",
+      "bytes": 147999
+    },
+    {
+      "id": "DRS-009",
+      "path": "04_출처아카이브/원문/DRS-009/2026-09-09/cf42982e1023.html.txt",
+      "sha256": "cf42982e102328ce19d0f3fcec1b01e5778ec058b4a2f84bd6b29a9fc3f9b3b4",
+      "bytes": 105886
+    },
+    {
+      "id": "DRS-010",
+      "path": "04_출처아카이브/원문/DRS-010/2026-09-09/1c7657ea9464.html.txt",
+      "sha256": "1c7657ea94641929d1326ea1a4fc4bebde811b1a6e574a7f85a53900414241fb",
+      "bytes": 50724
+    },
+    {
+      "id": "DRS-012",
+      "path": "04_출처아카이브/원문/DRS-012/2026-09-09/eeec5b797791.html.txt",
+      "sha256": "eeec5b7977916d5e2342cafa0414aa718460f086335c4a1db01369ccd54c5b23",
+      "bytes": 17438
+    },
+    {
+      "id": "DRS-013",
+      "path": "04_출처아카이브/원문/DRS-013/2026-09-09/7f2d2a7f9257.html.txt",
+      "sha256": "7f2d2a7f925743c0afabd5422257cfb1a226af8b397c11fac4421d6927f213cf",
+      "bytes": 631880
+    },
+    {
+      "id": "DRS-014",
+      "path": "04_출처아카이브/원문/DRS-014/2026-09-09/be4ff58db559.html.txt",
+      "sha256": "be4ff58db5595ac8323facb9fd072dc0dce8b623ea7ea799145d461a71bdb07c",
+      "bytes": 7433
+    },
+    {
+      "id": "DRS-016",
+      "path": "04_출처아카이브/원문/DRS-016/2026-09-09/29be527a6993.html.txt",
+      "sha256": "29be527a69933091f82bfb539d06f3e330001f261786ad6de87293c0e86d0044",
+      "bytes": 104052
+    },
+    {
+      "id": "DRS-017",
+      "path": "04_출처아카이브/원문/DRS-017/2026-09-09/f4de44e92d75.html.txt",
+      "sha256": "f4de44e92d757b727985a5076feb4754ee4b4cd765f1d7973a42e836fcbd2802",
+      "bytes": 177578
+    },
+    {
+      "id": "DRS-020",
+      "path": "04_출처아카이브/원문/DRS-020/2026-09-09/6f3bfed238ef.html.txt",
+      "sha256": "6f3bfed238ef3f7604e645e53684dc3ce6a815a32588939dfa33facad62dfa97",
+      "bytes": 33983
+    },
+    {
+      "id": "DRS-023",
+      "path": "04_출처아카이브/원문/DRS-023/2026-09-09/9e2b38ff266f.html.txt",
+      "sha256": "9e2b38ff266f5a147f12d406885620895c203377b4b4040ebd70ca42d42ff15c",
+      "bytes": 34274
+    },
+    {
+      "id": "DRS-024",
+      "path": "04_출처아카이브/원문/DRS-024/2026-09-09/16bd5bd810dd.html.txt",
+      "sha256": "16bd5bd810ddc823675aa99b833962e41f820b85ccd8db31245eca1e12464745",
+      "bytes": 126195
+    },
+    {
+      "id": "DRS-025",
+      "path": "04_출처아카이브/원문/DRS-025/2026-09-09/f222b228ac18.html.txt",
+      "sha256": "f222b228ac181871700b66f1378155c0865484b21b4915619aafd143186c3814",
+      "bytes": 136868
+    },
+    {
+      "id": "DRS-026",
+      "path": "04_출처아카이브/원문/DRS-026/2026-09-09/bfa3f7927cbe.html.txt",
+      "sha256": "bfa3f7927cbef440f149ab70bba57aabb59c701f62855c0668a4bbd633f533f4",
+      "bytes": 124824
+    },
+    {
+      "id": "DRS-028",
+      "path": "04_출처아카이브/원문/DRS-028/2026-09-09/94033045074c.html.txt",
+      "sha256": "94033045074caf549d05d20f6b43d74f45675d95f42083b5e34f2dcffec5c2bd",
+      "bytes": 179145
+    },
+    {
+      "id": "DRS-029",
+      "path": "04_출처아카이브/원문/DRS-029/2026-09-09/2ea0df492bf7.html.txt",
+      "sha256": "2ea0df492bf79b5b6485fbf1e18edf54fd552ca0eb330daff59e4d20e35f793c",
+      "bytes": 95151
+    },
+    {
+      "id": "DRS-030",
+      "path": "04_출처아카이브/원문/DRS-030/2026-09-09/596b059ca14b.html.txt",
+      "sha256": "596b059ca14b8642a8852eba1c314f059c024e0a5f8a8a7d059b77c25a97418d",
+      "bytes": 73110
+    },
+    {
+      "id": "DRS-031",
+      "path": "04_출처아카이브/원문/DRS-031/2026-09-09/6b26cd8535a7.html.txt",
+      "sha256": "6b26cd8535a75e116e8c5edffeb41c8a3e24ef752812a309311182223e5621d0",
+      "bytes": 79501
+    },
+    {
+      "id": "DRS-032",
+      "path": "04_출처아카이브/원문/DRS-032/2026-09-09/e85910129f17.html.txt",
+      "sha256": "e85910129f17e5236ad13155c4ef0a9552e7fc17c38a04af36686f89a4276af4",
+      "bytes": 80145
+    }
+  ],
+  "restore_note": "ZIP은 원문을 포함하지 않음. 원문 복구·이전에는 raw_references 파일도 필요.",
+  "zip_sha256": "bb3d242a994affea5f7530ca7d0968b5135bdff5c06f3db3e27295b72bda78a0"
+}

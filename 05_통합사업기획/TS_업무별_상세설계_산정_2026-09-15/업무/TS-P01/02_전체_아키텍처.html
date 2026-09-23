@@ -1,0 +1,144 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TS-P01 · 전체 아키텍처 | TS · CCK NOA</title><link rel="stylesheet" href="../../자산/report.css"></head><body><a class="skip" href="#main">본문으로 이동</a><header><div class="eyebrow">TS × CCK NOA · 2026.09.15 · 기획 검토 v1.0</div><h1>TS-P01 · 전체 아키텍처</h1><p>운수회사 안전점검 개선조치 증빙 검토 지원</p></header><nav class="topnav" aria-label="자료 메뉴"><a href="../../00_상세설계_통합보기.html">전체 업무</a><a href="../../01_공통_아키텍처.html">공통 아키텍처</a><a href="../../02_통합_비용산정.html">업무 선택·예산 계산</a><a href="../../03_산정기준_근거.html">산정 기준·근거</a></nav><main id="main" class="shell"><nav class="tabs" aria-label="TS-P01 상세 주제"><a href="01_서비스_컨셉.html">01 서비스 정의·컨셉</a><a href="02_전체_아키텍처.html" aria-current="page">02 전체 아키텍처</a><a href="03_사용자_흐름.html">03 사용자 흐름</a><a href="04_데이터_흐름.html">04 데이터 흐름</a><a href="05_요구사항_검수.html">05 요구사항·검수</a><a href="06_비용_산정.html">06 개발·용역·운영 산정</a><a href="07_일정_운영.html">07 추진 일정·운영</a></nav><div class="note">기획 검토안 · 로컬 LLM·기존 서버 · 신규 인프라 0원</div><section aria-label="TS-P01 전체 아키텍처 도식"><div class="diagram-tools"><button type="button" data-zoom="0.2">확대 +</button><button type="button" data-zoom="-0.2">축소 −</button><button type="button" data-zoom="reset">기본 크기</button><a href="architecture.svg">SVG 원본</a><span class="small">작은 화면에서는 가로로 이동할 수 있습니다.</span></div><div class="diagram" tabindex="0" aria-label="가로 이동 가능한 TS-P01 전체 아키텍처 도식"><img src="architecture.svg" alt="TS-P01 전체 아키텍처 도식. 처리·연결 설명은 아래 표에 제공." /></div></section><article><h2>시스템 경계·수행 책임</h2>
+<div class="tablewrap" tabindex="0" aria-label="가로로 이동 가능한 표"><table>
+<thead>
+<tr>
+<th>영역</th>
+<th>구성·역할</th>
+<th>책임</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>기존 기반</td>
+<td>점검 기록·지적사항·조치 상태와 COSAS 협업 화면</td>
+<td>TS 원 시스템·자료 운영부서</td>
+</tr>
+<tr>
+<td>업무 화면</td>
+<td>지적사항마다 조치 증빙과 보완 질문을 붙여 점검자가 검토를 마칠 수 있는 작업 화면</td>
+<td>CCK 구현·연계 / TS 업무 승인</td>
+</tr>
+<tr>
+<td>NOA·로컬 LLM</td>
+<td>지적 내용과 조치 증빙의 의미 대조, 누락 질의와 보완 초안</td>
+<td>CCK 설치 버전·호출·사용권 확인</td>
+</tr>
+<tr>
+<td>규칙·연계</td>
+<td>점검·지적 조회와 증빙 문서 조회를 읽기로 시작한다. COSAS 키 매핑·내부 화면 삽입·권한 전달은 P17이 담당한다. 종결 쓰기 연결은 2단계의 별도 승인 범위다.</td>
+<td>CCK 어댑터 / 원 시스템 공식 결과</td>
+</tr>
+<tr>
+<td>공통 모듈</td>
+<td>C00, C01</td>
+<td>통합 선택 시 1회 계상</td>
+</tr>
+<tr>
+<td>공식 결정</td>
+<td>점검자의 보완·종결</td>
+<td>해당 업무 권한자</td>
+</tr>
+</tbody></table></div>
+<p>도식은 <strong>논리 모듈</strong>이며 새 서버 수량이 아니다. 신규 GPU·서버·스토리지·망 장비·클라우드 비용은 0원이다. 자원이 부족하면 범위·동시 처리·배치 주기를 조정한다.</p>
+<h2>재사용·구현 경계</h2>
+<p>P17과 한 적용 사업으로 구성; P03·04·05·11·12의 증빙 대조 구성요소 재사용</p>
+<p>추가 작업: 점검건-증빙 연결·대조 지식·검토 화면·평가 사례</p>
+<p>NOA·보유 기술의 공개 설명은 설치 버전의 API·사용권·성능·검증 완료 증거가 아니다. 지식 검색·근거 연결·업무 상태 관리의 실제 보유 여부를 확인해 설정과 추가 개발을 구분한다.</p>
+<h2>논리 인터페이스 계약</h2>
+<div class="tablewrap" tabindex="0" aria-label="가로로 이동 가능한 표"><table>
+<thead>
+<tr>
+<th>계약</th>
+<th>입력→출력</th>
+<th>실패·권한</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>승인 자료 반입</td>
+<td>점검ID·지적ID·요구기준 버전·조치 설명·증빙 문서·담당자 검토 결과 → 대상·기간·버전이 있는 자료</td>
+<td>형식·이용권한·자료 분류 확인. 이미지 전용 자료는 텍스트 요청·수동 확인</td>
+</tr>
+<tr>
+<td>원천 조회</td>
+<td>점검 기록·COSAS → 상태·시점·참조키</td>
+<td>실제 API·권한 확인 후 읽기 연계</td>
+</tr>
+<tr>
+<td>AI 요청</td>
+<td>request_id, actor_scope, source_refs, question → draft, evidence_refs, uncertainty</td>
+<td>원문 내 지시는 분석 대상. 허용 도구·권한을 변경하지 못함</td>
+</tr>
+<tr>
+<td>검토·처리</td>
+<td>보완 질문·검토 의견 → 점검자의 보완·종결</td>
+<td>자동 공식 쓰기 없음. 검토 결과·공식 경로 제공</td>
+</tr>
+</tbody></table></div>
+<p>실제 API 명칭·주소·스키마는 미확인이다. 점검·지적 조회와 증빙 문서 조회를 읽기로 시작한다. COSAS 키 매핑·내부 화면 삽입·권한 전달은 P17이 담당한다. 종결 쓰기 연결은 2단계의 별도 승인 범위다.</p>
+<h2>보안·운영·복귀</h2>
+<ul>
+<li>현행 인증과 기관·업무·자료 권한 연결. 검색·색인·첨부·캐시에 같은 정책 적용</li>
+<li>외부 자료는 승인된 경로로 반입. 내부 문서·질문은 외부 모델로 전송하지 않음</li>
+<li>프롬프트·규칙·모델·색인 버전을 묶어 배포·이전 승인 버전 보관</li>
+<li>권한 누출·허위 확정·심각한 오류 발견 시 기능 중지 후 기존 업무 경로 복귀</li>
+</ul>
+<h2>도식의 연결</h2>
+<div class="tablewrap" tabindex="0" aria-label="가로로 이동 가능한 표"><table>
+<thead>
+<tr>
+<th>연결</th>
+<th>전달 내용</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>운수회사·TS 점검자 → 업무 화면·검토 작업대</td>
+<td>인증·입력</td>
+</tr>
+<tr>
+<td>업무 화면·검토 작업대 → 기존 공식 업무 시스템</td>
+<td>공식 경로 확인</td>
+</tr>
+<tr>
+<td>업무 화면·검토 작업대 → NOA 업무 실행 구성</td>
+<td>요청·검토 맥락</td>
+</tr>
+<tr>
+<td>권한·입력·상태 검증 → NOA 업무 실행 구성</td>
+<td>검증된 요청</td>
+</tr>
+<tr>
+<td>NOA 업무 실행 구성 → 연계·승인된 자료 반입</td>
+<td>허용 도구 호출</td>
+</tr>
+<tr>
+<td>연계·승인된 자료 반입 → 기존 공식 업무 시스템</td>
+<td>권한 범위 연계</td>
+</tr>
+<tr>
+<td>NOA 업무 실행 구성 → 권한 적용 지식 검색</td>
+<td>권한·질문</td>
+</tr>
+<tr>
+<td>권한 적용 지식 검색 → 기존 로컬 LLM</td>
+<td>근거·규칙</td>
+</tr>
+<tr>
+<td>기존 로컬 LLM → 권한·입력·상태 검증</td>
+<td>초안 재검증</td>
+</tr>
+<tr>
+<td>연계·승인된 자료 반입 → 최소 감사·승인 기록</td>
+<td>호출 상태</td>
+</tr>
+<tr>
+<td>권한 적용 지식 검색 → 최소 감사·승인 기록</td>
+<td>근거 참조</td>
+</tr>
+</tbody></table></div>
+<h2>출처와 확인 범위</h2>
+<ul>
+<li><a href="https://main.kotsa.or.kr/portal/contents.do?menuCode=01040201">교통수단안전점검</a> — 확인일 2026-09-14; 서류·현장점검, 조치보고·사후관리 확인; 과거 실적은 최신치로 사용하지 않음</li>
+<li><a href="https://main.kotsa.or.kr/portal/contents.do?menuCode=01081000">운수안전컨설팅지원시스템(COSAS)</a> — 확인일 2026-09-15; 법정 점검·협업·진행상황 안내 확인; 내부 기능 전수검토 아님</li>
+</ul>
+<p>기존 22개 출처는 이전 원장 확인일을 승계했다. 공급사 성능·자료 접근권한·법령 전체를 새로 검증한 자료는 아니다.</p>
+<p><a href="file:///G:/%EB%82%B4%20%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C/1.%20%EC%97%85%EB%AC%B4%EC%98%81%EC%97%AD/6.%20CCK/1.%20%EC%82%AC%EC%97%85%EA%B4%80%EB%A6%AC/TS/bizops/%5BTS%20%EC%82%AC%EC%97%85%EA%B8%B0%ED%9A%8D%5D/05_%ED%86%B5%ED%95%A9%EC%82%AC%EC%97%85%EA%B8%B0%ED%9A%8D/TS_22%EA%B0%9C%EC%97%85%EB%AC%B4_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C_2026-09-15/%EA%B0%9C%EB%B3%84%EB%B3%B4%EA%B3%A0%EC%84%9C/TS-P01_%EA%B3%A0%EB%8F%84%ED%99%94%EB%B3%B4%EA%B3%A0%EC%84%9C.html">이전 고도화 보고서</a></p>
+</article><div class="paging"><a href="01_서비스_컨셉.html">← 서비스 정의·컨셉</a><a href="02_전체_아키텍처.md">Markdown 원본</a><a href="03_사용자_흐름.html">사용자 흐름 →</a></div></main><footer>한국교통안전공단(TS) 대상 · 기존 서버 활용 · 신규 인프라 0원 · 실제 NOA·원 시스템 시험과 공급사 견적 미확인.<br><a href="../../README.md">자료 안내·제약</a> · <a href="../../검증기록.md">문서 검증 기록</a></footer><script>document.querySelectorAll('[data-zoom]').forEach(b=>b.addEventListener('click',()=>{const img=b.closest('section').querySelector('.diagram img');let v=Number(img.dataset.scale||1);v=b.dataset.zoom==='reset'?1:Math.max(.8,Math.min(2,v+Number(b.dataset.zoom)));img.dataset.scale=v;img.style.width=(v*100)+'%';}));const s=document.getElementById('search');if(s)s.addEventListener('input',()=>{let n=0;document.querySelectorAll('.card[data-key]').forEach(c=>{c.hidden=!c.dataset.key.toLowerCase().includes(s.value.toLowerCase());if(!c.hidden)n++;});document.getElementById('search-status').textContent=n+'개 업무 표시';});</script></body></html>

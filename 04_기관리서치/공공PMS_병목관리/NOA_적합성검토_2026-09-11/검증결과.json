@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-11",
+  "file": "NOA_공공PMS_재사용범위와_적합성검토_v0.1.docx",
+  "pages": 11,
+  "records": 16,
+  "classification": {
+    "재사용 후보": 6,
+    "설정과 확장 검토": 2,
+    "전용 업무 설계": 6,
+    "연계 설계": 1,
+    "기술과 계약 확인": 1
+  },
+  "requirements": 52,
+  "checks": {
+    "functional_records_16": true,
+    "classification_counts": true,
+    "rfp_52_covered": true,
+    "source_paths_exist": true,
+    "original_pdf_unchanged": true,
+    "final_pages_11": true,
+    "no_empty_pages": true,
+    "no_heading_borders_or_fixed_rows": true,
+    "unchanged_pages_match_reviewed_images": true,
+    "visual_review_complete": true
+  },
+  "changed_page_review": "11쪽 전체 검토 후 6쪽 소제목을 수정해 재출력. 나머지 쪽 이미지 해시 동일 확인 및 6쪽 재검토.",
+  "sha256": "6bc416856d8b1a7a6feb451ca04815bccaff2a7b33d0191c7b603113eef52830",
+  "not_performed": [
+    "NOA 설치본 시험",
+    "전체 소스·API 검증",
+    "기관 사용자 조사",
+    "제품 구현",
+    "독립 평가위원 심의"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "P23X-demo-1.1",
+  "synthetic": true,
+  "project_id": "EXAMPLE-RESERVATION-01",
+  "title": "자동차검사 예약 탐색 개선 — 가상 검토",
+  "year": 2028,
+  "unit": "KRW",
+  "display_unit": "백만원",
+  "vat_status": "미확인",
+  "prior_won": 30000000,
+  "requested_won": 70000000,
+  "difference_won": 40000000,
+  "scope_baseline_won": 100000000,
+  "budget_approved_won": null,
+  "consultation_result": null,
+  "template_profile": "MPB-2027-202604-p196",
+  "template_mismatch": true,
+  "evidence_status": "withdrawn",
+  "source_ids": [
+    "SYNTHETIC-01"
+  ],
+  "scope_review_required": true,
+  "scope_reduction": true,
+  "errors": [],
+  "warnings": [
+    "양식 연도 불일치: 등록 프로필은 2027년입니다. 2028년 공식 양식 확인 전 제출용 확정 불가.",
+    "근거 철회: 해당 근거 사용 중지. 관련 문제·필요성·문서 재검토 필요.",
+    "요구액 감소: 가상 범위 검토 기준 100백만원과 다릅니다. 범위·요구사항·일정·검수·RFP 재검토 필요.",
+    "실제 예산 승인·부처 의견조회·계약 검토는 미확인. 항상 작성지원 초안이며 공식 제출·공고는 실행하지 않습니다."
+  ],
+  "artifact_status": "작성지원 초안",
+  "official_submission": false
+}

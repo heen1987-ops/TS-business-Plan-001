@@ -1,0 +1,783 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+<script type="text/javascript" src="/js/nia_kor/snsFunc.js"></script>
+<script type="text/javaScript">
+//<!CDATA[[
+$(document).ready(function(){
+    var title = document.title;
+
+    var bbs_title, menu_title;
+    
+    menu_title = $('#menu_title').text();
+
+    if(menu_title == "AI활용사례"){
+    	$('#topCase').hide();
+    }
+    
+    
+    
+        
+        
+          bbs_title = "AI 정부 서비스 사례집";
+        
+    
+    
+    
+        
+        
+    
+    
+    
+        
+        
+    
+    
+    
+        
+        
+    
+    
+    
+        
+        
+    
+    
+    
+        
+        
+    
+    
+    
+        
+        
+    
+    
+    
+        
+        
+    
+    
+
+    if( title.indexOf("|") > 0){
+        var arr = title.split('|');
+        title = arr[0] + " > " + bbs_title + " | " + arr[1];
+        document.title = title;
+        }
+    
+    var data = { "@context": "http://www.schema.org", 
+            "@type": "WebPage", 
+            "name": $('#menu_title').text() + " - " + bbs_title ,
+            "url": window.location.href, 
+            "description": bbs_title + " 상세보기", 
+            "publisher": {
+                "@type": "WebSite",
+                "name": "NIA 한국지능정보사회진흥원"
+            }
+    };
+    var script = document.createElement('script'); 
+    script.type = "application/ld+json"; 
+    script.innerHTML = JSON.stringify(data); 
+    document.getElementsByTagName('head')[0].appendChild(script);
+
+});
+//고시/공고, 공지 코드 값.
+var deptCode = "";
+//이전글 다음글
+function doPrevNext(cbIdx, bcIdx){
+    /* document.bbsFVo.cbIdx.value = cbIdx; */
+    /* document.bbsFVo.bcIdx.value = bcIdx; */
+    if("" != deptCode ){
+        document.bbsFVo.action = "/site/nia_kor/ex/bbs/View.do;jsessionid=6B5DF29023E04F6D8311DF4944E96574.388a102fae4d06361421?cbIdx="+cbIdx+"&bcIdx="+bcIdx+"&deptCode="+deptCode;
+    }else{
+        document.bbsFVo.action = "/site/nia_kor/ex/bbs/View.do;jsessionid=6B5DF29023E04F6D8311DF4944E96574.388a102fae4d06361421?cbIdx="+cbIdx+"&bcIdx="+bcIdx;
+    }
+    document.bbsFVo.action = "/site/nia_kor/ex/bbs/View.do;jsessionid=6B5DF29023E04F6D8311DF4944E96574.388a102fae4d06361421?cbIdx="+cbIdx+"&bcIdx="+bcIdx;
+    document.bbsFVo.submit();
+}
+
+//목록
+function doBbsFList(cbIdx){
+    /* document.bbsFVo.cbIdx.value = cbIdx; */
+    if("" != deptCode ){
+        document.bbsFVo.action = "/site/nia_kor/ex/bbs/List.do;jsessionid=6B5DF29023E04F6D8311DF4944E96574.388a102fae4d06361421?cbIdx="+cbIdx+"&deptCode="+deptCode;
+    }else{
+        document.bbsFVo.action = "/site/nia_kor/ex/bbs/List.do;jsessionid=6B5DF29023E04F6D8311DF4944E96574.388a102fae4d06361421?cbIdx="+cbIdx;
+    }
+    document.bbsFVo.submit();
+}
+
+//첨부파일 미리보기
+function goPreview(bcIdx, cbIdx, fileNo) {
+    document.previewForm.cbIdx.value = cbIdx;
+    document.previewForm.bcIdx.value = bcIdx;
+    document.previewForm.fileNo.value = fileNo;
+    document.previewForm.action = '/site/nia_kor/ex/preview.do';
+    document.previewForm.submit();
+}
+
+//권한 체크
+//  function doBoardAuthorChk(gbn){
+//       $.ajax({
+//          type: "GET",
+//          url: "/site/seocho/ex/bbs/BoardAuthorChkAx.do;jsessionid=6B5DF29023E04F6D8311DF4944E96574.388a102fae4d06361421",
+//          data : {"gbn" : gbn},
+//          dataType : "json",
+//          success:function(data){
+//              if(!data.flag){
+//                  if( data.msg != null && data.msg != "" ){
+//                      alert(data.msg);
+//                  }
+//                  if( data.returnUrl != null && data.returnUrl != "" ){
+//                      location.href = data.returnUrl;
+//                  }else{
+//                     return;
+//                 }
+//              }
+//           },
+//          error: function(xhr,status,error){
+//              alert(status);
+//          }
+//       });
+
+//  }
+//]]>
+</script>
+<!-- 첨부파일 미리보기 form -->
+<form id="previewForm" name="previewForm" target="_blank" method="post">
+    <input type="hidden" id="cbIdx" name="cbIdx"/>
+    <input type="hidden" id="bcIdx" name="bcIdx"/>
+    <input type="hidden" id="fileNo" name="fileNo"/>
+</form>
+<div class="detail_type01" id="sub_contentsArea2">
+    
+    <div class="tit_area">
+        
+            
+                
+                
+                    
+                    
+                    AI 정부 서비스 사례집
+                
+            
+        
+            
+                
+                
+            
+        
+            
+                
+                
+            
+        
+            
+                
+                
+            
+        
+            
+                
+                
+            
+        
+            
+                
+                
+            
+        
+            
+                
+                
+            
+        
+            
+                
+                
+            
+        
+    </div>
+    <div class="write_area">
+        <span class="src">
+        
+            
+                
+
+                
+                
+                
+                
+                
+                
+                
+                
+            
+        
+            
+                
+
+                
+                
+                
+                
+                
+                
+                
+                
+            
+        
+            
+                
+
+                
+                
+                
+                
+                
+                <em>2026.03.25</em>
+                
+                
+            
+        
+            
+                
+
+                
+                
+                
+                
+                
+                
+                
+                <em>조회수 5785</em>
+            
+        
+            
+                
+
+                
+                
+                
+                
+                
+                
+                
+                
+            
+        
+            
+                
+
+                
+                
+                
+                
+                
+                
+                
+                
+            
+        
+            
+                
+
+                
+                
+                
+                
+                
+                
+                
+                
+            
+        
+            
+                
+
+                
+                
+                
+                
+                
+                
+                
+                
+            
+        
+        </span>
+        <span class="writer">
+        
+            
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            
+        
+            
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            
+        
+            
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            
+        
+            
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            
+        
+            
+                
+                
+                
+                <em>하예진</em>
+                
+                
+                
+                
+                
+                
+                
+                
+            
+        
+            
+                
+                <em>AI정부기획팀</em>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            
+        
+            
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            
+        
+            
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            
+        
+        </span>
+    </div>
+    
+    <div class="fileNew_area">
+        <ul>
+            
+                
+                    <li>
+                        <span class="file_nm"><a href="/common/board/Download.do?bcIdx=29161&cbIdx=37989&fileNo=1" title="다운로드">AI_정부_서비스_사례집.pdf</a> 
+                        
+                        </span>
+                        <span class="file_btn">
+                            
+                            <a href="https://www.nia.or.kr/common/board/Download.do?bcIdx=29161&cbIdx=37989&fileNo=1" title="다운로드">
+                                <span class="icon_download">
+                                    
+                                    <span class="hiddenTxt">AI_정부_서비스_사례집.pdf-다운로드</span>
+                                </span>
+                            </a>
+                            
+                            
+                                <a href="javascript:goPreview('29161','37989','1');" title="새창으로 첨부파일 미리보기">
+                                    <span class="icon_preview">
+                                        
+                                        <span class="hiddenTxt">AI_정부_서비스_사례집.pdf-미리보기</span>
+                                    </span>
+                                </a>
+                            
+                        </span>
+                    </li>
+                
+            
+        </ul>
+    </div>
+    <div class="con_area">
+        
+        
+
+            
+                
+                
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+            
+        
+
+            
+                
+                
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+            
+        
+
+            
+                
+                
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+            
+        
+
+            
+                
+                
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+            
+        
+
+            
+                
+                
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+            
+        
+
+            
+                
+                
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+            
+        
+
+            
+                
+                
+                    <div>
+                            <p>본 사례집은 공공부문 AI 서비스 도입&middot;활용 지원을 위해 행정안전부와 한국지능정보사회진흥원(NIA)이 공동 발간한 실무 참고자료로, AI 활용 서비스 전수조사 및 전문가 검토를 거쳐 환경&middot;고용&middot;복지 등 6개 분야 16개 사례를 선정&middot;수록하였습니다.&nbsp;</p>
+<p>단순 서비스 소개를 넘어 AI 도입 과정의 시행착오, 기술 규격, 현장 애로사항 등을 구체적으로 담아 AI 서비스 도입을 검토 중인 기관의 실질적인 길잡이 역할을 목적으로 합니다.</p>
+<p><br></p>
+<p>&lt;목차&gt;</p>
+<p><br></p>
+<p>[환경일반]</p>
+<p>01. 사각지대 없는 홍수 안전망, AI가 완성하다 (기후에너지환경부, AI 홍수예보시스템)</p>
+<p>02. 스스로 운전하는 정수장, 24시간 끊김 없는 물 안전망 (기후에너지환경부, AI기반 스마트 정수장)</p>
+<p><br></p>
+<p>[고용노동]</p>
+<p>03. 반복 업무 분석은 AI가, 최종 판단은 담당자가 (고용노동부/근로복지공단, AI기반 산재조사 분류 모델)</p>
+<p>04. 당신의 권리를 지키는 '연중무휴' AI 근로감독관 (고용노동부, 근로감독관 AI 지원시스템)</p>
+<p><br></p>
+<p>[사회복지일반]</p>
+<p>05. 위기 속 희망을 건네는 문자 한 통 (보건복지부, 복지위기가구 발굴 AI 초기상담)</p>
+<p>06. 외로움을 줄이고 안심은 더한 AI 돌봄 서비스 (경기도, 맞춤형 360˚ AI+돌봄 서비스)</p>
+<p><br></p>
+<p>[공공질서및안전]</p>
+<p>07. 국민 안전을 위한 스마트 게이트 (국토교통부/한국교통안전공단, AI 운전자격확인시스템)</p>
+<p>08. 디지털 치안을 책임지는 AI 수사관 (행정안전부/국립과학수사연구원, 딥페이크 불법 콘텐츠 탐지 분석 모델)</p>
+<p><br></p>
+<p>[일반행정]</p>
+<p>09. 찾는 순간, 활용으로 연결되는 AI 데이터 혁신 (경기도, 경기데이터 찾아드림)</p>
+<p>10. 정책 연구의 빈칸을 채우는 AI 파트너 (국무조정실/경제인문사회연구원, 초거대 AI를 이용한 통합 연구지원)</p>
+<p>11. 불 꺼진 당직실, 대신 켜진 건 AI! (광주광역시, AI 당직시스템)</p>
+<p>12. 언어의 장벽을 허문 AI 행정 (서울시 용산구, AI 다국어 동시통역 민원안내)</p>
+<p>13. "걸렸다"가 아니라, "여긴 아닙니다" (서울시 강남구, AI 부정주차 관리시스템)</p>
+<p>14. 붐비기 전에 척! 스마트 공항 관제 (인천공항공사, AI 기반 여객 흐름 관리 시스템)</p>
+<p><br></p>
+<p>[법제]</p>
+<p>15. 심사관의 새로운 파트너, AI 특허행정혁신 (지식재산처, AI기반 특허심사 업무지원 서비스)</p>
+<p>16. 국민에게 더 가까워진 법, AI가 만든 변화 (법제처, 생성형 AI 법령검색 서비스)</p>
+<p><br></p>
+<p>* 문의 : 인공지능정부본부 AI정부기획팀 하예진 주임(yaejha@nia.or.kr)</p>
+
+
+
+
+
+
+
+
+                    </div>
+                    <br/><br/><br/>
+                
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+            
+        
+
+            
+                
+                
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+            
+        
+    </div>
+    <div class="sns_area">
+        <a href="javascript:twitterOpen('AI 정부 서비스 사례집');" class="sns_t" title="트위터로 현재글 공유 새창 바로가기">
+            <span class="icon_twitter"></span><span class="hiddenTxt">트위터</span>
+        </a>
+        <a href="javascript:facebookOpen('AI 정부 서비스 사례집')" class="sns_f" title="페이스북으로 현재글 공유 새창 바로가기">
+            <span class="icon_facebook"></span><span class="hiddenTxt">페이스북</span>
+        </a>
+        <a href="javascript:googlePlusOpen()" class="sns_g" title="구글 플러스로 현재글 공유 새창 바로가기">
+            <span class="icon_google"></span><span class="hiddenTxt">구글 플러스</span>
+        </a>
+        <a href="/site/nia_kor/common/Print.do;jsessionid=6B5DF29023E04F6D8311DF4944E96574.388a102fae4d06361421" class="sns_p" target="_blank" title="현재 페이지 인쇄">
+            <span class="icon_printer"></span><span class="hiddenTxt">인쇄</span>
+        </a>
+    </div>
+</div>
+
+
+<div class="buttonArea_type01">
+    <button type="button" class="medium theme_b" onclick="doBbsFList('37989', '29161');return false;">목록</button>
+</div>
+
+<form id="bbsFVo" name="bbsFVo" action="/site/nia_kor/ex/bbs/View.do;jsessionid=6B5DF29023E04F6D8311DF4944E96574.388a102fae4d06361421?bcIdx=29161&amp;cbIdx=37989&amp;parentSeq=29161" method="post">
+    
+    
+    <input id="searchKey" name="searchKey" type="hidden" value=""/>
+    <input id="pageIndex" name="pageIndex" type="hidden" value="1"/>
+    <input id="tgtTypeCd" name="tgtTypeCd" type="hidden" value=""/>
+    <input id="mode" name="mode" type="hidden" value=""/>
+    <input id="parentSeq" name="parentSeq" type="hidden" value="0"/>
+    <input id="answerDepth" name="answerDepth" type="hidden" value="0"/>
+    <input id="answerStep" name="answerStep" type="hidden" value="0"/>
+    <input id="deptCode" name="deptCode" type="hidden" value=""/>
+    <input id="fileMaxSize" name="fileMaxSize" type="hidden" value="100"/>
+    <input id="orderbyDiv" name="orderbyDiv" type="hidden" value="date"/>
+</form>
+
+<div class="view_pn">
+    <ul class="view_next">
+        
+        
+            
+            <li>
+                <a href="javascript:" onclick="doPrevNext('37989', '29463');return false;">
+                    <i class="ion-chevron-up"><em>다음글</em></i>
+                    <span class="subject">
+                        「AI.GOV 해외동향」 2026-2호
+                    </span>
+                </a>
+            </li>
+            
+            
+        
+        
+        
+            
+            <li>
+                <a href="javascript:" onclick="doPrevNext('37989', '29046');return false;">
+                    <i class="ion-chevron-down"><em>이전글</em></i>
+                    <span class="subject">
+                        「AI.GOV 해외동향」 2026-1호
+                    </span>
+                </a>
+            </li>
+            
+            
+        
+    </ul>
+</div>
+

@@ -1,0 +1,71 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>근거에서 예산·발주까지 | P23 정책기획</title><link rel="stylesheet" href="자산/report.css"></head><body><!--P23-SLIDE-V13--><div style="padding:15px 24px;background:#143747;color:white;font:16px 'Malgun Gothic',sans-serif"><a href="슬라이드_통합설명_v1.3/00_서비스_통합설명.html" style="color:white;font-weight:700">이미지 컨셉도와 20장 서비스 통합설명 v1.3 보기</a><span style="margin-left:16px">PPTX · PDF · 서비스 흐름 · 아키텍처 · 비용</span></div><a class="skip" href="#main">본문으로 이동</a><aside><small>CCK · NOA × TS</small><div class="brand">정책·예산·발주<br>기획지원</div><nav aria-label="설명자료 목차"><a href="시각설계_v1.2/00_서비스_로직맵.html" style="background:#d4eeea;color:#123b42;font-weight:bold">서비스 로직맵 · v1.2</a><a href="00_기획_전체보기.html" aria-current="page">00 근거에서 예산·발주까지</a><a href="01_자료와_문제정의.html" >01 부서가 함께 보는 문제와 근거</a><a href="02_사업과_예산요구.html" >02 문제정의를 예산 설명으로</a><a href="03_양식과_필드매핑.html" >03 하나의 사업원장에서 여러 문서로</a><a href="04_아키텍처와_흐름.html" >04 로컬 LLM 기반 구성과 검토 흐름</a><a href="05_RFP와_공고전환.html" >05 승인된 사업을 발주 가능한 요구로</a><a href="06_요구사항과_검증.html" >06 무엇을 만들고 어떻게 확인할 것인가</a><a href="07_비용과_도입계획.html" >07 확장 범위와 추가 개발비</a><a href="08_문서전환_시연.html" >08 사업원장 → 문서 초안 시연</a><div class="formnav"><a href="서식/F01_문제정의_정책사업_검토서.html" >F01 문제정의·정책사업 검토서</a><a href="서식/F02_예산요구_사업설명자료.html" >F02 예산 요구·사업설명자료</a><a href="서식/F03_2027_신규사업_리스트.html" >F03 2027 신규사업 리스트 작성지원</a><a href="서식/F04_발주기관_RFP_초안.html" >F04 발주기관 RFP 초안</a><a href="서식/F05_공고작성_인계서.html" >F05 공고 작성 인계서</a><a href="서식/F06_심의질의_답변보완표.html" >F06 예산 심의 질의응답·보완표</a></div></nav></aside><div class="shell"><header><div class="eyebrow">POLICY PLANNING / P23 v1.1</div><h1>근거에서 예산·발주까지</h1><p class="lead">P23 v1.1 · TS 정책·예산·발주 기획지원 플랫폼</p><div class="meta"><span>기존 서버 · 로컬 LLM</span><span>신규 인프라 0원</span><span>기획·초안 · 실증 전</span></div></header><main id="main" tabindex="-1"><section data-visual-v12="true" style="padding:19px 21px;margin:0 0 25px;background:#e2f3ed;border:1px solid #a6cfc2;border-radius:9px"><strong style="display:block;font-size:19px;color:#15584e">서비스가 어떻게 동작하는지 도식으로 보기</strong><p style="margin:8px 0 13px;color:#3b615d;font-size:14px">각 단계를 선택하면 입력·처리·출력·담당자 판단과 보완 경로가 표시됩니다.</p><div style="display:flex;gap:8px;flex-wrap:wrap"><a style="display:inline-block;padding:8px 12px;border-radius:5px;background:#0b7164;color:white;text-decoration:none;font-size:14px" href="시각설계_v1.2/00_서비스_로직맵.html">컨셉·로직맵</a><a style="display:inline-block;padding:8px 12px;border-radius:5px;background:#0b7164;color:white;text-decoration:none;font-size:14px" href="시각설계_v1.2/01_서비스_흐름도.html">서비스 흐름</a><a style="display:inline-block;padding:8px 12px;border-radius:5px;background:#0b7164;color:white;text-decoration:none;font-size:14px" href="시각설계_v1.2/03_데이터_흐름도.html">데이터 흐름</a><a style="display:inline-block;padding:8px 12px;border-radius:5px;background:#0b7164;color:white;text-decoration:none;font-size:14px" href="시각설계_v1.2/06_사용자화면_시연.html">사용자 화면</a></div></section><blockquote>
+<p>여러 부서가 같은 자료를 다시 읽고 같은 설명을 다시 쓰는 부담을 줄인다. 검토된 문제·근거·사업범위·예산을 하나의 원장으로 관리하고, 제출 목적에 맞는 문서 초안과 수정할 부분을 연결한다.</p>
+</blockquote>
+<h2>서비스 정의</h2>
+<p><strong>이용자:</strong> 혁신·기획·예산·업무·정보화·계약을 담당하는 TS 직원. 사용자께서 말씀하신 ‘혁신처·기획처’는 기능상 역할로 반영했으며 공식 조직명·전결권자는 착수 시 확인한다.</p>
+<p><strong>해결할 문제:</strong> 정책보고서·통계·민원·뉴스·내부 사업자료를 각 부서가 별도로 검토하여 문제정의, 예산 설명, 요구사항 작성 사이에서 근거와 범위가 끊기는 상황. 발생 빈도·작업시간은 아직 실측하지 않은 업무 가설이다.</p>
+<p><strong>핵심 제품:</strong> 부서 공동의 근거 검토 작업대 + 사업·예산 원장 + 검토 흐름 + 양식별 문서 초안. 예산 확보 결과는 심의·정책 판단에 달려 있으며, 이 제품은 필요성·실행가능성을 설명하는 자료의 품질과 일관성을 지원한다.</p>
+<p><img src="%EC%9E%90%EC%82%B0/concept.svg" alt="문제정의에서 발주 준비까지의 컨셉"></p>
+<h2>8단계 업무 로직</h2>
+<div class="tablewrap" tabindex="0" role="region" aria-label="좌우로 이동 가능한 표"><table>
+<thead>
+<tr>
+<th>단계</th>
+<th>담당자에게 제공할 것</th>
+<th>다음 단계 진입 조건</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1. 자료 파악</td>
+<td>중복을 묶은 근거 카드, 기간·대상별 현황</td>
+<td>반입 권리·개인정보·접근 범위 확인</td>
+</tr>
+<tr>
+<td>2. 문제정의</td>
+<td>현상·불이익·규모·원인가설·반대근거</td>
+<td>업무 담당자가 문제와 조사 공백 확인</td>
+</tr>
+<tr>
+<td>3. 정책·사업 대안</td>
+<td>운영 개선·기존 기능 활용·AI 고도화·신규 도입 비교</td>
+<td>TS 소관 및 기존 계약과 차이 확인</td>
+</tr>
+<tr>
+<td>4. 사업 구체화</td>
+<td>목표·대상·범위·요구사항·일정·비용 근거</td>
+<td>실행 주체와 기술·데이터 전제 확인</td>
+</tr>
+<tr>
+<td>5. 예산 요구 준비</td>
+<td>제출 경로별 사업설명자료·연차비용·예상 질의</td>
+<td>예산 담당 검토, 해당 경로의 서식 확정</td>
+</tr>
+<tr>
+<td>6. 심의 보완</td>
+<td>질의 근거와 답변 초안, 감액 시 범위 조정안</td>
+<td>실제 심의·승인 증빙 등록</td>
+</tr>
+<tr>
+<td>7. 발주 전환</td>
+<td>승인 범위와 검수기준을 담은 RFP·공고 준비자료</td>
+<td>업무·정보화·계약 담당자의 검토</td>
+</tr>
+<tr>
+<td>8. 사후 학습</td>
+<td>계약·수행 결과·성과를 원래 문제와 연결</td>
+<td>확인된 결과만 차기 기획에 반영</td>
+</tr>
+</tbody></table></div>
+<h2>앞선 22개 업무와 관계</h2>
+<p>P01–P22는 개별 업무의 AI 적용 후보이고, <strong>P23은 여러 업무에서 필요한 사업을 찾아 구체화하는 공통 기획지원 후보</strong>다. TS의 공식 23번째 업무분류로 주장하지 않는다. P23이 다른 업무의 필요성을 입증하거나 신규 도입이 최선이라고 미리 결정하지 않는다.</p>
+<p>v1.0의 문제·근거·원인 가설·대안 검토를 재사용하고, v1.1에서 <strong>예산 경로·공통 사업원장·서식 변환·변경 영향·발주 전환</strong>을 추가한다. 기존 계약과 동일한 기능은 재개발 비용에서 제외한다.</p>
+<h2>전제와 완료 기준</h2>
+<ul>
+<li>기존 TS 로컬 서버·로컬 LLM·NOA 활용, 신규 인프라 투자 0원. 용량 부족 시 동시 작업·자료량·처리시간 범위를 조정한다.</li>
+<li>텍스트 전자문서와 승인된 구조화 자료 중심. 영상·음성·OCR·센서·사고 예측 및 직접 안전 판단은 범위에 포함하지 않는다.</li>
+<li>첫 적용은 정책 의제 1개, 시범부서 2개, 자료 종류 4개, 문서 프로필 6개, 실제 출력 검수할 HWPX 양식 2개를 가정한다.</li>
+<li>이 산출물은 <strong>기획 설계·HTML/MD 양식·규칙 시연</strong>이다. 로컬 LLM 연동, TS 데이터 연결, 실제 HWPX 변환 및 운영 승인 기능은 구현·실증 전이다.</li>
+</ul>
+<h2>자료 읽는 순서</h2>
+<p>01에서 문제 검토 → 02에서 예산 경로 → 03에서 양식 연결 → 04에서 기술 구성 → 05에서 발주 전환 → 06에서 검수 → 07에서 비용 → 08에서 시연을 확인한다. 서식 6종은 필요한 항목을 바로 채울 수 있는 빈 초안으로 제공한다.</p>
+<section aria-label="작성 서식"><h2>서식 바로가기</h2><ul><li><a href="서식/F01_문제정의_정책사업_검토서.html">F01 문제정의 정책사업 검토서</a> · <a href="서식/F01_문제정의_정책사업_검토서.md">Markdown</a></li><li><a href="서식/F02_예산요구_사업설명자료.html">F02 예산요구 사업설명자료</a> · <a href="서식/F02_예산요구_사업설명자료.md">Markdown</a></li><li><a href="서식/F03_2027_신규사업_리스트.html">F03 2027 신규사업 리스트</a> · <a href="서식/F03_2027_신규사업_리스트.md">Markdown</a></li><li><a href="서식/F04_발주기관_RFP_초안.html">F04 발주기관 RFP 초안</a> · <a href="서식/F04_발주기관_RFP_초안.md">Markdown</a></li><li><a href="서식/F05_공고작성_인계서.html">F05 공고작성 인계서</a> · <a href="서식/F05_공고작성_인계서.md">Markdown</a></li><li><a href="서식/F06_심의질의_답변보완표.html">F06 심의질의 답변보완표</a> · <a href="서식/F06_심의질의_답변보완표.md">Markdown</a></li></ul></section><h2>공공기관으로 재사용할 범위</h2><p>근거 카드·사업원장·예산 산식·검토 이력·양식 매핑은 공통 기능으로 구성하고, 기관 소관·예산 경로·문서 양식·전결권한·기존 시스템 연결은 기관별 설정으로 분리한다. TS의 의제1개를 검증한 뒤 다른 부서·기관으로 확장할 수 있는 제품 구조다. 타기관 연동·다기관 통합 운영은 이번 비용에 포함하지 않았다.</p></main><div class="doclinks"><a href="00_기획_전체보기.md">이 페이지 Markdown</a><a href="근거_출처와_검증상태.md">근거·검증 상태</a><a href="검증기록.md">산출물 검증기록</a></div><footer>2026.09.15 · P23 추가후보 v1.1 · 실제 예산 제출·공고·운영 연계는 수행하지 않았습니다.</footer></div></body></html>

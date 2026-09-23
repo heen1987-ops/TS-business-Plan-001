@@ -1,0 +1,16 @@
+{
+  "checked_on": "2026-09-11",
+  "source_hash_unchanged": true,
+  "source_bytes": 302535,
+  "extracted_unique_paragraph_ids": 1827,
+  "expected_paragraphs": 1827,
+  "extracted_tables": 52,
+  "reviewed_markdown_files": 6,
+  "local_links_checked": 25,
+  "missing_local_links": [],
+  "missing_paragraph_refs": [],
+  "visual_render_checked": false,
+  "system_performance_tested": false,
+  "independent_review_performed": false,
+  "information_requests_submitted": false
+}

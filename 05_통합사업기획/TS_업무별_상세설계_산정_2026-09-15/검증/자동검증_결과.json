@@ -1,0 +1,1130 @@
+{
+  "date": "2026-09-15",
+  "stats": {
+    "pages": 165,
+    "links": 3570,
+    "viewports": 495
+  },
+  "checks": [
+    {
+      "name": "HTML 165개·개별 161개",
+      "pass": true
+    },
+    {
+      "name": "SVG 93개",
+      "pass": true
+    },
+    {
+      "name": "공식 단가 기반 손계산 표준 벡터",
+      "pass": true
+    },
+    {
+      "name": "공수 범위 617–1022 및 원장 22개 보존",
+      "pass": true
+    },
+    {
+      "name": "P17 독립 도입은 P01 선행 포함·공통 1회",
+      "pass": true
+    },
+    {
+      "name": "P22 독립 도입은 P21 선행 포함",
+      "pass": true
+    },
+    {
+      "name": "P23 추가 시 공통 C00 중복 없음",
+      "pass": true
+    },
+    {
+      "name": "동일 업무 중복 선택 공수 불변",
+      "pass": true
+    },
+    {
+      "name": "빈 선택은 비용·공통·운영 0",
+      "pass": true
+    },
+    {
+      "name": "음수·NaN 입력 거부",
+      "pass": true
+    },
+    {
+      "name": "선택한 비용 항목 VAT 가산",
+      "pass": true
+    },
+    {
+      "name": "운영 12개월 손계산·공통 1회",
+      "pass": true
+    },
+    {
+      "name": "신규 인프라 항상 0",
+      "pass": true
+    },
+    {
+      "name": "138개 요구·161개 설계 시험·제품 시험 미실행",
+      "pass": true
+    },
+    {
+      "name": "TS-P01-concept 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P01-architecture 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P01-user 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P01-data 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P02-concept 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P02-architecture 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P02-user 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P02-data 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P03-concept 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P03-architecture 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P03-user 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P03-data 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P04-concept 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P04-architecture 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P04-user 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P04-data 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P05-concept 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P05-architecture 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P05-user 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P05-data 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P06-concept 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P06-architecture 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P06-user 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P06-data 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P07-concept 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P07-architecture 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P07-user 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P07-data 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P08-concept 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P08-architecture 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P08-user 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P08-data 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P09-concept 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P09-architecture 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P09-user 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P09-data 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P10-concept 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P10-architecture 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P10-user 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P10-data 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P11-concept 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P11-architecture 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P11-user 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P11-data 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P12-concept 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P12-architecture 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P12-user 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P12-data 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P13-concept 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P13-architecture 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P13-user 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P13-data 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P14-concept 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P14-architecture 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P14-user 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P14-data 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P15-concept 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P15-architecture 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P15-user 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P15-data 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P16-concept 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P16-architecture 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P16-user 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P16-data 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P17-concept 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P17-architecture 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P17-user 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P17-data 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P18-concept 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P18-architecture 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P18-user 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P18-data 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P19-concept 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P19-architecture 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P19-user 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P19-data 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P20-concept 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P20-architecture 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P20-user 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P20-data 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P21-concept 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P21-architecture 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P21-user 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P21-data 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P22-concept 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P22-architecture 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P22-user 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P22-data 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P23-concept 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P23-architecture 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P23-user 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-P23-data 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "TS-COMMON-architecture 도식 연결·노드·경계",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P01\\01_서비스_컨셉.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P01\\02_전체_아키텍처.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P01\\03_사용자_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P01\\04_데이터_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P01\\05_요구사항_검수.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P01\\06_비용_산정.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P01\\07_일정_운영.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P02\\01_서비스_컨셉.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P02\\02_전체_아키텍처.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P02\\03_사용자_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P02\\04_데이터_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P02\\05_요구사항_검수.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P02\\06_비용_산정.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P02\\07_일정_운영.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P03\\01_서비스_컨셉.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P03\\02_전체_아키텍처.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P03\\03_사용자_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P03\\04_데이터_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P03\\05_요구사항_검수.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P03\\06_비용_산정.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P03\\07_일정_운영.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P04\\01_서비스_컨셉.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P04\\02_전체_아키텍처.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P04\\03_사용자_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P04\\04_데이터_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P04\\05_요구사항_검수.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P04\\06_비용_산정.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P04\\07_일정_운영.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P05\\01_서비스_컨셉.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P05\\02_전체_아키텍처.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P05\\03_사용자_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P05\\04_데이터_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P05\\05_요구사항_검수.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P05\\06_비용_산정.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P05\\07_일정_운영.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P06\\01_서비스_컨셉.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P06\\02_전체_아키텍처.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P06\\03_사용자_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P06\\04_데이터_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P06\\05_요구사항_검수.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P06\\06_비용_산정.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P06\\07_일정_운영.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P07\\01_서비스_컨셉.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P07\\02_전체_아키텍처.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P07\\03_사용자_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P07\\04_데이터_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P07\\05_요구사항_검수.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P07\\06_비용_산정.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P07\\07_일정_운영.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P08\\01_서비스_컨셉.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P08\\02_전체_아키텍처.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P08\\03_사용자_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P08\\04_데이터_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P08\\05_요구사항_검수.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P08\\06_비용_산정.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P08\\07_일정_운영.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P09\\01_서비스_컨셉.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P09\\02_전체_아키텍처.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P09\\03_사용자_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P09\\04_데이터_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P09\\05_요구사항_검수.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P09\\06_비용_산정.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P09\\07_일정_운영.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P10\\01_서비스_컨셉.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P10\\02_전체_아키텍처.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P10\\03_사용자_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P10\\04_데이터_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P10\\05_요구사항_검수.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P10\\06_비용_산정.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P10\\07_일정_운영.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P11\\01_서비스_컨셉.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P11\\02_전체_아키텍처.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P11\\03_사용자_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P11\\04_데이터_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P11\\05_요구사항_검수.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P11\\06_비용_산정.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P11\\07_일정_운영.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P12\\01_서비스_컨셉.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P12\\02_전체_아키텍처.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P12\\03_사용자_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P12\\04_데이터_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P12\\05_요구사항_검수.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P12\\06_비용_산정.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P12\\07_일정_운영.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P13\\01_서비스_컨셉.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P13\\02_전체_아키텍처.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P13\\03_사용자_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P13\\04_데이터_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P13\\05_요구사항_검수.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P13\\06_비용_산정.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P13\\07_일정_운영.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P14\\01_서비스_컨셉.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P14\\02_전체_아키텍처.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P14\\03_사용자_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P14\\04_데이터_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P14\\05_요구사항_검수.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P14\\06_비용_산정.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P14\\07_일정_운영.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P15\\01_서비스_컨셉.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P15\\02_전체_아키텍처.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P15\\03_사용자_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P15\\04_데이터_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P15\\05_요구사항_검수.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P15\\06_비용_산정.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P15\\07_일정_운영.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P16\\01_서비스_컨셉.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P16\\02_전체_아키텍처.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P16\\03_사용자_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P16\\04_데이터_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P16\\05_요구사항_검수.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P16\\06_비용_산정.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P16\\07_일정_운영.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P17\\01_서비스_컨셉.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P17\\02_전체_아키텍처.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P17\\03_사용자_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P17\\04_데이터_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P17\\05_요구사항_검수.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P17\\06_비용_산정.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P17\\07_일정_운영.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P18\\01_서비스_컨셉.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P18\\02_전체_아키텍처.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P18\\03_사용자_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P18\\04_데이터_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P18\\05_요구사항_검수.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P18\\06_비용_산정.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P18\\07_일정_운영.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P19\\01_서비스_컨셉.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P19\\02_전체_아키텍처.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P19\\03_사용자_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P19\\04_데이터_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P19\\05_요구사항_검수.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P19\\06_비용_산정.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P19\\07_일정_운영.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P20\\01_서비스_컨셉.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P20\\02_전체_아키텍처.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P20\\03_사용자_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P20\\04_데이터_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P20\\05_요구사항_검수.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P20\\06_비용_산정.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P20\\07_일정_운영.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P21\\01_서비스_컨셉.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P21\\02_전체_아키텍처.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P21\\03_사용자_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P21\\04_데이터_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P21\\05_요구사항_검수.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P21\\06_비용_산정.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P21\\07_일정_운영.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P22\\01_서비스_컨셉.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P22\\02_전체_아키텍처.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P22\\03_사용자_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P22\\04_데이터_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P22\\05_요구사항_검수.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P22\\06_비용_산정.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무\\TS-P22\\07_일정_운영.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "추가후보\\TS-P23\\01_서비스_컨셉.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "추가후보\\TS-P23\\02_전체_아키텍처.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "추가후보\\TS-P23\\03_사용자_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "추가후보\\TS-P23\\04_데이터_흐름.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "추가후보\\TS-P23\\05_요구사항_검수.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "추가후보\\TS-P23\\06_비용_산정.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "추가후보\\TS-P23\\07_일정_운영.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "00_상세설계_통합보기.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "03_산정기준_근거.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "02_통합_비용산정.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "01_공통_아키텍처.html 정적 무결성",
+      "pass": true
+    },
+    {
+      "name": "업무 검색 정책 → P23 1건",
+      "pass": true
+    },
+    {
+      "name": "브라우저 단계 선택·선행 기능·2차 공통 증분 계산",
+      "pass": true
+    },
+    {
+      "name": "브라우저 음수 입력 거부·잘못된 결과 미표시",
+      "pass": true
+    },
+    {
+      "name": "도식 확대·기본 크기 복귀",
+      "pass": true
+    },
+    {
+      "name": "인쇄 시 도식 최소 너비 해제",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "status": "문서 자동검증 통과",
+  "actual_product_tests": 0,
+  "visual_evidence": [
+    "p10-concept.png",
+    "p06-architecture.png",
+    "p17-user.png",
+    "p23-data.png",
+    "p23-cost-mobile.png",
+    "p23-concept.png",
+    "index.png"
+  ]
+}

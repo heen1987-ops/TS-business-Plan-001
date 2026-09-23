@@ -1,0 +1,2288 @@
+{
+  "date": "2026-09-15",
+  "html_pages": 15,
+  "local_references": 330,
+  "viewports": 45,
+  "svg": 4,
+  "svg_nodes": 36,
+  "checks": 454,
+  "failures": [],
+  "results": [
+    {
+      "name": "HTML 15개",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "증감 →100",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "실제 승인 생성 금지 →100",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "증감 0→100",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "실제 승인 생성 금지 0→100",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "증감 30→70",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "실제 승인 생성 금지 30→70",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "증감 50→0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "실제 승인 생성 금지 50→0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "증감 0.1→0.3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "실제 승인 생성 금지 0.1→0.3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "금액 오류 -1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "금액 오류 NaN",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "금액 오류 Infinity",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "금액 오류 1000000001",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "문서 간 값·상태 일관성 policy",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "문서 간 값·상태 일관성 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "문서 간 값·상태 일관성 rfp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "문서 간 값·상태 일관성 notice",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "빈 B와 확인된0 구분",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "직무 가중치 합 low X01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "직무 가중치 합 low X02",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "직무 가중치 합 low X03",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "직무 가중치 합 low X04",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "직무 가중치 합 low X05",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "직무 가중치 합 low X06",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "직무 가중치 합 low X07",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "공수 합 low",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "비용 산술 low",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "기존+확장 금액 low",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "직무 가중치 합 mid X01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "직무 가중치 합 mid X02",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "직무 가중치 합 mid X03",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "직무 가중치 합 mid X04",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "직무 가중치 합 mid X05",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "직무 가중치 합 mid X06",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "직무 가중치 합 mid X07",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "공수 합 mid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "비용 산술 mid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "기존+확장 금액 mid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "직무 가중치 합 high X01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "직무 가중치 합 high X02",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "직무 가중치 합 high X03",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "직무 가중치 합 high X04",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "직무 가중치 합 high X05",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "직무 가중치 합 high X06",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "직무 가중치 합 high X07",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "공수 합 high",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "비용 산술 high",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "기존+확장 금액 high",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "본문 제목 하나 00_기획_전체보기.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 자산/report.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html #main",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 00_기획_전체보기.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 01_자료와_문제정의.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 02_사업과_예산요구.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 03_양식과_필드매핑.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 04_아키텍처와_흐름.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 05_RFP와_공고전환.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 06_요구사항과_검증.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 07_비용과_도입계획.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 08_문서전환_시연.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 서식/F01_문제정의_정책사업_검토서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 서식/F02_예산요구_사업설명자료.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 서식/F03_2027_신규사업_리스트.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 서식/F04_발주기관_RFP_초안.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 서식/F05_공고작성_인계서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 서식/F06_심의질의_답변보완표.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html %EC%9E%90%EC%82%B0/concept.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 서식/F01_문제정의_정책사업_검토서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 서식/F01_문제정의_정책사업_검토서.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 서식/F02_예산요구_사업설명자료.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 서식/F02_예산요구_사업설명자료.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 서식/F03_2027_신규사업_리스트.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 서식/F03_2027_신규사업_리스트.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 서식/F04_발주기관_RFP_초안.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 서식/F04_발주기관_RFP_초안.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 서식/F05_공고작성_인계서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 서식/F05_공고작성_인계서.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 서식/F06_심의질의_답변보완표.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 서식/F06_심의질의_답변보완표.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 00_기획_전체보기.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 근거_출처와_검증상태.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 00_기획_전체보기.html 검증기록.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "본문 제목 하나 01_자료와_문제정의.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 01_자료와_문제정의.html 자산/report.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 01_자료와_문제정의.html #main",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 01_자료와_문제정의.html 00_기획_전체보기.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 01_자료와_문제정의.html 01_자료와_문제정의.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 01_자료와_문제정의.html 02_사업과_예산요구.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 01_자료와_문제정의.html 03_양식과_필드매핑.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 01_자료와_문제정의.html 04_아키텍처와_흐름.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 01_자료와_문제정의.html 05_RFP와_공고전환.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 01_자료와_문제정의.html 06_요구사항과_검증.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 01_자료와_문제정의.html 07_비용과_도입계획.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 01_자료와_문제정의.html 08_문서전환_시연.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 01_자료와_문제정의.html 서식/F01_문제정의_정책사업_검토서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 01_자료와_문제정의.html 서식/F02_예산요구_사업설명자료.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 01_자료와_문제정의.html 서식/F03_2027_신규사업_리스트.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 01_자료와_문제정의.html 서식/F04_발주기관_RFP_초안.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 01_자료와_문제정의.html 서식/F05_공고작성_인계서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 01_자료와_문제정의.html 서식/F06_심의질의_답변보완표.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 01_자료와_문제정의.html 01_자료와_문제정의.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 01_자료와_문제정의.html 근거_출처와_검증상태.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 01_자료와_문제정의.html 검증기록.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "본문 제목 하나 02_사업과_예산요구.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 02_사업과_예산요구.html 자산/report.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 02_사업과_예산요구.html #main",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 02_사업과_예산요구.html 00_기획_전체보기.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 02_사업과_예산요구.html 01_자료와_문제정의.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 02_사업과_예산요구.html 02_사업과_예산요구.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 02_사업과_예산요구.html 03_양식과_필드매핑.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 02_사업과_예산요구.html 04_아키텍처와_흐름.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 02_사업과_예산요구.html 05_RFP와_공고전환.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 02_사업과_예산요구.html 06_요구사항과_검증.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 02_사업과_예산요구.html 07_비용과_도입계획.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 02_사업과_예산요구.html 08_문서전환_시연.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 02_사업과_예산요구.html 서식/F01_문제정의_정책사업_검토서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 02_사업과_예산요구.html 서식/F02_예산요구_사업설명자료.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 02_사업과_예산요구.html 서식/F03_2027_신규사업_리스트.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 02_사업과_예산요구.html 서식/F04_발주기관_RFP_초안.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 02_사업과_예산요구.html 서식/F05_공고작성_인계서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 02_사업과_예산요구.html 서식/F06_심의질의_답변보완표.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 02_사업과_예산요구.html 02_사업과_예산요구.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 02_사업과_예산요구.html 근거_출처와_검증상태.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 02_사업과_예산요구.html 검증기록.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "본문 제목 하나 03_양식과_필드매핑.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 자산/report.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html #main",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 00_기획_전체보기.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 01_자료와_문제정의.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 02_사업과_예산요구.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 03_양식과_필드매핑.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 04_아키텍처와_흐름.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 05_RFP와_공고전환.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 06_요구사항과_검증.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 07_비용과_도입계획.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 08_문서전환_시연.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 서식/F01_문제정의_정책사업_검토서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 서식/F02_예산요구_사업설명자료.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 서식/F03_2027_신규사업_리스트.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 서식/F04_발주기관_RFP_초안.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 서식/F05_공고작성_인계서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 서식/F06_심의질의_답변보완표.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 서식/F01_문제정의_정책사업_검토서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 서식/F01_문제정의_정책사업_검토서.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 서식/F02_예산요구_사업설명자료.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 서식/F02_예산요구_사업설명자료.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 서식/F03_2027_신규사업_리스트.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 서식/F03_2027_신규사업_리스트.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 서식/F04_발주기관_RFP_초안.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 서식/F04_발주기관_RFP_초안.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 서식/F05_공고작성_인계서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 서식/F05_공고작성_인계서.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 서식/F06_심의질의_답변보완표.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 서식/F06_심의질의_답변보완표.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 03_양식과_필드매핑.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 근거_출처와_검증상태.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 03_양식과_필드매핑.html 검증기록.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "본문 제목 하나 04_아키텍처와_흐름.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 04_아키텍처와_흐름.html 자산/report.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 04_아키텍처와_흐름.html #main",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 04_아키텍처와_흐름.html 00_기획_전체보기.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 04_아키텍처와_흐름.html 01_자료와_문제정의.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 04_아키텍처와_흐름.html 02_사업과_예산요구.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 04_아키텍처와_흐름.html 03_양식과_필드매핑.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 04_아키텍처와_흐름.html 04_아키텍처와_흐름.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 04_아키텍처와_흐름.html 05_RFP와_공고전환.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 04_아키텍처와_흐름.html 06_요구사항과_검증.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 04_아키텍처와_흐름.html 07_비용과_도입계획.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 04_아키텍처와_흐름.html 08_문서전환_시연.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 04_아키텍처와_흐름.html 서식/F01_문제정의_정책사업_검토서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 04_아키텍처와_흐름.html 서식/F02_예산요구_사업설명자료.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 04_아키텍처와_흐름.html 서식/F03_2027_신규사업_리스트.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 04_아키텍처와_흐름.html 서식/F04_발주기관_RFP_초안.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 04_아키텍처와_흐름.html 서식/F05_공고작성_인계서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 04_아키텍처와_흐름.html 서식/F06_심의질의_답변보완표.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 04_아키텍처와_흐름.html %EC%9E%90%EC%82%B0/architecture.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 04_아키텍처와_흐름.html %EC%9E%90%EC%82%B0/user.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 04_아키텍처와_흐름.html %EC%9E%90%EC%82%B0/data.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 04_아키텍처와_흐름.html 04_아키텍처와_흐름.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 04_아키텍처와_흐름.html 근거_출처와_검증상태.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 04_아키텍처와_흐름.html 검증기록.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "본문 제목 하나 05_RFP와_공고전환.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 05_RFP와_공고전환.html 자산/report.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 05_RFP와_공고전환.html #main",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 05_RFP와_공고전환.html 00_기획_전체보기.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 05_RFP와_공고전환.html 01_자료와_문제정의.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 05_RFP와_공고전환.html 02_사업과_예산요구.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 05_RFP와_공고전환.html 03_양식과_필드매핑.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 05_RFP와_공고전환.html 04_아키텍처와_흐름.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 05_RFP와_공고전환.html 05_RFP와_공고전환.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 05_RFP와_공고전환.html 06_요구사항과_검증.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 05_RFP와_공고전환.html 07_비용과_도입계획.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 05_RFP와_공고전환.html 08_문서전환_시연.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 05_RFP와_공고전환.html 서식/F01_문제정의_정책사업_검토서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 05_RFP와_공고전환.html 서식/F02_예산요구_사업설명자료.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 05_RFP와_공고전환.html 서식/F03_2027_신규사업_리스트.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 05_RFP와_공고전환.html 서식/F04_발주기관_RFP_초안.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 05_RFP와_공고전환.html 서식/F05_공고작성_인계서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 05_RFP와_공고전환.html 서식/F06_심의질의_답변보완표.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 05_RFP와_공고전환.html 05_RFP와_공고전환.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 05_RFP와_공고전환.html 근거_출처와_검증상태.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 05_RFP와_공고전환.html 검증기록.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "본문 제목 하나 06_요구사항과_검증.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 06_요구사항과_검증.html 자산/report.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 06_요구사항과_검증.html #main",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 06_요구사항과_검증.html 00_기획_전체보기.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 06_요구사항과_검증.html 01_자료와_문제정의.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 06_요구사항과_검증.html 02_사업과_예산요구.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 06_요구사항과_검증.html 03_양식과_필드매핑.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 06_요구사항과_검증.html 04_아키텍처와_흐름.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 06_요구사항과_검증.html 05_RFP와_공고전환.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 06_요구사항과_검증.html 06_요구사항과_검증.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 06_요구사항과_검증.html 07_비용과_도입계획.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 06_요구사항과_검증.html 08_문서전환_시연.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 06_요구사항과_검증.html 서식/F01_문제정의_정책사업_검토서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 06_요구사항과_검증.html 서식/F02_예산요구_사업설명자료.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 06_요구사항과_검증.html 서식/F03_2027_신규사업_리스트.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 06_요구사항과_검증.html 서식/F04_발주기관_RFP_초안.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 06_요구사항과_검증.html 서식/F05_공고작성_인계서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 06_요구사항과_검증.html 서식/F06_심의질의_답변보완표.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 06_요구사항과_검증.html 06_요구사항과_검증.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 06_요구사항과_검증.html 근거_출처와_검증상태.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 06_요구사항과_검증.html 검증기록.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "본문 제목 하나 07_비용과_도입계획.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 07_비용과_도입계획.html 자산/report.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 07_비용과_도입계획.html #main",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 07_비용과_도입계획.html 00_기획_전체보기.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 07_비용과_도입계획.html 01_자료와_문제정의.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 07_비용과_도입계획.html 02_사업과_예산요구.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 07_비용과_도입계획.html 03_양식과_필드매핑.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 07_비용과_도입계획.html 04_아키텍처와_흐름.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 07_비용과_도입계획.html 05_RFP와_공고전환.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 07_비용과_도입계획.html 06_요구사항과_검증.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 07_비용과_도입계획.html 07_비용과_도입계획.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 07_비용과_도입계획.html 08_문서전환_시연.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 07_비용과_도입계획.html 서식/F01_문제정의_정책사업_검토서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 07_비용과_도입계획.html 서식/F02_예산요구_사업설명자료.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 07_비용과_도입계획.html 서식/F03_2027_신규사업_리스트.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 07_비용과_도입계획.html 서식/F04_발주기관_RFP_초안.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 07_비용과_도입계획.html 서식/F05_공고작성_인계서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 07_비용과_도입계획.html 서식/F06_심의질의_답변보완표.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 07_비용과_도입계획.html 07_비용과_도입계획.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 07_비용과_도입계획.html 근거_출처와_검증상태.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 07_비용과_도입계획.html 검증기록.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "본문 제목 하나 08_문서전환_시연.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 08_문서전환_시연.html 자산/report.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 08_문서전환_시연.html #main",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 08_문서전환_시연.html 00_기획_전체보기.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 08_문서전환_시연.html 01_자료와_문제정의.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 08_문서전환_시연.html 02_사업과_예산요구.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 08_문서전환_시연.html 03_양식과_필드매핑.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 08_문서전환_시연.html 04_아키텍처와_흐름.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 08_문서전환_시연.html 05_RFP와_공고전환.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 08_문서전환_시연.html 06_요구사항과_검증.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 08_문서전환_시연.html 07_비용과_도입계획.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 08_문서전환_시연.html 08_문서전환_시연.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 08_문서전환_시연.html 서식/F01_문제정의_정책사업_검토서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 08_문서전환_시연.html 서식/F02_예산요구_사업설명자료.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 08_문서전환_시연.html 서식/F03_2027_신규사업_리스트.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 08_문서전환_시연.html 서식/F04_발주기관_RFP_초안.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 08_문서전환_시연.html 서식/F05_공고작성_인계서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 08_문서전환_시연.html 서식/F06_심의질의_답변보완표.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 08_문서전환_시연.html 08_%EB%AC%B8%EC%84%9C%EC%A0%84%ED%99%98_%EC%8B%9C%EC%97%B0.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 08_문서전환_시연.html 08_문서전환_시연.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 08_문서전환_시연.html 근거_출처와_검증상태.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 08_문서전환_시연.html 검증기록.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 08_문서전환_시연.html 자산/demo.js",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "본문 제목 하나 F01_문제정의_정책사업_검토서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F01_문제정의_정책사업_검토서.html ../자산/report.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F01_문제정의_정책사업_검토서.html #main",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F01_문제정의_정책사업_검토서.html ../00_기획_전체보기.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F01_문제정의_정책사업_검토서.html ../01_자료와_문제정의.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F01_문제정의_정책사업_검토서.html ../02_사업과_예산요구.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F01_문제정의_정책사업_검토서.html ../03_양식과_필드매핑.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F01_문제정의_정책사업_검토서.html ../04_아키텍처와_흐름.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F01_문제정의_정책사업_검토서.html ../05_RFP와_공고전환.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F01_문제정의_정책사업_검토서.html ../06_요구사항과_검증.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F01_문제정의_정책사업_검토서.html ../07_비용과_도입계획.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F01_문제정의_정책사업_검토서.html ../08_문서전환_시연.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F01_문제정의_정책사업_검토서.html ../서식/F01_문제정의_정책사업_검토서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F01_문제정의_정책사업_검토서.html ../서식/F02_예산요구_사업설명자료.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F01_문제정의_정책사업_검토서.html ../서식/F03_2027_신규사업_리스트.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F01_문제정의_정책사업_검토서.html ../서식/F04_발주기관_RFP_초안.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F01_문제정의_정책사업_검토서.html ../서식/F05_공고작성_인계서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F01_문제정의_정책사업_검토서.html ../서식/F06_심의질의_답변보완표.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F01_문제정의_정책사업_검토서.html F01_문제정의_정책사업_검토서.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F01_문제정의_정책사업_검토서.html ../근거_출처와_검증상태.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F01_문제정의_정책사업_검토서.html ../검증기록.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "본문 제목 하나 F02_예산요구_사업설명자료.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F02_예산요구_사업설명자료.html ../자산/report.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F02_예산요구_사업설명자료.html #main",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F02_예산요구_사업설명자료.html ../00_기획_전체보기.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F02_예산요구_사업설명자료.html ../01_자료와_문제정의.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F02_예산요구_사업설명자료.html ../02_사업과_예산요구.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F02_예산요구_사업설명자료.html ../03_양식과_필드매핑.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F02_예산요구_사업설명자료.html ../04_아키텍처와_흐름.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F02_예산요구_사업설명자료.html ../05_RFP와_공고전환.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F02_예산요구_사업설명자료.html ../06_요구사항과_검증.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F02_예산요구_사업설명자료.html ../07_비용과_도입계획.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F02_예산요구_사업설명자료.html ../08_문서전환_시연.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F02_예산요구_사업설명자료.html ../서식/F01_문제정의_정책사업_검토서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F02_예산요구_사업설명자료.html ../서식/F02_예산요구_사업설명자료.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F02_예산요구_사업설명자료.html ../서식/F03_2027_신규사업_리스트.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F02_예산요구_사업설명자료.html ../서식/F04_발주기관_RFP_초안.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F02_예산요구_사업설명자료.html ../서식/F05_공고작성_인계서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F02_예산요구_사업설명자료.html ../서식/F06_심의질의_답변보완표.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F02_예산요구_사업설명자료.html F02_예산요구_사업설명자료.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F02_예산요구_사업설명자료.html ../근거_출처와_검증상태.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F02_예산요구_사업설명자료.html ../검증기록.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "본문 제목 하나 F03_2027_신규사업_리스트.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F03_2027_신규사업_리스트.html ../자산/report.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F03_2027_신규사업_리스트.html #main",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F03_2027_신규사업_리스트.html ../00_기획_전체보기.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F03_2027_신규사업_리스트.html ../01_자료와_문제정의.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F03_2027_신규사업_리스트.html ../02_사업과_예산요구.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F03_2027_신규사업_리스트.html ../03_양식과_필드매핑.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F03_2027_신규사업_리스트.html ../04_아키텍처와_흐름.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F03_2027_신규사업_리스트.html ../05_RFP와_공고전환.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F03_2027_신규사업_리스트.html ../06_요구사항과_검증.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F03_2027_신규사업_리스트.html ../07_비용과_도입계획.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F03_2027_신규사업_리스트.html ../08_문서전환_시연.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F03_2027_신규사업_리스트.html ../서식/F01_문제정의_정책사업_검토서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F03_2027_신규사업_리스트.html ../서식/F02_예산요구_사업설명자료.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F03_2027_신규사업_리스트.html ../서식/F03_2027_신규사업_리스트.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F03_2027_신규사업_리스트.html ../서식/F04_발주기관_RFP_초안.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F03_2027_신규사업_리스트.html ../서식/F05_공고작성_인계서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F03_2027_신규사업_리스트.html ../서식/F06_심의질의_답변보완표.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F03_2027_신규사업_리스트.html F03_2027_신규사업_리스트.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F03_2027_신규사업_리스트.html ../근거_출처와_검증상태.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F03_2027_신규사업_리스트.html ../검증기록.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "본문 제목 하나 F04_발주기관_RFP_초안.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F04_발주기관_RFP_초안.html ../자산/report.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F04_발주기관_RFP_초안.html #main",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F04_발주기관_RFP_초안.html ../00_기획_전체보기.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F04_발주기관_RFP_초안.html ../01_자료와_문제정의.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F04_발주기관_RFP_초안.html ../02_사업과_예산요구.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F04_발주기관_RFP_초안.html ../03_양식과_필드매핑.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F04_발주기관_RFP_초안.html ../04_아키텍처와_흐름.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F04_발주기관_RFP_초안.html ../05_RFP와_공고전환.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F04_발주기관_RFP_초안.html ../06_요구사항과_검증.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F04_발주기관_RFP_초안.html ../07_비용과_도입계획.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F04_발주기관_RFP_초안.html ../08_문서전환_시연.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F04_발주기관_RFP_초안.html ../서식/F01_문제정의_정책사업_검토서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F04_발주기관_RFP_초안.html ../서식/F02_예산요구_사업설명자료.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F04_발주기관_RFP_초안.html ../서식/F03_2027_신규사업_리스트.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F04_발주기관_RFP_초안.html ../서식/F04_발주기관_RFP_초안.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F04_발주기관_RFP_초안.html ../서식/F05_공고작성_인계서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F04_발주기관_RFP_초안.html ../서식/F06_심의질의_답변보완표.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F04_발주기관_RFP_초안.html F04_발주기관_RFP_초안.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F04_발주기관_RFP_초안.html ../근거_출처와_검증상태.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F04_발주기관_RFP_초안.html ../검증기록.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "본문 제목 하나 F05_공고작성_인계서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F05_공고작성_인계서.html ../자산/report.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F05_공고작성_인계서.html #main",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F05_공고작성_인계서.html ../00_기획_전체보기.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F05_공고작성_인계서.html ../01_자료와_문제정의.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F05_공고작성_인계서.html ../02_사업과_예산요구.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F05_공고작성_인계서.html ../03_양식과_필드매핑.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F05_공고작성_인계서.html ../04_아키텍처와_흐름.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F05_공고작성_인계서.html ../05_RFP와_공고전환.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F05_공고작성_인계서.html ../06_요구사항과_검증.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F05_공고작성_인계서.html ../07_비용과_도입계획.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F05_공고작성_인계서.html ../08_문서전환_시연.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F05_공고작성_인계서.html ../서식/F01_문제정의_정책사업_검토서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F05_공고작성_인계서.html ../서식/F02_예산요구_사업설명자료.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F05_공고작성_인계서.html ../서식/F03_2027_신규사업_리스트.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F05_공고작성_인계서.html ../서식/F04_발주기관_RFP_초안.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F05_공고작성_인계서.html ../서식/F05_공고작성_인계서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F05_공고작성_인계서.html ../서식/F06_심의질의_답변보완표.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F05_공고작성_인계서.html F05_공고작성_인계서.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F05_공고작성_인계서.html ../근거_출처와_검증상태.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F05_공고작성_인계서.html ../검증기록.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "본문 제목 하나 F06_심의질의_답변보완표.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F06_심의질의_답변보완표.html ../자산/report.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F06_심의질의_답변보완표.html #main",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F06_심의질의_답변보완표.html ../00_기획_전체보기.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F06_심의질의_답변보완표.html ../01_자료와_문제정의.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F06_심의질의_답변보완표.html ../02_사업과_예산요구.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F06_심의질의_답변보완표.html ../03_양식과_필드매핑.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F06_심의질의_답변보완표.html ../04_아키텍처와_흐름.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F06_심의질의_답변보완표.html ../05_RFP와_공고전환.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F06_심의질의_답변보완표.html ../06_요구사항과_검증.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F06_심의질의_답변보완표.html ../07_비용과_도입계획.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F06_심의질의_답변보완표.html ../08_문서전환_시연.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F06_심의질의_답변보완표.html ../서식/F01_문제정의_정책사업_검토서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F06_심의질의_답변보완표.html ../서식/F02_예산요구_사업설명자료.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F06_심의질의_답변보완표.html ../서식/F03_2027_신규사업_리스트.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F06_심의질의_답변보완표.html ../서식/F04_발주기관_RFP_초안.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F06_심의질의_답변보완표.html ../서식/F05_공고작성_인계서.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F06_심의질의_답변보완표.html ../서식/F06_심의질의_답변보완표.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F06_심의질의_답변보완표.html F06_심의질의_답변보완표.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F06_심의질의_답변보완표.html ../근거_출처와_검증상태.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "로컬 연결 F06_심의질의_답변보완표.html ../검증기록.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "반응형 00_기획_전체보기.html 1440",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"근거에서 예산·발주까지\",\"images\":true}"
+    },
+    {
+      "name": "반응형 00_기획_전체보기.html 768",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"근거에서 예산·발주까지\",\"images\":true}"
+    },
+    {
+      "name": "반응형 00_기획_전체보기.html 390",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"근거에서 예산·발주까지\",\"images\":true}"
+    },
+    {
+      "name": "반응형 01_자료와_문제정의.html 1440",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"부서가 함께 보는 문제와 근거\",\"images\":true}"
+    },
+    {
+      "name": "반응형 01_자료와_문제정의.html 768",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"부서가 함께 보는 문제와 근거\",\"images\":true}"
+    },
+    {
+      "name": "반응형 01_자료와_문제정의.html 390",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"부서가 함께 보는 문제와 근거\",\"images\":true}"
+    },
+    {
+      "name": "반응형 02_사업과_예산요구.html 1440",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"문제정의를 예산 설명으로\",\"images\":true}"
+    },
+    {
+      "name": "반응형 02_사업과_예산요구.html 768",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"문제정의를 예산 설명으로\",\"images\":true}"
+    },
+    {
+      "name": "반응형 02_사업과_예산요구.html 390",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"문제정의를 예산 설명으로\",\"images\":true}"
+    },
+    {
+      "name": "반응형 03_양식과_필드매핑.html 1440",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"하나의 사업원장에서 여러 문서로\",\"images\":true}"
+    },
+    {
+      "name": "반응형 03_양식과_필드매핑.html 768",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"하나의 사업원장에서 여러 문서로\",\"images\":true}"
+    },
+    {
+      "name": "반응형 03_양식과_필드매핑.html 390",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"하나의 사업원장에서 여러 문서로\",\"images\":true}"
+    },
+    {
+      "name": "반응형 04_아키텍처와_흐름.html 1440",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"로컬 LLM 기반 구성과 검토 흐름\",\"images\":true}"
+    },
+    {
+      "name": "반응형 04_아키텍처와_흐름.html 768",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"로컬 LLM 기반 구성과 검토 흐름\",\"images\":true}"
+    },
+    {
+      "name": "반응형 04_아키텍처와_흐름.html 390",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"로컬 LLM 기반 구성과 검토 흐름\",\"images\":true}"
+    },
+    {
+      "name": "반응형 05_RFP와_공고전환.html 1440",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"승인된 사업을 발주 가능한 요구로\",\"images\":true}"
+    },
+    {
+      "name": "반응형 05_RFP와_공고전환.html 768",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"승인된 사업을 발주 가능한 요구로\",\"images\":true}"
+    },
+    {
+      "name": "반응형 05_RFP와_공고전환.html 390",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"승인된 사업을 발주 가능한 요구로\",\"images\":true}"
+    },
+    {
+      "name": "반응형 06_요구사항과_검증.html 1440",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"무엇을 만들고 어떻게 확인할 것인가\",\"images\":true}"
+    },
+    {
+      "name": "반응형 06_요구사항과_검증.html 768",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"무엇을 만들고 어떻게 확인할 것인가\",\"images\":true}"
+    },
+    {
+      "name": "반응형 06_요구사항과_검증.html 390",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"무엇을 만들고 어떻게 확인할 것인가\",\"images\":true}"
+    },
+    {
+      "name": "반응형 07_비용과_도입계획.html 1440",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"확장 범위와 추가 개발비\",\"images\":true}"
+    },
+    {
+      "name": "반응형 07_비용과_도입계획.html 768",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"확장 범위와 추가 개발비\",\"images\":true}"
+    },
+    {
+      "name": "반응형 07_비용과_도입계획.html 390",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"확장 범위와 추가 개발비\",\"images\":true}"
+    },
+    {
+      "name": "반응형 08_문서전환_시연.html 1440",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"사업원장 → 문서 초안 시연\",\"images\":true}"
+    },
+    {
+      "name": "반응형 08_문서전환_시연.html 768",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"사업원장 → 문서 초안 시연\",\"images\":true}"
+    },
+    {
+      "name": "반응형 08_문서전환_시연.html 390",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"사업원장 → 문서 초안 시연\",\"images\":true}"
+    },
+    {
+      "name": "반응형 F01_문제정의_정책사업_검토서.html 1440",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"F01 문제정의·정책사업 검토서\",\"images\":true}"
+    },
+    {
+      "name": "반응형 F01_문제정의_정책사업_검토서.html 768",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"F01 문제정의·정책사업 검토서\",\"images\":true}"
+    },
+    {
+      "name": "반응형 F01_문제정의_정책사업_검토서.html 390",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"F01 문제정의·정책사업 검토서\",\"images\":true}"
+    },
+    {
+      "name": "반응형 F02_예산요구_사업설명자료.html 1440",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"F02 예산 요구·사업설명자료\",\"images\":true}"
+    },
+    {
+      "name": "반응형 F02_예산요구_사업설명자료.html 768",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"F02 예산 요구·사업설명자료\",\"images\":true}"
+    },
+    {
+      "name": "반응형 F02_예산요구_사업설명자료.html 390",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"F02 예산 요구·사업설명자료\",\"images\":true}"
+    },
+    {
+      "name": "반응형 F03_2027_신규사업_리스트.html 1440",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"F03 2027 신규사업 리스트 작성지원\",\"images\":true}"
+    },
+    {
+      "name": "반응형 F03_2027_신규사업_리스트.html 768",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"F03 2027 신규사업 리스트 작성지원\",\"images\":true}"
+    },
+    {
+      "name": "반응형 F03_2027_신규사업_리스트.html 390",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"F03 2027 신규사업 리스트 작성지원\",\"images\":true}"
+    },
+    {
+      "name": "반응형 F04_발주기관_RFP_초안.html 1440",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"F04 발주기관 RFP 초안\",\"images\":true}"
+    },
+    {
+      "name": "반응형 F04_발주기관_RFP_초안.html 768",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"F04 발주기관 RFP 초안\",\"images\":true}"
+    },
+    {
+      "name": "반응형 F04_발주기관_RFP_초안.html 390",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"F04 발주기관 RFP 초안\",\"images\":true}"
+    },
+    {
+      "name": "반응형 F05_공고작성_인계서.html 1440",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"F05 공고 작성 인계서\",\"images\":true}"
+    },
+    {
+      "name": "반응형 F05_공고작성_인계서.html 768",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"F05 공고 작성 인계서\",\"images\":true}"
+    },
+    {
+      "name": "반응형 F05_공고작성_인계서.html 390",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"F05 공고 작성 인계서\",\"images\":true}"
+    },
+    {
+      "name": "반응형 F06_심의질의_답변보완표.html 1440",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"F06 예산 심의 질의응답·보완표\",\"images\":true}"
+    },
+    {
+      "name": "반응형 F06_심의질의_답변보완표.html 768",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"F06 예산 심의 질의응답·보완표\",\"images\":true}"
+    },
+    {
+      "name": "반응형 F06_심의질의_답변보완표.html 390",
+      "pass": true,
+      "detail": "{\"overflow\":false,\"h1\":\"F06 예산 심의 질의응답·보완표\",\"images\":true}"
+    },
+    {
+      "name": "SVG 글자 경계 P23X-concept",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "SVG 글자 경계 P23X-architecture",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "SVG 글자 경계 P23X-user",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "SVG 글자 경계 P23X-data",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "브라우저 문서전환 policy",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "브라우저 문서전환 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "브라우저 문서전환 rfp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "브라우저 문서전환 notice",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "오류 다운로드 차단",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "원장 다운로드 내용",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "본문 이동 키보드 포커스",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "본문 이동 실행",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "브라우저 JS 오류",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "오프라인 외부 요청 없음",
+      "pass": true,
+      "detail": "[]"
+    }
+  ],
+  "product_acceptance_tests_run": 0,
+  "limitations": [
+    "실제 NOA·로컬 LLM·TS 데이터·HWPX 출력 미검증",
+    "전체 WCAG·스크린리더 검증 미수행",
+    "독립 외부 평가·실제 사용자 조사 미수행"
+  ]
+}

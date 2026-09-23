@@ -1,0 +1,31 @@
+{
+  "requirement_count": 43,
+  "id_unique": true,
+  "wbs_mapped": true,
+  "documents": [
+    {
+      "document": "01_서비스_정의서",
+      "pages": 7,
+      "min_page_text": 812
+    },
+    {
+      "document": "02_요구사항_정의서",
+      "pages": 5,
+      "min_page_text": 643
+    },
+    {
+      "document": "03_요구사항_명세서",
+      "pages": 19,
+      "min_page_text": 312
+    },
+    {
+      "document": "04_RFP_초안",
+      "pages": 6,
+      "min_page_text": 658
+    }
+  ],
+  "spreadsheet": {
+    "formulas": 107,
+    "cached_error_cells": []
+  }
+}
