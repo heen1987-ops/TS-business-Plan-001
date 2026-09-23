@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>신규 포트폴리오 1차 도입 기획서 (초안)</title>
+<style>
+  :root{
+    --ink:#1b2430; --sub:#5b6472; --line:#dde2e8; --bg:#f4f6f8; --card:#ffffff;
+    --a:#2f80c9; --al:#e8f2fb;
+    --b:#1f9d7a; --bl:#e6f6f1;
+    --c:#8a5cd6; --cl:#f1eafb;
+    --d:#e08a2b; --dl:#fdf1e3;
+    --gray:#6b7480; --grayl:#eef0f2;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Pretendard","Malgun Gothic","Apple SD Gothic Neo","Noto Sans KR",sans-serif;font-size:14px;line-height:1.65}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 20px 60px}
+  header.top{background:var(--ink);color:#fff;padding:24px 20px 20px}
+  header.top .inner{max-width:1100px;margin:0 auto}
+  header.top .kicker{font-size:12px;letter-spacing:.5px;color:#aeb8c4;margin-bottom:6px}
+  header.top h1{font-size:20px;margin:0 0 8px}
+  header.top p{margin:0;color:#c7cedb;font-size:13px;max-width:820px}
+  header.top .meta{margin-top:10px;font-size:11px;color:#8f9aa8;display:flex;gap:12px;flex-wrap:wrap}
+
+  nav.jump{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--line);
+    display:flex;gap:4px;padding:8px 20px;overflow-x:auto;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+  nav.jump a{white-space:nowrap;font-size:12.5px;color:var(--sub);text-decoration:none;padding:6px 10px;border-radius:5px}
+  nav.jump a:hover{background:var(--bg);color:var(--ink)}
+
+  .callout{background:#fff;border:1px solid var(--line);border-left:4px solid var(--ink);border-radius:6px;
+    padding:14px 16px;margin:18px 0;font-size:13.5px}
+  .callout .lbl0{font-size:11px;font-weight:700;color:var(--sub);margin-bottom:4px}
+  .callout.warn{border-left-color:var(--d);background:var(--dl)}
+
+  .ghead{display:flex;gap:12px;align-items:flex-start;margin:34px 0 14px;padding-bottom:10px;border-bottom:2px solid var(--ink)}
+  .ghead .gnum{flex:0 0 auto;width:26px;height:26px;border-radius:50%;color:#fff;font-size:13px;font-weight:700;
+    display:flex;align-items:center;justify-content:center;margin-top:2px}
+  .ghead.a .gnum{background:var(--a)} .ghead.b1 .gnum{background:var(--b)}
+  .ghead.b2 .gnum{background:var(--c)} .ghead.gray .gnum{background:var(--gray)}
+  .ghead h2{margin:0 0 3px;font-size:17px}
+  .ghead p{margin:0;font-size:12.5px;color:var(--sub)}
+
+  .dim{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:10px}
+  .dim .k{display:inline-block;font-size:11px;font-weight:700;color:#fff;padding:2px 9px;border-radius:10px;margin-bottom:8px}
+  .k.a{background:var(--a)} .k.b1{background:var(--b)} .k.b2{background:var(--c)}
+  .dim h3{margin:0 0 8px;font-size:14.5px}
+  .dim p{margin:0 0 6px;font-size:13px}
+  .dim ul{margin:4px 0;padding-left:18px;font-size:13px}
+  .dim li{margin:3px 0}
+
+  table{width:100%;border-collapse:collapse;font-size:12.5px;margin:8px 0}
+  th,td{border:1px solid var(--line);padding:6px 9px;text-align:left;vertical-align:top}
+  th{background:#eef1f4;font-size:11px}
+  td.n{color:var(--sub);white-space:nowrap}
+
+  .todo{font-size:12px;padding:7px 10px;border-radius:6px;color:#7a4a13;margin-top:6px;background:var(--dl)}
+  .todo::before{content:"미확정 · "; font-weight:700}
+
+  footer{margin-top:40px;padding-top:14px;border-top:1px dashed var(--line);font-size:11px;color:var(--sub)}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="inner">
+    <div class="kicker">사전기획 초안 — 공고 미매핑 · 예산·발주 미확정</div>
+    <h1>신규 포트폴리오 1차 도입 기획서 (초안)</h1>
+    <p>2026-09-17 「CCK–TS 신규 AX 사업기획」이 정의한 포트폴리오 A / B-1 / B-2 각각을, 대상·문제·제공기능·연계·검수·운영·기대효과·비용 8개 항목으로 구체화했다. 정식 RFP가 없는 단계이므로 배점·마감·예산 상한을 만들어내지 않았다 — 비용은 산정 "방식"까지만 제시하고 금액은 비워뒀다.</p>
+    <div class="meta">
+      <span>근거: CCK_TS_신규AX_사업기획_통합정리_기본기조_v1_20260917</span>
+      <span>+ CP사업_vs_신규포트폴리오_경계표(2026-09-21, 본인 작성)</span>
+      <span>대가산정 방법론: (2025년 개정판) SW사업 대가산정 가이드</span>
+      <span>작성: 2026-09-21</span>
+    </div>
+  </div>
+</header>
+
+<nav class="jump">
+  <a href="#a">A. 대국민 안전행동 지원서비스</a>
+  <a href="#b1">B-1. AI 자동시험·한계검증 엔진</a>
+  <a href="#b2">B-2. 개인정보 실증검증 엔진</a>
+  <a href="#todo">공통 미확정 사항</a>
+</nav>
+
+<div class="wrap">
+
+  <div class="callout warn">
+    <div class="lbl0">이 문서의 위상</div>
+    정식 공고·RFP가 없는 <b>사전기획 초안</b>이다. 배점·마감·예산 상한 등 RFP 고유 항목은 만들지 않았고, 비용은 대가산정 가이드의 산정 "방식"만 표시했다 — 실제 기능점수·투입공수는 요구사항이 더 구체화된 뒤 산정해야 한다.
+  </div>
+
+  <div id="a">
+    <div class="ghead a"><span class="gnum">A</span><div><h2>상황별 교통안전 이해·실천 지원서비스</h2><p>대국민 직접 서비스 — 사용자가 공단 직원이 아니라 일반 국민으로 바뀌는 첫 사업</p></div></div>
+
+    <div class="dim"><span class="k a">대상</span>
+      <h3>1차 대상자와 상황</h3>
+      <p>우회전·횡단보도 등 사례 후보 중 TS가 실제 접점(찾아가는 교육·안전관리 과정)을 가진 대상부터 시작 — 고령자·어린이·사업용 운전자 등 그룹별로 역할·교육내용을 구분한다. 보행자에게 사고 책임을 전가하는 설계는 배제.</p>
+      <div class="todo">어느 대상군·상황을 1호 과제로 할지는 9~11월 실접점 확인(강사·담당자 인터뷰) 이후 확정</div>
+    </div>
+
+    <div class="dim"><span class="k a">문제</span>
+      <h3>문제 가설 (검증 전)</h3>
+      <p>안전수칙·교육·경보가 이미 제공되는데도 실제 상황에서 조건을 혼동하거나 교육 효과가 유지되지 않는 대상이 있는지 확인한다. 시설·감지·근무조건이 원인인 위험을 "이해 부족"으로 잘못 진단하지 않는다.</p>
+    </div>
+
+    <div class="dim"><span class="k a">제공기능</span>
+      <h3>이용 흐름 및 CCK 구축범위</h3>
+      <p>상황 제시 → 행동 선택·이유 확인 → 혼동 조건 식별 → 검수된 설명·연습 → 새 상황 재평가 → 지연 재평가(기간 후 재확인). 운전 중 문답이나 실시간 주행 명령은 1차 범위에서 제외.</p>
+      <ul>
+        <li>검수된 상황·기준·설명 자료의 지식화 (Noa RAG·지식화 SKILL 재사용)</li>
+        <li>조건 확인·추가질문·오해 분류·맞춤 연습 SKILL (신규 개발)</li>
+        <li>선택형·음성 등 접근성 고려 입력방식 (신규 개발)</li>
+        <li>강사·전문가 검수 및 피드백 연결 (신규 개발)</li>
+        <li>지연 재평가·행동측정 연결용 기록 체계 (신규 개발)</li>
+      </ul>
+    </div>
+
+    <div class="dim"><span class="k a">연계</span>
+      <h3>기존 시스템과의 연계</h3>
+      <table>
+        <tr><th style="width:220px">연계 대상</th><th>연계 방식</th></tr>
+        <tr><td>AI-Safer(위험운행구간 지도)</td><td>상황 시나리오의 위치·위험 정보 원천으로 참조(신규 서비스가 AI-Safer 기능을 대체하지 않음)</td></tr>
+        <tr><td>안실련 강사망 (323명)</td><td>검수·피드백 루프의 인적 자원 — 신규 서비스는 강사를 대체하지 않고 보조</td></tr>
+        <tr><td>① CP 사업</td><td>연계 없음 — CP는 직원용, 이 서비스는 대국민용. 경계표 §2 참조</td></tr>
+      </table>
+    </div>
+
+    <div class="dim"><span class="k a">검수</span>
+      <h3>검수 기준(안)</h3>
+      <p>"왜 틀렸는지 설명하는가"와 "새로운 상황에서도 같은 판단을 하는가"를 핵심 합격기준으로 삼는다. 정오 판정 정확도가 아니라 <b>재평가 시 유지율</b>을 1차 검수 지표로 제안.</p>
+    </div>
+
+    <div class="dim"><span class="k a">운영</span>
+      <h3>운영 주체</h3>
+      <p>대외협력실·교육 관련 부서가 콘텐츠 검수·강사 배정을 운영하고, CCK는 플랫폼·SKILL 운영을 담당하는 이원 구조(안). 정식 운영 주체는 발주부서 확정 후 협의.</p>
+    </div>
+
+    <div class="dim"><span class="k a">기대효과</span>
+      <h3>측정 지표(안)</h3>
+      <p>위험 행동선택 감소, 새 상황 판단 개선률, 지연 재평가 유지율. <b>교육 실시 인원수·이용횟수는 성과지표로 쓰지 않는다</b>(9/17 문서 원칙9). 실제 사고감소는 노출량·비교군·관측기간이 갖춰진 뒤 별도 분석.</p>
+    </div>
+
+    <div class="dim"><span class="k a">비용</span>
+      <h3>산정 방식(안) — 금액 미기재</h3>
+      <p>신규 SKILL·워크플로우·UI는 <b>기능점수 방식</b>(간이법, 제안단계), Noa 코어 재사용분은 별도 개발비 미계상. 학습환경·재평가 기록체계처럼 AI API 호출이 수반되는 부분은 <b>AI 도입 방식</b>(이용료+커스터마이징)과 병기 검토.</p>
+      <div class="todo">기능점수 산정은 SKILL 단위 요구사항이 구체화된 뒤 가능 — 현재는 산정 불가</div>
+    </div>
+  </div>
+
+  <div id="b1">
+    <div class="ghead b1"><span class="gnum">B1</span><div><h2>AI 자동시험·한계검증 엔진</h2><p>①CP를 포함한 TS 내 AI 시스템이 "실제로 요구사항대로 동작하는지" 검증하는 독립 제품</p></div></div>
+
+    <div class="dim"><span class="k b1">대상</span>
+      <h3>1차 대상자와 검증 범위</h3>
+      <p>TS 내부에서 AI·SKILL·모델·연계가 바뀔 때마다 재시험이 필요한 <b>담당 부서(품질·성과분석 담당)</b>가 1차 사용자. 1차 검증 대상 시스템은 ①CP의 등록 AI서비스(현재 20건)부터 시작 — 경계표 §3 참조.</p>
+    </div>
+
+    <div class="dim"><span class="k b1">문제</span>
+      <h3>문제 가설</h3>
+      <p>AI 서비스 성과분석·검수지원은 이미 계획돼 있다. "시험을 안 한다"가 아니라, <b>변경이 있을 때마다 요구사항을 누락 없이 재시험하고 결과를 재현하는 반복 부담·검증공백</b>이 실제로 있는지 확인한다.</p>
+    </div>
+
+    <div class="dim"><span class="k b1">제공기능</span>
+      <h3>파이프라인</h3>
+      <ul>
+        <li>요구사항·지침·변경분 등록 → 검사조건·합격기준 구성</li>
+        <li>검증된 합성자료·시나리오 생성 (실사용자 데이터 재사용 아님)</li>
+        <li>승인된 시험도구로 기능·의미·완료·권한·부하·회복 계측</li>
+        <li>관측증거 + 충족판정 → 실패 재현 패키지 → 수정 후 회귀시험</li>
+      </ul>
+      <p>설계 경계: 부하생성·자원계측은 전용 도구, AI는 계획·변형·분석만 담당. <b>생성 AI가 자신이 만든 정답으로 자신을 채점하지 않는다</b> — 계산·필드검증/독립 의미평가/전문가 확인을 분리.</p>
+    </div>
+
+    <div class="dim"><span class="k b1">연계</span>
+      <h3>검증 대상 시스템 목록(1차)</h3>
+      <table>
+        <tr><th style="width:260px">시스템</th><th>연계 성격</th></tr>
+        <tr><td>①CP AI서비스 6종 (검색·코딩·번역·법령·보고서·운수지도)</td><td>검증 대상 — CP 자체 검수와는 별도로, 배포 후 회귀시험 대상으로 편입 가능(①CP 검수를 대체하지 않음)</td></tr>
+        <tr><td>①CP AI학습데이터관리(실패 시 원인 미노출 확인됨)</td><td>바로 이 "실패 원인 미노출" 지점이 B-1의 재현·계측 기능이 메울 수 있는 공백의 실사례</td></tr>
+        <tr><td>포트폴리오 A 서비스(위 §A)</td><td>향후 검증 대상으로 편입 가능</td></tr>
+      </table>
+    </div>
+
+    <div class="dim"><span class="k b1">검수</span>
+      <h3>산출물 / 검수 기준(안)</h3>
+      <p>요구사항별 시험상태·미시험 목록, 환경·버전·데이터가 붙은 재현 패키지, 변경 전후 비교, 시정·재검증 기록. <b>합성질문 수만 증가시키는 것은 실패</b>로 판정(9/17 문서 확대판단 조건표).</p>
+    </div>
+
+    <div class="dim"><span class="k b1">운영</span>
+      <h3>운영 주체</h3>
+      <p>발주기관 AI 서비스 성과분석·검수지원 담당 부서가 합격기준을 승인, CCK가 시험 파이프라인을 운영. 과부하시험은 허가된 시험환경·한도·중단조건 내에서만 수행.</p>
+    </div>
+
+    <div class="dim"><span class="k b1">기대효과</span>
+      <h3>측정 지표(안)</h3>
+      <p>동일 검증범위의 총작업시간, 증거 확보된 요구사항 범위, 중요 결함 발견·오탐률, 재현율, 회귀문제 수, 성공업무당 비용. 사람의 재조사 시간을 비용에 포함.</p>
+    </div>
+
+    <div class="dim"><span class="k b1">비용</span>
+      <h3>산정 방식(안) — 금액 미기재</h3>
+      <p><b>기능점수 방식</b>(신규 SW 개발)이 기본 — 시험 파이프라인·리포팅·재현 패키지는 신규 구축물. 합성 시나리오 생성에 LLM API를 쓰는 부분만 AI 도입 방식과 부분 병기 검토.</p>
+      <div class="todo">①CP AI서비스 20건 전체를 1차 검증범위로 할지, 표본만 할지에 따라 기능점수가 크게 달라짐 — 범위 확정 필요</div>
+    </div>
+  </div>
+
+  <div id="b2">
+    <div class="ghead b2"><span class="gnum">B2</span><div><h2>개인정보 처리 실증검증 엔진</h2><p>①CP의 비식별화를 포함해, "처리방침대로 실제 동작하는가"를 증거로 확인하는 독립 제품</p></div></div>
+
+    <div class="dim"><span class="k b2">대상</span>
+      <h3>1차 대상자와 검증 범위</h3>
+      <p>정보보안처·개인정보 담당 부서. <b>①CP의 비식별화 2지점(입력 배치 비식별화, 출력 실시간 마스킹)이 실제 구현·검수 완료된 이후</b>가 1차 대상 후보 — 경계표 §3의 경고대로, 아직 구현되지 않은 기능을 검증 대상으로 팔 수 없다.</p>
+      <div class="todo">①CP 비식별화의 실제 구현·검수 완료 시점 확인 필요 — 현재 [제안] 등급, 이행 증빙 없음</div>
+    </div>
+
+    <div class="dim"><span class="k b2">문제</span>
+      <h3>문제 가설</h3>
+      <p>처리방침·설계·기관정책에서 설명한 처리와, 실제 시스템의 수집·이용·연계·보관·파기가 일치하는지를 <b>여러 증거를 연결해 확인</b>하는 데 잔여 문제가 있는가. 기존 보호수준이 부실하다고 전제하지 않는다.</p>
+    </div>
+
+    <div class="dim"><span class="k b2">제공기능</span>
+      <h3>파이프라인</h3>
+      <ul>
+        <li>정보종류·처리목적·적용근거·역할·시점 분류</li>
+        <li>문서·설계·설정·로그·승인된 시험의 연결</li>
+        <li>실제 처리흐름 확인 → 미충족·위험의심·증거부족 분리</li>
+        <li>원문·실행근거가 붙은 리포팅 → 담당자 소명·개선 → 재검증</li>
+      </ul>
+      <p>설계 경계: 문서만 있으면 설계·정책 검토 수준까지만 보고. 설정·로그·동적시험까지 확보해야 실제 동작을 확인한 것으로 취급 — <b>확인 못 한 저장소는 적합으로 처리하지 않는다.</b></p>
+    </div>
+
+    <div class="dim"><span class="k b2">연계</span>
+      <h3>검증 대상·연계 시스템(1차)</h3>
+      <table>
+        <tr><th style="width:260px">시스템</th><th>연계 성격</th></tr>
+        <tr><td>①CP 비식별화(입력·출력 2지점)</td><td>1차 검증 대상 후보 — 구현·검수 완료 확인 후 착수</td></tr>
+        <tr><td>①CP AI 접근제어·SIEM/SOAR 연계</td><td>기존 통제·자료를 재구축하지 않고 활용 — 로그·설정 열람 조건 사전 협의 필요</td></tr>
+        <tr><td>개인정보 영향평가(PIA)</td><td>법정 PIA·감독기관 판단을 대체하지 않음 — 병행 참고자료로만 연계</td></tr>
+      </table>
+    </div>
+
+    <div class="dim"><span class="k b2">검수</span>
+      <h3>산출물 / 검수 기준(안)</h3>
+      <p>증거가 확보된 처리흐름·통제 범위, 재현 가능한 중요 미충족 사항, 오탐·확인불가 구분, 시정시간, 재검증 완료율. <b>"삭제 요청 처리"와 "검사범위에서 파기 확인"을 분리</b>해 보고 — 후자만 이 엔진의 책임.</p>
+    </div>
+
+    <div class="dim"><span class="k b2">운영</span>
+      <h3>운영 주체 / 통제</h3>
+      <p>정보보안처가 검증 범위·권한을 승인, CCK가 검증 파이프라인 운영. 실제 개인정보 최소화·합성자료 우선·시험계정·접근·보관·결과공유 통제를 적용(원문 데이터 직접 취급 최소화).</p>
+    </div>
+
+    <div class="dim"><span class="k b2">기대효과</span>
+      <h3>측정 지표(안)</h3>
+      <p>증거 확보된 처리흐름·통제 범위, 재현 가능한 중요 미충족 건수, 오탐/확인불가 비율, 시정시간, 재검증 완료율, 실제 잔존·권한외 제공 개선 건수. <b>법정 영향평가·감독기관 판단의 자동 대체로 표시하지 않는다.</b></p>
+    </div>
+
+    <div class="dim"><span class="k b2">비용</span>
+      <h3>산정 방식(안) — 금액 미기재</h3>
+      <p><b>기능점수 방식</b> 기본. 분류·리포팅 엔진은 신규 구축, 로그·설정 대조 자동화 수준에 따라 투입공수 방식과 병기 검토(수작업 교차확인 비중이 클 경우).</p>
+      <div class="todo">열람 가능한 로그·설정 범위(권한)가 확정돼야 자동화 vs 수작업 비중, 즉 산정 방식이 정해짐</div>
+    </div>
+  </div>
+
+  <div id="todo">
+    <div class="ghead gray"><span class="gnum">·</span><div><h2>공통 미확정 사항 — 다음 확인 전 진행 불가</h2></div></div>
+    <table>
+      <tr><th style="width:60px">#</th><th>확인 필요</th><th>영향</th></tr>
+      <tr><td class="n">1</td><td>①CP 비식별화 2지점의 실제 구현·검수 완료 여부</td><td>B-2 착수 시점 결정</td></tr>
+      <tr><td class="n">2</td><td>B-1의 1차 검증 대상 범위(①CP 20건 전체 vs 표본)</td><td>기능점수·비용 규모</td></tr>
+      <tr><td class="n">3</td><td>A의 1차 대상군·상황(우회전/횡단보도 등 중 택1)</td><td>SKILL 설계 범위, 강사망 연계 방식</td></tr>
+    </table>
+    <p style="font-size:12px;color:var(--sub)">사전기획 단계이므로 이 셋은 "블로킹"이 아니라 9~11월 자료확보 기간에 확인할 항목으로 남긴다(9/17 문서 §9 "9~11월에 확보할 자료"와 동일 트랙).</p>
+  </div>
+
+  <footer>
+    이 문서는 09/17 전략문서·경계표를 근거로 한 사전기획 초안이며, TS의 확정 사업·계약·예산이 아니다. RFP가 나오면 목차·배점·필수요건을 RFP 기준으로 다시 맞춰야 한다(ISP/ISMP형 표준 흐름: 환경분석→현황분석→목표시스템설계→이행계획). 비용은 방식만 제시했고 금액은 요구사항 확정 후 별도 산정이 필요하다.
+  </footer>
+
+</div>
+</body>
+</html>
