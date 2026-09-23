@@ -25,7 +25,7 @@
 
 ## 3. 파일·중복 규칙
 
-- 같은 내용의 파일을 두 곳에 두지 않는다. `public/legacy/`는 구버전 정적 화면과 JavaScript 미사용 진입점만 두고, 자산은 `public/` 직속을 공유한다. (2026-09-23 브랜치 `cleanup/site-legacy-dedup`에서 동일 파일 331개를 제거했다.)
+- 같은 내용의 파일을 두 곳에 두지 않는다. `public/legacy/`는 구버전 정적 화면과 JavaScript 미사용 진입점만 두고, 자산은 `public/` 직속을 공유한다. (2026-09-23 동일 파일 331개를 제거하고 main에 병합했다.)
 - 새 자료는 `src/` 데이터와 `public/` 파일을 함께 갱신하고 `site-routes.json`에 등록한 뒤 `npm test`를 통과시킨다.
 - 줄끝은 LF(`.gitattributes`). `.gitignore`는 줄 단위로만 고친다.
 
@@ -44,7 +44,10 @@
 ## 6. 지금 열린 작업 (우선순위 순)
 
 1. 비용 페이지(03·05·07) 공개 여부와 noindex 추가 — 사용자 결정 대기. 결정 전 §1 준수.
-2. `cleanup/site-legacy-dedup` 브랜치 병합 — legacy 중복 331개 제거, `00_저장소_구조.md`·`AGENTS.md` 추가. `npm test` 통과 확인됨.
-3. 홈 `<title>` 중복(`TS AX | TS AX`) 수정.
-4. 5개 처 미산정 표시 점검 — 화면에 0원·0MM이 나오지 않는지, 합계 라벨이 "8개 처 기준"인지.
-5. 작업 중인 `src/Measurement.jsx`·`measurement-data.cjs`는 §2 원장 규칙과 §1 공개 경계를 적용한 뒤 커밋.
+2. 홈 `<title>` 중복(`TS AX | TS AX`) 수정.
+3. 5개 처 미산정 표시 점검 — 화면에 0원·0MM이 나오지 않는지, 합계 라벨이 "8개 처 기준"인지.
+4. 96a5faf로 추가된 39개 정량지표 측정명세 화면(`src/Measurement.jsx`, `measurement-data.cjs`)이 §1 공개 경계와 §2 원장 규칙(출처·기준일·미산정 표기)에 맞는지 점검. 실측값 0건 상태를 화면에 명시한다.
+
+## 7. 완료 기록
+
+- 2026-09-23: `cleanup/site-legacy-dedup` 병합 — legacy 중복 331개 제거(정적 파일 819→492), `00_저장소_구조.md`·AGENTS.md 4종 추가. 병합 트리 `npm test` 통과(검사 561·슬라이드 1,643·측정명세 39).
