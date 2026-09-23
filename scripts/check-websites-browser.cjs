@@ -3,7 +3,7 @@ const {chromium}=process.env.PLAYWRIGHT_MODULE?require(process.env.PLAYWRIGHT_MO
 const base=process.env.SITE_BASE||'http://127.0.0.1:8768/';
 (async()=>{const browser=await chromium.launch({channel:'msedge',headless:true});const page=await browser.newPage({viewport:{width:1500,height:1000}});const errors=[];page.on('pageerror',e=>errors.push(e.message));let checks=0;
 const go=async p=>{await page.goto(base+p);await page.locator('.websites-page').waitFor()};
-await go('websites.html');assert.equal(await page.locator('.official-site').count(),43);assert.equal(await page.locator('.briefing-slide').count(),0);checks+=2;
+await go('websites.html');assert.equal(await page.locator('.official-site').count(),43);assert.equal(await page.locator('.document-reader').count(),0);checks+=2;
 await page.getByLabel('사이트·부서·업무 검색',{exact:true}).fill('DRT');assert.equal(await page.locator('.official-site').count(),1);assert((await page.locator('.site-relations').innerText()).includes('모빌리티연구처'));checks+=2;
 await page.getByLabel('사이트 검색 지우기').click();await page.getByLabel('담당 확인 상태',{exact:true}).selectOption('pending');await page.waitForURL('**status=pending');assert.equal(await page.locator('.official-site').count(),7);checks++;
 await go('websites.html?node=DF');assert.equal(await page.locator('.official-site').count(),3);checks++;

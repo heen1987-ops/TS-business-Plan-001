@@ -175,5 +175,5 @@ if(p==='katri.html')return katriDeck(q);if(p==='ars.html')return arsDeck();
 if(p==='updates.html')return updateDeck();if(p==='discovery.html')return discoveryDeck();
 return home();}
 function paginate(deck){return {...deck,slides:deck.slides.flatMap(s=>s.cards.length>3?chunks(s.cards,2).map((cards,i)=>({...s,id:i===0?s.id:s.id+'-part-'+(i+1),title:s.title+' · '+(i+1)+'/'+Math.ceil(s.cards.length/2),cards,layout:undefined})):s)}}
-module.exports={getDeck:route=>paginate(getDeck(route))};
+module.exports={getDeck:route=>paginate(getDeck(route)),getRawDeck:getDeck};
 
