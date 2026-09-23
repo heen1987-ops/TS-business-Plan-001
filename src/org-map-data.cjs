@@ -42,6 +42,7 @@ function proposals(node){return node.code?[departmentByCode[node.code]]:node.chi
 function doc(id,name,summary,to){return {id,name,summary,to,kind:'document'};}
 function documents(node){
  if(node.code){const d=departmentByCode[node.code],p=d.folder+'/01_사업정의.html';return [
+  doc('mandate','담당 처·법령·컨셉','실제 업무 · 담당 역할 · 제안 이유','legal/mapping.html?dept='+node.code),
   doc('concept','사업 정의·컨셉','목적 · 대상자 · 달라지는 업무',p),
   doc('flow','서비스 흐름','사용자 · AI · 담당자의 처리 흐름',d.folder+'/02_UI시제품.html'),
   doc('architecture','전체 아키텍처','모듈 · 연계 · 데이터 · 실행 구조',d.folder+'/03_아키텍처_흐름.html'),
@@ -56,6 +57,7 @@ function documents(node){
   doc('about','TS의 존재 의의','설립 목적 · 기관의 역할','about.html'),
   doc('vision','2026–2030 계획','경영목표 · 전략과제','vision.html'),
   doc('legal','법정·수탁업무','적용 법령 · 위임·위탁 관계','legal.html'),
+  doc('mandate','법령·처·컨셉 매핑','어떤 업무를 어느 처의 컨셉에 연결하는가','legal/mapping.html'),
   doc('all','처별 AX 제안 전체','13개 처의 제안 비교','solutions.html')];
  return [
   doc('organization','조직·업무 분석','제공 조직도와 기존 원장 확인','organization.html'),

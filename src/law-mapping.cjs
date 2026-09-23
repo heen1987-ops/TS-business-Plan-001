@@ -1,0 +1,10 @@
+const raw=require('./law-mapping.json'),{legal,departments}=require('./data.json');
+const rows=Object.fromEntries(legal.rows.map(x=>[x.id,x]));
+const departmentsByCode=Object.fromEntries(departments.map(x=>[x.code,x]));
+const bindings=raw.bindings.map(b=>({...b,law:rows[b.lawId],concepts:b.concepts.map(c=>({...c,department:departmentsByCode[c.code],label:raw.relations[c.relation]}))}));
+const profiles=raw.profiles.map(p=>({...p,department:departmentsByCode[p.code],primary:bindings.find(b=>b.id===p.primaryBinding),bindings:bindings.filter(b=>b.concepts.some(c=>c.code===p.code))}));
+const forDepartment=code=>profiles.find(p=>p.code===code);
+const forLaw=id=>bindings.filter(b=>b.lawId===id);
+const conceptPath=code=>departmentsByCode[code].folder+'/01_사업정의.html';
+const mappingPath=code=>'legal/mapping.html?dept='+encodeURIComponent(code);
+module.exports={...raw,bindings,profiles,forDepartment,forLaw,conceptPath,mappingPath};

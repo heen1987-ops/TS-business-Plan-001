@@ -5,7 +5,7 @@ const found=new Set();
 for(const node of Object.values(nodes)){
  const chain=ancestry(node.id);assert.equal(chain[0].id,'TS');assert.equal(new Set(chain.map(x=>x.id)).size,chain.length,'순환 조직: '+node.id);
  for(const child of node.children)assert.equal(parents[child.id],node.id);
- if(node.code){assert(!found.has(node.code));found.add(node.code);assert.equal(documents(node).length,6);assert.equal(departmentByCode[node.code].name,node.name);}
+ if(node.code){assert(!found.has(node.code));found.add(node.code);assert.equal(documents(node).length,7);assert.equal(departmentByCode[node.code].name,node.name);}
  for(const link of documents(node)){assert(routes.includes(link.to.split('?')[0]),'없는 페이지: '+link.to);assert(!/undefined|null/.test(link.to));}
 }
 assert.equal(found.size,13);assert.equal(proposals(nodes.TS).length,13);

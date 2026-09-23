@@ -1,0 +1,929 @@
+{
+  "date": "2026-09-23",
+  "scope": "기존 13개 처의 대표 컨셉과 27개 법정업무 묶음의 연결. 전체 TS 직무분장·위탁사무 모집단과 구분.",
+  "lawEvidence": "법령 조문·시행일은 기존 법정업무 원장 인용. 이번 작업은 업무안내 담당 표시와 컨셉 적용 관계 보강. 현행 직제·전결·개별 위탁문서는 추가 확인.",
+  "relations": {
+    "direct": "대표 컨셉 직접 업무",
+    "enabler": "검사제도 지원 기술·연구",
+    "context": "같은 처의 별도 업무",
+    "system": "공동 시스템 접점",
+    "collaboration": "협업 후보",
+    "candidate": "확장 후보·담당 미확정"
+  },
+  "sources": {
+    "01080700": {
+      "title": "앱미터 검정",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01080700",
+      "department": "모빌리티연구처",
+      "checked": "2026-09-23",
+      "published": "게시일 미표시",
+      "scope": "해당 업무안내의 본문·담당부서 표시. 내부 전결·독점 소관·최종 승인권과 구분."
+    },
+    "01040300": {
+      "title": "교통안전정보관리시스템(TMACS)",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040300",
+      "department": "데이터융복합처",
+      "checked": "2026-09-23",
+      "published": "게시일 미표시",
+      "scope": "해당 업무안내의 본문·담당부서 표시. 내부 전결·독점 소관·최종 승인권과 구분."
+    },
+    "01040400": {
+      "title": "운행기록분석시스템(ETAS)",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040400",
+      "department": "데이터융복합처",
+      "checked": "2026-09-23",
+      "published": "게시일 미표시",
+      "scope": "해당 업무안내의 본문·담당부서 표시. 내부 전결·독점 소관·최종 승인권과 구분."
+    },
+    "01050600": {
+      "title": "운수종사자경력관리",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01050600",
+      "department": "교통안전처",
+      "checked": "2026-09-23",
+      "published": "게시일 미표시",
+      "scope": "해당 업무안내의 본문·담당부서 표시. 내부 전결·독점 소관·최종 승인권과 구분."
+    },
+    "01070300": {
+      "title": "교통안전체험교육",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01070300",
+      "department": "자격교육처",
+      "checked": "2026-09-23",
+      "published": "게시일 미표시",
+      "scope": "해당 업무안내의 본문·담당부서 표시. 내부 전결·독점 소관·최종 승인권과 구분."
+    },
+    "01040502": {
+      "title": "화물운송실적 관리시스템(FPIS)",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040502",
+      "department": "기후탄소물류처",
+      "checked": "2026-09-23",
+      "published": "게시일 미표시",
+      "scope": "해당 업무안내의 본문·담당부서 표시. 내부 전결·독점 소관·최종 승인권과 구분."
+    },
+    "01060301": {
+      "title": "대중교통현황조사",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01060301",
+      "department": "정책지원처",
+      "checked": "2026-09-23",
+      "published": "게시일 미표시",
+      "scope": "해당 업무안내의 본문·담당부서 표시. 내부 전결·독점 소관·최종 승인권과 구분."
+    },
+    "01100101": {
+      "title": "모빌리티 규제샌드박스 안내",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01100101",
+      "department": "규제혁신처",
+      "checked": "2026-09-23",
+      "published": "게시일 미표시",
+      "scope": "해당 업무안내의 본문·담당부서 표시. 내부 전결·독점 소관·최종 승인권과 구분."
+    },
+    "01060305": {
+      "title": "교통시설설치ㆍ관리자 교통안전관리규정 심사",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01060305",
+      "department": "실증사업처",
+      "checked": "2026-09-23",
+      "published": "게시일 미표시",
+      "scope": "해당 업무안내의 본문·담당부서 표시. 내부 전결·독점 소관·최종 승인권과 구분."
+    },
+    "01010101": {
+      "title": "자동차검사란",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01010101",
+      "department": "검사기획처",
+      "checked": "2026-09-23",
+      "published": "게시일 미표시",
+      "scope": "해당 업무안내의 본문·담당부서 표시. 내부 전결·독점 소관·최종 승인권과 구분."
+    },
+    "01030201": {
+      "title": "검사소개",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01030201",
+      "department": "특수검사처",
+      "checked": "2026-09-23",
+      "published": "게시일 미표시",
+      "scope": "해당 업무안내의 본문·담당부서 표시. 내부 전결·독점 소관·최종 승인권과 구분."
+    },
+    "01030401": {
+      "title": "검사소개",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01030401",
+      "department": "주차안전처",
+      "checked": "2026-09-23",
+      "published": "게시일 미표시",
+      "scope": "해당 업무안내의 본문·담당부서 표시. 내부 전결·독점 소관·최종 승인권과 구분."
+    },
+    "01090301": {
+      "title": "검사용진단기",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01090301",
+      "department": "첨단검사전략처",
+      "checked": "2026-09-23",
+      "published": "게시일 미표시",
+      "scope": "해당 업무안내의 본문·담당부서 표시. 내부 전결·독점 소관·최종 승인권과 구분."
+    },
+    "01090201": {
+      "title": "첨단자동차안전연구",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01090201",
+      "department": "첨단연구개발처",
+      "checked": "2026-09-23",
+      "published": "게시일 미표시",
+      "scope": "해당 업무안내의 본문·담당부서 표시. 내부 전결·독점 소관·최종 승인권과 구분."
+    },
+    "01060306": {
+      "title": "교통약자 이동편의 실태조사",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01060306",
+      "department": "모빌리티연구처",
+      "checked": "2026-09-23",
+      "published": "게시일 미표시",
+      "scope": "해당 업무안내의 본문·담당부서 표시. 내부 전결·독점 소관·최종 승인권과 구분."
+    },
+    "01080500": {
+      "title": "수요응답형 대중교통(DRT) 구축·운영",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01080500",
+      "department": "모빌리티연구처",
+      "checked": "2026-09-23",
+      "published": "게시일 미표시",
+      "scope": "해당 업무안내의 본문·담당부서 표시. 내부 전결·독점 소관·최종 승인권과 구분."
+    },
+    "01040000": {
+      "title": "교통안전관리",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040000",
+      "department": "교통안전처",
+      "checked": "2026-09-23",
+      "published": "게시일 미표시",
+      "scope": "해당 업무안내의 본문·담당부서 표시. 내부 전결·독점 소관·최종 승인권과 구분."
+    },
+    "01040202": {
+      "title": "교통안전관리규정",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040202",
+      "department": "교통안전처",
+      "checked": "2026-09-23",
+      "published": "게시일 미표시",
+      "scope": "해당 업무안내의 본문·담당부서 표시. 내부 전결·독점 소관·최종 승인권과 구분."
+    },
+    "01040207": {
+      "title": "단지내도로 교통안전 실태점검",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040207",
+      "department": "실증사업처",
+      "checked": "2026-09-23",
+      "published": "게시일 미표시",
+      "scope": "해당 업무안내의 본문·담당부서 표시. 내부 전결·독점 소관·최종 승인권과 구분."
+    },
+    "01080600": {
+      "title": "택시운행정보관리시스템(TIMS)",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01080600",
+      "department": "모빌리티연구처",
+      "checked": "2026-09-23",
+      "published": "게시일 미표시",
+      "scope": "업무안내 본문·담당부서 표시 확인. 내부 전결과 구분."
+    }
+  },
+  "bindings": [
+    {
+      "id": "B01",
+      "lawId": "L01",
+      "task": "운수회사 교통수단 안전점검·규정 이행확인",
+      "owner": "교통안전처",
+      "ownerRole": "본사 업무안내 담당 · 현장 수행은 지역본부 등과 구분",
+      "sourceIds": [
+        "01040000",
+        "01040202"
+      ],
+      "ownerStatus": "공식 업무안내 담당 확인",
+      "concepts": [
+        {
+          "code": "SA",
+          "relation": "direct",
+          "reason": "점검 미흡·사업자 조치·완료증거를 관리하는 대표 컨셉의 직접 업무"
+        },
+        {
+          "code": "DF",
+          "relation": "collaboration",
+          "reason": "운행·안전정보를 제공하는 협업 후보. 점검 책임의 이전과 구분"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "B02",
+      "lawId": "L02",
+      "task": "교통시설 진단 실시결과 평가·특별실태조사",
+      "owner": "실증사업처",
+      "ownerRole": "기존 원장의 수행 조직 · 세부 평가·조사 분장 확인",
+      "sourceIds": [],
+      "ownerStatus": "기존 조직·법령 원장 / 세부 분장 재확인",
+      "concepts": [
+        {
+          "code": "DV",
+          "relation": "context",
+          "reason": "단지내도로 대표 컨셉과 연관된 별도 평가·조사 업무"
+        }
+      ],
+      "note": "기존 연결 URL 01060305는 시설관리규정 심사 페이지. 진단평가·특별실태조사의 직접 담당 근거로 승격하지 않음."
+    },
+    {
+      "id": "B03",
+      "lawId": "L03",
+      "task": "위탁된 단지내도로의 점검·개선안 제시",
+      "owner": "실증사업처",
+      "ownerRole": "업무안내 담당 · 지자체 위탁과 관리주체 개선 시행 구분",
+      "sourceIds": [
+        "01040207"
+      ],
+      "ownerStatus": "공식 업무안내 담당 확인",
+      "concepts": [
+        {
+          "code": "DV",
+          "relation": "direct",
+          "reason": "현장 점검결과를 실제 개선·효과관측에 연결하는 대표 컨셉의 직접 업무"
+        }
+      ],
+      "note": "지역별 위탁 고시·계약 확인 필요"
+    },
+    {
+      "id": "B04",
+      "lawId": "L04",
+      "task": "교통안전정보 관리·운행기록 점검·분석",
+      "owner": "데이터융복합처",
+      "ownerRole": "TMACS·ETAS 업무안내 담당",
+      "sourceIds": [
+        "01040300",
+        "01040400"
+      ],
+      "ownerStatus": "공식 업무안내 담당 확인",
+      "concepts": [
+        {
+          "code": "DF",
+          "relation": "direct",
+          "reason": "위험분석의 자료·해석·후속조치 연결과 직접 대응"
+        },
+        {
+          "code": "SA",
+          "relation": "collaboration",
+          "reason": "분석 결과를 활용한 운수회사 안전조치 협업 후보"
+        }
+      ],
+      "note": "TMACS 안내의 시행령 제48조 표기와 법령 원장의 제48조의2 차이 존재. 법령 판본과 업무안내 표시를 구분."
+    },
+    {
+      "id": "B05-MR",
+      "lawId": "L05",
+      "task": "교통문화지수 개발·조사·공표",
+      "owner": "모빌리티연구처",
+      "ownerRole": "기존 조사 업무 원장 · 상세 분장 재확인",
+      "sourceIds": [],
+      "ownerStatus": "기존 조직·법령 원장 / 세부 분장 재확인",
+      "concepts": [
+        {
+          "code": "MR",
+          "relation": "context",
+          "reason": "같은 처의 조사 업무. 앱미터 검증계획의 직접 근거는 아님"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "B05-QE",
+      "lawId": "L05",
+      "task": "교통안전체험교육과 교육시설 운영",
+      "owner": "자격교육처 · 상주·화성 등 교육센터",
+      "ownerRole": "자격교육처는 공식 업무안내 담당 · 실제 교육은 센터별 수행",
+      "sourceIds": [
+        "01070300"
+      ],
+      "ownerStatus": "공식 업무안내 담당 확인",
+      "concepts": [
+        {
+          "code": "QE",
+          "relation": "direct",
+          "reason": "학습자의 안전 판단과 체험·평가를 연결하는 대표 교육 컨셉"
+        }
+      ],
+      "note": "센터별 운영·강사·전결을 자격교육처 단독 수행으로 통합하지 않음"
+    },
+    {
+      "id": "B05-TEST",
+      "lawId": "L05",
+      "task": "교통안전관리자 시험·증명서 발급",
+      "owner": "자격교육처 등 자격 담당조직",
+      "ownerRole": "기존 원장 · 시험별 내부 분장 확인",
+      "sourceIds": [],
+      "ownerStatus": "기존 조직·법령 원장 / 세부 분장 재확인",
+      "concepts": [
+        {
+          "code": "QE",
+          "relation": "context",
+          "reason": "시험·발급 업무와 안전역량 교육 컨셉의 적용범위 구분"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "B06-IP",
+      "lawId": "L06",
+      "task": "자동차 정기·종합검사 운영·수검 안내",
+      "owner": "검사기획처 · 자동차검사소",
+      "ownerRole": "검사기획처는 업무안내 담당 · 법정검사는 검사소의 검사체계에서 수행",
+      "sourceIds": [
+        "01010101"
+      ],
+      "ownerStatus": "공식 업무안내 담당 확인",
+      "concepts": [
+        {
+          "code": "IP",
+          "relation": "direct",
+          "reason": "부적합 이후 안내·조치·재검사 완료 지원의 직접 업무"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "B06-AD",
+      "lawId": "L06",
+      "task": "KADIS 진단기술 개발·현장 지원",
+      "owner": "첨단검사전략처",
+      "ownerRole": "검사용 진단기 공식 업무안내 담당",
+      "sourceIds": [
+        "01090301"
+      ],
+      "ownerStatus": "공식 업무안내 담당 확인",
+      "concepts": [
+        {
+          "code": "AD",
+          "relation": "enabler",
+          "reason": "자동차검사의 진단능력을 지원하는 기술 과업. 법정 검사판정 담당으로 배정하지 않음"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "B06-RD",
+      "lawId": "L06",
+      "task": "첨단차량 검사방법 연구·검증",
+      "owner": "첨단연구개발처",
+      "ownerRole": "첨단자동차안전연구 공식 업무안내 담당",
+      "sourceIds": [
+        "01090201"
+      ],
+      "ownerStatus": "공식 업무안내 담당 확인",
+      "concepts": [
+        {
+          "code": "RD",
+          "relation": "enabler",
+          "reason": "자동차검사 제도를 뒷받침하는 연구·시험 과업. 검사 합격판정이나 통지 업무와 구분"
+        }
+      ],
+      "note": "연구사업별 협약·위임전결은 별도 확인"
+    },
+    {
+      "id": "B07",
+      "lawId": "L07",
+      "task": "자동차 튜닝 승인 검토",
+      "owner": "기술승인처 · 검사소",
+      "ownerRole": "기존 법령·조직 원장의 연결 · 개별 분장 재확인",
+      "sourceIds": [],
+      "ownerStatus": "기존 조직·법령 원장 / 세부 분장 재확인",
+      "concepts": [],
+      "note": "현재 13개 처의 대표 컨셉에 강제 배정하지 않음. 튜닝 사전확인·증빙검토는 후속 상세 컨셉 대상."
+    },
+    {
+      "id": "B08",
+      "lawId": "L08",
+      "task": "앱미터 기능증빙·주행결과 검정",
+      "owner": "모빌리티연구처",
+      "ownerRole": "앱미터 검정 공식 업무안내 담당",
+      "sourceIds": [
+        "01080700"
+      ],
+      "ownerStatus": "공식 업무안내 담당 확인",
+      "concepts": [
+        {
+          "code": "MR",
+          "relation": "direct",
+          "reason": "제품 기능변경에 따라 증빙·시험회차·검정계획을 구성하는 대표 컨셉"
+        }
+      ],
+      "note": "동일 자동차관리법을 쓴다는 이유로 검사기획처에 배정하지 않음"
+    },
+    {
+      "id": "B09",
+      "lawId": "L09",
+      "task": "제작결함 조사·자동차 안전도평가",
+      "owner": "자동차안전연구원",
+      "ownerRole": "기존 원장의 기관 단위 연결. 결함조사·평가의 처별 분리 필요",
+      "sourceIds": [],
+      "ownerStatus": "기존 조직·법령 원장 / 세부 분장 재확인",
+      "concepts": [],
+      "note": "결함정책처·안전연구처 등은 공식 사이트 매핑 참조. KATRI 공통 문서검토와 KA-01~03의 개별 법령·분장은 추가 대조."
+    },
+    {
+      "id": "B10",
+      "lawId": "L10",
+      "task": "자동차 행정정보·이력정보 관리",
+      "owner": "자동차정보처",
+      "ownerRole": "기존 법령·조직 원장 연결",
+      "sourceIds": [],
+      "ownerStatus": "기존 조직·법령 원장 / 세부 분장 재확인",
+      "concepts": [],
+      "note": "차량행정 원장 관리 업무. 앱미터·검사연구 컨셉으로 임의 편입하지 않음."
+    },
+    {
+      "id": "B11-QE",
+      "lawId": "L11",
+      "task": "종사자 자격시험·교육·적성검사",
+      "owner": "자격교육처 · 검사 담당조직·지역본부",
+      "ownerRole": "기존 자격 업무 원장 · 시험·검사별 분장 확인",
+      "sourceIds": [],
+      "ownerStatus": "기존 조직·법령 원장 / 세부 분장 재확인",
+      "concepts": [
+        {
+          "code": "QE",
+          "relation": "context",
+          "reason": "자격·적성·발급 업무와 대표 안전역량 교육 컨셉의 직접 범위 구분"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "B11-SA",
+      "lawId": "L11",
+      "task": "운수종사자 경력·이력 관리",
+      "owner": "교통안전처",
+      "ownerRole": "운수종사자경력관리 공식 업무안내 담당",
+      "sourceIds": [
+        "01050600"
+      ],
+      "ownerStatus": "공식 업무안내 담당 확인",
+      "concepts": [
+        {
+          "code": "SA",
+          "relation": "context",
+          "reason": "안전미흡 후속조치에 참조 가능한 같은 처의 종사자 관리 업무"
+        }
+      ],
+      "note": "자격시험·발급까지 교통안전처의 업무로 확장하지 않음"
+    },
+    {
+      "id": "B12-QE",
+      "lawId": "L12",
+      "task": "종사자 자격시험·교육·적성검사",
+      "owner": "자격교육처 · 검사 담당조직·지역본부",
+      "ownerRole": "기존 자격 업무 원장 · 시험·검사별 분장 확인",
+      "sourceIds": [],
+      "ownerStatus": "기존 조직·법령 원장 / 세부 분장 재확인",
+      "concepts": [
+        {
+          "code": "QE",
+          "relation": "context",
+          "reason": "자격·적성·발급 업무와 대표 안전역량 교육 컨셉의 직접 범위 구분"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "B12-SA",
+      "lawId": "L12",
+      "task": "운수종사자 경력·이력 관리",
+      "owner": "교통안전처",
+      "ownerRole": "운수종사자경력관리 공식 업무안내 담당",
+      "sourceIds": [
+        "01050600"
+      ],
+      "ownerStatus": "공식 업무안내 담당 확인",
+      "concepts": [
+        {
+          "code": "SA",
+          "relation": "context",
+          "reason": "안전미흡 후속조치에 참조 가능한 같은 처의 종사자 관리 업무"
+        }
+      ],
+      "note": "자격시험·발급까지 교통안전처의 업무로 확장하지 않음"
+    },
+    {
+      "id": "B13",
+      "lawId": "L13",
+      "task": "화물 운송·주선 실적 신고·관리",
+      "owner": "기후탄소물류처",
+      "ownerRole": "FPIS 공식 업무안내 담당",
+      "sourceIds": [
+        "01040502"
+      ],
+      "ownerStatus": "공식 업무안내 담당 확인",
+      "concepts": [
+        {
+          "code": "CL",
+          "relation": "direct",
+          "reason": "원거래 자료를 신고·정정 결과까지 연결하는 대표 컨셉"
+        }
+      ],
+      "note": "연도별 운영 위탁 계약 범위 확인 필요"
+    },
+    {
+      "id": "B14-RIMS",
+      "lawId": "L14",
+      "task": "대여 운전자격 확인시스템 운영",
+      "owner": "모빌리티연구처",
+      "ownerRole": "기존 공식 사이트 원장 기준 · 이번 본문 재열람 범위 제외",
+      "sourceIds": [],
+      "ownerStatus": "기존 조직·법령 원장 / 세부 분장 재확인",
+      "concepts": [
+        {
+          "code": "MR",
+          "relation": "context",
+          "reason": "같은 처의 RIMS 업무. 대표 앱미터 컨셉의 직접 업무와 구분"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "B14-PLATFORM",
+      "lawId": "L14",
+      "task": "운송플랫폼 인허가 요건 검토·사후관리",
+      "owner": "담당 처 미확정",
+      "ownerRole": "법정 위탁과 내부 담당 처 확인을 분리",
+      "sourceIds": [],
+      "ownerStatus": "기존 조직·법령 원장 / 세부 분장 재확인",
+      "concepts": [],
+      "note": "RIMS와 같은 법령 묶음이라는 이유로 모빌리티연구처에 자동 배정하지 않음"
+    },
+    {
+      "id": "B15",
+      "lawId": "L15",
+      "task": "TIMS 구축·운영·운행정보 활용",
+      "owner": "모빌리티연구처",
+      "ownerRole": "TIMS 공식 업무안내 담당",
+      "sourceIds": [
+        "01080600"
+      ],
+      "ownerStatus": "공식 업무안내 담당 확인",
+      "concepts": [
+        {
+          "code": "MR",
+          "relation": "system",
+          "reason": "앱미터 검정의 시스템 접점. 택시운행정보법상 운영업무와 자동차관리법상 검정업무는 별개"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "B16",
+      "lawId": "L16",
+      "task": "대중교통 현황조사·지역 정책근거 지원",
+      "owner": "정책지원처",
+      "ownerRole": "대중교통현황조사 공식 업무안내 담당",
+      "sourceIds": [
+        "01060301"
+      ],
+      "ownerStatus": "공식 업무안내 담당 확인",
+      "concepts": [
+        {
+          "code": "PS",
+          "relation": "direct",
+          "reason": "지역의 미충족 이동을 조사·대안·성과근거로 연결하는 대표 정책지원 컨셉"
+        }
+      ],
+      "note": "정책 실행·재정 결정은 국토부·지자체 등 실제 권한자와 협의"
+    },
+    {
+      "id": "B17",
+      "lawId": "L17",
+      "task": "교통약자 이동편의시설·이용실태 조사",
+      "owner": "모빌리티연구처",
+      "ownerRole": "교통약자 이동편의 실태조사 공식 업무안내 담당",
+      "sourceIds": [
+        "01060306"
+      ],
+      "ownerStatus": "공식 업무안내 담당 확인",
+      "concepts": [
+        {
+          "code": "MR",
+          "relation": "context",
+          "reason": "같은 처의 조사 업무이며 앱미터 검정 컨셉의 직접 범위와 구분"
+        },
+        {
+          "code": "PS",
+          "relation": "collaboration",
+          "reason": "이동정책 대안에 조사결과를 활용하는 협업 후보"
+        }
+      ],
+      "note": "조사 수행과 전국 DRT 예산배분·위치추적 권한은 별개"
+    },
+    {
+      "id": "B18-PS",
+      "lawId": "L18",
+      "task": "모빌리티지원센터의 현황·정책 지원",
+      "owner": "모빌리티지원센터 · 정책지원처 등",
+      "ownerRole": "센터 지정 근거와 처별 분장은 구분",
+      "sourceIds": [],
+      "ownerStatus": "기존 조직·법령 원장 / 세부 분장 재확인",
+      "concepts": [
+        {
+          "code": "PS",
+          "relation": "context",
+          "reason": "이동정책 컨셉의 관련 업무. 센터 전체를 정책지원처에 배정하지 않음"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "B18-RI",
+      "lawId": "L18",
+      "task": "규제특례 신청·심의 지원·실증 사후관리",
+      "owner": "규제혁신처",
+      "ownerRole": "규제샌드박스 공식 업무안내 담당",
+      "sourceIds": [
+        "01100101"
+      ],
+      "ownerStatus": "공식 업무안내 담당 확인",
+      "concepts": [
+        {
+          "code": "RI",
+          "relation": "direct",
+          "reason": "승인조건의 이행·변경 대응과 실증근거 확보에 직접 대응"
+        }
+      ],
+      "note": "특례 부여는 국토교통부장관·심의는 위원회, TS는 지원 역할"
+    },
+    {
+      "id": "B19",
+      "lawId": "L19",
+      "task": "모빌리티 기반시설 대책 자문·검토",
+      "owner": "모빌리티지원센터 · 담당 처 미확정",
+      "ownerRole": "공식 업무안내에서 처별 담당 미확인",
+      "sourceIds": [],
+      "ownerStatus": "기존 조직·법령 원장 / 세부 분장 재확인",
+      "concepts": [
+        {
+          "code": "PS",
+          "relation": "candidate",
+          "reason": "정책 영향 검토의 확장 후보. 담당 처 확정 전"
+        },
+        {
+          "code": "DV",
+          "relation": "candidate",
+          "reason": "시설 개선 검토의 확장 후보. 담당 처 확정 전"
+        }
+      ],
+      "note": "실증이라는 업무명만으로 실증사업처에 배정하지 않음"
+    },
+    {
+      "id": "B20",
+      "lawId": "L20",
+      "task": "장착 내압용기의 재검사",
+      "owner": "특수검사처",
+      "ownerRole": "기존 법령·공식 업무 원장 연결",
+      "sourceIds": [],
+      "ownerStatus": "기존 조직·법령 원장 / 세부 분장 재확인",
+      "concepts": [
+        {
+          "code": "SI",
+          "relation": "context",
+          "reason": "같은 처의 별도 검사 업무. 측정기기 이상 검증 컨셉과 구분"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "B21",
+      "lawId": "L21",
+      "task": "검사기기 정밀도·환경측정기기 정도검사",
+      "owner": "특수검사처",
+      "ownerRole": "기기정도검사 공식 업무안내 담당",
+      "sourceIds": [
+        "01030201"
+      ],
+      "ownerStatus": "공식 업무안내 담당 확인",
+      "concepts": [
+        {
+          "code": "SI",
+          "relation": "direct",
+          "reason": "측정편차의 원인·재검증 조건을 추적하는 대표 컨셉"
+        }
+      ],
+      "note": "자동차 정밀도 위탁과 환경 정도검사 지정 범위 분리"
+    },
+    {
+      "id": "B22",
+      "lawId": "L22",
+      "task": "기계식주차장 검사·정밀안전검사",
+      "owner": "주차안전처 · 현장 검사조직",
+      "ownerRole": "기계식주차장 검사 공식 업무안내 담당",
+      "sourceIds": [
+        "01030401"
+      ],
+      "ownerStatus": "공식 업무안내 담당 확인",
+      "concepts": [
+        {
+          "code": "PK",
+          "relation": "direct",
+          "reason": "미흡·보수·확인검사·이용회복을 연결하는 대표 컨셉"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "B23",
+      "lawId": "L23",
+      "task": "궤도·삭도 안전검사",
+      "owner": "특수검사처 · 지역 검사조직",
+      "ownerRole": "기존 법령·공식 업무 원장 연결",
+      "sourceIds": [],
+      "ownerStatus": "기존 조직·법령 원장 / 세부 분장 재확인",
+      "concepts": [
+        {
+          "code": "SI",
+          "relation": "context",
+          "reason": "같은 처의 별도 시설검사 업무. 대표 측정기기 컨셉의 설계 완료로 간주하지 않음"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "B24",
+      "lawId": "L24",
+      "task": "철도 운전면허·관제자격 시험·발급",
+      "owner": "철도안전처",
+      "ownerRole": "기존 법령·공식 업무 원장 연결",
+      "sourceIds": [],
+      "ownerStatus": "기존 조직·법령 원장 / 세부 분장 재확인",
+      "concepts": [],
+      "note": "13개 처의 도로 자격교육 컨셉과 별도 업무. 철도용 상세 컨셉 추가 필요."
+    },
+    {
+      "id": "B25-APPROVAL",
+      "lawId": "L25",
+      "task": "철도 안전관리체계 승인검사",
+      "owner": "철도승인처",
+      "ownerRole": "기존 법령·조직 원장 연결",
+      "sourceIds": [],
+      "ownerStatus": "기존 조직·법령 원장 / 세부 분장 재확인",
+      "concepts": [],
+      "note": "장관의 최종 승인과 구분. 승인 전 입증·보완의 상세 컨셉 추가 대상."
+    },
+    {
+      "id": "B25-INSPECTION",
+      "lawId": "L25",
+      "task": "승인 이후 정기·수시검사",
+      "owner": "철도검사처",
+      "ownerRole": "기존 법령·조직 원장 연결",
+      "sourceIds": [],
+      "ownerStatus": "기존 조직·법령 원장 / 세부 분장 재확인",
+      "concepts": [],
+      "note": "승인검사와 운영 중 검사 분리. 조치 이행·재발 검토 컨셉 추가 대상."
+    },
+    {
+      "id": "B26",
+      "lawId": "L26",
+      "task": "항공종사자·경량항공기 조종사 자격",
+      "owner": "항공자격처",
+      "ownerRole": "기존 법령·공식 업무 원장 연결",
+      "sourceIds": [],
+      "ownerStatus": "기존 조직·법령 원장 / 세부 분장 재확인",
+      "concepts": [],
+      "note": "도로·철도 자격과 다른 증명·심사체계. 항공용 상세 컨셉 추가 대상."
+    },
+    {
+      "id": "B27",
+      "lawId": "L27",
+      "task": "초경량비행장치 기체·변경·말소 신고",
+      "owner": "드론관리처",
+      "ownerRole": "기존 법령·공식 업무 원장 연결",
+      "sourceIds": [],
+      "ownerStatus": "기존 조직·법령 원장 / 세부 분장 재확인",
+      "concepts": [],
+      "note": "기체 신고와 비행승인·안전성인증 분리. 드론 신고 컨셉 추가 대상."
+    }
+  ],
+  "profiles": [
+    {
+      "code": "MR",
+      "primaryBinding": "B08",
+      "nature": "제품·기능·시험회차별 적합성 검토",
+      "rationale": "변경된 앱미터의 기능증빙과 주행결과를 검토하는 업무이므로 모빌리티연구처를 주관 검토 처로 연결",
+      "collaboration": "TIMS 데이터·검정도구 담당 및 제작사와 협업. RIMS·이동실태 조사와 별도 범위",
+      "assignmentStatus": "기획상 주관 검토 처 · 공식 과업 편성 아님"
+    },
+    {
+      "code": "DF",
+      "primaryBinding": "B04",
+      "nature": "교통정보의 수집·정합성·위험 해석",
+      "rationale": "TMACS·ETAS의 정보관리·운행기록 분석을 실제 조치 검토에 연결하는 업무 특성",
+      "collaboration": "교통안전처·지역본부·지자체의 현장조치와 협업. 시스템 운영과 조치 집행권한 분리",
+      "assignmentStatus": "기획상 주관 검토 처 · 공식 과업 편성 아님"
+    },
+    {
+      "code": "SA",
+      "primaryBinding": "B01",
+      "nature": "운수회사 점검·규정 이행·시정 확인",
+      "rationale": "운수회사 안전미흡을 점검한 뒤 실제 개선과 재발 여부를 확인하는 업무 특성",
+      "collaboration": "데이터융복합처의 분석과 지역본부의 현장 확인 활용. 처분은 해당 권한자",
+      "assignmentStatus": "기획상 주관 검토 처 · 공식 과업 편성 아님"
+    },
+    {
+      "code": "QE",
+      "primaryBinding": "B05-QE",
+      "nature": "체험·교육·학습자의 안전역량 평가",
+      "rationale": "체험교육 업무에서 학습자별 판단·보완 실습을 설계하는 컨셉",
+      "collaboration": "상주·화성 등 센터·강사와 협업. 시험·발급 업무는 별도 적용범위",
+      "assignmentStatus": "기획상 주관 검토 처 · 공식 과업 편성 아님"
+    },
+    {
+      "code": "CL",
+      "primaryBinding": "B13",
+      "nature": "운송실적 신고·거래대조·정정",
+      "rationale": "FPIS의 신고자료와 실제 거래의 불일치를 정정 완료까지 연결하는 업무 특성",
+      "collaboration": "사업자·FPIS 운영 담당과 협업. 거래사실 확인 및 정형 집계는 검증된 규칙 사용",
+      "assignmentStatus": "기획상 주관 검토 처 · 공식 과업 편성 아님"
+    },
+    {
+      "code": "PS",
+      "primaryBinding": "B16",
+      "nature": "지역 이동실태 조사·정책대안 근거",
+      "rationale": "대중교통 현황조사를 지역별 미충족 이동과 정책 실행 근거로 연결하는 업무 특성",
+      "collaboration": "모빌리티연구처의 DRT·이동편의 조사, 지자체의 정책·예산 집행과 협업",
+      "assignmentStatus": "기획상 주관 검토 처 · 공식 과업 편성 아님"
+    },
+    {
+      "code": "RI",
+      "primaryBinding": "B18-RI",
+      "nature": "규제특례 조건·변경·실증 사후관리",
+      "rationale": "승인조건의 이행과 변경사항의 영향을 검토하는 규제샌드박스 지원 업무",
+      "collaboration": "기업·관계부처·심의위원회와 협업. 특례 부여·정책 결정은 공식 권한자",
+      "assignmentStatus": "기획상 주관 검토 처 · 공식 과업 편성 아님"
+    },
+    {
+      "code": "DV",
+      "primaryBinding": "B03",
+      "nature": "단지내도로 현장점검·개선안·효과 확인",
+      "rationale": "단지내도로의 실제 위험과 개선 시행을 연결하는 실태점검 업무",
+      "collaboration": "지자체·아파트·대학교 관리주체와 협업. 공사 시행·예산은 시설 관리주체",
+      "assignmentStatus": "기획상 주관 검토 처 · 공식 과업 편성 아님"
+    },
+    {
+      "code": "IP",
+      "primaryBinding": "B06-IP",
+      "nature": "검사 운영·수검 안내·재검사 연결",
+      "rationale": "부적합 결과를 받은 이용자의 보완·정정·재검사 완료를 지원하는 컨셉",
+      "collaboration": "검사소·정비업체·기술지원 처 협업. 개별 합격판정은 법정 검사체계",
+      "assignmentStatus": "기획상 주관 검토 처 · 공식 과업 편성 아님"
+    },
+    {
+      "code": "SI",
+      "primaryBinding": "B21",
+      "nature": "측정기기의 정확도·성능 검증",
+      "rationale": "측정기기 이상과 재검증 근거를 연결하는 정도검사 업무 특성",
+      "collaboration": "전문 검사자·기기 제작사와 협업. 내압용기·궤도 업무는 별도 확장 검토",
+      "assignmentStatus": "기획상 주관 검토 처 · 공식 과업 편성 아님"
+    },
+    {
+      "code": "PK",
+      "primaryBinding": "B22",
+      "nature": "주차설비 검사·보수·이용회복 확인",
+      "rationale": "기계식주차장 검사에서 확인된 미흡의 해소와 이용상태를 검증하는 컨셉",
+      "collaboration": "시설 관리자·보수업체·관할 지자체 협업. 사용중지·재개 권한 구분",
+      "assignmentStatus": "기획상 주관 검토 처 · 공식 과업 편성 아님"
+    },
+    {
+      "code": "AD",
+      "primaryBinding": "B06-AD",
+      "nature": "전자진단 기술의 개발·현장 적용",
+      "rationale": "KADIS와 차량·프로그램의 복합 진단조건을 확인하는 기술지원 컨셉",
+      "collaboration": "검사기획처·검사소·제작사 협업. 검사 법령을 기술지원의 배경으로 연결",
+      "assignmentStatus": "기획상 주관 검토 처 · 공식 과업 편성 아님"
+    },
+    {
+      "code": "RD",
+      "primaryBinding": "B06-RD",
+      "nature": "검사방법 연구·실험·현장 인수 검증",
+      "rationale": "KADAS 등 검사방법의 미검증 조건을 연구·실험 과업으로 전환하는 컨셉",
+      "collaboration": "검사전략·검사소·연구전문가 협업. 법정검사 사무와 연구의 역할 분리",
+      "assignmentStatus": "기획상 주관 검토 처 · 공식 과업 편성 아님"
+    }
+  ],
+  "jointProposal": {
+    "id": "DRT",
+    "title": "고령·교통약자 통합 DRT",
+    "status": "사용자 제안 · 범부처·지자체 협의가 필요한 추가 기획",
+    "owner": "총괄 주관 처 미확정",
+    "links": [
+      {
+        "code": "MR",
+        "role": "기존 DRT 업무안내·이동편의 조사 접점",
+        "sourceIds": [
+          "01080500",
+          "01060306"
+        ]
+      },
+      {
+        "code": "PS",
+        "role": "현황조사·정책대안·지역 성과평가 협업 후보",
+        "sourceIds": [
+          "01060301"
+        ]
+      },
+      {
+        "code": "DF",
+        "role": "운행·안전정보 연계 협업 후보",
+        "sourceIds": [
+          "01040300",
+          "01040400"
+        ]
+      }
+    ],
+    "boundary": "전국 예산배분·지급 결정·실시간 위치처리·부정수급 판정 권한은 기존 조사·시스템 업무에서 자동 발생하지 않음. 운송사업 인허가·재원·개인정보·위치정보 근거는 별도 검토."
+  }
+}

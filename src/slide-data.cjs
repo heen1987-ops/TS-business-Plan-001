@@ -1,3 +1,4 @@
+const mandates=require('./law-mapping.cjs');
 const data=require('./data.json'),architecture=require('./architecture-v2.json'),impact=require('./impact.json'),katri=require('./katri.json'),ars=require('./ars.json'),updates=require('./updates.json'),discovery=require('./discovery.json');
 const depts=data.departments.map(d=>{const u=architecture.units.find(u=>u.code===d.code);return {...d,action:d.action||u?.action||'인계 경로 상세 협의 필요',entities:d.entities||u?.entities||[],replan:d.replan||[d.change,'세부 재계획·승인 조건의 현업 확인 필요']}}),legal=data.legal;
 const {targetLabel}=require('./impact-math.cjs');
@@ -66,10 +67,16 @@ function organization(){return {title:'조직·수행업무',slides:[
  ...orgs.map((o,i)=>slide('org-'+i,o[0],o[1],[
  card('확인할 조직',o[2]),card('업무 분석 항목','법정·수탁 근거와 공식 결과','입력 문서·시스템·판단기준·예외','자료 소유·최종 승인·현장 이행의 주체','기구축 기능과 새로 필요한 처리범위')],{links:depts.filter(d=>o[2].includes(d.name)).map(d=>doc(d.name,deptPath(d))),status:'조직 명칭에 따른 임의 권한 배정 금지 · 실제 업무분장 확인 필요'}))
 ]};}
+function mandateSlide(d){const p=mandates.forDepartment(d.code),b=p.primary;return slide('mandate','이 컨셉의 주관 검토 처 · '+d.name,d.title,[card('법령 → 실제 업무',b.law.law,b.task,b.law.mode),card('담당 관계 → 제안 이유',b.ownerRole,p.rationale,b.ownerStatus),card('협업·책임의 경계',p.collaboration,b.note,p.assignmentStatus)],{status:'법령 원장·공식 업무안내와 제안상 배정을 구분 · '+mandates.date,links:[doc('처·컨셉 매핑 상세',mandates.mappingPath(d.code)),...b.sourceIds.map(id=>doc(mandates.sources[id].title,mandates.sources[id].url))]});}
+function bindingSlides(d){const p=mandates.forDepartment(d.code);return p.bindings.map(b=>{const c=b.concepts.find(c=>c.code===d.code);return slide('binding-'+b.id,b.task,c.label+' · '+b.owner,[card('법령·원 권한자',b.law.law,b.law.principal,b.law.mode),card('담당 관계·적용 이유',b.ownerRole,c.reason,b.ownerStatus),card('범위·확인사항',b.note,b.law.boundary)],{status:'법정업무 원장 인용 · 공식 과업 편성 아님',links:[doc('하위 업무별 전체 매핑','legal/mapping.html?mode=law&law='+b.lawId),...b.sourceIds.slice(0,2).map(id=>doc(mandates.sources[id].title,mandates.sources[id].url))]})});}
 function legalDeck(group){const g=legal.groups.find(g=>g.id===group),rows=legal.rows.filter(r=>!g||r.group===g.id);
 return {title:g?g.title:'법정·수탁업무',slides:[
- slide('law-map',g?g.title:'TS 법정·수탁업무 지도',g?g.laws:'업무별 수행 근거·권한자·TS 역할의 구분',g?[card('분야 설명',g.desc),card('검토 범위',rows.length+'개 대표 업무','위탁·대행·지정·조사 의뢰의 구분','현행 전결·개별 지정·지역별 고시 추가 확인')]:legal.groups.map(x=>card(x.title,x.laws,x.desc)),{layout:'grid',status:'대표 27개 업무 매핑 · 전체 위탁사무 목록과 구분',links:[doc('법령 원문·확인 범위','legal/sources.html')]}),
- ...rows.flatMap(r=>[slide(r.id,r.title,r.law,[card('수행 근거·기관',r.mode,r.principal,r.org),card('TS 처리내용',r.work),card('권한 경계·AX 연결',r.boundary,r.proposal)],{links:[...(r.official?[doc('TS 공식 업무안내',r.official)]:[]),...r.refs.map(id=>legal.sources.find(s=>s.id===id)).filter(Boolean).map(s=>doc(s.name,s.url))],status:r.status+' · '+legal.date})])
+ ...(!g?[slide('mandate-entry','법령에서 담당 처와 AX 컨셉까지','업무 특성이 다르면 같은 법령에서도 제안할 처와 컨셉이 달라짐',[
+ card('앱미터 검정 → 모빌리티연구처','자동차관리법 제47조','기능증빙·주행결과 검정','대표 컨셉: 제품 변경에 대응하는 앱미터 검증계획'),
+ card('운행정보 분석 → 데이터융복합처','교통안전법 제52조·제55조','TMACS·ETAS 정보관리·운행기록 분석','대표 컨셉: 교통위험 해석에서 예방조치까지 연결'),
+ card('자동차검사 → 역할에 따른 분리','검사기획처·검사소: 검사 운영·재검사 연결','첨단검사전략처: KADIS 진단기술 지원','첨단연구개발처: 검사방법 연구·검증')],{status:'기획상 컨셉 배정 · 내부 전결·최종 권한과 구분',links:[doc('처별 법령·컨셉 매핑 열기','legal/mapping.html'),doc('법령·업무에서 처 찾기','legal/mapping.html?mode=law')]})]:[]),
+ slide('law-map',g?g.title:'TS 법정·수탁업무 지도',g?g.laws:'업무별 수행 근거·권한자·TS 역할의 구분',g?[card('분야 설명',g.desc),card('검토 범위',rows.length+'개 대표 업무','위탁·대행·지정·조사 의뢰의 구분','현행 전결·개별 지정·지역별 고시 추가 확인')]:legal.groups.map(x=>card(x.title,x.laws,x.desc)),{layout:'grid',status:'대표 27개 업무 매핑 · 전체 위탁사무 목록과 구분',links:[doc('처·컨셉 매핑','legal/mapping.html'),doc('법령 원문·확인 범위','legal/sources.html')]}),
+ ...rows.flatMap(r=>[slide(r.id,r.title,r.law,[card('수행 근거·기관',r.mode,r.principal,r.org),card('TS 처리내용',r.work),card('권한 경계·AX 연결',r.boundary,r.proposal)],{links:[doc('하위 업무·처·컨셉 매핑','legal/mapping.html?mode=law&law='+r.id),...(r.official?[doc('TS 공식 업무안내',r.official)]:[]),...r.refs.map(id=>legal.sources.find(s=>s.id===id)).filter(Boolean).map(s=>doc(s.name,s.url))],status:r.status+' · '+legal.date})])
 ]};}
 function sources(){return {title:'근거·확인 범위',slides:chunks(legal.sources,3).map((list,i)=>slide('sources-'+i,'법령 원문과 적용 판본 '+(i+1),'출처·시행일·수행 권한의 함께 확인',list.map(s=>card(s.name,s.effective)),{links:list.map(s=>doc(s.name,s.url)),status:'기존 근거 원장 기준 '+legal.date}))};}
 function requirements(d){return chunks(d.requirements_detail||[],2).map((list,i)=>slide('requirements-'+i,'요구사항·검수 기준 '+(i+1),'기능ID → 입력·연계 → 인수조건 → 시험 → 공수의 추적',list.map(r=>card(r.id+' · '+r.name,'기능: '+r.requirement,'인수조건: '+r.acceptance,'데이터·연계: '+(r.data||'입력자료 명세 확인 필요')+' / '+(r.interface||'연계 협의 필요'),'검증·공수: '+(r.test||'검수항목 협의')+' / '+(r.wbs||r.proposed_wbs||'미연결'))),{status:planning,links:[doc('RFP 상세 명세',d.folder+'/04_RFP_요구검수.html')]}));}
@@ -114,11 +121,12 @@ if(!blocks.trace.length)blocks.trace=[slide('trace-pending','RFP 요구사항 �
 function department(d,view,q){let slides=[];
 if(q.get('view')==='impact')slides=effects(d);
 else if(q.get('view')==='requirements')slides=[...requirements(d),...costs(d),...chunks(d.annual||[],3).map((a,i)=>slide('annual-'+i,'2027년 과업 후보 '+(i+1),'대표 상세설계와 확장·계속업무의 산정 범위 구분',a.map(x=>card(x.id+' · '+x.title,x.classification,x.cost_scope)),{status:'확정 과업·예산과 구분'}))];
-else if(q.get('view')==='evidence')slides=[slide('evidence','문제·수행 근거',d.problem,[card('현행 업무',d.asis,d.system),card('전환 제안',d.ax,d.prerequisites),card('책임·검증',d.excluded,d.metric,d.denominator)],{status:planning}),...legal.rows.filter(r=>r.ax.includes(d.code)).map(r=>slide(r.id,r.title,r.law,[card('업무·수행 주체',r.work,r.principal,r.org),card('권한·적용 범위',r.boundary,r.status)],{links:[doc('공식 근거',r.official||legal.sources.find(x=>x.id===r.refs[0]).url)]}))];
+else if(q.get('view')==='evidence')slides=[mandateSlide(d),slide('evidence','문제·수행 근거',d.problem,[card('현행 업무',d.asis,d.system),card('전환 제안',d.ax,d.prerequisites),card('책임·검증',d.excluded,d.metric,d.denominator)],{status:planning}),...bindingSlides(d)];
 else if(view===2)slides=archSlides(d.code,q.get('arch'));
 else if(view===1)slides=flow(d);
 else slides=[
- slide('purpose',d.title,d.goal,[card('대상·수혜자','사용자: '+d.user,'수혜자: '+d.beneficiary,'업무 대상: '+d.object),card('문제·기존 기반',d.problem,'현행: '+d.asis,'활용: '+d.system),card('전환 후 결과',d.ax,d.done)],{status:planning}),
+ slide('purpose',d.title,d.goal,[card('대상·수혜자','사용자: '+d.user,'수혜자: '+d.beneficiary,'업무 대상: '+d.object),card('문제·기존 기반',d.problem,'현행: '+d.asis,'활용: '+d.system),card('전환 후 결과',d.ax,d.done)],{status:planning,links:[doc('담당 처·법령·컨셉 연결',mandates.mappingPath(d.code))]}),
+ mandateSlide(d),
  slide('concept','서비스 컨셉 · '+d.name,'서비스 이용 장면과 달라지는 업무·편익',[card('기대하는 업무 변화',d.ax,d.action),card('적용조건·성과',d.prerequisites,d.metric,d.denominator)],{image:'assets/isometric-v1/'+d.code+'_컨셉도.png',alt:d.name+' 2.5D 서비스 컨셉',status:'서비스 이용 장면 예시 · 시스템 아키텍처와 구분'}),
  ...flow(d),
  ...effects(d),
