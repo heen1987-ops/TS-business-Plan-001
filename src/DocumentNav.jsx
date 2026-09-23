@@ -14,7 +14,7 @@ export const documentTree=[
  branch('departments','04. 처별 AX 전환 제안',[leaf('처별 제안 목록','solutions.html'),...depts.map(d=>branch('dept-'+d.code,d.name,[
  leaf('사업 정의·컨셉',deptPath(d,0)),leaf('서비스 흐름',deptPath(d,1)),
  branch('arch-'+d.code,'상세 아키텍처',archLinks(deptPath(d,2))),
- leaf('정량 기대효과·추진 근거',deptPath(d,0)+'?view=impact'),
+ branch('measure-'+d.code,'정량효과·측정방법',[leaf('추진 근거·목표',deptPath(d,0)+'?view=impact'),...[1,2,3].map(n=>leaf('지표 '+n+' · 측정명세',deptPath(d,0)+'?view=impact&metric='+d.code+'-E0'+n+'&slide='+d.code+'-E0'+n+'-method-1'))]),
  leaf('문제·법정업무 근거',deptPath(d,0)+'?view=evidence'),
  leaf('요구사항·대가 산정',deptPath(d,0)+'?view=requirements')
  ]))]),

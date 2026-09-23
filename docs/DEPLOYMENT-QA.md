@@ -34,6 +34,7 @@ legacy에 남은 React 진입점 5개의 상대 링크 복구. 현행 화면으�
 - 읽기 전용 독립 검토: 합격, 추가 필수보완 없음
 - GitHub Pro 전환 후 workflow 권한 및 비공개 저장소 Pages 활성화 확인
 - 원격 저장소 비공개 유지, public/ 및 컴파일된 웹 화면만 Pages 공개
-- 실제 Actions 실행·공개 URL 확인: 이번 배포 후 결과 추가 예정
+- 실제 Actions 실행: 47df9ae 배포 성공(run 35826285280), 공개 version.json 일치 확인
+- 정량평가 측정명세 추가 검증: docs/MEASUREMENT.md 참조
 
 본 검증은 웹 화면·배포 패키지 검사이며 TS 업무·AI 실측 성과 검증과 구분.

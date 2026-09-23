@@ -1,6 +1,7 @@
 const data=require('./data.json'),architecture=require('./architecture-v2.json'),impact=require('./impact.json'),katri=require('./katri.json'),ars=require('./ars.json'),updates=require('./updates.json'),discovery=require('./discovery.json');
 const depts=data.departments.map(d=>{const u=architecture.units.find(u=>u.code===d.code);return {...d,action:d.action||u?.action||'인계 경로 상세 협의 필요',entities:d.entities||u?.entities||[],replan:d.replan||[d.change,'세부 재계획·승인 조건의 현업 확인 필요']}}),legal=data.legal;
 const {targetLabel}=require('./impact-math.cjs');
+const measurement=require('./measurement-data.cjs');
 const chunks=(a,n)=>Array.from({length:Math.ceil(a.length/n)},(_,i)=>a.slice(i*n,i*n+n));
 const card=(title,...bullets)=>({title,bullets:bullets.flat().filter(Boolean)});
 const slide=(id,title,message,cards=[],extra={})=>({id,title,message,cards,...extra});
@@ -82,11 +83,17 @@ function costs(d){return [
 function effects(d){const v=impact.departments[d.code];if(!v)return [];
 return [
  slide('why','왜 이 과업이 필요한가',v.why,[card('검증할 현재 한계',v.gap),card('CCK 적용방법',v.method),card('현장 확인',v.records,'확인 주체: '+v.owner)],{status:planning,links:(v.sourceIds||[]).map(id=>impact.sources.find(s=>s.id===id)).filter(Boolean).map(s=>doc(s.title,s.url))}),
- ...v.metrics.map(m=>slide(m.id,m.title,'정량 목표안과 효과가 발생하는 경로의 함께 확인',[
+ ...v.metrics.flatMap(m=>[slide(m.id,m.title,'정량 목표안과 효과가 발생하는 경로의 함께 확인',[
  card('목표안',targetLabel(m)+' 목표안',m.baselineStatus,m.targetStatus,m.comparison),
  card('측정·산식',m.formula,m.statistic,m.measure),
  card('개선 경로·해석',m.mechanism,m.model,m.value)
- ],{status:m.evidenceLevel})),
+ ],{status:m.evidenceLevel,links:[doc('이 지표 측정방법',deptPath(d)+'?view=impact&metric='+m.id+'&slide='+m.id+'-method-1')]}),
+ ...measurement.sections(m.id).map((section,i)=>slide(m.id+'-method-'+(i+1),m.title+' · 측정 '+(i+1)+'/4',section.title,
+ chunks(section.rows,3).map((rs,j)=>card(j===0?'측정 정의·수집':'검토·판정',...rs.map(([k,v])=>k+': '+v))),
+ {status:'측정 설계안 · 기준선·실측값·표본 수·기관 승인 미확정',links:[doc('39개 지표 측정명세','downloads/TS_정량평가_측정명세.md'),doc('빈 결과 기록표','downloads/TS_정량평가_결과기록표.csv')]}))
+ ]),
+ ...chunks(measurement.common,2).map((rs,i)=>slide('measurement-common-'+i,'공통 평가기준 '+(i+1),'자료 수집부터 효과 판정·증빙 확정까지',rs.map(([k,v])=>card(k,v)),{status:'기관 협의용 측정 기준 · 법정 의무기준과 구분',links:measurement.sources.map(s=>doc(s.title,s.url))})),
+
  slide('effect-boundary','성과 검증과 적용 조건','기준선·동일 SI 개선안·AI 추가효과를 구분한 판단',[card('적용 조건',v.conditions),card('품질·안전 기준',v.guard),card('평가 기록',v.records,'단축시간을 감축 인원으로 환산하지 않는 원칙')],{status:'목표 달성·인수 전 검증 필요'})
 ];}
 function flow(d){return [

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "node scripts/build.cjs",
-    "check": "node scripts/check.cjs && node scripts/check-slides.cjs",
+    "check": "node scripts/check.cjs && node scripts/check-slides.cjs && node scripts/check-measurement.cjs",
     "test": "npm run build && npm run check",
     "preview": "node scripts/preview.cjs"
   },

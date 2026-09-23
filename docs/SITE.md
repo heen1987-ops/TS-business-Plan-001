@@ -61,3 +61,6 @@ GitHub 설정의 Pages → Source는 **GitHub Actions** 사용.
 
 연구 원본 전체, 개인 드라이브, 비밀키, 인증 보조도구 및 node_modules는 저장소 배포 범위에 포함하지 않음.
 
+
+정량평가 보강: [측정명세 및 검증기록](MEASUREMENT.md). 처별 정량효과·측정방법 목차에서 접근. MD·JSON·빈 CSV 결과표 다운로드 제공.
+
