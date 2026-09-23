@@ -6,7 +6,7 @@ for(const route of routes){const f=path.join(out,route);check(fs.existsSync(f),'
 for(const u of arch.units){check(fs.existsSync(path.join(out,'assets/architecture-v2',u.code+'_전체아키텍처.svg')),'아키텍처 '+u.code);check(fs.existsSync(path.join(out,'downloads/architecture-v2',u.code+'_상세아키텍처.md')),'명세 '+u.code);check(u.modules.length===4,'업무 모듈 '+u.code);check(u.modules.every(m=>m.connections.length===m.interfaces.length),'계약 참조 '+u.code);}
 for(const d of data.departments){check(fs.existsSync(path.join(out,'assets/isometric-v1',d.code+'_컨셉도.png')),'컨셉 이미지 '+d.code);check(fs.existsSync(path.join(out,'assets',d.code+'_서비스흐름도.svg')),'흐름 이미지 '+d.code);}
 const bad=[],files=[];
-function walk(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(e.isSymbolicLink())throw Error('심볼릭 링크 제외: '+p);e.isDirectory()?walk(p):files.push(p)}}walk(out);
+function walk(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,e.name);const stat=fs.lstatSync(p);if(stat.isSymbolicLink())throw Error('심볼릭 링크 제외: '+p);stat.isDirectory()?walk(p):files.push(p)}}walk(out);
 for(const f of files){if(!/\.(html|json|md|css|js)$/.test(f))continue;const text=fs.readFileSync(f,'utf8');
 check(!/(?:[CG]:[\\/](?:Users|내 드라이브)|github_pat_[A-Za-z0-9_]{20,}|gh[pousr]_[A-Za-z0-9]{25,}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----)/.test(text),'공개파일 경계 '+path.relative(out,f));
 if(!f.endsWith('.html'))continue;

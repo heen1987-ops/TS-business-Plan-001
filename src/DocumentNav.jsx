@@ -7,7 +7,8 @@ const branch=(id,title,children)=>({id,title,children});
 const views=[['modules','구성요소·역할'],['interfaces','연계·인터페이스'],['data','데이터·원장'],['runtime','서버 배치·복구'],['trace','요구사항·RFP 추적']];
 function archLinks(base){return [leaf('전체 구성도',base),...views.map(([id,t])=>leaf(t,base+(base.includes('?')?'&':'?')+'arch='+id))]}
 export const documentTree=[
- leaf('자료 안내','index.html'),
+ leaf('조직 기반 연결지도','index.html'),
+ leaf('자료 안내','index.html?view=guide'),
  branch('institution','01. TS 기관 이해',[leaf('기관의 존재 의의','about.html'),branch('laws','법정·수탁업무',[leaf('전체 업무 지도','legal.html'),...legal.groups.map(g=>leaf(g.title,'legal/'+g.id+'.html')),leaf('법령 근거·확인 범위','legal/sources.html')])]),
  branch('strategy','02. 2026–2030 계획',[leaf('경영목표·전략과제','vision.html')]),
  branch('organization','03. 조직·수행업무',[leaf('조직도·업무 연결','organization.html'),leaf('대국민 ARS 업무지도','ars.html')]),
