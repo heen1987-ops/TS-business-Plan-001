@@ -5,7 +5,7 @@ export const deptPath=(d,view=0)=>d.folder+'/'+['01_사업정의','02_UI시제�
 export const asset=(d,v=0)=>href(v===0?'assets/isometric-v1/'+d.code+'_컨셉도.png':'assets/'+d.code+'_'+['컨셉도','서비스흐름도','아키텍처'][v]+'.svg');
 export const source=id=>legal.sources.find(s=>s.id===id);
 export const readRoute=()=>decodeURI(location.pathname).slice(decodeURI(new URL(base).pathname).length)||'index.html';
-const direct=['websites.html','architecture.html','katri.html','ars.html','updates.html','discovery.html','index.html','react/index.html','about.html','vision.html','organization.html','solutions.html','inspection.html','legal.html','10_세대화_통합검토.html','11_중장기목표_처별성과.html','16_조직도_수행업무_분석.html','17_조직별_AX_전환제안.html'];
+const direct=['registry.html','websites.html','architecture.html','katri.html','ars.html','updates.html','discovery.html','index.html','react/index.html','about.html','vision.html','organization.html','solutions.html','inspection.html','legal.html','10_세대화_통합검토.html','11_중장기목표_처별성과.html','16_조직도_수행업무_분석.html','17_조직별_AX_전환제안.html'];
 export function isReact(to){return direct.includes(to.split('?')[0])||/^legal\/[^/]+\.html/.test(to)||/^처별\/[^/]+\/0[123]_/.test(to)}
 export function navigate(to){if(location.protocol==='file:'||!isReact(to)){location.assign(href(to));return}history.pushState({},'',href(to));window.dispatchEvent(new PopStateEvent('popstate'));}
 export function Link({to,children,className='',onClick,...props}){return <a href={href(to)} className={className} onClick={e=>{onClick?.(e);if(!e.defaultPrevented&&!e.ctrlKey&&!e.metaKey&&!e.shiftKey&&!e.altKey&&e.button===0&&isReact(to)&&!props.download){e.preventDefault();navigate(to)}}} {...props}>{children}</a>}
