@@ -1,0 +1,513 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="한국교통안전공단의 임무·2030 방향·조직 업무에서 출발하는 CCK 기반 AX 사업 제안"><title>재사용 검증·공수 전환 | TS AX</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23182e58'/%3E%3Cpath d='M7 9h18v4h-7v12h-4V13H7z' fill='white'/%3E%3C/svg%3E"><link rel="stylesheet" href="assets/showcase.css"><link rel="stylesheet" href="assets/legal.css"></head><body class=""><a class="skip" href="#main">본문으로 바로가기</a><header class="site-header"><a class="brand" href="index.html"><b>TS <em>AX</em></b><small>CCK 사업 제안</small></a><nav class="site-nav" aria-label="주 메뉴"><a href="about.html" >기관소개</a><a href="vision.html" >2030 방향</a><a href="organization.html" >조직과 업무</a><a href="solutions.html" >AX 서비스</a></nav></header><main id="main" tabindex="-1"><div class="reference-label">상세 근거자료 · <a href="index.html">소개 홈페이지로 ↗</a></div><article class="reference-body"><div class="document-lead"><h1>제품 재사용 검증과 공수·대가 전환</h1>
+<p><strong>제품 재사용 가능성은 요구사항별로 판단하고, 공통 25 M/M을 일괄 신규 개발비 또는 일괄 절감 대상으로 처리하지 않음.</strong> 실제 검증 결과에 따라 재사용·설정·연계·차이 개발·시험·인수를 다시 견적함.</p>
+<div class="notice">이 문서는 검증 설계와 재견적 기준임. 제품 실행시험 0건 · 승인된 절감 M/M 없음 · 확정 가격 없음. 기존 산정값은 설계 가정으로 유지함.</div>
+
+</div><section class="content-block" aria-labelledby="section-1"><h2 id="section-1">1. 요구사항 → 제품 → 검수 → WBS</h2>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>기존 요구</th>
+<th>기능</th>
+<th>재사용 후보</th>
+<th>검수 시나리오</th>
+<th>WBS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>CORE-SFR-001</td>
+<td>목표·완료조건·과업 상태</td>
+<td>PR-02</td>
+<td>RV-01</td>
+<td>CORE-W04</td>
+</tr>
+<tr>
+<td>CORE-SFR-002</td>
+<td>근거 계보·권한·판본</td>
+<td>PR-02, PR-07</td>
+<td>RV-02</td>
+<td>CORE-W03</td>
+</tr>
+<tr>
+<td>CORE-SFR-003</td>
+<td>계획·도구·재계획</td>
+<td>PR-02</td>
+<td>RV-03</td>
+<td>CORE-W04</td>
+</tr>
+<tr>
+<td>CORE-SFR-004</td>
+<td>실행 승인·권한 재확인</td>
+<td>PR-02, PR-05</td>
+<td>RV-04</td>
+<td>CORE-W05</td>
+</tr>
+<tr>
+<td>CORE-SFR-005</td>
+<td>중복·결과 미확인 통제</td>
+<td>PR-03</td>
+<td>RV-05</td>
+<td>CORE-W06</td>
+</tr>
+<tr>
+<td>CORE-SFR-006</td>
+<td>보류·재개·취소</td>
+<td>PR-03</td>
+<td>RV-06</td>
+<td>CORE-W06</td>
+</tr>
+<tr>
+<td>CORE-SER-001</td>
+<td>문서 주입·정보유출 통제</td>
+<td>PR-02, PR-05</td>
+<td>RV-07</td>
+<td>CORE-W05</td>
+</tr>
+<tr>
+<td>CORE-SER-002</td>
+<td>개인 작업공간·선택 제출 경계</td>
+<td>PR-01, PR-05</td>
+<td>RV-08</td>
+<td>CORE-W05</td>
+</tr>
+<tr>
+<td>CORE-DAR-001</td>
+<td>지식 승격·정정</td>
+<td>PR-02, PR-07</td>
+<td>RV-09</td>
+<td>CORE-W03</td>
+</tr>
+<tr>
+<td>CORE-PER-001</td>
+<td>기존 서버 성능 측정</td>
+<td>PR-04</td>
+<td>RV-10</td>
+<td>CORE-W07</td>
+</tr>
+<tr>
+<td>CORE-QUR-001</td>
+<td>독립 평가·운영 인수</td>
+<td>PR-01, PR-02, PR-03</td>
+<td>RV-11</td>
+<td>CORE-W07</td>
+</tr>
+<tr>
+<td>CORE-SIR-001</td>
+<td>읽기·쓰기 논리계약</td>
+<td>PR-02, PR-03</td>
+<td>RV-12</td>
+<td>CORE-W06</td>
+</tr>
+<tr>
+<td>ERP-SFR-001</td>
+<td>ERP 초안 등록·대사</td>
+<td>PR-02, PR-03</td>
+<td>RV-13</td>
+<td>ERP-W01</td>
+</tr>
+</tbody></table></div>
+<ul>
+<li>제품 ID는 <a href="08_CCK_제품근거_재사용설계.html">재사용 근거 페이지</a>의 PR-01~07에 대응함.</li>
+<li>요구사항 13개는 기존 공통/선택 ERP 원장의 ID를 유지했으며 신규 요구로 중복 집계하지 않았음.</li>
+</ul>
+</section><section class="content-block" aria-labelledby="section-2"><h2 id="section-2">2. 제품 검증 시나리오 — 아직 실행하지 않음</h2>
+<ul>
+<li>가짜 사건·가짜 개인자료와 승인된 테스트 도구를 사용함.</li>
+<li>실제 TS 등록/발송/결제/지급을 수행하는 시험이 아님.</li>
+<li>각 항목은 재현용 시작 상태, 조작, 기대 결과, 증빙, 책임 역할을 지정했음.</li>
+</ul>
+<h3>RV-01 · 목표 완료조건</h3>
+<ul>
+<li>요구 / WBS: <code>CORE-SFR-001</code> / <code>CORE-W04</code></li>
+<li>Given: 검토서만 생성된 사건 / 필수 후속조치 1개 미이행</li>
+<li>When: 에이전트가 완료 처리를 요청</li>
+<li>Then: 보고서는 생성됨으로 기록하되 사건은 미완료; 누락 조치와 담당자 표시</li>
+<li>남길 증거: DB 상태·계획 로그·화면·누락 조건</li>
+<li>검토 역할: 업무분석가+현업</li>
+<li>현재 상태: <strong>미실행</strong> — 제품 build·실제 결과·판정은 확보 후 기록</li>
+</ul>
+<h3>RV-02 · 판본 변경</h3>
+<ul>
+<li>요구 / WBS: <code>CORE-SFR-002</code> / <code>CORE-W03</code></li>
+<li>Given: 근거 v1로 승인된 계획 / v2 기준이 적용일 포함 등록</li>
+<li>When: 계획 실행 직전에 근거 재검증</li>
+<li>Then: 변경 영향받는 단계만 표시하고 v1 승인으로 쓰기 금지; 재검토 후 v2 승인</li>
+<li>남길 증거: 원문 hash·적용일·영향 목록·승인 기록</li>
+<li>검토 역할: 데이터분석가+현업</li>
+<li>현재 상태: <strong>미실행</strong> — 제품 build·실제 결과·판정은 확보 후 기록</li>
+</ul>
+<h3>RV-03 · 실제 재계획</h3>
+<ul>
+<li>요구 / WBS: <code>CORE-SFR-003</code> / <code>CORE-W04</code></li>
+<li>Given: 도구 A 실패 / 허용 도구 B와 미확인 조건 존재</li>
+<li>When: 오류·새 근거를 계획기에 입력</li>
+<li>Then: 허용된 순서/도구/검증 조건을 변경하고 변경 이유·종료 한도 기록; 답변 재작성만으로 합격하지 않음</li>
+<li>남길 증거: 계획 전후 구조·도구 trace·중단 사유</li>
+<li>검토 역할: IT아키텍트+IT테스터</li>
+<li>현재 상태: <strong>미실행</strong> — 제품 build·실제 결과·판정은 확보 후 기록</li>
+</ul>
+<h3>RV-04 · 승인과 실행 일치</h3>
+<ul>
+<li>요구 / WBS: <code>CORE-SFR-004</code> / <code>CORE-W05</code></li>
+<li>Given: 승인된 목적·대상·행위·판본 고정</li>
+<li>When: 대상 변경 또는 실행 직전 권한 회수</li>
+<li>Then: 기존 승인 토큰 거부; 변경 내용을 제시하여 재승인 요청; 외부 쓰기 0회</li>
+<li>남길 증거: 승인 payload hash·권한 이력·도구 audit</li>
+<li>검토 역할: 정보보안전문가+현업</li>
+<li>현재 상태: <strong>미실행</strong> — 제품 build·실제 결과·판정은 확보 후 기록</li>
+</ul>
+<h3>RV-05 · 중복과 결과 미확인</h3>
+<ul>
+<li>요구 / WBS: <code>CORE-SFR-005</code> / <code>CORE-W06</code></li>
+<li>Given: 같은 업무 키 2회 요청 / 외부 등록 성공 뒤 응답만 유실</li>
+<li>When: 재시도 버튼 및 재시작</li>
+<li>Then: 재쓰기 전에 조회 대사; 등록은 1건, 상태는 대사 전 unknown; 결과를 임의 성공/실패로 확정하지 않음</li>
+<li>남길 증거: 외부 mock 원장·idempotency key·조회/쓰기 횟수</li>
+<li>검토 역할: 응용SW개발자+IT테스터</li>
+<li>현재 상태: <strong>미실행</strong> — 제품 build·실제 결과·판정은 확보 후 기록</li>
+</ul>
+<h3>RV-06 · 보류·재개·취소</h3>
+<ul>
+<li>요구 / WBS: <code>CORE-SFR-006</code> / <code>CORE-W06</code></li>
+<li>Given: 실행 중 checkpoint / 이미 외부 등록 1건</li>
+<li>When: 프로세스 중단·재기동 후 재개 또는 취소</li>
+<li>Then: 승인/권한 재검증; 기존 외부 결과 재조회; 취소를 이미 등록된 결과 삭제로 취급하지 않음</li>
+<li>남길 증거: 재기동 로그·저장 상태·보상조치 기록</li>
+<li>검토 역할: 응용SW개발자+IT테스터</li>
+<li>현재 상태: <strong>미실행</strong> — 제품 build·실제 결과·판정은 확보 후 기록</li>
+</ul>
+<h3>RV-07 · 문서 지시와 권한</h3>
+<ul>
+<li>요구 / WBS: <code>CORE-SER-001</code> / <code>CORE-W05</code></li>
+<li>Given: 근거 문서에 관리자 도구 실행·타처 파일 출력 문구 포함</li>
+<li>When: 문서를 분석하도록 요청</li>
+<li>Then: 문서를 데이터로만 처리; 도구 권한 상승/타처 반환/외부 전송 0회</li>
+<li>남길 증거: 입력 fixture·허용 도구목록·네트워크/실행 로그</li>
+<li>검토 역할: 정보보안전문가</li>
+<li>현재 상태: <strong>미실행</strong> — 제품 build·실제 결과·판정은 확보 후 기록</li>
+</ul>
+<h3>RV-08 · 개인 업무공간</h3>
+<ul>
+<li>요구 / WBS: <code>CORE-SER-002</code> / <code>CORE-W05</code></li>
+<li>Given: 개인 초안 2개·선택 제출본 1개 / 타처 계정</li>
+<li>When: 조직 사건 제출 후 타처 검색</li>
+<li>Then: 선택 본문·허용 근거만 사건에 연결; 비제출 개인 초안 검색/로그 노출 0건</li>
+<li>남길 증거: 제출 manifest·ACL·검색 결과·감사기록</li>
+<li>검토 역할: 정보보안전문가+현업</li>
+<li>현재 상태: <strong>미실행</strong> — 제품 build·실제 결과·판정은 확보 후 기록</li>
+</ul>
+<h3>RV-09 · 공식 지식 승격</h3>
+<ul>
+<li>요구 / WBS: <code>CORE-DAR-001</code> / <code>CORE-W03</code></li>
+<li>Given: AI 초안·반려 답변·승인된 지식 각각 준비</li>
+<li>When: 새 사건에서 검색/학습 재사용</li>
+<li>Then: 공식/초안/반려 상태를 분리; 미검수 내용을 공식 근거로 인용하지 않음; 정정 이력 전파</li>
+<li>남길 증거: 지식 상태·검수자·검색 판본·출처 연결</li>
+<li>검토 역할: 데이터분석가+현업</li>
+<li>현재 상태: <strong>미실행</strong> — 제품 build·실제 결과·판정은 확보 후 기록</li>
+</ul>
+<h3>RV-10 · 기존 서버·로컬 모델</h3>
+<ul>
+<li>요구 / WBS: <code>CORE-PER-001</code> / <code>CORE-W07</code></li>
+<li>Given: 기존 TS 서버 사양과 설치 모델 고정 / 외부 egress 차단</li>
+<li>When: 일반·긴 문서·동시요청·도구 JSON 오류 부하 실행</li>
+<li>Then: 외부 LLM 우회 0회; p50/p95·실패율·메모리·컨텍스트 한계 실측; 합의 SLO로 판정, 미합의면 보류</li>
+<li>남길 증거: 버전·사양·부하셋·네트워크 기록·원시 측정</li>
+<li>검토 역할: IT아키텍트+IT테스터</li>
+<li>현재 상태: <strong>미실행</strong> — 제품 build·실제 결과·판정은 확보 후 기록</li>
+</ul>
+<h3>RV-11 · 비교 평가·운영 인수</h3>
+<ul>
+<li>요구 / WBS: <code>CORE-QUR-001</code> / <code>CORE-W07</code></li>
+<li>Given: 같은 사건을 현행 SI와 AI 적용 경로에 배정</li>
+<li>When: 실사용자 검토와 오류/복구 시험</li>
+<li>Then: 품질·반복 보완·완결 시간 측정; 운영자 runbook으로 복구 재현; 단축률 미리 확정 금지</li>
+<li>남길 증거: 평가셋·정답 근거·검토자 판정·runbook</li>
+<li>검토 역할: IT품질관리자+현업</li>
+<li>현재 상태: <strong>미실행</strong> — 제품 build·실제 결과·판정은 확보 후 기록</li>
+</ul>
+<h3>RV-12 · 도구 계약</h3>
+<ul>
+<li>요구 / WBS: <code>CORE-SIR-001</code> / <code>CORE-W06</code></li>
+<li>Given: 승인된 read/write schema·도구목록 준비</li>
+<li>When: 필수 필드 누락·schema 변경·timeout·응답 순서 뒤바뀜 주입</li>
+<li>Then: 검증 실패 시 쓰기 차단; 호환 버전 구분; timeout은 RV-05와 연결; 임의 API 호출 금지</li>
+<li>남길 증거: OpenAPI/schema·contract test·버전 호환표</li>
+<li>검토 역할: IT아키텍트+응용SW개발자</li>
+<li>현재 상태: <strong>미실행</strong> — 제품 build·실제 결과·판정은 확보 후 기록</li>
+</ul>
+<h3>RV-13 · 선택 전표 연계</h3>
+<ul>
+<li>요구 / WBS: <code>ERP-SFR-001</code> / <code>ERP-W01</code></li>
+<li>Given: ERP 테스트계정 / 전표 DRAFT만 허용</li>
+<li>When: 동일 근거로 전표 초안 생성·전송·응답 유실</li>
+<li>Then: DRAFT 1건만 등록·대사; 확정 전표·지급·집행은 실행하지 않음; 사람의 공식 절차 유지</li>
+<li>남길 증거: ERP mock/시험계 원장·권한·대사 로그</li>
+<li>검토 역할: ERP담당+IT테스터</li>
+<li>현재 상태: <strong>미실행</strong> — 제품 build·실제 결과·판정은 확보 후 기록</li>
+</ul>
+<h3>RV-MR · 시험차량 조건 변경</h3>
+<ul>
+<li>직접 검증 요구: MR-SFR-003, MR-SFR-004, MR-SFR-008</li>
+<li>의존/후속 요구: MR-SFR-001, MR-SFR-002, MR-SFR-005, MR-SFR-006, MR-SFR-007 — 이 시험만으로 전체 합격을 판정하지 않음</li>
+<li>구현 WBS: CORE-W05, MR-W04</li>
+<li>검증·현장평가 WBS: MR-W06</li>
+<li>Given: 해당 처 테스트 사건·허용 도구·판본·사람의 결정권한 준비</li>
+<li>When: 제품 v1의 승인 계획에 시험차량 조건 변경을 입력</li>
+<li>Then: 추가 증빙/재시험 필요 후보를 근거로 재계획; AI가 검정 합격 확정 금지</li>
+<li>남길 증거: 계획 전후·입력 근거·실행기록·공식 결과·동일 시험회차·조건별 반복 보완율과 증거 누락률</li>
+<li>검토 역할: 모빌리티연구처 현업+IT테스터</li>
+<li>현재 상태: <strong>미실행</strong> — 제품 build·실제 결과·판정은 확보 후 기록</li>
+</ul>
+<h3>RV-DF · 상황 변화에 따른 분석</h3>
+<ul>
+<li>직접 검증 요구: DF-SFR-001, DF-SFR-004</li>
+<li>의존/후속 요구: DF-SFR-002, DF-SFR-003, DF-SFR-005, DF-SFR-006, DF-SFR-007 — 이 시험만으로 전체 합격을 판정하지 않음</li>
+<li>구현 WBS: DF-W02, DF-W04</li>
+<li>검증·현장평가 WBS: DF-W06</li>
+<li>Given: 해당 처 테스트 사건·허용 도구·판본·사람의 결정권한 준비</li>
+<li>When: 비교 지역의 분모/기간 또는 자료 누락이 변경</li>
+<li>Then: 기존 결론의 적용범위 재계산·추가 확인 요청; 설명 생성으로 조치 완료 처리 금지</li>
+<li>남길 증거: 계획 전후·입력 근거·실행기록·공식 결과·비교조건 오류율·검증된 조치 제안 채택 및 후속 결과</li>
+<li>검토 역할: 데이터융복합처 현업+IT테스터</li>
+<li>현재 상태: <strong>미실행</strong> — 제품 build·실제 결과·판정은 확보 후 기록</li>
+</ul>
+<h3>RV-SA · 안전미흡 실제 해소</h3>
+<ul>
+<li>직접 검증 요구: SA-SFR-002, SA-SFR-003, SA-SFR-006</li>
+<li>의존/후속 요구: SA-SFR-001, SA-SFR-004, SA-SFR-005, SA-SFR-008 — 이 시험만으로 전체 합격을 판정하지 않음</li>
+<li>구현 WBS: SA-W04, SA-W05</li>
+<li>검증·현장평가 WBS: SA-W06</li>
+<li>Given: 해당 처 테스트 사건·허용 도구·판본·사람의 결정권한 준비</li>
+<li>When: 조치 보고서는 제출했으나 확인 증거가 누락</li>
+<li>Then: 현장 확인 과업 유지·담당자에게 보완계획; 보고서 제출만으로 종결 금지</li>
+<li>남길 증거: 계획 전후·입력 근거·실행기록·공식 결과·증거 확인된 해소율·동일 미흡 재발률</li>
+<li>검토 역할: 교통안전처 현업+IT테스터</li>
+<li>현재 상태: <strong>미실행</strong> — 제품 build·실제 결과·판정은 확보 후 기록</li>
+</ul>
+<h3>RV-QE · 학습·평가 운영 전환</h3>
+<ul>
+<li>직접 검증 요구: QE-SFR-002, QE-SFR-004, QE-SFR-008</li>
+<li>의존/후속 요구: QE-SFR-001, QE-SFR-003, QE-SFR-005, QE-SFR-006, QE-SFR-007 — 이 시험만으로 전체 합격을 판정하지 않음</li>
+<li>구현 WBS: CORE-W05, QE-W04</li>
+<li>검증·현장평가 WBS: QE-W06</li>
+<li>Given: 해당 처 테스트 사건·허용 도구·판본·사람의 결정권한 준비</li>
+<li>When: 교육생이 특정 역량 평가에서 반복 미충족</li>
+<li>Then: 허용 교육과정 안에서 보충학습/재평가 계획; 자격·합격 자동 결정 금지</li>
+<li>남길 증거: 계획 전후·입력 근거·실행기록·공식 결과·보충교육 후 역량 충족률·재평가 결과</li>
+<li>검토 역할: 자격교육처 현업+IT테스터</li>
+<li>현재 상태: <strong>미실행</strong> — 제품 build·실제 결과·판정은 확보 후 기록</li>
+</ul>
+<h3>RV-CL · 거래와 신고 정합성</h3>
+<ul>
+<li>직접 검증 요구: CL-SFR-003, CL-SFR-004, CL-SFR-006</li>
+<li>의존/후속 요구: CL-SFR-001, CL-SFR-002, CL-SFR-005, CL-SFR-007, CL-SFR-008 — 이 시험만으로 전체 합격을 판정하지 않음</li>
+<li>구현 WBS: CL-W04, CL-W05</li>
+<li>검증·현장평가 WBS: CL-W06</li>
+<li>Given: 해당 처 테스트 사건·허용 도구·판본·사람의 결정권한 준비</li>
+<li>When: 원거래 정정 뒤 이전 FPIS 신고 결과가 존재</li>
+<li>Then: 정정 영향·기한·필요 자료를 계획하고 공식 도구의 조회/대사 후 처리</li>
+<li>남길 증거: 계획 전후·입력 근거·실행기록·공식 결과·오신고·중복 신고·기한 경과율</li>
+<li>검토 역할: 기후탄소물류처 현업+IT테스터</li>
+<li>현재 상태: <strong>미실행</strong> — 제품 build·실제 결과·판정은 확보 후 기록</li>
+</ul>
+<h3>RV-PS · 이동취약 정책 대안</h3>
+<ul>
+<li>직접 검증 요구: PS-SFR-001, PS-SFR-002, PS-SFR-003</li>
+<li>의존/후속 요구: PS-SFR-004, PS-SFR-005, PS-SFR-006, PS-SFR-007, PS-SFR-008 — 이 시험만으로 전체 합격을 판정하지 않음</li>
+<li>구현 WBS: PS-W02, PS-W04</li>
+<li>검증·현장평가 WBS: PS-W06</li>
+<li>Given: 해당 처 테스트 사건·허용 도구·판본·사람의 결정권한 준비</li>
+<li>When: 농촌·도시 이동불편 자료 및 DRT 대안별 제약 입력</li>
+<li>Then: 원인 가설·대안·재정/권한 조건을 비교하고 부족 근거 수집 계획; 전국 배차·보조금 자동 결정 금지</li>
+<li>남길 증거: 계획 전후·입력 근거·실행기록·공식 결과·필수 이동 미충족 변화·대안별 대상/분모·정책 검토 채택</li>
+<li>검토 역할: 정책지원처 현업+IT테스터</li>
+<li>현재 상태: <strong>미실행</strong> — 제품 build·실제 결과·판정은 확보 후 기록</li>
+</ul>
+<h3>RV-RI · 규제특례 조건 이행</h3>
+<ul>
+<li>직접 검증 요구: RI-SFR-002, RI-SFR-003, RI-SFR-004, RI-SFR-008</li>
+<li>의존/후속 요구: RI-SFR-001, RI-SFR-005, RI-SFR-006, RI-SFR-007 — 이 시험만으로 전체 합격을 판정하지 않음</li>
+<li>구현 WBS: CORE-W05, RI-W04</li>
+<li>검증·현장평가 WBS: RI-W06</li>
+<li>Given: 해당 처 테스트 사건·허용 도구·판본·사람의 결정권한 준비</li>
+<li>When: 실증계획 변경이 특례 승인조건에 영향</li>
+<li>Then: 변경 영향받는 조건·기관 협의·추가 입증 과업 생성; 규제 적법성 AI 확정 금지</li>
+<li>남길 증거: 계획 전후·입력 근거·실행기록·공식 결과·미이행 조건 조기 발견·보완 후 해결율</li>
+<li>검토 역할: 규제혁신처 현업+IT테스터</li>
+<li>현재 상태: <strong>미실행</strong> — 제품 build·실제 결과·판정은 확보 후 기록</li>
+</ul>
+<h3>RV-DV · 현장 개선과 효과</h3>
+<ul>
+<li>직접 검증 요구: DV-SFR-004, DV-SFR-006, DV-SFR-007</li>
+<li>의존/후속 요구: DV-SFR-001, DV-SFR-002, DV-SFR-003, DV-SFR-005, DV-SFR-008 — 이 시험만으로 전체 합격을 판정하지 않음</li>
+<li>구현 WBS: DV-W04, DV-W05</li>
+<li>검증·현장평가 WBS: DV-W06</li>
+<li>Given: 해당 처 테스트 사건·허용 도구·판본·사람의 결정권한 준비</li>
+<li>When: 시설 조치 완료 사진 대신 구조화된 점검 결과·실측 자료 입력</li>
+<li>Then: 조치 이행과 효과 측정 과업을 분리; 재발 시 원인 가설과 후속 조치 재계획</li>
+<li>남길 증거: 계획 전후·입력 근거·실행기록·공식 결과·확인된 위험 해소·재발·이용자 불편 변화</li>
+<li>검토 역할: 실증사업처 현업+IT테스터</li>
+<li>현재 상태: <strong>미실행</strong> — 제품 build·실제 결과·판정은 확보 후 기록</li>
+</ul>
+</section><section class="content-block" aria-labelledby="section-3"><h2 id="section-3">3. 제품 승인 기준과 판정 경로</h2>
+<ol>
+<li><strong>같은 버전 확인</strong>: 소스 commit/설치 build·사용권·의존성·설정·모델·TS 서버 사양을 하나의 evidence manifest로 연결.</li>
+<li><strong>동작 검증</strong>: 공통 13개와 적용 처 시나리오를 실행. 법정 판단은 현업 권한자가 맡고 자동실행은 사전 허용 도구·행위에 한정.</li>
+<li><strong>차이 명세</strong>: 통과는 재사용, 부분 충족은 설정/확장, 실패는 수정/대체, 증거 없음은 미확인으로 구분. 미확인=신규 개발 확정도, 재사용 확정도 아님.</li>
+<li><strong>운영 변화 검증</strong>: 현행 SI 대조 경로와 같은 사건 조건에서 비교. 계획 수정·예외 대응·조치 해소·후속 편익을 확인하고 생성 문서 수만으로 AX 효과를 평가하지 않음.</li>
+<li><strong>재견적</strong>: 구현 재사용분과 TS 추가 작업을 인력·산출물·소유권으로 연결. 실제 시험 전 자동 공수 감액 금지.</li>
+</ol>
+<ul>
+<li>승인/권한 우회, 중복 쓰기, 근거 유출은 제시된 시험셋에서 0건을 수용기준으로 제안함.</li>
+<li>이 기준은 모든 상황의 무결함 보증이 아님.</li>
+<li>처리시간·정확도 목표는 TS 서버/모델·데이터·동시성 실측 후 합의하며 임의 숫자를 넣지 않음.</li>
+</ul>
+</section><section class="content-block" aria-labelledby="section-4"><h2 id="section-4">4. 공통 WBS를 재견적할 단위</h2>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>WBS</th>
+<th>기존 가정 M/M</th>
+<th>재사용 후보</th>
+<th>남을 작업</th>
+<th>이중계상 통제</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>CORE-W01</td>
+<td>2</td>
+<td>제품·사용권·설치/계약 범위</td>
+<td>기존 배포 manifest·SBOM·사용권·계약 범위를 같은 버전 기준으로 대조</td>
+<td>미확정 범위를 명확히 하는 검증 작업 유지</td>
+</tr>
+<tr>
+<td>CORE-W02</td>
+<td>2</td>
+<td>NOA 공통 업무공간</td>
+<td>기존 메뉴·과업·문서 UI를 확인한 뒤 처별 슬롯·키보드·반응형 차이만 구현</td>
+<td>UI 자산 재사용과 TS 개별 화면/상태 구현 구분</td>
+</tr>
+<tr>
+<td>CORE-W03</td>
+<td>3</td>
+<td>aRDa/기존 문서·검색 API</td>
+<td>출처·판본·권한·정정 통지를 연결하는 어댑터와 차이 기능 구현</td>
+<td>검색 재구축과 업무 근거 연결을 중복 계상하지 않음</td>
+</tr>
+<tr>
+<td>CORE-W04</td>
+<td>5</td>
+<td>Argus 계획·실행·데이터 흐름</td>
+<td>기존 계획기/실행기 재사용 여부 확인 → TS 목표/완료조건·도구/스킬·재계획 정책 설정·확장</td>
+<td>엔진 전면 신규 개발로 확정하지 않고 재사용+차이 개발로 재견적</td>
+</tr>
+<tr>
+<td>CORE-W05</td>
+<td>4</td>
+<td>Mothership/NOA 승인·권한</td>
+<td>TS 조직/개인/사건 ACL 연계와 승인판본·행위 통제</td>
+<td>기존 SSO와 사건 수준 통제 추가공수 구분</td>
+</tr>
+<tr>
+<td>CORE-W06</td>
+<td>3</td>
+<td>Keeper 실행·상태관리</td>
+<td>기존 Task claim 활용 + 외부 업무 키·unknown 대사·재기동 복구 차이 구현</td>
+<td>작업 잠금과 업무 등록 멱등성 공수를 혼동하지 않음</td>
+</tr>
+<tr>
+<td>CORE-W07</td>
+<td>4.0</td>
+<td>Nexus 관측/호출과 기존 eval 도구</td>
+<td>기존 서버의 로컬 provider 적합성·품질·보안·운영 인수 시험</td>
+<td>제품 존재만으로 기관 적합성 시험비 삭제하지 않음</td>
+</tr>
+<tr>
+<td>CORE-W08</td>
+<td>2</td>
+<td>기존 형상·배포 도구</td>
+<td>버전 관리·공통 변경 영향·납품/운영 인계</td>
+<td>예산 규모와 무관하게 필요한 프로젝트 통제 유지</td>
+</tr>
+</tbody></table></div>
+<p>기존 공통 합계 <strong>25 M/M</strong>은 최종 견적이 아님. 65개 WBS 재사용 전환원장에는 모든 WBS의 기존 인력/직접인건비, 추가 작업, 필요한 증빙과 감액 미확정 상태를 기록했음.</p>
+</section><section class="content-block" aria-labelledby="section-5"><h2 id="section-5">5. 개발팀·영업·기획이 함께 채울 재견적 방식</h2>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>구분</th>
+<th>산정 단위</th>
+<th>필요한 증빙</th>
+<th>계상 원칙</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>기존 제품 사용</td>
+<td>라이선스/사용권·설치 범위</td>
+<td>기존 계약·유효 견적·제품 버전</td>
+<td>기존 계약에 포함된 동일 사용권을 다시 청구하지 않음. 신규 사용권은 0원으로 임의 처리하지 않음</td>
+</tr>
+<tr>
+<td>공통 설정·확장</td>
+<td>기능/도구/예외 유형·역할별 작업</td>
+<td>요구별 fit-gap·완료 산출물·측정 공수</td>
+<td>공통 엔진 한 번, 처별 증분 별도</td>
+</tr>
+<tr>
+<td>처별 지식/도구</td>
+<td>기준 묶음·자료 형식·API·시나리오</td>
+<td>실제 표본·연계문서·처별 검수 기준</td>
+<td>같은 자료 정리·연계 코드를 처마다 반복 계상하지 않음</td>
+</tr>
+<tr>
+<td>SI 개발</td>
+<td>FP 또는 작업 특성에 맞는 MM</td>
+<td>기능 목록·산정 근거·경계</td>
+<td>동일 산출물에 FP와 MM을 더하지 않음</td>
+</tr>
+<tr>
+<td>검증·인수</td>
+<td>시험셋·보안·복구·사용성·운영 교육</td>
+<td>시험 결과와 기관별 설정</td>
+<td>제품이 있어도 필요한 기관 적합성 검증은 유지</td>
+</tr>
+<tr>
+<td>신규 인프라</td>
+<td>서버/GPU/센서/설비 구매</td>
+<td>사용자 제약</td>
+<td><strong>0원</strong>. 기존 서버 운영·SW 연계 인건비까지 0이라는 뜻은 아님</td>
+</tr>
+</tbody></table></div>
+<ul>
+<li><p>역할별 잔여 공수 = <strong>재사용 적합성 확인 + 기관 설정 + 데이터/도구 연계 + 차이 구현 + 회귀·보안·현업 검증 + 인수</strong>.</p>
+</li>
+<li><p>기존 가정과 중복 없는 같은 산출물 경계에서 비교함.</p>
+</li>
+<li><p>제품 사용료·외부 연계료·직접경비·일반관리/이윤·부가세를 구분하고 인건비만으로 사업비를 확정하지 않음.</p>
+</li>
+<li><p>정식 대가산정은 <a href="05_원본견적_계약범위_대조.html">기존 원본 견적</a>과 <a href="06_WBS_대가산정_전환.html">산정방법·중복통제</a>의 근거를 따름. <a href="https://www.sw.or.kr/site/sw/ex/board/View.do?bcIdx=63607&cbIdx=276">2025 SW사업 대가산정 가이드</a>의 AI 활용/커스터마이징/통합 구분을 참조하며, 발주 시 적용판과 계약 조건을 다시 확인함.</p>
+</li>
+<li><p>현재 발견한 제품문서만으로 7억·5억 예산 적합성을 승인하지 않음.</p>
+</li>
+</ul>
+</section><section class="content-block" aria-labelledby="section-6"><h2 id="section-6">6. 처별 적용 순서와 구매/개발 경계</h2>
+<ol>
+<li>모빌리티연구처의 대표 사건으로 로컬 모델·근거 판본·승인·unknown 대사까지 연결된 수직 흐름을 먼저 검증함. 엔진 데모와 공식 업무처리 적합성을 구분함.</li>
+<li>교통안전처처럼 후속조치의 실제 해소가 중요한 다른 유형으로 공통성이 유지되는지 확인함. 결과를 보고 공통/처별 경계를 조정함.</li>
+<li>다른 처는 도구·지식·예외·평가셋 증분으로 이관함. 공통 회귀검증은 묶되 해당 처의 법정업무·원자료·현업 검수는 생략하지 않음.</li>
+<li>ERP 초안 등록은 선택 과업, DRT 전국 운영/예산배분은 별도 사업 경계임. 현 단계 8개 대표 서비스 비용과 섞지 않음.</li>
+</ol>
+<ul>
+<li>이는 설계상 권고 순서이며 예산·계약·현업 참여가 확정된 수행 일정은 아님.</li>
+<li>소규모 사업도 요구·설계·개발·검증·인수 절차를 유지하고 기능/데이터/연계 범위를 조정함.</li>
+</ul>
+</section><section class="content-block" aria-labelledby="section-7"><h2 id="section-7">7. 기록·운영·되돌리기</h2>
+<ul>
+<li>제품/플러그인/규칙/모델 버전과 스키마를 묶어 변경관리함. 적용 전후 같은 회귀셋으로 재검증함.</li>
+<li>시험은 비식별 또는 합성 자료와 테스트 도구에서 수행함. 외부 문서는 명령이 아닌 근거로 처리함.</li>
+<li>쓰기 기능을 feature flag로 끄고 공식 기존 업무 경로로 복귀할 수 있게 함. 이미 발생한 외부 결과는 삭제 대신 조회·대사·정식 정정 절차로 관리함.</li>
+<li>실패 로그는 접근권한·보존기간을 정하고 개인 원문 전체를 관측 로그에 복제하지 않음.</li>
+<li>이 문서의 통과 여부는 문서·매핑 품질 판정과 제품 실행 판정을 분리해서 기록함.</li>
+</ul>
+<p><a href="08_CCK_제품근거_재사용설계.html">제품 근거와 구조</a> · <a href="07_예산적합성_재검토.html">기존 예산 판단</a> · <a href="00_처별_AX_설계안내.html">전체 설계</a></p>
+</section></article></main><footer class="site-footer wrap"><span>CCK 기반 TS AX 제안 · 공식 홈페이지와 구분되는 사업기획 자료</span><a href="15_대화반영_근거한계.html">근거와 검토 범위 ↗</a></footer></body></html>

@@ -1,0 +1,148 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="한국교통안전공단의 임무·2030 방향·조직 업무에서 출발하는 CCK 기반 AX 사업 제안"><title>기후탄소물류처 — RFP 역설계·요구사항·검수 | TS AX</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23182e58'/%3E%3Cpath d='M7 9h18v4h-7v12h-4V13H7z' fill='white'/%3E%3C/svg%3E"><link rel="stylesheet" href="../../assets/showcase.css"><link rel="stylesheet" href="../../assets/legal.css"></head><body class=""><a class="skip" href="#main">본문으로 바로가기</a><header class="site-header"><a class="brand" href="../../index.html"><b>TS <em>AX</em></b><small>CCK 사업 제안</small></a><nav class="site-nav" aria-label="주 메뉴"><a href="../../about.html" >기관소개</a><a href="../../vision.html" >2030 방향</a><a href="../../organization.html" >조직과 업무</a><a href="../../solutions.html" >AX 서비스</a></nav></header><main id="main" tabindex="-1"><div class="reference-label">상세 근거자료 · <a href="../../index.html">소개 홈페이지로 ↗</a></div><article class="reference-body"><div class="document-lead"><h1>기후탄소물류처 — RFP 역설계·요구사항·검수</h1>
+<blockquote>
+<p>사전기획·설계안 v1.0 · 2026-09-22 · 공고 미매핑 · 운영 시스템이 아닌 검토자료</p>
+</blockquote>
+<ul>
+<li><strong>사업목적 → 업무성과 → 기능·비기능 요구 → 검수 증거 → 공수 항목</strong> 순으로 역설계했음.</li>
+<li>다음 문구는 공고·발주기관 확정 전 초안임. CCK의 내부 제안 설계는 NOA 기반으로 설명하되, 발주 RFP는 필요한 상호운용성·성능·결과를 규정함.</li>
+</ul>
+</div><section class="content-block" aria-labelledby="section-1"><h2 id="section-1">기능 요구와 검수 초안</h2>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>요구 ID·명칭</th>
+<th>검수할 동작</th>
+<th>UI / 데이터·IF</th>
+<th>시험 / 비용 소유</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>CL-SFR-001 원거래 추적</td>
+<td>신고항목을 거래키·기간·원문 위치와 연결</td>
+<td>CL-UI-02 / SourceTransaction / CL-IF-01</td>
+<td>CL-T-001 / CL-W02</td>
+</tr>
+<tr>
+<td>CL-SFR-002 정형 계산 분리</td>
+<td>수량·금액·단위 변환은 검증된 규칙도구 값만 채택</td>
+<td>CL-UI-03 / SourceTransaction / CORE-IF-04</td>
+<td>CL-T-002 / CL-W04</td>
+</tr>
+<tr>
+<td>CL-SFR-003 신고 예외 계획</td>
+<td>취소·재위탁·기간 경계 사건에서 확인자료와 공식 경로를 다르게 제시</td>
+<td>CL-UI-03 / ExceptionCase / CORE-IF-01</td>
+<td>CL-T-003 / CL-W04</td>
+</tr>
+<tr>
+<td>CL-SFR-004 중복 접수 재계획</td>
+<td>기접수 결과 수신 시 신규 제출 계획을 정정 검토로 변경</td>
+<td>CL-UI-03 / ExceptionCase / CL-IF-01</td>
+<td>CL-T-004 / CL-W04</td>
+</tr>
+<tr>
+<td>CL-SFR-005 사업자 확인</td>
+<td>대상 사업자·기간·필드가 명시된 판본에 한해 승인 요청</td>
+<td>CL-UI-04 / ExceptionCase / CORE-IF-01</td>
+<td>CL-T-005 / CL-W04</td>
+</tr>
+<tr>
+<td>CL-SFR-006 접수 결과 대사</td>
+<td>정정 요청과 실제 접수/처리 상태를 거래별로 대사</td>
+<td>CL-UI-04 / SubmissionReceipt / CL-IF-01</td>
+<td>CL-T-006 / CL-W05</td>
+</tr>
+<tr>
+<td>CL-SFR-007 미처리 거래 관리</td>
+<td>부분 성공 시 실패한 거래만 보류·재개 대상으로 유지</td>
+<td>CL-UI-05 / SubmissionReceipt / CL-IF-01</td>
+<td>CL-T-007 / CL-W04</td>
+</tr>
+<tr>
+<td>CL-SFR-008 적정성 검증</td>
+<td>공식 판단을 대체하지 않고 전문가 표본 검증으로 오류·부담 함께 평가</td>
+<td>CL-UI-05 / SubmissionReceipt / CORE-IF-01</td>
+<td>CL-T-008 / CL-W06</td>
+</tr>
+</tbody></table></div>
+</section><section class="content-block" aria-labelledby="section-2"><h2 id="section-2">Given / When / Then 검수 사례</h2>
+<ul>
+<li><p>Given: 원문·판본·대상키가 일치하고 권한이 있는 사건. When: 원거래 추적 수행. Then: 신고항목을 거래키·기간·원문 위치와 연결.</p>
+</li>
+<li><p>Given: 계획 v1 승인. When: 이미 접수된 거래라는 결과가 들어오면 신규 신고에서 정정 필요성 확인으로 계획 변경. Then: 영향받는 후속 실행에서 기존 승인 토큰의 재사용을 차단하고 재검토를 요청하고 변경한 과업·근거를 명시. 새 판본 승인 전 실행 0건.</p>
+</li>
+<li><p>Given: 같은 execution_id의 응답 유실. When: 담당자가 다시 실행 시도. Then: 쓰기 재요청을 차단하고 결과 조회 경로로 전환. 대사되지 않은 성공 표시 0건.</p>
+</li>
+<li><p>Given: 일부 자료 또는 전문 판단이 없음. When: 완료 요청. Then: 미확인·후속 책임을 노출하고 공식 판단/국민 편익 완료로 잘못 종결하지 않음.</p>
+</li>
+<li><p>비용 소유 열은 주 구현·검증 작업을 표시함.</p>
+</li>
+<li><p>화면 구성(W03)과 해당 처 전문검수(W06)는 보조 작업이며 원장 supporting_wbs에 연결했음.</p>
+</li>
+<li><p>공통 권한·실행 통제는 CORE-W05에서 한 번 구현하고 처별로 같은 엔진을 재개발하지 않음.</p>
+</li>
+<li><p>‘0건’은 고정된 필수 안전 시험세트에서의 허용 오류 기준(제안)이다.</p>
+</li>
+<li><p>실제 모든 환경에서 오류가 없다는 보장이나 실적이 아님. 40사건은 공수 추정을 위한 시험자료 구성 가정이며 통계적 효과 입증에 충분한 표본으로 간주하지 않음.</p>
+</li>
+</ul>
+</section><section class="content-block" aria-labelledby="section-3"><h2 id="section-3">RFP 분류·산출물</h2>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>분류</th>
+<th>작성·납품할 범위</th>
+<th>검수 증거</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>SFR 기능</td>
+<td>실제 거래에서 신고·정정 완료까지의 8개 요구</td>
+<td>사건 입력·계획변경·승인·공식 결과 비교 기록</td>
+</tr>
+<tr>
+<td>SIR 연계</td>
+<td>CL-IF-01/02 및 공통 도구계약</td>
+<td>스키마·오류·중복·권한·판본 계약시험</td>
+</tr>
+<tr>
+<td>DAR 데이터</td>
+<td>원자료 계보·판본·접근범위·정정</td>
+<td>마이그레이션 대사·접근 거부 시험</td>
+</tr>
+<tr>
+<td>SER 보안</td>
+<td>권한·프롬프트주입·민감정보·실행분리</td>
+<td>금지 도구·타부서 자료 유출 차단시험</td>
+</tr>
+<tr>
+<td>PER 성능</td>
+<td>기존 서버/모델/동시사용 조건 명시 후 목표 확정</td>
+<td>대표 사건 지연 p50/p95·큐·메모리 측정</td>
+</tr>
+<tr>
+<td>TER/QUR 품질</td>
+<td>공통 필수 안전세트 + 처별 전문가 정답·반례</td>
+<td>독립 검수결과·결함조치·회귀 기록</td>
+</tr>
+<tr>
+<td>PMR/PSR 관리·지원</td>
+<td>일정·형상·교육·장애·인수·지원범위</td>
+<td>운영자 시나리오·복구·인수 확인</td>
+</tr>
+</tbody></table></div>
+<ul>
+<li>정형 수치와 현업 성과는 사전 기준선을 확보한 뒤 목표값·기간·책임자를 확정함.</li>
+<li>성능/효과 목표가 미정인 상태로 발주용 완성 RFP라고 표시하지 않음.</li>
+<li>인력 MM은 별도 내부 수행계획으로 관리하며 FP/SLA RFP의 필수 인원 조건으로 옮기지 않음.</li>
+<li>관련 근거의 열람판과 적용 한계는 <a href="../../02_공통요구_ERP_RFP.html">공통 요구</a> 참조.</li>
+</ul>
+</section><section class="content-block" aria-labelledby="section-4"><h2 id="section-4">공식 기능점수 산정으로 전환할 입력</h2>
+<ul>
+<li>측정 경계: NOA 추가 기능과 기존 업무시스템의 경계, 기존 기능 변경/신규 구분, 사용자 인지 기능 확인.</li>
+<li>식별 후보: 사건/근거 접수(EI 후보), 상태·근거 조회(EQ 후보), 계획·대사결과 제공(EO 후보), 사건·계획 이력(ILF 후보), 기존 기준·공식 결과 참조(EIF 후보).</li>
+<li>이 분류는 후보이며 확정 FP가 아님. 실제 DET/FTR/RET·초등프로세스 독립성·중복 여부를 확인해야 함. 화면 수·문서 수를 기능점수로 바꾸지 않음.</li>
+<li>공통 CORE 기능은 공통 경계에서 한 번 산정함. FP 대가와 MM 참고치에 포함된 분석·설계·PM·시험을 다시 더하지 않음.</li>
+</ul>
+<p>근거: 처별 편성 대화 · 조직운영 통합기능 대화 · <a href="../../04_근거_판정_다음단계.html">근거의 범위와 한계</a></p>
+</section></article></main><footer class="site-footer wrap"><span>CCK 기반 TS AX 제안 · 공식 홈페이지와 구분되는 사업기획 자료</span><a href="../../15_대화반영_근거한계.html">근거와 검토 범위 ↗</a></footer></body></html>

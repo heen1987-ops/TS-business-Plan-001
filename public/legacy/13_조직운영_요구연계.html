@@ -1,0 +1,360 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="한국교통안전공단의 임무·2030 방향·조직 업무에서 출발하는 CCK 기반 AX 사업 제안"><title>NOA·aRDa·ERP · 조직운영 요구와 연계 | TS AX</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23182e58'/%3E%3Cpath d='M7 9h18v4h-7v12h-4V13H7z' fill='white'/%3E%3C/svg%3E"><link rel="stylesheet" href="assets/showcase.css"><link rel="stylesheet" href="assets/legal.css"></head><body class=""><a class="skip" href="#main">본문으로 바로가기</a><header class="site-header"><a class="brand" href="index.html"><b>TS <em>AX</em></b><small>CCK 사업 제안</small></a><nav class="site-nav" aria-label="주 메뉴"><a href="about.html" >기관소개</a><a href="vision.html" >2030 방향</a><a href="organization.html" >조직과 업무</a><a href="solutions.html" >AX 서비스</a></nav></header><main id="main" tabindex="-1"><div class="reference-label">상세 근거자료 · <a href="index.html">소개 홈페이지로 ↗</a></div><article class="reference-body"><div class="document-lead"><h1>조직운영 플랫폼 · 요구·데이터·실행 연결</h1>
+<p><strong>NOA가 업무를 계획·수행·검증하고, aRDa가 허용된 조직지식 근거를 제공하며, ERP가 공식 자원·거래 상태를 유지함.</strong> TS-AI는 이 운영모델의 이름이며 NOA 위에 동일 기능의 별도 플랫폼을 다시 구축한다는 의미가 아님.</p>
+<p><img  src="assets/조직운영_통합구조_v11.svg"  alt="NOA·aRDa·ERP와 독립 조직업무의 관계"></p>
+</div><section class="content-block" aria-labelledby="section-1"><h2 id="section-1">사업과 독립 업무의 관계</h2>
+<p><code>project_id → 여러 work_id → 각 업무의 근거·담당·승인·상태·공식 결과</code></p>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>업무</th>
+<th>원 대화 서비스 ID</th>
+<th>조직이 확보할 결과</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>B01 기획</td>
+<td>S5 기획·보고</td>
+<td>유효 목표·필요성·예산 근거·성과 정의</td>
+</tr>
+<tr>
+<td>B02 평가</td>
+<td>S1 과제관리</td>
+<td>기준·증거·미확인 사항·권한자의 판단</td>
+</tr>
+<tr>
+<td>B03 협약</td>
+<td>S1 과제관리</td>
+<td>확정 조건·변경 효력·반영과 미반영</td>
+</tr>
+<tr>
+<td>B04 정산</td>
+<td>S2 예산·정산</td>
+<td>증빙·규칙 검산·승인·ERP 결과 대사</td>
+</tr>
+<tr>
+<td>B05 성과</td>
+<td>S3 성과관리</td>
+<td>목표 대비 검증된 실적과 다음 기획 근거</td>
+</tr>
+</tbody></table></div>
+<ul>
+<li>5개 업무가 4개 서비스를 사용함.</li>
+<li>원 대화의 S1·S2·S3·S5 번호를 그대로 보존했으며 S4를 임의로 추가하지 않았음. B01부터 B05까지 항상 한 방향으로 통과하는 결재선이 아니라 인계조건을 가진 독립 업무임. B04 정산은 첫 실증 후보일 뿐 확정 수요가 아님.</li>
+</ul>
+</section><section class="content-block" aria-labelledby="section-2"><h2 id="section-2">서비스·데이터 흐름</h2>
+<p>근거 요청 → aRDa 권한·판본 확인 → NOA 사건·계획 → ERP 또는 원천의 허용된 조회 → 근거·계산 대조 → 공식 승인 → 허용된 초안 등록 → 실제 원장 조회·대사 → 업무 결과·검수된 지식 인계.</p>
+<ul>
+<li>기획·평가 업무가 ERP에 쓰지 않아도 이 모델을 사용할 수 있음.</li>
+<li>지급·마감·취소를 기본 허용하지 않으며 기관이 정한 공식 승인체계를 대체하지 않음.</li>
+<li>개인 작업공간의 자료는 사용자가 지정한 제출본·근거만 조직업무에 연결함.</li>
+</ul>
+</section><section class="content-block" aria-labelledby="section-3"><h2 id="section-3">F01~F16과 기존 설계 대응</h2>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>원 ID·기능</th>
+<th>기존/추가 요구</th>
+<th>추가 확인</th>
+<th>기존 WBS 참조</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>F01 원문·판본 관리</td>
+<td>CORE-SFR-002</td>
+<td>문서별 식별·판본·원문 권리의 실제 지원 확인</td>
+<td>CORE-W03</td>
+</tr>
+<tr>
+<td>F02 문서 구조복원</td>
+<td>CORE-SFR-002 + ORG-DAR-001</td>
+<td>표·쪽·위치 보존 및 변환 품질 요구 보강</td>
+<td>CORE-W03</td>
+</tr>
+<tr>
+<td>F03 문서–ERP 관계 매핑</td>
+<td>ORG-SFR-001</td>
+<td>문서–사업–ERP 연도·코드·단위 매핑 추가 검토</td>
+<td>미산정</td>
+</tr>
+<tr>
+<td>F04 적용근거 검증</td>
+<td>CORE-SFR-002</td>
+<td>업무시점·예외·유효기준 적용조건 상세화</td>
+<td>CORE-W03</td>
+</tr>
+<tr>
+<td>F05 조직업무 생성</td>
+<td>CORE-SFR-001 + ORG-SFR-001</td>
+<td>사업 ID 아래 독립 업무 ID·완료조건 관계 보강</td>
+<td>CORE-W04</td>
+</tr>
+<tr>
+<td>F06 스킬 조합·실행계획</td>
+<td>CORE-SFR-003</td>
+<td>스킬 입출력·선행·실행·재계획 계약 검증</td>
+<td>CORE-W04</td>
+</tr>
+<tr>
+<td>F07 Agent 교차검증</td>
+<td>CORE-QUR-001 + ORG-SFR-004</td>
+<td>운영 중 교차검증과 독립평가를 구분하여 추가 요구</td>
+<td>미산정</td>
+</tr>
+<tr>
+<td>F08 검토·수정·승인</td>
+<td>CORE-SFR-004 + CORE-SER-002</td>
+<td>선택 제출본·중요 변경·공식 승인 연계 대조</td>
+<td>CORE-W05</td>
+</tr>
+<tr>
+<td>F09 ERP 조회</td>
+<td>CORE-SIR-001 + ERP-SFR-001</td>
+<td>ERP 조회 시점·상태·누락 별도 명세</td>
+<td>ERP-W01</td>
+</tr>
+<tr>
+<td>F10 승인 기반 ERP 실행</td>
+<td>CORE-SFR-004 + ERP-SFR-001</td>
+<td>초안 등록의 허용행위·값·권한 대조</td>
+<td>ERP-W01</td>
+</tr>
+<tr>
+<td>F11 처리결과 대조</td>
+<td>CORE-SFR-005 + ERP-SFR-001</td>
+<td>접수/등록/확정/미확인과 실제 원장 대사</td>
+<td>ERP-W01</td>
+</tr>
+<tr>
+<td>F12 변경·재시도·복구</td>
+<td>CORE-SFR-005 + CORE-SFR-006 + ORG-SFR-002</td>
+<td>사건 내 복구와 업무 간 영향·재인계 분리</td>
+<td>CORE-W06</td>
+</tr>
+<tr>
+<td>F13 권한·AI 보안</td>
+<td>CORE-SER-001 + CORE-SER-002</td>
+<td>원문·파생물·도구 권한, 수신 부서 재검증</td>
+<td>CORE-W05</td>
+</tr>
+<tr>
+<td>F14 근거·실행이력 보존</td>
+<td>CORE-DAR-001 + ORG-SFR-002</td>
+<td>확정지식과 사업·업무 간 정정계보 보강</td>
+<td>CORE-W03</td>
+</tr>
+<tr>
+<td>F15 기관별 설정·이전</td>
+<td>ORG-POR-001</td>
+<td>기관 설정·어댑터·권리·이전 인수 범위 추가 검토</td>
+<td>미산정</td>
+</tr>
+<tr>
+<td>F16 모델·서비스 운영</td>
+<td>CORE-PER-001 + CORE-QUR-001 + ORG-OPR-001</td>
+<td>모델·부하 측정과 정기 변경·운영비 책임 연결</td>
+<td>CORE-W07</td>
+</tr>
+</tbody></table></div>
+<ul>
+<li>기존 WBS 참조는 관련 위치이며 해당 상세기능의 구현·계약 포함·공수 충분성을 확인했다는 뜻이 아님.</li>
+<li>실제 재사용 증거가 없으므로 추가 공수의 자동 감액도 하지 않음.</li>
+</ul>
+</section><section class="content-block" aria-labelledby="section-4"><h2 id="section-4">IF-01~06 연계 계약 후보</h2>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>ID</th>
+<th>방향</th>
+<th>교환 데이터</th>
+<th>검증</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>IF-01</td>
+<td>aRDa ↔ NOA</td>
+<td>문서·근거 요청, 원문 참조, 판본, 권한, 자료 부족·충돌</td>
+<td>허용된 근거만 반환하고 사용한 판본·원문 위치 확인</td>
+</tr>
+<tr>
+<td>IF-02</td>
+<td>ERP → NOA</td>
+<td>기준정보, 사업·예산·거래 조회결과, 조회조건·시점·오류</td>
+<td>값뿐 아니라 기준시점·상태·누락 여부 전달</td>
+</tr>
+<tr>
+<td>IF-03</td>
+<td>NOA ↔ 공식 승인체계</td>
+<td>검토본, 반영 예정내용, 승인ID·대상·결과</td>
+<td>승인한 내용과 실행할 내용의 대응 확인, 중요 변경 시 재검토</td>
+</tr>
+<tr>
+<td>IF-04</td>
+<td>NOA → ERP</td>
+<td>승인된 실행요청, 권한·대상·값·중복식별자</td>
+<td>허용행위만 수행하고 같은 행위의 중복 반영 방지</td>
+</tr>
+<tr>
+<td>IF-05</td>
+<td>ERP → NOA</td>
+<td>접수·등록·확정·실패 상태와 거래 식별자</td>
+<td>응답뿐 아니라 실제 기록과의 대조 경로 확보</td>
+</tr>
+<tr>
+<td>IF-06</td>
+<td>NOA → aRDa</td>
+<td>검토·승인된 산출물, 근거 연결, ERP 결과 참조, 정정이력</td>
+<td>개인 초안·미검증 AI 결과와 확정 조직지식의 구분</td>
+</tr>
+</tbody></table></div>
+<ul>
+<li>API 주소·오류코드·필드·계정은 미확인임.</li>
+<li>식별자·시점·권한·판본·결과상태를 먼저 확정하고 실제 API 또는 승인된 파일 경로로 대체함.</li>
+<li>등록 성공 응답만으로 업무 완료를 확정하지 않음.</li>
+</ul>
+</section><section class="content-block" aria-labelledby="section-5"><h2 id="section-5">새로 명시한 요구 8개</h2>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>ID</th>
+<th>요구명</th>
+<th>내용</th>
+<th>수용기준</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ORG-DAR-001</td>
+<td>변환품질·자료계보</td>
+<td>본문·표·쪽·위치를 보존하고 변환 실패·원문 결손·수동 정정을 구분</td>
+<td>다른 문서·빈값·판독불가·단위오류 반례에서 원문 추적·실패표시 확인</td>
+</tr>
+<tr>
+<td>ORG-SFR-001</td>
+<td>사업–독립업무–ERP 관계</td>
+<td>project_id와 work_id를 분리하고 기간·코드·단위의 대응을 확인</td>
+<td>같은 사업의 기획·평가·협약·정산·성과를 독립 상태로 유지; 잘못된 연도 연결 차단</td>
+</tr>
+<tr>
+<td>ORG-SFR-002</td>
+<td>조건부 인계·변경영향</td>
+<td>수신 조건·권한·원판본을 확인하고 변경 영향이 있는 업무만 재검토</td>
+<td>협약 변경 후 미반영 ERP를 완료로 전달하지 않으며 무관 업무·원기록 보존</td>
+</tr>
+<tr>
+<td>ORG-SFR-003</td>
+<td>목표·집행·성과 대조</td>
+<td>성과목표 판본·분모·증거와 집행정보를 구분해 계획·성과에 연결</td>
+<td>예산 집행·문서 생성·업무 수행 완료를 효과달성으로 자동 계산하지 않음</td>
+</tr>
+<tr>
+<td>ORG-SFR-004</td>
+<td>수행 중 교차검증</td>
+<td>규정·증빙·계산·산출물의 근거를 서로 대조하고 이견을 보존</td>
+<td>여러 Agent가 같은 오답에 동의해도 실제 근거·검산 불일치를 검토 대상으로 표시</td>
+</tr>
+<tr>
+<td>ORG-SIR-001</td>
+<td>aRDa 입출력·지식 승격</td>
+<td>원문 권한·판본·원문 위치 반환과 검수된 산출물 승격 계약 정의</td>
+<td>개인 초안/미검증 결과 자동 공유·학습·공식지식 승격 없음</td>
+</tr>
+<tr>
+<td>ORG-POR-001</td>
+<td>기관별 설정·이전</td>
+<td>조직·용어·규정·권한·ERP 어댑터와 공통코드를 구분</td>
+<td>기관 변경 시 설정·개조·재검증·권리 인수의 실제 범위를 기록</td>
+</tr>
+<tr>
+<td>ORG-OPR-001</td>
+<td>변경·운영·총비용</td>
+<td>정기 지식·모델·연계 변경의 책임·시험·복구·비용 정의</td>
+<td>버전 교체 후 영향 기능 회귀시험·복구·사건대사 및 연간 운영량 기록</td>
+</tr>
+</tbody></table></div>
+</section><section class="content-block" aria-labelledby="section-6"><h2 id="section-6">시험과 운영</h2>
+<ul>
+<li><p>정상·증빙 부족·시점 충돌·승인 후 변경·실행 전 원장 변경·권한 회수·응답 유실·실제 값 불일치·문서 악성지시·완료 후 정정을 검증함.</p>
+</li>
+<li><p>업무 간에는 목표 변경, 협약 승인 후 ERP 반영 실패, 성과 정정의 기획 영향, 수신 권한 변경을 추가함.</p>
+</li>
+<li><p>모두 시험 설계이며 이번에는 제품 시험을 실행하지 않았음.</p>
+</li>
+<li><p>17개 연구 KPI는 원 RFP 문맥의 목표다. TS 검수 목표값으로 자동 전용하지 않음.</p>
+</li>
+<li><p>현행·비AI 통합·AI 보조·업무 수행형 AX를 같은 사례·조건에서 비교하여 추가 기여와 총부담을 확인함.</p>
+</li>
+</ul>
+</section><section class="content-block" aria-labelledby="section-7"><h2 id="section-7">R&amp;D·제품·TS 적용 경계</h2>
+<ul>
+<li>원 대화의 28개월 R&amp;D 일정·지역 실증·연구기여는 별도 근거로 남김.</li>
+<li>이 기획은 기존 연구·제품 성과를 활용한 TS AX+SI 적용·검증으로 정리함.</li>
+<li>제품 공통확장, TS별 연계·권한·지식, 전문 공학시험의 책임과 비용을 구분함.</li>
+<li>기존 ERP 8 MM 선택 시나리오가 B01~B05 전체 확장 견적이라는 해석은 하지 않음.</li>
+</ul>
+<!-- approval-scope-clarification -->
+</section><section class="content-block" aria-labelledby="section-8"><h2 id="section-8">승인·완료 상태의 해석</h2>
+<ul>
+<li>근거가 바뀌었을 때 차단하는 것은 <strong>영향받는 후속 실행에서 기존 승인 토큰을 재사용하는 행위</strong>다.</li>
+<li>공식 협약·검사판정·종결의 원기록을 AI가 취소하거나 효력을 변경하지 않음.</li>
+<li>공식 효력·정정은 권한자가 판단함.</li>
+<li>여러 부서가 같은 사건의 해결에 기여해도 해당 국민 편익·재방문 감소를 각각 중복 합산하지 않음.</li>
+</ul>
+<!-- /approval-scope-clarification -->
+
+
+<!-- interface-namespace -->
+</section><section class="content-block" aria-labelledby="section-9"><h2 id="section-9">IF 번호의 출처와 기존 계약 대응</h2>
+<ul>
+<li>위 IF-01~06은 조직운영 대화의 번호임.</li>
+<li>통합 원장에서는 <code>ORG-IF-01~06</code>으로 구별하며 기존 <code>CORE-IF-01~04</code>와 번호대로 대응하지 않음.</li>
+</ul>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>조직운영 원 ID / 통합 ID</th>
+<th>기존 대응</th>
+<th>차이</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>IF-01 / ORG-IF-01</td>
+<td>CORE-IF-03</td>
+<td>aRDa 자료조회는 겹침. 원문 위치·권리·부족·충돌 반환을 보완</td>
+</tr>
+<tr>
+<td>IF-02 / ORG-IF-02</td>
+<td>ERP-SFR-001 / ERP-W01</td>
+<td>ERP 조회 계약. 기존 CORE-IF-02 권한조회와 구분</td>
+</tr>
+<tr>
+<td>IF-03 / ORG-IF-03</td>
+<td>CORE-SFR-004 / CORE-IF-01</td>
+<td>공식 승인 연결의 별도 계약. 기존 CORE-IF-03은 aRDa 조회</td>
+</tr>
+<tr>
+<td>IF-04 / ORG-IF-04</td>
+<td>ERP-SFR-001 / ERP-W01</td>
+<td>승인된 전표 초안 쓰기. 기존 CORE-IF-04는 정형 계산도구</td>
+</tr>
+<tr>
+<td>IF-05 / ORG-IF-05</td>
+<td>CORE-SFR-005 / ERP-SFR-001</td>
+<td>실제 거래상태 조회·대사 추가 명세</td>
+</tr>
+<tr>
+<td>IF-06 / ORG-IF-06</td>
+<td>CORE-DAR-001 / ORG-SIR-001</td>
+<td>검수된 조직지식 인계. aRDa 조회계약과 분리</td>
+</tr>
+</tbody></table></div>
+<ul>
+<li><p>F02 문서 구조화는 기존 텍스트·표 추출 결과와 품질 검토를 기본으로 함.</p>
+</li>
+<li><p>신규 OCR·비전 모델 개발은 자동 포함하지 않으며 이미지 원문만 있는 경우 기존 허용 수단·수동확인·자료 제공방식을 협의함.</p>
+</li>
+<li><p>F07·F15·F16의 교차검증·기관 이전·운영 조건은 기존 포괄 문구와 부분 대응하므로 추가 요구 및 비용을 검토함.</p>
+</li>
+<li><p>모든 F 기능에 대해 납품·실행 검증은 미확인임.</p>
+</li>
+</ul>
+<!-- /interface-namespace -->
+</section></article></main><footer class="site-footer wrap"><span>CCK 기반 TS AX 제안 · 공식 홈페이지와 구분되는 사업기획 자료</span><a href="15_대화반영_근거한계.html">근거와 검토 범위 ↗</a></footer></body></html>

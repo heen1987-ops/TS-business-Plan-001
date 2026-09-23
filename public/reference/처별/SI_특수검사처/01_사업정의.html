@@ -1,0 +1,148 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="한국교통안전공단의 임무·2030 방향·조직 업무에서 출발하는 CCK 기반 AX 사업 제안"><title>특수검사처 상세 컨셉도 | TS AX</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23182e58'/%3E%3Cpath d='M7 9h18v4h-7v12h-4V13H7z' fill='white'/%3E%3C/svg%3E"><link rel="stylesheet" href="../../../assets/showcase.css"><link rel="stylesheet" href="../../../assets/legal.css"></head><body class=""><a class="skip" href="#main">본문으로 바로가기</a><header class="site-header"><a class="brand" href="../../../index.html"><b>TS <em>AX</em></b><small>CCK 사업 제안</small></a><nav class="site-nav" aria-label="주 메뉴"><a href="../../../about.html" >기관소개</a><a href="../../../vision.html" >2030 방향</a><a href="../../../organization.html" >조직과 업무</a><a href="../../../solutions.html" >AX 서비스</a></nav></header><main id="main" tabindex="-1"><div class="reference-label">상세 근거자료 · <a href="../../../index.html">소개 홈페이지로 ↗</a></div><article class="reference-body"><div class="document-lead"><h1>특수검사처 · 사업 정의와 연간 편성</h1>
+<!-- logic-v2:start -->
+<div class="diagram-links"><a href="../../../처별/SI_특수검사처/01_사업정의.html">컨셉도</a><a href="../../../처별/SI_특수검사처/02_UI시제품.html">서비스흐름도</a><a href="../../../처별/SI_특수검사처/03_아키텍처_흐름.html">아키텍처</a></div>
+
+</div><section class="content-block" aria-labelledby="section-1"><h2 id="section-1">컨셉도 · 측정기기 이상과 조건 차이의 구분</h2>
+<div class="diagram-purpose"><strong>이 도식의 목적</strong> · 대상자·문제·제공 서비스·기대 편익의 관계</div>
+
+<p><img  src="../../../assets/SI_컨셉도.svg"  alt="특수검사처 SI27-02 컨셉도: 조건차/기기이상 병렬 검증 / NOA와 기존 업무·전문판단의 역할 구분"></p>
+<p><a href="../../../assets/SI_컨셉도.svg">도식 원본 확대 · SVG</a> · <a href="../../../assets/SI_컨셉도.png">PPT 삽입용 PNG · 1600×900</a></p>
+<h3>핵심 해석</h3>
+<ul>
+<li><strong>대표 사건:</strong> 기기–측정회차–조건–참조</li>
+<li><strong>처별 고유 로직:</strong> 조건차/기기이상 병렬 검증</li>
+<li><strong>조건 분기:</strong> 단위·환경·참조 정합 여부? → 충족 시 기기상태 전문 검증 / 미충족 시 조건 정정 후 재대조</li>
+<li><strong>공식 결과:</strong> 공식 재검증·과거 영향검토 인계</li>
+<li><strong>책임 경계:</strong> 장비 자동 조정 및 과거 검사 일괄 유·무효 처리 제외</li>
+<li><strong>검증 상태:</strong> 실제 제품 기능·API·위탁권한·도입효과 미확정</li>
+</ul>
+<!-- logic-v2:end -->
+
+<!-- proposal-four:start -->
+</section><section class="content-block" aria-labelledby="section-2"><h2 id="section-2">제안의 근거·제품·기대효과</h2>
+<section class="proposal-card" id="SI"><div class="proposal-heading"><span>SI · SI27-02</span><h3>특수검사처 — 측정기기 이상 검증과 판정 신뢰성 회복</h3><p>자동차 안전·검사 신뢰성에 대한 기여 가설</p></div><dl class="proposal-fields"><div><dt>현재 업무·기존 기반</dt><dd>기기정도검사, 내압용기검사, 궤도·삭도 검사 / 기기정도검사 결과·기준·검증된 측정 분석도구</dd></div><div><dt>필요 근거·문제정의</dt><dd>업무 근거: <a href="https://main.kotsa.or.kr/portal/empList.do?menuCode=06020404&deptUppr=1000000&pageNumb=46">TS 공개업무 안내</a><br>해결할 문제 가설: 측정조건 차이와 기기 이상을 구분하는 자료 수집·검증 순서에 반복 부담이 있을 수 있음</dd></div><div><dt>달성할 목적</dt><dd>기기 이상·조건 차이의 구분과 검증·조치·재검증의 정확한 인계</dd></div><div><dt>사용 제품·기술</dt><dd><strong>NOA + aRDa + 기존 서버의 로컬 LLM</strong><br>기기·환경·참조값의 경쟁 가설 / 전문가 검증과 후속 영향검토 계획<br>기존 시스템·정형 규칙·전문분석 도구의 연계</dd></div><div><dt>업무 전환</dt><dd>기기·회차·단위·환경·기준의 동일성 확인 → 환경차·기기상태·참조자료 등 경쟁 가설을 분리 → 전문가에게 필요한 측정·조정·재검증 계획 인계 → 재검증 결과와 잔여 불확실성을 후속 담당자에게 전달</dd></div><div><dt>기대효과·확인 지표</dt><dd>수혜자: 검사업체·해당 검사를 이용하는 국민<br>기대효과: 기관 — 잘못된 원인확정·후속 인계 누락 완화 / 업체·국민 — 검사 결과의 신뢰성 확보<br>확인 지표: 원인 확인까지의 검증 반복·잘못된 원인확정·후속 미인계<br>기준값·목표 개선율: 현업 실증으로 확정</dd></div><div><dt>사람의 역할·적용 조건</dt><dd>전문 판단·실행: 전문 담당자의 계측·원인 확인과 공식 정도검사 판정<br><strong>이번 과업 제외:</strong> LLM의 장비 제어·조정, 밸브·안전장치 조작, 형식승인·공식 판정 대체<br>선행 확인: 기기군 1종·이상 유형 1~2개·과거 사건과 시험환경</dd></div></dl><p class="source-note">공식 업무 존재와 문제 발생규모·구매수요는 별도. 제품 역할은 적용안이며 TS 설치·성능 검증 완료를 의미하지 않음.</p><p class="source-note">기술 근거: <a href="../../../08_CCK_제품근거_재사용설계.html">제품별 근거·재사용 판단</a> · <a href="../../../15_대화반영_근거한계.html">기획 출처·확인 한계</a></p></section>
+<!-- proposal-four:end -->
+
+
+
+
+
+
+<blockquote>
+<p>대화에서 제안한 2027년 편성안을 이번 설계로 구체화한 자료. TS 확정 업무계획·발주서·계약·실행시험 결과가 아님.</p>
+</blockquote>
+<p><strong>기기 이상과 조건 차이를 구분하여 필요한 검증·조치·재검증을 수행하고 정확한 후속 인계를 구성함.</strong></p>
+</section><section class="content-block" aria-labelledby="section-3"><h2 id="section-3">컨셉</h2>
+<ul>
+<li>측정기기 이상 검증과 판정 신뢰성 회복.</li>
+<li>기기 검사 담당자·기기 운영자·전문가가 기기–측정회차–조건–참조를 기준으로 원문과 공식 결과를 연결하고, NOA가 확인계획·허용된 수행·결과검증·재계획을 담당하도록 구성함.</li>
+</ul>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>항목</th>
+<th>내용</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>대표 과업</td>
+<td>SI27-02</td>
+</tr>
+<tr>
+<td>초기 범위 제안</td>
+<td>기기군 1종·이상 유형 1~2개·과거 사건과 시험환경</td>
+</tr>
+<tr>
+<td>대국민·기업 편익</td>
+<td>검사업체·해당 검사를 이용하는 국민의 잘못된 판단·반복 보완 부담 완화</td>
+</tr>
+<tr>
+<td>확인할 문제 가설</td>
+<td>측정조건 차이와 기기 이상을 구분하는 자료 수집·검증 순서에 반복 부담이 있을 수 있음</td>
+</tr>
+<tr>
+<td>자료·운영 협의 대상</td>
+<td>기기·계측 전문가·운영자·검사기획처</td>
+</tr>
+<tr>
+<td>산정 상태</td>
+<td>미산정·기존 153.5 MM에 미포함</td>
+</tr>
+</tbody></table></div>
+</section><section class="content-block" aria-labelledby="section-4"><h2 id="section-4">기존 업무와 추가 가치</h2>
+<p><a href="https://main.kotsa.or.kr/portal/contents.do?menuCode=01030201">기기정도검사</a>에서 안내 담당부서 특수검사처를 2026-09-22 확인했음. 신규 연계 API·장비제어 권한은 확인되지 않음.</p>
+<ul>
+<li><p>기기 신뢰성 검증이 대상임.</p>
+</li>
+<li><p>내압용기 후속관리는 별도 사건이며 차량검사 전체 판정과 합치지 않음.</p>
+</li>
+<li><p>일반 검색·요약·안내 기능만으로 도입효과를 주장하지 않음.</p>
+</li>
+<li><p>추가 가치는 <strong>새 사실에 맞추어 필요한 검증과업이 달라지고, 수행결과가 실제 완료·보완 판단에 반영되는지</strong>로 확인함.</p>
+</li>
+</ul>
+</section><section class="content-block" aria-labelledby="section-5"><h2 id="section-5">2027년 연간 과업</h2>
+<div class="table-scroll" role="region" aria-label="상세 비교표" tabindex="0"><table>
+<thead>
+<tr>
+<th>ID</th>
+<th>과업</th>
+<th>원 대화의 구분</th>
+<th>이번 상세화</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>SI27-01</td>
+<td>내압용기·가스연료계통 미흡 해소·동일 원인 재발예방 AX</td>
+<td>중점 AX</td>
+<td>연간 편성 보존</td>
+</tr>
+<tr>
+<td>SI27-02</td>
+<td>검사·측정기기 이상 원인검증·판정 신뢰성 회복 AX</td>
+<td>중점 AX·선도 검증후보</td>
+<td>대표 상세화</td>
+</tr>
+<tr>
+<td>SI27-03</td>
+<td>궤도·삭도 시설 변경의 안전검증·미해결 조건 관리 AX</td>
+<td>조건부 AX</td>
+<td>연간 편성 보존</td>
+</tr>
+<tr>
+<td>SI27-04</td>
+<td>특수검사 AX 전문검증·권한·편익·운영전환 정립</td>
+<td>공통 필수</td>
+<td>연간 편성 보존</td>
+</tr>
+<tr>
+<td>SI27-05</td>
+<td>기존 내압용기·기기·궤도 검사와 관련 지원의 안정적 계속 수행</td>
+<td>계속업무</td>
+<td>연간 편성 보존</td>
+</tr>
+</tbody></table></div>
+<ul>
+<li>계속업무는 신규 AI 납품으로 재계상하지 않음. <code>SI27-04</code>의 공통 검증·운영전환 중 이번 대표서비스에 필요한 활동은 <code>SI-ADD-W06</code> 등 해당 작업에 포함하여 산정함.</li>
+<li>처 전체 확대·별도 사업화 활동과 다른 연간 과업은 미산정이며 같은 평가·인수 활동을 xx27-04와 W06에 이중 가산하지 않음.</li>
+</ul>
+</section><section class="content-block" aria-labelledby="section-6"><h2 id="section-6">서비스 범위와 효과 검증</h2>
+<ul>
+<li><p>원인 확인까지의 검증 반복·잘못된 원인확정·후속 미인계.</p>
+</li>
+<li><p>평가 분모는 동일 기기군·이상 난이도의 사건.</p>
+</li>
+<li><p>재검증과 과거 검사 영향결정을 분리.</p>
+</li>
+<li><p>초기 적용은 자료 접근·참여자·공식 결과 확인·현업 검증이 가능한 범위에서 결정함.</p>
+</li>
+<li><p>목표값은 기준선 조사 후 합의하며 현재 실제 개선률은 미측정임. LLM의 장비 제어·조정, 밸브·안전장치 조작, 형식승인·공식 판정 대체은 제외함.</p>
+</li>
+</ul>
+</section><section class="content-block" aria-labelledby="section-7"><h2 id="section-7">다음 검토</h2>
+<p><a href="../../../처별/SI_특수검사처/02_UI시제품.html">화면·서비스</a> → <a href="../../../처별/SI_특수검사처/03_아키텍처_흐름.html">구조·흐름</a> → <a href="../../../처별/SI_특수검사처/04_RFP_요구검수.html">RFP·검수</a> → <a href="../../../처별/SI_특수검사처/05_인력_대가.html">인력·대가</a></p>
+<ul>
+<li>대화 근거: CCK TS 사업 조사, turn <code>7dbc7c4a-4200-498f-89be-bab6c8950120</code>.</li>
+<li>해당 응답 본문을 열람했음.</li>
+</ul>
+</section></article></main><footer class="site-footer wrap"><span>CCK 기반 TS AX 제안 · 공식 홈페이지와 구분되는 사업기획 자료</span><a href="../../../15_대화반영_근거한계.html">근거와 검토 범위 ↗</a></footer></body></html>
