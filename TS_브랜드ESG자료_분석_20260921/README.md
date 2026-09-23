@@ -9,10 +9,10 @@
 | [`2025_TS_ESG_REPORT.pdf`](../2025_TS_ESG_REPORT.pdf) | 21.2MB | PDF, 120쪽 | 네이티브 텍스트 추출 성공(OCR 아님) |
 | [`brochure_kor_202501.pdf`](../brochure_kor_202501.pdf) | 9.8MB | PDF, 27쪽 | 전체가 이미지/벡터화되어 텍스트 0글자 — Windows 내장 OCR로 추출 |
 | `brochure_kor_202501 (1).pdf` | 9.8MB | PDF | 위 파일과 **MD5 완전 동일**(중복 파일, 별도 분석 안 함) |
-| [`logo_kor.zip`](../logo_kor.zip) | 531KB | ZIP(JPG+AI) | 실제 내용은 "시그니처(Signature)" 페이지 |
-| [`symbol_kor.zip`](../symbol_kor.zip) | 686KB | ZIP(JPG+AI) | 실제 내용은 "워드마크(Word Mark)" 페이지 (파일명과 다름, 주의) |
-| [`tangel_kor.zip`](../tangel_kor.zip) | 171KB | ZIP(PNG) | 마스코트 "탠젤(Tangel)" |
-| [`tangel_junior_kor.zip`](../tangel_junior_kor.zip) | 118KB | ZIP(PNG) | 마스코트 "탠젤 주니어" |
+| [`logo_kor.zip`](../원자료/브랜드_로고/logo_kor.zip) | 531KB | ZIP(JPG+AI) | 실제 내용은 "시그니처(Signature)" 페이지 |
+| [`symbol_kor.zip`](../원자료/브랜드_로고/symbol_kor.zip) | 686KB | ZIP(JPG+AI) | 실제 내용은 "워드마크(Word Mark)" 페이지 (파일명과 다름, 주의) |
+| [`tangel_kor.zip`](../원자료/브랜드_로고/tangel_kor.zip) | 171KB | ZIP(PNG) | 마스코트 "탠젤(Tangel)" |
+| [`tangel_junior_kor.zip`](../원자료/브랜드_로고/tangel_junior_kor.zip) | 118KB | ZIP(PNG) | 마스코트 "탠젤 주니어" |
 
 ## 이 폴더의 문서
 
