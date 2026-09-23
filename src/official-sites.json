@@ -1,0 +1,983 @@
+{
+  "date": "2026-09-23",
+  "scope": "TS 공식 공공웹사이트 목록 31개 항목 + 공식 업무안내·대표 누리집에서 확인한 추가 경로. 동일 도메인 내 별도 서비스 포함; 전체 운영 시스템 수와 구분.",
+  "sources": {
+    "directory": {
+      "title": "TS 공공웹사이트",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "basis": "공식 목록에 수록된 사이트명·연결주소 확인. 목록 페이지 담당부서는 개별 시스템 담당 근거에서 제외."
+    },
+    "privacy": {
+      "title": "TS 개인정보처리방침",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=07020100",
+      "basis": "2026.08.18~현재 판본의 제16조 개인정보파일별 운영담당자 표(개인정보 열람등 청구 접수·처리 부서). 업무 총괄·IT 운영·예산권한의 확정과 구분."
+    },
+    "main": {
+      "title": "TS 대표 누리집",
+      "url": "https://main.kotsa.or.kr/main.do",
+      "basis": "대표 누리집에 게시된 서비스 연결주소 확인."
+    },
+    "01080400": {
+      "title": "버스정보시스템(BIS)",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01080400",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "01080600": {
+      "title": "택시운행정보관리시스템(TIMS)",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01080600",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "01080300": {
+      "title": "대중교통비 환급 지원 사업(K-패스)",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01080300",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "01040300": {
+      "title": "교통안전정보관리시스템(TMACS)",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040300",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "01040400": {
+      "title": "운행기록분석시스템(ETAS)",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040400",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "01080900": {
+      "title": "운전자격확인시스템(RIMS)",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01080900",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "01060301": {
+      "title": "대중교통현황조사",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01060301",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "01100101": {
+      "title": "모빌리티 규제샌드박스",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01100101",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "01010101": {
+      "title": "자동차검사 소개",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01010101",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "01020300": {
+      "title": "TS튜닝알리고",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01020300",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "01030201": {
+      "title": "기기정도검사",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01030201",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "01030401": {
+      "title": "기계식주차장 검사",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01030401",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "01040502": {
+      "title": "교통물류",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040502",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "01050600": {
+      "title": "운수종사자경력관리",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01050600",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "01070101": {
+      "title": "교통안전교육",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01070101",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "01070201": {
+      "title": "교통시설안전교육",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01070201",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "01070300": {
+      "title": "교통안전체험교육",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01070300",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "01070401": {
+      "title": "경제운전(에코드라이브)",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01070401",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "01080500": {
+      "title": "수요응답형 대중교통(DRT) 구축·운영",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01080500",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "01090100": {
+      "title": "KAVIC 소개",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01090100",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "01090201": {
+      "title": "첨단연구개발",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01090201",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "01090401": {
+      "title": "자동차 기술 교육",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01090401",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "02010500": {
+      "title": "항공안전 자율보고제도",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=02010500",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "02010600": {
+      "title": "항공보안 자율신고제도",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=02010600",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "02010800": {
+      "title": "항공교육사업",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=02010800",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "02020100": {
+      "title": "초경량비행장치 기체신고",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=02020100",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "02030301": {
+      "title": "철도안전정보종합관리",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=02030301",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "04030100": {
+      "title": "자동차365",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=04030100",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "04030500": {
+      "title": "자동차 부품 자기인증 시스템",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=04030500",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "04030600": {
+      "title": "자동차 안전도평가 결과",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=04030600",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    },
+    "04030700": {
+      "title": "자동차결함신고 및 조회",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=04030700",
+      "basis": "공식 업무안내 내용과 페이지의 담당부서 표시 확인."
+    }
+  },
+  "sites": [
+    {
+      "id": "drv",
+      "title": "운수종사자관리시스템",
+      "url": "https://drv.kotsa.or.kr",
+      "category": "도로·자격",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "SA",
+          "department": "교통안전처",
+          "role": "업무안내 담당",
+          "source": "01050600"
+        }
+      ],
+      "note": "",
+      "linkSource": "directory",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "eco",
+      "title": "에코드라이브",
+      "url": "https://www.kotsa.or.kr/ecodriving",
+      "category": "도로·자격",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "QE",
+          "department": "자격교육처",
+          "role": "업무안내 담당",
+          "source": "01070401"
+        }
+      ],
+      "note": "",
+      "linkSource": "directory",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "ptc",
+      "title": "국가대중교통DB",
+      "url": "https://www.kotsa.or.kr/ptc",
+      "category": "모빌리티·데이터",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "PS",
+          "department": "정책지원처",
+          "role": "대중교통현황조사 업무안내 담당",
+          "source": "01060301"
+        }
+      ],
+      "note": "",
+      "linkSource": "main",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "tmacs",
+      "title": "교통안전정보관리시스템(TMACS)",
+      "url": "https://tmacs.kotsa.or.kr",
+      "category": "모빌리티·데이터",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "DF",
+          "department": "데이터융복합처",
+          "role": "업무안내 담당",
+          "source": "01040300"
+        }
+      ],
+      "note": "",
+      "linkSource": "directory",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "cosas",
+      "title": "운수안전컨설팅지원시스템(COSAS)",
+      "url": "https://kotsa.or.kr/cosas",
+      "category": "도로·자격",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [],
+      "note": "공식 목록·업무안내에서 사이트 확인. 이번 열람에서 담당 처 표시 미확인.",
+      "linkSource": "directory",
+      "status": "담당 처 미확인"
+    },
+    {
+      "id": "tslms",
+      "title": "교통안전체험교육센터",
+      "url": "https://tslms.kotsa.or.kr",
+      "category": "도로·자격",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "QE",
+          "department": "자격교육처",
+          "role": "업무안내 담당",
+          "source": "01070300"
+        }
+      ],
+      "note": "상주·화성 등 교육장별 실제 운영역할은 별도 확인.",
+      "linkSource": "directory",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "lic",
+      "title": "TS국가자격시험 통합 포털",
+      "url": "https://lic.kotsa.or.kr/tsportal/main.do",
+      "category": "도로·자격",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "QE",
+          "department": "자격교육처",
+          "role": "도로 분야 개인정보파일 운영·열람청구 담당",
+          "source": "privacy"
+        },
+        {
+          "node": "rail-safety",
+          "department": "철도안전처",
+          "role": "철도 분야 개인정보파일 운영·열람청구 담당",
+          "source": "privacy"
+        },
+        {
+          "node": "air-qualification",
+          "department": "항공자격처",
+          "role": "항공 분야 개인정보파일 운영·열람청구 담당",
+          "source": "privacy"
+        }
+      ],
+      "note": "통합 포털의 분야별 담당 연결. 포털 전체의 단일 운영부서로 통합하지 않음.",
+      "linkSource": "directory",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "driver",
+      "title": "운전적성정밀검사",
+      "url": "https://lic.kotsa.or.kr/driver/main.do",
+      "category": "도로·자격",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "QE",
+          "department": "자격교육처",
+          "role": "운전적성정밀검사 개인정보파일 운영·열람청구 담당",
+          "source": "privacy"
+        }
+      ],
+      "note": "통합 포털과 같은 도메인의 별도 업무경로.",
+      "linkSource": "directory",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "etas",
+      "title": "운행기록분석시스템(ETAS)",
+      "url": "https://etas.kotsa.or.kr",
+      "category": "모빌리티·데이터",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "DF",
+          "department": "데이터융복합처",
+          "role": "업무안내 담당",
+          "source": "01040400"
+        }
+      ],
+      "note": "",
+      "linkSource": "main",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "tims",
+      "title": "택시운행정보관리시스템(TIMS)",
+      "url": "https://tims.kotsa.or.kr/pts/index.do",
+      "category": "모빌리티·데이터",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "MR",
+          "department": "모빌리티연구처",
+          "role": "업무안내 담당",
+          "source": "01080600"
+        }
+      ],
+      "note": "앱미터 검정은 TIMS의 연관 업무. 별도 홈페이지 수로 중복 집계하지 않음.",
+      "linkSource": "01080600",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "drt",
+      "title": "수요응답형 대중교통(DRT)",
+      "url": "https://drt.kotsa.or.kr",
+      "category": "모빌리티·데이터",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "MR",
+          "department": "모빌리티연구처",
+          "role": "업무안내 담당",
+          "source": "01080500"
+        }
+      ],
+      "note": "현행 DRT 업무 연결. 제안 중인 고령자 통합 DRT 플랫폼의 구축 완료를 의미하지 않음.",
+      "linkSource": "directory",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "rims",
+      "title": "자동차대여사업·운전자격확인(RIMS)",
+      "url": "https://rims.kotsa.or.kr",
+      "category": "모빌리티·데이터",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "MR",
+          "department": "모빌리티연구처",
+          "role": "업무안내 담당",
+          "source": "01080900"
+        }
+      ],
+      "note": "",
+      "linkSource": "directory",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "tago",
+      "title": "국가대중교통정보센터(TAGO)",
+      "url": "https://www.tago.go.kr",
+      "category": "모빌리티·데이터",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [],
+      "note": "TS 공식 목록·업무안내에서 연결 확인. 담당 처는 이번 조사에서 미확인.",
+      "linkSource": "directory",
+      "status": "담당 처 미확인"
+    },
+    {
+      "id": "safeinfo",
+      "title": "전세버스 교통안전정보 공시",
+      "url": "https://kotsa.or.kr/safeinfo",
+      "category": "모빌리티·데이터",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [],
+      "note": "현행 사이트 수록. 기존 기획의 모빌리티연구처 매핑을 원문 담당 검증으로 승격하지 않고 확인 대기.",
+      "linkSource": "directory",
+      "status": "담당 처 미확인"
+    },
+    {
+      "id": "hmts",
+      "title": "위험물질운송안전 통합관리시스템",
+      "url": "https://hmts.kotsa.or.kr",
+      "category": "물류·환경",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "CL",
+          "department": "기후탄소물류처",
+          "role": "위험물질 운송안전 개인정보파일 운영·열람청구 담당",
+          "source": "privacy"
+        }
+      ],
+      "note": "",
+      "linkSource": "directory",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "kpass",
+      "title": "K-패스",
+      "url": "https://korea-pass.kr",
+      "category": "모빌리티·데이터",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "DF",
+          "department": "데이터융복합처",
+          "role": "업무안내 담당",
+          "source": "01080300"
+        }
+      ],
+      "note": "",
+      "linkSource": "directory",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "rail",
+      "title": "철도안전정보종합관리시스템",
+      "url": "https://www.railsafety.or.kr",
+      "category": "항공·철도",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "rail-safety",
+          "department": "철도안전처",
+          "role": "업무안내 담당",
+          "source": "02030301"
+        }
+      ],
+      "note": "",
+      "linkSource": "directory",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "kaa",
+      "title": "항공교육훈련포털",
+      "url": "https://kaa.atims.kr",
+      "category": "항공·철도",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "air-safety",
+          "department": "항공안전처",
+          "role": "업무안내 담당",
+          "source": "02010800"
+        }
+      ],
+      "note": "",
+      "linkSource": "directory",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "edrone",
+      "title": "드론 정보통합시스템",
+      "url": "https://www.kotsa.or.kr/edrone",
+      "category": "항공·철도",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "drone",
+          "department": "드론관리처",
+          "role": "드론 정보통합 개인정보파일 운영·열람청구 담당",
+          "source": "privacy"
+        }
+      ],
+      "note": "",
+      "linkSource": "directory",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "cyberts",
+      "title": "사이버검사소",
+      "url": "https://www.cyberts.kr",
+      "category": "자동차검사·튜닝",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "IP",
+          "department": "검사기획처",
+          "role": "자동차검사 업무안내 담당",
+          "source": "01010101"
+        },
+        {
+          "node": "technical-approval",
+          "department": "기술승인처",
+          "role": "사이버검사소 개인정보파일 운영·열람청구 담당",
+          "source": "privacy"
+        },
+        {
+          "node": "AD",
+          "department": "첨단검사전략처",
+          "role": "검사원 기술교육 업무안내 담당",
+          "source": "01090401"
+        }
+      ],
+      "note": "업무 안내·개인정보파일 운영·열람청구·기술교육의 서로 다른 관계. 사이트 전체의 단독 운영처나 전결권으로 해석하지 않음.",
+      "linkSource": "main",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "special",
+      "title": "특수검사시스템",
+      "url": "https://www.kotsa.or.kr/kpchome",
+      "category": "자동차검사·튜닝",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "SI",
+          "department": "특수검사처",
+          "role": "업무안내 담당",
+          "source": "01030201"
+        }
+      ],
+      "note": "",
+      "linkSource": "directory",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "mpis",
+      "title": "기계식주차장관리시스템",
+      "url": "https://www.kotsa.or.kr/mpis",
+      "category": "자동차검사·튜닝",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "PK",
+          "department": "주차안전처",
+          "role": "업무안내 담당",
+          "source": "01030401"
+        }
+      ],
+      "note": "",
+      "linkSource": "directory",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "fpis",
+      "title": "화물운송실적관리시스템",
+      "url": "https://www.fpis.go.kr",
+      "category": "물류·환경",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "CL",
+          "department": "기후탄소물류처",
+          "role": "업무안내 담당",
+          "source": "01040502"
+        }
+      ],
+      "note": "",
+      "linkSource": "directory",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "katri",
+      "title": "자동차안전연구원",
+      "url": "https://katri.kotsa.or.kr",
+      "category": "자동차안전연구원",
+      "kind": "기관 홈페이지",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "KATRI",
+          "department": "자동차안전연구원",
+          "role": "기관 홈페이지",
+          "source": "directory"
+        }
+      ],
+      "note": "기관 단위 연결. 홈페이지 총괄 처 미확인.",
+      "linkSource": "directory",
+      "status": "기관 연결·처 미확인"
+    },
+    {
+      "id": "recall",
+      "title": "자동차리콜센터",
+      "url": "https://www.car.go.kr",
+      "category": "자동차안전연구원",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "KATRI",
+          "department": "결함정책처",
+          "role": "업무안내 담당",
+          "source": "04030700"
+        }
+      ],
+      "note": "조직 지도에서는 자동차안전연구원에 연결. KATRI 적용안 3건을 실제 부서명으로 사용하지 않음.",
+      "linkSource": "directory",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "cartuning",
+      "title": "자동차튜닝부품인증센터",
+      "url": "http://cartuning.kr",
+      "category": "자동차안전연구원",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [],
+      "note": "TS 공공웹사이트 목록의 연결기관. TS 직접운영 여부·담당 처는 미확인. 목록 등재만으로 TS 소유 시스템으로 단정하지 않음.",
+      "linkSource": "directory",
+      "status": "담당 처 미확인"
+    },
+    {
+      "id": "parts",
+      "title": "자동차부품자기인증시스템",
+      "url": "https://kotsa.or.kr/parts",
+      "category": "자동차안전연구원",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "KATRI",
+          "department": "부품연구처",
+          "role": "업무안내 담당",
+          "source": "04030500"
+        }
+      ],
+      "note": "",
+      "linkSource": "directory",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "kncap",
+      "title": "자동차안전도평가(KNCAP)",
+      "url": "http://www.kncap.org",
+      "category": "자동차안전연구원",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "KATRI",
+          "department": "안전연구처",
+          "role": "업무안내 담당",
+          "source": "04030600"
+        }
+      ],
+      "note": "",
+      "linkSource": "directory",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "kotems",
+      "title": "교통부문온실가스관리시스템",
+      "url": "https://www.kotems.or.kr",
+      "category": "물류·환경",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [],
+      "note": "공식 목록에서 사이트 확인. 업무명 유사성만으로 기후탄소물류처에 배정하지 않고 담당 처 확인 대기.",
+      "linkSource": "directory",
+      "status": "담당 처 미확인"
+    },
+    {
+      "id": "car365",
+      "title": "자동차365",
+      "url": "https://www.car365.go.kr/",
+      "category": "차량행정·공통",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [
+        {
+          "node": "vehicle-info",
+          "department": "자동차정보처",
+          "role": "업무안내 담당",
+          "source": "04030100"
+        }
+      ],
+      "note": "",
+      "linkSource": "directory",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "car365biz",
+      "title": "자동차365 업무포털",
+      "url": "https://biz.car365.go.kr/",
+      "category": "차량행정·공통",
+      "kind": "업무시스템",
+      "baseline": true,
+      "mappings": [],
+      "note": "대민 자동차365와 별도 업무경로. 동일 브랜드라는 이유만으로 담당 처를 확정하지 않음.",
+      "linkSource": "directory",
+      "status": "담당 처 미확인"
+    },
+    {
+      "id": "edu",
+      "title": "TS배움터",
+      "url": "https://edu.kotsa.or.kr",
+      "category": "도로·자격",
+      "kind": "업무시스템",
+      "baseline": false,
+      "mappings": [
+        {
+          "node": "QE",
+          "department": "자격교육처",
+          "role": "교통안전교육 업무안내 담당",
+          "source": "01070101"
+        },
+        {
+          "node": "DV",
+          "department": "실증사업처",
+          "role": "교통시설 안전교육 업무안내 담당",
+          "source": "01070201"
+        }
+      ],
+      "note": "교육과정별 공동 활용. 실증사업처는 해당 교육업무 담당이며 플랫폼 전체 운영 담당의 의미와 구분.",
+      "linkSource": "01070101",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "sandbox",
+      "title": "모빌리티 규제샌드박스",
+      "url": "https://sandbox.kotsa.or.kr",
+      "category": "모빌리티·데이터",
+      "kind": "업무시스템",
+      "baseline": false,
+      "mappings": [
+        {
+          "node": "RI",
+          "department": "규제혁신처",
+          "role": "업무안내 담당",
+          "source": "01100101"
+        }
+      ],
+      "note": "",
+      "linkSource": "01100101",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "airsafety",
+      "title": "항공안전 자율보고",
+      "url": "https://www.airsafety.or.kr/",
+      "category": "항공·철도",
+      "kind": "업무시스템",
+      "baseline": false,
+      "mappings": [
+        {
+          "node": "air-safety",
+          "department": "항공안전처",
+          "role": "업무안내 담당",
+          "source": "02010500"
+        }
+      ],
+      "note": "",
+      "linkSource": "02010500",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "avsec",
+      "title": "항공보안365",
+      "url": "https://www.avsec365.or.kr/",
+      "category": "항공·철도",
+      "kind": "업무시스템",
+      "baseline": false,
+      "mappings": [
+        {
+          "node": "air-safety",
+          "department": "항공안전처",
+          "role": "업무안내 담당",
+          "source": "02010600"
+        }
+      ],
+      "note": "",
+      "linkSource": "02010600",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "onestop",
+      "title": "드론 원스톱 민원서비스",
+      "url": "https://drone.onestop.go.kr",
+      "category": "항공·철도",
+      "kind": "업무시스템",
+      "baseline": false,
+      "mappings": [
+        {
+          "node": "drone",
+          "department": "드론관리처",
+          "role": "기체신고 업무안내 담당",
+          "source": "02020100"
+        }
+      ],
+      "note": "관련 민원서비스 연결. 타 기관의 비행승인 등 전체 업무를 TS 업무로 포괄하지 않음.",
+      "linkSource": "02020100",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "tsmain",
+      "title": "TS 대표 누리집",
+      "url": "https://main.kotsa.or.kr/main.do",
+      "category": "차량행정·공통",
+      "kind": "기관 홈페이지",
+      "baseline": false,
+      "mappings": [
+        {
+          "node": "external",
+          "department": "대외협력실",
+          "role": "대표 홈페이지 회원정보파일 운영·열람청구 담당",
+          "source": "privacy"
+        }
+      ],
+      "note": "",
+      "linkSource": "main",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "tsum",
+      "title": "TS 통합회원포털",
+      "url": "https://tsum.kotsa.or.kr/tsum/mbs/inqFrmLogin.do?nextPage=https://main.kotsa.or.kr/sso/CreateRequest.jsp?RelayState=https://main.kotsa.or.kr/mbs/inqSsoLogin.do",
+      "category": "차량행정·공통",
+      "kind": "업무시스템",
+      "baseline": false,
+      "mappings": [
+        {
+          "node": "digital-planning",
+          "department": "디지털기획처",
+          "role": "통합회원정보파일 운영·열람청구 담당",
+          "source": "privacy"
+        }
+      ],
+      "note": "",
+      "linkSource": "main",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "adr",
+      "title": "자동차 교환·환불 e만족",
+      "url": "https://adr.katri.or.kr",
+      "category": "자동차안전연구원",
+      "kind": "업무시스템",
+      "baseline": false,
+      "mappings": [
+        {
+          "node": "KATRI",
+          "department": "자동차안전하자 심의위원회사무국",
+          "role": "자동차안전하자관리 개인정보파일 운영·열람청구 담당",
+          "source": "privacy"
+        }
+      ],
+      "note": "기관 지도에서는 KATRI에 연결. 결함정책처와 심의위원회 사무국 역할 구분.",
+      "linkSource": "04030700",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "bis",
+      "title": "버스정보시스템(BIS) 업무안내",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01080400",
+      "category": "모빌리티·데이터",
+      "kind": "공식 업무안내",
+      "baseline": false,
+      "mappings": [
+        {
+          "node": "MR",
+          "department": "모빌리티연구처",
+          "role": "업무안내 담당",
+          "source": "01080400"
+        }
+      ],
+      "note": "독립 운영 사이트가 아닌 TS 공식 업무안내.",
+      "linkSource": "01080400",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "kavic",
+      "title": "첨단자동차검사연구센터 안내",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01090100",
+      "category": "자동차검사·튜닝",
+      "kind": "공식 업무안내",
+      "baseline": false,
+      "mappings": [
+        {
+          "node": "AD",
+          "department": "첨단검사전략처",
+          "role": "업무안내 담당",
+          "source": "01090100"
+        }
+      ],
+      "note": "별도 기관 홈페이지로 집계하지 않는 공식 소개 페이지.",
+      "linkSource": "01090100",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "advanced-rd",
+      "title": "첨단연구개발 업무안내",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01090201",
+      "category": "자동차검사·튜닝",
+      "kind": "공식 업무안내",
+      "baseline": false,
+      "mappings": [
+        {
+          "node": "RD",
+          "department": "첨단연구개발처",
+          "role": "업무안내 담당",
+          "source": "01090201"
+        }
+      ],
+      "note": "독립 운영 사이트가 아닌 TS 공식 업무안내.",
+      "linkSource": "01090201",
+      "status": "처 관계 확인"
+    },
+    {
+      "id": "tuning-info",
+      "title": "TS튜닝알리고 업무안내",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01020300",
+      "category": "자동차검사·튜닝",
+      "kind": "공식 업무안내",
+      "baseline": false,
+      "mappings": [
+        {
+          "node": "tuning-safety",
+          "department": "기술안전처",
+          "role": "업무안내 담당",
+          "source": "01020300"
+        }
+      ],
+      "note": "공식 안내 연결. 독립 서비스 주소를 임의로 만들지 않음.",
+      "linkSource": "01020300",
+      "status": "처 관계 확인"
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import {Link,navigate} from './core.jsx';
 import org from './org-map-data.cjs';
 import impact from './impact.json';
 import './org-map.css';
+import {SiteConnections} from './Websites.jsx';
 const {tree,nodes,parents,ancestry,proposals,documents,departmentByCode,kindLabel,edgeKind}=org;
 const nodeUrl=id=>'index.html'+(id==='TS'?'':'?node='+encodeURIComponent(id));
 const related=d=>d?Object.values(departmentByCode).filter(x=>x.code!==d.code&&String(d.partner||'').includes(x.name)):[];
@@ -43,6 +44,7 @@ function Context({node}){
   {node.children.length>0&&<div className="map-resource-links">{links.map((link,i)=><Link key={link.id} to={link.to}><span>{String(i+1).padStart(2,'0')}</span><div><b>{link.name}</b><small>{link.summary}</small></div><ArrowUpRight size={16}/></Link>)}</div>}
   {metrics.length>0&&<div className="map-related"><h3>지표별 측정명세 바로가기</h3>{metrics.map(m=><Link key={m.id} to={d.folder+'/01_사업정의.html?view=impact&metric='+m.id+'&slide='+m.id+'-method-1'}>{m.id} · {m.title}<ArrowUpRight size={14}/></Link>)}<small>목표안과 실측 결과 구분 · 산식·표본·증빙·판정 확인</small></div>}
   {!d&&list.length>0&&node.id!=='TS'&&<div className="map-related"><h3>이 계통의 AX 제안 · {list.length}개 처</h3>{list.map(x=><Link key={x.code} to={nodeUrl(x.code)}>{x.name}<ChevronRight size={14}/></Link>)}</div>}
+  <SiteConnections node={node}/>
   {collaborators.length>0&&<div className="map-related"><h3>제안서상 협업 접점</h3>{collaborators.map(x=><Link key={x.code} to={nodeUrl(x.code)}>{x.name}<ChevronRight size={14}/></Link>)}<small>협업 설계안 연결 · 공식 업무분장 확정과 구분</small></div>}
  </aside>;
 }
@@ -53,7 +55,7 @@ export function Home(){
  const matches=words.length?Object.values(nodes).filter(n=>{const d=departmentByCode[n.code];const text=[n.name,n.summary,d?.goal,d?.system,...ancestry(n.id).map(a=>a.name)].join(' ').toLocaleLowerCase();return words.every(w=>text.includes(w));}):[];
  const trail=ancestry(node.id),childNodes=node.children.length?node.children:documents(node);
  return <div className="mindmap-home">
-  <div className="map-home-heading"><div><span className="map-kicker">TS AX 사업기획 · 조직 기반 탐색</span><h1>조직에서 시작하는 연결지도</h1><p>조직을 따라 이동하고, 업무별 제안과 근거를 한 번에 찾는 자료 지도.</p></div><Link to="index.html?view=guide" className="map-guide"><FolderTree size={17}/>폴더 목차·자료 안내</Link></div>
+  <div className="map-home-heading"><div><span className="map-kicker">TS AX 사업기획 · 조직 기반 탐색</span><h1>조직에서 시작하는 연결지도</h1><p>조직을 따라 이동하고, 업무별 제안과 근거를 한 번에 찾는 자료 지도.</p></div><div className="map-top-links"><Link to="websites.html" className="map-guide"><ArrowUpRight size={17}/>처별 공식 홈페이지</Link><Link to="index.html?view=guide" className="map-guide"><FolderTree size={17}/>폴더 목차·자료 안내</Link></div></div>
   <div className="map-toolbar">
    <div className="map-search-wrap"><label className="map-search"><Search size={19}/><input aria-label="조직·업무·시스템 검색" placeholder="처 이름, 업무 또는 시스템 검색 · 예: 데이터융복합, KADIS" value={query} onChange={e=>setQuery(e.target.value)} onKeyDown={e=>{if(e.key==='Escape')setQuery('');if(e.key==='Enter'&&matches.length===1)navigate(nodeUrl(matches[0].id));}}/>{query&&<button onClick={()=>setQuery('')} aria-label="검색어 지우기"><X size={17}/></button>}</label>
     {words.length>0&&<div className="map-search-results"><p role="status">{matches.length}개 연결 항목{matches.length===0?' · 검색어를 줄이거나 처 이름으로 검색':''}</p><ul>{matches.map(n=><li key={n.id}><Link to={nodeUrl(n.id)}><strong>{n.name}</strong><small>{ancestry(n.id).slice(1,-1).map(a=>a.name).join(' › ')||'TS'} · {kindLabel(n)}</small></Link></li>)}</ul></div>}

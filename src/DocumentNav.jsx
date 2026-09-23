@@ -11,12 +11,12 @@ export const documentTree=[
  leaf('자료 안내','index.html?view=guide'),
  branch('institution','01. TS 기관 이해',[leaf('기관의 존재 의의','about.html'),branch('laws','법정·수탁업무',[leaf('전체 업무 지도','legal.html'),...legal.groups.map(g=>leaf(g.title,'legal/'+g.id+'.html')),leaf('법령 근거·확인 범위','legal/sources.html')])]),
  branch('strategy','02. 2026–2030 계획',[leaf('경영목표·전략과제','vision.html')]),
- branch('organization','03. 조직·수행업무',[leaf('조직도·업무 연결','organization.html'),leaf('대국민 ARS 업무지도','ars.html')]),
+ branch('organization','03. 조직·수행업무',[leaf('조직도·업무 연결','organization.html'),leaf('처별 공식 홈페이지·시스템','websites.html'),leaf('대국민 ARS 업무지도','ars.html')]),
  branch('departments','04. 처별 AX 전환 제안',[leaf('처별 제안 목록','solutions.html'),...depts.map(d=>branch('dept-'+d.code,d.name,[
  leaf('사업 정의·컨셉',deptPath(d,0)),leaf('서비스 흐름',deptPath(d,1)),
  branch('arch-'+d.code,'상세 아키텍처',archLinks(deptPath(d,2))),
  branch('measure-'+d.code,'정량효과·측정방법',[leaf('추진 근거·목표',deptPath(d,0)+'?view=impact'),...[1,2,3].map(n=>leaf('지표 '+n+' · 측정명세',deptPath(d,0)+'?view=impact&metric='+d.code+'-E0'+n+'&slide='+d.code+'-E0'+n+'-method-1'))]),
- leaf('문제·법정업무 근거',deptPath(d,0)+'?view=evidence'),
+ leaf('문제·법정업무 근거',deptPath(d,0)+'?view=evidence'),leaf('공식 홈페이지·담당 근거','websites.html?node='+d.code),
  leaf('요구사항·대가 산정',deptPath(d,0)+'?view=requirements')
  ]))]),
  branch('katri','05. 자동차안전연구원 KATRI',[leaf('문서 1차 검토 적용안','katri.html'),
