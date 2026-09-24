@@ -8,3 +8,9 @@
 - 추가하면 좋은 검사: ① `public/`·`dist/` HTML의 금액 패턴(`[0-9,.]+ ?(억|만 ?원|원)`) 발견 시 경고 목록 출력, ② `<title>`에 같은 구절이 두 번 들어간 페이지 검사, ③ `legacy/`에 `public/` 직속과 동일 내용 파일이 생기면 실패.
 - 로컬 전용 스크립트는 `*.local.cjs`로 두면 `.gitignore`에 걸린다. 임시 스크립트를 커밋하지 않는다.
 - Actions(`.github/workflows/pages.yml`)의 action 참조는 commit SHA 고정을 유지하고, `deploy` 잡 외에 `pages: write` 권한을 주지 않는다.
+
+## 47번 반영 검사(추가 필요)
+
+- `src/solutions-47.json`의 `facts[].ids`가 모두 `evidence`에 있는지, 13개 처 모두 판정이 있는지.
+- `dist/` 전체에 `CCK|1차사업|2차사업|내부자료|Slack|슬랙`이 없는지(공개 경계).
+- 13개 처 화면 텍스트에 "예시 기준선"이 없는지.
