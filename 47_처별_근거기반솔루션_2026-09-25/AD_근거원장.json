@@ -1,0 +1,948 @@
+[
+ {
+  "id": "AD-E01",
+  "type": "계획",
+  "title": "2026년도 부서별 주요업무 추진계획 7-2 첨단자동차검사연구센터 2025 성과",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.153(txt 4431~4435행)",
+  "quote_or_value": "전기차 BMS 진단 가능 차량 확대(329개 모델 DB 개발), 전기차 진단정보 미제공 업체 관리 및 BMS 진단 부적합 시행; KADIS 민간보급 98.7%(612→1,216개소) 증가",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "id": "AD-E02",
+  "type": "계획",
+  "title": "2026 추진과제 1-3 SDV 운행안전성 검사체계 마련",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.157(txt 4553~4563행)",
+  "quote_or_value": "첨단검사전략처·첨단연구개발처 공동: S/W 검사기술 개발, 제작사 정보 제공 항목 추가(별표 5의3) 등 개정안 개발, KADIS 기반 S/W 결함 검출 검사기술 및 서버 연동 시스템 개발",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3",
+   "5",
+   "9"
+  ]
+ },
+ {
+  "id": "AD-E03",
+  "type": "계획",
+  "title": "2026 추진과제 2-2 BMS 진단 검사시스템 고도화",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.158(txt 4576~4583행)",
+  "quote_or_value": "첨단검사전략처 단독: '26년도 전기차 BMS 진단검사 대상 진단 DB 개발 및 KADIS 무선 진단시스템 구축; 펌웨어업데이트, DB 구조 확장, 소규모 제작사 차량 DB 자동전송 방식 개선",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "AD-E04",
+  "type": "계획",
+  "title": "2026 추진과제 2-1 전기차 특화 검사장비, 3-1~3-3 검사기기 혁신, 4-1·4-3 교육·국제교류",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.158~160(txt 4570~4660행)",
+  "quote_or_value": "첨단검사전략처 관여: 특화장비 3종(충전구절연저항·AVAS·배터리부하), 배출가스 로봇, AI 하체검사, 제원측정 간소화, TS-SYSTEM 표준화(10대), 노후장비 교체, 전기차 교육과정, CITA·WP.29 국제교류, 코이카 ODA",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "AD-E05",
+  "type": "계획",
+  "title": "7-1 검사전략실 개선 필요사항: 전자진단율 향상",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.142(txt 4151~4155행)",
+  "quote_or_value": "정부 계량지표 신설에 따른 경영목표 달성을 위해 전기·전자장치 진단율 향상방안 마련(검사 생략 예방, 시스템 오류 개선 및 진단 기능 향상); BMS·고전원전기장치 진단검사 의무화, 부적합 항목 신설",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "2",
+   "4",
+   "8"
+  ]
+ },
+ {
+  "id": "AD-E06",
+  "type": "계획",
+  "title": "7-1 검사전략실 2026 과제 1-3 첨단장치 검사 강화",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.145(txt 4268~4272행)",
+  "quote_or_value": "검사정책처: 첨단안전장치(ACC·LKA·ESC 등 34개 이상) 진단검사 강화 및 진단률 향상 — 통신 오류, 검사 생략 등 원인 분석을 통한 진단 기술 고도화 및 검사체계 강화",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "AD-E07",
+  "type": "계획",
+  "title": "7-1 검사전략실 2026 과제 1-1 전기차 검사 안전 체계 강화",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.145(txt 4246~4259행)",
+  "quote_or_value": "검사정책처: 화재 우려 리콜 부적합 대상 전산연계(KATRI)·재검사 방안; 운행차 전기·전자장치 진단 정보 및 결함 진단 코드 항목 확대, 온라인 재검사; (현재) 제작사가 고전원전기장치 결함 정보 제공 → 제작사 협의로 확대",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ]
+ },
+ {
+  "id": "AD-E08",
+  "type": "계획",
+  "title": "7-1 검사전략실 2025 성과",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.140~141(txt 4099~4128행)",
+  "quote_or_value": "고전원전기장치 BMS 진단검사 및 부적합 코드 신설 → 전기차 약 63만대 안전 강화; 민간 결함발견율 '25년 종합 84.895% 예상",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "AD-E09",
+  "type": "계획",
+  "title": "전사 주요성과·국정과제 연계(모빌리티 안전관리체계)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.18~19(txt 456~457, 628~630행)",
+  "quote_or_value": "BMS 진단검사 의무화 및 진단 가능 차량 확대(329개 모델); 승합·화물 BMS 진단 차종 확대, KADIS 무선 시스템; BMS 검사·진단장비 의무화(자관법 시행규칙 개정 완료, '25.4 시행)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "AD-E10",
+  "type": "계획",
+  "title": "전사 조직·인력 성과(증원 31명)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "txt 1739~1741행",
+  "quote_or_value": "증원 31명 중 정기 27명(이륜차안전도검사, 자동차사이버보안, 단지내도로점검). 사이버보안 증원의 배치 처는 원문 미기재",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "9"
+  ]
+ },
+ {
+  "id": "AD-E11",
+  "type": "계약",
+  "title": "2026 물품 발주계획: 중국 전기차 전용 진단장비",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_물품_발주계획.csv",
+  "published": "2026",
+  "accessed": "2026-09-24",
+  "locator": "발주 202608 행",
+  "quote_or_value": "첨단검사전략처, 수의계약, 1개, 10,000,000원, 용도 '자동차검사장비 연구개발용', 규격 '중국 전기차 제작사 전용 진단기 구매'",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "3",
+   "4"
+  ]
+ },
+ {
+  "id": "AD-E12",
+  "type": "계약",
+  "title": "2026 물품 발주계획: KADIS 진단 케이블·소모품",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_물품_발주계획.csv",
+  "published": "2026",
+  "accessed": "2026-09-24",
+  "locator": "발주 202602·202603·202605 행",
+  "quote_or_value": "첨단검사전략처: 대형진로 KADIS 진단 케이블 61개 9,500,000원 / KADIS 소모품 61SET 19,900,000원 / 20SET 30,000,000원(제한경쟁). 처 물품 합계 69,400,000원(중국 EV 진단기 포함). 용역 발주계획 내 첨단검사전략처 건 0건",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "AD-E13",
+  "type": "계약",
+  "title": "2026 용역·물품 발주계획: AI검사인프라처 건",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_용역_발주계획.csv",
+  "published": "2026",
+  "accessed": "2026-09-24",
+  "locator": "AI검사인프라처 담당 행",
+  "quote_or_value": "AI 하체검사 시스템 개발 170,000,000원, 디지털 관능검사 장비 300,000,000원, 배출가스검사 가속패달 자동화 200,000,000원, 전자서명 고도화 56,000,000원 등",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "9"
+  ]
+ },
+ {
+  "id": "AD-E14",
+  "type": "법령",
+  "title": "자동차관리법 제32조의2 제1항제3호의2(TS 무상 자료제공)·제5항·제81조",
+  "publisher": "국토교통부/국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=260419",
+  "published": "시행 2025-08-14 판본(2026-02-27 개정분, 시행 2027-07-01 병기)",
+  "accessed": "2026-09-24",
+  "locator": "제32조의2①3의2, ⑤, 제81조 제17호",
+  "quote_or_value": "자동차제작자등은 TS에 정비매뉴얼, 고장진단기 제작을 위한 자료 등 자동차검사·종합검사·안전기준 적합조사에 필요한 자료를 무상 제공(종류는 부령). 불이행 시 이행명령, 이행명령 위반은 1년 이하 징역 또는 1천만원 이하 벌금",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4",
+   "9"
+  ]
+ },
+ {
+  "id": "AD-E15",
+  "type": "법령",
+  "title": "자동차관리법 제43조·제44조·제45조·제45조의3",
+  "publisher": "국토교통부/국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=260419",
+  "published": "시행 2025-08-14 판본",
+  "accessed": "2026-09-24",
+  "locator": "제43조②⑥, 제44조①, 제45조①, 제45조의3①제6호",
+  "quote_or_value": "검사기준 적합 확인·결과 통지·검사장면 기록; 국토부장관이 TS를 자동차검사대행자로 지정; 지정정비사업자(민간검사소) 지정; 검사항목 일부 생략 검사 시 지정취소 또는 6개월 이내 업무정지",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4",
+   "9"
+  ]
+ },
+ {
+  "id": "AD-E16",
+  "type": "법령",
+  "title": "자동차관리법 시행규칙 제49조의6(무상 제공 자료의 종류 등)",
+  "publisher": "국토교통부/국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=289865",
+  "published": "시행 2026-09-15(국토교통부령 제1621호)",
+  "accessed": "2026-09-24",
+  "locator": "제49조의6①~③",
+  "quote_or_value": "TS 무상제공 자료 종류는 별표 5의3; 자기인증 차량 최초 판매일부터 6개월 이내 제공, 부득이한 사유 시 TS가 3개월 이내 연장 가능; 변경 시 매년 정기 갱신",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "AD-E17",
+  "type": "입법",
+  "title": "자동차관리법 시행규칙 개정안 입법예고(친환경차 검사기준 분리·진단정보 사전제출)",
+  "publisher": "국토교통부(언론 보도 경유)",
+  "url_or_path": "https://www.newspim.com/news/view/20260819000216 ; https://www.sedaily.com/article/20080896 ; https://www.kisnews.net/719122",
+  "published": "2026-08-19",
+  "accessed": "2026-09-24",
+  "locator": "입법예고 2026-08-20~09-30",
+  "quote_or_value": "친환경차 21개/내연 24개 항목 분리; 진단정보 제공시점 '최초 판매 후 6개월 이내'→'판매개시 10일 전'; Security Access·최대/최소 셀전압·SOH·SOC 무상제공 구체화; 사유: 제작사 폐업 등으로 미제출 시 검사현장 차질 방지(서울경제)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "0",
+   "1",
+   "2",
+   "4",
+   "5",
+   "9"
+  ]
+ },
+ {
+  "id": "AD-E18",
+  "type": "언론",
+  "title": "'정보 공개 왜 안하나'… 7개 제조사 BMS 정보 제공 거부",
+  "publisher": "세이프타임즈(국토부 2024-08-16 발표 인용)",
+  "url_or_path": "https://www.safetimes.co.kr/news/articleView.html?idxno=218324",
+  "published": "2024-08-19",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "전기차 판매 14개 제조사 중 7개사 BMS 정보 미제공(기술유출 우려), 해당 판매 3만2,056대(등록 전기차의 약 8.2%); 당시 시행규칙상 BMS 정보는 의무제공 항목 제외",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "AD-E19",
+  "type": "언론",
+  "title": "테슬라 전기차, 민간검사소에서도 검사 쉬워진다",
+  "publisher": "뉴시스(TS 발표 인용)",
+  "url_or_path": "https://www.newsis.com/view/NISX20250418_0003144920",
+  "published": "2025-04-18",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "국내 전기차 기준으로 개발돼 테슬라 적용이 어려웠음; 2023.12 KADIS 테슬라 진단기술 개발; 민간 KADIS 보급 2023년 542개소(28.9%)→1,057개소(56.5%), 민간검사소 1,872개소; 전용 케이블 무상 제공",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1",
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "AD-E20",
+  "type": "공식",
+  "title": "검사용진단기(KADIS) 업무안내",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01090301",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "34개 제작사·450차종·12,000여 시스템 진단; 첨단안전장치·배출가스·최고속도제한·BMS·모의구동·수소 연료장치·ECU 정보; KAMS·KAPRO·KANET·VIMS 구성; 담당 첨단검사전략처",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "AD-E21",
+  "type": "데이터",
+  "title": "자동차검사 전기자동차 배터리 셀 전압 데이터(2025 검사분)",
+  "publisher": "한국교통안전공단(관리부서 첨단검사전략처)",
+  "url_or_path": "https://www.data.go.kr/data/15118176/fileData.do",
+  "published": "수정 2026-07-13",
+  "accessed": "2026-09-24",
+  "locator": "메타데이터",
+  "quote_or_value": "32,790행·129필드(제작사·제원관리번호·차명·검사일·주행거리·셀1~120 전압), 연 1회 갱신; 비고 'BMS 전송값 그대로 수집, 제작사 기술적 한계로 셀 전압 없는 차량 존재'",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "7",
+   "8"
+  ]
+ },
+ {
+  "id": "AD-E22",
+  "type": "데이터",
+  "title": "자동차검사소 부적합 현황(20251231)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://www.data.go.kr/data/15047451/fileData.do",
+  "published": "수정 2026-07-28",
+  "accessed": "2026-09-24",
+  "locator": "메타데이터",
+  "quote_or_value": "62행(검사소), 검사항목별(동일·원동·…·전기·등화 등) 부적합 건수. 진단불능·생략 건수 컬럼 없음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "7",
+   "8"
+  ]
+ },
+ {
+  "id": "AD-E23",
+  "type": "민원",
+  "title": "개인 블로그 검사 후기(수입 포드 F-150 전자진단 통신 불가)",
+  "publisher": "개인 블로그",
+  "url_or_path": "https://f150.pro/246",
+  "published": "2025-10-13",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "공단 검사소, 미국 직수입 F-150: 포드 스캔 기능 없는 장비로 통신 이상·진단 불가, 고전압 절연 등 확인 불가, 최종 합격. 단일 사례",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "AD-E24",
+  "type": "언론",
+  "title": "전기차 배터리 검사로 내 차 안전 지킨다",
+  "publisher": "보안뉴스(TS 발표 인용)",
+  "url_or_path": "http://www.boannews.com/news/articleView.html?idxno=109022",
+  "published": "2022-08-12",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "2022-08-11부터 59개 공단 검사소 정기검사 시 전기차 배터리 성능(SOC·SOH 등)·안전(절연·셀간 전압·모듈온도) 진단정보 제공 서비스 시행",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "AD-E25",
+  "type": "언론",
+  "title": "전기차 배터리 의무검사·상시 모니터링 급선무 등(검색결과 요약)",
+  "publisher": "전자신문·서플",
+  "url_or_path": "https://www.etnews.com/20240823000163 ; https://supple.kr/news/cmszgjmln00i181isau5ppb4l",
+  "published": "2024-08-23 외",
+  "accessed": "2026-09-24",
+  "locator": "검색결과 요약만 확인",
+  "quote_or_value": "BMS 검사 8개 항목 의무화 추진, 부적합 기준을 고장진단코드로 명확화 방침(원문 미열람)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "AD-E26",
+  "type": "내부",
+  "title": "N-04 전기차배터리 안전이력AI 기획서 v0.1",
+  "publisher": "CCK 내부",
+  "url_or_path": "{P}/N-04_전기차배터리_안전이력AI_기획서_v0.1_2026-09-15.md",
+  "published": "2026-09-15",
+  "accessed": "2026-09-24",
+  "locator": "§현황 77·136·219행",
+  "quote_or_value": "'민간검사소 약 30%(600곳)만 KADIS 보유'로 기재 — 2023년 수치로 추정, 2025 성과(1,216개소)와 불일치",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "10"
+  ]
+ },
+ {
+  "id": "AD-E27",
+  "type": "내부",
+  "title": "TS 부서별 업무목록 v0.3 ORG-029~031",
+  "publisher": "CCK 내부(GPT 정리)",
+  "url_or_path": "{D}/TS_부서별_업무목록_v0.3_20260921.md",
+  "published": "2026-09-21",
+  "accessed": "2026-09-24",
+  "locator": "ORG-029·030·031",
+  "quote_or_value": "첨단검사전략처: 검사용 진단기·첨단검사기술 개발 / 첨단연구개발처: 첨단차 검사장비·기술 연구개발 / AI검사인프라처: 자동차검사관리·예약·안내발송·결제",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "AD-E28",
+  "type": "법령",
+  "title": "자동차관리법 시행규칙 별표 15 자동차검사기준 및 방법(제73조 관련)",
+  "publisher": "국토교통부/국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=289865&bylNo=0015&bylBrNo=00&bylCls=BE",
+  "published": "개정 2025-12-02(시행규칙 2026-09-15 판본)",
+  "accessed": "2026-09-25",
+  "locator": "1.나.7), 2.가 고전원전기장치 자)·차), 전자장치 가)·나)",
+  "quote_or_value": "검사기기 생략 사유로 '전자제어장치 등이 없거나 전자장치진단기로 진단을 시도하였으나 진단이 되지 않은 경우' 명시. 고전원전기장치 절연·작동은 진단기로 고장진단코드 확인, 진단되지 않으면 계기 고장경고등 점등 여부 확인; 차로이탈경고장치 진단 불가 시 맨눈 설치 확인; 경고음발생장치 진단 불가 시 주행 중 경고음 확인",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "1",
+   "2",
+   "4",
+   "5",
+   "9"
+  ]
+ },
+ {
+  "id": "AD-E29",
+  "type": "법령",
+  "title": "자동차관리법 시행규칙 별표 5의3 무상 제공 자료의 종류(제49조의6제1항 관련)",
+  "publisher": "국토교통부/국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=289865&bylNo=0005&bylBrNo=03&bylCls=BE",
+  "published": "개정 2025-02-18",
+  "accessed": "2026-09-25",
+  "locator": "제1호~제5호",
+  "quote_or_value": "1. 검사용 고장진단기 제작 자료: 고장진단코드 목록·통신규약, 전기차 전지 최대·최소 셀 전압, 연료전지차 DTC 삭제 자료 — ACC·AEB·LKAS·ABS·에어백 등 34개 장치; 2. 배출가스 감시장치 11종 통신규약; 3. 모의구동 자료(통신규약·seed key 알고리즘) — 등화·QRTV·절연저항 모니터링 등; 4. 정비매뉴얼; 5. 그 밖에 TS 요구 자료. SOH·SOC는 현행 별표에 명시 없음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4",
+   "5",
+   "7"
+  ]
+ },
+ {
+  "id": "AD-E30",
+  "type": "해외",
+  "title": "Commission Implementing Regulation (EU) 2019/621 — 정기검사용 기술정보",
+  "publisher": "European Commission/EUR-Lex",
+  "url_or_path": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019R0621",
+  "published": "2019-04-17(적용 2020-05-20)",
+  "accessed": "2026-09-25",
+  "locator": "Art.5(1)(2), Art.6(1), Annex I.1~I.3",
+  "quote_or_value": "기술정보는 검사소·당국에 비차별·즉시·일관 제공; 등록 후 6개월 이내 제공; VIN 기반 오픈·구조화 데이터 형식(오프라인 기계판독 파일 및 온라인); 전자 인터페이스 정보로 '진단 상호작용 지원 여부(Yes/No)'·버스 유형·프로토콜·통신 파라미터 요구",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ]
+ },
+ {
+  "id": "AD-E31",
+  "type": "해외",
+  "title": "資料3 OBD検査の開始に向けた準備状況",
+  "publisher": "国土交通省(일본)",
+  "url_or_path": "https://www.mlit.go.jp/jidosha/content/001707701.pdf",
+  "published": "2023(본문상 2023-04 시스템 공개·2023-10 프레운용 예정 기술)",
+  "accessed": "2026-09-25",
+  "locator": "p.2, p.23~24",
+  "quote_or_value": "자동차기술총합기구(NALTEC)가 제작사 제출 'ECU 정보'·'특정 DTC'를 일원 관리·배포; 대상 2021-10 이후 신형(수입차 2022-10 이후), 개시 2024-10(수입차 2025-10); 배출가스 관련 장치는 판정에 필요한 정보가 읽히지 않으면 보안기준 부적합; 독일 2015년 OBD 검사 개시, 미국 33개 주·지역 OBD 배출검사",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4",
+   "6"
+  ]
+ },
+ {
+  "id": "AD-E32",
+  "type": "해외",
+  "title": "国交省、車両の通信不具合によるOBD検査の暫定措置 運用ルール見直しへ",
+  "publisher": "日本自動車会議所(日刊自動車新聞 인용)",
+  "url_or_path": "https://www.aba-j.or.jp/info/industry/26151/",
+  "published": "2026-03-18",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "2024-10~2026-01 OBD 검사 누계 704,082대, 부적합 1회 이상 23,799대(대다수 검사원 절차 오류 등 인적 실수); 스캔툴 통신 불가는 1개 제작사 1개 모델뿐, 경고등 소등 육안 확인으로 잠정 적합 인정·시장조치 후 규칙 확정 예정",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "4",
+   "6",
+   "9"
+  ]
+ },
+ {
+  "id": "AD-E33",
+  "type": "해외",
+  "title": "OBD検査について(OBD検査ポータル)",
+  "publisher": "自動車技術総合機構(NALTEC)",
+  "url_or_path": "https://www.obd.naltec.go.jp/about/",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "스캔툴로 DTC를 읽어 OBD 검사용 서버(특정 DTC 등록)와 대조해 합부 판정; 이용자관리·특정DTC 조회앱·결과참조 3개 구성; 형식지정 후 2년 미경과 차량은 불요",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "AD-E34",
+  "type": "해외",
+  "title": "StVZO Anlage VIIIe(정기검사 지침 제공과 결과 평가)",
+  "publisher": "독일 연방법무부(gesetze-im-internet.de)",
+  "url_or_path": "https://www.gesetze-im-internet.de/stvzo_2012/anlage_viiie.html",
+  "published": "현행",
+  "accessed": "2026-09-25",
+  "locator": "Nr.2.1, 3, 4, 8.3, 8.5",
+  "quote_or_value": "제작사·수입사는 정기검사 전용 검사지침(기술정보)을 중앙기관(Zentrale Stelle=FSD)에 제공; FSD가 검사지침 작성·검증·배포(유료, 비영리); 검사기관은 차대번호 기준 검사 소견을 반기마다 FSD에 전송(소유자·번호판·검사원 정보 제외); FSD는 소견 평가로 지침 갱신·제작사 피드백",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ]
+ },
+ {
+  "id": "AD-E35",
+  "type": "해외",
+  "title": "HU-Adapter: Wertvoller Begleiter bei der Hauptuntersuchung",
+  "publisher": "autoservicepraxis.de",
+  "url_or_path": "https://www.autoservicepraxis.de/nachrichten/kfz-werkstatt/hu-adapter-wertvoller-begleiter-bei-der-hauptuntersuchung-3364299",
+  "published": "2023-04-28",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "HU-Adapter는 OBD로 안전장치 설치·작동, 제동력 배분, 등화, 고장기억 확인; 2012년 제47차 StVZO 개정 후 2015 중반 HU, 2017 SP부터 사용; 10년 넘은 설계로 후속기 'HU-Adapter 2023' 개발",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "AD-E36",
+  "type": "해외",
+  "title": "FSD – Zentrale Stelle 소개",
+  "publisher": "HU-Wissen21(업계 해설)",
+  "url_or_path": "https://hu-wissen21.de/fsd.html",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "FSD 데이터베이스는 독일·EU 승인 전 차종의 1억대 이상 차량 포괄; 차량별 검사지침·부가정보 작성",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "AD-E37",
+  "type": "해외",
+  "title": "On-Board Diagnostic Test Reference(Smog Check)",
+  "publisher": "California Bureau of Automotive Repair",
+  "url_or_path": "https://bar.ca.gov/obd-test-reference",
+  "published": "최종수정 2026-03-05",
+  "accessed": "2026-09-25",
+  "locator": "Section D 외",
+  "quote_or_value": "통신 불가 원인(커넥터·배선 손상, 애프터마켓 오디오, 변속기 ECU 응답, 무효 데이터) 명시; 알려진 문제 차량 표(차종·연식·증상·조치) 유지; 특수 사례는 Referee(전문 판정소)로 인계; 2026~27년식 OBDonUDS 차량은 DAD 2.0 인증 전까지 OBD 시험 생략",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4",
+   "5",
+   "6"
+  ]
+ },
+ {
+  "id": "AD-E38",
+  "type": "언론",
+  "title": "전기차 배터리, 속도별 온도·전압·전류 체크…[르포]",
+  "publisher": "뉴시스",
+  "url_or_path": "https://www.newsis.com/view/NISX20241111_0002954142",
+  "published": "2024-11-11",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "KADIS 민간검사소 1,892곳 중 612곳(32.3%) 설치, 이듬해 전체 보급 방침; BMS 부적합 기준이 포괄적 → 이듬해 상반기 고장진단코드로 명확화 방침",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "AD-E39",
+  "type": "언론",
+  "title": "TS-테슬라 '국제 표준' OBD 진단 개발 완료(TS 보도자료 재게시)",
+  "publisher": "국민트랜스(TS 보도자료 2025-12-14 인용)",
+  "url_or_path": "https://kukmin.co.kr/news/147",
+  "published": "2025-12-14",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "테슬라 고유 Alert 기반 진단(전용 장비·케이블 의존) → 차량 DTC 기반 국제표준 진단 전환; KADIS 2021년부터 민간 보급, 2024년 612개소 → 2025년 1,231개소",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1",
+   "2",
+   "4",
+   "6"
+  ]
+ },
+ {
+  "id": "AD-E40",
+  "type": "공식",
+  "title": "'자율·전기차 검사기술 개발'…첨단자동차검사연구센터 출범",
+  "publisher": "대한민국 정책브리핑",
+  "url_or_path": "https://www.korea.kr/news/policyNewsView.do?newsId=148879942",
+  "published": "2020-11",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "KAVIC 2020-11-18 김천 출범, 2017년부터 약 230억원 투입, 출범 당시 3처 1팀 정원 26명(검사연구전략처·첨단안전연구처·첨단기술개발처·첨단기술진단팀)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "AD-E41",
+  "type": "언론",
+  "title": "정부, 부정검사 의심 민간검사소 187곳 점검…25곳 업무정지",
+  "publisher": "이투데이",
+  "url_or_path": "https://www.etoday.co.kr/news/view/2108322",
+  "published": "2022-02-23",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "국토부·환경부·지자체 합동점검(2018년부터 반기): 187곳 점검 25곳 적발, 검사항목 생략 11건(44%, 주로 외관), 기록 미흡 9건, 기기 정밀도 3건 — 전자진단 생략 별도 집계 미공개",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "AD-E42",
+  "type": "민원",
+  "title": "국민신문고 TS 민원 374건 분류표(2024-09~2026-09) 직접 집계",
+  "publisher": "CCK 내부 수집(국민신문고 공개 유사사례)",
+  "url_or_path": "{P}/kotsa_국민신문고_민원374건_원문URL_분류표_2024-09~2026-09.csv",
+  "published": "2026-09",
+  "accessed": "2026-09-25",
+  "locator": "전체 374행 키워드 검색",
+  "quote_or_value": "'진단기·KADIS·전자장치·OBD·통신' 관련 검사 민원 0건; 검사판정불복 6건(진단 무관); 전기차·배터리 키워드 14건은 시험·튜닝·리콜 주제",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4",
+   "9"
+  ]
+ },
+ {
+  "id": "AD-E43",
+  "type": "논문",
+  "title": "첨단안전장치 장착자동차 성능평가 검사기술 개발(R&D 보고서)",
+  "publisher": "한국교통안전공단(ScienceON)",
+  "url_or_path": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202300002709",
+  "published": "2019-11(과제 2018~2019)",
+  "accessed": "2026-09-25",
+  "locator": "초록",
+  "quote_or_value": "대형차 AEB·LDWS, 소형차 AEB·LKAS·LDWS·ACC·FCWS 검사항목 선정. 진단 가능 차종 비율 등 수치 미포함",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1",
+   "6"
+  ]
+ },
+ {
+  "id": "AD-E44",
+  "type": "논문",
+  "title": "자동차 검사관리 시스템(VIMS) 활용성 연구",
+  "publisher": "한국자동차공학회 2022 춘계학술대회(저자 전원 TS)",
+  "url_or_path": "https://www.ksae.org/journal_list/search_index.php?mode=view&sid=50393",
+  "published": "2022-06",
+  "accessed": "2026-09-25",
+  "locator": "초록",
+  "quote_or_value": "VIMS 검사 결과(제동력·배출가스·육안·전조등 등)를 차대번호로 DTG 등과 결합하는 빅데이터 활용 제안",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "7"
+  ]
+ },
+ {
+  "id": "AD-E45",
+  "type": "언론",
+  "title": "전기차 전용 정기검사 받는다…6월부터 실증",
+  "publisher": "이투데이",
+  "url_or_path": "https://www.etoday.co.kr/news/view/2459650",
+  "published": "2025-04-07",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "국토부 R&D '전기차 안전성 평가 및 통합 안전기술 개발'(2023-04~, KAIA): 자동 절연저항·경고음발생장치·배터리(KADIS+차대동력계 SOB·SOH) 장비 3종, 해운대검사소 실증",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "3",
+   "6"
+  ]
+ },
+ {
+  "id": "AD-E46",
+  "type": "계획",
+  "title": "7-2 KAVIC 4-2 미래차 정비데이터 관리체계(RMI)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-25",
+  "locator": "p.160(txt 4641~4648행)",
+  "quote_or_value": "첨단연구개발처: RMI 기반 제작사 통합 정비정보 데이터 관리 사업, 국가 기반 정비정보 관리체계(RMI 제도) 확립",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "9"
+  ]
+ },
+ {
+  "id": "AD-E47",
+  "type": "계획",
+  "title": "9. 자동차안전연구원 사이버보안 인증·SW 업데이트",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-25",
+  "locator": "p.197(txt 5625~5630행)",
+  "quote_or_value": "제작사 사이버보안 관리체계 인증 후 개별 차량 적합성 사후확인, SW 업데이트 자료제출 관리·무선업데이트 안전성 평가 — KATRI 소관(첨단검사전략처 아님)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3",
+   "9"
+  ]
+ },
+ {
+  "id": "AD-E48",
+  "type": "데이터",
+  "title": "통합홈페이지 검사서비스 지식자료 목록(로컬 공공데이터 CSV)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{D}/원자료/공공데이터_CSV/한국교통안전공단_통합홈페이지시스템_검사서비스지식관련자료_20200403.csv",
+  "published": "2020-04-03",
+  "accessed": "2026-09-25",
+  "locator": "51행",
+  "quote_or_value": "파일 메타데이터 목록뿐, 진단기·전자장치 관련 항목 0건",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "7",
+   "11"
+  ]
+ },
+ {
+  "id": "AD-I01",
+  "type": "내부",
+  "title": "추론: 진단불가는 합격 경로에 흡수되어 민원·판정 통계에 드러나지 않음",
+  "publisher": "CCK 분석",
+  "url_or_path": "AD-E28, AD-E23, AD-E42, AD-E22",
+  "published": "2026-09-25",
+  "accessed": "2026-09-25",
+  "locator": "추론",
+  "quote_or_value": "별표 15가 진단 불가 시 경고등·육안 확인을 허용 → F-150 사례처럼 합격 처리 → 민원 0건·부적합 통계 부재. 따라서 규모는 진단 로그로만 측정 가능",
+  "grade": "INFERRED",
+  "used_in": [
+   "2",
+   "4",
+   "8"
+  ]
+ },
+ {
+  "id": "AD-I02",
+  "type": "내부",
+  "title": "추론: BMS 결측의 제도적 원인은 별표 5의3의 좁은 법정 항목",
+  "publisher": "CCK 분석",
+  "url_or_path": "AD-E29, AD-E18, AD-E21, AD-E17",
+  "published": "2026-09-25",
+  "accessed": "2026-09-25",
+  "locator": "추론",
+  "quote_or_value": "현행 법정 BMS 항목은 최대·최소 셀 전압뿐, SOH·SOC·Security Access는 임의 협조 → 7개사 미제공(2024)·공개 데이터 셀전압 결측과 부합 → 2026-08 입법예고가 이 항목을 추가하려는 것과 정합",
+  "grade": "INFERRED",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "AD-I03",
+  "type": "내부",
+  "title": "추론: 한국의 진단 대상 범위가 일본보다 넓어 진단불능이 구조적으로 큼",
+  "publisher": "CCK 분석",
+  "url_or_path": "AD-E28, AD-E31, AD-E32, AD-E20",
+  "published": "2026-09-25",
+  "accessed": "2026-09-25",
+  "locator": "추론",
+  "quote_or_value": "일본은 제작사 데이터가 사전 등록된 2021-10 이후 신형만 대상 → 통신 불가 1개 모델 수준. 한국은 운행 전 차량(구형·직수입·소규모 제작사 포함) 진단 시도 → 미지원·미제공 차종이 상시 존재",
+  "grade": "INFERRED",
+  "used_in": [
+   "4",
+   "6"
+  ]
+ },
+ {
+  "id": "AD-I04",
+  "type": "내부",
+  "title": "추론: 판매개시 10일 전 제출로 바뀌면 TS의 '접수자료 완전성 검증' 업무량 증가",
+  "publisher": "CCK 분석",
+  "url_or_path": "AD-E17, AD-E16, AD-E03",
+  "published": "2026-09-25",
+  "accessed": "2026-09-25",
+  "locator": "추론",
+  "quote_or_value": "현행 6개월(+3개월) 기한 대비 10일 전 제출은 출시 전 검증 창을 좁힘 → 별표 항목 대비 누락 점검·DB 반영 우선순위 판단이 병목이 될 가능성(개정 확정 전 가설)",
+  "grade": "INFERRED",
+  "used_in": [
+   "4",
+   "5",
+   "9"
+  ]
+ },
+ {
+  "id": "AD-U01",
+  "type": "계획",
+  "title": "전자진단율 정부 계량지표의 정의·분모·기준선·목표",
+  "publisher": "미확인",
+  "url_or_path": "ALIO·기재부 경영평가편람(12MB PDF, 미열람)·TS 내부",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "'전기·전자장치 진단율' 지표 신설 사실만 확인(AD-E05). 산식·실적·목표값 미확보",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "0",
+   "8"
+  ]
+ },
+ {
+  "id": "AD-U02",
+  "type": "데이터",
+  "title": "차종·항목별 진단 시도·성공·통신실패·생략 건수",
+  "publisher": "미확인",
+  "url_or_path": "KAMS·VIMS 내부 로그(비공개)",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "공개 통계·보도·국감자료에서 발견 못함. 기준선 확보에 내부 로그 필수",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "AD-U03",
+  "type": "감사",
+  "title": "제작사별 진단자료 제출 적시율·미제출 업체 수(2025~2026), 이행명령 실적",
+  "publisher": "미확인",
+  "url_or_path": "국토부·TS 비공개",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "'진단정보 미제공 업체 관리'(AD-E01) 사실만 확인. 업체 수·기간 미확인",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "AD-U04",
+  "type": "통계",
+  "title": "BMS 진단 부적합 건수·부적합률(2025-04 시행 이후)",
+  "publisher": "미확인",
+  "url_or_path": "TS 보도자료·국감자료 검색",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "부적합 코드 신설(AD-E08)만 확인. 결과 수치 미발견",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "AD-E49",
+  "type": "입법",
+  "title": "자동차관리법 시행령·시행규칙·등록규칙 개정안 입법예고(구매자 배터리 정보 6→10종)",
+  "publisher": "스타뉴스(국토부 발표 인용)",
+  "url_or_path": "https://www.starnewskorea.com/business-life/2026/03/22/2026032218391370837",
+  "published": "2026-03-22",
+  "accessed": "2026-09-25",
+  "locator": "입법예고 2026-03-23~05-04",
+  "quote_or_value": "구매자 제공 배터리 정보에 제조사·생산국가·제조연월·제품명 추가(6→10종), 미제공·거짓 제공 과태료 최대 1,000만원. 검사용 진단정보(TS 제공)와 별개 트랙",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "3",
+   "9"
+  ]
+ }
+]

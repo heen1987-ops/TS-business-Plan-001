@@ -1,0 +1,1218 @@
+[
+ {
+  "id": "CL-E01",
+  "type": "법령",
+  "title": "화물자동차 운수사업법 제47조의2(실적 신고 및 관리 등)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=286393 / {P}/04_기관리서치/관계도/법령_본문원장.json (law.go.kr 본문 취득 2026-09-09, sha256 기록)",
+  "published": "법률 제21711호, 2026-05-29 일부개정, 시행 2026-07-01",
+  "accessed": "2026-09-24",
+  "locator": "제47조의2 ①~⑤",
+  "quote_or_value": "①운송사업자(개인 제외)·주선·가맹사업자 실적 관리·신고 의무 ②직접운송의무 사업자 최소운송기준 ③국토부장관 FPIS 구축·운영 가능 ④운영 위탁·비용 지원 가능",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "9"
+  ]
+ },
+ {
+  "id": "CL-E02",
+  "type": "법령",
+  "title": "화물자동차 운수사업법 제11조의2(직접운송 의무 등)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "같음 CL-E01",
+  "published": "시행 2026-07-01",
+  "accessed": "2026-09-24",
+  "locator": "제11조의2 ①~⑤",
+  "quote_or_value": "화주와 계약한 화물의 국토부령 비율 이상 직접운송; 위탁은 다른 운송사업자·위수탁차주에게만; 인증 화물정보망 위탁은 직접운송 간주",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4"
+  ]
+ },
+ {
+  "id": "CL-E03",
+  "type": "법령",
+  "title": "화물자동차 운수사업법 시행규칙 제21조의5(직접운송의무)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=282123&efYd=20260630",
+  "published": "국토교통부령 제1551호, 2025-12-29, 시행 2026-06-30",
+  "accessed": "2026-09-24",
+  "locator": "제21조의5 ①~④",
+  "quote_or_value": "일반화물 연간 운송계약 화물 50% 이상 직접운송(주선 겸업 30%); 1년 이상 계약·FPIS 입력 운송완료 연 96회 이상 타사 차량은 직접운송 인정",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4"
+  ]
+ },
+ {
+  "id": "CL-E04",
+  "type": "법령",
+  "title": "화물자동차 운수사업법 시행규칙 제44조의2(운송·주선실적 신고)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "같음 CL-E03",
+  "published": "시행 2026-06-30",
+  "accessed": "2026-09-24",
+  "locator": "제44조의2 ①~④",
+  "quote_or_value": "신고 실적 5형태(화주·타 운수사업자·위수탁차주·가맹점 계약, 직접운송); 최소운송기준=시장평균운송매출액×대수 합계의 20% 이상; 세부는 국토부 고시",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "5"
+  ]
+ },
+ {
+  "id": "CL-E05",
+  "type": "법령",
+  "title": "화물자동차 운수사업법 시행규칙 제44조의3(FPIS 등)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "같음 CL-E03 (2026-09-24 curl 원문 재확인)",
+  "published": "시행 2026-06-30",
+  "accessed": "2026-09-24",
+  "locator": "제44조의3 ②·③",
+  "quote_or_value": "FPIS로 우수물류기업 인증·직접운송기준 준수여부·시장평균운송매출액 산정 등 수행/보조; 운영 위탁 가능자=화물운수 연구 정부출연기관 또는 한국교통안전공단",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "CL-E06",
+  "type": "법령",
+  "title": "화물자동차 운수사업법 제19조(운송사업 허가취소 등)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "같음 CL-E01",
+  "published": "시행 2026-07-01",
+  "accessed": "2026-09-24",
+  "locator": "제19조①7의2·12의2·12의3",
+  "quote_or_value": "직접운송의무 위반(7의2), 실적 미신고·거짓신고(12의2), 최소운송기준 미충족(12의3) 시 허가취소·6개월 이내 사업정지·감차 가능",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "CL-E07",
+  "type": "법령",
+  "title": "화물자동차 운수사업법 제47조의4·제67조(FPIS 보안·벌칙)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "같음 CL-E01",
+  "published": "시행 2026-07-01",
+  "accessed": "2026-09-24",
+  "locator": "제47조의4, 제67조 6의2·6의3",
+  "quote_or_value": "FPIS 관리자 보안대책 의무; FPIS 정보 무단 변경·검색·복제, 실적관리자료 누설·목적외 사용 시 2년 이하 징역 또는 2천만원 이하 벌금",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "7",
+   "9"
+  ]
+ },
+ {
+  "id": "CL-E08",
+  "type": "법령",
+  "title": "화물자동차 운수사업법 시행령 제15조(권한의 위탁)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=286309 / {P}/04_기관리서치/관계도/법령_본문원장.json (law.go.kr 본문 취득 2026-09-09, sha256 기록)",
+  "published": "대통령령 제36353호, 2026-05-26, 시행 2026-06-03",
+  "accessed": "2026-09-24",
+  "locator": "제15조 ④1·⑤",
+  "quote_or_value": "TS 위탁: 안전운임신고센터 설치·운영, 운전적성정밀검사, 종사자격 시험·자격증 등. 한국교통연구원 위탁: 운송비용 조사, 운수사업 통계 작성·관리",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "CL-E09",
+  "type": "법령",
+  "title": "화물자동차 운수사업법 제5조의14·시행령 제4조의17(안전운임신고센터)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "같음 CL-E01/CL-E08",
+  "published": "본조신설 2025-08-14(법)·2025-10-28(영)",
+  "accessed": "2026-09-24",
+  "locator": "법 제5조의14, 영 제4조의17",
+  "quote_or_value": "센터 업무: 위반 신고 접수, 위반사실 확인·관할관청 통보, 처리상황 안내, 홍보, 연구. 법 조문은 2028-12-31까지 유효(일몰)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "5",
+   "9"
+  ]
+ },
+ {
+  "id": "CL-E10",
+  "type": "법령",
+  "title": "화물자동차 운수사업법 제70조①1의2(안전운임 미달 지급 과태료)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "같음 CL-E01",
+  "published": "시행 2026-07-01",
+  "accessed": "2026-09-24",
+  "locator": "제70조①1의2",
+  "quote_or_value": "공표 안전운임보다 적은 운임 지급 시 1천만원 이하 과태료; 부과는 국토부장관·시도지사(제70조③)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "CL-E11",
+  "type": "법령",
+  "title": "물류정책기본법 제29조·제29조의2·제29조의3(위험물질운송안전관리센터)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=276993 / {P}/04_기관리서치/관계도/법령_본문원장.json (law.go.kr 본문 취득 2026-09-09, sha256 기록)",
+  "published": "법률 제21065호, 시행 2025-10-01",
+  "accessed": "2026-09-24",
+  "locator": "제29조①②, 제29조의2①②⑤⑦, 제29조의3",
+  "quote_or_value": "TS 대행 가능; 센터 업무 7종(정보수집·교육·시스템·사고 감시·전파·통행제한 알림·공동활용); 일정 적재량 이상 차량 단말장치 장착·작동유지·운송계획정보 사전입력 의무; TS 위험물질운송단속원 조사권",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "6"
+  ]
+ },
+ {
+  "id": "CL-E12",
+  "type": "법령",
+  "title": "물류정책기본법 시행령 제21조·제51조",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=284745 / {P}/04_기관리서치/관계도/법령_본문원장.json (law.go.kr 본문 취득 2026-09-09, sha256 기록)",
+  "published": "대통령령 제36220호, 시행 2026-03-24",
+  "accessed": "2026-09-24",
+  "locator": "제21조①~③, 제51조①",
+  "quote_or_value": "TS가 센터 대행; 다음연도 운영계획 12월15일까지 제출·승인, 운영결과 2월말 제출; 장착·개선명령·운행중지·과태료는 시도지사 위임",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "5"
+  ]
+ },
+ {
+  "id": "CL-E13",
+  "type": "법령",
+  "title": "물류정책기본법 시행규칙 제2조의2·제2조의4",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=285423 / {P}/04_기관리서치/관계도/법령_본문원장.json (law.go.kr 본문 취득 2026-09-09, sha256 기록)",
+  "published": "국토교통부령 제1575호, 시행 2026-04-02",
+  "accessed": "2026-09-24",
+  "locator": "제2조의2①②, 제2조의4",
+  "quote_or_value": "감시 대상 물질·적재량 기준(위험물 10,000L 이상 등); 운송계획정보=운전자·물질명·적재량·출발/경유/목적지; 화관법 운반계획서·폐기물 전자입력 시 입력 간주",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "7"
+  ]
+ },
+ {
+  "id": "CL-E14",
+  "type": "법령",
+  "title": "화물자동차 운수사업법 시행령 제15조의2①1의2·10의4(민감·고유식별정보 처리)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "같음 CL-E08",
+  "published": "시행 2026-06-03",
+  "accessed": "2026-09-24",
+  "locator": "제15조의2①1의2·10의4",
+  "quote_or_value": "위탁받은 자 포함, 안전운임 미달 운임 신고 사무(1의2)와 FPIS 운영 사무(10의4) 수행에 불가피한 경우 범죄경력·주민등록번호 등 처리 가능",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "7"
+  ]
+ },
+ {
+  "id": "CL-E15",
+  "type": "계획",
+  "title": "TS 2026 주요업무 추진계획 — 화물운송 통합행정",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.20(인쇄 16쪽)",
+  "quote_or_value": "지자체별 분산 관리 화물운송 인허가 등 행정정보 통합화(~2029) 법적 근거·예산 확보; 2026 화물운송행정 통합관리시스템 법제화·위탁근거 마련 지원",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "CL-E16",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 화물데이터 통합관리(FPIS)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.120~121(인쇄 116~117쪽), 교통안전정책실",
+  "quote_or_value": "원인: 지자체 운영 운수사 인허가 DB의 낮은 신뢰성·관리 미흡 / 개선: FPIS 데이터 검증 알고리즘 적용, FPIS 내 지자체(229개) 데이터 수집·검증 체계로 실적신고 대상자 선별·신뢰성 제고",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "CL-E17",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 안전운임센터 재운영",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.120(인쇄 116쪽)",
+  "quote_or_value": "원인: 안전운임 신고처리 지연으로 민원인 불편 / 개선: 신규 인력확보·시스템 고도화로 신고 처리기한 단축; 재운영에 따른 교육·효용성 연구",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "CL-E18",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 위험물 운송 관리 실적",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.14(인쇄 10쪽), p.108(인쇄 104쪽)",
+  "quote_or_value": "위험물 운송차량 1.4만대 모니터링; 단속 151개사·1,921대, 법규위반 적발 45건; 사고건수·감지율 2023 63건·80.9%, 2024 85건·89.4%, 2025 58건·91.4%",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "CL-E19",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 위험물 사고 협력체계·통신 안정화·물류정보",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.123~124(인쇄 119~120쪽)",
+  "quote_or_value": "기존 사고 시 유해물질 파악 후 유선 전파→전용회선·시스템 연계 자동 전송(전파 10분 이상 단축); 노후·통신오류 단말 개선, 모바일 단말 앱; 합동점검 1,900→2,000대; 물류 데이터 수집·관리 체계 부재",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "3",
+   "4"
+  ]
+ },
+ {
+  "id": "CL-E20",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — AI 교통안전(위험물 단말 Edge-AI)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.24(인쇄 20쪽)",
+  "quote_or_value": "위험물질 운송차량 단말기를 Edge-AI로 고도화해 위험요인 즉시 판단·예측 관제, K-Safer 연계",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "9"
+  ]
+ },
+ {
+  "id": "CL-E21",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 교통부문 친환경 에너지 전환",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.122~123(인쇄 118~119쪽)",
+  "quote_or_value": "교통부문 목표관리제·KOTEMS 운영·배출계수 개발; CORSIA 국제항공 탄소배출량 관리시스템 신규 구축; 전기차 외부사업; 목표관리제 감축목표 5.34%",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "CL-E22",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 교통안전정책실 추진방향",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.107~111(인쇄 103~107쪽)",
+  "quote_or_value": "6-2 교통안전정책실: 취약수단(화물차 위험요인·안전운임) 및 목표관리제·유관기관 합동단속 과제 편성",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "CL-E23",
+  "type": "계약",
+  "title": "TS 2026 용역·물품·시설공사 발주계획 CSV 직접 집계",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_용역_발주계획.csv 외 2종",
+  "published": "2026",
+  "accessed": "2026-09-24",
+  "locator": "담당부서 열 전수 집계(용역 259·물품 138·시설 36행)",
+  "quote_or_value": "기후탄소물류처 담당 발주 0건; FPIS·위험물·안전운임 키워드 사업명 0건; 디지털기획처 \"정보시스템 통합 유지관리 용역\" 15,588,467,000원(2026-01)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "CL-E24",
+  "type": "데이터",
+  "title": "위험물질운송안전관리시스템 CCTV 목록 CSV 직접 집계",
+  "publisher": "한국교통안전공단(공공데이터)",
+  "url_or_path": "{D}/원자료/공공데이터_CSV/한국교통안전공단_위험물질운송안전관리시스템 CCTV 목록_20260701.csv",
+  "published": "2026-07-01",
+  "accessed": "2026-09-24",
+  "locator": "6개 열(아이디·지점명·관할명·경도·위도·사용여부) 전수",
+  "quote_or_value": "14,562행·35개 관할; 국가교통정보센터 국도 6,425·고속도로 4,743(합 76.7%); 사용여부 Y 100%; 아이디 중복 0; 좌표 중복 50; 지점명 중복 55; 한반도 범위 밖 0",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "7"
+  ]
+ },
+ {
+  "id": "CL-E25",
+  "type": "계획",
+  "title": "화물차 안전운전 실천 이벤트(자동제출 DTG 보급) 붙임",
+  "publisher": "한국교통안전공단(손보협 협업)",
+  "url_or_path": "{D}/원자료/TS_발간물_매뉴얼/[붙임]+화물차+안전운전+실천+이벤트+추진(자동제출+DTG+보급).pdf",
+  "published": "2026-02",
+  "accessed": "2026-09-24",
+  "locator": "1~3쪽",
+  "quote_or_value": "자동제출 DTG 257대 보급, 2026-02-19~04-30, USB 수동제출 차량 한정, 운행기록장치 점검센터 설치. 주관 처 표기 없음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "CL-E26",
+  "type": "민원",
+  "title": "국민신문고 TS 처리 민원 374건 분류표 직접 재집계",
+  "publisher": "CCK 수집(국민신문고 공개 게시판)",
+  "url_or_path": "{P}/kotsa_국민신문고_민원374건_원문URL_분류표_2024-09~2026-09.csv",
+  "published": "2024-09-17~2026-09-13",
+  "accessed": "2026-09-24",
+  "locator": "category·title·verified_summary 전수 키워드 집계",
+  "quote_or_value": "FPIS·실적신고·운송실적·직접운송 키워드 0건; 안전운임제/화물운송 태그 23건 중 안전운임 내용 13건(2026-06-03~08-19 집중: 거리산정·할증·2차운송 단가·적용대상); 위험물 1건(no.271 위치정보 Open API 요청, 물류정책기본법 목적외 사용 금지로 거부)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4",
+   "8"
+  ]
+ },
+ {
+  "id": "CL-E27",
+  "type": "법령",
+  "title": "FPIS 실적신고 안내(모바일)",
+  "publisher": "국토교통부·FPIS",
+  "url_or_path": "https://www.fpis.go.kr/mobile/info/mobileInfo1_View.do",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "신고기한·항목·처분 단락",
+  "quote_or_value": "연도별 운송(하차일)·주선(위탁계약일) 실적을 다음연도 3월 말일까지 신고; 항목=의뢰자 사업자번호·계약월/금액·배차(차량·완료월·운송료·횟수)·재위탁 위수탁정보; 확정 후 미확정 전환으로 수정; 미신고 1차 사업일부정지 10일+과징금 300만원(2차 20일, 3차 30일); 콜센터 1577-0990",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "5"
+  ]
+ },
+ {
+  "id": "CL-E28",
+  "type": "법령",
+  "title": "FPIS 직접운송의무·최소운송기준 안내",
+  "publisher": "국토교통부·FPIS",
+  "url_or_path": "https://www.fpis.go.kr/mobile/info/mobileInfo2_View.do",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "직접운송 인정(1년 계약·연 96회), 최소운송기준(시장평균운송매출액 대비 비율, 144회 이상 차량 제외), 근거 국토부 훈령 제490호",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "CL-E29",
+  "type": "언론",
+  "title": "화물운송 실적신고제 업계 부담 경감(국토부 보도자료 게재)",
+  "publisher": "한국교통연구원 화물정보 게시판",
+  "url_or_path": "https://www.koti.re.kr/user/bbs/frghtNoticeView.do?bbs_no=55547",
+  "published": "2016-01-14",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "신고방법 건별→월별(2015-11), 1대 운송사업자 신고 제외, 국제물류주선업자 제외(2015-12-29), 허가기준 신고 3년→5년",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4"
+  ]
+ },
+ {
+  "id": "CL-E30",
+  "type": "언론",
+  "title": "[창간 17주년 특집] 업계, 정부에 십자포화",
+  "publisher": "물류신문",
+  "url_or_path": "https://www.klnews.co.kr/news/articleView.html?idxno=109293",
+  "published": "2014-10-27",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "제도 초기 업계 반발: 운임·화주정보 영업비밀·보안 우려, 사업정지(10~30일) 가혹, 신고 저조, 6,000개 이상 운송사 대비 단속 인력 부족",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "CL-E31",
+  "type": "국감",
+  "title": "5년간 화물 운송 배차 착취 적발 단 2건",
+  "publisher": "한국일보(윤종군 의원실 제출 국토부 자료)",
+  "url_or_path": "https://www.hankookilbo.com/News/Read/A2025021115110002822",
+  "published": "2025-02-12",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "2020~2024 불법 다단계 신고 6건·인정 2건(부산 4건 중 3건 처리불가); 국토부 관계자 \"화물계약 구조 입력 시스템은 구축됐지만 불법 다단계 행위자는 지키지 않는 경우가 많다\", 화물운송 행정관리시스템 구축 검토",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "CL-E32",
+  "type": "언론",
+  "title": "위반 신고는 폭증, 과태료 처분은 9%… 화물차 안전운임제 실효성 의문",
+  "publisher": "상용차신문(국토부 과태료 사례·TS 신고 사례 정보공개청구 분석)",
+  "url_or_path": "https://www.cvinfo.com/news/articleView.html?idxno=30444",
+  "published": "2025-12-18",
+  "accessed": "2026-09-24",
+  "locator": "본문 표·단락(원문 직접 열람)",
+  "quote_or_value": "2020~2022 위반 신고 5,380건 중 과태료 486건(약 9%); 연도별 신고/과태료 2020 1,344/0, 2021 1,963/268, 2022 2,073/218; 복합신고 3,149건; 유형 미만지급 1,356·불법 수수료 공제 842; 사실관계 입증·자료확보·진술 과정에서 다수 종결; 2022 신고가 2025-02 처분된 사례",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "0",
+   "2",
+   "4",
+   "8"
+  ]
+ },
+ {
+  "id": "CL-E33",
+  "type": "언론",
+  "title": "안전운임제 신고 창구 1곳뿐… 감시·제재 미흡",
+  "publisher": "경인일보",
+  "url_or_path": "https://www.kyeongin.com/article/1768597",
+  "published": "2026-08-06",
+  "accessed": "2026-09-24",
+  "locator": "본문(원문 직접 열람)",
+  "quote_or_value": "2026-02 재시행 후 전국 누적 신고 약 1,200건, 과태료 처분 0건; 신고센터 약 10명 중 조사 담당 3명; 조사 5~6개월; 지자체 점검 매뉴얼 미비; 신고 시 거래명세서·세금계산서·운송료 입금내역 등 증빙 필요로 중도 포기",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "0",
+   "2",
+   "4",
+   "8"
+  ]
+ },
+ {
+  "id": "CL-E34",
+  "type": "민원",
+  "title": "FPIS 자유게시판 목록(2016)",
+  "publisher": "FPIS",
+  "url_or_path": "https://fpis.go.kr/informationSharing/fpis_bbs/FpisBbsList_free.do",
+  "published": "2016(최종 게시)",
+  "accessed": "2026-09-24",
+  "locator": "목록 556건 중 상위",
+  "quote_or_value": "\"실적보고 입력 부담\", \"참 힘듭니다\", 세금계산서 기준 여부·순수 주선업 신고의무 문의, 신고기한 중 오류 — 2016년 이후 게시 없음",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "CL-E35",
+  "type": "내부",
+  "title": "사이트 기존 출처 CL01·CL02 및 현재 컨셉",
+  "publisher": "CCK 사이트 원장",
+  "url_or_path": "{S}/brief/CL_현재컨셉.json",
+  "published": "2026-09-23",
+  "accessed": "2026-09-24",
+  "locator": "site_concept·impact",
+  "quote_or_value": "현재 컨셉 \"실제 거래에서 신고·정정 완료까지\"; 지표 3종 예시기준선 70%·20%·4시간(가정값), 출처 2건은 업무안내 페이지",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "8",
+   "10"
+  ]
+ },
+ {
+  "id": "CL-E36",
+  "type": "내부",
+  "title": "TS 산하 웹사이트 전수조사 — FPIS 운영 정황",
+  "publisher": "CCK 내부",
+  "url_or_path": "{P}/43_TS산하웹사이트_전수조사_v0.1_2026-09-22.md",
+  "published": "2026-09-22",
+  "accessed": "2026-09-24",
+  "locator": "FPIS 행",
+  "quote_or_value": "저작권 국토교통부, 헬프데스크 fpis@kotsa.or.kr, 콜센터 TS 대표번호 패턴",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "CL-E37",
+  "type": "언론",
+  "title": "TS 3개 콜센터 통합(대표·자동차검사·화물운송실적관리)",
+  "publisher": "국토일보 등(프로젝트 N-05 기획서 경유)",
+  "url_or_path": "{P}/N-05_대국민교통민원통합AI창구_기획서_v0.1_2026-09-15.md",
+  "published": "2023-11-15",
+  "accessed": "2026-09-24",
+  "locator": "SI 기반 행",
+  "quote_or_value": "2023-11-15 화물운송실적관리 콜센터를 통합 고객콜센터로 일원화, CSAP SaaS",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "CL-E38",
+  "type": "내부",
+  "title": "TS AI 사업컨셉 100선 #20 FPIS 이상거래 탐지 AI, #24 안전운임 준수 모니터링",
+  "publisher": "CCK 내부",
+  "url_or_path": "{P}/03_·04_TS_AI_사업컨셉_100선 문서",
+  "published": "2026-09-09",
+  "accessed": "2026-09-24",
+  "locator": "#20·#24 행",
+  "quote_or_value": "FPIS 위탁근거 원문 확인(04번), 이상 패턴 탐지·조사 우선순위 컨셉; #24는 TS 소관 불확실로 보류 표기",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "6"
+  ]
+ },
+ {
+  "id": "CL-E39",
+  "type": "계획",
+  "title": "공정한 시장질서 확립을 위한 「화물운송산업 정상화 방안」",
+  "publisher": "국토교통부(KDI 경제정보센터 게재)",
+  "url_or_path": "https://eiec.kdi.re.kr/policy/materialView.do?num=235206",
+  "published": "2023-02-06",
+  "accessed": "2026-09-24",
+  "locator": "개요",
+  "quote_or_value": "지입전문회사 퇴출·안전운임제 개편(표준운임제)·차주 처우·안전 4대 과제. 실적신고·FPIS 세부 수치는 PDF 미열람",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "CL-E40",
+  "type": "데이터",
+  "title": "TS 조직 및 직원안내 — 기후탄소물류처 담당업무(이름·전화 미전재)",
+  "publisher": "한국교통안전공단(오케스트레이터 수집 OV-20)",
+  "url_or_path": "{S}/work_org/emp_duties_summary.txt",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "기후탄소물류처 절",
+  "quote_or_value": "게시 29명(탄소중립정책팀 10 포함); 업무: 위험물질 운송안전 사업·HMTS 유지관리, 화물운송산업, FPIS, FPIS 헬프데스크·상담직·화물운송 민원 응대, 화물자동차 안전운임제, 국제항공 탄소(CORSIA), 수송부문 배출권거래제 외부사업, 온실가스 배출량 조사",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "CL-E41",
+  "type": "내부",
+  "title": "조직검증·중복경계 메모 v0.1(OV-14·OV-27·OV-62)",
+  "publisher": "CCK 오케스트레이터",
+  "url_or_path": "{S}/out/00_조직검증_중복경계_v0.1.md §5·§6",
+  "published": "2026-09-24",
+  "accessed": "2026-09-25",
+  "locator": "CL 행(261·290~292행)",
+  "quote_or_value": "CL 부분 중복: 1월 계획 FPIS 데이터 검증 알고리즘·지자체 229개 수집이 거래 대조 기능과 인접; FPIS 유지관리는 디지털기획처 통합유지관리(155.9억) 내 포함 추정(INFERRED); 1차사업 민원분석 AI의 FPIS 문의 처리 여부 미확인",
+  "grade": "INFERRED",
+  "used_in": [
+   "3",
+   "9"
+  ]
+ },
+ {
+  "id": "CL-E42",
+  "type": "법령",
+  "title": "화물자동차 운수사업법 일부개정(법률 제21483호) — 화물운송행정 통합관리시스템",
+  "publisher": "국가법령정보센터 제정·개정문",
+  "url_or_path": "https://www.law.go.kr/LSW/lsRvsDocListP.do?lsId=001748&chrClsCd=010202&lsRvsGubun=all (2026-09-24 curl, work_CL/rvs2_extract.txt)",
+  "published": "2026-03-17 공포, 2028-01-01 시행",
+  "accessed": "2026-09-24",
+  "locator": "신설 제47조의4, 제47조의2③ 개정·④⑤ 삭제, 부칙 제1·2조",
+  "quote_or_value": "FPIS 근거(제47조의2③~⑤)를 통합관리시스템으로 대체; 허가·신고, 운전자 교통안전기록, 양도양수·상속·휴폐업, 허가취소, 운송·주선 실적을 통합 등록·관리; 지자체·공공기관 자료제공 의무; 운영 위탁 가능; 유가보조금·자동차관리 전산·운수종사자관리시스템·국가물류통합DB·전자민원창구·범죄경력 시스템 연계; 시행 전 준비행위 허용",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "1",
+   "3",
+   "4",
+   "9"
+  ]
+ },
+ {
+  "id": "CL-E43",
+  "type": "언론",
+  "title": "한국교통안전공단, 화물운송실적 관리시스템 기능 개선",
+  "publisher": "상용차신문(TS 발표 인용), 동일 내용 idsn 보도",
+  "url_or_path": "https://www.cvinfo.com/news/articleView.html?idxno=30859 ; https://idsn.co.kr/news/view/1065600951562580",
+  "published": "2026-03-11",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "제도통계 결과 확인 시기 9월→5월 단축, 최종실적 마감(6월) 전 수정·정정 기회 제공, \"현장 혼선을 줄이고 신고 편의성 제고\"; 2025년 실적 2026-03까지 신고",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "0",
+   "2",
+   "3",
+   "4",
+   "10"
+  ]
+ },
+ {
+  "id": "CL-E44",
+  "type": "언론",
+  "title": "[단독] 안전운임제 위반에 과태료 부과 고작 4%뿐",
+  "publisher": "서울신문(TS 안전운임 신고센터 자료)",
+  "url_or_path": "https://www.seoul.co.kr/news/society/2022/06/13/20220613009013",
+  "published": "2022-06-13",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "신고센터 접수 4,209건 중 과태료 75건(4.2%); 신고인 취하 1,418건; 위반 인정 1,767건 중 합의 등으로 미부과 587건(33.2%); 신고자 익명성 부족으로 신고인 특정 우려",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "CL-E45",
+  "type": "언론",
+  "title": "1200건 위반 신고에 과태료 처분 0 — 안전운임제 위반 방치말라",
+  "publisher": "노컷뉴스(화물연대 전북본부 기자회견)",
+  "url_or_path": "https://www.nocutnews.co.kr/news/6574195",
+  "published": "2026-09-07",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "2026 재시행 후 신고 1,200건 이상·과태료 0건 주장; 처분 권한은 도(道)에 있으며 도청 소극행정 비판; 불법 수수료 4~10% 공제 주장; 국토부 단속 매뉴얼에 따른 단속 요구",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "CL-E46",
+  "type": "계획",
+  "title": "화물차 안전운임제 3년 만에 재도입 — 물류 안전장치 마련",
+  "publisher": "국토교통부(대한민국 정책브리핑)",
+  "url_or_path": "https://www.korea.kr/news/policyNewsView.do?newsId=148957729",
+  "published": "2026-01-08",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "수출입 컨테이너·시멘트 한정, 2028년까지 3년; 안전운임신고센터 전담인력 3명 배치; 접수 후 지자체와 과다·반복 신고 합동조사; 2022 대비 컨테이너 위탁 13.8%·운송 15.0%, 시멘트 16.8%·17.5% 인상",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "5"
+  ]
+ },
+ {
+  "id": "CL-E47",
+  "type": "데이터",
+  "title": "화물자동차 안전운임신고센터 시스템(STFS, safetruck.go.kr)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://www.safetruck.go.kr/",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "메인 화면",
+  "quote_or_value": "온라인 신고 접수, 처리상황 조회, 회원정보, 제도 정보; 고객센터 1577-0990(④→③), 이메일 fpis@kotsa.or.kr(FPIS와 공용)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "7"
+  ]
+ },
+ {
+  "id": "CL-E48",
+  "type": "데이터",
+  "title": "한국교통안전공단_화물자동차 안전운임 운영지침 데이터셋",
+  "publisher": "공공데이터포털(관리부서 기후탄소물류처)",
+  "url_or_path": "https://www.data.go.kr/data/15118356/fileData.do",
+  "published": "등록 2023-08-10, 수정 2026-06-23",
+  "accessed": "2026-09-24",
+  "locator": "메타데이터",
+  "quote_or_value": "PDF 1건, 연간 갱신, 2026년 적용 고시(시행 2026-02-01, 유효 2026-12-31) 포함; 신고 처리 절차·기한 수록 표기. PDF 본문은 내려받기 필요(사용자 승인 필요로 미열람)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "7",
+   "8"
+  ]
+ },
+ {
+  "id": "CL-E49",
+  "type": "법령",
+  "title": "화물자동차 안전운임 위반 신고 접수 관련 안내",
+  "publisher": "국토교통부 물류산업과(국가물류통합정보센터 게시)",
+  "url_or_path": "https://www.nlic.go.kr/nlic/noticeBoardView.action?BBSCTT_ID=bord000235&command=VIEW&PAGE_CUR=1",
+  "published": "2023-02-13",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "일몰 후 2020-01-01~2022-12-31 운송분만 국민신문고·우편 신고 가능; 절차 신고→사실확인→관할관청 통보→처분",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4"
+  ]
+ },
+ {
+  "id": "CL-E50",
+  "type": "언론",
+  "title": "올해 화물차 안전운임 확정…시멘트 운임 최대 17.5% 인상",
+  "publisher": "뉴스핌",
+  "url_or_path": "https://www.newspim.com/news/view/20260107001020",
+  "published": "2026-01-07(수정 2026-04-15)",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "안전운임위원회 2025-08 구성 후 약 50차례 논의; 위반 과태료 500만원; 신고센터 전담인력 1명→3명 이상",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "CL-E51",
+  "type": "언론",
+  "title": "대통령도 영구화 검토 지시한 화물차 안전운임제, 본격 시행",
+  "publisher": "상용차신문",
+  "url_or_path": "https://www.cvinfo.com/news/articleView.html?idxno=30495",
+  "published": "2026-01-07",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "2025-12-12 대통령 \"3년 한시가 아닌 영구 시행 논의\" 지시; 2026-01-01~2028-12-31; 품목 확대는 어렵다는 입장",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "9"
+  ]
+ },
+ {
+  "id": "CL-E52",
+  "type": "언론",
+  "title": "화물 현장 혼란 끝? 안전운임제 세부 기준 대수술",
+  "publisher": "물류신문",
+  "url_or_path": "https://www.klnews.co.kr/news/articleView.html?idxno=320755",
+  "published": "2026-04-16",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "2026 운영지침 확정: 할증은 상위 3개 요인만, 2·3순위는 50%만 가산(예: 100%+40%+10%=150%), 시멘트 할증 상한 150%, 대기료는 영수증·출입기록 등 객관 증빙 필요, 유가 3개월 평균 50원 이상 변동 시 조정",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "CL-E53",
+  "type": "법령",
+  "title": "TS 업무안내 — 위험물질운송 안전관리센터",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040503",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "본문·담당부서",
+  "quote_or_value": "운송계획정보 사전 등록, 사고상황 감시·통행제한 진입 알림·사고정보 소방·경찰 전파; 담당부서 기후탄소물류처",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "CL-E54",
+  "type": "법령",
+  "title": "TS 업무안내 — FPIS",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040502",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "본문·담당부서",
+  "quote_or_value": "대상 2대 이상 차량 보유 운송·주선·가맹사업자; 소량 웹 입력·대량 엑셀 연계프로그램; 담당부서 기후탄소물류처",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "7"
+  ]
+ },
+ {
+  "id": "CL-E55",
+  "type": "언론",
+  "title": "TS·부산시, 위험물 운송차량 사고정보 실시간 공유",
+  "publisher": "파이낸셜뉴스",
+  "url_or_path": "https://www.fnnews.com/news/202609230913041967",
+  "published": "2026-09-23",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "2026-09-22 협약; 부산 진입 위험물 차량 운행·사고정보 실시간 제공, 부산시 CCTV 공유; 단말 의무장착 관제 약 1만5천대; 센서 기반 단말로 사고 판단 후 관계기관 전파",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "3",
+   "6"
+  ]
+ },
+ {
+  "id": "CL-E56",
+  "type": "국감",
+  "title": "위험물 운송차량 단말기 장착 2.79% 불과(박재호 의원)",
+  "publisher": "에코미디어",
+  "url_or_path": "http://m.ecomedia.co.kr/news/newsview.php?ncode=1065590532239428",
+  "published": "2019(추정)",
+  "accessed": "2026-09-24",
+  "locator": "검색결과 요약만(원문 미열람)",
+  "quote_or_value": "시범 단계 단말 장착률 2.79%, 예산 17.08억 중 집행 3,900만원·130대 — 제도 초기 지적. 현재(1.4~1.5만대 관제)와 시점 다름",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "11"
+  ]
+ },
+ {
+  "id": "CL-E57",
+  "type": "해외",
+  "title": "実運送体制管理簿の作成・情報通知の義務化(리플릿)",
+  "publisher": "일본 국토교통성",
+  "url_or_path": "https://www.mlit.go.jp/jidosha/content/001865381.pdf",
+  "published": "2025(시행 2025-04-01)",
+  "accessed": "2026-09-24",
+  "locator": "1~2쪽",
+  "quote_or_value": "원청 트럭사업자가 진화주 화물을 이용운송할 때 운송건별 실운송체제관리부 작성(실운송사업자명·청부계층·운송구간·화물내용·적재일), 위탁처에 하청정보 통지·실운송사업자는 원청에 정보 통지 의무",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "CL-E58",
+  "type": "해외",
+  "title": "eFTI Regulation (EU) 2020/1056",
+  "publisher": "DigitalTrade4.EU·검색 요약(EUR-Lex 본문 접근 차단)",
+  "url_or_path": "https://www.digitaltrade4.eu/electronic-freight-transport-information-efti/ ; https://eur-lex.europa.eu/eli/reg/2020/1056/oj/eng",
+  "published": "2020-07-15 채택, 2027-07-09 전면 적용(검색 요약)",
+  "accessed": "2026-09-24",
+  "locator": "요약",
+  "quote_or_value": "인증 eFTI 플랫폼을 통한 전자 화물운송정보를 모든 회원국 당국이 수용할 의무(B2G), 도로·철도·내륙수로·항공, 위험물·폐기물 포함",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "CL-E59",
+  "type": "해외",
+  "title": "FMCSA Transparency in Property Broker Transactions(49 CFR 371.3)",
+  "publisher": "FastTrucking Compliance·FreightWaves 요약",
+  "url_or_path": "https://www.fasttruckingcompliance.com/news/fmcsa-broker-disclosure-rule-status-2026",
+  "published": "2025-11-25",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "현행 371.3: 중개인이 화주운임·운송사운임·마진 기록 보관, 운송사 열람권; 2024-11-20 NPRM(전자기록·자동 제공) 이후 최종규칙 미확정, 보충 NPRM 지연",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "CL-E60",
+  "type": "해외",
+  "title": "NHVR Regulatory Advice — The Primary Duty(HVNL s26C·s26E)",
+  "publisher": "호주 NHVR",
+  "url_or_path": "https://www.nhvr.gov.au/safety-accreditation-compliance/chain-of-responsibility/regulatory-advice/the-primary-duty",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "체인 10개 기능 당사자(고용주·원청·운영자·스케줄러·송하인·수하인·포장·적재관리·적재·하역) 모두 합리적으로 실행 가능한 범위의 안전의무; 위반을 유발하는 요청·계약 금지(s26E)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "CL-E61",
+  "type": "판례",
+  "title": "화물자동차운송주선사업 사업정지처분 취소청구(국민권익위 행심 제2012-298호)",
+  "publisher": "국가법령정보센터 행정심판",
+  "url_or_path": "https://www.law.go.kr/LSW/deccInfoR.do?deccSeq=154659",
+  "published": "2012-09-18",
+  "accessed": "2026-09-24",
+  "locator": "재결요지·이유",
+  "quote_or_value": "다단계 주선 3차 위반 사업정지 90일 기각; 위반은 전화민원·화물연대 신고 후 화물운송위탁대장·세금계산서 합계표 대조로 적발",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4",
+   "6"
+  ]
+ },
+ {
+  "id": "CL-E62",
+  "type": "계약",
+  "title": "19116 TS AI 공통플랫폼 고도화 과업 및 제안요청서",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{D}/검토결과_20260921/공식발주근거/19116_2. 과업 및 제안요청서.txt",
+  "published": "2026-06",
+  "accessed": "2026-09-24",
+  "locator": "68~110행",
+  "quote_or_value": "민원분석 AI(콜센터 STT·TA, 매뉴얼·FAQ·법령 RAG 상담 어시스턴트, 신문고 답변 생성); 전세버스 공시 AI(스캔·PDF·사진·엑셀 제출자료 유형 분류·데이터 추출·적부 판별·답변 생성, 기존 DB 연동) — 증빙 문서 처리 모듈 재사용 후보",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5",
+   "9"
+  ]
+ },
+ {
+  "id": "CL-E63",
+  "type": "언론",
+  "title": "뮤어우즈벤처스 물류리서치(한국교통연구원 자료 인용)",
+  "publisher": "한국벤처캐피탈협회 웹진",
+  "url_or_path": "https://webzine.kvca.or.kr/202505/?idx=11",
+  "published": "2025-05",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "5~8톤 차량 3단계 이상 거래 비중 30%, 5~12톤 차량 물량 70~80%를 주선사·정보망으로 확보(KOTI 2023 연간보고서 인용 추정, 원보고서 미열람)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "CL-E64",
+  "type": "내부",
+  "title": "GPT 업무별 상세설계 — TS-P03 위험물질 운송계획·점검 인계 문서 일치 확인",
+  "publisher": "CCK 내부(GPT)",
+  "url_or_path": "{P}/05_통합사업기획/TS_업무별_상세설계_산정_2026-09-15/근거/출처원장.json",
+  "published": "2026-09-15",
+  "accessed": "2026-09-24",
+  "locator": "TS-P03",
+  "quote_or_value": "운송계획·점검결과·인계 문서 상충 확인 가설; 실시간 관제·센서 API 신규 구축 제외; 계약 범위·샘플 미확인",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6",
+   "10"
+  ]
+ },
+ {
+  "id": "CL-E65",
+  "type": "법령",
+  "title": "화물자동차 운수사업법 시행규칙 일부개정령안 입법예고(제2025-994호)",
+  "publisher": "법제처 국민참여입법센터",
+  "url_or_path": "https://www.moleg.go.kr/lawinfo/makingInfo.mo?lawSeq=83458&lawCd=0&lawType=TYPE5&mid=a10104010000",
+  "published": "2025-08-08~09-17",
+  "accessed": "2026-09-24",
+  "locator": "개정이유",
+  "quote_or_value": "화물 운전자격 연령 18세, 20대 미만 운송사업자 위수탁차주 대상 일부 양도 허용 — FPIS·실적신고 관련 개정 없음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "11"
+  ]
+ },
+ {
+  "id": "CL-E66",
+  "type": "통계",
+  "title": "FPIS 신고 대상 사업자 수·신고율·미신고 처분 건수(연도별)",
+  "publisher": "미확보",
+  "url_or_path": "검색: WebSearch 5회, FPIS 공지(302), 통계누리(동적), KOTI 연간보고서 PDF(내려받기 승인 필요)",
+  "published": "-",
+  "accessed": "2026-09-24",
+  "locator": "-",
+  "quote_or_value": "공개 자료에서 미발견. 확보 경로: TS 내부 FPIS 집계, 국토부 물류산업과, 국감 요구자료",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "8",
+   "11"
+  ]
+ },
+ {
+  "id": "CL-E67",
+  "type": "통계",
+  "title": "FPIS 확정 후 미확정 전환(정정) 건수·사유·시점",
+  "publisher": "미확보",
+  "url_or_path": "FPIS 안내·보도 검색",
+  "published": "-",
+  "accessed": "2026-09-24",
+  "locator": "-",
+  "quote_or_value": "정정 빈도·원인 공개 자료 없음. 현 컨셉 지표 CL-E02의 기준선 부재",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "CL-E68",
+  "type": "통계",
+  "title": "STFS 사건별 처리기간·통보 건수·지자체 회신(2026)",
+  "publisher": "미확보",
+  "url_or_path": "운영지침 PDF(미열람), 보도 검색",
+  "published": "-",
+  "accessed": "2026-09-24",
+  "locator": "-",
+  "quote_or_value": "공개 통계 없음. 보도상 조사 5~6개월·처분 0건만 확인",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "CL-E69",
+  "type": "예산",
+  "title": "국토부 2026 각목명세서 — FPIS 운영 위탁·안전운임신고센터 예산",
+  "publisher": "미확보",
+  "url_or_path": "WebSearch(예산), 국토부 사전공표(미열람)",
+  "published": "-",
+  "accessed": "2026-09-24",
+  "locator": "-",
+  "quote_or_value": "세부사업·금액 미확인",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "CL-E70",
+  "type": "국감",
+  "title": "2025 국토교통위원회 국정감사 요구자료(TS)",
+  "publisher": "국회도서관 소장정보",
+  "url_or_path": "https://dl.nanet.go.kr/detail/NONB12025000026983",
+  "published": "2025-10",
+  "accessed": "2026-09-24",
+  "locator": "목록만",
+  "quote_or_value": "요구자료 존재 확인, 본문(원문 열람 로그인 필요) 미열람",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "11"
+  ]
+ },
+ {
+  "id": "CL-E71",
+  "type": "통계",
+  "title": "한국교통연구원 화물운송시장 동향 2025 연간보고서",
+  "publisher": "한국교통연구원",
+  "url_or_path": "https://www.koti.re.kr/user/bbs/frghtSrvOneView.do?bbs_no=72372",
+  "published": "2026-03-23",
+  "accessed": "2026-09-24",
+  "locator": "첨부 PDF",
+  "quote_or_value": "게시 확인, 차주 조사 보고서 PDF 내려받기 필요 — 사용자 승인 필요로 미열람",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "11"
+  ]
+ },
+ {
+  "id": "CL-E72",
+  "type": "내부",
+  "title": "[계산] 안전운임 신고 대비 과태료 연계율·재시행 후 처리 부하",
+  "publisher": "CCK 계산(CL-E32·E33·E46 기반)",
+  "url_or_path": "work_CL/ledger.py",
+  "published": "2026-09-24",
+  "accessed": "2026-09-24",
+  "locator": "계산식",
+  "quote_or_value": "연계율 486÷5,380=9.0%(2021 13.7%, 2022 10.5%); 2026-02~08 신고 약 1,200건 → 월 약 200건, 조사 전담 3명 기준 1인당 누적 약 400건. 보도 수치 기반 추정",
+  "grade": "INFERRED",
+  "used_in": [
+   "0",
+   "2",
+   "4",
+   "8"
+  ]
+ },
+ {
+  "id": "CL-E73",
+  "type": "내부",
+  "title": "[계산] 위험물 사고 미감지 추정",
+  "publisher": "CCK 계산(CL-E18 기반)",
+  "url_or_path": "work_CL/ledger.py",
+  "published": "2026-09-24",
+  "accessed": "2026-09-24",
+  "locator": "계산식",
+  "quote_or_value": "2025 사고 58건×(1-0.914)≈5건 미감지(감지율 정의 미확인); 2025 단속 적발률 45÷1,921대≈2.3%",
+  "grade": "INFERRED",
+  "used_in": [
+   "2",
+   "6"
+  ]
+ },
+ {
+  "id": "CL-E74",
+  "type": "내부",
+  "title": "[추론] FPIS 신고·정정 지원 기능의 수명 제한",
+  "publisher": "CCK 추론(CL-E42·E43·E16 기반)",
+  "url_or_path": "-",
+  "published": "2026-09-24",
+  "accessed": "2026-09-24",
+  "locator": "추론",
+  "quote_or_value": "FPIS 근거 조문이 2028-01-01 통합관리시스템으로 대체되고, TS가 2026-03 정정 기회를 이미 제공했으며 1월 계획의 검증 알고리즘이 진행 중이므로 2027 FPIS 전용 기능은 이관·중복 위험 큼",
+  "grade": "INFERRED",
+  "used_in": [
+   "0",
+   "4",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "id": "CL-E75",
+  "type": "내부",
+  "title": "[추론] FPIS·HMTS·STFS 유지관리 계약 위치",
+  "publisher": "CCK 추론(CL-E23·E41)",
+  "url_or_path": "-",
+  "published": "2026-09-24",
+  "accessed": "2026-09-24",
+  "locator": "추론",
+  "quote_or_value": "CL 발주 0건·디지털기획처 통합유지관리 155.9억 → FPIS·HMTS·STFS 유지관리 포함 추정, 과업목록 미열람",
+  "grade": "INFERRED",
+  "used_in": [
+   "3"
+  ]
+ }
+]

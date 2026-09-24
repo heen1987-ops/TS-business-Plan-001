@@ -1,0 +1,1275 @@
+[
+ {
+  "id": "QE-L01",
+  "type": "법령",
+  "title": "여객자동차 운수사업법",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/법령/여객자동차운수사업법",
+  "published": "시행 2026-07-01(법률 제21710호)",
+  "accessed": "2026-09-24",
+  "locator": "제24조①~④, 제25조, 제27조",
+  "quote_or_value": "운전업무 종사자격 = 나이·경력 + 운전적성정밀검사 + (자격시험 합격 또는 교통안전체험교육 이수). 운수종사자 교육(제25조), 사상사고·법규위반·범죄경력 기록 유지(제27조)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "5",
+   "9"
+  ]
+ },
+ {
+  "id": "QE-L02",
+  "type": "법령",
+  "title": "여객자동차 운수사업법 시행령",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/법령/여객자동차운수사업법시행령",
+  "published": "시행 2026-07-07(대통령령 제36499호)",
+  "accessed": "2026-09-24",
+  "locator": "제38조③ 3~8호, ⑤",
+  "quote_or_value": "국토부장관→TS 위탁: 운수종사자 관리시스템 구축·운영(3호), 운전적성정밀검사 시행(4호), 운전자격시험 실시·자격수여(5호), 체험교육 실시·자격수여(6호), 사상사고·법규위반·범죄경력 기록(8호). 시·도지사→TS: 자격시험·자격수여(⑤1호)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "9"
+  ]
+ },
+ {
+  "id": "QE-L03",
+  "type": "법령",
+  "title": "여객자동차 운수사업법 시행규칙",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/법령/여객자동차운수사업법시행규칙",
+  "published": "시행 2026-09-15(국토교통부령 제1621호)",
+  "accessed": "2026-09-24",
+  "locator": "제49조①~⑦",
+  "quote_or_value": "운전적성정밀검사=신규·특별·자격유지. 자격유지검사 65~69세 3년·70세 이상 1년 주기, 대상일부터 3개월 내 수검(⑦). 택시는 의료기관 적성검사로 대체 가능(⑤), 2025-12-05 개정으로 과거 3년 중상사고·누산 81점 이상자는 대체 제외. ①2나 버스 양성기관 운행실습 80시간(2025-12-23 개정)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4",
+   "9"
+  ]
+ },
+ {
+  "id": "QE-L04",
+  "type": "법령",
+  "title": "여객자동차 운수사업법 시행규칙",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/법령/여객자동차운수사업법시행규칙",
+  "published": "시행 2026-09-15",
+  "accessed": "2026-09-24",
+  "locator": "제50조~제55조, 제54조의2~4",
+  "quote_or_value": "운전자격시험 TS가 매월 1회 이상 시행·필기 총점 6할 합격(제51·52조). 체험교육 TS 실시, 월 1회 이상·연간계획 90일 전 공고, 집합교육 24시간(제54조의2~4). 합격·수료 후 30일 내 자격증 발급 신청(제55조)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "QE-L05",
+  "type": "법령",
+  "title": "여객자동차 운수사업법 시행규칙",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/법령/여객자동차운수사업법시행규칙",
+  "published": "시행 2026-09-15",
+  "accessed": "2026-09-24",
+  "locator": "제19조⑨·⑩(2020-04-03 신설)",
+  "quote_or_value": "개인택시 양수자는 5년 무사고 + TS가 실시하는 교통안전체험·사고대응·법령 이론·실기교육 이수 시 사업용 경력요건(제1항제1호) 충족 간주. 교육 세부는 국토부 고시",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "QE-L06",
+  "type": "법령",
+  "title": "여객자동차 운수사업법 시행규칙",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/법령/여객자동차운수사업법시행규칙",
+  "published": "시행 2026-09-15",
+  "accessed": "2026-09-24",
+  "locator": "제58조①~⑥, 제58조의3",
+  "quote_or_value": "운수종사자 교육=신규·보수·수시. 교육실시기관=시·도 연수기관·TS·연합회·조합. TS는 사상사고·법규위반·범죄경력 월별 관리대장 유지(제58조의3)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "QE-L07",
+  "type": "법령",
+  "title": "화물자동차 운수사업법 시행령",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/법령/화물자동차운수사업법시행령",
+  "published": "시행 2026-06-03(대통령령 제36353호)",
+  "accessed": "2026-09-24",
+  "locator": "제15조④ 2~7호",
+  "quote_or_value": "TS 위탁: 운전적성정밀검사, 체험교육, 화물운송 자격시험 실시·관리 및 교육, 자격증 발급, 교통사고·법규위반·범죄경력 기록관리",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "QE-L08",
+  "type": "법령",
+  "title": "화물자동차 운수사업법 시행규칙",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/법령/화물자동차운수사업법시행규칙",
+  "published": "시행 2026-06-30(국토교통부령 제1551호)",
+  "accessed": "2026-09-24",
+  "locator": "제18조의2②③, 제18조의3, 제18조의6",
+  "quote_or_value": "화물 자격유지검사 65~69세 3년·70세+ 1년, 3개월 내 수검, 의료기관 적성검사로 갈음 가능(2025-12-05 개정: 중상사고·81점 이상 제외). 체험교육 16시간·종합평가 6할 이수. 시험·체험교육 월 1회 이상",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "9"
+  ]
+ },
+ {
+  "id": "QE-L09",
+  "type": "법령",
+  "title": "교통안전법 시행령",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/법령/교통안전법시행령",
+  "published": "시행 2026-09-15(대통령령 제36689호)",
+  "accessed": "2026-09-24",
+  "locator": "제48조의2①4호, ②5호",
+  "quote_or_value": "TS 위탁: 교통안전관리자 시험 실시·자격증명서 발급(①4호), 교통안전체험연구·교육시설 설치·운영(②5호). 도로교통공단에는 경찰청 소관 체험시설 위탁(③3호)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "QE-L10",
+  "type": "법령",
+  "title": "교통안전법",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/법령/교통안전법",
+  "published": "시행 2024-08-17(법률 제19673호)",
+  "accessed": "2026-09-24",
+  "locator": "제53조, 제56조, 제56조의2",
+  "quote_or_value": "교통안전관리자 자격시험(제53조), 교통안전체험 연구·교육시설(제56조), 중대 교통사고 운전자 체험교육 포함 교육 의무(제56조의2)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "QE-P01",
+  "type": "계획",
+  "title": "TS 2026년도 주요업무 추진계획 — 교통안전정책실",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.115~118(문서쪽 111~114) \"자격 취득·관리 강화로 운수종사자 자질 향상\"",
+  "quote_or_value": "자격유지검사: \"이해관계에 따른 폐지 주장 등 검사 수용도 저하\", \"의료적성검사 부적합률 0.1% 등 검사 실효성 문제 제기\". 과제: AI 사고위험 예측모델(운전적성정밀검사 기반), 효익성 논문, 의료기관 합동점검, 신규검사 적합 시 자격유지검사 인정, 수검 사전통보 법제화, 검사장 21→25개소, 익산 체험센터('28 준공), AI 문제관리(출제·검토), 전국통합 택시자격, 모바일 자격증, 야간·휴일 확대",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "2",
+   "3",
+   "4",
+   "9"
+  ]
+ },
+ {
+  "id": "QE-P02",
+  "type": "계획",
+  "title": "TS 2026년도 주요업무 추진계획 — 교통안전정책실 추진여건",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.110(문서쪽 106)",
+  "quote_or_value": "고령운수종사자율 20.8%('21)→22.4→23.6→25.3→26.5%('25.10). 고령운수종사자 사망자 42명('20)→54→55→64→82명('24)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "QE-P03",
+  "type": "계획",
+  "title": "TS 2026년도 주요업무 추진계획 — 기획조정실 2025 성과",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.64(문서쪽 60)",
+  "quote_or_value": "기재부 대국민 서비스 개선과제 성과목표 100% 달성: \"자격시험 대기일 13.7일↓, 개인택시 양수교육 정원 9560명↑\". 대기일 산식·기준연도 미제시",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "QE-P04",
+  "type": "계획",
+  "title": "TS 2026년도 주요업무 추진계획 — 2026 중점",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.14(문서쪽 10), p.117(문서쪽 113)",
+  "quote_or_value": "자격유지검사장 19개소('25)→23개소('26), 의료적성검사 병·의원 합동점검 70개 기관. 검사장 증설 원인: \"'24년 국정감사 지적사항(엄태영, 송기헌) 및 운수단체 계속 건의\". 통합형 검사기기 120대 증설(자격유지검사 월 6,000명 추가 수검)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "3"
+  ]
+ },
+ {
+  "id": "QE-D01",
+  "type": "데이터",
+  "title": "한국교통안전공단_교통안전체험교육 이수자 현황_20251231",
+  "publisher": "공공데이터포털(담당 자격교육처)",
+  "url_or_path": "https://www.data.go.kr/data/15117550/fileData.do",
+  "published": "수정 2026-07-28",
+  "accessed": "2026-09-24",
+  "locator": "CSV 10행×25열(연도×센터), 직접 집계(work_QE)",
+  "quote_or_value": "총 실인원 14,117('21)→14,401→14,655→16,308→19,290('25). 개인택시 양수(5일+2일) 8,571→6,330→6,268→8,056→9,870. 신규버스(지자체) 1,516→2,817. 화물·버스 자격취득 체험교육 1,234→1,003. 5개년 실인원 상주 49,446·화성 29,325",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "QE-D02",
+  "type": "데이터",
+  "title": "한국교통안전공단_교통안전관리자 자격증발급 연도별 현황_20251231",
+  "publisher": "한국교통안전공단(로컬 사본)",
+  "url_or_path": "{D}/원자료/공공데이터_CSV/한국교통안전공단_교통안전관리자 자격증발급 연도별 현황_20251231.csv",
+  "published": "2025-12-31",
+  "accessed": "2026-09-24",
+  "locator": "CSV 22행(2002~2025, 2003·2005 결측)",
+  "quote_or_value": "도로교통 발급 845('18)→2,112('19)→1,646→1,102→1,368→1,761→1,665→1,472('25). 철도 4,014·항공 1,814('25)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "QE-D03",
+  "type": "데이터",
+  "title": "한국교통안전공단_교통안전교육 과정별 수료자 현황_20210714",
+  "publisher": "한국교통안전공단(로컬 사본)",
+  "url_or_path": "{D}/원자료/공공데이터_CSV/한국교통안전공단_교통안전교육 과정별 수료자 현황_20210714.csv",
+  "published": "2021-07-14",
+  "accessed": "2026-09-24",
+  "locator": "CSV 199행, 4과정",
+  "quote_or_value": "교통안전담당자 신규 82·교육 49·에코드라이브 60·관리자시험 일부면제자 8행, 수료일 2020-05-30~2021-07-14, 수료여부 전부 Y. 개인 단위 표본으로 연간 규모·효과 분석 불가",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "7",
+   "11"
+  ]
+ },
+ {
+  "id": "QE-D04",
+  "type": "데이터",
+  "title": "한국교통안전공단_통합국가자격_필기시험과목별결과정보_20251208",
+  "publisher": "한국교통안전공단(로컬 사본)",
+  "url_or_path": "{D}/원자료/공공데이터_CSV/한국교통안전공단_통합국가자격_필기시험과목별결과정보_20251208.csv",
+  "published": "2025-12-08",
+  "accessed": "2026-09-24",
+  "locator": "CSV 204행",
+  "quote_or_value": "자격구분 철도운전면허·철도교통관제 2종만 수록(과목별 평균점수). 버스·택시·화물 자격시험 결과 미수록 → QE 범위 밖",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "7",
+   "11"
+  ]
+ },
+ {
+  "id": "QE-D05",
+  "type": "데이터",
+  "title": "한국교통안전공단_통합국가자격 상점링크정보_20251118",
+  "publisher": "한국교통안전공단(로컬 사본)",
+  "url_or_path": "{D}/원자료/공공데이터_CSV/한국교통안전공단_통합국가자격 상점링크정보_20251118.csv",
+  "published": "2025-11-18",
+  "accessed": "2026-09-24",
+  "locator": "CSV 36행",
+  "quote_or_value": "도로 분야 패키지: 상주·화성 체험교육(웹·모바일), 육상종사자격시험·자격증·정밀검사·원스탑 접수, 교통안전관리자 원서·자격증 — 모두 lic.kotsa.or.kr 도메인",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "QE-D06",
+  "type": "데이터",
+  "title": "한국교통안전공단_운전적성정밀검사_자격유지검사통계_20251231",
+  "publisher": "공공데이터포털(담당 AI혁신처)",
+  "url_or_path": "https://www.data.go.kr/data/15120262/fileData.do",
+  "published": "등록 2024-08-28, 수정 2026-09-04",
+  "accessed": "2026-09-24",
+  "locator": "메타데이터: 125,652행, 11컬럼",
+  "quote_or_value": "수검일·지사·나이·7개 검사항목 등급(시야각·신호등·화살표·도로찾기·표지판·추적·복합)·종합판정의 개인 단위 기록. 원자료 집계는 미실시(대용량 파일 내려받기는 사용자 승인 필요)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "7",
+   "8"
+  ]
+ },
+ {
+  "id": "QE-D07",
+  "type": "데이터",
+  "title": "한국교통안전공단_화물운송종사 자격시험 연도별 시행현황",
+  "publisher": "공공데이터포털(담당 자격교육처)",
+  "url_or_path": "https://www.data.go.kr/data/15054478/fileData.do",
+  "published": "수정 2026-01-15",
+  "accessed": "2026-09-24",
+  "locator": "메타데이터: 22행, 컬럼 년도·면제자·자격시험합격자·합격자교육이수·자격증발급자·체험교육이수자",
+  "quote_or_value": "응시자 수 컬럼 없음 → 합격률 산출 불가(메타 확인)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "7"
+  ]
+ },
+ {
+  "id": "QE-D08",
+  "type": "데이터",
+  "title": "한국교통안전공단_개인택시면허 양수교육 희망자별 일반택시 경력_20240807",
+  "publisher": "공공데이터포털(담당 자격교육처)",
+  "url_or_path": "https://www.data.go.kr/data/15131325/fileData.do",
+  "published": "수정 2024-08-27",
+  "accessed": "2026-09-24",
+  "locator": "메타데이터: 6,566행(2024년 3분기 신청자)",
+  "quote_or_value": "체험교육센터 검증시스템으로 신청자 택시경력 유효성 검증 기록. 한 분기 신청 6,566건",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "7"
+  ]
+ },
+ {
+  "id": "QE-C01",
+  "type": "민원",
+  "title": "국민신문고 TS 민원 374건 분류표 중 QE 범위 58건 재분류",
+  "publisher": "국민신문고(로컬 분류표)",
+  "url_or_path": "{P}/kotsa_국민신문고_민원374건_원문URL_분류표_2024-09~2026-09.csv",
+  "published": "2024-09-17~2026-09-13",
+  "accessed": "2026-09-24",
+  "locator": "374건 중 제목·요지 키워드 재분류 + 수작업 보정(work_QE/민원_QE범위_분류.csv)",
+  "quote_or_value": "QE 범위 58건: 개인택시 양수교육 25, 버스 양성교육 12, 운전적성정밀검사·자격유지 9, 자격시험·자격증 6, 보수·신규교육 3, 교통안전관리자 2, 기타 1. 양수+양성 37건(64%)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "QE-C02",
+  "type": "민원",
+  "title": "개인택시 양수교육에 대한 건(no.24) 답변",
+  "publisher": "국민신문고",
+  "url_or_path": "{P}/kotsa_국민신문고_민원374건_원문URL_분류표_2024-09~2026-09.csv",
+  "published": "2024-12-11",
+  "accessed": "2026-09-24",
+  "locator": "no.24 요지",
+  "quote_or_value": "교육장 상주(9만평)·화성(7만평) 2개소, \"수용능력 대비 높은 수요\"를 원인으로 설명. 월 500→700명 확대, 제3센터(익산) 건립. 추첨제 전환 사유: 선착순 시 불법예약대행·동시접속·정보취약계층 소외",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "QE-C03",
+  "type": "민원",
+  "title": "양수교육 온라인 신청방법 개선(no.83)·가점제(no.82·84·108) 답변",
+  "publisher": "국민신문고",
+  "url_or_path": "{P}/kotsa_국민신문고_민원374건_원문URL_분류표_2024-09~2026-09.csv",
+  "published": "2025-07-03",
+  "accessed": "2026-09-24",
+  "locator": "no.82·83·84·108 요지",
+  "quote_or_value": "기수 경쟁률 3.16:1, 전체 평균 3.50:1. 3회 낙첨 시 최초 낙첨자 90% 이상 당첨 예상(시뮬레이션). 동일 정형 문구 반복",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "QE-C04",
+  "type": "민원",
+  "title": "개인택시 양수교육(no.215·216·254) 답변",
+  "publisher": "국민신문고",
+  "url_or_path": "{P}/kotsa_국민신문고_민원374건_원문URL_분류표_2024-09~2026-09.csv",
+  "published": "2026-02-12~04-13",
+  "accessed": "2026-09-24",
+  "locator": "no.215·216·254 요지",
+  "quote_or_value": "5일 체험교육 효과로 \"수료자 교통사고 56.2% 감소\" 수치를 들어 센터 외 대체 불가 설명. 산출 기간·비교군 미제시",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4",
+   "6"
+  ]
+ },
+ {
+  "id": "QE-C05",
+  "type": "민원",
+  "title": "신규검사·화물운송종사자격시험 예약취소(no.301·315·355)",
+  "publisher": "국민신문고",
+  "url_or_path": "{P}/kotsa_국민신문고_민원374건_원문URL_분류표_2024-09~2026-09.csv",
+  "published": "2026-06-17~08-19",
+  "accessed": "2026-09-24",
+  "locator": "no.301·315·355 요지",
+  "quote_or_value": "시험·검사 전일 18시까지만 취소·환불, 취소석은 공석 유지. 좌석 확대·당일취소 허용 불가 답변",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "QE-C06",
+  "type": "민원",
+  "title": "버스 양성교육 정원(no.172·270·352)",
+  "publisher": "국민신문고",
+  "url_or_path": "{P}/kotsa_국민신문고_민원374건_원문URL_분류표_2024-09~2026-09.csv",
+  "published": "2025-11-21~2026-08-15",
+  "accessed": "2026-09-24",
+  "locator": "no.172·270·352 요지",
+  "quote_or_value": "정원 30명·대기 15명 선착순, 인프라·교수인력 범위에서 정원 설계로 증원 곤란. 2026년부터 외부교육 업무 경기도교통연수원 이관(no.294)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "QE-N01",
+  "type": "언론",
+  "title": "[단독] 택시기사 절반이 65세 이상…자격유지검사 합격률은 99%",
+  "publisher": "경향신문(손명수 의원실 제출자료 인용)",
+  "url_or_path": "https://www.khan.co.kr/article/202410101110001",
+  "published": "2024-10-10",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "택시 운전자 238,106명 중 65세 이상 111,515명(약 47%, '24.8). 자격유지검사 합격률 95.8%('19)→96.0→97.2→98.1→98.5→98.8%('24.8). 80대 이상 의료적성검사 493명 중 2명 탈락",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "QE-N02",
+  "type": "언론",
+  "title": "고령 운수종사자, 자격검사 변별력 높인다…2개 항목 미흡시 부적합",
+  "publisher": "아주경제(국토부 보도 인용)",
+  "url_or_path": "https://www.ajunews.com/view/20250219090358055",
+  "published": "2025-02-19",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "시행규칙 개정안 입법예고(2.20~40일). 부적합 기준 5등급 2개→4등급 2개, 3회차부터 재검사 제한기간 연장·4회차부터 신규검사 기준, 75세 이상 건강검진결과서 대체 불가, 결과서 유효기간 단축",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "3",
+   "4"
+  ]
+ },
+ {
+  "id": "QE-N03",
+  "type": "언론",
+  "title": "교통안전체험교육 받은 사업용 운전자, 교통사고 56.8% 줄어",
+  "publisher": "서울신문(국토부·TS 분석 인용)",
+  "url_or_path": "https://www.seoul.co.kr/news/economy/car/2022/06/13/20220613500039",
+  "published": "2022-06-13",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "2017~2019 이수자 38,347명 전후 1년 비교: 사고 3,736→1,614건(-56.8%), 나이·업종·지역 동일 미이수군 -11.9%. 신규 운전자 이수자 6,640명 167건 vs 미이수 3,089명 227건(사고율 34.2% 수준)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4",
+   "6"
+  ]
+ },
+ {
+  "id": "QE-I01",
+  "type": "내부",
+  "title": "20A 교통안전정책실·모빌리티 부서 서비스문제조사 v0.1",
+  "publisher": "CCK 내부",
+  "url_or_path": "{P}/20A_교통안전정책실_모빌리티부서_서비스문제조사_v0.1_2026-09-16.md",
+  "published": "2026-09-16",
+  "accessed": "2026-09-24",
+  "locator": "발견 4",
+  "quote_or_value": "자격교육처 영역 민원 다수가 시설·인력·부지 부족 원인으로 판단, AX 후보 제외 검토",
+  "grade": "INFERRED",
+  "used_in": [
+   "4",
+   "10"
+  ]
+ },
+ {
+  "id": "QE-I02",
+  "type": "내부",
+  "title": "TS 부서별 업무목록 v0.3 ORG-021 자격교육처",
+  "publisher": "CCK 내부(GPT 정리)",
+  "url_or_path": "{D}/TS_부서별_업무목록_v0.3_20260921.md",
+  "published": "2026-09-21",
+  "accessed": "2026-09-24",
+  "locator": "ORG-021",
+  "quote_or_value": "소속 모빌리티교통안전본부>교통안전정책실. 업무: 도로분야 자격, 운전적성정밀검사, 교통안전체험교육, 교통안전관리자 자격시험",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "QE-I03",
+  "type": "내부",
+  "title": "사이트 현재 컨셉 원장 QE",
+  "publisher": "CCK 사이트",
+  "url_or_path": "{S}/brief/QE_현재컨셉.json",
+  "published": "2026-09-23",
+  "accessed": "2026-09-24",
+  "locator": "site_concept·impact",
+  "quote_or_value": "대표 컨셉 \"학습자의 판단에 맞추는 안전역량 교육\", 지표 예시기준선 60점·55점·200분(가정), 근거 QE01·QE02 2건",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "10"
+  ]
+ },
+ {
+  "id": "QE-N04",
+  "type": "언론",
+  "title": "고령 운수종사자 운전 적격성 검사기준 대폭 강화한다(정책브리핑)",
+  "publisher": "국토교통부(대한민국 정책브리핑)",
+  "url_or_path": "https://www.korea.kr/news/policyNewsView.do?newsId=148939761",
+  "published": "2025-02-19",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "현행 7개 항목 중 5등급 2개 이상 부적합 → 시야각·도로찾기·추적·복합기능 4개 항목 중 4등급 2개 이상도 부적합. 3회차부터 재검사 제한 30일, 4회차부터 신규검사 기준. 75세 이상·특별검사 대상자 의료적성검사 대체 제한(예고안). 입법예고 2025-02-20~04-01",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "3",
+   "4",
+   "9"
+  ]
+ },
+ {
+  "id": "QE-N05",
+  "type": "언론",
+  "title": "교통안전 체험교육 받은 사업용 운전자, 교통사고 56.8% 감소(정책브리핑)",
+  "publisher": "국토교통부 교통안전정책과(대한민국 정책브리핑)",
+  "url_or_path": "https://www.korea.kr/news/policyNewsView.do?newsId=148902473",
+  "published": "2022-06-13",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "2017~2019 이수자 38,347명 중 31,707명 전후 1년 사고 3,736→1,614건(-56.8%), 나이·업종·지역 동일 미이수군 42,401→37,346건(-11.9%). 신규 이수자 6,640명 167건 vs 미이수 3,089명 227건. 선발효과·평균회귀 통제 여부 미기재",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4",
+   "6",
+   "8"
+  ]
+ },
+ {
+  "id": "QE-N06",
+  "type": "언론",
+  "title": "[2018 교통안전 행복사회] 교통안전체험교육 받은 첫 해 사고 53% 감소",
+  "publisher": "서울신문",
+  "url_or_path": "https://www.seoul.co.kr/news/plan/2018/12/26/20181226016001",
+  "published": "2018-12-26",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "2010~2012 이수자 첫해 사고 -53%·법규위반 -22%, 미이수 -8.5%·-3.3%. \"효과는 시간 경과에 따라 감소\" 서술",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4",
+   "8"
+  ]
+ },
+ {
+  "id": "QE-N07",
+  "type": "국감",
+  "title": "[단독] 부적격 화물차 운전자 1700여명…과태료 부과도 소용 없어",
+  "publisher": "아주경제(국토위 의원실 제출자료 인용)",
+  "url_or_path": "https://www.ajunews.com/view/20221006160609353",
+  "published": "2022-10-06",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "운전적성정밀검사 미수검 부적격 운수종사자 2,215명(화물 1,791·택시 306·버스 118), 화물 81%",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "QE-N08",
+  "type": "언론",
+  "title": "택시 지리숙지도 시험 폐지 추진… 90일 임시 운전자격 신설 법안 발의",
+  "publisher": "교통신문(tdaily)",
+  "url_or_path": "http://www.tdaily.co.kr/news/view.php?idx=58464",
+  "published": "2025-12-10",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "여객법 개정안 발의(국토위 소속 의원): 택시 지리숙지도 평가 폐지, 전국 단일 자격, 법인택시·플랫폼 구직자 1회 90일 임시 운전자격",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1",
+   "3",
+   "9"
+  ]
+ },
+ {
+  "id": "QE-N09",
+  "type": "언론",
+  "title": "택시 자격증 전국 단위로 통합…총리실 중소기업 규제 합리화 대책",
+  "publisher": "다음뉴스(언론 종합)",
+  "url_or_path": "https://v.daum.net/v/20251201163247107",
+  "published": "2025-12-01",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "국무조정실 규제합리화: 택시자격 전국 통합, 여객법 개정 2026년 12월 시행 예정",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1",
+   "9"
+  ]
+ },
+ {
+  "id": "QE-N10",
+  "type": "언론",
+  "title": "TS, 천안 운전적성정밀검사장 개소(보도자료)",
+  "publisher": "한국교통안전공단(담당 자격교육처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do?bbscCode=report&bbscSeqn=18826&menuCode=05010200",
+  "published": "2026-04-03",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "천안 검사장 신설, 통합형 검사기기 20대, 연간 약 2천명 수검 예상, 주 1일(금) 운영",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "QE-D09",
+  "type": "데이터",
+  "title": "한국교통안전공단_운전적성정밀검사결과 현황_20241231(신규검사)",
+  "publisher": "공공데이터포털(담당 AI혁신처)",
+  "url_or_path": "https://www.data.go.kr/data/15040301/fileData.do",
+  "published": "수정 2026-09-04",
+  "accessed": "2026-09-24",
+  "locator": "메타데이터: 132,277행, 17컬럼",
+  "quote_or_value": "신규검사 개인단위 기록: 수검일·지사·나이·성별·속도예측·정지거리예측·주의전환·반응조절·변화탐지·인지능력·지각성향·정서안정·행동안정·현실판단·정신민첩·생활안정·종합판정. 개인키 없음 → 사고 연계 불가",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "7"
+  ]
+ },
+ {
+  "id": "QE-D10",
+  "type": "데이터",
+  "title": "한국교통안전공단_개인택시면허 양수교육 접수 방법 설명_20251231",
+  "publisher": "공공데이터포털(담당 AI혁신처)",
+  "url_or_path": "https://www.data.go.kr/data/15118011/fileData.do",
+  "published": "수정 2026-09-04",
+  "accessed": "2026-09-24",
+  "locator": "데이터 설명",
+  "quote_or_value": "2024년 9월 전면 추첨제, 2024년 12월부터 낙첨 횟수 비례 가점 적용",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "QE-G01",
+  "type": "해외",
+  "title": "適齢診断(고령 운전자 적성진단)",
+  "publisher": "일본 自動車事故対策機構(NASVA)",
+  "url_or_path": "https://www.nasva.go.jp/fusegu/tekirei.html",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "여객(개인택시 외) 65세 도달 1년 내 1회, 75세까지 3년마다, 75세 이후 매년. 화물 65세 후 3년마다. 카운슬러가 결과로 가령 변화를 인식시키고 지도·조언(합격·불합격 판정 아님). 수수료 4,800엔",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "QE-G02",
+  "type": "해외",
+  "title": "事業用自動車の安全対策(運転者に対する指導及び監督)",
+  "publisher": "일본 国土交通省",
+  "url_or_path": "https://www.mlit.go.jp/jidosha/anzen/03safety/instruction.html",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "「指導及び監督の指針」: 초임·고령(65+)·사고야기 운전자에 인정 적성진단 수검 의무 + 진단결과에 따른 사업자 지도 의무",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "QE-G03",
+  "type": "해외",
+  "title": "Ex-post evaluation study: effectiveness of EU legislative framework on training of professional drivers",
+  "publisher": "Panteia(유럽위원회 발주)",
+  "url_or_path": "https://transport.ec.europa.eu/document/download/e2425628-c3bb-41d2-8fbf-bb5cbdef050b_en?filename=2014_ex_post_evaluation_study_training_drivers_en.pdf",
+  "published": "2014-10-13",
+  "accessed": "2026-09-24",
+  "locator": "p.128 §10.3~10.4",
+  "quote_or_value": "위험인지(danger recognition) 훈련만 안전효과 가능성, 나머지 훈련은 효과 제한적·없음 → 주제·시간·빈도 요건은 \"부분적으로만\" 적절. 회원국 간 교육내용 편차 큼",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4",
+   "6"
+  ]
+ },
+ {
+  "id": "QE-G04",
+  "type": "해외",
+  "title": "Report on the implementation of Directive 2003/59/EC, COM(2012)385",
+  "publisher": "European Commission",
+  "url_or_path": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52012DC0385",
+  "published": "2012",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "정기교육의 사고감소 효과 자료 미제시. 교육 프로그램·교수법 비표준화 지적",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "QE-G05",
+  "type": "해외",
+  "title": "Driver CPC Reforms De Minimis Assessment(DfTDMA308)",
+  "publisher": "UK Department for Transport",
+  "url_or_path": "https://www.legislation.gov.uk/ukdsi/2024/9780348261486/pdfs/ukdsiod_9780348261486_en_001.pdf",
+  "published": "2024-05-02 서명",
+  "accessed": "2026-09-24",
+  "locator": "요약·§1.42",
+  "quote_or_value": "35시간/5년 유지, 최소 과정 7→3.5시간. 도로안전 영향 입증 근거 확보 곤란 서술. 정기교육 대신 정기시험 도입안에 응답자 54% 찬성·30% 반대",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "QE-A01",
+  "type": "논문",
+  "title": "고령 택시 운수 종사자의 자격유지검사 강화에 대한 사회적 인식 연구",
+  "publisher": "교통안전연구 42(1), 한국도로교통공단 소속",
+  "url_or_path": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002970439",
+  "published": "2023",
+  "accessed": "2026-09-24",
+  "locator": "초록",
+  "quote_or_value": "Q방법론, 27명. 인식 4유형(규제 선호·현상유지·규제+지원 병행·연령기준·벌칙·수수료 개선 요구). 수용성 제고 방안 제시",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4",
+   "9"
+  ]
+ },
+ {
+  "id": "QE-K01",
+  "type": "계약",
+  "title": "AI활용 국가자격시험 문제 출제 시스템 구축 제안요청서(19193)",
+  "publisher": "한국교통안전공단(자격교육처)",
+  "url_or_path": "{D}/검토결과_20260921/공식발주근거/19193_2. 과업 및 제안요청서.txt",
+  "published": "2026",
+  "accessed": "2026-09-24",
+  "locator": "53~109행",
+  "quote_or_value": "249,892,403원, ~2026-12-20. 도로자격(버스·화물·택시·교통안전관리자) 출제문제 학습 sLLM(20B 이상, 폐쇄망)·RAG, 신규 문항 출제·난이도 판별, CBT API 연동, 법령·출제문제·정오답·난이도 지식DB 질의응답",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5",
+   "9"
+  ]
+ },
+ {
+  "id": "QE-K02",
+  "type": "계약",
+  "title": "TS 2026 용역·물품 발주계획 중 자격교육처·교육운영처 건",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_용역_발주계획.csv",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "담당부서 필터(python)",
+  "quote_or_value": "자격교육처 용역: 운수종사자 운전적격성검사 인프라 확충 24.6억, 운전적성정밀 검사장비 유지보수 3.5억, 특별검사 노후장비 교체 1.75억, AI 국가자격시험 문제관리 2.5억, 온라인 교통안전교육 통합플랫폼 클라우드 0.93억, 화물 합격자교육 개선 0.2억. 체험센터 운영은 교육운영처(상주·화성) 명의(셔틀 5.1억·보험 등)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "QE-K03",
+  "type": "계약",
+  "title": "2026년 운수종사자 관리시스템 기능 고도화 용역 제안요청서(19134)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{D}/검토결과_20260921/공식발주근거/19134_2. 과업 및 제안요청서.txt",
+  "published": "2026",
+  "accessed": "2026-09-24",
+  "locator": "31~93행",
+  "quote_or_value": "152,697,959원, ~2026-12-31. 경찰청 범죄경력·사고/면허 연계서버 기능 이관, 입사등록 시 사고·유효면허 실시간 표출",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "QE-I04",
+  "type": "내부",
+  "title": "13개 처 조직검증·중복경계 v0.1",
+  "publisher": "CCK 내부(오케스트레이터)",
+  "url_or_path": "{S}/out/00_조직검증_중복경계_v0.1.md",
+  "published": "2026-09-25",
+  "accessed": "2026-09-24",
+  "locator": "§3 표 QE행, §5·§6",
+  "quote_or_value": "QE 게시 인원 27명, 부분 중복: AI 국가자격시험 문제출제(19193)·운전적성 기반 AI 사고위험 예측모델·26개 AX 실행과제 중 자격시험 자동출제(OV-70)·온라인 교육플랫폼·통합학사관리. 대표 컨셉(체험교육 적응형)은 경계 명확",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "3",
+   "9"
+  ]
+ },
+ {
+  "id": "QE-L11",
+  "type": "법령",
+  "title": "사업용자동차 운전자 운전적성에 대한 정밀검사 관리규정",
+  "publisher": "국토교통부고시 제2025-700호(국가법령정보센터)",
+  "url_or_path": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000269440&chrClsCd=010201",
+  "published": "시행 2025-12-05",
+  "accessed": "2026-09-24",
+  "locator": "제6조③, 제7조③④, 제9조, 제10조①~⑤",
+  "quote_or_value": "자격유지검사 적합 = 5등급 1개 이하 + 시야각·도로찾기·추적·복합기능 4등급 이하 1개 이하. 재검사 14일, 2회차 이후 30일, 3회차 이후 신규검사 기준, 의료적성검사 횟수 합산. 종합판정표 2부(수검자·운송사업자). 교정교육: 부적합자 중 희망자·특별검사자 대상(①), 운송사업자는 적합 취업자에게 검사소견 교정교육 수시 실시(④), TS는 운수업체에 교정교육 실시요령 수시 지도(⑤)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4",
+   "5",
+   "9"
+  ]
+ },
+ {
+  "id": "QE-N11",
+  "type": "언론",
+  "title": "[단독] 검사 2배 늘었는데 탈락률 1%… 택시 고령 운전자 자격유지검사 실효성 논란",
+  "publisher": "천지일보(TS 입수자료 인용)",
+  "url_or_path": "https://www.newscj.com/news/articleView.html?idxno=3386580",
+  "published": "2026-03-20",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "자격유지검사 합격률 97.26%('21)→98.08→98.47→98.76→98.94%('25). 수검자 67,014명('21)→125,645명('25). 65세 이상 사고 2020~2024 36% 증가 서술",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "QE-N12",
+  "type": "언론",
+  "title": "「전북 익산」에 교통안전체험교육센터 추가 건립(보도자료)",
+  "publisher": "국토교통부(대한민국 정책브리핑)",
+  "url_or_path": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156518543",
+  "published": "2022-07-28",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "제3 체험교육센터 우선협상 대상 익산 선정, 기존 2개 센터 수요 초과·대기 해소 목적. 2026 추진계획상 '26 착공·'28 준공(QE-P01)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "QE-N13",
+  "type": "언론",
+  "title": "개인택시 양수 교통안전교육 인원, 1만명으로 확대",
+  "publisher": "이데일리(국토부·TS 발표 인용)",
+  "url_or_path": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02643686628919360",
+  "published": "2021-01-19",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "양수교육 약 3,000명→10,050명(상반기 4,770·하반기 5,280) 확대 계획, 조기 마감 대응. 실제 이수는 8,571('21)·6,330('22)·6,268('23)명(QE-D01)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "QE-D11",
+  "type": "데이터",
+  "title": "한국교통안전공단_상주교통안전체험교육센터 교육프로그램별 입교 및 수료현황_20251231",
+  "publisher": "공공데이터포털",
+  "url_or_path": "https://www.data.go.kr/data/15104584/fileData.do",
+  "published": "2025-12-31",
+  "accessed": "2026-09-24",
+  "locator": "CSV 18행 직접 집계(work_QE)",
+  "quote_or_value": "상주 2025: 신청 30,121·입교 11,045·수료 10,945(입교 대비 99.1%). 개인택시 양수 5일 신청 17,609→입교 5,284(30.0%, 3.33:1), 신규버스 양성 10일 911→535(58.7%), 화물 자격취득 868 입교·794 수료(91.5%)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4",
+   "8"
+  ]
+ },
+ {
+  "id": "QE-D12",
+  "type": "데이터",
+  "title": "한국교통안전공단_화물운송종사 자격시험 연도별 시행현황_20251231",
+  "publisher": "공공데이터포털(담당 자격교육처)",
+  "url_or_path": "https://www.data.go.kr/data/15054478/fileData.do",
+  "published": "수정 2026-01-15",
+  "accessed": "2026-09-24",
+  "locator": "CSV 22행 직접 집계(work_QE)",
+  "quote_or_value": "화물 자격시험 합격자 65,427('21)→71,877→80,632→71,785→69,815('25), 자격증 발급 81,333('25), 체험교육 이수 996('21)→794('25). 응시자 수 없음 → 합격률 산출 불가",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "7"
+  ]
+ },
+ {
+  "id": "QE-D13",
+  "type": "데이터",
+  "title": "한국교통안전공단_운수종사자현황_연령별시도별_20251231",
+  "publisher": "공공데이터포털",
+  "url_or_path": "https://www.data.go.kr/data/15062024/fileData.do",
+  "published": "2025-12-31",
+  "accessed": "2026-09-24",
+  "locator": "CSV 488행 업종 10종 합산 직접 집계(work_QE)",
+  "quote_or_value": "운수종사자 831,663명('25) 중 65세 이상 221,743명(26.7%), 70세 이상 91,159명(11.0%). 65+ 비율 15.8%('18)→20.8('21)→26.7%('25). 개인택시 55.4%·법인택시 35.4%·전세버스 40.4%·마을버스 41.0%. 연간 법정 수검대상 근사(65~69세/3+70세 이상) 134,687명",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "QE-D14",
+  "type": "데이터",
+  "title": "한국교통안전공단_운수종사자관리시스템_교통사고통계_20251231",
+  "publisher": "공공데이터포털",
+  "url_or_path": "https://www.data.go.kr/data/15064585/fileData.do",
+  "published": "2025-12-31",
+  "accessed": "2026-09-24",
+  "locator": "메타데이터 357행",
+  "quote_or_value": "시도별·업종별 교통사고·사망·중상·경상 집계. 연령·검사결과 변수 없음 → 공개자료만으로 검사결과-사고 연계 불가",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "7"
+  ]
+ },
+ {
+  "id": "QE-A02",
+  "type": "논문",
+  "title": "Post-licence driver education for the prevention of road traffic crashes (Cochrane Review CD003734)",
+  "publisher": "Cochrane Injuries Group",
+  "url_or_path": "https://www.cochrane.org/CD003734/INJ_strong-evidence-that-advanced-and-remedial-driver-education-does-not-reduce-road-traffic-crashes-or-injuries",
+  "published": "2003(최종검색 2005-10)",
+  "accessed": "2026-09-24",
+  "locator": "요약",
+  "quote_or_value": "RCT 24건·약 30만명. 충돌 RR 0.98(0.96~1.01), 위반 RR 0.96(0.94~0.98), 부상사고 RR 1.12. 사고예방 효과 근거 없음 결론(미국 중심 교실형 교육)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4",
+   "6"
+  ]
+ },
+ {
+  "id": "QE-A03",
+  "type": "논문",
+  "title": "The longer-term effects of a brief hazard perception training intervention in older drivers",
+  "publisher": "Psychology and Aging(Horswill 외)",
+  "url_or_path": "https://psychology.uq.edu.au/profile/2434/mark-horswill",
+  "published": "2015",
+  "accessed": "2026-09-24",
+  "locator": "검색 요약",
+  "quote_or_value": "고령 운전자 위험지각 훈련 후 위험지각 수행 향상, 3개월 후 유지(사고 결과지표 아님). 원문 미열람",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "QE-A04",
+  "type": "논문",
+  "title": "The efficacy of hazard perception training and education: A systematic review and meta-analysis",
+  "publisher": "Accident Analysis & Prevention(2024)",
+  "url_or_path": "https://www.sciencedirect.com/science/article/pii/S000145752400099X",
+  "published": "2024",
+  "accessed": "2026-09-24",
+  "locator": "원문 접근 실패(HTTP 403)",
+  "quote_or_value": "효과크기·사고지표 포함 여부 미확인",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "6",
+   "11"
+  ]
+ },
+ {
+  "id": "QE-U01",
+  "type": "계획",
+  "title": "\"자격시험 대기일 13.7일↓\" 산식·기준연도",
+  "publisher": "한국교통안전공단/기획재정부",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.64 각주, 웹 검색 3회",
+  "quote_or_value": "대기일 정의(접수~시험일?)·시험 종목·기준연도·실측치 미확인",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "8",
+   "11"
+  ]
+ },
+ {
+  "id": "QE-U02",
+  "type": "국감",
+  "title": "2024 국정감사 운전적성정밀검사장 증설 지적(엄태영·송기헌 의원) 원문",
+  "publisher": "국회 국토교통위원회",
+  "url_or_path": "https://record.assembly.go.kr",
+  "published": "2024-10",
+  "accessed": "2026-09-24",
+  "locator": "웹 검색 2회, NARS 국감이슈분석 목차만 확인",
+  "quote_or_value": "추진계획(QE-P04)에 지적 사실만 기재. 회의록 원문·수치 미확인",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "11"
+  ]
+ },
+ {
+  "id": "QE-U03",
+  "type": "감사",
+  "title": "감사원·TS 자체감사의 자격유지검사·체험교육 감사결과",
+  "publisher": "감사원/ALIO",
+  "url_or_path": "https://www.bai.go.kr",
+  "published": "-",
+  "accessed": "2026-09-24",
+  "locator": "웹 검색 2회",
+  "quote_or_value": "관련 감사결과 미발견(없음을 뜻하지 않음)",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "11"
+  ]
+ },
+ {
+  "id": "QE-U04",
+  "type": "민원",
+  "title": "\"양수교육 수료자 교통사고 56.2% 감소\" 원출처",
+  "publisher": "한국교통안전공단(민원답변)",
+  "url_or_path": "{P}/kotsa_국민신문고_민원374건_원문URL_분류표_2024-09~2026-09.csv",
+  "published": "2026-02",
+  "accessed": "2026-09-24",
+  "locator": "웹 검색 2회",
+  "quote_or_value": "분석기간·대상·비교군 미공개. 2022 체험교육 전체 분석(56.8%)과 별개 수치인지 미확인",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "4",
+   "11"
+  ]
+ },
+ {
+  "id": "QE-U05",
+  "type": "내부",
+  "title": "운송사업자 검사소견 교정교육(고시 제10조④) 실시율·TS 지도(⑤) 실적",
+  "publisher": "한국교통안전공단/운송사업자",
+  "url_or_path": "-",
+  "published": "-",
+  "accessed": "2026-09-24",
+  "locator": "웹 검색 1회",
+  "quote_or_value": "교정교육계획·교육일지 집계 공개자료 없음. 실제 이행 여부가 이 설계의 핵심 미확인",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "4",
+   "8",
+   "11"
+  ]
+ },
+ {
+  "id": "QE-U06",
+  "type": "데이터",
+  "title": "자격유지검사 항목별 등급 분포·신 판정기준 모의 적용 결과",
+  "publisher": "공공데이터포털 15120262 원자료",
+  "url_or_path": "https://www.data.go.kr/data/15120262/fileData.do",
+  "published": "수정 2026-09-04",
+  "accessed": "2026-09-24",
+  "locator": "125,652행 원자료 미집계",
+  "quote_or_value": "대용량 CSV 내려받기는 사용자 승인 필요로 미실시. 승인 시 4등급 보유자 비율·신 기준 적용 시 부적합률 산출 가능",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "7",
+   "8",
+   "11"
+  ]
+ },
+ {
+  "id": "QE-L12",
+  "type": "법령",
+  "title": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/법령/인공지능발전과신뢰기반조성등에관한기본법",
+  "published": "시행 2026-07-21(법률 제21311호)",
+  "accessed": "2026-09-24",
+  "locator": "제2조제4호 사목·자목",
+  "quote_or_value": "고영향 AI 영역: 채용 등 권리·의무에 중대한 영향을 미치는 판단·평가(사목), 공공서비스 제공에 필요한 자격 확인 및 결정 등 공공기관 의사결정(자목) → 자격유지검사 적부 판정에 AI 관여 시 고영향 해당 가능성",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "5",
+   "9"
+  ]
+ },
+ {
+  "id": "QE-L13",
+  "type": "법령",
+  "title": "여객자동차 운수사업법 시행령",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/법령/여객자동차운수사업법시행령",
+  "published": "시행 2026-07-07",
+  "accessed": "2026-09-24",
+  "locator": "제45조의2①4호",
+  "quote_or_value": "운전업무 종사자격 사무에 범죄경력자료·주민등록번호·운전면허번호 처리 허용. 건강정보(의료적성검사) 처리 근거는 이 조항에 명시 없음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "7",
+   "9"
+  ]
+ },
+ {
+  "id": "QE-X01",
+  "type": "내부",
+  "title": "자격유지검사 연간 수요 근사와 실제 수검 대조",
+  "publisher": "CCK 분석(본 문서)",
+  "url_or_path": "work_QE/운수종사자현황_연령별시도별_20251231.csv",
+  "published": "2026-09-24",
+  "accessed": "2026-09-24",
+  "locator": "QE-D13 × QE-N11",
+  "quote_or_value": "65~69세/3 + 70세 이상 = 134,687명('25) vs 실제 수검 125,645명('25). 차이는 의료적성검사 대체·미수검·주기 편차로 추정(분해 미확인)",
+  "grade": "INFERRED",
+  "used_in": [
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "QE-X02",
+  "type": "내부",
+  "title": "체험교육 효과 수치의 해석 한계",
+  "publisher": "CCK 분석(본 문서)",
+  "url_or_path": "-",
+  "published": "2026-09-24",
+  "accessed": "2026-09-24",
+  "locator": "QE-N05·N06·C04 × QE-A02·G03",
+  "quote_or_value": "법정의무 과정(중상사고 야기자)·특별검사자는 교육 직전 사고가 많은 시점에 선발되므로 전후 1년 비교는 평균회귀로 감소폭이 과대될 수 있음. 비교군은 \"나이·업종·지역 동일\" 조건만 공개, 사전 사고 수준 맞춤 여부 미공개. RCT 기반 Cochrane 결과(RR 0.98)와 방향 상충",
+  "grade": "INFERRED",
+  "used_in": [
+   "4",
+   "6",
+   "9"
+  ]
+ },
+ {
+  "id": "QE-X03",
+  "type": "내부",
+  "title": "개인택시 양수교육 수요·공급 격차",
+  "publisher": "CCK 분석(본 문서)",
+  "url_or_path": "work_QE/상주_프로그램별_입교수료_20251231.csv",
+  "published": "2026-09-24",
+  "accessed": "2026-09-24",
+  "locator": "QE-D11 × QE-C03 × QE-D08",
+  "quote_or_value": "상주 2025 신청 대비 입교 3.33:1, 민원답변 평균 3.50:1, 2024년 3분기 한 분기 신청 6,566건 vs 월 약 700명 정원(분기 약 2,100명) → 약 3:1 격차가 2021년 이후 지속. 원인은 교육장 수용능력(부지·차량·교관)",
+  "grade": "INFERRED",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "QE-X04",
+  "type": "내부",
+  "title": "관문 지표의 변별력 부재",
+  "publisher": "CCK 분석(본 문서)",
+  "url_or_path": "-",
+  "published": "2026-09-24",
+  "accessed": "2026-09-24",
+  "locator": "QE-D11 × QE-N11",
+  "quote_or_value": "체험교육 입교 대비 수료 99.1%(상주 2025), 자격유지검사 합격 98.94%('25) → 수료·합격 여부는 역량 기준선으로 사용 불가. 항목 등급·재검사 횟수·후속 사고 등 연속 지표 필요",
+  "grade": "INFERRED",
+  "used_in": [
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "QE-S01",
+  "type": "언론",
+  "title": "\"고령 운수종사자 사고 예방, 자격유지검사 검증 방식 다원화 모색\" 국회 정책토론회 예고",
+  "publisher": "동아경제(daenews)",
+  "url_or_path": "https://www.daenews.co.kr/26637",
+  "published": "2026-09 (토론회 2026-09-21)",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "여야 국토위 의원 4인 주최, 대구·경북 택시조합·개인택시조합·운수노조 주관, 국토부 후원. 주제: 자격유지검사 검증 방식 다원화 — 실시간 안전운행 관리체계",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "6",
+   "9"
+  ]
+ },
+ {
+  "id": "QE-S02",
+  "type": "언론",
+  "title": "고령 운수종사자 자격유지검사 개선 논의…실시간 안전관리 적용 65세 이상 택시 사고 28.4% 감소",
+  "publisher": "월드장애인사랑뉴스",
+  "url_or_path": "https://www.youcandonews.com/news/articleView.html?idxno=20170",
+  "published": "2026-09-21",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "업계 발표: 대구 택시 9,871대 추적, 첨단 안전관리 도입 후 65세 이상 사고 약 28% 감소(전 연령 19.5%). 검사 주기 사이 공백·실도로 미반영 지적, \"AI 활용 예방 중심으로 다양화\" 방향 합의 보도. 비교군·기간 미공개",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "6",
+   "9"
+  ]
+ },
+ {
+  "id": "QE-S03",
+  "type": "언론",
+  "title": "고령 운수종사자의 운전 자격 강화…교통사고 예방 vs 노인일자리 축소",
+  "publisher": "디멘시아뉴스",
+  "url_or_path": "https://www.dementianews.co.kr/news/articleView.html?idxno=10126",
+  "published": "2025-02-20",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "판정기준 강화에 대해 사고예방과 고령자 일자리 축소가 대립. 대학 연구자는 고령일수록 사고를 더 일으킨다는 주장이 입증되지 않았다고 반론",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "9"
+  ]
+ }
+]

@@ -1,0 +1,1298 @@
+[
+ {
+  "id": "PK-01",
+  "type": "법령",
+  "title": "주차장법 제19조의6·제19조의9·제19조의10 (안전도인증·안전검사·불합격 사용금지)",
+  "publisher": "국토교통부(법제처 국가법령정보센터)",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=283743&efYd=20260828",
+  "published": "법률 제21413호 2026-02-27 개정, 시행 2026-08-28",
+  "accessed": "2026-09-24",
+  "locator": "제19조의6①②, 제19조의9②③, 제19조의10①③",
+  "quote_or_value": "안전도인증 전 지정 검사기관 심사, 사용·정기·수시검사(수시검사는 2023 개정 신설), 불합격 시 사용금지 표지 발급·사용 불가",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "5"
+  ]
+ },
+ {
+  "id": "PK-02",
+  "type": "법령",
+  "title": "주차장법 제19조의12 (지정인증기관·전문검사기관 대행)",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=283743&efYd=20260828",
+  "published": "전문개정 2023-08-16",
+  "accessed": "2026-09-24",
+  "locator": "제19조의12①②③④",
+  "quote_or_value": "시장·군수·구청장은 검사업무를 국토부 지정 전문검사기관에 대행하게 할 수 있음. 대행자 지도·감독 근거",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "PK-03",
+  "type": "법령",
+  "title": "주차장법 제19조의20 (관리인 배치·교육, 자체점검 월1회·정보망 입력, 결함 시 보수·운행중지)",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=283743&efYd=20260828",
+  "published": "신설 2023-08-16 (시행 2024-08-17)",
+  "accessed": "2026-09-24",
+  "locator": "제19조의20①~⑪",
+  "quote_or_value": "⑧ 자체점검 월 1회 이상·점검기록 정보망 입력, ⑨ 결함 인지 시 즉시 보수·보수 완료까지 운행중지, ⑩ 보수업자 대행 가능",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4",
+   "5",
+   "7"
+  ]
+ },
+ {
+  "id": "PK-04",
+  "type": "법령",
+  "title": "주차장법 제19조의21 (기계식주차장 정보망 구축·운영, 위탁)",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=283743&efYd=20260828",
+  "published": "본조신설 2016-01-19, 개정 2023-08-16",
+  "accessed": "2026-09-24",
+  "locator": "제19조의21①②③",
+  "quote_or_value": "정보망 대상: 검사 이력·보수업·보험·자체점검 기록·중대사고·정밀안전검사 결과. 전문검사기관·보수업자·행정기관 제공 가능, 위탁 가능",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3",
+   "7"
+  ]
+ },
+ {
+  "id": "PK-05",
+  "type": "법령",
+  "title": "주차장법 제19조의22 (중대사고 통보·TS 사고조사·지자체 참여·사고조사위원회)",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=283743&efYd=20260828",
+  "published": "본조신설 2017-10-24, 개정 2023-08-16",
+  "accessed": "2026-09-24",
+  "locator": "제19조의22①~⑪",
+  "quote_or_value": "관리자는 지자체와 TS에 즉시 통보, TS는 국토부·사고조사위원회 보고·원인조사, 지자체는 조사 참여·행정처리 협조 의무, 국토부는 재발방지 이행 권고 가능",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "PK-06",
+  "type": "법령",
+  "title": "주차장법 제19조의23 (정밀안전검사: 10년 경과 후 4년 주기, 중대사고, 불합격 운영금지, TS 대행)",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=283743&efYd=20260828",
+  "published": "본조신설 2017-03-21, 개정 2023-08-16",
+  "accessed": "2026-09-24",
+  "locator": "제19조의23①②④",
+  "quote_or_value": "정밀안전검사 불합격 시 운영 불가·재검사 필요, 지자체는 정밀안전검사 업무를 TS에 대행하게 할 수 있음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "PK-07",
+  "type": "법령",
+  "title": "주차장법 제19조의24 (운행중지명령, 재운행 전 지자체 해소 확인)",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=283743&efYd=20260828",
+  "published": "본조신설 2023-08-16 (시행 2024-08-17)",
+  "accessed": "2026-09-24",
+  "locator": "제19조의24①~⑤",
+  "quote_or_value": "미수검·불합격 후 미중지 시 운행중지 명령 의무(제1·2호). 재운행은 시장·군수·구청장으로부터 사유 해소 확인 후. 명령 권한자는 지자체",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4",
+   "5",
+   "9"
+  ]
+ },
+ {
+  "id": "PK-08",
+  "type": "법령",
+  "title": "주차장법 제29조·제30조 (벌칙·과태료)",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=283743&efYd=20260828",
+  "published": "개정 2023-08-16, 2026-02-27",
+  "accessed": "2026-09-24",
+  "locator": "제29조①3·4, ②7·8·11의2·11의3; 제30조②4의4~4의6",
+  "quote_or_value": "정밀안전검사 불합격 장치 사용·운행중지명령 위반 3년 이하/5천만원 이하, 자체점검 미실시·정보망 미입력·거짓입력·운행 미중지 100만원 이하 과태료",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4"
+  ]
+ },
+ {
+  "id": "PK-09",
+  "type": "법령",
+  "title": "주차장법 개정이유 (법률 제19686호, 2023-08-16 공포, 2024-08-17 시행)",
+  "publisher": "법제처",
+  "url_or_path": "https://www.law.go.kr/LSW/lsRvsRsnListP.do?lsId=001814&chrClsCd=010202&lsRvsGubun=all",
+  "published": "2023-08-16",
+  "accessed": "2026-09-24",
+  "locator": "제정·개정이유 목록 해당 항목",
+  "quote_or_value": "안전도인증 주체 국토부 일원화, 수시검사 도입, 보수원 안전교육, 보험 가입, 관리자 안전관리교육, 자체점검 월1회, 사고조사위원회 재발방지 기능, 운행중지명령 근거 마련",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4"
+  ]
+ },
+ {
+  "id": "PK-10",
+  "type": "법령",
+  "title": "주차장법 개정이유 (법률 제21185호, 2025-12-02) — 기계식 설치비율 조례 제한 폐지",
+  "publisher": "법제처",
+  "url_or_path": "https://www.law.go.kr/LSW/lsRvsRsnListP.do?lsId=001814&chrClsCd=010202&lsRvsGubun=all",
+  "published": "2025-12-02",
+  "accessed": "2026-09-24",
+  "locator": "제정·개정이유 목록 해당 항목",
+  "quote_or_value": "'최근 기계식주차장 안전관리 체계가 강화된 점을 고려'해 부설주차장 기계식 설치비율 조례 제한 규제 폐지 → 신규 설치 증가 가능(반대방향 신호)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4",
+   "9"
+  ]
+ },
+ {
+  "id": "PK-11",
+  "type": "법령",
+  "title": "주차장법 시행령 제12조의3·제12조의10·제12조의11·제12조의15·제12조의17",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288729&efYd=20260828",
+  "published": "대통령령 제36623호 2026-08-25 개정, 시행 2026-08-28",
+  "accessed": "2026-09-24",
+  "locator": "제12조의3①~⑧, 제12조의10, 제12조의11, 제12조의15",
+  "quote_or_value": "사용검사 유효 3년·정기검사 2년(만료 전후 31일), 수시검사 요청 의무(2024-08-16 신설), 20대 이상 관리인 배치, 정보망 구축·운영 TS 위탁, 정밀안전검사 최초 10년 만료 전 180일~, 이후 4년",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "7"
+  ]
+ },
+ {
+  "id": "PK-12",
+  "type": "법령",
+  "title": "주차장법 시행규칙 제16조의8 (검사 신청·통보·부적합 3개월 내 보완 재검사·사진 등 서류확인 재검사)",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288421&efYd=20260727",
+  "published": "국토교통부령 제1604호 2026-07-27 개정",
+  "accessed": "2026-09-24",
+  "locator": "제16조의8②③④⑤",
+  "quote_or_value": "검사결과 20일(수시 30일) 내 통보. 부적합 항목은 통보 후 3개월 내 보완·재검사 신청, 재검사 10일. 사진·시험성적서 등으로 보완 확인 가능 시 서류 확인으로 검사·5일 내 통보. 전문검사기관 발급 시 지자체에 통보",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "PK-13",
+  "type": "법령",
+  "title": "주차장법 시행규칙 제16조의21 (자체점검 항목·시험운전·다음달 10일까지 정보망 입력)",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288421&efYd=20260727",
+  "published": "본조신설 2024-09-20",
+  "accessed": "2026-09-24",
+  "locator": "제16조의21①~④",
+  "quote_or_value": "점검 항목: 출입문·장치 작동, 안내문, 조명 등. 시험운전으로 확인. 점검 다음 달 10일까지 정보망 입력. 세부는 국토부 고시",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4",
+   "7"
+  ]
+ },
+ {
+  "id": "PK-14",
+  "type": "법령",
+  "title": "주차장법 시행규칙 제16조의23~25 (중대한 사고 정의·보고·TS 사고조사반)",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288421&efYd=20260727",
+  "published": "개정 2024-09-20",
+  "accessed": "2026-09-24",
+  "locator": "제16조의23, 제16조의24①~③, 제16조의25",
+  "quote_or_value": "중대한 사고=사망, 1주 이상 입원·3주 이상 치료 상해, 자동차 전복·추락. TS는 사고현황 보고서 지체 없이, 사고조사보고서는 다음 달 15일까지. 지역본부 초동조사반·본부 전문조사반",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "PK-15",
+  "type": "법령",
+  "title": "주차장법 시행규칙 제16조의26·제16조의28 (정밀안전검사 재검사, 운행중지명령 정보망 입력)",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288421&efYd=20260727",
+  "published": "개정 2024-09-20",
+  "accessed": "2026-09-24",
+  "locator": "제16조의26③④⑥, 제16조의28③",
+  "quote_or_value": "정밀안전검사 20일, 불합격 재검사 10일(3개월 내 보완 시 불합격 항목만). 운행중지명령 시 지자체가 정보망에 입력 의무",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4",
+   "5",
+   "7"
+  ]
+ },
+ {
+  "id": "PK-16",
+  "type": "법령",
+  "title": "주차장법 시행규칙 제16조의4 (안전도심사 제출서류)",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288421&efYd=20260727",
+  "published": "전문개정 2010-10-29",
+  "accessed": "2026-09-24",
+  "locator": "제16조의4①②",
+  "quote_or_value": "조립도(1/100 이상), 안전장치 도면·설명서, 사양서, 주요 구조부 강도계산서·도면, 출입구 도면",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "PK-17",
+  "type": "통계",
+  "title": "기계식주차장 사고사례집 2023 — 연도별 중대사고(2018~2023.10)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/원자료/TS_발간물_매뉴얼/기계식주차장+사고사례집+2023.pdf",
+  "published": "2023 (PDF 생성 2024-09-11)",
+  "accessed": "2026-09-24",
+  "locator": "p.22(PDF p.26) 표",
+  "quote_or_value": "발생 4·9·13·7·12·10건 = 55건. 인적요인 29, 기타요인 26",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "PK-18",
+  "type": "통계",
+  "title": "기계식주차장 사고사례집 2023 — 종류별·유형별 중대사고",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/원자료/TS_발간물_매뉴얼/기계식주차장+사고사례집+2023.pdf",
+  "published": "2023",
+  "accessed": "2026-09-24",
+  "locator": "p.23~24(PDF p.27~28) 표",
+  "quote_or_value": "다층순환식 22(40.0%)·승강기식 20(36.4%)·평면왕복식 6·수직순환식 4·승강기슬라이드 2·수평순환 1, 2단·다단 0. 대물 42·대인 22",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "PK-19",
+  "type": "통계",
+  "title": "기계식주차장 사고사례집 2023 — 요인별 중대사고와 내부 불일치",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/원자료/TS_발간물_매뉴얼/기계식주차장+사고사례집+2023.pdf",
+  "published": "2023",
+  "accessed": "2026-09-24",
+  "locator": "p.25~26(PDF p.29~30) 표·본문",
+  "quote_or_value": "관리인 12·이용자 8·보수자 7(인적 27, 49.09%), 기계결함 27(49.09%), 기타 1. 연도표 인적 29와 요인표 인적 27 불일치, 대물+대인 64≠55",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4",
+   "9"
+  ]
+ },
+ {
+  "id": "PK-20",
+  "type": "데이터",
+  "title": "기계식주차장 사고사례집 2023 — 수록 사례 32건 직접 분류",
+  "publisher": "한국교통안전공단(원자료) / 본 조사 집계",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/원자료/TS_발간물_매뉴얼/기계식주차장+사고사례집+2023.pdf",
+  "published": "2023",
+  "accessed": "2026-09-24",
+  "locator": "p.29~60(PDF p.33~64)",
+  "quote_or_value": "기계결함 10·관리인 9·보수자 6·이용자 4·기타 3. 사망 명시 6건. 재발방지대책 중 '보수업체 미선임'(p.34)·'점검 내용 기록·관리'(p.36)·'부품 사용량·교체시기 관리 프로그램'(p.32·33) 등장. 2단식 사례(p.54)는 종류별 표(2단식 0)와 불일치 → 사례가 통계 기간 밖 또는 비중대사고 포함 가능",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "PK-21",
+  "type": "계획",
+  "title": "기계식주차장 사고사례집 2023 — 사고 대응 체계",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/원자료/TS_발간물_매뉴얼/기계식주차장+사고사례집+2023.pdf",
+  "published": "2023",
+  "accessed": "2026-09-24",
+  "locator": "p.4(PDF p.8)",
+  "quote_or_value": "중대사고→현장보존→지자체·TS 통보→조사(초동→전문)→수리 및 정밀안전검사→검사 적합 시 사용",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4"
+  ]
+ },
+ {
+  "id": "PK-22",
+  "type": "국감",
+  "title": "정일영 의원(국토교통위) 제출자료 인용 보도 — 부적합 잔존 656기·운행중지 확인 152기·미확인 504기",
+  "publisher": "아시아뉴스통신(anewsa) 외",
+  "url_or_path": "https://www.anewsa.com/detail.php?number=3199812",
+  "published": "2026-09-17",
+  "accessed": "2026-09-24",
+  "locator": "기사 본문",
+  "quote_or_value": "2026년 7월 말 기준 정밀안전검사 부적합 후 재검사·신규검사 미실시 656기, 지자체 운행중지 명령 확인 152기, 504기는 운행 여부·보수·폐쇄 등 후속조치 TS 미파악",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "0",
+   "2",
+   "4",
+   "8"
+  ]
+ },
+ {
+  "id": "PK-23",
+  "type": "국감",
+  "title": "정일영 의원 자료 인용 보도 — 설치대수·노후도·부적합·중대사고",
+  "publisher": "문화일보·경인매일·녹색경제신문",
+  "url_or_path": "https://www.munhwa.com/article/11618693",
+  "published": "2026-09-21",
+  "accessed": "2026-09-24",
+  "locator": "기사 본문",
+  "quote_or_value": "2026.7 기준 36,234기(2022 대비 826기 감소), 20년 이상 15,832기(43.7%, 2022 14,477기 대비 +1,355). 2022~2026.7 안전검사 부적합 5,115기 중 4,326기(84.6%) 20년 이상. 2026 부적합 항목 운반기 221·출입문 182·안전가동확인장치 155. 중대사고 34건",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "0",
+   "1",
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "PK-24",
+  "type": "국감",
+  "title": "정일영 의원 발언·제언 보도 — 공단 월별 통보, 이행 데이터 부재, 통합관리 요구",
+  "publisher": "데일리매거진·경인매일",
+  "url_or_path": "https://dailymagazine.co.kr/news/newsview.php?ncode=1065589381270133",
+  "published": "2026-09",
+  "accessed": "2026-09-24",
+  "locator": "기사 본문",
+  "quote_or_value": "TS가 지자체에 매월 통보하나 운행중지·보수·폐쇄 이행 정보 없음. '부적합 판정부터 운행중지, 보수·재검사, 운행 재개까지 전 과정 실시간 통합관리' 제도개선 요구",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "0",
+   "2",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "PK-25",
+  "type": "계획",
+  "title": "TS 2026 주요업무 추진계획 — 주차안전처 '위해 위법 주차장 안전관리 강화'",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/WINDOWS/TEMP/claude/C--Users-----Desktop--TS------/10d97cfc-0577-480a-b977-dce25df0228b/scratchpad/sol/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.146(텍스트 4276~4282행)",
+  "quote_or_value": "지자체 실태점검·과태료 부과 등 행정조치 미흡 보완 위해 기계식주차장 정보망 내 국민(이용자) 신고센터 개설·운영(미수검·관리인 미배치 등 단속·점검 강화)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "1",
+   "2",
+   "3",
+   "4"
+  ]
+ },
+ {
+  "id": "PK-26",
+  "type": "계획",
+  "title": "TS 2026 주요업무 추진계획 — 'AI 활용 기계식주차장 안전성 검증 신뢰성 강화'",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/WINDOWS/TEMP/claude/C--Users-----Desktop--TS------/10d97cfc-0577-480a-b977-dce25df0228b/scratchpad/sol/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.147(텍스트 4307~4316행)",
+  "quote_or_value": "AI로 설계서 안전도 심사, 전동기·감속기 강도검토가 가능하도록 정보망 기능 개선, '27년 AI 검토자료를 심사원이 정합성만 검증",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "PK-27",
+  "type": "계획",
+  "title": "TS 2026 주요업무 추진계획 — 2025 성과(설치기준 상향)·민원서류 디지털화·주차로봇",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/WINDOWS/TEMP/claude/C--Users-----Desktop--TS------/10d97cfc-0577-480a-b977-dce25df0228b/scratchpad/sol/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.141·142·144·148",
+  "quote_or_value": "중형 기계식 수용률 56.9%→97.7%. 민원서류 카카오톡·모바일 발급. 주차로봇 제도개선",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "PK-28",
+  "type": "계약",
+  "title": "검사본부 AI시스템 구축 용역 과업 및 제안요청서(공고 제2026-112호) — 주차안전처 범위",
+  "publisher": "한국교통안전공단 검사본부",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/검토결과_20260921/공식발주근거/19156_2. 과업 및 제안요청서.txt",
+  "published": "2026-07-23 공고, 개찰 2026-09-08",
+  "accessed": "2026-09-24",
+  "locator": "Ⅰ.2 추진배경, Ⅰ.3 부서별 사업범위, SFR-020~027, DAR-009, PER-009",
+  "quote_or_value": "예산 800,499,634원, ~2026-12-18. 주차안전처: 안전도 심사 서류 4,000건 RAG, 법령·KS/ISO/JIS 지식DB, 도면 BOM 추출·계산서 정합성(90%·PER 70%), 심사 챗봇·보고서 초안. 검사·점검·보수기록은 범위 밖",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "3",
+   "5",
+   "9"
+  ]
+ },
+ {
+  "id": "PK-29",
+  "type": "계약",
+  "title": "TS 2026 용역 발주계획 — 주차안전처 2건",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/WINDOWS/TEMP/claude/C--Users-----Desktop--TS------/10d97cfc-0577-480a-b977-dce25df0228b/scratchpad/sol/ref/TS_2026_용역_발주계획.csv",
+  "published": "2026",
+  "accessed": "2026-09-24",
+  "locator": "48·49행",
+  "quote_or_value": "'기계식주차장치 안전도 심사 AI 적용' 202,000,000원(2026-07, 제한경쟁, 신규), '2026년 주차정보시스템 유지관리 용역' 253,000,000원(2026-07, 제한경쟁)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "7"
+  ]
+ },
+ {
+  "id": "PK-30",
+  "type": "내부",
+  "title": "검사본부 AI 사업협의 회의록 — 주차 정보 시스템은 기존 유지보수사업자 범위 밖 별도 시스템",
+  "publisher": "CCK(내부자료)",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/03.검사본부 AI(공통플랫폼 응용 8억)/01.사업관리/000.사업협의/회의록 (1).txt",
+  "published": "2026-08",
+  "accessed": "2026-09-24",
+  "locator": "278·287행",
+  "quote_or_value": "검사본부 관련 4개 시스템 중 주차 정보 시스템은 해당 유지보수사업자가 유지보수하지 않는 별도 시스템",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "7"
+  ]
+ },
+ {
+  "id": "PK-31",
+  "type": "내부",
+  "title": "33번 로드맵 §4.2 — 2차사업(검사본부 AI) 확정·주차안전처 과업=안전도 심사",
+  "publisher": "CCK(내부자료)",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/##. 후속사업기획/2026년 사업기획 자료/33_CCK_TS_아카이빙기반_솔루션_로드맵_2027-2031_v0.1_2026-09-18.md",
+  "published": "2026-09-18",
+  "accessed": "2026-09-24",
+  "locator": "§4.2",
+  "quote_or_value": "사용자 2026-09-18 '확정' 표명. 주차안전처=도면·BOM·안전도계산서 RAG, BOM-계산서 정합성 90% 목표",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "PK-32",
+  "type": "민원",
+  "title": "국민신문고 TS 민원 374건(2024-09~2026-09) 중 기계식주차장 5건",
+  "publisher": "국민권익위 국민신문고(로컬 분류표)",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/##. 후속사업기획/2026년 사업기획 자료/kotsa_국민신문고_민원374건_원문URL_분류표_2024-09~2026-09.csv",
+  "published": "2024-09~2026-09",
+  "accessed": "2026-09-24",
+  "locator": "no 66·231·257·269·339",
+  "quote_or_value": "5/374(1.3%). #66 자체점검 결과표 출력 오류(2025-05, 조치완료), #231 수용가능 차량제원 전산오류 인정(2026-03), #257 정밀안전검사 수수료 산정 근거, #269 수시검사 제원변경, #339 전면공지 겸용",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "7"
+  ]
+ },
+ {
+  "id": "PK-33",
+  "type": "데이터",
+  "title": "공공데이터포털 '한국교통안전공단_전국 기계식주차장 설치 현황_20210914'",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://www.data.go.kr/data/15088705/fileData.do",
+  "published": "기준 2021-09, 수정 2025-06-10",
+  "accessed": "2026-09-24",
+  "locator": "메타데이터",
+  "quote_or_value": "32,114건. 도로명·지번 주소, 최종 검사일·검사결과·관리인 배치 여부 포함. 설치·철거 권한이 지자체라 신규·철거 미반영 가능",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "7",
+   "8"
+  ]
+ },
+ {
+  "id": "PK-34",
+  "type": "데이터",
+  "title": "공공데이터포털 '한국교통안전공단_기계식주차장 설비관리정보_20221231'",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://www.data.go.kr/data/15132430/fileData.do",
+  "published": "2022-12-31 기준",
+  "accessed": "2026-09-24",
+  "locator": "메타데이터",
+  "quote_or_value": "1,167행, 시도·시군구·장치 종류별 설치대수·건물수. 1회성",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "7"
+  ]
+ },
+ {
+  "id": "PK-35",
+  "type": "데이터",
+  "title": "공공데이터포털 기계식주차장 보수업체(20241231)·과태료 항목(20250912)·검사 사무실 현황(20240909)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://www.data.go.kr/data/3048282/fileData.do",
+  "published": "2024~2025",
+  "accessed": "2026-09-24",
+  "locator": "검색결과 목록",
+  "quote_or_value": "보수업체(지자체 등록 업체만), 과태료 항목, 검사 사무실 파일데이터 존재. 본문 미열람",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "7"
+  ]
+ },
+ {
+  "id": "PK-36",
+  "type": "데이터",
+  "title": "기계식주차장관리시스템(mpis) 검사 안내·공개 메뉴",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://www.kotsa.or.kr/mpis/pub/insp/info/index.do",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "검사란? 페이지",
+  "quote_or_value": "검사 종류·주기(사용 3년, 정기 2년, 정밀 10년 경과 후 4년), 공개 메뉴: 검사이력조회·안전지도·사고통보",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "7"
+  ]
+ },
+ {
+  "id": "PK-37",
+  "type": "계획",
+  "title": "TS 홈페이지 기계식주차장 검사소개",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01030401",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "설계서 안전도 심사와 사용·정기·정밀안전검사 실시, 담당 주차안전처",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "PK-38",
+  "type": "해외",
+  "title": "(국내 타기관) 한국승강기안전공단 기계식주차장 검사 안내",
+  "publisher": "한국승강기안전공단",
+  "url_or_path": "https://minwon.koelsa.or.kr/SubPage.do?pageid=sub00019",
+  "published": "미확인",
+  "accessed": "2026-09-25",
+  "locator": "검색 요약",
+  "quote_or_value": "KoELSA 민원 페이지에 기계식주차장 사용·정기검사 안내 게시(열람 확인). 1996-07-06 검사기관 지정은 검색 요약만 확인 → 검사기관 복수 구조",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1",
+   "3",
+   "7"
+  ]
+ },
+ {
+  "id": "PK-39",
+  "type": "언론",
+  "title": "서울 관악구 기계식주차장 작업자 추락 사망(2025-04-18)",
+  "publisher": "파이낸셜뉴스",
+  "url_or_path": "https://www.fnnews.com/news/202504191035199631",
+  "published": "2025-04-19",
+  "accessed": "2026-09-24",
+  "locator": "검색 요약",
+  "quote_or_value": "CCTV 설치 작업자가 내부 작업 중 차주 호출로 장치 작동, 추락 사망",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "PK-40",
+  "type": "판례",
+  "title": "부산진구 오피스텔 기계식주차타워 추락 사망(2023-01-16) 형사판결 보도",
+  "publisher": "데일리안",
+  "url_or_path": "https://www.dailian.co.kr/news/view/1562308/",
+  "published": "2025-10",
+  "accessed": "2026-09-25",
+  "locator": "기사 본문",
+  "quote_or_value": "뒷좌석 탑승자 확인 없이 입고 → 15층 높이 추락 사망. 경비원·관리소장 각 징역 10월·집행유예 2년, 입고 조작 입주민 벌금 1천만원. 사람 유무 확인·직원 교육 의무 위반 인정",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "PK-41",
+  "type": "계획",
+  "title": "TS 보도자료 '기계식주차장 안전 대책'(사이트 PK01 재열람)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do?bbscCode=report&bbscSeqn=17892&menuCode=05010200",
+  "published": "2022-03-10",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "최근 3년 사고 43건·사망 6명, 관리인·이용자 인적요인 58.1%, 2022-01 서울 사망 2건, 2021-12 구조대원 추락, 사례집 배포·소방 구조교육·온라인 관리인교육(+10.4%)·지자체 합동 현장점검",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "6"
+  ]
+ },
+ {
+  "id": "PK-42",
+  "type": "언론",
+  "title": "TS 2022-03 분석 인용 보도 — 요인 비율·주차면수 추이",
+  "publisher": "안전신문",
+  "url_or_path": "https://www.safetynews.co.kr/news/articleView.html?idxno=210906",
+  "published": "2022-03",
+  "accessed": "2026-09-25",
+  "locator": "기사 본문",
+  "quote_or_value": "3년 43건·사망 6. 이용자·관리자 과실 46.6%, 보수자 11.6%, 기계결함 37.2%. 기계식 주차면수 766,220(2019)→789,621(2020)→816,645(2021)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "PK-43",
+  "type": "계획",
+  "title": "TS 2026 물품 발주계획 — 기계식주차장 검사 확인증·스티커·관리인 교육 교재 등",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/WINDOWS/TEMP/claude/C--Users-----Desktop--TS------/10d97cfc-0577-480a-b977-dce25df0228b/scratchpad/sol/ref/TS_2026_물품_발주계획.csv",
+  "published": "2026",
+  "accessed": "2026-09-24",
+  "locator": "11·18·43·46·69·84·92행",
+  "quote_or_value": "검사 확인증 1,000매·케이스 7,000개, 안전스티커 3,000매, 우편봉투 20,000매, 교육 교재 2,000부 등 종이 기반 행정물품",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "PK-44",
+  "type": "내부",
+  "title": "TS-P11 '기계식주차장 검사 후 보완 증빙 연결'(GPT 22개 업무 설계) 비용 산정",
+  "publisher": "CCK(내부 기획)",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/##. 후속사업기획/2026년 사업기획 자료/05_통합사업기획/TS_업무별_상세설계_산정_2026-09-15/업무/TS-P11/06_비용_산정.md",
+  "published": "2026-09-15",
+  "accessed": "2026-09-24",
+  "locator": "비용 표",
+  "quote_or_value": "업무 증분 VAT 포함 29.5~49.4백만원, 공통 포함 86.8~145.8백만원, 12개월 운영 73.8백만원(가정). 문제 규모는 '가설'로 표기",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "10"
+  ]
+ },
+ {
+  "id": "PK-45",
+  "type": "통계",
+  "title": "mpis 기계식주차장 설치 및 검사현황(2025년 12월 말 기준)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://www.kotsa.or.kr/mpis/pub/insp/status/index.do",
+  "published": "2025-12 기준",
+  "accessed": "2026-09-25",
+  "locator": "누적·신규·정기·정밀·철거 표 합계행",
+  "quote_or_value": "누적 36,736기(2024)→36,391기(2025), 900,833면, 27,375개소. 신규 802기(2024)·556기(2025). 정기검사 9,249기(2024)·9,193기(2025, 6,817개소). 정밀안전검사 5,137기(2024)·5,064기(2025, 4,142개소). 철거 867기. 승강기식 12,111기(33.3%)·서울 14,823기(40.7%)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "7",
+   "8"
+  ]
+ },
+ {
+  "id": "PK-46",
+  "type": "내부",
+  "title": "CCK Slack 회의록 — 특수검사 도면·제원 AI 데모에 주차장 사례 포함",
+  "publisher": "CCK(내부자료)",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/##. 후속사업기획/2026년 사업기획 자료/34_CCK_Slack_회의록_발췌_cck-meeting-record_20260827-0918.md",
+  "published": "2026-09",
+  "accessed": "2026-09-24",
+  "locator": "2384·2418행",
+  "quote_or_value": "주차장 출입구 높이 기준 개정 반영 부적합 판정 시연 — 안전도심사 문서 대조 역량(2차사업 범위)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "PK-47",
+  "type": "통계",
+  "title": "한국소비자원 기계식주차장 안전실태조사",
+  "publisher": "한국소비자원",
+  "url_or_path": "https://www.kca.go.kr/home/sub.do?menukey=4002&mode=view&no=1002531685",
+  "published": "2017-08",
+  "accessed": "2026-09-25",
+  "locator": "보도자료 본문",
+  "quote_or_value": "60개 조사: 보행경로 4cm 초과 틈 15기(25.0%), 별도 출입문 없음 86.7%, 추락주의 표시 없음 65%, 조명 미흡 36.7%. CISS 2014.1~2017.6 위해사례 17건(사망 5)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "6"
+  ]
+ },
+ {
+  "id": "PK-48",
+  "type": "국감",
+  "title": "2018 국감 민경욱 의원 자료 보도 — 서울 미수검·불합격 후 운영·사고통계 차이",
+  "publisher": "이데일리",
+  "url_or_path": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02076246619373248",
+  "published": "2018-10-15",
+  "accessed": "2026-09-25",
+  "locator": "기사 본문",
+  "quote_or_value": "서울 2018.1~8 검사대상 4,002기 중 1,600기(40%) 미수검, 불합격 241기 중 120기 운영. TS 5년 50건(2017년 20건) vs 소방 출동 5년 1,620건(2017년 463건). 1~8월 부분기간 수치라 연간 미수검률로 해석 불가",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4",
+   "9"
+  ]
+ },
+ {
+  "id": "PK-49",
+  "type": "국감",
+  "title": "2018 국감 당시 TS 사고통계 수집방식 해명(언론 모니터링 간접조사)",
+  "publisher": "검색 요약(원문 미열람)",
+  "url_or_path": "WebSearch: 기계식주차장 사고 소방 구조출동 건수 교통안전공단 집계 차이 국정감사",
+  "published": "2018",
+  "accessed": "2026-09-25",
+  "locator": "검색결과 요약",
+  "quote_or_value": "사고통계를 언론 모니터링으로 간접 조사, 미보도 사고 파악 곤란 취지 해명. 이후 2017-10 사고 통보 의무 신설(법 제19조의22)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "PK-50",
+  "type": "법령",
+  "title": "기계식주차장치의 안전기준 및 검사기준 등에 관한 규정(국토교통부고시 제2024-680호)",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000249856",
+  "published": "2024-11-27 시행(열람 판본)",
+  "accessed": "2026-09-25",
+  "locator": "제16조·제21조·제22조",
+  "quote_or_value": "검사 방법은 검사대행기관이 국토부 승인받아 결정. 자체점검 판정 양호/주의 관찰/긴급 수리 3단계, 긴급 수리 시 운행중지·수리 후 자체점검 양호 판정 이후 운행(외부 확인 절차 규정 없음). 정밀안전검사 결과는 TS가 검사서·검사표로 통보",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "PK-51",
+  "type": "법령",
+  "title": "(국내 유사제도) 승강기 안전관리법 제31조·제50조·제73조",
+  "publisher": "행정안전부",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=259475",
+  "published": "법률 제20159호, 시행 2025-01-31",
+  "accessed": "2026-09-25",
+  "locator": "제50조①②, 제73조",
+  "quote_or_value": "행안부장관은 미검사·불합격 승강기를 지자체에 통보할 의무(제50조①), 지자체 운행정지명령(②). 자체점검 월1회. 승강기안전종합정보망 구축·제공",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "PK-52",
+  "type": "계획",
+  "title": "(국내 유사제도) 국가승강기정보센터 기능",
+  "publisher": "행정안전부",
+  "url_or_path": "https://www.mois.go.kr/frt/sub/a06/b10/elevator_2/screen.do",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-25",
+  "locator": "업무안내 본문",
+  "quote_or_value": "전 승강기 고유번호 생애주기 관리, 지자체 담당자가 검사 유효기간 경과·불합격 운행 승강기 식별, 고장 신고 처리기간 공개로 형식적 수리 방지",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "PK-53",
+  "type": "해외",
+  "title": "일본 国土交通省「機械式駐車設備の適切な維持管理に関する指針」일부 개정 보도",
+  "publisher": "国土交通省",
+  "url_or_path": "https://www.mlit.go.jp/report/press/toshi09_hh_000076.html",
+  "published": "2021-09-30",
+  "accessed": "2026-09-25",
+  "locator": "보도발표 본문",
+  "quote_or_value": "기기 교체 미실시 기인 사고 발생으로 표준 보수점검 항목 개정·교체 촉진, 보수업자 선정 체크리스트 개정. 소유자·관리자 참고용 지침(의무 규정 아님)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "PK-54",
+  "type": "해외",
+  "title": "일본 国土交通省 기계식 입체주차장 유지관리 페이지",
+  "publisher": "国土交通省",
+  "url_or_path": "https://www.mlit.go.jp/toshi/toshi_gairo_tk_000086.html",
+  "published": "미표시",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "전국 약 26만 기 가동. 법정 정기검사 언급 없음, 지침·보수점검 계약 중심(부재 판단은 페이지 기준)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "PK-55",
+  "type": "해외",
+  "title": "일본 国土交通省 기계식 입체주차장 사고정보",
+  "publisher": "国土交通省",
+  "url_or_path": "https://www.mlit.go.jp/toshi/toshi_gairo_tk_000063.html",
+  "published": "2007-06 이후 누적",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "立体駐車場工業会를 통해 중대사고(사망·전치 30일 이상) 수집·공개, 추정·간접정보 포함·원인 및 책임 미특정 명시",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "PK-56",
+  "type": "해외",
+  "title": "일본 消費者安全調査委員会 기계식 입체주차장 사고 조사보고서",
+  "publisher": "消費者庁",
+  "url_or_path": "https://www.caa.go.jp/policies/council/csic/report/report_006",
+  "published": "2014-07-18",
+  "accessed": "2026-09-25",
+  "locator": "검색 요약",
+  "quote_or_value": "2단·다단·엘리베이터식 사고 6건 조사, 장치 안전성 확보와 이용자 주의 계발 권고",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "PK-57",
+  "type": "해외",
+  "title": "EU Machinery Regulation 2023/1230 적용일·EN 14010",
+  "publisher": "EU-OSHA·표준 판매처 검색 요약",
+  "url_or_path": "https://osha.europa.eu/en/legislation/directive/regulation-20231230eu-machinery",
+  "published": "2023-06-29 공포",
+  "accessed": "2026-09-25",
+  "locator": "검색 요약",
+  "quote_or_value": "2027-01-20부터 기계지침 대체. EN 14010:2003+A1:2009는 설계·제조·설치·시운전 단계 안전·EMC 요건(운영 중 정기검사 체계 아님)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "PK-58",
+  "type": "해외",
+  "title": "독일 VDI 4466 Blatt 1 자동주차시스템 기본원칙",
+  "publisher": "VDI",
+  "url_or_path": "https://www.vdi.de/en/home/vdi-standards/details/vdi-4466-blatt-1-automatic-parking-systems-basic-principles",
+  "published": "2001-01",
+  "accessed": "2026-09-25",
+  "locator": "검색 요약",
+  "quote_or_value": "계획·제조·운영자 대상 권고 지침. 정기검사 의무 내용은 미확인",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "PK-59",
+  "type": "법령",
+  "title": "인공지능기본법 제2조제4호(고영향 인공지능)",
+  "publisher": "과학기술정보통신부",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=282791",
+  "published": "법률 제21311호, 시행 2026-07-21",
+  "accessed": "2026-09-25",
+  "locator": "제2조제4호 아목·자목",
+  "quote_or_value": "아목 교통안전법상 교통시설 주요 작동·운영, 자목 국민에게 영향을 미치는 공공기관 의사결정 — 해당 가능성 검토 대상",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "9"
+  ]
+ },
+ {
+  "id": "PK-60",
+  "type": "데이터",
+  "title": "개인정보파일 '기계식주차장 결재정보'",
+  "publisher": "개인정보보호위원회 포털",
+  "url_or_path": "https://www.privacy.go.kr/wcp/pif/sch/personalInfoFileViewPopup.do?prsnInfoFileId=PIF_000000000862620",
+  "published": "미표시",
+  "accessed": "2026-09-25",
+  "locator": "등록사항",
+  "quote_or_value": "TS 주차안전처 운영, 교육신청 결재정보(이름·주소·연락처·성별·수료번호), 보유 준영구",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "7",
+   "9"
+  ]
+ },
+ {
+  "id": "PK-61",
+  "type": "데이터",
+  "title": "공공데이터포털 '한국교통안전공단_기계식주차장 관리인 교육 정보_20241231'",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://www.data.go.kr/data/15135753/fileData.do",
+  "published": "2024-12-31",
+  "accessed": "2026-09-25",
+  "locator": "메타데이터",
+  "quote_or_value": "2016~2024 교육 회차 1,046건(교육장·정원·일시·수강료). 이수 인원 통계 아님",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "7"
+  ]
+ },
+ {
+  "id": "PK-62",
+  "type": "데이터",
+  "title": "mpis 기계식주차장 통합정보관리시스템 로그인(외부검사기관·교육기관용)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://www.kotsa.or.kr/mpis/einsp/index.do",
+  "published": "미표시",
+  "accessed": "2026-09-25",
+  "locator": "로그인 화면",
+  "quote_or_value": "국토부·TS 운영, 사용자 '외부검사기관 및 교육기관', MAC 주소 등록 → 타 검사기관 입력 채널 존재",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "7"
+  ]
+ },
+ {
+  "id": "PK-63",
+  "type": "계획",
+  "title": "TS 홈페이지 기계식주차장 자체점검 안내",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01030405",
+  "published": "미표시",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "월 1회, 다음 달 10일까지 정보망 입력, 보수사 또는 관리자 시행",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "7"
+  ]
+ },
+ {
+  "id": "PK-64",
+  "type": "데이터",
+  "title": "공공데이터포털 '한국교통안전공단_주차정보 제공 API'(일반 주차장)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://www.data.go.kr/data/15099883/openapi.do",
+  "published": "2022-04 등록, 2026-09 갱신",
+  "accessed": "2026-09-25",
+  "locator": "API 명세",
+  "quote_or_value": "일반 주차장 위치·운영·실시간 주차 정보. 기계식 안전정보와 별개 → 발주계획의 '주차정보시스템'이 mpis인지 일반 주차정보시스템인지 명칭상 불확정",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "PK-65",
+  "type": "언론",
+  "title": "TS '주차장 통합정보관리시스템' 개발 착수 보도",
+  "publisher": "ITS Korea(원 출처 디지털타임스)",
+  "url_or_path": "https://itskorea.kr/boardDetail.do?type=8&idx=4028",
+  "published": "2015-09-07",
+  "accessed": "2026-09-25",
+  "locator": "기사 요약",
+  "quote_or_value": "전국 지자체 주차장 정보 통합·실시간 주차정보 제공 시스템",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "PK-66",
+  "type": "국감",
+  "title": "정일영 의원 자료 인용 보도 — 사후관리 주체·전국 취합자료 부재",
+  "publisher": "대한경제",
+  "url_or_path": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202609170958569700442",
+  "published": "2026-09-17",
+  "accessed": "2026-09-25",
+  "locator": "기사 본문",
+  "quote_or_value": "TS는 부적합 명단을 매달 관할 지자체에 통보, 이후 운행중지·보수·폐쇄는 각 지자체 개별 관리, 국토부·공단에 전국 취합 자료 없음",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "0",
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "PK-I1",
+  "type": "데이터",
+  "title": "부적합 잔존 장치의 후속상태 비율 계산",
+  "publisher": "본 조사 계산",
+  "url_or_path": "PK-22 수치",
+  "published": "2026-07 말",
+  "accessed": "2026-09-25",
+  "locator": "계산",
+  "quote_or_value": "운행중지 확인 152/656=23.2%, 미확인 504/656=76.8%",
+  "grade": "INFERRED",
+  "used_in": [
+   "0",
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "PK-I2",
+  "type": "데이터",
+  "title": "노후 장치 부적합 과대표집 계산",
+  "publisher": "본 조사 계산",
+  "url_or_path": "PK-23 수치",
+  "published": "2022~2026.7",
+  "accessed": "2026-09-25",
+  "locator": "계산",
+  "quote_or_value": "부적합 중 20년 이상 84.6% ÷ 설치 중 20년 이상 43.7% = 1.94배. 정밀안전검사(10년 이상 대상) 교란으로 연령 효과 단정 불가",
+  "grade": "INFERRED",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "PK-I3",
+  "type": "데이터",
+  "title": "중대사고 발생률 규모 계산",
+  "publisher": "본 조사 계산",
+  "url_or_path": "PK-17·PK-23·PK-45",
+  "published": "2018~2026.7",
+  "accessed": "2026-09-25",
+  "locator": "계산",
+  "quote_or_value": "연 7.4건(34건/4.58년)~9.5건(55건/5.8년) ÷ 약 3.6만기 ≈ 1만기당 연 2~3건 → 시범사업 성과지표로 검정력 부족",
+  "grade": "INFERRED",
+  "used_in": [
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "PK-I4",
+  "type": "데이터",
+  "title": "연간 검사량 대비 기대 검사량 격차 계산",
+  "publisher": "본 조사 계산",
+  "url_or_path": "PK-45·PK-11",
+  "published": "2025",
+  "accessed": "2026-09-25",
+  "locator": "계산",
+  "quote_or_value": "법정 주기상 장치당 연 약 0.5회(2년 정기, 10년 후 4년 정밀+중간 정기) × 36,391기 ≈ 18,200회 기대 vs mpis 정기 9,193+정밀 5,064=14,257기(78%). 격차 약 3,900기는 타 검사기관분 미집계·연기·미수검·철거 중 무엇인지 미확인",
+  "grade": "INFERRED",
+  "used_in": [
+   "1",
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "PK-I5",
+  "type": "데이터",
+  "title": "자체점검 '긴급 수리→자체 양호→운행 재개' 경로의 외부 확인 부재",
+  "publisher": "본 조사 해석",
+  "url_or_path": "PK-03·PK-50·PK-12",
+  "published": "현행",
+  "accessed": "2026-09-25",
+  "locator": "법 제19조의20⑨, 고시 제21조③④",
+  "quote_or_value": "결함 발견 시 운행중지·수리 후 관리자 자체점검 양호 판정만으로 재운행 규정, 검사기관·지자체 확인 규정 없음 → 현 컨셉 '확인 없는 종결' 가설의 구체적 제도 경로. 빈도는 정보망 원자료로만 확인 가능",
+  "grade": "INFERRED",
+  "used_in": [
+   "2",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "PK-I6",
+  "type": "데이터",
+  "title": "검사기관→지자체 통보 의무의 조문 비교",
+  "publisher": "본 조사 해석",
+  "url_or_path": "PK-12·PK-51",
+  "published": "현행",
+  "accessed": "2026-09-25",
+  "locator": "규칙 제16조의8⑤ vs 승강기법 제50조①",
+  "quote_or_value": "주차장법령은 전문검사기관 발급 시 지자체 통보만 규정. 승강기법은 미검사·불합격 전건 지자체 통보 의무를 법률에 명시. TS 월별 통보(PK-66)는 운영 관행으로 추정",
+  "grade": "INFERRED",
+  "used_in": [
+   "1",
+   "4",
+   "6"
+  ]
+ },
+ {
+  "id": "PK-I7",
+  "type": "계약",
+  "title": "2차사업과 재설계안의 중복 판정",
+  "publisher": "본 조사 해석",
+  "url_or_path": "PK-28·PK-29·PK-31",
+  "published": "2026-09",
+  "accessed": "2026-09-25",
+  "locator": "RFP SFR-020~027 대조",
+  "quote_or_value": "2차사업 주차안전처 범위=설치 전 안전도 심사 서류. 부적합 이후 사후조치·자체점검·운행중지 기록은 RFP에 없음 → 비중복. 단 지식DB(주차장법령)는 재사용 대상",
+  "grade": "INFERRED",
+  "used_in": [
+   "3",
+   "9"
+  ]
+ },
+ {
+  "id": "PK-U1",
+  "type": "데이터",
+  "title": "'확인 없는 종결' 발생 빈도",
+  "publisher": "미발견",
+  "url_or_path": "검색·로컬 전수",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "공개 통계·감사·민원·언론에서 미발견",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "PK-U2",
+  "type": "통계",
+  "title": "연도별 검사건수 대비 부적합률·재검사 경과일",
+  "publisher": "미발견",
+  "url_or_path": "mpis 통계·data.go.kr·ALIO",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "부적합 누적 5,115기만 공개, 연도별 분모·경과일 비공개",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "PK-U3",
+  "type": "통계",
+  "title": "자체점검 정보망 입력률(2024-08-17 시행 이후)",
+  "publisher": "미발견",
+  "url_or_path": "WebSearch·TS 보도자료",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "입력률·긴급수리 판정 건수 공개자료 없음",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "PK-U4",
+  "type": "통계",
+  "title": "관리인 미배치 비율·지자체 과태료 부과 실적",
+  "publisher": "미발견",
+  "url_or_path": "WebSearch",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "TS 계획에 단속 필요성만 기재",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "PK-U5",
+  "type": "감사",
+  "title": "감사원·TS 자체감사의 기계식주차장 지적",
+  "publisher": "미발견",
+  "url_or_path": "bai.go.kr 대상 검색",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "관련 감사결과 검색 불가(동적 페이지), 언론 인용도 없음",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "PK-U6",
+  "type": "국감",
+  "title": "정일영 의원실 보도자료·국감 요구자료 원문",
+  "publisher": "미발견",
+  "url_or_path": "WebSearch, 국회도서관 소장정보",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "언론 9건 인용만 확인, 2025 국토위 국감 요구자료는 국회도서관 소장(열람 미실시)",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "9"
+  ]
+ },
+ {
+  "id": "PK-U7",
+  "type": "데이터",
+  "title": "한국승강기안전공단 검사분의 정보망 수록 범위",
+  "publisher": "미발견",
+  "url_or_path": "koelsa 민원 안내·mpis",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "외부검사기관 로그인 채널만 확인(PK-62)",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "3",
+   "7"
+  ]
+ }
+]

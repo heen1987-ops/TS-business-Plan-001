@@ -1,0 +1,1022 @@
+[
+ {
+  "id": "DV-E01",
+  "type": "법령",
+  "title": "교통안전법 제57조의3(단지내도로의 교통안전)",
+  "publisher": "국가법령정보센터(국토교통부 교통안전정책과)",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=254099&efYd=20240817",
+  "published": "법률 제19673호, 2024-08-17 시행(현행). 본조 신설 2019-11-26, 2024-01-23 개정",
+  "accessed": "2026-09-24",
+  "locator": "제57조의3 제1~11항",
+  "quote_or_value": "④ 시장·군수·구청장은 실태점검을 '실시하게 할 수 있다'(임의). ⑤ 관리자 요청 가능(2024 신설). ⑦ 점검 후 '권고'·접속구간 개선요청(사전 의견청취). ⑧ 국가등은 예산 범위에서 시설 설치·보완 비용 '일부 지원 가능'. ⑨ 중대사고 통보 의무. ⑩ 경찰서장에 사고자료 요청 가능(2024 신설). 권고 이행계획·결과보고 의무 조항 없음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "1",
+   "2",
+   "4",
+   "5",
+   "9"
+  ]
+ },
+ {
+  "id": "DV-E02",
+  "type": "법령",
+  "title": "교통안전법 제33조의2(교통안전 특별실태조사) — 비교 대조용",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=254099&efYd=20240817",
+  "published": "2024-08-17 시행본(본조 2011-05-19 신설, 2017-10-24 개정)",
+  "accessed": "2026-09-24",
+  "locator": "제33조의2 제2~5항",
+  "quote_or_value": "개선권고 받은 교통행정기관은 이행계획서 제출(③), 지정행정기관장은 이행 확인·점검(③), 이행결과보고서 제출(④), 재원 전부 또는 일부 지원 가능(⑤). 단지내도로(§57의3)에는 같은 이행 추적 장치 없음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4",
+   "5",
+   "6"
+  ]
+ },
+ {
+  "id": "DV-E03",
+  "type": "법령",
+  "title": "교통안전법 제65조 제2항 제12·13호(과태료)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=254099&efYd=20240817",
+  "published": "2024-08-17 시행본(2024-01-23 개정)",
+  "accessed": "2026-09-24",
+  "locator": "제65조 ②12·13",
+  "quote_or_value": "과태료 대상은 통행방법 미게시(12호)·중대사고 미통보(13호)뿐. 권고 불이행·시설 미설치에 대한 제재 없음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "DV-E04",
+  "type": "법령",
+  "title": "교통안전법 시행령 제2조의2·제47조의2(단지내도로 범위·설치관리자·중대사고 정의)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=289649&efYd=20260915",
+  "published": "대통령령 제36689호, 2026-09-15 시행(현행). 해당 조 2020-11-24 신설, 2024-07-16 개정",
+  "accessed": "2026-09-24",
+  "locator": "제2조의2, 제47조의2 제1~4항",
+  "quote_or_value": "대상=의무관리대상 공동주택단지·고등교육법상 학교의 차도·보도·자전거도로. 설치관리자=입주자대표회의·관리주체·학교의 장. 점검요청 동의요건=입주민 20% 이상 서면동의. 중대한 사고=사망 또는 중상사고",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "7"
+  ]
+ },
+ {
+  "id": "DV-E05",
+  "type": "법령",
+  "title": "교통안전법 시행령 제48조의2(업무의 위탁)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=289649&efYd=20260915",
+  "published": "2026-09-15 시행본. 제4항 2020-11-24 신설",
+  "accessed": "2026-09-24",
+  "locator": "제48조의2 제1항3호, 제2항2·8호, 제4항",
+  "quote_or_value": "④ 시장·군수·구청장은 실태점검 업무를 TS에 '위탁할 수 있다', 위탁 시 기관·업무 고시 의무. ②2 교통안전정보관리체계 구축·관리 TS 위탁. ②8 특별실태조사·이행계획서 접수·이행 확인·이행결과보고서 접수 TS 위탁. ①3 교통시설안전진단 실시결과 평가 TS 위탁",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3",
+   "4",
+   "7"
+  ]
+ },
+ {
+  "id": "DV-E06",
+  "type": "법령",
+  "title": "교통안전법 시행규칙 제31조의8(교통안전 실태점검의 대상 등)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=289845&efYd=20260915",
+  "published": "국토교통부령 제1621호, 2026-09-15 시행(현행). 2024-08-16·2024-11-29 개정",
+  "accessed": "2026-09-24",
+  "locator": "제31조의8 제1~6항",
+  "quote_or_value": "위탁 시 '시장·군수·구청장'을 TS로 읽음(②). 점검계획 통지(대상구역·시기·이유·의견제출), 항목은 별표8, 현장조사+서면조사, 조치 전 결과·필요시설·사유 사전 통지·의견청취",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "5"
+  ]
+ },
+ {
+  "id": "DV-E07",
+  "type": "법령",
+  "title": "교통안전법 시행규칙 제31조의9(중대한 사고의 통보)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=289845&efYd=20260915",
+  "published": "2026-09-15 시행본(2024-08-16 개정)",
+  "accessed": "2026-09-24",
+  "locator": "제31조의9 제1·2항",
+  "quote_or_value": "① 관리자는 단지명·소재지·일시·장소·피해내용을 지체 없이 통보. ② 통보받은 시장·군수·구청장(위탁 시 TS)은 교통안전정보관리체계에 입력하고 해당 단지·학교에 실태점검을 '해야 한다'(의무)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4",
+   "5",
+   "7"
+  ]
+ },
+ {
+  "id": "DV-E08",
+  "type": "법령",
+  "title": "교통안전법 제59조 제3항(업무의 위탁)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=254099&efYd=20240817",
+  "published": "2024-08-17 시행본(2019-11-26 개정)",
+  "accessed": "2026-09-24",
+  "locator": "제59조 ③",
+  "quote_or_value": "시장·군수·구청장은 법에 따른 업무 일부를 대통령령으로 정하는 바에 따라 교통안전 전문기관·단체에 위탁 가능",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "DV-E09",
+  "type": "계획",
+  "title": "TS 2026년도 주요업무 추진계획 — 보행자 취약요인(단지내도로)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.21(본문 17쪽) '생활 밀착형 취약분야 안전관리 강화'",
+  "quote_or_value": "(단지내도로) 신규단지 설계단계 점검 신설, 전주기 점검체계(설계-입주전-운영) 구축, 사망사고 발생단지 실태점검을 통한 사후조치 시행",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3",
+   "5",
+   "10"
+  ]
+ },
+ {
+  "id": "DV-E10",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 2025 성과(증원 사유)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.64(본문 60쪽) 기획조정 성과",
+  "quote_or_value": "핵심사업 추진 인력 31명 확보: 정기 27명(이륜차안전도검사, 자동차사이버보안, 단지내도로점검), 수시 4명. 단지내도로점검 몫의 인원 수는 미표기",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "DV-E11",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 모빌리티지원센터 2025 성과·개선 필요사항",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.126~127(본문 122~123쪽)",
+  "quote_or_value": "2025: 지자체 위험지점·안전 사각지대 아파트·대학교·신규 건설교통시설 인프라안전점검, 볼라드 기준정립, 개선예산 확보(14.5억). 개선 필요: 모빌리티 개선예산 확보 및 전문성 등 실행 역량이 부족한 지자체 지원 필요",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "DV-E12",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 인프라 안전사업 종합플랫폼 구축",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.130(본문 126쪽 요약 10번), p.136(본문 132쪽 3.)",
+  "quote_or_value": "단지내도로는 수요자가 직접 점검·개선에 참여하는 플랫폼 구축, 과거 도로안전 점검사업 DB화·업무자동화 AI 활용, 국민참여 점검(체감위험 분석·개선방안 의견·개선과정 참여), 설계단계 점검 신설로 개선이행 향상 도모, 생애주기 점검체계. 특별실태조사 DB화 포함",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "3",
+   "5",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "id": "DV-E13",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 익산 자율주행 플랫폼 지원 역할",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.133(본문 129쪽)",
+  "quote_or_value": "자율주행 인프라 최적설치위치 선정(실증사업처). 무인단속장비가 아닌 자율주행(V2I) 인프라 설치위치임",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4"
+  ]
+ },
+ {
+  "id": "DV-E14",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — AI·빅데이터 교통약자 안전강화",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.135~136(본문 131~132쪽)",
+  "quote_or_value": "멀티모달 AI(CCTV VLM·통신 OD·네비 속도 + 도로기하·시설) 약자 특화 위험지역 판단·최적 보호구역 설정 Tool 개발·시범실증. 학교 내부(도로외구역) 포함 점검·개선. 볼라드 우선설치 컨설팅·사후 효과평가. 드론영상 분석 4개소",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "6",
+   "9"
+  ]
+ },
+ {
+  "id": "DV-E15",
+  "type": "계약",
+  "title": "TS 2026 용역 발주계획 — 2026년 단지내도로 교통안전 실태점검",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_용역_발주계획.csv",
+  "published": "2026-01 작성",
+  "accessed": "2026-09-24",
+  "locator": "용역 259건 중 담당부서=실증사업처 행",
+  "quote_or_value": "2026-03 발주, 일반경쟁, 신규, 예산 580,000,000원",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3",
+   "8"
+  ]
+ },
+ {
+  "id": "DV-E16",
+  "type": "계약",
+  "title": "TS 2026 용역 발주계획 — 실증사업처 기타 3건",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_용역_발주계획.csv",
+  "published": "2026-01 작성",
+  "accessed": "2026-09-24",
+  "locator": "담당부서=실증사업처 행",
+  "quote_or_value": "교통안전 특별실태조사 490,000,000원 / 생활권 교통사고 예방을 위한 구조적 특성분석 연구 150,000,000원 / 교통시설안전진단 효과 평가 및 관련 지침 개정 연구 60,000,000원(모두 2026-03 일반경쟁). 실증사업처 4건 합계 1,280,000,000원",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "6"
+  ]
+ },
+ {
+  "id": "DV-E17",
+  "type": "통계",
+  "title": "TS 업무안내 '단지내도로 교통안전 실태점검'",
+  "publisher": "한국교통안전공단(담당 모빌리티지원센터 실증사업처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040207",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "업무안내 본문",
+  "quote_or_value": "대상: 중대한 교통사고(3주 이상) 발생 아파트·대학교 및 교통안전도 향상 필요 시설. 개인 직접 신청 불가, 시·군·구 위탁 시 수행. 절차: 1개월 전 통지→관리자 면담(사고현황·위험지점)→합동 현장조사→의견청취 후 개선안 제시. 사후 이행 확인 절차 미기재",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "DV-E18",
+  "type": "국감",
+  "title": "2018 국정감사 — 아파트 단지내 도로안전 개선률(김영진 의원, TS 제출자료)",
+  "publisher": "이데일리",
+  "url_or_path": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01797446619371936",
+  "published": "2018-10-11",
+  "accessed": "2026-09-24",
+  "locator": "기사 본문",
+  "quote_or_value": "2015년 점검 지적 353건 중 개선 90건(25.5%), 2014년 21%, 2012~2013년 23.6%. 2015 지역별: 대구 58.8%, 충남 50%, 광주 41.7%, 경북 40%, 전북·경남·세종 0%",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "0",
+   "2",
+   "4",
+   "8"
+  ]
+ },
+ {
+  "id": "DV-E19",
+  "type": "언론",
+  "title": "경찰 집계 2020 아파트 단지 내 교통사고와 TS 중대사고 집계 대비(문정복 의원 경찰청 제출자료)",
+  "publisher": "국토일보",
+  "url_or_path": "https://www.ikld.kr/news/articleView.html?idxno=241739",
+  "published": "2021-10-08",
+  "accessed": "2026-09-24",
+  "locator": "기사 본문(curl 추출)",
+  "quote_or_value": "2020년 경찰 접수 단지 내 인적피해 사고 2,728건, 사망·중상 623명(경기남부 717건·서울 406건). 같은 시기 TS 교통안전정보관리시스템의 단지 내 중대사고 집계는 2020-11 이후 총 3건. 경찰은 2020년부터 도로 외 사고 통계 관리",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "0",
+   "2",
+   "4",
+   "7",
+   "8"
+  ]
+ },
+ {
+  "id": "DV-E20",
+  "type": "언론",
+  "title": "경찰청 2021~2024 아파트 단지 내 교통사고(배준영 의원 도로교통법 개정안)",
+  "publisher": "베이비뉴스",
+  "url_or_path": "https://www.ibabynews.com/news/articleView.html?idxno=150733",
+  "published": "2026-04-22",
+  "accessed": "2026-09-24",
+  "locator": "기사 본문",
+  "quote_or_value": "2021~2024 누계 12,136건, 사망 164명, 중상 2,513명. 2021년 2,862건→2024년 3,217건. 2026-04-19 단지 내 통행로·주차장을 도로교통법상 도로에 포함하는 개정안 발의. 2025-11 대법원: 단지 주차장 음주운전 면허취소 위법 판단",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "0",
+   "2",
+   "4",
+   "9"
+  ]
+ },
+ {
+  "id": "DV-E21",
+  "type": "언론",
+  "title": "보령 아파트단지 7세 사망사고",
+  "publisher": "SBS",
+  "url_or_path": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008570063",
+  "published": "2026-05-19",
+  "accessed": "2026-09-24",
+  "locator": "기사 본문",
+  "quote_or_value": "2026-05-18 충남 보령 단지 내 도로, 횡단보도 인근 주차차량 3대가 시야·통행 차단. 단지 내 불법주정차 법적 책임 근거 없음 지적. 2026-03-30 울산 북구 단지 8세 사망 사례 언급",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "DV-E22",
+  "type": "언론",
+  "title": "국토부·TS 전국 아파트 55개 단지 도로 안전점검",
+  "publisher": "이데일리",
+  "url_or_path": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02715846615866272",
+  "published": "2017-03-23",
+  "accessed": "2026-09-24",
+  "locator": "기사 본문",
+  "quote_or_value": "2012~2016 누적 214개 단지 무상점검, 2017년 55개 단지. 개선은 장기수선충당금 등 활용 가능 언급. 이행 결과 언급 없음",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "DV-E23",
+  "type": "언론",
+  "title": "TS 120개 아파트 단지 교통안전점검 무료 서비스",
+  "publisher": "이데일리",
+  "url_or_path": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02774886622422992",
+  "published": "2019-03-13",
+  "accessed": "2026-09-24",
+  "locator": "기사 본문",
+  "quote_or_value": "2019년 120개 단지, 2018년까지 누적 386개 단지. 선정기준: 단지 환경·개선 시급성·개선 의지. 보험사 자료 기준 도로 외 사고 약 15%",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1",
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "DV-E24",
+  "type": "기타",
+  "title": "대한주택관리사협회 '아파트 단지내도로 교통안전 제도 안내'",
+  "publisher": "대한주택관리사협회 정책제도실",
+  "url_or_path": "https://www.khma.org/00031.web?amode=view&gcode=1003&idx=76906",
+  "published": "2025-08-08(수정 2025-10-30)",
+  "accessed": "2026-09-24",
+  "locator": "게시글 본문·첨부 목록",
+  "quote_or_value": "첨부: 제도 안내, 단지내도로 교통안전시설 설치·관리기준 해설집, '2025년 아파트 단지내도로 교통안전법 제도 안내 및 개선 사례집', 중대사고 통보 양식. 첨부 원문은 열지 못함(curl 차단)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1",
+   "3",
+   "11"
+  ]
+ },
+ {
+  "id": "DV-E25",
+  "type": "언론",
+  "title": "일산미디어 기고 — 단지 내 도로는 도로교통법상 도로 아님",
+  "publisher": "일산미디어",
+  "url_or_path": "https://www.ilsanmedia.com/news/articleView.html?idxno=479",
+  "published": "2024-03-18",
+  "accessed": "2026-09-24",
+  "locator": "기고 본문",
+  "quote_or_value": "삼성교통안전문화연구소: 도로 외 구역 사고 전체의 15.6%. 경찰청 국회 제출: 2020년 2,728건, 2021년 2,861건, 2년 사상자 7,101명",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "DV-E26",
+  "type": "내부",
+  "title": "N-34 단지내도로 위험예측 AI 기획카드 v0.1",
+  "publisher": "CCK 내부(Claude 세션)",
+  "url_or_path": "{P}/N-34_단지내도로_위험예측AI_기획카드_v0.1_2026-09-23.md",
+  "published": "2026-09-23",
+  "accessed": "2026-09-24",
+  "locator": "§0·§1·§2",
+  "quote_or_value": "K-Safer 패턴 이식으로 실태점검 대상 사전 예측 제안. 스스로 G3(데이터)·G4(사고통계) △, 대상 규모·위탁 지자체 수·현행 시스템 UNKNOWN으로 기재",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "4",
+   "6",
+   "10"
+  ]
+ },
+ {
+  "id": "DV-E27",
+  "type": "내부",
+  "title": "사이트 DV 현재 컨셉 원장(단지내도로 개선의 실행·효과 확인)",
+  "publisher": "CCK 사이트 원장",
+  "url_or_path": "{S}/brief/DV_현재컨셉.json",
+  "published": "2026-09-23 기준",
+  "accessed": "2026-09-24",
+  "locator": "impact.metrics DV-E01~E03",
+  "quote_or_value": "예시 기준선: 위험상황 20건/1만 보행, 우회거리 300m, 이행률 60% — 모두 가정값(baselineStatus 'TS 기준선 미확보'). 출처 1건(김포시 자료)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "8",
+   "10"
+  ]
+ },
+ {
+  "id": "DV-E28",
+  "type": "통계",
+  "title": "김포시 도시주택국 2026 주요업무 — 단지내도로 교통안전 실태점검 추진",
+  "publisher": "김포시(시의회 제출 자료)",
+  "url_or_path": "https://gimpocouncil.go.kr/upload/mnts/apndx/a08/20260225155857-222022.pdf",
+  "published": "2026-02(파일명 기준 2026-02-25 게시)",
+  "accessed": "2026-09-25",
+  "locator": "인쇄 p.315(PDF 15쪽)",
+  "quote_or_value": "2025-11-04~11-28 의무관리대상 아파트 50개 단지(지하주차장 포함 단지내도로·접속구간) 시 자체 점검: 주택과 3명+민간전문가 4명(교통기술사·건축사). 개선권고 179건. 'TS 위탁 시 수수료 약 2.5억원 절감(단지당 위탁수수료 약 500만원)'. 같은 쪽 공동주택 지원사업 중 안전관련시설 5개 단지 73,693천원",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "8"
+  ]
+ },
+ {
+  "id": "DV-E29",
+  "type": "내부",
+  "title": "조직검증·중복경계 v0.1(교차검증)",
+  "publisher": "CCK 오케스트레이터",
+  "url_or_path": "{S}/out/00_조직검증_중복경계_v0.1.md",
+  "published": "2026-09-25",
+  "accessed": "2026-09-25",
+  "locator": "§5·§6, OV-15·22·37·43·44",
+  "quote_or_value": "DV 직접 근접 중복: 인프라 안전사업 종합플랫폼(OV-15, 발주 미확인). 부분: 진단 효과평가 0.6억(OV-22), AX 12선 ③ 자율차 안전점검 Agent(OV-43)·④ 고령보행자 위험분석(OV-44). 특별실태조사 RFP 409,992,764원(OV-37)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "id": "DV-E30",
+  "type": "통계",
+  "title": "TS 보도자료 '아파트 단지 무료 교통안전 점검 서비스 받으세요'",
+  "publisher": "한국교통안전공단(당시 교통조사평가처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do (POST bbscSeqn=13449)",
+  "published": "2019-03-13",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "2012년부터 무료 점검, 2018년까지 누적 386개 단지. 2019년 120개 단지 선정 예정(단지환경·개선시급성·개선의지 평가). 점검 결과 통보 단지는 수선유지비·장기수선충당금 등 자체재원으로 개선. 삼성화재 2015~2017 접수 사고 4,983,956건 중 도로 외 구역 775,198건(15.6%)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "DV-E31",
+  "type": "통계",
+  "title": "TS 보도자료 '아파트 단지, 무료 교통안전 점검 컨설팅 받으세요'",
+  "publisher": "한국교통안전공단(교통조사평가처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do (POST bbscSeqn=15202)",
+  "published": "2020-03-06",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "2019년 121개 단지 점검(실적), 2020년 130개 단지 계획. 단지 내 미취학아동 보행사고 비중이 일반도로의 약 5.25배(산출 자료·기간 미표기). 원인으로 시설 설치기준 불명확·비전문 관리주체 지적",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "DV-E32",
+  "type": "통계",
+  "title": "TS 보도자료 '아파트에서 사고 나면 교통안전 컨설팅 받으세요'",
+  "publisher": "한국교통안전공단(교통조사평가처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do (POST bbscSeqn=13037)",
+  "published": "2018-11-28",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "2018-12-01부터 사망·중상 사고 발생 단지 특별접수(상시). 그 전에는 연초 일괄 접수라 긴급 점검 불가. 점검 결과는 관리사무소에 통보해 시설 개선·보수 '참고자료'로 활용",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4"
+  ]
+ },
+ {
+  "id": "DV-E33",
+  "type": "통계",
+  "title": "TS 보도자료 '대학교·아파트 단지 교통안전시설 설치 가이드라인 제시'",
+  "publisher": "한국교통안전공단(실증사업처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do (POST bbscSeqn=18515)",
+  "published": "2025-03-26",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "국토부 '단지내도로 교통안전시설의 설치·관리기준' 개정 고시(2025-03-06)에 맞춰 해설집 발간. 시설 9종(안전표지·과속방지턱·도로반사경·시선유도봉 등), 대학교·공동주택 위치별(진출입로·교차로·도로·주차장) 기준. 담당 실증사업처",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "DV-E34",
+  "type": "통계",
+  "title": "TS 보도자료 '배달 라이더 주행에 아파트 주민 4명 중 3명 위험하다 느껴'",
+  "publisher": "한국교통안전공단(교통조사평가처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do (POST bbscSeqn=15758)",
+  "published": "2020-06-25",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "전국 130여 단지 주민 777명 설문: 73% 불안, 보도주행 위험경험 66.0%. 공단은 연간 130여 개 단지 점검·개선안 제시",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "DV-E35",
+  "type": "통계",
+  "title": "TS 공지 '2026년 대학교 단지내도로 교통안전 실태점검 신청 알림'",
+  "publisher": "한국교통안전공단(실증사업처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/notice_view.do (POST bbscSeqn=18389)",
+  "published": "2026-03-16",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "대학교 단지내도로 제도 2024-11 시행. 근거 교통안전법 §57의3·시행령 §48의2④. 신청 2026-03-16~03-31, 대학교가 공문으로 신청",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "DV-E36",
+  "type": "통계",
+  "title": "TS 공지 '대학교 단지내도로 교통안전 실태점검 서비스 신청 안내'",
+  "publisher": "한국교통안전공단(실증사업처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/notice_view.do (POST bbscSeqn=18256)",
+  "published": "2025-02-10",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "2025년 무상 실태점검. 권역별 1개 대학교 선정, 신청 많으면 자체 평가로 우선순위. 점검 5~11월 순차",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "5"
+  ]
+ },
+ {
+  "id": "DV-E37",
+  "type": "통계",
+  "title": "TS 공지 '아파트 단지내도로 중대한 교통사고 통보 양식'",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/notice_view.do (POST bbscSeqn=17961)",
+  "published": "2022-10-07",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "중대한 사고 = 중상(진단서 3주 이상)·사망. 관리자가 시장·군수·구청장에게 지체 없이 통보(양식 배포)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "7"
+  ]
+ },
+ {
+  "id": "DV-E38",
+  "type": "통계",
+  "title": "TS 공지 '2024년(2023년) 아파트 단지내도로 교통안전법 제도 안내 및 개선 사례집'",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/notice_view.do (POST bbscSeqn=18188) / https://main.kotsa.or.kr/portal/bbs/notice_view.do (POST bbscSeqn=18020)",
+  "published": "2024-08-28 / 2023-06-14",
+  "accessed": "2026-09-25",
+  "locator": "첨부 PDF",
+  "quote_or_value": "첨부 사례집 원문 미열람: 다운로드 링크가 세션 없이 오류 페이지 반환. 우회하지 않음 → 사용자 승인 필요. 점검 실적·이행 사례 수치 포함 여부 미확인",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "3",
+   "8",
+   "11"
+  ]
+ },
+ {
+  "id": "DV-E39",
+  "type": "법령",
+  "title": "교통안전법 제·개정이유(2019·2023·2024 개정)",
+  "publisher": "국가법령정보센터(법제처 제공)",
+  "url_or_path": "https://www.law.go.kr/LSW/lsRvsRsnListP.do?lsId=001755&chrClsCd=010102&lsRvsGubun=all",
+  "published": "2019-11-26 / 2023-08-16 / 2024-01-23",
+  "accessed": "2026-09-25",
+  "locator": "법률 제16629호·제19673호·제20122호 개정이유",
+  "quote_or_value": "2019(16629호, 2020-11-27 시행): 재발방지대책 권고에는 '이행력과 실효성' 위해 이행계획서·이행결과보고서 도입, 같은 개정에서 단지내도로는 통행방법·안전시설·실태점검 근거만 신설. 2023(19673호): 고등교육법상 학교 포함. 2024(20122호, 2024-07-24 시행): 관리자 점검요청 근거, 중대사고 경찰자료 요청",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4",
+   "9"
+  ]
+ },
+ {
+  "id": "DV-E40",
+  "type": "계약",
+  "title": "2026년 교통안전 특별실태조사 용역 과업 및 제안요청서",
+  "publisher": "한국교통안전공단(실증사업처)",
+  "url_or_path": "{D}/검토결과_20260921/공식발주근거/19032_2. 과업 및 제안요청서.txt",
+  "published": "2026-04",
+  "accessed": "2026-09-25",
+  "locator": "과업개요·과업내용 󰊲",
+  "quote_or_value": "예산 409,992,764원, ~2026-12-18, 4개 지자체(부천·수원·목포·금천). 사전자료에 '공단 AI 교통사고 위험도 예측자료' 포함. 개선방안에 개략사업비·'27년 지방 예산 반영용 예산내역(9월). '개선이행 현장 모니터링(08~24년 지자체)'·'개선이행 성과분석(교통사고 감소 등)'·'결과 및 개선이행현황 공단 시스템 입력(08~25년)'",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "3",
+   "5",
+   "6"
+  ]
+ },
+ {
+  "id": "DV-E41",
+  "type": "데이터",
+  "title": "로컬 '한국교통안전공단_자동차 교통사고 통계_20250923.csv' 집계",
+  "publisher": "한국교통안전공단(공공데이터, 파일 출처 표기 기준)",
+  "url_or_path": "{P}/한국교통안전공단_자동차 교통사고 통계_20250923.csv",
+  "published": "2025-09-23",
+  "accessed": "2026-09-25",
+  "locator": "도로형태대분류코드·도로로형태코드='주차장'",
+  "quote_or_value": "사고기록 42,602건(2012~2022, 사망자 1명 이상 기록). 도로형태 '주차장'은 27건(2017~2022, 연 2~8건, 차대사람 19). 계산: python csv, cp949",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "7"
+  ]
+ },
+ {
+  "id": "DV-E42",
+  "type": "민원",
+  "title": "로컬 국민신문고 민원 374건(2024-09~2026-09) 키워드 집계",
+  "publisher": "CCK 수집(국민신문고 원문 URL 분류표)",
+  "url_or_path": "{P}/kotsa_국민신문고_민원374건_원문URL_분류표_2024-09~2026-09.csv",
+  "published": "2026-09",
+  "accessed": "2026-09-25",
+  "locator": "title·verified_summary 키워드(단지·아파트·대학교·과속방지턱·실태점검 등)",
+  "quote_or_value": "단지내도로 관련 민원 0건(키워드 적중 1건은 TS배움터 시험결과 문의로 무관). TS 대상 민원이 아니라 지자체·관리주체로 가는 구조로 추정",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "11"
+  ]
+ },
+ {
+  "id": "DV-E43",
+  "type": "데이터",
+  "title": "TMACS(교통안전정보관리시스템) 공개 메뉴 확인",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://tmacs.kotsa.or.kr/web/TG/TG200/TG2100S/Tg2101.jsp?mid=S1147",
+  "published": "확인일 기준",
+  "accessed": "2026-09-25",
+  "locator": "공개 메뉴 목록",
+  "quote_or_value": "공개 메뉴: 교통사고 원인분석·사고위험도로·사업용자동차·교통시설안전진단 실적 등. 단지내도로 중대사고 현황 메뉴 없음(내부 입력 메뉴 존재 여부는 미확인)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "7"
+  ]
+ },
+ {
+  "id": "DV-E44",
+  "type": "데이터",
+  "title": "국토교통부 공동주택 관리비 공개 의무단지 정보",
+  "publisher": "국토교통부(공공데이터포털)",
+  "url_or_path": "https://www.data.go.kr/data/15098979/fileData.do",
+  "published": "2024-08-19 수정, 주간 갱신",
+  "accessed": "2026-09-25",
+  "locator": "데이터셋 메타",
+  "quote_or_value": "컬럼: 의무관리대상여부·단지코드·단지명·시군구·법정동주소·사용승인일·동수·세대수·승강기·난방방식 등. 이용허락 제한 없음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "5",
+   "7"
+  ]
+ },
+ {
+  "id": "DV-E45",
+  "type": "통계",
+  "title": "의무관리대상 공동주택 단지 수",
+  "publisher": "e-나라지표 '월별 공동주택현황(의무관리단지)'(검색 요약)",
+  "url_or_path": "https://www.index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=1233",
+  "published": "2022-01 기준",
+  "accessed": "2026-09-25",
+  "locator": "검색 결과 요약(원 페이지 동적, 수치 미표시)",
+  "quote_or_value": "2022-01 기준 17,647개 단지(검색 요약 수치, 원문 표 직접 확인 실패)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1",
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "DV-E46",
+  "type": "내부",
+  "title": "추론: 중대사고 통보 제도의 포착 실패",
+  "publisher": "CCK 분석(DV-E19·E07 기반)",
+  "url_or_path": "본 문서 §2·§4",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "계산·추론",
+  "quote_or_value": "2020년 경찰 집계 단지 내 사망·중상 623명 대비 TS 시스템 중대사고 3건(2020-11~2021-10). 기간·단위(명/건) 불일치로 비율 산출은 불가하나, 통보→의무 실태점검(시행규칙 §31조의9②) 연결고리가 2021년 시점에 사실상 작동하지 않았다고 추론. 이후 연도 집계는 미공개",
+  "grade": "INFERRED",
+  "used_in": [
+   "0",
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "DV-E47",
+  "type": "내부",
+  "title": "추론: 의무 실태점검 수요 대비 처리 용량",
+  "publisher": "CCK 분석(DV-E20·E30·E31·E28·E15 기반)",
+  "url_or_path": "본 문서 §2·§4",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "계산·추론",
+  "quote_or_value": "2021~2024 연평균 사망 41명·중상 628명(12,136건/4년=3,034건). 중대사고 발생 단지가 연 수백 곳 규모일 가능성. TS 점검 규모는 2019 실적 121개 단지·2020 계획 130개. 580,000,000원÷단지당 약 500만원≈116단지(단가 동일 가정). 의무 점검 대상 전부를 TS가 처리하기 어려울 가능성. 사고 연도별 증가(2,862→3,217, +12.4%)는 단지·세대 수 증가를 통제하지 않아 위험 증가로 해석 불가",
+  "grade": "INFERRED",
+  "used_in": [
+   "2",
+   "4",
+   "8"
+  ]
+ },
+ {
+  "id": "DV-E48",
+  "type": "내부",
+  "title": "추론: 공개 도로 사고 자료의 단지 내 사고 누락",
+  "publisher": "CCK 분석(DV-E41·E20 기반)",
+  "url_or_path": "본 문서 §7",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "비교",
+  "quote_or_value": "로컬 사망사고 자료의 '주차장' 기록 연 2~8건 대비 경찰 집계 단지 내 사망 연평균 41명. 공개 사고 자료로 단지 단위 위험 모델을 학습하기 어려움(N-34 예측 AI의 입력 부족)",
+  "grade": "INFERRED",
+  "used_in": [
+   "4",
+   "6",
+   "7"
+  ]
+ },
+ {
+  "id": "DV-E49",
+  "type": "해외",
+  "title": "NHTSA Non-Traffic Surveillance: Non-Traffic Crash Injuries and Fatalities 2008-2015 Analytical User's Manual (DOT HS 813 763)",
+  "publisher": "미국 NHTSA NCSA",
+  "url_or_path": "https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813763",
+  "published": "2025-10",
+  "accessed": "2026-09-25",
+  "locator": "Executive/Introduction, 추정 방법 절",
+  "quote_or_value": "사유도로·진입로·주차장의 비교통 사고는 NHTSA가 일상적으로 수집하지 않아 별도 NTS 운영. 일부 경찰 관할이 비교통 보고서를 제공하지 못해 보정계수로 전국 추정",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6",
+   "7"
+  ]
+ },
+ {
+  "id": "DV-E50",
+  "type": "해외",
+  "title": "NHTSA NiTS 2007 비교통 사고 추정",
+  "publisher": "미국 NHTSA(검색 요약)",
+  "url_or_path": "https://www.nhtsa.gov/crash-data-systems/non-traffic-surveillance",
+  "published": "2008~2009 발간",
+  "accessed": "2026-09-25",
+  "locator": "검색 결과 요약(원 페이지 403)",
+  "quote_or_value": "2007년 비교통 사고 사망 약 1,159명·부상 약 98,000명(사유도로·진입로·주차시설)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "DV-E51",
+  "type": "해외",
+  "title": "警察庁 '生活道路における安全確保「ゾーン30プラス」' 실무자 세미나 자료",
+  "publisher": "일본 경찰청 교통규제과(국토교통성 게재)",
+  "url_or_path": "https://www.mlit.go.jp/road/road/traffic/sesaku/pdf/zone30_se2024_01.pdf",
+  "published": "2024",
+  "accessed": "2026-09-25",
+  "locator": "p.7·p.10·p.13·p.15",
+  "quote_or_value": "존30 4,288곳(2022년도 말) 정비 전 1년 vs 후 1년 사망·중상사고 28.7%↓(보행자·자전거 26.2%↓, 대조군 없음). 존30은 물리적 디바이스 설치가 진행되지 않아 2021-08 존30플러스(경찰+도로관리자) 도입. 효과검증 표준 양식: ETC2.0 속도, 교통량, 주민 설문, 추진 경위",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6",
+   "8"
+  ]
+ },
+ {
+  "id": "DV-E52",
+  "type": "해외",
+  "title": "国土交通省 보도발표 — 존30플러스 추가 지구",
+  "publisher": "일본 국토교통성",
+  "url_or_path": "https://www.mlit.go.jp/report/press/road01_hh_001948.html",
+  "published": "2025-06-17",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "존30플러스 정비계획 누계 전국 263지구. 국가는 기술지원·도로관리자 재정지원",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "DV-E53",
+  "type": "해외",
+  "title": "TRL Report 586 'Pilot home zone schemes: evaluation of The Methleys, Leeds'",
+  "publisher": "영국 TRL(DfT 위탁)",
+  "url_or_path": "https://www.trl.co.uk/uploads/trl/documents/TRL586.pdf",
+  "published": "2003",
+  "accessed": "2026-09-25",
+  "locator": "Executive Summary·4장",
+  "quote_or_value": "전(2000-06~09)·후(2002-05~07) 조사: 주민 면접, 교통량·속도, 영상 기록, 소음·대기. '사고 건수가 적어 통계적으로 유의한 결과를 얻기 어려움' 명시",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6",
+   "8"
+  ]
+ },
+ {
+  "id": "DV-E54",
+  "type": "해외",
+  "title": "FHWA Road Safety Audit Guidelines·Model RSA Policy",
+  "publisher": "미국 FHWA(검색 요약)",
+  "url_or_path": "https://highways.dot.gov/safety/data-analysis-tools/rsa/fhwa-road-safety-audit-guidelines",
+  "published": "2006(FHWA-SA-06-06)",
+  "accessed": "2026-09-25",
+  "locator": "검색 결과 요약(원문 403)",
+  "quote_or_value": "RSA는 독립 다분야 팀·공식 보고서와 도로 소유자의 공식 응답을 요구. 정책에 권고의 신속 검토·채택 권고 이행 절차 포함. 적용지점 최대 60% 사고감소 주장(FHWA 표현)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "DV-E55",
+  "type": "해외",
+  "title": "영국 20mph zones 200곳 평가(TRL 1996)",
+  "publisher": "영국 TRL(검색 요약)",
+  "url_or_path": "https://www.rospa.com/siteassets/documents/active-travel/20mph-zones-and-speed-limits-factsheet-2023.pdf",
+  "published": "1996 연구(2023 팩트시트 인용)",
+  "accessed": "2026-09-25",
+  "locator": "검색 결과 요약",
+  "quote_or_value": "평균 속도 9mph↓, 교통량 27%↓, 인명피해 사고 61%↓, 사망·중상 70%↓",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "DV-E56",
+  "type": "논문",
+  "title": "김신혜·임동균, 아파트단지 내 아동 교통사고 사례분석을 통한 교통안전 문제점과 개선방안",
+  "publisher": "한국콘텐츠학회논문지 20(5)",
+  "url_or_path": "https://koreascience.kr/article/JAKO202016263392832.page",
+  "published": "2020",
+  "accessed": "2026-09-25",
+  "locator": "초록 pp.623-634",
+  "quote_or_value": "5개 단지 아동사고 사례. 시인성 불량·서행 미준수·과속 등 원인, 도로 미인정으로 강제 규제 부재. 교통완화지역·지자체 조례 제안",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4",
+   "6"
+  ]
+ },
+ {
+  "id": "DV-E57",
+  "type": "판례",
+  "title": "대법원 특별2부 — 아파트 단지 주차장 음주운전 면허취소 처분 위법",
+  "publisher": "서울신문 보도",
+  "url_or_path": "https://www.seoul.co.kr/news/society/law/2025/11/15/20251115500014",
+  "published": "2025-11-15",
+  "accessed": "2026-09-25",
+  "locator": "기사 요지(검색 요약)",
+  "quote_or_value": "단지 내 주차장은 도로교통법상 도로 아님 → 면허취소 위법. 다만 불특정 다수 통행 공개 장소면 도로 해당 여지, 형사처벌은 가능",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1",
+   "9"
+  ]
+ },
+ {
+  "id": "DV-E58",
+  "type": "계약",
+  "title": "시장·군수·구청장의 실태점검 TS 위탁 고시 현황",
+  "publisher": "지자체 고시(미발견)",
+  "url_or_path": "WebSearch '\"단지내도로\" 실태점검 위탁 고시 구청 한국교통안전공단' 등",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "위탁 지자체 수·고시 원문 미발견. 시행령 §48의2④ 고시 의무는 확인(DV-E05)",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "1",
+   "9",
+   "11"
+  ]
+ },
+ {
+  "id": "DV-E59",
+  "type": "계획",
+  "title": "'인프라 안전사업 종합플랫폼' 발주·구축 현황",
+  "publisher": "TS(미확인)",
+  "url_or_path": "2026 용역 발주계획 사업명 전수 대조, WebSearch",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "2026 발주계획 사업명에 없음. 예산·일정·기능 명세 미확인",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "3",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "id": "DV-E60",
+  "type": "통계",
+  "title": "2016년 이후 단지내도로 권고 이행률",
+  "publisher": "TS(미공개)",
+  "url_or_path": "TS 보도자료·공지·국감 검색",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "2012~2015 수치(DV-E18) 이후 이행률 공개 수치 없음. 2020 법정화 이후 이행 확인 절차 공개 안내 없음(DV-E17)",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "DV-E61",
+  "type": "계약",
+  "title": "2026년 단지내도로 교통안전 실태점검 용역 RFP(과업 범위·단지 수)",
+  "publisher": "TS(미확인)",
+  "url_or_path": "로컬 공식발주근거 10건 대조, TS 입찰공고 게시판(외부 조달 연동)",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "로컬 RFP 10건에 없음. 점검 단지 수·이행 확인 포함 여부·위탁 수수료와의 관계 미확인",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "3",
+   "8"
+  ]
+ }
+]

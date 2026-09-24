@@ -1,0 +1,1041 @@
+[
+ {
+  "id": "SI-E01",
+  "type": "데이터",
+  "title": "2022년 안전도측정기기 정밀도검사 기기종류별 부적합 및 재검사 현황",
+  "publisher": "한국교통안전공단(공공데이터포털 파일)",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/원자료/공공데이터_CSV/한국교통안전공단_2022년 안전도측정기기 정밀도검사 기기종류별 부적합 및 재검사 현황_20230720.csv",
+  "published": "2023-07-20",
+  "accessed": "2026-09-24",
+  "locator": "746행×10열 전수 집계(work_SI/si_a1~a3.py)",
+  "quote_or_value": "2022년 정밀도검사(정기 726·최초 18·구조변경 2) 부적합 기기 746건(기기명 제동 269·속도계 201·사이드슬립 180·주행빔 77·변환빔 14·가스누출 5). 재검 합격 598건(80.2%), 재검일 없는 불합격 148건(19.8%). 재검 소요 중앙값 18일·P90 53일·최대 216일. 부적합 사유(중복 허용): 작동불능 366건(49.1%), 기계구조 158건(21.2%), 정확도·지시값 150건(20.1%), 명판 표시 누락 124건(16.6%), 설치상태 40건(5.4%). 정확도만 단독 사유인 건 108건(14.5%)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "2",
+   "4",
+   "8"
+  ]
+ },
+ {
+  "id": "SI-E02",
+  "type": "데이터",
+  "title": "2022년 부적합 현황 — 본부·업체구분별 교차집계",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/원자료/공공데이터_CSV/한국교통안전공단_2022년 안전도측정기기 정밀도검사 기기종류별 부적합 및 재검사 현황_20230720.csv",
+  "published": "2023-07-20",
+  "accessed": "2026-09-24",
+  "locator": "접수본부·업체구분·기기명 교차표",
+  "quote_or_value": "6개 본부만 등장(광주전남 215·서울 197·부산 101·대전세종충남 97·대구경북 82·경기남부 54). 미재검 비율 본부별 5.0%(부산)~37.8%(대구경북). 업체구분 정비종합 394·정비소형 306(합 93.8%), 지정정비사업자(민간검사소) 16건(2.1%). 미재검 148건 중 작동불능 사유 103건(69.6%)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "SI-E03",
+  "type": "데이터",
+  "title": "2023년 안전도측정기기 형식 등록 현황",
+  "publisher": "한국교통안전공단(공공데이터포털 파일)",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/원자료/공공데이터_CSV/한국교통안전공단_2023년 안전도측정기기 형식 등록 현황_20230720.csv",
+  "published": "2023-07-20",
+  "accessed": "2026-09-24",
+  "locator": "1,992행 전수 집계",
+  "quote_or_value": "등록 형식 1,992건(제동시험기 617·속도계 565·사이드슬립 456·주행빔전조등 215·가스누출 54·변환빔 46·택시미터주행 39), 제작사명 147종(동일사 표기 변형 예: 삼화기계/(주)삼화기계/삼화기계시스템), 허용하중 결측 153건(7.7%). 2022 부적합 746건의 형식 100% 매칭",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "3",
+   "7"
+  ]
+ },
+ {
+  "id": "SI-E04",
+  "type": "데이터",
+  "title": "측정기기 검사정보(환경측정기기)",
+  "publisher": "한국교통안전공단(공공데이터포털 파일)",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/원자료/공공데이터_CSV/한국교통안전공단_측정기기 검사정보_20250429.csv",
+  "published": "2025-04-29",
+  "accessed": "2026-09-24",
+  "locator": "12행 전수",
+  "quote_or_value": "장비 6대·업체 1곳(V00967)·같은 날 12:29~12:48 등록→폐기→대기 전환 이력만 존재. 매연측정기·공기과잉률 측정기. 운영 통계로 쓸 수 없는 시험성 표본",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "7"
+  ]
+ },
+ {
+  "id": "SI-E05",
+  "type": "데이터",
+  "title": "궤도시설 검사일자 정보(수검희망일)",
+  "publisher": "한국교통안전공단(공공데이터포털 파일)",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/원자료/공공데이터_CSV/한국교통안전공단_궤도시설 검사일자 정보_20250915.csv",
+  "published": "2025-09-15",
+  "accessed": "2026-09-24",
+  "locator": "74행 전수",
+  "quote_or_value": "수검희망일 신청 74건(정기검사 73·로프검사 1), 업체코드 약 50곳. 종료일<시작일 역전 2건, 1900-01-01 결측대체 2건, 2지망이 전년도인 건 1건, 동일업체 동일일자 중복 신청(업체 242 5건, 37 7건) 확인 — 입력 검증 부재",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "7"
+  ]
+ },
+ {
+  "id": "SI-E06",
+  "type": "데이터",
+  "title": "기기정도검사업체현황_20260618",
+  "publisher": "한국교통안전공단 특수검사처(공공데이터포털)",
+  "url_or_path": "https://www.data.go.kr/data/15052125/fileData.do (다운로드: work_SI/../si_dl/giki_upche.csv)",
+  "published": "2026-06-18",
+  "accessed": "2026-09-24",
+  "locator": "9,895행 전수 집계",
+  "quote_or_value": "수검업체 9,895곳. 지역본부 6곳(서울 4,121·광주전남 1,416·대구경북 1,320·대전세종충남 1,269·부산 922·경기남부 847). 자동차종합정비업 2,355·소형종합정비업 2,099·기타 1,305·지정정비사업자(소형종합 1,067·종합 459·정기 411·이륜 68·출장 28)·관공서 554 등",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "7"
+  ]
+ },
+ {
+  "id": "SI-L01",
+  "type": "법령",
+  "title": "자동차관리법 제40조(기계·기구의 정밀도검사)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=286989 (자동차관리법, 시행 2026.12.17., 법률 제21817호)",
+  "published": "2026-06-16 공포",
+  "accessed": "2026-09-24",
+  "locator": "제40조①②",
+  "quote_or_value": "점검·정비·검사용 기계·기구의 제작·판매자와 사용자는 국토교통부장관이 실시하는 정밀도검사를 받아야 하며 구조·장치 변경 시에도 같음. 기준·절차는 국토교통부령",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "SI-L02",
+  "type": "법령",
+  "title": "자동차관리법 제77조제6항제3호(TS 위탁)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=286989 (자동차관리법, 시행 2026.12.17., 법률 제21817호)",
+  "published": "2026-06-16 공포",
+  "accessed": "2026-09-24",
+  "locator": "제77조⑥3",
+  "quote_or_value": "국토교통부장관은 제40조제1항에 따른 기계·기구의 정밀도검사 업무를 대통령령으로 정하는 바에 따라 한국교통안전공단에 위탁할 수 있음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "SI-L03",
+  "type": "법령",
+  "title": "자동차관리법 제66조제1항제13호나목(행정처분)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=286989 (자동차관리법, 시행 2026.12.17., 법률 제21817호)",
+  "published": "2026-06-16 공포",
+  "accessed": "2026-09-24",
+  "locator": "제66조①13나",
+  "quote_or_value": "정밀도검사를 받지 아니한 기계·기구를 점검·정비작업에 사용한 정비업자는 시장·군수·구청장이 등록취소 또는 6개월 이내 사업정지 가능",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4"
+  ]
+ },
+ {
+  "id": "SI-L04",
+  "type": "법령",
+  "title": "자동차관리법 제82조제3호(벌칙)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=286989 (자동차관리법, 시행 2026.12.17., 법률 제21817호)",
+  "published": "2026-06-16 공포",
+  "accessed": "2026-09-24",
+  "locator": "제82조3",
+  "quote_or_value": "제40조제1항 위반 정밀도검사 미수검자는 100만원 이하 벌금",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "SI-L05",
+  "type": "법령",
+  "title": "자동차관리법 제43조제7항(측정값 조작 금지)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=286989 (자동차관리법, 시행 2026.12.17., 법률 제21817호)",
+  "published": "2026-06-16 공포",
+  "accessed": "2026-09-24",
+  "locator": "제43조⑦(신설 2017.12.)",
+  "quote_or_value": "누구든지 자동차검사용 기계·기구에 설정된 검사기준 값 또는 측정값을 조작·변경하거나 하게 해서는 안 됨",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4",
+   "9"
+  ]
+ },
+ {
+  "id": "SI-L06",
+  "type": "법령",
+  "title": "자동차관리법 제76조(수수료) 제11호",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=286989 (자동차관리법, 시행 2026.12.17., 법률 제21817호)",
+  "published": "2026-06-16 공포",
+  "accessed": "2026-09-24",
+  "locator": "제76조 본문 단서·11호",
+  "quote_or_value": "제40조 정밀도검사 신청자는 수수료 납부. 위탁 시 위탁받은 자가 정하는 수수료를 그 자에게 납부",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "SI-L07",
+  "type": "법령",
+  "title": "자동차관리법 제35조의8(내압용기의 재검사)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=286989 (자동차관리법, 시행 2026.12.17., 법률 제21817호)",
+  "published": "2026-06-16 공포",
+  "accessed": "2026-09-24",
+  "locator": "제35조의8①~⑥",
+  "quote_or_value": "내압용기 장착 자동차 소유자는 정기·수시 내압용기재검사를 자동차검사대행자에게 받아야 함. 불합격 용기는 파기, 합격 용기는 각인·표시. LPG는 정기검사로 갈음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "SI-O01",
+  "type": "계획",
+  "title": "TS 기기정도검사 검사소개",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01030201",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "본문 전체",
+  "quote_or_value": "근거: 자동차관리법 제40조, 환경분야시험검사법 제11조, 환경측정기기 형식승인·정도검사 고시 제4조. 정밀도검사 대상 6종, 정도검사 대상(차대동력계·배출가스·매연·소음계 등). 정기정밀도 매 1년, 정도검사 최초 2년·정기 1~2년. 수수료 정밀도 19,000~259,000원, 정도 85,000~271,000원, 성능시험 620,000~2,600,000원(부가세 별도). 담당 특수검사처",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "SI-O02",
+  "type": "계획",
+  "title": "TS 특수검사 누리집 기계·기구 정밀도검사 안내",
+  "publisher": "한국교통안전공단 특수검사시스템",
+  "url_or_path": "https://www.kotsa.or.kr/kpchome/ts/site/measure/inspctinfo/machinery.do",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "검사종류·주기·절차",
+  "quote_or_value": "정기정밀도: 최초·구조변경·정기검사를 받은 날부터 12월이 되는 날이 속하는 달마다. 검사팀이 업체에 출장 현장검사, 일정 협의 후 10일 이내 검사예정일 통보",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "SI-O03",
+  "type": "계획",
+  "title": "TS 기기정도검사 검사기준 및 방법",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01030203",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "정밀도검사는 자동차관리법 시행규칙 [별표 12], 측정기기 정도검사는 환경측정기기 형식승인·정도검사 고시 [별표 1의1]·[별표 2의1], 성능시험은 고시 [별표 1]·[별표 2] 적용",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "SI-P01",
+  "type": "계획",
+  "title": "TS 2026 주요업무 추진계획 — 검사전략실 2025 성과(정도검사)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.140(문서 쪽 136)",
+  "quote_or_value": "환경측정 검사장비 소음분야 무향실 도입·불합격 코드 41개 재정비. 정도검사 불합격 코드 284개로 '24년 대비 10.5% 개선 완료",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "3",
+   "4"
+  ]
+ },
+ {
+  "id": "SI-P02",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 내압용기 성과",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.141(쪽 137)",
+  "quote_or_value": "빈도·위험도 기반 Risk Matrix 운영, AI 결함 예측 프로그램 최초 도입 → 수소차 설계 개선 4건, 3.5만개 용기 수리. '19~'22년 생산 시내버스 6,975대 CNG 용기 전체 탈거·수리(추가수익 30억원)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "3"
+  ]
+ },
+ {
+  "id": "SI-P03",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 개선 필요사항(특수검사)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.142(쪽 138)",
+  "quote_or_value": "수소차 내압용기 정기검사 불합격률(14→36%) 지속 상승. 궤도: 안전관리계획 처벌기준·적정성평가 제도 개선. 정도검사: 안전도 측정기기 제출서류 AI 심사체계 구축, 발급서류 디지털 전환",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "2",
+   "3",
+   "4"
+  ]
+ },
+ {
+  "id": "SI-P04",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 특수검사처 AI 과제 3건",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.146~147(쪽 142~143)",
+  "quote_or_value": "①내압용기: Gemini 등 AI 전문가 10명 양성, 부품별 결함코드 세분화, 수소차 안전데이터 분석·예측 ②궤도: 궤도시설종합정보관리시스템 AI 검토기술 도입·결재시스템 구축 ③정도검사: 최초·구조변경 정밀도검사 대상 기계·기구 주요 제원 AI 심사 체계 구축",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "SI-P05",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 정도검사 신뢰성 향상 프로세스 개선",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.148(쪽 144)",
+  "quote_or_value": "'26년 사후관리 현지평가 대비 및 ISO 17020 요구사항에 따른 품질경영시스템 운영 프로세스·환경 개선",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5",
+   "6"
+  ]
+ },
+ {
+  "id": "SI-P06",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 궤도 검사",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.140·151(쪽 136·147)",
+  "quote_or_value": "2025년 30년 이상 궤도시설 정밀안전검사 최초 도입, 노후시설 10건 시행·브레이크 결함 등 중대결함 3건 개선. 2026년 정밀안전검사 대상 57기 주요부품 점검·정비 이행평가, 지자체 합동 관리·감독, 전문가 교육 연 5→7회",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "id": "SI-C01",
+  "type": "계약",
+  "title": "한국교통안전공단 검사본부 AI시스템 구축 용역 제안요청서 — 개요·추진배경",
+  "publisher": "한국교통안전공단 검사본부(기술승인처·특수검사처·주차안전처)",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/03.검사본부 AI(공통플랫폼 응용 8억)/01.사업관리/001.공고/2. 과업 및 제안요청서.md",
+  "published": "2026-07",
+  "accessed": "2026-09-24",
+  "locator": "1. 제안개요·2. 추진배경",
+  "quote_or_value": "예산 800,499,634원(VAT 포함), 착수~2026-12-18, 협상계약(기술 90:가격 10). 인프라 H200 8장·L40S 8장을 인프라 담당부서와 협의해 할당. 현행 시스템 현황은 내방 열람으로 제한. 배경: 특수(기기정도·궤도)검사 데이터 통일성 부족과 검사원 수기 검토로 소요시간 지속 증대, 궤도 운영업체 안전관리계획 이행 확인용 수집데이터 개선 필요",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "id": "SI-C02",
+  "type": "계약",
+  "title": "검사본부 AI RFP — 특수검사처 정밀도검사 서류 AI 심사 요구사항",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/03.검사본부 AI(공통플랫폼 응용 8억)/01.사업관리/001.공고/2. 과업 및 제안요청서.md",
+  "published": "2026-07",
+  "accessed": "2026-09-24",
+  "locator": "SFR-007~012",
+  "quote_or_value": "기기형식관리 등록 도면·제원표 처리(사이드슬립 약 474·제동 654·속도계 616·전조등 280건), 별표12 구조기준·롤러 중심축 간격·실린더 용량 계산식 검증, OCR·Vision 제원 인식·서류누락 확인, AI 적정/부적정+담당자 최종선택·알림톡, 정도검사 점검표·증명서 재발행 번호(국가기술표준원 고시 준용)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5",
+   "10"
+  ]
+ },
+ {
+  "id": "SI-C03",
+  "type": "계약",
+  "title": "검사본부 AI RFP — 궤도시설 안전관리계획 AI 검토 요구사항",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/03.검사본부 AI(공통플랫폼 응용 8억)/01.사업관리/001.공고/2. 과업 및 제안요청서.md",
+  "published": "2026-07",
+  "accessed": "2026-09-24",
+  "locator": "SFR-013~018",
+  "quote_or_value": "운영사 안전목표·실적(사고·사상자·운행장애 시설/인적오류·예방정비·비상조치), 주요부 유지보수 기준(삭도 13·궤도 10 설비), 부품관리, 인력·교육(법정기준 양호/보완), 비상조치·훈련, 결과입력(생성형 AI가 양호/보완·의견, 운행시간 대비 분해점검 시기 경고)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5",
+   "10"
+  ]
+ },
+ {
+  "id": "SI-I01",
+  "type": "내부",
+  "title": "33 CCK TS 아카이빙기반 솔루션 로드맵 §4.2",
+  "publisher": "CCK(내부자료)",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/##. 후속사업기획/2026년 사업기획 자료/33_CCK_TS_아카이빙기반_솔루션_로드맵_2027-2031_v0.1_2026-09-18.md",
+  "published": "2026-09-18",
+  "accessed": "2026-09-24",
+  "locator": "§4.2",
+  "quote_or_value": "2차사업 3개처 공동, 특수검사처 몫=특수검사(기기정도·궤도) 서류검토 자동화·궤도 안전관리계획 디지털화. N-11(삭도 이상감지)은 성격이 달라 PLAUSIBLE 관련으로만 유보",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "9"
+  ]
+ },
+ {
+  "id": "SI-I02",
+  "type": "내부",
+  "title": "34 CCK Slack 회의록 발췌 — 2026-09-01 특수검사 데모 회의",
+  "publisher": "CCK(내부자료)",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/##. 후속사업기획/2026년 사업기획 자료/34_CCK_Slack_회의록_발췌_cck-meeting-record_20260827-0918.md",
+  "published": "2026-09-01",
+  "accessed": "2026-09-24",
+  "locator": "2382행 부근",
+  "quote_or_value": "제동·속도계·전조등시험기 등 제원표-도면 정합성 데모. OCR 텍스트 대조 방식 확정(이미지 자체 판정 배제). 단위 오기재·실린더 내경 미기재·도면 답판 중복 탐지 사례",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "SI-I03",
+  "type": "내부",
+  "title": "42 TS 처단위 아키텍처 재구성 §2.5",
+  "publisher": "CCK(내부자료)",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/##. 후속사업기획/2026년 사업기획 자료/42_TS처단위_아키텍처_재구성_v0.1_2026-09-22.md",
+  "published": "2026-09-22",
+  "accessed": "2026-09-24",
+  "locator": "§2.5",
+  "quote_or_value": "특수검사 실제 사이트는 kotsa.or.kr/kpchome. N-07 범정부 확장분은 INCUBATE 하향, 2차사업 완료 후 재기획 대상",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "SI-E07",
+  "type": "데이터",
+  "title": "2022 부적합 현황 — 방문 단위·재검 경로 재집계",
+  "publisher": "한국교통안전공단(공공데이터 원자료, 직접 계산)",
+  "url_or_path": "{S}/work_SI/si_a4.py",
+  "published": "2023-07-20",
+  "accessed": "2026-09-24",
+  "locator": "본부+검사일+고유번호 기준 방문 묶음 480건",
+  "quote_or_value": "전 기기 작동불능 방문 202건(42.1%), 그중 재검 기록 없이 끝난 방문 58건. 재검 합격 598건 중 정확도 사유 없는 건 471건(78.8%). 재검 소요 분위 50%=18일·75%=29일·90%=53일·95%=90일, 30일 초과 138건·90일 초과 29건. 명판 표시만 사유인 85건은 중앙값 10일·재검 합격 94.1%. 지정정비사업자 16건 중 정확도 사유 9건, 가스누출감지기 5건 전부 재검 기록 없음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4",
+   "8"
+  ]
+ },
+ {
+  "id": "SI-E08",
+  "type": "데이터",
+  "title": "전국 삭도시설현황_20260618",
+  "publisher": "한국교통안전공단(공공데이터포털 15101266)",
+  "url_or_path": "https://www.data.go.kr/data/15101266/fileData.do (work_SI/sakdo.csv)",
+  "published": "2026-06-18",
+  "accessed": "2026-09-24",
+  "locator": "64행 전수",
+  "quote_or_value": "64개 시설·167기(스키장용 113·관광용 50). 방식: 자동순환식 100·고정순환식 50·왕복식 16. 행 준공일 기준 30년 이상 12행(20기)·40년 이상 7행. 강원 17·경기 11행",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "SI-E09",
+  "type": "데이터",
+  "title": "내압용기검사 불합격통계_20221231",
+  "publisher": "한국교통안전공단(공공데이터포털 15117129)",
+  "url_or_path": "https://www.data.go.kr/data/15117129/fileData.do (work_SI/d15117129.csv)",
+  "published": "2022-12-31",
+  "accessed": "2026-09-24",
+  "locator": "59행 전수",
+  "quote_or_value": "불합격 사유 857건: 가스누출 401건(46.8%, 열교환기 157), 가스충전·역류방지밸브 186, 검사요건 87, 연료주입구 60. 분모(검사대수)·연도 구분 없음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "SI-E10",
+  "type": "데이터",
+  "title": "자동차검사소 부적합 현황_20251231",
+  "publisher": "한국교통안전공단(공공데이터포털 15047451)",
+  "url_or_path": "https://www.data.go.kr/data/15047451/fileData.do (work_SI/d15047451.csv)",
+  "published": "2025-12-31",
+  "accessed": "2026-09-24",
+  "locator": "62개 직영검사소 × 37항목 합계",
+  "quote_or_value": "부적합 항목 합계 911,759건 중 전조등(기기측정) 214,862건(23.6%), 제동력 67,670건(7.4%), 사이드 1,677·속도계 808. 기기측정 4종 합 31.3%",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "SI-L08",
+  "type": "법령",
+  "title": "자동차관리법 시행령 제19조제3항제3호",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=286479 (시행 2026.6.3.)",
+  "published": "2025-03-14 개정",
+  "accessed": "2026-09-24",
+  "locator": "제19조③3",
+  "quote_or_value": "국토교통부장관은 법 제77조제6항에 따라 법 제40조제1항 기계·기구 정밀도검사 업무를 한국교통안전공단에 위탁(위탁 확정 규정)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "SI-L09",
+  "type": "법령",
+  "title": "자동차관리법 시행규칙 제68조(정밀도검사의 대상·기준 등)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=289865&lsId=007928 (자동차관리법 시행규칙, 시행 2026.9.15., 국토교통부령 제1621호)",
+  "published": "2026-09-15 시행판",
+  "accessed": "2026-09-24",
+  "locator": "제68조①~⑤",
+  "quote_or_value": "대상 6종(제동·전조등·사이드슬립·속도계·택시미터주행검사기·가스누출감지기). 제작·판매자는 설치일부터 30일 이내 최초정밀도검사, 형식·제작번호·제작일자 표시 의무. 사용자는 12월이 되는 날이 속하는 달마다 정기정밀도검사. 구조변경·설치위치 변경 시 재검사. 기준은 별표12",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4"
+  ]
+ },
+ {
+  "id": "SI-L10",
+  "type": "법령",
+  "title": "자동차관리법 시행규칙 제69조(정밀도검사의 신청 등)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=289865&lsId=007928 (자동차관리법 시행규칙, 시행 2026.9.15., 국토교통부령 제1621호)",
+  "published": "2026-09-15 시행판",
+  "accessed": "2026-09-24",
+  "locator": "제69조①~⑤",
+  "quote_or_value": "검사 1일 전까지 신청(TS가 정비연합회와 협의해 검사예정일 통보 시 그날까지). TS는 결과를 신청인에게 지체 없이 통지, 부적합은 시·도지사에게 지체 없이 보고, 적합은 다음 달 15일까지 보고. 합격표 부착. 미수검·불합격 기계·기구는 사용 불가(⑤)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "1",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "SI-L11",
+  "type": "법령",
+  "title": "자동차관리법 시행규칙 [별표 12] 기계·기구의 정밀도검사기준 및 검사방법",
+  "publisher": "국가법령정보센터(첨부파일)",
+  "url_or_path": "https://www.law.go.kr/LSW/flDownload.do?gubun=&flSeq=161254505&bylClsCd=110201 (work_SI/byl12.txt)",
+  "published": "2021-08-27 개정판",
+  "accessed": "2026-09-24",
+  "locator": "1.검사기준 가~바, 2.검사방법",
+  "quote_or_value": "제동력지시 ±5%(차륜구동형 ±2%), 사이드슬립 0점·5mm·판정 ±0.2mm/m, 속도지시 ±3%(35km/h 이상), 가스누출 LEL 20% 이내 감지. 지시계 과도한 변동 금지, 롤러 마모 2% 이내, 입·퇴출장치 작동, 형식·제작번호·허용축하중·제작일자·제작회사 표시. 현행판과의 동일 여부 미대조",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "SI-L12",
+  "type": "법령",
+  "title": "법제처 법령해석 22-0464(성능·상태점검에 미수검 기계 사용 시 처분 가능 여부)",
+  "publisher": "법제처",
+  "url_or_path": "https://www.moleg.go.kr/lawinfo/nwLwAnInfo.mo?mid=a10106020000&cs_seq=433156",
+  "published": "2022-11-15",
+  "accessed": "2026-09-24",
+  "locator": "회답·이유·법령정비 권고",
+  "quote_or_value": "정밀도검사를 받지 않은 기계를 자동차성능·상태점검에 사용한 경우 제66조①13나에 따른 정비업 등록취소·사업정지 불가. 제재 필요 시 명문 규정 필요 권고",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4",
+   "9"
+  ]
+ },
+ {
+  "id": "SI-L13",
+  "type": "법령",
+  "title": "궤도운송법 시행규칙(2026.9.18. 개정 시행)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=289981&lsId=007343 (국토교통부령 제1628호)",
+  "published": "2026-09-18",
+  "accessed": "2026-09-24",
+  "locator": "제4조의2·제16~18조·제25조",
+  "quote_or_value": "궤도사업 재허가 신청에 법 제19조① 안전검사 결과와 법 제22조의2① 안전관리계획 첨부, 6개월 이내 재허가 여부 통보(제4조의2 신설). 안전검사는 정기·수시·정밀안전검사 체계, 위탁 시 위탁기관이 안전검사증 발급, 위탁 기술인력·시설 기준 별표1(제18조), 안전검사 수수료는 엔지니어링 대가기준(제25조②)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "SI-L14",
+  "type": "법령",
+  "title": "자동차관리법 시행규칙 — 내압용기 정기검사 기간",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=289865&lsId=007928 (자동차관리법 시행규칙, 시행 2026.9.15., 국토교통부령 제1621호)",
+  "published": "2026-09-15 시행판",
+  "accessed": "2026-09-24",
+  "locator": "내압용기 정기검사 및 수시검사 조",
+  "quote_or_value": "법 제35조의8①1 정기검사 기간: 비사업용 승용 4년, 그 밖의 자동차 3년",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "SI-L15",
+  "type": "법령",
+  "title": "AI기본법 하위법령집 — 고영향 인공지능 영역·2단계 판단",
+  "publisher": "과학기술정보통신부(로컬 사본)",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/##. 후속사업기획/#.공공 SW사업 체계 조사/AI기본법/2_AI기본법_하위법령집_최종(과기정통부_2025.09).pdf",
+  "published": "2025-09",
+  "accessed": "2026-09-24",
+  "locator": "고영향 영역 목록·판단기준",
+  "quote_or_value": "영역 (아)교통: 교통안전법상 교통수단·시설·체계의 주요 작동·운영, (자)공공서비스: 국가기관등의 자격 확인·결정 등 의사결정. 2단계: 생명·신체 안전·기본권에 중대한 영향 우려 시 고영향. 사람 개입 없는 자율 결정일수록 위험 높게 평가",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "9"
+  ]
+ },
+ {
+  "id": "SI-O04",
+  "type": "계획",
+  "title": "TS 궤도 검사 안내",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01030300",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "근거 궤도운송법 제19조. 궤도시설종합정보관리시스템으로 온라인 신청·진행조회. 설계 안전검토는 우편·팩스 접수. 경기남부본부·본사 담당",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "SI-C04",
+  "type": "계약",
+  "title": "TS 2026 용역 발주계획 — 특수검사처",
+  "publisher": "한국교통안전공단(로컬 사본)",
+  "url_or_path": "{S}/ref/TS_2026_용역_발주계획.csv",
+  "published": "2026",
+  "accessed": "2026-09-24",
+  "locator": "특수검사처 행",
+  "quote_or_value": "ISO 17020 품질문서 개정 용역 20,000,000원(2026-03, 수의). 특수검사처 명의 정보화 용역은 계획표에 없음(안산 내압용기검사소 감리 2.1억은 자산인프라처)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "SI-C05",
+  "type": "계약",
+  "title": "TS 2026 물품 발주계획 — 특수검사처",
+  "publisher": "한국교통안전공단(로컬 사본)",
+  "url_or_path": "{S}/ref/TS_2026_물품_발주계획.csv",
+  "published": "2026",
+  "accessed": "2026-09-24",
+  "locator": "특수검사처 36행",
+  "quote_or_value": "36건 864,936,363원. 교정·기준장비: 배출가스 교정용 표준가스 1.5억, 소음측정기 정도검사용 표준음발생기 2,700만, 매연표준지, 다이얼게이지, 매달림 손저울. 기기정도검사 업무용 차량 4,700만·튜닝 1,500만(출장검사 구조). 수소 검사장비(누출량 측정기 1.29억 등). 재검사 안내엽서 제작·발송 151만",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3",
+   "7"
+  ]
+ },
+ {
+  "id": "SI-I04",
+  "type": "내부",
+  "title": "TS 부서별 업무목록 v0.3 — ORG-027 특수검사처",
+  "publisher": "CCK/GPT 정리(내부자료)",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/TS_부서별_업무목록_v0.3_20260921.md",
+  "published": "2026-09-21",
+  "accessed": "2026-09-24",
+  "locator": "ORG-027",
+  "quote_or_value": "검사전략실 소속. 업무: 내압용기 재검사, 기기정도검사(궤도는 목록 미수록). 시설 건립과 검사 운영수요 분리 필요 메모",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "SI-I05",
+  "type": "민원",
+  "title": "국민신문고 TS 민원 374건 분류표(2024-09~2026-09)",
+  "publisher": "CCK 수집(내부자료)",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/##. 후속사업기획/2026년 사업기획 자료/kotsa_국민신문고_민원374건_원문URL_분류표_2024-09~2026-09.csv",
+  "published": "2026-09",
+  "accessed": "2026-09-24",
+  "locator": "키워드 집계",
+  "quote_or_value": "정밀도·정도검사·삭도·궤도 키워드 0건. 내압 12건·수소 7건(칭찬 다수, 수소차 내압용기 점검 문의 1건). 공개 유사사례 표본이라 전체 민원 대표성 없음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "9"
+  ]
+ },
+ {
+  "id": "SI-N01",
+  "type": "언론",
+  "title": "수소차 내압용기 불합격률 15.4%…가스누출 최다",
+  "publisher": "에너지신문",
+  "url_or_path": "https://www.energy-news.co.kr/news/articleView.html?idxno=208551",
+  "published": "2024-12-06",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "TS 발표 인용: 수소차 내압용기 재검사 불합격률 2021 36.1%, 2022 9.6%, 2023 12.9%, 2024(9월) 18.2%, 4년 평균 15.4%(9,482대 중 1,463대). 가스누출 2,265건(90.67%)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4",
+   "9"
+  ]
+ },
+ {
+  "id": "SI-N02",
+  "type": "언론",
+  "title": "불법·부실 의심 민간검사소 점검 결과",
+  "publisher": "서울신문(국토교통부 발표 인용)",
+  "url_or_path": "https://www.seoul.co.kr/news/economy/car/2022/12/27/20221227500120",
+  "published": "2022-12-27",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "민간검사소 201곳 점검·17곳(8.5%) 적발. 위반 중 검사 생략 40%, 기록 부실 35%, 시설·장비 기준 미달 15%, 장비 정밀도 유지 위반 10%. 업무정지 10~30일",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "SI-N03",
+  "type": "국감",
+  "title": "2025 국정감사 — 궤도·삭도시설 안전관리계획 부실·행정처벌 규정 부재",
+  "publisher": "철도경제신문",
+  "url_or_path": "https://www.redaily.co.kr/news/articleView.html?idxno=14020",
+  "published": "2025-10-16 국토교통위 국감",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "궤도·삭도시설 10년 이상 66.5%. 연평균 124개 업체 중 58개(46.8%) 안전관리계획 부실. 운행장애 항목 부실 삭도 92.2%·궤도 82.2%. TS 측 처벌 규정 필요성 인정 답변",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "3",
+   "6"
+  ]
+ },
+ {
+  "id": "SI-N04",
+  "type": "언론",
+  "title": "케이블카·모노레일 재허가·안전관리 강화 궤도운송법 개정안 시행",
+  "publisher": "파이낸셜뉴스",
+  "url_or_path": "https://www.fnnews.com/news/202609170830426912",
+  "published": "2026-09-17",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "하위법령 2026-09-18 시행. 허가 유효기간 20년 이내, 만료 2년~1년 전 재허가 신청, 안전관리계획 미수립·시정명령 불이행 시 사업정지 10·30·60일 또는 허가취소, 재허가 시 안전검사 결과 고려",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1",
+   "3",
+   "6"
+  ]
+ },
+ {
+  "id": "SI-N05",
+  "type": "언론",
+  "title": "설악산 케이블카 운행 중 정지(승객 고립)",
+  "publisher": "미주중앙일보(검색 요약)",
+  "url_or_path": "https://www.koreadaily.com/article/20250720015822441",
+  "published": "2025-07-20",
+  "accessed": "2026-09-24",
+  "locator": "검색결과 요약(원문 HTTP 410)",
+  "quote_or_value": "승객 87명 탑승 케이블카 상·하행 정지, 2시간 이상 공중 고립 보도. 원문 미열람",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "SI-F01",
+  "type": "해외",
+  "title": "Directive 2014/45/EU Art.11(3)·Annex III — 검사장비 교정주기",
+  "publisher": "EU(EUR-Lex, legislation.gov.uk 사본)",
+  "url_or_path": "https://www.legislation.gov.uk/eudr/2014/45/annex/III ; https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0045",
+  "published": "2014-04-03",
+  "accessed": "2026-09-24",
+  "locator": "Art.11(3), Annex III 2",
+  "quote_or_value": "측정장비는 Annex III에 따라 주기 교정. 교정 간 최대 간격: 중량·압력·소음 24개월, 힘(제동력) 24개월, 배출가스 12개월",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "SI-F02",
+  "type": "해외",
+  "title": "일본 자동차검사용 기계기구 교정(登録校正実施機関)",
+  "publisher": "一般社団法人 日本自動車機械工具協会",
+  "url_or_path": "https://www.jasea.org/business/proofreading.html",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "국토교통대신 등록 교정실시기관으로서 브레이크테스터·사이드슬립·속도계시험기·전조등시험기·CO·HC·흑연·오파시미터·음량계 9종을 연 1회 교정",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "SI-F03",
+  "type": "해외",
+  "title": "독일 HU 검사거점 제동시험기 교정 의무화",
+  "publisher": "autoservicepraxis(업계지, ASA 안내 인용)",
+  "url_or_path": "https://www.autoservicepraxis.de/nachrichten/autobranche/pruefmittel-behoerdern-verlangen-kalibrierung-2496662",
+  "published": "2017-08-07",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "주(州) 최고행정청이 HU 검사거점 제동시험기에 Stückprüfung 외 교정 요구, 미이행 시 검사거점 인정 철회. 교정 대리인 약 400곳. DAkkS 인정 교정서 요구(2021~)는 다른 업계자료 검색 요약으로만 확인",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "SI-F04",
+  "type": "해외",
+  "title": "스위스 연방교통청(BAV) 삭도 감독",
+  "publisher": "BAV",
+  "url_or_path": "https://www.bav.admin.ch/de/seilbahnen",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "연방 인가 삭도 약 650기 담당, 운영단계는 위험기반·표본 감사와 운영점검으로 사업자 안전책임 이행 확인. 전체 약 2,400기 중 소형은 주(州)·IKSS 감독",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "SI-F05",
+  "type": "해외",
+  "title": "Regulation (EU) 2016/424 cableway installations",
+  "publisher": "EU(검색 요약)",
+  "url_or_path": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0424",
+  "published": "2016-03-09",
+  "accessed": "2026-09-24",
+  "locator": "Art.9 요지",
+  "quote_or_value": "신규 삭도 설계·제작·운행개시 필수안전요건. 운행 중 안전감독·허가는 회원국 권한으로 남음. 원문 조문 미열람",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "SI-P07",
+  "type": "예산",
+  "title": "TS 2026 추진계획 — 수소차 인프라 확대(특수검사처)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.149(쪽 145)",
+  "quote_or_value": "정부예산 확보로 경기(안산)·전북(완주) 검사 인프라 기반 마련: 안산 건축비 31억, 완주 설계비 3억",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "9"
+  ]
+ },
+ {
+  "id": "SI-R01",
+  "type": "내부",
+  "title": "2차사업 납품범위와 정기검사 사후관리의 비중복 판단",
+  "publisher": "본 문서 추론",
+  "url_or_path": "SI-C02·SI-C03·SI-P04 대조",
+  "published": "2026-09-25",
+  "accessed": "2026-09-24",
+  "locator": "§3",
+  "quote_or_value": "2차사업 SFR-007~012는 최초·구조변경 제출서류(도면·제원표) 심사와 성적서 재발행 번호, SFR-013~018은 궤도 안전관리계획 입력·AI 검토. 정기정밀도검사 부적합→재검→사용중지·폐기→시·도 보고 추적은 어느 SFR에도 없음",
+  "grade": "INFERRED",
+  "used_in": [
+   "0",
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "SI-R02",
+  "type": "데이터",
+  "title": "미재검 148건의 성격 추정",
+  "publisher": "본 문서 추론",
+  "url_or_path": "SI-E01·SI-E07·SI-E04",
+  "published": "2026-09-25",
+  "accessed": "2026-09-24",
+  "locator": "§4",
+  "quote_or_value": "미재검 148건 중 작동불능 69.6%, 전 기기 작동불능+미재검 방문 58건 → 상당수는 방치·폐기 예정 기기가 대장에 남은 경우로 추정. 측정기기 CSV에 폐기/대기 상태코드가 있어 상태 관리 필드는 존재. 폐기 확인 비율 미확인",
+  "grade": "INFERRED",
+  "used_in": [
+   "4",
+   "7"
+  ]
+ },
+ {
+  "id": "SI-R03",
+  "type": "계획",
+  "title": "수소 내압용기 불합격률 수치 상충",
+  "publisher": "본 문서 추론",
+  "url_or_path": "SI-P03·SI-N01 대조",
+  "published": "2026-09-25",
+  "accessed": "2026-09-24",
+  "locator": "§2·§9",
+  "quote_or_value": "추진계획은 '14→36% 지속 상승', 2024-12 TS 발표 인용 기사는 2021 36.1%→2022 9.6%→2023 12.9%→2024(9월) 18.2%. 분모(재검 대수·차종)·연도 기준이 다를 가능성. 원자료 없이 추세 판단 불가",
+  "grade": "INFERRED",
+  "used_in": [
+   "2",
+   "9"
+  ]
+ },
+ {
+  "id": "SI-R04",
+  "type": "데이터",
+  "title": "정밀안전검사 대상 규모 상충",
+  "publisher": "본 문서 추론",
+  "url_or_path": "SI-P06·SI-E08 대조",
+  "published": "2026-09-25",
+  "accessed": "2026-09-24",
+  "locator": "§1·§9",
+  "quote_or_value": "계획의 정밀안전검사 대상 57기 대비 공개 삭도현황 행 준공일 기준 30년 이상 20기. 궤도(모노레일 등) 포함 여부·기 단위 준공일 차이로 추정",
+  "grade": "INFERRED",
+  "used_in": [
+   "1",
+   "9"
+  ]
+ },
+ {
+  "id": "SI-U01",
+  "type": "통계",
+  "title": "정밀도검사 연간 총 검사건수(부적합률 분모)",
+  "publisher": "미확인",
+  "url_or_path": "data.go.kr·TS 누리집·ALIO·KOSIS 검색",
+  "published": "-",
+  "accessed": "2026-09-24",
+  "locator": "-",
+  "quote_or_value": "공개 자료에서 정기·최초·구조변경 정밀도검사 총 건수 미발견. 2022 부적합률 산출 불가",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "SI-U02",
+  "type": "통계",
+  "title": "부적합 보고 후 시·도·시군구 처분 실적",
+  "publisher": "미확인",
+  "url_or_path": "WebSearch(정밀도검사 미수검 정비업체 적발·사업정지)",
+  "published": "-",
+  "accessed": "2026-09-24",
+  "locator": "-",
+  "quote_or_value": "제69조④ 부적합 보고 이후 사용중지 확인·제66조 처분 건수 공개자료 없음",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "4",
+   "8"
+  ]
+ },
+ {
+  "id": "SI-U03",
+  "type": "감사",
+  "title": "감사원·TS 자체감사의 특수검사 관련 지적",
+  "publisher": "미확인",
+  "url_or_path": "WebSearch(감사원 한국교통안전공단 정밀도검사·궤도·삭도·내압용기)",
+  "published": "-",
+  "accessed": "2026-09-24",
+  "locator": "-",
+  "quote_or_value": "관련 감사결과 미발견. bai.go.kr·ALIO 감사공시 원문 직접 조회는 미실시(동적 페이지)",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "SI-U04",
+  "type": "계약",
+  "title": "특수검사정보관리시스템·궤도시설종합정보관리시스템 구축·유지보수 계약 이력",
+  "publisher": "미확인",
+  "url_or_path": "WebSearch, 로컬 {A} 색인 grep",
+  "published": "-",
+  "accessed": "2026-09-24",
+  "locator": "-",
+  "quote_or_value": "시스템명은 RFP·TS 누리집에서 확인되나 구축연도·수행사·유지보수 계약 미확인. RFP 현행 시스템 현황은 내방 열람 제한",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "SI-U05",
+  "type": "계획",
+  "title": "TS 특수검사처의 KOLAS ISO/IEC 17020 검사기관 인정 범위",
+  "publisher": "미확인",
+  "url_or_path": "WebSearch(KOLAS ISO 17020 한국교통안전공단)",
+  "published": "-",
+  "accessed": "2026-09-24",
+  "locator": "-",
+  "quote_or_value": "추진계획의 '사후관리 현지평가'와 ISO 17020 문서 개정 용역으로 인정 보유를 추정하나 인정번호·범위 미확인",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "3",
+   "6"
+  ]
+ }
+]

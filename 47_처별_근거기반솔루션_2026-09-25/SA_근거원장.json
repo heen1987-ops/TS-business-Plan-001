@@ -1,0 +1,981 @@
+[
+ {
+  "id": "SA-E01",
+  "type": "법령",
+  "title": "교통안전법 제33조(교통수단안전점검)",
+  "publisher": "국가법령정보센터(국토교통부)",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=254099&efYd=20240817",
+  "published": "법률 제19673호, 2023-08-16 공포, 2024-08-17 시행",
+  "accessed": "2026-09-24",
+  "locator": "제33조 제1~9항",
+  "quote_or_value": "②항: 저해요인 발견 시 개선대책 수립·시행, 운영자에게 개선사항을 권고할 수 있음. ⑥항: 기준 이상 사고 시 장관의 점검 의무. ⑧항: 결과 통보받은 교통행정기관이 조치 후 장관에게 조치내용 통보",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "1",
+   "4",
+   "9"
+  ]
+ },
+ {
+  "id": "SA-E02",
+  "type": "법령",
+  "title": "교통안전법 제21조(교통안전관리규정)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=254099&efYd=20240817",
+  "published": "2024-08-17 시행본",
+  "accessed": "2026-09-24",
+  "locator": "제21조 제1~5항",
+  "quote_or_value": "20대 이상 운영자 규정 제출(①)·준수(②), 교통행정기관의 준수 확인·평가(③), 변경명령(④)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4"
+  ]
+ },
+ {
+  "id": "SA-E03",
+  "type": "법령",
+  "title": "교통안전법 제65조 제2항(과태료 500만원 이하)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=254099&efYd=20240817",
+  "published": "2024-08-17 시행본(제2항 최종개정 2024-01-23)",
+  "accessed": "2026-09-24",
+  "locator": "제65조 제2항 제1~3호",
+  "quote_or_value": "규정 미제출·미준수·변경명령 불이행(1호), 점검 거부·방해·기피(2호), 보고 미제출·거짓보고·자료제출 거부(3호)에 과태료. 제33조② 개선권고 불이행에 대한 제재 조항 없음(제65조 전문 대조)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "1",
+   "4",
+   "9"
+  ]
+ },
+ {
+  "id": "SA-E04",
+  "type": "법령",
+  "title": "교통안전법 제59조 제3항(업무의 위탁)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=254099&efYd=20240817",
+  "published": "2024-08-17 시행본",
+  "accessed": "2026-09-24",
+  "locator": "제59조 제1~3항",
+  "quote_or_value": "장관·교통행정기관·시군구청장이 업무 일부를 교통안전 전문기관·단체에 위탁 가능",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "SA-E05",
+  "type": "법령",
+  "title": "교통안전법 시행령 제20조(교통수단안전점검의 대상 등)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=289649&efYd=20260915",
+  "published": "대통령령 제36689호, 2026-09-15 시행",
+  "accessed": "2026-09-24",
+  "locator": "제20조 제1~5항",
+  "quote_or_value": "의무점검 사고기준: 1건 사망 1명 이상·중상 2명 이상·20대 이상 보유사 평가지수 초과. 점검항목: 위험요인 조사·법령 위반 확인·규정 준수 점검",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "SA-E06",
+  "type": "법령",
+  "title": "교통안전법 시행령 제21조의2(교통수단안전점검 결과의 처리)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=289649&efYd=20260915",
+  "published": "2017-09-19 신설, 2026-09-15 시행본",
+  "accessed": "2026-09-24",
+  "locator": "제21조의2",
+  "quote_or_value": "통보받은 날부터 3개월 이내 조치내용과 미조치 사유·조치계획 통보. 교통안전정보관리체계 입력 시 통보 간주",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "1",
+   "2",
+   "4",
+   "5",
+   "8"
+  ]
+ },
+ {
+  "id": "SA-E07",
+  "type": "법령",
+  "title": "교통안전법 시행령 제19조(교통안전관리규정의 검토 등)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=289649&efYd=20260915",
+  "published": "2026-09-15 시행본",
+  "accessed": "2026-09-24",
+  "locator": "제19조 제1~3항",
+  "quote_or_value": "검토결과 적합·조건부 적합·부적합 3구분. 조건부·부적합이면 변경명령 등 필요조치 의무",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "SA-E08",
+  "type": "법령",
+  "title": "교통안전법 시행령 제48조(권한의 위임)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=289649&efYd=20260915",
+  "published": "2022-05-03 신설, 2024-04-09 개정",
+  "accessed": "2026-09-24",
+  "locator": "제48조 제2호 가~라목, 제6호",
+  "quote_or_value": "제33조 점검 실시·개선대책·개선권고·자료제출 명령·결과 통보 권한과 관련 과태료 부과를 지방국토관리청장에게 위임",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4",
+   "9"
+  ]
+ },
+ {
+  "id": "SA-E09",
+  "type": "법령",
+  "title": "교통안전법 시행령 제48조의2(업무의 위탁)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=289649&efYd=20260915",
+  "published": "2026-09-15 시행본",
+  "accessed": "2026-09-24",
+  "locator": "제48조의2 제1항 제1호, 제2항 제1·2·4·7·8호",
+  "quote_or_value": "TS 위탁: 제33조⑥ 교통수단안전점검, 교통안전관리규정 접수·준수 확인·평가, 교통안전정보관리체계 구축·관리, 운행기록 점검·분석, 점검 관련 자료제출 요구, 특별실태조사 이행 확인",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3",
+   "9"
+  ]
+ },
+ {
+  "id": "SA-E10",
+  "type": "법령",
+  "title": "교통안전법 시행규칙 제5조(규정 준수 여부의 확인·평가)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=289845&efYd=20260915",
+  "published": "국토교통부령 제1621호, 2026-09-15 시행",
+  "accessed": "2026-09-24",
+  "locator": "제5조 제1항",
+  "quote_or_value": "규정 제출일 기준 매 5년 경과일 전후 100일 이내 확인·평가",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4"
+  ]
+ },
+ {
+  "id": "SA-E11",
+  "type": "법령",
+  "title": "교통안전법 시행규칙 제7조의2(교통안전도 평가지수 기준)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=289845&efYd=20260915",
+  "published": "2018-01-12 신설",
+  "accessed": "2026-09-24",
+  "locator": "제7조의2",
+  "quote_or_value": "시내·농어촌·마을·특수여객 2.5, 시외·일반택시 2, 전세 1, 일반화물 1",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "SA-E12",
+  "type": "법령",
+  "title": "교통안전법 시행규칙 제8조의2(교통안전 우수사업자)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=289845&efYd=20260915",
+  "published": "2026-09-15 시행본",
+  "accessed": "2026-09-24",
+  "locator": "제8조의2 제2·4·5항",
+  "quote_or_value": "지정 유효 1년. 혜택: 규정 준수 확인·평가 유예, 교통수단안전점검 면제",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "9"
+  ]
+ },
+ {
+  "id": "SA-E13",
+  "type": "법령",
+  "title": "교통안전법 시행규칙 제17조(교통안전정보)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=289845&efYd=20260915",
+  "published": "2026-09-15 시행본",
+  "accessed": "2026-09-24",
+  "locator": "제17조 제3·4·5호",
+  "quote_or_value": "규정 확인·평가 결과, 교통수단안전점검 실시결과, 운행기록 점검·분석 결과가 교통안전정보 범위",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "7"
+  ]
+ },
+ {
+  "id": "SA-E14",
+  "type": "통계",
+  "title": "TS 교통수단안전점검 업무안내(절차·항목·실적)",
+  "publisher": "한국교통안전공단(교통안전처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040201",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "절차도·점검항목·추진실적 표",
+  "quote_or_value": "점검업체 2020 326, 2021 328, 2022 477, 2023 485(계 1,616; 버스 600·법인택시 436·일반화물 580). 결과보고 점검완료 1개월, 조치결과보고 3개월, 사후관리. 지적·권고·조치율 수치 미공개",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "SA-E15",
+  "type": "통계",
+  "title": "TS 교통안전관리규정 업무안내(실적)",
+  "publisher": "한국교통안전공단(교통안전처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040202",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "추진실적 표",
+  "quote_or_value": "적정성 검토 88·65·69·68·81, 이행확인평가 677·532·486·557·745(2020~2024). 평가결과 분포 미공개",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "SA-E16",
+  "type": "통계",
+  "title": "TS 교통안전 우수사업자 지정 안내",
+  "publisher": "한국교통안전공단(교통안전처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040203",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "2024년도 지정현황",
+  "quote_or_value": "2024년 15개사 지정(시내외4·마을2·전세5·택시1·화물3)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "SA-E17",
+  "type": "계약",
+  "title": "TS 운수안전컨설팅지원시스템(COSAS) 안내",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01081000",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "업무근거·서비스내용",
+  "quote_or_value": "업무근거 한국교통안전공단법 제6조. 규정·교통수단안전점검 등 법정사업 자료, 지자체 협업업무 진행상황 모니터링 제공",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "SA-E18",
+  "type": "계획",
+  "title": "TS 2026 주요업무 추진계획 — 교통안전정책실 2025 성과",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01(추정)",
+  "accessed": "2026-09-24",
+  "locator": "p.108",
+  "quote_or_value": "2025 사업용 사망자 390명(목표대비 68.2%, 전년比 6.8%·25명 증가). 고위험 1,000·중위험 3,328개사 컨설팅, 운수회사 사고율 0.563→0.255(54.7% 감소, 기관 발표)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4",
+   "8"
+  ]
+ },
+ {
+  "id": "SA-E19",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 개선 필요사항",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01(추정)",
+  "accessed": "2026-09-24",
+  "locator": "p.109",
+  "quote_or_value": "고위험군 집중관리 대상 외 운수사 사망자 증가, 중위험군 등 사각지대 관리범위 확대 필요",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "SA-E20",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 추진방향 목표",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01(추정)",
+  "accessed": "2026-09-24",
+  "locator": "p.111",
+  "quote_or_value": "사업용 사망자 25년 390명(10월말)→26년 334명(국정목표, 14.4% 감소)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "8"
+  ]
+ },
+ {
+  "id": "SA-E21",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 데이터 기반 운수회사 안전관리 강화",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01(추정)",
+  "accessed": "2026-09-24",
+  "locator": "p.114",
+  "quote_or_value": "DRT·중소형 사고다발사 관리제외 문제, 운송안전감독관 제도 입법 추진, 규정평가 항목 재정비, 고위험 1,000개사(중대사고·촉탁직·중소형·안전등급 하위), COSAS 교통안전융합정보로 분기별 관리",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "3",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "SA-E22",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 시기별 취약수단 합동점검",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01(추정)",
+  "accessed": "2026-09-24",
+  "locator": "p.124",
+  "quote_or_value": "국토부·연합회·TS 합동점검(행락철 전세버스 5·10월, 화물 상시, 시내버스 6월)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "SA-E23",
+  "type": "계약",
+  "title": "2026년 운수안전컨설팅지원시스템 운영 및 고도화 RFP(공고 19137)",
+  "publisher": "한국교통안전공단 데이터융복합처",
+  "url_or_path": "{D}/검토결과_20260921/공식발주근거/19137_2. 과업 및 제안요청서_표포함본문.txt",
+  "published": "2026-05",
+  "accessed": "2026-09-24",
+  "locator": "Ⅰ.1~2, Ⅱ.1 연계시스템, Ⅲ SFR-001~005, MPR-001~004",
+  "quote_or_value": "예산 418,215,333원. COSAS는 수단안전점검·규정평가 업무시스템으로 활용. SFR 5건은 AI 운전자모델·AI보고서·이상운전·공간데이터·위험도예측이며 점검 지적-조치-해소 관리 요구사항 없음. MPR-002 운수회사·종사자 안전등급과 변화요인 표출",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5",
+   "7",
+   "9"
+  ]
+ },
+ {
+  "id": "SA-E24",
+  "type": "계약",
+  "title": "TS AI 공통플랫폼 고도화 및 민원·전세버스 공시 AI 구축 RFP(공고 19116)",
+  "publisher": "한국교통안전공단 AI혁신처",
+  "url_or_path": "{D}/검토결과_20260921/공식발주근거/19116_2. 과업 및 제안요청서_표포함본문.txt",
+  "published": "2026-06",
+  "accessed": "2026-09-24",
+  "locator": "표포함본문 1182~1192행",
+  "quote_or_value": "기 구축 운수지도지원 AI 사용성 개선: 추진계획서·점수 산정 내용 기반 학습 알고리즘 전환. 예산 448,316,087원",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "id": "SA-E25",
+  "type": "내부",
+  "title": "N-27 기획카드 v0.8 — COSAS 2026 계약 경과",
+  "publisher": "CCK 프로젝트 문서(내부자료)",
+  "url_or_path": "{P}/N-27_안전정보해석대응지원AI_기획카드_v0.1_2026-09-21.md",
+  "published": "2026-09-22",
+  "accessed": "2026-09-24",
+  "locator": "frontmatter v0.8",
+  "quote_or_value": "나라장터 조회 기록: 계약번호 R26TA02080755, 최초계약 2026-07-22, 2022~2026 제한경쟁 유찰→수의계약 반복(다른 세션 조회, 본 조사 미재확인)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "SA-E26",
+  "type": "데이터",
+  "title": "한국교통안전공단_운수안전컨설팅_안전등급정보_20241231.csv 직접 집계",
+  "publisher": "공공데이터포털(TS)",
+  "url_or_path": "{D}/원자료/공공데이터_CSV/한국교통안전공단_운수안전컨설팅_안전등급정보_20241231.csv",
+  "published": "2024-12-31 기준",
+  "accessed": "2026-09-24",
+  "locator": "전 545,601행, 9개 컬럼",
+  "quote_or_value": "컬럼=링크id·시도·시군구·도로안전등급·도로명·도로유형·차선수·도로길이·제한속도 → 운수회사 등급 아닌 도로링크 등급. A 508,610(93.2%)·B 15,439·C 7,485·D 14,053(2.58%)·결측 14; 연장 213,021km",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "7"
+  ]
+ },
+ {
+  "id": "SA-E27",
+  "type": "데이터",
+  "title": "안전등급정보_포털현재첨부_20260921.csv와 2024 판 비교 집계",
+  "publisher": "공공데이터포털(TS) 현재 첨부본",
+  "url_or_path": "{D}/검토결과_20260921/공식발주근거/안전등급정보_포털현재첨부_20260921.csv",
+  "published": "기준일 미표시(2026-09-21 내려받음)",
+  "accessed": "2026-09-24",
+  "locator": "링크id 1:1 결합 545,601",
+  "quote_or_value": "D 64,276(11.78%)로 4.6배. 등급 일치 80.4%, Cohen kappa 0.135, 2024 D의 27.5%만 D 유지, 악화 86,274·개선 20,671링크. 서울 D 1.50→20.52%",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "7",
+   "9"
+  ]
+ },
+ {
+  "id": "SA-E28",
+  "type": "내부",
+  "title": "CCK 회의록 발췌 — 전세버스 공시 업무 인터뷰",
+  "publisher": "CCK(내부자료)",
+  "url_or_path": "{P}/34_CCK_Slack_회의록_발췌_cck-meeting-record_20260827-0918.md",
+  "published": "2026-09 회의",
+  "accessed": "2026-09-24",
+  "locator": "2256행 요약",
+  "quote_or_value": "업체 허위 사진 제출 사례 존재, 제재는 0점 처리뿐, 현장점검은 규정상 가능하나 장기간 미시행 발언(STT 요약, 전세버스 공시 영역)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "SA-E29",
+  "type": "내부",
+  "title": "CCK 회의록 발췌 — 업체 식별 이력 단절",
+  "publisher": "CCK(내부자료)",
+  "url_or_path": "{P}/34_CCK_Slack_회의록_발췌_cck-meeting-record_20260827-0918.md",
+  "published": "2026-09 회의",
+  "accessed": "2026-09-24",
+  "locator": "2253·2256행",
+  "quote_or_value": "업체명 변경(양도·폐업 후 재등록) 시 별도 업체 취급으로 과거 이력 단절(전세버스 시스템)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "4",
+   "7"
+  ]
+ },
+ {
+  "id": "SA-E30",
+  "type": "통계",
+  "title": "TS 교통수단안전점검 실적 문구와 표 불일치",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040201",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "추진실적 문구·표",
+  "quote_or_value": "본문 최근 4년(20~23) 총 2,001개社 vs 표 합계 1,616개 — 385개 차이, 정의(합동점검 포함 여부 등) 미표시",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "SA-E31",
+  "type": "내부",
+  "title": "TS-01 컨셉 재검토 v1.3 — 안전등급 CSV 해석",
+  "publisher": "병행 세션 산출물(내부자료)",
+  "url_or_path": "{D}/검토결과_20260921/03_TS01-16_전체사업컨셉_구체화.md",
+  "published": "2026-09-21",
+  "accessed": "2026-09-24",
+  "locator": "TS-01 문제와 근거",
+  "quote_or_value": "안전등급 545,601행은 도로 링크 자료, 회사별 규정·평가표·조치증빙·현장확인 기록 미확보로 판단(본 조사 직접 집계와 일치)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "7"
+  ]
+ },
+ {
+  "id": "SA-E32",
+  "type": "법령",
+  "title": "교통수단안전점검·평가지침(행정규칙)",
+  "publisher": "국가법령정보센터(국토교통부 교통안전정책과)",
+  "url_or_path": "https://www.law.go.kr/LSW/admRulInfoR.do?admRulSeq=2100000282278",
+  "published": "국토교통부훈령 제1967호, 2026-07-08 시행(타법개정)",
+  "accessed": "2026-09-24",
+  "locator": "2.3.1·2.3.2·2.4",
+  "quote_or_value": "결과보고서 점검 종료 10일 이내(교통안전정보관리체계 입력 시 제출 간주). 시정지시(법령 위배)·개선권고(저해요인)·행정처분 구분. 조치결과서를 제출하게 하고 그 결과를 확인할 수 있음(재량). 다음 연도 2월말까지 이행여부 점검, 3월말까지 장관 보고",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "1",
+   "2",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "SA-E33",
+  "type": "법령",
+  "title": "교통안전관리규정 심사지침(행정규칙)",
+  "publisher": "국가법령정보센터(국토교통부)",
+  "url_or_path": "https://www.law.go.kr/LSW/admRulInfoR.do?admRulSeq=2100000204170",
+  "published": "국토교통부고시 제2021-1064호, 2021-09-07 시행",
+  "accessed": "2026-09-24",
+  "locator": "제8조·제9조·제13조",
+  "quote_or_value": "준수 확인·평가 80점 이상 적합·60~80 조건부·60 미만 부적합. 조건부는 공단이 최대 30일 권고, 이행 시 적합 판정, 불이행 시 교통행정기관 통보. 부적합은 교통행정기관 변경명령→불이행 과태료. 해당 연도 규정 확인·평가를 받으면 교통수단안전점검을 받은 것으로 간주(제13조②)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4",
+   "9"
+  ]
+ },
+ {
+  "id": "SA-E34",
+  "type": "언론",
+  "title": "한국교통안전공단 서울본부 중상 교통사고 낸 사업용 운수업체 특별점검",
+  "publisher": "브레이크뉴스(TS 서울본부 발표 인용)",
+  "url_or_path": "https://www.breaknews.com/877837",
+  "published": "2022-03-10",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "2021년 전국 328개사 점검, 216개사(65.9%)에서 465건 위반. 점검업체당 1.4건, 위반업체당 2.2건. 위반 시 관계기관에 과태료 등 처분 요청, 경미사항은 개선 지도",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1",
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "SA-E35",
+  "type": "언론",
+  "title": "작년 택시·버스 등 운수회사 사상건수 전년比 20% 뚝",
+  "publisher": "이데일리(TS 발표 인용)",
+  "url_or_path": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01958166625707584",
+  "published": "2020-03-27",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "2018년 점검 493개사: 사상 4,686→3,746건(20.1% 감소), 사망 173→38건(78% 감소). 비교군 없음, 사고 발생으로 선정된 업체의 다음 해 비교",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4",
+   "8"
+  ]
+ },
+ {
+  "id": "SA-E36",
+  "type": "언론",
+  "title": "291개 사망·중대교통사고 운수회사 특별점검",
+  "publisher": "이투데이·이데일리(국토해양부 발표 인용)",
+  "url_or_path": "https://www.etoday.co.kr/news/view/552022",
+  "published": "2012-03-02",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "2012년 3~6월 291개사 특별점검(버스115·전세32·택시52·화물92). 2010 사업용 사망 979명, 1만대당 10.1명(비사업용 2.6명)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "SA-E37",
+  "type": "언론",
+  "title": "TS 보도자료 — 보고서 초안 AI로, TS 자체 AI 플랫폼 본격 운영",
+  "publisher": "한국교통안전공단(AI혁신처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do?bbscCode=report&menuCode=05010200&bbscSeqn=18768",
+  "published": "2025-12-29",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "TS-AI GPT 1,850여 명 대상 운영. 교통안전관리규정 이행 확인 평가를 지원하는 AI 기반 특화 서비스 도입(기능 상세 미공개). 교차검증 원장 OV-68과 동일 출처",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "id": "SA-E38",
+  "type": "계획",
+  "title": "2026 TS AX 주요과제 12선 ⑪ 생성형 AI 업무지원",
+  "publisher": "한국교통안전공단(출처 표기: AI혁신처 공적조서)",
+  "url_or_path": "{P}/08_TS 발간물/2026_TS_AX_주요과제_12선_인포그래픽_13장.pdf",
+  "published": "2026",
+  "accessed": "2026-09-24",
+  "locator": "p.12(이미지 판독)",
+  "quote_or_value": "규정·지침·매뉴얼 387개 문서, 운수안전지도 검토 15분→2분(해당 업무 적용 결과이며 전체 행정업무 단축률 아님 명시). 교차검증 원장 OV-48과 동일",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "id": "SA-E39",
+  "type": "데이터",
+  "title": "국토교통부_교통안전_교통수단 안전점검 정보_20241231",
+  "publisher": "공공데이터포털(국토교통부 교통안전정책과)",
+  "url_or_path": "https://www.data.go.kr/data/15072419/fileData.do",
+  "published": "등록 2020-10-29, 수정 2025-07-11, 연간",
+  "accessed": "2026-09-24",
+  "locator": "메타데이터",
+  "quote_or_value": "XLS, 분기별 실적·평가지수 초과·합계 결과, 키워드 업종별 법규위반·점검결과. 내려받기 로그인 필요(업체정보 포함) → 본 조사 미열람(사용자 승인 필요)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "7",
+   "8"
+  ]
+ },
+ {
+  "id": "SA-E40",
+  "type": "데이터",
+  "title": "한국교통안전공단_운수안전컨설팅_안전등급정보(포털 현행 메타)",
+  "publisher": "공공데이터포털(TS 교통빅데이터센터)",
+  "url_or_path": "https://www.data.go.kr/data/15149779/fileData.do",
+  "published": "등록 2025-09-17, 수정 2025-09-18, 연간(차기 2026-09-17)",
+  "accessed": "2026-09-24",
+  "locator": "메타데이터",
+  "quote_or_value": "사업용차량 운행기록과 교통사고(확정통계)로 분석한 도로 링크 등급. 산정식·기준연도 미기재. 메타 표기 행수(17,116)와 실제 첨부(545,601행) 불일치",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "7"
+  ]
+ },
+ {
+  "id": "SA-E41",
+  "type": "데이터",
+  "title": "한국교통안전공단_운수안전컨설팅_준수율현황정보_20251231",
+  "publisher": "공공데이터포털(TS 교통빅데이터센터)",
+  "url_or_path": "https://www.data.go.kr/data/15149783/fileData.do",
+  "published": "등록 2026-07-06, 수정 2026-08-11, 연간",
+  "accessed": "2026-09-24",
+  "locator": "메타데이터",
+  "quote_or_value": "시군구 단위 사업용차량 제한속도 준수율(249행). 운수회사 단위 아님",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "7"
+  ]
+ },
+ {
+  "id": "SA-E42",
+  "type": "데이터",
+  "title": "국토교통부_교통안전_운수회사 현황 정보",
+  "publisher": "공공데이터포털(국토교통부 교통안전정책과)",
+  "url_or_path": "https://www.data.go.kr/data/15072340/fileData.do",
+  "published": "수정 2026-06-23, 수시(주간)",
+  "accessed": "2026-09-24",
+  "locator": "메타데이터",
+  "quote_or_value": "지자체·규모별 버스·택시·화물 회사 수(개인택시·개인화물 제외). 안전등급·점검결과 없음. 분모(모집단) 산정용",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "7",
+   "8"
+  ]
+ },
+ {
+  "id": "SA-E43",
+  "type": "민원",
+  "title": "국민신문고 TS 민원 374건 분류표 직접 집계",
+  "publisher": "CCK 수집(국민신문고 공개 민원)",
+  "url_or_path": "{P}/kotsa_국민신문고_민원374건_원문URL_분류표_2024-09~2026-09.csv",
+  "published": "2024-09~2026-09",
+  "accessed": "2026-09-24",
+  "locator": "전 374행 title·category·요약 문자열 검색",
+  "quote_or_value": "운수회사·운수업체·관리규정·COSAS·개선명령 언급 0건, 점검 7건은 모두 다른 업무(내압용기·기계식주차장 등). 국민 체감 수요 신호 없음(문제 부재의 증거 아님)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "9"
+  ]
+ },
+ {
+  "id": "SA-E44",
+  "type": "해외",
+  "title": "49 CFR 385.17 Change to safety rating based upon corrective actions",
+  "publisher": "Cornell LII(미국 연방규정 전재)",
+  "url_or_path": "https://www.law.cornell.edu/cfr/text/49/385.17",
+  "published": "현행 전재본",
+  "accessed": "2026-09-24",
+  "locator": "(a)(c)(e)(j)",
+  "quote_or_value": "Conditional/Unsatisfactory 등급 사업자는 시정조치 서면 증빙으로 등급 변경 요청, 여객·위험물 30일·기타 45일 내 결정. 등급이 운행 가능 여부와 연결",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "SA-E45",
+  "type": "해외",
+  "title": "DOT OIG STL2017065 FMCSA Strengthened Controls for Timely and Quality Reviews of High-Risk Carriers, but Data Challenges Remain",
+  "publisher": "미국 교통부 감사관실(OIG)",
+  "url_or_path": "https://www.oig.dot.gov/sites/default/files/FMCSA%20Policies%20and%20Processes%20for%20Compliance%20Reviews%20of%20High-Risk%20Carriers%5E7-25-17.pdf",
+  "published": "2017-07-25",
+  "accessed": "2026-09-24",
+  "locator": "Results in Brief·Background",
+  "quote_or_value": "고위험 우선정책(2016)으로 적시성 개선. 그러나 조사 유형·규정 범주 데이터 한계로 compliance review 효과 평가 불가. 2014년 고위험 표시 후 미조사 업체의 사망사고 사례. 대형 트럭·버스 사망 4,043(2011)→4,337(2015)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4",
+   "6"
+  ]
+ },
+ {
+  "id": "SA-E46",
+  "type": "해외",
+  "title": "Operator Compliance Risk Score(OCRS): how you are scored",
+  "publisher": "GOV.UK(DVSA)",
+  "url_or_path": "https://www.gov.uk/operator-compliance-risk-score/how-youre-scored",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "3년 이동기간의 MOT·노상검사·서면평가·현장방문 자료로 도로적합성·운행 점수 산정, 적·황·녹 등급, 사업자 본인 점수 조회 가능, 단속 대상 선정에 사용",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "SA-E47",
+  "type": "해외",
+  "title": "監査について(自動車運送事業者)",
+  "publisher": "国土交通省 近畿運輸局 自動車監査指導部",
+  "url_or_path": "https://wwwtb.mlit.go.jp/kinki/content/202304kansa.pdf",
+  "published": "2023-04 게시 추정(파일명)",
+  "accessed": "2026-09-24",
+  "locator": "監査の種類·監査の流れ",
+  "quote_or_value": "指摘事項確認監査(貸切): 확인일부터 30일 이내 是正状況 확인. 行政処分 후 改善状況 확인 監査, 改善否면 特別監査. 再違反: 과거 3년 이내 동일 営業所 동일 違反",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4",
+   "5",
+   "6",
+   "8"
+  ]
+ },
+ {
+  "id": "SA-E48",
+  "type": "해외",
+  "title": "Conduct HVA scheme audits(Corrective Action Requests)",
+  "publisher": "National Heavy Vehicle Regulator(호주)",
+  "url_or_path": "https://www.nhvr.gov.au/safety-accreditation-compliance/heavy-vehicle-accreditation-scheme/hva-for-auditors/conduct-hva-scheme-audits",
+  "published": "2026-08-21 갱신 표기",
+  "accessed": "2026-09-24",
+  "locator": "CAR 절",
+  "quote_or_value": "CAR 기한 최대 3개월, Major CAR는 종결 전 감사보고서 불수리, 조치는 근본원인 해소 요구",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "5",
+   "6"
+  ]
+ },
+ {
+  "id": "SA-E49",
+  "type": "국감",
+  "title": "2024 국정감사 이슈 분석 제7권 국토교통위원회",
+  "publisher": "국회입법조사처",
+  "url_or_path": "https://www.nars.go.kr/report/view.do?cmsCode=CM0043&brdSeq=45302",
+  "published": "2024-08-19",
+  "accessed": "2026-09-24",
+  "locator": "목차(웹)",
+  "quote_or_value": "2023 국감 시정·처리결과 평가에 한국교통안전공단 포함 확인. 본문 DRM 뷰어로 접근불가, SA 관련 지적 여부 미확인",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "11"
+  ]
+ },
+ {
+  "id": "SA-E50",
+  "type": "계획",
+  "title": "운송안전감독관 제도 도입 입법 추진 여부",
+  "publisher": "TS 추진계획(p.114) 외 공개자료",
+  "url_or_path": "WebSearch(\"운송안전감독관\", \"운송안전감독관 교통안전법 개정안\")",
+  "published": "2026-09-24 검색",
+  "accessed": "2026-09-24",
+  "locator": "-",
+  "quote_or_value": "TS 계획서 외 법안·입법예고·보도 미발견. 권한 구조 변화 가능성은 미확인",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "1",
+   "9"
+  ]
+ },
+ {
+  "id": "SA-E51",
+  "type": "통계",
+  "title": "교통수단안전점검 연도별 지적 건수·개선권고·조치율·재지적률 공식 통계",
+  "publisher": "TS·국토부 공개자료",
+  "url_or_path": "TS 업무안내·보도자료 게시판·data.go.kr·WebSearch",
+  "published": "2026-09-24 검색",
+  "accessed": "2026-09-24",
+  "locator": "-",
+  "quote_or_value": "점검 업체 수만 공개. 지적·권고·조치·재지적은 2021년 1회 언론 인용(SA-E34) 외 미확보",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "SA-E52",
+  "type": "통계",
+  "title": "점검·컨설팅 전후 사고 감소 발표의 평균회귀 가능성",
+  "publisher": "본 조사 추론",
+  "url_or_path": "SA-E05·SA-E18·SA-E35 조합",
+  "published": "-",
+  "accessed": "2026-09-24",
+  "locator": "-",
+  "quote_or_value": "의무점검은 사망·중상 사고 발생으로 선정되므로 다음 해 사고 감소의 상당 부분이 평균회귀일 수 있음. 비교군 없는 전후 비교로는 점검·컨설팅 효과와 구분 불가",
+  "grade": "INFERRED",
+  "used_in": [
+   "2",
+   "4",
+   "8"
+  ]
+ },
+ {
+  "id": "SA-E53",
+  "type": "법령",
+  "title": "종결 구조의 문서 의존성",
+  "publisher": "본 조사 추론",
+  "url_or_path": "SA-E06·SA-E32·SA-E33 조합",
+  "published": "-",
+  "accessed": "2026-09-24",
+  "locator": "-",
+  "quote_or_value": "조치 확인은 조치결과서·TMACS 입력으로 통보 간주, 결과 확인은 재량, 이행점검은 연 1회(다음 연도 2월말), 규정평가 5년 주기. 제도상 실제 해소를 별도로 관측하는 절차 부재",
+  "grade": "INFERRED",
+  "used_in": [
+   "0",
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "SA-E54",
+  "type": "법령",
+  "title": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 제2조 제4호",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=282791&efYd=20260721",
+  "published": "법률 제21311호, 2026-01-20 개정, 2026-07-21 시행",
+  "accessed": "2026-09-24",
+  "locator": "제2조 제4호 아·자목",
+  "quote_or_value": "고영향 AI 영역: 교통안전법상 교통수단·시설·체계의 주요 작동·운영(아목), 국가기관등의 국민 영향 의사결정(자목)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "9"
+  ]
+ },
+ {
+  "id": "SA-E55",
+  "type": "통계",
+  "title": "2017년도 교통안전연차보고서(점검 실적 수록 추정)",
+  "publisher": "국토교통부(korea.kr 게시)",
+  "url_or_path": "https://m.korea.kr/expertWeb/resources/files/data/document_file/2017/2017%EB%85%84%EB%8F%84%20%EA%B5%90%ED%86%B5%EC%95%88%EC%A0%84%EC%97%B0%EC%B0%A8%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf",
+  "published": "2017",
+  "accessed": "2026-09-24",
+  "locator": "-",
+  "quote_or_value": "WebFetch 10MB 초과로 미열람. 파일 내려받기는 사용자 승인 필요",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "11"
+  ]
+ },
+ {
+  "id": "SA-E56",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 사업용 자동차 안전관리 체계 구축(국정72)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01(추정)",
+  "accessed": "2026-09-24",
+  "locator": "p.20",
+  "quote_or_value": "고위험 중소형 운수사 1,000개(평가지수 하위 5%) 집중관리, DRT 사업자 교통수단안전점검 대상 포함 추진",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "SA-E57",
+  "type": "논문",
+  "title": "버스운전자 안전운행지원을 위한 교통사고 분석 연구",
+  "publisher": "한국ITS학회 논문지(KCI)",
+  "url_or_path": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002439757",
+  "published": "2019",
+  "accessed": "2026-09-24",
+  "locator": "초록",
+  "quote_or_value": "버스 유형·반복사고 여부별 사고심각도 분석(순서형 로짓). 초록상 반복사고 비율 수치 미공개. 교통수단안전점검 효과를 직접 분석한 KCI 논문은 미발견",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "6",
+   "11"
+  ]
+ },
+ {
+  "id": "SA-E58",
+  "type": "논문",
+  "title": "KST 학술대회 S-44 운수안전 컨설팅 지원시스템 운영 및 고도화 세션",
+  "publisher": "대한교통학회(TS 주관 세션)",
+  "url_or_path": "https://kst.or.kr/bbs/board.php?bo_table=tugo_programbook83&wr_id=122",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "세션 소개",
+  "quote_or_value": "DTG·사고·운전자 정보 결합 대리안전지표(surrogate safety measure)로 운수회사·운전자 평가, COSAS 반영. 원고 미제출로 검증 수치 없음",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "3",
+   "6"
+  ]
+ },
+ {
+  "id": "SA-E59",
+  "type": "내부",
+  "title": "조직검증·중복경계 v0.1 §5·§6(교차검증 조사원)",
+  "publisher": "CCK 교차검증 산출물(내부자료)",
+  "url_or_path": "{S}/out/00_조직검증_중복경계_v0.1.md",
+  "published": "2026-09-24",
+  "accessed": "2026-09-24",
+  "locator": "§5 중복매트릭스 SA행, §6 SA",
+  "quote_or_value": "SA 직접 중복 위험(관리규정 영역)·부분(수단점검 영역). 대표 컨셉은 교통수단안전점검 미흡의 조치 후 실제 해소로 한정 권고. COSAS 데이터 권한 경로는 데이터융복합처",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "3",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "id": "SA-E60",
+  "type": "데이터",
+  "title": "안전등급 두 판본의 시도별 D등급 비율 변화",
+  "publisher": "본 조사 직접 집계",
+  "url_or_path": "{D}/원자료/... 2024판 vs {D}/검토결과_20260921/... 포털판",
+  "published": "-",
+  "accessed": "2026-09-24",
+  "locator": "시도별 교차집계",
+  "quote_or_value": "D비율 서울 1.50→20.52%, 대전 1.79→18.60%, 광주 1.51→15.00%, 경기 2.41→13.71%, 전남 2.99→9.05%. 도시부 급증 → 산정 방식·공간단위·사고자료 갱신 효과로 추정(SFR-004·MPR-004)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "7"
+  ]
+ }
+]

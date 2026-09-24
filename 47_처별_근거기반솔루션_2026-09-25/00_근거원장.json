@@ -1,0 +1,1176 @@
+[
+ {
+  "id": "OV-01",
+  "type": "계획",
+  "title": "2026년도 주요업무 추진계획 — 조직 및 인원",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-25",
+  "locator": "p.8(인쇄 4쪽)",
+  "quote_or_value": "본사 4실 5본부·부설 1(자동차안전연구원); 14개 지역본부·59개 검사소; 정원 1,880.3명('26.1.1)·현원 1,834.725명('25.12.23), 한시정원 포함·별정직 제외",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "1",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-02",
+  "type": "예산",
+  "title": "2026년도 주요업무 추진계획 — 예산 현황",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-25",
+  "locator": "p.9(인쇄 5쪽)",
+  "quote_or_value": "'26 예산 16,998억원(전년比 +7,445억, 77.9%↑); 정부출연금·보조금 14,178억; 교통안전사업 13,370억; 2025 9,553억/2024 6,603억/2023 5,002억('25.12.22 기준)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-03",
+  "type": "계획",
+  "title": "추진계획 — 모빌리티교통안전본부 하위 실 구분",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-25",
+  "locator": "p.97·p.107·p.125 표지",
+  "quote_or_value": "6-1 모빌리티정책실 / 6-2 교통안전정책실 / 6-3 모빌리티지원센터. '모빌리티연구실' 표기 0회",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "OV-04",
+  "type": "계획",
+  "title": "추진계획 — 자동차검사본부 하위 실 구분",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-25",
+  "locator": "p.139·p.152·p.161 표지",
+  "quote_or_value": "7-1 검사전략실 / 7-2 첨단자동차검사연구센터 / 7-3 튜닝안전기술원",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "OV-05",
+  "type": "계획",
+  "title": "추진계획 — 검사전략실 과제별 담당처 표기",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-25",
+  "locator": "p.145~151",
+  "quote_or_value": "검사정책처(전기차·자율차·첨단장치 진단·배출검사·민간검사소), 검사운영처(AIoT·검사서류 제로화·친환경 진로·리콜안내·VIMS 클라우드), 특수검사처(내압용기 AI·궤도 AI·정도검사 AI 심사·ISO17020), 주차안전처(국민신고센터·AI 안전도심사·서류 디지털화·주차로봇)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "id": "OV-06",
+  "type": "계획",
+  "title": "추진계획 — 첨단자동차검사연구센터 과제",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-25",
+  "locator": "p.157~160",
+  "quote_or_value": "첨단연구개발처: KADAS 1개소 구축·세종 시범운영, CITA 기반 KADAS 고도화, 사용후 배터리 3단계; 첨단검사전략처: BMS 진단 DB·KADIS 무선, AI 하체검사, 장비 표준화; 공동: SDV S/W 검사, 배출가스 로봇",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-07",
+  "type": "계획",
+  "title": "추진계획 — 익산 자율주행 플랫폼 지원 역할 분담",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-25",
+  "locator": "p.133",
+  "quote_or_value": "모빌리티 개선계획 수립지원(정책지원처) / 자율주행 인프라 최적설치위치 선정(실증사업처)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "OV-08",
+  "type": "계획",
+  "title": "추진계획 — 기획조정실 2025 성과(조직·예산)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-25",
+  "locator": "p.64(인쇄 60쪽)",
+  "quote_or_value": "AI기반 업무 혁신 선도를 위한 AI미래전략실 및 AI혁신처 신설; 정부예산 7,714억원 확보; 증원 31명",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-09",
+  "type": "계획",
+  "title": "추진계획 — AI디지털실 AX 서비스 구축 지원",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-25",
+  "locator": "p.81(인쇄 77쪽)",
+  "quote_or_value": "AI 서비스 12개·약 26억 규모 구축 지원(AI 튜닝승인 어시스트, AI 하체검사, AIoT 스마트안전관리 등); 10개 AI 사업 GPU 제공; H200 '25 8장→'28 24장; 전문분야 AI 서비스 3건 이상",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-10",
+  "type": "계획",
+  "title": "추진계획 — 전사 중점과제 'AI 활용 업무효율화 및 서비스 혁신(국정24·72)'",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-25",
+  "locator": "p.24(인쇄 20쪽)",
+  "quote_or_value": "GPU 추가 확보(약 15억), K-Safer 14,220km, AI 안전알림 300대, 이동데이터 기반 노선설계·DRT 서비스 구역 정책결정 지원 모델, 자동차 버티컬AI·데이터레이크, 검사 자동화(배출가스 로봇·AI 하체·디지털 관능), KADAS",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-11",
+  "type": "계획",
+  "title": "추진계획 — 성과관리(내부평가 AI 공통지표)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-25",
+  "locator": "p.70(인쇄 66쪽)",
+  "quote_or_value": "신정부 중점 추진사항(AI·대국민서비스·근로자안전·지속가능)을 내부평가 공통지표로 적용; '교통안전처, 자격교육처 등 협조' 표기",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-12",
+  "type": "계획",
+  "title": "추진계획 — 4대 경영목표",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-25",
+  "locator": "p.10",
+  "quote_or_value": "OECD 순위 '26 11위(0.6명)→'30 7위; 모빌리티준비지수 '26 8위; 고객만족도 '26 우수; 지속가능경영지수 '26 A",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "5"
+  ]
+ },
+ {
+  "id": "OV-13",
+  "type": "계획",
+  "title": "추진계획 — 모빌리티정책실 과제",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-25",
+  "locator": "p.98~104",
+  "quote_or_value": "AI 얼굴인증·국제면허증 판별, 택시 AI-운전비서·UBI, K-Safer 고도화, 김천 AI 도시교통 데이터 플랫폼, 데이터 기반 DRT 도입 평가(5개), TIMS 택시데이터 개방·지자체 데이터허브 연계",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3",
+   "6"
+  ]
+ },
+ {
+  "id": "OV-14",
+  "type": "계획",
+  "title": "추진계획 — 교통안전정책실 과제",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-25",
+  "locator": "p.112~121",
+  "quote_or_value": "AI-Safer 300대, 버스정류장 AI-CCTV, Road-Safer, 운수종사자 통합플랫폼, 운송안전감독관·관리규정 평가항목 재정비, 고위험 운수社 1,000개, 운전적성 기반 AI 사고위험 예측 모델, AI 문제관리, FPIS 지자체(229개) 데이터 수집·검증 체계",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3",
+   "6"
+  ]
+ },
+ {
+  "id": "OV-15",
+  "type": "계획",
+  "title": "추진계획 — 모빌리티지원센터 과제",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-25",
+  "locator": "p.130~136",
+  "quote_or_value": "생성형 AI 활용 규제샌드박스('25 시범구축→'26 시범운영·고도화), 메가샌드박스 사후관리, 최소서비스 수준 분석·시외버스 노선DB, AI 교통약자 보호구역 Tool, 인프라 안전사업 종합플랫폼(단지내도로 DB화·업무자동화 AI)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3",
+   "6"
+  ]
+ },
+ {
+  "id": "OV-16",
+  "type": "계획",
+  "title": "추진계획 — 검사전략실 AI 과제 세부",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-25",
+  "locator": "p.142·p.146~147",
+  "quote_or_value": "정도검사 제출서류 AI 심사·발급서류 디지털 전환; 궤도시설종합정보관리시스템 AI 검토; 기계식주차장치 안전도심사 AI('27 AI 검토자료를 심사원이 정합성만 검증); 기계식주차장 정보망 국민신고센터",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "4",
+   "6"
+  ]
+ },
+ {
+  "id": "OV-17",
+  "type": "계획",
+  "title": "추진계획 — 2025 추진성과(모빌리티·교통안전)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-25",
+  "locator": "p.98·p.108",
+  "quote_or_value": "정지·취소면허 차단 '24 11.3만→'25 73만건(10월); 고위험·중위험 컨설팅 운수회사 사고율 0.563→0.255; 위험물 사고 '25 58건·감지율 91.4%",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "OV-18",
+  "type": "데이터",
+  "title": "TS 조직 및 직원안내 — 조직도",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode=06020401",
+  "published": "게시일 미표시(페이지 담당 예산처)",
+  "accessed": "2026-09-25",
+  "locator": "조직도 본문(원문 저장: work_org/org_06020401.html)",
+  "quote_or_value": "모빌리티교통안전본부>모빌리티연구실(모빌리티연구처·데이터융복합처)/교통안전정책실(교통안전처·자격교육처·기후탄소물류처(탄소중립정책팀))/모빌리티지원센터(정책지원처·규제혁신처·실증사업처); 자동차검사본부>검사전략실(검사기획처·특수검사처·주차안전처)/첨단자동차검사연구센터(첨단검사전략처·첨단연구개발처·AI검사인프라처)/튜닝안전기술원(기술안전처·시험인증처·기술승인처); 이사장 직속 AI미래전략실; AI디지털실(디지털기획처·AI혁신처·정보보안처·자동차정보처)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "OV-19",
+  "type": "데이터",
+  "title": "TS 조직도 HTML 주석 내 잔존 부서코드",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode=06020401",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-25",
+  "locator": "안전보건실 항목 아래 주석(<!-- -->) 블록",
+  "quote_or_value": "주석 처리된 '모빌리티정책처'(deptUppr=1019010)·규제혁신처(1021020)·실증사업처(1021030) 링크 잔존; 현행 정책지원처 deptUppr=1019010(동일 코드)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "OV-20",
+  "type": "데이터",
+  "title": "TS 조직 및 직원안내 — 부서별 담당업무(직원 목록)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/empList.do?deptUppr={부서코드}&menuCode=06020404",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-25",
+  "locator": "부서코드 17개·전 페이지(원문 work_org/emp/, 요약 work_org/emp_duties_summary.txt). 이름·전화번호 미전재",
+  "quote_or_value": "게시 인원: 모빌리티연구처 20·데이터융복합처 24·교통안전처 20·자격교육처 27·기후탄소물류처 29(탄소중립정책팀 10 포함)·정책지원처 9·규제혁신처 13·실증사업처 14·검사기획처 35·특수검사처 13·주차안전처 19·첨단검사전략처 20·첨단연구개발처 17 / AI혁신처 6·AI검사인프라처 13·기술승인처 15·디지털기획처 12",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "6"
+  ]
+ },
+ {
+  "id": "OV-21",
+  "type": "데이터",
+  "title": "TS 업무안내 페이지별 '담당부서' 표기",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode={01080700 등 30개}",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-25",
+  "locator": "각 페이지 하단 담당부서(원문 work_org/menu/)",
+  "quote_or_value": "앱미터·TIMS·DRT·RIMS·교통문화지수→모빌리티연구처; eTAS·TMACS·K-패스→데이터융복합처; 교통수단안전점검·관리규정→교통안전처; 체험교육·교통안전관리자시험→자격교육처; FPIS→기후탄소물류처; 대중교통현황조사→정책지원처; 규제샌드박스→규제혁신처; 도로안전진단교육→실증사업처; 자동차검사→검사기획처; 기기정도·궤도·내압용기→특수검사처; 기계식주차장→주차안전처; KADIS·KAVIC→첨단검사전략처; 첨단자동차안전연구→첨단연구개발처; 튜닝제도→기술승인처; COSAS 페이지는 담당부서 미표기",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "6"
+  ]
+ },
+ {
+  "id": "OV-22",
+  "type": "계약",
+  "title": "2026년 용역 발주계획",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_용역_발주계획.csv (원본 [TS] 사업기획/검토결과_20260921/공식발주근거/2026년_용역_발주계획.xlsx, 수정일 2026-01-22)",
+  "published": "2026-01",
+  "accessed": "2026-09-25",
+  "locator": "담당부서명 기준 집계(python)",
+  "quote_or_value": "259건 434.16억원; 13개 처 38건 132.05억원(모빌리티연구처 9건 45.9억, 자격교육처 6건 33.5억, 데이터융복합처 7건 25.0억, 실증사업처 4건 12.8억, 정책지원처 7건 8.25억, 주차안전처 3건 4.59억, 검사기획처 1건 1.8억, 특수검사처 1건 0.2억, 교통안전처·기후탄소물류처·규제혁신처·첨단검사전략처·첨단연구개발처 0건)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-23",
+  "type": "계약",
+  "title": "2026년 물품 발주계획",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_물품_발주계획.csv (원본 xlsx 수정일 2026-01-21)",
+  "published": "2026-01",
+  "accessed": "2026-09-25",
+  "locator": "담당부서명 기준 집계",
+  "quote_or_value": "138건 62.4억원; 13개 처 해당: 특수검사처 36건 8.65억, 검사기획처 12건 8.45억, 자격교육처 3건 1.5억, 주차안전처 9건 0.78억, 첨단검사전략처 4건 0.69억(KADIS 소모품·중국 전기차 진단기), 정책지원처 4건 0.34억",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "OV-24",
+  "type": "계약",
+  "title": "2026년 시설공사 발주계획",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_시설공사_발주계획.csv",
+  "published": "2026-01",
+  "accessed": "2026-09-25",
+  "locator": "담당부서명 기준 집계",
+  "quote_or_value": "36건 9.09억원; 13개 처 담당 0건",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "OV-25",
+  "type": "계약",
+  "title": "2026 용역 발주계획 중 사업명에 AI·AX 명시 건",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_용역_발주계획.csv",
+  "published": "2026-01",
+  "accessed": "2026-09-25",
+  "locator": "사업명 정규식 AI|인공지능|AX",
+  "quote_or_value": "9건 21.66억원: 자율주행 AI 학습센터 ISP 7.2억(커넥티드카연구처), TS AI 데이터 스페이스 3억·TS AI 공통플랫폼 고도화 3억(AI혁신처), AI 국가자격시험 문제관리 2.5억(자격교육처), 기계식주차장치 안전도 심사 AI 2.02억(주차안전처), AI 하체검사 1.7억(AI검사인프라처), AI 전세버스 공시 1.04억(모빌리티연구처), 공단 AX과제 추진전략 컨설팅 1억(미래전략실), IWG AI 회의 0.2억",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-26",
+  "type": "계약",
+  "title": "TS AI 공통플랫폼 고도화 및 민원·전세버스 공시 AI 구축 — 입찰공고",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/검토결과_20260921/공식발주근거/19116_1. 용역입찰공고.txt | https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19116&menuCode=05020100",
+  "published": "2026-07",
+  "accessed": "2026-09-25",
+  "locator": "공고 제2026-094호(R26BK01565398-00)",
+  "quote_or_value": "개찰 2026-07-23; 20억 미만 중소SW 사업자 한정; 공동수급·하도급 허용",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4"
+  ]
+ },
+ {
+  "id": "OV-27",
+  "type": "계약",
+  "title": "19116 과업 및 제안요청서 — 개요·사업범위",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/검토결과_20260921/공식발주근거/19116_2. 과업 및 제안요청서.txt",
+  "published": "2026-07",
+  "accessed": "2026-09-25",
+  "locator": "1. 제안개요~3. 사업범위(txt 51~98행)",
+  "quote_or_value": "448,316,087원(VAT포함), 착수~2026-12-18; ①공통플랫폼 고도화(모델 고도화, 온나라·EP 파이프라인, 직무별 특화 어시스턴트 3건 이상: 자동차검사 Q&A봇·상시감사·보도자료, 비식별화, PaaS) ②민원분석(STT/TA, RAG 상담 어시스턴트, 신문고 답변 생성·품질관리) ③전세버스 공시 평가(2019년 이후 평가데이터, 제출자료 분류·추출·판별·답변, 평가DB 연동)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-28",
+  "type": "계약",
+  "title": "19116 추진체계 — 조직 구성별 역할",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/검토결과_20260921/공식발주근거/19116_2. 과업 및 제안요청서_표포함본문.txt",
+  "published": "2026-07",
+  "accessed": "2026-09-25",
+  "locator": "표포함본문 239~345행",
+  "quote_or_value": "AI혁신처(통합 발주·공통플랫폼 감독검수·의사결정), 운영지원처(민원데이터·민원 AI 감독검수), 모빌리티연구처(전세버스 공시/평가 데이터·AI 요구사항·감독검수), 디지털기획처·정보보안처 지원",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4"
+  ]
+ },
+ {
+  "id": "OV-29",
+  "type": "계약",
+  "title": "한국교통안전공단 검사본부 AI시스템 구축 용역 — 입찰공고",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/검토결과_20260921/공식발주근거/19156_1. 용역입찰공고.txt | https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?bbscCode=tendnoti&bbscSeqn=19156&menuCode=05020100",
+  "published": "2026-08",
+  "accessed": "2026-09-25",
+  "locator": "공고 제2026-112호(R26BK01648099-00)",
+  "quote_or_value": "개찰 2026-09-08",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4"
+  ]
+ },
+ {
+  "id": "OV-30",
+  "type": "계약",
+  "title": "19156 과업 및 제안요청서 — 개요·부서별 사업범위",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/검토결과_20260921/공식발주근거/19156_2. 과업 및 제안요청서(_표포함본문).txt",
+  "published": "2026-08",
+  "accessed": "2026-09-25",
+  "locator": "1. 제안개요, 3. 각 부서별 사업 범위(표포함본문 84행~)",
+  "quote_or_value": "800,499,634원(VAT포함), 착수~2026-12-18, 협상계약(기술90:가격10); 기술승인처(튜닝승인 AI 상담·도면 Vision/OCR·하중계산 교차검증·유사승인 검색·예상처리기간), 특수검사처(기계·기구 도면·제원표 약 2,000건 라이브러리화, 규칙엔진+sLLM 적합성, 별표12 구조기준 비교, 성적서 재발행번호, 궤도 안전관리계획 AI 이행판단), 주차안전처(안전도심사 서류·도면 OCR/Vision, 법령·기술표준 RAG, 심사 챗봇, 강도계산서 적법성, 도면-BOM 교차검증, 심사보고서 초안); GPU H200 8장·L40S 8장",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-31",
+  "type": "계약",
+  "title": "19156 기능요구사항 목록·추진조직",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/검토결과_20260921/공식발주근거/19156_2. 과업 및 제안요청서_표포함본문.txt",
+  "published": "2026-08",
+  "accessed": "2026-09-25",
+  "locator": "표포함본문 358~600행",
+  "quote_or_value": "SFR 27개(SFR-004~006 튜닝, 007~012 정도검사, 013~019 궤도 안전관리계획, 020~027 주차 안전도심사); 사업총괄 3개 처, 디지털기획처 사업지원·감독검수, AI혁신처 기술검토(GPU·공통플랫폼 연계), 정보보안처, 감리·개인정보영향평가 별도",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-32",
+  "type": "계약",
+  "title": "2026년 운수안전컨설팅지원시스템(COSAS) 운영 및 고도화 RFP",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/검토결과_20260921/공식발주근거/19137_2. 과업 및 제안요청서.txt",
+  "published": "2026",
+  "accessed": "2026-09-25",
+  "locator": "txt 83~158행",
+  "quote_or_value": "418,215,333원, ~2027-06-30(장기계속); 목적: AI기반 신규 분석모델·맞춤형 교통안전정보·운영; 모듈형 AI 운전자 안전모델, 운전자별 AI안전보고서 시범운영(TS-AI 플랫폼 또는 상용솔루션 활용 자동생성); 수단안전점검·관리규정 평가 업무시스템으로 활용 중(데이터융복합처)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-33",
+  "type": "계약",
+  "title": "26년 운행기록분석시스템 운영환경 및 기능개선 RFP",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/검토결과_20260921/공식발주근거/19057_2. 과업 및 제안요청서.txt",
+  "published": "2026",
+  "accessed": "2026-09-25",
+  "locator": "txt 95~96행",
+  "quote_or_value": "394,830,000원, 착수~6개월(데이터융복합처)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-34",
+  "type": "계약",
+  "title": "2026년 운수종사자 관리시스템 기능 고도화 RFP",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/검토결과_20260921/공식발주근거/19134_2. 과업 및 제안요청서.txt",
+  "published": "2026",
+  "accessed": "2026-09-25",
+  "locator": "txt 30~150행",
+  "quote_or_value": "152,697,959원, ~2026-12-31; 플랫폼(type1) 택시 관리, 양성·멘토링 교육 기능, 경찰청 실시간 연계, 연계서버 클라우드 이관(교통안전처). AI 기능 없음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-35",
+  "type": "계약",
+  "title": "AI 활용 국가자격시험 문제 출제 시스템 구축 RFP",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/검토결과_20260921/공식발주근거/19193_2. 과업 및 제안요청서.txt",
+  "published": "2026-09",
+  "accessed": "2026-09-25",
+  "locator": "txt 52~54행",
+  "quote_or_value": "249,892,403원, ~2026-12-20(자격교육처)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-36",
+  "type": "계약",
+  "title": "2026년 첨단모빌리티 서비스 실태조사 및 개선 연구 RFP",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/검토결과_20260921/공식발주근거/19129_2. 과업 및 제안요청서.txt",
+  "published": "2026",
+  "accessed": "2026-09-25",
+  "locator": "용역개요",
+  "quote_or_value": "331,500,000원, ~2026-12-31(정책지원처), 디지털 맵 구현 포함",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-37",
+  "type": "계약",
+  "title": "2026년 교통안전 특별실태조사 RFP",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/검토결과_20260921/공식발주근거/19032_2. 과업 및 제안요청서.txt",
+  "published": "2026",
+  "accessed": "2026-09-25",
+  "locator": "용역개요",
+  "quote_or_value": "409,992,764원, ~2026-12-18(실증사업처)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-38",
+  "type": "계약",
+  "title": "2026년 운행기록 활용방안 연구 RFP",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/검토결과_20260921/공식발주근거/19021_2. 과업 및 제안요청서.txt",
+  "published": "2026",
+  "accessed": "2026-09-25",
+  "locator": "txt 53행",
+  "quote_or_value": "계약금액 70,427,000원, 7개월(데이터융복합처)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-39",
+  "type": "계약",
+  "title": "2026년 교통문화지수 실태조사 RFP",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/검토결과_20260921/공식발주근거/18999_2. 과업 및 제안요청서.txt",
+  "published": "2026",
+  "accessed": "2026-09-25",
+  "locator": "과업개요",
+  "quote_or_value": "339,980,000원, ~2026-12-24(모빌리티연구처)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "OV-40",
+  "type": "계획",
+  "title": "2026 TS AX 주요과제 12선 — 시리즈 개요",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/##. 후속사업기획/2026년 사업기획 자료/08_TS 발간물/2026_TS_AX_주요과제_12선_인포그래픽_13장.pdf",
+  "published": "2026(월 미표시)",
+  "accessed": "2026-09-25",
+  "locator": "p.1(이미지 렌더링 판독)",
+  "quote_or_value": "3영역 12과제: 위험을 먼저 찾는 AI(①하부결함 ②K-Safer ③자율차 안전점검 Agent ④고령보행자 위험분석), 국민과 현장을 돕는 AI(⑤기내반입 셀프체크 ⑥AI 운전자격 본인확인 ⑦바이크 안심케어 ⑧AIoT 검사소 ⑨에스컬레이터 캐리어 ⑩사업용차 AI 안전알림), 일하는 기반(⑪생성형 AI 업무지원 ⑫AI 데이터·공통플랫폼). '운영·실증·개발·계획 과제 포함'",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-41",
+  "type": "계획",
+  "title": "AX 12선 ① 자동차 하부결함 검사",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/##. 후속사업기획/2026년 사업기획 자료/08_TS 발간물/2026_TS_AX_주요과제_12선_인포그래픽_13장.pdf",
+  "published": "2026",
+  "accessed": "2026-09-25",
+  "locator": "p.2",
+  "quote_or_value": "개발·검증; PoC 부품인식 F1 91.37%·누유탐지 F1 81.61%(검사 정확도·시간단축률 아님); 검사원 최종 확인",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "OV-42",
+  "type": "계획",
+  "title": "AX 12선 ② K-Safer",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/##. 후속사업기획/2026년 사업기획 자료/08_TS 발간물/2026_TS_AX_주요과제_12선_인포그래픽_13장.pdf",
+  "published": "2026",
+  "accessed": "2026-09-25",
+  "locator": "p.3",
+  "quote_or_value": "구축·확산; 국도 14,220km·5개 지방국토관리청; 개선 8개 지점 사고 89→72건(2023→2024, 시설개선 포함·AI 단독효과 아님)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-43",
+  "type": "계획",
+  "title": "AX 12선 ③ 자율차 안전점검 Agent",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/##. 후속사업기획/2026년 사업기획 자료/08_TS 발간물/2026_TS_AX_주요과제_12선_인포그래픽_13장.pdf",
+  "published": "2026",
+  "accessed": "2026-09-25",
+  "locator": "p.4",
+  "quote_or_value": "개발·실증; 점검 소요 30→10일(16개 지점 기준), 위험유형 9종, 광주 후보지 16곳; 전문가 검증 필요",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-44",
+  "type": "계획",
+  "title": "AX 12선 ④ 고령보행자 위험분석",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/##. 후속사업기획/2026년 사업기획 자료/08_TS 발간물/2026_TS_AX_주요과제_12선_인포그래픽_13장.pdf",
+  "published": "2026",
+  "accessed": "2026-09-25",
+  "locator": "p.5",
+  "quote_or_value": "추진계획; 김천 2026.9~2027.12 실증, 고위험지점 4개소 도출 목표(실적 아님), 노인보호구역 후보·개선 검토 지원",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-45",
+  "type": "계획",
+  "title": "AX 12선 ⑥ AI 운전자격 본인확인",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/##. 후속사업기획/2026년 사업기획 자료/08_TS 발간물/2026_TS_AX_주요과제_12선_인포그래픽_13장.pdf",
+  "published": "2026",
+  "accessed": "2026-09-25",
+  "locator": "p.7",
+  "quote_or_value": "운영 적용; AI 진위확인 이용 322건(2025 206·2026.8 116), 연계사업자 API",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "OV-46",
+  "type": "계획",
+  "title": "AX 12선 ⑧ AIoT 스마트 안전 자동차검사소",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/##. 후속사업기획/2026년 사업기획 자료/08_TS 발간물/2026_TS_AX_주요과제_12선_인포그래픽_13장.pdf",
+  "published": "2026",
+  "accessed": "2026-09-25",
+  "locator": "p.9",
+  "quote_or_value": "운영 적용; 동탄·성남·세종·용인 4개소, 2024~2026.1Q 산업재해 0건(공단 전체 실적 아님)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "OV-47",
+  "type": "계획",
+  "title": "AX 12선 ⑩ 사업용차 AI 안전알림",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/##. 후속사업기획/2026년 사업기획 자료/08_TS 발간물/2026_TS_AX_주요과제_12선_인포그래픽_13장.pdf",
+  "published": "2026",
+  "accessed": "2026-09-25",
+  "locator": "p.11",
+  "quote_or_value": "운영·확산; 2023 2개사·60대 가중사고율 93.5% 감소(특정 참여집단); 장치·교육·운행데이터 컨설팅",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-48",
+  "type": "계획",
+  "title": "AX 12선 ⑪ 생성형 AI 업무지원",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/##. 후속사업기획/2026년 사업기획 자료/08_TS 발간물/2026_TS_AX_주요과제_12선_인포그래픽_13장.pdf",
+  "published": "2026",
+  "accessed": "2026-09-25",
+  "locator": "p.12",
+  "quote_or_value": "업무 적용; 규정·지침·매뉴얼 387개 문서, 운수안전지도 검토 15→2분(해당 업무 한정); 출처 인공지능정부 활성화 분야 공적조서(AI혁신처)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-49",
+  "type": "계획",
+  "title": "AX 12선 ⑫ AI 데이터·공통플랫폼",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/##. 후속사업기획/2026년 사업기획 자료/08_TS 발간물/2026_TS_AX_주요과제_12선_인포그래픽_13장.pdf",
+  "published": "2026",
+  "accessed": "2026-09-25",
+  "locator": "p.13",
+  "quote_or_value": "구축 추진; 25개 부서 조사, 43.13TB(정형 11.65·비정형 31.48, 보유현황 규모); 출처 AI혁신처 공적조서",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "OV-50",
+  "type": "언론",
+  "title": "'45년간 국민 안전 지킨 교통안전 파트너…AI·자율주행으로 미래 연다'",
+  "publisher": "서울경제",
+  "url_or_path": "https://www.sedaily.com/article/20062140",
+  "published": "2026-06-30",
+  "accessed": "2026-09-25",
+  "locator": "본문(원문 저장 work_org/sedaily_20062140.html)",
+  "quote_or_value": "경영평가 3년 연속 A(국토부 산하 13곳 중 유일); 지난해 10월 AI미래전략실·AI혁신처 신설; AX 실무협의체 운영, AI 민원업무 자동화·자동차검사 피지컬 AI·국가자격시험 AI 자동출제 등 26개 세부 실행과제 추진; K-Safer 국도 5,900km·고속도로 188km·지방도 878km 적용",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "OV-51",
+  "type": "내부",
+  "title": "33 CCK TS 아카이빙기반 솔루션 로드맵 §4.1·§4.2",
+  "publisher": "CCK(내부)",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/##. 후속사업기획/2026년 사업기획 자료/33_CCK_TS_아카이빙기반_솔루션_로드맵_2027-2031_v0.1_2026-09-18.md",
+  "published": "2026-09-18",
+  "accessed": "2026-09-25",
+  "locator": "§4.1·§4.2",
+  "quote_or_value": "1차: 4.2억, 8월 착수~12/18, 5개 업무영역(민원·전세버스·자동차검사 Q&A·감사·보도자료); 2차: 19156 동일, 3개 처, 원 사업자 구축 시스템의 재구축·고도화, 사용자 발언 '사업 하나 더 됐다(확정)'(2026-09-18)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "4"
+  ]
+ },
+ {
+  "id": "OV-52",
+  "type": "내부",
+  "title": "25 전체전략 종합현황판 §8.0·§7.3",
+  "publisher": "CCK(내부)",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/##. 후속사업기획/2026년 사업기획 자료/25_전체전략_종합현황판_v1.0_2026-09-17.md",
+  "published": "2026-09-23 갱신",
+  "accessed": "2026-09-25",
+  "locator": "§7.3 3항, §8.0",
+  "quote_or_value": "§8.0: 2차 '제안·PT 완료·결과 대기'(33번 '확정'과 상충); 1차 계약 약 4.2억 vs 예산 448,316,087원 혼용 주의; §7.3: 모빌리티연구실(홈페이지) vs 모빌리티정책실(업무계획서) 명칭 상충 미해결",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "OV-53",
+  "type": "내부",
+  "title": "34 CCK Slack 회의록 발췌",
+  "publisher": "CCK(내부)",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/##. 후속사업기획/2026년 사업기획 자료/34_CCK_Slack_회의록_발췌_cck-meeting-record_20260827-0918.md",
+  "published": "2026-08-27~09-18",
+  "accessed": "2026-09-25",
+  "locator": "55·73·1302·3045~3059행",
+  "quote_or_value": "1차 8/3 착수·12/18 납기, 계약 약 4억2천만원; '8억 규모 넥스트 사업(검사본부)' 감리 대상; 기존 AI 서비스 사업자 오케스트로→CCK 윈백, 하자보수 종료 2026-12 후 통합유지보수(2년 150억·약 77개 시스템) 편입 예정",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "4"
+  ]
+ },
+ {
+  "id": "OV-54",
+  "type": "내부",
+  "title": "TS_부서별_업무목록 v0.3(GPT 정리 42개 부서)",
+  "publisher": "CCK(내부, GPT 작성)",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS] 사업기획/TS_부서별_업무목록_v0.3_20260921.json",
+  "published": "2026-09-21",
+  "accessed": "2026-09-25",
+  "locator": "departments ORG-018~031",
+  "quote_or_value": "42개 부서·상위 경로; 'official_complete_duty_allocation': false; COSAS·TAGO 담당부서 미확인",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "OV-55",
+  "type": "내부",
+  "title": "31 TS 2026 경영평가 OKR·KPI 지표",
+  "publisher": "CCK(내부)",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/##. 후속사업기획/2026년 사업기획 자료/31_TS_2026_경영평가_OKR_KPI_지표_v0.1_2026-09-18.md",
+  "published": "2026-09-18",
+  "accessed": "2026-09-25",
+  "locator": "§1.3·§2.3·§3",
+  "quote_or_value": "위탁집행형 준정부기관 배점 경영관리 40·주요사업 60(편람 원문 미열람); AI디지털실 계량지표(AI 서비스 3건 이상, 12개 서비스 26억, 인공지능전문관 1→3명); 'AI 관련 예산 전년대비 84% 증액'(언론 인용, 원문 미확인); 자동차검사본부 지표 미채굴",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "5"
+  ]
+ },
+ {
+  "id": "OV-56",
+  "type": "내부",
+  "title": "17 TS AX12선 대응 신규후보 종합정리 §1",
+  "publisher": "CCK(내부)",
+  "url_or_path": "C:/Users/김희섭/Desktop/[TS]프로젝트/001.TS교통안전공단/##. 후속사업기획/2026년 사업기획 자료/17_TS_AX12선_대응_신규후보_종합정리_v0.1_2026-09-16.md",
+  "published": "2026-09-16",
+  "accessed": "2026-09-25",
+  "locator": "§1 표",
+  "quote_or_value": "12선 ⑤⑦⑨ 수치(기내반입 535품목·477명 4.82점, 바이크 72→20분, 에스컬레이터 57.4%) — 본 조사에서 해당 쪽 미열람",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "OV-57",
+  "type": "내부",
+  "title": "13개 처 현재 사이트 컨셉",
+  "publisher": "CCK(내부)",
+  "url_or_path": "{S}/brief/{코드}_현재컨셉.json",
+  "published": "2026-09-24",
+  "accessed": "2026-09-25",
+  "locator": "site_concept·official_sites",
+  "quote_or_value": "13개 대표 컨셉 제목·대상 시스템·제외범위(요약 work_org/concepts_summary.md)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "5",
+   "6"
+  ]
+ },
+ {
+  "id": "OV-67",
+  "type": "언론",
+  "title": "TS, 'AI 교통안전 시대' 연다(보도자료)",
+  "publisher": "한국교통안전공단(디지털기획처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do?bbscCode=report&menuCode=05010200&bbscSeqn=18706",
+  "published": "2025-10-14",
+  "accessed": "2026-09-25",
+  "locator": "본문 1~2단락",
+  "quote_or_value": "13일부로 AI 전담조직 신설: 이사장 직속 미래전략실→AI미래전략실, 기존 디지털전략실→AI디지털실 확대개편, AI디지털실 산하 AI혁신처 신설; AI디지털실 역할 = AI 서비스 구축지원·성과관리, AI 공통플랫폼 구축, 모델 고도화·품질관리; 연말까지 'AI 공통 플랫폼 구축 용역'",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "id": "OV-68",
+  "type": "언론",
+  "title": "'보고서 초안 AI로' TS, 자체 AI 플랫폼 본격 운영(보도자료)",
+  "publisher": "한국교통안전공단(AI혁신처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do?bbscCode=report&menuCode=05010200&bbscSeqn=18768",
+  "published": "2025-12-29",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "TS-AI GPT 1,850여 명 대상 운영(질의응답·공문서·법령검색·번역); '교통안전관리규정 이행 확인 평가를 지원하는 AI 기반 특화 서비스 도입'",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5",
+   "6"
+  ]
+ },
+ {
+  "id": "OV-69",
+  "type": "언론",
+  "title": "이륜차 정기검사, 카카오톡 전자문서로 알려준다(보도자료)",
+  "publisher": "한국교통안전공단(AI검사인프라처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do?bbscCode=report&menuCode=05010200&bbscSeqn=18778",
+  "published": "2026-01-21",
+  "accessed": "2026-09-25",
+  "locator": "담당부서 표기",
+  "quote_or_value": "담당부서 AI검사인프라처; 동일 과제가 1월 추진계획 p.148에는 '검사운영처' 과제(이륜차 검사 사전안내 카카오 전자문서)로 표기",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "OV-70",
+  "type": "언론",
+  "title": "2026년 1차 AX 실무협의체 회의 시행(보도자료)",
+  "publisher": "한국교통안전공단(AI혁신처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do?bbscCode=report&menuCode=05010200&bbscSeqn=18792",
+  "published": "2026-02-24",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "'AI 기반 민원업무 자동화 시스템 구축', '자동차검사 피지컬 AI 활용 자동화 시스템 개발' 등 26개 세부 실행과제 점검; 내부 직무전문가+외부 LLM·데이터·비전·피지컬AI 전문가",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "OV-71",
+  "type": "언론",
+  "title": "TS 자동차검사 데이터 활용 국민 아이디어 공모(보도자료)",
+  "publisher": "한국교통안전공단(AI검사인프라처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do?bbscCode=report&menuCode=05010200&bbscSeqn=18905",
+  "published": "2026-07-20",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "담당 AI검사인프라처(첨단자동차검사연구센터장 공동); 검사데이터 항목: 차량 기본정보·접수이력·검사결과·부적합 및 시정권고·측정값·전자장치 진단정보·고전압 배터리 정보",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "6"
+  ]
+ },
+ {
+  "id": "OV-72",
+  "type": "언론",
+  "title": "한국교통안전공단, 모빌리티 지원센터 개소(보도자료)",
+  "publisher": "한국교통안전공단(모빌리티정책처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do?bbscCode=report&menuCode=05010200&bbscSeqn=18169",
+  "published": "2023-10-30",
+  "accessed": "2026-09-25",
+  "locator": "담당부서·본문",
+  "quote_or_value": "담당부서 모빌리티정책처; 모빌리티혁신법 시행(2023-10-19)과 함께 지원센터 업무 개시; 주요업무 규제샌드박스·첨단모빌리티 현황조사·지자체 개선계획 수립평가",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "OV-73",
+  "type": "언론",
+  "title": "TS 이륜차 사고자동신고시스템, 고령운전자 7명 구했다(보도자료)",
+  "publisher": "한국교통안전공단(정책지원처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do?bbscCode=report&menuCode=05010200&bbscSeqn=18498",
+  "published": "2025-03-10",
+  "accessed": "2026-09-25",
+  "locator": "담당부서·본문",
+  "quote_or_value": "담당부서 정책지원처(처장은 2023-10-30 모빌리티정책처 보도자료와 동일인, 성명 비기재); 예산군 250대 시범(2023.11~2024.11); 2024년 동 사업 보도는 모빌리티정책처 담당",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "OV-74",
+  "type": "데이터",
+  "title": "TS 보도자료 게시판 부서명 검색 결과(출현 기간)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_list.do?menuCode=05010200&bbscCode=report&sechKywd={부서명}",
+  "published": "2026-09-25 검색",
+  "accessed": "2026-09-25",
+  "locator": "부서명 25개 키워드 검색, 전 페이지 등록일 집계(work_org/repsearch/)",
+  "quote_or_value": "검사정책처 2021-04-12~2025-04-28(21건); 검사운영처 ~2025-12-22(55건); AI검사인프라처 2026-01-21~(2건); 검사기획처 2026-02-06~(4건); 모빌리티정책처 2023-10-30~2024-12-12(6건); 정책지원처 2025-03-10~(15건); 모빌리티연구처·데이터융복합처·자격교육처 2024-12-27~; 실증사업처·규제혁신처 2024-12-30~; 모빌리티정책실 2025-02-20·06-25 인사 보도 2건; 모빌리티연구실 0건; 디지털전략실 ~2025-10-14; 2026년 인사 보도자료 없음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "7"
+  ]
+ },
+ {
+  "id": "OV-58",
+  "type": "내부",
+  "title": "[추론] 1월 추진계획의 실·처 명칭은 개편 전 명칭",
+  "publisher": "분석자 추론",
+  "url_or_path": "OV-03·OV-05·OV-18·OV-22 대조",
+  "published": "—",
+  "accessed": "2026-09-25",
+  "locator": "—",
+  "quote_or_value": "추진계획(2026.1): 모빌리티정책실·검사정책처·검사운영처 / 발주계획(xlsx 수정 2026-01-21~22)·19116(2026-07)·홈페이지(2026-09): 모빌리티연구처·데이터융복합처·검사기획처·AI검사인프라처 → 보도자료상 검사운영처 최종 2025-12-22, AI검사인프라처 최초 2026-01-21(OV-74)이므로 검사 분야 개편은 2025-12-23~2026-01-21 사이로 추정. 추진계획(2026.1)은 개편 전 초안 명칭 유지 추정. 공식 개편 공고 미확인",
+  "grade": "INFERRED",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "OV-59",
+  "type": "내부",
+  "title": "[추론] 검사정책처→검사기획처, 검사운영처→AI검사인프라처 기능 승계",
+  "publisher": "분석자 추론",
+  "url_or_path": "OV-05·OV-20·OV-21 대조",
+  "published": "—",
+  "accessed": "2026-09-25",
+  "locator": "—",
+  "quote_or_value": "검사정책처 과제(검사기준·민간검사소 컨설팅·배출검사)↔검사기획처 담당업무(검사제도·민간검사소 품질·자동차검사 페이지 담당); 검사운영처 과제(VIMS 클라우드·사전안내·리콜안내·AIoT)↔AI검사인프라처 담당업무(VIMS 운영·예약·사전안내·AI 검사자동화, 발주 AI 하체검사·디지털 관능); AI검사인프라처는 검사전략실이 아닌 첨단자동차검사연구센터 소속으로 이동",
+  "grade": "INFERRED",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "OV-60",
+  "type": "내부",
+  "title": "[추론] 모빌리티정책실→모빌리티연구실, 모빌리티정책처→정책지원처",
+  "publisher": "분석자 추론",
+  "url_or_path": "OV-03·OV-18·OV-19 대조",
+  "published": "—",
+  "accessed": "2026-09-25",
+  "locator": "—",
+  "quote_or_value": "부서코드 1019010이 주석 속 모빌리티정책처와 현행 정책지원처에 공통; 모빌리티정책실 과제(TIMS·DRT·RIMS·K-패스·교통문화지수)는 현행 모빌리티연구처·데이터융복합처 담당업무와 일치 → 실 명칭은 모빌리티정책실→모빌리티연구실, 처 명칭 모빌리티정책처→정책지원처(모빌리티지원센터 이동) 추정",
+  "grade": "INFERRED",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "OV-61",
+  "type": "내부",
+  "title": "[추론] 2차사업 예산 구성",
+  "publisher": "분석자 추론",
+  "url_or_path": "OV-22·OV-25·OV-30 대조",
+  "published": "—",
+  "accessed": "2026-09-25",
+  "locator": "—",
+  "quote_or_value": "발주계획상 주차 AI 2.02억만 개별 계상, 튜닝승인 AI·정도검사/궤도 AI는 용역 발주계획 미계상 → 19156(8.0억)은 연중 통합 발주된 사업으로 추정. 1차(4.48억)도 발주계획 공통플랫폼 3억+전세버스 1.04억+민원 AI(발주계획 미확인)의 통합으로 추정",
+  "grade": "INFERRED",
+  "used_in": [
+   "3",
+   "4"
+  ]
+ },
+ {
+  "id": "OV-62",
+  "type": "내부",
+  "title": "[추론] FPIS·HMTS·COSAS 유지관리 계약 위치",
+  "publisher": "분석자 추론",
+  "url_or_path": "OV-20·OV-22",
+  "published": "—",
+  "accessed": "2026-09-25",
+  "locator": "—",
+  "quote_or_value": "기후탄소물류처 용역 0건, 디지털기획처 담당업무에 '정보시스템 구축(주차,기후,철도,항공,보안)', 정보시스템 통합 유지관리 155.9억 → FPIS·HMTS 유지관리는 통합유지관리 계약 내 포함 추정(과업 목록 미열람)",
+  "grade": "INFERRED",
+  "used_in": [
+   "3",
+   "6"
+  ]
+ },
+ {
+  "id": "OV-63",
+  "type": "내부",
+  "title": "[미확인] 직제 개편 공식 공고·직제규정 개정일",
+  "publisher": "—",
+  "url_or_path": "TS 보도자료 게시판·ALIO 경영공시(직제) 검색",
+  "published": "—",
+  "accessed": "2026-09-25",
+  "locator": "—",
+  "quote_or_value": "WebSearch 2회('조직개편 2026 AI검사인프라처', '모빌리티연구실 검사기획처 조직개편')에서 개편 공고 미발견; ALIO 공시 동적 페이지 미열람",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "7"
+  ]
+ },
+ {
+  "id": "OV-64",
+  "type": "내부",
+  "title": "[미확인] ALIO 경영공시 2026 정원·현원 분기값",
+  "publisher": "—",
+  "url_or_path": "https://www.alio.go.kr (기관코드 C0019)",
+  "published": "—",
+  "accessed": "2026-09-25",
+  "locator": "—",
+  "quote_or_value": "alioplus 기관 페이지는 설립일(1981-07-01)만 확인; 임직원수 공시 페이지는 동적 로딩으로 미열람. 로컬 ALIO_수집에 TS 자료 없음",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "5",
+   "7"
+  ]
+ },
+ {
+  "id": "OV-65",
+  "type": "내부",
+  "title": "[미확인] 2차사업(19156) 낙찰·계약 체결 공식 기록",
+  "publisher": "—",
+  "url_or_path": "나라장터 개찰결과·TS 계약정보공개",
+  "published": "—",
+  "accessed": "2026-09-25",
+  "locator": "—",
+  "quote_or_value": "내부 문서 간 '확정'(33번)·'결과 대기'(25번) 상충; 공식 개찰결과·계약서 미확인",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "4",
+   "7"
+  ]
+ },
+ {
+  "id": "OV-66",
+  "type": "내부",
+  "title": "[미확인] AX 12선 과제별 주관 처",
+  "publisher": "—",
+  "url_or_path": "AX12 PDF 각 쪽 출처 표기",
+  "published": "—",
+  "accessed": "2026-09-25",
+  "locator": "—",
+  "quote_or_value": "⑪⑫만 'AI혁신처 공적조서' 출처 명시; ①~⑩은 수행보고서명만 표기, 주관 처 미표기. ⑦ 바이크 안심케어는 발주계획상 정책지원처(실증연구 3건 0.9억), ⑩은 교통안전처 담당업무('AI 안전알림')로 부분 확인",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "3",
+   "7"
+  ]
+ }
+]

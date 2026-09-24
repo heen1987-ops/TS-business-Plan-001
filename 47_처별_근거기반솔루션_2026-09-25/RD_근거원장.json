@@ -1,0 +1,1116 @@
+[
+ {
+  "id": "RD-E01",
+  "type": "계획",
+  "title": "2026년도 주요업무 추진계획 7-2 첨단자동차검사연구센터 추진과제",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.157~160(txt 4535~4660행)",
+  "quote_or_value": "첨단연구개발처 단독: KADAS 1개소 구축·세종 시범운영, CITA ADAS&Autonomous TF 기반 KADAS 고도화, 사용후 배터리 3단계 하위법령 시행안, 재제조 배터리 안전관리, RMI 정비데이터 / 첨단검사전략처 공동: SDV S/W 검사(별표 5의3 개정안), 전기차 특화장비 3종(자관법 시행규칙 개정안 제시), 배출가스 로봇·KADAS All-in-One, 교육",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "RD-E02",
+  "type": "계획",
+  "title": "2026 추진계획 7-2 2025 성과·개선 필요사항",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.153~154(txt 4420~4470행)",
+  "quote_or_value": "성과: KADAS 검사 테스트 결과 국제 공유·피드백으로 검사체계 고도화, 시나리오 국제표준 부합 조정·검증; 배터리 성능평가 기술 개발 및 공단을 탈거 전 성능평가 실시기관으로 지정하는 자동차관리법 개정안 발의('25.3·9월); KADIS 민간보급 612→1,216개소 / 개선 필요: 자율차 정기검사 도입 위해 검사기술 고도화 시급, SDV 검사체계 마련 필요, 'KAVIC 자체 수입사업 확대' 필요",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "RD-E03",
+  "type": "계획",
+  "title": "2026 추진계획 전사 AI 검사 과제",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.20(txt 776~780행)",
+  "quote_or_value": "(자율차 검사) KADAS 고도화 및 실증을 통한 첨단안전장치 검사 기준 마련; 자율주행차 안전성 국제 공동 기술 개발(독일·미국·한국, 5개 기관)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "id": "RD-E04",
+  "type": "계획",
+  "title": "2026 추진계획 7-1 검사전략실 1-2·1-3 과제",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.141(txt 4255~4272행)",
+  "quote_or_value": "검사정책처: 레벨4 자율차 정기검사 기준·방법 법제화 고시 제정·시행; 첨단안전장치(34개 이상) 진단검사 강화·진단률 향상(통신 오류·검사 생략 원인 분석)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3",
+   "4"
+  ]
+ },
+ {
+  "id": "RD-E05",
+  "type": "데이터",
+  "title": "첨단자동차안전연구 업무안내",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01090201",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "연구소개 01~03, 담당부서 표기",
+  "quote_or_value": "연구소개: 자율주행 안전연구(ADAS 검사 개념설계·실차 시나리오·센서 오작동 분석), 수소버스 안전연구(투과량 검사장비 1차 시작품), 전기차 검사연구(KADIS 활용 검사기준, 고전압·화재 예방 검사방법·기준). 담당부서 첨단연구개발처",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "RD-E06",
+  "type": "데이터",
+  "title": "배출가스 검사연구 업무안내",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01090202",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "연구 2건의 추진계획 단계",
+  "quote_or_value": "운행 건설기계 배출가스 검사 확대 연구: 마지막 단계 '대기환경보전법과 고시 제·개정(안) 제시', '비용편익 분석' / 대형 경유차 배출허용기준 개선: '관련 법령 및 고시 개정(안) 제시'. 담당부서 첨단연구개발처",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "RD-E07",
+  "type": "데이터",
+  "title": "KAVIC 소개(설립목적·전략)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01090100",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "전략 표",
+  "quote_or_value": "첨단안전연구: 국가연구개발사업 과제 발굴·연구, 검사기준 및 검사방법 개발, 자동차검사 업무 매뉴얼 개발·보급, 선진 검사제도 조사. 담당부서 첨단검사전략처",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "RD-E08",
+  "type": "데이터",
+  "title": "TS 조직도",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode=06020401",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "자동차검사본부 하위",
+  "quote_or_value": "자동차검사본부 > 첨단자동차검사연구센터 > 첨단검사전략처·첨단연구개발처·AI검사인프라처 / 검사전략실 > 검사기획처·특수검사처·주차안전처",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "RD-E09",
+  "type": "데이터",
+  "title": "조직 및 직원안내 — 첨단연구개발처 담당업무",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/empList.do?menuCode=06020404&deptUppr=1029020",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "1~2쪽(이름·전화 미전재)",
+  "quote_or_value": "게시 17명. 담당업무: 업무총괄, 전기차 배터리 인증 및 이력관리 시스템 구축, 첨단자동차검사연구, 연구용역 수행, 첨단자동차검사 안전연구 RnD, 검사기술 연구개발(RnD), 첨단기술(AI·자율차) R&D, 배터리 연구, 사용후 배터리 연구지원(2), 전기자동차 통합 R&D 연구지원(2), 자율주행 글로벌 혁신클러스터 연구과제 보조 등",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3",
+   "7"
+  ]
+ },
+ {
+  "id": "RD-E10",
+  "type": "언론",
+  "title": "TS, 세계 최초 자율차 평가시스템 'KADAS' 공개",
+  "publisher": "한국교통안전공단(첨단연구개발처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do?bbscCode=report&menuCode=05010200&bbscSeqn=18866",
+  "published": "2026-05-21",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "KADAS=Korea Automated Driving vehicle Assessment System. 세종검사소 전용 진로 준공, 6월부터 본격 운영. ACC·AEBS·LKAS·LDWS·FCWS 5종을 한 진로에서 검사, ECU 통신 없이 RTS·모니터로 가상 주행환경 구현. 2020년부터 추진. 구축 협력사 Dürr Korea·dSPACE Korea",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "RD-E11",
+  "type": "언론",
+  "title": "TS, 자율차 안전 책임지는 검사시스템 연내 구축",
+  "publisher": "한국교통안전공단(첨단연구개발처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do?bbscCode=report&menuCode=05010200&bbscSeqn=18623",
+  "published": "2025-07-13",
+  "accessed": "2026-09-24",
+  "locator": "본문·각주",
+  "quote_or_value": "현행 자동차관리법 검사기준·방법은 '센서 오작동 등 인지 단계 일부만 진단', 판단·제어 단계 평가 체계 미흡. 검사데이터를 자율차 검사 기준·방법 마련에 활용. 실증특례: KADAS 시범운영(국토부 승인 제5-4호, 2025-04-23 확인, 사업개시일부터 24개월)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4",
+   "7",
+   "9"
+  ]
+ },
+ {
+  "id": "RD-E12",
+  "type": "언론",
+  "title": "자동차 첨단안전장치 검사기술 개발 연구 시작",
+  "publisher": "한국교통안전공단(첨단안전연구처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do?bbscCode=report&menuCode=05010200&bbscSeqn=15382",
+  "published": "2020-04-06",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "KAIA 지원 국가R&D 1단계(2020~2022) 37억원, TS 주관·한국자동차연구원·지능형자동차부품진흥원 공동. ADAS 5종 운행단계 검사기술·장비 개발",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "id": "RD-E13",
+  "type": "언론",
+  "title": "미래자동차 검사기술의 기반을 마련하다(테스트베드 시연)",
+  "publisher": "한국교통안전공단(첨단연구개발처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do?bbscCode=report&menuCode=05010200&bbscSeqn=17893",
+  "published": "2022-03-14",
+  "accessed": "2026-09-24",
+  "locator": "본문·각주",
+  "quote_or_value": "연구기간 2020.4~2022.6(26개월). ACC·FCWS/AEBS·LDWS/LKAS 시나리오(60km/h, 차간 120m, 이탈속도 0.1~0.8m/s) 시연. 향후 실제 도로 상태 종합검사 기술 보완 계획",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "RD-E14",
+  "type": "언론",
+  "title": "TS, 6월부터 전기車 전용 검사기술 실증 추진",
+  "publisher": "한국교통안전공단(첨단연구개발처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do?bbscCode=report&menuCode=05010200&bbscSeqn=18528",
+  "published": "2025-04-04",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "「전기자동차 안전성 평가 및 통합 안전기술 개발」 R&D(KAIA, 2023.4~2026.12). 절연저항·AVAS·배터리 검사장비 3종 2024.12 개발 완료, 해운대검사소 전용 진로 실증",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "id": "RD-E15",
+  "type": "언론",
+  "title": "TS, 전기차 배터리 안전상태 초정밀 검사체계 도입한다",
+  "publisher": "한국교통안전공단(첨단연구개발처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do?bbscCode=report&menuCode=05010200&bbscSeqn=18619",
+  "published": "2025-07-11",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "정기검사 도래 전기차 대상 실증(2025.7~12). 실증 결과로 고도화 후 '자동차관리법 전기자동차 검사방법 시행규칙 개정(안) 제안 예정'. CITA 2025-07-03 전기차 검사 성명서와 검사항목 부합",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4",
+   "6"
+  ]
+ },
+ {
+  "id": "RD-E16",
+  "type": "언론",
+  "title": "TS, 첨단차 소프트웨어(SW) 검사 기술 '첫선'",
+  "publisher": "한국교통안전공단(첨단연구개발처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do?bbscCode=report&menuCode=05010200&bbscSeqn=18639",
+  "published": "2025-07-29",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "국가R&D '자동차 통합보안 안전성 평가기술'로 SDV 연구. 2025.9부터 SDV 검사 시범. EU RWP(2025.4 개정 제안)·R155/R156·Directive 2014/45 반영 한국형 체계 개발 계획",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3",
+   "6"
+  ]
+ },
+ {
+  "id": "RD-E17",
+  "type": "언론",
+  "title": "TS, 사용후 배터리 안전관리 혁신 방안 찾는다(국회 세미나)",
+  "publisher": "한국교통안전공단(첨단연구개발처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do?bbscCode=report&menuCode=05010200&bbscSeqn=18676",
+  "published": "2025-09-10",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "사용후 배터리 3단계 검사체계 발표(센터장). 국내 전기차 등록 73만대 초과, 5년 내 대량 발생 대비",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "7"
+  ]
+ },
+ {
+  "id": "RD-E18",
+  "type": "언론",
+  "title": "TS, 전기차 배터리 안전성 국제기준 마련 앞장",
+  "publisher": "한국교통안전공단(안전연구처·KATRI)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do?bbscCode=report&menuCode=05010200&bbscSeqn=18669",
+  "published": "2025-09-08",
+  "accessed": "2026-09-24",
+  "locator": "본문·각주",
+  "quote_or_value": "KATRI가 동일 명칭 R&D 'EV 안전성 평가 및 통합 안전 기술 개발('23~'26)' 수행 언급 — 제작단계(KATRI)와 운행단계(첨단연구개발처)가 한 R&D를 분담하는 구조",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "9"
+  ]
+ },
+ {
+  "id": "RD-E19",
+  "type": "언론",
+  "title": "TS, SDV·미래차 '소통 기술' 국제 안전기준 마련 주도",
+  "publisher": "한국교통안전공단(부품연구처·KATRI)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do?bbscCode=report&menuCode=05010200&bbscSeqn=18933",
+  "published": "2026-09-03",
+  "accessed": "2026-09-24",
+  "locator": "본문",
+  "quote_or_value": "KATRI 부품연구처: GTB 산하 TF-ISD 의장국, 2015년부터 GTB 한국 대표. 제작차 국제기준(UN R) 업무는 KATRI 소관",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "9"
+  ]
+ },
+ {
+  "id": "RD-E20",
+  "type": "계약",
+  "title": "TS 2026 용역·물품·시설공사 발주계획 담당부서 집계",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_용역_발주계획.csv 외 2건",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "담당부서명 열 python 집계",
+  "quote_or_value": "첨단연구개발처 0건(용역 259건·물품 138건·시설공사 36건 중). 첨단검사전략처 물품 4건(KADIS 소모품·중국 전기차 진단기)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "RD-E21",
+  "type": "내부",
+  "title": "13개 처 조직검증·중복경계 v0.1 §5·§6",
+  "publisher": "CCK 내부(오케스트레이터)",
+  "url_or_path": "{S}/out/00_조직검증_중복경계_v0.1.md",
+  "published": "2026-09-24",
+  "accessed": "2026-09-24",
+  "locator": "§5 중복 매트릭스, §6 RD 주의",
+  "quote_or_value": "RD: 기존 AI 과제와 기능 중복 없음. KADAS 시범운영·CITA 국제검증은 처의 본 R&D 과업(OV-06) → 컨셉은 '검증 설계 지원'으로 한정",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "id": "RD-E22",
+  "type": "내부",
+  "title": "첨단검사전략처 근거기반 솔루션 v0.1",
+  "publisher": "CCK 내부(AD 조사원)",
+  "url_or_path": "{S}/out/AD_첨단검사전략처_근거기반솔루션_v0.1.md",
+  "published": "2026-09-24",
+  "accessed": "2026-09-24",
+  "locator": "§0·§3",
+  "quote_or_value": "AD 솔루션 = KADIS 진단 커버리지·실패사유 원장(차종×진단항목). 첨단연구개발처는 검사장비·기술 R&D·RMI로 구분",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "9"
+  ]
+ },
+ {
+  "id": "RD-E23",
+  "type": "데이터",
+  "title": "TS 보도자료 게시판 제목 검색(KADAS·자율·첨단안전장치·검사기술·배터리·SDV·CITA)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_list.do?bbscCode=report&menuCode=05010200",
+  "published": "2019~2026",
+  "accessed": "2026-09-24",
+  "locator": "sechCdtn=1 제목 검색 결과",
+  "quote_or_value": "'KADAS' 제목 1건(2026-05-21). 첨단연구개발처 담당 확인 보도: 2022-03-14, 2025-04-04, 2025-07-11, 2025-07-13, 2025-07-29, 2025-09-10, 2026-05-21",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "11"
+  ]
+ },
+ {
+  "id": "RD-E24",
+  "type": "법령",
+  "title": "한국교통안전공단법 제6조(사업)",
+  "publisher": "국토교통부/국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=198271",
+  "published": "시행 2018-01-01(법률 제14939호, 현행)",
+  "accessed": "2026-09-25",
+  "locator": "제6조 제2·3·5·6호",
+  "quote_or_value": "2호 교통안전 기술 개발·보급(도로는 자동차 성능·안전 사항), 3호 자료 수집·조사·연구·국제협력, 5호 연구용역 수탁, 6호 자동차 성능·안전도 시험·연구",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "RD-E25",
+  "type": "법령",
+  "title": "자동차관리법 시행규칙 별표 15 자동차검사기준 및 방법(제73조 관련)",
+  "publisher": "국토교통부/국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=289865&bylNo=0015&bylBrNo=00&bylCls=BE",
+  "published": "개정 2025-12-02(시행규칙 2026-09-15 판본)",
+  "accessed": "2026-09-25",
+  "locator": "1.나.7), 2.가 전자장치 항목(AD 조사원 저장본 재판독)",
+  "quote_or_value": "순항제어·차로이탈경고·비상자동제동 등 안전운전 보조장치: '전자장치진단기로 각종 센서의 정상 작동 여부 확인', 차로이탈경고장치가 진단되지 않으면 '맨눈으로 설치 여부 확인'. 진단 시도 후 진단 불가 시 검사기기 검사 생략 허용. 기능(주행) 시험 규정 없음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "RD-E26",
+  "type": "법령",
+  "title": "모빌리티 혁신 및 활성화 지원에 관한 법률 제12조⑧·제13조③·제14조·제16조",
+  "publisher": "국토교통부/국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=276989",
+  "published": "시행 2026-01-02(법률 제21065호)",
+  "accessed": "2026-09-25",
+  "locator": "제12조⑧, 제13조③, 제14조①③④⑦, 제16조①",
+  "quote_or_value": "실증특례 유효기간 2년 이하(위원회 결정), 법령 미정비 시 1회 2년 이하 연장. 특례 받은 자는 만료 2개월 전까지 '실증특례 적용 및 사업 결과'를 첨부해 법령 정비 요청 가능, 미요청 시 만료 후 30일 이내 결과 제출. 국토부는 결과로 정비 필요 여부 검토·위원회 보고, 안전성 입증 시 즉시 정비 착수. 국토부는 실증 데이터 제출 요청 가능",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4",
+   "5",
+   "8",
+   "9"
+  ]
+ },
+ {
+  "id": "RD-E27",
+  "type": "언론",
+  "title": "[국토부 보도자료] 제5차 모빌리티 혁신위원회 17건 실증특례(ITS Korea 재게시)",
+  "publisher": "국토교통부(ITS Korea 재게시)",
+  "url_or_path": "https://itskorea.kr/boardDetail.do?type=8&idx=17495",
+  "published": "2025-04-29(위원회 2025-04-23)",
+  "accessed": "2026-09-25",
+  "locator": "6번 항목",
+  "quote_or_value": "'자율주행자동차 평가시스템 운영(한국교통안전공단)': ADAS 등 포함 통합 검사 시스템 실증을 위해 「자동차관리법」상 첨단검사장비의 정의, 전자제어 장치에 대한 검사 기준 등에 특례 부여. 제4차까지 33건 특례",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "RD-E28",
+  "type": "법령",
+  "title": "자동차관리법 제35조의13~제35조의19(사용후 배터리 성능평가·재제조·유통전 안전검사·이력관리)",
+  "publisher": "국토교통부/국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=260419",
+  "published": "신설 2026-02-27, 시행 2027-07-01",
+  "accessed": "2026-09-25",
+  "locator": "제3장의3(AD 조사원 저장 원문 재판독, python 집계)",
+  "quote_or_value": "탈거 전 성능평가(재제조·재사용·재활용 등급), TS를 성능평가대행자로 지정 가능(제35조의14), 유통전 안전검사·정기 안전검사, 이력관리시스템, 정보 제공 요청권. 해당 조문 구간 내 '국토교통부령' 위임 13회, 시행까지 약 9개월",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4",
+   "5",
+   "8"
+  ]
+ },
+ {
+  "id": "RD-E29",
+  "type": "법령",
+  "title": "자동차관리법 시행규칙 제정·개정이유 연혁(2020~2026)",
+  "publisher": "국토교통부/국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsRvsRsnListP.do?lsId=007928&chrClsCd=010102&lsRvsGubun=all",
+  "published": "2020-10~2026-01",
+  "accessed": "2026-09-25",
+  "locator": "개정이유 75건 중 검사·전기차·자율주행 관련",
+  "quote_or_value": "2021-10-14(제900호) 전기차 검사 시 전자장치진단기로 고장진단코드 확인 기준 신설; 2024-12-31(제1435호) 고전원전기장치 설치상태 불량 부적합 사유 추가; 2025-06-02 자율주행차 성능인증·적합성승인 및 정기검사 책무. ADAS 기능(주행모사) 검사 도입 개정은 없음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "RD-E30",
+  "type": "법령",
+  "title": "국가연구개발혁신법 제16조·제17조",
+  "publisher": "과학기술정보통신부/국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=283849",
+  "published": "시행 2026-09-11(법률 제21421호)",
+  "accessed": "2026-09-25",
+  "locator": "제17조①②⑥",
+  "quote_or_value": "성과소유기관은 성과 유지·관리·공동활용·정보공개 등 활용 조치 의무(2026-03-10 개정), 종료 과제 최종보고서·성과정보 공개, 중앙행정기관은 성과활용보고서 등으로 추적조사 가능",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4",
+   "7",
+   "9"
+  ]
+ },
+ {
+  "id": "RD-E31",
+  "type": "데이터",
+  "title": "KAIA 성과도서관 과제현황 — 주관연구기관 '한국교통안전공단' 검색",
+  "publisher": "국토교통과학기술진흥원",
+  "url_or_path": "https://www.kaia.re.kr/portal/landmark/readTskList.do?menuNo=200060&orgNm=한국교통안전공단",
+  "published": "2015~2022 등재분",
+  "accessed": "2026-09-25",
+  "locator": "목록 52행(과제·연차 단위)",
+  "quote_or_value": "TS 주관 과제 예: 첨단안전장치 장착자동차 성능평가 검사기술 개발 기획(2018-12~2019-11)·본과제(2020-04~2022-06), 수소버스 안전성 평가기술 및 장비 개발(2020~2022), 자동차 통합보안 안전성 평가기술 개발(2021~), EV 안전성 평가 기획(2021-06~2022-04), 이륜자동차 안전기준 및 검사장비(2015~2018). 2023년 이후 과제는 목록에 미등재",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3",
+   "11"
+  ]
+ },
+ {
+  "id": "RD-E32",
+  "type": "데이터",
+  "title": "KAIA 과제 158092 첨단안전장치 장착자동차 성능평가 검사기술 개발 — 과제정보",
+  "publisher": "국토교통과학기술진흥원",
+  "url_or_path": "https://www.kaia.re.kr/portal/landmark/readTskView.do?menuNo=200060&tskId=158092&yearCnt=2",
+  "published": "2020-04~2022-06",
+  "accessed": "2026-09-25",
+  "locator": "사업개요·연차 출연금·최종목표",
+  "quote_or_value": "정부출연금 1차년도 9.61억 + 2차년도 27.85억 = 37.46억원. 총 연구기간 표기 2022-04-30(1차년도)→2022-06-30(2차년도). 개요: '운행 단계 안전성 확보 검사기술 개발은 전무'. 목표: 검사장비 개발과 '검사기준 마련을 위한 검사 기반기술', 실차 시험 정합성 검증",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "id": "RD-E33",
+  "type": "데이터",
+  "title": "KAIA 과제 158092 성과 목록(특허·논문·법령·정책·표준)",
+  "publisher": "국토교통과학기술진흥원",
+  "url_or_path": "https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?menuNo=200060&tskId=158092&yearCnt=2",
+  "published": "2021~2022 등재",
+  "accessed": "2026-09-25",
+  "locator": "listCd=Patent·Jrnpbl·Lawesh·Plcpps·Plccic·Stdcic",
+  "quote_or_value": "특허 4건(등록 2·출원 2, 모두 공동연구기관·장비사 명의), 논문 4건. 법령 제·개정(Lawesh)·정책제안·정책반영·표준반영 등재 0건. 과제 종료 후 반영분은 미등재 가능",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4",
+   "8"
+  ]
+ },
+ {
+  "id": "RD-E34",
+  "type": "데이터",
+  "title": "KAIA 과제 158067 수소버스 안전성 평가기술 및 장비 개발 — 성과 목록(대조군)",
+  "publisher": "국토교통과학기술진흥원",
+  "url_or_path": "https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?menuNo=200060&tskId=158067&yearCnt=3",
+  "published": "2020~2022 등재",
+  "accessed": "2026-09-25",
+  "locator": "Lawesh·Plcpps",
+  "quote_or_value": "법령 반영 2건(성능과 기준 시행세칙·내압용기 안전 규정, 2020-12-08), 정책제안 3건(내압용기 화재평가 개정 건의, GTR13 제안). 성과 DB가 법령 반영을 기록하는 구조임을 보여 주는 대조 사례",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "RD-E35",
+  "type": "데이터",
+  "title": "KAIA 과제 96239 이륜자동차 안전기준 및 검사장비 기술개발 — 성과 목록",
+  "publisher": "국토교통과학기술진흥원",
+  "url_or_path": "https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?menuNo=200060&tskId=96239&yearCnt=3",
+  "published": "2015-05~2018-06",
+  "accessed": "2026-09-25",
+  "locator": "Plcpps",
+  "quote_or_value": "정책제안: 자동차관리법 일부개정법률안 2건(국토부 자동차운영보험과, 2016-12-30·2018-06-04). 검사장비 특허 3건",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "6"
+  ]
+ },
+ {
+  "id": "RD-E36",
+  "type": "논문",
+  "title": "첨단안전장치 장착자동차 성능평가 검사기술 개발(기획보고서)",
+  "publisher": "한국교통안전공단/KISTI ScienceON",
+  "url_or_path": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202300002709",
+  "published": "2019-11",
+  "accessed": "2026-09-25",
+  "locator": "초록",
+  "quote_or_value": "대형차 AEB·LDWS, 소형차 5종 검사항목 선정; '첨단안전장치 검사제도(법령, 기준, 방법) 도입을 위한 제도기술 개발' 계획 완료",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "RD-E37",
+  "type": "논문",
+  "title": "KAIA 158092 등재 논문 4편(자동차안전학회지·한국자동차공학회 논문집)",
+  "publisher": "국토교통과학기술진흥원 성과 목록",
+  "url_or_path": "https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?menuNo=200060&listCd=Jrnpbl&tskId=158092&yearCnt=2",
+  "published": "2021~2022",
+  "accessed": "2026-09-25",
+  "locator": "Jrnpbl 목록",
+  "quote_or_value": "'AEBS와 LDWS가 장착된 대형버스의 정기검사를 위한 검사요소 개발', '승용차 전방충돌보호 시스템 검사기준 마련 연구', 가상환경 시뮬레이션, 차량동역학 모델 검증. 원문 미열람(제목만 확인)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "6"
+  ]
+ },
+ {
+  "id": "RD-E38",
+  "type": "계획",
+  "title": "국토교통 혁신클러스터형 국제협력 공동연구사업 기획(KAIA 기획보고서)",
+  "publisher": "국토교통과학기술진흥원/KISTI ScienceON",
+  "url_or_path": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202500010354",
+  "published": "2025-01",
+  "accessed": "2026-09-25",
+  "locator": "세부과제 목록(초록)",
+  "quote_or_value": "세부과제 '자율주행자동차 운행 안전성 확보를 위한 정기검사 시스템 고도화 국제공동연구' 포함. 참여국·예산 초록 미기재",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "RD-E39",
+  "type": "해외",
+  "title": "Questions and answers on the revision of the roadworthiness package(QANDA/25/1084)",
+  "publisher": "European Commission",
+  "url_or_path": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/qanda_25_1084/QANDA_25_1084_EN.pdf",
+  "published": "2025-04-24",
+  "accessed": "2026-09-25",
+  "locator": "Key elements",
+  "quote_or_value": "현행 PTI 방법이 ADAS·전기차에 맞춰지지 않음. 개정안: 전기차 PTI, 전자 안전시스템 신규 검사항목을 '전자 차량 인터페이스' 확대로 수행(안전·배출 관련 소프트웨어 무결성 포함)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4",
+   "6"
+  ]
+ },
+ {
+  "id": "RD-E40",
+  "type": "해외",
+  "title": "CITA Recommendation No. 27 Electric Vehicles Inspection – A Comprehensive Approach",
+  "publisher": "CITA",
+  "url_or_path": "https://citainsp.org/2025/07/03/cita-rec-no-27-electric-vehicles-a-comprehensive-approach/",
+  "published": "2025-07-03",
+  "accessed": "2026-09-25",
+  "locator": "공지 본문·기여기관",
+  "quote_or_value": "EV PTI 방법론: 절연저항·AVAS·등전위 본딩 시험, 진단데이터 접근·소프트웨어 무결성·배터리 건강 평가. 작성 TF 기여기관 목록(APPLUS+, TÜV NORD, FSD, DEKRA, RDW 등)에 TS 미표기",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4",
+   "6"
+  ]
+ },
+ {
+  "id": "RD-E41",
+  "type": "해외",
+  "title": "車載式故障診断装置を活用した自動車検査手法のあり方検討会(검토회 경과)",
+  "publisher": "国土交通省(일본)",
+  "url_or_path": "https://www.mlit.go.jp/jidosha/OBD_Inspection_System.html",
+  "published": "2017-12~2019-03",
+  "accessed": "2026-09-25",
+  "locator": "회차 목록",
+  "quote_or_value": "2017-12-04 제1회 → 2018-05-11 중간정리 → 2019-01-22 제8회 → 2019-03-13 최종보고서(8회, 약 15개월)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "RD-E42",
+  "type": "해외",
+  "title": "自動運転に対応した新たな検査手法を導入します(告示 개정 공포)",
+  "publisher": "国土交通省 自動車局(일본)",
+  "url_or_path": "https://www.mlit.go.jp/report/press/content/001357961.pdf",
+  "published": "2020-08-05",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "최종보고서에 따라 고시 개정 공포; 2021-10 이후 신형차 대상 2024-10 전자검사 개시(수입차 2025-10), 2021-10 프리테스트, NALTEC이 1대당 400엔 실비 징수. 대상: 자동브레이크·차선유지 등 운전지원장치, 자동운행장치, 배출가스 장치",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4",
+   "6"
+  ]
+ },
+ {
+  "id": "RD-E43",
+  "type": "해외",
+  "title": "„Funktion und Wirkung können nicht geprüft werden“(KÜS 신검사방법 개발 책임자 인터뷰)",
+  "publisher": "Krafthand",
+  "url_or_path": "https://www.krafthand.de/artikel/funktion-und-wirkung-koennen-nicht-geprueft-werden-87911/",
+  "published": "2024-05-18",
+  "accessed": "2026-09-25",
+  "locator": "인터뷰 요지",
+  "quote_or_value": "독일 HU: EU 2019/2144 의무 ADAS를 HU-Adapter로 센서 상태·설정 확인하나 일부 시스템은 기능·효과 시험 불가, 신차종 사양 데이터 지연, 불일치 시 중앙기관(FSD)으로 회부해 사양 갱신",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "4",
+   "6"
+  ]
+ },
+ {
+  "id": "RD-E44",
+  "type": "해외",
+  "title": "Date of the first MOT test — Consultation response",
+  "publisher": "UK Department for Transport",
+  "url_or_path": "https://assets.publishing.service.gov.uk/media/65e731863f6945a00603606d/date-of-the-first-mot-test-consultation-response.pdf",
+  "published": "2024-01",
+  "accessed": "2026-09-25",
+  "locator": "Future of the MOT 절",
+  "quote_or_value": "ADAS(자동차로유지 등)는 'MOT에서 고려되어야' 함, CAVPASS·업계와 ADAS 시험 결론의 자율차 적용 검토 예정 — 도입 전 연구 단계",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "RD-E45",
+  "type": "예산",
+  "title": "NTIS 과제 2050001525 전기자동차 안전성 평가 및 통합안전기술개발(2026 연차)",
+  "publisher": "과학기술정보통신부 NTIS",
+  "url_or_path": "https://www.ntis.go.kr/ThSearchProjectList.do?searchWord=전기자동차 운행 안전성 검사",
+  "published": "2023~2026",
+  "accessed": "2026-09-25",
+  "locator": "검색결과 행(과제고유번호 2050001525·2610000242·2610000159)",
+  "quote_or_value": "TS 주관, 국토교통부. 누적 총연구비 353.84억(정부 290억), 2026 연차 정부 121.65억(총 145.31억), 2025 연차 정부 97.35억, 2024 연차 정부 36억. 제작안전(KATRI)·운행안전(검사) 포함. 종료 2026-12",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "RD-E46",
+  "type": "예산",
+  "title": "NTIS 과제 2610000570 자동차 통합보안 안전성 평가기술 개발(2026 연차)",
+  "publisher": "과학기술정보통신부 NTIS",
+  "url_or_path": "https://www.ntis.go.kr/ThSearchProjectList.do?searchWord=자동차 통합보안 안전성 평가기술",
+  "published": "2021~2026",
+  "accessed": "2026-09-25",
+  "locator": "검색결과 행",
+  "quote_or_value": "TS 주관, 자율주행기술개발혁신사업(국토부). 누적 총연구비 118.03억(정부 96.25억). SDV 검사기술 연구 재원(RD-E16과 연결)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "RD-E47",
+  "type": "예산",
+  "title": "NTIS 과제 1615011846 첨단안전장치 장착자동차 성능평가 검사기술 개발",
+  "publisher": "과학기술정보통신부 NTIS",
+  "url_or_path": "https://www.ntis.go.kr/ThSearchProjectList.do?searchWord=첨단안전장치 장착자동차",
+  "published": "2020~2021(2021 연차)",
+  "accessed": "2026-09-25",
+  "locator": "검색결과 행",
+  "quote_or_value": "총 37.46억(정부 100%). NTIS 성과 표기: 특허 8, 소프트웨어 2, 연구시설장비 2 — KAIA 성과 DB(특허 4, 법령 0)와 집계 기준 상이",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "3",
+   "8"
+  ]
+ },
+ {
+  "id": "RD-E48",
+  "type": "데이터",
+  "title": "NTIS 과제 2420031007 '자율주행자동차 정기검사 시스템 구축'(규제자유특구 혁신사업육성)",
+  "publisher": "과학기술정보통신부 NTIS",
+  "url_or_path": "https://www.ntis.go.kr/ThSearchProjectList.do?searchWord=자율주행 글로벌 혁신클러스터",
+  "published": "2025~2026",
+  "accessed": "2026-09-25",
+  "locator": "검색결과 행",
+  "quote_or_value": "주관 대구기계부품연구원, 중소벤처기업부. 내용: 정기검사용 재현 평가 환경센서 시뮬레이터·가상환경 개발. 연구비 0 표기. TS 참여 여부 미확인 — KADAS와 병행되는 별도 정기검사 시스템 개발 존재",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "3",
+   "9"
+  ]
+ },
+ {
+  "id": "RD-E49",
+  "type": "논문",
+  "title": "전기자동차(EV) 안전성 평가 및 통합 안전 관리 기술 개발 기획 최종보고서",
+  "publisher": "한국교통안전공단(주관)/국토교통과학기술진흥원",
+  "url_or_path": "https://www.codil.or.kr/filebank/original/RK/OTKCRK220381/OTKCRK220381.pdf",
+  "published": "2022-06-30",
+  "accessed": "2026-09-25",
+  "locator": "표지·요약(p.1~4)",
+  "quote_or_value": "기획 2021-06~2022-04, 1.5억. 본과제 '23~'26 4년 340.52억(국비 290억·민간 50.52억) 목표에 '시범운영을 통한 법제 개선방안 연구' 포함. 법률·시행령·시행규칙·서식 해설을 '정부안 또는 의원입법에 참조자료'로 제공 계획 — 개정안 작성 자체가 R&D 산출물",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4",
+   "9"
+  ]
+ },
+ {
+  "id": "RD-E50",
+  "type": "언론",
+  "title": "사용 후 배터리 성능 평가 정확해진다(자동차관리법 개정안 본회의 통과)",
+  "publisher": "아시아경제",
+  "url_or_path": "https://view.asiae.co.kr/article/2026012917191143779",
+  "published": "2026-01-29",
+  "accessed": "2026-09-25",
+  "locator": "기사 본문",
+  "quote_or_value": "국회 본회의 통과. 성능평가(재제조·재사용·재활용 구분), 재제조 사업자 등록, 유통 전 안전검사·정기 안전검사, 이력관리. 시행 2027-07-01",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "RD-E51",
+  "type": "민원",
+  "title": "국민신문고 TS 민원 374건 분류표 키워드 집계",
+  "publisher": "CCK 수집(국민신문고 원문 URL)",
+  "url_or_path": "{P}/kotsa_국민신문고_민원374건_원문URL_분류표_2024-09~2026-09.csv",
+  "published": "2024-09~2026-09",
+  "accessed": "2026-09-25",
+  "locator": "python 정규식(첨단·ADAS·자율·전기차·배터리·진단기·검사기준·절연 등)",
+  "quote_or_value": "매칭 23건 중 운행차 ADAS·전기차 검사방법 자체에 관한 민원 0건(튜닝 구조변경·자격시험·KNCAP LKAS 평가·하이브리드 배터리 교체 튜닝 등). 연구→기준 이관은 대민 접점이 약한 내부 절차 문제",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "7"
+  ]
+ },
+ {
+  "id": "RD-E52",
+  "type": "법령",
+  "title": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 제2조제4호",
+  "publisher": "과학기술정보통신부/국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=282791",
+  "published": "시행 2026-07-21(법률 제21311호)",
+  "accessed": "2026-09-25",
+  "locator": "제2조제4호 아목·자목",
+  "quote_or_value": "고영향 AI: 교통수단·교통시설·교통체계의 주요한 작동·운영(아목), 공공기관의 자격 확인·결정 등 국민에 영향을 미치는 의사결정(자목)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "9"
+  ]
+ },
+ {
+  "id": "RD-E53",
+  "type": "내부",
+  "title": "CCK 1차(19116)·2차(19156) 사업 기능 범위",
+  "publisher": "CCK 내부(오케스트레이터 정리)",
+  "url_or_path": "{S}/out/00_조직검증_중복경계_v0.1.md",
+  "published": "2026-09-24",
+  "accessed": "2026-09-25",
+  "locator": "§4.1·§4.2",
+  "quote_or_value": "1차: 공통플랫폼(sLLM·RAG·직무 어시스턴트), 2차: 기술승인처·특수검사처·주차안전처 AI(법령·기술표준 RAG 포함). 첨단자동차검사연구센터 대상 기능 없음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "RD-E54",
+  "type": "해외",
+  "title": "Recommendation No 8 등 CITA 권고 목록(Publications)",
+  "publisher": "CITA",
+  "url_or_path": "https://citainsp.org/publications/",
+  "published": "상시",
+  "accessed": "2026-09-25",
+  "locator": "권고 번호 체계",
+  "quote_or_value": "CITA가 PTI 방법을 번호 권고(Recommendation)로 발간(예: No.8 제동, No.27 전기차). 국제 검증 채널로 활용 가능",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "RD-I01",
+  "type": "내부",
+  "title": "추론: KADAS 실증특례 만료·법령정비 요청 시점",
+  "publisher": "CCK 분석",
+  "url_or_path": "RD-E11, RD-E10, RD-E26",
+  "published": "2026-09-25",
+  "accessed": "2026-09-25",
+  "locator": "계산",
+  "quote_or_value": "유효기간 '사업개시일부터 24개월'. 사업개시일이 준공(2026-05-21)~본격 운영(2026-06) 사이라면 만료 약 2028-05~06, 법령정비 요청 기한(만료 2개월 전) 약 2028-03~04. 사업개시일 미확인(RD-U01)",
+  "grade": "INFERRED",
+  "used_in": [
+   "0",
+   "2",
+   "4",
+   "8"
+  ]
+ },
+ {
+  "id": "RD-I02",
+  "type": "내부",
+  "title": "추론: ADAS 기능검사 연구→기준 반영 경과기간",
+  "publisher": "CCK 분석",
+  "url_or_path": "RD-E31, RD-E32, RD-E27, RD-E10, RD-E25, RD-E29",
+  "published": "2026-09-25",
+  "accessed": "2026-09-25",
+  "locator": "연표 계산",
+  "quote_or_value": "기획 착수 2018-12 → 본과제 종료 2022-06 → 실증특례 2025-04 → 전용 진로 준공 2026-05 → 별표 15 기능시험 규정 부재(2026-09 판본). 기획 착수부터 약 7년 9개월, 본과제 종료부터 약 4년 3개월 동안 법령 미반영. 일본 OBD 검사는 검토회 착수(2017-12)부터 고시 공포(2020-08)까지 2년 8개월",
+  "grade": "INFERRED",
+  "used_in": [
+   "0",
+   "2",
+   "4",
+   "6"
+  ]
+ },
+ {
+  "id": "RD-I03",
+  "type": "내부",
+  "title": "추론: 처 재원 구조와 '독립 R&D 제외' 원칙의 충돌 지점",
+  "publisher": "CCK 분석",
+  "url_or_path": "RD-E09, RD-E20, RD-E45, RD-E46, RD-E49",
+  "published": "2026-09-25",
+  "accessed": "2026-09-25",
+  "locator": "근거 결합",
+  "quote_or_value": "발주계획 0건, 직원 담당업무 다수가 R&D 과제 수행, 처 과제 재원이 국가R&D. 개정안 작성이 R&D 산출물로 기획됨. CCK AX를 R&D 연구비로 편성하거나 연구 산출물을 대신 작성하면 '독립 R&D'·R&D 과업 대체로 해석될 위험",
+  "grade": "INFERRED",
+  "used_in": [
+   "3",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "id": "RD-I04",
+  "type": "내부",
+  "title": "추론: 이관 병목은 방법 개발보다 '근거 패키지' 구성",
+  "publisher": "CCK 분석",
+  "url_or_path": "RD-E33, RD-E25, RD-E26, RD-E39, RD-E43, RD-E42",
+  "published": "2026-09-25",
+  "accessed": "2026-09-25",
+  "locator": "경쟁 가설 비교",
+  "quote_or_value": "ADAS 검사 R&D는 특허·논문은 있으나 법령·정책 반영 등재 0, 모빌리티혁신법은 '안전성 입증'을 법령정비 조건으로 둠, EU·독일·일본은 전자 인터페이스 방식 채택 → 주행모사 기능검사는 비용·운영영향·국제정합 입증 부담이 큼",
+  "grade": "INFERRED",
+  "used_in": [
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "RD-I05",
+  "type": "내부",
+  "title": "추론: 사용후 배터리 하위법령 시한",
+  "publisher": "CCK 분석",
+  "url_or_path": "RD-E28, RD-E01",
+  "published": "2026-09-25",
+  "accessed": "2026-09-25",
+  "locator": "일정 역산",
+  "quote_or_value": "시행 2027-07-01, 부령 위임 13회. 입법예고(통상 40일 이상)·규제심사·법제처 심사를 고려하면 2027년 1분기 전 TS 시행안 확정 필요. 3단계 검사 기술·장비는 RD R&D 성과가 근거",
+  "grade": "INFERRED",
+  "used_in": [
+   "0",
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "RD-U01",
+  "type": "계약",
+  "title": "KADAS 실증특례 사업개시일·만료일·부가조건",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.molit.go.kr/LCMS/DWN.jsp?fold=/N01_B/&fileName=모빌리티_규제샌드박스_실증특례_승인_공고서(1).pdf",
+  "published": "미확인",
+  "accessed": "2026-09-25",
+  "locator": "승인 공고 PDF",
+  "quote_or_value": "WebFetch 리다이렉트 초과·curl 0바이트, sandbox.kotsa.or.kr 목록 동적 로딩으로 미확인. 2025-01 공고(제2025-31호)에는 KADAS 없음",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "11"
+  ]
+ },
+ {
+  "id": "RD-U02",
+  "type": "계약",
+  "title": "KADAS 구축 계약(사업명·금액·재원·수행사)",
+  "publisher": "한국교통안전공단/조달청",
+  "url_or_path": "나라장터·TS 전자조달(미열람)",
+  "published": "미확인",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "보도상 구축 협력사 Dürr Korea·dSPACE Korea만 확인. 계약금액·재원(R&D/자체) 미확인, 로컬 RFP 10건에도 없음",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "3",
+   "11"
+  ]
+ },
+ {
+  "id": "RD-U03",
+  "type": "국감",
+  "title": "국정감사 지적(첨단안전장치·자율차·전기차 검사, R&D 성과 활용)",
+  "publisher": "국회",
+  "url_or_path": "https://www.nars.go.kr/report/view.do?cmsCode=CM0043&brdSeq=45302",
+  "published": "2024~2025",
+  "accessed": "2026-09-25",
+  "locator": "2024 국정감사 이슈 분석 제7권(국토교통위)",
+  "quote_or_value": "본문 PDF가 DRM 이미지 뷰어라 열람 불가, 웹검색에서 TS 첨단검사·R&D 활용 관련 지적 미발견. 0건 확인이 아닌 미확인",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "11"
+  ]
+ },
+ {
+  "id": "RD-U04",
+  "type": "감사",
+  "title": "감사원 감사결과(국토교통 R&D 성과관리·TS 연구과제)",
+  "publisher": "감사원",
+  "url_or_path": "https://www.bai.go.kr/bai/result/branch/list/",
+  "published": "미확인",
+  "accessed": "2026-09-25",
+  "locator": "웹검색 2회",
+  "quote_or_value": "해당 주제 감사결과 미발견. bai.go.kr 목록 직접 검색은 미수행",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "11"
+  ]
+ },
+ {
+  "id": "RD-U05",
+  "type": "법령",
+  "title": "레벨4 자율주행차 정기검사 기준·방법 고시 제정 여부",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.korea.kr/news/policyNewsView.do?newsId=148967733",
+  "published": "2026-07(가이드라인 보도)",
+  "accessed": "2026-09-25",
+  "locator": "웹검색",
+  "quote_or_value": "2026-07 '무인 자율주행차 안전운행 요건 가이드라인'(임시운행허가)만 확인. 정기검사 고시 제정·시행 여부 미확인",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "1",
+   "11"
+  ]
+ },
+ {
+  "id": "RD-U06",
+  "type": "데이터",
+  "title": "KADAS 실증 운영 실적(검사 대수·재현 결과·부적합 사례)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "공개자료 없음",
+  "published": "미확인",
+  "accessed": "2026-09-25",
+  "locator": "보도자료·공공데이터 검색",
+  "quote_or_value": "운영 개시 후 실적 공개 없음. 기준선 산출에 필요한 내부 자료",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "7",
+   "8",
+   "11"
+  ]
+ },
+ {
+  "id": "RD-U07",
+  "type": "판례",
+  "title": "ADAS 검사·검사기준 관련 판례",
+  "publisher": "대법원 등",
+  "url_or_path": "웹검색(판례 키워드)",
+  "published": "미확인",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "운행차 ADAS 검사방법·검사기준 이관과 직접 관련된 판례 미발견. 관련성 낮은 범주로 판단",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "11"
+  ]
+ },
+ {
+  "id": "RD-E55",
+  "type": "통계",
+  "title": "2026년 상반기 자동차 등록현황(국토교통부 발표 인용)",
+  "publisher": "머니투데이(국토교통부 자료 인용)",
+  "url_or_path": "https://www.mt.co.kr/estate/2026/07/30/2026072915093667802",
+  "published": "2026-07-30(2026-06 말 기준)",
+  "accessed": "2026-09-25",
+  "locator": "기사 본문",
+  "quote_or_value": "자동차 누적 2,667.6만대, 전기차 109.5만대(약 4.1%), 친환경차 395.3만대(전년 말 대비 13.1% 증가)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "7",
+   "8"
+  ]
+ },
+ {
+  "id": "RD-U08",
+  "type": "데이터",
+  "title": "공공데이터포털 TS 제공 ADAS·KADAS·첨단안전장치 검사 데이터셋",
+  "publisher": "행정안전부 공공데이터포털",
+  "url_or_path": "https://www.data.go.kr/tcs/dss/selectDataSetList.do?keyword=첨단안전장치",
+  "published": "2026-09-25 검색",
+  "accessed": "2026-09-25",
+  "locator": "키워드 '첨단안전장치'(+기관 한국교통안전공단) 검색",
+  "quote_or_value": "검색 결과 2건 모두 타 기관·무관 자료. TS의 ADAS 검사·KADAS 실증 공개 데이터셋 미발견",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "7",
+   "11"
+  ]
+ }
+]

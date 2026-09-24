@@ -1,0 +1,1327 @@
+[
+ {
+  "id": "DF-P01",
+  "type": "계획",
+  "title": "TS 2026 주요업무 추진계획 — 교통안전정책실 2025 성과",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01(추정)",
+  "accessed": "2026-09-24",
+  "locator": "p.108(문서쪽 104)",
+  "quote_or_value": "2025년 사업용 사망자 390명(10월말), 목표대비 68.2%, 전년대비 6.8%(25명) 증가. 전체 사망자 2,071명. 취약: 노선·전세버스, 개인택시",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "2"
+  ]
+ },
+ {
+  "id": "DF-P02",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 교통안전정책실 추진방향(사업용 사망자 목표)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01(추정)",
+  "accessed": "2026-09-24",
+  "locator": "p.111(문서쪽 107)",
+  "quote_or_value": "사업용 사망자수 '25년 390명(10월말) → '26년 334명 국정목표(14.4%↓). 중점: 첨단안전장치 확대, 고위험 운수종사자·운수회사 관리",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "DF-P03",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 고·중위험 운수회사 컨설팅 성과",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01(추정)",
+  "accessed": "2026-09-24",
+  "locator": "p.108",
+  "quote_or_value": "위험 등급별 맞춤형 솔루션·분석리포트 제공으로 운수회사 사고율 54.7% 감소('24 0.563→'25 0.255). 대상 고위험 1,000개社·중위험 3,328개社·위험운전행동 운수종사자 1,000명. 대조군·분모 정의 미기재",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4",
+   "8",
+   "9"
+  ]
+ },
+ {
+  "id": "DF-P04",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 개선 필요사항(위험社 집중관리 사각지대)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01(추정)",
+  "accessed": "2026-09-24",
+  "locator": "p.109",
+  "quote_or_value": "고위험군 집중관리 대상 외 운수社 사망자 증가에 따라 중위험군 운수회사 등 사각지대 관리범위 확대 필요",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "DF-P05",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 운수종사자 통합플랫폼·고위험 운수종사자 안전케어",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01(추정)",
+  "accessed": "2026-09-24",
+  "locator": "p.113",
+  "quote_or_value": "원인: 운전자-차량 데이터 연계 미흡으로 안전정보 제공 한계. 스마트카드 약 1,000명 발급, 운행기록분석시스템-운수종사자관리시스템-자동차관리망 연계. 고위험 운수종사자 1,000명 매월 운행기록 리포트 발송",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "3",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "DF-P06",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 고위험 운수회사 집중관리·COSAS 안전등급 분기관리",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01(추정)",
+  "accessed": "2026-09-24",
+  "locator": "p.114",
+  "quote_or_value": "중대사고·고령자·중소형·안전등급 하위 고위험 운수社 1,000개 선정. 운수안전컨설팅시스템의 교통안전융합정보(법규위반건수·위험운전행동건수·총운행거리·사고지수·안전도평가지수)로 분기별 관리. 운송안전감독관 제도 입법 추진",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "DF-P07",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — DTG 활용 화물차 최고속도제한장치 해제 의심차량 관리",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01(추정)",
+  "accessed": "2026-09-24",
+  "locator": "p.120~121",
+  "quote_or_value": "DTG 활용 최고속도(90km/h) 제한장치 무단해제 의심 차량 임시검사 명령(공단→지자체) 및 제한속도 스티커 7,100→10,000개+α",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "5"
+  ]
+ },
+ {
+  "id": "DF-P08",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 모빌리티정책실 2025 성과(데이터 개방)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01(추정)",
+  "accessed": "2026-09-24",
+  "locator": "p.98",
+  "quote_or_value": "국가중점데이터 최초 합성데이터 구축(수도권 약 42억건), 데이터안심구역 실증특례로 교통카드 데이터 민간 활용. '25년 민간 이용 합성데이터 39,410건, 데이터안심구역 57건",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4",
+   "7"
+  ]
+ },
+ {
+  "id": "DF-P09",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 모빌리티정책실 추진여건(데이터 개방 요구)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01(추정)",
+  "accessed": "2026-09-24",
+  "locator": "p.100",
+  "quote_or_value": "교통카드 데이터·택시 승하차 정보 등 공단 보유 7종 데이터가 행안부 AI 고가치 공공데이터 TOP100 후보로 선정·개방 요구",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4",
+   "7"
+  ]
+ },
+ {
+  "id": "DF-P10",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 모빌리티정책실 운전자안전관리(신규)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01(추정)",
+  "accessed": "2026-09-24",
+  "locator": "p.102",
+  "quote_or_value": "빅데이터(종사자·운행기록 등) 기반 고위험군 운전자 대상 맞춤형 정보제공(지역본부 등 협업: 주요 위험운전행동·위험수준·UBI)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "DF-P11",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 택시운행 데이터 개방·TIMS 연계",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01(추정)",
+  "accessed": "2026-09-24",
+  "locator": "p.104",
+  "quote_or_value": "택시운행 데이터 개방(9월, 1시간·격자 단위 O/D 통계), TIMS 기반 지자체 데이터허브 구축 지원(12월)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "7"
+  ]
+ },
+ {
+  "id": "DF-P12",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 교통안전 전문교육 TMACS 통합관리",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01(추정)",
+  "accessed": "2026-09-24",
+  "locator": "p.124",
+  "quote_or_value": "TMACS를 활용한 교육대상자·교육결과 통합관리체계 개선(교통안전 담당 공무원 등 약 800명)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "DF-C01",
+  "type": "계약",
+  "title": "26년 운행기록분석시스템 운영환경 및 기능개선 과업 및 제안요청서(공고 19057)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{D}/검토결과_20260921/공식발주근거/19057_2. 과업 및 제안요청서.txt",
+  "published": "2026-04",
+  "accessed": "2026-09-24",
+  "locator": "Ⅰ.1 사업개요·3 추진경과",
+  "quote_or_value": "예산 394,830,000원(VAT포함), 6개월, 제한경쟁·협상. 1단계('09~'12)·2단계('13~'16) 구축 후 '17~'25 운영·유지보수(17차년도)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "DF-C02",
+  "type": "계약",
+  "title": "ETAS 2026 RFP SFR-005~007 대시보드·고위험군 관리",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{D}/검토결과_20260921/공식발주근거/19057_2. 과업 및 제안요청서_표포함본문.txt",
+  "published": "2026-04",
+  "accessed": "2026-09-24",
+  "locator": "SFR-005·006·007(표포함본문 약 865~955행)",
+  "quote_or_value": "운수회사/개인사업자 대시보드; 공단 검색조건·지자체·지역본부 기준 위험운전행동 고위험군 운수회사(운전자) 상위 랭킹 자동추출, A4 1쪽 PDF 자동생성; 집계 데이터체계 개선",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5",
+   "10"
+  ]
+ },
+ {
+  "id": "DF-C03",
+  "type": "계약",
+  "title": "ETAS 2026 RFP SFR-010 지자체·유관기관 자료연계",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{D}/검토결과_20260921/공식발주근거/19057_2. 과업 및 제안요청서_표포함본문.txt",
+  "published": "2026-04",
+  "accessed": "2026-09-24",
+  "locator": "SFR-010(약 1036~1073행)",
+  "quote_or_value": "현재 오프라인으로 제공 중인 운행기록분석결과 통계자료·초단위 운행기록자료를 File 기반 온라인 연계로 전환, 신규 연계대상 표준방식·API 개발",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "3",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "DF-C04",
+  "type": "계약",
+  "title": "ETAS 2026 RFP SFR-011·DAR-007/008",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{D}/검토결과_20260921/공식발주근거/19057_2. 과업 및 제안요청서_표포함본문.txt",
+  "published": "2026-04",
+  "accessed": "2026-09-24",
+  "locator": "SFR-011, DAR-007·008",
+  "quote_or_value": "제한속도·위험운전 다발지점·시군구 격자 및 노드링크 매년 정기 갱신; 데이터 값 검증·품질관리 체계 수립(일반 데이터엔지니어링)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "7"
+  ]
+ },
+ {
+  "id": "DF-C05",
+  "type": "계약",
+  "title": "2026년 운수안전컨설팅지원시스템 운영 및 고도화 과업 및 제안요청서(공고 19137)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{D}/검토결과_20260921/공식발주근거/19137_2. 과업 및 제안요청서_표포함본문.txt",
+  "published": "2026-05(추정)",
+  "accessed": "2026-09-24",
+  "locator": "Ⅰ.1 개요·3 추진체계",
+  "quote_or_value": "예산 418,215,333원(유지보수 119,362,060원×2, 고도화·모델연구 179,491,213원), 착수~2027-06-30 장기계속. 추진체계 주관 '한국교통안전공단(데이터융복합처)'",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "DF-C06",
+  "type": "계약",
+  "title": "COSAS 2026 RFP SFR-001~005(요구사항 출처 데이터융복합처)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{D}/검토결과_20260921/공식발주근거/19137_2. 과업 및 제안요청서_표포함본문.txt",
+  "published": "2026-05(추정)",
+  "accessed": "2026-09-24",
+  "locator": "SFR-001~005(약 869~1110행)",
+  "quote_or_value": "모듈형 AI 운전자 안전모델(2종 이상); 운전자별 AI 안전보고서(종합위험도·주요 위험요인·개선 권고사항, 사용자 수정·출력 이력); 개인택시·개별화물 이상운전행동 지표; 사고위험도 예측 1시간 갱신·정확도 80%·재현율 30% 이상, LLM으로 위험지역 위험요인 도출",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5",
+   "6",
+   "10"
+  ]
+ },
+ {
+  "id": "DF-C07",
+  "type": "계약",
+  "title": "COSAS 2026 RFP 연계 시스템 현황(13종)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{D}/검토결과_20260921/공식발주근거/19137_2. 과업 및 제안요청서_표포함본문.txt",
+  "published": "2026-05(추정)",
+  "accessed": "2026-09-24",
+  "locator": "Ⅱ.1 연계 시스템 현황",
+  "quote_or_value": "TMACS(전체 교통사고 x,y), 운행기록분석시스템(10초 단위), 운수종사자관리시스템(업체·종사자·사고·교육·검사·자격), 운전정밀검사, 자격관리, 자동차검사, 택시운행정보, 기상, 운행기록활용시스템, TS배움터, 국가대중교통정보센터, 운전자격확인, VWORLD",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "7"
+  ]
+ },
+ {
+  "id": "DF-C08",
+  "type": "계약",
+  "title": "COSAS 2026 RFP MPR-002 기존 서비스·CNR-003 K-Safer 이관",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{D}/검토결과_20260921/공식발주근거/19137_2. 과업 및 제안요청서_표포함본문.txt",
+  "published": "2026-05(추정)",
+  "accessed": "2026-09-24",
+  "locator": "MPR-002, CNR-003",
+  "quote_or_value": "기존: 운수회사·운수종사자 안전등급과 변화요인, 도로안전등급, 복합위험운전행동 다발지역. CNR-003: K-Safer 이관 시 '점검대상별 점검 진행상태 및 점검결과' 관리 기능 제공",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "DF-C09",
+  "type": "계약",
+  "title": "2026년 운수종사자 관리시스템 기능 고도화 용역 제안요청서(공고 19134)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{D}/검토결과_20260921/공식발주근거/19134_2. 과업 및 제안요청서_표포함본문.txt",
+  "published": "2026-06",
+  "accessed": "2026-09-24",
+  "locator": "Ⅰ 사업개요·SFR 총괄표",
+  "quote_or_value": "예산 152,697,959원. SFR-001~007: 플랫폼(type1) 운수사·종사자 관리, 양성교육기관 교육정보, 멘토링, 연계서버 이관, 자관망·경찰청 연계. 본문 '운행기록'·'DTG' 언급 0건",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "9"
+  ]
+ },
+ {
+  "id": "DF-C10",
+  "type": "계약",
+  "title": "COSAS 2026 계약 체결·연속 수의계약 전환(프로젝트 기록)",
+  "publisher": "CCK 내부(N-27 v0.8, 나라장터 조회 기록)",
+  "url_or_path": "{P}/N-27_안전정보해석대응지원AI_기획카드_v0.1_2026-09-21.md",
+  "published": "2026-09-22",
+  "accessed": "2026-09-24",
+  "locator": "v0.8 머리말",
+  "quote_or_value": "계약번호 R26TA02080755, 최초계약일 2026-07-22. 제한경쟁 2회 유찰 후 수의계약 전환, 2022~2026 5개년 동일 패턴(프로젝트 세션의 나라장터 조회 기록; 이번 조사에서 재조회 안 함)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "DF-C11",
+  "type": "계약",
+  "title": "운행기록 활용방안 연구 과업 및 제안요청서(공고 19021)",
+  "publisher": "한국교통안전공단(데이터융복합처)",
+  "url_or_path": "{D}/검토결과_20260921/공식발주근거/19021_2. 과업 및 제안요청서.txt",
+  "published": "2026-04",
+  "accessed": "2026-09-25",
+  "locator": "1~3 과업명·배경·범위",
+  "quote_or_value": "70,427,000원, 7개월. 배경: eTAS 제공 서비스 외 현장 활용 관점 맞춤 지표·서비스 연계·운영/제도 보완 과제 발굴 필요. 범위: 활용 프로세스 문제점, 차종·업종·지역별 수집 현황 시계열, 지자체·경찰 등 활용 만족도 조사, 법·제도 개선안, eTAS 역할·로드맵",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "3",
+   "8",
+   "10"
+  ]
+ },
+ {
+  "id": "DF-C12",
+  "type": "계약",
+  "title": "COSAS 2026 RFP 과업 주요내용 — AI 보고서 생성 수단·K-Safer 도시부도로",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{D}/검토결과_20260921/공식발주근거/19137_2. 과업 및 제안요청서_표포함본문.txt",
+  "published": "2026-05(추정)",
+  "accessed": "2026-09-25",
+  "locator": "Ⅰ.4 과업 주요 내용",
+  "quote_or_value": "AI 안전보고서는 'TS-AI 플랫폼 또는 상용솔루션' 활용 자동생성(운전자 맞춤형 안전개선 권고)·시범운영(보고서 배포 및 컨설팅). 사고위험도 예측모델(K-Safer 도시부도로) 갱신 3시간→1시간, 공간 100m 세분화",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "DF-L01",
+  "type": "법령",
+  "title": "교통안전법 제55조(운행기록장치의 장착 및 운행기록의 활용 등)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW//lsSideInfoP.do?docCls=jo&urlMode=lsScJoRltInfoR&lsiSeq=254099&joNo=0055&joBrNo=00",
+  "published": "법률 제19673호(2023-08-16), 시행 2024-02-17",
+  "accessed": "2026-09-25",
+  "locator": "제55조 ①~⑤",
+  "quote_or_value": "①여객·화물 운송사업자·어린이통학버스 운영자 장착의무 ②보관·제출요청 응할 의무, 대통령령 대상은 주기 제출, 임의 조작 금지 ③교통행정기관은 점검·분석 결과를 장착의무자·운전자에게 제공 ④분석결과로 불리한 제재·처벌 금지. 예외: 교통수단안전점검, 교통수단·운영체계 개선 권고, 최소휴게시간·연속근무시간·속도제한장치 무단해제 확인",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "1",
+   "4",
+   "5",
+   "9"
+  ]
+ },
+ {
+  "id": "DF-L02",
+  "type": "법령",
+  "title": "교통안전법 시행령 제45조(운행기록장치 장착시기·보관기간)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW//lsSideInfoP.do?docCls=jo&urlMode=lsScJoRltInfoR&lsiSeq=289649&joNo=0045&joBrNo=00",
+  "published": "대통령령 제36689호, 시행 2026-09-15(타법개정)",
+  "accessed": "2026-09-25",
+  "locator": "제45조 ②~④",
+  "quote_or_value": "보관 6개월. 주기 제출 의무자: 노선 여객운송사업자, 화물운송사업자·가맹사업자(2024-04-09 신설). 화물은 최대적재량 25톤 이상·견인형 특수 총중량 10톤 이상 차량만 주기 제출",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4",
+   "7"
+  ]
+ },
+ {
+  "id": "DF-L03",
+  "type": "법령",
+  "title": "교통안전법 시행규칙 제30조(운행기록의 보관 및 제출방법 등)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW//lsSideInfoP.do?docCls=jo&urlMode=lsScJoRltInfoR&lsiSeq=289845&joNo=0030&joBrNo=00",
+  "published": "국토교통부령 제1621호, 시행 2026-09-15(타법개정)",
+  "accessed": "2026-09-25",
+  "locator": "제30조 ③~⑥",
+  "quote_or_value": "③월별 운행기록 다음 달 말일까지 제출 ④공단은 과속·급감속·급출발·회전·앞지르기·진로변경 분석 ⑤분석결과는 운행관리·운전자 교육훈련·운영자 교통안전관리·운행계통/경로 개선·교통안전정책 수립에 '활용되어야 한다' ⑥세부는 국토부장관이 정함",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "DF-L04",
+  "type": "법령",
+  "title": "교통안전법 시행규칙 제29조의4(장착면제 자동차) — eTAS 매뉴얼 전재",
+  "publisher": "한국교통안전공단(법령 전재)",
+  "url_or_path": "{D}/원자료/TS_발간물_매뉴얼/상세메뉴얼.pdf",
+  "published": "미표시(2024-11-29 개정 반영)",
+  "accessed": "2026-09-24",
+  "locator": "p.10",
+  "quote_or_value": "최대적재량 1톤 이하 화물, 경형·소형 특수 및 구난형·특수용도형, 2002-06-30 이전 등록 여객차량 면제",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "7"
+  ]
+ },
+ {
+  "id": "DF-L05",
+  "type": "법령",
+  "title": "교통안전법 시행령 제48조의2(업무의 위탁)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW//lsSideInfoP.do?docCls=jo&urlMode=lsScJoRltInfoR&lsiSeq=289649&joNo=0048&joBrNo=02",
+  "published": "대통령령 제36689호, 시행 2026-09-15",
+  "accessed": "2026-09-25",
+  "locator": "제48조의2 ①1호, ②1·2·4·7·8호",
+  "quote_or_value": "①1호 법 제33조⑥ 교통수단안전점검 공단 위탁. ②국토부장관 업무 및 제1·4호의 시·도지사등 업무 위탁: 1호 관리규정 확인·평가, 2호 교통안전정보관리체계 구축·관리, 4호 운행기록등 제출 요청 및 점검·분석, 8호 특별실태조사·개선권고 이행 확인",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4",
+   "5",
+   "9"
+  ]
+ },
+ {
+  "id": "DF-L06",
+  "type": "법령",
+  "title": "교통안전법 제33조(교통수단안전점검)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW//lsSideInfoP.do?docCls=jo&urlMode=lsScJoRltInfoR&lsiSeq=254099&joNo=0033&joBrNo=00",
+  "published": "법률 제19673호, 시행 2024-02-17",
+  "accessed": "2026-09-25",
+  "locator": "제33조 ①②⑥~⑧",
+  "quote_or_value": "교통행정기관은 수시·주기 점검, 저해요인 발견 시 개선대책 수립·시행 및 개선사항 권고 가능. 기준 이상 사고 시 국토부장관 점검 의무(⑥), 결과 통보(⑦), 통보받은 기관은 조치 후 조치내용 통보(⑧)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "DF-L07",
+  "type": "법령",
+  "title": "교통안전법 제65조(과태료)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW//lsSideInfoP.do?docCls=jo&urlMode=lsScJoRltInfoR&lsiSeq=254099&joNo=0065&joBrNo=00",
+  "published": "법률 제19673호",
+  "accessed": "2026-09-25",
+  "locator": "제65조 ①3·3의2호, ②10·10의2호",
+  "quote_or_value": "1천만원 이하: 운행기록장치 미장착, 운행기록 임의 조작. 500만원 이하: 운행기록 미보관·미제출(제55조② 위반), 장착여부 조사 거부",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4"
+  ]
+ },
+ {
+  "id": "DF-L08",
+  "type": "법령",
+  "title": "교통안전법 제52조·시행령 제40조(교통안전정보관리체계)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW//lsSideInfoP.do?docCls=jo&urlMode=lsScJoRltInfoR&lsiSeq=254099&joNo=0052&joBrNo=00",
+  "published": "법률 제19673호 / 대통령령 제36689호",
+  "accessed": "2026-09-25",
+  "locator": "법 제52조 ①~③, 영 제40조",
+  "quote_or_value": "교통행정기관의 장은 교통안전정보·사고자료를 통합 유지·관리하는 관리체계를 구축하고 상호 공유. 국토부장관은 관리체계 구축·운영 및 표본조사 가능(TMACS 근거)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "DF-L09",
+  "type": "법령",
+  "title": "교통안전법 제55조의3(장착 여부 조사)·제59조(권한 위임·업무 위탁)",
+  "publisher": "국가법령정보센터",
+  "url_or_path": "https://www.law.go.kr/LSW//lsSideInfoP.do?docCls=jo&urlMode=lsScJoRltInfoR&lsiSeq=254099&joNo=0055&joBrNo=03",
+  "published": "법률 제19673호",
+  "accessed": "2026-09-25",
+  "locator": "제55조의3 ①②, 제59조③",
+  "quote_or_value": "관계공무원·자동차안전단속원 등이 운행 중 장착 여부 조사(2021-07-27 신설). 제59조③ 업무 일부를 전문기관에 위탁 가능",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "DF-L10",
+  "type": "판례",
+  "title": "법제처 법령해석 20-0708(택시미터 기록의 운행기록 해당 여부)",
+  "publisher": "법제처",
+  "url_or_path": "https://www.moleg.go.kr/lawinfo/nwLwAnInfo.mo?mid=a&cs_seq=425895",
+  "published": "2021-02-02",
+  "accessed": "2026-09-25",
+  "locator": "회답·이유",
+  "quote_or_value": "통합형 장치에 함께 저장돼도 택시미터 기록은 제55조②의 운행기록이 아님 — 운행기록의 범위·목적(사고예방) 한정 해석",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "7",
+   "9"
+  ]
+ },
+ {
+  "id": "DF-L11",
+  "type": "언론",
+  "title": "대형화물차 디지털 운행기록, 주기적으로 제출해야(시행령 개정 국무회의 의결)",
+  "publisher": "안전저널",
+  "url_or_path": "https://www.anjunj.com/news/articleView.html?idxno=39023",
+  "published": "2024-04-03",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "25톤 이상 화물·10톤 이상 견인형 특수의 운행기록 주기 제출 의무화, 공포 후 6개월 유예. 목적: 2시간 운행 후 15분 휴게 준수 확인·위험운전 습관 개선",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "DF-W01",
+  "type": "국감",
+  "title": "[국감 핫이슈] 여객·화물차 디지털운행기록장치, 자료 제출률 44%에 그쳐",
+  "publisher": "이투데이(김병욱 의원실, 국토부 제출자료)",
+  "url_or_path": "https://www.etoday.co.kr/news/view/2180261",
+  "published": "2022-10-10",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "제출 56만561대 중 24만6851대(44%, 기사 표기 기간 '2011~2014년 6월'은 오기 가능). 연도별 제출률 2019 38%·2020 43%·2021 44%. 업종별 버스 94.3%·택시 35.5%·화물 32.3%. 2021 사업용 사망 566명(전체 2,900명의 20%), 사업용은 차량의 7%",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "DF-W02",
+  "type": "언론",
+  "title": "속도제한 장치 푼 대형 화물차에 사망자 급증…특별단속 나선 경찰",
+  "publisher": "서울신문(경찰청 발표)",
+  "url_or_path": "https://www.seoul.co.kr/news/society/2026/05/25/20260525500109",
+  "published": "2026-05-25",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "2026-05-26~07-25 특별단속. 대상 특정은 고속도로 무인단속 자료, 확인은 국토부·TS 합동점검, 지자체에 점검·원상복구 요청. 고속도로 화물차 사망사고 사망자 2023 71명→2024 89명→2025 93명, 2026(5/19까지) 43명(전년 동기 33명)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "DF-W03",
+  "type": "언론",
+  "title": "TS 보도자료 '화물차 디지털 운행기록장치 무상점검 받고, 안전운전 이벤트 참여하세요'",
+  "publisher": "한국교통안전공단(담당 데이터융복합처)",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_view.do?bbscCode=report&bbscSeqn=18909&menuCode=05010200",
+  "published": "2026-07-27",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "12월 31일까지 고속도로 휴게소 8·화물터미널 등 20, 총 28개소 무상점검센터. 전원불량·기초정보 미입력·고정불량 현장 수리, 희망 시 운행기록 제출 지원. 위험운전 최소 우수운전자 100명에 자동제출 보급형 DTG",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "DF-W04",
+  "type": "언론",
+  "title": "TS 보도자료 게시판 '데이터융복합처' 검색 결과(8건)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/bbs/report_list.do?menuCode=05010200&bbscCode=report&sechKywd=데이터융복합처",
+  "published": "2024-12-27~2026-07-27",
+  "accessed": "2026-09-25",
+  "locator": "목록(조정자 저장본 work_org/repsearch 열람)",
+  "quote_or_value": "DTG 무상점검·이벤트(2025-06, 2026-07), 교통카드 합성데이터 개방(2025-03, 2025-12), K패스 재등록(2025-04), TS-경기도 시내버스(2026-04), TS-DB손보 화물차(2025-08). 운행기록 분석결과의 조치·효과를 다룬 보도 없음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "DF-W05",
+  "type": "데이터",
+  "title": "TS 업무안내 — 운행기록분석시스템(ETAS)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040400",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-25",
+  "locator": "본문(조정자 저장 HTML work_org/menu/m_01040400.html)",
+  "quote_or_value": "법적근거 법 제55조·영 제45조·규칙 제30조. 운수회사·운전자·차량별 위험운전 실제 횟수와 100km 평균 횟수 비교, 교육 전후 비교, GIS·실시간 분석, 개인별·운수업체별 종합진단표. 담당부서 데이터융복합처",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "DF-W06",
+  "type": "데이터",
+  "title": "TS 업무안내 — 교통안전정보관리시스템(TMACS)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040300",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-25",
+  "locator": "본문(저장 HTML m_01040300.html)",
+  "quote_or_value": "법적근거 법 제52조·영 제40조·제48조·규칙 제17조. 제공정보에 '운행기록 등의 점검·분석 결과' 포함. 지자체에 사고원인조사대상 지점, 운수회사에 안전권고문 제공, 공제조합 등 기관별 ID. 담당부서 데이터융복합처",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "DF-W07",
+  "type": "데이터",
+  "title": "TS 업무안내 — 운수안전컨설팅지원시스템(COSAS)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01081000",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-25",
+  "locator": "본문(저장 HTML m_01081000.html)",
+  "quote_or_value": "업무근거 한국교통안전공단법 제6조. 공단·지자체·운수회사 협업 안전관리, 자동화된 위험대상 도출, '교통수단안전점검 등 지자체 협업 업무의 진행상황 모니터링 및 의사소통 채널' 제공. 페이지 담당부서 미표기",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3",
+   "5",
+   "9"
+  ]
+ },
+ {
+  "id": "DF-W08",
+  "type": "데이터",
+  "title": "TS 조직 및 직원안내 — 데이터융복합처 담당업무(부서코드 1019030)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/empList.do?deptUppr=1019030&menuCode=06020404",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-25",
+  "locator": "담당업무 열(저장 HTML emp_1019030_p1·p2 직접 파싱; 이름·전화 미전재)",
+  "quote_or_value": "게시 24명. 운행기록 활용·신규사업 발굴, COSAS 운영·고도화·AI확산사업·모빌리티빅데이터, eTAS 운영·점검센터·연구, TMACS, 어린이안심통학·운행기록데이터 활용, K-패스·모두의카드·교통카드 빅데이터. 조직 위치 모빌리티교통안전본부>모빌리티연구실",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "9"
+  ]
+ },
+ {
+  "id": "DF-W09",
+  "type": "데이터",
+  "title": "공공데이터포털 — 한국교통안전공단_운행기록 제출집계 및 통계자료",
+  "publisher": "한국교통안전공단(관리부서 AI혁신처)",
+  "url_or_path": "https://www.data.go.kr/data/15149813/fileData.do",
+  "published": "등록 2026-06-27·수정 2026-09-04",
+  "accessed": "2026-09-25",
+  "locator": "메타데이터",
+  "quote_or_value": "운수회사·업종·시도별 제출 집계와 연속운전·휴게시간 준수 분석 통계, 연간, 이용제한 없음. 수치는 CSV 내려받기 필요 — 사용자 승인 전 미열람",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "7",
+   "8"
+  ]
+ },
+ {
+  "id": "DF-W10",
+  "type": "데이터",
+  "title": "공공데이터포털 — 한국교통안전공단_운수회사 교통사고 통계정보",
+  "publisher": "한국교통안전공단(관리부서 교통안전처)",
+  "url_or_path": "https://www.data.go.kr/data/3048010/fileData.do",
+  "published": "수정 2026-07-28",
+  "accessed": "2026-09-25",
+  "locator": "메타데이터",
+  "quote_or_value": "운수종사자관리시스템 기반 연도·시도·업종별 사고 통계 136행, 연간, 통계로만 개방. 관리부서 교통안전처 — 효과 추적용 사고자료의 소유 부서가 DF와 다름",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "7",
+   "8"
+  ]
+ },
+ {
+  "id": "DF-W11",
+  "type": "계약",
+  "title": "TS 2026 용역 발주계획 — 담당부서 데이터융복합처 7건",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_용역_발주계획.csv",
+  "published": "2026-01",
+  "accessed": "2026-09-25",
+  "locator": "담당부서명 필터(담당자명·연락처 미전재)",
+  "quote_or_value": "합계 25.0억: 운행기록장치 점검센터 운영 7.3억, ETAS 기능개선 5.6억(실제 RFP 3.95억), TMACS 운영·유지보수 4.50억, COSAS 4.25억, 교통카드빅데이터 유지관리 2.6억, 운행기록 활용방안 연구 0.7억, 요금환승 법률자문 0.07억",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "4"
+  ]
+ },
+ {
+  "id": "DF-D01",
+  "type": "데이터",
+  "title": "eTAS 간편매뉴얼 — 위험운전행동 11종 기준·연속운전",
+  "publisher": "한국교통안전공단 데이터융복합처",
+  "url_or_path": "{D}/원자료/TS_발간물_매뉴얼/간편메뉴얼.pdf",
+  "published": "미표시",
+  "accessed": "2026-09-24",
+  "locator": "p.1, p.13~15(별첨1)",
+  "quote_or_value": "11종(과속·장기과속·급가속·급출발·급감속·급정지·급진로변경·급앞지르기·급좌우회전·급U턴 등) 업종별(택시·버스·화물) 임계값 상이. 연속운전(4시간 이상 운행·15분 이하 휴식)은 11대 위험운전행동에 미포함. 문의처 데이터융복합처",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4",
+   "7"
+  ]
+ },
+ {
+  "id": "DF-D02",
+  "type": "데이터",
+  "title": "eTAS 상세매뉴얼 — 회원구분·자료제출 요구권한",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{D}/원자료/TS_발간물_매뉴얼/상세메뉴얼.pdf",
+  "published": "미표시",
+  "accessed": "2026-09-24",
+  "locator": "p.27(문서쪽 21)",
+  "quote_or_value": "회원구분에 국토교통부·17개 시도 및 시군구 공무원 포함. 운수회사 등은 본인 제출자료만 검색. 교통행정기관·위탁운영기관(공단)에 자료제출 요구 권한",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "5",
+   "7"
+  ]
+ },
+ {
+  "id": "DF-D03",
+  "type": "데이터",
+  "title": "eTAS 매뉴얼 — 분석결과 활용 권고(종합진단표·교육)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{D}/원자료/TS_발간물_매뉴얼/간편메뉴얼.pdf",
+  "published": "미표시",
+  "accessed": "2026-09-24",
+  "locator": "p.2~3",
+  "quote_or_value": "운수회사가 소속 운전자 정기 교육(상담)에 활용 권장; 종합진단표(운전자 개인별·회사 총괄)와 GIS 서비스로 교육 활용 권장 — 활용 여부 확인 절차는 매뉴얼에 없음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "DF-D04",
+  "type": "계획",
+  "title": "(손보협업) 화물차 안전운전 실천 이벤트 추진계획(자동제출 DTG 보급) 붙임",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{D}/원자료/TS_발간물_매뉴얼/[붙임]+화물차+안전운전+실천+이벤트+추진(자동제출+DTG+보급).pdf",
+  "published": "2026-02(추정)",
+  "accessed": "2026-09-24",
+  "locator": "p.1",
+  "quote_or_value": "자동제출 DTG 257대 보급, 2026-02-19~04-30, 손해보험협회 협업. 대상: '25.10~'26.1 중 1개월 이상 제출 화물차, USB 수동제출 차량 한정. 선정: 100km당 위험운행행동 저점자 순(최소 500km)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4",
+   "8"
+  ]
+ },
+ {
+  "id": "DF-D05",
+  "type": "데이터",
+  "title": "사업용차량 Trip단위 위험운전운행데이터(샘플) 직접 집계",
+  "publisher": "한국교통안전공단(공공데이터포털 파일)",
+  "url_or_path": "{D}/원자료/공공데이터_CSV/한국교통안전공단_사업용차량 Trip단위 위험운전운행데이터(샘플).zip",
+  "published": "2019-12-30(파일일자)",
+  "accessed": "2026-09-24",
+  "locator": "CSV 100행×66열",
+  "quote_or_value": "2018-07-10 하루, 3개 운수회사·80대·100 trip(유형코드 11이 99건). 11종 이벤트 합 3,249: 급진로변경 38.1%·급좌회전 24.6%·급우회전 10.9%·급가속 9.0%·과속(20km초과) 2.7%·장기과속 0. 일시 필드 지수표기(2.01807E+13) 손상, GPS 0좌표 2건. 공공누리 4유형",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4",
+   "7"
+  ]
+ },
+ {
+  "id": "DF-D06",
+  "type": "데이터",
+  "title": "Trip 샘플 — 원건수 순위 vs 100거리단위당 순위 비교(직접 계산)",
+  "publisher": "CCK 직접 계산",
+  "url_or_path": "{S}/work_DF/trip/",
+  "published": "-",
+  "accessed": "2026-09-24",
+  "locator": "차량 80대 집계",
+  "quote_or_value": "원건수와 거리당 비율의 스피어만 ρ=0.95, 상위5 중 4대 일치. 단, 거리 17단위 1대가 100단위당 847건으로 비율 1위 — 짧은 노출의 비율 폭증(최소 노출 기준 필요). 거리 단위 미표기",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4",
+   "5",
+   "8"
+  ]
+ },
+ {
+  "id": "DF-D07",
+  "type": "데이터",
+  "title": "한국교통안전공단 자동차 교통사고 통계(20250923) 직접 집계",
+  "publisher": "한국교통안전공단(공공데이터)",
+  "url_or_path": "{P}/한국교통안전공단_자동차 교통사고 통계_20250923.csv",
+  "published": "2025-09-23",
+  "accessed": "2026-09-24",
+  "locator": "42,602행×23열",
+  "quote_or_value": "전 행 사망자≥1(사망사고), 2012~2022. 사망자 2012 5,392 → 2022 2,735. 법규위반 '안전운전 의무 불이행' 29,626건(69.5%). 사업용 여부·차종 컬럼 없음 → 사업용 분리·노출량 보정 불가",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4",
+   "7"
+  ]
+ },
+ {
+  "id": "DF-D08",
+  "type": "데이터",
+  "title": "국토교통부 사고연계정보(20250630) 직접 집계",
+  "publisher": "국토교통부(공공데이터)",
+  "url_or_path": "{D}/원자료/공공데이터_CSV/국토교통부_사고연계정보_20250630.csv",
+  "published": "2025-06-30",
+  "accessed": "2026-09-24",
+  "locator": "14,506행",
+  "quote_or_value": "2024-07-01~2025-06-30 고속도로 13,813·국도 693건 사고처리 메시지. 화물 관련 23.7%·버스 1.6%·승용 50.5%·차종미상 11.3%. 사업용 식별자 없음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "7"
+  ]
+ },
+ {
+  "id": "DF-D09",
+  "type": "데이터",
+  "title": "운수안전컨설팅 안전등급정보(20241231) 직접 집계",
+  "publisher": "한국교통안전공단(공공데이터)",
+  "url_or_path": "{D}/원자료/공공데이터_CSV/한국교통안전공단_운수안전컨설팅_안전등급정보_20241231.csv",
+  "published": "2024-12-31",
+  "accessed": "2026-09-24",
+  "locator": "545,601링크",
+  "quote_or_value": "도로안전등급 A 93.2%(연장 87.5%)·B 2.8%·C 1.4%·D 2.6%(연장 5.4%), 17개 시도·250개 시군구. 운수회사 안전등급은 미공개",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "7"
+  ]
+ },
+ {
+  "id": "DF-N01",
+  "type": "논문",
+  "title": "사업용 자동차의 DTG 설치 단기 효과분석",
+  "publisher": "한국ITS학회논문지 11(6)",
+  "url_or_path": "https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=JAKO201209857778602&dbt=NART",
+  "published": "2012",
+  "accessed": "2026-09-25",
+  "locator": "초록",
+  "quote_or_value": "12개 운수사·87대·105명, 교육 전 3주·후 3주 전후비교(대조군 없음). 버스 급가속 약 24.7%↓, 택시 과속 약 19.8%↓, 화물 과속 약 13.8%↓, 효과는 초기 4주 이후 감소",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4",
+   "6",
+   "8"
+  ]
+ },
+ {
+  "id": "DF-N02",
+  "type": "논문",
+  "title": "고속버스 DTG 자료를 활용한 버스 위험운전 행태 분석",
+  "publisher": "한국ITS학회논문지 17(2)",
+  "url_or_path": "https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=JAKO201814442073557&dbt=NART",
+  "published": "2018",
+  "accessed": "2026-09-25",
+  "locator": "초록",
+  "quote_or_value": "고속버스 5대·28일·113건. 급가속 61.3%·급회전 20.1%·급감속 15.1% — 업종·표본에 따라 지배 유형이 다름(Trip 샘플은 급진로변경 38.1%)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "4",
+   "7"
+  ]
+ },
+ {
+  "id": "DF-F01",
+  "type": "해외",
+  "title": "GAO-14-114 Modifying the CSA Program Would Improve the Ability to Identify High Risk Carriers",
+  "publisher": "U.S. GAO",
+  "url_or_path": "https://www.gao.gov/products/gao-14-114",
+  "published": "2014-02-03",
+  "accessed": "2026-09-25",
+  "locator": "Highlights",
+  "quote_or_value": "FY2007~2012 개입 건수 2배 이상 증가. 대다수 운송사가 소규모·저점검이라 점수 산출 자료 부족, 고위험 지정 다수가 이후 사고 미발생. SMS 방법론의 자료 한계 반영 권고",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6",
+   "9"
+  ]
+ },
+ {
+  "id": "DF-F02",
+  "type": "해외",
+  "title": "Directive 2006/22/EC 제9조 위험등급제·최소 점검비율",
+  "publisher": "EUR-Lex",
+  "url_or_path": "https://eur-lex.europa.eu/eli/dir/2006/22/oj/eng",
+  "published": "2006(개정 반영)",
+  "accessed": "2026-09-25",
+  "locator": "Art.2·Art.9",
+  "quote_or_value": "회원국은 운송사 위반의 상대적 건수·심각도 기반 위험등급제 도입, 고위험 사업자는 더 자주·엄격히 점검. 운전일수 최소 3%(2010~) 점검 — 검색 요약 확인, 원문 미열람(EUR-Lex 응답 0바이트)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "DF-F03",
+  "type": "해외",
+  "title": "EU Common Formula Risk Rating(Implementing Reg. (EU) 2022/695) — 아일랜드 RSA CVRT 안내",
+  "publisher": "Road Safety Authority(Ireland)",
+  "url_or_path": "https://www.cvrt.ie/en-US/Operator-Driver-Obligations/Eucaris-Risk-rating/",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "위반 가중치 경미 1·중대 10·매우중대 30·최중대 90점, 2년 이동창. Green 0~100·Amber 101~200·Red 201+·Grey(점검 없음). 스마트 타코그래프 전량 장착 시 0.9배. Red는 점검 집중, 사업자 본인 점수 열람 가능",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "DF-F04",
+  "type": "해외",
+  "title": "DVSA earned recognition: join the scheme",
+  "publisher": "GOV.UK(DVSA)",
+  "url_or_path": "https://www.gov.uk/guidance/dvsa-earned-recognition-join-the-scheme",
+  "published": "최종수정 2023-09-01",
+  "accessed": "2026-09-25",
+  "locator": "KPI·trigger",
+  "quote_or_value": "KPI 4주 단위, 운영자 IT시스템 자동 보고. 3개 기간 중 1%p 미만 미달 3회·1%p 이상 2회·단일기간 2%p 이상 초과 시 DVSA 자동 통보 → 협의·서면평가~제외. 운전시간 위반 비율 상한 4%. 혜택: 노상·사업장 점검 감소",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "DF-F05",
+  "type": "해외",
+  "title": "日 운행기록계 장착의무 확대(貨物自動車運送事業輸送安全規則)",
+  "publisher": "全日本トラック協会",
+  "url_or_path": "https://jta.or.jp/member/anzen/digitacho_until201703.html",
+  "published": "2014-12 공포",
+  "accessed": "2026-09-25",
+  "locator": "본문",
+  "quote_or_value": "총중량 8t·적재 5t 이상 → 7t·4t 이상으로 확대, 기존차 2017-03-31까지 적용(제9조·1년 보존은 검색 요약으로만 확인)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "DF-F06",
+  "type": "논문",
+  "title": "Hickman & Hanowski, Use of a video monitoring approach to reduce at-risk driving behaviors in commercial vehicle operations",
+  "publisher": "Transportation Research Part F",
+  "url_or_path": "https://www.sciencedirect.com/science/article/abs/pii/S1369847810000926",
+  "published": "2011",
+  "accessed": "2026-09-25",
+  "locator": "초록(403으로 원문 미열람)",
+  "quote_or_value": "피드백+안전관리자 코칭 결합 시 주행거리당 안전관련 이벤트 A사 37%·B사 52.2% 감소(기준 4주·개입 13주) — 영상장치 기반, 검색 요약 수준",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "DF-I01",
+  "type": "내부",
+  "title": "N-27 기획카드 v0.8 — 운행상황별 안전정보 해석·대응지원 AI",
+  "publisher": "CCK 내부",
+  "url_or_path": "{P}/N-27_안전정보해석대응지원AI_기획카드_v0.1_2026-09-21.md",
+  "published": "2026-09-22",
+  "accessed": "2026-09-24",
+  "locator": "decision·current_info_system",
+  "quote_or_value": "COSAS SFR-002가 개선권고 포함 AI 안전보고서를 이미 발주 → 잔여 범위를 '회사단위 종합·우선순위화'로 축소, SIGNAL 유지",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "10"
+  ]
+ },
+ {
+  "id": "DF-I02",
+  "type": "내부",
+  "title": "N-12 카드 v0.2 — 위험운전 패턴 기반 주간 리스크 신호",
+  "publisher": "CCK 내부",
+  "url_or_path": "{P}/N-10~N-14_Phase2검증_기획카드_v0.1_2026-09-09.md",
+  "published": "2026-09-22",
+  "accessed": "2026-09-24",
+  "locator": "§N-12 decision",
+  "quote_or_value": "ETAS DTG 텔레메트리 한정으로 INCUBATE 확정, 카메라 기반 졸음 직접감지 제외. 산출물: 이벤트 급증 운전자 주간 리포트",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "id": "DF-I03",
+  "type": "내부",
+  "title": "42번 TS 처단위 아키텍처 §2.1 데이터융복합처 클러스터",
+  "publisher": "CCK 내부",
+  "url_or_path": "{P}/42_TS처단위_아키텍처_재구성_v0.1_2026-09-22.md",
+  "published": "2026-09-22",
+  "accessed": "2026-09-24",
+  "locator": "§2.1",
+  "quote_or_value": "N-12·N-24①(TMACS 고도화)·N-27이 ETAS·TMACS·COSAS 위에 나란히 얹히는 한 부서 포트폴리오",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "9"
+  ]
+ },
+ {
+  "id": "DF-I04",
+  "type": "내부",
+  "title": "TS 부서별 업무목록 v0.3 ORG-019 데이터융복합처",
+  "publisher": "CCK 내부(GPT 정리)",
+  "url_or_path": "{D}/TS_부서별_업무목록_v0.3_20260921.md",
+  "published": "2026-09-21",
+  "accessed": "2026-09-24",
+  "locator": "ORG-019",
+  "quote_or_value": "소속 모빌리티교통안전본부>모빌리티연구실. 업무 8건: 교통사고·안전정보 수집, 정제·표준화, 통합분석, 사고다발지점 추출, 위험운전행동 비교분석, 시간·지도 기반 운행기록 분석, 교육 전후 비교·종합진단표, K-패스",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "DF-I05",
+  "type": "내부",
+  "title": "DF 현재 사이트 컨셉 원장(예시 기준선)",
+  "publisher": "CCK 사이트 원장",
+  "url_or_path": "{S}/brief/DF_현재컨셉.json",
+  "published": "2026-09-23",
+  "accessed": "2026-09-24",
+  "locator": "impact.metrics",
+  "quote_or_value": "DF-E01 예시기준선 60%·목표 +10%p, DF-E02 8일·25%↓, DF-E03 10%·20%↓ — 모두 'TS 기준선 미확보' 가정값",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "8",
+   "10"
+  ]
+ },
+ {
+  "id": "DF-I06",
+  "type": "내부",
+  "title": "TS 13개 처 조직 실체·중복경계 교차검증 v0.1 §5 — DF 판정",
+  "publisher": "오케스트레이터(CCK 내부)",
+  "url_or_path": "{S}/out/00_조직검증_중복경계_v0.1.md",
+  "published": "2026-09-25",
+  "accessed": "2026-09-25",
+  "locator": "§5 매트릭스 DF행·§6",
+  "quote_or_value": "DF '부분(직접 근접)': COSAS 'AI 안전모델·AI 안전보고서' 직접 위험, eTAS 기능개선·운행기록 활용연구 부분, AX12선 ② K-Safer 부분, 공통플랫폼 RAG·보고서 재사용. 증분을 '조치 이행·효과 추적의 사건 관리'로 좁힐 것 권고",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "id": "DF-I07",
+  "type": "내부",
+  "title": "1차사업(19116) 공통플랫폼 RAG·보고서 생성 기능(OV-27)",
+  "publisher": "오케스트레이터 근거원장",
+  "url_or_path": "{S}/out/00_근거원장.json#OV-27",
+  "published": "2026-09-25",
+  "accessed": "2026-09-25",
+  "locator": "OV-27",
+  "quote_or_value": "448,316,087원. 공통플랫폼 고도화(직무별 어시스턴트 3건 이상), 민원분석 RAG, 전세버스 공시 평가 — 보고서·RAG 기능은 기존 자산",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "DF-I08",
+  "type": "내부",
+  "title": "AX 12선 ② K-Safer(OV-42)",
+  "publisher": "오케스트레이터 근거원장(TS AX 12선 인포그래픽)",
+  "url_or_path": "{S}/out/00_근거원장.json#OV-42",
+  "published": "2026",
+  "accessed": "2026-09-25",
+  "locator": "OV-42(12선 p.3)",
+  "quote_or_value": "국도 14,220km·5개 지방국토청 확산. 개선 8개 지점 사고 89→72건(2023→2024, 시설개선 포함·AI 단독효과 아님)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "3",
+   "6"
+  ]
+ },
+ {
+  "id": "DF-X01",
+  "type": "내부",
+  "title": "[추론] 분석→조치 경로의 권한 분산",
+  "publisher": "분석자 추론",
+  "url_or_path": "DF-L01·L05·L06·L07·P07·W02 대조",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "DF가 직접 가진 조치: 운행기록 제출요청·점검·분석·결과제공(영 48조의2②4호). 교통수단안전점검은 교통안전처(위탁), 임시검사 명령·과태료는 지자체, 속도제한장치 형사처리는 경찰. 법 55조④로 분석결과 기반 불리한 조치는 4개 유형으로 한정",
+  "grade": "INFERRED",
+  "used_in": [
+   "0",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "DF-X02",
+  "type": "내부",
+  "title": "[추론] 제출률 40%대에서의 위험순위 선택편향",
+  "publisher": "분석자 추론",
+  "url_or_path": "DF-W01·L02·D04·W03 대조",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "2019~2021 제출률 38~44%, 택시·화물 32~36%. 화물 주기제출 의무는 25톤 이상 한정. 고위험 순위·AI 보고서는 제출자 집합 내부 비교 → 미제출·장치불량 차량은 신호 자체가 없음",
+  "grade": "INFERRED",
+  "used_in": [
+   "2",
+   "4",
+   "5",
+   "9"
+  ]
+ },
+ {
+  "id": "DF-X03",
+  "type": "내부",
+  "title": "[추론] 고위험 운전자 운행기록 리포트의 실 간 이중 계획",
+  "publisher": "분석자 추론",
+  "url_or_path": "DF-P05·P10 대조",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "모빌리티정책실(현 모빌리티연구실, p.102)과 교통안전정책실(p.113)이 각각 운행기록 기반 고위험 운전자 맞춤 정보·월간 리포트를 신규 과제로 계획 — 조치 소유자·수신 확인 경로가 둘로 나뉠 가능성",
+  "grade": "INFERRED",
+  "used_in": [
+   "4"
+  ]
+ },
+ {
+  "id": "DF-X04",
+  "type": "내부",
+  "title": "[추론] K-Safer 도시부도로 모델의 DF 소관",
+  "publisher": "분석자 추론",
+  "url_or_path": "DF-C06·C08·C12",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "요구사항 출처가 데이터융복합처인 COSAS RFP에 K-Safer 도시부도로 예측모델 고도화(SFR-005)와 K-Safer 이관 컨설팅(CNR-003) 포함 → 도시부도로 모델은 DF 관여. 국도 K-Safer 확산 주관 처는 미확인",
+  "grade": "INFERRED",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "DF-X05",
+  "type": "내부",
+  "title": "[추론] DF 업무 중 K-패스·교통카드 비중",
+  "publisher": "분석자 추론",
+  "url_or_path": "DF-W08",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "게시 담당업무 문구 21종 중 K-패스·모두의카드·교통카드 빅데이터 8종, eTAS·운행기록 7종, COSAS·AI 안전사업 4종, TMACS 1종 — 인력 배분 추정, 공수 실측 아님",
+  "grade": "INFERRED",
+  "used_in": [
+   "1",
+   "9"
+  ]
+ },
+ {
+  "id": "DF-U01",
+  "type": "감사",
+  "title": "감사원·TS 자체감사의 운행기록 활용 관련 지적",
+  "publisher": "-",
+  "url_or_path": "WebSearch(감사원 운행기록 교통안전공단 등)",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "검색 2회에서 관련 감사결과 미발견. bai.go.kr 게시판 직접 검색·ALIO 감사결과 공시 미실시",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "11"
+  ]
+ },
+ {
+  "id": "DF-U02",
+  "type": "통계",
+  "title": "분석결과의 조치 연결률·조치까지 시간",
+  "publisher": "-",
+  "url_or_path": "-",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "공개자료·RFP·추진계획 어디에도 '분석→조치' 연결률·경과시간 수치 없음. 19021 연구가 활용 실태 진단 예정",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "DF-U03",
+  "type": "국감",
+  "title": "2023~2025 국감의 운행기록 분석결과 활용 지적",
+  "publisher": "-",
+  "url_or_path": "WebSearch 2회",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "2022 제출률 지적(DF-W01) 외 최근 3년 지적 미발견. 국회 회의록 직접 검색 미실시",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "11"
+  ]
+ },
+ {
+  "id": "DF-U04",
+  "type": "통계",
+  "title": "2025 사업용 사망자 공식 통계 원문",
+  "publisher": "경찰청·국토부",
+  "url_or_path": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156689229 외",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "보도자료 본문은 첨부(HWP/PDF)에만 있음 — 파일 내려받기 사용자 승인 필요. 2025 전체 사망 2,549명(+1.1%)은 검색 요약 수준",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "DF-U05",
+  "type": "해외",
+  "title": "FMCSA CSA 개입(intervention) 공식 안내",
+  "publisher": "FMCSA",
+  "url_or_path": "https://csa.fmcsa.dot.gov/About/Interventions",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "HTTP 403으로 열람 실패. 개입 유형(경고서한·표적 점검·조사 등)은 GAO 요약 수준으로만 인용",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "6",
+   "11"
+  ]
+ }
+]

@@ -1,0 +1,1083 @@
+[
+ {
+  "id": "RIS-01",
+  "type": "법령",
+  "title": "모빌리티 혁신 및 활성화 지원에 관한 법률 제7조(모빌리티지원센터의 지정 등)",
+  "publisher": "국토교통부(법률 제21065호)",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=276989",
+  "published": "시행 2026-01-02",
+  "accessed": "2026-09-24",
+  "locator": "제7조①②⑤ · 로컬 법령본문원장(04_기관리서치/관계도/법령_본문원장.json, law.go.kr 취득 2026-09-09) 원문 대조",
+  "quote_or_value": "지원센터 업무 ② 5호 '실증특례에 관한 자문 및 지원'. 지정 취소 사유(거짓 지정·지정사항 위반)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "9"
+  ]
+ },
+ {
+  "id": "RIS-02",
+  "type": "법령",
+  "title": "같은 법 제12조(모빌리티 실증을 위한 규제특례)",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=276989",
+  "published": "시행 2026-01-02",
+  "accessed": "2026-09-24",
+  "locator": "제12조⑤⑥⑦⑧⑨ · 로컬 법령본문원장(04_기관리서치/관계도/법령_본문원장.json, law.go.kr 취득 2026-09-09) 원문 대조",
+  "quote_or_value": "위원회는 안전성 확보에 필요한 경우 '조건을 붙일 수 있음'(⑤ 후단). 유효기간 2년 이하(⑧). 사업 시행 전 책임보험 가입 의무(⑨)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "RIS-03",
+  "type": "법령",
+  "title": "같은 법 제13조(실증을 위한 규제특례의 관리 및 감독 등)",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=276989",
+  "published": "시행 2026-01-02",
+  "accessed": "2026-09-24",
+  "locator": "제13조①②④⑥ · 로컬 법령본문원장(04_기관리서치/관계도/법령_본문원장.json, law.go.kr 취득 2026-09-09) 원문 대조",
+  "quote_or_value": "국토부장관·관계 행정기관의 장이 공동 관리·감독(①). 조건 또는 심사기준 미충족 시 취소 또는 시정명령 가능(④2호). 위해 우려 시 일시 중지명령(⑥)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4",
+   "9"
+  ]
+ },
+ {
+  "id": "RIS-04",
+  "type": "법령",
+  "title": "같은 법 제14조(실증을 위한 규제특례의 연장 등)",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=276989",
+  "published": "시행 2026-01-02",
+  "accessed": "2026-09-24",
+  "locator": "제14조①②③⑦⑧ · 로컬 법령본문원장(04_기관리서치/관계도/법령_본문원장.json, law.go.kr 취득 2026-09-09) 원문 대조",
+  "quote_or_value": "연장 1회 2년 이하, 만료 2개월 전 신청. 법령정비 요청 시 결과 첨부. 미요청 시 만료일부터 30일 이내 결과 제출 의무(⑦)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "5"
+  ]
+ },
+ {
+  "id": "RIS-05",
+  "type": "법령",
+  "title": "같은 법 제29조(과태료)·제24조(청문)·제27조(벌칙)",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=276989",
+  "published": "시행 2026-01-02",
+  "accessed": "2026-09-24",
+  "locator": "제29조①1·2호, 제24조2호, 제27조 · 로컬 법령본문원장(04_기관리서치/관계도/법령_본문원장.json, law.go.kr 취득 2026-09-09) 원문 대조",
+  "quote_or_value": "제12조⑤ 후단 조건 미준수자·책임보험 미가입자 1천만원 이하 과태료. 특례 취소 시 청문. 거짓 부여 3년 이하 징역",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4",
+   "9"
+  ]
+ },
+ {
+  "id": "RIS-06",
+  "type": "법령",
+  "title": "같은 법 시행령 제4조(모빌리티지원센터의 업무 등)",
+  "publisher": "국토교통부(대통령령 제35948호)",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=281663",
+  "published": "시행 2026-01-02",
+  "accessed": "2026-09-24",
+  "locator": "제4조①③ · 로컬 법령본문원장(04_기관리서치/관계도/법령_본문원장.json, law.go.kr 취득 2026-09-09) 원문 대조",
+  "quote_or_value": "지정기간 5년. 대통령령 업무에 '모빌리티혁신위원회 운영의 지원' 포함",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "RIS-07",
+  "type": "법령",
+  "title": "같은 법 시행령 제10조(실증을 위한 규제특례의 관리 및 감독 등)",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=281663",
+  "published": "시행 2026-01-02",
+  "accessed": "2026-09-24",
+  "locator": "제10조①~⑥ · 로컬 법령본문원장(04_기관리서치/관계도/법령_본문원장.json, law.go.kr 취득 2026-09-09) 원문 대조",
+  "quote_or_value": "관리·감독 항목: 사업실시계획 이행 현황, 안전성확보조건 준수 여부, 심사기준 충족, 안전사고·손해배상 발생. 국토부·관계기관 '소속 공무원'이 수행. 이용자 고지 4개 항목(조건 포함). 시정명령 6개월(+3개월 1회), 문서로·소명기회 부여",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4",
+   "5",
+   "9"
+  ]
+ },
+ {
+  "id": "RIS-08",
+  "type": "법령",
+  "title": "같은 법 시행령 제21조(업무의 위탁)",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=281663",
+  "published": "시행 2026-01-02(제21조 개정 2024-10-16)",
+  "accessed": "2026-09-24",
+  "locator": "제21조①1~12호 · 로컬 법령본문원장(04_기관리서치/관계도/법령_본문원장.json, law.go.kr 취득 2026-09-09) 원문 대조",
+  "quote_or_value": "지원센터 위탁 12개 업무는 접수·통보·발급 중심: 규제확인·실증특례 신청 접수, 관계기관 통보·회신 접수, 연장 신청 접수·연장확인서 발급, 법령정비 요청 접수, 사업 결과 접수, 책임보험 증명·가입불가 사유서 접수 등. 관리·감독 권한 자체는 위탁 목록에 없음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4",
+   "9"
+  ]
+ },
+ {
+  "id": "RIS-09",
+  "type": "법령",
+  "title": "같은 법 시행령 제7조(실증특례 신청 등)",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=281663",
+  "published": "시행 2026-01-02",
+  "accessed": "2026-09-24",
+  "locator": "제7조①②③④⑥ · 로컬 법령본문원장(04_기관리서치/관계도/법령_본문원장.json, law.go.kr 취득 2026-09-09) 원문 대조",
+  "quote_or_value": "신청서류 8종, 사업실시계획서 필수기재(구역·기간·규모 등), 보완요구·반려 사유, 특례 확인서 발급·관보/홈페이지 공고",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "7"
+  ]
+ },
+ {
+  "id": "RIS-10",
+  "type": "법령",
+  "title": "같은 법 시행령 제8조(책임보험 등)",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=281663",
+  "published": "시행 2026-01-02(개정 2024-10-16)",
+  "accessed": "2026-09-24",
+  "locator": "제8조①②③⑤ · 로컬 법령본문원장(04_기관리서치/관계도/법령_본문원장.json, law.go.kr 취득 2026-09-09) 원문 대조",
+  "quote_or_value": "보험금액(사망 1.5억·부상 3천만·물적 10억/건). 사업 시행 전 가입증명 제출, 보험기간 ≥ 유효기간. 가입 불가 시 시행 30일 전 사유서 제출. 중소·중견기업 보험료 일부 지원 가능",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": "RIS-11",
+  "type": "법령",
+  "title": "같은 법 시행령 제11조~제14조(연장·법령정비 요청·검토·결과 제출)",
+  "publisher": "국토교통부",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=281663",
+  "published": "시행 2026-01-02",
+  "accessed": "2026-09-24",
+  "locator": "제11조①, 제12조①, 제13조①~⑤, 제14조① · 로컬 법령본문원장(04_기관리서치/관계도/법령_본문원장.json, law.go.kr 취득 2026-09-09) 원문 대조",
+  "quote_or_value": "연장신청·법령정비 요청·결과 제출 서류 모두 '사업실시계획 이행 현황'과 '안전성확보조건의 이행 여부'를 포함",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "5",
+   "7"
+  ]
+ },
+ {
+  "id": "RIS-12",
+  "type": "법령",
+  "title": "같은 법 시행규칙 제2조·제4조·제6조",
+  "publisher": "국토교통부(국토교통부령 제1396호)",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=266043",
+  "published": "시행 2024-10-19",
+  "accessed": "2026-09-24",
+  "locator": "제2조④⑤, 제4조, 제6조 · 로컬 법령본문원장(04_기관리서치/관계도/법령_본문원장.json, law.go.kr 취득 2026-09-09) 원문 대조",
+  "quote_or_value": "지원센터 재지정 시 운영성과 평가(②④). 실증특례 신청서·확인서·연장신청서 서식(별지 5·6·8호)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "8"
+  ]
+ },
+ {
+  "id": "RIS-13",
+  "type": "데이터",
+  "title": "모빌리티 규제샌드박스 승인과제 게시판(board_id=47) 전수",
+  "publisher": "한국교통안전공단(sandbox.kotsa.or.kr)",
+  "url_or_path": "https://sandbox.kotsa.or.kr/front/board/boardContentsListPage.do?board_id=47",
+  "published": "게시 2025-11-25~2026-05-13",
+  "accessed": "2026-09-24",
+  "locator": "목록 95행 + 각 게시물 본문·첨부 승인요약 PDF 95건(메모리 스트림 텍스트 추출, 파일 미저장). 작업파일 work_RI/sandbox_boards.json·boards_parsed2.json",
+  "quote_or_value": "제1~8차 모빌리티혁신위원회 승인 95건: 1차 8(2024-02-16)·2차 3(2024-07-15)·3차 14(2024-10-14)·4차 8(2025-01-07)·5차 17(2025-04-23)·6차 15(2025-07-25)·7차 14(2025-11-25)·8차 16(2026-05-08). 승인요약 PDF는 사업내용·규제사항·특례내용·기대효과 구성, 부가조건 기재 2건뿐",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "RIS-14",
+  "type": "데이터",
+  "title": "모빌리티 규제샌드박스 사업개시(이용자 고지) 게시판(board_id=46) 전수",
+  "publisher": "한국교통안전공단(sandbox.kotsa.or.kr)",
+  "url_or_path": "https://sandbox.kotsa.or.kr/front/board/boardContentsListPage.do?board_id=46",
+  "published": "게시 2025-11-20~2026-08-31",
+  "accessed": "2026-09-24",
+  "locator": "목록 52행 + 게시물 본문(유효기간)·첨부 이용자고지 PDF 52건 텍스트 추출. 관리책임자 성명·연락처는 미전재",
+  "quote_or_value": "사업개시 공지 52건(최초 유효기간 시작 연도: 2024년 9·2025년 29·2026년 13·미상 1). 법 제13조②·영 제10조② 이용자 고지 서식",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "7"
+  ]
+ },
+ {
+  "id": "RIS-15",
+  "type": "데이터",
+  "title": "[직접 집계] 승인→최초 유효기간 시작일 경과일",
+  "publisher": "분석자 계산(RIS-13·14 결합)",
+  "url_or_path": "work_RI/analyze3.py, analyze4_out.txt",
+  "published": "기준일 2026-09-24",
+  "accessed": "2026-09-24",
+  "locator": "회사명·과제명 바이그램 유사도 매칭 52/52(1건 제목 서식 미기재 → 5-7 추정 배정). 연장 후 본문 갱신 3건은 첨부 원 고지의 최초 시작일 사용",
+  "quote_or_value": "n=51, 최소 8일·Q1 114일·중앙값 169일·Q3 259일·최대 885일, 평균 196.4일. 180일 초과 23건(45%), 365일 초과 3건",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4",
+   "8"
+  ]
+ },
+ {
+  "id": "RIS-16",
+  "type": "데이터",
+  "title": "[직접 집계] 승인과제 중 공개 사업개시 공지 없는 건",
+  "publisher": "분석자 계산(RIS-13·14 결합)",
+  "url_or_path": "work_RI/analyze3_out.txt",
+  "published": "기준일 2026-09-24",
+  "accessed": "2026-09-24",
+  "locator": "승인 95건 − 개시공지 매칭 52건",
+  "quote_or_value": "미개시(공지 기준) 43건(45%). 차수별 개시공지 비율: 1차 88%·2차 67%·3차 79%·4차 75%·5차 53%·6차 47%·7차 50%·8차 19%. 미개시 43건 중 승인 후 365일 초과 23건, 730일 초과 2건. 공지 누락·자진 포기·준비 중 구분 불가",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4",
+   "8"
+  ]
+ },
+ {
+  "id": "RIS-17",
+  "type": "데이터",
+  "title": "[직접 집계] 이용자 고지 내 실증특례 조건 표기 형태",
+  "publisher": "분석자 계산(RIS-14)",
+  "url_or_path": "work_RI/boards_parsed2.json",
+  "published": "기준일 2026-09-24",
+  "accessed": "2026-09-24",
+  "locator": "이용자고지 PDF 52건 텍스트 레이어 분류",
+  "quote_or_value": "조건 본문 열거 23건(조건 수 1~13개, 합 45, 1개 18건), '확인서 사본 첨부' 참조만 14건, 텍스트 레이어 없는 이미지형 15건 → 조건 원문을 기계적으로 읽을 수 없는 공지 29/52(56%)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4",
+   "7"
+  ]
+ },
+ {
+  "id": "RIS-18",
+  "type": "데이터",
+  "title": "[직접 확인] 연장 후 게시 본문과 첨부 이용자 고지의 유효기간 불일치",
+  "publisher": "분석자 확인(RIS-14)",
+  "url_or_path": "https://sandbox.kotsa.or.kr/front/board/boardContentsListPage.do?board_id=46",
+  "published": "기준일 2026-09-24",
+  "accessed": "2026-09-24",
+  "locator": "전국택시연합회·서울택시조합 '택시 임시운전 자격 부여', 레인포컴퍼니 '도심 수요병합형 모빌리티 서비스'",
+  "quote_or_value": "게시 본문 유효기간 2026-08-01~2028-07-31(또는 2026-06-26~2028-06-25)인데 첨부 고지 PDF는 2024-08-01~2026-07-31(2024-06-26~2026-06-25) 그대로 3건. 별도 1건은 제목이 서식 문구('모빌리티 수단·기반기설·서비스 및 기술 명칭') 그대로",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "RIS-19",
+  "type": "데이터",
+  "title": "이용자 고지 — 교통약자 맞춤 이동지원서비스(승인 4-3)",
+  "publisher": "한국교통안전공단(sandbox.kotsa.or.kr)",
+  "url_or_path": "https://sandbox.kotsa.or.kr/front/board/boardContentsListPage.do?board_id=46",
+  "published": "게시 2026-03-19",
+  "accessed": "2026-09-24",
+  "locator": "첨부 이용자고지 PDF '실증특례 조건' ①~⑬",
+  "quote_or_value": "조건 13개: 신청대수 한정·증차 시 국토부 사전협의, 대상자 한정, 기사자격 관리, 사업개시 후 1년 이내 성과·운영계획 국토부 보고, 약관·요금 사전공지, 배회영업 금지, 자료제출 협조, 특례 종료 전 플랫폼운송사업 허가 취득 등. 승인(2025-01-07)→개시(2025-12-18) 345일",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "5"
+  ]
+ },
+ {
+  "id": "RIS-20",
+  "type": "데이터",
+  "title": "이용자 고지 — 택시 임시운전 자격 부여(전국택시운송사업조합연합회, 승인 1-6)",
+  "publisher": "한국교통안전공단(sandbox.kotsa.or.kr)",
+  "url_or_path": "https://sandbox.kotsa.or.kr/front/board/boardContentsListPage.do?board_id=46",
+  "published": "게시 2025-11-20",
+  "accessed": "2026-09-24",
+  "locator": "첨부 PDF 머리 '사후관리 지침 [별지 제2호서식]'",
+  "quote_or_value": "조건: TS 운수종사자 관리시스템 등록·범죄경력 조회, 1인 1회 3개월, 참여자 규모 협의, 기초교육, 공단 발급 임시자격 증명 게시, 중복참여 불가 등. 이용자 고지 서식이 '사후관리 지침' 별지로 존재함을 확인(지침 본문은 미공개·미확인)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3",
+   "5"
+  ]
+ },
+ {
+  "id": "RIS-21",
+  "type": "데이터",
+  "title": "이용자 고지 — LED 디스플레이·프로젝션 라이팅 자율주행차 V2H(TS 부품연구처, 승인 7-6)",
+  "publisher": "한국교통안전공단(sandbox.kotsa.or.kr)",
+  "url_or_path": "https://sandbox.kotsa.or.kr/front/board/boardContentsListPage.do?board_id=46",
+  "published": "게시 2026-08-31",
+  "accessed": "2026-09-24",
+  "locator": "첨부 PDF '실증특례 조건' ①~⑤",
+  "quote_or_value": "조건 5개(휘도·광도 기준, 돌출구조 금지, 눈부심 영향 검증). 규제샌드박스 배상책임보험 가입 2026-08-01, 유효기간 2026-08-31~2027-08-30. 승인→개시 279일",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "5"
+  ]
+ },
+ {
+  "id": "RIS-22",
+  "type": "데이터",
+  "title": "실증특례 신청 세부 절차 페이지",
+  "publisher": "한국교통안전공단(sandbox.kotsa.or.kr)",
+  "url_or_path": "https://sandbox.kotsa.or.kr/front/restriction/selectFrontRestrictListPage.do",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "절차 4단계 본문",
+  "quote_or_value": "지원센터: 서류 완결성 검토·보완요청, 법무법인 법률검토 자문, 관계부처 공문 송부(송부 시 정식 접수), 실무·혁신위원회 준비. 위원회는 '실증특례의 승인·변경·취소에 관한 사항의 심의'",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4"
+  ]
+ },
+ {
+  "id": "RIS-23",
+  "type": "데이터",
+  "title": "모빌리티 규제샌드박스 운영 절차(사후관리 단계)",
+  "publisher": "한국교통안전공단(sandbox.kotsa.or.kr)",
+  "url_or_path": "https://sandbox.kotsa.or.kr/front/intropage/intropageShow.do?page_id=0ac5413abcda4bc496c6f795b44b56a5",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24(WebFetch 요약)",
+  "locator": "사후관리 표(준비·개시·실증·연장/법령정비·종료)",
+  "quote_or_value": "준비: 조건이행 자료·증빙 구비, 책임보험 가입 / 개시: 실증개시 점검, 사업개시 확인서 제출 / 실증: 책임보험 지원·갱신, 모니터링, 변경 / 협약·사업비 정산·결과보고 / 연장·법령정비. 변경 절차의 기한·서류는 페이지에 없음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "4"
+  ]
+ },
+ {
+  "id": "RIS-24",
+  "type": "데이터",
+  "title": "모빌리티 규제샌드박스 통계 페이지",
+  "publisher": "한국교통안전공단(sandbox.kotsa.or.kr)",
+  "url_or_path": "https://sandbox.kotsa.or.kr/front/user/statisticFrontMain.do",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-24",
+  "locator": "페이지 로드 시 호출 AJAX(statisticFrontChartData.do·selectChartAjax.do) 응답",
+  "quote_or_value": "연도 탭 '19~'23만 존재, 차트 데이터 chartList=[] 빈 배열, 표 머리(접수·실증승인·신속확인·규제없음)만 반환 → 공개 통계 비어 있음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "7"
+  ]
+ },
+ {
+  "id": "RIS-25",
+  "type": "계획",
+  "title": "TS 2026년도 주요업무 추진계획 — 모빌리티지원센터 2025 성과",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.126(원문 쪽 -122-), 텍스트 3670~3690행",
+  "quote_or_value": "특례 14건↑·승인 8일↓·사업개시 6일↓(전년比 접수 66.7%↑, 평균승인기간 9.5%↓, 사업개시건수 133.3%↑, 개시기간 2.9%↓). 승인기업 매출 19.5억·고용 215명·투자 8.6억",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "RIS-26",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 개선 필요사항(규제샌드박스 성과제고)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.127(-123-)",
+  "quote_or_value": "승인기업 대기업 8(12.1%)·중소기업 49(74.2%)·기타 9(13.6%). 국정#36 규제샌드박스 성과 제고 요구. 中企·스타트업 지원 필요",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "RIS-27",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 자율주행 메가규제샌드박스·생성형 AI 활용 규제샌드박스",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.130~132(-126-~-128-)",
+  "quote_or_value": "(사후관리) 자율주행 규제특례 안전조건 부여·모니터링·성과평가, 규제맵핑·블랙리스트·이행점검·성과평가. [규제AI] 생성형 AI로 혁신사업 발굴·규제사항 도출·제도개선 지원·성과지표 관리, '규제샌드박스 AI 지원 시범 구축(25)→시범운영 및 고도화(26)'",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "id": "RIS-28",
+  "type": "계획",
+  "title": "TS 2026 추진계획 — 기관 총괄 성과(모빌리티 혁신)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_부서별_주요업무_추진계획.txt",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "p.13·p.17",
+  "quote_or_value": "대국민 공모로 선제적 규제 해소 7건, 全 과정 원스톱 기업지원. 2026 방향: 기획형 제도(사업비 최대 1.2→3억원), IR-Day·우대보증",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "RIS-29",
+  "type": "통계",
+  "title": "2025 TS ESG경영보고서 — 기업성장응답센터·모빌리티지원센터 연계",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{D}/TS_브랜드ESG자료_분석_20260921/추출본문/ESG보고서_전문추출.txt (원본 2025_TS_ESG_REPORT.pdf)",
+  "published": "2026-06",
+  "accessed": "2026-09-24",
+  "locator": "p.64(추출본 4232~4241행), p.32(2340~2346행)",
+  "quote_or_value": "'규제 신속확인 164건 및 실증특례 80건 승인'. '모빌리티 규제특례 사업 개시 190% 증가', '특례기업 매출액 157% ▲'. 집계 기준일·분모 미표기",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "RIS-30",
+  "type": "계획",
+  "title": "2025 TS ESG경영보고서 — 중장기 인력 운영계획",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{D}/TS_브랜드ESG자료_분석_20260921/추출본문/ESG보고서_전문추출.txt (원본 2025_TS_ESG_REPORT.pdf)",
+  "published": "2026-06",
+  "accessed": "2026-09-24",
+  "locator": "p.72(추출본 4759행)",
+  "quote_or_value": "인력 운영 항목에 '규제 샌드박스 활성화 6명' 표기(증원 필요 인원으로 추정, 표 구조상 항목-연도 대응 불명확)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "4"
+  ]
+ },
+ {
+  "id": "RIS-31",
+  "type": "통계",
+  "title": "TS 2024 ESG 지속가능경영보고서 p.31(사이트 원장 RI01 상속)",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/resources/upload/202508/2024%20TS%20ESG%20REPORT.pdf",
+  "published": "2025-07",
+  "accessed": "2026-09-24",
+  "locator": "p.31(사이트 원장 기재, 이번 조사 미재열람)",
+  "quote_or_value": "모빌리티 실증특례 승인 26건·사업개시 10건(2024 성과). 동일 코호트 여부 미확인",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "RIS-32",
+  "type": "계약",
+  "title": "TS 2026 용역·물품 발주계획 CSV",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{S}/ref/TS_2026_용역_발주계획.csv, TS_2026_물품_발주계획.csv",
+  "published": "2026-01",
+  "accessed": "2026-09-24",
+  "locator": "grep '샌드박스·실증특례·규제' 및 담당부서 '규제혁신처'",
+  "quote_or_value": "규제혁신처 발주 0건, 샌드박스·AI 관련 발주 0건(‘실증’ 키워드는 정책지원처·실증사업처 사업만)",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3"
+  ]
+ },
+ {
+  "id": "RIS-33",
+  "type": "내부",
+  "title": "20A 교통안전정책실·모빌리티연구실·모빌리티지원센터 서비스문제조사 v0.1",
+  "publisher": "CCK 내부(Claude 세션)",
+  "url_or_path": "{P}/20A_교통안전정책실_모빌리티부서_서비스문제조사_v0.1_2026-09-16.md",
+  "published": "2026-09-16",
+  "accessed": "2026-09-24",
+  "locator": "§2.1·§2.2·§3·§7 #8·#10",
+  "quote_or_value": "sandbox.kotsa.or.kr 공지(2026-01-12) 'AI 지원 시범 서비스': 신청서류 작성 지원·법령 검토 지원·제도 안내 챗봇, 별도 도메인 테스트계정 운영. 모빌리티지원센터 라인 '확정 후보 없음' 결론",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "3",
+   "9"
+  ]
+ },
+ {
+  "id": "RIS-34",
+  "type": "내부",
+  "title": "00 조직검증·중복경계 v0.1 §5·§6(교차검증)",
+  "publisher": "CCK 내부(오케스트레이터)",
+  "url_or_path": "{S}/out/00_조직검증_중복경계_v0.1.md",
+  "published": "2026-09-25",
+  "accessed": "2026-09-24",
+  "locator": "RI 행(263·296행), OV-15·18·20·22",
+  "quote_or_value": "RI 부분 중복(기능 대조 전제). 규제혁신처 게시 인원 13명(OV-20). 생성형 AI 규제샌드박스 구축 계약·기능 목록 미확인, 2026 발주계획 샌드박스 AI 0건",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1",
+   "3",
+   "9"
+  ]
+ },
+ {
+  "id": "RIS-35",
+  "type": "내부",
+  "title": "TS 부서별 업무목록 v0.3 ORG-024 규제혁신처",
+  "publisher": "CCK 내부(GPT 정리)",
+  "url_or_path": "{D}/TS_부서별_업무목록_v0.3_20260921.md",
+  "published": "2026-09-21",
+  "accessed": "2026-09-24",
+  "locator": "324~334행",
+  "quote_or_value": "WORK-024-01 신청 지원, -02 심의 지원, -03 사업관리(D1 등급)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "RIS-36",
+  "type": "내부",
+  "title": "현행 사이트 RI 컨셉 원장",
+  "publisher": "CCK 사이트",
+  "url_or_path": "{S}/brief/RI_현재컨셉.json",
+  "published": "2026-09-23",
+  "accessed": "2026-09-24",
+  "locator": "site_concept·impact",
+  "quote_or_value": "대표 컨셉 '실증특례 조건을 실제 이행으로 연결', 예시 기준선 10%·8일·20%(가정), 16.5MM·1.39억",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "0",
+   "10"
+  ]
+ },
+ {
+  "id": "RIS-37",
+  "type": "언론",
+  "title": "정부, 규제샌드박스 법령정비까지 5년에서 3년으로 단축",
+  "publisher": "이투데이",
+  "url_or_path": "https://www.etoday.co.kr/news/view/2386385",
+  "published": "2024-08-01",
+  "accessed": "2026-09-24",
+  "locator": "본문(WebFetch 요약)",
+  "quote_or_value": "국조실 국정현안관계장관회의: 누적 승인 1,266건·전면허용 308건, 처리 1년 이상 지연 78건. 사후관리: 신산업규제혁신위원회의 부가조건 적정성 직권 심의, 사업개시 6개월 이상 지연 시 부가조건 재검토, 반기별 성과 점검",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4",
+   "6"
+  ]
+ },
+ {
+  "id": "RIS-38",
+  "type": "언론",
+  "title": "[기획] 개선 필요한 '규제샌드박스'…심사 기간 단축 필요",
+  "publisher": "매일일보",
+  "url_or_path": "https://www.m-i.kr/news/articleView.html?idxno=1134928",
+  "published": "2024-06-30",
+  "accessed": "2026-09-24",
+  "locator": "본문(WebFetch 요약)",
+  "quote_or_value": "한국경영자총협회 스타트업 300개사 조사(2024-06-06 발표, 이투데이 https://www.etoday.co.kr/news/view/2367372 교차확인): 샌드박스 불만족 54.7%·만족 19.7%. 불만족 기업의 사유(복수응답) '승인까지 행정처리 기간 길다' 61.6%, '면제·유예기간 짧다' 51.8%, '지켜야 하는 부가조건이 많다' 44.5%. 전 분야 샌드박스 대상, 모빌리티 한정 아님",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "RIS-39",
+  "type": "내부",
+  "title": "[추론] TS 역할의 법적 경계",
+  "publisher": "분석자 추론",
+  "url_or_path": "RIS-03·07·08 결합",
+  "published": "-",
+  "accessed": "2026-09-24",
+  "locator": "-",
+  "quote_or_value": "관리·감독(조건 준수 여부 판단·시정명령·취소)은 국토부·관계기관 공무원 권한. TS는 접수·통보·자문·지원과 위원회 운영 지원. → AI 산출물은 담당 공무원·위원회 보고용 '확인 필요 목록'까지만 가능",
+  "grade": "INFERRED",
+  "used_in": [
+   "1",
+   "5",
+   "9"
+  ]
+ },
+ {
+  "id": "RIS-40",
+  "type": "내부",
+  "title": "[추론] 공개 자료상 주 병목은 '운영 변경'보다 '승인→개시 전환'",
+  "publisher": "분석자 추론",
+  "url_or_path": "RIS-15·16·17·37·38 결합",
+  "published": "-",
+  "accessed": "2026-09-24",
+  "locator": "-",
+  "quote_or_value": "중앙값 169일·미개시 45%·조건 원문 비정형 56%와, 범정부가 '사업개시 6개월 지연 시 부가조건 재검토'를 제도화한 사실이 같은 방향. 운영구역 확대 등 변경 사례는 공개 자료에서 0건 관찰(관찰 불가능 ≠ 발생 0)",
+  "grade": "INFERRED",
+  "used_in": [
+   "0",
+   "4",
+   "10"
+  ]
+ },
+ {
+  "id": "RIS-41",
+  "type": "데이터",
+  "title": "공지: 모빌리티 규제샌드박스 AI 지원 시범 서비스 안내",
+  "publisher": "한국교통안전공단(sandbox.kotsa.or.kr 공지사항 board_id=5)",
+  "url_or_path": "https://sandbox.kotsa.or.kr/front/board/boardContentsListPage.do (공지 10번)",
+  "published": "2026-01-12",
+  "accessed": "2026-09-25",
+  "locator": "공지 본문 전문",
+  "quote_or_value": "'본 AI 서비스는 신청 기업의 규제샌드박스(신속확인 및 실증특례) 신청서류 작성을 지원'. 기능: ①신청서류 작성 지원(단계별 입력·업로드 후 AI 구조화·대화형) ②법령 검토 지원 ③제도 안내 챗봇. 외부 도메인(gptko-kotsa-project.vercel.app) 테스트계정 운영. 조회수 612. 승인 후 조건·사후관리 기능 언급 없음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3",
+   "9"
+  ]
+ },
+ {
+  "id": "RIS-42",
+  "type": "데이터",
+  "title": "공지: (실증특례 사업개시 이후) 실증사업비 지원 협약체결 필요서류 안내",
+  "publisher": "한국교통안전공단(sandbox.kotsa.or.kr 공지사항)",
+  "url_or_path": "https://sandbox.kotsa.or.kr 공지 9번",
+  "published": "2026-02-09",
+  "accessed": "2026-09-25",
+  "locator": "공지 본문",
+  "quote_or_value": "개시 후 사업비 협약 서류 15종(협약서·보조신청서·사용계획서·지급보증보험증권·4대보험 명부 등). 보증보험 최소기간 협약종료 후 150일, 협약종료 후 1개월 내 위탁 회계법인 정산",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "5"
+  ]
+ },
+ {
+  "id": "RIS-43",
+  "type": "데이터",
+  "title": "공지: (실증특례 사업개시 이후) 책임보험료 지원금 신청 필요서류 안내",
+  "publisher": "한국교통안전공단(sandbox.kotsa.or.kr 공지사항)",
+  "url_or_path": "https://sandbox.kotsa.or.kr 공지 8번",
+  "published": "2026-02-09",
+  "accessed": "2026-09-25",
+  "locator": "공지 본문",
+  "quote_or_value": "보험료의 90%, 최대 1,500만원(동일 상품 복수 시 최대 500만원), 서류 6종. 지원은 '사업개시 이후' 신청 → 가입은 개시 전 의무(RIS-10), 지원은 개시 후",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "RIS-44",
+  "type": "데이터",
+  "title": "게시판(board_id=43) '배터리 소유권 표시 임시서식' 차량별 게시",
+  "publisher": "한국교통안전공단(sandbox.kotsa.or.kr)",
+  "url_or_path": "https://sandbox.kotsa.or.kr/front/board/boardContentsListPage.do?board_id=43",
+  "published": "2026-02-11~2026-07-10",
+  "accessed": "2026-09-25",
+  "locator": "목록 24행(AJAX 응답)",
+  "quote_or_value": "특례 사업자 2곳(피트인·현대차 B2B)의 차량·배터리별 소유권 표시 서식 24건을 개별 게시 → 조건 이행 증빙이 게시판 단건 업로드로 관리됨",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "7"
+  ]
+ },
+ {
+  "id": "RIS-45",
+  "type": "데이터",
+  "title": "공지: 2026년 규제특례기업 실증사업화 지원사업 안내(서울경제진흥원)",
+  "publisher": "한국교통안전공단(sandbox.kotsa.or.kr 공지사항)",
+  "url_or_path": "https://sandbox.kotsa.or.kr 공지 11번",
+  "published": "2026-04-20",
+  "accessed": "2026-09-25",
+  "locator": "공지 본문",
+  "quote_or_value": "지원대상 '실증특례를 받은 서울시 중소기업 중 사업개시 완료 기업', 기업당 최대 5천만원. '참여여부 및 지원결과를 한국교통안전공단 규제혁신처에 회신' 요청 → 외부 지원 이력도 처가 수기 수집",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "3"
+  ]
+ },
+ {
+  "id": "RIS-46",
+  "type": "언론",
+  "title": "TS, 규제 샌드박스 운영…모빌리티 등 신사업 활성화",
+  "publisher": "이데일리(TS 발표 인용)",
+  "url_or_path": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02105766642106600",
+  "published": "2025-03-24(20A 문서 기재일)",
+  "accessed": "2026-09-25",
+  "locator": "본문(WebFetch 재열람)",
+  "quote_or_value": "신청 138건 중 117건 처리(84.7%), 위원회 4회·34건 신규 지정, 10건 실제 시범운영, 기존 샌드박스 대비 승인기간 24.1일·승인~개시 약 109일 단축, 만족도 기업 91.4·이용자 90",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "id": "RIS-47",
+  "type": "통계",
+  "title": "[보도자료] 규제샌드박스 법령정비 추진현황 점검결과",
+  "publisher": "국무조정실(정책브리핑 전재)",
+  "url_or_path": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156676967",
+  "published": "2025-03-04",
+  "accessed": "2026-09-25",
+  "locator": "첨부 보도자료 PDF 1~2쪽(텍스트 추출)",
+  "quote_or_value": "누적 1,737건 승인·372건 규제개선('25.1). 실증개시 1년 이상 실증특례 276건+임시허가 38건=314건 전수점검 → 221건(70%) 규제개선 완료 63·착수 158. 제578회 규제개혁위원회 보고",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "6"
+  ]
+ },
+ {
+  "id": "RIS-48",
+  "type": "언론",
+  "title": "\"규제샌드박스 승인 받고도 법 개정 하세월\" 스타트업계 호소",
+  "publisher": "아시아경제",
+  "url_or_path": "https://view.asiae.co.kr/article/2026062917291776894",
+  "published": "2026-06-29",
+  "accessed": "2026-09-25",
+  "locator": "본문(WebFetch 요약)",
+  "quote_or_value": "2025 규제개혁백서 인용: 2019~2026.3 승인 약 2,500건, 규제개선 617건('25.12, 약 25%). 신청기업 대상 진행상황 투명성 강화 제안",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "2",
+   "6"
+  ]
+ },
+ {
+  "id": "RIS-49",
+  "type": "논문",
+  "title": "한국의 규제샌드박스 특성 분석과 시사점: 산업융합 분야를 중심으로",
+  "publisher": "이혜영, 규제연구 32(1), 2023",
+  "url_or_path": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002980783",
+  "published": "2023",
+  "accessed": "2026-09-25",
+  "locator": "KCI 초록",
+  "quote_or_value": "산업융합 승인 198건 분석: 실증특례 75.3%, 부가조건 포함 96%, 경제규제 조건 162개(사업범위 제한 35.8%·인력 11.1%·시설 8.6%), 2022년 말 규제개선 완료 34건(17.2%). 사후 데이터 수집 강화 제언",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "4",
+   "6"
+  ]
+ },
+ {
+  "id": "RIS-50",
+  "type": "해외",
+  "title": "FCA Regulatory sandbox lessons learned report",
+  "publisher": "Financial Conduct Authority(영국)",
+  "url_or_path": "https://www.fca.org.uk/publication/research-and-data/regulatory-sandbox-lessons-learned-report.pdf",
+  "published": "2017-10",
+  "accessed": "2026-09-25",
+  "locator": "§2.2~2.9(PDF 텍스트 추출)",
+  "quote_or_value": "코호트 방식(6개월 시험). 전담 case officer 배정, 시험별 맞춤 안전장치(bespoke safeguards), 전 참여사 exit plan 의무, 종료 시 final report. 1기 수용 기업의 75% 시험 완료, 완료 기업의 약 90% 시장 출시 진행, 2기 77% 시험 착수 진행",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6",
+   "8"
+  ]
+ },
+ {
+  "id": "RIS-51",
+  "type": "해외",
+  "title": "LTA Autonomous Vehicles(시험·배치 승인 체계)",
+  "publisher": "Land Transport Authority(싱가포르)",
+  "url_or_path": "https://www.lta.gov.sg/content/ltagov/en/industry_innovations/technologies/autonomous_vehicles.html",
+  "published": "최종갱신 2026-02-25",
+  "accessed": "2026-09-25",
+  "locator": "본문(WebFetch 요약)",
+  "quote_or_value": "M1(폐쇄시험)·M2(복잡환경) 마일스톤 시험, CETRAN 안전평가, 배치준비평가(DRA). 조건: 제3자 배상 보험, 블랙박스 기록장치, 시험구역 신청. 구역 확대 시 추가 평가 여부는 페이지에 명시 없음",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "RIS-52",
+  "type": "해외",
+  "title": "規制のサンドボックス制度(新技術等実証制度)について",
+  "publisher": "内閣官房 新しい資本主義実現本部事務局(일본)",
+  "url_or_path": "https://www8.cao.go.jp/kisei-kaikaku/kisei/meeting/wg/2310_02startup/231212/startup02.pdf",
+  "published": "2023-12-12",
+  "accessed": "2026-09-25",
+  "locator": "슬라이드 2~6(PDF 텍스트 추출)",
+  "quote_or_value": "30계획 149자 인정. 사업자 '定期報告, 終了報告' 의무. 新技術等効果評価委員会(産業競争力強化法 제14조의2)가 인정계획 실시상황·결과·규제 재검토 상황 확인, 필요 시 보고요구·권고. 실증 종료 29건 중 23건 사회실장, 제도개정 7건",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "RIS-53",
+  "type": "해외",
+  "title": "EU AI Act Article 57(AI regulatory sandboxes)",
+  "publisher": "EU Regulation 2024/1689(비공식 전문 사이트 열람)",
+  "url_or_path": "https://artificialintelligenceact.eu/article/57/",
+  "published": "2024-07-12 관보",
+  "accessed": "2026-09-25",
+  "locator": "제57조 ⑤⑦⑪⑯",
+  "quote_or_value": "공급자·당국 간 합의 'sandbox plan'(⑤), 당국의 활동 증명서·exit report 발급(⑦), 중대 위험 시 시험 일시·영구 중지(⑪), 국가당국 연례보고(⑯)",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "RIS-54",
+  "type": "해외",
+  "title": "산업융합 규제샌드박스 사후관리 프로세스(국내 타 제도)",
+  "publisher": "한국산업기술진흥원(KIAT)",
+  "url_or_path": "https://sandbox.kiat.or.kr/front/intropage/intropageShow.do?page_id=ef3827f7526148d7b923059caf51246b",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-25",
+  "locator": "본문(WebFetch 요약)",
+  "quote_or_value": "산업부·관계기관 공동 관리·감독. 사후관리 서식: 책임보험 서류, 사업개시 확인서, 정기 결과 보고서, 유효기간 연장 신청서, '부가조건 변경 요청서'",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "4",
+   "6"
+  ]
+ },
+ {
+  "id": "RIS-55",
+  "type": "해외",
+  "title": "대한상공회의소 규제샌드박스 지원센터 — 실증특례 사후관리 안내(국내 타 제도)",
+  "publisher": "대한상공회의소",
+  "url_or_path": "https://sandbox.korcham.net/front/What/appl/Intro6.asp",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-25",
+  "locator": "본문(WebFetch 인용)",
+  "quote_or_value": "'특례운영 과정 중 부가조건 완화를 위한 변경 신청이 가능하며 심사를 거쳐 변경 필요성이 인정될 경우 조건을 변경'",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "4",
+   "6"
+  ]
+ },
+ {
+  "id": "RIS-56",
+  "type": "법령",
+  "title": "국가법령정보센터 현행 판 확인",
+  "publisher": "법제처",
+  "url_or_path": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=276989",
+  "published": "시행 2026-01-02",
+  "accessed": "2026-09-25",
+  "locator": "법령 상세(WebFetch)",
+  "quote_or_value": "현행 '시행 2026. 1. 2.' 법률 제21065호(2025-10-01 타법개정) → 로컬 원장 판과 동일",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "RIS-57",
+  "type": "법령",
+  "title": "모빌리티혁신법 시행령 일부개정령(안) 입법예고(제2024-1061호)",
+  "publisher": "국토교통부(법제처 입법예고)",
+  "url_or_path": "https://www.moleg.go.kr/lawinfo/makingInfo.mo?mid=a10104010000&lawSeq=79236&lawCd=0&lawType=TYPE5",
+  "published": "2024-07-22~08-31",
+  "accessed": "2026-09-25",
+  "locator": "입법예고 본문(WebFetch 요약)",
+  "quote_or_value": "기반시설 대책·친화적 도로환경 신설, 실증특례 책임보험 기준 정비(제8조). 사후관리·변경 절차 신설 없음",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "RIS-58",
+  "type": "계약",
+  "title": "[미확인] 생성형 AI 활용 규제샌드박스 구축 계약",
+  "publisher": "—",
+  "url_or_path": "WebSearch 3회(계약명·도메인·TS 조달), 2026 발주계획 CSV",
+  "published": "—",
+  "accessed": "2026-09-25",
+  "locator": "—",
+  "quote_or_value": "계약명·금액·수행사·과업범위 미발견. 공지 URL 도메인 'gptko-kotsa-project'로 AI 교육·솔루션 기업 GPTKO 관여 추정(INFERRED, 미검증). 2026 발주계획에 관련 발주 0건(RIS-32)",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "3",
+   "9"
+  ]
+ },
+ {
+  "id": "RIS-59",
+  "type": "감사",
+  "title": "[미확인] 모빌리티 실증특례 조건 불이행에 따른 시정명령·취소·과태료 사례",
+  "publisher": "—",
+  "url_or_path": "sandbox.kotsa 게시판 전수, 국토부 보도자료·WebSearch",
+  "published": "—",
+  "accessed": "2026-09-25",
+  "locator": "—",
+  "quote_or_value": "공개 자료에서 사례 미발견. 0건 관찰 ≠ 위반 0(처분 공개 의무 조항 미확인)",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2",
+   "9"
+  ]
+ },
+ {
+  "id": "RIS-60",
+  "type": "국감",
+  "title": "[미확인] 국토교통위원회 국정감사(2024·2025)의 TS 모빌리티 규제샌드박스 지적",
+  "publisher": "국회",
+  "url_or_path": "https://watch.peoplepower21.org/BillDetail/2216708 외 WebSearch 3회",
+  "published": "2026-02-10(2025 국감 결과보고서 채택)",
+  "accessed": "2026-09-25",
+  "locator": "—",
+  "quote_or_value": "결과보고서 본문 미열람(의안정보시스템 원문 미접근). 관련 지적 보도 미발견",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "2"
+  ]
+ },
+ {
+  "id": "RIS-61",
+  "type": "내부",
+  "title": "[미확인] 모빌리티 규제샌드박스 '사후관리 지침' 본문",
+  "publisher": "국토교통부·TS 추정",
+  "url_or_path": "RIS-20 서식 머리 문구",
+  "published": "—",
+  "accessed": "2026-09-25",
+  "locator": "—",
+  "quote_or_value": "별지 제2호서식(이용자 고지) 존재만 확인. 조건 이행 점검 주기·개시 점검 항목·변경 절차 규정 여부 미확인",
+  "grade": "UNKNOWN",
+  "used_in": [
+   "3",
+   "7"
+  ]
+ },
+ {
+  "id": "RIS-62",
+  "type": "내부",
+  "title": "[추론] 기존 AI와 본 컨셉의 기능 경계",
+  "publisher": "분석자 추론",
+  "url_or_path": "RIS-27·41 결합",
+  "published": "-",
+  "accessed": "2026-09-25",
+  "locator": "-",
+  "quote_or_value": "공지된 AI 기능 3종은 모두 신청 전 단계. 추진계획의 '성과지표 관리'는 문구뿐 → 승인 후 조건·기한 추적이 '26 고도화 범위에 들어가는지 미확인. 들어가면 본 컨셉은 F1 조건 카드·F4 판본 대조의 증분으로 축소",
+  "grade": "INFERRED",
+  "used_in": [
+   "3",
+   "9",
+   "10"
+  ]
+ },
+ {
+  "id": "RIS-63",
+  "type": "논문",
+  "title": "모빌리티 규제혁신 및 활성화 방안 기초 연구",
+  "publisher": "한국교통연구원(KOTI)",
+  "url_or_path": "https://www.koti.re.kr/user/bbs/anytmRsrchReprtView.do?bbs_no=1177",
+  "published": "2023-03-24",
+  "accessed": "2026-09-25",
+  "locator": "보고서 소개 페이지(WebFetch 요약)",
+  "quote_or_value": "모빌리티혁신법 제정 전후 규제혁신 수단(네거티브 규제·샌드박스) 제안. 사후관리·조건 이행에 관한 실증 데이터 없음",
+  "grade": "PLAUSIBLE",
+  "used_in": [
+   "6"
+  ]
+ },
+ {
+  "id": "RIS-64",
+  "type": "데이터",
+  "title": "TS 홈페이지 '모빌리티 규제샌드박스 안내'",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01100101",
+  "published": "게시일 미표시",
+  "accessed": "2026-09-25",
+  "locator": "본문(WebFetch 요약)",
+  "quote_or_value": "운영체계: 실무·혁신위원회 심의, 사업비·보험료 지원·사업화 컨설팅, '진행 상황 모니터링과 성과 점검', 특례 종료 후 법령개정 지원. 담당 규제혁신처",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1"
+  ]
+ },
+ {
+  "id": "RIS-65",
+  "type": "데이터",
+  "title": "[직접 집계] 승인 코호트별 기한 내 개시 전환율",
+  "publisher": "분석자 계산(RIS-13·14·15 결합)",
+  "url_or_path": "work_RI/boards_parsed2.json",
+  "published": "기준일 2026-09-24",
+  "accessed": "2026-09-25",
+  "locator": "관찰기간을 채운 코호트만 분모: 180일 기준은 1~7차(7차 의결 후 303일 경과), 365일 기준은 1~6차(6차 의결 후 426일 경과)",
+  "quote_or_value": "1~7차 승인 79건 중 180일 내 개시 25건(31.6%). 1~6차 승인 65건 중 365일 내 개시 38건(58.5%). 공지 기준이므로 실제 개시보다 낮게 잡힐 수 있음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "2",
+   "8"
+  ]
+ },
+ {
+  "id": "RIS-66",
+  "type": "데이터",
+  "title": "국토교통부공고 제2025-31호 모빌리티 규제샌드박스 실증특례 승인 공고",
+  "publisher": "국토교통부(ITS Korea 재게시본)",
+  "url_or_path": "https://itskorea.kr/downloadFile.do?fileId=FILE_000000000095440&fileSn=0",
+  "published": "2025-01-20",
+  "accessed": "2026-09-25",
+  "locator": "공고 1~5쪽(PDF 텍스트 추출)",
+  "quote_or_value": "4차 승인 8건 공고. 전 건 '실증사업기간: 사업개시일부터 24개월' → 유효기간이 개시일부터 기산되어 승인 후 개시 기한이 공고상 없음. 조건 내용은 공고에 미기재(1건 '부가 조건과 같이' 참조). 7번 항목 제목('교통약자 맞춤 병원동행 서비스')과 내용·사업자(현대자동차 자율주행 영상 원본) 불일치",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "1",
+   "2",
+   "4"
+  ]
+ },
+ {
+  "id": "RIS-67",
+  "type": "계약",
+  "title": "TS 공식 발주 RFP 원문 10건(1차사업 19116 포함) 키워드 대조",
+  "publisher": "한국교통안전공단",
+  "url_or_path": "{D}/검토결과_20260921/공식발주근거/*.txt",
+  "published": "2025~2026",
+  "accessed": "2026-09-25",
+  "locator": "grep '샌드박스·실증특례'",
+  "quote_or_value": "10건 전부 언급 0 → CCK 1차사업·기존 확인 RFP와 규제샌드박스 업무 중복 없음",
+  "grade": "CONFIRMED",
+  "used_in": [
+   "3"
+  ]
+ }
+]
