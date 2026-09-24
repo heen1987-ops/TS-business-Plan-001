@@ -7,7 +7,7 @@ export const asset=(d,v=0)=>href(v===0?'assets/isometric-v1/'+d.code+'_컨셉도
 export const source=id=>legal.sources.find(s=>s.id===id);
 export const readRoute=()=>decodeURI(location.pathname).slice(decodeURI(new URL(base).pathname).length)||'index.html';
 const direct=['registry.html','websites.html','architecture.html','katri.html','ars.html','updates.html','discovery.html','index.html','react/index.html','about.html','vision.html','organization.html','solutions.html','inspection.html','legal.html','10_세대화_통합검토.html','11_중장기목표_처별성과.html','16_조직도_수행업무_분석.html','17_조직별_AX_전환제안.html'];
-export function isReact(to){return direct.includes(to.split('?')[0])||/^legal\/[^/]+\.html/.test(to)||/^처별\/[^/]+\/0[123]_/.test(to)}
+export function isReact(to){return direct.includes(to.split(/[?#]/)[0])||/^legal\/[^/]+\.html/.test(to)||/^처별\/[^/]+\/0[123]_/.test(to)}
 export function navigate(to){if(location.protocol==='file:'||!isReact(to)){location.assign(href(to));return}history.pushState({},'',href(to));window.dispatchEvent(new PopStateEvent('popstate'));}
 export function Link({to,children,className='',onClick,...props}){return <a href={href(to)} className={className} onClick={e=>{onClick?.(e);if(!e.defaultPrevented&&!e.ctrlKey&&!e.metaKey&&!e.shiftKey&&!e.altKey&&e.button===0&&isReact(to)&&!props.download){e.preventDefault();navigate(to)}}} {...props}>{children}</a>}
 export function Out({url,children}){return <a href={url} target="_blank" rel="noopener noreferrer" className="external">{children}<ArrowUpRight size={15}/></a>}

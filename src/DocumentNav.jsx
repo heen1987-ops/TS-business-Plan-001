@@ -1,13 +1,25 @@
 import React,{useEffect,useRef,useState}from'react';
 import{ChevronRight,Folder,FileText,Search,X,PanelLeft}from'lucide-react';
-import{depts,legal,deptPath,Link}from'./core.jsx';
+import{Link}from'./core.jsx';
 import'./document-nav.css';
 import navigation from './navigation.cjs';
-export const documentTree=navigation.sections;
-const canonical=navigation.canonical;
-const findTrail=(_nodes,current)=>navigation.trailFor(current);
-function filter(nodes,term,parents=[]){return nodes.flatMap(n=>{if(!term||[...parents,n.title].join(' ').toLowerCase().includes(term))return[n];const children=n.children?filter(n.children,term,[...parents,n.title]):[];return children.length?[{...n,children}]:[]})}
-export function DocumentNav({route}){const current=canonical(route),trail=findTrail(documentTree,current)||[],[opened,setOpened]=useState(()=>new Set(['institution',...trail.filter(n=>n.id).map(n=>n.id)])),[query,setQuery]=useState(''),[mobile,setMobile]=useState(false),toggle=useRef(),search=useRef();const active=trail[0]||documentTree[0];const tree=query.trim()?filter(documentTree,query.trim().toLowerCase()):active.children;
-useEffect(()=>{setOpened(old=>new Set([...old,...(findTrail(documentTree,canonical(route))||[]).filter(n=>n.id).map(n=>n.id)]));setMobile(false);setQuery('');requestAnimationFrame(()=>{const panel=document.getElementById('document-tree-panel'),item=panel?.querySelector('a[aria-current=page]');if(!panel||!item||!panel.offsetHeight||!item.offsetHeight)return;const a=item.getBoundingClientRect(),b=panel.getBoundingClientRect();if(a.bottom>b.bottom-16)panel.scrollTop+=a.bottom-b.bottom+24;else if(a.top<b.top+16)panel.scrollTop-=b.top-a.top+24})},[route]);
-function render(nodes,depth=0){return <ul className={depth?'doc-subtree':'doc-tree'}>{nodes.map(n=><li key={n.id||n.to}>{n.children?<details open={!!query||opened.has(n.id)}><summary onClick={e=>{e.preventDefault();setOpened(old=>{const next=new Set(old);next.has(n.id)?next.delete(n.id):next.add(n.id);return next})}}><ChevronRight className="doc-chevron" size={14}/><Folder size={16}/><span>{n.title}</span></summary>{render(n.children,depth+1)}</details>:<Link to={n.to} aria-current={canonical(n.to)===current?'page':undefined}><FileText size={14}/><span>{n.title}</span></Link>}</li>)}</ul>}
-return <aside className={'document-nav '+(mobile?'mobile-open':'')} aria-label="문서 탐색" onKeyDown={e=>{if(e.key==='Escape'&&mobile){setMobile(false);toggle.current?.focus()}}}><button ref={toggle} className="doc-mobile-toggle" aria-expanded={mobile} aria-controls="document-tree-panel" onClick={()=>{setMobile(!mobile);if(!mobile)requestAnimationFrame(()=>search.current?.focus())}}><PanelLeft size={18}/>문서 목차 {mobile?'닫기':'열기'}</button><div className="doc-panel" id="document-tree-panel"><div className="doc-section-heading"><span>TS AX 사업기획</span><strong>{active.title}</strong></div><div className="doc-nav-heading"><strong>세부 메뉴</strong><button onClick={()=>{setQuery('');setOpened(new Set())}}>모두 접기</button></div><label className="doc-search"><Search size={16}/><input ref={search} value={query} onChange={e=>setQuery(e.target.value)} aria-label="목차 검색" placeholder="목차에서 찾기"/>{query&&<button aria-label="목차 검색 지우기" onClick={()=>{setQuery('');search.current?.focus()}}><X size={16}/></button>}</label><p className="doc-search-hint">전체 메뉴의 제목·분류 검색</p><nav aria-label="문서 목차">{tree.length?render(tree):<div className="doc-empty" role="status">일치하는 목차 없음<button onClick={()=>setQuery('')}>검색 초기화</button></div>}</nav><div className="doc-position" aria-label="현재 문서 위치"><span>현재 위치</span><p>{trail.map(n=>n.title).join(' / ')||'연결 문서'}</p></div></div></aside>}
+import readingNav from './reading-navigation.cjs';
+export const documentTree=readingNav.sections;
+export function DocumentNav({route}){
+ const trail=navigation.trailFor(route)||[],active=documentTree.find(s=>s.id===trail[0]?.id)||documentTree[0],context=readingNav.contextLinks(route);
+ const[query,setQuery]=useState(''),[mobile,setMobile]=useState(false),toggle=useRef(),search=useRef();
+ const words=query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+ const results=words.length?navigation.records.filter(r=>words.every(w=>[r.title,...r.breadcrumb].join(' ').toLowerCase().includes(w))):[];
+ useEffect(()=>{setMobile(false);setQuery('')},[route]);
+ const current=navigation.canonical(route);
+ function render(nodes){return <ul className="doc-tree">{nodes.map(n=><li key={n.id}>{n.children?<details><summary><ChevronRight size={14}/><Folder size={16}/>{n.title}</summary>{render(n.children)}</details>:<Link to={n.to} aria-current={(n.to.includes('#section-chapter-')?route.split('#')[1]===n.to.split('#')[1]:navigation.canonical(n.to)===current)?'page':undefined}><FileText size={14}/><span>{n.title}</span></Link>}</li>)}</ul>}
+ return <aside className={'document-nav '+(mobile?'mobile-open':'')} aria-label="문서 탐색" onKeyDown={e=>{if(e.key==='Escape'&&mobile){setMobile(false);toggle.current?.focus()}}}>
+ <button ref={toggle} className="doc-mobile-toggle" aria-expanded={mobile} aria-controls="document-tree-panel" onClick={()=>{setMobile(!mobile);if(!mobile)requestAnimationFrame(()=>search.current?.focus())}}><PanelLeft size={18}/>문서 목차 {mobile?'닫기':'열기'}</button>
+ <div className="doc-panel" id="document-tree-panel"><div className="doc-section-heading"><span>TS를 이해하는 순서</span><strong>{active.title}</strong></div>
+ <nav className="doc-journey" aria-label="기관에서 제안까지 읽는 순서">{readingNav.journey.map((j,i)=><Link to={j.to} key={j.id}><span>{i+1}</span>{j.title}</Link>)}</nav>
+ <label className="doc-search"><Search size={16}/><input ref={search} value={query} onChange={e=>setQuery(e.target.value)} aria-label="목차 검색" placeholder="필요한 자료 찾기"/>{query&&<button aria-label="목차 검색 지우기" onClick={()=>{setQuery('');search.current?.focus()}}><X size={16}/></button>}</label>
+ <p className="doc-search-hint">세부 항목은 검색 또는 본문에서 확인</p>
+ {words.length?<nav aria-label="목차 검색 결과">{results.length?<ul className="doc-tree doc-search-results">{results.map(r=><li key={r.id}><Link to={r.route}><span><b>{r.title}</b><small>{r.breadcrumb.slice(0,-1).join(' / ')}</small></span></Link></li>)}</ul>:<div className="doc-empty" role="status">일치하는 목차 없음<button onClick={()=>setQuery('')}>검색 초기화</button></div>}</nav>:
+ <nav aria-label="문서 목차"><div className="doc-context-title">{context?context.d.name:'관련 문서'}</div>{render(context?context.links:active.children)}{context&&<details className="doc-other-departments"><summary>다른 처의 제안 보기</summary>{render(readingNav.sections[3].children)}</details>}</nav>}
+ <div className="doc-position"><Link to="index.html?view=map">조직 연결지도</Link><Link to="registry.html">전체 자료 원장</Link></div></div></aside>
+}

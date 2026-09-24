@@ -25,26 +25,10 @@ const orgs=[
 ];
 const technical=[
  card('aRDa · 조직지식','원문·판본·접근권한과 검토 근거의 연결','검증된 업무결과·수정 이유·처리이력의 재사용','실제 TS 배포본의 기능·연계 범위 확인 필요'),
- card('NOA · 업무 수행','상황 이해 → 계획 → 도구 실행 → 결과 검증 → 재계획','사건별 목표·담당자·기한·완료조건의 연결','Agentic OS: 현 계약에 포함되지 않은 추가 개발 검토 범위'),
+ card('NOA · 업무 수행','상황 이해 → 계획 → 도구 실행 → 결과 검증 → 재계획','사건별 목표·담당자·기한·완료조건의 연결','Agentic OS: 계획·실행·검증·재계획의 추가 개발 후보'),
  card('기존 시스템 · 공식 처리','승인된 조회·등록·결과 확인의 업무도구 연결','ERP 등 기존 원장의 확정 기록과 AI 초안 구분','안전판정·발급·처분 등 최종 권한의 담당자 유지')
 ];
-function institution(){
- const links=[doc('법정·수탁업무 상세','legal.html'),doc('기관 유형 공식 근거',legal.institution_type_source),doc('설립법 원문',legal.sources.find(x=>x.id==='foundation').url)];
- return [
- slide('purpose','TS는 왜 존재하는가','교통사고 예방과 교통체계 운영·관리 지원을 통한 국민의 생명·재산 보호',[
- card('설립 목적','교통사고 예방사업 수행','교통체계 운영·관리의 전문 지원','안전하고 편리한 교통환경 조성을 통한 국민 편익 증진'),
- card('기관의 위치','국토교통부 소관 한국교통안전공단','위탁집행형 준정부기관 분류','기관 유형과 개별 사무의 위탁·대행 권한은 별도 확인'),
- card('국민과 만나는 업무','검사·시험·안전관리·조사·교육·정보 제공','육상·항공·철도 등 교통 분야의 전문업무','현장 위험의 확인과 적정한 개선·후속조치의 연결')],{links,status:'기존 공식근거 정리 · 조사 기준 '+legal.date}),
- slide('mandate','설립법에서 실제 업무까지','기관명만으로 권한을 추정하지 않고 개별 사무의 근거·수행조직·결과를 연결',[
- card('① 설립 근거','한국교통안전공단법의 목적·사업 범위 확인','기관 전체 임무의 이해를 위한 출발점','모든 개별 업무의 자동 위임 근거로 사용하지 않는 구분'),
- card('② 개별 법령·위탁','교통안전·자동차관리·여객운송·철도·항공 등 분야별 근거','위탁·대행·지정·조사 의뢰의 구별','법령 판본·시행일·지정서·위탁 범위의 확인'),
- card('③ 수행업무·책임','접수 → 검토·검사 → 보완 → 공식 처리 → 후속 확인','본사·처·지역·현장의 실제 수행관계 파악','행정처분·발급·안전판정 주체와 AI 지원역할의 구분')],{links}),
- slide('benefit','AX가 달성해야 할 결과','기관의 임무를 더 잘 수행하고 국민·기업의 실제 부담을 줄이는 전환',[
- card('국민·기업 편익','정당한 절차의 적기 완료','불필요한 재문의·재제출·재방문 감소','위험·정보격차·서비스 접근성 문제의 해소'),
- card('기관의 업무 변화','자료를 모두 읽은 뒤 시작하는 검토의 부담 완화','조건 변경에 따른 확인과업·담당 협업의 재구성','실행 결과·미해결 사항·편익 평가의 연속 관리'),
- card('검증 방식','현재 방식·동일 SI 개선·AI 추가안의 비교','사건 난이도·분모·검수 부담을 포함한 정량 평가','기능 설치·문서 생성과 업무 성과의 구분')],{status:planning}),
- slide('technology','CCK 기술을 활용하는 방법','조직지식·계획과 실행·공식 처리결과의 연결',technical,{status:planning,links:[doc('공통 조직운영 설계','updates.html')]})
- ];}
+function institution(){return require('./institution-guide.cjs').chapters;}
 function home(){return {title:'TS AX 사업기획',slides:[
  slide('overview','기관의 목적에서 AX 실행계획까지','TS의 임무 → 2030 전략 → 조직의 실제 업무 → 목적 중심 AX 제안',[
  card('01 · 기관 이해','존재 의의·기관 유형·설립 근거 확인','개별 법령에 따른 위탁·대행·지정 사무 구분','국민·기업이 얻어야 할 공공적 결과의 정의'),
@@ -167,7 +151,7 @@ function discoveryDeck(){return {title:'업무 전환 후보·근거',slides:[
 function getDeck(route){const url=new URL(route,'https://local/'),q=url.searchParams;let p=decodeURI(url.pathname).replace(/^\//,'');const aliases={'10_세대화_통합검토.html':'about.html','11_중장기목표_처별성과.html':'vision.html','16_조직도_수행업무_분석.html':'organization.html','17_조직별_AX_전환제안.html':'solutions.html'};p=aliases[p]||p;
 if(p.startsWith('처별/')){const d=depts.find(d=>p.startsWith(d.folder+'/'));if(d)return department(d,p.includes('/03_')?2:p.includes('/02_')?1:0,q);}
 if(p==='architecture.html'){const u=architecture.units.find(u=>u.code===q.get('unit'))||architecture.units.find(u=>u.code==='DF');return {title:u.name+' · 아키텍처',slides:archSlides(u.code,q.get('arch'))};}
-if(p==='about.html')return {title:'TS 기관 이해',slides:institution()};
+if(p==='about.html'||(['index.html','react/index.html'].includes(p)&&!q.has('node')&&q.get('view')!=='map'))return {title:require('./institution-guide.cjs').title,lead:require('./institution-guide.cjs').lead,slides:institution()};
 if(p==='vision.html')return vision();if(p==='organization.html')return organization();
 if(p==='solutions.html'||p==='inspection.html')return catalog(p==='inspection.html');
 if(p==='legal/sources.html')return sources();if(p==='legal.html'||p.startsWith('legal/'))return legalDeck(p.split('/')[1]?.replace('.html',''));

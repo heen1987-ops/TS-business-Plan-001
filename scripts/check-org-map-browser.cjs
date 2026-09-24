@@ -5,7 +5,7 @@ const base=process.env.SITE_BASE||'http://127.0.0.1:8768/';
  fs.mkdirSync('qa-output',{recursive:true});const browser=await chromium.launch({channel:'msedge',headless:true});
  const page=await browser.newPage({viewport:{width:1600,height:1040},deviceScaleFactor:1});const errors=[];
  page.on('pageerror',e=>errors.push(e.message));let checks=0;
- const goto=async suffix=>{await page.goto(base+suffix);await page.locator('.mindmap-home').waitFor();};
+ const goto=async suffix=>{await page.goto(base+(suffix==='index.html'?'index.html?view=map':suffix));await page.locator('.mindmap-home').waitFor();};
  await goto('index.html');assert.equal(await page.locator('.map-child-list .map-node').count(),9);assert.equal(await page.locator('[data-edge]').count(),9);assert.equal(await page.locator('.document-reader').count(),0);checks+=3;
  await page.screenshot({path:'qa-output/map-home.jpg',fullPage:true,type:'jpeg',quality:80});
  await page.locator('.map-child-list [data-node="mobility"]').focus();await page.keyboard.press('Enter');await page.locator('.map-child-list [data-node="mobility-lab"]').click();await page.locator('.map-child-list [data-node="DF"]').click();
@@ -36,7 +36,7 @@ const base=process.env.SITE_BASE||'http://127.0.0.1:8768/';
  await goto('index.html?node=DF');assert.equal(await overflow(),false);await page.screenshot({path:'qa-output/map-df-mobile.jpg',fullPage:true,type:'jpeg',quality:80});checks++;
  for(const width of [1280,1024,981,768,640]){await page.setViewportSize({width,height:900});for(const id of ['advanced-center','mobility','AD','mobility-lab','inspection','KATRI']){await goto('index.html?node='+id);const outside=await page.locator('.map-focus h2,.map-node strong').evaluateAll(es=>es.some(e=>{const r=document.createRange();r.selectNodeContents(e);const ink=r.getBoundingClientRect(),box=e.parentElement.getBoundingClientRect();return ink.right>box.right+1||ink.left<box.left-1;}));assert.equal(outside,false,'카드 내부 글자 넘침: '+width+'/'+id);checks++;}}
  await page.setViewportSize({width:1600,height:1040});await goto('index.html');await page.keyboard.press('Tab');assert(await page.locator(':focus').count()>0);checks++;
- await page.getByRole('link',{name:'폴더 목차·자료 안내',exact:true}).click();await page.locator('.document-reader').waitFor();assert.equal(await page.locator('.document-nav').count(),1);checks+=2;
+ await page.getByRole('link',{name:'TS의 정의부터 읽기',exact:true}).click();await page.locator('.document-reader').waitFor();assert.equal(await page.locator('.document-nav').count(),1);checks+=2;
  assert.deepEqual(errors,[]);fs.writeFileSync('qa-output/org-map-browser.json',JSON.stringify({result:'통과',base,checks,pageErrors:errors,viewports:[1600,1280,390]},null,2));
  console.log(JSON.stringify({result:'통과',checks,base}));await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});

@@ -6,7 +6,7 @@ import impact from './impact.json';
 import './org-map.css';
 import {SiteConnections} from './Websites.jsx';
 const {tree,nodes,parents,ancestry,proposals,documents,departmentByCode,kindLabel,edgeKind}=org;
-const nodeUrl=id=>'index.html'+(id==='TS'?'':'?node='+encodeURIComponent(id));
+const nodeUrl=id=>id==='TS'?'index.html?view=map':'index.html?node='+encodeURIComponent(id);
 const related=d=>d?Object.values(departmentByCode).filter(x=>x.code!==d.code&&String(d.partner||'').includes(x.name)):[];
 function MapNode({node,position,back=false,relation}){
  const body=<><span className="map-node-tag">{back?'상위 항목':kindLabel(node)}</span><strong>{node.name}</strong>{node.kind==='document'?<FileText size={16}/>:<ChevronRight size={17}/>}</>;
@@ -55,12 +55,12 @@ export function Home(){
  const matches=words.length?Object.values(nodes).filter(n=>{const d=departmentByCode[n.code];const text=[n.name,n.summary,d?.goal,d?.system,...ancestry(n.id).map(a=>a.name)].join(' ').toLocaleLowerCase();return words.every(w=>text.includes(w));}):[];
  const trail=ancestry(node.id),childNodes=node.children.length?node.children:documents(node);
  return <div className="mindmap-home">
-  <div className="map-home-heading"><div><span className="map-kicker">TS AX 사업기획 · 조직 기반 탐색</span><h1>조직에서 시작하는 연결지도</h1><p>조직을 따라 이동하고, 업무별 제안과 근거를 한 번에 찾는 자료 지도.</p></div><div className="map-top-links"><Link to="websites.html" className="map-guide"><ArrowUpRight size={17}/>처별 공식 홈페이지</Link><Link to="index.html?view=guide" className="map-guide"><FolderTree size={17}/>폴더 목차·자료 안내</Link></div></div>
+  <div className="map-home-heading"><div><span className="map-kicker">TS AX 사업기획 · 조직 기반 탐색</span><h1>조직에서 시작하는 연결지도</h1><p>조직을 따라 이동하고, 업무별 제안과 근거를 한 번에 찾는 자료 지도.</p></div><div className="map-top-links"><Link to="websites.html" className="map-guide"><ArrowUpRight size={17}/>처별 공식 홈페이지</Link><Link to="index.html?view=guide" className="map-guide"><FolderTree size={17}/>TS의 정의부터 읽기</Link></div></div>
   <div className="map-toolbar">
    <div className="map-search-wrap"><label className="map-search"><Search size={19}/><input aria-label="조직·업무·시스템 검색" placeholder="처 이름, 업무 또는 시스템 검색 · 예: 데이터융복합, KADIS" value={query} onChange={e=>setQuery(e.target.value)} onKeyDown={e=>{if(e.key==='Escape')setQuery('');if(e.key==='Enter'&&matches.length===1)navigate(nodeUrl(matches[0].id));}}/>{query&&<button onClick={()=>setQuery('')} aria-label="검색어 지우기"><X size={17}/></button>}</label>
     {words.length>0&&<div className="map-search-results"><p role="status">{matches.length}개 연결 항목{matches.length===0?' · 검색어를 줄이거나 처 이름으로 검색':''}</p><ul>{matches.map(n=><li key={n.id}><Link to={nodeUrl(n.id)}><strong>{n.name}</strong><small>{ancestry(n.id).slice(1,-1).map(a=>a.name).join(' › ')||'TS'} · {kindLabel(n)}</small></Link></li>)}</ul></div>}
    </div>
-   <div className="map-toolbar-actions"><Link to="index.html"><Network size={16}/>전체 지도</Link><button onClick={()=>setOutline(!outline)} aria-pressed={outline}>{outline?'연결도 보기':'목록 보기'}</button></div>
+   <div className="map-toolbar-actions"><Link to="index.html?view=map"><Network size={16}/>전체 지도</Link><button onClick={()=>setOutline(!outline)} aria-pressed={outline}>{outline?'연결도 보기':'목록 보기'}</button></div>
   </div>
   {!nodes[requested]&&<p role="status" className="map-invalid">요청한 조직을 찾을 수 없어 전체 지도 표시. 검색 또는 아래 조직에서 다시 탐색.</p>}
   <nav className="map-breadcrumb" aria-label="조직 경로">{trail.map((n,i)=><React.Fragment key={n.id}>{i>0&&<ChevronRight size={13}/>}<Link to={nodeUrl(n.id)} aria-current={i===trail.length-1?'location':undefined}>{n.name}</Link></React.Fragment>)}</nav>
