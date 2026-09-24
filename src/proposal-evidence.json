@@ -1,0 +1,199 @@
+{
+  "date": "2026-09-24",
+  "status": "공식 업무 본문 재열람 / 내부 전결·API·발생률·도입효과 미확인",
+  "sources": [
+    {
+      "code": "MR",
+      "title": "TS 앱미터 검정",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01080700",
+      "date": "게시일 미표시",
+      "fact": "제작·수리·사용검정, 기능증빙과 주행검정, 부적합 유형별 후속 경로 안내. 모빌리티연구처 담당 표시.",
+      "limit": "실제 반복 보완률·평균 경과기간·AI 개선율의 근거 아님. 안내기간과 실측기간 구분.",
+      "id": "PE-01",
+      "checked": "2026-09-24"
+    },
+    {
+      "code": "DF",
+      "title": "TS 운행기록분석시스템",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040400",
+      "date": "게시일 미표시",
+      "fact": "위험운전행동의 실제 횟수·주행거리 기준 비교와 교육 전후 분석 안내. 데이터융복합처 담당 표시.",
+      "limit": "기존 분석기능의 존재 확인. 실제 조치 연결 지연과 AI 추가효과는 별도 진단 대상.",
+      "id": "PE-02",
+      "checked": "2026-09-24"
+    },
+    {
+      "code": "SA",
+      "title": "TS 교통수단안전점검",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040201",
+      "date": "게시일 미표시",
+      "fact": "운수업체의 위험요인 조사·점검·평가 및 후속 이행 확인 안내. 교통안전처 담당 표시.",
+      "limit": "절차의 존재와 실제 위험 해소·재발 수준은 다른 확인대상.",
+      "id": "PE-03",
+      "checked": "2026-09-24"
+    },
+    {
+      "code": "SA",
+      "title": "TS COSAS",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01081000",
+      "date": "게시일 미표시",
+      "fact": "공단·지자체·운수회사 협업, 점검·규정자료와 진행상황 관리 지원.",
+      "limit": "일정·상태 관리의 신설로 제안하지 않음. 원인별 실질 해소 검토의 추가범위 확인 필요.",
+      "id": "PE-04",
+      "checked": "2026-09-24"
+    },
+    {
+      "code": "QE",
+      "title": "TS 교통안전체험교육",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01070300",
+      "date": "게시일 미표시",
+      "fact": "현장·실기 중심 체험교육과 운전자 개별 사고유발요인 개선 목표. 자격교육처 담당 표시.",
+      "limit": "만족도·이수 상태를 새로운 상황의 안전역량 또는 AI 사고감소 성과로 전환하지 않음.",
+      "id": "PE-05",
+      "checked": "2026-09-24"
+    },
+    {
+      "code": "CL",
+      "title": "TS 화물운송실적 관리시스템",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040502",
+      "date": "게시일 미표시",
+      "fact": "웹·엑셀 실적신고 및 제도·정책 지원 안내. 기후탄소물류처 담당 표시.",
+      "limit": "신고·정정 기능은 기존 기반. 원거래 해석·준비 부담과 실제 정정률은 실측 필요.",
+      "id": "PE-06",
+      "checked": "2026-09-24"
+    },
+    {
+      "code": "PS",
+      "title": "TS 대중교통현황조사",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01060301",
+      "date": "게시일 미표시",
+      "fact": "정책수립 기초자료와 이용편의·효율성 증진 목적의 조사. 정책지원처 담당 표시.",
+      "limit": "조사 업무 안내가 전국 예산 배분·개별 운영 집행권한의 근거가 되지는 않음.",
+      "id": "PE-07",
+      "checked": "2026-09-24"
+    },
+    {
+      "code": "PS",
+      "title": "TS DRT 구축·운영",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01080500",
+      "date": "게시일 미표시",
+      "fact": "정산·콜·운행앱·NFC 기능을 포함한 공통 플랫폼 안내. 모빌리티연구처 담당 표시.",
+      "limit": "정책지원처의 정책평가와 모빌리티연구처의 DRT 운영 연계를 분리. 통합 플랫폼 부재를 전제로 신규 구축 주장 금지.",
+      "id": "PE-08",
+      "checked": "2026-09-24"
+    },
+    {
+      "code": "RI",
+      "title": "TS 규제샌드박스 운영절차",
+      "url": "https://sandbox.kotsa.or.kr/front/intropage/intropageShow.do?page_id=0ac5413abcda4bc496c6f795b44b56a5",
+      "date": "게시일 미표시",
+      "fact": "조건증빙·보험·개시점검·변경·연장·결과보고 등 사후관리 경로 안내.",
+      "limit": "기존 신청지원·사후관리를 재구축하는 제안과 구분. 현재 누락률과 변경확인 시간은 미확인.",
+      "id": "PE-09",
+      "checked": "2026-09-24"
+    },
+    {
+      "code": "DV",
+      "title": "TS 단지내도로 실태점검",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040207",
+      "date": "게시일 미표시",
+      "fact": "아파트·대학교 도로의 전문가 점검·개선안 제시, 지자체 위탁 관계 안내. 실증사업처 담당 표시.",
+      "limit": "권고 제공을 공사 완료·위험 감소로 취급하지 않음. 시행 권한·재원·후속관측 확보 필요.",
+      "id": "PE-10",
+      "checked": "2026-09-24"
+    },
+    {
+      "code": "IP",
+      "title": "TS 자동차검사 소개",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01010101",
+      "date": "게시일 미표시",
+      "fact": "운행차 안전성과 환경기준 관련 검사 및 관련 법령 안내. 검사기획처 담당 표시.",
+      "limit": "국민 후속조치 지원의 배경. 별도 AX 처리권한·데이터 접근을 자동 확보하는 근거 아님.",
+      "id": "PE-11",
+      "checked": "2026-09-24"
+    },
+    {
+      "code": "SI",
+      "title": "TS 기기정도검사",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01030201",
+      "date": "게시일 미표시",
+      "fact": "자동차 검사기기 정밀도검사와 환경측정기기 정도검사 등 제도 구분. 특수검사처 담당 표시.",
+      "limit": "기기군·검사종류별 기준을 별도 적용. 현재 반복검증 부담·오류 발생률은 미확인.",
+      "id": "PE-12",
+      "checked": "2026-09-24"
+    },
+    {
+      "code": "PK",
+      "title": "TS 기계식주차장 검사",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01030401",
+      "date": "게시일 미표시",
+      "fact": "안전도 심사·사용·정기·정밀안전검사 등 절차 구분. 주차안전처 담당 표시.",
+      "limit": "보수·공식검사·이용상태의 담당과 완료조건을 하나로 합치지 않음.",
+      "id": "PE-13",
+      "checked": "2026-09-24"
+    },
+    {
+      "code": "AD",
+      "title": "TS 검사용진단기 KADIS",
+      "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=01090301",
+      "date": "게시일 미표시",
+      "fact": "KAMS·KAPRO·KANET 및 검사정보 연결 구조. 첨단검사전략처 담당 표시.",
+      "limit": "공개 지원범위는 판본별 현재 성공률이 아님. 본 AX에 차량·ECU 쓰기 권한을 부여하지 않음.",
+      "id": "PE-14",
+      "checked": "2026-09-24"
+    },
+    {
+      "code": "RD",
+      "title": "TS KADAS 공개",
+      "url": "https://main.kotsa.or.kr/portal/bbs/report_view.do?bbscCode=report&bbscSeqn=18866&menuCode=05010200&pageNumb=1",
+      "date": "2026-05-21",
+      "fact": "첨단안전장치 기능평가 체계 구축과 운영계획 발표. 첨단연구개발처 담당 표시.",
+      "limit": "발표와 현재 성능·운영실적 구분. KADIS 통신·진단 계통과 다른 평가 체계.",
+      "id": "PE-15",
+      "checked": "2026-09-24"
+    }
+  ],
+  "privacy": [
+    {
+      "id": "P-L15",
+      "title": "개인정보 보호법 제15조",
+      "url": "https://law.go.kr/LSW/lsLawLinkInfo.do?ancYnChk=0&chrClsCd=010202&lsJoLnkSeq=1006184341",
+      "effective": "2026-09-11 시행 표제 확인",
+      "fact": "수집·이용 근거와 목적범위의 확인",
+      "limit": "TS 개별 자료의 처리근거 확정과 구분"
+    },
+    {
+      "id": "P-L26",
+      "title": "개인정보 보호법 제26조",
+      "url": "https://www.law.go.kr/lsLinkProc.do?chrClsCd=010202&joLnkStr=%EC%A0%9C26%EC%A1%B0%EC%A0%9C5%ED%95%AD+%EB%98%90%EB%8A%94+%EC%A0%9C27%EC%A1%B0%EC%A0%9C3%ED%95%AD&joNo=002600000%5E002700000&lsId=011357&lsNm=%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4+%EB%B3%B4%ED%98%B8%EB%B2%95&mode=2",
+      "effective": "2026-09-11 시행 표제 확인",
+      "fact": "처리위탁 범위·문서·책임의 확인",
+      "limit": "CCK 실제 위탁계약·재위탁·운영접근 범위 별도 확인"
+    },
+    {
+      "id": "P-L29",
+      "title": "개인정보 보호법 제29조",
+      "url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900079357",
+      "effective": "2026-09-11 시행 표제 확인",
+      "fact": "기술·관리·물리적 안전조치의 근거",
+      "limit": "세부 보유기간·암호화·망구성의 확정 근거로 확대 금지"
+    },
+    {
+      "id": "P-L37",
+      "title": "개인정보 보호법 제37조의2",
+      "url": "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1029334889",
+      "effective": "2026-09-11 시행 표제 확인",
+      "fact": "자동화된 결정의 권리·적용조건 확인",
+      "limit": "승인 버튼의 존재만으로 적용 여부를 단정하지 않고 실제 인적 검토 확인"
+    },
+    {
+      "id": "P-LOC",
+      "title": "위치정보법 제18~22조",
+      "url": "https://www.law.go.kr/lsLinkProc.do?chrClsCd=010202&joLnkStr=%EC%A0%9C18%EC%A1%B0+%EB%82%B4%EC%A7%80+%EC%A0%9C22%EC%A1%B0&joNo=001800000%5E001900000%5E002000000%5E002100000%5E002200000&lsId=009882&lsNm=%EC%9C%84%EC%B9%98%EC%A0%95%EB%B3%B4%EC%9D%98+%EB%B3%B4%ED%98%B8+%EB%B0%8F+%EC%9D%B4%EC%9A%A9+%EB%93%B1%EC%97%90+%EA%B4%80%ED%95%9C+%EB%B2%95%EB%A5%A0&mode=2",
+      "effective": "2025-10-01 시행 표제 확인",
+      "fact": "개인위치정보 수집·이용·제공의 조건 검토",
+      "limit": "PS 집계 정책분석과 DRT 실시간 위치 처리를 별도 적용 판단"
+    }
+  ],
+  "privacyLimit": "개인정보 보호법 제21조·35~37조 및 위치정보법 제23조 전문의 이번 직접 열람은 미완료. 정정·처리정지·파기는 제안 설계로 기재하며 현행 법령·TS 개인정보파일·기록관리 기준과 대조 후 확정. 보유기간 임의 수치 없음. 장래 시행 예정 조문을 현재 처리근거로 사용하지 않음."
+}

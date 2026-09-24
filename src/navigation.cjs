@@ -4,7 +4,7 @@ const page=(id,title,to,extra={})=>({id,title,to,...extra});
 const group=(id,title,children,extra={})=>({id,title,children,...extra});
 const dp=(d,n)=>d.folder+'/'+['01_사업정의','02_UI시제품','03_아키텍처_흐름'][n]+'.html';
 const views=[['modules','구성요소·역할'],['interfaces','연계·인터페이스'],['data','데이터·원장'],['runtime','서버 배치·복구'],['trace','요구사항·RFP 추적']];
-function architecture(id,base){return [page(id+'-overview','전체 구성도',base),...views.map(([key,title])=>page(id+'-'+key,title,base+(base.includes('?')?'&':'?')+'arch='+key))]}
+function architecture(id,base){return [page(id+'-overview','전체 구성도·상세설계',base),...(!id.startsWith('KA-')?[['concept','컨셉도·공공 편익'],['overall','전체 아키텍처'],['service','서비스 아키텍처'],['data','데이터 흐름도'],['privacy','개인정보 처리도']].map(([key,title])=>page(id+'-detail-'+key,title,base+'#section-detail-'+key)):[]),...views.map(([key,title])=>page(id+'-'+key,title,base+(base.includes('?')?'&':'?')+'arch='+key))]}
 const sections=[
  group('institution','공단 이해',[page('about','기관의 존재 의의','about.html'),group('laws','법정·수탁업무',[page('legal','전체 업무 지도','legal.html'),page('law-mapping','법령·처·컨셉 매핑','legal/mapping.html'),...legal.groups.map(g=>page('law-'+g.id,g.title,'legal/'+g.id+'.html')),page('legal-sources','법령 근거·확인 범위','legal/sources.html')])],{description:'설립 목적·법적 근거·국민 편익',sourceFiles:['src/data.json']}),
  group('strategy','중장기 전략',[page('vision','2026–2030 경영목표·전략과제','vision.html')],{description:'기관의 방향과 전환 목표',sourceFiles:['src/data.json','src/slide-data.cjs']}),
@@ -29,7 +29,7 @@ function canonical(route){const [path,q='']=route.split('#')[0].split('?'),s=new
  if(p==='index.html')s.delete('node');
  if(p==='architecture.html'){const d=departments.find(d=>d.code===(s.get('unit')||'DF'));if(d){p=dp(d,2);s.delete('unit')}}
  if(s.has('view')&&p.startsWith('처별/'))p=p.replace(/0[123]_[^/]+\.html$/,'01_사업정의.html');
- s.sort();return p+(s.size?'?'+s:'')
+ s.sort();return p+(s.size?'?'+s:'')+(route.includes('#section-detail-')?'#'+route.split('#')[1]:'')
 }
 function sourceFilesFor(route){
  const [path,q='']=route.split('?'),query=new URLSearchParams(q),slide='src/slide-data.cjs';
@@ -38,7 +38,7 @@ function sourceFilesFor(route){
  if(path==='websites.html')return ['src/Websites.jsx','src/official-sites.json'];
  if(path==='index.html')return query.get('view')==='guide'?['src/GuideHome.jsx','src/data.json',slide]:['src/Home.jsx','src/org-map-data.cjs','src/data.json'];
  if(path.startsWith('처별/')){
-  if(path.includes('03_')||query.has('arch'))return ['src/Architecture.jsx','src/architecture-v2.json',slide];
+  if(path.includes('03_')||query.has('arch'))return ['src/Architecture.jsx','src/architecture-v2.json','src/proposal-design.cjs','src/proposal-diagrams.cjs',slide];
   if(query.get('view')==='impact')return ['src/Measurement.jsx','src/measurement-data.cjs','src/impact.json',slide];
   return ['src/pages.jsx','src/data.json','src/impact.json','src/law-mapping.json',slide];
  }
@@ -50,7 +50,7 @@ function sourceFilesFor(route){
 const records=[];
 function walk(nodes,trail=[],inherited={}){for(const n of nodes){const meta={...inherited,...n},chain=[...trail,n];if(n.children)walk(n.children,chain,meta);else records.push({id:n.id,title:n.title,route:n.to,menuId:chain[0].id,menu:chain[0].title,parentId:trail.at(-1)?.id||null,breadcrumb:chain.map(x=>x.title),organization:meta.organization||null,kind:meta.kind||'안내·분석',sourceFiles:sourceFilesFor(n.to),status:'등록 경로·분류 확인 / 내용 상태는 원문 참조',registeredAt:date})}}
 walk(sections);
-function locate(route){const key=canonical(route);const record=records.find(r=>canonical(r.route)===key);if(record)return record;
+function locate(route){const key=canonical(route);const exact=records.find(r=>r.route===route);if(exact)return exact;const record=records.find(r=>canonical(r.route)===key);if(record)return record;
  const [path]=key.split('?');if(path==='websites.html')return records.find(r=>r.id==='websites');return records.find(r=>r.route.split('?')[0]===path)||null}
 function trailFor(route){const record=locate(route);if(!record)return [];function find(ns,trail=[]){for(const n of ns){if(n.id===record.id)return [...trail,n];if(n.children){const a=find(n.children,[...trail,n]);if(a)return a}}}return find(sections)||[]}
 function firstRoute(n){return n.to||(n.children||[]).map(firstRoute).find(Boolean)}
