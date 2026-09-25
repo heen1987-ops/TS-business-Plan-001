@@ -3,6 +3,7 @@ import{Link,Out,href}from'./core.jsx';
 import revision from'./revision47.cjs';
 import './revision47.css';
 import {Delivery47} from './Delivery47.jsx';
+import {Advanced47} from './Advanced47.jsx';
 const {get,chapters}=revision;
 function List({items}){return <ul>{items.map((x,i)=><li key={i}>{x}</li>)}</ul>}
 function Table({title,headers,rows}){return <div className="r47-table"><table><caption>{title}</caption><thead><tr>{headers.map(x=><th key={x} scope="col">{x}</th>)}</tr></thead><tbody>{rows.map((r,i)=><tr key={i}>{r.map((x,j)=><td key={j}>{x}</td>)}</tr>)}</tbody></table></div>}
@@ -55,6 +56,8 @@ export function Proposal47({code}){const r=get(code);if(!r)return null;const p=r
 ]}/><h3>오류·변경 시의 처리</h3><List items={['동일 사건 중복 수신: 원문 해시·대상·이벤트 식별로 중복 후보 분리 후 대조','기준·입력 변경: 영향받는 계획과 승인을 보류하고 필요한 항목만 재검토','외부 응답 유실: 결과 미확인 상태 유지, 원천 조회로 실제 반영 여부 확인 후 재시도 결정','AI 근거 불일치: 공식 원문 확인과 담당자 정정으로 복구, 수정 사유를 평가셋에 반영']}/>
 </Part>
 <Part id="design" title="4. 무엇을 연결하는가 · 전체 아키텍처와 데이터">
+<Advanced47 code={code}/>
+<h3>아키텍처 개요와 데이터 흐름 요약</h3>
 <Diagram code={code} type="overall" title="전체 아키텍처 · 화면·실행·지식·도구·원천"/>
 <Table title="구성요소·책임·운영 경계" headers={['계층','세부 구성','책임과 완료조건']} rows={[
 ['사용자·검토','접수자료·사건목록·근거대조·승인·결과확인 화면',p.users+'의 역할별 접근 분리'],
