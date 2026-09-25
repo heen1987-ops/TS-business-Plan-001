@@ -1,0 +1,316 @@
+{
+  "status": "수집계약 설계 · 원천 제공·접근권한·정답 및 측정환경 합의 전 · 실제 수집·효과 산출 없음",
+  "commonFields": [
+    "case_key",
+    "cohort_id",
+    "comparison_arm",
+    "metric_version",
+    "observation_start",
+    "observation_end",
+    "source_ref",
+    "missing_reason",
+    "review_status"
+  ],
+  "commonRule": "공통 이벤트 로그만으로 모든 지표 산출 불가. 지표별 분자·분모 원천과 관측기간 확인 후 집계. 분모 0·원천 미확보·기간 미도래는 0%나 개선 없음으로 치환하지 않고 산출불가/관측대기로 구분. 개인 원자료는 권한이 있는 원천에 보존하고 평가자료에는 목적에 맞는 대체키·집계를 사용.",
+  "profiles": {
+    "MR": [
+      [
+        "case_key, first_route, final_route, route_decided_at, change_reason, new_fact_flag, independent_review",
+        "최초·후속 경로 검토 기록과 독립 대조표",
+        "경로 검토·후속 재검토",
+        "검정 자료 담당자·독립 검토자",
+        "최초·최종 경로 또는 정정 원인 미확인 시 재분류율 산출불가"
+      ],
+      [
+        "case_key, supplement_round, reason_code, requested_at, response_ref, repeated_reason_confirmed",
+        "보완 요청·회신 원장",
+        "검증질문 편성·경로 검토",
+        "검정 담당자·신청자료 확인자",
+        "보완 대상 전체와 원인별 회차를 연결하지 못하면 반복 보완율 산출불가"
+      ],
+      [
+        "case_key, valid_received_at, route_decided_at, wait_started_at, wait_ended_at, wait_owner, open_at_cutoff",
+        "접수·보완·회신·확정 상태기록",
+        "접수부터 경로 확정까지; 미완료는 기준일 관측",
+        "접수·검정 담당자·평가자",
+        "유효 접수 기준·시각·대기구간 미확보 시 처리·대기 분리 산출불가"
+      ]
+    ],
+    "DF": [
+      [
+        "action_case, necessary_confirmed, dispatch_ref, receipt_ref, implemented_at, implementation_evidence, evidence_checked",
+        "필요조치 확정·수신·시행증거 원장",
+        "인계안 승인·실행 확인",
+        "조치권자·TS 분석 담당자",
+        "필요 확정 사건 전체나 시행 증거 미확보 시 연결률 산출불가"
+      ],
+      [
+        "action_case, necessary_at, implemented_at, hold_reason, observation_end, censored",
+        "확정·시행·보류 기록",
+        "실행 확인 및 관측 종료",
+        "조치 담당자·평가자",
+        "시각 대사 불가 시 경과일 산출불가. 미시행은 중도절단 건수로 별도 보고"
+      ],
+      [
+        "operator_key, period, signal_definition_version, signal_count, valid_distance, valid_hours, route_mix, season, comparison_group, action_exposure",
+        "허용된 전후 운행 집계와 조치 적용 기록",
+        "효과 재검토·독립 비교분석",
+        "운행자료 담당자·독립 분석자",
+        "노출량·신호 정의·비교조건 미확보 시 보정 변화 및 AI 기여 산출불가"
+      ]
+    ],
+    "SA": [
+      [
+        "finding_id, closure_reviewed, evidence_rule_version, required_evidence, checked_evidence, field_resolved, independent_review",
+        "종결 검토 목록·증거요건·독립 재확인표",
+        "완료조건 설정·종결 검토",
+        "점검 담당자·독립 확인자",
+        "필수 증거기준이나 검토 종결 전체 목록 부재 시 충족률 산출불가"
+      ],
+      [
+        "finding_id, confirmed_at, resolved_at, resolution_evidence, unresolved_reason, observation_end",
+        "지적·실제조치·현장 확인 기록",
+        "지적 확정부터 해소 확인",
+        "점검자·조치 확인자",
+        "실제 해소 확인시각 미확인 건은 미해소/미확인으로 분리; 소요일 정상값 대입 금지"
+      ],
+      [
+        "finding_id, cause_code, closed_at, followup_at, followup_complete, exposure, recurrence_confirmed",
+        "후속 점검·원인 대조·관측완료표",
+        "재발 관측; 충분한 기간 경과 후",
+        "후속 점검자·독립 평가자",
+        "추적기간 미충족·관측 누락을 무재발로 집계 불가"
+      ]
+    ],
+    "QE": [
+      [
+        "plan_id, activity_id, approved, due_at, performed_at, performance_evidence, reviewer",
+        "승인 교정계획·기한·실시증거·확인기록",
+        "계획 승인·활동 확인",
+        "검사요원·교육 담당자",
+        "승인 활동 전체·기한 또는 실제 수행 증거 미확보 시 이행 확인율 산출불가"
+      ],
+      [
+        "participant_key, eligible_for_assessment, participated, nonresponse_reason, question_version, response_ref, rubric_version, blinded_rater, score, understanding_confirmed, age_band, accessibility_support",
+        "별도 이해평가: 표준 질문에 대한 허용된 응답·맹검 채점표; 서비스 로그와 분리",
+        "소견 안내 후 독립 평가절차; 평가시점·채점기준 사전 합의",
+        "평가 책임자·접근 지원 담당자·독립 채점자",
+        "참여 분모·표준질문·응답·채점기준 미확보 시 이해 확인률 산출불가. 불참·무응답과 오답 분리"
+      ],
+      [
+        "participant_key, followup_due, observed, reason_missing, assessment_version, assessor, additional_guidance, prior_test_exposure",
+        "동일 기준 후속 요원평가·누락 대장",
+        "후속 확인; 반복 검사 노출 별도 기록",
+        "검사요원·독립 평가자",
+        "후속 대상·관측/누락·같은 기준 평가 미확보 시 보완 필요율 산출불가"
+      ]
+    ],
+    "CL": [
+      [
+        "case_key, supplement_round, reason_code, request_ref, new_fact_flag, repeat_confirmed",
+        "신고·보완 요청·증빙 회차",
+        "접수·증빙 대조",
+        "접수 담당자·독립 검토자",
+        "보완대상 분모나 동일 원인 판별 미확보 시 반복률 산출불가"
+      ],
+      [
+        "case_key, received_at, wait_intervals, notice_sent_at, authority_received_at, unreceived_reason",
+        "접수·보완 대기·관할관청 수신 확인",
+        "접수부터 유효 통보 수신까지",
+        "접수·통보 담당자·관할 수신 확인자",
+        "발송만 확인된 건은 수신 완료로 집계 불가; 시작·수신 시각 부재 시 기간 산출불가"
+      ],
+      [
+        "case_key, rule_version, input_version, calculation_ref, independently_checked, correction_type, interpretation_dispute",
+        "고시 판본·입력·재계산·독립 검수표",
+        "계산 검토·통보 전 확인",
+        "계산 검토자·법령 해석 권한자",
+        "검토대상 전체·확정 오류 구분 미확보 시 정정률 산출불가"
+      ]
+    ],
+    "PS": [
+      [
+        "area_key, boundary_version, period, included_for_review, evidence_rule, required_sources, confirmed_sources, independent_review",
+        "지역 검토목록·필수 근거·판본 대조표",
+        "지역·자료 기준 고정 및 판정근거 검토",
+        "정책자료 담당자·독립 검토자",
+        "검토지역 모집단·필수근거 기준 부재 시 완결률 산출불가"
+      ],
+      [
+        "discrepancy_id, area_key, detected, discrepancy_type, cause_confirmed, official_direction, reviewer",
+        "불일치 원장·원인·공식 처리방향 기록",
+        "자료 대조·해석 협의",
+        "자료 소유기관·정책 담당자",
+        "전체 발견 불일치와 해석 확정 기록 연결 불가 시 해석 완료율 산출불가"
+      ],
+      [
+        "request_key, eligible_request, source_type, journey_start, arrived_at, wait_minutes, unmet, unmet_reason, area_version, season, comparison_area, panel_key, survey_weight, survey_nonresponse",
+        "운영요청 원장(이용·미이용 모두), 완료 여정, 별도 주민 패널/표본면접의 포기 이동; 서로 다른 원천 구분",
+        "실제 대안 시행 전후 외부 운영자료 연계 및 독립 주민조사",
+        "운영자료 관리자·지자체 협력 담당자·독립 조사/평가자",
+        "적격 요청 전체 미확보 시 미충족률 산출불가. 완료 여정만으로 전체 개선 확정 불가. 조사 추정 수요는 운영요청 분모에 합산 금지"
+      ]
+    ],
+    "RI": [
+      [
+        "project_key, condition_id, condition_version, valid_document, owner, required_evidence, checked_evidence",
+        "승인확인서·조건표·증거 확인표",
+        "조건 추출·준비 확인",
+        "사업 담당자·조건 검토자",
+        "검토 조건 전체·유효 원문 미확보 시 조건 연결률 산출불가"
+      ],
+      [
+        "project_key, approved_at, readiness_confirmed_at, wait_intervals, wait_cause, readiness_evidence",
+        "승인·보험·협의·보완·준비 확인 기록",
+        "승인부터 준비조건 확인까지",
+        "실증 사업자·담당 검토자",
+        "준비조건 확인 기준·시각 부재 시 기간 산출불가. 공개 유효기간 시작일을 실제 준비/개시로 대입 금지"
+      ],
+      [
+        "project_key, approval_cohort, cutoff_date, observation_sufficient, actual_start_evidence, status_confirmed, missing_reason",
+        "승인 전체목록과 개시·미개시 확인자료",
+        "기준일 상태 대사·코호트별 평가",
+        "사업관리 담당자·평가자",
+        "코호트·충분 관측 여부 불명 시 기간 비교 불가; 실제 상태 근거 부재는 미확인 유지"
+      ]
+    ],
+    "DV": [
+      [
+        "event_key, matched_location_confirmed, required_inspection_confirmed, deciding_authority, inspection_started_at, start_evidence",
+        "사고·관리경계·필요 판단·착수 증거",
+        "대상 확정·점검 연결",
+        "권한기관·점검 담당자",
+        "매칭 후보만 있거나 필요 확정 전체 부재 시 점검 연결률 산출불가"
+      ],
+      [
+        "recommendation_id, execution_target, responsible_owner, funding_confirmed, due_at, complexity, execution_evidence, independent_check",
+        "권고·실행대상·책임/재원·완료 확인 원장",
+        "개선안 승인·실제 시행 확인",
+        "시설 관리주체·점검 확인자",
+        "실행 대상 분모·실제 이행 증거 미확보 시 실행률 산출불가"
+      ],
+      [
+        "site_key, observation_window, event_definition, event_count, pedestrian_exposure, vehicle_exposure, weather, facility_change, comparator",
+        "표준화한 현장관측·통행 집계·시설변경 기록",
+        "시행 전후 별도 현장조사·독립 평가",
+        "현장 조사자·독립 안전 전문가",
+        "동일 정의·노출량·조건 미확보 시 위험 변화 산출불가. 소표본 사고 수만으로 효과 확정 금지"
+      ]
+    ],
+    "IP": [
+      [
+        "station_key, selection_cycle, selected, inspection_completed, problem_definition, independent_finding, resource_used",
+        "점검 후보목록·독립 현장 결과·점검자원",
+        "후보 선정·현장 확인",
+        "선정 담당자·독립 현장 점검자",
+        "점검대상 전체·동일 확인기준 미확보 시 적중률 산출불가"
+      ],
+      [
+        "station_key, candidate, verification_completed, normal_confirmed, inconclusive, normal_reason, cohort_size, region, vehicle_mix",
+        "후보·정상/문제/미확인 현장 결론·보정조건",
+        "현장 확인 후 독립 집계",
+        "현장 확인자·독립 평가자",
+        "미확인을 정상으로 치환 불가. 전체 정상 검사소 모집단 부재로 전체 오탐률 산출 불가"
+      ],
+      [
+        "cycle_id, actor_key, activity_type, activity_start, activity_end, pause_intervals, simultaneous_activity, review_or_rework, record_source",
+        "별도 활동시간 기록: 분석·검수·수정·오탐 재확인; 도구로그로 교차 확인",
+        "선정 주기 전체; 사람별 실제 활동 구간 기록",
+        "참여 담당자·평가 책임자",
+        "단일 이벤트 시각·접속시간만으로 총시간 산출불가. 누락·동시작업 배분 미합의 시 산출불가"
+      ]
+    ],
+    "SI": [
+      [
+        "device_key, failure_case, cutoff_date, retest_ref, disposal_ref, status_checked, missing_reason",
+        "기기대장·재검·폐기·보고 대사표",
+        "후속 확인·기준일 상태 대사",
+        "검사 담당자·기기 관리주체",
+        "대상 부적합 전체·동일 기기 연결 불가 시 상태 미확인율 산출불가"
+      ],
+      [
+        "failure_case, failed_at, closed_at, closure_type, closure_evidence, open_at_cutoff",
+        "부적합·재검/폐기·종결 확인 기록",
+        "부적합부터 증거 있는 종결까지",
+        "검사 담당자·종결 확인자",
+        "공식 종결시각 미확인 건은 미종결 분리; 종결 종류를 합쳐 해석 금지"
+      ],
+      [
+        "reason_item, original_ref, ai_candidate, expert_reviewed, final_code, correction, deferred, dictionary_version",
+        "원문·AI 후보·전문가 확정/유보 표",
+        "사유 검토·확정",
+        "기기 전문 검토자·평가자",
+        "전문가 검토 분모·확정코드 부재 시 정정률 산출불가"
+      ]
+    ],
+    "PK": [
+      [
+        "device_key, failure_case, official_status_ref, valid_at, status_checked, unresolved_reason",
+        "정보망·운행중지명령·재검·관할 확인 기록",
+        "상태 대사·공식 확인",
+        "관할기관·검사 담당자",
+        "대상 부적합 장치 전체·공식 상태 미확보 시 확인율 산출불가"
+      ],
+      [
+        "device_key, contradiction_id, detected_at, corrected_at, official_correction_ref, input_delay, action_delay",
+        "모순 탐지·원천 확인·공식 정정 이력",
+        "모순 발생부터 공식 해소 확인",
+        "원천 운영자·업무 확인자",
+        "정정 완료 근거 부재 건은 미해소 유지; 입력/실제조치 지연 미분리 시 원인별 기간 산출불가"
+      ],
+      [
+        "notice_draft_id, reviewed, device_match, status_match, rule_version, error_type, corrected_ref, independent_reviewer",
+        "발송 전 통보안·장치·상태·조문 독립 검수",
+        "통보안 검토 단계",
+        "통보 검토자·관할 확인자",
+        "검토 통보안 전체·정답 확인자 부재 시 오류율 산출불가"
+      ]
+    ],
+    "AD": [
+      [
+        "vehicle_key, model_version, required_item, eligible, request_ref, response_ref, attempt_state, valid_result, log_complete, source_clock, collected_until",
+        "적격 차량×필수항목 원장·요청/응답·로그 수집완전성 확인표",
+        "적격 분모 사전 고정·진단 결과/지연로그 대사",
+        "검사기술·원천로그 담당자",
+        "적격 목록 미확보 시 커버리지 산출불가. 기록 미확인·미시도·미지원은 분모 보존, 유효 결과 분자 제외"
+      ],
+      [
+        "attempt_key, failed_attempt_confirmed, candidate_reason, expert_reason, supporting_ref, deferred, log_complete",
+        "실패 시도 원장·원문 로그·전문가 확인표",
+        "실패사유 검토·재확인",
+        "검사기술 전문가·평가자",
+        "실제 실패시도와 요청기록 미확인을 구분하지 못하면 실패사유 확인율 산출불가"
+      ],
+      [
+        "vehicle_model, required_item, improvement_target, before_version, after_version, test_condition, retest_result, support_confirmed, operation_weight",
+        "미지원 개선대상 원장·동일조건 전후 검증 로그·가중 집계 근거",
+        "지원범위 개선 후 재검증",
+        "기술개발 담당자·독립 시험 확인자",
+        "개선대상 전체·동일조건 재검증 부재 시 해소율 산출불가. 가중자료 미확보 시 가중값 별도 미산출"
+      ]
+    ],
+    "RD": [
+      [
+        "package_id, clause_version, requirement_id, predefined_requirement, evidence_ref, independent_checked, sufficient, unresolved",
+        "사전 근거요건·조문·시험자료·독립검토 연결표",
+        "이관 범위·근거검토",
+        "연구자·기준 검토자·독립 평가자",
+        "사전 요건 전체·독립 충족 판단 부재 시 연결률 산출불가"
+      ],
+      [
+        "package_id, submitted_for_consultation, reply_ref, supplement_reason, missing_evidence, new_scope_request, policy_judgment",
+        "협의 제출목록·공식 회신·보완 사유 분류",
+        "협의·보완 추적",
+        "협의 담당자·연구자·평가자",
+        "협의 패키지 분모·누락/신규범위 사유 구분 미확보 시 보완율 산출불가"
+      ],
+      [
+        "package_id, actor_key, activity_type, activity_start, activity_end, pause_intervals, simultaneous_activity, review_or_rework, record_source",
+        "별도 연구자 작업기록: 선별·대조·검수·수정; 도구로그 교차 대조",
+        "이관 준비부터 제출 전 검수까지; 외부 개정기간 제외",
+        "참여 연구자·기준 검토자·평가 책임자",
+        "단일 event_time만으로 활동시간 산출불가. 활동 구간·동시작업 배분·누락 확인 전 총시간 미산출"
+      ]
+    ]
+  }
+}
