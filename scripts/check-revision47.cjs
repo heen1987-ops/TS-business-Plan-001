@@ -1,0 +1,15 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
+const r=require('../src/revision47.cjs'),visual=require('../src/revision47-diagrams.cjs'),impact=require('../src/current-impact.cjs');
+let checks=0;const check=(v,m)=>{assert(v,m);checks++};
+check(JSON.stringify(JSON.parse(fs.readFileSync('src/solutions-47.json','utf8')))===JSON.stringify(JSON.parse(fs.readFileSync('docs/solutions-47/solutions-47.public.json','utf8').replace(/^\uFEFF/,''))),'정본 사본 불변');
+check(Object.keys(r.data.departments).length===13,'13개 처');check(r.data.evidence.length===529,'공개 근거 529건');check(new Set(r.data.evidence.map(e=>e.id)).size===529,'근거 ID 고유');
+for(const code of Object.keys(r.data.departments)){const d=r.get(code),p=d.detail;check(!!p&&p.inputs.length===6&&p.steps.length===4&&p.metrics.length===3,'처별 상세 설계 '+code);for(const f of d.facts)check(f.ids.every(id=>r.evidence(id))&&f.sources.length===f.ids.length,'사실과 원문 연결 '+code);check(p.scenario.startsWith('가상 사례:'),'합성 사례 표시');
+for(const m of impact.departments[code].metrics)check(m.target===null&&m.exampleBaseline===null&&m.targetStatus.includes('미설정'),'가정 수치 철회 '+m.id);
+for(const type of visual.types){const g=visual.diagram(code,type);check(g.nodes.every(n=>n.x>=0&&n.y>=0&&n.x+n.w<=g.width&&n.y+n.h<=g.height),'도식 경계 '+code+type);check(g.edges.every(e=>g.nodes.some(n=>n.id===e.from)&&g.nodes.some(n=>n.id===e.to)),'도식 연결 '+code+type);check(fs.readFileSync(path.join('dist/downloads/revision47',g.path),'utf8')===g.svg,'내려받기 도식 일치');}
+const md=fs.readFileSync('dist/downloads/revision47/'+code+'_근거기반_상세제안.md','utf8');check(md.includes(p.scenario)&&p.steps.every(s=>s.every(x=>md.includes(x)))&&p.metrics.every(m=>m.every(x=>md.includes(x))),'본문 핵심과 MD 일치 '+code);check(!/1차사업|2차사업|내부자료|Slack|슬랙|수주|[CG]:[\\/]/.test(md),'신규 공개문서 경계');}
+check(r.evidence('IP-E18').source_level==='2차','보도 인용 분류');check(r.get('RD').facts[1].review.includes('추가 확인'),'판본 불일치 확정 주장 차단');check(r.get('SI').facts[0].text.includes('공란'),'기록 결손과 위반 구분');
+for(const code of Object.keys(r.data.departments)){const d=visual.diagram(code,'data'),s=visual.diagram(code,'service');for(const [a,b] of [['facts','plan'],['plan','approve'],['approve','run'],['run','result'],['result','eval'],['eval','plan']])check(d.edges.some(e=>e.from===a&&e.to===b),'공식 결과 추적 '+code+a+b);for(let i=0;i<3;i++)check(s.edges.some(e=>e.from==='out'+i&&e.to==='in'+(i+1)),'후속 입력 '+code+i);}
+check(r.get('AD').detail.metrics[0][1].includes('적격 차량×필수'),'미시도 포함 커버리지');check(r.get('IP').detail.metrics[1][0]==='점검 후보 중 정상 확인 비율','오탐률 분모 오인 방지');check(r.get('PS').detail.metrics[2][1].includes('전체 적격 이동요청'),'이동 요청 분모');check(r.get('RD').facts[1].grades.includes('UNKNOWN'),'보류 등급 일치');
+check(!require('../src/impact-math.cjs').calculateImpact(impact.departments.MR.metrics[0],50).valid,'미설정 목표의 계산 차단');
+check(!fs.existsSync('dist/AGENTS.md'),'작업 지침 미공개');
+console.log(JSON.stringify({result:'통과',checks,departments:13,public_evidence:529,new_metrics:39,diagrams:65,original_register:'불변',unfounded_targets:'표시 철회'}));

@@ -1,5 +1,5 @@
 const fs=require('node:fs'),path=require('node:path');
-const m=require('../src/measurement-data.cjs'),impact=require('../src/impact.json'),{targetLabel}=require('../src/impact-math.cjs');
+const m=require('../src/measurement-data.cjs'),impact=require('../src/current-impact.cjs'),{targetLabel}=require('../src/impact-math.cjs');
 function exportMeasurement(out){
  fs.mkdirSync(out,{recursive:true});
  let md='# TS 처별 정량평가 측정명세\n\n- 판본: '+m.version+'\n- 대상: 13개 처 · 39개 지표\n- 상태: 기준선·실측값·표본 수·기관 승인 미확정\n- 용도: 현업 협의·평가계획 수립·RFP 측정 요구사항 초안\n\n';

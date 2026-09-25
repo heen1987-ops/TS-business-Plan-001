@@ -1,5 +1,5 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
-const impact=require('../src/impact.json'),m=require('../src/measurement-data.cjs'),depts=require('../src/data.json').departments,{getDeck}=require('../src/slide-data.cjs');
+const impact=require('../src/current-impact.cjs'),m=require('../src/measurement-data.cjs'),depts=require('../src/data.json').departments,{getDeck}=require('../src/slide-data.cjs');
 const expected=Object.values(impact.departments).flatMap(d=>d.metrics);
 assert.equal(expected.length,39);assert.deepEqual(Object.keys(m.metrics).sort(),expected.map(x=>x.id).sort());
 for(const item of expected){

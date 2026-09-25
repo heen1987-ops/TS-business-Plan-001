@@ -1,6 +1,6 @@
 const {departments}=require('./data.json');
 const architecture=require('./architecture-v2.json');
-const impact=require('./impact.json');
+const impact=require('./current-impact.cjs');
 const law=require('./law-mapping.cjs');
 const profiles=require('./proposal-profiles.json');
 const evidence=require('./proposal-evidence.json');
@@ -95,7 +95,7 @@ function build(code){const c=context(code);if(!c)return [];const {d,p,u,v,mandat
  card('3. 제한된 현업 적용','허용행위·실제 인적검토·수신자·중단·복구·문의창구 확정 후 적용','실행과 결과 대사의 불일치·검수 부담·대국민 안내 오류를 함께 관측'),
  card('4. 인수·확대 판단','업무효과와 중요 오류·접근통제·재현성·서버 용량을 함께 확인','목표 미달 원인을 자료·규칙·모델·운영으로 구분하고 범위 보완','단축시간을 감원 인원으로 환산하지 않고 안전·품질·서비스 편익으로 평가')]);
  const trace=section('trace','요구사항·설계·시험의 연결','기존 요구ID를 유지하고 도식의 책임과 실제 인수조건을 연결',[],{tables:[table('요구사항 추적',['요구ID·명칭','연결 모듈','인수조건','데이터·연계','시험'],reqs.map(r=>[r.id+' '+r.name,u.requirements_mapping.find(m=>m.id===r.id)?.module||u.modules.filter(m=>m.requirement_refs.includes(r.id)).map(m=>m.id).join(' · ')||'연결 모듈 확인 필요',r.acceptance,(r.data||'확정 필요')+' / '+(r.interface||'연계 협의 전'),r.test||'시험ID 확정 필요']))],links:[link('기존 RFP·요구사항 전체',base+'?view=requirements')]});
- const outcomes=section('outcomes','기대효과 · 무엇으로 개선을 입증할 것인가','기존 협의용 목표와 실측값을 구분하고 AI의 추가 가치까지 비교',v.metrics.map(m=>card(m.id+' · '+m.title,'목표: '+m.target+({down:'% 상대감소',pp:'%p 향상',point:'점 향상'}[m.mode]||m.unit+' 개선')+' / '+m.targetStatus,'산식: '+m.formula,'효과 경로: '+m.mechanism,'측정: '+m.measure,'기준선: '+m.baselineStatus)),{links:[link('정량평가·측정방법 상세',base+'?view=impact')],status:'개선 목표는 기존 impact 원장의 가정 / 이번 근거 조사로 효과를 실증한 것이 아님'});
+ const outcomes=section('outcomes','기대효과 · 무엇으로 개선을 입증할 것인가','기존 협의용 목표와 실측값을 구분하고 AI의 추가 가치까지 비교',v.metrics.map(m=>card(m.id+' · '+m.title,'목표: 기준선 확보 전 목표 미설정 / '+m.targetStatus,'산식: '+m.formula,'효과 경로: '+m.mechanism,'측정: '+m.measure,'기준선: '+m.baselineStatus)),{links:[link('정량평가·측정방법 상세',base+'?view=impact')],status:'이전 측정설계 참고 / 과거 가정 목표 수치 철회 / 최신 과제 지표 우선'});
  const open=section('decisions','착수 전 확정할 사항 · 자료·권한·재원·수락','기획 완성도와 실제 사업 착수 가능성을 별도 관리',[
  card('현업·조직 확인','대표 컨셉의 실제 수요·처별 업무분장·전결·자료 소유자·현장 수락 확인',code==='PS'?'정책지원처의 정책평가, 모빌리티연구처의 TS-DRT 운영, 지자체의 집행권한 구분':mandate.collaboration,'공식 업무 담당 표시는 내부 독점 권한·최종 승인권의 증거 아님'),
  card('데이터·보안 확인',p.minimum,'처리근거·위탁/제공·보존기간·권리행사 담당·실제 접근정책 확정','민감정보·위치정보·영업비밀·비공개 평가자료의 처리조건별 확인'),

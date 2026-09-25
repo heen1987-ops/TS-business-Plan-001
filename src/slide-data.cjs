@@ -1,5 +1,5 @@
 const mandates=require('./law-mapping.cjs');
-const data=require('./data.json'),architecture=require('./architecture-v2.json'),impact=require('./impact.json'),katri=require('./katri.json'),ars=require('./ars.json'),updates=require('./updates.json'),discovery=require('./discovery.json');
+const data=require('./data.json'),architecture=require('./architecture-v2.json'),impact=require('./current-impact.cjs'),katri=require('./katri.json'),ars=require('./ars.json'),updates=require('./updates.json'),discovery=require('./discovery.json');
 const depts=data.departments.map(d=>{const u=architecture.units.find(u=>u.code===d.code);return {...d,action:d.action||u?.action||'인계 경로 상세 협의 필요',entities:d.entities||u?.entities||[],replan:d.replan||[d.change,'세부 재계획·승인 조건의 현업 확인 필요']}}),legal=data.legal;
 const {targetLabel}=require('./impact-math.cjs');
 const measurement=require('./measurement-data.cjs');

@@ -12,7 +12,7 @@ export function DocumentNav({route}){
  const results=words.length?navigation.records.filter(r=>words.every(w=>[r.title,...r.breadcrumb].join(' ').toLowerCase().includes(w))):[];
  useEffect(()=>{setMobile(false);setQuery('')},[route]);
  const current=navigation.canonical(route);
- function render(nodes){return <ul className="doc-tree">{nodes.map(n=><li key={n.id}>{n.children?<details><summary><ChevronRight size={14}/><Folder size={16}/>{n.title}</summary>{render(n.children)}</details>:<Link to={n.to} aria-current={(n.to.includes('#section-chapter-')?route.split('#')[1]===n.to.split('#')[1]:navigation.canonical(n.to)===current)?'page':undefined}><FileText size={14}/><span>{n.title}</span></Link>}</li>)}</ul>}
+ function render(nodes){return <ul className="doc-tree">{nodes.map(n=><li key={n.id}>{n.children?<details><summary><ChevronRight size={14}/><Folder size={16}/>{n.title}</summary>{render(n.children)}</details>:<Link to={n.to} aria-current={(n.to.includes('#')?navigation.canonical(n.to)===current&&route.split('#')[1]===n.to.split('#')[1]:navigation.canonical(n.to)===current)?'page':undefined}><FileText size={14}/><span>{n.title}</span></Link>}</li>)}</ul>}
  return <aside className={'document-nav '+(mobile?'mobile-open':'')} aria-label="문서 탐색" onKeyDown={e=>{if(e.key==='Escape'&&mobile){setMobile(false);toggle.current?.focus()}}}>
  <button ref={toggle} className="doc-mobile-toggle" aria-expanded={mobile} aria-controls="document-tree-panel" onClick={()=>{setMobile(!mobile);if(!mobile)requestAnimationFrame(()=>search.current?.focus())}}><PanelLeft size={18}/>문서 목차 {mobile?'닫기':'열기'}</button>
  <div className="doc-panel" id="document-tree-panel"><div className="doc-section-heading"><span>TS를 이해하는 순서</span><strong>{active.title}</strong></div>

@@ -1,5 +1,5 @@
 'use strict';
-const impact=require('./impact.json');
+const impact=require('./current-impact.cjs');
 const version='2026-09-23.v1';
 const sources=[
  {id:'ME04',title:'국민권익위원회 · 2023년 성과관리 시행계획 p.25~26',url:'https://evaluation.go.kr/upload2/atch/eval/20240102160606543.pdf#page=28',scope:'공식 공개 사례에서 과거 실적·목표 산출근거·측정산식·자료수집/입수시기·분자/분모를 함께 제시하는 서식 확인. 2023년 작성 사례이며 TS 현행 의무서식·목표값으로 전용하지 않음.'},
