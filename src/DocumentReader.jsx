@@ -3,6 +3,7 @@ import{ArrowUp,List,Maximize2,ExternalLink}from'lucide-react';
 import{Link,href}from'./core.jsx';
 import model from'./document-data.cjs';
 import './document-reader.css';
+import SourcePhoto from './SourcePhoto.jsx';
 import {Proposal47,CommonFinding47,Catalogue47} from './Revision47.jsx';
 import revision47 from './revision47.cjs';
 function Reference({link}){return /^[a-z][a-z0-9+.-]*:/i.test(link.to)?<a href={link.to} target="_blank" rel="noopener noreferrer">{link.label}<ExternalLink size={13}/></a>:<Link to={link.to}>{link.label}<ExternalLink size={13}/></Link>}
@@ -24,7 +25,7 @@ export function DocumentReader({route}){
  function section(s,i,nested=false){const Title=nested?'h3':'h2',CardTitle=nested?'h4':'h3';return <section className={'document-section'+(nested?' chapter-section':'')+(s.image?' with-figure':'')+(/-method-/.test(s.id)?' measurement-fragment':'')} id={'section-'+s.id} data-section-id={s.id} key={s.id} aria-labelledby={'heading-'+s.id}>
  <header className="reading-section-heading">{!nested&&<span>{String(i+1).padStart(2,'0')}</span>}<div><Title id={'heading-'+s.id} tabIndex={-1}>{s.title===doc.title&&i===0?'개요·검토 범위':s.title}</Title><p>{s.message}</p></div></header>
  {s.additionalMessages?.length>0&&<div className="reading-joined-context">{s.additionalMessages.map((m,j)=><p key={j}>{m}</p>)}</div>}
- {s.paragraphs&&<div className="reading-narrative">{s.paragraphs.map((p,j)=><p key={j}>{p}</p>)}</div>}
+ {s.paragraphs&&(s.media?.length?<><div className="reading-narrative"><p>{s.paragraphs[0]}</p></div>{s.media.map(photo=><SourcePhoto photo={photo} key={photo.id}/>)}<div className="reading-narrative">{s.paragraphs.slice(1).map((p,j)=><p key={j}>{p}</p>)}</div></>:<div className="reading-narrative">{s.paragraphs.map((p,j)=><p key={j}>{p}</p>)}</div>)}
  {(s.image||s.diagram)&&<Figure section={s.diagram?{...s,image:'downloads/proposals/'+s.diagram.code+'_'+s.diagram.type+'.svg',alt:s.title+' / '+s.message}:s} onOpen={(value,trigger)=>{imageTrigger.current=trigger;setImage(value)}}/>}
  <div className={'reading-blocks'+(s.cards.length===1?' single':'')}>{s.cards.map((c,j)=><section className="reading-block" key={j} id={/^(DS[1-6]) · /.test(c.title)?'section-card-'+c.title.split(' · ')[0]:undefined}><CardTitle tabIndex={-1} id={/^(DS[1-6]) · /.test(c.title)?'heading-card-'+c.title.split(' · ')[0]:undefined}>{c.title.replace(/^0[1-4] · /,'')}</CardTitle><ul>{c.bullets.map((t,k)=><li key={k}>{t}</li>)}</ul></section>)}</div>
  {s.tables&&<DetailTables tables={s.tables}/>}<div className="reading-evidence"><p>{[s.status||'기존 사업기획 자료의 구조화 · 적용 조건·확인 범위는 원문 참조',...(s.additionalStatuses||[])].join(' / ')}</p>{s.links.length>0&&<nav aria-label={s.title+' 근거·상세자료'}>{s.links.map((l,j)=><Reference key={j} link={l}/>)}</nav>}</div></section>}

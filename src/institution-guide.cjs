@@ -1,5 +1,6 @@
 const {legal,departments}=require('./data.json');
 const date='2026-09-24';
+const officialPhotos=require('./institution-media.json');
 const source=(label,to)=>({label,to});
 const official=id=>'https://main.kotsa.or.kr/portal/contents.do?menuCode='+id;
 const foundation=legal.sources.find(s=>s.id==='foundation');
@@ -71,4 +72,5 @@ const chapters=[
  ['연구성과를 검사기준 검토에 사용할 수 있는 근거의 확보','연구성과 이관·기준 검토자료 구성 / 첨단연구개발처','연구의 주장·시험조건·기준 판본을 연결하고 상충 결과·적용한계·추가검증 과업 명시. 이관자료의 충족 여부와 반복 보완을 평가']
  ]}],links:[source('13개 처의 사업제안 전체보기','solutions.html'),source('법정업무·담당 처·제안 연결','legal/mapping.html'),source('조직운영 공통 설계','updates.html')],status:'CCK 기반 사업기획·설계 제안 / 실제 수요·권한·성능·효과 검증 전 / 공고 미매핑 초안'}
 ];
+for(const chapter of chapters)chapter.media=officialPhotos.filter(photo=>photo.chapter===chapter.id);
 module.exports={date,chapters,title:'TS를 이해하고 AX 사업을 기획하는 순서',lead:'한국교통안전공단의 존재 목적에서 법정업무·2030 목표·조직의 역할을 이해하고, 그 책임을 더 잘 수행하기 위한 AX 사업으로 연결.',journey:chapters.map((c,i)=>({id:c.id,title:['TS의 정의와 목적','법정업무와 책임','2026–2030 목표','조직과 수행업무','AX 전환의 이유'][i],to:'index.html#section-'+c.id}))};

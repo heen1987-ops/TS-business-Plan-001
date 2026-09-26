@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "node scripts/build.cjs",
-    "check": "node scripts/check.cjs && node scripts/check-slides.cjs && node scripts/check-measurement.cjs && node scripts/check-org-map.cjs && node scripts/check-websites.cjs && node scripts/check-navigation.cjs && node scripts/check-law-mapping.cjs && node scripts/check-document.cjs && node scripts/check-proposals.cjs && node scripts/check-reading.cjs && node scripts/check-revision47.cjs && node scripts/check-delivery47.cjs && node scripts/check-advanced47.cjs",
+    "check": "node scripts/check.cjs && node scripts/check-slides.cjs && node scripts/check-measurement.cjs && node scripts/check-org-map.cjs && node scripts/check-websites.cjs && node scripts/check-navigation.cjs && node scripts/check-law-mapping.cjs && node scripts/check-document.cjs && node scripts/check-proposals.cjs && node scripts/check-reading.cjs && node scripts/check-revision47.cjs && node scripts/check-delivery47.cjs && node scripts/check-advanced47.cjs && node scripts/check-institution-media.cjs",
     "test": "npm run build && npm run check",
     "preview": "node scripts/preview.cjs",
     "check:map-browser": "node scripts/check-org-map-browser.cjs",
