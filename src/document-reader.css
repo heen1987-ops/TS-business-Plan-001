@@ -36,22 +36,33 @@
 
 .reading-joined-context{border-left:2px solid #c6dbe7;margin:0 0 20px;padding-left:15px}.reading-joined-context p{font-size:14px;line-height:1.85;color:#4d6779;margin:6px 0}
 
-/* 실제 공공 보도사진: 원본 비율 유지, 본문 맥락·출처를 함께 표시 */
-.source-photo{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:26px;align-items:center;margin:22px 0 30px;padding:22px;background:#f5f8fa;border:1px solid #dce6ec;border-radius:4px;break-inside:avoid}
-.source-photo-visual{min-width:0}.source-photo-original{display:block;position:relative;line-height:0;max-width:100%;width:fit-content;margin:auto;overflow:hidden;border-radius:2px;color:#143f59}
-.source-photo-original img{display:block;width:100%;height:auto;max-width:100%;object-fit:contain}
-.source-photo-original>span{display:flex;align-items:center;justify-content:flex-end;gap:6px;background:#fff;padding:10px 12px;font-size:12px;font-weight:600;line-height:1.5;min-height:40px}
-.source-photo figcaption{min-width:0;overflow-wrap:anywhere;word-break:keep-all}.source-photo-kicker{font-size:12px;font-weight:700;letter-spacing:.03em;color:#386f88}
-.source-photo h3{font-size:22px;line-height:1.55;letter-spacing:-.02em;margin:8px 0 14px;color:#173e55}
-.source-photo p{font-size:15px;line-height:1.85;margin:10px 0;color:#354f60}
-.source-photo .source-photo-context{font-size:14px;color:#526a78}
-.source-photo-credit{border-top:1px solid #d5e1e8;margin-top:16px;padding-top:12px;display:flex;flex-direction:column;gap:5px;font-size:12px;line-height:1.8;color:#506878}
-.source-photo-credit a{color:#165c7d;text-decoration:underline;text-underline-offset:3px;display:inline;min-height:28px;align-content:center}
-.source-photo-credit svg{display:inline-block;vertical-align:middle;margin-left:5px;flex-shrink:0}
-.source-photo-compact{grid-template-columns:minmax(0,316px) minmax(0,1fr)}
-.source-photo-compact img{max-width:316px}
-.source-photo-error{padding:20px;border:1px dashed #9ab3c4;background:#fff;line-height:1.7}.source-photo-error a,.source-photo-error button{display:flex;align-items:center;gap:6px;min-height:44px;font-size:14px;color:#165c7d}
-.source-photo-error button{margin-top:10px;padding:8px 12px;background:#f3f7fa;border:1px solid #a8becb;border-radius:3px;cursor:pointer}
-@media(max-width:1000px){.source-photo{gap:20px;padding:18px}.source-photo h3{font-size:20px}}
-@media(max-width:760px){.source-photo,.source-photo-compact{grid-template-columns:minmax(0,1fr);padding:16px;gap:20px}.source-photo h3{font-size:20px;margin-top:7px}.source-photo-original>span{min-height:44px}.source-photo-credit a{padding:5px 0}.source-photo-compact .source-photo-visual{justify-self:start;width:100%;max-width:316px}}
-@media print{.source-photo{padding:10px;gap:16px;background:transparent}.source-photo h3{font-size:15px}.source-photo p{font-size:11px}.source-photo-original>span{display:none}.source-photo-credit{font-size:9px}}
+/* 공식 전략·추진체계: 본문 전체 너비로 원문 도표와 판본·해석 연결 */
+.source-document{margin:28px 0 34px;padding:24px;background:#fff;border:1px solid #d3e0e8;border-top:3px solid #497b95;border-radius:3px;break-inside:avoid}
+.source-document-heading{margin:0 0 20px}.source-document-kicker{font-size:12px;font-weight:700;letter-spacing:.02em;color:#386f88}
+.source-document h3{font-size:23px;line-height:1.5;letter-spacing:-.02em;margin:8px 0;color:#173e55}
+.source-document-heading p{font-size:15px;line-height:1.85;color:#425e70;word-break:keep-all;overflow-wrap:anywhere;margin:10px 0}
+.source-document-heading .source-document-version{font-size:12px;font-weight:600;color:#426b83}
+.source-document-visual{min-width:0}.source-document-original{display:block;line-height:0;width:100%;max-width:1060px;margin:auto;color:#143f59;border:1px solid #e0e8ec;border-radius:2px;overflow:hidden}
+.source-document-original img{display:block;width:100%;height:auto;max-width:100%;object-fit:contain}
+.source-document-original>span{display:flex;align-items:center;justify-content:flex-end;gap:7px;padding:10px 14px;background:#f3f7f9;font-size:13px;font-weight:600;line-height:1.5;min-height:44px}
+.source-document-reading{margin:22px 0 0;padding:18px 20px;background:#f3f7fa;color:#304e61}.source-document-reading strong{font-size:15px;color:#204c65}.source-document-reading ul{margin:10px 0 0;padding-left:20px}.source-document-reading li{font-size:15px;line-height:1.9;word-break:keep-all;overflow-wrap:anywhere;margin:6px 0}
+.source-document-credit{display:flex;flex-wrap:wrap;gap:5px 16px;border-top:1px solid #dce6eb;margin-top:18px;padding-top:12px;font-size:12px;line-height:1.8;color:#516979}.source-document-credit>span{width:100%}.source-document-credit a{color:#165c7d;text-decoration:underline;text-underline-offset:3px;min-height:30px;display:inline-flex;align-items:center;gap:5px;overflow-wrap:anywhere}.source-document-credit svg{flex-shrink:0}
+.source-document-error{padding:20px;border:1px dashed #9ab3c4;background:#fff;line-height:1.7}.source-document-error a,.source-document-error button{display:flex;align-items:center;gap:6px;min-height:44px;font-size:14px;color:#165c7d}
+.source-document-error button{margin-top:10px;padding:8px 12px;background:#f3f7fa;border:1px solid #a8becb;border-radius:3px;cursor:pointer}
+@media(max-width:650px){.source-document{padding:16px 12px;margin:22px 0}.source-document h3{font-size:20px}.source-document-heading p,.source-document-reading li{font-size:14px}.source-document-reading{padding:15px 13px}.source-document-credit{gap:6px}.source-document-credit a{min-height:36px}}
+@media print{.source-document{padding:12px;break-inside:auto}.source-document h3{font-size:16px}.source-document-heading p,.source-document-reading li{font-size:11px}.source-document-original>span{display:none}.source-document-credit{font-size:9px}}
+
+/* 원문 도표의 세부 내용을 이미지 없이도 읽을 수 있는 텍스트 */
+.source-document-transcript{padding:0 26px 22px;font-size:15px;line-height:1.8;color:#34465a}
+.source-document-transcript h4{margin:0 0 8px;font-size:18px;color:#173551}
+.source-document-transcript>p{margin:0 0 14px}
+.source-document-taskgroups{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.source-document-taskgroups section{border-top:2px solid #ccdbe6;padding-top:10px;min-width:0}
+.source-document-taskgroups h5{font-size:16px;margin:0 0 8px;color:#173551}
+.source-document-taskgroups ul{list-style:none;margin:0;padding:0}
+.source-document-taskgroups li{margin:0 0 7px}
+.source-document-taskgroups p{margin:12px 0 0}
+.source-document-notes{padding-left:20px;margin:20px 0 0}
+.source-document-notes li{margin:8px 0}
+@media(max-width:800px){.source-document-taskgroups{grid-template-columns:1fr}}
+@media(max-width:650px){.source-document-transcript{padding:0 12px 16px}}

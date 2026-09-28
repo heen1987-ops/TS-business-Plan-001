@@ -1,71 +1,169 @@
 [
   {
-    "id": "ts-schoolbus-inspection",
-    "chapter": "purpose",
-    "src": "assets/official/ts-schoolbus-inspection.jpg",
-    "width": 1280,
-    "height": 960,
-    "title": "어린이의 통학 안전을 현장에서 확인",
-    "alt": "노란 어린이 통학버스 옆에서 관계자들이 서류와 차량 상태를 확인하는 모습",
-    "caption": "한국교통안전공단 경남본부·창원서부경찰서가 참여한 의창구 어린이집 통학버스 합동 안전점검.",
-    "explanation": "차량·운영자의 기준 준수 여부를 현장에서 확인하는 협업 사례. TS의 전문 안전업무가 국민의 일상과 만나는 접점.",
-    "creator": "창원특례시 의창구",
-    "articleTitle": "의창구 가정복지과, 2025년 하반기 어린이집 통학버스 합동 안전점검 실시",
-    "articleUrl": "https://www.changwon.go.kr/cwportal/gu/11094/11462/11476.web?amode=view&gcode=1110&idx=865784",
-    "published": "2025-10-01",
-    "downloadUrl": "https://www.changwon.go.kr/cwportal/cmsfile/download.do?idx=494910",
-    "sha256": "6eb8f05aa7c121bba21f1a4e5e4effe5f9a550d43f70dd5f79456c72d51d2d27",
-    "license": "공공누리 제1유형 · 출처표시",
-    "licenseUrl": "https://www.kogl.or.kr/info/licenseType1.do",
+    "creator": "한국교통안전공단",
     "checked": "2026-09-26",
-    "status": "공식 보도자료에 공개된 현행 사업 사례",
-    "rightsEvidence": "원게시물의 공공누리 제1유형 표시 확인. 사진 별도 제외 표시 없음.",
-    "modification": "원본 파일 변경 없음 · 화면 표시 크기만 조정"
-  },
-  {
-    "id": "ts-senior-support",
+    "published": null,
+    "license": "© 한국교통안전공단 · 원문 도표 발췌",
+    "licenseUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=07050000",
+    "rightsEvidence": "공식 원문을 출처·판본과 함께 기획 검토용으로 인용. 별도 공공누리 허락 표시 미확인. 자유이용 허락을 의미하지 않으며 현재 공개 배포 중지 유지.",
+    "kind": "strategy-diagram",
+    "id": "ts-strategy-2030",
     "chapter": "strategy",
-    "src": "assets/official/ts-senior-support.jpg",
-    "width": 2560,
-    "height": 1920,
-    "title": "고령운전자의 특성을 고려한 안전 지원",
-    "alt": "차량 내부에 설치된 페달오조작 방지장치의 표시부",
-    "caption": "당진시가 공개한 고령운전자 페달오조작 방지장치 사진. 보도자료에 TS 주관 장치 설치와 사용방법 안내를 명시.",
-    "explanation": "‘사고취약 수단·계층 정밀 안전망’이라는 전략을 이해하는 현행 사업 사례. 장치 지원의 사례이며, 이 사이트에서 제안하는 DRT·AI 서비스의 도입 실적은 아님.",
-    "creator": "당진시청",
-    "articleTitle": "당진시, 고령운전자 페달오조작 방지장치 설치 지원",
-    "articleUrl": "https://www.dangjin.go.kr/cop/bbs/BBSMSTR_000000000014/selectBoardArticle.do?nttId=1131950",
-    "published": "2026-06-11",
-    "downloadUrl": "https://www.dangjin.go.kr/cmm/fms/getImage.do?atchFileId=FILE_000000001210039&fileSn=0&kind=920",
-    "sha256": "949752e51ac1d2c19731550c67e976116d2575834e6702040fb30f717b7140ca",
-    "license": "공공누리 제1유형 · 출처표시",
-    "licenseUrl": "https://www.kogl.or.kr/info/licenseType1.do",
-    "checked": "2026-09-26",
-    "status": "공식 보도자료에 공개된 현행 사업 사례",
-    "rightsEvidence": "원게시물의 공공누리 제1유형 표시 확인. 사진 별도 제외 표시 없음.",
-    "modification": "원본 파일 변경 없음 · 화면 표시 크기만 조정"
+    "placement": "afterIntro",
+    "src": "assets/official/ts-strategy-2030.png",
+    "width": 2120,
+    "height": 2184,
+    "sha256": "f58bb13948e81f47274d1c998cfb9142cce543d1627b1695bac3d90a4f3d3540",
+    "title": "2026–2030 중장기 경영목표 체계도",
+    "versionLabel": "공식 홈페이지 · 2026–2030 계획",
+    "alt": "TS의 미션·비전·핵심가치에서 네 가지 경영목표와 전략방향, 12대 전략과제로 연결되는 2026–2030 중장기 경영목표 체계도. 핵심 내용은 아래 본문과 표에 제공.",
+    "caption": "TS가 공식 홈페이지에 공개한 중장기 경영목표와 12대 전략과제의 관계. 기관이 지향하는 결과와 사업제안의 출발점을 확인하는 자료.",
+    "readingPoints": [
+      "안전·미래 모빌리티·국민체감 서비스·책임경영의 네 방향을 사업 목적과 연결",
+      "인공지능 대전환과 데이터 연계는 안전·편익·책임이라는 기관 성과를 달성하기 위한 전략과제",
+      "개별 제안의 성과지표는 아래 표의 기관 목표와 구분하여 설계"
+    ],
+    "sourceTitle": "TS 경영목표 및 전략체계",
+    "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=06020100",
+    "downloadUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=06020100",
+    "acquisition": "공식 웹 도표 화면 발췌",
+    "sourceLocation": "본문 ‘2026-2030 중장기 경영목표 체계도’",
+    "status": "2026-09-26 공식 페이지 확인 / 게시일 미표시",
+    "modification": "공식 HTML/CSS 도표 영역을 실제 브라우저에서 캡처. 내용·배치 재작성 및 이미지 생성 없음.",
+    "capture": {
+      "selector": "[data-contsystem=\"manage\"]",
+      "viewport": [
+        1520,
+        1200
+      ],
+      "deviceScaleFactor": 2
+    }
   },
   {
-    "id": "ts-safety-education",
-    "chapter": "organization",
-    "src": "assets/official/ts-safety-education.png",
-    "width": 316,
-    "height": 228,
-    "title": "지역기관과 시민이 함께 만드는 교통안전",
-    "alt": "교통안전리더 교육 참가자들이 수료증을 들고 촬영한 단체 사진",
-    "caption": "인천광역시 교통안전리더 양성 교육 사진. TS 인천본부·도로교통공단 인천지부·인천소방본부가 교육에 협력.",
-    "explanation": "지역본부의 전문성과 지자체·시민단체의 활동이 연결되는 사례. 기관별 협력 역할을 설명하는 자료이며, TS 단독 사업으로 해석하지 않음.",
-    "creator": "인천광역시",
-    "articleTitle": "인천시, 교통안전리더 33명 신규 양성 … 어린이 교통안전 강화",
-    "articleUrl": "https://www.incheon.go.kr/mayor_8/MA040101/view?repSeq=DOM_0000000012544974",
-    "published": "2025-06-15",
-    "downloadUrl": "https://www.incheon.go.kr/comm/dmsFileDownload?attachFileSeq=FILE_000000001446070&attachFileDetailSeq=0",
-    "sha256": "f99f760513d7b574023aee63acd5c1dc7ae35fdb961e620f153e1af2460911a2",
-    "license": "공공누리 제1유형 · 출처표시",
-    "licenseUrl": "https://www.kogl.or.kr/info/licenseType1.do",
+    "creator": "한국교통안전공단",
     "checked": "2026-09-26",
-    "status": "공식 보도자료에 공개된 현행 사업 사례",
-    "rightsEvidence": "원게시물의 공공누리 제1유형 표시 확인. 사진 별도 제외 표시 없음.",
-    "modification": "원본 파일 변경 없음 · 화면 표시 크기만 조정"
+    "published": null,
+    "license": "© 한국교통안전공단 · 원문 도표 발췌",
+    "licenseUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=07050000",
+    "rightsEvidence": "공식 원문을 출처·판본과 함께 기획 검토용으로 인용. 별도 공공누리 허락 표시 미확인. 자유이용 허락을 의미하지 않으며 현재 공개 배포 중지 유지.",
+    "kind": "strategy-diagram",
+    "id": "ts-esg-strategy-2026",
+    "chapter": "strategy",
+    "placement": "afterTables",
+    "src": "assets/official/ts-esg-strategy-2026.png",
+    "width": 3134,
+    "height": 1266,
+    "sha256": "951032c05d40283f9e80552330f55054463c4b0d8775d5a20dd2575702972e01",
+    "title": "2026년 TS ESG경영 전략 체계도",
+    "versionLabel": "2025 TS ESG REPORT 수록 · 2026년 전략도표",
+    "alt": "2026년 TS ESG경영 전략 체계도. 전략적 환경경영 고도화, 안전·포용경영 강화, 책임거버넌스 확립의 세 방향 아래 14개 과제와 성과지표, 로드맵, 모니터링·공시·환류를 연결. 원문 경영목표 연도는 2029년.",
+    "caption": "중장기 방향을 실행과제·성과지표·점검·환류로 연결하는 공식 도표. 보고서의 인쇄쪽 16에 수록된 원문 영역을 발췌.",
+    "readingPoints": [
+      "14대 전략과제에 ‘AI 기반 정보보안·개인정보보호체계 구축’과 ‘취약계층 교통안전망 강화’를 명시",
+      "과제 수행 이후의 모니터링·평가, 성과공유·공시, 다음 계획 반영까지 연결",
+      "원문에 ‘2029 경영목표’로 표기. 앞의 2026–2030 홈페이지 체계와 판본·목표연도를 구분"
+    ],
+    "sourceTitle": "2025 TS ESG REPORT · 인쇄쪽 16 / PDF 17쪽",
+    "sourceUrl": "https://main.kotsa.or.kr/resources/upload/202606/2025_TS_ESG_REPORT.pdf#page=17",
+    "downloadUrl": "https://main.kotsa.or.kr/resources/upload/202606/2025_TS_ESG_REPORT.pdf",
+    "acquisition": "공식 보고서 원본 도표 발췌",
+    "sourceLocation": "PDF 17쪽(인쇄쪽 16), 하단 전략도표",
+    "status": "보고서명 2025 / 도표 표제 2026 / 목표연도 2029 원문 유지",
+    "modification": "다운로드한 공식 PDF를 300dpi로 렌더링하여 도표 영역만 발췌. 글자·숫자·색상·배치 변경 없음.",
+    "capture": {
+      "page": 17,
+      "dpi": 300,
+      "region": [
+        180,
+        1036,
+        3134,
+        1266
+      ]
+    },
+    "textDescription": {
+      "title": "도표의 세부 과제와 실행 단계",
+      "intro": "원문 도표의 내용을 읽기 쉬운 문장으로 정리. 과제 번호와 소속 방향은 원문 순서 유지. 목표연도·단계 명칭은 원문 표기를 기준으로 설명.",
+      "groups": [
+        {
+          "title": "E+ · 전략적 환경경영 고도화",
+          "tasks": [
+            "① CEO 주도의 환경정보 공개와 정책 이행 투명성 강화",
+            "② 민간·정부·공공기관의 기후위기 협력망 구축",
+            "③ 국민과 임직원이 참여하는 탄소중립 실천",
+            "④ 수송부문 국가 감축제도와 정책 지원"
+          ],
+          "metrics": "K-RE100 전환율, 친환경·탄소중립 인식지수"
+        },
+        {
+          "title": "S+ · 안전·포용경영 강화",
+          "tasks": [
+            "⑤ 동반성장 혁신 추진",
+            "⑥ 지역경제 활성화와 지역 상생 협력",
+            "⑦ CEO 주도의 안전상생 강화",
+            "⑧ 책임 있는 인재경영",
+            "⑨ 직원 중심의 건강한 조직문화",
+            "⑩ AI 기반 정보보안·개인정보보호체계 구축",
+            "⑪ 취약계층 교통안전망 강화"
+          ],
+          "metrics": "동반성장평가, 안전관리등급제"
+        },
+        {
+          "title": "G+ · 책임거버넌스 확립",
+          "tasks": [
+            "⑫ 이사회의 책임성과 기능 강화",
+            "⑬ 국민 눈높이의 윤리·청렴 경영",
+            "⑭ 이해관계자가 체감하는 혁신"
+          ],
+          "metrics": "종합청렴도, 고객만족도"
+        }
+      ],
+      "notes": [
+        "목표: 국민이 체감하는 ESG 성과를 창출하여 K-ESG 이행수준 평가 A등급 달성. 이 페이지의 제안사업 실측 성과가 아닌 공단의 원문 목표.",
+        "단계: 1단계 2021–2023년, 2단계 2024–2026년, 3단계 2027–2029년. 도표에서는 세 단계 모두 ‘ESG경영체계 구축’으로 표시. 같은 쪽의 본문은 ‘구축–고도화–정착’으로 설명하므로, 도표 표기를 임의 수정하지 않고 두 표현의 차이를 보존.",
+        "점검·환류: 내부 ESG경영위원회 점검과 외부 K-ESG 평가 → ESG경영보고서·알리오·홈페이지 공유 → 중기경영목표 연계와 다음 계획 반영."
+      ]
+    }
+  },
+  {
+    "creator": "한국교통안전공단",
+    "checked": "2026-09-26",
+    "published": null,
+    "license": "© 한국교통안전공단 · 원문 도표 발췌",
+    "licenseUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=07050000",
+    "rightsEvidence": "공식 원문을 출처·판본과 함께 기획 검토용으로 인용. 별도 공공누리 허락 표시 미확인. 자유이용 허락을 의미하지 않으며 현재 공개 배포 중지 유지.",
+    "kind": "strategy-diagram",
+    "id": "ts-esg-governance",
+    "chapter": "organization",
+    "placement": "afterIntro",
+    "src": "assets/official/ts-esg-governance.png",
+    "width": 1530,
+    "height": 630,
+    "sha256": "07773f071780f754fa2036c2bbfb45877e6e2167550b2cb532a2bdeb5959fdf3",
+    "title": "ESG 경영 추진체계 — 총괄·실행·점검의 역할",
+    "versionLabel": "2025 TS ESG REPORT · 추진조직 설명",
+    "alt": "ESG 경영 추진체계. 경영진의 ESG경영위원회·탄소중립위원회, 실무부서의 ESG경영처 총괄·단위 사업부서 확산, 외부전문가 간담회의 점검·개선 역할을 표시.",
+    "caption": "정책 방향이 실제 부서의 실행과 성과관리로 이어지는 구조. 보고서 인쇄쪽 17의 ESG 경영 추진체계와 설명을 발췌.",
+    "readingPoints": [
+      "경영진: 연간 추진성과 점검과 경영 제언",
+      "실무부서: ESG경영처 총괄, 단위 사업부서 확산, 이행실적 모니터링·성과관리",
+      "외부전문가: ESG 관련 점검·개선. 이 도표는 ESG 추진체계이며 TS 전체 조직도·전결표와 구분"
+    ],
+    "sourceTitle": "2025 TS ESG REPORT · 인쇄쪽 17 / PDF 18쪽",
+    "sourceUrl": "https://main.kotsa.or.kr/resources/upload/202606/2025_TS_ESG_REPORT.pdf#page=18",
+    "downloadUrl": "https://main.kotsa.or.kr/resources/upload/202606/2025_TS_ESG_REPORT.pdf",
+    "acquisition": "공식 보고서 원본 추진체계 발췌",
+    "sourceLocation": "PDF 18쪽(인쇄쪽 17), 좌측 상단",
+    "status": "보고서 수록 역할 설명 / 최신 업무분장·전결 확정표 아님",
+    "modification": "공식 PDF에서 추진체계 부분만 300dpi로 발췌. 관련 없는 행사사진·성과금액 표는 포함하지 않음.",
+    "capture": {
+      "page": 18,
+      "dpi": 300,
+      "region": [
+        180,
+        630,
+        1530,
+        630
+      ]
+    }
   }
 ]
