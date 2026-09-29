@@ -1,0 +1,10 @@
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),d=require('../src/drt-assurance.cjs'),nav=require('../src/navigation.cjs');
+let checks=0;const check=(ok,msg)=>{assert(ok,msg);checks++};
+check(d.sections.length===6,'6개 연속 문서 장');check(new Set(d.sections.map(s=>s.id)).size===6,'앵커 고유');check(d.metrics.length===5,'5개 정량 지표');
+for(const m of d.metrics){check(m.baseline===null&&m.target===null,'미검증 성능을 수치로 확정하지 않음 '+m.id);for(const k of ['formula','evidence','method','value'])check(m[k]?.length>10,'측정 명세 '+m.id+' '+k)}
+for(const s of d.sections)for(const b of s.blocks){for(const id of b.refs||[])check(Boolean(d.sources[id]),'근거 ID 유효');if(b.rows)for(const r of b.rows)check(r.length===b.headers.length,'표 열 일치');}
+const visuals=d.sections.flatMap(s=>s.blocks).filter(b=>b.type==='visual');check(visuals.length===3,'컨셉/전체/서비스3종');for(const b of visuals){const f=path.join('dist',b.src);check(fs.existsSync(f),'실제 이미지 '+b.id);const buf=fs.readFileSync(f);check(buf.subarray(1,4).toString()==='PNG','이미지 형식 '+b.id);check(b.alt.length>20&&(b.caption.includes('제안')||b.caption.includes('설계')),'대체 설명·설계 구분 '+b.id);}
+check(nav.locate('drt-assurance.html')?.id==='drt-assurance','탐색 등록');check(fs.existsSync('dist/drt-assurance.html'),'직접 접근 경로');check(fs.existsSync('dist/downloads/drt-assurance.md'),'다운로드');
+const dump=JSON.stringify(d);for(const t of ['447,249','29,662','75,419,630','검토 대기 ≠ 지급 보류','Grantee','비경보','공급사','기준선','DRT-AT07','신규 인프라 투자 0원'])check(dump.includes(t),'핵심 내용 보존 '+t);
+const app=fs.readFileSync('src/App.jsx','utf8');check(app.includes("path==='drt-assurance.html'"),'직접 렌더링');check(JSON.parse(fs.readFileSync('src/association-research.json')).news_research.cases.length===6,'기존 뉴스6건 보존');
+check(JSON.stringify(JSON.parse(fs.readFileSync('dist/downloads/drt-assurance.json')))===JSON.stringify(d),'다운로드 동일 내용');console.log(JSON.stringify({result:'통과',checks,chapters:d.sections.length,metrics:d.metrics.length,visuals:visuals.length}));

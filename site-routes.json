@@ -68,7 +68,8 @@
     "registry.html",
     "legal/mapping.html",
     "associations.html",
-    "proposal-links.html"
+    "proposal-links.html",
+    "drt-assurance.html"
   ],
   "departments": 13,
   "lawRows": 27

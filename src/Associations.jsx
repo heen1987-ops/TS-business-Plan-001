@@ -4,8 +4,9 @@ import data from'./association-research.json';
 import './associations.css';
 const gap=data.gap_review;
 const news=data.news_research;
+import {DrtRelated} from './DrtAssurance.jsx';
 import {AssociationProposalLinks} from './ProposalLinks.jsx';
-export function AssociationUpdate(){return <aside className="assoc-home-link" aria-label="최신 조사"><Link to="associations.html#news-research">{news.title}</Link><br/>{news.date} · {news.cases.length}개 사례의 불편·기존 대응·남은 확인사항<br/><Link to="proposal-links.html">미연결 조직·법정업무 상세제안 보완</Link></aside>}
+export function AssociationUpdate(){return <aside className="assoc-home-link" aria-label="최신 조사"><Link to="associations.html#news-research">{news.title}</Link><br/>{news.date} · {news.cases.length}개 사례의 불편·기존 대응·남은 확인사항<br/><Link to="proposal-links.html">미연결 조직·법정업무 상세제안 보완</Link><br/><Link to="drt-assurance.html">택시·DRT 지원금 정책집행·정산검증 AX 추가</Link></aside>}
 const sectors=[...new Set(data.items.map(x=>x.sector))];
 const bySource=Object.fromEntries(data.sources.map(x=>[x.id,x]));
 const list=values=><ul>{values.map((v,i)=><li key={i}>{v}</li>)}</ul>;
@@ -31,7 +32,7 @@ function NewsResearch(){return <section id="news-research" tabIndex={-1}><h2>{ne
  </section>}
 function Plan({p}){
  const e=p.enhancement,r=p.gap_review;
- return <article className="assoc-plan" id={'proposal-'+p.id} tabIndex={-1}><h3>{p.id} · {p.title}</h3><p className="assoc-status">{p.status}</p><AssociationProposalLinks id={p.id}/><dl><dt>기존 서비스·요구·계획</dt><dd>{r.existing}</dd><dt>다음 확인할 미처리 결과</dt><dd>{r.probe}</dd><dt>신규 제안에서 제외할 설명</dt><dd>{r.exclude}</dd></dl>
+ return <article className="assoc-plan" id={'proposal-'+p.id} tabIndex={-1}><h3>{p.id} · {p.title}</h3><p className="assoc-status">{p.status}</p><AssociationProposalLinks id={p.id}/>{p.id==='B08'&&<DrtRelated/>}<dl><dt>기존 서비스·요구·계획</dt><dd>{r.existing}</dd><dt>다음 확인할 미처리 결과</dt><dd>{r.probe}</dd><dt>신규 제안에서 제외할 설명</dt><dd>{r.exclude}</dd></dl>
  <h4>문제 근거와 현재 한계</h4><p>{e.confirmed}</p><p>{e.gap}</p>
  <dl><dt>사용자·수혜자</dt><dd>{p.who}</dd><dt>확인할 편익</dt><dd>{p.benefit}</dd><dt>업무 단위·완료 증거</dt><dd>{e.case_unit} / {e.finish}</dd><dt>담당·권한</dt><dd>{e.human} / {e.boundary}</dd></dl>
  <details><summary>이전 설계 내용과 검증계획 · 신규성 확인 전 이력</summary>
@@ -65,7 +66,7 @@ export function Associations(){
  <NewsResearch/>
  <section id="gap-review" tabIndex={-1}><h2>기존 후보의 미제공 여부부터 재검토</h2><p>{gap.scope}</p><Table label="10개 후보의 기존 기반과 추가 확인" headers={['후보','기존 서비스·요구·계획','확인할 미처리 결과','상태']} rows={gap.reviews.map(r=>[<a href={'#proposal-'+r.id}>{r.id+' '+r.title}</a>,r.existing,r.probe,r.status])}/></section>
  <section id="existing-scope" tabIndex={-1}><h2>상담·민원 AI의 기존 요구·논의 범위</h2><p>확인한 RFP 요구와 제안·인터뷰 내용을 대조. 실제 납품·운영 완료 및 최종 계약편입 여부는 미확인.</p><Table label="동일 기능 신규 제안 제외 범위" headers={['기능','문서 위치','근거','확인 상태']} rows={gap.exclusions.map(r=>[r[1],r[2],<a href={'#gap-source-'+r[3]}>{r[3]}</a>,r[4]])}/><p>API 호출·답변 생성·요약·누락 검토라는 명칭만으로 추가사업의 신규성을 입증하지 않음.</p></section>
- <section id="gap-probes" tabIndex={-1}><h2>공식 절차에서 확인한 조사 출발점</h2><p>절차상 제한과 AI 기능 부재를 구별. 아래 세 항목은 조사 후보이며 선정 사업이 아님.</p>{gap.probes.map(p=><article key={p.id} className="assoc-probe"><h3>{p.id} · {p.title}</h3><p className="assoc-status">{p.status}</p><AssociationProposalLinks id={p.id}/><dl>{[['확인 사실',p.fact],['필요한 결과',p.needed_result],['기존 기능 대조',p.check],['일반 SI 대안',p.si],['CCK 검토 범위',p.llm],['철회·변경 조건',p.kill]].map(([k,v])=><React.Fragment key={k}><dt>{k}</dt><dd>{v}</dd></React.Fragment>)}</dl><p>{p.source_ids.map(id=><a key={id} href={'#gap-source-'+id}>{id} 근거 확인 </a>)}</p></article>)}</section>
+ <section id="gap-probes" tabIndex={-1}><h2>공식 절차에서 확인한 조사 출발점</h2><p>절차상 제한과 AI 기능 부재를 구별. 아래 세 항목은 조사 후보이며 선정 사업이 아님.</p>{gap.probes.map(p=><article key={p.id} className="assoc-probe"><h3>{p.id} · {p.title}</h3><p className="assoc-status">{p.status}</p><AssociationProposalLinks id={p.id}/>{p.id==='B08'&&<DrtRelated/>}<dl>{[['확인 사실',p.fact],['필요한 결과',p.needed_result],['기존 기능 대조',p.check],['일반 SI 대안',p.si],['CCK 검토 범위',p.llm],['철회·변경 조건',p.kill]].map(([k,v])=><React.Fragment key={k}><dt>{k}</dt><dd>{v}</dd></React.Fragment>)}</dl><p>{p.source_ids.map(id=><a key={id} href={'#gap-source-'+id}>{id} 근거 확인 </a>)}</p></article>)}</section>
  <section id="associations" tabIndex={-1}><h2>협회·연합회·관련 조직 찾기</h2><p>협회별 역할과 TS 업무 연관성을 구분. 목록에 있다는 사실로 TS 감독·위탁관계를 확정하지 않음.</p><form className="assoc-filters" onSubmit={e=>e.preventDefault()}>
  <label>명칭·지역 검색<input value={query} onChange={e=>setQuery(e.target.value)} placeholder="예: 택시, 화물, 항공"/></label>
  <label>업종<select value={sector} onChange={e=>setSector(e.target.value)}><option value="">전체 업종</option>{sectors.map(s=><option key={s}>{s}</option>)}</select></label>

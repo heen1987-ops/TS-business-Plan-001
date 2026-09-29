@@ -1,3 +1,4 @@
+import {DrtRelated} from './DrtAssurance.jsx';
 import React,{useState}from'react';
 import{Link,Out,href}from'./core.jsx';
 import revision from'./revision47.cjs';
@@ -24,6 +25,7 @@ export function Metrics47({code}){const r=get(code),p=r.detail;return <><p class
 function Diagram({code,type,title}){if(['concept','overall','service'].includes(type))return <GeneratedDiagram47 code={code} type={type}/>;return <figure className="r47-diagram"><a href={href('downloads/revision47/'+code+'_'+type+'.svg')} target="_blank" rel="noopener noreferrer" aria-label={title+' 원본 확대'}><img loading="lazy" src={href('downloads/revision47/'+code+'_'+type+'.svg')} alt={title+' · '+get(code).title}/></a><figcaption>{title} · 클릭 시 원본 확대 · 상세 설계안</figcaption></figure>}
 export function Proposal47({code}){const r=get(code);if(!r)return null;const p=r.detail;return <div className="revision47" data-revision-department={code}>
 <header className="r47-hero"><span className="r47-badge">최신 근거 기반 {r.verdict} 제안 · 상세설계 구성 통합 2026-09-29</span><h2>{r.title}</h2><p>{p.purpose}</p><small>현재의 근거·처리·검증 명세에 2026-09-24의 6개 장 구성을 적용. TS 확정 과업·제품 구현 완료와 구분.</small><dl className="r47-executive">{[['검토 대상',p.unit],['직접 사용자',p.users],['업무 시작 조건',p.trigger],['측정할 변화',p.metrics.map(m=>m[0]).join(' · ')]].map(([k,v])=><div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}</dl><div className="r47-visual-shortcuts" aria-label="그림으로 보는 제안"><a href="#section-r47-block-concept"><b>01 컨셉도</b><span>누가 · 어떤 문제 · 어떤 변화</span></a><a href="#section-r47-block-overall"><b>02 전체 아키텍처</b><span>시스템 · 데이터 · 책임 경계</span></a><a href="#section-r47-block-journey"><b>03 서비스 흐름도</b><span>입력 · 처리 · 판단 · 보완</span></a></div><nav aria-label="최신 상세 제안 목차">{chapters.map(([id,title],i)=><a key={id} href={'#section-r47-'+id}>{i+1}. {title}</a>)}</nav></header>
+{['MR','PS'].includes(code)&&<DrtRelated/>}
 <Part id="context"><Block id="definition">
 <p className="r47-lead">{r.oneLine}</p>{p.why.map(t=><p key={t}>{t}</p>)}
 <Table title="육하원칙 기반 사업 정의" headers={['질문','이번 제안의 구체 범위']} rows={[
