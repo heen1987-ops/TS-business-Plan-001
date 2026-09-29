@@ -14,6 +14,10 @@ function shell(route){const prefix=path.posix.relative(path.posix.dirname(route)
 for(const route of [...routes,'react/index.html']){const file=path.join(out,route);fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,shell(route));}
 fs.writeFileSync(path.join(out,'.nojekyll'),'');
 fs.writeFileSync(path.join(out,'404.html'),'<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>문서 경로 확인 | TS AX</title><body><main style="max-width:640px;margin:15vh auto;padding:24px;font-family:system-ui"><h1>문서를 찾을 수 없습니다</h1><p>주소를 확인하거나 자료 목차에서 다시 탐색해 주세요.</p><a id="home" href="./">자료 목차로</a></main><script>const parts=location.pathname.split("/");document.getElementById("home").href=location.hostname.endsWith("github.io")?"/"+parts[1]+"/":"/";</script></body></html>');
+// 검토용 공개 사이트: 검색 색인 제외. 접근제어를 의미하지 않음.
+function markReviewPages(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){const file=path.join(dir,entry.name);if(entry.isDirectory())markReviewPages(file);else if(/\.html$/i.test(entry.name)){let html=fs.readFileSync(file,'utf8');html=html.replace(/<meta\b[^>]*name=["']robots["'][^>]*>/gi,'');const meta='<meta name="robots" content="noindex,nofollow">';html=/<head(?:\s[^>]*)?>/i.test(html)?html.replace(/<head(?:\s[^>]*)?>/i,match=>match+meta):html.replace(/<!doctype[^>]*>/i,match=>match+meta);if(!html.includes(meta))html=meta+html;fs.writeFileSync(file,html);}}}
+markReviewPages(out);
+fs.writeFileSync(path.join(out,'robots.txt'),'User-agent: *\nDisallow: /\n');
 fs.writeFileSync(path.join(out,'version.json'),JSON.stringify({commit:process.env.GITHUB_SHA||'local',built_at:new Date().toISOString(),routes:routes.length}));
 console.log('빌드 완료: '+routes.length+'개 React 경로 + 연결 정적 자료');
 })().catch(e=>{console.error(e);process.exit(1)});

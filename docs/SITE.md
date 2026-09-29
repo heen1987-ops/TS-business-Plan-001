@@ -48,7 +48,7 @@ GitHub 설정의 Pages → Source는 **GitHub Actions** 사용.
 
 배포 주소: https://heen1987-ops.github.io/TS-business-Plan-001/
 
-**설정 상태:** GitHub Pro 업그레이드 확인 후 비공개 저장소의 Pages 활성화 완료. 저장소는 비공개 유지, 빌드된 사이트는 공개 URL로 제공. 저장소 루트의 기존 내부문서 6종은 public 디렉터리에 복사하거나 사이트 빌드에 포함하지 않음. 실제 배포 결과는 Actions에서 확인.
+**공개 범위(2026-09-29 사용자 승인):** 현재 저장소의 내부자료·다른 브랜치·과거 이력까지 포함한 전체 공개와 Actions/Pages 배포. 승인 및 검증 기록은 [재공개 기록](PUBLICATION-20260929.md) 참조. 사이트는 기존 `dist/` 빌드 범위를 사용하며 다른 브랜치를 main에 합치지 않음. 배포 성공 여부와 배포 커밋은 Actions 및 공개 `version.json`에서 확인.
 
 ## 검증·운영
 
@@ -59,7 +59,7 @@ GitHub 설정의 Pages → Source는 **GitHub Actions** 사용.
 - 장애 시 이전 정상 commit으로 변경을 되돌리고 main에 push하여 재배포
 - 사이트 내용의 법령·수치·제안 상태는 각 문서 근거와 기준일에 따라 별도 검토 필요
 
-연구 원본 전체, 개인 드라이브, 비밀키, 인증 보조도구 및 node_modules는 저장소 배포 범위에 포함하지 않음.
+현재 저장소의 기존 파일·브랜치·이력 공개 승인과 별개로, 저장소 밖의 개인 드라이브를 새로 업로드하거나 비밀키·인증 보조도구·node_modules를 추가하지 않음. HTML의 noindex/nofollow 및 robots.txt는 검색 색인 제외 요청이며 접근제어가 아님.
 
 
 정량평가 보강: [측정명세 및 검증기록](MEASUREMENT.md). 처별 정량효과·측정방법 목차에서 접근. MD·JSON·빈 CSV 결과표 다운로드 제공.
