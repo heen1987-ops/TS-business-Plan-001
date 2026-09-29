@@ -21,7 +21,7 @@ const sections=[
  group('katri','자동차안전연구원 KATRI',[page('katri-main','문서 1차 검토 적용안','katri.html'),...[['KA-01','기술검토·안전검사'],['KA-02','부품 증빙·사후관리'],['KA-03','국제기준 변경 대응']].map(([id,title])=>group(id,title,[page(id+'-case','업무·검토 내용','katri.html?case='+id),group(id+'-architecture','상세 아키텍처',architecture(id+'-arch','architecture.html?unit='+id))],{organization:'KATRI',kind:'업무 적용안'}))],{organization:'KATRI',sourceFiles:['src/katri.json','src/architecture-v2.json']})
  ],{description:'목적·근거·기술·기대효과의 연결',sourceFiles:['src/data.json'],kind:'기획 제안'}),
  group('services','공식 서비스',[page('websites','처별 공식 홈페이지·시스템','websites.html'),page('websites-pending','담당 처 확인 대기','websites.html?status=pending')],{description:'공식 사이트와 담당 관계 확인',sourceFiles:['src/official-sites.json'],kind:'공식 사이트 매핑'}),
- group('resources','자료실',[page('guide','TS의 정의부터 읽는 안내','index.html?view=guide'),page('updates','추가 설계 정리','updates.html'),page('discovery','업무 전환 후보·근거','discovery.html'),page('registry','자료 등록 원장','registry.html',{kind:'등록 원장',sourceFiles:['src/navigation.cjs']})],{description:'자료 분류·근거·변경 내용 관리',sourceFiles:['src/updates.json','src/discovery.json']})
+ group('resources','자료실',[page('guide','TS의 정의부터 읽는 안내','index.html?view=guide'),page('updates','추가 설계 정리','updates.html'),page('discovery','업무 전환 후보·근거','discovery.html'),page('associations','협회·민원 조사와 미제공 기능','associations.html'),page('registry','자료 등록 원장','registry.html',{kind:'등록 원장',sourceFiles:['src/navigation.cjs']})],{description:'자료 분류·근거·변경 내용 관리',sourceFiles:['src/updates.json','src/discovery.json']})
 ];
 const alias={'react/index.html':'index.html','10_세대화_통합검토.html':'about.html','11_중장기목표_처별성과.html':'vision.html','16_조직도_수행업무_분석.html':'organization.html','17_조직별_AX_전환제안.html':'solutions.html','inspection.html':'solutions.html'};
 function canonical(route){const [path,q='']=route.split('#')[0].split('?'),s=new URLSearchParams(q);let p=alias[path]||path||'index.html';
@@ -34,6 +34,7 @@ function canonical(route){const [path,q='']=route.split('#')[0].split('?'),s=new
 function sourceFilesFor(route){
  const [path,q='']=route.split('?'),query=new URLSearchParams(q),slide='src/slide-data.cjs';
  if(path==='legal/mapping.html')return ['src/LawMapping.jsx','src/law-mapping.json','src/law-mapping.cjs','src/data.json'];
+ if(path==='associations.html')return ['src/Associations.jsx','src/association-research.json'];
  if(path==='registry.html')return ['src/Registry.jsx','src/navigation.cjs'];
  if(path==='websites.html')return ['src/Websites.jsx','src/official-sites.json'];
  if(path==='index.html')return query.get('view')==='map'?['src/Home.jsx','src/org-map-data.cjs','src/data.json']:['src/institution-guide.cjs','src/DocumentReader.jsx',slide];

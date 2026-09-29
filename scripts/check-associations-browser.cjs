@@ -1,0 +1,46 @@
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright'),fs=require('node:fs');
+const base=process.env.SITE_URL||'http://127.0.0.1:8773/TS-business-Plan-001/';
+(async()=>{
+ const browser=await chromium.launch({channel:process.env.BROWSER_CHANNEL||'msedge',headless:true}),tests=[],errors=[];
+ const check=(name,value)=>{tests.push({name,pass:!!value});if(!value)throw Error(name)};
+ const p=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});
+ p.on('pageerror',e=>errors.push(e.message));
+ try{
+ await p.goto(base+'associations.html');await p.locator('.association-page h1').waitFor();
+ check('올바른 신규 화면',await p.locator('.association-page h1').textContent()==='협회·민원 조사와 미제공 기능 재검토');
+ check('후보10개·절차3개',await p.locator('#gap-review tbody tr').count()===10&&await p.locator('.assoc-probe').count()===3);
+ check('단체378개 검색목록',await p.locator('#associations .assoc-table tbody tr').count()===378);
+ check('문제32개·설계10개',await p.locator('#evidence > article').count()===32&&await p.locator('#plans > article').count()===10);
+ await p.getByLabel('명칭·지역 검색').fill('개인택시');
+ check('관련 단체 검색',(await p.locator('#associations .assoc-table tbody tr').count())>0&&(await p.locator('#associations .assoc-table tbody tr').count())<378);
+ await p.locator('#associations .assoc-select').first().click();
+ check('단체 선택·공유주소',new URL(p.url()).searchParams.has('org')&&await p.locator('#association-detail').evaluate(el=>el===document.activeElement));
+ await p.reload();await p.locator('.association-page h1').waitFor();
+ check('새로고침과 단체 맥락 유지',new URL(p.url()).searchParams.has('org')&&(await p.locator('#association-detail h3').textContent()).includes('택시'));
+ await p.getByLabel('명칭·지역 검색').fill('확인용검색없음9999');
+ check('빈 검색결과',await p.locator('.assoc-empty').isVisible());
+ await p.getByRole('button',{name:'검색 초기화',exact:true}).click();
+ check('초기화',await p.locator('#associations .assoc-table tbody tr').count()===378);
+ await p.locator('#gap-review a[href="#proposal-B03"]').click();
+ check('후보 근거 직접 이동',await p.locator('#proposal-B03').isVisible()&&p.url().endsWith('#proposal-B03'));
+ await p.locator('#proposal-B03 summary').click();
+ check('기존 설계 이력 펼침',await p.locator('#proposal-B03 details').getAttribute('open')!==null);
+ const json=await p.request.get(base+'downloads/association-research.json');check('공개 JSON 조회',json.ok()&&(await json.json()).items.length===378);
+ const md=await p.request.get(base+'downloads/association-research.md');check('MD 내려받기',md.ok()&&(await md.text()).includes('신규성 미확정'));
+ await p.goto(base);await p.locator('.assoc-home-link a').click();await p.locator('.association-page h1').waitFor();
+ check('홈에서 새 조사 진입',p.url().includes('associations.html'));
+ await p.goBack();await p.locator('.assoc-home-link').waitFor();check('브라우저 뒤로가기',await p.locator('.assoc-home-link').isVisible());
+ await p.goto(base+'associations.html#gap-review');await p.locator('.association-page h1').waitFor();await p.locator('#gap-review').scrollIntoViewIfNeeded();
+ fs.mkdirSync('qa-output',{recursive:true});await p.screenshot({path:'qa-output/associations-desktop.png'});
+ await p.setViewportSize({width:390,height:844});
+ check('모바일 본문 가로넘침 없음',await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
+ await p.getByRole('button',{name:'문서 목차 열기',exact:true}).click();check('모바일 목차 열림',await p.locator('.doc-mobile-toggle').getAttribute('aria-expanded')==='true');
+ await p.getByRole('textbox',{name:'목차 검색',exact:true}).fill('협회');
+ check('목차 검색 경로',await p.locator('.doc-search-results a[href$="associations.html"]').count()===1);
+ await p.keyboard.press('Escape');check('Escape 닫기·초점 복귀',await p.locator('.doc-mobile-toggle').getAttribute('aria-expanded')==='false'&&await p.locator('.doc-mobile-toggle').evaluate(el=>el===document.activeElement));
+ await p.locator('#gap-review').scrollIntoViewIfNeeded();await p.screenshot({path:'qa-output/associations-mobile.png'});
+ check('본문 내 스크롤표',await p.locator('#gap-review .assoc-table').evaluate(el=>el.scrollWidth>el.clientWidth));
+ check('JS 오류 없음',errors.length===0);
+ }finally{fs.mkdirSync('qa-output',{recursive:true});fs.writeFileSync('qa-output/associations-browser.json',JSON.stringify({base,tests,errors},null,2));await browser.close()}
+ console.log(JSON.stringify({checks:tests.length,passed:tests.filter(t=>t.pass).length,errors}));
+})().catch(e=>{console.error(e);process.exitCode=1});

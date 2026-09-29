@@ -8,4 +8,4 @@ check(v.sections.filter(s=>s.diagram).length===5,'5종 도식 보존 '+d.code);}
 for(const p of ['legal.html','solutions.html']){const v=doc.getDocument(p);assert.deepEqual(v.chapters.flatMap(c=>c.sections.map(s=>s.id)).sort(),v.sections.map(s=>s.id).sort());checks++;}
 const l=doc.getDocument('legal.html');for(const g of l.chapters.filter(g=>g.id.startsWith('chapter-law-')&&g.id!=='chapter-law-overview')){check(g.sections.every(s=>legal.rows.find(r=>r.id===s.id)?.group===g.id.replace('chapter-law-','')),'법령 분야의 의미 보존');}
 check(!fs.readFileSync('src/reading-structure.cjs','utf8').includes('Math.ceil'),'개수 기반 자동 분할 금지');
-console.log(JSON.stringify({result:'통과',checks,introduction_chapters:5,proposal_chapters:6,sections_per_proposal:24,registry:319}));
+console.log(JSON.stringify({result:'통과',checks,introduction_chapters:5,proposal_chapters:6,sections_per_proposal:24,registry:registry.records.length}));

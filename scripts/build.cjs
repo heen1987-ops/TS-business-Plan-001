@@ -2,6 +2,7 @@ const fs=require('node:fs'),path=require('node:path'),esbuild=require('esbuild')
 const root=path.resolve(__dirname,'..'),out=path.resolve(root,'dist');
 if(out!==path.join(root,'dist')||path.dirname(out)!==root)throw Error('빌드 출력 경로 오류');
 fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});fs.cpSync(path.join(root,'public'),out,{recursive:true});
+require('./export-association-research.cjs')(path.join(out,'downloads'));
 require('./export-measurement.cjs')(path.join(out,'downloads'));
 require('./export-websites.cjs')(path.join(out,'downloads'));
 require('./export-law-mapping.cjs')(path.join(out,'downloads'));
