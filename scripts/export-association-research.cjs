@@ -6,6 +6,19 @@ module.exports=function(out){
  const md=['# '+d.publication.title,'',d.checked_at+' · '+g.status,'',d.publication.scope,'',
  '**'+g.headline+'**. 기관 전체에 공백이 없다는 결론과 구별.','',
  '## 기존 후보 재검토',''];
+ const n=d.news_research;
+ md.splice(md.length-2,2);
+ md.push('## '+n.title,'',n.scope,'',n.lead,'',...n.method.map(x=>'- '+x),'');
+ for(const c of n.cases){
+  md.push('### '+c.id+' '+c.title,'','**'+c.status+'**','',c.fact,'','- 기사: ['+c.article.title+']('+c.article.url+') / '+c.article.publisher+' / '+c.article.date,'- 열람: '+c.article.read_status,'- [네이버 검색 확인]('+c.search.url+') / '+c.search.checked_at,'- 시점: '+c.event_period,'- 기존 대응: '+c.existing,'');
+  for(const s of c.official_sources)md.push('- 공식 근거: ['+s.title+']('+s.url+') / '+s.date+' — '+s.fact+' 확인 범위: '+s.read_status+' / '+s.limit);
+  md.push('','#### 반증과 적용 가설','',...c.counterevidence.map(x=>'- '+x),'','- 남은 공백 가설: '+c.remaining,'- TS 권한 경계: '+c.ts_boundary,'- CCK 가설: '+c.llm,'- 일반 SI·운영 대안: '+c.rules,'- 흐름: '+c.workflow.join(' → '),'- 자료: '+c.needed_data.join(' / '),'- 중단·축소: '+c.stop,'','#### 효과 측정안 · 실측·목표 미확정','');
+  for(const m of c.metrics)md.push('- **'+m.name+'**: '+m.formula+' / '+m.method);
+  md.push('','- 연결 검토 후보: '+c.proposal_ids.join(', ')+' / 관련 조직: '+(c.org_ids.join(', ')||'특정 단체 미지정')+' — 업무 관련 의견 확인대상이며 사건 당사자·책임 귀속 아님.','');
+ }
+ md.push('### '+n.evaluation.title,'');for(const [k,v]of Object.entries(n.evaluation))if(k!=='title')md.push('- '+v);
+ md.push('','### 후속 조사 대기열','');for(const q of n.queue)md.push('- '+q.topic+': '+q.question+' / '+q.owner);
+ md.push('',n.review.result,'',n.review.scope,'','## 기존 후보 재검토','');
  for(const r of g.reviews)md.push('### '+r.id+' '+r.title,'','- 상태: '+r.status,'- 기존 서비스·요구·계획: '+r.existing,'- 다음 확인: '+r.probe,'- 제외: '+r.exclude,'');
  md.push('## 상담·민원 기존 요구·논의 범위','');
  for(const r of g.exclusions)md.push('- '+r[0]+' '+r[1]+' / '+r[2]+' / 근거 '+r[3]+' / '+r[4]);

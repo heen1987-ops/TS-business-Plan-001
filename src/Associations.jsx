@@ -3,12 +3,31 @@ import {Heading,Link,Out}from'./core.jsx';
 import data from'./association-research.json';
 import './associations.css';
 const gap=data.gap_review;
-export function AssociationUpdate(){return <aside className="assoc-home-link" aria-label="최신 조사"><Link to="associations.html">{data.publication.title}</Link><br/>{data.publication.date} · 기존 후보의 신규성·문제 근거 확인</aside>}
+const news=data.news_research;
+export function AssociationUpdate(){return <aside className="assoc-home-link" aria-label="최신 조사"><Link to="associations.html#news-research">{news.title}</Link><br/>{news.date} · {news.cases.length}개 사례의 불편·기존 대응·남은 확인사항</aside>}
 const sectors=[...new Set(data.items.map(x=>x.sector))];
 const bySource=Object.fromEntries(data.sources.map(x=>[x.id,x]));
 const list=values=><ul>{values.map((v,i)=><li key={i}>{v}</li>)}</ul>;
 function Table({headers,rows,label}){return <div className="assoc-table" tabIndex={0} role="region" aria-label={label}><table><caption>{label}</caption><thead><tr>{headers.map(h=><th key={h} scope="col">{h}</th>)}</tr></thead><tbody>{rows.map((r,i)=><tr key={i}>{r.map((v,j)=><td key={j}>{v}</td>)}</tr>)}</tbody></table></div>}
 function Source({id}){const s=bySource[id];return s?<Out url={s.url}>{s.title}</Out>:<span>근거 ID 확인 필요</span>}
+function NewsResearch(){return <section id="news-research" tabIndex={-1}><h2>{news.title}</h2><p>{news.scope}</p><p className="assoc-notice">{news.lead}</p>
+ <Table label="뉴스에서 확인한 불편과 추가 조사 방향" headers={['사례·원기사 날짜','현재 판단','남은 확인 질문']} rows={news.cases.map(c=>[<a href={'#news-'+c.id}>{c.id+' '+c.title}<br/>{c.article.date+' · '+c.article.publisher}</a>,c.status,c.remaining])}/>
+ {news.cases.map(c=><article id={'news-'+c.id} className="assoc-news-case" tabIndex={-1} key={c.id}><header><p className="assoc-muted">{c.sector+' / 보도 '+c.article.date+' / 조사 '+news.date}</p><h3>{c.id} · {c.title}</h3><p className="assoc-status">{c.status}</p></header>
+ <h4>보도에서 확인한 문제</h4><p>{c.fact}</p><p><Out url={c.article.url}>{c.article.publisher+' · '+c.article.title}</Out>{c.article.naver_url&&<> · <Out url={c.article.naver_url}>네이버 게재 기사</Out></>}</p><p className="assoc-muted">{c.article.read_status} · <Out url={c.search.url}>네이버 검색 확인</Out></p>
+ <dl><dt>문제·후속조치 시점</dt><dd>{c.event_period}</dd><dt>이미 있는 대응</dt><dd>{c.existing}</dd></dl>
+ <div className="assoc-news-sources"><h4>공식자료 대조</h4>{c.official_sources.map(s=><div key={s.url}><p><Out url={s.url}>{s.title}</Out> · {s.date}</p><p>{s.fact}</p><p className="assoc-muted">{s.read_status} / {s.limit}</p></div>)}</div>
+ <h4>새 사업으로 바로 확정할 수 없는 이유</h4>{list(c.counterevidence)}
+ <dl><dt>추가 확인할 공백 가설</dt><dd>{c.remaining}</dd><dt>TS 업무·권한 경계</dt><dd>{c.ts_boundary}</dd><dt>CCK 적용 가설</dt><dd>{c.llm}</dd><dt>일반 SI·운영 대안</dt><dd>{c.rules}</dd></dl>
+ <h4>실제 적용을 검토할 업무 흐름</h4><ol className="assoc-news-flow">{c.workflow.map(w=><li key={w}>{w}</li>)}</ol>
+ <h4>필요한 현장 자료</h4>{list(c.needed_data)}<p><strong>중단·축소 조건:</strong> {c.stop}</p>
+ <Table label={c.id+' 효과 측정안 · 기준선·목표 미확정'} headers={['지표','산식','측정·해석 기준']} rows={c.metrics.map(m=>[m.name,m.formula,m.method])}/>
+ <p>연결 검토 후보: {c.proposal_ids.map(id=><a key={id} href={'#proposal-'+id}>{id+' '}</a>)} · 사업 확정·동일 업무 전체 범위로 확대하지 않음.</p>
+ {c.org_ids.length>0&&<p>관련 업무 의견 확인대상: {c.org_ids.map(id=><React.Fragment key={id}><Link to={'associations.html?org='+id+'#association-detail'}>{data.items.find(o=>o.id===id)?.name}</Link>{' / '}</React.Fragment>)}<br/><span className="assoc-muted">기사 사건의 당사자·책임주체·확정 수요자로 귀속하지 않음.</span></p>}
+ </article>)}
+ <div className="assoc-news-evaluation"><h3>{news.evaluation.title}</h3><dl>{[['비교 설계',news.evaluation.design],['표본·관측기간',news.evaluation.sample],['결과 해석',news.evaluation.reporting],['확인 책임',news.evaluation.responsibility],['자료·개인정보',news.evaluation.privacy]].map(([k,v])=><React.Fragment key={k}><dt>{k}</dt><dd>{v}</dd></React.Fragment>)}</dl></div>
+ <h3>다음 조사할 자료</h3><Table label="추가 조사 대기열 · 기관 협의 전" headers={['주제','확인할 자료·질문','협의 대상']} rows={news.queue.map(q=>[q.topic,q.question,q.owner])}/>
+ <h3>조사·반증 기준</h3>{list(news.method)}<p>{news.review.result}</p><p className="assoc-muted">{news.review.scope}</p>
+ </section>}
 function Plan({p}){
  const e=p.enhancement,r=p.gap_review;
  return <article className="assoc-plan" id={'proposal-'+p.id} tabIndex={-1}><h3>{p.id} · {p.title}</h3><p className="assoc-status">{p.status}</p><dl><dt>기존 서비스·요구·계획</dt><dd>{r.existing}</dd><dt>다음 확인할 미처리 결과</dt><dd>{r.probe}</dd><dt>신규 제안에서 제외할 설명</dt><dd>{r.exclude}</dd></dl>
@@ -40,8 +59,9 @@ export function Associations(){
  <Heading label={'추가 조사 · '+data.checked_at} title={data.publication.title} desc="단체의 역할과 실제 문제 근거를 확인하고, 기존 기능으로 처리되지 않는 결과를 찾기 위한 조사."/>
  <p className="assoc-notice"><strong>{gap.headline}</strong><br/>새 기능으로 확정한 항목 {gap.confirmed_new_count}건. 기관에 공백이 없다는 의미가 아닌 확인 범위의 한계. 확정 사업계획·운영 성과와 구별.</p>
  <p>단체·지역조직·공제·교육기관 <b>{data.items.length}개 기록</b> · 역할 재검토 {data.summary.profiles_reviewed}개 · 공개 쟁점 {data.issues.length}개 · 설계 후보 {data.proposals.length}개. 독립 협회 수·접수 민원 수·전국 전수조사 완료와 구별.</p>
- <nav className="assoc-links" aria-label="협회 조사 본문 목차">{[['gap-review','신규성 재검토'],['existing-scope','기존 기능 대조'],['gap-probes','절차상 한계'],['associations','협회 찾기'],['evidence','전체 문제 근거'],['plans','후보별 근거·설계']].map(([id,t])=><a key={id} href={'#'+id}>{t}</a>)}</nav>
+ <nav className="assoc-links" aria-label="협회 조사 본문 목차">{[['news-research','뉴스 추가 조사'],['gap-review','신규성 재검토'],['existing-scope','기존 기능 대조'],['gap-probes','절차상 한계'],['associations','협회 찾기'],['evidence','전체 문제 근거'],['plans','후보별 근거·설계']].map(([id,t])=><a key={id} href={'#'+id}>{t}</a>)}</nav>
  <p className="assoc-downloads"><Link to="downloads/association-research.md" download>전체 조사 문서 내려받기</Link> · <Link to="downloads/association-research.json" download>근거·판정 데이터 내려받기</Link></p>
+ <NewsResearch/>
  <section id="gap-review" tabIndex={-1}><h2>기존 후보의 미제공 여부부터 재검토</h2><p>{gap.scope}</p><Table label="10개 후보의 기존 기반과 추가 확인" headers={['후보','기존 서비스·요구·계획','확인할 미처리 결과','상태']} rows={gap.reviews.map(r=>[<a href={'#proposal-'+r.id}>{r.id+' '+r.title}</a>,r.existing,r.probe,r.status])}/></section>
  <section id="existing-scope" tabIndex={-1}><h2>상담·민원 AI의 기존 요구·논의 범위</h2><p>확인한 RFP 요구와 제안·인터뷰 내용을 대조. 실제 납품·운영 완료 및 최종 계약편입 여부는 미확인.</p><Table label="동일 기능 신규 제안 제외 범위" headers={['기능','문서 위치','근거','확인 상태']} rows={gap.exclusions.map(r=>[r[1],r[2],<a href={'#gap-source-'+r[3]}>{r[3]}</a>,r[4]])}/><p>API 호출·답변 생성·요약·누락 검토라는 명칭만으로 추가사업의 신규성을 입증하지 않음.</p></section>
  <section id="gap-probes" tabIndex={-1}><h2>공식 절차에서 확인한 조사 출발점</h2><p>절차상 제한과 AI 기능 부재를 구별. 아래 세 항목은 조사 후보이며 선정 사업이 아님.</p>{gap.probes.map(p=><article key={p.id} className="assoc-probe"><h3>{p.id} · {p.title}</h3><p className="assoc-status">{p.status}</p><dl>{[['확인 사실',p.fact],['필요한 결과',p.needed_result],['기존 기능 대조',p.check],['일반 SI 대안',p.si],['CCK 검토 범위',p.llm],['철회·변경 조건',p.kill]].map(([k,v])=><React.Fragment key={k}><dt>{k}</dt><dd>{v}</dd></React.Fragment>)}</dl><p>{p.source_ids.map(id=><a key={id} href={'#gap-source-'+id}>{id} 근거 확인 </a>)}</p></article>)}</section>
