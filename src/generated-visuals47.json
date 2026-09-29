@@ -1,0 +1,553 @@
+{
+  "date": "2026-09-29",
+  "generator": "built-in image_gen",
+  "status": "개별 이미지 검수 완료",
+  "assets": [
+    {
+      "code": "MR",
+      "type": "concept",
+      "path": "assets/generated47/MR_concept_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "b95995f1c84ca3671cc937822684059d0b7cf26b7d34e68d14abb740c8c5491a",
+      "bytes": 1620119,
+      "summary": "모빌리티연구처의 앱미터 변경 신고와 수리검정 경계 판단 지원. 변경된 앱미터 기능이 적절한 검정 절차로 이어지도록 하여 이용자의 요금 신뢰와 제작사의 절차 예측가능성 확보",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "MR",
+      "type": "overall",
+      "path": "assets/generated47/MR_overall_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "61e982e3286e7eeef86ef031833611853a39256399a3ea8dcab912a7f51868a5",
+      "bytes": 1473421,
+      "summary": "모빌리티연구처의 앱미터 변경 신고와 수리검정 경계 판단 지원. NOA의 계획·검증·담당 승인·도구 실행·결과 확인을 로컬 LLM·근거 저장소·규칙 도구·기존 원천과 연결한 논리 설계.",
+      "review": {
+        "status": "합격",
+        "score": 34
+      }
+    },
+    {
+      "code": "MR",
+      "type": "service",
+      "path": "assets/generated47/MR_service_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6a9f497bde40f5c44ba19b1d992e1b0f480a461865c49d5cc58b0d0003fc9f53",
+      "bytes": 1394892,
+      "summary": "모빌리티연구처의 앱미터 변경 신고와 수리검정 경계 판단 지원. 자료 입력에서 AI 지원과 공식 판단, 결과 확인 및 보완으로 이어지는 업무 흐름.",
+      "review": {
+        "status": "합격",
+        "score": 34
+      }
+    },
+    {
+      "code": "DF",
+      "type": "concept",
+      "path": "assets/generated47/DF_concept_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2f2381dea0a430090c6c0cfaf028710fd10e8f8e7a4a45ebc4f173bb3731e0e8",
+      "bytes": 1609073,
+      "summary": "데이터융복합처의 위험 신호와 법정 조치를 잇는 연결 기록. 운행기록 분석이 실제 안전조치와 결과 확인으로 연결되도록 하여 예방 업무의 실행력 확보",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "DF",
+      "type": "overall",
+      "path": "assets/generated47/DF_overall_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6279b4b73755bdb8c17a6fb3eb32f97637d65885f01ba6c154afabb337541e46",
+      "bytes": 1483015,
+      "summary": "데이터융복합처의 위험 신호와 법정 조치를 잇는 연결 기록. NOA의 계획·검증·담당 승인·도구 실행·결과 확인을 로컬 LLM·근거 저장소·규칙 도구·기존 원천과 연결한 논리 설계.",
+      "review": {
+        "status": "합격",
+        "score": 34
+      }
+    },
+    {
+      "code": "DF",
+      "type": "service",
+      "path": "assets/generated47/DF_service_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9ee7e8dd21f38cfd89734a307807de19f1f3ed092ace79e68138265f9689cc36",
+      "bytes": 1404221,
+      "summary": "데이터융복합처의 위험 신호와 법정 조치를 잇는 연결 기록. 자료 입력에서 AI 지원과 공식 판단, 결과 확인 및 보완으로 이어지는 업무 흐름.",
+      "review": {
+        "status": "합격",
+        "score": 34
+      }
+    },
+    {
+      "code": "SA",
+      "type": "concept",
+      "path": "assets/generated47/SA_concept_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f89ac17818639a495bb988b9679a8c9c83074cb8b7226a769cd67ac03f350e89",
+      "bytes": 1623425,
+      "summary": "교통안전처의 교통수단안전점검 지적사항의 해소 확인과 재발 관측. 안전점검의 지적이 실제 개선으로 이어졌는지 확인하고 같은 미흡사항의 반복을 줄이는 운영체계 확보",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "SA",
+      "type": "overall",
+      "path": "assets/generated47/SA_overall_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "b0a6d42b4aad2ac47430568d0f866eec8a037bf1b0561d84c4c67adbb474d8f3",
+      "bytes": 1511416,
+      "summary": "교통안전처의 교통수단안전점검 지적사항의 해소 확인과 재발 관측. NOA의 계획·검증·담당 승인·도구 실행·결과 확인을 로컬 LLM·근거 저장소·규칙 도구·기존 원천과 연결한 논리 설계.",
+      "review": {
+        "status": "합격",
+        "score": 34
+      }
+    },
+    {
+      "code": "SA",
+      "type": "service",
+      "path": "assets/generated47/SA_service_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1fa83c159e7ec7fc67b82ac111dbc9c456dbf8b49e05d2ee64ddadf67a094a76",
+      "bytes": 1425272,
+      "summary": "교통안전처의 교통수단안전점검 지적사항의 해소 확인과 재발 관측. 자료 입력에서 AI 지원과 공식 판단, 결과 확인 및 보완으로 이어지는 업무 흐름.",
+      "review": {
+        "status": "합격",
+        "score": 34
+      }
+    },
+    {
+      "code": "QE",
+      "type": "concept",
+      "path": "assets/generated47/QE_concept_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c029c5f94987b3287b5b3aa6413d53ff8642d3b815a9fd9ce47c0a12ce237b2c",
+      "bytes": 1354137,
+      "summary": "자격교육처의 운전적성정밀검사 소견의 교정교육 연결과 이행 추적. 검사소견이 수검자에게 이해 가능한 교정 활동과 운수사의 실제 교육으로 이어지도록 지원",
+      "review": {
+        "status": "합격",
+        "score": 36
+      }
+    },
+    {
+      "code": "QE",
+      "type": "overall",
+      "path": "assets/generated47/QE_overall_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "4b4907151bd7c59e480a9f3976a73b847db4d92024dcea9771153da105a98fe1",
+      "bytes": 1708060,
+      "summary": "자격교육처의 운전적성정밀검사 소견의 교정교육 연결과 이행 추적. NOA의 계획·검증·담당 승인·도구 실행·결과 확인을 로컬 LLM·근거 저장소·규칙 도구·기존 원천과 연결한 논리 설계.",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "QE",
+      "type": "service",
+      "path": "assets/generated47/QE_service_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a4e197bddbf11e8a5364057f624aff2fa0acb994e3214ab2c650e1edb2d84180",
+      "bytes": 1278462,
+      "summary": "자격교육처의 운전적성정밀검사 소견의 교정교육 연결과 이행 추적. 자료 입력에서 AI 지원과 공식 판단, 결과 확인 및 보완으로 이어지는 업무 흐름.",
+      "review": {
+        "status": "합격",
+        "score": 37
+      }
+    },
+    {
+      "code": "CL",
+      "type": "concept",
+      "path": "assets/generated47/CL_concept_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9b8771dece1100a11b01c46d16dcd2a97d203936f473bf14ab84319dbceadad9",
+      "bytes": 1512677,
+      "summary": "기후탄소물류처의 안전운임 위반 신고사건 처리 지원. 안전운임 신고자의 증거 준비 부담을 줄이고 사실확인·관할기관 인계의 정확성 확보",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "CL",
+      "type": "overall",
+      "path": "assets/generated47/CL_overall_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d0b9604dc76a4ea6e998d987b4f4e1f2797f2ab86a95c54cfb0c64607624c525",
+      "bytes": 1445342,
+      "summary": "기후탄소물류처의 안전운임 위반 신고사건 처리 지원. NOA의 계획·검증·담당 승인·도구 실행·결과 확인을 로컬 LLM·근거 저장소·규칙 도구·기존 원천과 연결한 논리 설계.",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "CL",
+      "type": "service",
+      "path": "assets/generated47/CL_service_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "25cf707ec9e5e23a5dbf39989b44f0500b93e6ad5e1406a77e7608dd11ade6b6",
+      "bytes": 1406393,
+      "summary": "기후탄소물류처의 안전운임 위반 신고사건 처리 지원. 자료 입력에서 AI 지원과 공식 판단, 결과 확인 및 보완으로 이어지는 업무 흐름.",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "PS",
+      "type": "concept",
+      "path": "assets/generated47/PS_concept_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ee1ed592da7bead18d5ce1bc543a9d708c3b76d19f3e47481cbbc067d8dae8ce",
+      "bytes": 1722517,
+      "summary": "정책지원처의 최소서비스·DRT 필요지역·장거리 필수노선 판정 근거 대조. 교통서비스 필요지역이 판정 기준 차이로 누락되지 않도록 하고 지역별 개선대안의 설명가능성 확보",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "PS",
+      "type": "overall",
+      "path": "assets/generated47/PS_overall_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "7de593966848d6b09a6253d589a9e9d331efb4cb4260fe7bb97bc6627c06ed35",
+      "bytes": 1465505,
+      "summary": "정책지원처의 최소서비스·DRT 필요지역·장거리 필수노선 판정 근거 대조. NOA의 계획·검증·담당 승인·도구 실행·결과 확인을 로컬 LLM·근거 저장소·규칙 도구·기존 원천과 연결한 논리 설계.",
+      "review": {
+        "status": "합격",
+        "score": 34
+      }
+    },
+    {
+      "code": "PS",
+      "type": "service",
+      "path": "assets/generated47/PS_service_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e4ebc5bc7426fff1aaad2976055635af56077833c366e4c7f173e208a07c7a09",
+      "bytes": 1427074,
+      "summary": "정책지원처의 최소서비스·DRT 필요지역·장거리 필수노선 판정 근거 대조. 자료 입력에서 AI 지원과 공식 판단, 결과 확인 및 보완으로 이어지는 업무 흐름.",
+      "review": {
+        "status": "합격",
+        "score": 34
+      }
+    },
+    {
+      "code": "RI",
+      "type": "concept",
+      "path": "assets/generated47/RI_concept_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "44ce4d858a9a21e2efd46eba857d0cd8c559c0410793129a559d5fa7d120f5a1",
+      "bytes": 1494829,
+      "summary": "규제혁신처의 실증특례 조건 정리와 승인 후 개시 지연 추적. 특례 승인 이후 실제 사업 준비상태를 파악하고 조건 확인 지연을 줄여 안전한 실증 개시 지원",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "RI",
+      "type": "overall",
+      "path": "assets/generated47/RI_overall_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6250b5642bc9e3227056a542356495d8b78b61fc81a55843955a5bfd3395fb24",
+      "bytes": 1443578,
+      "summary": "규제혁신처의 실증특례 조건 정리와 승인 후 개시 지연 추적. NOA의 계획·검증·담당 승인·도구 실행·결과 확인을 로컬 LLM·근거 저장소·규칙 도구·기존 원천과 연결한 논리 설계.",
+      "review": {
+        "status": "합격",
+        "score": 34
+      }
+    },
+    {
+      "code": "RI",
+      "type": "service",
+      "path": "assets/generated47/RI_service_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "feebb84ee9786fff53edaeb107567d7af0981c1791802c094613d24cfce76ad8",
+      "bytes": 1376085,
+      "summary": "규제혁신처의 실증특례 조건 정리와 승인 후 개시 지연 추적. 자료 입력에서 AI 지원과 공식 판단, 결과 확인 및 보완으로 이어지는 업무 흐름.",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "DV",
+      "type": "concept",
+      "path": "assets/generated47/DV_concept_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d1817341c3dcf6d7ca8b50ff95f9ec0229a29449b33fd35a3bcffc71a9c45f58",
+      "bytes": 1740269,
+      "summary": "실증사업처의 단지내도로 중대사고 인지와 권고 이행 추적. 단지내도로 중대사고가 필요한 점검으로 연결되고 권고 이후 실제 개선을 확인할 수 있는 체계 확보",
+      "review": {
+        "status": "합격",
+        "score": 36
+      }
+    },
+    {
+      "code": "DV",
+      "type": "overall",
+      "path": "assets/generated47/DV_overall_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2482e22831b74ae3e006d17fbf21e6adb5e4cdac63981e0d8e75579e4816061d",
+      "bytes": 1485372,
+      "summary": "실증사업처의 단지내도로 중대사고 인지와 권고 이행 추적. NOA의 계획·검증·담당 승인·도구 실행·결과 확인을 로컬 LLM·근거 저장소·규칙 도구·기존 원천과 연결한 논리 설계.",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "DV",
+      "type": "service",
+      "path": "assets/generated47/DV_service_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "574b8e94dccddd31ba5c39e71dc211e0666f643835ec040b71433a19a662bdb8",
+      "bytes": 1429852,
+      "summary": "실증사업처의 단지내도로 중대사고 인지와 권고 이행 추적. 자료 입력에서 AI 지원과 공식 판단, 결과 확인 및 보완으로 이어지는 업무 흐름.",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "IP",
+      "type": "concept",
+      "path": "assets/generated47/IP_concept_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d0d3a654369165f4c3f73b475ddea409b63f29c9a60e49029749a1c8cdb3f9f7",
+      "bytes": 1638712,
+      "summary": "검사기획처의 민간검사소 판정편차 위험기반 점검 지원. 한정된 점검 자원을 근거가 있는 검사소 확인에 배분하여 자동차검사의 신뢰성 확보",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "IP",
+      "type": "overall",
+      "path": "assets/generated47/IP_overall_v1.png",
+      "width": 1672,
+      "height": 940,
+      "sha256": "9db2e8eb8f61ddb024fa90a924773c494dfc0a0706f2aae33cc7dac07e47e27a",
+      "bytes": 1457124,
+      "summary": "검사기획처의 민간검사소 판정편차 위험기반 점검 지원. NOA의 계획·검증·담당 승인·도구 실행·결과 확인을 로컬 LLM·근거 저장소·규칙 도구·기존 원천과 연결한 논리 설계.",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "IP",
+      "type": "service",
+      "path": "assets/generated47/IP_service_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "cd790078b946545edd9156152a4a95d6ad36a5028e07175c2fb3f38442ffbb70",
+      "bytes": 1531211,
+      "summary": "검사기획처의 민간검사소 판정편차 위험기반 점검 지원. 자료 입력에서 AI 지원과 공식 판단, 결과 확인 및 보완으로 이어지는 업무 흐름.",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "SI",
+      "type": "concept",
+      "path": "assets/generated47/SI_concept_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a6fca286aa1c7f628da5df8037fa0032eaa2f0c25f1f72830e1b9f2a69419425",
+      "bytes": 1760331,
+      "summary": "특수검사처의 정밀도검사 부적합 사건 종결 추적과 사유 정합. 부적합 측정기기의 후속 상태를 확인하여 사용금지·재검·폐기·보고가 일관되게 연결되는 관리 지원",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "SI",
+      "type": "overall",
+      "path": "assets/generated47/SI_overall_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f2674dd897b64cc97731c483a9b24d47ca348f53fdbdb1f9c282935884b68c7a",
+      "bytes": 1695955,
+      "summary": "특수검사처의 정밀도검사 부적합 사건 종결 추적과 사유 정합. NOA의 계획·검증·담당 승인·도구 실행·결과 확인을 로컬 LLM·근거 저장소·규칙 도구·기존 원천과 연결한 논리 설계.",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "SI",
+      "type": "service",
+      "path": "assets/generated47/SI_service_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "920cdab526fd047bb2e2c8f0c8d7e5a9a14f1a56a0d205ff05e19f5c41a94c14",
+      "bytes": 1460496,
+      "summary": "특수검사처의 정밀도검사 부적합 사건 종결 추적과 사유 정합. 자료 입력에서 AI 지원과 공식 판단, 결과 확인 및 보완으로 이어지는 업무 흐름.",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "PK",
+      "type": "concept",
+      "path": "assets/generated47/PK_concept_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e1aa70265b9ad9424edf75c919705b6c8ec7e9fd572fbf2a3a51c3e227fcbfb1",
+      "bytes": 1631615,
+      "summary": "주차안전처의 부적합 기계식주차장 후속조치 추적 점검. 부적합 기계식주차장 장치의 공식 후속 상태를 조기에 확인하여 안전관리 책임의 공백 완화",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "PK",
+      "type": "overall",
+      "path": "assets/generated47/PK_overall_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c314aae6357f6309e29cb588516b4a70842463d041db87cd7c6aba16c67d5e49",
+      "bytes": 1469418,
+      "summary": "주차안전처의 부적합 기계식주차장 후속조치 추적 점검. NOA의 계획·검증·담당 승인·도구 실행·결과 확인을 로컬 LLM·근거 저장소·규칙 도구·기존 원천과 연결한 논리 설계.",
+      "review": {
+        "status": "합격",
+        "score": 34
+      }
+    },
+    {
+      "code": "PK",
+      "type": "service",
+      "path": "assets/generated47/PK_service_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "70d3126987f1dd363429e17ce920f0ae24d5cfb3e9d398df4e623128a6504d6f",
+      "bytes": 1427329,
+      "summary": "주차안전처의 부적합 기계식주차장 후속조치 추적 점검. 자료 입력에서 AI 지원과 공식 판단, 결과 확인 및 보완으로 이어지는 업무 흐름.",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "AD",
+      "type": "concept",
+      "path": "assets/generated47/AD_concept_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "25de18bd4a27d72186f9112d1140efd6028ebcb08f32dc25782fb556ac531e37",
+      "bytes": 1637603,
+      "summary": "첨단검사전략처의 KADIS 진단 커버리지와 실패사유 기록. 어느 차량·진단항목을 실제로 확인할 수 있는지 파악하여 진단 데이터 개발과 제작사 자료 확인의 우선순위 확보",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "AD",
+      "type": "overall",
+      "path": "assets/generated47/AD_overall_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "8f89f5322d2870317cad100af6cdfdae453c817d29655eef2c91af7786328e4b",
+      "bytes": 1513211,
+      "summary": "첨단검사전략처의 KADIS 진단 커버리지와 실패사유 기록. NOA의 계획·검증·담당 승인·도구 실행·결과 확인을 로컬 LLM·근거 저장소·규칙 도구·기존 원천과 연결한 논리 설계.",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "AD",
+      "type": "service",
+      "path": "assets/generated47/AD_service_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1d578d20631382f66e78040fa73bafa3ae430ed86a1d95fd0f4e1885f41dd632",
+      "bytes": 1371382,
+      "summary": "첨단검사전략처의 KADIS 진단 커버리지와 실패사유 기록. 자료 입력에서 AI 지원과 공식 판단, 결과 확인 및 보완으로 이어지는 업무 흐름.",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "RD",
+      "type": "concept",
+      "path": "assets/generated47/RD_concept_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "8d638f5ef313cc1fc284d0187f99e31bd336068a53181ce2c21ed7a4882bb5b3",
+      "bytes": 1582414,
+      "summary": "첨단연구개발처의 연구성과를 검사기준으로 옮기는 이관 근거 정리. 연구 결과가 검사기준 검토에 필요한 근거로 사용되도록 이관 자료의 완결성 확보",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "RD",
+      "type": "overall",
+      "path": "assets/generated47/RD_overall_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d9577ee52aef1af30de4a03b7e68e6b202b39e75fbd06bee6938772adb2c691a",
+      "bytes": 1476221,
+      "summary": "첨단연구개발처의 연구성과를 검사기준으로 옮기는 이관 근거 정리. NOA의 계획·검증·담당 승인·도구 실행·결과 확인을 로컬 LLM·근거 저장소·규칙 도구·기존 원천과 연결한 논리 설계.",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    },
+    {
+      "code": "RD",
+      "type": "service",
+      "path": "assets/generated47/RD_service_v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "dc5dca9f8bc822c9708a98d209e5241ef47e8c4bf0ac27d61081ac71c7586806",
+      "bytes": 1478848,
+      "summary": "첨단연구개발처의 연구성과를 검사기준으로 옮기는 이관 근거 정리. 자료 입력에서 AI 지원과 공식 판단, 결과 확인 및 보완으로 이어지는 업무 흐름.",
+      "review": {
+        "status": "합격",
+        "score": 35
+      }
+    }
+  ]
+}
