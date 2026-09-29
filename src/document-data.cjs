@@ -30,7 +30,7 @@ function getDocument(route){
  for(const item of source.getDeck(route).slides){const parent=item.id.replace(/-part-\d+$/,'');if(targets[parent])targets[item.id]=targets[parent];}
  const cardTargets={};for(const section of sections)for(const card of section.cards){const match=/^(DS[1-6]) · /.exec(card.title);if(match)cardTargets[match[1]]={id:'card-'+match[1],sectionId:section.id};}
  const chapters=require('./reading-structure.cjs').chaptersFor(sections,route);for(const chapter of chapters)targets[chapter.id]=chapter.id;if(route.startsWith('about.html'))targets.technology='benefit';
- if(/^처별\//.test(route))for(const [id] of require('./revision47.cjs').chapters)targets['r47-'+id]='r47-'+id;
+ if(/^처별\//.test(route)){for(const [id] of require('./revision47.cjs').chapters)targets['r47-'+id]='r47-'+id;for(const b of require('./proposal-composition.cjs').blocks)targets['r47-block-'+b.id]='r47-block-'+b.id;}
  if(/^(solutions|inspection|17_조직별_AX_전환제안)\.html/.test(route))for(const c of Object.keys(require('./revision47.cjs').data.departments))targets['r47-catalog-'+c]='r47-catalog-'+c;
  return {title:raw.title,lead:raw.lead,sections,chapters,targets,cardTargets};
 }

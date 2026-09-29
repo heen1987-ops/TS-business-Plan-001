@@ -67,7 +67,8 @@
     "websites.html",
     "registry.html",
     "legal/mapping.html",
-    "associations.html"
+    "associations.html",
+    "proposal-links.html"
   ],
   "departments": 13,
   "lawRows": 27

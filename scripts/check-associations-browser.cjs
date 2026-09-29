@@ -34,7 +34,7 @@ const base=process.env.SITE_URL||'http://127.0.0.1:8773/TS-business-Plan-001/';
  check('기존 설계 이력 펼침',await p.locator('#proposal-B03 details').getAttribute('open')!==null);
  const json=await p.request.get(base+'downloads/association-research.json');const jd=await json.json();check('공개 JSON 조회',json.ok()&&jd.items.length===378&&jd.news_research.cases.length===6);
  const md=await p.request.get(base+'downloads/association-research.md');const mt=await md.text();check('MD 내려받기',md.ok()&&mt.includes('신규성 미확정')&&mt.includes('N06 리콜 부품 대기'));
- await p.goto(base);await p.locator('.assoc-home-link a').click();await p.locator('.association-page h1').waitFor();
+ await p.goto(base);await p.locator('.assoc-home-link a[href*="associations.html"]').click();await p.locator('.association-page h1').waitFor();
  check('홈에서 새 조사 진입',p.url().includes('associations.html'));
  check('홈에서 뉴스 절 직접 진입',p.url().endsWith('#news-research'));
  await p.goBack();await p.locator('.assoc-home-link').waitFor();check('브라우저 뒤로가기',await p.locator('.assoc-home-link').isVisible());

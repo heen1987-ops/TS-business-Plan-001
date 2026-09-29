@@ -1,8 +1,9 @@
 const {departments}=require('./data.json');
+const supplement=require('./proposal-links.cjs');
 const departmentByCode=Object.fromEntries(departments.map(d=>[d.code,d]));
 const unit=(id,name,summary,children=[],extra={})=>({id,name,summary,children,kind:'organization',...extra});
 const dept=(code)=>{const d=departmentByCode[code];return unit(code,d.name,d.title,[],{code,kind:'department'});};
-const pending=(id,name)=>unit(id,name,'기존 조직도 연결 · 처별 상세 제안 미연결',[],{pending:true});
+const pending=(id,name)=>{const items=supplement.forOrg(id);return unit(id,name,items[0]?.title||'업무·담당 확인 필요',[],{pending:items.some(p=>p.pending)||!items.length,supplement:items.map(p=>p.id)});};
 const tree=unit('TS','한국교통안전공단','안전하고 편리한 교통환경을 위한 법정·수탁업무와 AX 전환 제안',[
  unit('planning','기획본부','경영방향·자원 배분·성과·디지털 기반',[
   unit('planning-office','기획조정실','경영·예산·성과·ESG 관련 조직',[
@@ -41,6 +42,7 @@ function ancestry(id){const result=[];let node=nodes[id];while(node){result.unsh
 function proposals(node){return node.code?[departmentByCode[node.code]]:node.children.flatMap(proposals);}
 function doc(id,name,summary,to){return {id,name,summary,to,kind:'document'};}
 function documents(node){
+ if(node.supplement?.length)return [...node.supplement.map(id=>doc('detail-'+id,'상세 검토 · '+supplement.profileById[id].title,supplement.profileById[id].status,supplement.path(id))),doc('sites','공식 업무·사이트 근거','담당·기존 서비스 접점','websites.html?node='+node.id)];
  if(node.code){const d=departmentByCode[node.code],p=d.folder+'/01_사업정의.html';return [
   doc('mandate','담당 처·법령·컨셉','실제 업무 · 담당 역할 · 제안 이유','legal/mapping.html?dept='+node.code),
   doc('concept','사업 정의·컨셉','목적 · 대상자 · 달라지는 업무',p),
@@ -52,17 +54,17 @@ function documents(node){
  if(node.kind==='case')return [
   doc('case','업무·검토 내용','대상 자료 · 검토항목 · 담당자 확인','katri.html?case='+node.id),
   doc('architecture','상세 아키텍처','구성요소 · 인터페이스 · 데이터','architecture.html?unit='+node.id)];
- if(node.id==='KATRI')return [doc('katri','KATRI 적용안 전체','문서 1차 검토 · 누락방지 · 후속처리','katri.html')];
+ if(node.id==='KATRI')return [doc('katri','KATRI 적용안 전체','문서 1차 검토 · 누락방지 · 후속처리','katri.html'),...supplement.forOrg('KATRI').map(p=>doc('detail-'+p.id,p.title,p.status,supplement.path(p.id)))];
  if(node.id==='TS')return [
   doc('about','TS의 존재 의의','설립 목적 · 기관의 역할','about.html'),
   doc('vision','2026–2030 계획','경영목표 · 전략과제','vision.html'),
   doc('legal','법정·수탁업무','적용 법령 · 위임·위탁 관계','legal.html'),
   doc('mandate','법령·처·컨셉 매핑','어떤 업무를 어느 처의 컨셉에 연결하는가','legal/mapping.html'),
-  doc('all','처별 AX 제안 전체','13개 처의 제안 비교','solutions.html')];
+  doc('all','처별 AX 제안 전체','13개 처의 제안 비교','solutions.html'),doc('additional','추가 조직·업무 상세제안','미연결 조직·법정업무·협회 후보 보완','proposal-links.html')];
  return [
   doc('organization','조직·업무 분석','제공 조직도와 기존 원장 확인','organization.html'),
   doc('legal','법정·수탁업무 지도','업무별 법령·수행조직 대조','legal.html')];
 }
-function kindLabel(node){return node.kind==='group'?'탐색 묶음':node.kind==='case'?'적용안':node.kind==='department'?'AX 제안 연결':node.pending?'상세 제안 미연결':node.kind==='document'?'자료 바로가기':'조직';}
+function kindLabel(node){return node.kind==='group'?'탐색 묶음':node.kind==='case'?'적용안':node.kind==='department'?'AX 제안 연결':node.pending?'배정 확인 필요':node.supplement?.length?'상세 검토안 연결':node.kind==='document'?'자료 바로가기':'조직';}
 function edgeKind(parent,child){return child.kind==='document'||[parent.kind,child.kind].some(k=>k==='group'||k==='case')?'related':'organization';}
 module.exports={edgeKind,tree,nodes,parents,ancestry,proposals,documents,departmentByCode,kindLabel};

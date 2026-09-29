@@ -9,7 +9,7 @@ const sections=[
  group('institution','공단 이해',[page('home','TS의 정의부터 읽기','index.html'),page('about','기관의 존재 의의','about.html'),group('laws','법정·수탁업무',[page('legal','전체 업무 지도','legal.html'),page('law-mapping','법령·처·컨셉 매핑','legal/mapping.html'),...legal.groups.map(g=>page('law-'+g.id,g.title,'legal/'+g.id+'.html')),page('legal-sources','법령 근거·확인 범위','legal/sources.html')])],{description:'설립 목적·법적 근거·국민 편익',sourceFiles:['src/data.json']}),
  group('strategy','중장기 전략',[page('vision','2026–2030 경영목표·전략과제','vision.html')],{description:'기관의 방향과 전환 목표',sourceFiles:['src/data.json','src/slide-data.cjs']}),
  group('organization','조직·업무',[page('map','조직 기반 연결지도','index.html?view=map'),page('organization-page','조직도·수행업무','organization.html'),page('ars','대국민 ARS 업무지도','ars.html')],{description:'조직 계통에서 업무와 자료로 이동',sourceFiles:['src/org-map-data.cjs','src/data.json','src/ars.json']}),
- group('solutions','AX 전환 제안',[page('solutions-page','처별 제안 전체보기','solutions.html'),...departments.map(d=>group('dept-'+d.code,d.name,[
+ group('solutions','AX 전환 제안',[page('solutions-page','처별 제안 전체보기','solutions.html'),page('proposal-links','추가 조직·업무 상세제안','proposal-links.html'),...departments.map(d=>group('dept-'+d.code,d.name,[
   page(d.code+'-concept','사업 정의·컨셉',dp(d,0)),page(d.code+'-flow','서비스 흐름',dp(d,1)),
   group(d.code+'-architecture','상세 아키텍처',architecture(d.code+'-arch',dp(d,2)),{kind:'아키텍처',sourceFiles:['src/architecture-v2.json']}),
   group(d.code+'-measurement','정량효과·측정방법',[page(d.code+'-impact','추진 근거·목표',dp(d,0)+'?view=impact'),...[1,2,3].map(n=>page(d.code+'-metric-'+n,'지표 '+n+' · 측정명세',dp(d,0)+'?view=impact&metric='+d.code+'-E0'+n+'&slide='+d.code+'-E0'+n+'-method-1'))],{kind:'정량평가',sourceFiles:['src/impact.json','src/measurement-data.cjs']}),
@@ -25,13 +25,14 @@ const sections=[
 ];
 const alias={'react/index.html':'index.html','10_세대화_통합검토.html':'about.html','11_중장기목표_처별성과.html':'vision.html','16_조직도_수행업무_분석.html':'organization.html','17_조직별_AX_전환제안.html':'solutions.html','inspection.html':'solutions.html'};
 function canonical(route){const [path,q='']=route.split('#')[0].split('?'),s=new URLSearchParams(q);let p=alias[path]||path||'index.html';
- for(const key of ['contract','store','slide','reading','v'])s.delete(key);
+ for(const key of ['contract','store','slide','reading','v','history'])s.delete(key);
  if(p==='index.html'&&s.has('node')){s.delete('node');s.set('view','map');}
  if(p==='architecture.html'){const d=departments.find(d=>d.code===(s.get('unit')||'DF'));if(d){p=dp(d,2);s.delete('unit')}}
  if(s.has('view')&&p.startsWith('처별/'))p=p.replace(/0[123]_[^/]+\.html$/,'01_사업정의.html');
  s.sort();return p+(s.size?'?'+s:'')+(route.includes('#section-detail-')?'#'+route.split('#')[1]:'')
 }
 function sourceFilesFor(route){
+ if(route.startsWith('proposal-links.html'))return ['src/proposal-links.cjs','src/ProposalLinks.jsx','src/proposal-links.css'];
  const [path,q='']=route.split('?'),query=new URLSearchParams(q),slide='src/slide-data.cjs';
  if(path==='legal/mapping.html')return ['src/LawMapping.jsx','src/law-mapping.json','src/law-mapping.cjs','src/data.json'];
  if(path==='associations.html')return ['src/Associations.jsx','src/association-research.json'];
@@ -52,7 +53,7 @@ const records=[];
 function walk(nodes,trail=[],inherited={}){for(const n of nodes){const meta={...inherited,...n},chain=[...trail,n];if(n.children)walk(n.children,chain,meta);else records.push({id:n.id,title:n.title,route:n.to,menuId:chain[0].id,menu:chain[0].title,parentId:trail.at(-1)?.id||null,breadcrumb:chain.map(x=>x.title),organization:meta.organization||null,kind:meta.kind||'안내·분석',sourceFiles:sourceFilesFor(n.to),status:'등록 경로·분류 확인 / 내용 상태는 원문 참조',registeredAt:date})}}
 walk(sections);
 function locate(route){const key=canonical(route);const exact=records.find(r=>r.route===route);if(exact)return exact;const record=records.find(r=>canonical(r.route)===key);if(record)return record;
- const [path]=key.split('?');if(path==='websites.html')return records.find(r=>r.id==='websites');return records.find(r=>r.route.split('?')[0]===path)||null}
+ const [path]=key.split(/[?#]/);if(path==='websites.html')return records.find(r=>r.id==='websites');return records.find(r=>r.route.split(/[?#]/)[0]===path)||null}
 function trailFor(route){const record=locate(route);if(!record)return [];function find(ns,trail=[]){for(const n of ns){if(n.id===record.id)return [...trail,n];if(n.children){const a=find(n.children,[...trail,n]);if(a)return a}}}return find(sections)||[]}
 function firstRoute(n){return n.to||(n.children||[]).map(firstRoute).find(Boolean)}
 module.exports={sections,records,date,canonical,locate,trailFor,firstRoute};

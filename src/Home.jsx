@@ -26,7 +26,7 @@ function Diagram({node}){
   </svg>
   {parent&&<MapNode node={parent} back relation={edgeKind(parent,node)} position={{left:0,width:'20.5%',top:mid}}/>}
   <div className="map-focus" style={{left:focusX+'%',width:focusW+'%',top:mid}} aria-label={'현재 위치: '+node.name}>
-   <span>{node.id==='TS'?'TS · 출발점':kindLabel(node)}</span><h2>{node.name}</h2><p>{node.code?'처별 AX 제안 '+documents(node).length+'개 자료 연결':node.kind==='case'?'부서명이 아닌 업무 적용안':node.children.length?'하위 '+node.children.length+'개 항목 탐색':'기존 조직 자료 연결'}</p>
+   <span>{node.id==='TS'?'TS · 출발점':kindLabel(node)}</span><h2>{node.name}</h2><p>{node.code?'처별 AX 제안 '+documents(node).length+'개 자료 연결':node.kind==='case'?'부서명이 아닌 업무 적용안':node.children.length?'하위 '+node.children.length+'개 항목 탐색':node.supplement?.length?'업무별 상세 검토안·공식 근거 연결':'기존 조직 자료 연결'}</p>
   </div>
   <div className={"map-child-list"+(children.every(c=>relation(c)==='related')?" all-related":"")} aria-label={isDocs?'연결 자료':'하위 조직과 적용안'}>
    {children.map((child,i)=><MapNode key={child.id} node={child} relation={relation(child)} position={{left:childX+'%',width:(99-childX)+'%',top:start+i*72}}/>)}
@@ -40,7 +40,7 @@ function Context({node}){
   <h2>{d?d.title:node.id==='TS'?'기관에서 업무로, 업무에서 제안으로':node.name}</h2>
   <p>{d?d.goal:node.summary}</p>
   {d&&<div className="map-system"><b>기존 업무·시스템 접점</b><p>{d.system}</p></div>}
-  {node.pending&&<p className="map-notice">이 노드는 조직 탐색용. 처별 상세 제안이 아직 연결되지 않은 상태이며, 업무가 없다는 의미와 구분.</p>}
+  {node.pending&&<p className="map-notice">상세 조사·검토 경로 연결. 현행 조직 배정과 전체 분장은 확인 대기. 업무 부재 또는 과업 확정을 의미하지 않음.</p>}
   {node.children.length>0&&<div className="map-resource-links">{links.map((link,i)=><Link key={link.id} to={link.to}><span>{String(i+1).padStart(2,'0')}</span><div><b>{link.name}</b><small>{link.summary}</small></div><ArrowUpRight size={16}/></Link>)}</div>}
   {metrics.length>0&&<div className="map-related"><h3>지표별 측정명세 바로가기</h3>{metrics.map(m=><Link key={m.id} to={d.folder+'/01_사업정의.html?view=impact&metric='+m.id+'&slide='+m.id+'-method-1'}>{m.id} · {m.title}<ArrowUpRight size={14}/></Link>)}<small>목표안과 실측 결과 구분 · 산식·표본·증빙·판정 확인</small></div>}
   {!d&&list.length>0&&node.id!=='TS'&&<div className="map-related"><h3>이 계통의 AX 제안 · {list.length}개 처</h3>{list.map(x=><Link key={x.code} to={nodeUrl(x.code)}>{x.name}<ChevronRight size={14}/></Link>)}</div>}
@@ -55,7 +55,7 @@ export function Home(){
  const matches=words.length?Object.values(nodes).filter(n=>{const d=departmentByCode[n.code];const text=[n.name,n.summary,d?.goal,d?.system,...ancestry(n.id).map(a=>a.name)].join(' ').toLocaleLowerCase();return words.every(w=>text.includes(w));}):[];
  const trail=ancestry(node.id),childNodes=node.children.length?node.children:documents(node);
  return <div className="mindmap-home">
-  <div className="map-home-heading"><div><span className="map-kicker">TS AX 사업기획 · 조직 기반 탐색</span><h1>조직에서 시작하는 연결지도</h1><p>조직을 따라 이동하고, 업무별 제안과 근거를 한 번에 찾는 자료 지도.</p></div><div className="map-top-links"><Link to="websites.html" className="map-guide"><ArrowUpRight size={17}/>처별 공식 홈페이지</Link><Link to="index.html?view=guide" className="map-guide"><FolderTree size={17}/>TS의 정의부터 읽기</Link></div></div>
+  <div className="map-home-heading"><div><span className="map-kicker">TS AX 사업기획 · 조직 기반 탐색</span><h1>조직에서 시작하는 연결지도</h1><p>조직을 따라 이동하고, 업무별 제안과 근거를 한 번에 찾는 자료 지도.</p></div><div className="map-top-links"><Link to="proposal-links.html" className="map-guide">추가 조직·업무 상세제안</Link><Link to="websites.html" className="map-guide"><ArrowUpRight size={17}/>처별 공식 홈페이지</Link><Link to="index.html?view=guide" className="map-guide"><FolderTree size={17}/>TS의 정의부터 읽기</Link></div></div>
   <div className="map-toolbar">
    <div className="map-search-wrap"><label className="map-search"><Search size={19}/><input aria-label="조직·업무·시스템 검색" placeholder="처 이름, 업무 또는 시스템 검색 · 예: 데이터융복합, KADIS" value={query} onChange={e=>setQuery(e.target.value)} onKeyDown={e=>{if(e.key==='Escape')setQuery('');if(e.key==='Enter'&&matches.length===1)navigate(nodeUrl(matches[0].id));}}/>{query&&<button onClick={()=>setQuery('')} aria-label="검색어 지우기"><X size={17}/></button>}</label>
     {words.length>0&&<div className="map-search-results"><p role="status">{matches.length}개 연결 항목{matches.length===0?' · 검색어를 줄이거나 처 이름으로 검색':''}</p><ul>{matches.map(n=><li key={n.id}><Link to={nodeUrl(n.id)}><strong>{n.name}</strong><small>{ancestry(n.id).slice(1,-1).map(a=>a.name).join(' › ')||'TS'} · {kindLabel(n)}</small></Link></li>)}</ul></div>}
@@ -68,7 +68,7 @@ export function Home(){
    <section className="map-board" aria-label="조직 연결지도">
     <header><div>{parents[node.id]?<Link className="map-back" to={nodeUrl(parents[node.id])}><ArrowLeft size={16}/>상위 항목</Link>:<b>TS 조직·업무 탐색</b>}</div><div className="map-legend"><span>━━ 조직 계통</span><span>┄┄ 탐색·자료 연결</span></div></header>
     {outline?<div className="map-outline"><h2>{node.name}</h2><ul>{childNodes.map(child=><li key={child.id}><Link to={child.to||nodeUrl(child.id)}><strong>{child.name}</strong><small>{child.summary}</small><span>{kindLabel(child)} <ChevronRight size={14}/></span></Link></li>)}</ul></div>:<Diagram node={node}/>}
-    <div className="map-caption">{node.children.length?'조직명 클릭 → 하위 항목 이동 · 경로 클릭 → 상위 단계 복귀':'자료명 클릭 → 해당 상세 페이지 이동'}<span>{node.id==='TS'?'연결 범위: 13개 처 상세 제안 · KATRI 3개 적용안':'실선: 조직 계통 / 점선: 탐색 묶음·적용안·자료'}</span></div>
+    <div className="map-caption">{node.children.length?'조직명 클릭 → 하위 항목 이동 · 경로 클릭 → 상위 단계 복귀':'자료명 클릭 → 해당 상세 페이지 이동'}<span>{node.id==='TS'?'연결 범위: 기존 13개 처 · KATRI 3개 적용안 · 미연결 조직 32개 검토경로 보완':'실선: 조직 계통 / 점선: 탐색 묶음·적용안·자료'}</span></div>
    </section>
    <Context node={node}/>
   </div>

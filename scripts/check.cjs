@@ -1,7 +1,7 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..'),out=path.join(root,'dist'),routes=require('../site-routes.json').routes,data=require('../src/data.json'),arch=require('../src/architecture-v2.json');
 let count=0;function check(value,label){assert(value,label);count++}
-check(routes.length===68,'React 경로 68개: 협회·민원 조사 경로 1개 추가');check(new Set(routes).size===routes.length,'중복 경로 없음');check(data.departments.length===13,'처 13개');check(arch.units.length===16,'상세 아키텍처 16개');
+check(routes.length===69,'React 경로 69개: 추가 조직·업무 상세제안 경로 보완');check(new Set(routes).size===routes.length,'중복 경로 없음');check(data.departments.length===13,'처 13개');check(arch.units.length===16,'상세 아키텍처 16개');
 for(const route of routes){const f=path.join(out,route);check(fs.existsSync(f),'페이지 '+route);const text=fs.readFileSync(f,'utf8');check(text.includes('window.__TS_BASE__=new URL('),'상대 기준 경로 '+route);}
 for(const u of arch.units){check(fs.existsSync(path.join(out,'assets/architecture-v2',u.code+'_전체아키텍처.svg')),'아키텍처 '+u.code);check(fs.existsSync(path.join(out,'downloads/architecture-v2',u.code+'_상세아키텍처.md')),'명세 '+u.code);check(u.modules.length===4,'업무 모듈 '+u.code);check(u.modules.every(m=>m.connections.length===m.interfaces.length),'계약 참조 '+u.code);}
 for(const d of data.departments){check(fs.existsSync(path.join(out,'assets/isometric-v1',d.code+'_컨셉도.png')),'컨셉 이미지 '+d.code);check(fs.existsSync(path.join(out,'assets',d.code+'_서비스흐름도.svg')),'흐름 이미지 '+d.code);}
