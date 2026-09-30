@@ -8,7 +8,7 @@ try{
   const route=code==='CL'?departments.find(d=>d.code===code).folder+'/01_사업정의.html':'drt-assurance.html';
   await p.setViewportSize({width:1440,height:1000});await p.goto(base+route);await p.locator(code==='CL'?'[data-revision-department="CL"]':'.drt-hero').waitFor();
   if(code==='CL'){check('CL 기존 6개 장·14개 블록 유지',await p.locator('.r47-part').count()===6&&await p.locator('.r47-detail-block').count()===14);check('CL 기본3종·상세2종',await p.locator('[data-generated-diagram]').count()===3&&await p.locator('[data-detailed-diagram]').count()===2);}
-  else check('DRT 기존 컨셉·전체 포함5종',await p.locator('.drt-block-visual').count()===5);
+  else check('DRT 운영 전환 도식5종',await p.locator('.drt-block-visual').count()===5);
   for(const a of manifest.assets.filter(a=>a.code===code)){
    const img=p.locator('img[src$="'+a.path+'"]');check('이미지 한 번씩 배치 '+code+a.type,await img.count()===1);await img.scrollIntoViewIfNeeded();await img.evaluate(el=>el.decode());
    check('실제 크기·비율 '+code+a.type,await img.evaluate((el,a)=>el.naturalWidth===a.width&&el.naturalHeight===a.height&&Math.abs(el.width/el.height-a.width/a.height)<.03,a));

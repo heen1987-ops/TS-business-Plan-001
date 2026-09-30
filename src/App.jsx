@@ -25,7 +25,7 @@ if(isHome){content=isMap?<Home key={route}/>:<About/>;title=isMap?'조직 기반
 else if(['about.html','10_세대화_통합검토.html'].includes(path)){content=<About/>;title='TS의 존재 의의'}
 else if(['vision.html','11_중장기목표_처별성과.html'].includes(path)){content=<Vision/>;title='2026–2030 방향'}
 else if(['organization.html','16_조직도_수행업무_분석.html'].includes(path)){content=<Organization/>;title='조직과 업무'}
-else if(path==='drt-assurance.html'){content=<DrtAssurance route={route}/>;title='택시·DRT 지원금 정책집행·정산검증'}
+else if(path==='drt-assurance.html'){content=<DrtAssurance route={route}/>;title='택시조합 전화 접수·배차·운영계획'}
 else if(path==='associations.html'){content=<Associations key={route}/>;title='협회·민원 조사와 미제공 기능 재검토'}
 else if(path==='proposal-links.html'){content=<ProposalLinks key={route}/>;title='조직·법정업무·협회 상세제안'}
 else if(path==='registry.html'){content=<Registry key={route}/>;title='자료 등록 원장'}

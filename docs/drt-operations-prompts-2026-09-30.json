@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-30",
+  "generator": "built-in image_gen",
+  "purpose": "사용자 정정에 따른 전화 접수·배차·운영계획 제안의 5종 시각화",
+  "original": {
+    "concept": "Create one finished readable Korean technical proposal diagram, wide 16:9, at least 1672x941 pixels. White background, dark navy titles, teal main flow, amber exception flow, gray supporting systems, crisp flat vector-like PowerPoint design, generous whitespace, straight legible arrows. No TS or other actual logos, no invented figures or effectiveness percentages, no audit-as-main-theme. Korean labels below must be legible. This is a proposed on-premise taxi DRT operation system, not implemented performance. Footer exact: '제안 설계 · 실제 운영·연계·성능 검증 전'. Use case: stylized-concept. Title '전화 한 통에서 배차·운영계획까지'. Make restrained 2.5D isometric concept map with 5 connected islands, large readable captions. LEFT elderly caller with ordinary phone '전화 이용 유지'; MIDDLE large taxi association desk with coordinator and NOA '통화 이해·접수 자동화' (phone+keyboard) and taxi fleet '조건 기반 배차·기사 수락'; RIGHT rider picked up by appropriate taxi '배차 확정·운행 확인'; TOPRIGHT planning calendar and region map '일·주간 운영계획 최적화'; BOTTOM small supporting island '운행 후 정산 검증'. Arrows caller→NOA→fleet→rider, actual operations feedback→planning→fleet; exceptional cases to human desk labelled '불명·배차 불가 시 담당자'. One small caption 'NOA + 배차 최적화 엔진 / Grantee는 후속 정산 지원'. Human and taxis meaningful, no robots, no decorative megacity.",
+    "service": "Create one finished readable Korean technical proposal diagram, wide 16:9, at least 1672x941 pixels. White background, dark navy titles, teal main flow, amber exception flow, gray supporting systems, crisp flat vector-like PowerPoint design, generous whitespace, straight legible arrows. No TS or other actual logos, no invented figures or effectiveness percentages, no audit-as-main-theme. Korean labels below must be legible. This is a proposed on-premise taxi DRT operation system, not implemented performance. Footer exact: '제안 설계 · 실제 운영·연계·성능 검증 전'. Use case: infographic-diagram. Title '택시조합 DRT · 서비스 흐름'. Four horizontal swimlanes labelled '이용자', 'NOA·배차 엔진', '택시기사', '조합 담당자'. Left-to-right 6 numbered columns '① 전화 접수', '② 조건 확인', '③ 배차 제안', '④ 수락·확정', '⑤ 운행 확인', '⑥ 계획·정산'. User says '병원에 가고 싶어요'→AI receives via '음성·대리 입력'→'출발·도착·시간·도움 확인' with arrow to user's '다시 듣고 확인'. AI '차량·시간·구역 대조' then '후보 배차 요청'→driver '수락 또는 거절'. Driver accept→AI '예약 잠금·배차 확정'→user '차량·도착 안내'. Driver reject/timeout amber loop to '다음 후보·재계획'; if no feasible candidate amber to human '예외 확인·대안 안내', then approved changed conditions backtoAI. Driver '승하차·종료 기록'→AI '실적 확인'→two endboxes '다음 운영계획 반영' and '정산 근거 전달'. Human lane label '운영정책 사전 승인 / 예외·불만·불가 대응'. No arrow bypassing rider condition confirmation or driveraccept. Notes bottom '일반건: 승인된 운영정책 범위에서 자동 처리' and '접수·후보 제시·기사 수락·배차 확정의 상태 구분'.",
+    "overall": "Create one finished readable Korean technical proposal diagram, wide 16:9, at least 1672x941 pixels. White background, dark navy titles, teal main flow, amber exception flow, gray supporting systems, crisp flat vector-like PowerPoint design, generous whitespace, straight legible arrows. No TS or other actual logos, no invented figures or effectiveness percentages, no audit-as-main-theme. Korean labels below must be legible. This is a proposed on-premise taxi DRT operation system, not implemented performance. Footer exact: '제안 설계 · 실제 운영·연계·성능 검증 전'. Use case: infographic-diagram. Title '택시조합 DRT · 전체 아키텍처'. Layered boxes with clear data arrows. TOP channels '전화·상담원 입력', '기사 앱', '조합 운영 화면', '지자체 계획·정산'. Main large boundary '기존 로컬 서버 · 논리 구성안'. Inside layer1 '음성·접수 게이트웨이' sublabels '교환기 연계 / STT·TTS / 사람 전환' and 'NOA 업무 수행' sublabels '조건 파악 / 확인 질문 / 예외·재계획'. Layer2 equal modules '배차 최적화 엔진' ('시간창·차량·구역 제약'), '운영계획 엔진' ('수요·근무·대기거점'), '배차 상태·실행 통제' ('잠금·수락·멱등성'). Layer3 stores '요청·배차·운행 원장', '정책·근거 저장소', '가명 집계·평가 기록'. SMALL sidebox 'Grantee 정산 검증' labelled '운행 후 정책·증빙 확인', connected only to actualtriprecords+policy and municipalaccountadapter. OUTSIDE right '기존 DRT·지도·가용 차량 정보' attached via '허용된 연계 어댑터'. Bottom band '권한 분리 · 개인정보 최소화 · 실행 이력 · 장애 시 전화 업무 유지'. Footer note '음성·최적화·API 연계는 추가 구현·검증 범위'. NO cloudLLM,noCV,no autopayment,nopretendTSdatabasesinsidephysicalserver.",
+    "data": "Create one finished readable Korean technical proposal diagram, wide 16:9, at least 1672x941 pixels. White background, dark navy titles, teal main flow, amber exception flow, gray supporting systems, crisp flat vector-like PowerPoint design, generous whitespace, straight legible arrows. No TS or other actual logos, no invented figures or effectiveness percentages, no audit-as-main-theme. Korean labels below must be legible. This is a proposed on-premise taxi DRT operation system, not implemented performance. Footer exact: '제안 설계 · 실제 운영·연계·성능 검증 전'. Use case: infographic-diagram. Title '택시조합 DRT · 데이터 흐름'. Top inputs four boxes '전화·대리 접수', '정책·이용 조건', '차량·기사 가용상태', '지도·소요시간'. Main spine six numbered boxes: '① 요청 구조화' subtitle '출발·도착·시간·도움'; '② 조건 검증' subtitle '재확인·자격·구역'; '③ 배차 계산' subtitle '가능 후보·판본'; '④ 기사 수락·예약 잠금' subtitle '유효 요청·중복 방지'; '⑤ 운행 실적' subtitle '승하차·종료·취소'; '⑥ 실적 활용'. Inputs connected to proper stages. A separate slim protected bottom-left store '식별정보 보호영역' and '이용자키·요청ID' connected to①, actualphoneaddressstoredthere. Spine①→②→③→④→⑤→⑥. Large branch from⑥ to lower middle '가명 집계 → 수요·차량 운영계획' and small lower right '청구·정산 대사 → 담당 승인'. Loop planning→③label '다음 운영안'. Footer keyline '요청ID → 제안ID → 배차ID → 운행ID → 청구ID / 계획판본·규칙판본'. Explicit notes '전화번호만으로 본인·위치 확정 금지', 'GPS는 허용된 운행·예약 범위에서만 활용', '실제 운행 기록과 정산 확정의 구분'.",
+    "runtime": "Create one finished readable Korean technical proposal diagram, wide 16:9, at least 1672x941 pixels. White background, dark navy titles, teal main flow, amber exception flow, gray supporting systems, crisp flat vector-like PowerPoint design, generous whitespace, straight legible arrows. No TS or other actual logos, no invented figures or effectiveness percentages, no audit-as-main-theme. Korean labels below must be legible. This is a proposed on-premise taxi DRT operation system, not implemented performance. Footer exact: '제안 설계 · 실제 운영·연계·성능 검증 전'. Use case: infographic-diagram. Title '택시조합 DRT · 세부 실행 아키텍처'. Left-to-right main 7 modules: ① '접수·확인' ② 'NOA 계획' ③ '제약·최적화' ④ '실행 게이트' ⑤ '기사 수락' ⑥ '배차 확정·운행' ⑦ '결과 대사'. Numbered arrows connect all. UNDER③ two helpers '규칙 검증' and '시간·차량 최적화', both support③. UNDER④ label '사전 승인 정책 / 최신 상태 / 요청ID·판본 / 단일 예약 잠금'. ④→⑤ is provisionalrequest, ⑤→⑥ labelled '수락 + 유효 잠금'. Amber arrow driverrefusal from⑤ to② '거절·시간초과'. ③ infeasible OR④unknownpermissions→ separate lower box '조합 담당자 예외 처리'→②label '조건 재확인'. ⑦→② amber '불일치·변경 재계획'. Rightbottom smallsecondary outputs '일·주간 운영계획' and 'Grantee 정산 검증'. Thin foundation '상태 원장 / 원문·판본 / 권한·이력 / 허용 어댑터'. Separate tiny right box '기존 DRT·기사 앱' connected via adapter labels '요청·회신'. Notes '음성·최적화는 전용 도구, LLM이 임의 계산하지 않음', '응답 유실: 상태 조회 후 재처리', '일반건은 정책 내 자동화, 예외는 사람 연결'. No per-triphumanapproval onnormalspine; financialapproval atsettlementonly."
+  },
+  "edits": {
+    "concept": [
+      "참조 2.5D 아이소매트릭 컨셉 유지. 중요한 의미 수정: 정산검증에서 운영계획으로 이어지는 오른쪽 회색 경로와 '정산결과 운영기초데이터제공' 라벨 제거. 대신 실제 운행확인 자동차/병원영역에서 오른쪽 상단 운영계획으로 올라가는 청록 화살표에 '운행·미배차·취소 실적' 표시. 배차후보단계에서 운영계획으로 가는 '미충족 요청' 짧은 청록화살표도 추가해서 완료된운행만으로 수요를평가하지않음 보여주기. 상단운영계획→중앙배차계산으로 돌아오는 화살표 하나는 '승인된 운영계획 반영'. 같은 방향중복선 정리. '음성 이해'란 로컬STT/TTS와 NOA텍스트이해결합이라는 짧은표기 '음성 도구 + NOA'. 중앙NOA '음성 이해·접수'는 '요청 이해·접수'로 교체. 정산은 아래별도 운행후지원으로 유지, 사전배차의문턱아님. 다이어그램스타일 일관, 흰배경·선명한한국어·여백유지."
+    ],
+    "overall": [],
+    "service": [
+      "참조 도표를 정교하게 수정. 색상·가독성·16:9 기업 기술제안 도표 스타일 유지. 핵심 오류 수정: '후보 배차 요청'에서 '예약 잠금·배차 확정'으로 직접 가는 수평 화살표 완전히 제거. 반드시 후보 배차 요청 → 아래 기사 '수락 또는 거절' → 수락일 때만 예약 잠금·배차 확정 순서. 이미 있는 두 연결은 유지. '출발·도착·시간·도움 확인'과 이용자 '다시 듣고 확인' 사이 양방향 확인 화살표. 예외 확인에서 배차 계산으로 바로 가는 점선 및 재계획에서 변경조건승인으로 직접가는 점선 제거. 담당자의 변경 조건 승인에서 왼쪽 '출발·도착·시간·도움 확인'으로 돌아오는 하나의 명확한 주황 점선으로 연결. 다음 후보 재계획은 차량·시간·구역 대조로 돌아가되 조건은 유지. '조건 재확인' 루프 표시. 의미없는 영문없음. 나머지 그대로."
+    ],
+    "data": [
+      "참조 데이터 흐름도 정교수정. ⑤ 운행실적 제목을 '운영 이벤트'로, 부제를 '승하차·취소·미배차·포기'로 교체. ⑥실적활용→계획주황선 라벨을 '접수·미충족·운행 집계'와 작은줄 '직접 식별자 분리·권한 통제'로 교체. '가명화된 운행데이터 (식별정보 제외)'는 삭제. 좌하단 파란 라벨 이용자키·요청ID 밑 문구 '식별정보 미포함'을 '직접 식별자 분리'로 변경. 보호영역의 전화·주소 저장과 이용자키 연결 유지. 계획상자 '가명 집계 → 수요·차량 운영계획'을 '권한별 집계 → 수요·차량 운영계획'으로 변경. 계획 피드백 화살표는 '승인된 다음 운영안'. 원장 key·승인구분·번호GPS금지 등 나머지유지. 법령확정주장없이 논리설계 도표로 표시. 한글 선명, 오버랩없음.",
+      "참조이미지의 모든내용배치 유지, 정확히 두 라벨만 바꾸기. 현재 ⑥실적활용 아래 오른쪽 정산으로 가는 세로 주황선 옆 '접수·미충족·운행 집계 / 직접 식별자 분리·권한 통제'는 잘못된 위치. 그 라벨을 왼쪽 수요·차량 운영계획으로 향하는 ㄱ자 주황선의 수평구간 위로 옮기기. 오른쪽 정산으로 내려가는 세로선에는 '확인된 운행·청구 근거' 라벨. 미배차는 정산청구대상아니고 수요계획자료임. 라벨 위치와내용외모두변경금지."
+    ],
+    "runtime": [
+      "참조 실행 아키텍처 유지하며 정확성 수정. ② NOA 계획의 글머리 항목을 '요청 맥락·조건 해석', '추가 확인·도구 선택', '변경 영향·재계획'으로 교체. ③은 검증된 규칙·최적화 도구의 계산. 영문 provisionalrequest driverrefusal unknownpermissions infeasible 를 전부 제거하고 '검증된 요청', '거절·시간초과', '권한 불명', '실행 불가'로만 표시. ③ 실행불가 화살표는 반드시 ③ 제약·최적화에서 아래 조합 담당자 예외처리로 가는 방향. 사람에서③로 직접 되돌아가지 않음. 조건 재확인루프는 사람→②만. ④ 요건 마지막 항목 '차량·시간창 잠금'. ⑤ 수락·응답처리 후⑥ 확정. 우하단 Grantee 정산검증 상자 마지막 항목 '검토안·권한자 승인 연계'로 교체. Grantee가 최종 승인하는 표현 없음. 기존 전체 제안설계·기존서버·응답유실은상태조회원칙 유지. 한글 선명, 도표겹침없음.",
+      "참조이미지의 모든내용과배치 그대로, 정확히 두군데만 수정. (1) 상단 주황선 글자의 '(driverrefusal)' 제거. '거절·시간초과'만 남김. (2) ③ 제약·최적화와 조합 담당자 사이 주황 대각선 '실행 불가'는 단방향. ③상자에 닿은 왼쪽 위 화살촉 제거하고 담당자상자에 들어가는 오른쪽아래 화살촉만 유지. 실행불가는③에서 사람으로 내려가는것. 나머지선,색,글자 변경금지."
+    ]
+  },
+  "outputs": [
+    {
+      "type": "concept",
+      "path": "assets/generated47/DRT_concept_v3.png"
+    },
+    {
+      "type": "overall",
+      "path": "assets/generated47/DRT_overall_v3.png"
+    },
+    {
+      "type": "service",
+      "path": "assets/generated47/DRT_service_v3.png"
+    },
+    {
+      "type": "data",
+      "path": "assets/generated47/DRT_data_v3.png"
+    },
+    {
+      "type": "runtime",
+      "path": "assets/generated47/DRT_runtime_v3.png"
+    }
+  ]
+}

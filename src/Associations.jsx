@@ -6,7 +6,7 @@ const gap=data.gap_review;
 const news=data.news_research;
 import {DrtRelated} from './DrtAssurance.jsx';
 import {AssociationProposalLinks} from './ProposalLinks.jsx';
-export function AssociationUpdate(){return <aside className="assoc-home-link" aria-label="최신 조사"><Link to="associations.html#news-research">{news.title}</Link><br/>{news.date} · {news.cases.length}개 사례의 불편·기존 대응·남은 확인사항<br/><Link to="proposal-links.html">미연결 조직·법정업무 상세제안 보완</Link><br/><Link to="drt-assurance.html">택시·DRT 지원금 정책집행·정산검증 AX 추가</Link></aside>}
+export function AssociationUpdate(){return <aside className="assoc-home-link" aria-label="최신 조사"><Link to="associations.html#news-research">{news.title}</Link><br/>{news.date} · {news.cases.length}개 사례의 불편·기존 대응·남은 확인사항<br/><Link to="proposal-links.html">미연결 조직·법정업무 상세제안 보완</Link><br/><Link to="drt-assurance.html">택시조합 전화 접수·배차·운영계획 AX 추가</Link></aside>}
 const sectors=[...new Set(data.items.map(x=>x.sector))];
 const bySource=Object.fromEntries(data.sources.map(x=>[x.id,x]));
 const list=values=><ul>{values.map((v,i)=><li key={i}>{v}</li>)}</ul>;
