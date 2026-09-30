@@ -1,0 +1,89 @@
+{
+  "date": "2026-09-29",
+  "generator": "built-in image_gen",
+  "initial": [
+    {
+      "code": "CL",
+      "type": "data",
+      "title": "안전운임 신고 · 데이터 흐름",
+      "prompt": "한국어 공공기관 제안서에 삽입할 전문 다이어그램 이미지. 가로 16:9, 가능한 고해상도 2048x1152. 흰 바탕, 진한 남색 제목, 청록색 데이터/시스템, 보라색 AI, 황토색 사람 판단. 평면 PPT 도형 구조. 한글 글자는 크고 선명한 고딕, 본문 라벨 2줄 이내, 많은 장식·사진·아이소매트릭·아이콘 금지. 빈 공간을 확보하고 연결선이 글자·상자를 통과하지 않게. 한 그림에 지정 노드만 배치하고 임의의 기능·숫자·퍼센트 추가 금지. 모든 데이터와 구성은 설계 제안이며 실제 구축 완료 아님. 표시할 글자는 따옴표 내용을 정확하게 사용. 화살표 방향이 무엇의 이동인지 라벨로 구분. 제목 \"기후탄소물류처 | 안전운임 신고 데이터 흐름\". 부제 \"거래·증빙·고시 판본을 사건 단위로 연결\". 4개 세로 열로 좌→우 진행. 1열 헤더 \"원천 자료\", 상자3개 \"신고·거래 증빙\\n계약·배차·지급·공제\", \"거래일 적용 고시\\n원문·판본·효력기간\", \"신고자 식별정보\\n연락처·계좌 분리\". 마지막식별상자는 자물쇠 작은표시 허용, 가운데업무영역으로는 \"대체키만\" 화살표. 2열 헤더 \"사건 구성\", 상자 \"① 거래별 사실표\\n사건ID·거래ID·근거위치\" 다음아래 \"② 근거·판본 연결\\n확정·미확인·상충 분리\". 신고자료는①,고시는②로연결. 3열 헤더 \"계산·담당 검토\", 상자 \"③ 운임·차액 계산\\n확정 조건 + 검증된 산식\", 아래 \"④ 검토·승인 기록\\n계산근거·보완·통보 범위\". ②→③→④.③에서미확정조건점선은②로돌아가 \"보완 후 재계산\". 4열 헤더 \"공식 결과\", 상자 \"⑤ 승인된 통보 묶음\\n대상·수신기관·승인ID\", 아래 \"⑥ 접수·후속 결과\\n수신확인·추가질의·종결근거\". ④→⑤→⑥ 명확한단방향.⑥→②가 필요없음. 맨하단 가로 공통대장3개 작은박스 \"원문·변경 이력\" \"사건·계산 판본\" \"승인·전송·회신 이력\". ④⑤⑥에서아래기록가는가는선은없어도좋음. 하단 주의띠 \"LLM은 금액 계산·최종 위반 확정·과태료 부과를 수행하지 않음\". 작은푸터 \"논리 데이터 설계안 · 원천별 제공·보존·권한 확인 필요\". 충분한글자크기로그리기."
+    },
+    {
+      "code": "CL",
+      "type": "service",
+      "title": "안전운임 신고 · 서비스 흐름",
+      "prompt": "한국어 공공기관 제안서에 삽입할 전문 다이어그램 이미지. 가로 16:9, 가능한 고해상도 2048x1152. 흰 바탕, 진한 남색 제목, 청록색 데이터/시스템, 보라색 AI, 황토색 사람 판단. 평면 PPT 도형 구조. 한글 글자는 크고 선명한 고딕, 본문 라벨 2줄 이내, 많은 장식·사진·아이소매트릭·아이콘 금지. 빈 공간을 확보하고 연결선이 글자·상자를 통과하지 않게. 한 그림에 지정 노드만 배치하고 임의의 기능·숫자·퍼센트 추가 금지. 모든 데이터와 구성은 설계 제안이며 실제 구축 완료 아님. 표시할 글자는 따옴표 내용을 정확하게 사용. 화살표 방향이 무엇의 이동인지 라벨로 구분. 제목 \"기후탄소물류처 | 안전운임 신고 서비스 흐름\". 부제 \"접수 → 사실 구성 → 계산 → 검토·통보 → 수신 확인\". 4개 가로 스윔레인: 맨위 \"신고자\", 그아래 \"NOA·검증된 계산도구\", 그아래 \"신고센터 담당자\", 마지막 \"관할관청\". 7개 번호상자의 주흐름은 왼쪽→오른쪽 지그재그. ① 맨위왼쪽 \"신고·증빙 제출\". ①→②두번째레인왼쪽 \"거래 사실·누락 정리\". ②→③같은레인가운데 \"확정 조건별 운임 계산\". ③→④셋째레인가운데 \"사실확인·쟁점 검토\". ④에서 위쪽③으로 돌아가는 점선 \"보완·조건 변경\". ②에서 맨위①로돌아가는점선 \"부족 자료 확인\". ④→⑤셋째레인오른쪽 \"통보 범위·수신기관 승인\". ⑤→⑥두번째레인맨오른쪽 \"승인된 통보·수신 대사\". ⑥→⑦마지막레인맨오른쪽 \"관할기관 접수·후속 판단\". 정상흐름은⑤승인절대우회금지. ⑦→⑥짧은왼쪽복귀화살표 \"접수 회신\", 중복된선말고다른평행선2개로. 마지막레인왼쪽2/3에 설명만 \"과태료 부과 등 공식 판단: 관할 권한자\". 하단강조띠 \"통보 요청 ≠ 접수 확인 ≠ 과태료 처분\". 작은푸터 \"설계 제안 · 통보·수신 연계와 세부 위탁 범위는 확인 후 확정\". 같은상자두번그리지말고고유7개단계만. 불필요한화살표추가금지."
+    },
+    {
+      "code": "CL",
+      "type": "runtime",
+      "title": "안전운임 신고 · 세부 실행 아키텍처",
+      "prompt": "한국어 공공기관 제안서에 삽입할 전문 다이어그램 이미지. 가로 16:9, 가능한 고해상도 2048x1152. 흰 바탕, 진한 남색 제목, 청록색 데이터/시스템, 보라색 AI, 황토색 사람 판단. 평면 PPT 도형 구조. 한글 글자는 크고 선명한 고딕, 본문 라벨 2줄 이내, 많은 장식·사진·아이소매트릭·아이콘 금지. 빈 공간을 확보하고 연결선이 글자·상자를 통과하지 않게. 한 그림에 지정 노드만 배치하고 임의의 기능·숫자·퍼센트 추가 금지. 모든 데이터와 구성은 설계 제안이며 실제 구축 완료 아님. 표시할 글자는 따옴표 내용을 정확하게 사용. 화살표 방향이 무엇의 이동인지 라벨로 구분. 제목 \"기후탄소물류처 | 세부 실행 아키텍처\". 부제 \"NOA의 계획·검증과 승인된 통보 실행의 분리\". 큰연회색경계 \"기존 로컬 서버 · 논리 구성안\". 내부상단가로4상자 \"업무 화면\\n사건·근거·계산표\" → \"사건·판본 관리\\n상태·변경 감지\" → \"과업 계획기\\n누락 확인·검토 계획\" → \"검증기\\n근거·조건·도구 검사\". 내부중간가로4상자 순서오른쪽부터왼쪽으로는헷갈리므로두번째줄도좌→우, 첫줄검증기에서두번째줄첫상자에왼쪽바깥둘레로선연결. 두번째줄 \"담당 검토·승인\\n대상·행위·판본 확정\" → \"실행 통제\\n권한·승인·중복키 재검사\" → \"원천 어댑터\\n승인된 통보·결과 조회\" → \"결과 대사·종결\\n접수 확인·잔여 과업\". 결과대사에서 상단과업계획기로점선 \"새 근거·미완료 → 재계획\". 하단3개지원상자 \"근거·고시 저장소\\n원문·적용기간·권한\" \"로컬 LLM 게이트웨이\\nNOA의 문서 이해·추론\" \"검증된 계산도구\\n입력·고시·산식·차액\". 첫2개는과업계획기·검증기에짧은점선참조,계산도구도검증기점선. 서버경계밖오른쪽좁은영역상자 \"기존 신고 업무·관할 연계\\n실제 제공 경로 확인 전\", 원천어댑터와왕복두단방향선 \"요청\" \"결과\". 맨아래공통제어띠 \"역할·사건별 권한 | 감사·버전 기록 | 장애·중복 복구\". 주석 \"응답 유실: 결과 조회 후 재시도 판단 / 입력 변경: 승인 재검토\". 푸터 \"설계 제안 · 신규 인프라 구매 제외 · 자동 과태료 처분 없음\". 11개내부박스읽기좋게 넓은각박스2줄만."
+    },
+    {
+      "code": "DRT",
+      "type": "data",
+      "title": "DRT 지원금 · 데이터 흐름",
+      "prompt": "한국어 공공기관 제안서에 삽입할 전문 다이어그램 이미지. 가로 16:9, 가능한 고해상도 2048x1152. 흰 바탕, 진한 남색 제목, 청록색 데이터/시스템, 보라색 AI, 황토색 사람 판단. 평면 PPT 도형 구조. 한글 글자는 크고 선명한 고딕, 본문 라벨 2줄 이내, 많은 장식·사진·아이소매트릭·아이콘 금지. 빈 공간을 확보하고 연결선이 글자·상자를 통과하지 않게. 한 그림에 지정 노드만 배치하고 임의의 기능·숫자·퍼센트 추가 금지. 모든 데이터와 구성은 설계 제안이며 실제 구축 완료 아님. 표시할 글자는 따옴표 내용을 정확하게 사용. 화살표 방향이 무엇의 이동인지 라벨로 구분. 제목 \"택시·DRT 지원금 | 데이터 흐름도\". 부제 \"정책·자격·운행·청구·정산을 같은 사건으로 연결\". 4개세로열 좌→우. 1열 \"기존 원천\" 아래상자3개 \"지자체 정책·자격\\n시행판본·자격기간\", \"DRT·운행·청구\\n예약·운행·금액·취소\", \"개인 식별정보\\n전화·주소는 별도 보관\". 마지막식별상자에서2열로 \"가명 연결키만\" 화살표. 2열 \"연결·정형 대사\" 아래 \"① 사건 연결\\n사업·이용자키·운행·청구ID\" →아래 \"② 정책·금액 대사\\n판본·한도·기간·정정\". 원천정책자격은②로 원천운행청구는①로. 3열 \"CCK 근거 검증\" 아래 \"③ Grantee\\n정책·증빙·소명 대조\" →아래 \"④ NOA 검토 사건\\n확인 질문·승인·판단 이력\". ②→③. 4열 \"공식 원장·결과\" 아래 \"⑤ 승인된 정산안\\n요청ID·승인판본\" →아래 \"⑥ 원장 결과 대사\\n지급·정정·환수 상태 확인\". ④→⑤→⑥. ⑥에서④로점선복귀 \"반영 불일치 → 재확인\". 맨하단가로흰띠 \"사건ID로 연결 · 원문 출처·발생/수집시각·정정버전 보존\". 마지막강조띠 \"지자체별 권한 분리 | 가명정보도 접근통제 | GPS·NFC 단독 탑승 확정 금지\".푸터 \"설계 제안 · 실제 API·이용근거·보존기간 확인 필요\". 기관원장입출력별명확. 장식금지."
+    },
+    {
+      "code": "DRT",
+      "type": "service",
+      "title": "DRT 지원금 · 서비스 흐름",
+      "prompt": "한국어 공공기관 제안서에 삽입할 전문 다이어그램 이미지. 가로 16:9, 가능한 고해상도 2048x1152. 흰 바탕, 진한 남색 제목, 청록색 데이터/시스템, 보라색 AI, 황토색 사람 판단. 평면 PPT 도형 구조. 한글 글자는 크고 선명한 고딕, 본문 라벨 2줄 이내, 많은 장식·사진·아이소매트릭·아이콘 금지. 빈 공간을 확보하고 연결선이 글자·상자를 통과하지 않게. 한 그림에 지정 노드만 배치하고 임의의 기능·숫자·퍼센트 추가 금지. 모든 데이터와 구성은 설계 제안이며 실제 구축 완료 아님. 표시할 글자는 따옴표 내용을 정확하게 사용. 화살표 방향이 무엇의 이동인지 라벨로 구분. 제목 \"택시·DRT 지원금 | 서비스 흐름도\". 부제 \"정책 적용 → 청구 검증 → 소명·승인 → 정산 결과 확인\". 넓은4가로스윔레인. 위부터 \"이용자·운수사업자\", \"기존 시스템·규칙\", \"Grantee·NOA\", \"지자체 담당자\". 고유7개상자. ①맨위왼쪽 \"이용·운행·청구 제출\". ①→②둘째레인왼쪽 \"정책·자격·금액 대사\". ②→③셋째레인가운데왼쪽 \"Grantee 근거 검토\\n일치·불일치·자료 부족\". ③→④셋째레인가운데오른쪽 \"NOA 확인 과업\\n추가 질문·소명·재검토\". ④→⑤넷째레인가운데오른쪽 \"담당자 사실 확인\\n정상 사유·오류 판단\". ⑤→⑥넷째레인오른쪽 \"권한자 처리 승인\\n정상·정정·추가 조사\". ⑥→⑦둘째레인맨오른쪽 \"기존 정산 반영·대사\\n실제 결과 확인\". 모든주화살표단방향. ④에서①로 상단외곽점선 \"허용된 보완 요청\", ①에서②경로로회신재사용설명 \"새 자료도 재대조\". ⑤에서④로짧은점선 \"새 근거·미확인\". ⑦에서④로점선 \"반영 미확인·불일치\". 선겹치지않게공간. 그림아래부연3박스 \"자료 부족 → 확인 대기\" \"정상 반복 → 사유 기록\" \"처리 완료 → 원장 결과 확인\". 강조띠 \"반복 이용 ≠ 부정 확정 | 검토 대기 ≠ 지급 보류\". 푸터 \"설계 제안 · 자동 지원중단·환수 없음 · 보류는 별도 권한·사유·기한 확인\". 조회된일치도사람검토·승인경유하도록."
+    },
+    {
+      "code": "DRT",
+      "type": "runtime",
+      "title": "DRT 지원금 · 세부 실행 아키텍처",
+      "prompt": "한국어 공공기관 제안서에 삽입할 전문 다이어그램 이미지. 가로 16:9, 가능한 고해상도 2048x1152. 흰 바탕, 진한 남색 제목, 청록색 데이터/시스템, 보라색 AI, 황토색 사람 판단. 평면 PPT 도형 구조. 한글 글자는 크고 선명한 고딕, 본문 라벨 2줄 이내, 많은 장식·사진·아이소매트릭·아이콘 금지. 빈 공간을 확보하고 연결선이 글자·상자를 통과하지 않게. 한 그림에 지정 노드만 배치하고 임의의 기능·숫자·퍼센트 추가 금지. 모든 데이터와 구성은 설계 제안이며 실제 구축 완료 아님. 표시할 글자는 따옴표 내용을 정확하게 사용. 화살표 방향이 무엇의 이동인지 라벨로 구분. 제목 \"택시·DRT 지원금 | 세부 실행 아키텍처\". 부제 \"Grantee 검증 + NOA 과업 실행 + 공식 원장 결과 대사\". 큰서버경계 \"기존 로컬 서버 · 지자체별 자료·권한 분리\". 위에서아래 3개행, 행내좌→우. 상단업무행4상자 \"검토 업무 화면\\n청구·근거·소명\" → \"사건·판본 관리\\n청구ID·규칙버전\" → \"NOA 과업 계획\\n확인·도구·재계획\" → \"Grantee 검증\\n정책·증빙·예외\". 2행승인실행행4상자 \"담당자 검토·승인\\n정상·정정·범위 확정\" → \"실행 통제\\n권한·승인·중복키\" → \"정산 원장 어댑터\\n승인안 등록·상태 조회\" → \"결과 대사·종결\\n반영 확인·잔여 과업\". 1행Grantee에서2행담당자검토로바깥좌측통로 화살표 \"검토안\". 2행결과대사에서1행NOA로점선 \"미확인·변경 → 재계획\". 3행지원상자3개 \"정책·증거 저장소\\n원문·판본·가명 사건\" \"검증된 규칙 엔진\\n자격·한도·금액·중복\" \"로컬 LLM 게이트웨이\\n허용 모델·입출력 통제\". 정책저장소와규칙엔진이Grantee에점선입력,로컬LLM이NOA/Grantee에점선지원; 너무많은선금지밑부연문참조가능. 서버경계밖오른쪽2작은상자 \"기존 DRT·자격 원장\\n승인 범위 조회\"와 \"공식 정산 원장\\n실제 처리상태\". 어댑터와공식정산왕복2화살표명시 \"요청\" \"결과\". 서버바닥공통띠 \"역할·사건별 접근통제 | 감사·처리 이력 | 응답 유실 복구\". 마지막주석 \"쓰기 직전 승인·원장버전 재검사 · 미확인 결과를 성공으로 처리하지 않음\".푸터 \"설계 제안 · 신규 인프라 투자 0원 조건 · 자동 지급 제한·환수 제외\". 과도한별도제품·비전감시·CCTV는추가금지."
+    }
+  ],
+  "corrections": [
+    {
+      "code": "CL",
+      "type": "data",
+      "fix": "Keep all typography and boxes. Correct the DATA dependency arrows carefully: draw solid ① 거래별 사실표 -> ② 근거·판본 연결. Keep ② -> ③, and ③ -> ④. REMOVE the horizontal arrow from ④ 검토·승인 기록 straight to ⑥ 접수·후속 결과. Instead draw a clear connector from ④ to ⑤ 승인된 통보 묶음 with arrowhead at ⑤, label 승인된 통보 데이터. Keep ⑤ -> ⑥. Thus ALL six numbered boxes connect as 1 to2 to3 to4 to5 to6. No orphan numbered box, no bypass. Remove the dangling ② to① dashed 보완후재계산 line and instead add short return dashed connector ④ to① labelled 새 증빙·조건 보완. Do not alter other content."
+    },
+    {
+      "code": "DRT",
+      "type": "data",
+      "fix": "Keep all text and boxes. Correct DATA dependency arrows: the output of ② 정책·금액 대사 must go to ③ Grantee, NOT directly to④. Route a clean right/up elbow with endpoint at③, label 대조 결과. Keep③->④. REMOVE the horizontal ④->⑥ shortcut. Only④->⑤ and⑤->⑥. Relabel the ④->⑤ connector 담당자 승인 기록; make the⑤ title 승인된 정산 초안, its smaller text 요청ID·승인판본. Keep⑥->④ dashed recheck. Exactly1->2->3->4->5->6. No bypass and no orphan."
+    },
+    {
+      "code": "CL",
+      "type": "runtime",
+      "fix": "Redraw the existing CL architecture preserving all Korean labels and colors. Crucial correction: ALL source-system access arrows must start/end at the 어댑터 box, NOT 결과 대사. The result reconciler consumes the adapter's returned data. And the validated plan/review output must connect to 담당자 검토·승인; remove the misleading direct 업무 화면->담당 승인 shortcut. Display a clear prominent numbered execution spine: 1 사건·판본 관리 -> 2 NOA 과업 계획 -> 3 검증기 -> 4 담당자 검토·승인 -> 5 실행 통제 -> 6 원천 어댑터 -> 7 결과 대사·종결. Step3 검증기 근거·조건·도구 검사. Step6 승인된 통보·결과 조회. External official record boxes are connected only to the adapter, in both directions labelled 승인 범위 요청 and 실제 결과. The adapter then sends actual results to reconciler. Reconciler has a dashed backloop to planner labelled 미확인·새 근거 재계획. Existing local LLM, evidence store and deterministic calculation tools form a separate shared supporting layer labelled 실행 도구, with simple connectors to plan/verification, not adapters. Numbered spine arranged in spacious two-row snake with no crossing edges, row1 left to right 1 2 3, row2 right to left 4 5 6 7 if convenient; may redesign positions to make every correct edge readable. DO NOT bypass human approval for writes. No orphan boxes. Must connect 3 ->4 clearly. Make external boxes separate from local boundary and preserve local server/zero infrastructure statement, explicit logical design status, auth/audit/recovery controls. Critical exact topology more important than preserving original placement."
+    },
+    {
+      "code": "DRT",
+      "type": "runtime",
+      "fix": "Redraw the existing DRT architecture preserving all Korean labels and colors. Crucial correction: ALL source-system access arrows must start/end at the 어댑터 box, NOT 결과 대사. The result reconciler consumes the adapter's returned data. And the validated plan/review output must connect to 담당자 검토·승인; remove the misleading direct 업무 화면->담당 승인 shortcut. Display a clear prominent numbered execution spine: 1 사건·판본 관리 -> 2 NOA 과업 계획 -> 3 검증기 -> 4 담당자 검토·승인 -> 5 실행 통제 -> 6 원천 어댑터 -> 7 결과 대사·종결. In step3 use Grantee·결과 검증; step6 정산 원장 어댑터 with 승인 초안 등록·상태 조회. External official record boxes are connected only to the adapter, in both directions labelled 승인 범위 요청 and 실제 결과. The adapter then sends actual results to reconciler. Reconciler has a dashed backloop to planner labelled 미확인·새 근거 재계획. Existing local LLM, evidence store and deterministic calculation tools form a separate shared supporting layer labelled 실행 도구, with simple connectors to plan/verification, not adapters. Numbered spine arranged in spacious two-row snake with no crossing edges, row1 left to right 1 2 3, row2 right to left 4 5 6 7 if convenient; may redesign positions to make every correct edge readable. DO NOT bypass human approval for writes. No orphan boxes. Must connect 3 ->4 clearly. Make external boxes separate from local boundary and preserve local server/zero infrastructure statement, explicit logical design status, auth/audit/recovery controls. Critical exact topology more important than preserving original placement."
+    },
+    {
+      "code": "CL",
+      "type": "data",
+      "fix": "Make ONE small correction only, keeping everything else unchanged: remove the solid arrow from ② 근거·판본 연결 to④ 검토·승인 기록. Replace it with a solid elbow arrow from the RIGHT edge of② upward then right into the LEFT edge of③ 운임·차액 계산. Label this connector 확정 조건·고시 전달. It must enter③, not④. Keep③→④ and④→⑤ and⑤→⑥. All six boxes connected in order. This is critical."
+    },
+    {
+      "code": "DRT",
+      "type": "data",
+      "fix": "Preserve ALL existing main numbered boxes and main connectors1→2→3→4→5→6 and6→4. Only fix two source arrows: the DRT·운행·청구 arrow AND the 가명 연결키만 arrow must terminate on① 사건 연결 box itself, instead of the column background or②. Route these two inputs along the left edge of the blue column upward into①. Make endpoint arrowheads touch①, never the column frame. Keep source texts/labels. No other change."
+    },
+    {
+      "code": "DRT",
+      "type": "service",
+      "fix": "Preserve existing layout and text. Fix ONLY the two-way L-shaped connector between NOA 확인 과업 and 담당자 사실 확인: replace with TWO separate one-way connectors spaced visibly apart, one from NOA downward into 담당자 labelled 검토안 전달, one returning from 담당자 to NOA labelled 추가 확인. Arrowheads must clearly be one per connector. Change the top dashed supplement-request label 허용된 보완 요청 to 담당자 확인 후 보완 요청. Do not change other boxes or arrows."
+    },
+    {
+      "code": "CL",
+      "type": "runtime",
+      "fix": "Preserve all main numbered boxes and solid 1→2→3→4→5→6→7 spine. Make 3 precise corrections:\n(1) REMOVE ALL existing dashed tool-support arrows from the three bottom tool boxes. Wrap those three in one clearly outlined group labelled 실행 도구. Draw ONE dashed group connector from this group to box③, labelled 도구 실행 결과. Thus local LLM/rule engine never directly feed human approval or execution-control.\n(2) Keep the existing blue official source box connected bidirectionally only with⑥. Keep no other external edge. Place this blue box in a visibly shaded external-system sub-boundary labelled 기존 공식 시스템 so its physical location does not imply stored in LLM server.\n(3) Keep dashed ⑦->② return line, labelled 미확인·새 근거 재계획; remove other redundant return dotted lines if needed. Add clear footer: 응답 유실 → 원장 상태 조회 → 재처리 판단·담당자 인계.\nNo auto payment/penalty decision. Everything else preserve. NO decorative or ambiguous arrows."
+    },
+    {
+      "code": "DRT",
+      "type": "runtime",
+      "fix": "Preserve all main numbered boxes and solid 1→2→3→4→5→6→7 spine. Make 3 precise corrections:\n(1) REMOVE ALL existing dashed tool-support arrows from the three bottom tool boxes. Wrap those three in one clearly outlined group labelled 실행 도구. Draw ONE dashed group connector from this group to box③, labelled 도구 실행 결과. Thus local LLM/rule engine never directly feed human approval or execution-control.\n(2) Replace the two blue external boxes with ONE wider blue external box labelled 기존 DRT·자격·정산 원장 and subtext 승인 범위 조회·승인 초안 등록. It must connect in both directions ONLY with⑥정산 원장 어댑터; arrows labelled 요청 and 실제 결과. Remove orphan left blue box. Place this blue box in a visibly shaded external-system sub-boundary labelled 기존 공식 시스템 so its physical location does not imply stored in LLM server.\n(3) Keep dashed ⑦->② return line, labelled 미확인·새 근거 재계획; remove other redundant return dotted lines if needed. Add clear footer: 응답 유실 → 원장 상태 조회 → 재처리 판단·담당자 인계.\nNo auto payment/penalty decision. Everything else preserve. NO decorative or ambiguous arrows."
+    }
+  ]
+}

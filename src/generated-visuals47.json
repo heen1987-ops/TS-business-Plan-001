@@ -202,15 +202,26 @@
     {
       "code": "CL",
       "type": "service",
-      "path": "assets/generated47/CL_service_v1.png",
+      "path": "assets/generated47/CL_service_v2.png",
       "width": 1672,
       "height": 941,
-      "sha256": "25cf707ec9e5e23a5dbf39989b44f0500b93e6ad5e1406a77e7608dd11ade6b6",
-      "bytes": 1406393,
-      "summary": "기후탄소물류처의 안전운임 위반 신고사건 처리 지원. 자료 입력에서 AI 지원과 공식 판단, 결과 확인 및 보완으로 이어지는 업무 흐름.",
+      "sha256": "a4b33b7a9c7e08d894e319c261a9f77726e825a0c6ff6390af9b1a283974d822",
+      "bytes": 1157616,
+      "summary": "기후탄소물류처의 안전운임 위반 신고 처리 지원. 신고자, NOA·규칙 계산도구, 신고센터 담당자, 관할관청의 접수·사실확인·승인·통보·수신 확인을 구분한 서비스 흐름.",
       "review": {
         "status": "합격",
-        "score": 35
+        "score": 37,
+        "dimensions": [
+          5,
+          5,
+          5,
+          5,
+          4,
+          4,
+          5,
+          4
+        ],
+        "condition": "원본 확대·대체텍스트·그림 바로 아래 동등한 HTML 설명 동반. 실제 제품·운영 성능 평가 아님."
       }
     },
     {

@@ -1,4 +1,5 @@
 // 출처 사실과 도입 설계를 분리한 DRT 확장 제안. 운영계 판정 로직이 아님.
+const detailedVisuals=require('./detailed-visuals47.json');
 const sources={
  S01:{title:'TS 수요응답형 대중교통(DRT)',url:'https://main.kotsa.or.kr/portal/contents.do?menuCode=01080500',published:'게시일 미표시',fact:'정산·콜 기능·운행 앱·NFC, 참여 협약 절차 및 모빌리티연구처 담당 표기 확인.',limit:'공개 업무안내 확인. 실제 API·계약·현행 지역별 운영 성능 미확인.'},
  S02:{title:'TS 택시운행정보관리시스템(TIMS)',url:'https://main.kotsa.or.kr/portal/contents.do?menuCode=01080600',published:'게시일 미표시',fact:'택시미터·운행기록 수집·분석 및 국토교통부·지자체·운수사 이용 안내 확인.',limit:'시스템 존재가 개인 지원금 자료와의 결합·조회 권한을 부여하지 않음.'},
@@ -12,7 +13,7 @@ const sources={
 };
 const table=(title,headers,rows,refs=[])=>({type:'table',title,headers,rows,refs});
 const note=(title,items,refs=[])=>({type:'note',title,items,refs});
-const visual=(id,title,alt,caption)=>({type:'visual',id,title,src:'assets/drt-assurance/'+id+'.png',alt,caption});
+const visual=(id,title,alt,caption)=>{const asset=detailedVisuals.assets.find(a=>a.code==='DRT'&&a.type===id);return {type:'visual',id,title:asset?.title||title,src:asset?.path||'assets/drt-assurance/'+id+'.png',alt:asset?.summary||alt,caption:asset?.caption||caption,width:asset?.width||1672,height:asset?.height||941,points:asset?.points||[]};};
 const metrics=[
  {id:'DRT-M01',name:'정산 재작업률·처리시간',formula:'재요청·계산 정정·재심사가 발생한 청구 건수 ÷ 대조 대상 청구 건수 × 100. 담당자 활동시간과 접수→정산 확정 경과시간은 별도 산출.',evidence:'청구ID·버전, 접수·보완·확정 시각, 사유 코드, 담당자 작업 세션. 자동 대기시간을 사람 작업시간에서 분리.',method:'청구 1건 기준. 중앙값·P90·미완료 잔량·대기 사유 병기. 사업·복잡도·기간을 맞춘 A/B/C 비교. 단순히 빠른 완료 건만 비교 금지.',value:'반복 자료요청과 검토 부담의 감소 여부. 시간 절감을 감축 인원으로 환산하지 않음.',baseline:null,target:null},
  {id:'DRT-M02',name:'사건별 필수 증거 완비율',formula:'해당 정책·거래 유형의 필수 증거가 모두 유효한 청구 건수 ÷ 대조 대상 청구 건수 × 100.',evidence:'판본별 증거 체크리스트, 원문 위치·생성 주체·발생/수집 시각, 적용 제외 사유, 원자료 확인 결과.',method:'필수 항목을 평가 전에 고정. 파일 존재만으로 유효 판정 금지. 불필요 항목의 승인된 적용 제외와 자료 미확보를 분리. 독립 검토자가 표본 재판정.',value:'감사 때 근거를 다시 모으는 부담과 근거 없는 확정의 감소 여부.',baseline:null,target:null},
@@ -85,6 +86,7 @@ const sections=[
  ]},
  {id:'architecture',title:'전체 아키텍처 · 데이터와 처리 경계',intro:'기존 시스템을 원장으로 유지하고, 검토·승인·반영결과를 사건ID로 추적하는 추가 모듈 구성.',blocks:[
  visual('overall','전체 아키텍처 · 기존 서버·시스템 위의 검증 모듈','기존 DRT와 자격·정산 원장, aRDa 근거 연결, NOA 과업 관리, Grantee와 규칙 엔진, 사람 승인 및 원장 결과 확인 구조','이미지 모델 생성 · 신규 인프라 투자 0원 조건의 설계. Grantee·NOA 설치판과 aRDa·TIMS 연계는 별도 검증 대상. 지자체별 자료·권한 분리 및 가명정보 접근·보유기간 통제 적용. 모든 흐름이 이미 구현됐다는 의미가 아님.'),
+ visual('runtime'),
  table('세부 컴포넌트와 책임',['계층·컴포넌트','주요 역할·출력','경계·검증 조건'],[
  ['연계 어댑터','기존 DRT·지원대상·청구·정산 조회 및 버전·수집시점 기록','허용된 API/파일 계약만 사용. 임의 SQL·포괄 관리자 계정 금지'],
  ['사건 연결·품질 검사','지자체/사업/이용자키/예약/운행/청구/정산의 관계와 결측 검사','전화번호를 단독 기본키로 사용하지 않음. 불명 연결을 확정 관계로 대입 금지'],
@@ -96,6 +98,7 @@ const sections=[
  ['승인된 쓰기 어댑터','권한자가 확정한 정산안 초안 등록 및 반영 결과 확인','요청ID·원장 버전·승인 유효성 대조. 지급 실행은 별도 허용 범위'],
  ['감사·운영 기록','누가 어떤 자료·판본으로 무엇을 제안·수정·승인·실행했는지 기록','접근통제·무결성 확인·수정 이력. 감사 로그에 원본 개인정보 무제한 복사 금지']
  ]),
+ visual('data'),
  table('데이터 흐름과 최소 필드',['단계·원장 책임','연결 키·내용','NOA/Grantee 전달 및 보존 원칙'],[
  ['정책: 지자체 소관부서','지자체ID·사업ID·규칙판본·효력기간·산식·예외·승인 근거','공식 원문 위치와 구조화 조건. 정책 승인기록과 해석 초안 구분'],
  ['자격: 지정 자격관리 원장','가명 이용자키·대상 여부·유효기간·조회시점·근거 코드','주민번호·진단명 대신 검토에 필요한 상태값 우선. 원 식별정보는 별도 권한 영역'],
