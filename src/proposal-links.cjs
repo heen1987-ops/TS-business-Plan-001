@@ -293,6 +293,7 @@ const associationLinks=[
  {proposal:'B09',orgs:[],profiles:['katri-defect'],laws:[],type:'외부 주관·자료 협력',note:'분쟁주관기관과 TS 결함정보 협력 접점만 연결. 리콜불만 중재·조정 권한 없음.'},
  {proposal:'B10',orgs:['PK'],profiles:[],laws:[],type:'검사 접점',note:'주차안전처 검사와 지자체 조사·처분 역할 구분.'}
 ];
+const analysis=require('./analysis-review.cjs');for(const r of analysis.refinements)for(const id of r.ids){const p=profiles.find(p=>p.id===id);if(p)p.currentRefinement={...r,date:analysis.date};}
 const profileById=Object.fromEntries(profiles.map(p=>[p.id,p]));
 const forOrg=id=>profiles.filter(p=>p.org===id);
 const forLaw=binding=>legalLinks.find(l=>l.binding===binding);

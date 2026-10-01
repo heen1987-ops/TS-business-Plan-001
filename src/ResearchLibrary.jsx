@@ -1,3 +1,4 @@
+import {AnalysisReview} from './AnalysisReview.jsx';
 import React,{useEffect}from'react';
 import{Heading,Link,Out}from'./core.jsx';
 import{NewsResearch}from'./Associations.jsx';
@@ -7,6 +8,7 @@ import './research-library.css';
 
 export function ResearchLibrary(){
  useEffect(()=>{let next;const first=requestAnimationFrame(()=>{next=requestAnimationFrame(()=>{if(!location.hash)return;let id=location.hash.slice(1);try{id=decodeURIComponent(id)}catch{/* 잘못된 공유 해시는 원문 ID로 확인 */}const target=document.getElementById(id);target?.scrollIntoView({block:'start'});target?.focus({preventScroll:true})})});return()=>{cancelAnimationFrame(first);if(next)cancelAnimationFrame(next)}},[]);
+ if(new URLSearchParams(location.search).get('view')==='planning')return <AnalysisReview/>;
  return <div className="page association-page research-library-page">
   <Heading label="자료실" title={library.title} desc={library.lead}/>
   <nav className="research-categories" aria-label="조사자료 분류">{library.categories.map(c=><a href={'#'+c.id} key={c.id}><h2>{c.title}</h2><span>{c.count!==null?c.count.toLocaleString()+' ':''}{c.unit}</span><p>{c.description}</p></a>)}</nav>

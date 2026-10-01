@@ -1,3 +1,4 @@
+import {AnalysisRefinement} from './AnalysisReview.jsx';
 import React,{useEffect,useState}from'react';
 import {Link,Out,Heading}from'./core.jsx';
 import data from'./proposal-links.cjs';
@@ -16,7 +17,7 @@ function Profile({p}){const bindings=data.legalLinks.filter(l=>l.profiles.includ
  <h3 id={'proposal-'+p.id+'-why'} tabIndex={-1}>왜 필요한가 · 무엇을 개선할 것인가</h3><dl><dt>현재 수행업무·기구축 기반</dt><dd>{p.known}</dd><dt>목적·공공 편익</dt><dd>{p.goal}</dd><dt>검증할 현행 한계</dt><dd>{p.gap}</dd><dt>누가·어디서</dt><dd>{p.pending?'담당 조직·과업 범위 확인 후 실제 자료관리자·검토자·승인자를 지정할 대상. 현재 배정된 것으로 간주하지 않음.':p.name+'의 해당 업무 담당자·검토자와 신청·협력 주체. 기존 업무시스템과 허용된 자료공간에서 적용하는 제안.'}</dd><dt>언제</dt><dd>{data.common.when}</dd></dl>
  <p className="supplement-note">{data.common.why}</p>
  <h3 id={'proposal-'+p.id+'-evidence'} tabIndex={-1}>공식 근거 · 확인 범위</h3><div className="supplement-sources">{p.sourceIds.map(id=>{const s=data.sources[id];return <section key={id}><Out url={s.url}>{s.title}</Out><p>{s.fact}</p><small>게시 {s.published} · 열람 {s.checkedAt}<br/>{s.limit}</small></section>})}</div>
- <h3 id={'proposal-'+p.id+'-how'} tabIndex={-1}>어떻게 해결할 것인가 · AI와 기존 시스템의 역할</h3><dl><dt>입력자료</dt><dd><List items={p.inputs}/></dd><dt>NOA·aRDa 추가 처리</dt><dd>{p.llm}</dd><dt>일반 SI·규칙·기존 시스템</dt><dd>{p.rules}</dd><dt>사람·공식 권한</dt><dd>{p.human}</dd></dl>
+ <AnalysisRefinement id={p.id}/><h3 id={'proposal-'+p.id+'-how'} tabIndex={-1}>어떻게 해결할 것인가 · AI와 기존 시스템의 역할</h3><dl><dt>입력자료</dt><dd><List items={p.inputs}/></dd><dt>NOA·aRDa 추가 처리</dt><dd>{p.llm}</dd><dt>일반 SI·규칙·기존 시스템</dt><dd>{p.rules}</dd><dt>사람·공식 권한</dt><dd>{p.human}</dd></dl>
  <h3 id={'proposal-'+p.id+'-flow'} tabIndex={-1}>업무 흐름 · 사건별 검토에서 완료 확인까지</h3><ol className="supplement-flow">{p.flow.map((v,i)=><li key={v}><b>{String(i+1).padStart(2,'0')}</b><span>{v}</span></li>)}</ol>
  <p>산출물: 해당 사건의 적용조건·원문근거, 미확인 질문, 담당자 검토안, 보완·처리결과 대조 기록. 문서 생성 완료와 공식 업무 완료의 상태 구분.</p>
  <h3 id={'proposal-'+p.id+'-architecture'} tabIndex={-1}>구현 구조 · 업무별 입력과 공통 기반의 결합</h3><p>{data.common.technology}</p><Table title={p.name+' 적용 구성요소'} heads={['계층','구성','역할·연계 경계']} rows={data.common.architecture}/>

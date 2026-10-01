@@ -1255,4 +1255,7 @@ const data={
   ]
 };
 for(const s of data.sections)for(const b of s.blocks){if(b.type==='visual'){const a=visuals.assets.find(a=>a.code==='DRT'&&a.type===b.id);if(!a)throw Error('DRT 도식 누락 '+b.id);Object.assign(b,{title:a.title,src:a.path,alt:a.summary,caption:a.caption,width:a.width,height:a.height,points:a.points});}}
+const analysis=require('./analysis-review.cjs');
+data.status=analysis.drt.status+' · 현장·기존 기능·연계 권한·효과 미검증 / '+data.status;
+data.sections[0].blocks.unshift({type:'note',title:'2026-10-01 · 실증 범위의 현재 판단',items:[analysis.drt.why,analysis.drt.how,analysis.drt.exclude],refs:['S01']},{type:'table',title:'수동 처리의 원인부터 확인',headers:['원인 가설','실제 기록·조건','적합한 해결'],rows:analysis.drt.causes,refs:['S01']});
 module.exports=data;
