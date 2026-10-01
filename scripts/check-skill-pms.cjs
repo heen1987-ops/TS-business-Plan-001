@@ -1,0 +1,19 @@
+const fs=require('node:fs'),assert=require('node:assert/strict'),d=require('../src/skill-pms.cjs'),manifest=require('../src/department-documents.json'),nav=require('../src/navigation.cjs'),reading=require('../src/reading-navigation.cjs'),routes=require('../site-routes.json').routes;
+let checks=0;const check=(condition,label)=>{assert(condition,label);checks++};
+check(routes.includes('skill-pms.html'),'공통 확장 페이지 경로');check(nav.locate('skill-pms.html')?.menuId==='solutions','AX 전환 제안 메뉴');check(reading.sections[3].children.some(n=>n.to==='skill-pms.html'),'읽기 목차의 공통 제안');check(fs.existsSync('dist/skill-pms.html'),'빌드 페이지');
+check(d.counts.departments===manifest.departments.length,'처 레코드 수 원장 일치');check(d.counts.projects===manifest.departments.reduce((n,x)=>n+x.projects.length,0),'기획항목 수 원장 일치');check(d.counts.files===manifest.departments.reduce((n,x)=>n+x.documents.length,0),'파일 수 원장 일치');check(d.portfolio.length===d.counts.projects,'기획 매핑 건수 일치');check(new Set(d.portfolio.map(p=>p.id)).size===d.portfolio.length,'기획 ID 중복 없음');
+for(const p of d.portfolio){check(p.operationalState===null,'실제 운영 상태 미확인 '+p.id);check(fs.existsSync('dist/'+p.proposalRoute.split(/[?#]/)[0]),'기존 제안 파일 연결 '+p.id);check(nav.locate(p.proposalRoute),'제안 메뉴 연결 '+p.id);check(p.documentsRoute==='planning-documents.html#documents-'+p.code,'문서 처별 연결 '+p.id);const unit=new URL(p.proposalRoute,'https://local/').searchParams.get('unit');if(unit)check(require('../src/proposal-links.cjs').profiles.some(x=>x.id===unit),'상세제안 unit 존재 '+p.id)}
+for(const[id,route]of Object.entries({'MR-02':'drt-assurance.html','EX22-02':'proposal-links.html?unit=rail-license','EX23-02':'proposal-links.html?unit=rail-type'}))check(d.portfolio.find(p=>p.id===id)?.proposalRoute===route,'복수 항목의 목적별 연결 '+id);
+check(d.skills.length===8,'공통 스킬 8개');check(d.layers.length===5,'논리 계층 5개');check(d.flow.length===8,'서비스 흐름 단계');check(d.sections.length===8,'연속 본문 8개 큰 단락');check(d.metrics.length===5,'정량 지표 최대 5개');
+const toolRows=d.sections.flatMap(s=>s.blocks.filter(b=>b.type==='table'&&b.headers[0]==='도구 제안명').flatMap(b=>b.rows));
+for(const s of d.skills){check(s.input&&s.how&&s.output&&s.gate&&s.tools.length,'스킬 입출력·HOW·도구·검증 '+s.id);for(const name of s.tools)check(toolRows.some(r=>r[0].split(' / ').includes(name)),'스킬별 도구 입출력 계약 '+name)}
+const planning=d.sections.flatMap(s=>s.blocks.filter(b=>b.type==='table').flatMap(b=>b.rows));for(let i=1;i<=7;i++)check(planning.some(r=>r[0].startsWith('P0'+i+' ')),'기획 기준 P0'+i);
+for(const m of d.metrics){check(m.baseline===null&&m.target===null,'실측 전 수치 생성 금지 '+m.id);check(m.formula&&m.method&&m.quality,'측정방법·품질 조건 '+m.id)}
+for(const s of d.sections)for(const b of s.blocks)for(const id of b.refs||[])check(d.sources[id],'블록 근거 '+id);
+check(d.cost.additional_mm===null&&d.cost.development_amount===null&&d.cost.license_amount===null,'미산정 비용 0원 대입 금지');check(d.cost.infrastructure_purchase===0&&d.cost.infra_basis.includes('사용자'),'사용자 신규 인프라 0원 조건');check(d.contract.status.includes('미검증'),'도구 제안의 구현 상태 구분');
+const output=JSON.parse(fs.readFileSync('dist/downloads/skill-pms-design.json','utf8'));assert.deepEqual(output,d);checks++;
+const md=fs.readFileSync('dist/downloads/skill-pms-design.md','utf8'),svg=fs.readFileSync('dist/assets/skill-pms/architecture.svg','utf8');for(const s of d.sections)check(md.includes('## '+s.title),'문서 전 단락 보존 '+s.id);for(const l of d.layers)check(svg.includes(l.id+' · '+l.name),'도식 전 계층 '+l.id);
+for(const f of d.downloads)check(fs.existsSync('dist/'+f.to),'공개 다운로드 '+f.to);
+check(!/C:\\|G:\\|file:\/\/|127\.0\.0\.1|api[_-]?key\s*=/.test(JSON.stringify(d)),'공개 설계 개인 경로·자격증명 없음');
+check(fs.readFileSync('src/DepartmentDocuments.jsx','utf8').includes('skill-pms.html#pms-portfolio'),'처별 문서의 공통 플랫폼 연결');
+console.log(JSON.stringify({result:'통과',checks,departments:d.counts.departments,planningProjects:d.counts.projects,files:d.counts.files,skills:d.skills.length,metrics:d.metrics.length,status:d.status}));
