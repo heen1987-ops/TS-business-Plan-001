@@ -17,7 +17,7 @@ module.exports={
  ],
  headings:{official:'법령·공식 근거',complaints:'민원·정책건의·협회 조사',news:'뉴스·원기사 교차 조사',files:'처별 한글 문서'},
  officialLinks:[
-  {title:'사업 필요성·적용범위 재검토 · 2026-10-01',to:'research-library.html?view=planning',detail:'사이트 분석 대화 반영: 13처·DRT 편성 검토, 3개 공통 모듈, 추가 6개 문제 가설과 공식 출처'},
+  {title:'사업 필요성·적용범위 재검토 · 2026-10-01',to:'research-library.html?view=planning',detail:'외부 문제에서 신규 문제정의로 연결: 10개 검토 항목, 6개 후보의 실제 사례·현행 대응·대안 비교·검증계획. 13처·DRT 편성 검토와 공식 출처'},
   {title:'법령·업무·담당 처·컨셉 매핑',to:'legal/mapping.html',detail:'법정·수탁업무와 제안의 담당 관계 확인'},
   {title:'법령 원문·판본·확인 범위',to:'legal/sources.html',detail:'출처와 시행일·조사일·적용 한계 확인'},
   {title:'처별 제안의 공개 근거',to:'updates.html?view=evidence47',detail:'근거 등급·열람일·원문 위치와 처별 제안 연결'},
