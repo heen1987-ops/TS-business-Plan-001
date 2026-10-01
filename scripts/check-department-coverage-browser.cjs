@@ -3,7 +3,7 @@ const base=process.env.SITE_URL||'http://127.0.0.1:8770/TS-business-Plan-001/';
 (async()=>{const browser=await chromium.launch({channel:process.env.BROWSER_CHANNEL||'msedge',headless:true}),tests=[],errors=[];const check=(name,value)=>{tests.push({name,pass:!!value});if(!value)throw Error(name)};const page=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});page.on('pageerror',e=>errors.push(e.message));
  try{
   await page.goto(base+'skill-pms.html#pms-department-review');await page.waitForFunction(()=>document.activeElement?.id==='pms-department-review');
-  check('연속 본문·기존 8단락 유지',await page.locator('.pms-section').count()===8&&await page.locator('.slide-stage').count()===0);
+  check('공식 조직 대조의 독립된 연속 보기',await page.locator('[data-pms-view=coverage]').count()===1&&await page.locator('.slide-stage').count()===0&&await page.locator('[data-pms-document]').count()===0);
   check('공식 본사+연구원 51처 표시',await page.locator('[data-coverage-department]').count()===51);
   check('39처 연결·12처 미작성 구분',await page.locator('[data-coverage-status="documents-linked"]').count()===39&&await page.locator('[data-coverage-status="plan-missing"]').count()===12);
   check('지역2처 유형 별도',await page.locator('[data-coverage-regional]').count()===2);

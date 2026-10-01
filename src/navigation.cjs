@@ -32,6 +32,7 @@ function canonical(route){const [path,q='']=route.split('#')[0].split('?'),s=new
  s.sort();return p+(s.size?'?'+s:'')+(route.includes('#section-detail-')?'#'+route.split('#')[1]:'')
 }
 function sourceFilesFor(route){
+ if(/^(solutions|inspection|17_조직별_AX_전환제안)\.html/.test(route))return ['src/DepartmentDirectory.jsx','src/ux-content.cjs','src/department-coverage.cjs','src/department-documents.json'];
  if(route.startsWith('skill-pms.html'))return ['src/SkillPms.jsx','src/skill-pms.cjs','src/skill-pms.css','src/department-documents.json','src/DepartmentCoverage.jsx','src/department-coverage.cjs'];
  if(route.startsWith('research-library.html'))return ['src/ResearchLibrary.jsx','src/research-library.cjs','src/association-research.json','src/department-documents.json'];
  if(route.startsWith('planning-documents.html'))return ['src/DepartmentDocuments.jsx','src/department-documents.json','src/department-documents.css'];
@@ -42,7 +43,7 @@ function sourceFilesFor(route){
  if(path==='associations.html')return ['src/Associations.jsx','src/association-research.json'];
  if(path==='registry.html')return ['src/Registry.jsx','src/navigation.cjs'];
  if(path==='websites.html')return ['src/Websites.jsx','src/official-sites.json'];
- if(path==='index.html')return query.get('view')==='map'?['src/Home.jsx','src/org-map-data.cjs','src/data.json']:['src/institution-guide.cjs','src/DocumentReader.jsx',slide];
+ if(path==='index.html')return query.get('view')==='map'?['src/Home.jsx','src/org-map-data.cjs','src/data.json']:['src/UserHome.jsx','src/ux-content.cjs','src/institution-guide.cjs','src/DocumentReader.jsx',slide];
  if(path.startsWith('처별/')){
   if(path.includes('03_')||query.has('arch'))return ['src/Architecture.jsx','src/architecture-v2.json','src/proposal-design.cjs','src/proposal-diagrams.cjs',slide];
   if(query.get('view')==='impact')return ['src/Measurement.jsx','src/measurement-data.cjs','src/impact.json',slide];

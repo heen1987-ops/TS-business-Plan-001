@@ -1,0 +1,18 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),ux=require('../src/ux-navigation.cjs'),c=require('../src/ux-content.cjs'),manifest=require('../src/department-documents.json'),pms=require('../src/skill-pms.cjs'),profiles=require('../src/proposal-links.cjs'),routes=require('../site-routes.json').routes;
+let checks=0;const check=(v,m)=>{assert(v,m);checks++};
+check(ux.sections.length===6,'6개 사용자 영역');check(c.rows.length===51,'공식 본사·연구원 모집단 51처');check(c.rows.filter(r=>r.code).length===39,'한글 자료 연결 39처');check(c.rows.filter(r=>!r.code).length===12,'미작성 12처');
+for(const s of ux.sections){check(s.title&&s.description&&s.children.length,'메뉴 설명 '+s.id);for(const n of s.children)check(routes.includes(n.to.split(/[?#]/)[0]),'실제 경로 '+n.to)}
+for(const r of c.rows){if(!r.code){check(!r.proposalTo&&!r.documentsTo&&!r.architectureTo,'미작성 처에 제안 위장 없음 '+r.name);continue;}const d=manifest.departments.find(x=>x.code===r.code);check(r.proposalTo===d.proposalRoute,'정본 제안 '+r.code);check(r.projects.length===d.projects.length,'복수 사업 보존 '+r.code);check(r.documentsTo==='planning-documents.html#documents-'+r.code,'자료실 해당 처 '+r.code);check(ux.departmentFor(r.proposalTo)?.code===r.code,'탐색 맥락 '+r.code);
+ for(const p of r.projects)check(p.to===pms.portfolio.find(x=>x.id===p.id).proposalRoute,'목적별 사업 링크 '+p.id);
+ for(const p of pms.portfolio.filter(x=>x.code===r.code)){const ctx=ux.contextLinks(p.proposalRoute);check(ctx.d.code===r.code,'복수 사업 소속 유지 '+p.id);for(const n of ctx.links){const u=new URL(n.to,'https://local/');check(routes.includes(n.to.split(/[?#]/)[0]),'문서 목차 경로 '+p.id);if(d.profileIds.length){check(u.searchParams.get('unit')===new URL(p.proposalRoute,'https://local/').searchParams.get('unit'),'개별 사업 query 유지 '+p.id);check(/-(why|how|architecture|requirements|metrics|evidence)$/.test(u.hash),'존재하는 업무 절 '+p.id);check(u.hash.includes('proposal-'+u.searchParams.get('unit')+'-'),'사업과 절 일치 '+p.id);}else if(p.id==='MR-02')check(u.hash.startsWith('#drt-'),'DRT 전용 절 '+p.id);else check(u.hash.startsWith('#section-r47-'),'최신 본문 장 '+p.id);}}
+}
+for(const [route,id]of [['skill-pms.html','services'],['skill-pms.html#pms-architecture','services'],['skill-pms.html#pms-portfolio','solutions'],['skill-pms.html#pms-department-MR','solutions'],['skill-pms.html#pms-project-EX23-02','solutions'],['skill-pms.html#pms-department-review','organization'],['skill-pms.html#pms-review-research-planning','organization'],['planning-documents.html','resources'],['solutions.html','solutions'],['index.html?view=map','organization']])check(ux.sectionFor(route).id===id,'명확한 영역·기존 링크 '+route);
+for(const j of ux.journey)check(j.to.startsWith('about.html#section-'),'기관 상세 읽기 링크');
+check(fs.readFileSync('src/DocumentNav.jsx','utf8').includes("from'./ux-navigation.cjs'"),'왼쪽 공통 원장');check(fs.readFileSync('src/SiteNavigation.jsx','utf8').includes("from './ux-navigation.cjs'"),'상단·사이트맵 공통 원장');
+check(!/C:\\|G:\\|file:\/\/|127\.0\.0\.1|api[_-]?key\s*=/.test(JSON.stringify(c)),'공개 탐색 정보의 로컬 경로·비밀 없음');
+
+
+for(const [type,count]of [['department',51],['document',117],['detail',325]])check(ux.searchRecords.filter(r=>r.type===type).length===count,'통합 검색 유형 '+type);
+for(const r of ux.searchRecords){check(r.title&&r.route&&r.breadcrumb.length,'검색 항목 필수값 '+r.id);if(r.type==='document'){check(fs.existsSync('public/'+r.route),'실제 한글파일 '+r.id);check(r.downloadName.endsWith('.hwpx'),'검색 다운로드 이름 '+r.id);}else check(routes.includes(r.route.split(/[?#]/)[0]),'검색 실제 페이지 '+r.id);}
+
+console.log(JSON.stringify({result:'통과',checks,areas:6,departments:51,linked:39,missing:12,preservedRoutes:routes.length,searchEntries:ux.searchRecords.length}));

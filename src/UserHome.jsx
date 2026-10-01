@@ -1,0 +1,14 @@
+import React,{useState}from'react';
+import{ArrowRight,Search,Building2,FileText,Network,Layers}from'lucide-react';
+import{Link,Out,navigate}from'./core.jsx';
+import content from'./ux-content.cjs';
+const h=content.home;
+export function UserHome(){const[q,setQ]=useState('');return <div className="ux-home">
+ <header className="ux-welcome"><span className="ux-eyebrow">{h.label}</span><h1>{h.title}</h1><p>{h.lead}</p></header>
+ <section className="ux-identity" aria-labelledby="ux-identity-heading"><div><span className="ux-eyebrow">기관의 존재 의의</span><h2 id="ux-identity-heading">{h.definition}</h2><ul>{h.identity.map(t=><li key={t}>{t}</li>)}</ul><p className="ux-source"><Out url={h.definitionSource.to}>{h.definitionSource.label}</Out><small>{h.definitionDate}</small></p></div><Link className="ux-primary" to="about.html">TS의 정의부터 읽기 <ArrowRight size={18}/></Link></section>
+ <section className="ux-start" aria-labelledby="ux-start-heading"><div className="ux-section-title"><h2 id="ux-start-heading">처음 방문하셨나요?</h2><p>기관 이해에서 제안·문서까지 이어지는 읽기 순서</p></div><nav className="ux-journey" aria-label="사업기획 읽는 순서">{h.journey.map(([n,title,desc,to])=><Link to={to} key={n}><span>{n}</span><h3>{title}</h3><p>{desc}</p><ArrowRight size={18}/></Link>)}</nav></section>
+ <section className="ux-find" aria-labelledby="ux-find-heading"><div><h2 id="ux-find-heading">찾는 처가 있으신가요?</h2><p>처 이름·사업명으로 제안과 설계·한글 문서 검색</p></div><form role="search" onSubmit={e=>{e.preventDefault();navigate('solutions.html'+(q.trim()?'?q='+encodeURIComponent(q.trim()):''))}}><label className="sr-only" htmlFor="ux-home-search">처·사업 검색</label><input id="ux-home-search" type="search" value={q} onChange={e=>setQ(e.target.value)} placeholder={content.directory.placeholder}/><button type="submit"><Search size={18}/>제안 찾기</button></form></section>
+ <section aria-labelledby="ux-task-heading"><div className="ux-section-title"><h2 id="ux-task-heading">목적에 맞는 자료로 바로 이동</h2></div><div className="ux-task-grid">{h.tasks.map(([title,desc,to],i)=>{const I=[Building2,Layers,FileText][i];return <Link to={to} key={to}><I size={24}/><h3>{title}</h3><p>{desc}</p><span>확인하기 <ArrowRight size={16}/></span></Link>})}</div></section>
+ <section aria-labelledby="ux-departments-heading"><div className="ux-section-title"><h2 id="ux-departments-heading">처별 제안 살펴보기</h2><Link to="solutions.html">전체 처 보기 <ArrowRight size={16}/></Link></div><div className="ux-featured">{h.featured.map(code=>{const d=content.rows.find(r=>r.code===code);return <Link to={d.proposalTo} key={code}><span>{d.parent}</span><h3>{d.name}</h3><p>{d.title}</p><small>제안·설계·효과·근거 <ArrowRight size={14}/></small></Link>})}</div></section>
+ <div className="ux-home-bottom"><p>{h.scope}</p><Link to="index.html?view=map"><Network size={18}/>조직 연결지도로 탐색</Link></div><p className="ux-notice">{h.notice}</p>
+ </div>}
