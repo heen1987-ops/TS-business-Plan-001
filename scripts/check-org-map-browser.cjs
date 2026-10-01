@@ -24,7 +24,8 @@ const base=process.env.SITE_BASE||'http://127.0.0.1:8768/';
  }
  await page.locator('.map-child-list [data-node="impact"]').click();await page.locator('.document-reader').waitFor();checks++;
  await goto('index.html?node=DF');await page.locator('.map-related a[href*="metric=DF-E01"]').click();await page.locator('.document-reader').waitFor();assert((await page.locator('.reading-content').innerText()).includes('측정'));checks++;
- await goto('index.html?node=budget');assert.equal(await page.locator('.map-notice').count(),1);checks++;
+ // 현행·변경 전 원장 모두 budget.pending=false. 기존 완료된 연결을 확인 대기 안내문으로 검사하지 않음.
+ await goto('index.html?node=budget');assert.equal(await page.locator('.map-notice').count(),0);assert.equal(await page.locator('.map-child-list a[href*="unit=budget"]').count(),1);checks+=2;
  await goto('index.html?node=not-real');assert.equal(await page.locator('.map-invalid').count(),1);assert.equal(await page.locator('[data-focus-node]').getAttribute('data-focus-node'),'TS');checks+=2;
  await goto('index.html?node=DF');await page.getByRole('button',{name:'목록 보기',exact:true}).click();assert.equal(await page.locator('.map-outline li').count(),7);await page.getByRole('button',{name:'연결도 보기',exact:true}).click();checks++;
  await page.setViewportSize({width:1280,height:800});await page.screenshot({path:'qa-output/map-df-1280.jpg',fullPage:true,type:'jpeg',quality:80});

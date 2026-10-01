@@ -9,7 +9,7 @@ const base=process.env.SITE_URL||'http://127.0.0.1:8770/TS-business-Plan-001/';
   check('117개 파일을 한 번씩 직접 다운로드',downloads.length===117&&new Set(downloads.map(a=>a.href)).size===117);
   for(const g of d.documentGroups)for(const f of g.documents){const found=downloads.find(a=>a.href===new URL(f.path,base).href);check('정확한 파일·다운로드명 '+g.code+'/'+f.kind,found?.name===f.downloadName&&found.kind===f.kind)}
   for(const code of ['MR','EX22','EX23'])check('통합 계획서 공유 명시 '+code,(await page.locator('[data-pms-department="'+code+'"]>header').textContent()).includes('통합 계획서 공유'));
-  check('처별 문서 수 중복 없는 검색 결과',(await page.locator('.pms-search [role="status"]').textContent()).includes('117 고유 한글 파일'));
+  check('처별 문서 수 중복 없는 검색 결과',(await page.locator('.pms-search:has(#pms-project-search) [role="status"]').textContent()).includes('117 고유 한글 파일'));
   await page.locator('#pms-project-search').fill('mr-02');check('사업 검색과 공유 문서 유지',await page.locator('[data-pms-project]').count()===1&&await page.locator('[data-pms-document]').count()===3);
   await page.locator('[data-pms-project="MR-02"] [data-pms-design]').filter({hasText:'서비스·배차 흐름'}).click();await page.locator('#drt-flow').waitFor();check('검색에서 DRT 전용 흐름으로 진입',new URL(page.url()).hash==='#drt-flow');
   await page.goto(base+'skill-pms.html#pms-project-EX23-02');await page.waitForFunction(()=>document.activeElement?.id==='pms-project-EX23-02');check('사업 직접 공유 위치·초점',await page.locator('#pms-project-EX23-02').isVisible());

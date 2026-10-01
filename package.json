@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "node scripts/build.cjs",
-    "check": "node scripts/check.cjs && node scripts/check-slides.cjs && node scripts/check-measurement.cjs && node scripts/check-org-map.cjs && node scripts/check-websites.cjs && node scripts/check-navigation.cjs && node scripts/check-law-mapping.cjs && node scripts/check-document.cjs && node scripts/check-proposals.cjs && node scripts/check-reading.cjs && node scripts/check-revision47.cjs && node scripts/check-delivery47.cjs && node scripts/check-advanced47.cjs && node scripts/check-institution-media.cjs && node scripts/check-associations.cjs && node scripts/check-proposal-links.cjs && node scripts/check-composition.cjs && node scripts/check-generated-visuals.cjs && node scripts/check-drt-assurance.cjs && node scripts/check-detailed-visuals47.cjs && node scripts/check-department-documents.cjs && node scripts/check-research-library.cjs && node scripts/check-skill-pms.cjs",
+    "check": "node scripts/check.cjs && node scripts/check-slides.cjs && node scripts/check-measurement.cjs && node scripts/check-org-map.cjs && node scripts/check-websites.cjs && node scripts/check-navigation.cjs && node scripts/check-law-mapping.cjs && node scripts/check-document.cjs && node scripts/check-proposals.cjs && node scripts/check-reading.cjs && node scripts/check-revision47.cjs && node scripts/check-delivery47.cjs && node scripts/check-advanced47.cjs && node scripts/check-institution-media.cjs && node scripts/check-associations.cjs && node scripts/check-proposal-links.cjs && node scripts/check-composition.cjs && node scripts/check-generated-visuals.cjs && node scripts/check-drt-assurance.cjs && node scripts/check-detailed-visuals47.cjs && node scripts/check-department-documents.cjs && node scripts/check-research-library.cjs && node scripts/check-skill-pms.cjs && node scripts/check-department-coverage.cjs",
     "test": "npm run build && npm run check",
     "preview": "node scripts/preview.cjs",
     "check:map-browser": "node scripts/check-org-map-browser.cjs",
@@ -23,6 +23,7 @@
     "check:documents-browser": "node scripts/check-department-documents-browser.cjs",
     "check:research-browser": "node scripts/check-research-library-browser.cjs",
     "check:pms-browser": "node scripts/check-skill-pms-browser.cjs",
+    "check:coverage-browser": "node scripts/check-department-coverage-browser.cjs",
     "check:pms-mapping-browser": "node scripts/check-pms-document-mapping-browser.cjs"
   },
   "dependencies": {

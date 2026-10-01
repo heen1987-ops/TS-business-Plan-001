@@ -32,7 +32,7 @@ function canonical(route){const [path,q='']=route.split('#')[0].split('?'),s=new
  s.sort();return p+(s.size?'?'+s:'')+(route.includes('#section-detail-')?'#'+route.split('#')[1]:'')
 }
 function sourceFilesFor(route){
- if(route.startsWith('skill-pms.html'))return ['src/SkillPms.jsx','src/skill-pms.cjs','src/skill-pms.css','src/department-documents.json'];
+ if(route.startsWith('skill-pms.html'))return ['src/SkillPms.jsx','src/skill-pms.cjs','src/skill-pms.css','src/department-documents.json','src/DepartmentCoverage.jsx','src/department-coverage.cjs'];
  if(route.startsWith('research-library.html'))return ['src/ResearchLibrary.jsx','src/research-library.cjs','src/association-research.json','src/department-documents.json'];
  if(route.startsWith('planning-documents.html'))return ['src/DepartmentDocuments.jsx','src/department-documents.json','src/department-documents.css'];
  if(route.startsWith('drt-assurance.html'))return ['src/drt-assurance.cjs','src/DrtAssurance.jsx','src/drt-assurance.css'];

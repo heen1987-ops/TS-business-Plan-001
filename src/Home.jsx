@@ -55,7 +55,7 @@ export function Home(){
  const matches=words.length?Object.values(nodes).filter(n=>{const d=departmentByCode[n.code];const text=[n.name,n.summary,d?.goal,d?.system,...ancestry(n.id).map(a=>a.name)].join(' ').toLocaleLowerCase();return words.every(w=>text.includes(w));}):[];
  const trail=ancestry(node.id),childNodes=node.children.length?node.children:documents(node);
  return <div className="mindmap-home">
-  <div className="map-home-heading"><div><span className="map-kicker">TS AX 사업기획 · 조직 기반 탐색</span><h1>조직에서 시작하는 연결지도</h1><p>조직을 따라 이동하고, 업무별 제안과 근거를 한 번에 찾는 자료 지도.</p></div><div className="map-top-links"><Link to="proposal-links.html" className="map-guide">추가 조직·업무 상세제안</Link><Link to="websites.html" className="map-guide"><ArrowUpRight size={17}/>처별 공식 홈페이지</Link><Link to="index.html?view=guide" className="map-guide"><FolderTree size={17}/>TS의 정의부터 읽기</Link></div></div>
+  <div className="map-home-heading"><div><span className="map-kicker">TS AX 사업기획 · 조직 기반 탐색</span><h1>조직에서 시작하는 연결지도</h1><p>조직을 따라 이동하고, 업무별 제안과 근거를 한 번에 찾는 자료 지도.</p></div><div className="map-top-links"><Link to="skill-pms.html#pms-department-review" className="map-guide">{org.coverageLabels.topLink}</Link><Link to="proposal-links.html" className="map-guide">추가 조직·업무 상세제안</Link><Link to="websites.html" className="map-guide"><ArrowUpRight size={17}/>처별 공식 홈페이지</Link><Link to="index.html?view=guide" className="map-guide"><FolderTree size={17}/>TS의 정의부터 읽기</Link></div></div>
   <div className="map-toolbar">
    <div className="map-search-wrap"><label className="map-search"><Search size={19}/><input aria-label="조직·업무·시스템 검색" placeholder="처 이름, 업무 또는 시스템 검색 · 예: 데이터융복합, KADIS" value={query} onChange={e=>setQuery(e.target.value)} onKeyDown={e=>{if(e.key==='Escape')setQuery('');if(e.key==='Enter'&&matches.length===1)navigate(nodeUrl(matches[0].id));}}/>{query&&<button onClick={()=>setQuery('')} aria-label="검색어 지우기"><X size={17}/></button>}</label>
     {words.length>0&&<div className="map-search-results"><p role="status">{matches.length}개 연결 항목{matches.length===0?' · 검색어를 줄이거나 처 이름으로 검색':''}</p><ul>{matches.map(n=><li key={n.id}><Link to={nodeUrl(n.id)}><strong>{n.name}</strong><small>{ancestry(n.id).slice(1,-1).map(a=>a.name).join(' › ')||'TS'} · {kindLabel(n)}</small></Link></li>)}</ul></div>}
@@ -68,10 +68,10 @@ export function Home(){
    <section className="map-board" aria-label="조직 연결지도">
     <header><div>{parents[node.id]?<Link className="map-back" to={nodeUrl(parents[node.id])}><ArrowLeft size={16}/>상위 항목</Link>:<b>TS 조직·업무 탐색</b>}</div><div className="map-legend"><span>━━ 조직 계통</span><span>┄┄ 탐색·자료 연결</span></div></header>
     {outline?<div className="map-outline"><h2>{node.name}</h2><ul>{childNodes.map(child=><li key={child.id}><Link to={child.to||nodeUrl(child.id)}><strong>{child.name}</strong><small>{child.summary}</small><span>{kindLabel(child)} <ChevronRight size={14}/></span></Link></li>)}</ul></div>:<Diagram node={node}/>}
-    <div className="map-caption">{node.children.length?'조직명 클릭 → 하위 항목 이동 · 경로 클릭 → 상위 단계 복귀':'자료명 클릭 → 해당 상세 페이지 이동'}<span>{node.id==='TS'?'연결 범위: 기존 13개 처 · KATRI 3개 적용안 · 미연결 조직 32개 검토경로 보완':'실선: 조직 계통 / 점선: 탐색 묶음·적용안·자료'}</span></div>
+    <div className="map-caption">{node.children.length?'조직명 클릭 → 하위 항목 이동 · 경로 클릭 → 상위 단계 복귀':'자료명 클릭 → 해당 상세 페이지 이동'}<span>{node.id==='TS'?org.coverageLabels.rootCaption:'실선: 조직 계통 / 점선: 탐색 묶음·적용안·자료'}</span></div>
    </section>
    <Context node={node}/>
   </div>
-  <div className="map-basis"><b>조직도 기반 탐색용 지도</b><p>제공 조직도·기존 업무 원장 기준. 현행 직제·전결·전체 분장 확정표와 구분. ‘지역·현장 조직’은 탐색 묶음이며, KATRI 하위 3개 항목은 부서명이 아닌 적용안. 자동차안전연구원과 첨단자동차검사연구센터는 별도 조직.</p><Link to="organization.html">조직 분석·확인 범위</Link><Link to="legal/sources.html">법령 근거·원문</Link></div>
+  <div className="map-basis"><b>조직도 기반 탐색용 지도</b><p>{org.coverageLabels.basis}</p><Link to="organization.html">조직 분석·확인 범위</Link><Link to="legal/sources.html">법령 근거·원문</Link></div>
  </div>;
 }

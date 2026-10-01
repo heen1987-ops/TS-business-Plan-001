@@ -14,6 +14,7 @@ function markdown(){const lines=['# '+d.title,'',d.id+' · '+d.version+' · '+d.
   if(b.type==='skills')for(const sk of d.skills)lines.push('### '+sk.id+' '+sk.name,'','- 입력: '+sk.input,'- 처리: '+sk.how,'- 허용 도구 제안: '+sk.tools.join(' / '),'- 산출: '+sk.output,'- 검증·예외: '+sk.gate,'');
   if(b.type==='contract')lines.push('### '+d.labels.contract,'','```json',JSON.stringify(d.contract,null,2),'```');
   if(b.type==='flow')table(['단계','서비스 처리','HOW·예외','연결 데이터'],d.flow);
+  if(b.type==='coverage')lines.push(require('./export-department-coverage.cjs').markdown());
   if(b.type==='portfolio')for(const group of d.documentGroups){
    lines.push('### '+group.code+' '+group.name,'',group.sharedDocuments?d.labels.sharedDocuments:d.labels.singleDocuments,'',d.labels.versionNote,'');
    table(['문서','판본·상태','한글 파일'],group.documents.map(f=>[f.label,f.version+' · '+f.status,'['+f.label+' 다운로드](https://heen1987-ops.github.io/TS-business-Plan-001/'+f.path+')']));
@@ -23,5 +24,5 @@ function markdown(){const lines=['# '+d.title,'',d.id+' · '+d.version+' · '+d.
   if(b.type==='sources')for(const[id,e]of Object.entries(d.sources))lines.push('### '+id+' '+e.title,'','- 게시·판본: '+e.published,'- 확인일: '+e.checkedAt,'- 위치: '+e.location,'- 확인 사실: '+e.fact,'- 한계: '+e.limit,e.url?'- 원문: ['+e.title+']('+e.url+')':e.to?'- 공개 목록: [처별 한글 문서](https://heen1987-ops.github.io/TS-business-Plan-001/'+e.to+')':'- 공개 원문 링크 없음. 자료명·원문 위치 참조.','');
   if(b.refs?.length)lines.push('','근거: '+b.refs.map(id=>id+' '+d.sources[id].title).join(' / '));lines.push('');
  }}return lines.join('\n')+'\n';}
-module.exports=function(out){fs.mkdirSync(out,{recursive:true});fs.writeFileSync(path.join(out,'skill-pms-design.md'),markdown());fs.writeFileSync(path.join(out,'skill-pms-design.json'),JSON.stringify(d,null,2)+'\n');const assets=path.resolve(out,'../assets/skill-pms');fs.mkdirSync(assets,{recursive:true});fs.writeFileSync(path.join(assets,'architecture.svg'),architecture());};
+module.exports=function(out){fs.mkdirSync(out,{recursive:true});require('./export-department-coverage.cjs')(out);fs.writeFileSync(path.join(out,'skill-pms-design.md'),markdown());fs.writeFileSync(path.join(out,'skill-pms-design.json'),JSON.stringify(d,null,2)+'\n');const assets=path.resolve(out,'../assets/skill-pms');fs.mkdirSync(assets,{recursive:true});fs.writeFileSync(path.join(assets,'architecture.svg'),architecture());};
 module.exports.markdown=markdown;module.exports.architecture=architecture;

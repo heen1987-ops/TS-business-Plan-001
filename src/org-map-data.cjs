@@ -1,9 +1,15 @@
 const {departments}=require('./data.json');
 const supplement=require('./proposal-links.cjs');
+const coverage=require('./department-coverage.cjs');
 const departmentByCode=Object.fromEntries(departments.map(d=>[d.code,d]));
 const unit=(id,name,summary,children=[],extra={})=>({id,name,summary,children,kind:'organization',...extra});
 const dept=(code)=>{const d=departmentByCode[code];return unit(code,d.name,d.title,[],{code,kind:'department'});};
 const pending=(id,name)=>{const items=supplement.forOrg(id);return unit(id,name,items[0]?.title||'업무·담당 확인 필요',[],{pending:items.some(p=>p.pending)||!items.length,supplement:items.map(p=>p.id)});};
+const covered=r=>unit(r.id,r.name,r.note,[],{coverageId:r.id,planningCode:r.code,planningMissing:!r.code});
+const other=(id,name)=>unit(id,name,'공식 조직 명칭 확인 · 처 수와 분리 · 개별 계획 편성은 추가 확인',[],{coverageOther:true});
+const katriGroups=coverage.groups.filter(g=>g.scope==='katri').map(g=>unit(g.parentId,g.parent.split(' / ').at(-1),'공식 조직도 소속 · 처별 문서 연결 상태 확인',coverage.rows.filter(r=>r.parentId===g.parentId).map(covered)));
+katriGroups.find(g=>g.id==='katri-future').children.push(other('katri-gwangju','광주친환경자동차인증센터'),other('katri-hongseong','홍성자동차부품인증지원센터'));
+katriGroups.find(g=>g.id==='katri-certification').children.push(other('katri-international','안전기준 국제화센터'),other('katri-special','특장차인증센터'));
 const tree=unit('TS','한국교통안전공단','안전하고 편리한 교통환경을 위한 법정·수탁업무와 AX 전환 제안',[
  unit('planning','기획본부','경영방향·자원 배분·성과·디지털 기반',[
   unit('planning-office','기획조정실','경영·예산·성과·ESG 관련 조직',[
@@ -27,12 +33,14 @@ const tree=unit('TS','한국교통안전공단','안전하고 편리한 교통�
   pending('ai-strategy','AI미래전략실'),pending('external','대외협력실'),pending('health','안전보건실')],{kind:'group'}),
  unit('audit','감사(비상임)','이사장 직속과 구분되는 감사 계통',[
   unit('audit-office','감사실','감사 계통의 조직',[pending('audit-dept','감사처')])]),
- unit('KATRI','자동차안전연구원','차량·부품·국제기준 문서 검토의 AX 적용안',[
+ unit('KATRI','자동차안전연구원','공식 조직 13처 · 개별 계획서 1처 연결 · 12처 미작성',[
+  ...katriGroups,other('katri-arbitration-secretariat','자동차안전하자 심의위원회사무국'),other('katri-accident-secretariat','자율주행자동차 사고조사위원회사무국'),
+  unit('katri-cases','연구원 업무 적용안','실제 조직과 구분되는 관련 적용안',[
   unit('KA-01','기술검토·안전검사','검토대상·기준·증빙의 누락 확인',[],{kind:'case'}),
   unit('KA-02','부품 증빙·사후관리','부품 자료와 보완·후속조치 연결',[],{kind:'case'}),
-  unit('KA-03','국제기준 변경 대응','기준 변경의 적용범위·검토사항 연결',[],{kind:'case'})],{kind:'institute'}),
+  unit('KA-03','국제기준 변경 대응','기준 변경의 적용범위·검토사항 연결',[],{kind:'case'})],{kind:'group'})],{kind:'institute'}),
  unit('field','지역·현장 조직','지역본부·검사·교육 현장의 탐색 묶음',[
-  pending('regions','지역본부'),pending('stations','자동차검사소'),
+  unit('regions','지역본부','공통 검토안 · 하위 안전관리처·안전사업처 유형 · 지역별 설치 수 미확인',coverage.regionalTypes.map(covered),{supplement:['regions']}),pending('stations','자동차검사소'),
   pending('experience','교통안전체험교육센터'),pending('drone-centers','드론교육·자격센터')],{kind:'group'})
 ],{kind:'institution'});
 const nodes={},parents={};
@@ -42,6 +50,8 @@ function ancestry(id){const result=[];let node=nodes[id];while(node){result.unsh
 function proposals(node){return node.code?[departmentByCode[node.code]]:node.children.flatMap(proposals);}
 function doc(id,name,summary,to){return {id,name,summary,to,kind:'document'};}
 function documents(node){
+ if(node.coverageId){const r=[...coverage.rows,...coverage.regionalTypes].find(r=>r.id===node.coverageId);return [doc('coverage','조직·계획서 대조',r.statusLabel,'skill-pms.html#'+r.anchor),...(r.planTo?[doc('plan','처별 한글 계획서·설계',r.code+' · 기획 초안 3종',r.planTo)]:[]),...(r.relatedTo?[doc('related',r.relatedLabel,'관련 자료 · 개별 계획서와 구분',r.relatedTo)]:[])];}
+ if(node.coverageOther)return [doc('coverage','전체 조직·유형 확인','센터·사무국과 처 모집단 구분','skill-pms.html#pms-department-review')];
  if(node.supplement?.length)return [...node.supplement.map(id=>doc('detail-'+id,'상세 검토 · '+supplement.profileById[id].title,supplement.profileById[id].status,supplement.path(id))),doc('sites','공식 업무·사이트 근거','담당·기존 서비스 접점','websites.html?node='+node.id)];
  if(node.code){const d=departmentByCode[node.code],p=d.folder+'/01_사업정의.html';return [
   doc('mandate','담당 처·법령·컨셉','실제 업무 · 담당 역할 · 제안 이유','legal/mapping.html?dept='+node.code),
@@ -65,6 +75,7 @@ function documents(node){
   doc('organization','조직·업무 분석','제공 조직도와 기존 원장 확인','organization.html'),
   doc('legal','법정·수탁업무 지도','업무별 법령·수행조직 대조','legal.html')];
 }
-function kindLabel(node){return node.kind==='group'?'탐색 묶음':node.kind==='case'?'적용안':node.kind==='department'?'AX 제안 연결':node.pending?'배정 확인 필요':node.supplement?.length?'상세 검토안 연결':node.kind==='document'?'자료 바로가기':'조직';}
+function kindLabel(node){if(node.coverageId)return node.planningCode?'계획서 연결':'개별 계획서 미작성';if(node.coverageOther)return '처 외 조직';return node.kind==='group'?'탐색 묶음':node.kind==='case'?'적용안':node.kind==='department'?'AX 제안 연결':node.pending?'배정 확인 필요':node.supplement?.length?'상세 검토안 연결':node.kind==='document'?'자료 바로가기':'조직';}
 function edgeKind(parent,child){return child.kind==='document'||[parent.kind,child.kind].some(k=>k==='group'||k==='case')?'related':'organization';}
-module.exports={edgeKind,tree,nodes,parents,ancestry,proposals,documents,departmentByCode,kindLabel};
+const coverageLabels={topLink:coverage.labels.reviewLink,rootCaption:'공식 조직도 대조: 본사 38처 + 연구원 13처 / 계획서 연결 39처 / 연구원 12처 미작성',basis:'2026-10-01 공식 공개 조직도와 기존 업무 원장 대조. 본사+연구원 처 모집단 51개이며 전국 설치 처 총수와 구분. 지역본부 안전관리처·안전사업처는 2개 유형, 지역별 설치 수 미확인. KATRI 실제 조직과 업무 적용안은 별도 계통. 현행 직제·위탁·전결·전체 분장 확정과 구분.'};
+module.exports={coverageLabels,edgeKind,tree,nodes,parents,ancestry,proposals,documents,departmentByCode,kindLabel};
