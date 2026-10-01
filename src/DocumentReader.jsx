@@ -4,7 +4,7 @@ import{Link,href}from'./core.jsx';
 import model from'./document-data.cjs';
 import './document-reader.css';
 import SourceFigure from './SourceFigure.jsx';
-import {Proposal47,CommonFinding47,Catalogue47} from './Revision47.jsx';
+import {Proposal47,Catalogue47} from './Revision47.jsx';
 import revision47 from './revision47.cjs';
 import composition from './proposal-composition.cjs';
 function Reference({link}){return /^[a-z][a-z0-9+.-]*:/i.test(link.to)?<a href={link.to} target="_blank" rel="noopener noreferrer">{link.label}<ExternalLink size={13}/></a>:<Link to={link.to}>{link.label}<ExternalLink size={13}/></Link>}
@@ -35,7 +35,7 @@ export function DocumentReader({route}){
  <header className="reading-header" id="document-start"><div><span className="reading-eyebrow">{intro?'기관 이해 → 책임 → 목표 → 조직 → 제안':'TS AX 사업기획 · 처별 제안과 근거'}</span><h1 tabIndex={-1}>{revised?revised.name+' · 통합 상세제안':doc.title}</h1><p>{revised?revised.detail.purpose:doc.lead||(grouped?'사업의 이유부터 업무 변화·구현·책임·효과까지, 큰 장의 순서대로 이어서 읽는 상세 제안.':'업무·근거·제안 내용을 아래로 이어서 확인')}</p></div></header>
  <div className="reading-layout">{!intro&&<aside className="reading-outline-area"><details className="reading-outline" open={outline} onToggle={e=>{if(e.currentTarget.open!==outline)setOutline(e.currentTarget.open)}}><summary><List size={17}/>본문 읽는 순서 <span>{outlineItems.length}개 {grouped?'장':'주제'}</span></summary><nav aria-label="본문 항목 목차">{outlineItems.map((s,i)=><a key={s.id} href={'#section-'+s.id} aria-current={(active===s.id||s.sections?.some(x=>x.id===active))?'location':undefined} onClick={e=>jump(e,s.id)}><span>{String(i+1).padStart(2,'0')}</span>{s.title===doc.title&&i===0?'개요·검토 범위':s.title}</a>)}</nav></details></aside>}
  <div className="reading-content">{isCatalogue&&<Catalogue47/>}{revised&&<Proposal47 code={code}/>}<details ref={legacyRef} className={revised||isCatalogue?'r47-legacy':'r47-unwrapped'} open={historyView||(!revised&&!isCatalogue)||(!!requested&&!requested.startsWith('r47-'))}><summary hidden={!revised&&!isCatalogue}>{revised?.verdict==='재설계'?'이전 가설(2026-09-24)':'이전 상세설계 참고(2026-09-24)'} · 기존 문서·도식·링크 보존</summary>{revised&&<p className="r47-legacy-note">아래 내용은 이전 가설의 설계 이력. 장·절의 구성은 위 최신 본문에 통합했으며, 과거 컨셉·공수·지표는 현재 확정 명세로 승계하지 않음. 근거 없는 목표 수치는 표시 철회. <Link to={route.split(/[?#]/)[0]+'?history=20260924#section-detail-sixw'}>2026-09-24 원문 위치로 이동</Link></p>}{grouped?doc.chapters.map((c,i)=><section className="reading-chapter" id={'section-'+c.id} key={c.id}><header><span>{String(i+1).padStart(2,'0')}</span><div><h2 id={'heading-'+c.id} tabIndex={-1}>{c.title}</h2><p>{c.intro}</p></div></header>{c.sections.map((s,j)=>section(s,j,true))}</section>):doc.sections.map((s,i)=>section(s,i))}
- {intro&&<CommonFinding47/>}
+
  </details><a className="reading-back-top" href="#document-start" onClick={e=>{e.preventDefault();document.getElementById('document-start')?.scrollIntoView({block:'start'});root.current?.querySelector('h1')?.focus({preventScroll:true})}}><ArrowUp size={16}/>문서 처음으로</a></div></div>
  <dialog ref={dialog} className="reading-image-dialog" aria-label="도식 확대 보기" onCancel={e=>{e.preventDefault();closeImage()}} onClick={e=>{if(e.target===dialog.current)closeImage()}}><div className="reading-dialog-header"><strong>{image?.alt||image?.title}</strong><button onClick={closeImage}>닫기 · Esc</button></div>{image&&<><img src={href(image.image)} alt={image.alt||image.title}/><a href={href(image.image)} target="_blank" rel="noopener noreferrer">원본 도식 열기</a></>}</dialog></article>
 }
