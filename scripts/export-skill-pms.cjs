@@ -14,7 +14,11 @@ function markdown(){const lines=['# '+d.title,'',d.id+' · '+d.version+' · '+d.
   if(b.type==='skills')for(const sk of d.skills)lines.push('### '+sk.id+' '+sk.name,'','- 입력: '+sk.input,'- 처리: '+sk.how,'- 허용 도구 제안: '+sk.tools.join(' / '),'- 산출: '+sk.output,'- 검증·예외: '+sk.gate,'');
   if(b.type==='contract')lines.push('### '+d.labels.contract,'','```json',JSON.stringify(d.contract,null,2),'```');
   if(b.type==='flow')table(['단계','서비스 처리','HOW·예외','연결 데이터'],d.flow);
-  if(b.type==='portfolio')table(d.labels.portfolioHeaders,d.portfolio.map(p=>[p.id+' / '+p.department,'['+p.title+'](https://heen1987-ops.github.io/TS-business-Plan-001/'+encodeURI(p.proposalRoute)+')',p.documentVersions+' · [한글 문서](https://heen1987-ops.github.io/TS-business-Plan-001/'+p.documentsRoute+')']));
+  if(b.type==='portfolio')for(const group of d.documentGroups){
+   lines.push('### '+group.code+' '+group.name,'',group.sharedDocuments?d.labels.sharedDocuments:d.labels.singleDocuments,'',d.labels.versionNote,'');
+   table(['문서','판본·상태','한글 파일'],group.documents.map(f=>[f.label,f.version+' · '+f.status,'['+f.label+' 다운로드](https://heen1987-ops.github.io/TS-business-Plan-001/'+f.path+')']));
+   for(const p of group.projects){lines.push('#### '+p.id+' '+p.title,'',p.designScope,'','- [사업제안 전체 본문](https://heen1987-ops.github.io/TS-business-Plan-001/'+encodeURI(p.proposalRoute)+')',...p.designLinks.map(a=>'- ['+a.label+'](https://heen1987-ops.github.io/TS-business-Plan-001/'+encodeURI(a.to)+')'),'');}
+  }
   if(b.type==='metrics')for(const m of d.metrics)lines.push('### '+m.id+' '+m.name,'','- 산식·단위: '+m.formula,'- 측정방법: '+m.method,'- 품질 조건: '+m.quality,'- 기준선·목표: 미설정(null) · 실측/합의 전','');
   if(b.type==='sources')for(const[id,e]of Object.entries(d.sources))lines.push('### '+id+' '+e.title,'','- 게시·판본: '+e.published,'- 확인일: '+e.checkedAt,'- 위치: '+e.location,'- 확인 사실: '+e.fact,'- 한계: '+e.limit,e.url?'- 원문: ['+e.title+']('+e.url+')':e.to?'- 공개 목록: [처별 한글 문서](https://heen1987-ops.github.io/TS-business-Plan-001/'+e.to+')':'- 공개 원문 링크 없음. 자료명·원문 위치 참조.','');
   if(b.refs?.length)lines.push('','근거: '+b.refs.map(id=>id+' '+d.sources[id].title).join(' / '));lines.push('');

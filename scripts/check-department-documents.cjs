@@ -32,6 +32,7 @@ for(const d of manifest.departments){
   check(source.length===f.bytes,'다운로드 크기');check(crypto.createHash('sha256').update(source).digest('hex')===f.sha256,'게시본 SHA '+d.code+'/'+f.kind);check(f.bytes<100*1024*1024,'일반 Git 단일파일 한도');
   const files=archive(source);check(files.get('mimetype')?.().toString()==='application/hwp+zip','HWPX MIME');check(files.has('Contents/section0.xml')&&files.has('Contents/content.hpf'),'한글 본문·패키지');
   const body=files.get('Contents/section0.xml')().toString('utf8');check(body.includes(d.name),'본문 처명');check(body.includes(f.version.split('_')[0]),'본문 버전');
+  if(f.kind==='plan')for(const project of d.projects)check(body.includes(project.title),'정보화사업계획서의 기획항목 제목 매핑 '+project.id);
   check([...files.keys()].filter(n=>n.startsWith('BinData/')).length===f.embeddedImages,'내장 그림 개수');
   for(const[name,read]of files)if(/\.(xml|hpf|txt)$/.test(name)){const text=read().toString('utf8');check(!local.test(text),'개인 경로 없음 '+d.code+'/'+name);check(!secrets.test(text),'비밀키 패턴 없음 '+d.code+'/'+name);parts++}
   bytes+=f.bytes;redactions+=f.pathRedactions;

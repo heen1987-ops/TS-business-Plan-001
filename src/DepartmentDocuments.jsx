@@ -19,7 +19,7 @@ export function DepartmentDocuments({code,profileId,catalogue=false}){
    <details><summary>파일 무결성 SHA-256</summary><code>{f.sha256}</code></details>
   </div>)}</div>
   <p className="native-note">기관 협의용 초안. 확정 과업·최종 대가·실측 효과와 구분. v0.4 추가 기술의 차분 공수·대가는 미확정이며, 대가산정서·도식집은 v0.3 참조본.</p>
-  <p><Link to={'skill-pms.html#pms-portfolio'}>{pms.catalogueLink} ↗</Link></p>
+  <p><Link to={'skill-pms.html#pms-department-'+d.code}>{pms.catalogueLink} ↗</Link></p>
   {catalogue&&<p><Link to={d.proposalRoute}>{d.name} 관련 상세제안 보기 ↗</Link></p>}
  </section>
 }
