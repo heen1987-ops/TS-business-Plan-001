@@ -13,7 +13,7 @@ const base=process.env.SITE_URL||'http://127.0.0.1:8770/TS-business-Plan-001/';
   check('가이드 개인/자동읽기 한계 유지',(await page.locator('#pms-source-G01').textContent()).includes('개인 소유·비공유')&&(await page.locator('#pms-source-G01').textContent()).includes('자동 읽기 없음'));
   check('미산정과 신규 인프라 조건 구분',(await page.locator('#pms-delivery').textContent()).includes('미산정')&&(await page.locator('#pms-delivery').textContent()).includes('인프라 투자 0원'));
   check('P01~P07 기준 대응',await page.locator('#pms-evidence tbody tr').filter({hasText:/^P0[1-7]/}).count()===7);
-  check('아키텍처 SVG 로딩',await page.locator('.pms-architecture img').evaluate(img=>img.complete&&img.naturalWidth===1440));
+  await page.waitForFunction(()=>{const img=document.querySelector('.pms-architecture img');return img?.complete&&img.naturalWidth===1440});check('아키텍처 SVG 로딩',true);
   check('기존 상위 AX 메뉴 소속',(await page.locator('.ts-location').textContent()).includes('AX 전환 제안'));
   for(const path of ['downloads/skill-pms-design.md','downloads/skill-pms-design.json','assets/skill-pms/architecture.svg']){const res=await page.request.get(base+path);check('다운로드 HTTP·본문 '+path,res.ok()&&(await res.body()).length>1000)}
   await page.locator('#pms-project-search').fill('MR-02');check('사업 검색·한 항목 반환',await page.locator('[data-pms-project]').count()===1);
