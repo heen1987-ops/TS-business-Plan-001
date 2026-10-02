@@ -1,5 +1,17 @@
 # TS Business Plan — 작업 문서 모음
 
+## 홈페이지와 한글파일
+
+- [공개 홈페이지](https://heen1987-ops.github.io/TS-business-Plan-001/)
+- [처별 한글파일 검색·다운로드 — 39개 처·117개 HWPX](https://heen1987-ops.github.io/TS-business-Plan-001/planning-documents.html)
+- [GitHub에서 처별 한글파일 바로 찾기](docs/HWPX_DOWNLOADS.md)
+- [저장소의 실제 HWPX 파일 폴더](public/downloads/departments)
+- [2027년 사업기획 검토와 한글자료 연결](https://heen1987-ops.github.io/TS-business-Plan-001/research-library.html?view=planning)
+
+게시 판본은 **계획서 v0.4 / 대가산정서·도식집 v0.3**. 최신 웹 검토 내용이 한글 본문에 모두 반영된 새 판본을 의미하지 않음. PC 경로가 아닌 Git에 포함된 파일을 Pages와 GitHub에서 제공.
+
+## 기존 작업 문서 안내
+
 한국교통안전공단(TS) AI 플랫폼 관련 CCK 내부 검토·사전기획 문서. **전부 내부용이며, 고객(TS) 대상 자료로 그대로 재사용하지 말 것** — 대체·윈백 표현, 기 구축시스템 비판 등은 사내 규정상 금지.
 
 ## 01. 플랫폼구조정리

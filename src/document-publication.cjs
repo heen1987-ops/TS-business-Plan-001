@@ -1,0 +1,22 @@
+const manifest=require('./department-documents.json');
+const repository='https://github.com/heen1987-ops/TS-business-Plan-001';
+const pages='https://heen1987-ops.github.io/TS-business-Plan-001/';
+const count=manifest.departments.reduce((n,d)=>n+d.documents.length,0);
+const pathFor=file=>{
+ if(!/^downloads\/departments\/[A-Z0-9]+\/[A-Z0-9]+_(plan|cost|diagrams)_v\d+\.\d+_r\d+\.hwpx$/.test(file.path))throw Error('허용되지 않은 한글파일 공개 경로');
+ return file.path;
+};
+module.exports={repository,pages,count,departments:manifest.departments.length,
+ catalogue:'planning-documents.html',
+ repositoryFiles:repository+'/tree/main/public/downloads/departments',
+ githubIndex:repository+'/blob/main/docs/HWPX_DOWNLOADS.md',
+ title:'처별 한글파일 바로 다운로드',
+ lead:'사업기획 검토와 함께 확인할 정보화사업 시행계획서·대가산정서·도식집. 아래 처별 표에서 파일 선택 또는 전체 한글 자료실에서 처명 검색.',
+ publicationNote:'공개 사이트에서 HWPX 파일 직접 다운로드. 파일별 GitHub 원본·다운로드 경로도 함께 제공.',
+ versionNote:'게시 판본: 계획서 v0.4 · 대가산정서·도식집 v0.3. 2027년 웹 검토서의 최신 수정 내용이 한글 본문에 모두 반영된 새 판본은 아님.',
+ labels:{catalogue:'전체 처 한글파일 찾기',repository:'GitHub 한글파일 목록',source:'GitHub 파일 보기',fallback:'GitHub 원본 다운로드',column:'한글파일 3종',version:'게시 계획서'},
+ shortLabels:{plan:'계획서',cost:'대가산정서',diagrams:'도식집'},
+ fileUrl:file=>new URL(pathFor(file),pages).href,
+ sourceUrl:file=>repository+'/blob/main/public/'+pathFor(file),
+ rawUrl:file=>repository+'/raw/refs/heads/main/public/'+pathFor(file)
+};

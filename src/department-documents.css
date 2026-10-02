@@ -14,6 +14,7 @@
 .native-file details{margin-top:10px;font-size:.8rem;color:#4a5e6c}
 .native-file summary{cursor:pointer;padding:6px 0}
 .native-file code{display:block;overflow-wrap:anywhere;margin-top:8px;font-size:.75rem}
+.native-source-links{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:12px;font-size:.85rem}.native-source-links a{padding:4px 0}
 .department-documents .native-note{font-size:.86rem;color:#4a6174;line-height:1.7;margin:16px 0 0}
 .native-publication-note{border-left:4px solid #3d718f;padding:12px 20px;background:#f2f7fb;margin:20px 0}
 .native-publication-note p{margin:8px 0;line-height:1.7}

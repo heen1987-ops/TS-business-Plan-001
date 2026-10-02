@@ -1,5 +1,7 @@
 const fs=require('node:fs'),path=require('node:path'),zlib=require('node:zlib'),crypto=require('node:crypto'),assert=require('node:assert/strict');
 const manifest=require('../src/department-documents.json'),site=require('../src/data.json'),profiles=require('../src/proposal-links.cjs'),nav=require('../src/navigation.cjs');
+const publication=require('../src/document-publication.cjs'),{execFileSync}=require('node:child_process');
+const tracked=new Set(execFileSync('git',['ls-files','--','public/downloads/departments'],{encoding:'utf8'}).trim().split(/\r?\n/));
 let checks=0;const check=(value,message)=>{assert(value,message);checks++};
 function archive(buffer){
  let end=-1;for(let i=buffer.length-22;i>=Math.max(0,buffer.length-65557);i--)if(buffer.readUInt32LE(i)===0x06054b50){end=i;break}
@@ -25,6 +27,10 @@ for(const d of manifest.departments){
  }else check(site.departments.some(s=>s.code===d.code&&s.name===d.name),'기존 처 연결 '+d.code);
  check(d.documents.map(f=>f.kind).join(',')==='plan,cost,diagrams','처별 문서 3종 '+d.code);
  for(const f of d.documents){
+  check(tracked.has('public/'+f.path),'Git에 포함된 한글파일 '+f.path);
+  check(publication.fileUrl(f)==='https://heen1987-ops.github.io/TS-business-Plan-001/'+f.path,'공개 Pages 파일 경로');
+  check(publication.sourceUrl(f)==='https://github.com/heen1987-ops/TS-business-Plan-001/blob/main/public/'+f.path,'GitHub 실제 파일 경로');
+  check(publication.rawUrl(f)==='https://github.com/heen1987-ops/TS-business-Plan-001/raw/refs/heads/main/public/'+f.path,'GitHub 직접 다운로드 경로');
   check(f.path.startsWith('downloads/departments/'+d.code+'/')&&!f.path.includes('..'),'다운로드 경로 '+d.code);paths.push(f.path);check(f.path.endsWith('.hwpx')&&f.nativeFormat==='HWPX','한글 형식');
   check(f.version===(f.kind==='plan'?'v0.4_r01':'v0.3_r01'),'판본 정직한 구분 '+d.code);
   check(f.status.includes(f.kind==='plan'?'초안':'참조본'),'문서 상태 표기');check(f.kind==='plan'||f.status.includes('미확정')||f.status.includes('최신 기술 상세'),'v0.3 범위 한계');
@@ -44,4 +50,9 @@ check(nav.locate('planning-documents.html')?.id==='planning-documents','자료�
 for(const f of ['src/Revision47.jsx','src/ProposalLinks.jsx'])check(fs.readFileSync(f,'utf8').includes('<DepartmentDocuments'),'실제 처별 렌더러 연결');
 check(!local.test(JSON.stringify(manifest)),'공개 원장 개인 경로 없음');check(!secrets.test(JSON.stringify(manifest)),'공개 원장 비밀키 없음');
 check(manifest.limitations.some(t=>t.includes('미확정')),'대가 미확정 한계 보존');
+check(fs.readFileSync('docs/HWPX_DOWNLOADS.md','utf8')===require('./native-document-index.cjs')(),'GitHub 한글 목록과 정본 일치');
+check(fs.readFileSync('README.md','utf8').includes('(docs/HWPX_DOWNLOADS.md)'),'저장소 첫 화면에서 한글 목록 연결');
+const review=fs.readFileSync('src/AnalysisReview.jsx','utf8');
+check(review.includes('<DepartmentDownloadLinks code={r.code}/>')&&review.includes('data-planning-download-entry'),'검토서에서 처별 한글과 전체 목록 연결');
+check(fs.readFileSync('src/DepartmentDocuments.jsx','utf8').includes('<DocumentSourceLinks file={f}/>'),'파일별 GitHub 원본 연결');
 console.log(JSON.stringify({result:'통과',checks,departments:39,files:117,bytes,redactions,textParts:parts}));
