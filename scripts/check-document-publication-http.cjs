@@ -12,7 +12,7 @@ async function verify(file,url){
  return{path:file.path,url,pass:false,attempts};
 }
 (async()=>{
- const files=manifest.departments.flatMap(d=>d.documents),results=[];let cursor=0;
+ const files=manifest.departments.flatMap(d=>[...d.documents,...(d.history||[])]),results=[];let cursor=0;
  await Promise.all(Array.from({length:4},async()=>{while(cursor<files.length){const file=files[cursor++];results.push(await verify(file,publication.fileUrl(file)))}}));
  const github=[];for(const file of manifest.departments.find(d=>d.code==='MR').documents)github.push(await verify(file,publication.rawUrl(file)));
  fs.mkdirSync('qa-output',{recursive:true});fs.writeFileSync('qa-output/document-publication-http.json',JSON.stringify({checkedAt:new Date().toISOString(),base:publication.pages,results,github},null,2));

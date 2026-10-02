@@ -26,26 +26,32 @@ for(const d of manifest.departments){
   check(d.profileIds.length>0,'추가처 카드 연결 '+d.code);for(const id of d.profileIds)check(profiles.profileById[id]?.name===d.name,'동일 처 카드 '+id);
  }else check(site.departments.some(s=>s.code===d.code&&s.name===d.name),'기존 처 연결 '+d.code);
  check(d.documents.map(f=>f.kind).join(',')==='plan,cost,diagrams','처별 문서 3종 '+d.code);
- for(const f of d.documents){
+ check(d.history?.length===1&&d.history[0].kind==='plan'&&d.history[0].version==='v0.4_r01','이전 계획서 보존 '+d.code);
+ for(const f of [...d.documents,...d.history]){
   check(tracked.has('public/'+f.path),'Git에 포함된 한글파일 '+f.path);
   check(publication.fileUrl(f)==='https://heen1987-ops.github.io/TS-business-Plan-001/'+f.path,'공개 Pages 파일 경로');
   check(publication.sourceUrl(f)==='https://github.com/heen1987-ops/TS-business-Plan-001/blob/main/public/'+f.path,'GitHub 실제 파일 경로');
   check(publication.rawUrl(f)==='https://github.com/heen1987-ops/TS-business-Plan-001/raw/refs/heads/main/public/'+f.path,'GitHub 직접 다운로드 경로');
   check(f.path.startsWith('downloads/departments/'+d.code+'/')&&!f.path.includes('..'),'다운로드 경로 '+d.code);paths.push(f.path);check(f.path.endsWith('.hwpx')&&f.nativeFormat==='HWPX','한글 형식');
-  check(f.version===(f.kind==='plan'?'v0.4_r01':'v0.3_r01'),'판본 정직한 구분 '+d.code);
+  check(f.version===(d.history.includes(f)?'v0.4_r01':f.kind==='plan'?'v0.5_r01':'v0.3_r01'),'판본 정직한 구분 '+d.code);
   check(f.status.includes(f.kind==='plan'?'초안':'참조본'),'문서 상태 표기');check(f.kind==='plan'||f.status.includes('미확정')||f.status.includes('최신 기술 상세'),'v0.3 범위 한계');
   const source=fs.readFileSync(path.join('public',f.path)),deployed=fs.readFileSync(path.join('dist',f.path));check(source.equals(deployed),'빌드에서 원문 바이트 보존');
   check(source.length===f.bytes,'다운로드 크기');check(crypto.createHash('sha256').update(source).digest('hex')===f.sha256,'게시본 SHA '+d.code+'/'+f.kind);check(f.bytes<100*1024*1024,'일반 Git 단일파일 한도');
   const files=archive(source);check(files.get('mimetype')?.().toString()==='application/hwp+zip','HWPX MIME');check(files.has('Contents/section0.xml')&&files.has('Contents/content.hpf'),'한글 본문·패키지');
   const body=files.get('Contents/section0.xml')().toString('utf8');check(body.includes(d.name),'본문 처명');check(body.includes(f.version.split('_')[0]),'본문 버전');
+  if(f.version==='v0.5_r01'){
+   for(const text of ['2027년','차분 총사업비 미산정','목표 수치 미확정','신규 인프라 구매 0원'])check(body.includes(text),'v0.5 범위·측정·대가 '+d.code+'/'+text);
+   const current=require('../src/analysis-review.cjs').departments[d.code];if(current)check(body.includes(current.purpose)&&body.includes(current.status),'웹 최신 판단과 한글 본문 일치 '+d.code);
+   if(d.code==='MR')check(body.includes(require('../src/analysis-review.cjs').drt.purpose),'DRT 독립 사업 식별 매핑');
+  }
   if(f.kind==='plan')for(const project of d.projects)check(body.includes(project.title),'정보화사업계획서의 기획항목 제목 매핑 '+project.id);
   check([...files.keys()].filter(n=>n.startsWith('BinData/')).length===f.embeddedImages,'내장 그림 개수');
   for(const[name,read]of files)if(/\.(xml|hpf|txt)$/.test(name)){const text=read().toString('utf8');check(!local.test(text),'개인 경로 없음 '+d.code+'/'+name);check(!secrets.test(text),'비밀키 패턴 없음 '+d.code+'/'+name);parts++}
   bytes+=f.bytes;redactions+=f.pathRedactions;
  }
 }
-check(new Set(paths).size===117,'동일 파일 중복 게시 없음');
-check(fs.readdirSync('public/downloads/departments',{recursive:true}).filter(p=>p.endsWith('.hwpx')).length===117,'게시 디렉터리 불필요 파일 없음');
+check(new Set(paths).size===156,'현재 117개·이전 계획서 39개 고유 경로');
+check(fs.readdirSync('public/downloads/departments',{recursive:true}).filter(p=>p.endsWith('.hwpx')).length===156,'현재·이전판 외 미등록 파일 없음');
 check(nav.locate('planning-documents.html')?.id==='planning-documents','자료실·검색·현재 위치 연결');
 for(const f of ['src/Revision47.jsx','src/ProposalLinks.jsx'])check(fs.readFileSync(f,'utf8').includes('<DepartmentDocuments'),'실제 처별 렌더러 연결');
 check(!local.test(JSON.stringify(manifest)),'공개 원장 개인 경로 없음');check(!secrets.test(JSON.stringify(manifest)),'공개 원장 비밀키 없음');
@@ -55,4 +61,4 @@ check(fs.readFileSync('README.md','utf8').includes('(docs/HWPX_DOWNLOADS.md)'),'
 const review=fs.readFileSync('src/AnalysisReview.jsx','utf8');
 check(review.includes('<DepartmentDownloadLinks code={r.code}/>')&&review.includes('data-planning-download-entry'),'검토서에서 처별 한글과 전체 목록 연결');
 check(fs.readFileSync('src/DepartmentDocuments.jsx','utf8').includes('<DocumentSourceLinks file={f}/>'),'파일별 GitHub 원본 연결');
-console.log(JSON.stringify({result:'통과',checks,departments:39,files:117,bytes,redactions,textParts:parts}));
+console.log(JSON.stringify({result:'통과',checks,departments:39,currentFiles:117,historyFiles:39,files:156,bytes,redactions,textParts:parts}));

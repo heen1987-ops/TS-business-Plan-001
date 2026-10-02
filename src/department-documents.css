@@ -27,6 +27,7 @@
 .native-index a{padding:8px 10px;background:#f3f7fa;border:1px solid #d3dfe8;border-radius:4px;color:#294d67;font-size:.85rem}
 .native-department-row{scroll-margin-top:calc(var(--ts-chrome-height,140px) + 20px)}
 .native-empty{padding:24px;background:#f4f7fa;border:1px solid #d2dce4}
+.native-archive{margin-top:18px;padding:14px 16px;border:1px solid #c8d5df;background:#fff;border-radius:5px}.native-archive summary{cursor:pointer;font-weight:700;color:#344f64}.native-archive summary:focus-visible{outline:3px solid #16435c;outline-offset:3px}.native-archive p,.native-archive small{color:#526577;font-size:.85rem;line-height:1.7}.native-archive small{display:block;margin-top:8px}
 .department-documents a:focus-visible,.native-search input:focus-visible,.native-search button:focus-visible,.native-index a:focus-visible,.native-file summary:focus-visible{outline:3px solid #16435c;outline-offset:3px}
 @media(max-width:1100px){.native-file-grid{grid-template-columns:1fr}.department-documents>header{display:block}.department-documents>header>a{display:inline-block;margin-top:8px}}
 @media(max-width:550px){.department-documents{padding:15px}.native-file{padding:14px}.native-search{grid-template-columns:1fr}.native-search label,.native-search p{grid-column:auto}}

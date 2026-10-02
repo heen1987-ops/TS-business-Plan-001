@@ -3,12 +3,12 @@
 ## 홈페이지와 한글파일
 
 - [공개 홈페이지](https://heen1987-ops.github.io/TS-business-Plan-001/)
-- [처별 한글파일 검색·다운로드 — 39개 처·117개 HWPX](https://heen1987-ops.github.io/TS-business-Plan-001/planning-documents.html)
+- [처별 한글파일 검색·다운로드 — 39개 처·현재 117개·이전 39개 HWPX](https://heen1987-ops.github.io/TS-business-Plan-001/planning-documents.html)
 - [GitHub에서 처별 한글파일 바로 찾기](docs/HWPX_DOWNLOADS.md)
 - [저장소의 실제 HWPX 파일 폴더](public/downloads/departments)
 - [2027년 사업기획 검토와 한글자료 연결](https://heen1987-ops.github.io/TS-business-Plan-001/research-library.html?view=planning)
 
-게시 판본은 **계획서 v0.4 / 대가산정서·도식집 v0.3**. 최신 웹 검토 내용이 한글 본문에 모두 반영된 새 판본을 의미하지 않음. PC 경로가 아닌 Git에 포함된 파일을 Pages와 GitHub에서 제공.
+게시 판본은 **계획서 v0.5 / 대가산정서·도식집 v0.3 참조본**. 2027년 처별 편성 판단·기술 HOW·측정방법을 반영한 협의용 개정 초안이며, 차분 대가·실측 효과는 미확정. 이전 계획서 v0.4는 보존. PC 경로가 아닌 Git에 포함된 파일을 Pages와 GitHub에서 제공. [v0.5 개정·검증 범위](docs/HWPX_ALIGNMENT_2026-10-02.md) 참조.
 
 ## 기존 작업 문서 안내
 

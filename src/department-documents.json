@@ -1,10 +1,11 @@
 {
-  "version": "2026-10-01",
+  "version": "2026-10-02",
   "title": "처별 한글 계획서·대가산정서·도식집",
   "notice": "개인 PC·드라이브 보관경로를 자료명으로 치환한 공개 사본. 원문 근거 ID·판본·쪽·해시와 내장 그림 보존.",
   "limitations": [
-    "기관 협의용 초안. 확정 과업·최종 대가·실측 개선효과와 구분.",
-    "계획서 v0.4와 참조 첨부 v0.3의 판본 구분. v0.4 추가 기술의 차분 공수·대가 미확정."
+    "계획서 v0.5는 2027년 편성 협의용 개정 초안. 기관 확정 사업·실측 개선효과·제품 구현을 뜻하지 않음.",
+    "대가산정서·도식집 v0.3은 이전 참조본. v0.5 차분 공수·대가 미확정.",
+    "이전 계획서 v0.4 39개 보존. 최신 계획서의 그림은 v0.2~v0.4 도판 재사용이며 새 이미지 생성 결과가 아님."
   ],
   "departments": [
     {
@@ -26,24 +27,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/MR/MR_plan_v0.4_r01.hwpx",
-          "downloadName": "MR_모빌리티연구처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 11824944,
-          "sha256": "3ae2c791fee8835700eb955d83b5c4b11a12bd49ef7044186a313e035c0953aa",
-          "sourceSha256": "2274225300255f128d63c1ee5ec12f49834009c7b520f62aa95e7c9242b35a68",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/MR/MR_plan_v0.5_r01.hwpx",
+          "downloadName": "MR_모빌리티연구처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 4908489,
+          "sha256": "572282ebd36d5fa07f205c0ff92b484effdd3859276f933a3896c1b061811efd",
+          "sourceSha256": "4fea7ccbb6555a039688490078ce1ccb06e4ef245b8fa513e27b37c708745808",
           "pathRedactions": 15,
           "nativeFormat": "HWPX",
-          "embeddedImages": 22
+          "embeddedImages": 14
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/MR/MR_cost_v0.3_r01.hwpx",
           "downloadName": "MR_모빌리티연구처_대가산정서_v0.3_r01.hwpx",
           "bytes": 447636,
@@ -58,7 +59,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/MR/MR_diagrams_v0.3_r01.hwpx",
           "downloadName": "MR_모빌리티연구처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 8239828,
@@ -67,6 +68,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 20
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/MR/MR_plan_v0.4_r01.hwpx",
+          "downloadName": "MR_모빌리티연구처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 11824944,
+          "sha256": "3ae2c791fee8835700eb955d83b5c4b11a12bd49ef7044186a313e035c0953aa",
+          "sourceSha256": "2274225300255f128d63c1ee5ec12f49834009c7b520f62aa95e7c9242b35a68",
+          "pathRedactions": 15,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 22
         }
       ]
     },
@@ -85,24 +103,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/DF/DF_plan_v0.4_r01.hwpx",
-          "downloadName": "DF_데이터융복합처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 6043935,
-          "sha256": "e4760def42c8dd08d352052f1053f28851be9e02474ddb82ed1384a66743be87",
-          "sourceSha256": "f057f633e6dca79e162950e88e1249feb426e3e1ce1e6d29ae9f1dc81ae4d58b",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/DF/DF_plan_v0.5_r01.hwpx",
+          "downloadName": "DF_데이터융복합처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2387320,
+          "sha256": "78f1d83dd5b4bb6e732aa1a7eb07f0b43094a19b2f3a52969c54a872018a6438",
+          "sourceSha256": "2d5ef6f07efbb84fa9d248bf14d263985e7b12db75e9530598a2ea097f6644ea",
           "pathRedactions": 17,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/DF/DF_cost_v0.3_r01.hwpx",
           "downloadName": "DF_데이터융복합처_대가산정서_v0.3_r01.hwpx",
           "bytes": 256017,
@@ -117,7 +135,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/DF/DF_diagrams_v0.3_r01.hwpx",
           "downloadName": "DF_데이터융복합처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 4186786,
@@ -126,6 +144,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/DF/DF_plan_v0.4_r01.hwpx",
+          "downloadName": "DF_데이터융복합처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 6043935,
+          "sha256": "e4760def42c8dd08d352052f1053f28851be9e02474ddb82ed1384a66743be87",
+          "sourceSha256": "f057f633e6dca79e162950e88e1249feb426e3e1ce1e6d29ae9f1dc81ae4d58b",
+          "pathRedactions": 17,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -144,24 +179,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/SA/SA_plan_v0.4_r01.hwpx",
-          "downloadName": "SA_교통안전처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 5881681,
-          "sha256": "32c157bdad786243c48f8a4601133ff0b5c5c41acef7ad1df6073e1a37c6f03a",
-          "sourceSha256": "754a2c4b6c7bd5e0cf297ac9e75f1484d19917c7c29c064f14a14686cda380a8",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/SA/SA_plan_v0.5_r01.hwpx",
+          "downloadName": "SA_교통안전처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2302735,
+          "sha256": "758eeb5469edf0b8aec9919765a300a20be46d40329a152d5087f9bbd95c2991",
+          "sourceSha256": "8cff62b0a73bb3708e700924ae4f0dfeee7c16c7e0a54a751c0ac8d4352c2da1",
           "pathRedactions": 14,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/SA/SA_cost_v0.3_r01.hwpx",
           "downloadName": "SA_교통안전처_대가산정서_v0.3_r01.hwpx",
           "bytes": 250888,
@@ -176,7 +211,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/SA/SA_diagrams_v0.3_r01.hwpx",
           "downloadName": "SA_교통안전처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 4069461,
@@ -185,6 +220,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/SA/SA_plan_v0.4_r01.hwpx",
+          "downloadName": "SA_교통안전처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 5881681,
+          "sha256": "32c157bdad786243c48f8a4601133ff0b5c5c41acef7ad1df6073e1a37c6f03a",
+          "sourceSha256": "754a2c4b6c7bd5e0cf297ac9e75f1484d19917c7c29c064f14a14686cda380a8",
+          "pathRedactions": 14,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -203,24 +255,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/QE/QE_plan_v0.4_r01.hwpx",
-          "downloadName": "QE_자격교육처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 5733487,
-          "sha256": "7ace3b6c22959442cb4739e30ee3bd4d7c6d18751719de9f2c0947bfb41eb67f",
-          "sourceSha256": "96f0dcb45c661cbab2f9a2e1fb0fc2aa3a97781ec0d4aae5f5ab9cccbfb00301",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/QE/QE_plan_v0.5_r01.hwpx",
+          "downloadName": "QE_자격교육처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2419002,
+          "sha256": "7f5ce84cf1800c832a803fb5bd196eec52b22d2d2e0743d8f0368e5b1067a828",
+          "sourceSha256": "358fd80aa0e1040fb8c4b9dfa7937cce87f4330ebf18cdcf460e15b9c7085cd0",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/QE/QE_cost_v0.3_r01.hwpx",
           "downloadName": "QE_자격교육처_대가산정서_v0.3_r01.hwpx",
           "bytes": 256914,
@@ -235,7 +287,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/QE/QE_diagrams_v0.3_r01.hwpx",
           "downloadName": "QE_자격교육처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 3944157,
@@ -244,6 +296,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/QE/QE_plan_v0.4_r01.hwpx",
+          "downloadName": "QE_자격교육처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 5733487,
+          "sha256": "7ace3b6c22959442cb4739e30ee3bd4d7c6d18751719de9f2c0947bfb41eb67f",
+          "sourceSha256": "96f0dcb45c661cbab2f9a2e1fb0fc2aa3a97781ec0d4aae5f5ab9cccbfb00301",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -262,24 +331,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/CL/CL_plan_v0.4_r01.hwpx",
-          "downloadName": "CL_기후탄소물류처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 5932837,
-          "sha256": "f2a703b9cf1bf830b9ffdaa7bcceeeb040a58c76ea77915099b79daa1dd67e3e",
-          "sourceSha256": "f933b927292b1ff41cce16964607627bc16d4111469ef44a4167c3cc8bbd02bc",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/CL/CL_plan_v0.5_r01.hwpx",
+          "downloadName": "CL_기후탄소물류처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2403615,
+          "sha256": "5b95c91e86ff0fdfe026da8d53c4bd065683d1d17330911d38a77bd62da3f28f",
+          "sourceSha256": "c1938f2e7af2c32497d9dd3e2b018c6e16e408b2dd930839c9d144c5251d4447",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/CL/CL_cost_v0.3_r01.hwpx",
           "downloadName": "CL_기후탄소물류처_대가산정서_v0.3_r01.hwpx",
           "bytes": 250981,
@@ -294,7 +363,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/CL/CL_diagrams_v0.3_r01.hwpx",
           "downloadName": "CL_기후탄소물류처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 4074901,
@@ -303,6 +372,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/CL/CL_plan_v0.4_r01.hwpx",
+          "downloadName": "CL_기후탄소물류처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 5932837,
+          "sha256": "f2a703b9cf1bf830b9ffdaa7bcceeeb040a58c76ea77915099b79daa1dd67e3e",
+          "sourceSha256": "f933b927292b1ff41cce16964607627bc16d4111469ef44a4167c3cc8bbd02bc",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -321,24 +407,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/PS/PS_plan_v0.4_r01.hwpx",
-          "downloadName": "PS_정책지원처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 6398114,
-          "sha256": "993c15e62427a0bcd1efcbd6c1a71d96c3e0a2457de62f4757245586bbeedc64",
-          "sourceSha256": "8c36b46779d5213517d8813ab029cf82a421566dff7881be3a1459a63f7d347a",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/PS/PS_plan_v0.5_r01.hwpx",
+          "downloadName": "PS_정책지원처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2569921,
+          "sha256": "a8b62e5950f913aedf3db5dcc3efad85109cf91377c3b7032cecef73d6a42bee",
+          "sourceSha256": "bfd562bd1ea5a8a17e2f5b33e5682486dc43be64270e51dc05b811d37c59c2ef",
           "pathRedactions": 15,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/PS/PS_cost_v0.3_r01.hwpx",
           "downloadName": "PS_정책지원처_대가산정서_v0.3_r01.hwpx",
           "bytes": 256204,
@@ -353,7 +439,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/PS/PS_diagrams_v0.3_r01.hwpx",
           "downloadName": "PS_정책지원처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 4589240,
@@ -362,6 +448,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/PS/PS_plan_v0.4_r01.hwpx",
+          "downloadName": "PS_정책지원처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 6398114,
+          "sha256": "993c15e62427a0bcd1efcbd6c1a71d96c3e0a2457de62f4757245586bbeedc64",
+          "sourceSha256": "8c36b46779d5213517d8813ab029cf82a421566dff7881be3a1459a63f7d347a",
+          "pathRedactions": 15,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -380,24 +483,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/RI/RI_plan_v0.4_r01.hwpx",
-          "downloadName": "RI_규제혁신처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 5805309,
-          "sha256": "89f1e02e34924959e48a42b447ee54170e01a6cbabba1f26c5d17d2a773197e9",
-          "sourceSha256": "bdcd718506344cdafd2634b1faab1fc7d2f4b5904ba4f80edf55fbe10979a62f",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/RI/RI_plan_v0.5_r01.hwpx",
+          "downloadName": "RI_규제혁신처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2445703,
+          "sha256": "71cebe93a1487764d582dbda0d266ef090d63956e8a723cc997273557d5974fa",
+          "sourceSha256": "fe98ae16952f8fd6c3f33dd33238ed8ed7c0c8dcbe7ba4506211cb4be6455677",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/RI/RI_cost_v0.3_r01.hwpx",
           "downloadName": "RI_규제혁신처_대가산정서_v0.3_r01.hwpx",
           "bytes": 252419,
@@ -412,7 +515,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/RI/RI_diagrams_v0.3_r01.hwpx",
           "downloadName": "RI_규제혁신처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 4004057,
@@ -421,6 +524,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/RI/RI_plan_v0.4_r01.hwpx",
+          "downloadName": "RI_규제혁신처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 5805309,
+          "sha256": "89f1e02e34924959e48a42b447ee54170e01a6cbabba1f26c5d17d2a773197e9",
+          "sourceSha256": "bdcd718506344cdafd2634b1faab1fc7d2f4b5904ba4f80edf55fbe10979a62f",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -439,24 +559,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/DV/DV_plan_v0.4_r01.hwpx",
-          "downloadName": "DV_실증사업처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 6480709,
-          "sha256": "00bad794dae512c10863b2de782315f86c422f191a223ecb9fd76090dd247816",
-          "sourceSha256": "7a6823b57c0eec68bf6cec3fde1d89e6ff901f6312e2a323010fa55f5456efbb",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/DV/DV_plan_v0.5_r01.hwpx",
+          "downloadName": "DV_실증사업처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2659793,
+          "sha256": "ab915ac951e729f40c80b0a6c61e826fae4a8afa1f6b93a519b7831aebee3777",
+          "sourceSha256": "56d45cc29f3309cdd0fc441d6f9b0266862cdd7b0f74d893293acdddcbfccb6a",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/DV/DV_cost_v0.3_r01.hwpx",
           "downloadName": "DV_실증사업처_대가산정서_v0.3_r01.hwpx",
           "bytes": 250723,
@@ -471,7 +591,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/DV/DV_diagrams_v0.3_r01.hwpx",
           "downloadName": "DV_실증사업처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 4689179,
@@ -480,6 +600,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/DV/DV_plan_v0.4_r01.hwpx",
+          "downloadName": "DV_실증사업처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 6480709,
+          "sha256": "00bad794dae512c10863b2de782315f86c422f191a223ecb9fd76090dd247816",
+          "sourceSha256": "7a6823b57c0eec68bf6cec3fde1d89e6ff901f6312e2a323010fa55f5456efbb",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -498,24 +635,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/IP/IP_plan_v0.4_r01.hwpx",
-          "downloadName": "IP_검사기획처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 6028777,
-          "sha256": "d613be658fcc8e2d3f6c27e6b667b1b64644a4ab925ea93314939bcb7354f97e",
-          "sourceSha256": "d159a30cdd5dfc3e7f77f76241fc82be2a234b2388f89d876a77f0ea675d736e",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/IP/IP_plan_v0.5_r01.hwpx",
+          "downloadName": "IP_검사기획처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2426957,
+          "sha256": "b4d8cde46adc4581c4810f4045d7ed4113b96c3cc09c0e00929986cbb51b43c2",
+          "sourceSha256": "ca2dc478a61a82606f1264b9ebc3569d92a081dea79ff6ab71472d902bb9152c",
           "pathRedactions": 14,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/IP/IP_cost_v0.3_r01.hwpx",
           "downloadName": "IP_검사기획처_대가산정서_v0.3_r01.hwpx",
           "bytes": 250802,
@@ -530,7 +667,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/IP/IP_diagrams_v0.3_r01.hwpx",
           "downloadName": "IP_검사기획처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 4230863,
@@ -539,6 +676,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/IP/IP_plan_v0.4_r01.hwpx",
+          "downloadName": "IP_검사기획처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 6028777,
+          "sha256": "d613be658fcc8e2d3f6c27e6b667b1b64644a4ab925ea93314939bcb7354f97e",
+          "sourceSha256": "d159a30cdd5dfc3e7f77f76241fc82be2a234b2388f89d876a77f0ea675d736e",
+          "pathRedactions": 14,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -557,24 +711,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/SI/SI_plan_v0.4_r01.hwpx",
-          "downloadName": "SI_특수검사처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 5799202,
-          "sha256": "f18bb9c10154bca313b22d86aa81c0fa31095827431b3f1ac611f8f6fd8d8ff2",
-          "sourceSha256": "7396476834ad926b08e5a5d4fd47664a989cff9acff0ba28f3325ad6c669e91f",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/SI/SI_plan_v0.5_r01.hwpx",
+          "downloadName": "SI_특수검사처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2245536,
+          "sha256": "0b586e6448da61c4839a3288540496dc0eaa6ac8c08df034d8584d219de11ce7",
+          "sourceSha256": "6523ede8a2c959b9e1d4d0ab91d5dfa819f69efae5f2c7d15df5178d1858252a",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/SI/SI_cost_v0.3_r01.hwpx",
           "downloadName": "SI_특수검사처_대가산정서_v0.3_r01.hwpx",
           "bytes": 253189,
@@ -589,7 +743,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/SI/SI_diagrams_v0.3_r01.hwpx",
           "downloadName": "SI_특수검사처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 4028102,
@@ -598,6 +752,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/SI/SI_plan_v0.4_r01.hwpx",
+          "downloadName": "SI_특수검사처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 5799202,
+          "sha256": "f18bb9c10154bca313b22d86aa81c0fa31095827431b3f1ac611f8f6fd8d8ff2",
+          "sourceSha256": "7396476834ad926b08e5a5d4fd47664a989cff9acff0ba28f3325ad6c669e91f",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -616,24 +787,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/PK/PK_plan_v0.4_r01.hwpx",
-          "downloadName": "PK_주차안전처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 6022219,
-          "sha256": "0e4916ec056026bd2a11119b3f1e04fa41592d99d6615e98ea38404a6cfc2571",
-          "sourceSha256": "6b7b11bb407859c87e38793117ac52620ec9a200e3b13d854ea4c8216fb1078d",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/PK/PK_plan_v0.5_r01.hwpx",
+          "downloadName": "PK_주차안전처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2531085,
+          "sha256": "feec94b68643a212e7cca57cd7a53030674d1e7515e8cf9ca086cab7801d9529",
+          "sourceSha256": "895c433e586146167ed238f3373b69c6b86bc9dc4b641f723f6fdce5b1ac0206",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/PK/PK_cost_v0.3_r01.hwpx",
           "downloadName": "PK_주차안전처_대가산정서_v0.3_r01.hwpx",
           "bytes": 257136,
@@ -648,7 +819,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/PK/PK_diagrams_v0.3_r01.hwpx",
           "downloadName": "PK_주차안전처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 4252985,
@@ -657,6 +828,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/PK/PK_plan_v0.4_r01.hwpx",
+          "downloadName": "PK_주차안전처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 6022219,
+          "sha256": "0e4916ec056026bd2a11119b3f1e04fa41592d99d6615e98ea38404a6cfc2571",
+          "sourceSha256": "6b7b11bb407859c87e38793117ac52620ec9a200e3b13d854ea4c8216fb1078d",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -675,24 +863,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/AD/AD_plan_v0.4_r01.hwpx",
-          "downloadName": "AD_첨단검사전략처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 5864286,
-          "sha256": "859b2af4f9e3762afcaa57ba7f8cbbd67fd94adb5a906dde5af8fd6f4ef4e3c0",
-          "sourceSha256": "84334734d67fffffdb4a7d8142a2483f1c226b71f40bcbc15d8cc21d1ba89e4c",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/AD/AD_plan_v0.5_r01.hwpx",
+          "downloadName": "AD_첨단검사전략처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2329157,
+          "sha256": "295db37b765647b189303da9cb4245778df0f4485fad498ed2f048afc72bb2a9",
+          "sourceSha256": "0f8deb79119107f9bfa2d603c3ba9e13ddbaabbe077d9e5f22b9b0e9d2e7e9f2",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/AD/AD_cost_v0.3_r01.hwpx",
           "downloadName": "AD_첨단검사전략처_대가산정서_v0.3_r01.hwpx",
           "bytes": 253815,
@@ -707,7 +895,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/AD/AD_diagrams_v0.3_r01.hwpx",
           "downloadName": "AD_첨단검사전략처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 4072683,
@@ -716,6 +904,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/AD/AD_plan_v0.4_r01.hwpx",
+          "downloadName": "AD_첨단검사전략처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 5864286,
+          "sha256": "859b2af4f9e3762afcaa57ba7f8cbbd67fd94adb5a906dde5af8fd6f4ef4e3c0",
+          "sourceSha256": "84334734d67fffffdb4a7d8142a2483f1c226b71f40bcbc15d8cc21d1ba89e4c",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -734,24 +939,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/RD/RD_plan_v0.4_r01.hwpx",
-          "downloadName": "RD_첨단연구개발처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 5835428,
-          "sha256": "31377e8658880086c5f6bcbc11a6df50604cee0b76b909765fe5c943c632ac0a",
-          "sourceSha256": "8ca839024946d1b2c7df57ca7d7179766507f95c474fb56e5969d308a733cef3",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/RD/RD_plan_v0.5_r01.hwpx",
+          "downloadName": "RD_첨단연구개발처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2392526,
+          "sha256": "1e736e8b905b84a225f230104f832dcc42b118c3ddfcee47ccdb4d598298018b",
+          "sourceSha256": "ca3a250112ea4e350025a395f8aaae9a96c501230d43aecbdfa6d2a2371c84ff",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/RD/RD_cost_v0.3_r01.hwpx",
           "downloadName": "RD_첨단연구개발처_대가산정서_v0.3_r01.hwpx",
           "bytes": 252748,
@@ -766,7 +971,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/RD/RD_diagrams_v0.3_r01.hwpx",
           "downloadName": "RD_첨단연구개발처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 4031105,
@@ -775,6 +980,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/RD/RD_plan_v0.4_r01.hwpx",
+          "downloadName": "RD_첨단연구개발처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 5835428,
+          "sha256": "31377e8658880086c5f6bcbc11a6df50604cee0b76b909765fe5c943c632ac0a",
+          "sourceSha256": "8ca839024946d1b2c7df57ca7d7179766507f95c474fb56e5969d308a733cef3",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -795,24 +1017,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX01/EX01_plan_v0.4_r01.hwpx",
-          "downloadName": "EX01_경영기획처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 5692742,
-          "sha256": "370b81e23ae20c960a130bffad8becb33fd6258975e991906852311269c98685",
-          "sourceSha256": "6a8f8100494824bc912231d269f3ddec2bcf69cfaafdf374a05bcae8d27c0ac7",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX01/EX01_plan_v0.5_r01.hwpx",
+          "downloadName": "EX01_경영기획처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2224574,
+          "sha256": "280e6135fded14cefe4a87897decc76e02df5c6ef04e2287138de4d658dd7c8d",
+          "sourceSha256": "c22e26339012202354ebd9612dd3e6c8f49ff88ff4db8d471a30e47799d17088",
           "pathRedactions": 14,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX01/EX01_cost_v0.3_r01.hwpx",
           "downloadName": "EX01_경영기획처_대가산정서_v0.3_r01.hwpx",
           "bytes": 249425,
@@ -827,7 +1049,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX01/EX01_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX01_경영기획처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 3932365,
@@ -836,6 +1058,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX01/EX01_plan_v0.4_r01.hwpx",
+          "downloadName": "EX01_경영기획처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 5692742,
+          "sha256": "370b81e23ae20c960a130bffad8becb33fd6258975e991906852311269c98685",
+          "sourceSha256": "6a8f8100494824bc912231d269f3ddec2bcf69cfaafdf374a05bcae8d27c0ac7",
+          "pathRedactions": 14,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -856,24 +1095,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX02/EX02_plan_v0.4_r01.hwpx",
-          "downloadName": "EX02_예산처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 5624883,
-          "sha256": "3f6a453b124d61046b61fdf8fb7fb665806e771ebc9203a07fe537dda5a11388",
-          "sourceSha256": "7ab4ce3b60577a4f8ab25d055f0e36ecc144f0981f483d9fcf796b12828acc03",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX02/EX02_plan_v0.5_r01.hwpx",
+          "downloadName": "EX02_예산처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2311006,
+          "sha256": "95e8eeff9b2ac02cad7c270ad4a22820994d64643fbf0853b73a3cf91936151e",
+          "sourceSha256": "b857b68ff627ca69d6e5019ad76e2a0e64001ed3779e79c5a20620a1c356842e",
           "pathRedactions": 14,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX02/EX02_cost_v0.3_r01.hwpx",
           "downloadName": "EX02_예산처_대가산정서_v0.3_r01.hwpx",
           "bytes": 255276,
@@ -888,7 +1127,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX02/EX02_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX02_예산처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 3851670,
@@ -897,6 +1136,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX02/EX02_plan_v0.4_r01.hwpx",
+          "downloadName": "EX02_예산처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 5624883,
+          "sha256": "3f6a453b124d61046b61fdf8fb7fb665806e771ebc9203a07fe537dda5a11388",
+          "sourceSha256": "7ab4ce3b60577a4f8ab25d055f0e36ecc144f0981f483d9fcf796b12828acc03",
+          "pathRedactions": 14,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -917,24 +1173,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX03/EX03_plan_v0.4_r01.hwpx",
-          "downloadName": "EX03_혁신성과처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 5650811,
-          "sha256": "070c31c278f14fadd106c5fc41ecc76f4f560386322ae2a90bd704bf68f50cec",
-          "sourceSha256": "4217d0885f9129ddb3c458f24f8d519a980a898f232476e08e8fbd1fa1397b29",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX03/EX03_plan_v0.5_r01.hwpx",
+          "downloadName": "EX03_혁신성과처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2201452,
+          "sha256": "b0998fe2c41050e54091714a0012faf72b52986c91b1d78597d621df1a0cbad1",
+          "sourceSha256": "f4441067acaf1b8e19755663f148b774ce16abb9a52fcee547660c7917354cde",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX03/EX03_cost_v0.3_r01.hwpx",
           "downloadName": "EX03_혁신성과처_대가산정서_v0.3_r01.hwpx",
           "bytes": 254681,
@@ -949,7 +1205,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX03/EX03_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX03_혁신성과처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 3908670,
@@ -958,6 +1214,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX03/EX03_plan_v0.4_r01.hwpx",
+          "downloadName": "EX03_혁신성과처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 5650811,
+          "sha256": "070c31c278f14fadd106c5fc41ecc76f4f560386322ae2a90bd704bf68f50cec",
+          "sourceSha256": "4217d0885f9129ddb3c458f24f8d519a980a898f232476e08e8fbd1fa1397b29",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -978,24 +1251,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX04/EX04_plan_v0.4_r01.hwpx",
-          "downloadName": "EX04_ESG경영처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 6031734,
-          "sha256": "76bb9d69ffebcfb26085624c68ba1332d4eee8e6ee439bfa1e6e09f8df668ea8",
-          "sourceSha256": "3bb2307236f86a6c82d97cc4d44a51f7f461e080393d6b1ea0926e9ebfc7260b",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX04/EX04_plan_v0.5_r01.hwpx",
+          "downloadName": "EX04_ESG경영처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2380994,
+          "sha256": "5682a8cf95f80087d7da79e9cc650f1c6d11e542324ec532483a746e29c442c7",
+          "sourceSha256": "57e878c8db4e75b1489e6f3108626d905b0313d3562955fc65877f527925b38e",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX04/EX04_cost_v0.3_r01.hwpx",
           "downloadName": "EX04_ESG경영처_대가산정서_v0.3_r01.hwpx",
           "bytes": 254030,
@@ -1010,7 +1283,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX04/EX04_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX04_ESG경영처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 4271853,
@@ -1019,6 +1292,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX04/EX04_plan_v0.4_r01.hwpx",
+          "downloadName": "EX04_ESG경영처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 6031734,
+          "sha256": "76bb9d69ffebcfb26085624c68ba1332d4eee8e6ee439bfa1e6e09f8df668ea8",
+          "sourceSha256": "3bb2307236f86a6c82d97cc4d44a51f7f461e080393d6b1ea0926e9ebfc7260b",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -1039,24 +1329,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX05/EX05_plan_v0.4_r01.hwpx",
-          "downloadName": "EX05_디지털기획처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 5924239,
-          "sha256": "d41691e08ed5d5a3b1010d7a8406c088a40e588e3d4a6c95aec896034b7aa6d0",
-          "sourceSha256": "4b8d66f30dcf995bd33262f731d9e06b79423030b0c673a5e0bf7f6d74459f5a",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX05/EX05_plan_v0.5_r01.hwpx",
+          "downloadName": "EX05_디지털기획처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2295763,
+          "sha256": "1f9e9efdefab4e6a446a18d0a90fd62693a93a5453ebeb90e08c1ea95c4a9477",
+          "sourceSha256": "92fc8ede0fffe1b439e5649ab3bd92bec4b4da5d9f55bf9f75b6a71baf376ff4",
           "pathRedactions": 15,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX05/EX05_cost_v0.3_r01.hwpx",
           "downloadName": "EX05_디지털기획처_대가산정서_v0.3_r01.hwpx",
           "bytes": 246342,
@@ -1071,7 +1361,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX05/EX05_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX05_디지털기획처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 4141042,
@@ -1080,6 +1370,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX05/EX05_plan_v0.4_r01.hwpx",
+          "downloadName": "EX05_디지털기획처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 5924239,
+          "sha256": "d41691e08ed5d5a3b1010d7a8406c088a40e588e3d4a6c95aec896034b7aa6d0",
+          "sourceSha256": "4b8d66f30dcf995bd33262f731d9e06b79423030b0c673a5e0bf7f6d74459f5a",
+          "pathRedactions": 15,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -1100,24 +1407,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX06/EX06_plan_v0.4_r01.hwpx",
-          "downloadName": "EX06_AI혁신처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 5702266,
-          "sha256": "e21b7df154a8ac340344f46ffa70ea14b8f7b0e8e8a93baaf15696175e5eb38a",
-          "sourceSha256": "6c25e9f4ef1bcf6a23cdf80118ff958a8e40f10adc8284438962c7a16c199711",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX06/EX06_plan_v0.5_r01.hwpx",
+          "downloadName": "EX06_AI혁신처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2288621,
+          "sha256": "12afd3607663799bc93f4b13a7dcec483e659443f8009831626bfd53525b9211",
+          "sourceSha256": "9716dcf8d5b83266af1fbd59488357c28947b7efdbf1bcc063e212232fa0f3e2",
           "pathRedactions": 14,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX06/EX06_cost_v0.3_r01.hwpx",
           "downloadName": "EX06_AI혁신처_대가산정서_v0.3_r01.hwpx",
           "bytes": 252948,
@@ -1132,7 +1439,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX06/EX06_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX06_AI혁신처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 3922761,
@@ -1141,6 +1448,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX06/EX06_plan_v0.4_r01.hwpx",
+          "downloadName": "EX06_AI혁신처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 5702266,
+          "sha256": "e21b7df154a8ac340344f46ffa70ea14b8f7b0e8e8a93baaf15696175e5eb38a",
+          "sourceSha256": "6c25e9f4ef1bcf6a23cdf80118ff958a8e40f10adc8284438962c7a16c199711",
+          "pathRedactions": 14,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -1161,24 +1485,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX07/EX07_plan_v0.4_r01.hwpx",
-          "downloadName": "EX07_정보보안처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 5843871,
-          "sha256": "c0ae5b8c4b851b68066a64e0dedf66809740e37030789aba4cce4596cf10d7f3",
-          "sourceSha256": "f3c2ca8bf3cda036be09b507de1535711830d9720722e36348f7ae53f81a710c",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX07/EX07_plan_v0.5_r01.hwpx",
+          "downloadName": "EX07_정보보안처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2291461,
+          "sha256": "bbd170b8498be39919fb0ecc3699809ff870ebe09ab5326172136513ce2f494f",
+          "sourceSha256": "0a63add8a106e78888c4910a8d105df8e6fcf59deaa92af18e6e207d5dd50d50",
           "pathRedactions": 15,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX07/EX07_cost_v0.3_r01.hwpx",
           "downloadName": "EX07_정보보안처_대가산정서_v0.3_r01.hwpx",
           "bytes": 254404,
@@ -1193,7 +1517,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX07/EX07_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX07_정보보안처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 4068743,
@@ -1202,6 +1526,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX07/EX07_plan_v0.4_r01.hwpx",
+          "downloadName": "EX07_정보보안처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 5843871,
+          "sha256": "c0ae5b8c4b851b68066a64e0dedf66809740e37030789aba4cce4596cf10d7f3",
+          "sourceSha256": "f3c2ca8bf3cda036be09b507de1535711830d9720722e36348f7ae53f81a710c",
+          "pathRedactions": 15,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -1222,24 +1563,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX08/EX08_plan_v0.4_r01.hwpx",
-          "downloadName": "EX08_자동차정보처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 5680828,
-          "sha256": "bc12be67dc2fee05d2282de978d4e174d0eac5596cfc1a87f4a68f62f3431f5c",
-          "sourceSha256": "0cf38599769a0895e3e23281022eb717dd5c6c1fd965ded4afaf641092a2ea99",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX08/EX08_plan_v0.5_r01.hwpx",
+          "downloadName": "EX08_자동차정보처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2301895,
+          "sha256": "c6f6c2fc5b6292b64431f7dba9a68dd35bccaf01a191deda24df8ea9868212b6",
+          "sourceSha256": "ae2f2a11367e2370580941e32fb790110b482388b21a3a3a1541d56bc2e34d20",
           "pathRedactions": 14,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX08/EX08_cost_v0.3_r01.hwpx",
           "downloadName": "EX08_자동차정보처_대가산정서_v0.3_r01.hwpx",
           "bytes": 256331,
@@ -1254,7 +1595,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX08/EX08_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX08_자동차정보처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 3912281,
@@ -1263,6 +1604,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX08/EX08_plan_v0.4_r01.hwpx",
+          "downloadName": "EX08_자동차정보처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 5680828,
+          "sha256": "bc12be67dc2fee05d2282de978d4e174d0eac5596cfc1a87f4a68f62f3431f5c",
+          "sourceSha256": "0cf38599769a0895e3e23281022eb717dd5c6c1fd965ded4afaf641092a2ea99",
+          "pathRedactions": 14,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -1283,24 +1641,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX09/EX09_plan_v0.4_r01.hwpx",
-          "downloadName": "EX09_운영지원처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 5754602,
-          "sha256": "7603109f81ecf6896946843bb5dfa932528970e991fa36d4fe75f677318136d4",
-          "sourceSha256": "14f99e79bfbfdfedebc95c1b4a53527ff1bde7324dbf6259e053407b568d902d",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX09/EX09_plan_v0.5_r01.hwpx",
+          "downloadName": "EX09_운영지원처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2294189,
+          "sha256": "cedafcdeaa840ac18d1c4d5dd9bfe6b500cc4206aca26027416b9b75134e9d32",
+          "sourceSha256": "04c5eec916ca26384309fd816b15d0a28fb89ade2f8bd1aab843327056005243",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX09/EX09_cost_v0.3_r01.hwpx",
           "downloadName": "EX09_운영지원처_대가산정서_v0.3_r01.hwpx",
           "bytes": 250017,
@@ -1315,7 +1673,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX09/EX09_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX09_운영지원처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 3964604,
@@ -1324,6 +1682,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX09/EX09_plan_v0.4_r01.hwpx",
+          "downloadName": "EX09_운영지원처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 5754602,
+          "sha256": "7603109f81ecf6896946843bb5dfa932528970e991fa36d4fe75f677318136d4",
+          "sourceSha256": "14f99e79bfbfdfedebc95c1b4a53527ff1bde7324dbf6259e053407b568d902d",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -1344,24 +1719,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX10/EX10_plan_v0.4_r01.hwpx",
-          "downloadName": "EX10_인재개발처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 5630843,
-          "sha256": "c26956f6f9cfd176698cb1fd0b83522ed1710459d9e3844e67cc80c1a6680363",
-          "sourceSha256": "d7aef10b97e11085b22b633013c150cec58ff70912d98d6b1d6dfd39b9f64d7d",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX10/EX10_plan_v0.5_r01.hwpx",
+          "downloadName": "EX10_인재개발처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2214947,
+          "sha256": "625b198d812ef84e87a6432eb6d5348c18212ebecb20759b0acdbae7b363e8af",
+          "sourceSha256": "82a5658dd04ba7ebd813ec26e4688bc0a481589cefc8a808879c160b4848712e",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX10/EX10_cost_v0.3_r01.hwpx",
           "downloadName": "EX10_인재개발처_대가산정서_v0.3_r01.hwpx",
           "bytes": 250507,
@@ -1376,7 +1751,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX10/EX10_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX10_인재개발처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 3887106,
@@ -1385,6 +1760,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX10/EX10_plan_v0.4_r01.hwpx",
+          "downloadName": "EX10_인재개발처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 5630843,
+          "sha256": "c26956f6f9cfd176698cb1fd0b83522ed1710459d9e3844e67cc80c1a6680363",
+          "sourceSha256": "d7aef10b97e11085b22b633013c150cec58ff70912d98d6b1d6dfd39b9f64d7d",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -1405,24 +1797,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX11/EX11_plan_v0.4_r01.hwpx",
-          "downloadName": "EX11_재정회계처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 5652467,
-          "sha256": "dab258783ca3f10d5a9368414a631d8cb6a53f11c11df36be75f80ec06c5a1b9",
-          "sourceSha256": "34bd5c7fd9054de82031f5680a3c511707e21f90ba9aa139953139f543fb4f83",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX11/EX11_plan_v0.5_r01.hwpx",
+          "downloadName": "EX11_재정회계처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2194956,
+          "sha256": "916b7132f9b6df8695cb68b65e236ebeb69d8ba20fa608005004cf578245666e",
+          "sourceSha256": "13152fe29035d9670f8ba39bb476652c44dc22ce9e1b09e85f385854510e2ee1",
           "pathRedactions": 15,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX11/EX11_cost_v0.3_r01.hwpx",
           "downloadName": "EX11_재정회계처_대가산정서_v0.3_r01.hwpx",
           "bytes": 253644,
@@ -1437,7 +1829,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX11/EX11_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX11_재정회계처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 3854449,
@@ -1446,6 +1838,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX11/EX11_plan_v0.4_r01.hwpx",
+          "downloadName": "EX11_재정회계처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 5652467,
+          "sha256": "dab258783ca3f10d5a9368414a631d8cb6a53f11c11df36be75f80ec06c5a1b9",
+          "sourceSha256": "34bd5c7fd9054de82031f5680a3c511707e21f90ba9aa139953139f543fb4f83",
+          "pathRedactions": 15,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -1466,24 +1875,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX12/EX12_plan_v0.4_r01.hwpx",
-          "downloadName": "EX12_자산인프라처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 6380357,
-          "sha256": "0f585c13a23b46408ecd8340a163df06e36a870a04efea6db7f93f952d7224fe",
-          "sourceSha256": "c52a0fbc8d5f7bcc3fd92c8b618d096d0c06e8374d540f900218f8c47f486135",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX12/EX12_plan_v0.5_r01.hwpx",
+          "downloadName": "EX12_자산인프라처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2641994,
+          "sha256": "5f5988fc75d9d7c2885fc466c2192c699963afe5cd1cfb2d9bb1f9358160a86c",
+          "sourceSha256": "fc5fb4913d5512e1b746f4a825fce6ab1f8f38d9f3a6386245178efdc053088e",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX12/EX12_cost_v0.3_r01.hwpx",
           "downloadName": "EX12_자산인프라처_대가산정서_v0.3_r01.hwpx",
           "bytes": 250881,
@@ -1498,7 +1907,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX12/EX12_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX12_자산인프라처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 4630173,
@@ -1507,6 +1916,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX12/EX12_plan_v0.4_r01.hwpx",
+          "downloadName": "EX12_자산인프라처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 6380357,
+          "sha256": "0f585c13a23b46408ecd8340a163df06e36a870a04efea6db7f93f952d7224fe",
+          "sourceSha256": "c52a0fbc8d5f7bcc3fd92c8b618d096d0c06e8374d540f900218f8c47f486135",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -1527,24 +1953,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX13/EX13_plan_v0.4_r01.hwpx",
-          "downloadName": "EX13_감사처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 5586362,
-          "sha256": "a31d758952d531db44062f3a7cd456cf4dce428ad7351474e66eae98f1debe34",
-          "sourceSha256": "995b2cdf357a77945e6ad3463f559c05013bae172c61438aef7a286f27fce31f",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX13/EX13_plan_v0.5_r01.hwpx",
+          "downloadName": "EX13_감사처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2271917,
+          "sha256": "810f4ec7d1f469e0814e8e6591fb2825b5b0c2d78f3008952b8aae193cb0a736",
+          "sourceSha256": "773223815c13ebca4638ec3f47757b43b1e28e8d1101c84e62a47bbe7984001d",
           "pathRedactions": 15,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX13/EX13_cost_v0.3_r01.hwpx",
           "downloadName": "EX13_감사처_대가산정서_v0.3_r01.hwpx",
           "bytes": 251999,
@@ -1559,7 +1985,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX13/EX13_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX13_감사처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 3801877,
@@ -1568,6 +1994,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX13/EX13_plan_v0.4_r01.hwpx",
+          "downloadName": "EX13_감사처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 5586362,
+          "sha256": "a31d758952d531db44062f3a7cd456cf4dce428ad7351474e66eae98f1debe34",
+          "sourceSha256": "995b2cdf357a77945e6ad3463f559c05013bae172c61438aef7a286f27fce31f",
+          "pathRedactions": 15,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -1588,24 +2031,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX14/EX14_plan_v0.4_r01.hwpx",
-          "downloadName": "EX14_AI검사인프라처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 5726435,
-          "sha256": "bbe0f211357dad19b2095ff326aa5d8f47609a4e45754387a67f660a60890d10",
-          "sourceSha256": "47523ccd5b8db757e889a4c580becffe5943f9a5dc41711dceff3a553c7ef22d",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX14/EX14_plan_v0.5_r01.hwpx",
+          "downloadName": "EX14_AI검사인프라처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2168332,
+          "sha256": "5099945f7fdbfd9eb527f92b3d01a3fddbd5e27c36688900725ccbda13398410",
+          "sourceSha256": "cb89555b1cf15a9ae43910f5cb419d27ee0d57853b0f226e9d080b02b081e793",
           "pathRedactions": 14,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX14/EX14_cost_v0.3_r01.hwpx",
           "downloadName": "EX14_AI검사인프라처_대가산정서_v0.3_r01.hwpx",
           "bytes": 257230,
@@ -1620,7 +2063,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX14/EX14_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX14_AI검사인프라처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 3952104,
@@ -1629,6 +2072,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX14/EX14_plan_v0.4_r01.hwpx",
+          "downloadName": "EX14_AI검사인프라처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 5726435,
+          "sha256": "bbe0f211357dad19b2095ff326aa5d8f47609a4e45754387a67f660a60890d10",
+          "sourceSha256": "47523ccd5b8db757e889a4c580becffe5943f9a5dc41711dceff3a553c7ef22d",
+          "pathRedactions": 14,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -1649,24 +2109,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX15/EX15_plan_v0.4_r01.hwpx",
-          "downloadName": "EX15_기술안전처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 6062617,
-          "sha256": "6e0505df66d2c25e7b9820b0e4767328d25ca9ad93ce3942990429a3f51c2740",
-          "sourceSha256": "63a9ce6c331c1ba63b84fd5ecf459320dd056c0ddf515c386a867ae74413db76",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX15/EX15_plan_v0.5_r01.hwpx",
+          "downloadName": "EX15_기술안전처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2498750,
+          "sha256": "c00be64458f1dabf694aee06aad9873e3a3599b1937a9d78d467051f4f0cd904",
+          "sourceSha256": "fc75134ba231da2a50047827c8cbb458c01155dcd0131d837a902c6c6df6345e",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX15/EX15_cost_v0.3_r01.hwpx",
           "downloadName": "EX15_기술안전처_대가산정서_v0.3_r01.hwpx",
           "bytes": 251897,
@@ -1681,7 +2141,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX15/EX15_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX15_기술안전처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 4311356,
@@ -1690,6 +2150,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX15/EX15_plan_v0.4_r01.hwpx",
+          "downloadName": "EX15_기술안전처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 6062617,
+          "sha256": "6e0505df66d2c25e7b9820b0e4767328d25ca9ad93ce3942990429a3f51c2740",
+          "sourceSha256": "63a9ce6c331c1ba63b84fd5ecf459320dd056c0ddf515c386a867ae74413db76",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -1710,24 +2187,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX16/EX16_plan_v0.4_r01.hwpx",
-          "downloadName": "EX16_시험인증처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 5837597,
-          "sha256": "70c260ae41c2bfc1c5c0c60b7b5cd6238ccf298a965103b5d00fc0e7f131aa0f",
-          "sourceSha256": "fb248c6c6fc17c7b65fa331a2b46eabf3f935604bc5016adf5e19dc52cdaf362",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX16/EX16_plan_v0.5_r01.hwpx",
+          "downloadName": "EX16_시험인증처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2247949,
+          "sha256": "3f6630c1db9de6283256e6188dbde80cda7360cc38fa500a2077550c27bdd16d",
+          "sourceSha256": "2c5bb7d8779634dcf44288beaf2b67165924dc8b5b84b93275ba4212a98e7a2f",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX16/EX16_cost_v0.3_r01.hwpx",
           "downloadName": "EX16_시험인증처_대가산정서_v0.3_r01.hwpx",
           "bytes": 248073,
@@ -1742,7 +2219,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX16/EX16_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX16_시험인증처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 4045673,
@@ -1751,6 +2228,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX16/EX16_plan_v0.4_r01.hwpx",
+          "downloadName": "EX16_시험인증처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 5837597,
+          "sha256": "70c260ae41c2bfc1c5c0c60b7b5cd6238ccf298a965103b5d00fc0e7f131aa0f",
+          "sourceSha256": "fb248c6c6fc17c7b65fa331a2b46eabf3f935604bc5016adf5e19dc52cdaf362",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -1771,24 +2265,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX17/EX17_plan_v0.4_r01.hwpx",
-          "downloadName": "EX17_기술승인처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 5934807,
-          "sha256": "a2ed6f69e875fbfba5181f8a5d4e0172240e986ac77bce761dadcd2209b3f571",
-          "sourceSha256": "45fc68a6e2ab8a4ec94ea8625fe3def5389bf8653b2a49ced62b25aabf1a8672",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX17/EX17_plan_v0.5_r01.hwpx",
+          "downloadName": "EX17_기술승인처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2432952,
+          "sha256": "a23fb9b4197e697868e8945feb3756467819a0f6de336a18054a3544c643bc87",
+          "sourceSha256": "6c2c55e19afa375c6beea8b95d6635313f01a5f5645ff5b872a05fa6a7a3c551",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX17/EX17_cost_v0.3_r01.hwpx",
           "downloadName": "EX17_기술승인처_대가산정서_v0.3_r01.hwpx",
           "bytes": 249551,
@@ -1803,7 +2297,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX17/EX17_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX17_기술승인처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 4145760,
@@ -1812,6 +2306,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX17/EX17_plan_v0.4_r01.hwpx",
+          "downloadName": "EX17_기술승인처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 5934807,
+          "sha256": "a2ed6f69e875fbfba5181f8a5d4e0172240e986ac77bce761dadcd2209b3f571",
+          "sourceSha256": "45fc68a6e2ab8a4ec94ea8625fe3def5389bf8653b2a49ced62b25aabf1a8672",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -1832,24 +2343,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX18/EX18_plan_v0.4_r01.hwpx",
-          "downloadName": "EX18_항공안전처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 6259559,
-          "sha256": "e1dd692d4d4bb723e501140cf2a83f548eff2f6194316479edd5c7141f21ebe3",
-          "sourceSha256": "e95be751e2de6ad90307d1ab90f7fbd65fa9d1f25e41f8c65ab24d32f0a076a0",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX18/EX18_plan_v0.5_r01.hwpx",
+          "downloadName": "EX18_항공안전처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2698340,
+          "sha256": "b0a06f244cbac36bb9e708f7511a2b9ba84e8d133c7f3c43500acfffea35f09c",
+          "sourceSha256": "ff1808b1ec9b9fe5222f67fa60bf476754932a1aa60b6f651c96d72f2f71db9e",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX18/EX18_cost_v0.3_r01.hwpx",
           "downloadName": "EX18_항공안전처_대가산정서_v0.3_r01.hwpx",
           "bytes": 256507,
@@ -1864,7 +2375,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX18/EX18_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX18_항공안전처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 4471243,
@@ -1873,6 +2384,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX18/EX18_plan_v0.4_r01.hwpx",
+          "downloadName": "EX18_항공안전처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 6259559,
+          "sha256": "e1dd692d4d4bb723e501140cf2a83f548eff2f6194316479edd5c7141f21ebe3",
+          "sourceSha256": "e95be751e2de6ad90307d1ab90f7fbd65fa9d1f25e41f8c65ab24d32f0a076a0",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -1893,24 +2421,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX19/EX19_plan_v0.4_r01.hwpx",
-          "downloadName": "EX19_항공자격처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 5797913,
-          "sha256": "6c876bb46d2dbe4891c65a045625270a81986f83c4474b9ad28eeda49de8de59",
-          "sourceSha256": "f37297b00df54b50127011b842219dc3fb63076bef7225d4e10d6cc1a0945627",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX19/EX19_plan_v0.5_r01.hwpx",
+          "downloadName": "EX19_항공자격처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2258451,
+          "sha256": "36e9fab33a2fe11a0d0e6041a7884e5290ca7a3fdbd8a9a912ec62ed78a6cff2",
+          "sourceSha256": "619d5b724a3e44529973d99cdf707d70725b7ac85dd98f2e125fa6e9fe85fce4",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX19/EX19_cost_v0.3_r01.hwpx",
           "downloadName": "EX19_항공자격처_대가산정서_v0.3_r01.hwpx",
           "bytes": 252072,
@@ -1925,7 +2453,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX19/EX19_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX19_항공자격처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 3979122,
@@ -1934,6 +2462,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX19/EX19_plan_v0.4_r01.hwpx",
+          "downloadName": "EX19_항공자격처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 5797913,
+          "sha256": "6c876bb46d2dbe4891c65a045625270a81986f83c4474b9ad28eeda49de8de59",
+          "sourceSha256": "f37297b00df54b50127011b842219dc3fb63076bef7225d4e10d6cc1a0945627",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -1954,24 +2499,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX20/EX20_plan_v0.4_r01.hwpx",
-          "downloadName": "EX20_드론관리처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 5760516,
-          "sha256": "c335a997e05f8f1712dc7c1bd07e4200de38ca096d47c56d408414c2d7743c5d",
-          "sourceSha256": "8e9dca042009725be69aef94422e64738e3216aa43ebb15904f713e0f25c7887",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX20/EX20_plan_v0.5_r01.hwpx",
+          "downloadName": "EX20_드론관리처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2330560,
+          "sha256": "fc0ca85b66abd8da3d58d6295ce8ee18c27e0f77a5dfe96367f6fbba51b7bc0d",
+          "sourceSha256": "326e1b0b92deefbdbc857bc9ac4748ae2aa17fd0de50d4c412c26418ffed5d96",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX20/EX20_cost_v0.3_r01.hwpx",
           "downloadName": "EX20_드론관리처_대가산정서_v0.3_r01.hwpx",
           "bytes": 254794,
@@ -1986,7 +2531,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX20/EX20_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX20_드론관리처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 3947263,
@@ -1995,6 +2540,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX20/EX20_plan_v0.4_r01.hwpx",
+          "downloadName": "EX20_드론관리처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 5760516,
+          "sha256": "c335a997e05f8f1712dc7c1bd07e4200de38ca096d47c56d408414c2d7743c5d",
+          "sourceSha256": "8e9dca042009725be69aef94422e64738e3216aa43ebb15904f713e0f25c7887",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -2015,24 +2577,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX21/EX21_plan_v0.4_r01.hwpx",
-          "downloadName": "EX21_도심항공정책처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 6240560,
-          "sha256": "40d6f06b36456fd9a1e9f4a5e4d7c3b91000513e98c66592862fbd332631f189",
-          "sourceSha256": "7bba387781c46138da60d97f8cc1300fac764229feed850aed7a1babe1a07d9d",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX21/EX21_plan_v0.5_r01.hwpx",
+          "downloadName": "EX21_도심항공정책처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2581835,
+          "sha256": "9a31346d48149033e1c57f4b197c026edaa3e6c6931341006d3dce451d7c0c80",
+          "sourceSha256": "6b2202b8021dda52043927e00a5adaf46fceee655f5a322404065ff002fb7cb2",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX21/EX21_cost_v0.3_r01.hwpx",
           "downloadName": "EX21_도심항공정책처_대가산정서_v0.3_r01.hwpx",
           "bytes": 248010,
@@ -2047,7 +2609,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX21/EX21_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX21_도심항공정책처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 4446276,
@@ -2056,6 +2618,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX21/EX21_plan_v0.4_r01.hwpx",
+          "downloadName": "EX21_도심항공정책처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 6240560,
+          "sha256": "40d6f06b36456fd9a1e9f4a5e4d7c3b91000513e98c66592862fbd332631f189",
+          "sourceSha256": "7bba387781c46138da60d97f8cc1300fac764229feed850aed7a1babe1a07d9d",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -2081,24 +2660,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX22/EX22_plan_v0.4_r01.hwpx",
-          "downloadName": "EX22_철도안전처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 11279820,
-          "sha256": "1277c95b39c1435148c637fd7586ded51f186874c6ba5d9ff7a46aef8e0f36eb",
-          "sourceSha256": "cac0a28f8ec5d6353eb6094f16791bb0003d8dc3d330bcabf802a12b2bb1e018",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX22/EX22_plan_v0.5_r01.hwpx",
+          "downloadName": "EX22_철도안전처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 4536493,
+          "sha256": "30fdf3bbf63264fa46e3a7f26ceb1060eea9937b5fec77899e1a316db6651d7a",
+          "sourceSha256": "b6c2d0a5edfbcc5487e1d02df2a6311deea4a4ed01049d13e776f1bccc493ce0",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 22
+          "embeddedImages": 14
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX22/EX22_cost_v0.3_r01.hwpx",
           "downloadName": "EX22_철도안전처_대가산정서_v0.3_r01.hwpx",
           "bytes": 426818,
@@ -2113,7 +2692,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX22/EX22_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX22_철도안전처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 8208844,
@@ -2122,6 +2701,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 20
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX22/EX22_plan_v0.4_r01.hwpx",
+          "downloadName": "EX22_철도안전처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 11279820,
+          "sha256": "1277c95b39c1435148c637fd7586ded51f186874c6ba5d9ff7a46aef8e0f36eb",
+          "sourceSha256": "cac0a28f8ec5d6353eb6094f16791bb0003d8dc3d330bcabf802a12b2bb1e018",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 22
         }
       ]
     },
@@ -2147,24 +2743,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX23/EX23_plan_v0.4_r01.hwpx",
-          "downloadName": "EX23_철도승인처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 11950466,
-          "sha256": "6c41ff7262a8934cad669b1b42a3cb2ce9e8b98e315e14843c63e1edc8520303",
-          "sourceSha256": "3de86985f61f4c4c869e54df895e5de0a2161994c71752318b0358011b8118be",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX23/EX23_plan_v0.5_r01.hwpx",
+          "downloadName": "EX23_철도승인처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 5050536,
+          "sha256": "bac4311691840d3cd1ec13f7c4a383d36023dd26b96e3219025cbcbafceea894",
+          "sourceSha256": "86cea5df936fa8484d20e1729323545d8a6c64eb75628f5c798ac0ac94fee193",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 22
+          "embeddedImages": 14
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX23/EX23_cost_v0.3_r01.hwpx",
           "downloadName": "EX23_철도승인처_대가산정서_v0.3_r01.hwpx",
           "bytes": 436788,
@@ -2179,7 +2775,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX23/EX23_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX23_철도승인처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 8830333,
@@ -2188,6 +2784,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 20
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX23/EX23_plan_v0.4_r01.hwpx",
+          "downloadName": "EX23_철도승인처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 11950466,
+          "sha256": "6c41ff7262a8934cad669b1b42a3cb2ce9e8b98e315e14843c63e1edc8520303",
+          "sourceSha256": "3de86985f61f4c4c869e54df895e5de0a2161994c71752318b0358011b8118be",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 22
         }
       ]
     },
@@ -2208,24 +2821,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX24/EX24_plan_v0.4_r01.hwpx",
-          "downloadName": "EX24_철도검사처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 6011125,
-          "sha256": "731edc2cd4427cb03ca9f7d8426c76fc3a8901294f319faa1cd207b4db5fa98d",
-          "sourceSha256": "136367c961d5d7b041f23984c1b819a3ff326219b25bf23746ffa07f41418d93",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX24/EX24_plan_v0.5_r01.hwpx",
+          "downloadName": "EX24_철도검사처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2540432,
+          "sha256": "e6d196ce43eddcd13b5e7dc1e717af4340adf88744524d297cf850a45d37ac85",
+          "sourceSha256": "7192904676fbe0c04ba983c28d09e26e4033535dc796376031ca69914052311b",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX24/EX24_cost_v0.3_r01.hwpx",
           "downloadName": "EX24_철도검사처_대가산정서_v0.3_r01.hwpx",
           "bytes": 249697,
@@ -2240,7 +2853,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX24/EX24_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX24_철도검사처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 4224690,
@@ -2249,6 +2862,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX24/EX24_plan_v0.4_r01.hwpx",
+          "downloadName": "EX24_철도검사처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 6011125,
+          "sha256": "731edc2cd4427cb03ca9f7d8426c76fc3a8901294f319faa1cd207b4db5fa98d",
+          "sourceSha256": "136367c961d5d7b041f23984c1b819a3ff326219b25bf23746ffa07f41418d93",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -2269,24 +2899,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX25/EX25_plan_v0.4_r01.hwpx",
-          "downloadName": "EX25_철도기술처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 6410612,
-          "sha256": "394a88fd73f74e777b268608d7e6a9dec3de7f01db00072bd0b3d79049697717",
-          "sourceSha256": "0f775c7861b75333427f728e323c65183507235ffce6a7c7a8f7e902d1dd4c94",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX25/EX25_plan_v0.5_r01.hwpx",
+          "downloadName": "EX25_철도기술처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2503865,
+          "sha256": "040c302868a4244541ea3291a25699dc4fb4eee9541dc0406949d403c4f72204",
+          "sourceSha256": "d652e146c67abdfc32fb5b7bc09be0f3174031ff99fed8b13622d67b7fc14b8c",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX25/EX25_cost_v0.3_r01.hwpx",
           "downloadName": "EX25_철도기술처_대가산정서_v0.3_r01.hwpx",
           "bytes": 251398,
@@ -2301,7 +2931,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX25/EX25_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX25_철도기술처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 4602618,
@@ -2310,6 +2940,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX25/EX25_plan_v0.4_r01.hwpx",
+          "downloadName": "EX25_철도기술처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 6410612,
+          "sha256": "394a88fd73f74e777b268608d7e6a9dec3de7f01db00072bd0b3d79049697717",
+          "sourceSha256": "0f775c7861b75333427f728e323c65183507235ffce6a7c7a8f7e902d1dd4c94",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     },
@@ -2330,24 +2977,24 @@
         {
           "kind": "plan",
           "label": "정보화사업 시행계획서",
-          "version": "v0.4_r01",
-          "date": "2026-10-01",
-          "status": "기술 HOW 보강 · 기관 협의용 초안",
-          "path": "downloads/departments/EX26/EX26_plan_v0.4_r01.hwpx",
-          "downloadName": "EX26_안전연구처_정보화사업 시행계획서_v0.4_r01.hwpx",
-          "bytes": 6150802,
-          "sha256": "bcba2ade97aaa45bc475d97a1567511ba36326d6f8b563a66b4aaf31a36c86e5",
-          "sourceSha256": "c3c2487bf7c26eb7860aa34abdaa323df20960690840153a53207c1b026f6542",
+          "version": "v0.5_r01",
+          "date": "2026-10-02",
+          "status": "2027년 편성·기술 HOW·효과 측정 개정 초안",
+          "path": "downloads/departments/EX26/EX26_plan_v0.5_r01.hwpx",
+          "downloadName": "EX26_안전연구처_정보화사업_시행계획서_v0.5_r01.hwpx",
+          "bytes": 2508584,
+          "sha256": "79299b94d6c8e5971a91ef78b9c227c2e79051713cacbb4fe780f6ea8b8cf6a5",
+          "sourceSha256": "941211289c4c9fe82344f10794dc7bea7ac72edb1cf88a811fde105f99606745",
           "pathRedactions": 13,
           "nativeFormat": "HWPX",
-          "embeddedImages": 11
+          "embeddedImages": 7
         },
         {
           "kind": "cost",
           "label": "대가산정서",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 산정 참조본 · v0.4 추가 기술의 차분 대가 미확정",
+          "status": "기존 산정 참조본 · v0.5 범위의 차분 공수·대가 미확정",
           "path": "downloads/departments/EX26/EX26_cost_v0.3_r01.hwpx",
           "downloadName": "EX26_안전연구처_대가산정서_v0.3_r01.hwpx",
           "bytes": 257044,
@@ -2362,7 +3009,7 @@
           "label": "컨셉·아키텍처·흐름 도식집",
           "version": "v0.3_r01",
           "date": "2026-09-30",
-          "status": "기존 도식 참조본 · 최신 기술 상세는 v0.4 계획서 참조",
+          "status": "기존 도식 참조본 · 최신 기술 상세·범위는 v0.5 계획서 참조",
           "path": "downloads/departments/EX26/EX26_diagrams_v0.3_r01.hwpx",
           "downloadName": "EX26_안전연구처_컨셉_아키텍처_흐름 도식집_v0.3_r01.hwpx",
           "bytes": 4327766,
@@ -2371,6 +3018,23 @@
           "pathRedactions": 0,
           "nativeFormat": "HWPX",
           "embeddedImages": 10
+        }
+      ],
+      "history": [
+        {
+          "kind": "plan",
+          "label": "정보화사업 시행계획서",
+          "version": "v0.4_r01",
+          "date": "2026-10-01",
+          "status": "기술 HOW 보강 · 기관 협의용 초안",
+          "path": "downloads/departments/EX26/EX26_plan_v0.4_r01.hwpx",
+          "downloadName": "EX26_안전연구처_정보화사업 시행계획서_v0.4_r01.hwpx",
+          "bytes": 6150802,
+          "sha256": "bcba2ade97aaa45bc475d97a1567511ba36326d6f8b563a66b4aaf31a36c86e5",
+          "sourceSha256": "c3c2487bf7c26eb7860aa34abdaa323df20960690840153a53207c1b026f6542",
+          "pathRedactions": 13,
+          "nativeFormat": "HWPX",
+          "embeddedImages": 11
         }
       ]
     }

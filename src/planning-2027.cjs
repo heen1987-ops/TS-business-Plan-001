@@ -49,6 +49,6 @@ module.exports={date,version:'v0.1',year:2027,title:'2027년 TS 후속사업 기
  reference:{title:'TS 경영목표 및 전략체계',url:'https://main.kotsa.or.kr/portal/contents.do?menuCode=06020100',published:null,checkedAt:'2026-10-01',locator:'2026–2030 중장기 경영목표 체계도',limit:'공식 중장기 전략 확인. 이 페이지에서 2027년의 개별 사업·예산·연차목표 확정은 확인되지 않음.'},
  estimate:{total:null,personMonths:null,baseline:null,target:null,status:'선정 과업·요구량·WBS·단가·제품/연계 조건 확보 전 미산정·미설정'},
  hardware:{npuInScope:false,newInfrastructurePurchase:false,visionInScope:false},
- documentNote:'이번 범위 정정과 최신 선별 기준은 웹·MD·JSON에 반영. 기존 처별 HWPX는 보존본이며, 새 2027년 확정계획서로 교체·재발행한 작업은 아님.',
+ documentNote:'39개 처 계획서 v0.5에 2027년 편성 판단·기술 HOW·정량효과 측정방법 반영. 기존 v0.4는 이전판으로 보존. 대가·도식집 v0.3은 참조본이며 차분 대가 미확정. 신규 문제 가설 6개는 독립사업으로 확정하지 않은 검토 후보.',
  downloads:[{title:'2027년 기획 범위·선별·문서화 기준 · MD',to:'downloads/ts-planning-2027.md'},{title:'2027년 편입 판단·후보별 필요 근거 · JSON',to:'downloads/ts-planning-2027.json'}]
 };

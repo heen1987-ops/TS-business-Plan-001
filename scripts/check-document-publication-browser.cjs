@@ -29,13 +29,18 @@ const base=process.env.SITE_BASE||'http://127.0.0.1:8770/TS-business-Plan-001/';
   await page.screenshot({path:'qa-output/document-publication/planning-mobile.png'});
   const all=page.locator('[data-planning-download-entry]').getByRole('link',{name:/전체 처 한글파일 찾기/});await all.focus();check(await all.evaluate(e=>e===document.activeElement),'키보드 다운로드 목록 초점');await all.click();
   await page.locator('[data-native-department]').first().waitFor();check(await page.locator('.native-download').count()===117,'전체 목록 117개');
+  check(await page.locator('.native-archive').count()===39,'39개 처 이전판 접힘 목록');
+  check(await page.locator('.native-archive[open]').count()===0,'이전판 기본 접힘');
   for(const d of manifest.departments)for(const file of d.documents){const block=page.locator(`[data-native-department="${d.code}"] .native-file`).filter({has:page.locator(`[data-native-kind="${file.kind}"]`)});
    check(await block.locator('a').evaluateAll((links,urls)=>urls.every(url=>links.some(a=>a.href===url)),[publication.sourceUrl(file),publication.rawUrl(file)]),'파일별 GitHub 보기·직접 다운로드 '+d.code+'/'+file.kind);
   }
   await page.getByLabel('처명·코드·사업명 검색').fill('MR');check(await page.locator('.native-download').count()===3,'검색 후 한글 3종');
+  const archive=page.locator('.native-archive');await archive.locator('summary').focus();await page.keyboard.press('Enter');check(await archive.getAttribute('open')!==null,'키보드로 이전판 열기');
+  const previous=manifest.departments.find(d=>d.code==='MR').history[0];const pendingOld=page.waitForEvent('download');await archive.locator('.native-archive-download').click();const oldDownload=await pendingOld;
+  check(await oldDownload.failure()===null,'이전판 다운로드 성공');check(crypto.createHash('sha256').update(fs.readFileSync(await oldDownload.path())).digest('hex')===previous.sha256,'이전판 바이트 보존');
   check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'모바일 한글 자료실 가로 넘침 없음');
   await page.screenshot({path:'qa-output/document-publication/library-mobile.png',fullPage:true});
   check(errors.length===0,'JavaScript 실행 오류 없음');
-  const result={result:'통과',checks,base,actualDownloads:3,githubFiles:117,errors};fs.writeFileSync('qa-output/document-publication/browser.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result));
+  const result={result:'통과',checks,base,actualDownloads:4,githubFiles:117,historyFiles:39,errors};fs.writeFileSync('qa-output/document-publication/browser.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result));
  }finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exitCode=1});
