@@ -3,6 +3,7 @@ const root=path.resolve(__dirname,'..'),out=path.resolve(root,'dist');
 if(out!==path.join(root,'dist')||path.dirname(out)!==root)throw Error('빌드 출력 경로 오류');
 fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});fs.cpSync(path.join(root,'public'),out,{recursive:true});
 require('./export-analysis-review.cjs')(path.join(out,'downloads'));
+require('./export-implementation-review.cjs')(path.join(out,'downloads'));
 require('./export-planning-2027.cjs')(path.join(out,'downloads'));
 require('./export-drt-assurance.cjs')(path.join(out,'downloads'));
 require('./export-skill-pms.cjs')(path.join(out,'downloads'));

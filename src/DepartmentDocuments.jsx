@@ -7,6 +7,7 @@ import publication from'./document-publication.cjs';
 import{DocumentSourceLinks}from'./DocumentLinks.jsx';
 import'./skill-pms.css';
 import'./department-documents.css';
+import {ImplementationDepartmentNote} from './ImplementationReview.jsx';
 
 const mb=bytes=>(bytes/1024/1024).toFixed(1)+' MB';
 export function DepartmentDocuments({code,profileId,catalogue=false}){
@@ -25,6 +26,7 @@ export function DepartmentDocuments({code,profileId,catalogue=false}){
   {!!d.history?.length&&<details className="native-archive"><summary>이전 계획서 보기 · 판본 {d.history.length}개 보존</summary><p>개정 전 내용 확인용. 현재 편성 판단과 측정 조건은 위의 최신 계획서 참조.</p>{d.history.map(f=><div key={f.path}><Link className="native-archive-download" to={f.path} download={f.downloadName}>{f.label} {f.version} 다운로드 ↓</Link><DocumentSourceLinks file={f}/><small>{f.date} · HWPX · {mb(f.bytes)}</small></div>)}</details>}
   <p className="native-note">{analysis.documentNote}</p><p className="native-note">기관 협의용 초안. 확정 과업·최종 대가·실측 효과와 구분. v0.5 범위에 맞춘 차분 공수·대가는 미확정이며, 대가산정서·도식집은 v0.3 참조본.</p>
   <p><Link to={'skill-pms.html#pms-department-'+d.code}>{pms.catalogueLink} ↗</Link></p>
+  <ImplementationDepartmentNote code={d.code}/>
   {catalogue&&<p><Link to={d.proposalRoute}>{d.name} 관련 상세제안 보기 ↗</Link></p>}
  </section>
 }

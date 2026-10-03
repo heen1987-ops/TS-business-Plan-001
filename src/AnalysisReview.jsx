@@ -5,6 +5,7 @@ import departments from './data.json';
 import publication from './document-publication.cjs';
 import {DepartmentDownloadLinks} from './DocumentLinks.jsx';
 import './analysis-review.css';
+import {ImplementationReview} from './ImplementationReview.jsx';
 const plan=data.planning2027;
 const name=code=>departments.departments.find(d=>d.code===code)?.name||code;
 const route=code=>departments.departments.find(d=>d.code===code)?.folder+'/01_사업정의.html';
@@ -20,6 +21,8 @@ export function AnalysisReview(){return <article className="page analysis-review
  <p className="analysis-limit">{data.status}. {data.origin.scope} {data.origin.deepResearch}</p>
  <aside className="analysis-objective" data-analysis-objective><h2>외부 문제에서 출발하는 신규 문제정의</h2><p>{data.definition.scope}</p><p>{data.origin.latestDirection}</p><p><b>최신 대화 반영:</b> {plan.latest.direction}</p><p className="analysis-limit">{plan.latest.availability}</p><a href="#analysis-candidates">문제정의 기준·후보별 검증계획으로 이동 ↓</a></aside>
  <nav className="analysis-toc" aria-label="사업 검토서 본문 목차">{[['departments','처별 편성'],['platform','공통 기술·범위'],['corrections','근거 해석 정정'],['candidates','신규 문제정의'],['gates','효과·착수 조건'],['sources','공식 출처']].map(([id,title])=><a key={id} href={'#analysis-'+id}>{title}</a>)}</nav>
+ <p className="analysis-limit"><a href="#implementation-review">2026-10-03 최신 구현 가능성 재조사·39처 검토·현업 확인 질문서 ↓</a> · 기존 한글 v0.5와 별도 판본. 아래 최신 검토 후 이전 설계·출처까지 연속 열람.</p>
+ <ImplementationReview/>
  <Chapter id="departments" title="1. 2027년 편성 검토 · 기존 제안과 신규 탐색의 관계"><p>기존 제안은 현행 업무를 확인하는 출발점. 부서마다 독립 플랫폼을 신규 발주하는 전제가 아닌, 실제 문제·기존 기능·계약 범위를 확인한 편성 권고.</p><Table title="처별 제안의 현재 검토 상태" headers={['담당 처·본문','편성 검토','목적·적용 모듈','착수 전 핵심 확인',publication.labels.column]} rows={Object.values(data.departments).map(r=>[<Link to={route(r.code)}>{name(r.code)}</Link>,r.status,r.purpose+' / '+r.module,r.why,<DepartmentDownloadLinks code={r.code}/>])}/>
  <Table title="2027년 편성에서 기존 자료를 사용하는 방법" headers={['검토 자료','현재의 역할','편성 시 적용']} rows={plan.portfolio}/>
  <h3>DRT · 전화 접수·기사 배정·운영계획의 조건부 실증</h3><Fields rows={[["검토 상태",data.drt.status],["목적",data.drt.purpose],["실제 처리",data.drt.how],["원 기록",data.drt.records],["효과 검증",data.drt.measure],["초기 범위",data.drt.exclude]]}/><p>{data.drt.why}</p><Table title="수동 처리의 원인별 해결 구분" headers={['원인 가설','확인할 것','적절한 대응']} rows={data.drt.causes}/><p><Link to="drt-assurance.html">기존 DRT 상세제안·설계·측정방법 ↗</Link></p></Chapter>
