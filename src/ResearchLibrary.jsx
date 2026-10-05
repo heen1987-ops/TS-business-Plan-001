@@ -7,7 +7,7 @@ import library from'./research-library.cjs';
 import './research-library.css';
 
 export function ResearchLibrary(){
- useEffect(()=>{let next;const first=requestAnimationFrame(()=>{next=requestAnimationFrame(()=>{if(!location.hash)return;let id=location.hash.slice(1);try{id=decodeURIComponent(id)}catch{/* 잘못된 공유 해시는 원문 ID로 확인 */}const target=document.getElementById(id);target?.scrollIntoView({block:'start'});target?.focus({preventScroll:true})})});return()=>{cancelAnimationFrame(first);if(next)cancelAnimationFrame(next)}},[]);
+ useEffect(()=>{let frame;function reveal(){cancelAnimationFrame(frame);frame=requestAnimationFrame(()=>{if(!location.hash)return;let id=location.hash.slice(1);try{id=decodeURIComponent(id)}catch{/* 잘못된 공유 해시는 원문 ID로 확인 */}const target=document.getElementById(id);if(!target)return;for(let el=target.parentElement;el;el=el.parentElement)if(el.tagName==='DETAILS')el.open=true;frame=requestAnimationFrame(()=>{target.setAttribute('tabindex','-1');target.scrollIntoView({block:'start'});target.focus({preventScroll:true})})})}reveal();addEventListener('hashchange',reveal);addEventListener('popstate',reveal);return()=>{cancelAnimationFrame(frame);removeEventListener('hashchange',reveal);removeEventListener('popstate',reveal)}},[]);
  if(new URLSearchParams(location.search).get('view')==='planning')return <AnalysisReview/>;
  return <div className="page association-page research-library-page">
   <Heading label="자료실" title={library.title} desc={library.lead}/>

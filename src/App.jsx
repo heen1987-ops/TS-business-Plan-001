@@ -29,14 +29,14 @@ useEffect(()=>{setCompare(false);if(first.current){first.current=false;return}if
 useEffect(()=>{if(!message)return;const id=setTimeout(()=>setMessage(''),4500);return()=>clearTimeout(id)},[message]);
 function toggle(code){setSelected(a=>{if(a.includes(code))return a.filter(c=>c!==code);if(a.length>=3){setMessage('최대 3개 서비스까지 비교 가능. 기존 항목을 해제한 후 추가해 주세요.');return a}return [...a,code]})}
 const path=route.split(/[?#]/)[0],isHome=['index.html','react/index.html',''].includes(path),isMap=isHome&&(new URLSearchParams(location.search).get('view')==='map'||new URLSearchParams(location.search).has('node'));const homeDocument=isHome&&(new URLSearchParams(location.search).get('view')==='guide'||/^#section-(purpose|mandate|strategy|organization|benefit)/.test(location.hash)),isLanding=isHome&&!isMap&&!homeDocument;let content,title='TS AX';
-if(isHome){content=isMap?<Home key={route}/>:isLanding?<UserHome key={route}/>:<About/>;title=isMap?'조직 기반 연결지도':isLanding?'사업기획 안내':'TS의 이해와 AX 사업기획';}
+if(isHome){content=isMap?<Home key={route}/>:isLanding?<UserHome key={path}/>:<About/>;title=isMap?'조직 기반 연결지도':isLanding?'2027년 TS 후속사업기획':'TS의 이해와 AX 사업기획';}
 else if(['about.html','10_세대화_통합검토.html'].includes(path)){content=<About/>;title='TS의 존재 의의'}
 else if(['vision.html','11_중장기목표_처별성과.html'].includes(path)){content=<Vision/>;title='2026–2030 방향'}
 else if(['organization.html','16_조직도_수행업무_분석.html'].includes(path)){content=<Organization/>;title='조직과 업무'}
 else if(path==='drt-assurance.html'){content=<DrtAssurance route={route}/>;title='택시조합 전화 접수·배차·운영계획'}
 else if(path==='associations.html'){content=<Associations key={route}/>;title='협회·민원 조사와 미제공 기능 재검토'}
 else if(path==='skill-pms.html'){content=<SkillPms key={route}/>;title='기구축 AI 플랫폼 확장형 스킬 PMS'}
-else if(path==='research-library.html'){content=<ResearchLibrary key={route}/>;title=new URL(route,'https://local/').searchParams.get('view')==='planning'?planning2027.title:'조사자료실'}
+else if(path==='research-library.html'){content=<ResearchLibrary key={path+location.search}/>;title=new URL(route,'https://local/').searchParams.get('view')==='planning'?planning2027.title:'조사자료실'}
 else if(path==='planning-documents.html'){content=<PlanningDocuments key={route}/>;title='처별 한글 계획서·대가산정·도식집'}
 else if(path==='proposal-links.html'){content=<ProposalLinks key={route}/>;title='조직·법정업무·협회 상세제안'}
 else if(path==='registry.html'){content=<Registry key={route}/>;title='자료 등록 원장'}
