@@ -2,6 +2,7 @@ import {AnalysisDisposition} from './AnalysisReview.jsx';
 import analysis from './analysis-review.cjs';
 import {DrtRelated} from './DrtAssurance.jsx';
 import {DepartmentDocuments} from './DepartmentDocuments.jsx';
+import isp from './isp-review.cjs';
 import React,{useState}from'react';
 import{Link,Out,href}from'./core.jsx';
 import revision from'./revision47.cjs';
@@ -28,7 +29,7 @@ export function Metrics47({code}){const r=get(code),p=r.detail;return <><p class
 ]}/></>}
 function Diagram({code,type,title}){if(code==='CL'&&type==='data')return <DetailedDiagram47 code={code} type={type}/>;if(['concept','overall','service'].includes(type))return <GeneratedDiagram47 code={code} type={type}/>;return <figure className="r47-diagram"><a href={href('downloads/revision47/'+code+'_'+type+'.svg')} target="_blank" rel="noopener noreferrer" aria-label={title+' 원본 확대'}><img loading="lazy" src={href('downloads/revision47/'+code+'_'+type+'.svg')} alt={title+' · '+get(code).title}/></a><figcaption>{title} · 클릭 시 원본 확대 · 상세 설계안</figcaption></figure>}
 export function Proposal47({code}){const r=get(code);if(!r)return null;const p=r.detail;return <div className="revision47" data-revision-department={code}>
-<header className="r47-hero"><span className="r47-badge">현재 검토: {r.currentReview.status} · 2026-10-01</span><h2>{r.title}</h2><p>{p.purpose}</p><small>현재의 근거·처리·검증 명세에 2026-09-24의 6개 장 구성을 적용. TS 확정 과업·제품 구현 완료와 구분. 기존 정본의 판정은 과거 기획 이력.</small><dl className="r47-executive">{[['검토 대상',p.unit],['직접 사용자',p.users],['업무 시작 조건',p.trigger],['측정할 변화',p.metrics.map(m=>m[0]).join(' · ')]].map(([k,v])=><div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}</dl><div className="r47-visual-shortcuts" aria-label="그림으로 보는 제안"><a href="#section-r47-block-concept"><b>01 컨셉도</b><span>누가 · 어떤 문제 · 어떤 변화</span></a><a href="#section-r47-block-overall"><b>02 전체 아키텍처</b><span>시스템 · 데이터 · 책임 경계</span></a><a href="#section-r47-block-journey"><b>03 서비스 흐름도</b><span>입력 · 처리 · 판단 · 보완</span></a>{code==='CL'&&<><a href="#section-r47-block-data"><b>04 데이터 흐름도</b><span>원천 · 판본 · 승인 기록</span></a><a href="#section-r47-block-runtime"><b>05 세부 실행 아키텍처</b><span>과업 · 도구 · 실행 · 복구</span></a></>}</div><nav aria-label="최신 상세 제안 목차">{chapters.map(([id,title],i)=><a key={id} href={'#section-r47-'+id}>{i+1}. {title}</a>)}</nav></header>
+<header className="r47-hero"><span className="r47-badge">현재 ISP: 조사 후보 · {isp.date}</span><p className="r47-note">이전 편성 검토: {r.currentReview.status} · {r.currentReview.date}. 현재 사업 선정·발주 미확정.</p><h2>{r.title}</h2><p>{p.purpose}</p><small>현재의 근거·처리·검증 명세에 2026-09-24의 6개 장 구성을 적용. TS 확정 과업·제품 구현 완료와 구분. 기존 정본의 판정은 과거 기획 이력.</small><dl className="r47-executive">{[['검토 대상',p.unit],['직접 사용자',p.users],['업무 시작 조건',p.trigger],['측정할 변화',p.metrics.map(m=>m[0]).join(' · ')]].map(([k,v])=><div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}</dl><div className="r47-visual-shortcuts" aria-label="그림으로 보는 제안"><a href="#section-r47-block-concept"><b>01 컨셉도</b><span>누가 · 어떤 문제 · 어떤 변화</span></a><a href="#section-r47-block-overall"><b>02 전체 아키텍처</b><span>시스템 · 데이터 · 책임 경계</span></a><a href="#section-r47-block-journey"><b>03 서비스 흐름도</b><span>입력 · 처리 · 판단 · 보완</span></a>{code==='CL'&&<><a href="#section-r47-block-data"><b>04 데이터 흐름도</b><span>원천 · 판본 · 승인 기록</span></a><a href="#section-r47-block-runtime"><b>05 세부 실행 아키텍처</b><span>과업 · 도구 · 실행 · 복구</span></a></>}</div><nav aria-label="최신 상세 제안 목차">{chapters.map(([id,title],i)=><a key={id} href={'#section-r47-'+id}>{i+1}. {title}</a>)}</nav></header>
 <DepartmentDocuments code={code}/>
 {['MR','PS'].includes(code)&&<DrtRelated/>}
 <Part id="context"><Block id="definition"><AnalysisDisposition code={code}/>
@@ -61,7 +62,7 @@ export function Proposal47({code}){const r=get(code);if(!r)return null;const p=r
 <Diagram code={code} type="service" title="서비스 흐름 · 사용자·AI·담당자의 역할"/>
 <div className="r47-case"><h3>가상 업무 사례 · 사실 사례와 구분</h3><p>{p.scenario}</p></div>
 </Block>
-<Block id="process"><p className="r47-note">아래 표는 기존 상세설계의 적용 후보. 초기 편성은 위 현재 검토의 범위를 따르며, 기관 간 전달·후속 관측·추가 도구는 실제 권한·원 기록·잔여 수요 확인 후 선택 적용. 표·도식의 존재를 확정 납품범위로 사용하지 않음.</p><Table title="단계별 구체 처리 명세" headers={['단계','입력','처리 방법','출력']} rows={p.steps}/>
+<Block id="process"><p className="r47-note">아래 표는 기존 상세설계의 적용 후보. 초기 편성은 최신 ISP의 범위 확인 결과를 따르며, 기관 간 전달·후속 관측·추가 도구는 실제 권한·원 기록·잔여 수요 확인 후 선택 적용. 표·도식의 존재를 확정 납품범위로 사용하지 않음.</p><Table title="단계별 구체 처리 명세" headers={['단계','입력','처리 방법','출력']} rows={p.steps}/>
 </Block>
 <Block id="state"><Table title="처리 상태와 다음 행동" headers={['상태','완료 증거','다음 처리']} rows={[
 ['접수·범위 확인',p.trigger+'의 원문 및 사건 식별','자료·권한·대상 범위 확인 후 검토 시작'],

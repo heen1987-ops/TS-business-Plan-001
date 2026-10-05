@@ -51,7 +51,7 @@ const facts=[
  {id:'E03',type:'사용자 확인',claim:'현재 TS 계약에 Agentic OS 추가제안은 포함되지 않았음',use:'기존 계약/제품과 새로운 실행 기능의 차분 확인 시작',limit:'전체 계약·기술협상·검수 원문 대조 완료가 아님.',source:'대화의 사용자 답변',to:'research-library.html?view=planning#cost-feasibility'},
  {id:'E04',type:'사용자 현장 의견 + RFP 요구',claim:'DRT 지역 운영자의 전화접수·기사 배정 수동 부담. 2026 RFP에 자동배차·운영·정산 고도화 요구 존재.',use:'특정 조합의 실제 운영 사례와 2026 납품 차분을 확인',limit:'전국 현행 운영 실태·완료 구현은 미확인. 동일 자동배차/정산 중복 구축 금지.',source:'사용자 의견·기존 공식 DRT RFP 원문',to:'research-library.html?view=planning#implementation-review'},
  {id:'E05',type:'사용자 제약',claim:'2027년 사업기획 · 로컬 LLM·기존 서버·신규 인프라 구매 0원·비전 제외·CCK 주관',use:'대안·범위·서버 준비도 판단 조건',limit:'서버 여력·제품 사용권·설정/운영비 0원을 확인한 근거가 아님.',source:'누적 사용자 지시·TS 기획 지침',to:'skill-pms.html#pms-direction'},
- {id:'E06',type:'사용자 확인 + 기존 질문서',claim:'TS 현업·CCK 개발팀의 별도 피드백 없음. Q01~Q14 요청·회신 증빙 없음.',use:'현업/제품/API/서버 확인자료 요청 준비',limit:'AI 검토를 사람의 현업 확인·참여확약·검수 수락으로 표시하지 않음.',source:'사용자 답변·implementation-review 질문서',to:'research-library.html?view=planning#implementation-questions'}
+ {id:'E06',type:'사용자 확인 + 기존 질문서',claim:'TS 현업·CCK 개발팀의 별도 피드백 없음. Q01~Q14 요청·회신 증빙 없음.',use:'현업/제품/API/서버 확인자료 요청 준비',limit:'AI 검토를 사람의 현업 확인·참여확약·검수 수락으로 표시하지 않음.',source:'사용자 답변·implementation-review 질문서',to:'research-library.html?view=planning#implementation-feedback'}
 ];
 const pathways=[
  ['적용 주체·재원','TS 자체예산·국비·위탁/보조·주무부처 요구·기존 ISP 범위','현재 미확인','중앙관서 예산요구 원칙을 TS 전체 사업에 자동 적용하지 않음. 기관 재정·정보화 담당 확인 필요.'],
