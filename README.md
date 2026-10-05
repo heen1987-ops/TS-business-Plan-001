@@ -6,6 +6,8 @@
 - [처별 한글파일 검색·다운로드 — 39개 처·현재 117개·이전 39개 HWPX](https://heen1987-ops.github.io/TS-business-Plan-001/planning-documents.html)
 - [GitHub에서 처별 한글파일 바로 찾기](docs/HWPX_DOWNLOADS.md)
 - [저장소의 실제 HWPX 파일 폴더](public/downloads/departments)
+- [실행가능성·비용 검증·묶음형 RFP 편성](https://heen1987-ops.github.io/TS-business-Plan-001/research-library.html?view=planning#cost-bundles)
+- [묶음형 RFP 초안 다운로드](https://heen1987-ops.github.io/TS-business-Plan-001/downloads/bundle-rfp-2027-20261005.md)
 - [2027년 사업기획 검토와 한글자료 연결](https://heen1987-ops.github.io/TS-business-Plan-001/research-library.html?view=planning)
 
 게시 판본은 **계획서 v0.5 / 대가산정서·도식집 v0.3 참조본**. 2027년 처별 편성 판단·기술 HOW·측정방법을 반영한 협의용 개정 초안이며, 차분 대가·실측 효과는 미확정. 이전 계획서 v0.4는 보존. PC 경로가 아닌 Git에 포함된 파일을 Pages와 GitHub에서 제공. [v0.5 개정·검증 범위](docs/HWPX_ALIGNMENT_2026-10-02.md) 참조.
@@ -47,3 +49,7 @@ CCK 엔진(TA-01~23)을 위 플랫폼 기준선과 비교한 내부 전략 검�
 홈 안내 → TS 이해·2030 목표 → 조직·업무 → 처별 제안 → 공통 플랫폼·자료실의 6개 영역으로 재구성. 처별 제안은 필요성·해결방법·설계·요구사항·측정방법·근거의 연속 본문으로 열람. 한글 자료는 자료실에서 검색·다운로드. PMS는 공통 설계, 처별 매핑, 작성 현황을 목적별 보기로 분리.
 
 [탐색 구조·수용기준·검증 안내](docs/USER_CENTRED_UX_20261001.md). 기존 73개 진입점과 공유 주소, 39처·42개 기획·117개 HWPX·319개 상세설계 링크 보존. 지역본부·전국 설치 처 총수와 현재 51개 본사·연구원 처 대조 범위 구분.
+
+## 2026-10-05 실행·대가·묶음형 RFP 조사
+
+공통필수1 + 업무선택4, 42개 기획 단일 배치. 39개 대가산정 원문은 산술 일치,36처 WBS직접노무 참고치가 공급가 초과. 실제 수행가격·총사업비·경제성은 미확정. [검증 범위와 잔여 조건](docs/COST_BUNDLE_REVIEW_20261005.md). 한글 기존판본은 보존하고 별도 MD/JSON/CSV6종 추가.

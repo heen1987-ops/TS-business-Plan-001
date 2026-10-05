@@ -5,6 +5,7 @@ import departments from './data.json';
 import publication from './document-publication.cjs';
 import {DepartmentDownloadLinks} from './DocumentLinks.jsx';
 import './analysis-review.css';
+import {CostReview} from './CostReview.jsx';
 import {ImplementationReview} from './ImplementationReview.jsx';
 const plan=data.planning2027;
 const name=code=>departments.departments.find(d=>d.code===code)?.name||code;
@@ -22,6 +23,8 @@ export function AnalysisReview(){return <article className="page analysis-review
  <aside className="analysis-objective" data-analysis-objective><h2>외부 문제에서 출발하는 신규 문제정의</h2><p>{data.definition.scope}</p><p>{data.origin.latestDirection}</p><p><b>최신 대화 반영:</b> {plan.latest.direction}</p><p className="analysis-limit">{plan.latest.availability}</p><a href="#analysis-candidates">문제정의 기준·후보별 검증계획으로 이동 ↓</a></aside>
  <nav className="analysis-toc" aria-label="사업 검토서 본문 목차">{[['departments','처별 편성'],['platform','공통 기술·범위'],['corrections','근거 해석 정정'],['candidates','신규 문제정의'],['gates','효과·착수 조건'],['sources','공식 출처']].map(([id,title])=><a key={id} href={'#analysis-'+id}>{title}</a>)}</nav>
  <p className="analysis-limit"><a href="#implementation-review">2026-10-03 최신 구현 가능성 재조사·39처 검토·현업 확인 질문서 ↓</a> · 기존 한글 v0.5와 별도 판본. 아래 최신 검토 후 이전 설계·출처까지 연속 열람.</p>
+ <p className="analysis-limit"><a href="#cost-review">2026-10-05 실행가능성·39처 비용 검증·묶음형 RFP 편성 ↓</a></p>
+ <CostReview/>
  <ImplementationReview/>
  <Chapter id="departments" title="1. 2027년 편성 검토 · 기존 제안과 신규 탐색의 관계"><p>기존 제안은 현행 업무를 확인하는 출발점. 부서마다 독립 플랫폼을 신규 발주하는 전제가 아닌, 실제 문제·기존 기능·계약 범위를 확인한 편성 권고.</p><Table title="처별 제안의 현재 검토 상태" headers={['담당 처·본문','편성 검토','목적·적용 모듈','착수 전 핵심 확인',publication.labels.column]} rows={Object.values(data.departments).map(r=>[<Link to={route(r.code)}>{name(r.code)}</Link>,r.status,r.purpose+' / '+r.module,r.why,<DepartmentDownloadLinks code={r.code}/>])}/>
  <Table title="2027년 편성에서 기존 자료를 사용하는 방법" headers={['검토 자료','현재의 역할','편성 시 적용']} rows={plan.portfolio}/>
