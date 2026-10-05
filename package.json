@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "node scripts/build.cjs",
-    "check": "node scripts/check.cjs && node scripts/check-slides.cjs && node scripts/check-measurement.cjs && node scripts/check-org-map.cjs && node scripts/check-websites.cjs && node scripts/check-navigation.cjs && node scripts/check-law-mapping.cjs && node scripts/check-document.cjs && node scripts/check-proposals.cjs && node scripts/check-reading.cjs && node scripts/check-revision47.cjs && node scripts/check-delivery47.cjs && node scripts/check-advanced47.cjs && node scripts/check-institution-media.cjs && node scripts/check-associations.cjs && node scripts/check-proposal-links.cjs && node scripts/check-composition.cjs && node scripts/check-generated-visuals.cjs && node scripts/check-drt-assurance.cjs && node scripts/check-detailed-visuals47.cjs && node scripts/check-department-documents.cjs && node scripts/check-research-library.cjs && node scripts/check-skill-pms.cjs && node scripts/check-department-coverage.cjs && node scripts/check-ux.cjs && node scripts/check-analysis-review.cjs && node scripts/check-planning-2027.cjs && node scripts/check-implementation-review.cjs && node scripts/check-cost-review.cjs",
+    "check": "node scripts/check.cjs && node scripts/check-slides.cjs && node scripts/check-measurement.cjs && node scripts/check-org-map.cjs && node scripts/check-websites.cjs && node scripts/check-navigation.cjs && node scripts/check-law-mapping.cjs && node scripts/check-document.cjs && node scripts/check-proposals.cjs && node scripts/check-reading.cjs && node scripts/check-revision47.cjs && node scripts/check-delivery47.cjs && node scripts/check-advanced47.cjs && node scripts/check-institution-media.cjs && node scripts/check-associations.cjs && node scripts/check-proposal-links.cjs && node scripts/check-composition.cjs && node scripts/check-generated-visuals.cjs && node scripts/check-drt-assurance.cjs && node scripts/check-detailed-visuals47.cjs && node scripts/check-department-documents.cjs && node scripts/check-research-library.cjs && node scripts/check-skill-pms.cjs && node scripts/check-department-coverage.cjs && node scripts/check-ux.cjs && node scripts/check-analysis-review.cjs && node scripts/check-planning-2027.cjs && node scripts/check-implementation-review.cjs && node scripts/check-cost-review.cjs && node scripts/check-isp-review.cjs",
     "test": "npm run build && npm run check",
     "preview": "node scripts/preview.cjs",
     "check:map-browser": "node scripts/check-org-map-browser.cjs",
@@ -30,7 +30,8 @@
     "check:documents-public": "node scripts/check-document-publication-http.cjs",
     "check:documents-publication-browser": "node scripts/check-document-publication-browser.cjs",
     "check:implementation-browser": "node scripts/check-implementation-review-browser.cjs",
-    "check:cost-browser": "node scripts/check-cost-review-browser.cjs"
+    "check:cost-browser": "node scripts/check-cost-review-browser.cjs",
+    "check:isp-browser": "node scripts/check-isp-review-browser.cjs"
   },
   "dependencies": {
     "react": "19.2.0",

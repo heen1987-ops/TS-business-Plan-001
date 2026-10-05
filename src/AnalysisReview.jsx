@@ -5,6 +5,7 @@ import departments from './data.json';
 import publication from './document-publication.cjs';
 import {DepartmentDownloadLinks} from './DocumentLinks.jsx';
 import './analysis-review.css';
+import {IspReview} from './IspReview.jsx';
 import {CostReview} from './CostReview.jsx';
 import {ImplementationReview} from './ImplementationReview.jsx';
 const plan=data.planning2027;
@@ -19,6 +20,7 @@ export function AnalysisReview(){return <article className="page analysis-review
  <Heading label={'자료실 · 2027년 사업기획 · '+data.updatedAt+' · '+data.version} title={data.title} desc={plan.objective}/>
  <aside className="analysis-file-entry" data-planning-download-entry><h2>{publication.title}</h2><p>{publication.departments}개 처 · {publication.count}개 HWPX. {publication.lead}</p><div className="analysis-downloads"><Link to={publication.catalogue}>{publication.labels.catalogue} ↗</Link><Out url={publication.githubIndex}>{publication.labels.repository}</Out><a href="#analysis-departments">아래 13처 검토표에서 직접 다운로드 ↓</a></div><p className="analysis-limit">{publication.versionNote}</p></aside>
  <aside className="analysis-scope" data-planning-year={plan.year}><h2>이번 기획의 범위 · 2027년</h2><Fields rows={plan.scope}/><p className="analysis-limit">{plan.status}</p></aside>
+ <IspReview/>
  <p className="analysis-limit">{data.status}. {data.origin.scope} {data.origin.deepResearch}</p>
  <aside className="analysis-objective" data-analysis-objective><h2>외부 문제에서 출발하는 신규 문제정의</h2><p>{data.definition.scope}</p><p>{data.origin.latestDirection}</p><p><b>최신 대화 반영:</b> {plan.latest.direction}</p><p className="analysis-limit">{plan.latest.availability}</p><a href="#analysis-candidates">문제정의 기준·후보별 검증계획으로 이동 ↓</a></aside>
  <nav className="analysis-toc" aria-label="사업 검토서 본문 목차">{[['departments','처별 편성'],['platform','공통 기술·범위'],['corrections','근거 해석 정정'],['candidates','신규 문제정의'],['gates','효과·착수 조건'],['sources','공식 출처']].map(([id,title])=><a key={id} href={'#analysis-'+id}>{title}</a>)}</nav>

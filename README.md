@@ -6,6 +6,8 @@
 - [처별 한글파일 검색·다운로드 — 39개 처·현재 117개·이전 39개 HWPX](https://heen1987-ops.github.io/TS-business-Plan-001/planning-documents.html)
 - [GitHub에서 처별 한글파일 바로 찾기](docs/HWPX_DOWNLOADS.md)
 - [저장소의 실제 HWPX 파일 폴더](public/downloads/departments)
+- [2027 TS AX · ISP 시작·보안·개인정보·AI 윤리](https://heen1987-ops.github.io/TS-business-Plan-001/research-library.html?view=planning#isp-start)
+- [ISP 준비·환경/현황·통제·수행 계획 9종 다운로드](https://heen1987-ops.github.io/TS-business-Plan-001/research-library.html?view=planning#isp-sources)
 - [실행가능성·비용 검증·묶음형 RFP 편성](https://heen1987-ops.github.io/TS-business-Plan-001/research-library.html?view=planning#cost-bundles)
 - [묶음형 RFP 초안 다운로드](https://heen1987-ops.github.io/TS-business-Plan-001/downloads/bundle-rfp-2027-20261005.md)
 - [2027년 사업기획 검토와 한글자료 연결](https://heen1987-ops.github.io/TS-business-Plan-001/research-library.html?view=planning)
@@ -53,3 +55,7 @@ CCK 엔진(TA-01~23)을 위 플랫폼 기준선과 비교한 내부 전략 검�
 ## 2026-10-05 실행·대가·묶음형 RFP 조사
 
 공통필수1 + 업무선택4, 42개 기획 단일 배치. 39개 대가산정 원문은 산술 일치,36처 WBS직접노무 참고치가 공급가 초과. 실제 수행가격·총사업비·경제성은 미확정. [검증 범위와 잔여 조건](docs/COST_BUNDLE_REVIEW_20261005.md). 한글 기존판본은 보존하고 별도 MD/JSON/CSV6종 추가.
+
+## 2026-10-05 ISP부터 재구성
+
+사용자 지정 공공 정보화사업 가이드를 기준으로 ISP 공식 5단계의 사전 준비본 작성. 39처·42항목은 조사 후보로 보존하고 현황·비AI 대안부터 검증. 보안10·개인정보6·AI윤리6 통제와 법령 적용조건·증빙·인수시험·RFP 연결. MD4·CSV4·JSON1 별도 누적, 기존 HWPX 판본 유지. 정식 ISP 완료·현업 회신·제품/API·서버 시험·가격 확정과 구분. [작성·근거·검증·잔여 조건](docs/ISP_START_20261005.md).
