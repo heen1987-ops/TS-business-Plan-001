@@ -12,6 +12,7 @@ import {Delivery47} from './Delivery47.jsx';
 import {Advanced47} from './Advanced47.jsx';
 import {GeneratedDiagram47} from './GeneratedDiagram47.jsx';
 import {DetailedDiagram47} from './DetailedDiagram47.jsx';
+import {SeniorAssessment} from './SeniorAssessment.jsx';
 const {get,chapters}=revision;
 function List({items}){return <ul>{items.map((x,i)=><li key={i}>{x}</li>)}</ul>}
 function Table({title,headers,rows}){return <div className="r47-table"><table><caption>{title}</caption><thead><tr>{headers.map(x=><th key={x} scope="col">{x}</th>)}</tr></thead><tbody>{rows.map((r,i)=><tr key={i}>{r.map((x,j)=><td data-label={headers[j]} key={j}>{x}</td>)}</tr>)}</tbody></table></div>}
@@ -31,6 +32,7 @@ function Diagram({code,type,title}){if(code==='CL'&&type==='data')return <Detail
 export function Proposal47({code}){const r=get(code);if(!r)return null;const p=r.detail;return <div className="revision47" data-revision-department={code}>
 <header className="r47-hero"><span className="r47-badge">현재 ISP: 조사 후보 · {isp.date}</span><p className="r47-note">이전 편성 검토: {r.currentReview.status} · {r.currentReview.date}. 현재 사업 선정·발주 미확정.</p><h2>{r.title}</h2><p>{p.purpose}</p><small>현재의 근거·처리·검증 명세에 2026-09-24의 6개 장 구성을 적용. TS 확정 과업·제품 구현 완료와 구분. 기존 정본의 판정은 과거 기획 이력.</small><dl className="r47-executive">{[['검토 대상',p.unit],['직접 사용자',p.users],['업무 시작 조건',p.trigger],['측정할 변화',p.metrics.map(m=>m[0]).join(' · ')]].map(([k,v])=><div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}</dl><div className="r47-visual-shortcuts" aria-label="그림으로 보는 제안"><a href="#section-r47-block-concept"><b>01 컨셉도</b><span>누가 · 어떤 문제 · 어떤 변화</span></a><a href="#section-r47-block-overall"><b>02 전체 아키텍처</b><span>시스템 · 데이터 · 책임 경계</span></a><a href="#section-r47-block-journey"><b>03 서비스 흐름도</b><span>입력 · 처리 · 판단 · 보완</span></a>{code==='CL'&&<><a href="#section-r47-block-data"><b>04 데이터 흐름도</b><span>원천 · 판본 · 승인 기록</span></a><a href="#section-r47-block-runtime"><b>05 세부 실행 아키텍처</b><span>과업 · 도구 · 실행 · 복구</span></a></>}</div><nav aria-label="최신 상세 제안 목차">{chapters.map(([id,title],i)=><a key={id} href={'#section-r47-'+id}>{i+1}. {title}</a>)}</nav></header>
 <DepartmentDocuments code={code}/>
+{code==='QE'&&<><p className="r47-note"><a href="#section-qe-health-review">추가 검토 · 고령 운수종사자의 기능평가·의료근거 연계와 변별력 검증 ↓</a></p><SeniorAssessment/></>}
 {['MR','PS'].includes(code)&&<DrtRelated/>}
 <Part id="context"><Block id="definition"><AnalysisDisposition code={code}/>
 <p className="r47-lead">{r.oneLine}</p>{p.why.map(t=><p key={t}>{t}</p>)}

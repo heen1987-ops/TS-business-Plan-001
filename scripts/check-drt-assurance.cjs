@@ -9,7 +9,7 @@ const dump=JSON.stringify(d);for(const t of ['447,249','29,662','75,419,630','�
 const app=fs.readFileSync('src/App.jsx','utf8');check(app.includes("path==='drt-assurance.html'"),'직접 렌더링');check(JSON.parse(fs.readFileSync('src/association-research.json')).news_research.cases.length===6,'기존 뉴스6건 보존');
 // 2026-09-30: 사용자 정정에 따라 운영 자동화를 중심에 놓고 후속 감사 기능은 보존.
 check(d.title.includes('전화 접수·배차·운영계획'),'현장 운영 중심의 사업명');
-check(Object.keys(d.sources).length===11&&d.sources.U01.kind==='user'&&!d.sources.U01.url,'기술 근거·사용자 현장 의견 추가와 출처 구분');
+check(Object.keys(d.sources).length===12&&d.sources.U01.kind==='user'&&!d.sources.U01.url,'기술 근거·사용자 현장 의견 추가와 출처 구분');
 check(d.sources.S01.checkedAt==='2026-09-30'&&d.sources.S01.fact.includes('모바일앱')&&d.sources.S01.fact.includes('콜센터'),'TS의 전화/앱 기존 경로 구분');
 check(d.sources.S08.checkedAt==='2026-09-29','공급사 이전 열람일 보존');
 for(const s of Object.values(d.sources))if(s.url)check(/^https?:\/\//.test(s.url),'실제 원문 링크 형식');

@@ -109,6 +109,7 @@ const questions=[
  ['Q13','TS 현업·검수자','정답·난도·오류 중요도를 누가 확인하고 어느 검수시간을 제공할 수 있는가?','정답 작성 책임·검수 가용·측정 동의'],
  ['Q14','TS·CCK 사업관리','선정한 1~2개 업무의 수락·보류·복구 기준과 운영 인수 담당은 누구인가?','실증 범위 합의·수락 기준·인수 책임']
 ].map(([id,owner,question,evidence])=>({id,owner,question,evidence,response:null,respondent:null,receivedAt:null,decision:null,status:'미회신·미요청'}));
+candidates.find(c=>c.id==='V05').stop+=' '+require('./drt-scope.cjs').scope.excluded;
 module.exports={date,version:'v1.0',year:2027,title:'2027년 TS 후속사업 · 구현 가능성 재조사·검토',status:'기획·오프라인 검증 후보 선별. 실제 구매·계약·제품 실행·현업 수락 미확정.',feedback:{human:'사용자 확인: 별도 TS 현업·CCK 개발팀 피드백 없음.',independent:'근거·기술·사업범위의 3개 AI 독립 검토 의견. 실제 담당자 인터뷰·회신을 대신하지 않음.',received:false},scope:'기존 39개 처·42개 기획항목의 구현경계 재검토와 일부 공식 업무·2026 DRT 원 RFP 재조사. TS 전체 조직·협회·현업의 최신 상태 조사 완료를 의미하지 않음.',constraints:['기구축 AI 플랫폼에서 스킬·근거·규칙·어댑터 확장','로컬 LLM·기존 서버·신규 인프라 투자 0원 조건','기존 서버 여력·로컬 모델·라이선스는 미검증','비전·센서·차량/열차 제어·독립 R&D 제외','Agentic OS는 기존 계약 포함분으로 가정하지 않음','2026–2030 전략은 배경, NPU·5개년 장비계획은 이번 범위 밖'],statuses,mappings,sources,candidates,products,execution,metrics,questions,
  reviews:[
  ['근거 검토','DRT 원 RFP가 수동 배차와 2026 자동배차 고도화 계획을 함께 제시. 일반 안내와 현행/목표 상태 분리.','기존 자동배차·관제·정산·부정수급 관리 신규 구축의 중복 주장 철회. 계약/실행 상태는 확인 대기.'],

@@ -3,3 +3,5 @@
 @media print{.drt-proposal{padding:0}.drt-hero nav,.drt-download{display:none}.drt-table thead{display:table-header-group}.drt-table table{display:table}.drt-table tbody{display:table-row-group}.drt-table tr{display:table-row}.drt-table td{display:table-cell}.drt-table td:before{display:none}.drt-chapter,.drt-block{box-shadow:none}.drt-block figure,.drt-metrics article{break-inside:avoid}}
 
 .drt-block-visual{scroll-margin-top:calc(var(--ts-chrome-height,130px) + 20px)}.drt-block figcaption ul{margin-top:16px;color:#304b60}.drt-block figcaption li+li{margin-top:10px}
+
+.drt-deferred{margin-block:20px;padding:14px 18px;border:1px solid #d8e1e8;background:#fafbfd}.drt-deferred>summary{cursor:pointer;font-weight:700;line-height:1.7;color:#465a6d}.drt-deferred>summary:focus-visible{outline:3px solid #245c97;outline-offset:4px}.drt-deferred .drt-block{margin-top:16px}
