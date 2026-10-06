@@ -19,6 +19,7 @@ require('./export-websites.cjs')(path.join(out,'downloads'));
 require('./export-law-mapping.cjs')(path.join(out,'downloads'));
 require('./export-proposals.cjs')(path.join(out,'downloads'));
 require('./export-revision47.cjs')(path.join(out,'downloads'));
+require('./export-proposal-intent.cjs')(path.join(out,'downloads'));
 fs.writeFileSync(path.join(out,'downloads/navigation-registry.json'),JSON.stringify({registeredAt:require('../src/navigation.cjs').date,records:require('../src/navigation.cjs').records},null,2));
 const routes=require('../site-routes.json').routes;
 function shell(route){const prefix=path.posix.relative(path.posix.dirname(route),'.')||'.';return '<!doctype html><html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="한국교통안전공단의 임무·법정업무·2030 전략·조직별 AX 전환 제안"><title>TS AX 사업기획</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%274%27 fill=%27%23244f79%27/%3E%3C/svg%3E"><link rel="stylesheet" href="'+prefix+'/react/app.css"></head><body><div id="root"></div><noscript>목차 탐색에는 JavaScript 사용 필요. <a href="'+prefix+'/legacy/index.html">정적 자료 보기</a></noscript><script>window.__TS_BASE__=new URL("'+prefix+'/",location.href).href;</script><script defer src="'+prefix+'/react/app.js"></script></body></html>'}
