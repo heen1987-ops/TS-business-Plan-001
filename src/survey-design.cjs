@@ -1,5 +1,6 @@
 const hub=require('./planning-hub.cjs'),interview=require('./interview-plan.cjs'),senior=require('./senior-assessment.cjs');
-const date='2026-10-06',version='v0.2',root='downloads/surveys-20261006-v02';
+const briefing=require('./survey-briefing.cjs');
+const date='2026-10-06',version='v0.3',root='downloads/surveys-20261006-v03';
 const field=(id,group,title,question,type='long_text',options=[],help='',displayIf=null)=>({id,group,title,question,type,options:options.map(([code,label])=>({code,label})),help,displayIf,required:false,answer:null,answerStatus:'UNANSWERED',evidenceRef:null,receivedAt:null,planningDecision:null});
 const profile=[
  field('ROLE','응답 배경','응답 역할','이번 의견을 작성하는 업무 역할은 무엇입니까?','single_choice',[['WORK','업무 담당'],['REVIEW','검토·승인'],['PLANNING','기획·성과'],['TECH','정보화·제품·운영'],['SECURITY','자료·보안'],['OTHER','그 밖의 역할'],['UNKNOWN','역할 설명 보완 필요']],'실명·연락처 대신 역할만 작성. 담당 처는 해당 양식에서 지정.'),
@@ -28,7 +29,7 @@ const general=[
  field('PUBLIC_SERVICE_ISSUE','추가 의견','대국민·기업 서비스','국민·기업이 안전·검사·자격·교통 서비스를 이용할 때 추가로 겪는 불편이나 권익 문제는 무엇입니까?','long_text',[],'대상자 / 원하는 결과 / 현재 경로 / 반복 설명·보완·방문·접근성 / 확인 근거. 현업의 추정과 이용자의 직접 의견을 구분.'),
  field('NEW_PROBLEM','추가 의견','누락된 문제·다른 원인','이번 조사에서 빠진 문제나 다른 원인 설명이 있다면 작성해 주십시오.','long_text',[],'기존 병목의 수정인지 별도 문제인지, 소관 후보·현재 대응·우선 이유를 설명. 없으면 없음으로 작성.'),
  field('AX_EXPANSION_OPINION','추가 의견','플랫폼 확대 방안','현재 플랫폼을 확대한다면 어떤 업무의 어떤 결과를 우선 개선해야 합니까?','long_text',[],'현재 기능 → 남는 어려움 → 필요한 새 능력 → 업무·역할 변화 → 기관/국민 편익. 확대 불필요·비AI 대안도 가능.'),
- field('EXPANSION_LIMIT','추가 의견','확대하지 않을 범위','별도 전문시스템이나 권한자의 판단에 남겨야 할 범위와 확대 제약은 무엇입니까?','long_text',[],'공식 안전·자격·의료·처분·승인/지급 책임, 자료 이용·운영·비용 조건을 설명. 실행본 확인은 제품 담당 보충지 S01~S04와 연결.')
+ field('EXPANSION_LIMIT','추가 의견','확대하지 않을 범위','별도 전문시스템이나 권한자의 판단에 남겨야 할 범위와 확대 제약은 무엇입니까?','long_text',[],'공식 안전·자격·의료·처분·승인/지급 책임, 자료 이용·운영·비용 조건을 설명. 실제 설치본·API·권한·복구는 제품 담당자에게 확인.')
 ];
 const discovery=[
  field('DISCOVERY_SCOPE','업무 발견','실제 담당 업무','현재 담당하는 개별 업무·대상자·입력자료·결과·권한은 무엇입니까?','long_text',[],'조직명만으로 업무를 확정하지 않음. 제시된 부서명이 현행과 다르면 정정.'),
@@ -37,14 +38,14 @@ const discovery=[
 ];
 const intro=[
  {id:'purpose',title:'조사 목적·응답 범위',status:'2027년 편성 의견 수렴 준비안',text:'본 조사는 처별 실제 업무와 대국민서비스에서 개선이 필요한 지점을 확인하고, 2027년 후속사업의 범위와 우선순위를 검토하기 위한 의견 수렴입니다. 먼저 현재 프로젝트와 CCK 솔루션의 역할을 설명하고, 조사된 병목의 정합성·타당성 및 별도 의견을 받습니다.',note:'병목과 확대안은 검토 가설. 수정·반대·문제 없음·기존 기능으로 충분·추가 적용 불필요도 동일하게 검토. 응답은 기관의 도입·예산·발주·자료 이용승인이 아님.'},
- {id:'current-project',title:'현재 TS 프로젝트·NOA 적용 배경',status:'기존 프로젝트 자료의 설명 · 현행 적용 상태 확인 필요',text:'현재 NOA 적용·AX 플랫폼 구축을 배경으로 후속 확대를 검토합니다. 기존 프로젝트 맥락 자료는 AI 공통플랫폼 고도화, 민원 업무 및 전세버스 공시 AI 구축을 주요 범위로 설명합니다. 공통 기반을 활용하면서 처별로 추가 필요한 업무 전환을 확인하는 것이 이번 조사의 목적입니다.',note:'기존 자료는 2026-09-09 파생 문서 분석. 최종 계약·검수·설치본·처별 실사용 완료를 직접 입증한 자료가 아님. 현재 실제 사용하는 기능과 남은 어려움을 ROLE/CURRENT_USE 및 제품 보충지에서 확인.',source:'CTX-01'},
+ {id:'current-project',title:'현재 TS 프로젝트·NOA 적용 배경',status:'기존 프로젝트 자료의 설명 · 현행 적용 상태 확인 필요',text:'현재 NOA 적용·AX 플랫폼 구축을 배경으로 후속 확대를 검토합니다. 기존 프로젝트 맥락 자료는 AI 공통플랫폼 고도화, 민원 업무 및 전세버스 공시 AI 구축을 주요 범위로 설명합니다. 공통 기반을 활용하면서 처별로 추가 필요한 업무 전환을 확인하는 것이 이번 조사의 목적입니다.',note:'기존 자료는 2026-09-09 파생 문서 분석. 최종 계약·검수·설치본·처별 실사용 완료를 직접 입증한 자료가 아님. 현재 실제 사용하는 기능과 남은 어려움을 응답 역할·현재 사용 질문과 실제 설치본 대조에서 확인.',source:'CTX-01'},
  {id:'cck',title:'NOA·CCK 솔루션의 업무 역할',status:'공급사 소개와 재사용 후보 · TS 실행 검증과 구분',text:'NOA는 기관 문서와 업무 근거를 연결하고 AI가 자료 확인·작업 수행을 지원하며, 담당자가 검토하는 조직 업무공간으로 소개됩니다. 이번 검토에서는 로컬 LLM과 기존 서버를 활용해 필요한 자료·규칙·도구를 하나의 업무 흐름에서 연결하는 방식을 고려합니다.',note:'공식 제품 소개는 TS 적용 기능·품질·보안 인증·효과 실측의 증거가 아님. 스캔·비전 기능은 이번 범위에서 제외. 제품·사용권·연계·권한·성능은 실제 설치본 대조 필요.',source:'CCK-NOA'},
  {id:'expansion',title:'기존 플랫폼에서 처별 AX로 확대하는 방향',status:'후속 제안 · 현재 계약과 차분 확인',text:'AX 확대는 AI 기능을 각 처에 배치하는 데 그치지 않고, 필요한 결과에 맞춰 자료 확인·검증질문·실행과업을 구성하고 처리결과에 따라 다음 작업을 조정하는 방식을 검토하는 것입니다. 공통 기반은 재사용하고 처별 법령·규칙·지식·연계·검증의 추가 작업을 구분합니다.',note:'계획·도구 실행·결과 검증·재계획을 묶는 Agentic OS 추가제안은 기존 계약/기술협상에 포함되지 않았다는 2026-09-22 사용자 확인. 최종 계약 원문 직접 대조는 미완료. 안전·자격·의료·처분·승인·지급의 공식 판단과 정형 계산은 권한자·기존 시스템에 유지.',source:'BOUNDARY-01'}
 ];
 const products=[
  ['NOA','문서·근거·업무를 연결하는 작업공간. 목표와 조건에 맞는 확인·작업 지원 및 담당자 검토.','공식 공급사 소개 · TS 실제 기능/성능 별도 검증'],
  ['aRDa','문서·조직지식·원문 판본을 NOA 업무의 근거로 연결하는 후보.','기존 제품·분석자료의 역할안 · TS 색인/권한/정정 전파 미확인'],
- ['Argus·Keeper 등','계획·Task 상태·실행관리·모델호출·인증의 재사용 후보. 현업 서두에서는 업무 역할만 설명.','제품/분석자료 대조 수준 · 실제 build·API·복구는 전문 보충 S01~S04'],
+ ['Argus·Keeper 등','계획·Task 상태·실행관리·모델호출·인증의 재사용 후보. 현업 서두에서는 업무 역할만 설명.','제품/분석자료 대조 수준 · 실제 설치 버전·API·권한·복구 성능은 제품 담당자에게 별도 확인'],
  ['기존 시스템·담당자','공식 기록·조회·정형 계산·검토·승인·실행·정정. NOA와 연결할 실제 경계 확인.','권한·인터페이스·원장 책임은 업무별 확정 필요']
 ];
 const introSources=[
@@ -53,13 +54,14 @@ const introSources=[
  {id:'BOUNDARY-01',title:'Agentic OS 추가제안 계약범위 확인',published:'2026-09-22 사용자 확인',locator:'계약/기술협상 미포함이라는 사용자 회신',limit:'계약 원문·제품 실행본 검증 완료를 뜻하지 않음.',route:'research-library.html?view=planning#implementation-technology'}
 ];
 const seniorCard={id:senior.id,title:senior.title,purpose:senior.purpose,gap:'현행 강화 검사와 허용 의료 기능 결과로도 중요한 확인 누락·과잉의뢰가 남는지, 추가 정보가 실제 변별력을 개선하는지 미확인. 연령·질병만으로 위험이나 부적격을 확정하는 가설은 제외.',how:'허용된 기존 기능검사·의료 결과의 대상/시점/근거 연결 → 전문가가 정한 추가 확인질문 → NOA 검토안·원문 대조 → 전문 판단과 오류/집단별 부담 비교.',inputs:['현행 기능검사 결과와 판본','허용된 의료 기능 결과·필요 최소 필드','전문 참조평가·검수 기록'],decisionBoundary:'NHIS 질병 원자료 연계는 초기 전제 아님. 별도 제공근거·추가가치 확보 전 제외. AI의 의료/자격 합불 결정 제외.',metrics:senior.metrics,sources:senior.sources,descriptionDate:senior.date};
-const departments=interview.departments.map(r=>({...r,anchor:'implementation-survey-'+r.id,mode:r.projectIds.length?'병목 가설·개선 방법 검토':'업무·추가 문제 발견',topics:r.topics.map(t=>{const p=hub.projects.find(p=>p.id===t.id)||(t.id===senior.id?seniorCard:null);return {id:t.id,title:p?.title||r.name+' 실제 업무와 문제 첫 확인',discovery:!p,status:p?'조사·기획 가설 · 현업 정합성/타당성 미확인':'병목 가설 미제시 · 분장·문제 유무 확인부터',purpose:p?.purpose||'실제 수행업무·현행 대응·추가 문제의 존재와 근거 확인',gap:p?.gap||null,how:p?.how||null,inputs:p?.inputs||[],boundary:p?.decisionBoundary||t.decision,metrics:p?.metrics||[],sources:p?.sources||r.sources,sourceDate:p?.descriptionDate||null,probeQuestions:t.questions,fieldIds:(p?topicFields:discovery).map(f=>f.id),response:null,planningDecision:null};}),downloads:[['처별 설문지 v0.2 MD',root+'/'+r.id+'/questionnaire.md'],['처별 문항·분기 정의 CSV',root+'/'+r.id+'/definition.csv'],['처별 빈 회신 CSV',root+'/'+r.id+'/response-blank.csv']]}));
-const presentation={title:'처별 병목 검토와 AX 확대 의견',lead:'현재 프로젝트와 NOA의 역할을 이해한 뒤, 내 처의 병목과 개선 방법을 검토하고 별도 의견을 정리하는 설문 안내.',navigation:[['survey-intro','프로젝트·NOA 설명'],['survey-departments','내 처의 병목·질문'],['survey-additional','별도 의견'],['survey-resources','설문지·참고자료']],questionGroups:[
+const departments=interview.departments.map(r=>({...r,anchor:'implementation-survey-'+r.id,mode:r.projectIds.length?'병목 가설·개선 방법 검토':'업무·추가 문제 발견',topics:r.topics.map(t=>{const p=hub.projects.find(p=>p.id===t.id)||(t.id===senior.id?seniorCard:null);return {id:t.id,title:p?.title||r.name+' 실제 업무와 문제 첫 확인',discovery:!p,status:p?'조사·기획 가설 · 현업 정합성/타당성 미확인':'병목 가설 미제시 · 분장·문제 유무 확인부터',purpose:p?.purpose||'실제 수행업무·현행 대응·추가 문제의 존재와 근거 확인',gap:p?.gap||null,how:p?.how||null,inputs:p?.inputs||[],boundary:p?.decisionBoundary||t.decision,metrics:p?.metrics||[],sources:p?.sources||r.sources,sourceDate:p?.descriptionDate||null,probeQuestions:t.questions,fieldIds:(p?topicFields:discovery).map(f=>f.id),response:null,planningDecision:null};}),downloads:[['처별 상세 설명·설문 v0.3 MD',root+'/'+r.id+'/questionnaire.md'],['처별 문항·분기 정의 CSV',root+'/'+r.id+'/definition.csv'],['처별 빈 회신 CSV',root+'/'+r.id+'/response-blank.csv']]}));
+for(const r of departments)for(const t of r.topics){const project=hub.projects.find(p=>p.id===t.id);t.briefing=briefing.build(t,project,r);t.sources=t.briefing.sources;t.metrics=t.briefing.metrics;t.boundary=t.briefing.boundary;}
+const presentation={title:'처별 병목 검토와 AX 확대 의견',lead:'업무의 목적·현행 처리·근거·병목 가설부터 CCK의 기술적 해결 과정과 효과 측정까지 읽고, 담당 처의 실제 상황과 다른 의견을 확인하는 2027년 조사 준비안.',navigation:[['survey-intro','프로젝트·NOA 설명'],['survey-departments','내 처의 병목·질문'],['survey-additional','별도 의견'],['survey-resources','최신 설문지']],questionGroups:[
  {id:'judgment',title:'1. 업무와 병목이 맞는지 확인',fields:['SCOPE_MATCH','CURRENT_STATE','BOTTLENECK_VALIDITY']},
  {id:'evidence',title:'2. 판단 이유와 실제 근거',fields:['VALIDITY_REASON','EVIDENCE_BASIS','ACTUAL_CASE','COUNTER_EVIDENCE']},
  {id:'method',title:'3. 현재 대응과 개선 방법',fields:['EXISTING_RESPONSE','IMPROVEMENT_METHOD','AI_ADDED_VALUE','FEASIBILITY_CONDITIONS']},
  {id:'outcome',title:'4. 우려·효과·별도 대안',fields:['RISK_AND_CONCERN','EFFECT_AND_MEASUREMENT','ALTERNATIVE_PROPOSAL','PRIORITY_REASON']}
- ],previewNote:'문항과 빈 양식을 확인하는 화면. 이 홈페이지에서 실제 응답을 저장하거나 제출하지 않음.',selectionNote:'본인 처를 선택하면 해당 병목과 질문만 표시. 다른 처는 선택을 바꾸어 확인. 처를 선택하지 않아도 별도 의견 문항 열람 가능.',scopeNote:'51처는 조사 준비 범위. 기존 43개 기획 가설의 정합성·타당성을 검토하며, 병목이 미매핑된 12처는 실제 업무와 문제 유무부터 확인. 확정 사업 수가 아님.',resourcesNote:'CSV·JSON은 조사 담당자의 도구 설정용 자료. 응답자는 선택한 처의 설문지와 빈 회신 양식을 우선 사용.',groupsNote:'아래 질문을 병목 설명과 함께 검토. 담당 아님·이미 해결됨·판단자료 부족·AI 추가 적용 불필요도 유효한 의견.'};
+ ],previewNote:'문항과 빈 양식을 확인하는 화면. 이 홈페이지에서 실제 응답을 저장하거나 제출하지 않음.',selectionNote:'본인 처를 선택하면 해당 병목과 질문만 표시. 다른 처는 선택을 바꾸어 확인. 처를 선택하지 않아도 별도 의견 문항 열람 가능.',scopeNote:'51처는 조사 준비 범위. 기존 43개 기획 가설의 정합성·타당성을 검토하며, 병목이 미매핑된 12처는 실제 업무와 문제 유무부터 확인. 확정 사업 수가 아님.',resourcesNote:'선택한 처의 최신 상세 설명·질문과 빈 회신 양식. 이전 계획서·구버전·도구 정의 자료를 현재 화면과 섞지 않음.',groupsNote:'아래 질문을 병목 설명과 함께 검토. 담당 아님·이미 해결됨·판단자료 부족·AI 추가 적용 불필요도 유효한 의견.'};
 const branchRules=[
  ['담당 아님·불일치','다른 소관·수정 의견은 선택 작성. 상세 사례·효과·구현 질문은 건너뛰고 추가 의견 유지.'],
  ['자료 부족·직접 경험 없음','필요한 자료·확인 역할은 선택 작성. 타당/비타당·문제 없음으로 자동 변환하지 않음.'],

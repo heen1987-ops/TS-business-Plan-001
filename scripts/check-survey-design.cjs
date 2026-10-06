@@ -1,7 +1,7 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),d=require('../src/survey-design.cjs'),i=require('../src/interview-plan.cjs'),hub=require('../src/planning-hub.cjs'),exporter=require('./export-survey-design.cjs'),search=require('../src/planning-search.cjs');
 let checks=0;const check=(label,value)=>{assert.ok(value,label);checks++;};
 const fields=[...d.profile,...d.topicFields,...d.general,...d.discovery],topics=d.departments.flatMap(r=>r.topics),defs=d.departments.flatMap(exporter.definitions);
-check('기존 v0.1 보존',i.version==='v0.1'&&i.counts.topics===55);check('설문 v0.2',d.version==='v0.2');
+check('기존 v0.1 보존',i.version==='v0.1'&&i.counts.topics===55);check('설문 v0.3',d.version==='v0.3');
 check('51처·43가설·12발견·55주제',d.departments.length===51&&topics.filter(t=>!t.discovery).length===43&&topics.filter(t=>t.discovery).length===12&&topics.length===55);
 check('26개 필드 정의·고유ID',fields.length===26&&new Set(fields.map(f=>f.id)).size===26);
 check('15질문 4묶음 중복·누락 없음',d.presentation.questionGroups.length===4&&d.presentation.questionGroups.flatMap(g=>g.fields).length===15&&new Set(d.presentation.questionGroups.flatMap(g=>g.fields)).size===15&&d.topicFields.every(f=>d.presentation.questionGroups.some(g=>g.fields.includes(f.id))));
@@ -33,4 +33,10 @@ for(const r of d.departments){const md=fs.readFileSync(path.join('dist',r.downlo
 check('실제 회신 공개 금지·도구 미등록 명시',d.privacy.includes('자동 공개')&&d.tool.includes('미검증')&&d.status.includes('미실시'));
 check('새 데이터 개인경로·자격증명 없음',!/(?:file:\/\/|[CG]:\\|OneDrive|sk-[a-zA-Z0-9]{20})/.test(JSON.stringify(d)));
 const jsx=fs.readFileSync('src/ImplementationReview.jsx','utf8');check('설문 먼저·이전 인터뷰 접어 보존',jsx.indexOf('<SurveyDesign/>')<jsx.indexOf('<InterviewPlan/>')&&jsx.includes('implementation-interview-history'));
+check('55주제 상세 모델·근거/입출력/기술/예외/완료',topics.every(t=>t.briefing&&t.briefing.steps.length>=3&&t.briefing.steps.every(s=>s.input&&s.operation&&s.output)&&t.briefing.tech.length>=3&&t.briefing.sources.every(s=>s.claim&&s.verification)&&t.briefing.exception&&t.briefing.complete));
+check('업무별 EX 경계·공통 오배정 수정',topics.find(t=>t.id==='EX02-01').boundary.includes('예산')&&!topics.find(t=>t.id==='EX02-01').boundary.includes('운임')&&topics.find(t=>t.id==='EX01-01').briefing.unit.includes('사업계획'));
+check('발견12처 솔루션 사전 확정 금지',topics.filter(t=>t.discovery).every(t=>t.briefing.kind==='discovery'&&t.briefing.metrics.length===0));
+check('측정 정보 생략 없음',topics.filter(t=>!t.discovery).every(t=>t.metrics.every(m=>m.formula&&m.records&&m.method&&m.note&&m.baseline===null&&m.target===null)));
+check('구버전 현재 MD에서 제외',d.departments.every(r=>!exporter.departmentMD(r).includes('이전 준비안')&&!exporter.departmentMD(r).includes('interviews-20261006/')));
+check('v0.2 다운로드 보존',fs.existsSync('dist/downloads/surveys-20261006-v02/MR/questionnaire.md'));
 console.log(JSON.stringify({result:'통과',checks,departments:51,hypotheses:43,discovery:12,fieldTypes:26,definitionInstances:defs.length,downloads:158}));
