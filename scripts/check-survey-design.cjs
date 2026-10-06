@@ -1,0 +1,33 @@
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),d=require('../src/survey-design.cjs'),i=require('../src/interview-plan.cjs'),hub=require('../src/planning-hub.cjs'),exporter=require('./export-survey-design.cjs'),search=require('../src/planning-search.cjs');
+let checks=0;const check=(label,value)=>{assert.ok(value,label);checks++;};
+const fields=[...d.profile,...d.topicFields,...d.general,...d.discovery],topics=d.departments.flatMap(r=>r.topics),defs=d.departments.flatMap(exporter.definitions);
+check('기존 v0.1 보존',i.version==='v0.1'&&i.counts.topics===55);check('설문 v0.2',d.version==='v0.2');
+check('51처·43가설·12발견·55주제',d.departments.length===51&&topics.filter(t=>!t.discovery).length===43&&topics.filter(t=>t.discovery).length===12&&topics.length===55);
+check('26개 필드 정의·고유ID',fields.length===26&&new Set(fields.map(f=>f.id)).size===26);
+check('미응답·기관판단 null',fields.every(f=>f.answer===null&&f.receivedAt===null&&f.evidenceRef===null&&f.planningDecision===null&&f.answerStatus==='UNANSWERED')&&topics.every(t=>t.response===null&&t.planningDecision===null));
+check('선택지 코드 고유',fields.every(f=>new Set(f.options.map(o=>o.code)).size===f.options.length));
+check('모든 응답 선택 작성',fields.every(f=>f.required===false));
+check('정합성·현재 상태·타당성 별도',d.topicFields.slice(0,3).map(f=>f.id).join('/')==='SCOPE_MATCH/CURRENT_STATE/BOTTLENECK_VALIDITY');
+check('담당 아님·해결됨·미관찰·자료 부족',fields.find(f=>f.id==='SCOPE_MATCH').options.some(o=>o.code==='OTHER_OWNER')&&fields.find(f=>f.id==='CURRENT_STATE').options.some(o=>o.code==='RESOLVED')&&fields.find(f=>f.id==='CURRENT_STATE').options.some(o=>o.code==='NO_PROBLEM_OBSERVED')&&fields.find(f=>f.id==='BOTTLENECK_VALIDITY').options.some(o=>o.code==='UNKNOWN'));
+check('비AI·추가 불필요 선택',fields.find(f=>f.id==='IMPROVEMENT_METHOD').options.some(o=>o.code==='NO_NEED')&&fields.find(f=>f.id==='IMPROVEMENT_METHOD').options.some(o=>o.code==='RULE_API'));
+check('AI 미선택 시 두 문항 분기',fields.filter(f=>['AI_ADDED_VALUE','FEASIBILITY_CONDITIONS'].includes(f.id)).every(f=>f.displayIf?.includes==='AI'));
+check('근거·대안 복수선택',fields.find(f=>f.id==='EVIDENCE_BASIS').type==='multiple_choice'&&fields.find(f=>f.id==='IMPROVEMENT_METHOD').type==='multiple_choice');
+check('발견처에 병목·기술·지표 미배정',topics.filter(t=>t.discovery).every(t=>t.gap===null&&t.how===null&&t.metrics.length===0&&t.fieldIds.length===3));
+check('기존42 기획과 카드 본문 일치',hub.projects.every(p=>topics.some(t=>t.id===p.id&&t.gap===p.gap&&t.how===p.how&&t.purpose===p.purpose)));
+check('DRT 감사·의료 AI 판정 제외 유지',topics.find(t=>t.id==='MR-02').boundary.includes('정산감사')&&topics.find(t=>t.id==='QE-H01').boundary.includes('NHIS')&&topics.find(t=>t.id==='QE-H01').boundary.includes('합불'));
+check('프로젝트·제품·후속 범위 상태와 주석',d.intro.length===4&&d.intro.every(b=>b.text&&b.status&&b.note)&&d.intro[1].note.includes('파생')&&d.intro[2].note.includes('실제 설치본')&&d.intro[3].note.includes('포함되지 않았'));
+check('단일·복수 선택 배타 규칙',d.exclusivity.length===2&&d.exclusivity[0].codes.includes('NONE')&&d.exclusivity[1].codes.includes('NO_NEED'));
+check('분기정의 ID 참조 유효',defs.every(q=>{const nodes=q.displayIf?.all||[q.displayIf];return nodes.filter(Boolean).every(n=>fields.some(f=>f.id===n.field));}));
+check('발견처 정의에 잘못된 SCOPE_MATCH 참조 없음',defs.filter(q=>d.departments.find(r=>r.id===q.departmentId).topics.every(t=>t.discovery)).every(q=>q.displayIf===null));
+check('1089 처별 문항 인스턴스·고유ID',defs.length===1089&&new Set(defs.map(q=>q.questionId)).size===1089);
+check('조건참조는 같은 처·주제 안에서 해석',defs.every(q=>q.conditionScope.departmentId===q.departmentId&&q.conditionScope.topicId===q.topicId));
+check('배타 선택코드를 CSV 정의로 전달',defs.filter(q=>q.fieldId==='IMPROVEMENT_METHOD').every(q=>q.exclusiveOptionCodes.includes('NO_NEED')));
+check('처별 MD 추가의견 중복 없음',d.departments.every(r=>d.general.every(f=>exporter.departmentMD(r).split(f.question).length===2)));
+check('처별 MD 소개 이후 병목과 의견 순서',d.departments.every(r=>{const md=exporter.departmentMD(r);return md.indexOf(d.intro[2].text)<md.indexOf('## '+r.topics[0].id)&&md.indexOf('## '+r.topics[0].id)<md.indexOf((r.topics[0].discovery?d.discovery:d.topicFields)[0].question)}));
+check('158 다운로드 링크',d.counts.downloads===158&&[...d.downloads,...d.departments.flatMap(r=>r.downloads)].length===158);
+for(const [label,to] of [...d.downloads,...d.departments.flatMap(r=>r.downloads)]){const file=path.join('dist',to);check(label+' 존재',fs.existsSync(file)&&fs.statSync(file).size>0);if(to.endsWith('.csv'))check(label+' UTF8 BOM',fs.readFileSync(file,'utf8').startsWith('\uFEFF'));}
+for(const r of d.departments){const md=fs.readFileSync(path.join('dist',r.downloads[0][1]),'utf8'),rows=exporter.definitions(r);check(r.id+' 서두·주석·처별 카드',md.includes(r.name)&&md.includes(d.intro[1].note)&&md.includes(d.intro[2].note)&&r.topics.every(t=>md.includes(t.id)&&md.includes(t.title)));check(r.id+' 빈 회신 상태만',fs.readFileSync(path.join('dist',r.downloads[2][1]),'utf8').split('\r\n').filter(Boolean).length===rows.length+1&&fs.readFileSync(path.join('dist',r.downloads[2][1]),'utf8').includes('UNANSWERED'));check(r.id+' 검색 연결',search.some(s=>s.id==='planning-search-survey-'+r.id&&s.route.endsWith('#'+r.anchor)));}
+check('실제 회신 공개 금지·도구 미등록 명시',d.privacy.includes('자동 공개')&&d.tool.includes('미검증')&&d.status.includes('미실시'));
+check('새 데이터 개인경로·자격증명 없음',!/(?:file:\/\/|[CG]:\\|OneDrive|sk-[a-zA-Z0-9]{20})/.test(JSON.stringify(d)));
+const jsx=fs.readFileSync('src/ImplementationReview.jsx','utf8');check('설문 먼저·이전 인터뷰 접어 보존',jsx.indexOf('<SurveyDesign/>')<jsx.indexOf('<InterviewPlan/>')&&jsx.includes('implementation-interview-history'));
+console.log(JSON.stringify({result:'통과',checks,departments:51,hypotheses:43,discovery:12,fieldTypes:26,definitionInstances:defs.length,downloads:158}));
