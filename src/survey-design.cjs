@@ -1,5 +1,6 @@
 const hub=require('./planning-hub.cjs'),interview=require('./interview-plan.cjs'),senior=require('./senior-assessment.cjs');
 const briefing=require('./survey-briefing.cjs');
+const reading=require('./survey-reading.cjs');
 const date='2026-10-06',version='v0.3',root='downloads/surveys-20261006-v03';
 const field=(id,group,title,question,type='long_text',options=[],help='',displayIf=null)=>({id,group,title,question,type,options:options.map(([code,label])=>({code,label})),help,displayIf,required:false,answer:null,answerStatus:'UNANSWERED',evidenceRef:null,receivedAt:null,planningDecision:null});
 const profile=[
@@ -56,11 +57,12 @@ const introSources=[
 const seniorCard={id:senior.id,title:senior.title,purpose:senior.purpose,gap:'현행 강화 검사와 허용 의료 기능 결과로도 중요한 확인 누락·과잉의뢰가 남는지, 추가 정보가 실제 변별력을 개선하는지 미확인. 연령·질병만으로 위험이나 부적격을 확정하는 가설은 제외.',how:'허용된 기존 기능검사·의료 결과의 대상/시점/근거 연결 → 전문가가 정한 추가 확인질문 → NOA 검토안·원문 대조 → 전문 판단과 오류/집단별 부담 비교.',inputs:['현행 기능검사 결과와 판본','허용된 의료 기능 결과·필요 최소 필드','전문 참조평가·검수 기록'],decisionBoundary:'NHIS 질병 원자료 연계는 초기 전제 아님. 별도 제공근거·추가가치 확보 전 제외. AI의 의료/자격 합불 결정 제외.',metrics:senior.metrics,sources:senior.sources,descriptionDate:senior.date};
 const departments=interview.departments.map(r=>({...r,anchor:'implementation-survey-'+r.id,mode:r.projectIds.length?'병목 가설·개선 방법 검토':'업무·추가 문제 발견',topics:r.topics.map(t=>{const p=hub.projects.find(p=>p.id===t.id)||(t.id===senior.id?seniorCard:null);return {id:t.id,title:p?.title||r.name+' 실제 업무와 문제 첫 확인',discovery:!p,status:p?'조사·기획 가설 · 현업 정합성/타당성 미확인':'병목 가설 미제시 · 분장·문제 유무 확인부터',purpose:p?.purpose||'실제 수행업무·현행 대응·추가 문제의 존재와 근거 확인',gap:p?.gap||null,how:p?.how||null,inputs:p?.inputs||[],boundary:p?.decisionBoundary||t.decision,metrics:p?.metrics||[],sources:p?.sources||r.sources,sourceDate:p?.descriptionDate||null,probeQuestions:t.questions,fieldIds:(p?topicFields:discovery).map(f=>f.id),response:null,planningDecision:null};}),downloads:[['처별 상세 설명·설문 v0.3 MD',root+'/'+r.id+'/questionnaire.md'],['처별 문항·분기 정의 CSV',root+'/'+r.id+'/definition.csv'],['처별 빈 회신 CSV',root+'/'+r.id+'/response-blank.csv']]}));
 for(const r of departments)for(const t of r.topics){const project=hub.projects.find(p=>p.id===t.id);t.briefing=briefing.build(t,project,r);t.sources=t.briefing.sources;t.metrics=t.briefing.metrics;t.boundary=t.briefing.boundary;}
-const presentation={title:'처별 병목 검토와 AX 확대 의견',lead:'업무의 목적·현행 처리·근거·병목 가설부터 CCK의 기술적 해결 과정과 효과 측정까지 읽고, 담당 처의 실제 상황과 다른 의견을 확인하는 2027년 조사 준비안.',navigation:[['survey-intro','프로젝트·NOA 설명'],['survey-departments','내 처의 병목·질문'],['survey-additional','별도 의견'],['survey-resources','최신 설문지']],questionGroups:[
- {id:'judgment',title:'1. 업무와 병목이 맞는지 확인',fields:['SCOPE_MATCH','CURRENT_STATE','BOTTLENECK_VALIDITY']},
- {id:'evidence',title:'2. 판단 이유와 실제 근거',fields:['VALIDITY_REASON','EVIDENCE_BASIS','ACTUAL_CASE','COUNTER_EVIDENCE']},
- {id:'method',title:'3. 현재 대응과 개선 방법',fields:['EXISTING_RESPONSE','IMPROVEMENT_METHOD','AI_ADDED_VALUE','FEASIBILITY_CONDITIONS']},
- {id:'outcome',title:'4. 우려·효과·별도 대안',fields:['RISK_AND_CONCERN','EFFECT_AND_MEASUREMENT','ALTERNATIVE_PROPOSAL','PRIORITY_REASON']}
+for(const r of departments){for(const t of r.topics)t.reading=reading.build(t);r.reading=reading.department(r);}
+const presentation={title:'처별 병목 검토와 AX 확대 의견',lead:'담당 처의 검토 목적과 핵심과제를 먼저 확인하고, 문제의 근거·해결방법·효과 검증을 읽은 뒤 실제 업무에 맞는 의견을 작성하는 2027년 조사 준비안.',topicNavigation:[['purpose','무엇을 해결하는가'],['technology','어떻게 해결하는가'],['effects','어떻게 확인하는가']],navigation:[['survey-intro','프로젝트·NOA 설명'],['survey-departments','내 처의 병목·질문'],['survey-additional','별도 의견'],['survey-resources','최신 설문지']],questionGroups:[
+ {id:'judgment',title:'업무·병목 확인',fields:['SCOPE_MATCH','CURRENT_STATE','BOTTLENECK_VALIDITY']},
+ {id:'evidence',title:'판단 근거',fields:['VALIDITY_REASON','EVIDENCE_BASIS','ACTUAL_CASE','COUNTER_EVIDENCE']},
+ {id:'method',title:'개선 방법',fields:['EXISTING_RESPONSE','IMPROVEMENT_METHOD','AI_ADDED_VALUE','FEASIBILITY_CONDITIONS']},
+ {id:'outcome',title:'효과·추가 의견',fields:['RISK_AND_CONCERN','EFFECT_AND_MEASUREMENT','ALTERNATIVE_PROPOSAL','PRIORITY_REASON']}
  ],previewNote:'문항과 빈 양식을 확인하는 화면. 이 홈페이지에서 실제 응답을 저장하거나 제출하지 않음.',selectionNote:'본인 처를 선택하면 해당 병목과 질문만 표시. 다른 처는 선택을 바꾸어 확인. 처를 선택하지 않아도 별도 의견 문항 열람 가능.',scopeNote:'51처는 조사 준비 범위. 기존 43개 기획 가설의 정합성·타당성을 검토하며, 병목이 미매핑된 12처는 실제 업무와 문제 유무부터 확인. 확정 사업 수가 아님.',resourcesNote:'선택한 처의 최신 상세 설명·질문과 빈 회신 양식. 이전 계획서·구버전·도구 정의 자료를 현재 화면과 섞지 않음.',groupsNote:'아래 질문을 병목 설명과 함께 검토. 담당 아님·이미 해결됨·판단자료 부족·AI 추가 적용 불필요도 유효한 의견.'};
 const branchRules=[
  ['담당 아님·불일치','다른 소관·수정 의견은 선택 작성. 상세 사례·효과·구현 질문은 건너뛰고 추가 의견 유지.'],
