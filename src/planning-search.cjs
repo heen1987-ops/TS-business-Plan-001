@@ -1,5 +1,6 @@
 const hub=require('./planning-hub.cjs'),isp=require('./isp-review.cjs'),imp=require('./implementation-review.cjs');
 const base='research-library.html?view=planning';
+const interview=require('./interview-plan.cjs');
 const entry=(id,title,anchor,keywords=[])=>({id:'planning-search-'+id,title,route:base+'#'+anchor,type:'planning',breadcrumb:['2027 사업기획','최신 기획 검토'],keywords});
 module.exports=[
  entry('isp','2027년 ISP 준비·환경·현황 검토','isp-start',['ISP','현황','문제','대안','보안','윤리','통제']),
@@ -10,5 +11,7 @@ module.exports=[
  ...isp.controls.map(c=>entry(c.id,c.id+' · '+c.category+' 통제 · '+c.title,'isp-control-'+c.id,[c.control,c.test,c.owner])),
  ...hub.projects.map(p=>({...entry(p.id,p.id+' · '+p.department+' · '+p.title,'implementation-mapping-'+p.id,[hub.projectSearchText(p),...p.rfpCandidates]),organization:p.code})),
  ...imp.metrics.map(m=>entry(m.id,m.id+' · 측정방법 · '+m.name,'implementation-metrics',[m.formula,m.method,m.boundary])),
- ...imp.questions.map(q=>entry(q.id,q.id+' · 현업 확인 · '+q.question,'implementation-feedback',[q.owner,q.evidence,'질문서','피드백']))
+ ...imp.questions.map(q=>entry(q.id,q.id+' · 현업 확인 · '+q.question,'implementation-feedback',[q.owner,q.evidence,'질문서','피드백'])),
+ entry('interview-master','51처 인터뷰지 세분화 계획·공통 질문·전문 보충','implementation-interview-plan',['인터뷰','설문','질문지','수요조사','회신','사건카드','처별 준비','공통12','기술 보충','2027']),
+ ...interview.departments.map(r=>({...entry('interview-'+r.id,r.name+' · 처별 인터뷰 준비·질문지',r.anchor,[r.mode,r.parent,...r.roles,...r.topics.flatMap(t=>[t.id,t.decision,...t.questions.map(q=>q.question)]),'인터뷰','질문지','서베이','현업']),organization:r.id}))
 ];

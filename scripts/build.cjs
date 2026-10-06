@@ -9,6 +9,7 @@ require('./export-cost-review.cjs')(path.join(out,'downloads'));
 require('./export-planning-2027.cjs')(path.join(out,'downloads'));
 require('./export-drt-assurance.cjs')(path.join(out,'downloads'));
 require('./export-senior-assessment.cjs')(path.join(out,'downloads'));
+require('./export-interview-plan.cjs')(path.join(out,'downloads'));
 require('./export-skill-pms.cjs')(path.join(out,'downloads'));
 require('./export-proposal-links.cjs')(path.join(out,'downloads'));
 require('./export-association-research.cjs')(path.join(out,'downloads'));
