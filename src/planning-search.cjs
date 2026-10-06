@@ -15,6 +15,6 @@ module.exports=[
  ...imp.questions.map(q=>entry(q.id,q.id+' · 현업 확인 · '+q.question,'implementation-feedback',[q.owner,q.evidence,'질문서','피드백'])),
  entry('interview-master','51처 인터뷰지 세분화 계획·공통 질문·전문 보충','implementation-interview-plan',['인터뷰','설문','질문지','수요조사','회신','사건카드','처별 준비','공통12','기술 보충','2027']),
  ...interview.departments.map(r=>({...entry('interview-'+r.id,r.name+' · 처별 인터뷰 준비·질문지',r.anchor,[r.mode,r.parent,...r.roles,...r.topics.flatMap(t=>[t.id,t.decision,...t.questions.map(q=>q.question)]),'인터뷰','질문지','서베이','현업']),organization:r.id})),
- entry('survey-master','NOA·현재 프로젝트 설명과 처별 병목 검토·추가 의견 설문 v0.2','implementation-survey-design',['설문','리서치베이','ResearchBay','NOA','정합성','타당성','현업 불편','대국민서비스','추가 의견']),
- ...survey.departments.map(r=>({...entry('survey-'+r.id,r.name+' · 병목 정합성·타당성·AX 확대 의견 설문 v0.2',r.anchor,[r.mode,r.parent,...r.topics.flatMap(t=>[t.id,t.title,t.gap||'업무 발견',t.how||'현행 확인']),'설문','NOA','추가 의견','대국민서비스','서두 설명']),organization:r.id}))
+ {...entry('survey-master','NOA·현재 프로젝트 설명과 처별 병목 검토·추가 의견 설문 v0.2','implementation-survey-design',['설문','리서치베이','ResearchBay','NOA','정합성','타당성','현업 불편','대국민서비스','추가 의견']),route:'research-library.html?view=survey#implementation-survey-design'},
+ ...survey.departments.map(r=>({...entry('survey-'+r.id,r.name+' · 병목 정합성·타당성·AX 확대 의견 설문 v0.2',r.anchor,[r.mode,r.parent,...r.topics.flatMap(t=>[t.id,t.title,t.gap||'업무 발견',t.how||'현행 확인']),'설문','NOA','추가 의견','대국민서비스','서두 설명']),route:'research-library.html?view=survey#'+r.anchor,organization:r.id}))
 ];

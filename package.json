@@ -35,7 +35,8 @@
     "check:planning-hub-browser": "node scripts/check-planning-hub-browser.cjs",
     "check:feedback-browser": "node scripts/check-feedback-review-browser.cjs",
     "check:interview-browser": "node scripts/check-interview-plan-browser.cjs",
-    "check:survey-browser": "node scripts/check-survey-design-browser.cjs"
+    "check:survey-browser": "node scripts/check-survey-design-browser.cjs",
+    "check:survey-ux-browser": "node scripts/check-survey-ux-browser.cjs"
   },
   "dependencies": {
     "react": "19.2.0",

@@ -36,7 +36,7 @@ else if(['organization.html','16_조직도_수행업무_분석.html'].includes(p
 else if(path==='drt-assurance.html'){content=<DrtAssurance route={route}/>;title='택시조합 전화 접수·배차·운영계획'}
 else if(path==='associations.html'){content=<Associations key={route}/>;title='협회·민원 조사와 미제공 기능 재검토'}
 else if(path==='skill-pms.html'){content=<SkillPms key={route}/>;title='기구축 AI 플랫폼 확장형 스킬 PMS'}
-else if(path==='research-library.html'){content=<ResearchLibrary key={path+location.search}/>;title=new URL(route,'https://local/').searchParams.get('view')==='planning'?planning2027.title:'조사자료실'}
+else if(path==='research-library.html'){content=<ResearchLibrary key={path+location.search}/>;title=new URL(route,'https://local/').searchParams.get('view')==='survey'?'처별 병목 검토와 AX 확대 의견':new URL(route,'https://local/').searchParams.get('view')==='planning'?planning2027.title:'조사자료실'}
 else if(path==='planning-documents.html'){content=<PlanningDocuments key={route+'-'+navigationEpoch}/>;title='처별 한글 계획서·대가산정·도식집'}
 else if(path==='proposal-links.html'){content=<ProposalLinks key={route}/>;title='조직·법정업무·협회 상세제안'}
 else if(path==='registry.html'){content=<Registry key={route}/>;title='자료 등록 원장'}

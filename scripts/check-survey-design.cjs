@@ -4,6 +4,9 @@ const fields=[...d.profile,...d.topicFields,...d.general,...d.discovery],topics=
 check('기존 v0.1 보존',i.version==='v0.1'&&i.counts.topics===55);check('설문 v0.2',d.version==='v0.2');
 check('51처·43가설·12발견·55주제',d.departments.length===51&&topics.filter(t=>!t.discovery).length===43&&topics.filter(t=>t.discovery).length===12&&topics.length===55);
 check('26개 필드 정의·고유ID',fields.length===26&&new Set(fields.map(f=>f.id)).size===26);
+check('15질문 4묶음 중복·누락 없음',d.presentation.questionGroups.length===4&&d.presentation.questionGroups.flatMap(g=>g.fields).length===15&&new Set(d.presentation.questionGroups.flatMap(g=>g.fields)).size===15&&d.topicFields.every(f=>d.presentation.questionGroups.some(g=>g.fields.includes(f.id))));
+check('응답자 4영역 안내',d.presentation.navigation.map(n=>n[0]).join('/')==='survey-intro/survey-departments/survey-additional/survey-resources');
+check('설문 검색은 별도 의견 화면 진입',search.filter(s=>s.id.startsWith('planning-search-survey-')).length===52&&search.filter(s=>s.id.startsWith('planning-search-survey-')).every(s=>s.route.startsWith('research-library.html?view=survey#')));
 check('미응답·기관판단 null',fields.every(f=>f.answer===null&&f.receivedAt===null&&f.evidenceRef===null&&f.planningDecision===null&&f.answerStatus==='UNANSWERED')&&topics.every(t=>t.response===null&&t.planningDecision===null));
 check('선택지 코드 고유',fields.every(f=>new Set(f.options.map(o=>o.code)).size===f.options.length));
 check('모든 응답 선택 작성',fields.every(f=>f.required===false));

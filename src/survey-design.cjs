@@ -54,6 +54,12 @@ const introSources=[
 ];
 const seniorCard={id:senior.id,title:senior.title,purpose:senior.purpose,gap:'현행 강화 검사와 허용 의료 기능 결과로도 중요한 확인 누락·과잉의뢰가 남는지, 추가 정보가 실제 변별력을 개선하는지 미확인. 연령·질병만으로 위험이나 부적격을 확정하는 가설은 제외.',how:'허용된 기존 기능검사·의료 결과의 대상/시점/근거 연결 → 전문가가 정한 추가 확인질문 → NOA 검토안·원문 대조 → 전문 판단과 오류/집단별 부담 비교.',inputs:['현행 기능검사 결과와 판본','허용된 의료 기능 결과·필요 최소 필드','전문 참조평가·검수 기록'],decisionBoundary:'NHIS 질병 원자료 연계는 초기 전제 아님. 별도 제공근거·추가가치 확보 전 제외. AI의 의료/자격 합불 결정 제외.',metrics:senior.metrics,sources:senior.sources,descriptionDate:senior.date};
 const departments=interview.departments.map(r=>({...r,anchor:'implementation-survey-'+r.id,mode:r.projectIds.length?'병목 가설·개선 방법 검토':'업무·추가 문제 발견',topics:r.topics.map(t=>{const p=hub.projects.find(p=>p.id===t.id)||(t.id===senior.id?seniorCard:null);return {id:t.id,title:p?.title||r.name+' 실제 업무와 문제 첫 확인',discovery:!p,status:p?'조사·기획 가설 · 현업 정합성/타당성 미확인':'병목 가설 미제시 · 분장·문제 유무 확인부터',purpose:p?.purpose||'실제 수행업무·현행 대응·추가 문제의 존재와 근거 확인',gap:p?.gap||null,how:p?.how||null,inputs:p?.inputs||[],boundary:p?.decisionBoundary||t.decision,metrics:p?.metrics||[],sources:p?.sources||r.sources,sourceDate:p?.descriptionDate||null,probeQuestions:t.questions,fieldIds:(p?topicFields:discovery).map(f=>f.id),response:null,planningDecision:null};}),downloads:[['처별 설문지 v0.2 MD',root+'/'+r.id+'/questionnaire.md'],['처별 문항·분기 정의 CSV',root+'/'+r.id+'/definition.csv'],['처별 빈 회신 CSV',root+'/'+r.id+'/response-blank.csv']]}));
+const presentation={title:'처별 병목 검토와 AX 확대 의견',lead:'현재 프로젝트와 NOA의 역할을 이해한 뒤, 내 처의 병목과 개선 방법을 검토하고 별도 의견을 정리하는 설문 안내.',navigation:[['survey-intro','프로젝트·NOA 설명'],['survey-departments','내 처의 병목·질문'],['survey-additional','별도 의견'],['survey-resources','설문지·참고자료']],questionGroups:[
+ {id:'judgment',title:'1. 업무와 병목이 맞는지 확인',fields:['SCOPE_MATCH','CURRENT_STATE','BOTTLENECK_VALIDITY']},
+ {id:'evidence',title:'2. 판단 이유와 실제 근거',fields:['VALIDITY_REASON','EVIDENCE_BASIS','ACTUAL_CASE','COUNTER_EVIDENCE']},
+ {id:'method',title:'3. 현재 대응과 개선 방법',fields:['EXISTING_RESPONSE','IMPROVEMENT_METHOD','AI_ADDED_VALUE','FEASIBILITY_CONDITIONS']},
+ {id:'outcome',title:'4. 우려·효과·별도 대안',fields:['RISK_AND_CONCERN','EFFECT_AND_MEASUREMENT','ALTERNATIVE_PROPOSAL','PRIORITY_REASON']}
+ ],previewNote:'문항과 빈 양식을 확인하는 화면. 이 홈페이지에서 실제 응답을 저장하거나 제출하지 않음.',selectionNote:'본인 처를 선택하면 해당 병목과 질문만 표시. 다른 처는 선택을 바꾸어 확인. 처를 선택하지 않아도 별도 의견 문항 열람 가능.',scopeNote:'51처는 조사 준비 범위. 기존 43개 기획 가설의 정합성·타당성을 검토하며, 병목이 미매핑된 12처는 실제 업무와 문제 유무부터 확인. 확정 사업 수가 아님.',resourcesNote:'CSV·JSON은 조사 담당자의 도구 설정용 자료. 응답자는 선택한 처의 설문지와 빈 회신 양식을 우선 사용.',groupsNote:'아래 질문을 병목 설명과 함께 검토. 담당 아님·이미 해결됨·판단자료 부족·AI 추가 적용 불필요도 유효한 의견.'};
 const branchRules=[
  ['담당 아님·불일치','다른 소관·수정 의견은 선택 작성. 상세 사례·효과·구현 질문은 건너뛰고 추가 의견 유지.'],
  ['자료 부족·직접 경험 없음','필요한 자료·확인 역할은 선택 작성. 타당/비타당·문제 없음으로 자동 변환하지 않음.'],
@@ -63,7 +69,7 @@ const branchRules=[
  ['미매핑 12처','정합성·타당성 동의 질문을 제시하지 않음. 실제 업무·현재 대응·문제 발견 3문항 적용.'],
  ['모든 경우','별도 현업 불편·대국민서비스·누락 문제·AX 확대/제외 의견은 선택 작성 가능. 빈 값은 UNANSWERED 보존.']
 ];
-module.exports={date,version,title:'설명부터 병목 검토·추가 의견까지 · 처별 설문 설계',status:'ResearchBay 등 조사도구 전환용 초안 · 도구 등록/발송/회신 미실시',tool:'사용자가 언급한 리서치베이 양식을 염두에 둔 도구 중립 정의서. 정확한 서비스·공식 가져오기 규격·보관/권한 설정은 미검증. CSV를 실제 도구에 자동 등록했다고 주장하지 않음.',intro,products,introSources,profile,topicFields,general,discovery,departments,branchRules,
+module.exports={date,version,presentation,title:'설명부터 병목 검토·추가 의견까지 · 처별 설문 설계',status:'ResearchBay 등 조사도구 전환용 초안 · 도구 등록/발송/회신 미실시',tool:'사용자가 언급한 리서치베이 양식을 염두에 둔 도구 중립 정의서. 정확한 서비스·공식 가져오기 규격·보관/권한 설정은 미검증. CSV를 실제 도구에 자동 등록했다고 주장하지 않음.',intro,products,introSources,profile,topicFields,general,discovery,departments,branchRules,
  responseStates:['UNANSWERED','ANSWERED','NOT_APPLICABLE','OTHER_OWNER','UNKNOWN','NO_PROBLEM_OBSERVED','RESOLVED','OBSERVED'],
  exclusivity:[{field:'EVIDENCE_BASIS',codes:['NONE']},{field:'IMPROVEMENT_METHOD',codes:['NO_NEED','UNKNOWN']}],
  flow:['현재 프로젝트·NOA/CCK·AX 확대 설명','담당 처·응답 역할·현재 사용 확인','조사된 병목의 정합성·현재 상태·타당성 검토','기존 대응·반대 근거·해결 방법·실행조건 의견','별도 현업 불편·대국민서비스·누락 문제·확대 의견'],
