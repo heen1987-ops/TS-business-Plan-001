@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link,Out} from './core.jsx';
+import {Link,Out,href} from './core.jsx';
 import {DepartmentDownloadLinks} from './DocumentLinks.jsx';
 import d from './isp-review.cjs';
 import './isp-review.css';
@@ -7,7 +7,7 @@ function Fields({rows}){return <dl className="isp-fields">{rows.map(([k,v])=><di
 function Table({title,headers,rows}){return <div className="isp-table" role="region" aria-label={title} tabIndex={0}><small>좁은 화면에서는 표를 좌우로 이동하여 전체 항목 확인</small><table><caption>{title}</caption><thead><tr>{headers.map(h=><th key={h} scope="col">{h}</th>)}</tr></thead><tbody>{rows.map((r,i)=><tr key={i}>{r.map((v,j)=>j===0?<th key={j} scope="row">{v}</th>:<td key={j}>{v}</td>)}</tr>)}</tbody></table></div>}
 function Refs({ids}){return <span className="isp-refs">{ids.map(id=><a key={id} href={'#isp-source-'+id} aria-label={id+' 근거와 적용 한계 확인'}>{id}</a>)}</span>}
 function Chapter({id,title,children}){return <section id={id} className="isp-chapter" tabIndex={-1}><h3>{title}</h3>{children}</section>}
-export function IspReview(){return <section className="isp-review" id="isp-review" tabIndex={-1} data-isp-review={d.date}>
+export function IspReview({embedded=false}){return <section className="isp-review" id="isp-review" tabIndex={-1} data-isp-review={d.date}>
  <header className="isp-hero"><small>{d.date} · {d.version} · 2027년 사업기획</small><h2>{d.title}</h2><p>{d.lead}</p><p className="isp-note">{d.status}</p><div className="isp-summary"><span><strong>5단계</strong>ISP 공식 구성</span><span><strong>39처 · 42항목</strong>기존 기획 조사 후보</span><span><strong>22개</strong>보안·개인정보·윤리 통제안</span><span><strong>미확정</strong>현업·수행가격·운영 수락</span></div></header>
  <nav className="isp-toc" aria-label="ISP 준비본 목차">{d.navigation.map(([id,title])=><a key={id} href={'#'+id}>{title}</a>)}<a href="#isp-sources">출처·9개 다운로드</a></nav>
  <Chapter id="isp-start" title={d.sections[0][1]}>
@@ -45,7 +45,7 @@ export function IspReview(){return <section className="isp-review" id="isp-revie
   <div className="isp-departments">{d.departments.map(unit=><section className="isp-department" key={unit.code} id={'isp-dept-'+unit.code} data-isp-department={unit.code} tabIndex={-1}><header><small>{unit.code} · {unit.status}</small><h5>{unit.name}</h5></header>{d.mappings.filter(m=>m.code===unit.code).map(m=><div className="isp-mapping" key={m.id} data-isp-mapping={m.id}><h6>{m.id} · {m.title}</h6><p><strong>{m.bundle} 묶음 후보</strong> · {m.status}</p><p>기존 요구 후보: {m.rfpCandidates.join(' · ')}</p><p className="isp-mapped-controls">검토 통제: {m.controls.map(id=><a key={id} href={'#isp-control-'+id}>{id}</a>)}</p><small>{m.readiness} · 후속 보안·윤리 요구 ID: ISP-통제ID</small></div>)}<DepartmentDownloadLinks code={unit.code}/></section>)}</div>
   <h4>공공 RFP로 전환하는 요구사항 추적 구조</h4><p>정책·법령과 문제 → 실제 사례·원인·현재 대응 → 대안·목표 → 업무·데이터·시스템·기술/보안 모델 → 요구 ID → 납품·수락시험 → WBS/기능량·비용 → 발주·검토·운영 인수. CCK 구현 타당성을 검토하되 공개 RFP는 업무 목적·기능·성능·연계·안전·권리·검사 기준으로 작성.</p><p>아래 22개 요구와 기존 13개 묶음 요구는 미확정 후보. 같은 계약의 동일 납품을 다시 산정하지 않으며, 사업별 과업심의·영향평가·보안성 검토 경로는 실제 재원·범위·내규로 확인.</p>
   <Table title="보안·개인정보·윤리 후속 RFP 후보와 인수 기준" headers={['요구ID·통제','납품 증빙','인수시험','현재 상태']} rows={d.followupRfp.map(r=>[<a href={'#isp-control-'+r.controlId}>{r.id}</a>,r.deliverable,r.acceptance,r.status])}/>
-  <p className="isp-note">{d.notices.decision}</p><p className="isp-links"><a href="#cost-bundles">기존 공공 RFP 기반 묶음 검토</a><a href="#cost-pricing">기존 대가·비목 대조</a><a href="#implementation-review">이전 실행 가능성 조사</a></p>
+  <p className="isp-note">{d.notices.decision}</p><p className="isp-links"><a href="#cost-bundles">기존 공공 RFP 기반 묶음 검토</a><a href="#cost-pricing">기존 대가·비목 대조</a><a href={embedded?href('research-library.html?view=planning#implementation-review'):'#implementation-review'}>이전 실행 가능성 조사</a></p>
  </Chapter>
  <Chapter id="isp-sources" title={d.sections[4][1]}>
   <h4>처별 원본과 분리해 누적한 ISP v0.1 준비본</h4><p>온라인에서 직접 내려받는 MD 4종·CSV 4종·JSON 1종. 사례카드는 빈 양식, 질문서는 미발송·미회신. PC 경로를 사용하지 않는 배포 파일.</p><ul className="isp-downloads">{d.downloads.map(([title,to])=><li key={to}><Link to={to}>{title}</Link></li>)}</ul>
