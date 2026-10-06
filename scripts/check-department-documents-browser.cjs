@@ -1,3 +1,4 @@
+const publication=require('../src/document-publication.cjs');
 const assert=require('node:assert/strict'),fs=require('node:fs'),crypto=require('node:crypto'),{chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
 const manifest=require('../src/department-documents.json');
 const base=process.env.SITE_BASE||'http://127.0.0.1:8770/TS-business-Plan-001/';
@@ -9,11 +10,11 @@ function atDocumentAnchor(){const target=document.querySelector('#documents-EX26
  check(await page.locator('[data-native-department]').count()===39,'통합 목록 39처');check(await page.locator('.native-download').count()===117,'개별 다운로드 117개');
  check(await page.locator('.doc-tree a[aria-current=page]').count()===1,'자료실 선택 위치');check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'데스크톱 가로 이탈 없음');
  await page.screenshot({path:'qa-output/department-documents-desktop.png'});
- await page.getByLabel('처명·코드·사업명 검색').fill('EX11');check(await page.locator('[data-native-department]').count()===1,'코드 검색 1처');check((await page.locator('[data-native-department]').innerText()).includes('재정회계처'),'정확한 처 검색');
- await page.getByLabel('처명·코드·사업명 검색').fill('zz-no-department');check(await page.locator('[data-native-department]').count()===0,'빈 검색 결과');check(await page.locator('.native-empty').isVisible(),'빈 상태 안내');await page.getByRole('button',{name:'검색 초기화',exact:true}).click();check(await page.locator('[data-native-department]').count()===39,'검색 초기화');
+ await page.getByLabel('처명·코드·사업번호·문제 검색').fill('EX11');check(await page.locator('[data-native-department]').count()===1,'코드 검색 1처');check((await page.locator('[data-native-department]').innerText()).includes('재정회계처'),'정확한 처 검색');
+ await page.getByLabel('처명·코드·사업번호·문제 검색').fill('zz-no-department');check(await page.locator('[data-native-department]').count()===0,'빈 검색 결과');check(await page.locator('.native-empty').isVisible(),'빈 상태 안내');await page.getByRole('button',{name:'검색 초기화',exact:true}).click();check(await page.locator('[data-native-department]').count()===39,'검색 초기화');
  for(const d of manifest.departments){
   await page.goto(base+d.proposalRoute);const block=page.locator('[data-native-department="'+d.code+'"]');await block.waitFor();check(await block.locator('.native-download').count()===3,'처별 다운로드 3종 '+d.code);
-  for(const f of d.documents){const a=block.locator('[data-native-kind="'+f.kind+'"]');check((await a.getAttribute('href'))===new URL(f.path,base).href,'정확한 링크 '+d.code+'/'+f.kind);check((await a.getAttribute('download'))===f.downloadName,'한글 다운로드 파일명 '+d.code+'/'+f.kind)}
+  for(const f of d.documents){const a=block.locator('[data-native-kind="'+f.kind+'"]');check((await a.getAttribute('href'))===new URL(publication.downloadPath(f),base).href,'정확한 링크 '+d.code+'/'+f.kind);check((await a.getAttribute('download'))===f.downloadName,'한글 다운로드 파일명 '+d.code+'/'+f.kind)}
  }
  for(const pair of [['rail-license','EX22'],['rail-type','EX23']]){await page.goto(base+'proposal-links.html?unit='+pair[0]);await page.locator('[data-native-department="'+pair[1]+'"]').waitFor();check(await page.locator('.native-download').count()===3,'공유처 카드 연결 '+pair[0])}
  await page.goto(base+'proposal-links.html?unit=katri-ncap');await page.locator('[data-native-department="EX26"]').waitFor();await page.getByRole('link',{name:'전체 처별 다운로드 목록 ↗'}).click();

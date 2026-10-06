@@ -1,5 +1,6 @@
 import mandates from './law-mapping.cjs';
 import supplement from './proposal-links.cjs';
+import publication from './document-publication.cjs';
 import React,{useEffect,useRef,createContext,useContext}from'react';import{ArrowUpRight,X,ShieldCheck,CarFront,BusFront,Network,Activity,Building2,TrainFront,Plane}from'lucide-react';import data from'./data.json';
 export const{departments:depts,legal}=data;export const base=window.__TS_BASE__;
 export const href=p=>new URL(p,base).href;
@@ -11,7 +12,7 @@ const direct=['skill-pms.html','research-library.html','planning-documents.html'
 export function isReact(to){return direct.includes(to.split(/[?#]/)[0])||/^legal\/[^/]+\.html/.test(to)||/^처별\/[^/]+\/0[123]_/.test(to)}
 export function navigate(to){if(location.protocol==='file:'||!isReact(to)){location.assign(href(to));return}history.pushState({},'',href(to));window.dispatchEvent(new PopStateEvent('popstate'));}
 export const ReadingLinkContext=createContext(null);
-export function Link({to,children,className='',onClick,...props}){const resolve=useContext(ReadingLinkContext),target=resolve&&!props.download?resolve(to):to;return <a href={href(target)} className={className} onClick={e=>{onClick?.(e);if(!e.defaultPrevented&&!e.ctrlKey&&!e.metaKey&&!e.shiftKey&&!e.altKey&&e.button===0&&isReact(target)&&!props.download){e.preventDefault();navigate(target)}}} {...props}>{children}</a>}
+export function Link({to,children,className='',onClick,...props}){const resolve=useContext(ReadingLinkContext),target=publication.resolveDownload(resolve&&!props.download?resolve(to):to);return <a href={href(target)} className={className} onClick={e=>{onClick?.(e);if(!e.defaultPrevented&&!e.ctrlKey&&!e.metaKey&&!e.shiftKey&&!e.altKey&&e.button===0&&isReact(target)&&!props.download){e.preventDefault();navigate(target)}}} {...props}>{children}</a>}
 export function Out({url,children}){return <a href={url} target="_blank" rel="noopener noreferrer" className="external">{children}<ArrowUpRight size={15}/></a>}
 export function Icon({index=0,...props}){const C=[ShieldCheck,CarFront,BusFront,Network,Activity,Building2,TrainFront,Plane][index];return <C {...props}/>}
 export function Modal({open,onClose,title,children,wide=false}){const ref=useRef();useEffect(()=>{const el=ref.current;if(open){el.showModal();document.body.style.overflow='hidden'}else if(el.open)el.close();return()=>{document.body.style.overflow=''}},[open]);return <dialog ref={ref} className={'modal '+(wide?'wide':'')} onCancel={e=>{e.preventDefault();onClose()}} onClick={e=>{if(e.target===ref.current)onClose()}} aria-label={title}><div className="modal-inner"><header className="modal-header"><h2>{title}</h2><button onClick={onClose} className="icon-button" aria-label="닫기"><X/></button></header>{children}</div></dialog>}

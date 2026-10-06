@@ -5,6 +5,7 @@ function render(){
   `- 대상: ${publication.departments}개 처 · ${publication.count}개 파일`,
   '- 작성 상태: 기관 협의용 초안',
   '- '+publication.versionNote,
+  '- '+publication.compatibilityNote,
   `- [홈페이지에서 처명 검색](${publication.pages+publication.catalogue})`,
   `- [실제 파일 폴더](${publication.repositoryFiles})`,'',
   '각 파일 링크는 GitHub 원본 다운로드. 처명 링크는 공개 홈페이지의 해당 처 문서 상세(판본·용량·SHA-256·그림 수)로 이동.','',
@@ -13,7 +14,7 @@ function render(){
  for(const d of manifest.departments)lines.push(`| ${d.code} | [${d.name}](${publication.pages+publication.catalogue}#documents-${d.code}) | `+d.documents.map(f=>`[${f.version.replace('_r01','')} HWPX 다운로드](${publication.rawUrl(f)})`).join(' | ')+' |');
  lines.push('','## 이전 계획서 보존','','개정 전 내용을 확인할 때만 사용. 현재 범위·측정방법은 위의 v0.5 계획서 참조.','');
  for(const d of manifest.departments)for(const f of d.history||[])lines.push(`- ${d.name}: [${f.version} HWPX](${publication.rawUrl(f)})`);
- lines.push('','## 게시·검증 기준','','- 정본 목록: `src/department-documents.json`','- 실제 파일: `public/downloads/departments/`','- GitHub Actions에서 검증한 동일 파일을 GitHub Pages로 배포','- 빌드 시 파일 누락·바이트·SHA-256·HWPX 구조·그림 수·개인 PC 경로 검사','- 웹 검토서 갱신과 한글 본문 개정은 별도 관리. 한글파일 버전·작성일을 확인한 뒤 활용','');
+ lines.push('','## 게시·검증 기준','','- 정본 목록: `src/department-documents.json`','- 실제 파일: `public/downloads/departments/`','- GitHub Actions에서 검증한 동일 파일을 GitHub Pages로 배포','- 빌드 시 파일 누락·바이트·SHA-256·ZIP CRC·HWPX 구조·그림 수·개인 PC 경로 검사','- 한글 일반 열기·본문 대조 결과: `src/hwpx-compatibility-20261006.json`','- [한글 호환 복구 내용과 검증 범위](HWPX_COMPATIBILITY_20261006.md)','- 웹 검토서 갱신과 한글 본문 개정은 별도 관리. 한글파일 버전·작성일을 확인한 뒤 활용','');
  return lines.join('\n');
 }
 module.exports=render;

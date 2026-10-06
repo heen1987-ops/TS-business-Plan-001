@@ -1,6 +1,7 @@
 const fs=require('node:fs'),path=require('node:path'),zlib=require('node:zlib'),crypto=require('node:crypto'),assert=require('node:assert/strict');
 const manifest=require('../src/department-documents.json'),site=require('../src/data.json'),profiles=require('../src/proposal-links.cjs'),nav=require('../src/navigation.cjs');
 const publication=require('../src/document-publication.cjs'),{execFileSync}=require('node:child_process');
+const integrity=require('./hwpx-integrity.cjs'),compatibility=require('../src/hwpx-compatibility-20261006.json');
 const tracked=new Set(execFileSync('git',['ls-files','--','public/downloads/departments'],{encoding:'utf8'}).trim().split(/\r?\n/));
 let checks=0;const check=(value,message)=>{assert(value,message);checks++};
 function archive(buffer){
@@ -10,8 +11,9 @@ function archive(buffer){
  for(let i=0;i<n;i++){
   check(buffer.readUInt32LE(p)===0x02014b50,'ZIP 중앙 디렉터리');const flags=buffer.readUInt16LE(p+8),method=buffer.readUInt16LE(p+10),size=buffer.readUInt32LE(p+20),rawSize=buffer.readUInt32LE(p+24),nl=buffer.readUInt16LE(p+28),el=buffer.readUInt16LE(p+30),cl=buffer.readUInt16LE(p+32),offset=buffer.readUInt32LE(p+42),name=buffer.subarray(p+46,p+46+nl).toString('utf8');
   check(!(flags&1)&&[0,8].includes(method),'암호화 없는 HWPX ZIP');check(!name.includes('..')&&!name.startsWith('/'),'압축 경로 안전');check(!files.has(name),'ZIP 중복 항목 없음');
+  const crc=buffer.readUInt32LE(p+16);
   check(buffer.readUInt32LE(offset)===0x04034b50,'ZIP 로컬 헤더');const start=offset+30+buffer.readUInt16LE(offset+26)+buffer.readUInt16LE(offset+28);check(start+size<=buffer.length,'ZIP 데이터 경계');
-  files.set(name,()=>{const data=buffer.subarray(start,start+size),raw=method===8?zlib.inflateRawSync(data):data;check(raw.length===rawSize,'ZIP 해제 길이 일치');return raw});p+=46+nl+el+cl;
+  files.set(name,()=>{const data=buffer.subarray(start,start+size),raw=method===8?zlib.inflateRawSync(data):data;integrity.verifyPayload(raw,rawSize,crc);checks+=2;return raw});p+=46+nl+el+cl;
  }
  return files;
 }
@@ -19,6 +21,15 @@ const local=/(?<![A-Za-z0-9])[A-Za-z]:[\\/]|file:\/\/\/|OneDrive[\\/]/i;
 const secrets=/-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----|gh[pousr]_[A-Za-z0-9]{30,}|(?:sk-proj-|sk-live-)[A-Za-z0-9_-]{20,}/;
 check(manifest.departments.length===39,'공개 대상 39처');check(new Set(manifest.departments.map(d=>d.code)).size===39,'처 코드 중복 없음');
 check(manifest.departments.reduce((n,d)=>n+d.documents.length,0)===117,'한글 117개');
+check(compatibility.openOptions==='lock:false'&&compatibility.forceOpen===false&&compatibility.securitySettingsChanged===false&&compatibility.documentSecurityWarnings===0,'경고·강제 열기·보안 설정 변경 없는 실제 검사');
+check(compatibility.files.length===156&&new Set(compatibility.files.map(f=>f.publicPath)).size===156,'156개 고유 일반 열기 기록');
+check(manifest.compatibility.verifiedFiles===156&&manifest.compatibility.repairedPlans===78,'호환 복구와 검사 대상 수');
+const nativeByPath=new Map(compatibility.files.map(f=>[f.publicPath,f]));
+// 손상된 배치 캐시와 CRC 변경이 회귀할 때 실패해야 함.
+assert.throws(()=>integrity.verifyPlanLayout('<hp:p><hp:run><hp:t>짧은 본문</hp:t></hp:run><hp:linesegarray><hp:lineseg textpos="88"/></hp:linesegarray></hp:p>'));
+assert.throws(()=>integrity.verifyPayload(Buffer.from('changed'),7,integrity.crc32(Buffer.from('original'))));
+check(integrity.crc32(Buffer.from('123456789'))===0xcbf43926,'CRC-32 표준 검증 벡터');
+check(publication.resolveDownload('about.html#section-strategy')==='about.html#section-strategy','문서 외 탐색 경로 보존');
 const paths=[];let bytes=0,redactions=0,parts=0;
 for(const d of manifest.departments){
  check(d.name&&d.proposalRoute,'처별 이름·제안 링크');check(fs.existsSync(path.join('dist',d.proposalRoute.split(/[?#]/)[0])),'처별 제안 경로 '+d.code);
@@ -29,14 +40,17 @@ for(const d of manifest.departments){
  check(d.history?.length===1&&d.history[0].kind==='plan'&&d.history[0].version==='v0.4_r01','이전 계획서 보존 '+d.code);
  for(const f of [...d.documents,...d.history]){
   check(tracked.has('public/'+f.path),'Git에 포함된 한글파일 '+f.path);
-  check(publication.fileUrl(f)==='https://heen1987-ops.github.io/TS-business-Plan-001/'+f.path,'공개 Pages 파일 경로');
+  check(publication.fileUrl(f)==='https://heen1987-ops.github.io/TS-business-Plan-001/'+f.path+'?v='+f.sha256.slice(0,12),'공개 Pages 파일 경로·판본 캐시 분리');
+  check(publication.resolveDownload(f.path)===publication.downloadPath(f),'모든 한글 링크의 판본 해시 적용');
   check(publication.sourceUrl(f)==='https://github.com/heen1987-ops/TS-business-Plan-001/blob/main/public/'+f.path,'GitHub 실제 파일 경로');
-  check(publication.rawUrl(f)==='https://github.com/heen1987-ops/TS-business-Plan-001/raw/refs/heads/main/public/'+f.path,'GitHub 직접 다운로드 경로');
+  check(publication.rawUrl(f)==='https://github.com/heen1987-ops/TS-business-Plan-001/raw/refs/heads/main/public/'+f.path+'?v='+f.sha256.slice(0,12),'GitHub 직접 다운로드 경로·판본 캐시 분리');
   check(f.path.startsWith('downloads/departments/'+d.code+'/')&&!f.path.includes('..'),'다운로드 경로 '+d.code);paths.push(f.path);check(f.path.endsWith('.hwpx')&&f.nativeFormat==='HWPX','한글 형식');
   check(f.version===(d.history.includes(f)?'v0.4_r01':f.kind==='plan'?'v0.5_r01':'v0.3_r01'),'판본 정직한 구분 '+d.code);
   check(f.status.includes(f.kind==='plan'?'초안':'참조본'),'문서 상태 표기');check(f.kind==='plan'||f.status.includes('미확정')||f.status.includes('최신 기술 상세'),'v0.3 범위 한계');
   const source=fs.readFileSync(path.join('public',f.path)),deployed=fs.readFileSync(path.join('dist',f.path));check(source.equals(deployed),'빌드에서 원문 바이트 보존');
   check(source.length===f.bytes,'다운로드 크기');check(crypto.createHash('sha256').update(source).digest('hex')===f.sha256,'게시본 SHA '+d.code+'/'+f.kind);check(f.bytes<100*1024*1024,'일반 Git 단일파일 한도');
+  const native=nativeByPath.get(f.path);check(native?.sha256===f.sha256&&native.code===d.code&&native.kind===f.kind&&native.version===f.version,'실제로 열린 게시본의 판본·해시 일치');
+  check(native.opened&&native.bodyRead&&native.paragraphsVerified&&native.paragraphCount>0&&native.pages>0,'한글 일반 열기·본문 문단 대조 성공');
   const files=archive(source);check(files.get('mimetype')?.().toString()==='application/hwp+zip','HWPX MIME');check(files.has('Contents/section0.xml')&&files.has('Contents/content.hpf'),'한글 본문·패키지');
   const body=files.get('Contents/section0.xml')().toString('utf8');check(body.includes(d.name),'본문 처명');check(body.includes(f.version.split('_')[0]),'본문 버전');
   if(f.version==='v0.5_r01'){
@@ -45,8 +59,14 @@ for(const d of manifest.departments){
    if(d.code==='MR')check(body.includes(require('../src/analysis-review.cjs').drt.purpose),'DRT 독립 사업 식별 매핑');
   }
   if(f.kind==='plan')for(const project of d.projects)check(body.includes(project.title),'정보화사업계획서의 기획항목 제목 매핑 '+project.id);
+  if(f.kind==='plan'){
+   check(f.compatibilityRepair?.bodyAndImagesPreserved===true&&f.compatibilityRepair.removedLayoutCaches>0&&/^[a-f0-9]{64}$/.test(f.compatibilityRepair.beforeSha256),'복구 전 해시·내용 보존 기록');
+   for(const[name,read]of files)if(/^Contents\/section\d+\.xml$/.test(name))integrity.verifyPlanLayout(read().toString('utf8'));
+  }
   check([...files.keys()].filter(n=>n.startsWith('BinData/')).length===f.embeddedImages,'내장 그림 개수');
   for(const[name,read]of files)if(/\.(xml|hpf|txt)$/.test(name)){const text=read().toString('utf8');check(!local.test(text),'개인 경로 없음 '+d.code+'/'+name);check(!secrets.test(text),'비밀키 패턴 없음 '+d.code+'/'+name);parts++}
+  // 본문 외 이미지·미리보기·설정 항목도 CRC 검사.
+  for(const[name,read]of files)if(!/\.(xml|hpf|txt)$/.test(name))read();
   bytes+=f.bytes;redactions+=f.pathRedactions;
  }
 }
