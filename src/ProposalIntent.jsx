@@ -6,10 +6,10 @@ import {ProposalDiagramSuite} from './ProposalDiagramSuite.jsx';
 
 export function IntentDefinitions(){return <section className="intent-definitions" aria-label="목적·목표·수단의 구분"><h2>이 기획에서 구분할 세 가지</h2><div>{intent.definitions.map(d=><section key={d.id}><h3>{d.label} <small>{d.question}</small></h3><p>{d.text}</p></section>)}</div><p className="intent-context">{intent.methodology.institution}</p></section>}
 
-export function ProposalIntent({projectId,profileId}){
+export function ProposalIntent({projectId,profileId,diagrams=true,compact=false}){
  const p=projectId?intent.byId[projectId]:intent.forProfile(profileId);if(!p)return null;
  const id='proposal-intent-'+p.id;
- return <section className="proposal-intent" id={id} data-proposal-intent={p.id} aria-labelledby={id+'-title'}>
+ return <section className={"proposal-intent"+(compact?" intent-compact":"")} id={id} data-proposal-intent={p.id} aria-labelledby={id+'-title'}>
   <header><small>{p.id} · {p.reference?'보조 제안·편입 확인 전':'2027년 조사 후보'} · {intent.date}</small><h3 id={id+'-title'}>{intent.labels.title}</h3><p>{intent.methodology.status}</p>{p.reviewStatus&&<p>{p.reviewDate} 구현 검토: {p.reviewStatus} · 현재 ISP 조사 후보, 발주 미확정</p>}</header>
   <section className="intent-purpose" data-intent-role="purpose"><h4>{intent.labels.purpose}</h4><p className="intent-benefit">{p.purpose}</p><p><b>직접 수혜자</b> {p.beneficiaries}</p></section>
   <section className="intent-goals" data-intent-role="goals"><h4>{intent.labels.goals}</h4><p className="intent-completion"><b>달성할 결과 상태</b> {p.completion}</p><ol>{p.goals.map((g,i)=><li key={g.id} data-intent-goal={g.id}><span>{String(i+1).padStart(2,'0')}</span><div><h5>{g.change}</h5><p><b>판단 지표</b> {g.metric.name}</p><p className="intent-formula"><b>측정식</b> {g.metric.formula}</p>{g.metric.note&&<p className="intent-metric-condition"><b>해석 조건</b> {g.metric.note}</p>}</div></li>)}</ol><p className="intent-measure-status" data-intent-target-status>{intent.methodology.targets}</p><p className="intent-quality">{intent.methodology.quality}</p></section>
@@ -20,7 +20,7 @@ export function ProposalIntent({projectId,profileId}){
    ['원문·판본·권한 지식 기반',p.means.knowledge],
    ['사람 · 공식 판단·확정',p.means.human]
   ].map(([k,v])=><div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}</dl><p className="intent-note">{intent.methodology.capability}</p></section>
-  <ProposalDiagramSuite projectId={p.id}/>
+  {diagrams&&<ProposalDiagramSuite projectId={p.id}/>}
   <section className="intent-change" data-intent-role="change"><h4>{intent.labels.change}</h4><dl><div><dt>업무의 출발점</dt><dd>{p.change.entry}</dd></div><div><dt>담당자에게 제공할 것</dt><dd>{p.change.prepared}</dd></div></dl><p className="intent-note">{p.qualification}</p></section>
   <section className="intent-delivery" data-intent-role="deliverable"><h4>{intent.labels.deliverable}</h4><dl><div><dt>재사용 검토</dt><dd>{p.reuse}</dd></div><div><dt>추가 개발 검토</dt><dd>{p.newWork}</dd></div></dl><p className="intent-note">자료·양식·스킬·연계 모듈은 납품 산출물. 납품·문서 생성 완료와 위의 업무 결과·공공 편익 달성을 각각 확인하는 평가. 수치 목표·최종 가격·발주범위 미확정.</p></section>
  </section>;
