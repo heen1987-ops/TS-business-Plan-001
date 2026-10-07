@@ -11,6 +11,7 @@ for(const p of d.projects){const source=intent.byId[p.id];check(p.reviewStatus==
  check(p.workPackages.every(w=>w.quantity===null&&w.unitPrice===null&&w.amount===null),p.id+' 미산정≠0');
  for(const [type,to] of Object.entries(p.downloads)){check(fs.existsSync('public/'+to)&&fs.readFileSync('public/'+to).equals(fs.readFileSync('dist/'+to)),p.id+'/'+type+' Git·배포 다운로드 일치');}
  check(fs.readFileSync('public/'+p.downloads.md,'utf8').includes(p.key),p.id+' 문서 업무 단위 보존');
+ check(!/최적화을|경우 상황에서/.test(JSON.stringify(p.requirements)),p.id+' 본문 조사·중복 표현 회귀');
 }
 const ex=d.byId['EX11-01'];check(ex.completion.includes('검토안')&&!ex.completion.includes('등록'), 'ERP 초기 완료는 검토안');check(ex.measurement[1].formula.includes('대조한 검토안')&&!ex.measurement[1].formula.includes('등록'), 'ERP 초기 측정은 검토안 대조');check(ex.special.some(s=>s.stage.includes('후속 쓰기')&&s.stage.includes('제외')),'ERP 쓰기 시험은 후속 범위');
 check(d.projects.filter(p=>p.reviewStatus.includes('보류')).length===4,'4개 독립 편성 보류 보존');
