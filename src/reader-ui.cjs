@@ -1,0 +1,12 @@
+const reading=require('./integrated-reading.cjs'),ux=require('./ux-navigation.cjs');
+function context(route){const u=new URL(route,'https://reader/'),d=ux.departmentFor(route),explicit=u.searchParams.get('dept');let query=u.search;if(!explicit&&d){const q=new URLSearchParams({dept:d.code});const p=reading.rows.find(r=>r.code===d.code)?.projects.find(p=>new URL(p.to,'https://reader/').pathname===u.pathname&&new URL(p.to,'https://reader/').searchParams.get('unit')===u.searchParams.get('unit'));if(p)q.set('project',p.id);if(u.pathname==='/drt-assurance.html')q.set('project','MR-02');query='?'+q;}const selected=reading.selection(query);return{...selected,known:!!explicit||!!d||['/index.html','/react/index.html','/'].includes(u.pathname),inferred:!explicit&&!!d};}
+function at(route,anchor){const c=context(route),q=new URLSearchParams({dept:c.department.key});if(c.project)q.set('project',c.project.id);if(c.topicId)q.set('topic',c.topicId);return 'index.html?'+q+'#'+anchor;}
+function links(route){const c=context(route),q=new URLSearchParams({dept:c.department.key});if(c.project)q.set('project',c.project.id);return [
+ {id:'institution',title:'TS 이해',to:at(route,'integrated-institution')},
+ {id:'mandate',title:'법령·현행 업무',to:c.department.projects.length?'legal/mapping.html?'+q:'legal/mapping.html?mode=law'},
+ {id:'proposal',title:'처별 사업기획',to:at(route,'integrated-department')},
+ {id:'documents',title:'의견·한글 문서',to:at(route,'integrated-opinion')}
+ ];}
+function active(route){const u=new URL(route,'https://reader/'),p=u.pathname;if(p.startsWith('/legal/'))return'mandate';if(['/about.html','/vision.html','/organization.html','/legal.html'].includes(p))return'institution';if(p.includes('planning-documents')||p.includes('research-library')&&u.searchParams.get('view')==='survey')return'documents';if(p==='/index.html'||p==='/react/index.html')return /^#(?:integrated-opinion|integrated-documents|survey-topic-)/.test(u.hash)?'documents':/^#(?:integrated-department|integrated-work|section-r47|proposal-|integrated-platform|integrated-delivery)/.test(u.hash)?'proposal':'institution';return'proposal';}
+const labels={brand:'2027년 TS AX 사업기획',notice:'CCK 제안·조사 초안 · TS 공식 누리집과 구분',context:'현재 검토 대상',back:'선택 과제의 통합 본문으로',choose:'다른 처·과제 찾기',directory:'처별 제안 찾기',apply:'선택 적용',pending:'선택한 처는 적용 버튼을 누른 뒤 본문에 반영',full:'목적·근거부터 설계·효과·요구사항·문서까지 이어 읽기',directoryLead:'담당 처와 과제를 찾은 뒤, 선택한 제안을 한 본문에서 연속 검토. 최신 검토 상태와 대상 편익을 확인하는 목록.',noPlan:'계획서 미작성 · 업무·병목·자료 확인부터 시작'};
+module.exports={context,at,links,active,labels};

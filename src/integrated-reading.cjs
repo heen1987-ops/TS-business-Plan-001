@@ -45,6 +45,7 @@ function resolve(to,current){
  else if(path==='research-library.html'&&u.searchParams.get('view')==='planning'){hash=/^#(isp-|cost-)/.test(hash)?hash:hash.startsWith('#implementation-')?'#integrated-feasibility':'#integrated-planning';}
  else if(path==='index.html'||path==='react/index.html'){
   if(['map','overview','guide'].includes(u.searchParams.get('view'))||u.searchParams.has('node'))return to;
+  if(u.searchParams.has('dept'))setDept(u.searchParams.get('dept'),u.searchParams.get('project'),u.searchParams.get('topic'));
   if(hash.startsWith('#planning-project-')){const id=hash.slice('#planning-project-'.length),candidate=hub.projects.find(p=>p.id===id);if(candidate)setDept(candidate.code,id);hash='#integrated-department';}else hash=hash||'#integrated-start';
  }else return to;
  if(!params.has('dept')&&current)setDept(current.department.key,current.project?.id,current.topicId);

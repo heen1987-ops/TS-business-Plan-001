@@ -1,0 +1,13 @@
+const fs=require('node:fs'),path=require('node:path'),data=require('../src/mandate-workflows.cjs');
+module.exports=function(out){
+ fs.mkdirSync(out,{recursive:true});
+ const records={date:data.date,scope:data.scope,labels:data.labels,sources:data.sources,works:data.works,cases:data.cases,caseApplicability:data.caseApplicability,ownerSourceIdsByBinding:data.ownerSourceIdsByBinding,projectRelations:data.projectRelations,unlinked:data.unlinked.map(p=>({id:p.id,code:p.code,title:p.intent.title,department:p.intent.department})),distinctions:data.distinctions};
+ fs.writeFileSync(path.join(out,'mandate-workflows.json'),JSON.stringify(records,null,2));
+ const lines=['# TS 법령·담당·현행 업무·국내외 사례 적용안','',`조사일: ${data.date}`,'',data.labels.lead,data.labels.lawScope,data.labels.coverage,'', '## 최신 과제와 기존 법정업무의 의미 관계','', '| 과제 | 담당 | 법정업무 | 관계·적용 한계 |','|---|---|---|---|'];
+ for(const r of data.projectRelations){const p=data.forProject(r.projectId),b=data.matrix.find(b=>b.id===r.bindingId);lines.push(`| ${p.id} ${p.intent.title} | ${p.intent.department} | ${b.law.law} / ${b.task} | ${r.type} · ${r.reason} |`)}
+ lines.push('','## 개별 근거 추가 확인 과제','');for(const p of data.unlinked)lines.push(`- ${p.id} ${p.intent.department}: ${p.intent.title}${data.distinctions[p.id]?' — '+data.distinctions[p.id]:''}`);
+ lines.push('','## 국내 현행 처리방식 조사','');
+ for(const w of data.works){lines.push(`### ${w.id} ${w.title}`,'',`- 담당: ${w.owner}`,`- 확인 상태: ${w.status}`,`- 권한: ${w.authority}`,`- 업무 근거: ${w.basis}`,`- 참여자: ${w.actors}`,`- 입력: ${w.inputs}`,'','| 단계 | 처리 | 결과 |','|---|---|---|',...w.steps.map(r=>'| '+r.join(' | ')+' |'),'',`- 예외: ${w.exception}`,`- 기존 기능: ${w.existing}`,`- 현업 확인 질문: ${w.question}`,`- 추가 설계: ${w.application}`,...w.sourceIds.map(id=>{const s=data.sourceById[id];return `- 출처: [${s.title}](${s.url}) · ${s.published} · 확인 ${s.checked} / 한계: ${s.limit}`;}),'')}
+ lines.push('## 해외 운영방식의 국내 적용','');for(const c of data.cases)lines.push(`### ${c.id} ${c.country} ${c.title}`,'',`- 분류: ${c.kind}`,`- 연결 과제: ${c.projectIds.join(', ')}`,...Object.entries(data.caseApplicability[c.id]||{}).map(([id,note])=>`- 과제별 비교 범위 ${id}: ${note}`),`- 운영: ${c.operation}`,`- CCK 적용안: ${c.transfer}`,`- 선행조건: ${c.condition}`,`- 한계: ${c.limit}`,...c.sourceIds.map(id=>{const s=data.sourceById[id];return `- 출처: [${s.title}](${s.url}) · ${s.published} · 확인 ${s.checked}`;}),'');
+ lines.push('## 현업 검증·인수 원칙','',data.labels.sourceLimit,data.labels.metrics,'','같은 사건·자료·완료조건으로 현행, 일반 검색/고정 규칙, CCK 적용을 비교. 기업 대기·기관 처리·외부 회신 시간을 분리. 내부 전결·데이터 접근권한·제품 실제 기능 확인 후 추가 요구사항과 공수 산정.');fs.writeFileSync(path.join(out,'mandate-workflows.md'),lines.join('\n'));
+};

@@ -36,7 +36,7 @@ export function DepartmentDocuments({code,profileId,catalogue=false}){
 }
 
 export function PlanningDocuments(){
- const[q,setQ]=useState(new URLSearchParams(location.search).get('q')||'');const updateQuery=value=>{setQ(value);const u=new URL(location.href);value.trim()?u.searchParams.set('q',value):u.searchParams.delete('q');history.replaceState({},'',u)};const rows=manifest.departments.filter(d=>hub.matchesQuery([d.code,d.name,hub.departmentSearchText(d.code)].join(' ').toLocaleLowerCase(),q));
+ const[q,setQ]=useState(new URLSearchParams(location.search).get('q')||'');const updateQuery=value=>{setQ(value);const u=new URL(location.href);value.trim()?u.searchParams.set('q',value):u.searchParams.delete('q');history.replaceState({},'',u);dispatchEvent(new Event('ts:content-filter'))};const rows=manifest.departments.filter(d=>hub.matchesQuery([d.code,d.name,hub.departmentSearchText(d.code)].join(' ').toLocaleLowerCase(),q));
  useEffect(()=>{const id=decodeURIComponent(location.hash.slice(1));if(!/^documents-[A-Z0-9]+$/.test(id))return;let next;const first=requestAnimationFrame(()=>{next=requestAnimationFrame(()=>{const target=document.getElementById(id);if(target){target.focus({preventScroll:true});target.scrollIntoView({block:'start',behavior:'instant'})}})});return()=>{cancelAnimationFrame(first);if(next)cancelAnimationFrame(next)}},[]);
  return <div className="page planning-documents-page">
   <Heading label={'한글 공개 자료실 · '+manifest.version} title="처별 계획서·대가산정서·도식집" desc="39개 처의 현재 열람 문서 117개와 이전 계획서 39개. 최신 계획서와 참조 첨부를 구분하여 다운로드."/>
