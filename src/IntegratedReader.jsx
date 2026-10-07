@@ -16,6 +16,7 @@ import {SurveyOpinion} from './SurveyDesign.jsx';
 import {DepartmentDocuments} from './DepartmentDocuments.jsx';
 import {IntentDefinitions,ProposalIntent} from './ProposalIntent.jsx';
 import {ProposalDiagramSuite} from './ProposalDiagramSuite.jsx';
+import {ProposalEngineering} from './ProposalEngineering.jsx';
 import {DepartmentBriefing,SelectedPlatformBrief} from './DepartmentBriefing.jsx';
 import {MandateWorkContext} from './MandateWorkContext.jsx';
 import {SiteHeader} from './SiteNavigation.jsx';
@@ -52,7 +53,7 @@ export function IntegratedReader({route}){
    </section>
    {r.projects.length>1&&<section className="department-current-projects"><h2>이 처의 검토 과제</h2>{r.projects.map(x=><a key={x.id} href={href('index.html?dept='+r.key+'&project='+x.id+'#integrated-work-context')} aria-current={p?.id===x.id?'page':undefined} onClick={e=>{if(e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;e.preventDefault();choose(r.key,x.id)}}>{department?.topics.find(t=>t.id===x.id)?.reading.title||x.title}</a>)}</section>}
    <strong className="department-outline-label">선택 처의 상세 본문</strong>
-   <div className="department-local-outline">{detailsId&&[['scope','업무 범위·대상'],['basis','현행·문제·근거'],['how','기술 HOW·단계별 처리'],['completion','완료·책임·개인정보'],['metrics','기대효과·측정방법'],['conditions','환경·추가 작업'],['questions','현업 확인 질문']].map(([key,title])=><a href={'#'+detailsId+'-'+key} key={key} onClick={e=>jump(e,detailsId+'-'+key)}>{title}</a>)}{p&&<a href={'#diagram-'+p.id+'-overall'} onClick={e=>jump(e,'diagram-'+p.id+'-overall')}>아키텍처·흐름도 4종</a>}<a href="#integrated-documents" onClick={e=>jump(e,'integrated-documents')}>관련 한글 문서</a></div>
+   <div className="department-local-outline">{detailsId&&[['scope','업무 범위·대상'],['basis','현행·문제·근거'],['how','기술 HOW·단계별 처리'],['completion','완료·책임·개인정보'],['metrics','기대효과·측정방법'],['conditions','환경·추가 작업'],['questions','현업 확인 질문']].map(([key,title])=><a href={'#'+detailsId+'-'+key} key={key} onClick={e=>jump(e,detailsId+'-'+key)}>{title}</a>)}{p&&<a href={'#diagram-'+p.id+'-overall'} onClick={e=>jump(e,'diagram-'+p.id+'-overall')}>아키텍처·흐름도 4종</a>}{p&&<a href={'#engineering-'+p.id} onClick={e=>jump(e,'engineering-'+p.id)}>개발·검증·대가 설계</a>}<a href="#integrated-documents" onClick={e=>jump(e,'integrated-documents')}>관련 한글 문서</a></div>
    <strong className="department-outline-label">공통 설명·의견</strong>{reading.sections.map(s=><a key={s.id} href={'#'+s.id} aria-current={active===s.id?'location':undefined} onClick={e=>jump(e,s.id)}>{s.title}</a>)}
    <a className="integrated-top" href="#integrated-start" onClick={e=>jump(e,'integrated-start')}><ArrowUp size={14}/>선택 처 처음으로</a>
   </nav>
@@ -67,6 +68,7 @@ export function IntegratedReader({route}){
     {p?<ProposalIntent projectId={p.id} diagrams={false} compact/>:<section className="department-discovery-purpose"><h3>{r.name} · {researched?'실제 업무와 추가 검증':'우선 확인할 사항'}</h3><ul><li>{researched?researched.mission:(department?.reading.goal||r.goal)}</li><li>{researched?'공식 업무·기존 기능 확인 → 내부 처리·문제 확인 → CCK 추가 기여·편성 검증':'업무 범위·현재 대응·남은 문제의 실제 근거 확보 후 적용방향 결정'}</li></ul><p className="integrated-warning">개별 사업계획 미작성 · 현재 병목·효과·구매수요 미확정</p></section>}
     <DepartmentBriefing department={r} topic={topic}/>
     {p&&<section className="department-diagrams"><h3>전체 아키텍처 · 서비스 · 데이터 · 요구환경</h3><ProposalDiagramSuite projectId={p.id}/></section>}
+    {p&&<ProposalEngineering projectId={p.id}/>}
     {p&&<details className="department-reference-detail"><summary>법령·현재 공식 업무·국내외 사례 상세 근거</summary><MandateWorkContext projectId={p.id} contextId={'department-work-evidence-'+p.id}/></details>}
     {p&&<details className="department-reference-detail"><summary>이 과제의 상세 설계 · 요구사항 · 검증 · RFP</summary>{p.id==='MR-02'?<DrtAssurance route={p.to} embedded showIntent={false}/>:profile?<Profile p={profile} embedded showIntent={false}/>:<Proposal47 code={r.code} embedded showIntent={false}/>}</details>}
    </div>

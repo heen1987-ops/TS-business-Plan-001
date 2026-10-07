@@ -1,0 +1,426 @@
+{
+  "date": "2026-10-07",
+  "status": "2027년 기획 요구사항 초안 · 공고·RFP 미매핑 · 범위·자료·제품·인수조건 협의 전",
+  "projects": [
+    {
+      "id": "MR-01",
+      "department": "모빌리티연구처",
+      "title": "앱미터 변경 신고와 수리검정 경계 판단 지원",
+      "reviewStatus": "조건부 검증 우선",
+      "downloads": {
+        "md": "downloads/engineering-2027/MR-01/design.md",
+        "json": "downloads/engineering-2027/MR-01/design.json"
+      }
+    },
+    {
+      "id": "MR-02",
+      "department": "모빌리티연구처",
+      "title": "기존 DRT 연계 전화조건 이해·예외 재계획·운영계획 환류 AX",
+      "reviewStatus": "범위 축소 후 검증",
+      "downloads": {
+        "md": "downloads/engineering-2027/MR-02/design.md",
+        "json": "downloads/engineering-2027/MR-02/design.json"
+      }
+    },
+    {
+      "id": "DF-01",
+      "department": "데이터융복합처",
+      "title": "위험 신호와 법정 조치를 잇는 연결 기록",
+      "reviewStatus": "수요·자료 확인",
+      "downloads": {
+        "md": "downloads/engineering-2027/DF-01/design.md",
+        "json": "downloads/engineering-2027/DF-01/design.json"
+      }
+    },
+    {
+      "id": "SA-01",
+      "department": "교통안전처",
+      "title": "교통수단안전점검 지적사항의 해소 확인과 재발 관측",
+      "reviewStatus": "조건부 검증 우선",
+      "downloads": {
+        "md": "downloads/engineering-2027/SA-01/design.md",
+        "json": "downloads/engineering-2027/SA-01/design.json"
+      }
+    },
+    {
+      "id": "QE-01",
+      "department": "자격교육처",
+      "title": "운전적성정밀검사 소견의 교정교육 연결과 이행 추적",
+      "reviewStatus": "독립 편성 보류",
+      "downloads": {
+        "md": "downloads/engineering-2027/QE-01/design.md",
+        "json": "downloads/engineering-2027/QE-01/design.json"
+      }
+    },
+    {
+      "id": "CL-01",
+      "department": "기후탄소물류처",
+      "title": "안전운임 위반 신고사건 처리 지원",
+      "reviewStatus": "조건부 검증 우선",
+      "downloads": {
+        "md": "downloads/engineering-2027/CL-01/design.md",
+        "json": "downloads/engineering-2027/CL-01/design.json"
+      }
+    },
+    {
+      "id": "PS-01",
+      "department": "정책지원처",
+      "title": "최소서비스·DRT 필요지역·장거리 필수노선 판정 근거 대조",
+      "reviewStatus": "수요·자료 확인",
+      "downloads": {
+        "md": "downloads/engineering-2027/PS-01/design.md",
+        "json": "downloads/engineering-2027/PS-01/design.json"
+      }
+    },
+    {
+      "id": "RI-01",
+      "department": "규제혁신처",
+      "title": "실증특례 조건 정리와 승인 후 개시 지연 추적",
+      "reviewStatus": "조건부 검증 우선",
+      "downloads": {
+        "md": "downloads/engineering-2027/RI-01/design.md",
+        "json": "downloads/engineering-2027/RI-01/design.json"
+      }
+    },
+    {
+      "id": "DV-01",
+      "department": "실증사업처",
+      "title": "단지내도로 중대사고 인지와 권고 이행 추적",
+      "reviewStatus": "독립 편성 보류",
+      "downloads": {
+        "md": "downloads/engineering-2027/DV-01/design.md",
+        "json": "downloads/engineering-2027/DV-01/design.json"
+      }
+    },
+    {
+      "id": "IP-01",
+      "department": "검사기획처",
+      "title": "민간검사소 판정편차 위험기반 점검 지원",
+      "reviewStatus": "수요·자료 확인",
+      "downloads": {
+        "md": "downloads/engineering-2027/IP-01/design.md",
+        "json": "downloads/engineering-2027/IP-01/design.json"
+      }
+    },
+    {
+      "id": "SI-01",
+      "department": "특수검사처",
+      "title": "정밀도검사 부적합 사건 종결 추적과 사유 정합",
+      "reviewStatus": "범위 축소 후 검증",
+      "downloads": {
+        "md": "downloads/engineering-2027/SI-01/design.md",
+        "json": "downloads/engineering-2027/SI-01/design.json"
+      }
+    },
+    {
+      "id": "PK-01",
+      "department": "주차안전처",
+      "title": "부적합 기계식주차장 후속조치 추적 점검",
+      "reviewStatus": "범위 축소 후 검증",
+      "downloads": {
+        "md": "downloads/engineering-2027/PK-01/design.md",
+        "json": "downloads/engineering-2027/PK-01/design.json"
+      }
+    },
+    {
+      "id": "AD-01",
+      "department": "첨단검사전략처",
+      "title": "KADIS 진단 커버리지와 실패사유 기록",
+      "reviewStatus": "범위 축소 후 검증",
+      "downloads": {
+        "md": "downloads/engineering-2027/AD-01/design.md",
+        "json": "downloads/engineering-2027/AD-01/design.json"
+      }
+    },
+    {
+      "id": "RD-01",
+      "department": "첨단연구개발처",
+      "title": "연구성과를 검사기준으로 옮기는 이관 근거 정리",
+      "reviewStatus": "수요·자료 확인",
+      "downloads": {
+        "md": "downloads/engineering-2027/RD-01/design.md",
+        "json": "downloads/engineering-2027/RD-01/design.json"
+      }
+    },
+    {
+      "id": "EX01-01",
+      "department": "경영기획처",
+      "title": "전략변경 영향·후속조치 연결지원",
+      "reviewStatus": "수요·자료 확인",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX01-01/design.md",
+        "json": "downloads/engineering-2027/EX01-01/design.json"
+      }
+    },
+    {
+      "id": "EX02-01",
+      "department": "예산처",
+      "title": "사업범위·예산요구 정합성 검토지원",
+      "reviewStatus": "수요·자료 확인",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX02-01/design.md",
+        "json": "downloads/engineering-2027/EX02-01/design.json"
+      }
+    },
+    {
+      "id": "EX03-01",
+      "department": "혁신성과처",
+      "title": "성과지표 정의·증거 일치 검토지원",
+      "reviewStatus": "수요·자료 확인",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX03-01/design.md",
+        "json": "downloads/engineering-2027/EX03-01/design.json"
+      }
+    },
+    {
+      "id": "EX04-01",
+      "department": "ESG경영처",
+      "title": "고객경험·ESG 개선의 효과 연결지원",
+      "reviewStatus": "수요·자료 확인",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX04-01/design.md",
+        "json": "downloads/engineering-2027/EX04-01/design.json"
+      }
+    },
+    {
+      "id": "EX05-01",
+      "department": "디지털기획처",
+      "title": "변경영향·복구 준비 검토지원",
+      "reviewStatus": "수요·자료 확인",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX05-01/design.md",
+        "json": "downloads/engineering-2027/EX05-01/design.json"
+      }
+    },
+    {
+      "id": "EX06-01",
+      "department": "AI혁신처",
+      "title": "AI 품질회귀·업무성과 검증지원",
+      "reviewStatus": "수요·자료 확인",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX06-01/design.md",
+        "json": "downloads/engineering-2027/EX06-01/design.json"
+      }
+    },
+    {
+      "id": "EX07-01",
+      "department": "정보보안처",
+      "title": "보안 검토조건·조치증거 연결지원",
+      "reviewStatus": "수요·자료 확인",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX07-01/design.md",
+        "json": "downloads/engineering-2027/EX07-01/design.json"
+      }
+    },
+    {
+      "id": "EX08-01",
+      "department": "자동차정보처",
+      "title": "등록·차량정보 불일치 해소지원",
+      "reviewStatus": "수요·자료 확인",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX08-01/design.md",
+        "json": "downloads/engineering-2027/EX08-01/design.json"
+      }
+    },
+    {
+      "id": "EX09-01",
+      "department": "운영지원처",
+      "title": "정보공개·기록물 근거 검토지원",
+      "reviewStatus": "수요·자료 확인",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX09-01/design.md",
+        "json": "downloads/engineering-2027/EX09-01/design.json"
+      }
+    },
+    {
+      "id": "EX10-01",
+      "department": "인재개발처",
+      "title": "직무 수행역량·학습보완 연결지원",
+      "reviewStatus": "수요·자료 확인",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX10-01/design.md",
+        "json": "downloads/engineering-2027/EX10-01/design.json"
+      }
+    },
+    {
+      "id": "EX11-01",
+      "department": "재정회계처",
+      "title": "계약·검수·지출 증빙 정합성 검토지원",
+      "reviewStatus": "범위 축소 후 검증",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX11-01/design.md",
+        "json": "downloads/engineering-2027/EX11-01/design.json"
+      }
+    },
+    {
+      "id": "EX12-01",
+      "department": "자산인프라처",
+      "title": "건립·시설 변경조건 이행지원",
+      "reviewStatus": "수요·자료 확인",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX12-01/design.md",
+        "json": "downloads/engineering-2027/EX12-01/design.json"
+      }
+    },
+    {
+      "id": "EX13-01",
+      "department": "감사처",
+      "title": "감사 지적·반론·종결근거 검토지원",
+      "reviewStatus": "수요·자료 확인",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX13-01/design.md",
+        "json": "downloads/engineering-2027/EX13-01/design.json"
+      }
+    },
+    {
+      "id": "EX14-01",
+      "department": "AI검사인프라처",
+      "title": "검사데이터의 이용목적·품질조건 검토지원",
+      "reviewStatus": "수요·자료 확인",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX14-01/design.md",
+        "json": "downloads/engineering-2027/EX14-01/design.json"
+      }
+    },
+    {
+      "id": "EX15-01",
+      "department": "기술안전처",
+      "title": "자동차안전단속 지적·기관조치 연결지원",
+      "reviewStatus": "수요·자료 확인",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX15-01/design.md",
+        "json": "downloads/engineering-2027/EX15-01/design.json"
+      }
+    },
+    {
+      "id": "EX16-01",
+      "department": "시험인증처",
+      "title": "튜닝부품 시험조건·준비자료 검토지원",
+      "reviewStatus": "범위 축소 후 검증",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX16-01/design.md",
+        "json": "downloads/engineering-2027/EX16-01/design.json"
+      }
+    },
+    {
+      "id": "EX17-01",
+      "department": "기술승인처",
+      "title": "튜닝 조건·기준·증빙 사전검토와 변경 대응",
+      "reviewStatus": "범위 축소 후 검증",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX17-01/design.md",
+        "json": "downloads/engineering-2027/EX17-01/design.json"
+      }
+    },
+    {
+      "id": "EX18-01",
+      "department": "항공안전처",
+      "title": "항공장애물 점검·변경·시정증빙 연결지원",
+      "reviewStatus": "범위 축소 후 검증",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX18-01/design.md",
+        "json": "downloads/engineering-2027/EX18-01/design.json"
+      }
+    },
+    {
+      "id": "EX19-01",
+      "department": "항공자격처",
+      "title": "항공자격 응시경로·입증자료 사전검토지원",
+      "reviewStatus": "범위 축소 후 검증",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX19-01/design.md",
+        "json": "downloads/engineering-2027/EX19-01/design.json"
+      }
+    },
+    {
+      "id": "EX20-01",
+      "department": "드론관리처",
+      "title": "드론 기체·사용사업 변경조건 연속검증지원",
+      "reviewStatus": "범위 축소 후 검증",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX20-01/design.md",
+        "json": "downloads/engineering-2027/EX20-01/design.json"
+      }
+    },
+    {
+      "id": "EX21-01",
+      "department": "도심항공정책처",
+      "title": "UAM 종사자·제도 준비도 검증지원",
+      "reviewStatus": "독립 편성 보류",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX21-01/design.md",
+        "json": "downloads/engineering-2027/EX21-01/design.json"
+      }
+    },
+    {
+      "id": "EX22-01",
+      "department": "철도안전처",
+      "title": "철도 자율보고 위험이슈·개선결과 연결지원",
+      "reviewStatus": "독립 편성 보류",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX22-01/design.md",
+        "json": "downloads/engineering-2027/EX22-01/design.json"
+      }
+    },
+    {
+      "id": "EX22-02",
+      "department": "철도안전처",
+      "title": "철도 면허·관제자격의 경력·교육·갱신 입증지원",
+      "reviewStatus": "범위 축소 후 검증",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX22-02/design.md",
+        "json": "downloads/engineering-2027/EX22-02/design.json"
+      }
+    },
+    {
+      "id": "EX23-01",
+      "department": "철도승인처",
+      "title": "안전관리체계 승인검사의 운영 준비·입증 연결지원",
+      "reviewStatus": "범위 축소 후 검증",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX23-01/design.md",
+        "json": "downloads/engineering-2027/EX23-01/design.json"
+      }
+    },
+    {
+      "id": "EX23-02",
+      "department": "철도승인처",
+      "title": "차량 형식승인 변경영향·입증연결 지원",
+      "reviewStatus": "범위 축소 후 검증",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX23-02/design.md",
+        "json": "downloads/engineering-2027/EX23-02/design.json"
+      }
+    },
+    {
+      "id": "EX24-01",
+      "department": "철도검사처",
+      "title": "안전관리체계 지적·시정·재검증 연결지원",
+      "reviewStatus": "범위 축소 후 검증",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX24-01/design.md",
+        "json": "downloads/engineering-2027/EX24-01/design.json"
+      }
+    },
+    {
+      "id": "EX25-01",
+      "department": "철도기술처",
+      "title": "종합시험운행 단계간 조건·미해결사항 검증지원",
+      "reviewStatus": "범위 축소 후 검증",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX25-01/design.md",
+        "json": "downloads/engineering-2027/EX25-01/design.json"
+      }
+    },
+    {
+      "id": "EX26-01",
+      "department": "안전연구처",
+      "title": "KNCAP 차종·평가판본·시험회차 입증대조지원",
+      "reviewStatus": "범위 축소 후 검증",
+      "downloads": {
+        "md": "downloads/engineering-2027/EX26-01/design.md",
+        "json": "downloads/engineering-2027/EX26-01/design.json"
+      }
+    }
+  ]
+}

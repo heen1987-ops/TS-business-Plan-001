@@ -31,7 +31,7 @@ for(const p of d.projects){
 const pub=JSON.parse(fs.readFileSync('public/downloads/proposal-diagrams/design.json','utf8'));
 check(!d.byId['QE-01'].authority.includes('수검자')&&d.byId['QE-01'].authority.includes('검사요원'),'QE 공식 확정 권한과 수검자 참여 구분');
 for(const p of d.projects)check(JSON.stringify(pub.projects.find(q=>q.id===p.id)?.overall.edges)===JSON.stringify(p.overall.edges),p.id+' 공개 명세와 원장 연결 일치');
-check(pub.projects.length===42&&pub.productSources.every(s=>['CCK-NOA','CCK-GRANTEE'].includes(s.id)),'공개 설계·제품 근거');
+check(pub.projects.length===42&&pub.productSources.length===d.productSources.length&&pub.productSources.every(s=>d.productSources.some(x=>x.id===s.id)),'공개 설계·제품 근거');
 check(m.generator==='built-in image_gen'&&m.assets.every(a=>a.generator==='built-in image_gen'),'이미지 모델 원본 생성 기록');
 for(const id of ['MR-02','EX05-01','EX11-01'])check(d.byId[id].resultMode.includes('실행'),'조건부 실행 '+id);
 check(d.projects.filter(p=>p.resultMode.includes('실행')).length===3,'실행 후보와 인계·참조 구별');

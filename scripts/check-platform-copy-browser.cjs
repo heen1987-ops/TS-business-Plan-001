@@ -43,7 +43,7 @@ const check = (name, pass) => { checks.push({ name, pass: !!pass }); assert(pass
       await img.waitFor();
       await img.evaluate(el => { el.loading = 'eager'; return el.decode(); });
       check(id + '/' + type + ' 실제 교정본 표시', (await img.getAttribute('src')).endsWith(live.path) && await img.evaluate(el => el.naturalWidth === 1672 && el.naturalHeight === 941));
-      check(id + '/' + type + ' 확대 링크·교정 캡션', (await section.locator('.proposal-diagram-image').getAttribute('href')).endsWith(live.path) && (await section.locator('figcaption').innerText()).includes(live.businessDate?'업무 설명 개정본 v3':'한글 표기 교정본 v2'));
+      check(id + '/' + type + ' 확대 링크·교정 캡션', (await section.locator('.proposal-diagram-image').getAttribute('href')).endsWith(live.path) && (await section.locator('figcaption').innerText()).includes(live.businessDate?'업무 설명 개정본 v'+live.revision:'한글 표기 교정본 v2'));
       check(id + '/' + type + ' 탐색·반응형 보존', await page.locator('[data-department-link]').count() === 51 && await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 2));
       if (['MR-02', 'DF-01', 'AD-01'].includes(id)) await section.locator('.proposal-diagram-image').screenshot({ path: out + '/' + id + '-' + type + '.png' });
     }
