@@ -1,0 +1,6067 @@
+{
+  "date": "2026-10-07",
+  "method": "업무 설명 개정 · 이미지 모델 DRT 서비스 재제작 · 정확한 한글 레이어",
+  "font": "Malgun Gothic",
+  "population": 168,
+  "assets": [
+    {
+      "id": "MR-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/MR-01_overall_v2.png",
+      "previousSha256": "1a71255e96b6240347c137be1354e158f68f364fe92f93f65272c63a54c14b74",
+      "basePath": "assets/proposal-diagrams-20261006/MR-01_overall_v2.png",
+      "baseSha256": "1a71255e96b6240347c137be1354e158f68f364fe92f93f65272c63a54c14b74",
+      "corrected": "assets/proposal-diagrams-20261006/MR-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사• 재계획",
+          "box": [
+            1039,
+            162,
+            150,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "검정 결과 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1495,
+            287,
+            111,
+            22
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "MR-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/MR-01_service_v2.png",
+      "previousSha256": "0eeadb616f01e6cee8a07923d84477d35502f7ef0768aa6b8f85cb0b0a7084ae",
+      "basePath": "assets/proposal-diagrams-20261006/MR-01_service_v2.png",
+      "baseSha256": "0eeadb616f01e6cee8a07923d84477d35502f7ef0768aa6b8f85cb0b0a7084ae",
+      "corrected": "assets/proposal-diagrams-20261006/MR-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "검정 준비 조정",
+          "observed": "보완•재계획",
+          "box": [
+            801,
+            642,
+            112,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "검정 준비 조정",
+          "observed": "보완•재계획(이전 단계로 복귀)",
+          "box": [
+            995,
+            150,
+            223,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "NOA 추가 제안",
+          "observed": "NOA 재계획(미완료 시)",
+          "box": [
+            1386,
+            382,
+            197,
+            27
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "자료 문의",
+          "observed": "권한미확보",
+          "box": [
+            1049,
+            624,
+            87,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-4",
+          "text": "답변 확인",
+          "observed": ", 또는 확인불가",
+          "box": [
+            1019,
+            649,
+            134,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-5",
+          "text": "기업·검정자 문의",
+          "observed": "권한 미확보 •확인불가 대기",
+          "box": [
+            1192,
+            649,
+            201,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "MR-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/MR-01_environment_v2.png",
+      "previousSha256": "ac048cea7e5d3283c8d981b6c68414bf61da5daf18d6cb982b92cbb957426149",
+      "basePath": "assets/proposal-diagrams-20261006/MR-01_environment_v2.png",
+      "baseSha256": "ac048cea7e5d3283c8d981b6c68414bf61da5daf18d6cb982b92cbb957426149",
+      "corrected": "assets/proposal-diagrams-20261006/MR-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            634,
+            326,
+            357,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애• 권한 미확보",
+          "box": [
+            1343,
+            801,
+            172,
+            27
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "MR-02",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/MR-02_overall_v2.png",
+      "previousSha256": "cc42ac9866f3dadaa1a3c71453d32b142077844aa868b9ee9423238b542496b5",
+      "basePath": "assets/proposal-diagrams-20261006/MR-02_overall_v2.png",
+      "baseSha256": "cc42ac9866f3dadaa1a3c71453d32b142077844aa868b9ee9423238b542496b5",
+      "corrected": "assets/proposal-diagrams-20261006/MR-02_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대A卜재계획",
+          "box": [
+            1037,
+            155,
+            151,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "차량·시간 조율",
+          "observed": "이동조건•예외 재계획",
+          "box": [
+            680,
+            254,
+            146,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "계획 수립 • 증거요청 • 검증 • 재계획",
+          "box": [
+            612,
+            285,
+            208,
+            19
+          ],
+          "weight": 400
+        },
+        {
+          "key": "business-3",
+          "text": "배차·탑승 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1482,
+            254,
+            111,
+            22
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "MR-02",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/MR-02_service_v2.png",
+      "previousSha256": "dd0a5c9c5f47d3d13c1612af9b70041725d1f8b9710b56bc0c7eee8859fecff5",
+      "basePath": "assets/proposal-diagrams-20261006/MR-02_service_v3_model.png",
+      "baseSha256": "8f79f148034b5e5f4bdcc21c1c13924d569f85e45d208e7d690ce20d22fa6cea",
+      "corrected": "assets/proposal-diagrams-20261006/MR-02_service_v3.png",
+      "regenerated": true,
+      "labels": [
+        {
+          "key": "exact-platform",
+          "text": "TS AI 공통플랫폼 연계 제안",
+          "box": [
+            10,
+            7,
+            320,
+            32
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "MR-02",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/MR-02_environment_v2.png",
+      "previousSha256": "69ccdefd03503e02bdcc2b5bd2b75ccf829b0e1bca6685004d420761a2abd6b7",
+      "basePath": "assets/proposal-diagrams-20261006/MR-02_environment_v2.png",
+      "baseSha256": "69ccdefd03503e02bdcc2b5bd2b75ccf829b0e1bca6685004d420761a2abd6b7",
+      "corrected": "assets/proposal-diagrams-20261006/MR-02_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            645,
+            296,
+            378,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애• 권한 미확보",
+          "box": [
+            1330,
+            747,
+            175,
+            29
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "DF-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/DF-01_overall_v2.png",
+      "previousSha256": "f390dad2f60951ac12d5392a1931d63e3ae23dbe17ebdcab2dcc615b22654fe6",
+      "basePath": "assets/proposal-diagrams-20261006/DF-01_overall_v2.png",
+      "baseSha256": "f390dad2f60951ac12d5392a1931d63e3ae23dbe17ebdcab2dcc615b22654fe6",
+      "corrected": "assets/proposal-diagrams-20261006/DF-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1068,
+            163,
+            150,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "계획 수립•증거 요청• 경증•재계획",
+          "box": [
+            601,
+            316,
+            231,
+            21
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "시행·효과 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1492,
+            284,
+            111,
+            22
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "DF-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/DF-01_service_v2.png",
+      "previousSha256": "142e0677df33a02ec5c83c9f7a2d08bbd016a78d7cbdf9819fbb0c31c6182e81",
+      "basePath": "assets/proposal-diagrams-20261006/DF-01_service_v2.png",
+      "baseSha256": "142e0677df33a02ec5c83c9f7a2d08bbd016a78d7cbdf9819fbb0c31c6182e81",
+      "corrected": "assets/proposal-diagrams-20261006/DF-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "조치 다시 검토",
+          "observed": "보완•재계획",
+          "box": [
+            1129,
+            362,
+            104,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "NOA 추가 제안",
+          "observed": "NOA 재계획",
+          "box": [
+            1140,
+            401,
+            87,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "조치기관 문의",
+          "observed": "권한 미확보 • 확인불가",
+          "box": [
+            1103,
+            469,
+            156,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "조치기관 문의",
+          "observed": "권한 미확보 • 확인불가 대기",
+          "box": [
+            1350,
+            462,
+            215,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-4",
+          "text": "NOA 추가 제안",
+          "observed": "NOA 재계획으로 환류",
+          "box": [
+            1427,
+            850,
+            155,
+            22
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "DF-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/DF-01_environment_v2.png",
+      "previousSha256": "0111839dbdaed69e25125e66838be7fb6db59aeceb9d2321f6f6e8658f85fc96",
+      "basePath": "assets/proposal-diagrams-20261006/DF-01_environment_v2.png",
+      "baseSha256": "0111839dbdaed69e25125e66838be7fb6db59aeceb9d2321f6f6e8658f85fc96",
+      "corrected": "assets/proposal-diagrams-20261006/DF-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            635,
+            293,
+            370,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장매•권한 미확보",
+          "box": [
+            1323,
+            770,
+            182,
+            30
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "SA-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/SA-01_overall_v2.png",
+      "previousSha256": "10ea7344e08433fae928f650838dab7900b80a388ae108e64b01870cf2e2056d",
+      "basePath": "assets/proposal-diagrams-20261006/SA-01_overall_v2.png",
+      "baseSha256": "10ea7344e08433fae928f650838dab7900b80a388ae108e64b01870cf2e2056d",
+      "corrected": "assets/proposal-diagrams-20261006/SA-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1028,
+            167,
+            147,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "계획 수립• 증거 요청• 검증 • 재계획",
+          "box": [
+            592,
+            303,
+            230,
+            21
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "현장 개선 확인",
+          "observed": "완료 종거 확인",
+          "box": [
+            1483,
+            272,
+            120,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "SA-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/SA-01_service_v2.png",
+      "previousSha256": "93226a06b2ede3c4598e5b43f71daeb60a3207208239f577cfbe33cae40f8106",
+      "basePath": "assets/proposal-diagrams-20261006/SA-01_service_v2.png",
+      "baseSha256": "93226a06b2ede3c4598e5b43f71daeb60a3207208239f577cfbe33cae40f8106",
+      "corrected": "assets/proposal-diagrams-20261006/SA-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "조치 추가 확인",
+          "observed": "보완•재계획",
+          "box": [
+            806,
+            664,
+            111,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA 재계획 수립",
+          "box": [
+            1400,
+            385,
+            162,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "점검 담당자 문의",
+          "observed": "권한/조회 불가",
+          "box": [
+            1370,
+            612,
+            123,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "점검 담당자 문의",
+          "observed": "권한 미확보•확인불가 대기",
+          "box": [
+            1401,
+            668,
+            215,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "SA-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/SA-01_environment_v2.png",
+      "previousSha256": "9d0a4496d8a5cd486a00a95387b0f8422b37956f631e7f62eaba33ecc7a5aa8b",
+      "basePath": "assets/proposal-diagrams-20261006/SA-01_environment_v2.png",
+      "baseSha256": "9d0a4496d8a5cd486a00a95387b0f8422b37956f631e7f62eaba33ecc7a5aa8b",
+      "corrected": "assets/proposal-diagrams-20261006/SA-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            637,
+            301,
+            377,
+            29
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애 • 권한 미확보",
+          "box": [
+            1284,
+            749,
+            183,
+            27
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "QE-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/QE-01_overall_v2.png",
+      "previousSha256": "af9d6e859913949dd3e0b0b18cd126b44e150bd0cacea64b9602f175843d2f3a",
+      "basePath": "assets/proposal-diagrams-20261006/QE-01_overall_v2.png",
+      "baseSha256": "af9d6e859913949dd3e0b0b18cd126b44e150bd0cacea64b9602f175843d2f3a",
+      "corrected": "assets/proposal-diagrams-20261006/QE-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1039,
+            163,
+            163,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "계획 수립•근거 요청 • 검증•재계획",
+          "box": [
+            591,
+            316,
+            227,
+            21
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "활동·변화 확인",
+          "observed": "완료 증거 획인",
+          "box": [
+            1505,
+            281,
+            121,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "QE-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/QE-01_service_v2.png",
+      "previousSha256": "eadbe77754d6d71922a3f1465f708387d68b7a8abf3bda3a52f5ef4f58c2faaf",
+      "basePath": "assets/proposal-diagrams-20261006/QE-01_service_v2.png",
+      "baseSha256": "eadbe77754d6d71922a3f1465f708387d68b7a8abf3bda3a52f5ef4f58c2faaf",
+      "corrected": "assets/proposal-diagrams-20261006/QE-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "활동·설명 조정",
+          "observed": "NO • 보완•재계획",
+          "box": [
+            637,
+            185,
+            183,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "검사요원 문의",
+          "observed": "| 권한•자료 미확보:",
+          "box": [
+            17,
+            497,
+            186,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "활동·변화 확인·추가 안내",
+          "observed": "완료 증거•재계획",
+          "box": [
+            1482,
+            384,
+            164,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "검사요원 문의",
+          "observed": "5보완•미승인兮2재계획 / 7상충•미완료놔재계획 / 조회권한불가兮대기",
+          "box": [
+            252,
+            839,
+            838,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "QE-01",
+      "type": "data",
+      "previousPath": "assets/proposal-diagrams-20261006/QE-01_data_v1.png",
+      "previousSha256": "0393befe9e3d196720b9ee48ef331adab63b4872f8f786fe098d8507ba2cb16f",
+      "basePath": "assets/proposal-diagrams-20261006/QE-01_data_v1.png",
+      "baseSha256": "0393befe9e3d196720b9ee48ef331adab63b4872f8f786fe098d8507ba2cb16f",
+      "corrected": "assets/proposal-diagrams-20261006/QE-01_data_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "NOA 추가 제안",
+          "observed": "상충•미완료 NOA 재계획",
+          "box": [
+            1010,
+            356,
+            227,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "QE-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/QE-01_environment_v2.png",
+      "previousSha256": "e1ce4f843b5bb4240797b992b152e8e9ca275d63ce3e1303f7aac5a2f02c7194",
+      "basePath": "assets/proposal-diagrams-20261006/QE-01_environment_v2.png",
+      "baseSha256": "e1ce4f843b5bb4240797b992b152e8e9ca275d63ce3e1303f7aac5a2f02c7194",
+      "corrected": "assets/proposal-diagrams-20261006/QE-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            643,
+            282,
+            322,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애 •권한 미확보: 기존 수기 검토 복귀",
+          "box": [
+            1265,
+            794,
+            312,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "CL-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/CL-01_overall_v2.png",
+      "previousSha256": "8060a4f8840603bef430aa2a91d225c6a6ed4d9b4b1390872008bccc7de04ef4",
+      "basePath": "assets/proposal-diagrams-20261006/CL-01_overall_v2.png",
+      "baseSha256": "8060a4f8840603bef430aa2a91d225c6a6ed4d9b4b1390872008bccc7de04ef4",
+      "corrected": "assets/proposal-diagrams-20261006/CL-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사• 재계획",
+          "box": [
+            1053,
+            155,
+            165,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "운임·처리 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1475,
+            317,
+            120,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "CL-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/CL-01_service_v2.png",
+      "previousSha256": "e198999b77b91d09f4f3e9f6e4bdc8a302c01c5fa1a5c1a407eeb5e53cdf11af",
+      "basePath": "assets/proposal-diagrams-20261006/CL-01_service_v2.png",
+      "baseSha256": "e198999b77b91d09f4f3e9f6e4bdc8a302c01c5fa1a5c1a407eeb5e53cdf11af",
+      "corrected": "assets/proposal-diagrams-20261006/CL-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "거래 다시 확인",
+          "observed": "NO • 보완•재계획",
+          "box": [
+            571,
+            201,
+            193,
+            32
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "운임·처리 확인·추가 안내",
+          "observed": "완료 증거•재계획",
+          "box": [
+            1491,
+            361,
+            156,
+            30
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "거래 담당자 문의",
+          "observed": "권한• 자료 미확보:",
+          "box": [
+            37,
+            504,
+            165,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "거래 담당자 문의",
+          "observed": "5 보완•미승인 2 재계획 / 7 상충•미완료 -+재계획 / 조회 권한 불가” 대기",
+          "box": [
+            449,
+            874,
+            766,
+            29
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "CL-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/CL-01_environment_v2.png",
+      "previousSha256": "a8c9b623a51357c119b80f072be9f417be20786230f291e6ad02b0c14417e7ad",
+      "basePath": "assets/proposal-diagrams-20261006/CL-01_environment_v2.png",
+      "baseSha256": "a8c9b623a51357c119b80f072be9f417be20786230f291e6ad02b0c14417e7ad",
+      "corrected": "assets/proposal-diagrams-20261006/CL-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            647,
+            286,
+            325,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애 • 권한 미확보",
+          "box": [
+            1186,
+            764,
+            160,
+            27
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "PS-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/PS-01_overall_v2.png",
+      "previousSha256": "05eee873c26960d01324dfb5c7d2736a25e10a344de08183f0bdf6686c23c73b",
+      "basePath": "assets/proposal-diagrams-20261006/PS-01_overall_v2.png",
+      "baseSha256": "05eee873c26960d01324dfb5c7d2736a25e10a344de08183f0bdf6686c23c73b",
+      "corrected": "assets/proposal-diagrams-20261006/PS-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사 • 재계획",
+          "box": [
+            1025,
+            168,
+            160,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "계획 수립 • 근거요청 • 검증 • 재계획",
+          "box": [
+            585,
+            340,
+            218,
+            20
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "지원 검토 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1475,
+            311,
+            119,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "PS-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/PS-01_service_v2.png",
+      "previousSha256": "ba415aec95739522654bf582ca86e86e3472981a8bebffbcc3c2ab709b08e620",
+      "basePath": "assets/proposal-diagrams-20261006/PS-01_service_v2.png",
+      "baseSha256": "ba415aec95739522654bf582ca86e86e3472981a8bebffbcc3c2ab709b08e620",
+      "corrected": "assets/proposal-diagrams-20261006/PS-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "비교 범위 조정",
+          "observed": "NO • 보완•재계획",
+          "box": [
+            630,
+            198,
+            182,
+            29
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "정책 담당자 문의",
+          "observed": ": 권한•자료미확보:",
+          "box": [
+            23,
+            522,
+            183,
+            29
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "지원 검토 확인·추가 안내",
+          "observed": "완료 증거•재계획",
+          "box": [
+            1488,
+            419,
+            154,
+            27
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "정책 담당자 문의",
+          "observed": "5 보완•미승인 -+ 2재계획 / 7 상충•미완료 재계획 / 조회 권한 불가 대기",
+          "box": [
+            508,
+            834,
+            757,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "PS-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/PS-01_environment_v2.png",
+      "previousSha256": "8c4511aa649f5c4192b095a328bea83e7805171e14ff53f07e6442e54d47c1c2",
+      "basePath": "assets/proposal-diagrams-20261006/PS-01_environment_v2.png",
+      "baseSha256": "8c4511aa649f5c4192b095a328bea83e7805171e14ff53f07e6442e54d47c1c2",
+      "corrected": "assets/proposal-diagrams-20261006/PS-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            627,
+            299,
+            386,
+            29
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애• 권한 미확보",
+          "box": [
+            1215,
+            756,
+            173,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "RI-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/RI-01_overall_v2.png",
+      "previousSha256": "b1a7971b62fc252fea667b6e7b52e2d9ec506bfda411fe3fe3d9379be97b4ec1",
+      "basePath": "assets/proposal-diagrams-20261006/RI-01_overall_v2.png",
+      "baseSha256": "b1a7971b62fc252fea667b6e7b52e2d9ec506bfda411fe3fe3d9379be97b4ec1",
+      "corrected": "assets/proposal-diagrams-20261006/RI-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사• 재계획",
+          "box": [
+            1074,
+            118,
+            154,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "실증 개시 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1485,
+            245,
+            112,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "RI-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/RI-01_service_v2.png",
+      "previousSha256": "42efe517c8ca4f63a8b32b4acd68198b9c545ee49f301c5c6a04efd737ed906c",
+      "basePath": "assets/proposal-diagrams-20261006/RI-01_service_v2.png",
+      "baseSha256": "42efe517c8ca4f63a8b32b4acd68198b9c545ee49f301c5c6a04efd737ed906c",
+      "corrected": "assets/proposal-diagrams-20261006/RI-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "실증 준비 조정",
+          "observed": "보완•재계획",
+          "box": [
+            905,
+            644,
+            109,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "기업·기관 문의",
+          "observed": "조건 미충족놔준비 대기 권한 미확보",
+          "box": [
+            1089,
+            672,
+            276,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "기업·기관 문의",
+          "observed": "또는 확인불가",
+          "box": [
+            1284,
+            701,
+            94,
+            19
+          ],
+          "weight": 400
+        },
+        {
+          "key": "business-3",
+          "text": "기업·기관 문의",
+          "observed": "권한 미확보",
+          "box": [
+            1429,
+            679,
+            79,
+            20
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-4",
+          "text": "기업·기관 문의",
+          "observed": "• 또는 확인불가",
+          "box": [
+            1417,
+            698,
+            106,
+            20
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-5",
+          "text": "기업·기관 문의",
+          "observed": "권한 미확보•확인불가 대기 :",
+          "box": [
+            1200,
+            797,
+            231,
+            30
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-6",
+          "text": "NOA 추가 제안",
+          "observed": "NOA재계획",
+          "box": [
+            1505,
+            835,
+            86,
+            21
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "RI-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/RI-01_environment_v2.png",
+      "previousSha256": "84e84f3fcb167419ec6e2c229f84c18246c6a18c4c82d0e1fb5d34a32803a844",
+      "basePath": "assets/proposal-diagrams-20261006/RI-01_environment_v2.png",
+      "baseSha256": "84e84f3fcb167419ec6e2c229f84c18246c6a18c4c82d0e1fb5d34a32803a844",
+      "corrected": "assets/proposal-diagrams-20261006/RI-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획 • 실행 • 검증•재계획",
+          "box": [
+            643,
+            281,
+            358,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애• 권한 미확보",
+          "box": [
+            1388,
+            779,
+            174,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "DV-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/DV-01_overall_v2.png",
+      "previousSha256": "cbee130d093422f493aa8157e4da92e12bcfb85dbe8142339116a42e9458b432",
+      "basePath": "assets/proposal-diagrams-20261006/DV-01_overall_v2.png",
+      "baseSha256": "cbee130d093422f493aa8157e4da92e12bcfb85dbe8142339116a42e9458b432",
+      "corrected": "assets/proposal-diagrams-20261006/DV-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1045,
+            159,
+            154,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "증거 요청•경증•재계획",
+          "box": [
+            661,
+            330,
+            144,
+            21
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "시설 개선 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1491,
+            276,
+            119,
+            23
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "시설 개선 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1492,
+            332,
+            107,
+            21
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "DV-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/DV-01_service_v2.png",
+      "previousSha256": "1665ba6203a0cc231218ea42fd9e21ce3f3abe60227e4b08f57a889fa8d56844",
+      "basePath": "assets/proposal-diagrams-20261006/DV-01_service_v2.png",
+      "baseSha256": "1665ba6203a0cc231218ea42fd9e21ce3f3abe60227e4b08f57a889fa8d56844",
+      "corrected": "assets/proposal-diagrams-20261006/DV-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "개선대안 조정",
+          "observed": "보완•재계획",
+          "box": [
+            887,
+            691,
+            95,
+            23
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "시설관리자 문의",
+          "observed": "-4 권한•재원미확보놔보류 !",
+          "box": [
+            1205,
+            476,
+            220,
+            27
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "NOA 추가 제안",
+          "observed": "NOA 재계획",
+          "box": [
+            1447,
+            744,
+            100,
+            23
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "NOA 추가 제안",
+          "observed": "NOA 재계획 생성",
+          "box": [
+            1430,
+            815,
+            133,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "DV-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/DV-01_environment_v2.png",
+      "previousSha256": "717b12ce4fba64d6dc632927033c5f50d41e13ecec31c64fa5b21345e043b7e4",
+      "basePath": "assets/proposal-diagrams-20261006/DV-01_environment_v2.png",
+      "baseSha256": "717b12ce4fba64d6dc632927033c5f50d41e13ecec31c64fa5b21345e043b7e4",
+      "corrected": "assets/proposal-diagrams-20261006/DV-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            641,
+            311,
+            398,
+            30
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애•권한 미확보",
+          "box": [
+            1336,
+            786,
+            171,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "IP-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/IP-01_overall_v2.png",
+      "previousSha256": "e2b1db4159050671da3cdb1ab47225744d7299835c3c67b2f02818a28dea5711",
+      "basePath": "assets/proposal-diagrams-20261006/IP-01_overall_v2.png",
+      "baseSha256": "e2b1db4159050671da3cdb1ab47225744d7299835c3c67b2f02818a28dea5711",
+      "corrected": "assets/proposal-diagrams-20261006/IP-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사• 재계획",
+          "box": [
+            1076,
+            157,
+            154,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "근거 수집• 검증 •재계획",
+          "box": [
+            617,
+            354,
+            161,
+            20
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "현장 점검 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1478,
+            310,
+            118,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "현장 점검 확인",
+          "observed": "완료 여부 • 증거 확인",
+          "box": [
+            1465,
+            357,
+            144,
+            20
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "IP-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/IP-01_service_v2.png",
+      "previousSha256": "38570437afd6bc2b701b06d8dbced3f60fc63ce3c7f2194a30dd0fc0943d48a0",
+      "basePath": "assets/proposal-diagrams-20261006/IP-01_service_v2.png",
+      "baseSha256": "38570437afd6bc2b701b06d8dbced3f60fc63ce3c7f2194a30dd0fc0943d48a0",
+      "corrected": "assets/proposal-diagrams-20261006/IP-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "NOA 추가 제안",
+          "observed": "NOA 재계획으로 환류",
+          "box": [
+            1248,
+            305,
+            160,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "점검 범위 조정",
+          "observed": "- 보완•재계획",
+          "box": [
+            753,
+            524,
+            117,
+            21
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "점검 범위 조정",
+          "observed": "보완•재계획",
+          "box": [
+            738,
+            639,
+            96,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "점검 담당자 문의",
+          "observed": ", 권한 미확보 또는",
+          "box": [
+            1016,
+            682,
+            135,
+            20
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-4",
+          "text": "점검 담당자 문의",
+          "observed": "권한 미확보 •확인불가 대기",
+          "box": [
+            1106,
+            735,
+            201,
+            22
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "IP-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/IP-01_environment_v2.png",
+      "previousSha256": "0b941deaa233d6008482b498c41c291a1e576a3d4176482f0132cd40a6428556",
+      "basePath": "assets/proposal-diagrams-20261006/IP-01_environment_v2.png",
+      "baseSha256": "0b941deaa233d6008482b498c41c291a1e576a3d4176482f0132cd40a6428556",
+      "corrected": "assets/proposal-diagrams-20261006/IP-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무계획•실행•검증•재계획",
+          "box": [
+            620,
+            326,
+            393,
+            29
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애 • 권한 미확보",
+          "box": [
+            1320,
+            766,
+            193,
+            29
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "SI-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/SI-01_overall_v2.png",
+      "previousSha256": "2295c18232e77fd37fcec772c135046924d78662e6ae5b0705038c35ef5c4876",
+      "basePath": "assets/proposal-diagrams-20261006/SI-01_overall_v2.png",
+      "baseSha256": "2295c18232e77fd37fcec772c135046924d78662e6ae5b0705038c35ef5c4876",
+      "corrected": "assets/proposal-diagrams-20261006/SI-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1048,
+            164,
+            165,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "후속 검사 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1477,
+            335,
+            120,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "SI-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/SI-01_service_v2.png",
+      "previousSha256": "8cb200ede114f49e6e089098e9f328b26642f506bf21d337fd9342960eb66807",
+      "basePath": "assets/proposal-diagrams-20261006/SI-01_service_v2.png",
+      "baseSha256": "8cb200ede114f49e6e089098e9f328b26642f506bf21d337fd9342960eb66807",
+      "corrected": "assets/proposal-diagrams-20261006/SI-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "검사 담당자 문의",
+          "observed": "권한•조회 불가",
+          "box": [
+            879,
+            783,
+            114,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "기기 상태 확인",
+          "observed": "보완•재계획",
+          "box": [
+            1057,
+            660,
+            101,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "검사 담당자 문의",
+          "observed": "권한 미확보•확인불가 대기",
+          "box": [
+            1034,
+            784,
+            212,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "SI-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/SI-01_environment_v2.png",
+      "previousSha256": "e7f4aadd8773c186f2a8b54c363fce05efdbf301ca80767a4c2e4a760df203f1",
+      "basePath": "assets/proposal-diagrams-20261006/SI-01_environment_v2.png",
+      "baseSha256": "e7f4aadd8773c186f2a8b54c363fce05efdbf301ca80767a4c2e4a760df203f1",
+      "corrected": "assets/proposal-diagrams-20261006/SI-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증 • 재계획",
+          "box": [
+            633,
+            339,
+            374,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애•권한 미확보",
+          "box": [
+            1352,
+            785,
+            164,
+            26
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "PK-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/PK-01_overall_v2.png",
+      "previousSha256": "4d4ae0b88b0e3c0f1ed21fa22f4503994e02ed6a80139ddd6b89c2ede4cbf26a",
+      "basePath": "assets/proposal-diagrams-20261006/PK-01_overall_v2.png",
+      "baseSha256": "4d4ae0b88b0e3c0f1ed21fa22f4503994e02ed6a80139ddd6b89c2ede4cbf26a",
+      "corrected": "assets/proposal-diagrams-20261006/PK-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1042,
+            158,
+            135,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "재검 결과 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1492,
+            271,
+            106,
+            22
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "PK-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/PK-01_service_v2.png",
+      "previousSha256": "6a393b6079fc2bec6b4c9eb2fed4c137cd34253b72100849d369395d8727e855",
+      "basePath": "assets/proposal-diagrams-20261006/PK-01_service_v2.png",
+      "baseSha256": "6a393b6079fc2bec6b4c9eb2fed4c137cd34253b72100849d369395d8727e855",
+      "corrected": "assets/proposal-diagrams-20261006/PK-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "재검 일정 확인",
+          "observed": "보완• 재계획",
+          "box": [
+            946,
+            710,
+            103,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "NOA 추가 제안",
+          "observed": "NOA 재계획",
+          "box": [
+            952,
+            771,
+            93,
+            21
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "NOA 추가 제안",
+          "observed": "결과 미완료 시 NOA 재계획으로 환류",
+          "box": [
+            1104,
+            840,
+            280,
+            21
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "관리자·관청 문의",
+          "observed": "권한 미확보 • 확인불가 대기",
+          "box": [
+            1413,
+            372,
+            219,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "PK-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/PK-01_environment_v2.png",
+      "previousSha256": "54166d9561c03ea2251bf2dc77a82a41186abbb61582940aea5376ab25e3a7e0",
+      "basePath": "assets/proposal-diagrams-20261006/PK-01_environment_v2.png",
+      "baseSha256": "54166d9561c03ea2251bf2dc77a82a41186abbb61582940aea5376ab25e3a7e0",
+      "corrected": "assets/proposal-diagrams-20261006/PK-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            614,
+            307,
+            403,
+            30
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애 • 권한 미확보",
+          "box": [
+            1358,
+            794,
+            179,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "AD-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/AD-01_overall_v2.png",
+      "previousSha256": "2f1068f9a708c84c12de5f4324d7d5192c350ff61c46a3a0739b24ad9ca3852f",
+      "basePath": "assets/proposal-diagrams-20261006/AD-01_overall_v2.png",
+      "baseSha256": "2f1068f9a708c84c12de5f4324d7d5192c350ff61c46a3a0739b24ad9ca3852f",
+      "corrected": "assets/proposal-diagrams-20261006/AD-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1048,
+            160,
+            150,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "검증 • 추가질문 • 재계획",
+          "box": [
+            606,
+            359,
+            193,
+            23
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "진단 적용 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1471,
+            306,
+            125,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "AD-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/AD-01_service_v2.png",
+      "previousSha256": "454fd81c2cb90f3be7fc76898d8ceb9ae13fcacb9b6fd7feec62731442a94dfc",
+      "basePath": "assets/proposal-diagrams-20261006/AD-01_service_v2.png",
+      "baseSha256": "454fd81c2cb90f3be7fc76898d8ceb9ae13fcacb9b6fd7feec62731442a94dfc",
+      "corrected": "assets/proposal-diagrams-20261006/AD-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "제작사·검사자 문의",
+          "observed": "권한 미확보•확인불가",
+          "box": [
+            530,
+            744,
+            165,
+            23
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "진단 방법 검토",
+          "observed": "보완•재계획",
+          "box": [
+            830,
+            636,
+            104,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "제작사·검사자 문의",
+          "observed": "권한 미확보 • 확인불가 대기",
+          "box": [
+            782,
+            776,
+            236,
+            26
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "AD-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/AD-01_environment_v2.png",
+      "previousSha256": "a4198732c1dcb293c3a4d45d567716c4d5e55df0794f4dda810b19654d937ff0",
+      "basePath": "assets/proposal-diagrams-20261006/AD-01_environment_v2.png",
+      "baseSha256": "a4198732c1dcb293c3a4d45d567716c4d5e55df0794f4dda810b19654d937ff0",
+      "corrected": "assets/proposal-diagrams-20261006/AD-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획 • 실행• 검증•재계획",
+          "box": [
+            646,
+            317,
+            382,
+            29
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장매•권한 미확보",
+          "box": [
+            1172,
+            776,
+            189,
+            31
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "RD-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/RD-01_overall_v2.png",
+      "previousSha256": "7021031af7cc0b43f041e06193ace167c654db202f8ccecd99bf66929d94780c",
+      "basePath": "assets/proposal-diagrams-20261006/RD-01_overall_v2.png",
+      "baseSha256": "7021031af7cc0b43f041e06193ace167c654db202f8ccecd99bf66929d94780c",
+      "corrected": "assets/proposal-diagrams-20261006/RD-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1085,
+            159,
+            149,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "적용 검토 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1468,
+            308,
+            120,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "RD-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/RD-01_service_v2.png",
+      "previousSha256": "cb6a53b5bdf8342977feaae34082348f7d39b68b5519c7e34fdb73980abd8013",
+      "basePath": "assets/proposal-diagrams-20261006/RD-01_service_v2.png",
+      "baseSha256": "cb6a53b5bdf8342977feaae34082348f7d39b68b5519c7e34fdb73980abd8013",
+      "corrected": "assets/proposal-diagrams-20261006/RD-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "시험 전문가 문의",
+          "observed": "권한•자료 미확보",
+          "box": [
+            481,
+            188,
+            168,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "검사 근거 보강",
+          "observed": "보완•재계획",
+          "box": [
+            906,
+            533,
+            116,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "적용 검토 확인",
+          "observed": "완료 증거 확인 •",
+          "box": [
+            1506,
+            642,
+            132,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "RD-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/RD-01_environment_v2.png",
+      "previousSha256": "a0e7abd71a064f06f392048d180e6bf86dc568f4ba5833deecea544ff9f3afdc",
+      "basePath": "assets/proposal-diagrams-20261006/RD-01_environment_v2.png",
+      "baseSha256": "a0e7abd71a064f06f392048d180e6bf86dc568f4ba5833deecea544ff9f3afdc",
+      "corrected": "assets/proposal-diagrams-20261006/RD-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검종•재계획",
+          "box": [
+            609,
+            325,
+            390,
+            30
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애•권한 미확보",
+          "box": [
+            1288,
+            791,
+            185,
+            29
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX01-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX01-01_overall_v2.png",
+      "previousSha256": "ab3afaaba026db6462816ad21b8a065cf8bf3068a8b5908574edb4eb3791b31c",
+      "basePath": "assets/proposal-diagrams-20261006/EX01-01_overall_v2.png",
+      "baseSha256": "ab3afaaba026db6462816ad21b8a065cf8bf3068a8b5908574edb4eb3791b31c",
+      "corrected": "assets/proposal-diagrams-20261006/EX01-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1030,
+            158,
+            171,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "변경 반영 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1499,
+            248,
+            118,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX01-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX01-01_service_v2.png",
+      "previousSha256": "9dec34d7312ae9c444d0370a0a6d6bd8db66a634ef8f681bc5274a870461f585",
+      "basePath": "assets/proposal-diagrams-20261006/EX01-01_service_v2.png",
+      "baseSha256": "9dec34d7312ae9c444d0370a0a6d6bd8db66a634ef8f681bc5274a870461f585",
+      "corrected": "assets/proposal-diagrams-20261006/EX01-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "관련 부서 협의",
+          "observed": "권한• 자료 미확보",
+          "box": [
+            194,
+            304,
+            154,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "변경 반영 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1522,
+            185,
+            111,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "과제·일정 조정",
+          "observed": "보완•재계획",
+          "box": [
+            1063,
+            615,
+            109,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX01-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX01-01_environment_v2.png",
+      "previousSha256": "71dc80fb2079cd186b23ea078d7c838e59f009c38bd242cdd1bb48cd53afad06",
+      "basePath": "assets/proposal-diagrams-20261006/EX01-01_environment_v2.png",
+      "baseSha256": "71dc80fb2079cd186b23ea078d7c838e59f009c38bd242cdd1bb48cd53afad06",
+      "corrected": "assets/proposal-diagrams-20261006/EX01-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            618,
+            324,
+            386,
+            30
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장에•권한 미확보",
+          "box": [
+            1319,
+            772,
+            175,
+            29
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX02-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX02-01_overall_v2.png",
+      "previousSha256": "b2608a212b2e0e4c8201920ef352099bb4f3c254b4ed1ddb94bf755546bc329c",
+      "basePath": "assets/proposal-diagrams-20261006/EX02-01_overall_v2.png",
+      "baseSha256": "b2608a212b2e0e4c8201920ef352099bb4f3c254b4ed1ddb94bf755546bc329c",
+      "corrected": "assets/proposal-diagrams-20261006/EX02-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사 • 재계획",
+          "box": [
+            1055,
+            124,
+            152,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "계획 수립 • 증거 요청 • 검증 • 재계획",
+          "box": [
+            582,
+            306,
+            241,
+            21
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "편성 결과 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1478,
+            276,
+            113,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX02-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX02-01_service_v2.png",
+      "previousSha256": "365dec82fa2d87c29a4df0b6a0609a252a572597abebb82ea975146c021f6a3a",
+      "basePath": "assets/proposal-diagrams-20261006/EX02-01_service_v2.png",
+      "baseSha256": "365dec82fa2d87c29a4df0b6a0609a252a572597abebb82ea975146c021f6a3a",
+      "corrected": "assets/proposal-diagrams-20261006/EX02-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "사업 담당자 문의",
+          "observed": "권한•자료 미확보",
+          "box": [
+            331,
+            272,
+            142,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "요구안 보강",
+          "observed": "보완•재계획",
+          "box": [
+            1014,
+            572,
+            102,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "편성 결과 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1475,
+            693,
+            137,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX02-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX02-01_environment_v2.png",
+      "previousSha256": "6dc26a0400a93f7f110cac687f8960978fd55e366641465e2807145df6ac130e",
+      "basePath": "assets/proposal-diagrams-20261006/EX02-01_environment_v2.png",
+      "baseSha256": "6dc26a0400a93f7f110cac687f8960978fd55e366641465e2807145df6ac130e",
+      "corrected": "assets/proposal-diagrams-20261006/EX02-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획 • 실행 • 검증•재계획",
+          "box": [
+            648,
+            311,
+            377,
+            29
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애 • 권한 미확보",
+          "box": [
+            1169,
+            753,
+            189,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX03-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX03-01_overall_v2.png",
+      "previousSha256": "ae80bc0991880941bcc0d14235ff432c2b7e3f21135b26a6a0e2a9bab0a7d512",
+      "basePath": "assets/proposal-diagrams-20261006/EX03-01_overall_v2.png",
+      "baseSha256": "ae80bc0991880941bcc0d14235ff432c2b7e3f21135b26a6a0e2a9bab0a7d512",
+      "corrected": "assets/proposal-diagrams-20261006/EX03-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1024,
+            156,
+            150,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "제출 수치 확인",
+          "observed": "팀완료증거확인",
+          "box": [
+            1423,
+            244,
+            180,
+            60
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX03-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX03-01_service_v2.png",
+      "previousSha256": "3c6686d542a9c75dd3205a3ad02fea213b407d19354a1f36d8578f302041d974",
+      "basePath": "assets/proposal-diagrams-20261006/EX03-01_service_v2.png",
+      "baseSha256": "3c6686d542a9c75dd3205a3ad02fea213b407d19354a1f36d8578f302041d974",
+      "corrected": "assets/proposal-diagrams-20261006/EX03-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "실적 담당자 문의",
+          "observed": "권한•자료 미확보 !",
+          "box": [
+            186,
+            298,
+            167,
+            30
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "실적 다시 확인",
+          "observed": "보완•재계획",
+          "box": [
+            960,
+            217,
+            126,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "제출 수치 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1499,
+            674,
+            132,
+            27
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX03-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX03-01_environment_v2.png",
+      "previousSha256": "2e1a3eedbe56139c0acea48fc1ecef6f02d16c6fd670a6caaf34b6dc76f03658",
+      "basePath": "assets/proposal-diagrams-20261006/EX03-01_environment_v2.png",
+      "baseSha256": "2e1a3eedbe56139c0acea48fc1ecef6f02d16c6fd670a6caaf34b6dc76f03658",
+      "corrected": "assets/proposal-diagrams-20261006/EX03-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            645,
+            293,
+            381,
+            29
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장에•권한 미확보",
+          "box": [
+            1321,
+            756,
+            176,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX04-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX04-01_overall_v2.png",
+      "previousSha256": "c87f9ca7df1463c37c1136f2ac0611eced0d86f6829f69fb79002f6261b3b92e",
+      "basePath": "assets/proposal-diagrams-20261006/EX04-01_overall_v2.png",
+      "baseSha256": "c87f9ca7df1463c37c1136f2ac0611eced0d86f6829f69fb79002f6261b3b92e",
+      "corrected": "assets/proposal-diagrams-20261006/EX04-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사 • 재계획",
+          "box": [
+            1045,
+            157,
+            172,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "근거 요청 • 검증 •재계획",
+          "box": [
+            621,
+            321,
+            171,
+            22
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX04-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX04-01_service_v2.png",
+      "previousSha256": "23d3643ef8c8e8d86175fca008fb9d68911caf2e54546bb866cd90cd48614c4e",
+      "basePath": "assets/proposal-diagrams-20261006/EX04-01_service_v2.png",
+      "baseSha256": "23d3643ef8c8e8d86175fca008fb9d68911caf2e54546bb866cd90cd48614c4e",
+      "corrected": "assets/proposal-diagrams-20261006/EX04-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "개선방안 조정",
+          "observed": "4. 후속관측 •재계획",
+          "box": [
+            1386,
+            144,
+            205,
+            29
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "개선방안 조정",
+          "observed": "보완•재계획",
+          "box": [
+            868,
+            590,
+            109,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "NOA 추가 제안",
+          "observed": "NOA 재계획",
+          "box": [
+            875,
+            627,
+            95,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "이용자·현업 문의",
+          "observed": "권한 미확보",
+          "box": [
+            1117,
+            761,
+            96,
+            23
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-4",
+          "text": "이용자·현업 문의",
+          "observed": "- 또는 확인 불가 -",
+          "box": [
+            1096,
+            786,
+            154,
+            23
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-5",
+          "text": "NOA 추가 제안",
+          "observed": "NOA 재계획",
+          "box": [
+            1489,
+            590,
+            112,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-6",
+          "text": "이용자·현업 문의",
+          "observed": "권한 미확보 • 확인불가 대기",
+          "box": [
+            1351,
+            767,
+            245,
+            26
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX04-01",
+      "type": "data",
+      "previousPath": "assets/proposal-diagrams-20261006/EX04-01_data_v1.png",
+      "previousSha256": "d47084199a535479c0639a9785ab0243a76490d6278022e9421cb7d014f0bbb8",
+      "basePath": "assets/proposal-diagrams-20261006/EX04-01_data_v1.png",
+      "baseSha256": "d47084199a535479c0639a9785ab0243a76490d6278022e9421cb7d014f0bbb8",
+      "corrected": "assets/proposal-diagrams-20261006/EX04-01_data_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "NOA 추가 제안",
+          "observed": "상충 • 미완료 NOA 재계획",
+          "box": [
+            1111,
+            345,
+            249,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX04-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX04-01_environment_v2.png",
+      "previousSha256": "0cd7bdec8bdd1b248c0df13d39c55071c9eb6b3d51d58f8c659ea35e8026dc8e",
+      "basePath": "assets/proposal-diagrams-20261006/EX04-01_environment_v2.png",
+      "baseSha256": "0cd7bdec8bdd1b248c0df13d39c55071c9eb6b3d51d58f8c659ea35e8026dc8e",
+      "corrected": "assets/proposal-diagrams-20261006/EX04-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            656,
+            316,
+            359,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애•권한 미확보",
+          "box": [
+            1276,
+            744,
+            182,
+            29
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX05-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX05-01_overall_v2.png",
+      "previousSha256": "dac77fe16e8d2a6048cfd960cb4683fe6ac604bedeb352bdcc68625cfb410edd",
+      "basePath": "assets/proposal-diagrams-20261006/EX05-01_overall_v2.png",
+      "baseSha256": "dac77fe16e8d2a6048cfd960cb4683fe6ac604bedeb352bdcc68625cfb410edd",
+      "corrected": "assets/proposal-diagrams-20261006/EX05-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1019,
+            164,
+            171,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "변경·복구 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1471,
+            282,
+            115,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX05-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX05-01_service_v2.png",
+      "previousSha256": "1aa061fc101eafdad87a972bb285733d36536f68a5fe71a632f4bfc495e58191",
+      "basePath": "assets/proposal-diagrams-20261006/EX05-01_service_v2.png",
+      "baseSha256": "1aa061fc101eafdad87a972bb285733d36536f68a5fe71a632f4bfc495e58191",
+      "corrected": "assets/proposal-diagrams-20261006/EX05-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "운영 담당자 문의",
+          "observed": "권한• 자료 미확보",
+          "box": [
+            179,
+            307,
+            135,
+            23
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "변경 시험 보강",
+          "observed": "보완•재계획",
+          "box": [
+            1014,
+            588,
+            111,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "변경·복구 확인",
+          "observed": "완료 증거 확인•",
+          "box": [
+            1497,
+            434,
+            137,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX05-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX05-01_environment_v2.png",
+      "previousSha256": "911f8462d7aeb61f171ceda5396717ef4acb9e69e146208e38908fd9b2d67be9",
+      "basePath": "assets/proposal-diagrams-20261006/EX05-01_environment_v2.png",
+      "baseSha256": "911f8462d7aeb61f171ceda5396717ef4acb9e69e146208e38908fd9b2d67be9",
+      "corrected": "assets/proposal-diagrams-20261006/EX05-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            643,
+            307,
+            352,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애•권한 미확보",
+          "box": [
+            1243,
+            772,
+            172,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX06-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX06-01_overall_v2.png",
+      "previousSha256": "5b909afdb690c89fe7a9a2ea934e8b39c2ab3802fafb270ee1f0e435fa2ef523",
+      "basePath": "assets/proposal-diagrams-20261006/EX06-01_overall_v2.png",
+      "baseSha256": "5b909afdb690c89fe7a9a2ea934e8b39c2ab3802fafb270ee1f0e435fa2ef523",
+      "corrected": "assets/proposal-diagrams-20261006/EX06-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대A卜재계획",
+          "box": [
+            1047,
+            170,
+            151,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX06-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX06-01_service_v2.png",
+      "previousSha256": "3149dc69345601414c3d9548b229d8175d4f2f0ac123a17686cd782b97bbd28a",
+      "basePath": "assets/proposal-diagrams-20261006/EX06-01_service_v2.png",
+      "baseSha256": "3149dc69345601414c3d9548b229d8175d4f2f0ac123a17686cd782b97bbd28a",
+      "corrected": "assets/proposal-diagrams-20261006/EX06-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "현업·운영자 문의",
+          "observed": "권한 미확보•확인불가 시",
+          "box": [
+            1338,
+            210,
+            205,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "현업·운영자 문의",
+          "observed": "권한 미확보 •확인불가 대기",
+          "box": [
+            1393,
+            282,
+            225,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "평가 다시 수행",
+          "observed": "보완•재계획",
+          "box": [
+            854,
+            594,
+            105,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "• NOA 재계획 수립",
+          "box": [
+            815,
+            665,
+            167,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-4",
+          "text": "NOA 추가 제안",
+          "observed": "NOA 재계획",
+          "box": [
+            1047,
+            771,
+            106,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX06-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX06-01_environment_v2.png",
+      "previousSha256": "cf8af4f9101c31aa097bd0255c88819b5a6aa8be0c4d0748a6cd86c1bf358cf9",
+      "basePath": "assets/proposal-diagrams-20261006/EX06-01_environment_v2.png",
+      "baseSha256": "cf8af4f9101c31aa097bd0255c88819b5a6aa8be0c4d0748a6cd86c1bf358cf9",
+      "corrected": "assets/proposal-diagrams-20261006/EX06-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            617,
+            309,
+            373,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애• 권한 미확보",
+          "box": [
+            1308,
+            763,
+            182,
+            29
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX07-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX07-01_overall_v2.png",
+      "previousSha256": "c209cbe08686c907afdbd97467fbc3210125ccf351dbf6dccda14a089c5172f1",
+      "basePath": "assets/proposal-diagrams-20261006/EX07-01_overall_v2.png",
+      "baseSha256": "c209cbe08686c907afdbd97467fbc3210125ccf351dbf6dccda14a089c5172f1",
+      "corrected": "assets/proposal-diagrams-20261006/EX07-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1027,
+            138,
+            145,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "보안 조치 확인",
+          "observed": "계획•종거요청•검종•재계획",
+          "box": [
+            602,
+            291,
+            220,
+            23
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "조치 시험 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1486,
+            260,
+            111,
+            22
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX07-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX07-01_service_v2.png",
+      "previousSha256": "56084c71ffd8b092db24e243c41e9c46b2b5ce6211290bc260143984cd12715a",
+      "basePath": "assets/proposal-diagrams-20261006/EX07-01_service_v2.png",
+      "baseSha256": "56084c71ffd8b092db24e243c41e9c46b2b5ce6211290bc260143984cd12715a",
+      "corrected": "assets/proposal-diagrams-20261006/EX07-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "NOA 추가 제안",
+          "observed": "NOA 재계획",
+          "box": [
+            1040,
+            346,
+            113,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "보안 조치 확인",
+          "observed": "보완•재계획",
+          "box": [
+            1044,
+            514,
+            115,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "NOA 추가 제안",
+          "observed": "• 미흡 시 NOA 재계획으로 연계",
+          "box": [
+            1378,
+            419,
+            240,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "보안 담당자 문의",
+          "observed": "권한/정보 미확보 시",
+          "box": [
+            660,
+            791,
+            147,
+            21
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-4",
+          "text": "재점검",
+          "observed": "(재계획)",
+          "box": [
+            1267,
+            364,
+            56,
+            21
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-5",
+          "text": "보안 담당자 문의",
+          "observed": "권한 미확보 • 확인불가 대기",
+          "box": [
+            998,
+            778,
+            234,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX07-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX07-01_environment_v2.png",
+      "previousSha256": "5ffc81977a347de321283379c59d1c1f1c4515cb15d99f168af6f09c3b920bac",
+      "basePath": "assets/proposal-diagrams-20261006/EX07-01_environment_v2.png",
+      "baseSha256": "5ffc81977a347de321283379c59d1c1f1c4515cb15d99f168af6f09c3b920bac",
+      "corrected": "assets/proposal-diagrams-20261006/EX07-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획 •실행 • 검증•재계획",
+          "box": [
+            662,
+            303,
+            357,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애 • 권한 미확보",
+          "box": [
+            1344,
+            748,
+            188,
+            30
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX08-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX08-01_overall_v2.png",
+      "previousSha256": "95cf0c24cc623681f33fb66338dbd25a67f0c2d05f0683a653863bfe8746acaa",
+      "basePath": "assets/proposal-diagrams-20261006/EX08-01_overall_v2.png",
+      "baseSha256": "95cf0c24cc623681f33fb66338dbd25a67f0c2d05f0683a653863bfe8746acaa",
+      "corrected": "assets/proposal-diagrams-20261006/EX08-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1047,
+            169,
+            163,
+            27
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "정정 반영 확인",
+          "observed": "처리 완료 증거 확인",
+          "box": [
+            1450,
+            361,
+            151,
+            22
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX08-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX08-01_service_v2.png",
+      "previousSha256": "c891061159fa364085f3683a17def50ccfde1df9f6c8e8bd5ea68b5f75a38eea",
+      "basePath": "assets/proposal-diagrams-20261006/EX08-01_service_v2.png",
+      "baseSha256": "c891061159fa364085f3683a17def50ccfde1df9f6c8e8bd5ea68b5f75a38eea",
+      "corrected": "assets/proposal-diagrams-20261006/EX08-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "정보 담당자 문의",
+          "observed": "권한 미확보 •확인불가 대기",
+          "box": [
+            1021,
+            186,
+            223,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "정보 담당자 문의",
+          "observed": "권한 없음 / 조회 불가",
+          "box": [
+            1016,
+            288,
+            161,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "차량정보 재확인",
+          "observed": "보완•재계획",
+          "box": [
+            919,
+            354,
+            112,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "NOA 추가 제안",
+          "observed": "(NOA 재계획도구)",
+          "box": [
+            903,
+            384,
+            146,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX08-01",
+      "type": "data",
+      "previousPath": "assets/proposal-diagrams-20261006/EX08-01_data_v1.png",
+      "previousSha256": "1280b689cff97d24ca0c210a97f2bf91d4f0161b9587fe3327aa937cff13856b",
+      "basePath": "assets/proposal-diagrams-20261006/EX08-01_data_v1.png",
+      "baseSha256": "1280b689cff97d24ca0c210a97f2bf91d4f0161b9587fe3327aa937cff13856b",
+      "corrected": "assets/proposal-diagrams-20261006/EX08-01_data_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "NOA 추가 제안",
+          "observed": "상충• 미완료 -수 NOA 재계획",
+          "box": [
+            988,
+            381,
+            259,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX08-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX08-01_environment_v2.png",
+      "previousSha256": "8b46cdd99d7c90583a78cdfa1781fdfd021ab5700545c7797629ff701e28092b",
+      "basePath": "assets/proposal-diagrams-20261006/EX08-01_environment_v2.png",
+      "baseSha256": "8b46cdd99d7c90583a78cdfa1781fdfd021ab5700545c7797629ff701e28092b",
+      "corrected": "assets/proposal-diagrams-20261006/EX08-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            621,
+            301,
+            377,
+            30
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애 • 권한 미확보",
+          "box": [
+            1323,
+            752,
+            201,
+            30
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX09-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX09-01_overall_v2.png",
+      "previousSha256": "9a6f0af419a8dfc77ebb9fc4449d348bbbfdceb35bafcb3512fa071b06cdaf85",
+      "basePath": "assets/proposal-diagrams-20261006/EX09-01_overall_v2.png",
+      "baseSha256": "9a6f0af419a8dfc77ebb9fc4449d348bbbfdceb35bafcb3512fa071b06cdaf85",
+      "corrected": "assets/proposal-diagrams-20261006/EX09-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1055,
+            164,
+            172,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "공개 결과 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1474,
+            311,
+            121,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX09-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX09-01_service_v2.png",
+      "previousSha256": "7afa77a1fdcb7bddd229f526c58ad623fd840071d83b2bd9561813775d021520",
+      "basePath": "assets/proposal-diagrams-20261006/EX09-01_service_v2.png",
+      "baseSha256": "7afa77a1fdcb7bddd229f526c58ad623fd840071d83b2bd9561813775d021520",
+      "corrected": "assets/proposal-diagrams-20261006/EX09-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "기록 담당자 문의",
+          "observed": "권한•자료 미확보",
+          "box": [
+            207,
+            268,
+            133,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "공개 범위 검토",
+          "observed": "보완•재계획",
+          "box": [
+            1030,
+            234,
+            105,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "공개 결과 확인",
+          "observed": "완료 증거 확인 •",
+          "box": [
+            1486,
+            586,
+            135,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX09-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX09-01_environment_v2.png",
+      "previousSha256": "13cc7820206d39dd1fc17a7a85209b615e006e5f0d4fb18027e1cb5e9b7d7219",
+      "basePath": "assets/proposal-diagrams-20261006/EX09-01_environment_v2.png",
+      "baseSha256": "13cc7820206d39dd1fc17a7a85209b615e006e5f0d4fb18027e1cb5e9b7d7219",
+      "corrected": "assets/proposal-diagrams-20261006/EX09-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            631,
+            302,
+            379,
+            29
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애 • 권한 미확보",
+          "box": [
+            1307,
+            780,
+            185,
+            30
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX10-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX10-01_overall_v2.png",
+      "previousSha256": "312e9f2996eec5a24699bed50db7d2baed00e2a6c4a7842190f8639f3049c962",
+      "basePath": "assets/proposal-diagrams-20261006/EX10-01_overall_v2.png",
+      "baseSha256": "312e9f2996eec5a24699bed50db7d2baed00e2a6c4a7842190f8639f3049c962",
+      "corrected": "assets/proposal-diagrams-20261006/EX10-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1093,
+            170,
+            161,
+            27
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "수행 역량 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1474,
+            317,
+            124,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX10-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX10-01_service_v2.png",
+      "previousSha256": "f369bbc523fea297201b33b75507315b4a1bc0de23788b120dc7c46c1388d219",
+      "basePath": "assets/proposal-diagrams-20261006/EX10-01_service_v2.png",
+      "baseSha256": "f369bbc523fea297201b33b75507315b4a1bc0de23788b120dc7c46c1388d219",
+      "corrected": "assets/proposal-diagrams-20261006/EX10-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "NOA 추가 제안",
+          "observed": "NOA 재계획",
+          "box": [
+            1425,
+            342,
+            106,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "학습 방법 조정",
+          "observed": "보완•재계획",
+          "box": [
+            1043,
+            638,
+            98,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "교육 담당자 문의",
+          "observed": "권한 미확보 또는",
+          "box": [
+            608,
+            753,
+            116,
+            21
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "교육 담당자 문의",
+          "observed": "권한 미확보 •확인불가 대기",
+          "box": [
+            771,
+            783,
+            217,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX10-01",
+      "type": "data",
+      "previousPath": "assets/proposal-diagrams-20261006/EX10-01_data_v1.png",
+      "previousSha256": "3233e91f2a210ac26082bb9cf5307636de461e8811a7b5e71317475b616a153d",
+      "basePath": "assets/proposal-diagrams-20261006/EX10-01_data_v1.png",
+      "baseSha256": "3233e91f2a210ac26082bb9cf5307636de461e8811a7b5e71317475b616a153d",
+      "corrected": "assets/proposal-diagrams-20261006/EX10-01_data_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "NOA 추가 제안",
+          "observed": "상충 • 미완료 NOA 재계획",
+          "box": [
+            989,
+            355,
+            225,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX10-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX10-01_environment_v2.png",
+      "previousSha256": "45fbc069e8223237f5a275fe60f0ca8d702115d7d3f2f7f87b7f9a9bd199675d",
+      "basePath": "assets/proposal-diagrams-20261006/EX10-01_environment_v2.png",
+      "baseSha256": "45fbc069e8223237f5a275fe60f0ca8d702115d7d3f2f7f87b7f9a9bd199675d",
+      "corrected": "assets/proposal-diagrams-20261006/EX10-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            622,
+            297,
+            407,
+            30
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애• 권한 미확보",
+          "box": [
+            1325,
+            793,
+            194,
+            30
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX11-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX11-01_overall_v2.png",
+      "previousSha256": "b2ee2487eee868504ceeca8f88d356977b8a0b4fcebf683b30225a173fe8c268",
+      "basePath": "assets/proposal-diagrams-20261006/EX11-01_overall_v2.png",
+      "baseSha256": "b2ee2487eee868504ceeca8f88d356977b8a0b4fcebf683b30225a173fe8c268",
+      "corrected": "assets/proposal-diagrams-20261006/EX11-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1032,
+            158,
+            170,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "전표 결과 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1466,
+            339,
+            122,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX11-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX11-01_service_v2.png",
+      "previousSha256": "2e94ed445a87457725e339faabad315f36999fc949d7037548580c42a4985ba0",
+      "basePath": "assets/proposal-diagrams-20261006/EX11-01_service_v2.png",
+      "baseSha256": "2e94ed445a87457725e339faabad315f36999fc949d7037548580c42a4985ba0",
+      "corrected": "assets/proposal-diagrams-20261006/EX11-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "계약·회계자 문의",
+          "observed": "권한 또는 조회 불가 시",
+          "box": [
+            898,
+            275,
+            165,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "계약·회계자 문의",
+          "observed": "권한 미확보 • 확인불가 대기",
+          "box": [
+            1148,
+            279,
+            221,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "정산 자료 확인",
+          "observed": "보완•재계획",
+          "box": [
+            775,
+            643,
+            103,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "NOA 추가 제안",
+          "observed": "NOA 재계획 도구",
+          "box": [
+            766,
+            683,
+            122,
+            21
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX11-01",
+      "type": "data",
+      "previousPath": "assets/proposal-diagrams-20261006/EX11-01_data_v1.png",
+      "previousSha256": "1e001a32773776875b82c26c4547ee703eb9829a373b0dcbf25bcdfd3cf5f7c4",
+      "basePath": "assets/proposal-diagrams-20261006/EX11-01_data_v1.png",
+      "baseSha256": "1e001a32773776875b82c26c4547ee703eb9829a373b0dcbf25bcdfd3cf5f7c4",
+      "corrected": "assets/proposal-diagrams-20261006/EX11-01_data_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "정산 자료 확인",
+          "observed": "• 상충•미완료 시 재계획",
+          "box": [
+            1127,
+            374,
+            193,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "정산 자료 확인",
+          "observed": "상충•미완료 재계획",
+          "box": [
+            1177,
+            435,
+            204,
+            27
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX11-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX11-01_environment_v2.png",
+      "previousSha256": "df352ca3d452374da9c579b430ce150c12a85a2c037cccad37caff75e4ded461",
+      "basePath": "assets/proposal-diagrams-20261006/EX11-01_environment_v2.png",
+      "baseSha256": "df352ca3d452374da9c579b430ce150c12a85a2c037cccad37caff75e4ded461",
+      "corrected": "assets/proposal-diagrams-20261006/EX11-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            617,
+            296,
+            402,
+            29
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애• 권한 미확보",
+          "box": [
+            1212,
+            738,
+            173,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX12-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX12-01_overall_v2.png",
+      "previousSha256": "1ff40e44848c203c2da607e6807522ded2ef522cf1f0bc39c8126eede866e22f",
+      "basePath": "assets/proposal-diagrams-20261006/EX12-01_overall_v2.png",
+      "baseSha256": "1ff40e44848c203c2da607e6807522ded2ef522cf1f0bc39c8126eede866e22f",
+      "corrected": "assets/proposal-diagrams-20261006/EX12-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1068,
+            160,
+            174,
+            27
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "시운전·인수 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1472,
+            334,
+            120,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX12-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX12-01_service_v2.png",
+      "previousSha256": "906f4a85beae22aa84756fa233f4e1b20f36b5fa7bedb890ece5837be47e0cb2",
+      "basePath": "assets/proposal-diagrams-20261006/EX12-01_service_v2.png",
+      "baseSha256": "906f4a85beae22aa84756fa233f4e1b20f36b5fa7bedb890ece5837be47e0cb2",
+      "corrected": "assets/proposal-diagrams-20261006/EX12-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "인수 자료 확인",
+          "observed": "보완•재계획",
+          "box": [
+            982,
+            304,
+            103,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "NOA 추가 제안",
+          "observed": "NOA 재계획",
+          "box": [
+            1415,
+            381,
+            93,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "시설 담당자 문의",
+          "observed": "권한 미확보 • 확인불가 대기",
+          "box": [
+            1135,
+            795,
+            183,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "시설 담당자 문의",
+          "observed": "권한 미확보•확인불가",
+          "box": [
+            969,
+            826,
+            145,
+            20
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX12-01",
+      "type": "data",
+      "previousPath": "assets/proposal-diagrams-20261006/EX12-01_data_v1.png",
+      "previousSha256": "fb4f92cf546f427286616d671aca5bd86848f3d70bd401eab57b9ca458f95767",
+      "basePath": "assets/proposal-diagrams-20261006/EX12-01_data_v1.png",
+      "baseSha256": "fb4f92cf546f427286616d671aca5bd86848f3d70bd401eab57b9ca458f95767",
+      "corrected": "assets/proposal-diagrams-20261006/EX12-01_data_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "NOA 추가 제안",
+          "observed": "상충• 미완료 NOA 재계획",
+          "box": [
+            1008,
+            351,
+            210,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX12-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX12-01_environment_v2.png",
+      "previousSha256": "11446afb7076f7fd31736d8495abe40bd010273f0e4647802697a371b11f1364",
+      "basePath": "assets/proposal-diagrams-20261006/EX12-01_environment_v2.png",
+      "baseSha256": "11446afb7076f7fd31736d8495abe40bd010273f0e4647802697a371b11f1364",
+      "corrected": "assets/proposal-diagrams-20261006/EX12-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증 • 재계획",
+          "box": [
+            651,
+            306,
+            370,
+            30
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장매•권한 미확보",
+          "box": [
+            1324,
+            777,
+            145,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX13-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX13-01_overall_v2.png",
+      "previousSha256": "72df9f930dd02594d193cf9e7a405976365b5791c537c4ac67ccb1acb5f5acd9",
+      "basePath": "assets/proposal-diagrams-20261006/EX13-01_overall_v2.png",
+      "baseSha256": "72df9f930dd02594d193cf9e7a405976365b5791c537c4ac67ccb1acb5f5acd9",
+      "corrected": "assets/proposal-diagrams-20261006/EX13-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사• 재계획",
+          "box": [
+            994,
+            171,
+            170,
+            27
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "조치 검토 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1466,
+            320,
+            131,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX13-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX13-01_service_v2.png",
+      "previousSha256": "c4a8d783b01dea00cb80f063022583f145dd6ed6eb82667d9f2bbd4538f24a59",
+      "basePath": "assets/proposal-diagrams-20261006/EX13-01_service_v2.png",
+      "baseSha256": "c4a8d783b01dea00cb80f063022583f145dd6ed6eb82667d9f2bbd4538f24a59",
+      "corrected": "assets/proposal-diagrams-20261006/EX13-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "재확인",
+          "observed": "재계획",
+          "box": [
+            20,
+            443,
+            54,
+            23
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "감사 담당자 문의",
+          "observed": "권한 또는 공식 조회 불가",
+          "box": [
+            973,
+            333,
+            178,
+            21
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "사실 추가 확인",
+          "observed": "결과 검토 및 재계획",
+          "box": [
+            1342,
+            353,
+            168,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "사실 추가 확인",
+          "observed": "재계획으로 복귀",
+          "box": [
+            1546,
+            368,
+            112,
+            20
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-4",
+          "text": "감사 담당자 문의",
+          "observed": "권한 미확보•확인물가 대기",
+          "box": [
+            1043,
+            402,
+            231,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-5",
+          "text": "사실 추가 확인",
+          "observed": "보완•재계획",
+          "box": [
+            926,
+            680,
+            108,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX13-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX13-01_environment_v2.png",
+      "previousSha256": "33e3dfd38a6425e269daecd4baf30b0289467281bae47d1f16d9e84d0599f3bd",
+      "basePath": "assets/proposal-diagrams-20261006/EX13-01_environment_v2.png",
+      "baseSha256": "33e3dfd38a6425e269daecd4baf30b0289467281bae47d1f16d9e84d0599f3bd",
+      "corrected": "assets/proposal-diagrams-20261006/EX13-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            635,
+            306,
+            364,
+            29
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애 •권한 미확보",
+          "box": [
+            1346,
+            762,
+            193,
+            30
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX14-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX14-01_overall_v2.png",
+      "previousSha256": "52b74850833cdca37170d2f4ff95a0312df213b117ba563859a3928d01b9351b",
+      "basePath": "assets/proposal-diagrams-20261006/EX14-01_overall_v2.png",
+      "baseSha256": "52b74850833cdca37170d2f4ff95a0312df213b117ba563859a3928d01b9351b",
+      "corrected": "assets/proposal-diagrams-20261006/EX14-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            991,
+            142,
+            162,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "계획 수립•근거요청•검증•재계획",
+          "box": [
+            587,
+            291,
+            223,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "제공 자료 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1487,
+            260,
+            113,
+            22
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX14-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX14-01_service_v2.png",
+      "previousSha256": "5f37382e7b59427db52861ead870c0b8811752cdf0bac81e98ac955844aa1d03",
+      "basePath": "assets/proposal-diagrams-20261006/EX14-01_service_v2.png",
+      "baseSha256": "5f37382e7b59427db52861ead870c0b8811752cdf0bac81e98ac955844aa1d03",
+      "corrected": "assets/proposal-diagrams-20261006/EX14-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 담당자 문의",
+          "observed": "권한•자료 미확보 ••",
+          "box": [
+            448,
+            248,
+            164,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "자료 이용 확인",
+          "observed": "보완•재계획",
+          "box": [
+            967,
+            554,
+            115,
+            27
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "제공 자료 확인",
+          "observed": "완료 증거 확인•",
+          "box": [
+            1520,
+            192,
+            122,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX14-01",
+      "type": "data",
+      "previousPath": "assets/proposal-diagrams-20261006/EX14-01_data_v1.png",
+      "previousSha256": "9371978445903b669a50b3bcc4e929a90bb747a84428caa18f0a5934c664d02f",
+      "basePath": "assets/proposal-diagrams-20261006/EX14-01_data_v1.png",
+      "baseSha256": "9371978445903b669a50b3bcc4e929a90bb747a84428caa18f0a5934c664d02f",
+      "corrected": "assets/proposal-diagrams-20261006/EX14-01_data_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "NOA 추가 제안",
+          "observed": "상충• 미완료 NOA 재계획",
+          "box": [
+            1012,
+            349,
+            236,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX14-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX14-01_environment_v2.png",
+      "previousSha256": "f9df3470e05d8662a3023fcb71e9195ab075df29bf71ac7e343c7811a545f5f8",
+      "basePath": "assets/proposal-diagrams-20261006/EX14-01_environment_v2.png",
+      "baseSha256": "f9df3470e05d8662a3023fcb71e9195ab075df29bf71ac7e343c7811a545f5f8",
+      "corrected": "assets/proposal-diagrams-20261006/EX14-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            633,
+            309,
+            407,
+            30
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애 • 권한 미확보: 기존 수기 검토 복귀",
+          "box": [
+            1220,
+            762,
+            380,
+            26
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX15-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX15-01_overall_v2.png",
+      "previousSha256": "02d5a1bf83b3153f7c46b9167b77f9912193d4df24a6c7488f38055d70fc067a",
+      "basePath": "assets/proposal-diagrams-20261006/EX15-01_overall_v2.png",
+      "baseSha256": "02d5a1bf83b3153f7c46b9167b77f9912193d4df24a6c7488f38055d70fc067a",
+      "corrected": "assets/proposal-diagrams-20261006/EX15-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1059,
+            148,
+            138,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "기관 조치 확인",
+          "observed": "처리 완료 증거 확인",
+          "box": [
+            1491,
+            297,
+            141,
+            21
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX15-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX15-01_service_v2.png",
+      "previousSha256": "4f273589972fe46dda23ed90a8f988dd41500a332105957ae685107f0c25849b",
+      "basePath": "assets/proposal-diagrams-20261006/EX15-01_service_v2.png",
+      "baseSha256": "4f273589972fe46dda23ed90a8f988dd41500a332105957ae685107f0c25849b",
+      "corrected": "assets/proposal-diagrams-20261006/EX15-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "관할기관 문의",
+          "observed": "권한 미확보 확인불가대기 |",
+          "box": [
+            1062,
+            444,
+            223,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "대상 다시 확인",
+          "observed": "보완•재계획",
+          "box": [
+            1050,
+            691,
+            100,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "NOA 추가 제안",
+          "observed": "NOA 재계획",
+          "box": [
+            1448,
+            388,
+            95,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX15-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX15-01_environment_v2.png",
+      "previousSha256": "4b45d1f8161051493b295265fa1011ee2f9805392a432147630efda4ae46523d",
+      "basePath": "assets/proposal-diagrams-20261006/EX15-01_environment_v2.png",
+      "baseSha256": "4b45d1f8161051493b295265fa1011ee2f9805392a432147630efda4ae46523d",
+      "corrected": "assets/proposal-diagrams-20261006/EX15-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검종•재계획",
+          "box": [
+            618,
+            312,
+            387,
+            29
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애 • 권한 미확보",
+          "box": [
+            1351,
+            756,
+            180,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX16-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX16-01_overall_v2.png",
+      "previousSha256": "abfd76a3494d98f6d775f6b7e0c832dfa0bb382b71ffbfc0a7e4773fb95dad23",
+      "basePath": "assets/proposal-diagrams-20261006/EX16-01_overall_v2.png",
+      "baseSha256": "abfd76a3494d98f6d775f6b7e0c832dfa0bb382b71ffbfc0a7e4773fb95dad23",
+      "corrected": "assets/proposal-diagrams-20261006/EX16-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사• 재계획",
+          "box": [
+            1052,
+            159,
+            161,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX16-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX16-01_service_v2.png",
+      "previousSha256": "f6aecfcb33bed8313ade2b1d1dec3ccf63cfb412a5aebb9a056030e9acde62fc",
+      "basePath": "assets/proposal-diagrams-20261006/EX16-01_service_v2.png",
+      "baseSha256": "f6aecfcb33bed8313ade2b1d1dec3ccf63cfb412a5aebb9a056030e9acde62fc",
+      "corrected": "assets/proposal-diagrams-20261006/EX16-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "시험 준비 조정",
+          "observed": "NO • 보완•재계획",
+          "box": [
+            667,
+            192,
+            171,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "시험 접수 확인·추가 안내",
+          "observed": "완료 증거•재계획",
+          "box": [
+            1501,
+            415,
+            149,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "기업·시험자 문의",
+          "observed": "권한•자료미확보: :",
+          "box": [
+            36,
+            539,
+            193,
+            31
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX16-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX16-01_environment_v2.png",
+      "previousSha256": "aec03ca23c48927dd53fdf99cc9d78228fbf127b11576ffbc1c86728b6abd635",
+      "basePath": "assets/proposal-diagrams-20261006/EX16-01_environment_v2.png",
+      "baseSha256": "aec03ca23c48927dd53fdf99cc9d78228fbf127b11576ffbc1c86728b6abd635",
+      "corrected": "assets/proposal-diagrams-20261006/EX16-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획 • 실행 • 검증•재계획",
+          "box": [
+            607,
+            294,
+            424,
+            31
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애 • 권한 미확보",
+          "box": [
+            1260,
+            756,
+            192,
+            29
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX17-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX17-01_overall_v2.png",
+      "previousSha256": "5996438e9cef783d0f79d13c2c9fa95c47b43c9c2e03456393d293d3c0308697",
+      "basePath": "assets/proposal-diagrams-20261006/EX17-01_overall_v2.png",
+      "baseSha256": "5996438e9cef783d0f79d13c2c9fa95c47b43c9c2e03456393d293d3c0308697",
+      "corrected": "assets/proposal-diagrams-20261006/EX17-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1076,
+            183,
+            164,
+            27
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "절차 준비 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1469,
+            337,
+            127,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX17-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX17-01_service_v2.png",
+      "previousSha256": "dfa2c73f3fe2f71e23e81fed13bef2655b617c9539d70767f303dc68552d3b88",
+      "basePath": "assets/proposal-diagrams-20261006/EX17-01_service_v2.png",
+      "baseSha256": "dfa2c73f3fe2f71e23e81fed13bef2655b617c9539d70767f303dc68552d3b88",
+      "corrected": "assets/proposal-diagrams-20261006/EX17-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "장착 조건 확인",
+          "observed": "보완•재계획",
+          "box": [
+            991,
+            375,
+            104,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "기업·검사자 문의",
+          "observed": "(권한 미확보/확인불가 시",
+          "box": [
+            1208,
+            577,
+            163,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "NOA 추가 제안",
+          "observed": "NOA 재계획",
+          "box": [
+            1427,
+            374,
+            103,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "기업·검사자 문의",
+          "observed": "권한 미확보•확인불가 대기",
+          "box": [
+            1411,
+            551,
+            222,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-4",
+          "text": "기업·검사자 문의",
+          "observed": "권한 확인 불가 시 대기",
+          "box": [
+            1428,
+            617,
+            170,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX17-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX17-01_environment_v2.png",
+      "previousSha256": "fa0a3ff7c98d71ad3cd2b6a73919241a34a6f01f25e86778ce3c7e168592dc6c",
+      "basePath": "assets/proposal-diagrams-20261006/EX17-01_environment_v2.png",
+      "baseSha256": "fa0a3ff7c98d71ad3cd2b6a73919241a34a6f01f25e86778ce3c7e168592dc6c",
+      "corrected": "assets/proposal-diagrams-20261006/EX17-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            631,
+            307,
+            411,
+            31
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장에 • 권한 미확보",
+          "box": [
+            1335,
+            757,
+            198,
+            29
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX18-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX18-01_overall_v2.png",
+      "previousSha256": "796ae64bd5ba95799c027e76e31be616473ea13547f782b88b7881ab62396ddf",
+      "basePath": "assets/proposal-diagrams-20261006/EX18-01_overall_v2.png",
+      "baseSha256": "796ae64bd5ba95799c027e76e31be616473ea13547f782b88b7881ab62396ddf",
+      "corrected": "assets/proposal-diagrams-20261006/EX18-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사• 재계획",
+          "box": [
+            1087,
+            168,
+            154,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "장애물 조치 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1479,
+            327,
+            122,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX18-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX18-01_service_v2.png",
+      "previousSha256": "00259d41934c7a35dd70703a1511e82850def2f23ce357d6cb5f75ba4e25e01f",
+      "basePath": "assets/proposal-diagrams-20261006/EX18-01_service_v2.png",
+      "baseSha256": "00259d41934c7a35dd70703a1511e82850def2f23ce357d6cb5f75ba4e25e01f",
+      "corrected": "assets/proposal-diagrams-20261006/EX18-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "현장 다시 확인",
+          "observed": "NO • 보완•재계획",
+          "box": [
+            630,
+            216,
+            180,
+            29
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "공항 담당자 문의",
+          "observed": "권한•자료 미확보:",
+          "box": [
+            33,
+            535,
+            155,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "장애물 조치 확인·추가 안내",
+          "observed": "완료 증거•재계획",
+          "box": [
+            1492,
+            396,
+            158,
+            27
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX18-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX18-01_environment_v2.png",
+      "previousSha256": "64c0b67ddf7dee1f535194f7c711b28118ba599f67c7d0f66550318cc302ce8d",
+      "basePath": "assets/proposal-diagrams-20261006/EX18-01_environment_v2.png",
+      "baseSha256": "64c0b67ddf7dee1f535194f7c711b28118ba599f67c7d0f66550318cc302ce8d",
+      "corrected": "assets/proposal-diagrams-20261006/EX18-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            624,
+            328,
+            425,
+            30
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애 • 권한 미확보",
+          "box": [
+            1330,
+            785,
+            174,
+            27
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX19-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX19-01_overall_v2.png",
+      "previousSha256": "4282f7a3ee52f798d0fd53ef684d9bde98d2b5ffd9a8977f72ae35eccacd987b",
+      "basePath": "assets/proposal-diagrams-20261006/EX19-01_overall_v2.png",
+      "baseSha256": "4282f7a3ee52f798d0fd53ef684d9bde98d2b5ffd9a8977f72ae35eccacd987b",
+      "corrected": "assets/proposal-diagrams-20261006/EX19-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1050,
+            165,
+            141,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "응시 준비 확인",
+          "observed": "0 완료 증거 확인",
+          "box": [
+            1431,
+            258,
+            171,
+            54
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX19-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX19-01_service_v2.png",
+      "previousSha256": "428cc041adbbacfa7244b8a34e5f555556afcbc7a095f546b4eb286f57229d44",
+      "basePath": "assets/proposal-diagrams-20261006/EX19-01_service_v2.png",
+      "baseSha256": "428cc041adbbacfa7244b8a34e5f555556afcbc7a095f546b4eb286f57229d44",
+      "corrected": "assets/proposal-diagrams-20261006/EX19-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "경력 자료 확인",
+          "observed": "(부족항목•대안•재계획)",
+          "box": [
+            1097,
+            372,
+            182,
+            23
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "경력 자료 확인",
+          "observed": "보완•재계획",
+          "box": [
+            1139,
+            608,
+            102,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "자격 담당자 문의",
+          "observed": "권한 미확보 또는",
+          "box": [
+            1134,
+            704,
+            119,
+            21
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "NOA 추가 제안",
+          "observed": "NOA 재계획",
+          "box": [
+            1381,
+            341,
+            104,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-4",
+          "text": "경력 자료 확인",
+          "observed": "재계획에 따라",
+          "box": [
+            1563,
+            189,
+            99,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-5",
+          "text": "경력 자료 확인",
+          "observed": "재계획으로 복귀",
+          "box": [
+            1520,
+            543,
+            119,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-6",
+          "text": "자격 담당자 문의",
+          "observed": "권한 미확보 •확인불가 대기",
+          "box": [
+            1339,
+            685,
+            213,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX19-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX19-01_environment_v2.png",
+      "previousSha256": "aad7e8ee1dd94744b67a810a0627bd096985f6fbd527e138a970df0d96f1b46d",
+      "basePath": "assets/proposal-diagrams-20261006/EX19-01_environment_v2.png",
+      "baseSha256": "aad7e8ee1dd94744b67a810a0627bd096985f6fbd527e138a970df0d96f1b46d",
+      "corrected": "assets/proposal-diagrams-20261006/EX19-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획 • 실행 • 검증• 재계획",
+          "box": [
+            658,
+            288,
+            353,
+            27
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애• 권한 미확보",
+          "box": [
+            1330,
+            759,
+            197,
+            31
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX20-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX20-01_overall_v2.png",
+      "previousSha256": "2204451a4bc19ba4d169b42641dea4ee527f01d2b4d6ab55262231fea58f9723",
+      "basePath": "assets/proposal-diagrams-20261006/EX20-01_overall_v2.png",
+      "baseSha256": "2204451a4bc19ba4d169b42641dea4ee527f01d2b4d6ab55262231fea58f9723",
+      "corrected": "assets/proposal-diagrams-20261006/EX20-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1063,
+            147,
+            134,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "추가 검토",
+          "observed": "검증 • 재계획",
+          "box": [
+            655,
+            320,
+            96,
+            21
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "신고 처리 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1496,
+            255,
+            119,
+            23
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "신고 처리 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1480,
+            320,
+            108,
+            21
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX20-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX20-01_service_v2.png",
+      "previousSha256": "59a4230db9d85ec1b8a5b10bed470c7146c8a2536560d9d87d41dfcb3192649b",
+      "basePath": "assets/proposal-diagrams-20261006/EX20-01_service_v2.png",
+      "baseSha256": "59a4230db9d85ec1b8a5b10bed470c7146c8a2536560d9d87d41dfcb3192649b",
+      "corrected": "assets/proposal-diagrams-20261006/EX20-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "변경 요건 확인",
+          "observed": "NO • 보완•재계획",
+          "box": [
+            661,
+            209,
+            187,
+            30
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "신고 처리 확인·추가 안내",
+          "observed": "완료 증거•재계획",
+          "box": [
+            1495,
+            428,
+            149,
+            27
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "드론 담당자 문의",
+          "observed": "| 권한•자료 미확보:",
+          "box": [
+            22,
+            537,
+            181,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "드론 담당자 문의",
+          "observed": "5 보완• 미승인 -)2재계획 / 7 상충• 미완료 재계획 / 조회 권한 불가 대기",
+          "box": [
+            536,
+            871,
+            730,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX20-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX20-01_environment_v2.png",
+      "previousSha256": "9a7b988bc4e02c0e87fb46971883bc84d3e551f1737ccce86b137573a01d8075",
+      "basePath": "assets/proposal-diagrams-20261006/EX20-01_environment_v2.png",
+      "baseSha256": "9a7b988bc4e02c0e87fb46971883bc84d3e551f1737ccce86b137573a01d8075",
+      "corrected": "assets/proposal-diagrams-20261006/EX20-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획 • 실행•검증•재계획",
+          "box": [
+            632,
+            306,
+            376,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애 • 권한 미확보",
+          "box": [
+            1331,
+            760,
+            192,
+            30
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX21-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX21-01_overall_v2.png",
+      "previousSha256": "a1486c9db02aaf5910c99c2f27295e2486d41e34691cc5d287d7a0f5db5d0c7b",
+      "basePath": "assets/proposal-diagrams-20261006/EX21-01_overall_v2.png",
+      "baseSha256": "a1486c9db02aaf5910c99c2f27295e2486d41e34691cc5d287d7a0f5db5d0c7b",
+      "corrected": "assets/proposal-diagrams-20261006/EX21-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1072,
+            179,
+            150,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "준비 검토 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1469,
+            329,
+            116,
+            22
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX21-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX21-01_service_v2.png",
+      "previousSha256": "01f932f7b749ddf7641a95a01d99cf50d3cbe00abf342b30da7d4c5712c7a7e7",
+      "basePath": "assets/proposal-diagrams-20261006/EX21-01_service_v2.png",
+      "baseSha256": "01f932f7b749ddf7641a95a01d99cf50d3cbe00abf342b30da7d4c5712c7a7e7",
+      "corrected": "assets/proposal-diagrams-20261006/EX21-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "준비 범위 협의",
+          "observed": "보완•재계획",
+          "box": [
+            1228,
+            658,
+            98,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "NOA 추가 제안",
+          "observed": "NOA 재계획(안)",
+          "box": [
+            1222,
+            692,
+            112,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "관계기관 협의",
+          "observed": "권한 미확보 포는",
+          "box": [
+            768,
+            739,
+            129,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "관계기관 협의",
+          "observed": "확인 불가 질의 발생",
+          "box": [
+            760,
+            766,
+            151,
+            23
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-4",
+          "text": "관계기관 협의",
+          "observed": "권한 미확보•확인불가 대기",
+          "box": [
+            832,
+            807,
+            194,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-5",
+          "text": "NOA 추가 제안",
+          "observed": "결과 미흡 시 NOA 재계획으로 복귀",
+          "box": [
+            1102,
+            852,
+            257,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-6",
+          "text": "NOA 추가 제안",
+          "observed": "NOA 재계획(안)",
+          "box": [
+            1469,
+            293,
+            116,
+            22
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX21-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX21-01_environment_v2.png",
+      "previousSha256": "f363ee73202647384a876e75cae3b25118f45fdbafc84aefae2ff380f2490f16",
+      "basePath": "assets/proposal-diagrams-20261006/EX21-01_environment_v2.png",
+      "baseSha256": "f363ee73202647384a876e75cae3b25118f45fdbafc84aefae2ff380f2490f16",
+      "corrected": "assets/proposal-diagrams-20261006/EX21-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            654,
+            301,
+            338,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애•권한 미확보",
+          "box": [
+            1340,
+            719,
+            177,
+            27
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX22-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX22-01_overall_v2.png",
+      "previousSha256": "d9d9ebe294da3adb7d58e81d5d1bd8649be90ce56ca43a1cdd951fcddc3cd1a4",
+      "basePath": "assets/proposal-diagrams-20261006/EX22-01_overall_v2.png",
+      "baseSha256": "d9d9ebe294da3adb7d58e81d5d1bd8649be90ce56ca43a1cdd951fcddc3cd1a4",
+      "corrected": "assets/proposal-diagrams-20261006/EX22-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1031,
+            159,
+            152,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "공유 자료 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1476,
+            307,
+            121,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX22-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX22-01_service_v2.png",
+      "previousSha256": "4087d86e170846dca17be166ead399b1d85769b91791aa18d15396b213e56072",
+      "basePath": "assets/proposal-diagrams-20261006/EX22-01_service_v2.png",
+      "baseSha256": "4087d86e170846dca17be166ead399b1d85769b91791aa18d15396b213e56072",
+      "corrected": "assets/proposal-diagrams-20261006/EX22-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "보호 범위 검토",
+          "observed": "NO • 보완•재계획",
+          "box": [
+            632,
+            203,
+            199,
+            30
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "보고 담당자 문의",
+          "observed": "권한•자료 미확보:",
+          "box": [
+            43,
+            526,
+            154,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "공유 자료 확인·추가 안내",
+          "observed": "완료 증거•재계획",
+          "box": [
+            1493,
+            412,
+            150,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "보고 담당자 문의",
+          "observed": "圁 추가안내 (화살표없음) 1 5보완•미승인“2재계획 / 7상충•미완료놔재계획 / 조회 권한 불가 “대기",
+          "box": [
+            516,
+            863,
+            816,
+            38
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX22-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX22-01_environment_v2.png",
+      "previousSha256": "8dc1c74c2b352348f38d7f00caa67b00102e668a8f3309ad2ab6a4c454d4d5a7",
+      "basePath": "assets/proposal-diagrams-20261006/EX22-01_environment_v2.png",
+      "baseSha256": "8dc1c74c2b352348f38d7f00caa67b00102e668a8f3309ad2ab6a4c454d4d5a7",
+      "corrected": "assets/proposal-diagrams-20261006/EX22-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            627,
+            310,
+            389,
+            31
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애 •권한 미확보",
+          "box": [
+            1344,
+            719,
+            167,
+            27
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX22-02",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX22-02_overall_v2.png",
+      "previousSha256": "d16a1e18ba33243bef3a55f30aa5b443f1868e8c1365f97c5a5930f84c6a7a53",
+      "basePath": "assets/proposal-diagrams-20261006/EX22-02_overall_v2.png",
+      "baseSha256": "d16a1e18ba33243bef3a55f30aa5b443f1868e8c1365f97c5a5930f84c6a7a53",
+      "corrected": "assets/proposal-diagrams-20261006/EX22-02_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "계획•검증•재계획",
+          "box": [
+            630,
+            331,
+            133,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사• 재계획",
+          "box": [
+            1020,
+            123,
+            155,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "자격 검토 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1475,
+            304,
+            117,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX22-02",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX22-02_service_v2.png",
+      "previousSha256": "3ff8ab4bb1af0417b96ee8ec3e454fe824468cc8479a5b183ebe112835730043",
+      "basePath": "assets/proposal-diagrams-20261006/EX22-02_service_v2.png",
+      "baseSha256": "3ff8ab4bb1af0417b96ee8ec3e454fe824468cc8479a5b183ebe112835730043",
+      "corrected": "assets/proposal-diagrams-20261006/EX22-02_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "NOA 추가 제안",
+          "observed": "NOA 재계획으로",
+          "box": [
+            1547,
+            302,
+            103,
+            19
+          ],
+          "weight": 400
+        },
+        {
+          "key": "business-1",
+          "text": "NOA 추가 제안",
+          "observed": "NOA 재계획",
+          "box": [
+            1536,
+            403,
+            89,
+            21
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "기간·경력 확인",
+          "observed": "보완•재계획",
+          "box": [
+            905,
+            690,
+            95,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "자격 담당자 문의",
+          "observed": "-가 권한 미확보•확인불가",
+          "box": [
+            1244,
+            650,
+            192,
+            21
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-4",
+          "text": "자격 담당자 문의",
+          "observed": "권한 미확보•확인불가 대기",
+          "box": [
+            1414,
+            690,
+            202,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX22-02",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX22-02_environment_v2.png",
+      "previousSha256": "4b87bb45a4fdacdb9023e8c57785d45ac23859e1148e6651c0fc64a61acc018a",
+      "basePath": "assets/proposal-diagrams-20261006/EX22-02_environment_v2.png",
+      "baseSha256": "4b87bb45a4fdacdb9023e8c57785d45ac23859e1148e6651c0fc64a61acc018a",
+      "corrected": "assets/proposal-diagrams-20261006/EX22-02_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            618,
+            323,
+            437,
+            32
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장매•권한 미확보",
+          "box": [
+            1369,
+            771,
+            178,
+            29
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX23-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX23-01_overall_v2.png",
+      "previousSha256": "d2ae4f38067e3e50ceeaa6c8dd2dd83610b1966bf0fabe9091e604c5de1b87c4",
+      "basePath": "assets/proposal-diagrams-20261006/EX23-01_overall_v2.png",
+      "baseSha256": "d2ae4f38067e3e50ceeaa6c8dd2dd83610b1966bf0fabe9091e604c5de1b87c4",
+      "corrected": "assets/proposal-diagrams-20261006/EX23-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사• 재계획",
+          "box": [
+            1053,
+            165,
+            162,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "계획 수립•근거 요랑 •검증•재계획",
+          "box": [
+            607,
+            353,
+            212,
+            21
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "승인 검토 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1477,
+            324,
+            113,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX23-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX23-01_service_v2.png",
+      "previousSha256": "24e29f43caf6672981bcc24941c07d285d579a9a8b555c1e310ab32628d96cd2",
+      "basePath": "assets/proposal-diagrams-20261006/EX23-01_service_v2.png",
+      "baseSha256": "24e29f43caf6672981bcc24941c07d285d579a9a8b555c1e310ab32628d96cd2",
+      "corrected": "assets/proposal-diagrams-20261006/EX23-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "철도 담당자 문의",
+          "observed": "권한• 자료 미확보",
+          "box": [
+            482,
+            179,
+            155,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "현장·서류 확인",
+          "observed": "보완•재계획",
+          "box": [
+            986,
+            590,
+            112,
+            27
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "승인 검토 확인",
+          "observed": "완료 증거 확인•",
+          "box": [
+            1515,
+            186,
+            125,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX23-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX23-01_environment_v2.png",
+      "previousSha256": "b7d12387bf11b933dd6229b181f7bf7b3288984a2eab9dfc84f451196f3370d2",
+      "basePath": "assets/proposal-diagrams-20261006/EX23-01_environment_v2.png",
+      "baseSha256": "b7d12387bf11b933dd6229b181f7bf7b3288984a2eab9dfc84f451196f3370d2",
+      "corrected": "assets/proposal-diagrams-20261006/EX23-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            629,
+            328,
+            410,
+            31
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장매•권한 미확보",
+          "box": [
+            1132,
+            820,
+            167,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX23-02",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX23-02_overall_v2.png",
+      "previousSha256": "4d969e71015aa824f00a02f2786540d42824201494445ec78a6615d69fd00914",
+      "basePath": "assets/proposal-diagrams-20261006/EX23-02_overall_v2.png",
+      "baseSha256": "4d969e71015aa824f00a02f2786540d42824201494445ec78a6615d69fd00914",
+      "corrected": "assets/proposal-diagrams-20261006/EX23-02_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사• 재계획",
+          "box": [
+            1054,
+            172,
+            152,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "변경 검토 확인",
+          "observed": "囹완료증거확인",
+          "box": [
+            1425,
+            245,
+            177,
+            56
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX23-02",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX23-02_service_v2.png",
+      "previousSha256": "d60676602ca687a05d664293f5b0b8e535a320e4fc1905847a0d66c2e9e286bc",
+      "basePath": "assets/proposal-diagrams-20261006/EX23-02_service_v2.png",
+      "baseSha256": "d60676602ca687a05d664293f5b0b8e535a320e4fc1905847a0d66c2e9e286bc",
+      "corrected": "assets/proposal-diagrams-20261006/EX23-02_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "변경 시험 확인",
+          "observed": "NO • 보완•재계획",
+          "box": [
+            668,
+            190,
+            192,
+            30
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "차량 전문가 문의",
+          "observed": "권한•자료 미확보.",
+          "box": [
+            52,
+            499,
+            180,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "변경 검토 확인·추가 안내",
+          "observed": "완료 증거•재계획",
+          "box": [
+            1473,
+            361,
+            165,
+            30
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "차량 전문가 문의",
+          "observed": "5 보완• 미승인 2 재계획 / 7 상충• 미완료 재계획 / 조회 권한 불가 대기",
+          "box": [
+            760,
+            862,
+            674,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX23-02",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX23-02_environment_v2.png",
+      "previousSha256": "c3588bfa6ab6754798e645e485b465324554fd4eaba1febca181a55d23c8830e",
+      "basePath": "assets/proposal-diagrams-20261006/EX23-02_environment_v2.png",
+      "baseSha256": "c3588bfa6ab6754798e645e485b465324554fd4eaba1febca181a55d23c8830e",
+      "corrected": "assets/proposal-diagrams-20261006/EX23-02_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            599,
+            292,
+            430,
+            32
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애 • 권한 미확보",
+          "box": [
+            1336,
+            761,
+            188,
+            30
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX24-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX24-01_overall_v2.png",
+      "previousSha256": "303749eea7282ef4298416a53fa728ae40ac44bcfaf5f6685cbea4fbd0b6926e",
+      "basePath": "assets/proposal-diagrams-20261006/EX24-01_overall_v2.png",
+      "baseSha256": "303749eea7282ef4298416a53fa728ae40ac44bcfaf5f6685cbea4fbd0b6926e",
+      "corrected": "assets/proposal-diagrams-20261006/EX24-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사 • 재계획",
+          "box": [
+            1019,
+            154,
+            161,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "추가 검토",
+          "observed": "검증•재계획",
+          "box": [
+            660,
+            317,
+            92,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "시정 결과 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1489,
+            266,
+            111,
+            21
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX24-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX24-01_service_v2.png",
+      "previousSha256": "ceb180ec38074573b11a0c6344be9932b66ec27f1ef0e7c872e2a084db97f215",
+      "basePath": "assets/proposal-diagrams-20261006/EX24-01_service_v2.png",
+      "baseSha256": "ceb180ec38074573b11a0c6344be9932b66ec27f1ef0e7c872e2a084db97f215",
+      "corrected": "assets/proposal-diagrams-20261006/EX24-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "운영기관 문의",
+          "observed": "권한 미확보•확인불가 대기",
+          "box": [
+            862,
+            335,
+            205,
+            23
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "운영기관 문의",
+          "observed": ": 권한/조회 불가시",
+          "box": [
+            798,
+            435,
+            165,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "시정 현장 확인",
+          "observed": "보완•재계획",
+          "box": [
+            817,
+            716,
+            105,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "NOA 추가 제안",
+          "observed": "(NOA 재계획)",
+          "box": [
+            818,
+            744,
+            102,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-4",
+          "text": "NOA 추가 제안",
+          "observed": "NOA 재계획으로 연계",
+          "box": [
+            1328,
+            717,
+            182,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX24-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX24-01_environment_v2.png",
+      "previousSha256": "343b3357b187d82a73053e67447064b18ce1b78a7f846cee276b3f9fb6ab0c49",
+      "basePath": "assets/proposal-diagrams-20261006/EX24-01_environment_v2.png",
+      "baseSha256": "343b3357b187d82a73053e67447064b18ce1b78a7f846cee276b3f9fb6ab0c49",
+      "corrected": "assets/proposal-diagrams-20261006/EX24-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검종•재계획",
+          "box": [
+            629,
+            346,
+            412,
+            33
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애 • 권한 미확보",
+          "box": [
+            1298,
+            802,
+            201,
+            32
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX25-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX25-01_overall_v2.png",
+      "previousSha256": "dcc3d479983e855c2c7c88a4726a17c5d89e171701a09beeb6c2f15849f643e2",
+      "basePath": "assets/proposal-diagrams-20261006/EX25-01_overall_v2.png",
+      "baseSha256": "dcc3d479983e855c2c7c88a4726a17c5d89e171701a09beeb6c2f15849f643e2",
+      "corrected": "assets/proposal-diagrams-20261006/EX25-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1110,
+            125,
+            157,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "계획 수립• 증거 요청 • 검증• 재계획",
+          "box": [
+            597,
+            285,
+            222,
+            19
+          ],
+          "weight": 400
+        },
+        {
+          "key": "business-2",
+          "text": "시험 결과 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1489,
+            253,
+            110,
+            21
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX25-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX25-01_service_v2.png",
+      "previousSha256": "4adc38d25dbe2203f97854514b28bf9e4fdf088d2c9944241802f3ae56cd6d1c",
+      "basePath": "assets/proposal-diagrams-20261006/EX25-01_service_v2.png",
+      "baseSha256": "4adc38d25dbe2203f97854514b28bf9e4fdf088d2c9944241802f3ae56cd6d1c",
+      "corrected": "assets/proposal-diagrams-20261006/EX25-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "시험 담당자 문의",
+          "observed": "권한•자료미확보 :",
+          "box": [
+            510,
+            192,
+            189,
+            31
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "시험 조건 조정",
+          "observed": "보완•재계획",
+          "box": [
+            981,
+            529,
+            115,
+            27
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "시험 결과 확인",
+          "observed": "완료 증거 확인",
+          "box": [
+            1492,
+            618,
+            126,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "시험 조건 조정",
+          "observed": "미충족 시 보완•재계획",
+          "box": [
+            1106,
+            801,
+            184,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX25-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX25-01_environment_v2.png",
+      "previousSha256": "177f3b5348659c7f22ae959e27294dabe23e6f218357ce0d25c281ea4460d082",
+      "basePath": "assets/proposal-diagrams-20261006/EX25-01_environment_v2.png",
+      "baseSha256": "177f3b5348659c7f22ae959e27294dabe23e6f218357ce0d25c281ea4460d082",
+      "corrected": "assets/proposal-diagrams-20261006/EX25-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검증•재계획",
+          "box": [
+            634,
+            307,
+            400,
+            29
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애 • 권한 미확보",
+          "box": [
+            1317,
+            776,
+            186,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX26-01",
+      "type": "overall",
+      "previousPath": "assets/proposal-diagrams-20261006/EX26-01_overall_v2.png",
+      "previousSha256": "15bd928c4a77552ceede134aac2e6db1c4bdb0c907fdcbe34df89f9858347174",
+      "basePath": "assets/proposal-diagrams-20261006/EX26-01_overall_v2.png",
+      "baseSha256": "15bd928c4a77552ceede134aac2e6db1c4bdb0c907fdcbe34df89f9858347174",
+      "corrected": "assets/proposal-diagrams-20261006/EX26-01_overall_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "결과 확인·후속 안내",
+          "observed": "결과 대사•재계획",
+          "box": [
+            1020,
+            163,
+            154,
+            23
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "추가 검토",
+          "observed": "검증•재계획",
+          "box": [
+            649,
+            328,
+            84,
+            19
+          ],
+          "weight": 400
+        },
+        {
+          "key": "business-2",
+          "text": "공표 결과 확인",
+          "observed": "완료증거확인",
+          "box": [
+            1515,
+            273,
+            103,
+            20
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX26-01",
+      "type": "service",
+      "previousPath": "assets/proposal-diagrams-20261006/EX26-01_service_v2.png",
+      "previousSha256": "e48b4725255576c49019b43e8b80472c0a2cb6b23200f66de69858b3d9fa1364",
+      "basePath": "assets/proposal-diagrams-20261006/EX26-01_service_v2.png",
+      "baseSha256": "e48b4725255576c49019b43e8b80472c0a2cb6b23200f66de69858b3d9fa1364",
+      "corrected": "assets/proposal-diagrams-20261006/EX26-01_service_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 문의",
+          "observed": "권한 미확보",
+          "box": [
+            251,
+            524,
+            87,
+            21
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "답변 확인",
+          "observed": "또는 확인불가 시",
+          "box": [
+            233,
+            546,
+            123,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-2",
+          "text": "평가 전문가 문의",
+          "observed": "권한 미확보• 확인불가 대기",
+          "box": [
+            189,
+            645,
+            217,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-3",
+          "text": "시험 자료 정정",
+          "observed": "보완•재계획",
+          "box": [
+            870,
+            679,
+            93,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-4",
+          "text": "NOA 추가 제안",
+          "observed": "미완료 시 NOA 재계획 요청",
+          "box": [
+            1406,
+            371,
+            217,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX26-01",
+      "type": "environment",
+      "previousPath": "assets/proposal-diagrams-20261006/EX26-01_environment_v2.png",
+      "previousSha256": "d8bfbec7fd0bd69424de7106eb8a019965b611b47813f1eb4a2cff09f60beefc",
+      "basePath": "assets/proposal-diagrams-20261006/EX26-01_environment_v2.png",
+      "baseSha256": "d8bfbec7fd0bd69424de7106eb8a019965b611b47813f1eb4a2cff09f60beefc",
+      "corrected": "assets/proposal-diagrams-20261006/EX26-01_environment_v3.png",
+      "regenerated": false,
+      "labels": [
+        {
+          "key": "business-0",
+          "text": "자료 확인·검토·후속 안내",
+          "observed": "NOA • 업무 계획•실행•검종•재계획",
+          "box": [
+            624,
+            291,
+            367,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "business-1",
+          "text": "연계 문제 시 기존 방식 사용",
+          "observed": "장애• 권한 미확보",
+          "box": [
+            1357,
+            785,
+            166,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    }
+  ]
+}

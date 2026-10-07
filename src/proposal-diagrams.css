@@ -4,3 +4,4 @@
 .diagram-image-error p{flex-basis:100%;margin:0;color:#314b61}
 .diagram-image-error button{font:inherit;padding:.4rem .7rem;border:1px solid #718da5;background:#fff;border-radius:.25rem;color:#24465e;cursor:pointer}
 .diagram-image-error button:focus-visible,.diagram-image-error a:focus-visible{outline:3px solid #1f6c94;outline-offset:3px}
+.diagram-business-cases h5{font-size:1.05rem;margin:.8rem 0 .3rem}.diagram-business-cases .diagram-facts>div{grid-template-columns:minmax(12rem,27%) 1fr;gap:.75rem;padding:.65rem .3rem}.diagram-business-result{line-height:1.7;border-left:3px solid #315e77;padding:.5rem .8rem;background:#f3f7fa}@media(max-width:700px){.diagram-business-cases .diagram-facts>div{grid-template-columns:1fr;gap:.2rem}}

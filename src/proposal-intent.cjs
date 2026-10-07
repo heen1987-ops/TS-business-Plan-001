@@ -87,7 +87,7 @@ const methodology={
  targets:'이 목표안은 원하는 변화와 측정지표의 연결. 현재 기준선 미확보·수치 목표 미설정. 정상·보완·변경 사건의 원기록을 확보해 현행 A / 규칙·SI 개선 B / B+NOA C를 같은 조건에서 비교한 뒤 최소 의미 개선폭과 수락 기준 확정.',
  quality:'시간·보완 부담이 줄어도 중요 누락·잘못된 대상·권한 위반·근거 없는 종결이 늘면 확대 보류. 미완료·결측을 성공으로 계산하지 않는 평가. 잘못된 지적·요구를 발견해 정정·철회하는 활동은 유지하고, 잘못된 최초 제안의 발생 감소를 확인.',
  knowledge:'기관이 허용한 원문·판본·원문 위치·접근권한을 보존하는 지식 기반. aRDa 적용·재사용은 실제 설치본과 사용권 확인 후 결정.',
- capability:'NOA의 의미 이해·확인질문·검토계획에 규칙·계산·기존 도구를 연결하는 추가 제안. 계획·도구 실행·결과 검증·재계획 기능의 현행 계약·설치본 충족 여부는 별도 대조.',
+ capability:'NOA의 의미 이해·확인질문·검토계획에 규칙·계산·기존 도구를 연결하는 추가 제안. 자료 확인·도구 연계·처리 결과 확인의 실제 적용범위는 설치본과 계약을 대조해 결정.',
  metricPending:'업무별 관측대상·분모·기간·정당한 변경과 오류의 구분은 현업 확정 전. 완료 건만의 비교로 전체 개선을 확정하거나, 미확인·결측을 정상·성공으로 처리하지 않는 측정안.',
  institution:'TS의 설립목적·법정업무는 수행 책임의 근거, 2026–2030 전략은 정합성 검토 기준. 아래는 그 안에서 검토하는 2027년 개별 사업의 편익 목적·결과 목표·구현 수단.'
 };
@@ -127,7 +127,7 @@ function make(p){const c=curated[p.id],f=profileFor(p),r=f?null:revision.get(p.c
  const flow=p.id==='MR-02'?['전화 이동조건 확인','기존 도구의 배차 후보 조회','운영자 확정·기사 수락 확인','실제 승차·미배차 사유 확인','구역·시간대 운영계획 비교']:f?.flow||r?.detail.steps.map(s=>s[0]);
  return {id:p.id,code:p.code,department:p.department,title:p.title,...c,gap:p.gap,scope:p.scope,inputs:p.inputs,reviewStatus:p.classificationLabel,reviewDate:p.classificationDate,
   goals:p.metrics.map((metric,i)=>({id:p.id+'-G'+(i+1),change:c.changes[i],metric:{...metric,note:metric.note||methodology.metricPending,baseline:null,target:null}})),
-  means:{noa:p.id==='MR-02'?'직원 입력 또는 허용된 전화 전사 텍스트에서 출발지·목적지·시간·도움 필요조건을 정리. 부족한 조건의 확인질문, 기사 거절·지연의 재계획 과업, 도구가 계산한 운영대안의 비교 설명을 구성.':f?.llm||coreNoa[p.code],rules:p.id==='MR-02'?'계약·인수·API 가용이 확인된 기존 TS-DRT 예약·배차·관제 및 제약 최적화 도구의 후보 계산·조회. 실제 기사 수락·배차·승차 상태 기록.':f?.rules||coreRules[p.code],knowledge:methodology.knowledge,human:p.decisionBoundary},
+  means:{noa:p.id==='MR-02'?'직원 입력 또는 허용된 전화 전사 텍스트에서 출발지·목적지·시간·도움 필요조건을 정리. 부족한 조건의 확인질문, 기사 거절·지연 시 다른 차량·시간의 제안, 도구가 계산한 운영대안의 비교 설명을 구성.':f?.llm||coreNoa[p.code],rules:p.id==='MR-02'?'계약·인수·API 가용이 확인된 기존 TS-DRT 예약·배차·관제 및 제약 최적화 도구의 후보 계산·조회. 실제 기사 수락·배차·승차 상태 기록.':f?.rules||coreRules[p.code],knowledge:methodology.knowledge,human:p.decisionBoundary},
   change:{entry:p.id==='MR-02'?'지역 담당자가 전화 요청을 받고 기사에게 연락·배정하는 처리. 원 RFP의 수동 배차와 사용자 현장 의견을 배경으로 사용.':f?.known||r?.detail.trigger,steps:flow,prepared:prepared[p.id]||v?.output||r?.detail.outputs.join(' / '),completion:c.completion},
   reuse:v?.reuse||'기구축 AI 업무공간·원장·도구·연계 기능을 실제 설치본·계약·사용권과 대조한 뒤 재사용 범위 결정.',newWork:v?.newWork||c.newWork,
   evidence:p.sources,baseline:null,target:null,selected:false,qualification:p.id==='MR-02'?'2026 고도화 발주의 자동배차·관제 범위와 차분을 확인한 후 추가 수행범위 결정. 정산감사·부정수급 판단·환수·전국 예산배분은 현재 납품·대가·핵심 성과에서 제외.':p.decisionBoundary};

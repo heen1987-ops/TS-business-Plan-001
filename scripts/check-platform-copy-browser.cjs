@@ -26,7 +26,7 @@ const check = (name, pass) => { checks.push({ name, pass: !!pass }); assert(pass
       while (cursor < spec.assets.length) {
         const a = spec.assets[cursor++];
         const live = manifest.assets.find(x => x.id === a.id && x.type === a.type);
-        const response = await page.request.get(base + a.corrected + '?v=' + live.sha256);
+        const response = await page.request.get(base + live.path + '?v=' + live.sha256);
         check(a.id + '/' + a.type + ' PNG HTTP·SHA', response.ok() && crypto.createHash('sha256').update(await response.body()).digest('hex') === live.sha256);
       }
     }));
@@ -43,7 +43,7 @@ const check = (name, pass) => { checks.push({ name, pass: !!pass }); assert(pass
       await img.waitFor();
       await img.evaluate(el => { el.loading = 'eager'; return el.decode(); });
       check(id + '/' + type + ' 실제 교정본 표시', (await img.getAttribute('src')).endsWith(live.path) && await img.evaluate(el => el.naturalWidth === 1672 && el.naturalHeight === 941));
-      check(id + '/' + type + ' 확대 링크·교정 캡션', (await section.locator('.proposal-diagram-image').getAttribute('href')).endsWith(live.path) && (await section.locator('figcaption').innerText()).includes('한글 표기 교정본 v2'));
+      check(id + '/' + type + ' 확대 링크·교정 캡션', (await section.locator('.proposal-diagram-image').getAttribute('href')).endsWith(live.path) && (await section.locator('figcaption').innerText()).includes(live.businessDate?'업무 설명 개정본 v3':'한글 표기 교정본 v2'));
       check(id + '/' + type + ' 탐색·반응형 보존', await page.locator('[data-department-link]').count() === 51 && await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 2));
       if (['MR-02', 'DF-01', 'AD-01'].includes(id)) await section.locator('.proposal-diagram-image').screenshot({ path: out + '/' + id + '-' + type + '.png' });
     }
@@ -52,12 +52,12 @@ const check = (name, pass) => { checks.push({ name, pass: !!pass }); assert(pass
     const mobile = page.locator('#diagram-MR-02-service img');
     await mobile.waitFor();
     await mobile.evaluate(el => { el.loading = 'eager'; return el.decode(); });
-    check('모바일 교정본·가로 넘침', (await mobile.getAttribute('src')).endsWith('MR-02_service_v2.png') && await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 2));
+    check('모바일 교정본·가로 넘침', (await mobile.getAttribute('src')).endsWith(manifest.assets.find(a=>a.id==='MR-02'&&a.type==='service').path) && await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 2));
     const popupPromise = page.waitForEvent('popup');
     await page.locator('#diagram-MR-02-service .proposal-diagram-image').click();
     const popup = await popupPromise;
     await popup.waitForLoadState();
-    check('원본 확대 새 탭의 교정 경로', popup.url().endsWith('MR-02_service_v2.png'));
+    check('원본 확대 새 탭의 교정 경로', popup.url().endsWith(manifest.assets.find(a=>a.id==='MR-02'&&a.type==='service').path));
     await popup.close();
     await page.screenshot({ path: out + '/mobile.png' });
     check('브라우저 실행 오류 없음', errors.length === 0);

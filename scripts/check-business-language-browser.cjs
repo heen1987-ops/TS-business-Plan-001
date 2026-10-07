@@ -1,0 +1,21 @@
+const fs=require('node:fs'),assert=require('node:assert/strict'),crypto=require('node:crypto');
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
+const d=require('../src/proposal-e2e-diagrams.cjs'),b=require('../src/proposal-business-language.cjs'),m=require('../src/proposal-diagram-assets.json'),reading=require('../src/integrated-reading.cjs');
+const base=process.env.SITE_BASE||'http://127.0.0.1:8792/TS-business-Plan-001/',sha=process.env.RELEASE_SHA;
+const checks=[],errors=[],check=(name,ok)=>{checks.push({name,pass:!!ok});assert(ok,name)};
+(async()=>{const browser=await chromium.launch({channel:'msedge',headless:true}),page=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'}),out='qa-output/business-copy/'+(sha?'public':'local')+'-browser';fs.mkdirSync(out,{recursive:true});page.on('pageerror',e=>errors.push(e.message));
+try{
+ if(sha){const v=await page.request.get(base+'version.json?v='+sha);check('배포 커밋 일치',v.ok()&&(await v.json()).commit===sha)}
+ const revised=m.assets.filter(a=>a.businessDate);let cursor=0;await Promise.all(Array.from({length:4},async()=>{while(cursor<revised.length){const a=revised[cursor++],r=await page.request.get(base+a.path+'?v='+a.sha256);check(a.id+'/'+a.type+' 개정 PNG HTTP·SHA',r.ok()&&crypto.createHash('sha256').update(await r.body()).digest('hex')===a.sha256)}}));
+ for(const p of d.projects){const row=reading.rows.find(r=>r.projects.some(x=>x.id===p.id));await page.goto(base+'index.html?dept='+encodeURIComponent(row.key)+'&project='+p.id+'&v='+(sha||'business-review')+'#diagram-'+p.id+'-service');const suite=page.locator('[data-diagram-suite="'+p.id+'"]'),service=suite.locator('[data-business-service="'+p.id+'"]');await service.waitFor();
+  check(p.id+' 업무 상황·대응 설명',await service.locator('dl>div').count()===(p.id==='MR-02'?4:3));check(p.id+' 서비스 내부 상태 용어 미노출',!b.forbidden.test(await service.innerText()));
+  const table=suite.locator('table').first();check(p.id+' 제품·업무 연결 9단계',await table.locator('tbody tr').count()===9&&!b.forbidden.test(await table.innerText()));
+  const technical=suite.locator('details.diagram-product-evidence');check(p.id+' 기술 조건 기본 접힘',await technical.count()===1&&!await technical.evaluate(el=>el.open));
+  check(p.id+' 처 선택·가로 넘침·단일 제목',await page.locator('[data-department-link]').count()===51&&await page.locator('h1').count()===1&&await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
+ }
+ for(const width of [1440,390]){await page.setViewportSize({width,height:1000});await page.goto(base+'index.html?dept=MR&project=MR-02&v='+(sha||'business-review')+'#diagram-MR-02-service');const section=page.locator('#diagram-MR-02-service'),img=section.locator('img');await img.waitFor();await img.evaluate(el=>{el.loading='eager';return el.decode()});check('DRT '+width+' 개정 이미지·설명 연결',(await img.getAttribute('src')).endsWith(m.assets.find(a=>a.id==='MR-02'&&a.type==='service').path)&&await section.locator('figcaption').innerText().then(t=>t.includes('업무 설명 개정본 v3')));check('DRT '+width+' 가로 넘침 없음',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));await section.screenshot({path:out+'/DRT-service-'+width+'.png'});
+  const link=section.locator('.proposal-diagram-image');await link.focus();check('DRT '+width+' 확대 링크 키보드 초점',await link.evaluate(el=>el===document.activeElement));if(width===390){const popupPromise=page.waitForEvent('popup');await link.press('Enter');const popup=await popupPromise;await popup.waitForLoadState();check('모바일 원본 확대 개정 경로',popup.url().endsWith(m.assets.find(a=>a.id==='MR-02'&&a.type==='service').path));await popup.close()}
+ }
+ const download=await page.request.get(base+'downloads/proposal-diagrams/design.json?v='+(sha||b.date)),body=await download.json();check('내려받기 업무 설명·42과제 연결',download.ok()&&body.projects.length===42&&body.projects.every(p=>p.business&&p.businessFlow.length===9&&!b.forbidden.test(JSON.stringify(p.businessFlow))));check('브라우저 실행 오류 없음',errors.length===0);
+}finally{fs.writeFileSync(out+'/results.json',JSON.stringify({base,sha:sha||null,checks,errors},null,2)+'\n');await browser.close()}
+console.log('업무 설명 브라우저 '+checks.length+'항목 통과');})().catch(e=>{console.error(e);process.exitCode=1});
