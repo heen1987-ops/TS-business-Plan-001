@@ -6,7 +6,7 @@ const base=process.env.SITE_URL||'http://127.0.0.1:8773/TS-business-Plan-001/';
  const p=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});p.on('pageerror',e=>errors.push(e.message));
  try{
  await p.goto(base+'proposal-links.html');await p.locator('.supplement-page h1').waitFor();
- check('전체37카드 연속본문',await p.locator('.supplement-profile').count()===data.profiles.length&&await p.locator('.supplement-profile h3[id]').evaluateAll(es=>es.every(e=>!e.closest('details')))&&await p.locator('.supplement-profile details>summary').evaluateAll(es=>es.every(e=>e.textContent==='파일 무결성 SHA-256')));
+ check('전체37카드 연속본문',await p.locator('.supplement-profile').count()===data.profiles.length&&await p.locator('.supplement-profile h3[id]').evaluateAll(es=>es.every(e=>!e.closest('details')))&&await p.locator('.supplement-profile details>summary').evaluateAll(es=>es.every(e=>e.textContent==='파일 무결성 SHA-256'||e.parentElement.classList.contains('diagram-product-evidence')||e.parentElement.classList.contains('diagram-history')||e.parentElement.classList.contains('native-archive'))));
  check('필수 공통·업무별 내용',(await p.locator('#proposal-technical-approval').textContent()).includes('개인정보')&&(await p.locator('#proposal-technical-approval').textContent()).includes('기준선 미확보'));
  await p.getByLabel('조직·업무 검색',{exact:true}).fill('기술승인');
  check('검색필터',await p.locator('.supplement-profile').count()>0&&await p.locator('.supplement-profile').count()<37);

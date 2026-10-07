@@ -1,0 +1,10 @@
+{
+  "reason": "수검자의 참여와 공식 확정 권한 분리",
+  "images": [
+    {
+      "id": "QE-01",
+      "type": "environment",
+      "prompt": "Create one complete 16:9 landscape PowerPoint-style Korean technical ENVIRONMENT REQUIREMENTS diagram. Flat white background, navy/teal boxes, thin orthogonal connectors, no decorative art. Title \"QE-01 검사소견·교정활동 — 요구환경 정의\". Subheading \"기존 TS AI 플랫폼 확장 · 논리 배치안\". Large Korean labels. Do not invent servers, specifications, protocols, actual APIs, completed integration, or new-platform procurement.\nDraw THREE clear zones left to right.\nLEFT \"업무 단말\": \"현업 담당자\", \"권한별 접속\". Connector to CENTER, label \"기존 인증·접근통제\".\nCENTER a large boundary \"기관 업무망 · 기존 서버 재사용 검토\". Inside:\ntop wide block \"기존 TS AI 공통플랫폼\";\nunder it \"NOA · 업무 계획·실행·검증·재계획\".\nFour distinct candidate modules directly below NOA, each with its own plain heading and role:\n1 \"aRDa 후보\" / \"허용 원문·판본·권한 관리\";\n2 \"Grantee 후보\" / \"기준·증거·공식기록 대사\";\n3 \"전문도구 어댑터\" / \"검사회차·활동 규칙\";\n4 \"Nexus 후보\" / \"기존 로컬 LLM 연계\".\nNOA links to each module. NEVER call Grantee a 규칙 Adapter, optimization engine, calculator or institution. Only module3 executes specialist rules/calculations. aRDa never generates explanations or makes decisions.\nSmall support row \"Argus·Keeper 후보 · 과업 상태·실행 기록\" with a single link from NOA.\nBottom storage \"사건ID·근거·검증 이력\".\nRIGHT \"기존 업무시스템·기관 절차\": source \"공식 소견·활동일지\", authority \"지정 검사요원·기관 권한자\". A single connector from center label \"허용 조회·확정 결과 재조회\". Writes require separately verified approval and permission.\nBottom requirement panel:\n\"업무 선행조건: 현업 수요·처리근거·요원 평가\";\n\"확인 필요: 설치본·사용권 / 서버 여력 / 자료·연계 권한 / 보존·복구 목표\";\n\"장애·권한 미확보: 기존 수기 검토 복귀\".\nFooter \"설계안 · 구축·연계·성능 미검증\".\n\n\n\nNo other project ID. No personal identifiers. Output original raster image, polished professional slide.\n수검자는 설명 이해·활동 협의·이행 증거를 제공하는 참여자. 공식 소견·판정·확정은 지정 검사요원·기관 권한자. No medical record integration, automatic fitness judgement, or invented test."
+    }
+  ]
+}

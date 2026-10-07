@@ -2,6 +2,7 @@ import React from 'react';
 import {Out} from './core.jsx';
 import intent from './proposal-intent.cjs';
 import './proposal-intent.css';
+import {ProposalDiagramSuite} from './ProposalDiagramSuite.jsx';
 
 export function IntentDefinitions(){return <section className="intent-definitions" aria-label="목적·목표·수단의 구분"><h2>이 기획에서 구분할 세 가지</h2><div>{intent.definitions.map(d=><section key={d.id}><h3>{d.label} <small>{d.question}</small></h3><p>{d.text}</p></section>)}</div><p className="intent-context">{intent.methodology.institution}</p></section>}
 
@@ -19,7 +20,8 @@ export function ProposalIntent({projectId,profileId}){
    ['원문·판본·권한 지식 기반',p.means.knowledge],
    ['사람 · 공식 판단·확정',p.means.human]
   ].map(([k,v])=><div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}</dl><p className="intent-note">{intent.methodology.capability}</p></section>
-  <section className="intent-change" data-intent-role="change"><h4>{intent.labels.change}</h4><dl><div><dt>업무의 출발점</dt><dd>{p.change.entry}</dd></div><div><dt>추가하는 처리</dt><dd><ol>{p.change.steps.map((s,i)=><li key={i}>{s}</li>)}</ol></dd></div><div><dt>담당자에게 제공할 것</dt><dd>{p.change.prepared}</dd></div><div><dt>끝났는지 확인할 상태</dt><dd>{p.change.completion}</dd></div></dl><p className="intent-note">{p.qualification}</p></section>
+  <ProposalDiagramSuite projectId={p.id}/>
+  <section className="intent-change" data-intent-role="change"><h4>{intent.labels.change}</h4><dl><div><dt>업무의 출발점</dt><dd>{p.change.entry}</dd></div><div><dt>담당자에게 제공할 것</dt><dd>{p.change.prepared}</dd></div></dl><p className="intent-note">{p.qualification}</p></section>
   <section className="intent-delivery" data-intent-role="deliverable"><h4>{intent.labels.deliverable}</h4><dl><div><dt>재사용 검토</dt><dd>{p.reuse}</dd></div><div><dt>추가 개발 검토</dt><dd>{p.newWork}</dd></div></dl><p className="intent-note">자료·양식·스킬·연계 모듈은 납품 산출물. 납품·문서 생성 완료와 위의 업무 결과·공공 편익 달성을 각각 확인하는 평가. 수치 목표·최종 가격·발주범위 미확정.</p></section>
  </section>;
 }

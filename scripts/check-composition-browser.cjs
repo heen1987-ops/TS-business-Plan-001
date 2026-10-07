@@ -3,6 +3,7 @@ const base=process.env.SITE_BASE||'http://127.0.0.1:8773/TS-business-Plan-001/';
 (async()=>{const browser=await chromium.launch({channel:'msedge',headless:true}),p=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'}),tests=[],errors=[];p.on('pageerror',e=>errors.push(e.message));const check=(name,v)=>{tests.push({name,pass:!!v});assert(v,name)};fs.mkdirSync('qa-output',{recursive:true});
 try{
 for(const d of departments){const current=r.get(d.code);await p.goto(base+d.folder+'/01_사업정의.html');await p.locator('[data-revision-department]').waitFor();
+await p.locator('.diagram-history').evaluateAll(es=>es.forEach(el=>{el.open=true}));
 check('이전6장 구조 '+d.code,(await p.locator('.r47-part>header h2').allTextContents()).join('|')===composition.chapters.map(c=>c.title).join('|'));
 check('14개 설명구획 '+d.code,await p.locator('.r47-detail-block').count()===14);
 check('설계4개·검수4개 구획 '+d.code,await p.locator('.a47-subsection').count()===4&&await p.locator('.d47-subsection').count()===4);
@@ -21,6 +22,7 @@ await p.goto(base+path+'#section-r47-block-products');await p.waitForFunction(()
 await p.goto(base+path+'?history=20260924#section-detail-sixw');await p.locator('.r47-legacy[open]').waitFor();check('옛원문명시적열람',await p.locator('#section-detail-sixw').isVisible());
 await p.goto(base+path);await p.locator('[data-revision-department]').waitFor();await p.locator('#section-r47-context').scrollIntoViewIfNeeded();await p.screenshot({path:'qa-output/composition-desktop.png'});
 await p.locator('.r47-hero nav a').nth(3).click();check('6장목차이동',p.url().endsWith('#section-r47-design'));
+await p.locator('.a47-example-controls').first().evaluate(el=>{for(let parent=el.parentElement;parent;parent=parent.parentElement)if(parent.tagName==='DETAILS')parent.open=true});
 await p.locator('.a47-example-controls button').nth(1).click();check('상태예시동작',await p.locator('.a47-example-controls button').nth(1).getAttribute('aria-pressed')==='true');
 await p.locator('.d47-metric-link').first().click();check('요구에서측정앵커이동',p.url().includes('#r47-MR-R'));
 for(const width of [1000,768,390]){await p.setViewportSize({width,height:900});await p.goto(base+path+'#section-r47-block-products');await p.locator('#section-r47-block-products').waitFor();check('모바일넘침없음 '+width,await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));check('모바일열제목보존 '+width,await p.locator('#section-r47-block-products td').first().evaluate(el=>!!el.dataset.label&&getComputedStyle(el,':before').content.includes(el.dataset.label)));}

@@ -30,9 +30,10 @@ export function Metrics47({code}){const r=get(code),p=r.detail;return <><p class
 ['안전·권리 품질','중요 누락·잘못된 근거·권한 밖 열람·오통보를 별도 집계','효율이 개선되어도 사전 합의한 품질 기준 위반 시 확대 보류'],
 ['불확실성','독립 사건·회사·장치의 군집을 반영한 구간과 결측 민감도 분석','필요 표본은 실제 분산·발생률·최소 의미 개선폭으로 산정. 근거 없는 고정 표본 수 금지']
 ]}/></>}
-function Diagram({code,type,title}){if(code==='CL'&&type==='data')return <DetailedDiagram47 code={code} type={type}/>;if(['concept','overall','service'].includes(type))return <GeneratedDiagram47 code={code} type={type}/>;return <figure className="r47-diagram"><a href={href('downloads/revision47/'+code+'_'+type+'.svg')} target="_blank" rel="noopener noreferrer" aria-label={title+' 원본 확대'}><img loading="lazy" src={href('downloads/revision47/'+code+'_'+type+'.svg')} alt={title+' · '+get(code).title}/></a><figcaption>{title} · 클릭 시 원본 확대 · 상세 설계안</figcaption></figure>}
+function PriorDiagram({code,type,title}){if(code==='CL'&&type==='data')return <DetailedDiagram47 code={code} type={type}/>;if(['concept','overall','service'].includes(type))return <GeneratedDiagram47 code={code} type={type}/>;return <figure className="r47-diagram"><a href={href('downloads/revision47/'+code+'_'+type+'.svg')} target="_blank" rel="noopener noreferrer" aria-label={title+' 원본 확대'}><img loading="lazy" src={href('downloads/revision47/'+code+'_'+type+'.svg')} alt={title+' · '+get(code).title}/></a><figcaption>{title} · 클릭 시 원본 확대 · 상세 설계안</figcaption></figure>}
+function Diagram({code,type,title}){return <details className="diagram-history"><summary>이전 도식 · {title}</summary><PriorDiagram code={code} type={type} title={title}/></details>}
 export function Proposal47({code,embedded=false}){const r=get(code);if(!r)return null;const p=r.detail,framing=intent.byId[code+'-01'];return <div className="revision47" data-revision-department={code}>
-<header className="r47-hero"><span className="r47-badge">현재 ISP: 조사 후보 · {isp.date}</span><p className="r47-note">이전 편성 검토: {r.currentReview.status} · {r.currentReview.date}. 현재 사업 선정·발주 미확정.</p><h2>{r.title}</h2><small>현재의 근거·처리·검증 명세에 2026-09-24의 6개 장 구성을 적용. TS 확정 과업·제품 구현 완료와 구분. 기존 정본의 판정은 과거 기획 이력.</small><dl className="r47-executive">{[['검토 대상',p.unit],['직접 사용자',p.users],['업무 시작 조건',p.trigger],['이번 목표 상태',framing.completion]].map(([k,v])=><div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}</dl><div className="r47-visual-shortcuts" aria-label="그림으로 보는 제안"><a href="#section-r47-block-concept"><b>01 컨셉도</b><span>누가 · 어떤 문제 · 어떤 변화</span></a><a href="#section-r47-block-overall"><b>02 전체 아키텍처</b><span>시스템 · 데이터 · 책임 경계</span></a><a href="#section-r47-block-journey"><b>03 서비스 흐름도</b><span>입력 · 처리 · 판단 · 보완</span></a>{code==='CL'&&<><a href="#section-r47-block-data"><b>04 데이터 흐름도</b><span>원천 · 판본 · 승인 기록</span></a><a href="#section-r47-block-runtime"><b>05 세부 실행 아키텍처</b><span>과업 · 도구 · 실행 · 복구</span></a></>}</div><nav aria-label="최신 상세 제안 목차">{chapters.map(([id,title],i)=><a key={id} href={'#section-r47-'+id}>{i+1}. {title}</a>)}</nav></header>
+<header className="r47-hero"><span className="r47-badge">현재 ISP: 조사 후보 · {isp.date}</span><p className="r47-note">이전 편성 검토: {r.currentReview.status} · {r.currentReview.date}. 현재 사업 선정·발주 미확정.</p><h2>{r.title}</h2><dl className="r47-executive">{[['검토 대상',p.unit],['직접 사용자',p.users],['업무 시작 조건',p.trigger],['이번 목표 상태',framing.completion]].map(([k,v])=><div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}</dl><div className="r47-visual-shortcuts" aria-label="최신 4종 도식"><a href={'#diagram-'+code+'-01-overall'}><b>01 전체 아키텍처</b><span>CCK 제품 · 기존 플랫폼 · 공식 결과</span></a><a href={'#diagram-'+code+'-01-service'}><b>02 서비스 흐름도</b><span>역할 · 판단 · 보완 · 완료</span></a><a href={'#diagram-'+code+'-01-data'}><b>03 데이터 흐름도</b><span>원문 · 근거 · 개인정보 · 결과 대사</span></a><a href={'#diagram-'+code+'-01-environment'}><b>04 요구환경 정의</b><span>기존 서버 · 권한 · 연계 · 복구</span></a></div><nav aria-label="최신 상세 제안 목차">{chapters.map(([id,title],i)=><a key={id} href={'#section-r47-'+id}>{i+1}. {title}</a>)}</nav></header>
 <ProposalIntent projectId={code+'-01'}/>{!embedded&&<DepartmentDocuments code={code}/>}
 {code==='QE'&&<><p className="r47-note"><a href="#section-qe-health-review">추가 검토 · 고령 운수종사자의 기능평가·의료근거 연계와 변별력 검증 ↓</a></p><SeniorAssessment/></>}
 {['MR','PS'].includes(code)&&<DrtRelated/>}
@@ -53,14 +54,14 @@ export function Proposal47({code,embedded=false}){const r=get(code);if(!r)return
 <Diagram code={code} type="concept" title="사업 논리도 · 문제에서 기대편익까지"/>
 <div className="r47-grid"><article><h3>입력자료 · 필요한 사실</h3><List items={p.inputs}/></article><article><h3>완료 산출물 · 담당자가 받는 결과</h3><List items={p.outputs}/></article></div>
 </Block>
-<Block id="products"><Table title="제품·추가 개발·기존 시스템의 역할" headers={['구성','맡길 일','구현 확인·납품 범위']} rows={[
+<Block id="products"><details className="diagram-history"><summary>이전 공통 제품 구성·납품 명세</summary><Table title="제품·추가 개발·기존 시스템의 역할" headers={['구성','맡길 일','구현 확인·납품 범위']} rows={[
 ['NOA · 로컬 LLM','문서 의미 이해, 확인질문 구성, 근거 대조, 새 결과에 따른 과업 갱신','업무별 스킬·프롬프트·평가셋·계획 상태와 도구 사용 범위 구성. 실제 배포본에서 재사용·추가 구현 구분'],
 ['aRDa 연계 후보','원문·판본·문서 권한·조직지식 연결','원문 저장·버전·권한 API의 실제 제공범위 확인. 미확인 기능을 보유 확정으로 계산하지 않음'],
 ['규칙·통계·계산도구','정확한 수치 계산, 상태·기한 검증, 비교조건 보정','업무 기준과 테스트 사례를 코드화. LLM이 임의 계산한 값을 공식 결과로 쓰지 않음'],
 ['연계 어댑터·기존 업무시스템','공식 상태 조회, 허용된 요청 등록, 실제 결과 확인','조회·변경 권한 분리, 멱등키·응답 대사·오류 복구 구현. ERP는 해당 업무 필요성이 확인될 때만 연결'],
 ['담당자 검토 화면','원문 근거·제안·불확실성·수정 이유를 한 사건에서 검토','확정·보완·판단유보·재확인·종결 상태 및 인수기준 구현']
 ]}/><p className="r47-note">제품 설명은 공급사 기능 소개이며 TS 적용 성능의 독립 입증과 구분. 기관별 과업 계획·재계획·연계 실행은 위 납품 범위에서 확인할 설계안.</p><Out url="https://www.ccksolution.com/noa">CCK NOA 공식 제품 소개</Out>
-</Block>
+</details></Block>
 </Part>
 <Part id="service"><Block id="journey">
 <Diagram code={code} type="service" title="서비스 흐름 · 사용자·AI·담당자의 역할"/>
@@ -97,7 +98,7 @@ export function Proposal47({code,embedded=false}){const r=get(code);if(!r)return
 ['종결·평가','closure_ref, event_time, cohort_id, metric_version','공식 원천 결과 우선. 사건 중복·기간 미도래·결측 분리']
 ]}/>
 </Block>
-<Block id="runtime"><Advanced47 code={code}/></Block>
+<Block id="runtime"><details className="diagram-history"><summary>세부 실행·인터페이스·상태 명세</summary><Advanced47 code={code}/></details></Block>
 </Part>
 <Part id="responsibility"><Block id="privacy">
 <p className="r47-lead">{p.privacy}</p><Diagram code={code} type="privacy" title="개인정보 처리 흐름 · 목적·최소화·권한·정정·보존"/>

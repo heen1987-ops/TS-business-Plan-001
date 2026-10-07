@@ -1,0 +1,29 @@
+{
+  "reason": "독립 검수에서 발견한 잔여 화살표 방향·신분표현·제품역할 오자만 원본 참조로 제한 수정",
+  "images": [
+    {
+      "id": "QE-01",
+      "type": "service",
+      "referenceAsset": "assets/proposal-diagrams-20261006/QE-01_service_v1.png",
+      "prompt": "Edit the provided Korean technical slide image. Preserve the entire original 16:9 composition, dimensions, colors, Korean text, all other arrows and all other modules. Make only this precise correction: Only reverse the ONE orange vertical arrow between the top of decision diamond 4 and the orange \"NO · 보완·재계획\" box. The arrow must start at diamond4 and point UP into the orange NO box. Remove any DOWN arrowhead on this segment. Keep orange NO box→node2 left return arrow exactly intact. The complete NO path must be 4→NO→2. Do not alter YES→5 or any other content. Output the complete polished corrected slide image, not a crop."
+    },
+    {
+      "id": "CL-01",
+      "type": "service",
+      "referenceAsset": "assets/proposal-diagrams-20261006/CL-01_service_v1.png",
+      "prompt": "Edit the provided Korean technical slide image. Preserve the entire original 16:9 composition, dimensions, colors, Korean text, all other arrows and all other modules. Make only this precise correction: Only replace the authority text INSIDE numbered box5, under \"검토·확정\": replace \"조사 공무원·관할 공무원\" with exactly \"조사 담당자·관할관청\", in two readable lines. TS staff are not presumed civil servants. Do not change the rest of the diagram or any arrows. Output the complete polished corrected slide image, not a crop."
+    },
+    {
+      "id": "PS-01",
+      "type": "service",
+      "referenceAsset": "assets/proposal-diagrams-20261006/PS-01_service_v1.png",
+      "prompt": "Edit the provided Korean technical slide image. Preserve the entire original 16:9 composition, dimensions, colors, Korean text, all other arrows and all other modules. Make only this precise correction: Only replace the authority text INSIDE numbered box5, under \"검토·확정\": remove \"공무원\" entirely and write exactly \"정책 담당자·권한기관\", in two readable lines. Do not change the rest of the diagram or any arrows. Output the complete polished corrected slide image, not a crop."
+    },
+    {
+      "id": "IP-01",
+      "type": "overall",
+      "referenceAsset": "assets/proposal-diagrams-20261006/IP-01_overall_v1.png",
+      "prompt": "Edit the provided Korean technical slide image. Preserve the entire original 16:9 composition, dimensions, colors, Korean text, all other arrows and all other modules. Make only this precise correction: Only correct the small parenthetical final line inside the Grantee candidate box (second module from the left): replace \"(조정/화해 전용)\" with exactly \"(자료 대사 전용)\". Grantee compares evidence; it does not mediate or settle disputes. Keep every other label, module, arrow and layout exactly unchanged. Output the complete polished corrected slide image, not a crop."
+    }
+  ]
+}

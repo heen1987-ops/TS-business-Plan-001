@@ -1,0 +1,16 @@
+{
+  "images": [
+    {
+      "id": "EX23-01",
+      "type": "overall",
+      "prompt": "Perform a precise local edit on this referenced technical architecture PNG. Original width1672, height940. Keep the full 16:9 slide, Korean labels, and all non-target content intact. Edit ONLY the short vertical connector at center, between the bottom edge of the top NOA box and the TOP edge of the broad horizontal NOA bus, just above the bus text. Remove the existing SINGLE UP arrow at this center. Replace with TWO SEPARATE PARALLEL vertical arrows next to each other: LEFT arrow points DOWN from NOA bottom toward bus top (request), RIGHT arrow points UP from bus top toward NOA bottom (response). Two independent short 40px vertical shafts, one DOWN arrowhead at bus top, one UP arrowhead at NOA bottom. Use positions slightly left and right of original center x711, around x695 and x727, spanning y393 to431. It is essential the LEFT DOWNWARD arrowhead at bottom is visible; do not leave only an upward arrow again. The top NOA box and bus have a blank gap here. Keep all 6 lower bidirectional module connectors, official-result loop, Grantee '(대사 전용)' and every other label, position and layout EXACTLY unchanged. No new text.",
+      "referenceAsset": "assets/proposal-diagrams-20261006/EX23-01_overall_v1.png"
+    },
+    {
+      "id": "EX22-02",
+      "type": "overall",
+      "prompt": "Perform a precise local edit on this referenced technical architecture PNG. Original width1672, height940. Keep the full 16:9 slide, Korean labels, and all non-target content intact. Edit ONLY the Grantee box (second lower module). DELETE the entire small bottom parenthetical line '(대사·중재)' and leave that short line EMPTY with matching pale box background. Do NOT replace it with any other words. Keep the existing header 'Grantee 후보', icon, '기준·증거·공식기록 대사', and '규정·기준과 증거 정확성 대사'. The offending parenthetical line must disappear completely. Do NOT include '중재', '조정', '화해' anywhere. Preserve all other labels, arrows, positions and layout exactly.",
+      "referenceAsset": "assets/proposal-diagrams-20261006/EX22-02_overall_v1.png"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "reason": "원본 참조 기반 잔여 역할표현·입력선·왕복선만 국소 교정",
+  "images": [
+    {
+      "id": "EX08-01",
+      "type": "overall",
+      "referenceAsset": "assets/proposal-diagrams-20261006/EX08-01_overall_v1.png",
+      "prompt": "Edit the provided Korean technical slide image. Preserve the entire original 16:9 composition, dimensions, colors, Korean text, all other arrows and all other modules. Make only this precise correction: Only change the short center vertical arrow BETWEEN the TOP NOA box and the broad NOA bus from downward-only into a clear TWO-HEADED arrow (NOA→bus request and bus→NOA response). Both arrowheads must touch the correct boundaries. Keep all six module connectors and the top official-result feedback unchanged. Also remove \"(조정)\" from the Grantee box final phrase; use \"공식 기록의 대사\" only. Output the complete polished corrected slide image, not a crop."
+    },
+    {
+      "id": "EX22-01",
+      "type": "service",
+      "referenceAsset": "assets/proposal-diagrams-20261006/EX22-01_service_v1.png",
+      "prompt": "Edit the provided Korean technical slide image. Preserve the entire original 16:9 composition, dimensions, colors, Korean text, all other arrows and all other modules. Make only this precise correction: Only remove the parenthetical \"(공무원)\" text from numbered box5 and box6. Box5 must read \"검토·확정 / 공유 승인자·담당기관\". Box6 must read \"공식 절차 인계 / 기존 업무체계\". Preserve the 1~8 chain, YES/NO arrows, HOLD, deidentified input and all other text exactly. Output the complete polished corrected slide image, not a crop."
+    },
+    {
+      "id": "EX23-02",
+      "type": "service",
+      "referenceAsset": "assets/proposal-diagrams-20261006/EX23-02_service_v1.png",
+      "prompt": "Edit the provided Korean technical slide image. Preserve the entire original 16:9 composition, dimensions, colors, Korean text, all other arrows and all other modules. Make only this precise correction: Only remove wrong identity and AI approval annotations in numbered nodes5~8. Box5 must read exactly \"검토·확정 / 전문가 재입증 결정\", with NO \"(공무원·NOA)\" and no NOA in this human decision box. Box6 must read \"공식 절차 인계 / 기존 업무체계\". Box7 \"공식 결과 재조회 / 기존 공식 원천\". Box8 \"완료 증거·재계획 / NOA\". Remove every \"(공무원)\" parenthetical throughout. Preserve every arrow, 1~8 chain, all modules and all other text. Output the complete polished corrected slide image, not a crop."
+    },
+    {
+      "id": "EX21-01",
+      "type": "data",
+      "referenceAsset": "assets/proposal-diagrams-20261006/EX21-01_data_v1.png",
+      "prompt": "Edit the provided Korean technical slide image. Preserve the entire original 16:9 composition, dimensions, colors, Korean text, all other arrows and all other modules. Make only this precise correction: Only reroute the long downward arrow labeled \"승인된 최종 기록 (사람의 확정본)\" from the top \"담당자 수정·확정 기록\" box. It currently ends at \"사건·검증 이력\". It MUST instead end at the LOWER \"Grantee 결과 대사 후보\" box. Draw one continuous orthogonal connector from the human-confirmed top box into the TOP boundary of Grantee result comparison. Preserve the existing official-source cylinder→Grantee input and Grantee→history→measurement path. Keep the upper human→NOA feedback and all privacy/HOLD/other boxes unchanged. The comparison thus has TWO actual inputs: human confirmed record, independent official source. Output the complete polished corrected slide image, not a crop."
+    },
+    {
+      "id": "EX23-02",
+      "type": "data",
+      "referenceAsset": "assets/proposal-diagrams-20261006/EX23-02_data_v1.png",
+      "prompt": "Edit the provided Korean technical slide image. Preserve the entire original 16:9 composition, dimensions, colors, Korean text, all other arrows and all other modules. Make only this precise correction: Only fix the source of the downward arrow labeled \"확정된 인간 기록 (승인본)\" into the LOWER Grantee result-comparison box. REMOVE this arrow from the top \"NOA 검토안\" draft box. Draw its uninterrupted connector starting at the TOP \"담당자 수정·확정 기록\" HUMAN box, ending at LOWER \"Grantee 결과 대사 후보\". Label it \"담당자 확정 기록(승인본)\". Human and NOA draft are different sources. Preserve official-source→comparison, comparison→history→measurement and failure feedback to NOA, all privacy, boxes and other content. Do not add a duplicate human-record box. Output the complete polished corrected slide image, not a crop."
+    },
+    {
+      "id": "EX22-02",
+      "type": "overall",
+      "referenceAsset": "assets/proposal-diagrams-20261006/EX22-02_overall_v1.png",
+      "prompt": "Edit the provided Korean technical slide image. Preserve the entire original 16:9 composition, dimensions, colors, Korean text, all other arrows and all other modules. Make only this precise correction: Only replace \"(조정·중재)\" in the Grantee box lower final line with exactly \"(대사 전용)\". Preserve its criteria/evidence/official-record comparison label and every other module, connector and text. Grantee must not mediate or arbitrate. Output the complete polished corrected slide image, not a crop."
+    },
+    {
+      "id": "EX23-01",
+      "type": "overall",
+      "referenceAsset": "assets/proposal-diagrams-20261006/EX23-01_overall_v1.png",
+      "prompt": "Edit the provided Korean technical slide image. Preserve the entire original 16:9 composition, dimensions, colors, Korean text, all other arrows and all other modules. Make only this precise correction: Only change the center vertical connector BETWEEN top NOA and the broad NOA bus from upward-only into a clear TWO-HEADED arrow: NOA sends requests down to bus, bus returns results up to NOA. Both arrowheads touch the two correct boundaries. Preserve six module bidirectional links and official-result top feedback. Also replace \"(조정 전용)\" in Grantee with exactly \"(대사 전용)\". No other modifications. Output the complete polished corrected slide image, not a crop."
+    },
+    {
+      "id": "EX23-02",
+      "type": "overall",
+      "referenceAsset": "assets/proposal-diagrams-20261006/EX23-02_overall_v1.png",
+      "prompt": "Edit the provided Korean technical slide image. Preserve the entire original 16:9 composition, dimensions, colors, Korean text, all other arrows and all other modules. Make only this precise correction: Only replace the Grantee lower phrase \"일치성 대사(조정만 수행)\" with exactly \"일치성 대사(대사 전용)\". Preserve all remaining content, colors and arrows. No mediation, adjudication or independent human approval is a Grantee role. Output the complete polished corrected slide image, not a crop."
+    },
+    {
+      "id": "EX21-01",
+      "type": "overall",
+      "referenceAsset": "assets/proposal-diagrams-20261006/EX21-01_overall_v1.png",
+      "prompt": "Edit the provided Korean technical slide image. Preserve the entire original 16:9 composition, dimensions, colors, Korean text, all other arrows and all other modules. Make only this precise correction: Only replace \"(조정 전용)\" inside Grantee with exactly \"(대사 전용)\". Preserve all other labels, arrows, privacy, HOLD and layout. Output the complete polished corrected slide image, not a crop."
+    },
+    {
+      "id": "EX24-01",
+      "type": "overall",
+      "referenceAsset": "assets/proposal-diagrams-20261006/EX24-01_overall_v1.png",
+      "prompt": "Edit the provided Korean technical slide image. Preserve the entire original 16:9 composition, dimensions, colors, Korean text, all other arrows and all other modules. Make only this precise correction: Only replace \"(조정·대사 전용)\" inside Grantee with exactly \"(대사 전용)\". Preserve all other labels, arrows and layout. Output the complete polished corrected slide image, not a crop."
+    }
+  ]
+}
