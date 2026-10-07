@@ -6,3 +6,4 @@ qa-output/
 *.log
 .DS_Store
 scripts/*.local.cjs
+scripts/*.local.ps1

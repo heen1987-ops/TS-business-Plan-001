@@ -50,3 +50,5 @@
 .department-reader .integrated-proposal:focus{outline:none}.department-reader .integrated-proposal:focus-visible>.department-discovery-purpose h3{border-bottom:2px solid #087da8}
 
 .department-reader .department-briefing>section[tabindex="-1"]:focus{outline:none}.department-reader .department-briefing>section[tabindex="-1"]:focus-visible>h3{text-decoration:underline;text-decoration-color:#087da8;text-underline-offset:5px}
+
+.department-reader .department-job-list{list-style:none;padding:0;margin:8px 0}.department-reader .department-job-list>li{border-left:3px solid #87a6b9;padding:3px 12px;margin:10px 0}.department-reader .department-job-list h4 small{display:block;font-weight:400;font-size:11px;color:#48697f;margin:3px 0}.department-reader .department-job-list small a{color:#006f99;text-decoration:underline}.department-reader .work-research-downloads{display:flex;flex-wrap:wrap;gap:10px;font-size:13px}.department-reader .work-research-downloads a{min-height:44px;padding:10px 6px;color:#006f99;text-decoration:underline}

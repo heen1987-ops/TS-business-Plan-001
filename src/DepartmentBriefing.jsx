@@ -1,10 +1,13 @@
 import React from 'react';
 import {Out} from './core.jsx';
 import reader from './department-reader.cjs';
+import research from './department-work-research.cjs';
+import {DepartmentWorkResearch} from './DepartmentWorkResearch.jsx';
 const lines=reader.displayLines;
 function Bullets({value}){return <ul>{lines(value).map((text,i)=><li key={i}>{text}</li>)}</ul>}
 function Fields({rows}){return <dl className="department-fields">{rows.filter(([,v])=>v).map(([label,value])=><div key={label}><dt>{label}</dt><dd><Bullets value={value}/></dd></div>)}</dl>}
 export function DepartmentBriefing({department,topic}){
+ if(topic&&research.byKey[department.key])return <DepartmentWorkResearch department={department} topic={topic}/>;
  if(!topic?.briefing)return null;const b=reader.forTopic(topic,department.key),id='department-detail-'+topic.id;
  return <div className="department-briefing" data-department-briefing={topic.id} data-detail-kind={topic.discovery?'discovery':'proposal'}>
   <section id={id+'-scope'} tabIndex={-1}><h3>업무 범위 · 대상 · 시작조건</h3>

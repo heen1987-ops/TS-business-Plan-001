@@ -1,0 +1,5089 @@
+{
+  "date": "2026-10-07",
+  "method": "이미지 모델 원본 보존 + 플랫폼 표기의 정확한 한글 SVG 레이어 적용",
+  "font": "Malgun Gothic",
+  "scope": "플랫폼 관련 표기 전수 후보 탐지·정확한 글자 레이어 적용. 그 외 업무 문구·제품 역할·화살표 변경 없음",
+  "population": 168,
+  "previouslyCorrected": 4,
+  "noPlatformAssets": [
+    {
+      "id": "QE-01",
+      "type": "data"
+    },
+    {
+      "id": "EX04-01",
+      "type": "data"
+    },
+    {
+      "id": "EX08-01",
+      "type": "data"
+    },
+    {
+      "id": "EX10-01",
+      "type": "data"
+    },
+    {
+      "id": "EX11-01",
+      "type": "data"
+    },
+    {
+      "id": "EX12-01",
+      "type": "data"
+    },
+    {
+      "id": "EX14-01",
+      "type": "data"
+    }
+  ],
+  "assets": [
+    {
+      "id": "MR-02",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/MR-02_overall_v1.png",
+      "originalSha256": "b1f52379120cbd7df0fdd3bdf23640cc36568d089ff18eb05ed7bd8e0124d510",
+      "corrected": "assets/proposal-diagrams-20261006/MR-02_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            658,
+            73,
+            95,
+            37
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            483,
+            224,
+            58,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "MR-02",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/MR-02_service_v1.png",
+      "originalSha256": "228c47be183ed5fd24172475f7eccd75899e22b52a8a6dd17cf6d30abc6ae357",
+      "corrected": "assets/proposal-diagrams-20261006/MR-02_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫품",
+          "box": [
+            161,
+            9,
+            125,
+            31
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫품",
+          "box": [
+            438,
+            214,
+            53,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "MR-02",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/MR-02_data_v1.png",
+      "originalSha256": "a5aec24cc3a8cfff23f4560e4885ea31984e39d570df287aad800f8909c840ba",
+      "corrected": "assets/proposal-diagrams-20261006/MR-02_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫품",
+          "box": [
+            212,
+            15,
+            135,
+            33
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "MR-02",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/MR-02_environment_v1.png",
+      "originalSha256": "2ceca37f401c89dcc204ff760b5c6afa85de1bda1fab99e6f853f20e811418d5",
+      "corrected": "assets/proposal-diagrams-20261006/MR-02_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            227,
+            82,
+            102,
+            39
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            850,
+            227,
+            144,
+            35
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "DF-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/DF-01_overall_v1.png",
+      "originalSha256": "7d5629227eb72abe13312842297cd8c7c8a8a42289d9950a343c3bf1c19a8948",
+      "corrected": "assets/proposal-diagrams-20261006/DF-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            627,
+            76,
+            103,
+            39
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            474,
+            251,
+            59,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "DF-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/DF-01_service_v1.png",
+      "originalSha256": "14e211c06bc9138e30e92baa62067f967ee6f01093f616b4c4de2862b8d0d5fb",
+      "corrected": "assets/proposal-diagrams-20261006/DF-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            319,
+            236,
+            79,
+            21
+          ],
+          "weight": 400
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫품",
+          "box": [
+            1465,
+            22,
+            110,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "DF-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/DF-01_data_v1.png",
+      "originalSha256": "f51829ff323b3be6b1469352048901775607eb71a43ea885a00300ca9b0c6dda",
+      "corrected": "assets/proposal-diagrams-20261006/DF-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫품",
+          "box": [
+            195,
+            13,
+            136,
+            32
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "DF-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/DF-01_environment_v1.png",
+      "originalSha256": "cad43cc1de5548c7a1162b8c27d3be61057900c4a5cb8bfa86ce1d94592e8dcd",
+      "corrected": "assets/proposal-diagrams-20261006/DF-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            720,
+            82,
+            99,
+            39
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            837,
+            222,
+            130,
+            31
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "SA-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/SA-01_overall_v1.png",
+      "originalSha256": "dfc8fcff66edf9868b4a36a40fde05f4ffb8c88da7797806b800453756e54599",
+      "corrected": "assets/proposal-diagrams-20261006/SA-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            638,
+            70,
+            99,
+            37
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "기존 TS AI 플랫폼",
+          "observed": "기존TSA|플랫폼",
+          "box": [
+            368,
+            240,
+            165,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "SA-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/SA-01_service_v1.png",
+      "originalSha256": "09f743fb913f36e479d3a13001b38d1e337a83dfdb4207ef71c5054baf61e8ce",
+      "corrected": "assets/proposal-diagrams-20261006/SA-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            179,
+            19,
+            128,
+            31
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼에",
+          "observed": "플랫폼에",
+          "box": [
+            314,
+            254,
+            75,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-2",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            675,
+            228,
+            57,
+            23
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-3",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            1466,
+            252,
+            58,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "SA-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/SA-01_data_v1.png",
+      "originalSha256": "5dae100826512098d96f6a59817ff908c1cedc850847904c87cc6741fb039c64",
+      "corrected": "assets/proposal-diagrams-20261006/SA-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            1421,
+            23,
+            134,
+            33
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            1481,
+            893,
+            98,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "SA-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/SA-01_environment_v1.png",
+      "originalSha256": "1be3fbd94434371752f457e649983caa2d5b9776fef9aea7ec0cdc7e4d6b9e79",
+      "corrected": "assets/proposal-diagrams-20261006/SA-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            734,
+            75,
+            87,
+            34
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            827,
+            215,
+            125,
+            30
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "QE-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/QE-01_overall_v1.png",
+      "originalSha256": "1b9b4f755ffdcabb4d138111adf54157b380eb538d66241a74626a79e8ea59e8",
+      "corrected": "assets/proposal-diagrams-20261006/QE-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            658,
+            81,
+            87,
+            35
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            467,
+            250,
+            65,
+            26
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "QE-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/QE-01_service_v1.png",
+      "originalSha256": "4d50d1d4f8e4137f95953263329487e757587c2d394a48bdc991b36a3f2e46a1",
+      "corrected": "assets/proposal-diagrams-20261006/QE-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            587,
+            93,
+            108,
+            42
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            97,
+            651,
+            63,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "QE-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/QE-01_environment_v1.png",
+      "originalSha256": "d02dca5a3e4c7c34a8b5458d131b8aecade77db6a73efb06d56aeed75f54bd6f",
+      "corrected": "assets/proposal-diagrams-20261006/QE-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            726,
+            65,
+            86,
+            34
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            816,
+            202,
+            137,
+            34
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "CL-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/CL-01_overall_v1.png",
+      "originalSha256": "84922cf937647db3f01351ff54227556a7e6d0153721a51335e3c3da1f6e02d0",
+      "corrected": "assets/proposal-diagrams-20261006/CL-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            656,
+            74,
+            95,
+            35
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            446,
+            282,
+            66,
+            26
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "CL-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/CL-01_service_v1.png",
+      "originalSha256": "90a32688cd88c8ba116e92f5cb61dbe4953a4320c22119a184e99487fed325a6",
+      "corrected": "assets/proposal-diagrams-20261006/CL-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            571,
+            103,
+            102,
+            42
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "CL-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/CL-01_data_v1.png",
+      "originalSha256": "678866eea3cb6eac7afd8af43afdf313d2b98196a068c7608a2818ca96103583",
+      "corrected": "assets/proposal-diagrams-20261006/CL-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            1435,
+            33,
+            128,
+            31
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "CL-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/CL-01_environment_v1.png",
+      "originalSha256": "d0fb017ce5a32cdc6303881aed15fe1445ed901b7c091a0f15d9446a50b53096",
+      "corrected": "assets/proposal-diagrams-20261006/CL-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            731,
+            73,
+            82,
+            33
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            850,
+            212,
+            134,
+            33
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "PS-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/PS-01_overall_v1.png",
+      "originalSha256": "452602e95b632ddd6da7e5b28a8405d10dd74fbbc2f13c72f32711e8dafb9883",
+      "corrected": "assets/proposal-diagrams-20261006/PS-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            658,
+            77,
+            93,
+            35
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            438,
+            282,
+            65,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "PS-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/PS-01_service_v1.png",
+      "originalSha256": "37af87a06755f3a09d9f6d8778fa7ba20b3d693a044e6b2029910031020a089a",
+      "corrected": "assets/proposal-diagrams-20261006/PS-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            540,
+            105,
+            127,
+            49
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "PS-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/PS-01_data_v1.png",
+      "originalSha256": "d51268df2cec9a07eaa443914c2fd2c2896a76e8028d60d086e15fd77b29c6ad",
+      "corrected": "assets/proposal-diagrams-20261006/PS-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            209,
+            22,
+            140,
+            35
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫품",
+          "box": [
+            1047,
+            821,
+            52,
+            22
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "PS-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/PS-01_environment_v1.png",
+      "originalSha256": "ea188f0e1f1c302f2af1053c34d0453d57f86305c9282a996fa6aea944fc9858",
+      "corrected": "assets/proposal-diagrams-20261006/PS-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            714,
+            80,
+            101,
+            39
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            828,
+            228,
+            124,
+            30
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "RI-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/RI-01_overall_v1.png",
+      "originalSha256": "778b1d1bc2bb3713e4c2913b319def3bbc5b44decbfffa8cecd54abb7715d9fb",
+      "corrected": "assets/proposal-diagrams-20261006/RI-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫품",
+          "box": [
+            191,
+            82,
+            89,
+            34
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            482,
+            214,
+            58,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "RI-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/RI-01_service_v1.png",
+      "originalSha256": "2f4cbc8f286b011ab3187f8b470f2d854d91fd1bf188e97d29a31fae8b5c51a5",
+      "corrected": "assets/proposal-diagrams-20261006/RI-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            242,
+            19,
+            166,
+            39
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫품",
+          "box": [
+            302,
+            249,
+            81,
+            21
+          ],
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "id": "RI-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/RI-01_data_v1.png",
+      "originalSha256": "2f5cba60b3ab0f6cfa97c67e0a77414d91ee775ba29d63c94449c54760a53b27",
+      "corrected": "assets/proposal-diagrams-20261006/RI-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            1451,
+            35,
+            116,
+            29
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "RI-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/RI-01_environment_v1.png",
+      "originalSha256": "7336a57180ca1b4e8e9d29e6e0ec7043dbcec016e64edb9957082206901a4b7a",
+      "corrected": "assets/proposal-diagrams-20261006/RI-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            735,
+            79,
+            90,
+            34
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통쫄랫폼",
+          "box": [
+            831,
+            210,
+            129,
+            31
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "DV-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/DV-01_overall_v1.png",
+      "originalSha256": "ce5557139897714a992ed549983918c381f05a73fe20a23fa882a866f9b43df2",
+      "corrected": "assets/proposal-diagrams-20261006/DV-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            656,
+            72,
+            88,
+            34
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            475,
+            245,
+            59,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "DV-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/DV-01_service_v1.png",
+      "originalSha256": "fca9d5a25540e149c08c605651c8daf39c6e7f4cfb19661a07652110833bd40c",
+      "corrected": "assets/proposal-diagrams-20261006/DV-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫품",
+          "box": [
+            163,
+            12,
+            113,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫품",
+          "box": [
+            92,
+            415,
+            50,
+            21
+          ],
+          "weight": 400
+        },
+        {
+          "key": "platform-2",
+          "text": "공통플랫폼",
+          "observed": "공통쫄랫폼",
+          "box": [
+            374,
+            355,
+            89,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-3",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            257,
+            423,
+            51,
+            21
+          ],
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "id": "DV-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/DV-01_data_v1.png",
+      "originalSha256": "d153126827b4c5d8fe23b5ed21f3c8aa5897eefa1ab23077f0af9058740122e2",
+      "corrected": "assets/proposal-diagrams-20261006/DV-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫품",
+          "box": [
+            204,
+            84,
+            139,
+            33
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            709,
+            226,
+            110,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-2",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            765,
+            775,
+            71,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "DV-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/DV-01_environment_v1.png",
+      "originalSha256": "9a998d0789595733b4da16120c02ca4af661636f153f50294384a378652c2c5a",
+      "corrected": "assets/proposal-diagrams-20261006/DV-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            173,
+            82,
+            82,
+            33
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            840,
+            234,
+            126,
+            31
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "IP-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/IP-01_overall_v1.png",
+      "originalSha256": "4df06e5021b55e8b28a455c3b105b2bde8dd86de572cda016d78df1ba9ccec9f",
+      "corrected": "assets/proposal-diagrams-20261006/IP-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            657,
+            75,
+            83,
+            31
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            443,
+            275,
+            64,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "IP-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/IP-01_service_v1.png",
+      "originalSha256": "dbff4e630ae4c3dccdc473887dc92cc8de9851ad6fcb845ce6066798dab388ea",
+      "corrected": "assets/proposal-diagrams-20261006/IP-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            152,
+            13,
+            108,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            363,
+            263,
+            81,
+            21
+          ],
+          "weight": 400
+        },
+        {
+          "key": "platform-2",
+          "text": "공통플랫폼",
+          "observed": "공통쫄랫품",
+          "box": [
+            363,
+            436,
+            82,
+            21
+          ],
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "id": "IP-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/IP-01_data_v1.png",
+      "originalSha256": "113d2db6a616e4f8f7ea412d1f1ec8424eac3fe727c44fd499c7101703ce8e30",
+      "corrected": "assets/proposal-diagrams-20261006/IP-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            1437,
+            27,
+            124,
+            30
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "IP-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/IP-01_environment_v1.png",
+      "originalSha256": "3892e0b9d9be5e56e20d416cdf5bdeea2756db2c9a1f7d28f7da2218d1a4db41",
+      "corrected": "assets/proposal-diagrams-20261006/IP-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            733,
+            85,
+            91,
+            36
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            840,
+            232,
+            148,
+            36
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "SI-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/SI-01_overall_v1.png",
+      "originalSha256": "7798fd66a74dce48a2f3950bf9b73163d7cad23cad9994adb4877ef381526b09",
+      "corrected": "assets/proposal-diagrams-20261006/SI-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            657,
+            81,
+            87,
+            34
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            437,
+            305,
+            72,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "SI-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/SI-01_service_v1.png",
+      "originalSha256": "e7e72f4d7d75a59f836f2f925b1430cef5894bd58f908aae6458675c835bba41",
+      "corrected": "assets/proposal-diagrams-20261006/SI-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플럣폼",
+          "box": [
+            37,
+            425,
+            85,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            1473,
+            20,
+            109,
+            28
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-2",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            357,
+            232,
+            49,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-3",
+          "text": "플랫폼)",
+          "observed": "플랫폼)",
+          "box": [
+            378,
+            403,
+            58,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "SI-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/SI-01_data_v1.png",
+      "originalSha256": "9b5408a7b410019bc8e52911122daf9d167557c31829f5533da11e5a706a7214",
+      "corrected": "assets/proposal-diagrams-20261006/SI-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            1393,
+            27,
+            149,
+            36
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "SI-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/SI-01_environment_v1.png",
+      "originalSha256": "ae43b203bdc3465dd85136f471eede27b341ed8681d33fd8e6c1485b04a1f22d",
+      "corrected": "assets/proposal-diagrams-20261006/SI-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            728,
+            86,
+            89,
+            35
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            829,
+            248,
+            135,
+            32
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "PK-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/PK-01_overall_v1.png",
+      "originalSha256": "b02c4304070c18e477a7254d795433cdf4bd7e777b3ba71930df38703fc2d28e",
+      "corrected": "assets/proposal-diagrams-20261006/PK-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫품",
+          "box": [
+            636,
+            74,
+            99,
+            36
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            472,
+            243,
+            59,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "PK-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/PK-01_service_v1.png",
+      "originalSha256": "cfe6ca5c7e650aa1bf37a570af0c35ef6790eaceeedffd19c5c55860213fc694",
+      "corrected": "assets/proposal-diagrams-20261006/PK-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫품",
+          "box": [
+            1445,
+            19,
+            121,
+            30
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫품",
+          "box": [
+            30,
+            446,
+            81,
+            21
+          ],
+          "weight": 400
+        },
+        {
+          "key": "platform-2",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            311,
+            243,
+            54,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-3",
+          "text": "플랫폼",
+          "observed": "플랫품",
+          "box": [
+            312,
+            429,
+            53,
+            21
+          ],
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "id": "PK-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/PK-01_data_v1.png",
+      "originalSha256": "53a0a41f74714ec30157de72dfcc744961122ef74c6dcd81b263fe05d9af4948",
+      "corrected": "assets/proposal-diagrams-20261006/PK-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            1415,
+            22,
+            135,
+            32
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼을",
+          "observed": "공통플랫폼을",
+          "box": [
+            979,
+            911,
+            99,
+            21
+          ],
+          "weight": 400
+        },
+        {
+          "key": "platform-2",
+          "text": "플랫폼이나",
+          "observed": "플랫폼이나",
+          "box": [
+            1327,
+            911,
+            83,
+            21
+          ],
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "id": "PK-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/PK-01_environment_v1.png",
+      "originalSha256": "b7da8d19ba0dc58d656e9a48d98e188d5b19b13f8643aba630cc8e50c54b7192",
+      "corrected": "assets/proposal-diagrams-20261006/PK-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            727,
+            87,
+            96,
+            37
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            824,
+            234,
+            135,
+            32
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "AD-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/AD-01_overall_v1.png",
+      "originalSha256": "28b73dc2844299cd5d21d87b5ba983cfdc6d8232f6dbf2e61ec5ae3e09dea069",
+      "corrected": "assets/proposal-diagrams-20261006/AD-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            647,
+            81,
+            92,
+            34
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "쫄랫품",
+          "box": [
+            479,
+            244,
+            55,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "AD-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/AD-01_service_v1.png",
+      "originalSha256": "7707db97768ecf6160f5dfabaac4cdcd2f3ab46795d25b7c7cabfb197b7f4bbd",
+      "corrected": "assets/proposal-diagrams-20261006/AD-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            183,
+            9,
+            127,
+            31
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            359,
+            256,
+            84,
+            21
+          ],
+          "weight": 400
+        },
+        {
+          "key": "platform-2",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            360,
+            414,
+            84,
+            22
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "AD-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/AD-01_data_v1.png",
+      "originalSha256": "24d607bd259519de27044c9fa2bd27f57b538bbe7864da0cc36ec5bc3ae2d667",
+      "corrected": "assets/proposal-diagrams-20261006/AD-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            638,
+            90,
+            92,
+            39
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "AD-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/AD-01_environment_v1.png",
+      "originalSha256": "2a073fd2736bca3b363b1cd237b9a96b2229ea5932025d7f1df66ec4ed7ff02e",
+      "corrected": "assets/proposal-diagrams-20261006/AD-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            736,
+            85,
+            86,
+            34
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            843,
+            235,
+            133,
+            33
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "RD-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/RD-01_overall_v1.png",
+      "originalSha256": "b7d736bb77bdc2ac9678e429912643d09c2a5f0f2a4f9617384dc6d29547654f",
+      "corrected": "assets/proposal-diagrams-20261006/RD-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            665,
+            80,
+            90,
+            35
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            449,
+            275,
+            66,
+            27
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "RD-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/RD-01_service_v1.png",
+      "originalSha256": "92ee726e8bfe4c77a6a937e4703847464a346b300c07b3616ae1fee28da84020",
+      "corrected": "assets/proposal-diagrams-20261006/RD-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            646,
+            85,
+            87,
+            34
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "RD-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/RD-01_data_v1.png",
+      "originalSha256": "ea9c1290547005f9a02cf09e4246f785ad9216e281b438eddbe957d9d37449a4",
+      "corrected": "assets/proposal-diagrams-20261006/RD-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            1465,
+            33,
+            112,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "RD-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/RD-01_environment_v1.png",
+      "originalSha256": "754b4b3c69cfa3d0cdc9b8df3e4a35d54d126df3a5da96793746e521573d4957",
+      "corrected": "assets/proposal-diagrams-20261006/RD-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            714,
+            82,
+            99,
+            38
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통쫄랫폼",
+          "box": [
+            824,
+            230,
+            145,
+            36
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX01-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX01-01_overall_v1.png",
+      "originalSha256": "466c6cc2aeed99978d3abe1704ae212ed3ae6b1abd9fc6e106862cc9fcadf9e4",
+      "corrected": "assets/proposal-diagrams-20261006/EX01-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            646,
+            73,
+            89,
+            35
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            467,
+            222,
+            59,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX01-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX01-01_service_v1.png",
+      "originalSha256": "a2f4c07bc80770b3dccf28544739ef58c523568d0c6e96ca531900083986c559",
+      "corrected": "assets/proposal-diagrams-20261006/EX01-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫품",
+          "box": [
+            653,
+            77,
+            87,
+            34
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX01-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/EX01-01_data_v1.png",
+      "originalSha256": "87b8abb51331c358378d29555aeba7b38d8129ed7a1c7407cde7ae51bbc80747",
+      "corrected": "assets/proposal-diagrams-20261006/EX01-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫품",
+          "box": [
+            190,
+            17,
+            132,
+            31
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX01-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX01-01_environment_v1.png",
+      "originalSha256": "eab60cbb9e2c978f25478a924aac4f8416f5a3860cb7274cdcfe81277f12f1e2",
+      "corrected": "assets/proposal-diagrams-20261006/EX01-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            720,
+            80,
+            106,
+            42
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            807,
+            231,
+            128,
+            31
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX02-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX02-01_overall_v1.png",
+      "originalSha256": "41487f8a0d1b511bd2ff5b25c643c82c1b051105775291a9111b83745055344d",
+      "corrected": "assets/proposal-diagrams-20261006/EX02-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            202,
+            79,
+            98,
+            38
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            436,
+            245,
+            65,
+            26
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX02-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX02-01_service_v1.png",
+      "originalSha256": "e28928f9e2a3609681213b8d5e7a515952d9c1000f793149d2b22c31f951d74f",
+      "corrected": "assets/proposal-diagrams-20261006/EX02-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫품",
+          "box": [
+            614,
+            73,
+            92,
+            36
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX02-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/EX02-01_data_v1.png",
+      "originalSha256": "1a50d7da088758cde3440507dfd21dc8a0b6ee601ed10aa161fe0456fa19ef40",
+      "corrected": "assets/proposal-diagrams-20261006/EX02-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            627,
+            99,
+            98,
+            37
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX02-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX02-01_environment_v1.png",
+      "originalSha256": "07003f22b7ad0471700ea17d3804a4e742a6ffc205cbb7fb6328aacaa74f0b5d",
+      "corrected": "assets/proposal-diagrams-20261006/EX02-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            207,
+            96,
+            95,
+            36
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            840,
+            236,
+            144,
+            35
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX03-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX03-01_overall_v1.png",
+      "originalSha256": "d3865eece318bba1942468e65eccaefd1e5736c2123fb87b4aeed02d5ebb2011",
+      "corrected": "assets/proposal-diagrams-20261006/EX03-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            657,
+            70,
+            89,
+            34
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            481,
+            242,
+            58,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX03-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX03-01_service_v1.png",
+      "originalSha256": "e7c6d25aee27a767c8e564a826dd8a6053d5cda10105c8ec99230a301d7bf02b",
+      "corrected": "assets/proposal-diagrams-20261006/EX03-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            626,
+            82,
+            98,
+            39
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX03-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/EX03-01_data_v1.png",
+      "originalSha256": "56b38250f36b7e8c2b8c186ded45f1bc999349567ca707fc2ae54d6fe6bb2a86",
+      "corrected": "assets/proposal-diagrams-20261006/EX03-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            601,
+            106,
+            109,
+            41
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX03-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX03-01_environment_v1.png",
+      "originalSha256": "0c9c3818619c20f2261d7f3ae01d3c3d11afa1731deebc6fdb87e5084e18d7b5",
+      "corrected": "assets/proposal-diagrams-20261006/EX03-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            727,
+            84,
+            84,
+            34
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            839,
+            222,
+            130,
+            31
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX04-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX04-01_overall_v1.png",
+      "originalSha256": "5b5cbefdd251b0a365681ee44c485547c4a42ced79ad841d54d889de4632a4ea",
+      "corrected": "assets/proposal-diagrams-20261006/EX04-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫품",
+          "box": [
+            665,
+            74,
+            90,
+            34
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            476,
+            228,
+            59,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX04-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX04-01_service_v1.png",
+      "originalSha256": "231a970b79ce637eb9f36621c6200486b64804a729c36b532499267bf7d81d47",
+      "corrected": "assets/proposal-diagrams-20261006/EX04-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫품",
+          "box": [
+            195,
+            15,
+            135,
+            33
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            27,
+            497,
+            93,
+            23
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-2",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            353,
+            278,
+            85,
+            22
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX04-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX04-01_environment_v1.png",
+      "originalSha256": "e2253ab88043f14f5b48b37b5ee40d8ab8dca0394f4a7abba1efc242a7aa16cb",
+      "corrected": "assets/proposal-diagrams-20261006/EX04-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            727,
+            86,
+            98,
+            38
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            837,
+            229,
+            140,
+            34
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX05-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX05-01_overall_v1.png",
+      "originalSha256": "5e1ca6c4ccf3f9085e40e579e2bd10f26d674936d943ae0b36b99954e7eddf33",
+      "corrected": "assets/proposal-diagrams-20261006/EX05-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            622,
+            74,
+            111,
+            41
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            472,
+            252,
+            66,
+            26
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX05-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX05-01_service_v1.png",
+      "originalSha256": "cb37bd4975c71b5c912dbe7695c5e32a53a2a9673f54b165110f6e47cfa3a038",
+      "corrected": "assets/proposal-diagrams-20261006/EX05-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            609,
+            88,
+            107,
+            41
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX05-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/EX05-01_data_v1.png",
+      "originalSha256": "d95908e6e7a2e1e6075b6f3abbdab29321e1fed0dfdc27107e6d960d91f9068d",
+      "corrected": "assets/proposal-diagrams-20261006/EX05-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            617,
+            103,
+            104,
+            40
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX05-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX05-01_environment_v1.png",
+      "originalSha256": "2b5e72f4865734903eb21851f278a36e23fc75f8b79416808df268156b16f58a",
+      "corrected": "assets/proposal-diagrams-20261006/EX05-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫품",
+          "box": [
+            197,
+            76,
+            88,
+            34
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            840,
+            215,
+            137,
+            33
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX06-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX06-01_overall_v1.png",
+      "originalSha256": "b224f567a17cc1a572162578646b409e33139c129cba08d17beaf622a2fac861",
+      "corrected": "assets/proposal-diagrams-20261006/EX06-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            474,
+            250,
+            61,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            642,
+            82,
+            94,
+            37
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX06-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX06-01_service_v1.png",
+      "originalSha256": "ee49f49949387091f36951a86bbfb0efa9dcc855e77b1a2ad32b7263f93c2b04",
+      "corrected": "assets/proposal-diagrams-20261006/EX06-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫품",
+          "box": [
+            194,
+            8,
+            129,
+            32
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            267,
+            276,
+            58,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX06-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/EX06-01_data_v1.png",
+      "originalSha256": "4ea98f3977acccdba86da97d762f297d5507cca4f6863ea79e8ecf5033ac2da6",
+      "corrected": "assets/proposal-diagrams-20261006/EX06-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫품",
+          "box": [
+            188,
+            20,
+            130,
+            31
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            1462,
+            837,
+            55,
+            23
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-2",
+          "text": "공통플랫폼을",
+          "observed": "공통플랫품을",
+          "box": [
+            1185,
+            906,
+            105,
+            23
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-3",
+          "text": "플랫폼•구매",
+          "observed": "플랫품•구매",
+          "box": [
+            1452,
+            906,
+            98,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX06-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX06-01_environment_v1.png",
+      "originalSha256": "9808bacc8af8fd347804db90729f2597d508eb4229578bd0a7adeaa8084cb49a",
+      "corrected": "assets/proposal-diagrams-20261006/EX06-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            721,
+            88,
+            97,
+            38
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            827,
+            242,
+            129,
+            32
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX07-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX07-01_overall_v1.png",
+      "originalSha256": "825975d76d50b25dd0b15fbad82b4ba21135338c9c914c484fd01d1087238447",
+      "corrected": "assets/proposal-diagrams-20261006/EX07-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            618,
+            84,
+            102,
+            38
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            482,
+            225,
+            63,
+            26
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX07-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX07-01_service_v1.png",
+      "originalSha256": "2c00ae288849c3e657066ad964115646ec7f8a4659621a2f2850bf448ac4025c",
+      "corrected": "assets/proposal-diagrams-20261006/EX07-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼확장안",
+          "observed": "공통플랫폼확장안",
+          "box": [
+            163,
+            17,
+            186,
+            29
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            339,
+            219,
+            83,
+            22
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX07-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/EX07-01_data_v1.png",
+      "originalSha256": "c236d5e807b540181c5dfca3215f7e2089df6fbf975f8aafcc3d38ecd59f51b7",
+      "corrected": "assets/proposal-diagrams-20261006/EX07-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            615,
+            100,
+            108,
+            42
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX07-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX07-01_environment_v1.png",
+      "originalSha256": "ff57e12220cccb8fbea37f32c29451472664db6da6e7ef63496f8b12a3128c4d",
+      "corrected": "assets/proposal-diagrams-20261006/EX07-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            732,
+            71,
+            85,
+            34
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            838,
+            211,
+            131,
+            32
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX08-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX08-01_overall_v1.png",
+      "originalSha256": "a2e368985b17d8b47241ac334715e9d4c002bb319d72ad3a906bda61c03b276c",
+      "corrected": "assets/proposal-diagrams-20261006/EX08-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            618,
+            79,
+            99,
+            39
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            453,
+            278,
+            67,
+            26
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX08-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX08-01_service_v1.png",
+      "originalSha256": "fd1a9ee8a7a458d7dbb6485c2bf87d872a110f7361efa2383f252356c64e4fa2",
+      "corrected": "assets/proposal-diagrams-20261006/EX08-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            1434,
+            22,
+            121,
+            30
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            336,
+            248,
+            93,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-2",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            308,
+            455,
+            91,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX08-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX08-01_environment_v1.png",
+      "originalSha256": "f128713c01a2da81eff3b344d592d1e616c49942733a1dbdad9ef44ad4f9e8f0",
+      "corrected": "assets/proposal-diagrams-20261006/EX08-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            706,
+            81,
+            103,
+            39
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            824,
+            229,
+            146,
+            36
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX09-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX09-01_overall_v1.png",
+      "originalSha256": "4822d913b2a31a5cb74cfb9e4f4ef421ff56f765ea24cd3d69a980738a238173",
+      "corrected": "assets/proposal-diagrams-20261006/EX09-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            644,
+            71,
+            95,
+            35
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            448,
+            283,
+            66,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX09-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX09-01_service_v1.png",
+      "originalSha256": "2e8fb1174986b353592eec99a8e79a037f0d11bb5170d8c6216c5d236df4f6b6",
+      "corrected": "assets/proposal-diagrams-20261006/EX09-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            645,
+            81,
+            96,
+            37
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX09-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/EX09-01_data_v1.png",
+      "originalSha256": "87e04f54e85aebc63cbba86a954b1622959a2369753c47bbf395c86cc17bb457",
+      "corrected": "assets/proposal-diagrams-20261006/EX09-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            204,
+            72,
+            137,
+            34
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX09-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX09-01_environment_v1.png",
+      "originalSha256": "fcfefca5761e867b39058e71dc1619092b65f4c4b3493d2ccaa12d7a702ca26c",
+      "corrected": "assets/proposal-diagrams-20261006/EX09-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            716,
+            79,
+            98,
+            37
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            828,
+            228,
+            152,
+            36
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX10-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX10-01_overall_v1.png",
+      "originalSha256": "a57b5aa7601b352b62ab003c3689199a5a45eab4ce1d04ef8d4bbad0a6b1fb0c",
+      "corrected": "assets/proposal-diagrams-20261006/EX10-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            646,
+            73,
+            101,
+            37
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            445,
+            284,
+            69,
+            27
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX10-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX10-01_service_v1.png",
+      "originalSha256": "39fcb0c1874ed4a4c88b1139152202b706cd104775544692501fefc7497eb83e",
+      "corrected": "assets/proposal-diagrams-20261006/EX10-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통쫄랫폼",
+          "box": [
+            258,
+            341,
+            85,
+            23
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            1425,
+            15,
+            136,
+            33
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX10-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX10-01_environment_v1.png",
+      "originalSha256": "c048358dcc24adb08827e2941805fb5b3b35a662fb3f6f7ae39b16ac9e7929e2",
+      "corrected": "assets/proposal-diagrams-20261006/EX10-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            729,
+            81,
+            98,
+            38
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            836,
+            222,
+            139,
+            33
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX11-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX11-01_overall_v1.png",
+      "originalSha256": "760dcf75c064a8c08fc667be0daac041049a0242339fdf26c079217d35bb6081",
+      "corrected": "assets/proposal-diagrams-20261006/EX11-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            648,
+            72,
+            88,
+            32
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            449,
+            307,
+            67,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX11-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX11-01_service_v1.png",
+      "originalSha256": "63dd4e5215caf90ad442d69feff0cfc7d7d8de195968825c2f8866cd0af3270f",
+      "corrected": "assets/proposal-diagrams-20261006/EX11-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            210,
+            17,
+            145,
+            34
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫품",
+          "box": [
+            78,
+            496,
+            55,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-2",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            350,
+            328,
+            78,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-3",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            368,
+            523,
+            81,
+            22
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX11-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX11-01_environment_v1.png",
+      "originalSha256": "e49256554a45c2ac2b69b32288786c76725ef9a7b6de91e6969c37abcb0d727b",
+      "corrected": "assets/proposal-diagrams-20261006/EX11-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            723,
+            74,
+            93,
+            38
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            833,
+            222,
+            150,
+            36
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX12-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX12-01_overall_v1.png",
+      "originalSha256": "5d5ad7e62b03a345bd27cab15e16a6d3810260ec7126094c51a2dc0286f8aeb9",
+      "corrected": "assets/proposal-diagrams-20261006/EX12-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            645,
+            78,
+            94,
+            36
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            446,
+            297,
+            70,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX12-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX12-01_service_v1.png",
+      "originalSha256": "45880b35248b6869cc06ec72453ef6c7179f9f4e70766681fbf9a55441eed24b",
+      "corrected": "assets/proposal-diagrams-20261006/EX12-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            162,
+            11,
+            116,
+            29
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            332,
+            275,
+            89,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-2",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            332,
+            431,
+            89,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX12-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX12-01_environment_v1.png",
+      "originalSha256": "9f0d531dd372e68c3bbfccc05ba69c149a0af628fdeb278a8085ba44adf3e0ad",
+      "corrected": "assets/proposal-diagrams-20261006/EX12-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            733,
+            86,
+            95,
+            39
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            840,
+            224,
+            126,
+            30
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX13-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX13-01_overall_v1.png",
+      "originalSha256": "0803b3a88c31b11803bb27e948497663fec984c3fbcf2a030ff989625e4e0ade",
+      "corrected": "assets/proposal-diagrams-20261006/EX13-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫품",
+          "box": [
+            648,
+            76,
+            96,
+            37
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫품",
+          "box": [
+            447,
+            289,
+            70,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX13-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX13-01_service_v1.png",
+      "originalSha256": "7239850ea3d4e998d654b8ef465de22f7da8cd3157f052df4d0631bbd81736a0",
+      "corrected": "assets/proposal-diagrams-20261006/EX13-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫품",
+          "box": [
+            160,
+            13,
+            118,
+            29
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            82,
+            381,
+            53,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-2",
+          "text": "공통플랫폼",
+          "observed": "공통플랫품",
+          "box": [
+            365,
+            201,
+            87,
+            22
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX13-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/EX13-01_data_v1.png",
+      "originalSha256": "3f1e17eba860e6429884133b209bc066fe4ceeb1b171e48691a9a6d9a578f79c",
+      "corrected": "assets/proposal-diagrams-20261006/EX13-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            580,
+            105,
+            127,
+            46
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX13-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX13-01_environment_v1.png",
+      "originalSha256": "2d538a31234d4ac30815739ea176ba154a8f3040528a2962b81f3141cd14f12b",
+      "corrected": "assets/proposal-diagrams-20261006/EX13-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            714,
+            83,
+            109,
+            42
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            842,
+            240,
+            143,
+            35
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX14-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX14-01_overall_v1.png",
+      "originalSha256": "0c0dc1ac43173b35bc4f8f98f30536a3613fe5695e5e6a95510d4a75699a9652",
+      "corrected": "assets/proposal-diagrams-20261006/EX14-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            232,
+            88,
+            114,
+            42
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            470,
+            228,
+            55,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX14-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX14-01_service_v1.png",
+      "originalSha256": "e51335ee25cc251636f1200f2d3d3de2725e0571201c644f6538b5027a70aa11",
+      "corrected": "assets/proposal-diagrams-20261006/EX14-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            662,
+            80,
+            87,
+            34
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX14-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX14-01_environment_v1.png",
+      "originalSha256": "9fcf4de05a7668d3945b0d76164926ba39083bf7d644a9c77cb5efc1ec3c665c",
+      "corrected": "assets/proposal-diagrams-20261006/EX14-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫품",
+          "box": [
+            190,
+            77,
+            94,
+            35
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            843,
+            217,
+            149,
+            35
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX15-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX15-01_overall_v1.png",
+      "originalSha256": "41276fb1c24d4b2f453e9113087497ecda2252e70949d07835941d61fd8225d5",
+      "corrected": "assets/proposal-diagrams-20261006/EX15-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫품",
+          "box": [
+            645,
+            73,
+            92,
+            36
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            468,
+            215,
+            57,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX15-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX15-01_service_v1.png",
+      "originalSha256": "cdd495932902d3298378508271a1aae907a5918cd32a76abe634147477de2564",
+      "corrected": "assets/proposal-diagrams-20261006/EX15-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            1453,
+            25,
+            118,
+            30
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼)",
+          "observed": "공통플랫폼)",
+          "box": [
+            58,
+            435,
+            90,
+            24
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-2",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            339,
+            244,
+            86,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX15-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/EX15-01_data_v1.png",
+      "originalSha256": "c603b60e97ea867d7eca27e2fea0a63bbdc163fdea8f546b49861742b53c8a02",
+      "corrected": "assets/proposal-diagrams-20261006/EX15-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            634,
+            90,
+            94,
+            38
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX15-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX15-01_environment_v1.png",
+      "originalSha256": "b76fb5c7102c9853319f401efafcbbc71840fa415942fb90f0323afa90827784",
+      "corrected": "assets/proposal-diagrams-20261006/EX15-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            707,
+            73,
+            99,
+            38
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            823,
+            216,
+            137,
+            32
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX16-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX16-01_overall_v1.png",
+      "originalSha256": "5ed15f3c6b93925c305c8900e9e45a6a480ab6bc296df3d504f783d0030209b0",
+      "corrected": "assets/proposal-diagrams-20261006/EX16-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫품",
+          "box": [
+            655,
+            76,
+            93,
+            36
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫품",
+          "box": [
+            444,
+            283,
+            65,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX16-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX16-01_service_v1.png",
+      "originalSha256": "137f30f57ea13e09b2e9b3349a64bc35499a5a539ab8332f59333e5bf216c1ef",
+      "corrected": "assets/proposal-diagrams-20261006/EX16-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            554,
+            97,
+            122,
+            46
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX16-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/EX16-01_data_v1.png",
+      "originalSha256": "6e34e99ef7e827f2a6d0a72eab4743057712117e2f29218e22276dde0c6dc51a",
+      "corrected": "assets/proposal-diagrams-20261006/EX16-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            647,
+            81,
+            92,
+            35
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX16-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX16-01_environment_v1.png",
+      "originalSha256": "5d347ce23a1de2c812855cd9302ecf6f3179e57cd5959382312ba308fdaa7e94",
+      "corrected": "assets/proposal-diagrams-20261006/EX16-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            731,
+            78,
+            88,
+            34
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            831,
+            221,
+            135,
+            31
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX17-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX17-01_overall_v1.png",
+      "originalSha256": "1392ac8f87f95c903e277c3a3645a297b08944460ea714374e99d955dfa75d64",
+      "corrected": "assets/proposal-diagrams-20261006/EX17-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            650,
+            78,
+            93,
+            36
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            439,
+            306,
+            66,
+            26
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX17-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX17-01_service_v1.png",
+      "originalSha256": "addd8bd180bcda15e35072742addf4a934516bf610c87ddefc8b04296e9b3665",
+      "corrected": "assets/proposal-diagrams-20261006/EX17-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            167,
+            13,
+            122,
+            31
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            86,
+            410,
+            55,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-2",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            305,
+            167,
+            60,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-3",
+          "text": "공통플랫폼",
+          "observed": "공통플랫품",
+          "box": [
+            300,
+            234,
+            83,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-4",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            197,
+            357,
+            61,
+            26
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-5",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            302,
+            398,
+            83,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-6",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            1505,
+            906,
+            89,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX17-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/EX17-01_data_v1.png",
+      "originalSha256": "b9eea0b82c72e44183beb0518ca01c1545faefbcb27af9c6108f000b092f3a92",
+      "corrected": "assets/proposal-diagrams-20261006/EX17-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫품",
+          "box": [
+            187,
+            16,
+            133,
+            31
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼이나",
+          "observed": "플랫품이나",
+          "box": [
+            642,
+            854,
+            100,
+            25
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-2",
+          "text": "공통플랫폼을",
+          "observed": "공통플랫품을",
+          "box": [
+            210,
+            882,
+            122,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX17-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX17-01_environment_v1.png",
+      "originalSha256": "f4468575abb2d7e3da6fda168c4f30e61127489f55758a712263679f4f31da53",
+      "corrected": "assets/proposal-diagrams-20261006/EX17-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            729,
+            84,
+            93,
+            36
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            849,
+            230,
+            142,
+            34
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX18-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX18-01_overall_v1.png",
+      "originalSha256": "31bdafd1bdfbbf677211dcdea727626d2aecb3c1e6e730e8a3ef92f9649aa8c6",
+      "corrected": "assets/proposal-diagrams-20261006/EX18-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            655,
+            82,
+            95,
+            36
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            438,
+            294,
+            69,
+            28
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX18-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX18-01_service_v1.png",
+      "originalSha256": "bc12ae426a3d2a695dbc9d1fd33ec3789cdd2a76e531bd612e9d3c76be3f13fc",
+      "corrected": "assets/proposal-diagrams-20261006/EX18-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            567,
+            110,
+            117,
+            45
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX18-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/EX18-01_data_v1.png",
+      "originalSha256": "12d5a1a46e6275ae01669f73aca40dfca8492074c8a1ccb383875e036a255c06",
+      "corrected": "assets/proposal-diagrams-20261006/EX18-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            616,
+            96,
+            111,
+            43
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX18-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX18-01_environment_v1.png",
+      "originalSha256": "2b4d5d314d79297a3381d5acf1c085c5e7f41072b9372c476148e923a21c5fad",
+      "corrected": "assets/proposal-diagrams-20261006/EX18-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            731,
+            112,
+            99,
+            38
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            849,
+            253,
+            159,
+            36
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX19-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX19-01_overall_v1.png",
+      "originalSha256": "f675c29193e359fbf448c0a425e4cd78108e9f66c0392bf2177e76a0f568a7a1",
+      "corrected": "assets/proposal-diagrams-20261006/EX19-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            643,
+            80,
+            99,
+            40
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            469,
+            248,
+            59,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX19-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX19-01_service_v1.png",
+      "originalSha256": "3d3804754555bab010fbb03dd22e9c5265edda09a25a4a916036828507b9c93c",
+      "corrected": "assets/proposal-diagrams-20261006/EX19-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫품",
+          "box": [
+            148,
+            11,
+            106,
+            27
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼)",
+          "observed": "공통쫄랫폼)",
+          "box": [
+            117,
+            383,
+            84,
+            23
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-2",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            321,
+            344,
+            60,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX19-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/EX19-01_data_v1.png",
+      "originalSha256": "c41c924b2a3b1e9ef868d59c6ea90cdb3a8b1d101704b919a2de3994365713d8",
+      "corrected": "assets/proposal-diagrams-20261006/EX19-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            187,
+            17,
+            120,
+            29
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX19-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX19-01_environment_v1.png",
+      "originalSha256": "a686b9dd2802cc3a4470f681628a667fd86651dab5e017a8e238979632f813d0",
+      "corrected": "assets/proposal-diagrams-20261006/EX19-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            726,
+            73,
+            88,
+            35
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            837,
+            215,
+            124,
+            32
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX20-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX20-01_overall_v1.png",
+      "originalSha256": "ba1acc2bf4601b810d99ed70f9220fe701143383db251038948d0ab170bb05d4",
+      "corrected": "assets/proposal-diagrams-20261006/EX20-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            643,
+            70,
+            90,
+            32
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            474,
+            224,
+            62,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX20-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX20-01_service_v1.png",
+      "originalSha256": "76c7b1a8c856569f3850aef89d00edc0c985287ee9c8f45af94b4dc4fac447fc",
+      "corrected": "assets/proposal-diagrams-20261006/EX20-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            574,
+            110,
+            107,
+            42
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX20-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/EX20-01_data_v1.png",
+      "originalSha256": "64dafba9b1000e94f97a3b22a8ad0ddd0f912e9cd811056cf69e697951d5e69f",
+      "corrected": "assets/proposal-diagrams-20261006/EX20-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫품",
+          "box": [
+            1435,
+            24,
+            124,
+            31
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX20-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX20-01_environment_v1.png",
+      "originalSha256": "fa33ac0924a58198ec4ec02e62b471dc3070f8fa615b34cc7a2e50b7f37a9719",
+      "corrected": "assets/proposal-diagrams-20261006/EX20-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            701,
+            82,
+            111,
+            42
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            840,
+            230,
+            138,
+            33
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX21-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX21-01_overall_v1.png",
+      "originalSha256": "26c89eaf00e75ae62c239b99472460303683119114917ab80d4d6366f64728a4",
+      "corrected": "assets/proposal-diagrams-20261006/EX21-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            647,
+            80,
+            94,
+            37
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            449,
+            296,
+            64,
+            26
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX21-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX21-01_service_v1.png",
+      "originalSha256": "0c6221d032c26b2c0dcac6e1c669f12f827c02b95d0d9cf1f305d8c2cd6ab7c5",
+      "corrected": "assets/proposal-diagrams-20261006/EX21-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            208,
+            13,
+            138,
+            34
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫품",
+          "box": [
+            351,
+            284,
+            86,
+            21
+          ],
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "id": "EX21-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/EX21-01_data_v1.png",
+      "originalSha256": "5deda13f350ab86596e920c6b682d1e225c833d1352c159075c89b35cf2a1ec2",
+      "corrected": "assets/proposal-diagrams-20261006/EX21-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            634,
+            101,
+            105,
+            41
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX21-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX21-01_environment_v1.png",
+      "originalSha256": "200e952f3cfd3606dbeab6d0e190595e477829ed6569e9324e31017e0b2c59e0",
+      "corrected": "assets/proposal-diagrams-20261006/EX21-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            725,
+            72,
+            95,
+            36
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            837,
+            211,
+            128,
+            31
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX22-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX22-01_overall_v1.png",
+      "originalSha256": "d0a0b8a80f14b2f47babb1b41e0a0ebb6a1c0562ea33b8f4047fdce804c5e94f",
+      "corrected": "assets/proposal-diagrams-20261006/EX22-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            666,
+            73,
+            87,
+            33
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            431,
+            274,
+            68,
+            27
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX22-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX22-01_service_v1.png",
+      "originalSha256": "2f80b174310b6ccb843a46cba9cfd97f15b3c54eeccfec28e6fa1c85d1b1ecbe",
+      "corrected": "assets/proposal-diagrams-20261006/EX22-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            242,
+            104,
+            118,
+            45
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX22-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/EX22-01_data_v1.png",
+      "originalSha256": "0b2d8c7a78aeef9b0a44b32c5bf7decc548c3c8fbfe29c9e35dfc7acb021487e",
+      "corrected": "assets/proposal-diagrams-20261006/EX22-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            210,
+            81,
+            137,
+            33
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX22-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX22-01_environment_v1.png",
+      "originalSha256": "39b4773e5ce88f8ac9326894e33c0237c4fff75077c639e80c39c75ff114d822",
+      "corrected": "assets/proposal-diagrams-20261006/EX22-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            719,
+            78,
+            95,
+            37
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            832,
+            218,
+            138,
+            33
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX22-02",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX22-02_overall_v1.png",
+      "originalSha256": "05bd3cf0ee5a391cea80e82c3db6ad774136211abf1d87515a6b52ab438126f5",
+      "corrected": "assets/proposal-diagrams-20261006/EX22-02_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫품",
+          "box": [
+            195,
+            73,
+            92,
+            35
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            452,
+            193,
+            61,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX22-02",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX22-02_service_v1.png",
+      "originalSha256": "6ad04009d4eb65baf471046900f71ed1ef45c79e7bea67a5e9fe8664d3a0e12c",
+      "corrected": "assets/proposal-diagrams-20261006/EX22-02_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            1422,
+            9,
+            136,
+            33
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            90,
+            419,
+            59,
+            23
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-2",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            275,
+            234,
+            55,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-3",
+          "text": "플랫폼)",
+          "observed": "플랫폼)",
+          "box": [
+            280,
+            415,
+            59,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX22-02",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/EX22-02_data_v1.png",
+      "originalSha256": "da4c78914cffc19f5feb607d3efcd838b423d7e6a9513bfb18a401fd2e81873c",
+      "corrected": "assets/proposal-diagrams-20261006/EX22-02_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            613,
+            106,
+            109,
+            41
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX22-02",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX22-02_environment_v1.png",
+      "originalSha256": "61f62981406c2ad2ca16d8088614265f9e0fb1c83172f2f371d9ae1571b20067",
+      "corrected": "assets/proposal-diagrams-20261006/EX22-02_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            729,
+            88,
+            95,
+            36
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            848,
+            239,
+            150,
+            37
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX23-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX23-01_overall_v1.png",
+      "originalSha256": "d1131c6cec164add4769e0d7cec7f2793d360526f7d3f5b2d7d2457080ca85ce",
+      "corrected": "assets/proposal-diagrams-20261006/EX23-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            667,
+            73,
+            82,
+            31
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            450,
+            293,
+            64,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX23-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX23-01_service_v1.png",
+      "originalSha256": "b1693354c89c883b293ecbc74d039fa1402482f9e156d37904392fd9a6ebb811",
+      "corrected": "assets/proposal-diagrams-20261006/EX23-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            676,
+            72,
+            76,
+            32
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX23-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/EX23-01_data_v1.png",
+      "originalSha256": "c60d1aa62081e090cf5b25c0b2e052bac88230ee30c2abce6c549e29c0158c47",
+      "corrected": "assets/proposal-diagrams-20261006/EX23-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫품",
+          "box": [
+            171,
+            10,
+            115,
+            29
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX23-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX23-01_environment_v1.png",
+      "originalSha256": "1b88602bf6f43c7d3340f0fbd2278a9bdbd7f0a3c3e46a1822c9fbb9b9444f12",
+      "corrected": "assets/proposal-diagrams-20261006/EX23-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            199,
+            88,
+            100,
+            39
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            845,
+            245,
+            150,
+            37
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX23-02",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX23-02_overall_v1.png",
+      "originalSha256": "4f420416817172559ae7ee226309501859c9a5d3440fa2a35d9d480263a16ff9",
+      "corrected": "assets/proposal-diagrams-20261006/EX23-02_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            625,
+            86,
+            103,
+            41
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            468,
+            247,
+            59,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX23-02",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX23-02_service_v1.png",
+      "originalSha256": "bcb75210a470f05a94b61d3cd12dfe0bd125f7081214b35c84785df66c09eccc",
+      "corrected": "assets/proposal-diagrams-20261006/EX23-02_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            589,
+            91,
+            104,
+            41
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX23-02",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/EX23-02_data_v1.png",
+      "originalSha256": "56a74733d7b55026a213aa78e73030c4743084fe562b5b5b151a048baf09e235",
+      "corrected": "assets/proposal-diagrams-20261006/EX23-02_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            627,
+            102,
+            99,
+            38
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX23-02",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX23-02_environment_v1.png",
+      "originalSha256": "4ff44b5db5a6336b40c8845d0f2de56bf87fec7c126117297b06267f2e7d7934",
+      "corrected": "assets/proposal-diagrams-20261006/EX23-02_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            716,
+            75,
+            102,
+            38
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            819,
+            221,
+            144,
+            35
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX24-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX24-01_overall_v1.png",
+      "originalSha256": "9a97fc4a7d2446db397eae7eb406e3a1e9f1e983f3e7fa44c2096b30b8641e55",
+      "corrected": "assets/proposal-diagrams-20261006/EX24-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            673,
+            76,
+            80,
+            30
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            474,
+            234,
+            59,
+            24
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX24-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX24-01_service_v1.png",
+      "originalSha256": "680ad14c6e5a9f24622376346d3cbde1e4ef7715684bc08bdbdb60ef389e8dd3",
+      "corrected": "assets/proposal-diagrams-20261006/EX24-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫품",
+          "box": [
+            1460,
+            24,
+            111,
+            30
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            281,
+            247,
+            83,
+            22
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-2",
+          "text": "공통플랫폼)",
+          "observed": "공통플랫폼)",
+          "box": [
+            301,
+            427,
+            88,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX24-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/EX24-01_data_v1.png",
+      "originalSha256": "13e6c46f45bfda4985d4cd854d7f2d573c860076bf9756a9e143a9f03107043b",
+      "corrected": "assets/proposal-diagrams-20261006/EX24-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫품",
+          "box": [
+            231,
+            90,
+            157,
+            38
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX24-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX24-01_environment_v1.png",
+      "originalSha256": "e02cd2744f5db07312e396ec0f0c4047a8e0e6d91f9457ab094d4743f15f4716",
+      "corrected": "assets/proposal-diagrams-20261006/EX24-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            213,
+            89,
+            98,
+            38
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            842,
+            247,
+            143,
+            36
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX25-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX25-01_overall_v1.png",
+      "originalSha256": "623975f26e03ad82893a8fa0e0d6cea37c7ba40e1c369b757f4733687bc512fc",
+      "corrected": "assets/proposal-diagrams-20261006/EX25-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            203,
+            86,
+            96,
+            36
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "기존TSAI플랫폼",
+          "observed": "기존TSAI플랫폼",
+          "box": [
+            374,
+            223,
+            156,
+            25
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX25-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX25-01_service_v1.png",
+      "originalSha256": "e90dd434f33f6b7a4650c5a21ffb82bc20bc873f5feed557602d0c184b83dd50",
+      "corrected": "assets/proposal-diagrams-20261006/EX25-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            639,
+            94,
+            98,
+            38
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX25-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/EX25-01_data_v1.png",
+      "originalSha256": "4cc078179c8985e7ecde218e8549cded6cd0d386aa9154836a64e68978d23e93",
+      "corrected": "assets/proposal-diagrams-20261006/EX25-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫품",
+          "box": [
+            194,
+            17,
+            132,
+            32
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            272,
+            178,
+            123,
+            30
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX25-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX25-01_environment_v1.png",
+      "originalSha256": "adb5eff0ea92f723eb5986f5876edbe575ce112bdf9e85bd5d719c8a019b0920",
+      "corrected": "assets/proposal-diagrams-20261006/EX25-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            719,
+            79,
+            90,
+            36
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            838,
+            221,
+            144,
+            34
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX26-01",
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/EX26-01_overall_v1.png",
+      "originalSha256": "791a6df4b237f0961a6f6b172ad0f9821703d42cc26c7716a101c0529b22a802",
+      "corrected": "assets/proposal-diagrams-20261006/EX26-01_overall_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫품",
+          "box": [
+            640,
+            75,
+            95,
+            35
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            487,
+            243,
+            57,
+            23
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX26-01",
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/EX26-01_service_v1.png",
+      "originalSha256": "4f7125e275bc7a43ce868c3b186a79f01a53c2474a3e2da533ff97b36ac79a4e",
+      "corrected": "assets/proposal-diagrams-20261006/EX26-01_service_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            160,
+            13,
+            108,
+            27
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통쫄랫폼",
+          "box": [
+            284,
+            246,
+            76,
+            21
+          ],
+          "weight": 400
+        },
+        {
+          "key": "platform-2",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            286,
+            408,
+            80,
+            21
+          ],
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "id": "EX26-01",
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/EX26-01_data_v1.png",
+      "originalSha256": "f5992c90c70050efd7b7b27b9d6f38eb948969ae2d7a264ffedd8d0b7c4595de",
+      "corrected": "assets/proposal-diagrams-20261006/EX26-01_data_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "공통플랫폼",
+          "observed": "공통플랫폼",
+          "box": [
+            173,
+            21,
+            107,
+            27
+          ],
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "id": "EX26-01",
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/EX26-01_environment_v1.png",
+      "originalSha256": "90de5094a39956ff8ee6e7c42dc04685eb006c263c908764c95bf2e58d0c380a",
+      "corrected": "assets/proposal-diagrams-20261006/EX26-01_environment_v2.png",
+      "labels": [
+        {
+          "key": "platform-0",
+          "text": "플랫폼",
+          "observed": "플랫폼",
+          "box": [
+            710,
+            73,
+            99,
+            37
+          ],
+          "weight": 700
+        },
+        {
+          "key": "platform-1",
+          "text": "공통플랫폼",
+          "observed": "공통플랭폼",
+          "box": [
+            819,
+            216,
+            153,
+            37
+          ],
+          "weight": 700
+        }
+      ]
+    }
+  ]
+}
