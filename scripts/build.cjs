@@ -1,7 +1,10 @@
 const fs=require('node:fs'),path=require('node:path'),esbuild=require('esbuild');
 const root=path.resolve(__dirname,'..'),out=path.resolve(root,'dist');
 if(out!==path.join(root,'dist')||path.dirname(out)!==root)throw Error('빌드 출력 경로 오류');
-fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});require('./export-proposal-diagrams.cjs');fs.cpSync(path.join(root,'public'),out,{recursive:true});
+fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});require('./export-proposal-diagrams.cjs');
+// 이미지 생성·교정 이력은 Git에서 보존. 현재 화면이 쓰는 도식만 배포해 Pages 용량 경고 방지.
+const activeDiagramPaths=new Set(require('../src/proposal-diagram-assets.json').assets.map(a=>a.path));
+fs.cpSync(path.join(root,'public'),out,{recursive:true,filter:file=>{const rel=path.relative(path.join(root,'public'),file).split(path.sep).join('/');return !(/^assets\/proposal-diagrams-20261006\/[^/]+_v\d+(?:_model)?\.png$/.test(rel)&&!activeDiagramPaths.has(rel));}});
 require('./export-analysis-review.cjs')(path.join(out,'downloads'));
 require('./export-implementation-review.cjs')(path.join(out,'downloads'));
 require('./export-isp-review.cjs')(path.join(out,'downloads'));
