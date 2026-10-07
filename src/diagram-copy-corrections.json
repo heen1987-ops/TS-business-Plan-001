@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-07",
+  "project": "MR-01",
+  "method": "이미지 모델 원본 보존 + SVG 정확한 한글 텍스트 레이어 교정",
+  "font": "Malgun Gothic",
+  "scope": "플랫폼 표기 교정. 업무 내용·연결선·권한·제품 역할 변경 없음",
+  "assets": [
+    {
+      "type": "overall",
+      "original": "assets/proposal-diagrams-20261006/MR-01_overall_v1.png",
+      "originalSha256": "4759c0101c60cd09424bf7337fe5144b3bdf1bf7298aa5f4d9044c2d3514eae4",
+      "corrected": "assets/proposal-diagrams-20261006/MR-01_overall_v2.png",
+      "labels": [
+        {"key":"subtitle","box":[490,63,704,43],"fill":"#ffffff","x":836,"y":97,"size":31,"weight":700,"color":"#0081a1","anchor":"middle","text":"기존 TS AI 플랫폼 확장 · End-To-End 연계 설계"},
+        {"key":"platform-node","box":[363,252,179,30],"fill":"#f5fbff","x":369,"y":276,"size":21,"weight":700,"color":"#09365d","anchor":"start","text":"기존 TS AI 플랫폼"}
+      ]
+    },
+    {
+      "type": "service",
+      "original": "assets/proposal-diagrams-20261006/MR-01_service_v1.png",
+      "originalSha256": "c2b6206d34213ca959cbd6425af043ceb352d444eec5c43911a74e3b8adf5040",
+      "corrected": "assets/proposal-diagrams-20261006/MR-01_service_v2.png",
+      "labels": [
+        {"key":"subtitle","box":[1285,18,370,40],"fill":"#ffffff","x":1643,"y":49,"size":24,"weight":700,"color":"#082f58","anchor":"end","text":"기구축 TS AI 공통플랫폼 확장안"},
+        {"key":"platform-input","box":[211,378,284,31],"fill":"#eef9ff","x":352,"y":402,"size":20,"weight":700,"color":"#082f58","anchor":"middle","text":"기구축 TS AI 공통플랫폼 입력"},
+        {"key":"platform-reuse","box":[18,434,148,25],"fill":"#075184","x":91,"y":453,"size":14,"weight":400,"color":"#ffffff","anchor":"middle","text":"(기구축 플랫폼 재사용)"}
+      ]
+    },
+    {
+      "type": "data",
+      "original": "assets/proposal-diagrams-20261006/MR-01_data_v1.png",
+      "originalSha256": "772e1aa2d1e552e8b2549f2be721186694de8152b7f16c0cfc3d2e7af4e29119",
+      "corrected": "assets/proposal-diagrams-20261006/MR-01_data_v2.png",
+      "labels": [
+        {"key":"subtitle","box":[32,84,970,45],"fill":"#ffffff","x":39,"y":119,"size":32,"weight":700,"color":"#115f94","anchor":"start","text":"기구축 TS AI 공통플랫폼 확장안 (기존 플랫폼 재활용)"},
+        {"key":"platform-legend","box":[856,881,207,27],"fill":"#e7f2fa","x":865,"y":901,"size":15,"weight":700,"color":"#124975","anchor":"start","text":"기존 플랫폼 기능(재활용)"}
+      ]
+    },
+    {
+      "type": "environment",
+      "original": "assets/proposal-diagrams-20261006/MR-01_environment_v1.png",
+      "originalSha256": "05b4e351775be5c514824086f484f50426fc72b682beea1cd0c48e128960b51b",
+      "corrected": "assets/proposal-diagrams-20261006/MR-01_environment_v2.png",
+      "labels": [
+        {"key":"subtitle","box":[560,73,535,47],"fill":"#ffffff","x":824,"y":110,"size":30,"weight":700,"color":"#075f88","anchor":"middle","text":"기존 TS AI 플랫폼 확장 · 논리 배치안"},
+        {"key":"platform-core","box":[629,241,373,42],"fill":"#c0ddf2","x":814,"y":275,"size":28,"weight":700,"color":"#082f58","anchor":"middle","text":"기존 TS AI 공통플랫폼"}
+      ]
+    }
+  ]
+}

@@ -1,7 +1,11 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),crypto=require('node:crypto');
 const d=require('../src/proposal-e2e-diagrams.cjs'),m=require('../src/proposal-diagram-assets.json'),intent=require('../src/proposal-intent.cjs');
+const copy=require('../src/diagram-copy-corrections.json');
 let checks=0;function check(ok,label){checks++;assert(ok,label)}
 check(d.projects.length===42,'42개 현재 조사 과제');check(m.assets.length===168,'과제별 4종 원본 이미지 168개');
+check(copy.assets.length===4&&copy.project==='MR-01','한글 교정 4종 범위 고정');
+check(copy.font==='Malgun Gothic'&&copy.method.includes('SVG'),'정확한 한글 글꼴·텍스트 레이어');
+for(const c of copy.assets){const a=m.assets.find(a=>a.id===copy.project&&a.type===c.type);check(a?.path===c.corrected&&a.revision===2,'교정본 연결·캐시 구분 '+c.type);check(a.originalPath===c.original&&a.originalSha256===c.originalSha256,'이전 이미지 보존 이력 '+c.type);check(a.correctionDate===copy.date&&a.correctionMethod===copy.method,'교정 방법·시점 '+c.type);const original=fs.readFileSync('public/'+c.original);check(crypto.createHash('sha256').update(original).digest('hex')===c.originalSha256,'교정 이전 바이트 보존 '+c.type);check(a.sha256!==c.originalSha256,'기존 오류본 재연결 방지 '+c.type);for(const label of c.labels){check(label.text.includes('플랫폼')&&!/플랫픔|플랫품|플렛폼|플랬폼/.test(label.text),'교정 라벨 정확한 플랫폼 표기 '+c.type+'/'+label.key);check(label.box.length===4&&label.box.every(v=>Number.isInteger(v)&&v>=0)&&label.box[0]+label.box[2]<=1672&&label.box[1]+label.box[3]<=941,'교정 영역·슬라이드 치수 '+c.type+'/'+label.key);}}
 const hashes=new Set(),keys=new Set();
 for(const p of d.projects){
  check(p.e2e.length===9,p.id+' E2E 9단계');check(p.inputs===intent.byId[p.id].inputs,p.id+' 최신 입력자료 참조');
