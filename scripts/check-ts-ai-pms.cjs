@@ -1,6 +1,13 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),d=require('../src/ts-ai-pms.cjs'),exporter=require('./export-ts-ai-pms.cjs');
 const root=path.resolve(__dirname,'..'),out=path.join(root,'dist');let count=0;const check=(ok,msg)=>{assert(ok,msg);count++;};
-check(d.date==='2026-10-08'&&d.version==='v0.1','이번 PMS 구축·연구 설계 기준일');
+check(d.date==='2026-10-08'&&d.version==='v0.2','NOA 공통 가이딩·조건부 보고 설계 기준일');
+check(d.reportingProfiles.length===3&&d.reportingProfiles.every(p=>p.guiding),'보고 적용 여부와 관계없는 NOA 공통 가이딩');
+check(d.reportingProfiles.find(p=>p.id==='not-required').requiresRealPms===false&&d.reportingProfiles.find(p=>p.id==='not-required').externalSubmission==='미생성','보고 불필요 과업의 외부 의존성 제외');
+check(d.reportingProfiles.find(p=>p.id==='required').requiresRealPms===true&&d.reportingProfiles.find(p=>p.id==='required').completion.includes('각각'),'필수 외부 보고 완료조건 분리');
+check(d.reportingProfiles.find(p=>p.id==='pending').requiresRealPms===null&&d.reportingProfiles.find(p=>p.id==='pending').externalSubmission.includes('차단'),'확인 중을 보고 불필요로 치환 금지');
+check(d.requirements.find(r=>r.id==='PMS-F05').test.includes('혼합 사업')&&d.requirements.find(r=>r.id==='PMS-F05').test.includes('별도 제출 권한'),'과업별 혼합 적용·권한의 인수시험');
+check(d.metrics.find(m=>m.id==='K1').quality.includes('0분')&&d.metrics.find(m=>m.id==='K1').method.includes('대상 과업만'),'보고 비대상 0분 평균 혼입 방지');
+check(d.constraints.includes('국토부 확대는 별도 사업·권한·비용 검토'),'향후 기관 확대와 현재 사업 경계');
 check(d.sections.length===13,'목적부터 근거까지 13개 연속 절');check(d.requirements.length===8&&d.research.length===4&&d.metrics.length===5,'8개 요구·4개 연구·5개 지표');
 check(new Set(d.sections.map(s=>s.id)).size===d.sections.length,'절 ID 고유');
 for(const s of d.sections)for(const b of s.blocks){check(['note','table','figure','requirements','research','metrics','sources'].includes(b.type),'렌더 유형 '+s.id);for(const ref of b.refs||[])check(!!d.sources[ref],'근거 연결 '+ref);if(b.type==='table')for(const r of b.rows)check(r.length===b.headers.length,'표 열 일치 '+s.id);if(b.type==='figure'){const f=path.join(out,b.path);check(fs.existsSync(f),'실제 이미지 '+b.path);const buf=fs.readFileSync(f);check(buf.subarray(0,8).equals(Buffer.from([137,80,78,71,13,10,26,10])),'PNG 형식 '+b.path);const w=buf.readUInt32BE(16),h=buf.readUInt32BE(20);check(w/h>1.7&&w/h<1.85,'16:9 도식 '+b.path);}}
