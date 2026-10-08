@@ -29,7 +29,7 @@ check('54개 후보 단계 공란·후보 소속 누락 방지',true);
 for(const k of katri.records.filter(x=>x.id!=='KT-RS-01')){const p=model.byId['PROJECT-'+k.id];for(const [index,original]of k.stages.entries()){assert(p.steps[index][1]===original[0],k.id+' 단계 제목 보존');for(const text of original.slice(1))assert(p.steps[index][2].includes(text),k.id+' 입력·처리·산출물 보존');}}
 check('KATRI 11개 후보 55단계 원내용 보존',true);
 for(const d of mapping.departments){for(const r of d.records){for(const u of r.units.filter(x=>x.scopeReview||x.placement)){const e=model.byId['WORK-'+u.id];assert(e.scopeReview===u.scopeReview&&e.placement===u.placement&&e.verification==='확인 필요',u.id+' 경고 보존');assert(model.byId['DEPT-'+d.key].details.some(t=>t.includes(u.text)&&t.includes('대조 필요')),d.key+' 관찰 주의표시');}}}
-check('소속 불일치·파견 6개 업무 경고 보존',true);
+check('소속·기재내용 대조 및 파견 업무 경고 보존',true);
 for(const id of ['RIS-15','RIS-65','RIS-17']){const s=model.sources.find(x=>x.originalId===id);assert(s&&s.nature==='분석자 계산'&&s.publisher.includes('분석자 계산')&&s.grade==='CONFIRMED'&&s.verification!=='확인됨',id+' 계산 근거 구분');}
 check('분석자 계산을 공식 발표로 승격 금지',true);
 check('논문을 공식 발표로 승격 금지',model.sources.find(x=>x.originalId==='PS-E27')?.nature==='연구논문');

@@ -47,19 +47,27 @@ connect('MIN-MOLIT','ORG-TS','업무별 소관 검토','주요 교통업무의 �
 const lawById={};
 for(const row of legal.rows){const refs=(row.refs||[]).map(id=>source({...legal.sources.find(s=>s.id===id),type:'법령',limit:'기존 법령 정리의 보관 판본. 최신 시행·개정·위탁범위는 2단계 재대조 대상.'})).filter(Boolean);const id='LAW-'+row.id;lawById[row.id]=id;add({id,type:'law',title:row.title,lawName:row.law.split(/ 제| \/ /)[0],clause:row.law,effective:null,checkedAt:null,nature:'공식 근거',verification:'부분 확인',sourceIds:refs,summary:row.work,details:['수행형태(기존 정리): '+row.mode,'원 권한·관계기관(기존 정리): '+row.principal,'범위·판단 경계: '+row.boundary,'현행 조문·시행일·개별 지정 여부는 2단계에서 검증']});}
 function reviewText(unit){return [unit.scopeReview?.reason,unit.scopeReview?.note,unit.placement].filter(Boolean).join(' · ')}
+function observationSourceIds(record,observation){
+ const rowsByPage=new Map();
+ for(const ref of observation.refs){if(!rowsByPage.has(ref.page))rowsByPage.set(ref.page,[]);rowsByPage.get(ref.page).push(ref.row);}
+ const notes=(observation.reviewNotes||[]).map(n=>n.note||[n.scopeReview?.reason,n.scopeReview?.note,n.placement].filter(Boolean).join(' · ')).filter(Boolean);
+ return [...rowsByPage].map(([page,rows])=>{const url=new URL(record.sourceUrl);url.searchParams.set('pageNumb',String(page));return source({title:record.root+' 공개 직원안내 · '+record.name,url:url.href,checkedAt:mapping.date,verification:'부분 확인',fact:observation.text||'담당업무 미기재(원문 공란)',locator:'공식 소속: '+record.path+' / '+page+'쪽 '+[...new Set(rows)].sort((a,b)=>a-b).join('·')+'행 / '+observation.id,limit:'직원명·연락처 제외. 공개 소속·담당업무 기재와 실제 수행주체·담당기간·전체 업무분장·전결을 구분.'+(notes.length?' 대조 주의: '+notes.join(' / '):'')});});
+}
 for(const d of mapping.departments){
- const observations=d.records.flatMap(r=>r.observations.map(o=>({id:o.id,text:o.text,reviewNotes:o.reviewNotes||[]})));
+ const observations=d.records.flatMap(r=>r.observations.map(o=>({id:o.id,text:o.text,reviewNotes:o.reviewNotes||[],sourceIds:observationSourceIds(r,o)})));
+ const observationById=new Map(observations.map(o=>[o.id,o]));
  const warnings=d.records.flatMap(r=>(r.units||[]).map(reviewText).filter(Boolean));
- const refs=[...new Set(d.records.map(r=>source({title:r.root+' 공개 직원안내 · '+d.name,url:r.sourceUrl,checkedAt:mapping.date,verification:'부분 확인',fact:'공개 담당업무 문구: '+r.observations.slice(0,6).map(o=>o.text).join(' / '),limit:'직원명·연락처 제외. 공개 담당업무만 확인하며 전체 업무분장·전결·실제 처리실적과 구분.'+(warnings.length?' 대조 주의: '+warnings.join(' / '):'')})))];
+ const refs=[...new Set([...observations.flatMap(o=>o.sourceIds),...d.records.filter(r=>!r.observations.length).map(r=>source({title:r.root+' 공개 직원안내 · '+d.name,url:r.sourceUrl,checkedAt:mapping.date,verification:'부분 확인',fact:'직접 기재 행 미표시. 조직 경로의 확인 자료',limit:'담당업무 미기재를 업무 부재로 해석하지 않음'}))])];
  const id='DEPT-'+d.key;
  add({id,type:'department',key:d.key,title:d.name,nature:'공식 근거',verification:warnings.length?'부분 확인':'확인됨',sourceIds:refs,summary:d.path.replaceAll('>',' › '),observations,details:observations.map(o=>o.text+(o.reviewNotes.length?' — 대조 필요: '+o.reviewNotes.map(n=>n.note||[n.scopeReview?.reason,n.scopeReview?.note,n.placement].filter(Boolean).join(' · ')).join(' / '):''))});
  departments.push({id,key:d.key,title:d.name,path:d.path,group:d.path.split('>').slice(0,-1).join(' › '),sourceIds:refs,workIds:[],projectIds:d.proposals.map(p=>'PROJECT-'+p.id)});
  connect('ORG-TS',id,'조직 소속','공개 조직·직원업무에 따른 소속 확인',refs,'확인됨');
  for(const record of d.records){for(const unit of record.units||[]){
   const wid='WORK-'+unit.id,warning=reviewText(unit);
-  add({id:wid,type:'work',title:unit.text,nature:'공식 근거',verification:warning?'확인 필요':'부분 확인',sourceIds:refs,summary:warning||'공개 담당업무를 분해한 처리단위. 실제 절차·자료·전결은 현업 대조 대상',departmentId:id,scopeReview:unit.scopeReview||null,placement:unit.placement||null,reviewNote:warning,steps:[],details:['공개 역할: '+unit.role,'분해분류: '+unit.category,'과제 연결: '+unit.mappingMethod,...(warning?['대조 필요: '+warning]:[])]});
+  const unitRefs=[...new Set(unit.sourceSpans.flatMap(s=>{const o=observationById.get(s.observationId);if(!o)throw Error('업무 원문 관찰 누락: '+s.observationId);return o.sourceIds;}))];
+  add({id:wid,type:'work',title:unit.text,nature:'공식 근거',verification:warning?'확인 필요':'부분 확인',sourceIds:unitRefs,summary:warning||'공개 담당업무를 분해한 처리단위. 실제 절차·자료·전결은 현업 대조 대상',departmentId:id,scopeReview:unit.scopeReview||null,placement:unit.placement||null,reviewNote:warning,steps:[],details:['공개 역할: '+unit.role,'분해분류: '+unit.category,'과제 연결: '+unit.mappingMethod,...(warning?['대조 필요: '+warning]:[])]});
   departments.at(-1).workIds.push(wid);
-  connect(id,wid,'공개 담당업무',warning||'해당 처의 공개 문구를 분석한 업무 단위',refs,warning?'확인 필요':'부분 확인');
+  connect(id,wid,'공개 담당업무',warning||'해당 처의 공개 문구를 분석한 업무 단위',unitRefs,warning?'확인 필요':'부분 확인');
  }}
 }
 const bindingById={};

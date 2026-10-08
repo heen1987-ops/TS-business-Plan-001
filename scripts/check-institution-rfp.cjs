@@ -43,6 +43,15 @@ check('목록·본문·근거 패널의 보완본 동기화',true);
 const qe=model.byId['PROJECT-QE-01'];
 check('QE 기존 교육·독립 편성 상태와 민감자료 경계',qe.status.includes('독립 편성 보류')&&model.byId[qe.solutionId].existing.includes('교정교육')&&qe.privacy.includes('현 제안 입력에서 제외')&&qe.privacy.includes('건강보험 질병자료')&&qe.boundary.includes('2017년')&&qe.boundary.includes('2025-700호'));
 check('QE 수료·자격·실운전 성과 분리',qe.steps.some(s=>s[2].includes('수료기록·검사판정·자격 발급'))&&qe.boundary.includes('교육 이수를 실제 운전역량 향상으로 간주하지 않음'));
+const qeRule=r.workflowSources.find(s=>s.key==='qe-rule');
+check('QE 최신 조문 확인과 미검증 범위 구분',qeRule.locator.includes('제12조')&&qeRule.fact.includes('본문 확인')&&qeRule.limit.includes('별표·별지')&&!qeRule.limit.includes('동적 조문 본문 열람 제한'));
+check('QE 교육 주체·대상·기록의 법적 경계',qe.steps[0][2].includes('희망자')&&qe.steps[3][2].includes('운송사업자 교육일지')&&qe.privacy.includes('해고')&&qe.boundary.includes('이수 또는 수료의 자동 확정')&&model.byId[qe.solutionId].existing.includes('지정 자가검사기관'));
+check('공식 기재와 실제 수행책임 구분',model.byId['DEPT-QE'].verification==='부분 확인'&&['025','027','028'].every(n=>{const w=model.byId['WORK-DUTY-1022010-'+n];return w.scopeReview&&w.verification==='확인 필요'}));
+for(const [n,page,row]of [['025',38,8],['027',38,10],['028',39,1]]){const w=model.byId['WORK-DUTY-1022010-'+n],refs=w.sourceIds.map(id=>model.sourceById[id]);assert(refs.length===1&&new URL(refs[0].url).searchParams.get('pageNumb')===String(page)&&refs[0].locator.includes(page+'쪽 '+row+'행'));const rel=model.relations.find(x=>x.from==='DEPT-QE'&&x.to===w.id&&x.type==='공개 담당업무');assert.deepEqual(rel.sourceIds,w.sourceIds);}
+check('QE 세부업무의 실제 페이지·행 출처 연결',true);
+const repeated=model.byId['WORK-DUTY-1022010-006'].sourceIds.map(id=>model.sourceById[id]);
+check('반복 원문의 페이지·복수 행 보존',repeated.length===3&&repeated.some(s=>s.locator.includes('37쪽 4·10행'))&&repeated.map(s=>new URL(s.url).searchParams.get('pageNumb')).join(',')==='36,37,38');
+check('공란 원문은 기재 부재로 명시',model.sources.filter(s=>s.locator?.includes('OBS-0253')||s.locator?.includes('OBS-0449')||s.locator?.includes('OBS-0527')).every(s=>s.summary==='담당업무 미기재(원문 공란)'));
 check('신규 요구 예시의 성격 명시',r.example.status.includes('가상 요구사항')&&r.example.status.includes('미확정'));
 check('공개 자료 로컬 경로·연락처 제외',!/(file:\/\/|[A-Z]:\\|\\Users\\|[\w.+-]+@kotsa\.or\.kr|054-\d{3}-\d{4})/i.test(JSON.stringify(r)));
 const jsx=fs.readFileSync('src/InstitutionMandate.jsx','utf8'),app=fs.readFileSync('src/PlanningWorkbench.jsx','utf8');
