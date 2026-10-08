@@ -1,0 +1,583 @@
+{
+  "date": "2026-10-09",
+  "title": "TS 실제 공고로 정리한 RFP 작성 기준",
+  "scope": {
+    "institutionCode": "C0019",
+    "totalRows": 1820,
+    "totalPages": 182,
+    "inspectedPages": 20,
+    "inspectedRows": 200,
+    "fromDate": "2026-04-23",
+    "toDate": "2026-10-06",
+    "sampleCount": 5,
+    "attachmentCount": 10,
+    "limit": "기관 필터의 최근 20쪽 200행에서 정보화·AI 관련 5건 선정. 재공고·중복 포함 행 수이며 전체 공고·독립 사업 전수 분석 아님. 10월9일 조회 시점의 목록 기준"
+  },
+  "samples": [
+    {
+      "id": "DRT",
+      "kind": "시스템 전환·구축",
+      "dept": "모빌리티연구처 연관 · 내부 수행분장 별도 확인",
+      "count": 90,
+      "countMethod": "원문 요구사항 총괄표",
+      "locator": "PDF 25~27쪽",
+      "categories": {
+        "SFR": 19,
+        "ECR": 5,
+        "SER": 15,
+        "DAR": 8,
+        "COR": 6,
+        "PER": 10,
+        "QUR": 6,
+        "INR": 6,
+        "PMR": 8,
+        "PSR": 4,
+        "TER": 3
+      },
+      "scope": "정산 중심 기반을 활용한 호출·배차·합승·운영계획 등의 목표시스템 전환 요구",
+      "findings": [
+        [
+          "호출·배차",
+          "콜센터·이용자 앱·기사 입력과 차량 배정 조건을 요구하는 범위",
+          "PDF 28쪽 SFR-001, 30쪽 SFR-004"
+        ],
+        [
+          "운영계획",
+          "일·월 단위 배차, 노선·근무편성 및 대체 운영의 관리 요구",
+          "PDF 35쪽 SFR-012"
+        ],
+        [
+          "지원금 관련 이상징후",
+          "이동 없는 결제·짧은 시간 반복·이용과 결제 불일치 등의 탐지와 고위험 건 자동 지급정지·차감 등록 요구",
+          "PDF 32~33쪽 SFR-008"
+        ],
+        [
+          "평가·제출",
+          "기술90·가격10, 정량5·정성85 및 기술평가 차등점수 2점. 온라인 제안·증빙 제출 요구",
+          "PDF 93~99쪽, 114~121쪽"
+        ]
+      ],
+      "conflicts": [
+        "기간 불일치: 입찰공고 PDF 2쪽은 2029-12-31, RFP PDF 4쪽은 2027-12-31. 공고의 정정본·기관 질의로 확정할 사항"
+      ],
+      "application": "MR-02: 수동 배차를 처음 자동화하는 제안으로 표현하지 않고, 발주된 자동배차·운영 기능과 전화 의미 이해·예외 대응·운영대안 비교의 추가 범위 대조",
+      "boundary": "이상징후 모니터링 요구는 TS의 독립적 감사·환수·처분 권한을 입증하지 않음. 공고를 실제 구축 완료로 해석하지 않음",
+      "projectIds": [
+        "MR-02"
+      ],
+      "title": "2026년 수요응답형대중교통(DRT)시스템 목표시스템 전환 고도화 용역",
+      "published": "2026-09-16",
+      "institution": "한국교통안전공단",
+      "institutionCode": "C0019",
+      "seq": 3578117,
+      "url": "https://www.alio.go.kr/occasional/bidDtl.do?seq=3578117",
+      "files": [
+        {
+          "noticeSeq": 3578117,
+          "bid": "R26BK01733781",
+          "kind": "공고",
+          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01733781&bidPbancOrd=000&fileType=&fileSeq=2&prcmBsneSeCd=03",
+          "file": "DRT_공고.pdf",
+          "bytes": 406430,
+          "sha256": "7b739afa29cb9fc432ecda37ffe72da3f15ff777a8c2dddcb0fc7b7cbe488885",
+          "checkedAt": "2026-10-09T00:40:11.704459+09:00",
+          "textMethod": "PDF 전체 페이지 텍스트",
+          "units": 17
+        },
+        {
+          "noticeSeq": 3578117,
+          "bid": "R26BK01733781",
+          "kind": "RFP",
+          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01733781&bidPbancOrd=000&fileType=&fileSeq=3&prcmBsneSeCd=03",
+          "file": "DRT_RFP.pdf",
+          "bytes": 2477671,
+          "sha256": "57f6cd4badf0830c9015ecce5a0b4b86020a4a0e3bbff785439ae33043679493",
+          "checkedAt": "2026-10-09T00:40:11.971376+09:00",
+          "textMethod": "PDF 전체 페이지 텍스트",
+          "units": 151
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "공고·첨부 원문 확인",
+      "meaning": "발주 요구사항 · 실제 구현·검수 결과와 구분"
+    },
+    {
+      "id": "ISP",
+      "kind": "정보화전략계획",
+      "dept": "커넥티드카연구처(과업 주관) · RFP 추진체계 기준",
+      "count": 36,
+      "countMethod": "원문 요구사항 총괄표",
+      "locator": "Section0:P178~207",
+      "categories": {
+        "CNR": 12,
+        "DAR": 6,
+        "SER": 3,
+        "COR": 2,
+        "PMR": 10,
+        "PSR": 3
+      },
+      "scope": "자율주행 실증도시의 현황·수요·목표구조·보안·추진계획 및 후속 발주 준비",
+      "findings": [
+        [
+          "현황에서 목표로",
+          "정책·기술·기존 시스템·이해관계자와 지역/전국 구조의 대조 요구",
+          "Section0:P51~66, CNR-001~004·006~007"
+        ],
+        [
+          "실행 가능한 계획",
+          "경제성·타당성·성과지표와 후속 제안요청서 초안의 연결",
+          "Section0:P129~130"
+        ],
+        [
+          "개인정보 설계",
+          "개인정보 보호를 목표체계 설계 단계에서 고려하는 요구",
+          "Section0:P414~444"
+        ],
+        [
+          "평가방식 차이",
+          "기술평가 차등점수제 미적용 문구. DRT의 적용 방식과 차이",
+          "Section0:P1108"
+        ]
+      ],
+      "conflicts": [
+        "ISP 추진 역할표에 유지보수 문구 혼재. 과업 성격·역할 범위를 확인하되 복사 오류로 단정하지 않음(Section0:P79~94)"
+      ],
+      "application": "시스템 추가 개발 전에 실제 업무·기존 기능·데이터·권한·비용의 비교를 거쳐 대상 범위와 후속 RFP를 확정하는 순서 참고",
+      "boundary": "이 ISP의 대용량 데이터·인프라 전제를 CCK의 기존 서버 재사용 조건에 그대로 복사하지 않음. ISP 요구서와 개발 요구서를 구분",
+      "projectIds": [],
+      "title": "자율주행 실증도시 시스템 ISP",
+      "published": "2026-09-08",
+      "institution": "한국교통안전공단",
+      "institutionCode": "C0019",
+      "seq": 3575260,
+      "url": "https://www.alio.go.kr/occasional/bidDtl.do?seq=3575260",
+      "files": [
+        {
+          "noticeSeq": 3575260,
+          "bid": "R26BK01719441",
+          "kind": "공고",
+          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01719441&bidPbancOrd=000&fileType=&fileSeq=2&prcmBsneSeCd=03",
+          "file": "ISP_공고.pdf",
+          "bytes": 457735,
+          "sha256": "f3761ba7d01d1fac6a71e4864c247cf8ac5d142ed172b8adde9ade5dc74766a6",
+          "checkedAt": "2026-10-09T00:40:12.043078+09:00",
+          "textMethod": "PDF 전체 페이지 텍스트",
+          "units": 16
+        },
+        {
+          "noticeSeq": 3575260,
+          "bid": "R26BK01719441",
+          "kind": "RFP",
+          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01719441&bidPbancOrd=000&fileType=&fileSeq=3&prcmBsneSeCd=03",
+          "file": "ISP_RFP.hwp",
+          "bytes": 602624,
+          "sha256": "8dc02d259c9e4fda4ae1afb112b3d97b153c47fa23889798f1da8f86e66aa7a4",
+          "checkedAt": "2026-10-09T00:40:12.070301+09:00",
+          "textMethod": "HWP BodyText 본문 문단레코드 추출; 실제 쪽 렌더링 미검증",
+          "units": 1886
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "공고·첨부 원문 확인",
+      "meaning": "발주 요구사항 · 실제 구현·검수 결과와 구분"
+    },
+    {
+      "id": "EXAM",
+      "kind": "AI 업무시스템 구축",
+      "dept": "자격교육처 · RFP 표지",
+      "count": 67,
+      "countMethod": "원문 요구사항 총괄표",
+      "locator": "Section0:P152~326",
+      "categories": {
+        "ECR": 4,
+        "SFR": 8,
+        "INR(표)/SIR(ID)": 4,
+        "DAR": 8,
+        "PER": 6,
+        "TER": 3,
+        "SER": 15,
+        "QUR": 3,
+        "COR": 4,
+        "PMR": 8,
+        "PSR": 4
+      },
+      "scope": "sLLM·RAG를 활용한 도로 분야 국가자격시험 문제 출제와 검토·CBT 연계",
+      "findings": [
+        [
+          "대상과 입력",
+          "버스·화물·택시·교통안전관리자 시험, 법령·기존 문항·정답 등 입력",
+          "Section0:P18, P41~63"
+        ],
+        [
+          "전문가 검토",
+          "문항 검토·난이도와 응답 통계·암호화 요구. AI 생성만으로 문항 확정 불가",
+          "SFR-006~008, Section0:P596~622"
+        ],
+        [
+          "품질·편향",
+          "데이터 품질과 편향을 다루며 정확도 요구값을 제시",
+          "Section0:P853, P930"
+        ],
+        [
+          "번호 불일치",
+          "총괄표의 인터페이스 분류 INR와 상세 식별자 SIR-001~004의 차이 보존",
+          "Section0:P152~326"
+        ]
+      ],
+      "conflicts": [
+        "인터페이스 분류 표기와 상세 ID의 불일치. 요구사항 추적표 작성 시 원문 표기와 정규화 필드를 별도 보존"
+      ],
+      "application": "자격교육처 후속안은 이미 발주한 출제·검토·분석 기능을 기준선으로 삼고 실제 미지원 영역 및 검증 결과와 차분 확인",
+      "boundary": "원문의 정확도 90%는 납품 요구값이며 실제 성과·기대편익이 아님. 건강보험 질병정보 제공 근거와 별개",
+      "projectIds": [],
+      "title": "AI 활용 국가자격시험 문제 출제 시스템 구축 용역",
+      "published": "2026-09-07",
+      "institution": "한국교통안전공단",
+      "institutionCode": "C0019",
+      "seq": 3574788,
+      "url": "https://www.alio.go.kr/occasional/bidDtl.do?seq=3574788",
+      "files": [
+        {
+          "noticeSeq": 3574788,
+          "bid": "R26BK01716629",
+          "kind": "공고",
+          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01716629&bidPbancOrd=000&fileType=&fileSeq=2&prcmBsneSeCd=03",
+          "file": "EXAM_공고.pdf",
+          "bytes": 372394,
+          "sha256": "f6083a151bc90fd27bf58ae3bae85db588bf492419a6865a4c68da08df9bd938",
+          "checkedAt": "2026-10-09T00:40:12.364281+09:00",
+          "textMethod": "PDF 전체 페이지 텍스트",
+          "units": 16
+        },
+        {
+          "noticeSeq": 3574788,
+          "bid": "R26BK01716629",
+          "kind": "RFP",
+          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01716629&bidPbancOrd=000&fileType=&fileSeq=3&prcmBsneSeCd=03",
+          "file": "EXAM_RFP.hwp",
+          "bytes": 1602560,
+          "sha256": "6b605d3adc36d476d72aad780ae60d2f7e60a5e43fc40474847988b981c52ed2",
+          "checkedAt": "2026-10-09T00:40:12.420536+09:00",
+          "textMethod": "HWP BodyText 본문 문단레코드 추출; 실제 쪽 렌더링 미검증",
+          "units": 3331
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "공고·첨부 원문 확인",
+      "meaning": "발주 요구사항 · 실제 구현·검수 결과와 구분"
+    },
+    {
+      "id": "COMMON",
+      "kind": "공통 AI 고도화·업무 적용",
+      "dept": "AI혁신처 · 운영지원처·모빌리티연구처 등 협업",
+      "count": 72,
+      "countMethod": "분석자 계산: 추출 총괄표의 고유 요구사항 ID 수",
+      "locator": "Section0:P169~355",
+      "categories": {
+        "ECR": 4,
+        "SFR": 9,
+        "SIR": 2,
+        "INR": 4,
+        "DAR": 8,
+        "PER": 8,
+        "TER": 3,
+        "SER": 15,
+        "QUR": 3,
+        "COR": 4,
+        "PMR": 8,
+        "PSR": 4
+      },
+      "scope": "공통 플랫폼·데이터 처리·업무 및 민원·전세버스 공시 AI의 고도화 요구",
+      "findings": [
+        [
+          "공통 기반",
+          "데이터 파이프라인·플랫폼 운영·업무 적용 기능을 함께 요구",
+          "Section0:P29~40, P74~100, SFR-001~009"
+        ],
+        [
+          "시스템 연결",
+          "MCP 표준·API 게이트웨이 및 AI 시스템 인터페이스 요구",
+          "SIR-001~002"
+        ],
+        [
+          "입력·검증",
+          "외부 콘텐츠와 기본 지시의 분리, 공단 승인 평가 지표에 따른 품질 결과 제출",
+          "Section0:P485, P920·941·1007"
+        ],
+        [
+          "AI 검증·보안",
+          "환각률·중요 사실의 정합성 및 공신력 평가를 요구하며 생성형 AI·N2SF 가이드 준수를 기재. 가이드 현행 판본·적용 효력은 별도 확인",
+          "Section0:P1008~1011, P1147"
+        ],
+        [
+          "요구 수 해석",
+          "72건은 원문의 명시 합계가 아닌 고유 ID 계산 결과. 중복·본문 변형은 별도 검토",
+          "Section0:P169~355"
+        ]
+      ],
+      "conflicts": [],
+      "application": "NOA·aRDa 확장은 공통 인증·모델·검색·연계·로그의 재사용 여부와 업무별 스킬·예외 대응·검증의 추가 납품을 나누어 편성",
+      "boundary": "Agentic OS가 계약 범위에 포함되지 않았다는 사용자 확인과 실제 기술협상·계약서를 별도 대조. RFP만으로 제품 구현 또는 계약 수락을 확정하지 않음",
+      "projectIds": [],
+      "title": "TS AI 공통플랫폼 고도화 및 민원·전세버스 공시 AI 구축 용역",
+      "published": "2026-06-08",
+      "institution": "한국교통안전공단",
+      "institutionCode": "C0019",
+      "seq": 3542211,
+      "url": "https://www.alio.go.kr/occasional/bidDtl.do?seq=3542211",
+      "files": [
+        {
+          "noticeSeq": 3542211,
+          "bid": "R26BK01565398",
+          "kind": "공고",
+          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01565398&bidPbancOrd=000&fileType=&fileSeq=2&prcmBsneSeCd=03",
+          "file": "COMMON_공고.pdf",
+          "bytes": 375742,
+          "sha256": "e73f2e526e0383798c66facf65efebb799788ba87d3df837e0a037cb6d43aa40",
+          "checkedAt": "2026-10-09T00:40:12.500746+09:00",
+          "textMethod": "PDF 전체 페이지 텍스트",
+          "units": 16
+        },
+        {
+          "noticeSeq": 3542211,
+          "bid": "R26BK01565398",
+          "kind": "RFP",
+          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01565398&bidPbancOrd=000&fileType=&fileSeq=3&prcmBsneSeCd=03",
+          "file": "COMMON_RFP.hwp",
+          "bytes": 1247744,
+          "sha256": "fedda42b47b47bfb94a1d1e8a8f738acc400c1ca94349d822947658b94615280",
+          "checkedAt": "2026-10-09T00:40:12.558463+09:00",
+          "textMethod": "HWP BodyText 본문 문단레코드 추출; 실제 쪽 렌더링 미검증",
+          "units": 3695
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "공고·첨부 원문 확인",
+      "meaning": "발주 요구사항 · 실제 구현·검수 결과와 구분"
+    },
+    {
+      "id": "CONSULT",
+      "kind": "운영·유지관리와 AI 고도화",
+      "dept": "데이터융복합처 표지·구성도 / 역할표 디지털혁신처 표기 대조 필요",
+      "count": 82,
+      "countMethod": "원문 요구사항 총괄표",
+      "locator": "Section0:P529~556",
+      "categories": {
+        "SFR": 5,
+        "MPR": 14,
+        "PER": 6,
+        "QUR": 4,
+        "PSR": 4,
+        "PMR": 13,
+        "SER": 16,
+        "COR": 4,
+        "SIR": 2,
+        "DAR": 8,
+        "TER": 3,
+        "CNR": 3
+      },
+      "scope": "운수안전컨설팅지원시스템의 운영 유지와 운전자 분석·개별 리포트·위험 예측 고도화",
+      "findings": [
+        [
+          "계속운영과 변경개발",
+          "유지관리 종료 2027-06-30과 고도화 종료 2026-12-26의 기간 구분",
+          "Section0:P50~54"
+        ],
+        [
+          "분석·활용",
+          "모듈형 운전자 분석과 편집 가능한 리포트 등 기존 결과 활용의 고도화",
+          "Section0:P65~73, P586~627"
+        ],
+        [
+          "AI 검수",
+          "정확도80%·재현율30% 등의 요구값과 응답시간 요구를 별도 기재",
+          "Section0:P694, P1100"
+        ],
+        [
+          "발주조직 대조",
+          "표지·추진 구성의 부서명과 역할표 부서명 차이",
+          "Section0:P10~11, P91~99"
+        ]
+      ],
+      "conflicts": [
+        "부서명 불일치: 데이터융복합처와 디지털혁신처 표기가 혼재. 현재 업무분장과 공고 질의로 확인할 사항"
+      ],
+      "application": "데이터융복합처 관련 신규안은 이미 발주한 분석·리포트·위험예측과 유지관리 범위를 대조하고, 실제 조치·재평가 연결의 추가 가치를 검증",
+      "boundary": "모델 정확도 요구를 사고 감소 효과로 환산하지 않음. 재현율·오탐·운영자 대응·대상별 편향을 같은 표본에서 함께 검증",
+      "projectIds": [],
+      "title": "2026년 운수안전컨설팅지원시스템 운영 및 고도화 용역",
+      "published": "2026-07-02",
+      "institution": "한국교통안전공단",
+      "institutionCode": "C0019",
+      "seq": 3552090,
+      "url": "https://www.alio.go.kr/occasional/bidDtl.do?seq=3552090",
+      "files": [
+        {
+          "noticeSeq": 3552090,
+          "bid": "R26BK01614044",
+          "kind": "공고",
+          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01614044&bidPbancOrd=000&fileType=&fileSeq=2&prcmBsneSeCd=03",
+          "file": "CONSULT_공고.pdf",
+          "bytes": 379000,
+          "sha256": "e93a7cfcf5da524a4c5f80dad80ece010dbb5d59eaaadae27b0305c6b6d9e169",
+          "checkedAt": "2026-10-09T00:40:13.377441+09:00",
+          "textMethod": "PDF 전체 페이지 텍스트",
+          "units": 16
+        },
+        {
+          "noticeSeq": 3552090,
+          "bid": "R26BK01614044",
+          "kind": "RFP",
+          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01614044&bidPbancOrd=000&fileType=&fileSeq=3&prcmBsneSeCd=03",
+          "file": "CONSULT_RFP.hwp",
+          "bytes": 1120768,
+          "sha256": "8e865fea11dde28465376ddf84ef71a8b3c25dbcfc8798621dbabfc9f6cd4d8d",
+          "checkedAt": "2026-10-09T00:40:14.429137+09:00",
+          "textMethod": "HWP BodyText 본문 문단레코드 추출; 실제 쪽 렌더링 미검증",
+          "units": 4262
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "공고·첨부 원문 확인",
+      "meaning": "발주 요구사항 · 실제 구현·검수 결과와 구분"
+    }
+  ],
+  "limitations": [
+    "PDF 1건 151쪽과 HWP 4건 전체 BodyText의 텍스트를 추출해 핵심 요구·표·평가·제출 부분 대조. 첨부 전체 조항의 법률검토와 구분",
+    "HWP의 P번호는 Section0 본문 문단레코드 위치이며 실제 인쇄 쪽수가 아님. 표 레코드와 특수문자 변환 가능성 및 HWP 화면 검증 미수행",
+    "공고문과 RFP의 충돌은 그대로 기록. 정정·최종 계약·과업변경·실제 가동범위·납품 성과는 별도 확인",
+    "ALIO 웹 브라우징 도구 및 일부 HTTP 클라이언트는 403. 공개 상세·목록 JSON은 별도 일반 HTTP 요청으로 수집, 공식 나라장터 첨부 다운로드·파일 헤더·SHA-256 확인"
+  ],
+  "outline": [
+    {
+      "id": "RFP-01",
+      "title": "사업개요 · 왜 필요한가",
+      "question": "누구의 어떤 문제를 어느 범위에서 개선할 것인가?",
+      "items": [
+        "법정·수탁 업무와 실제 이용자·운영자 구분",
+        "현행 사례·처리량·반복·대기 근거와 자료 부족 명시",
+        "사업 목적·범위·기간·제약·제외범위와 승인 상태 명시"
+      ],
+      "output": "사업 정의서 · 현황 근거 · 목표와 범위",
+      "proof": "DRT PDF 3~11쪽 / ISP Section0:P43~66"
+    },
+    {
+      "id": "RFP-02",
+      "title": "현행과 목표 · 무엇이 달라지는가",
+      "question": "기존 시스템의 어느 기능을 재사용하고 무엇을 바꿀 것인가?",
+      "items": [
+        "현행 업무·시스템·데이터·연계·보안환경의 기준선",
+        "규칙·SI 개선과 AI 추가안의 비교",
+        "목표 서비스·구성·데이터 흐름·역할·단계별 산출물"
+      ],
+      "output": "현행/목표 대조 · 기능 차분 · 연계·이관 설계",
+      "proof": "DRT PDF 12~23쪽 / COMMON Section0:P29~100"
+    },
+    {
+      "id": "RFP-03",
+      "title": "요구사항 · 무엇을 납품할 것인가",
+      "question": "개별 요구를 어떤 결과와 시험으로 인수할 것인가?",
+      "items": [
+        "유형·ID·명칭·정의·상세내용·산출물·연관 요구의 연결",
+        "사용자·조건·입력·처리·예외·출력·권한·인수기준 구체화",
+        "ISP의 CNR, 구축의 SFR/ECR, 운영의 MPR 등 사업 성격별 선택"
+      ],
+      "output": "기능·비기능 요구사항 정의서 · 요구 추적표 · 시험 항목",
+      "proof": "DRT PDF 24쪽 이후 / ISP Section0:P178~207 / CONSULT P529~556"
+    },
+    {
+      "id": "RFP-04",
+      "title": "수행과 운영 · 누가 책임지는가",
+      "question": "변경·보안·품질·교육·인수·장애를 어떻게 관리할 것인가?",
+      "items": [
+        "발주·수행·현업·정보화·보안·검수 역할과 보고·변경 절차",
+        "개인정보 최소수집·접근권한·외부자료 입력·자료 반환/파기",
+        "시험·성능·품질·이관·운영 지원과 종료조건"
+      ],
+      "output": "수행·보안·품질·시험·운영·교육·인수 계획",
+      "proof": "5건의 사업별 PMR·SER·PSR 및 시험 요구(TER 적용 여부 상이) / DRT PDF 101~103쪽"
+    },
+    {
+      "id": "RFP-05",
+      "title": "선정과 평가 · 무엇으로 비교하는가",
+      "question": "어떤 증거와 배점으로 제안의 적합성을 평가할 것인가?",
+      "items": [
+        "참가·공동수급·하도급·제출 자격은 해당 공고별 확인",
+        "기술/가격·정량/정성·협상 적격·차등점수 적용의 구분",
+        "평가항목 → 제안서 내용 → 증빙 위치 대응"
+      ],
+      "output": "평가기준표 · 배점/증빙 대응표 · 누락 검사표",
+      "proof": "DRT PDF 93~99쪽 / ISP Section0:P1108 / CONSULT P2913~3063"
+    },
+    {
+      "id": "RFP-06",
+      "title": "제안서 작성과 제출 · 어떤 서류가 필요한가",
+      "question": "발주기관의 RFP와 입찰업체의 제안서를 구분했는가?",
+      "items": [
+        "RFP 목차와 제안서 권장 목차·서식을 별도 유지",
+        "정량·정성 자료, 제안 증빙, 원본/사본, 용량·기한의 공고별 확인",
+        "과업·산출물·인수기준을 검수 및 계약조건으로 추적"
+      ],
+      "output": "제안서 목차 · 제출서류표 · 증빙 색인 · 최종 대조",
+      "proof": "DRT PDF 114~121쪽 / 각 HWP 원문 목차·제출 부분"
+    }
+  ],
+  "requirementFields": [
+    [
+      "ID·유형",
+      "원문 ID와 신규 ID의 별도 관리; EXAM의 INR/SIR 차이는 원표기 보존"
+    ],
+    [
+      "업무 목적·대상",
+      "이용자·수행자·적용 업무와 해결할 상태의 명시"
+    ],
+    [
+      "입력·사전조건",
+      "원천·판본·데이터 형식·권한·필수값·처리 시작조건"
+    ],
+    [
+      "처리·출력",
+      "업무 단위·처리규칙·AI 역할·기존 시스템 반영·산출물"
+    ],
+    [
+      "예외·책임",
+      "불명확·오류·취소·재시도·중복 처리·담당자 인계"
+    ],
+    [
+      "품질·인수",
+      "측정항목·목표·표본·정답·판정자·환경·실패 기준"
+    ],
+    [
+      "연계·보안",
+      "API·계정·조회/변경 권한·개인정보·기록·보유기간"
+    ],
+    [
+      "산출물·증빙",
+      "설계·구현·시험·교육·운영 자료와 실제 결과 기록"
+    ],
+    [
+      "의존·변경",
+      "관련 요구·일정·비용·변경 영향과 버전·승인 이력"
+    ]
+  ],
+  "example": {
+    "title": "작성 예시 · DRT 전화 요청의 이동조건 확인",
+    "status": "후속 기획용 가상 요구사항 · 기존 RFP의 신규성·기관 채택·목표값 미확정",
+    "id": "DRAFT-DRT-SFR-01",
+    "purpose": "운영자의 반복 질문·다시 연락하는 부담과 이동조건 오해의 감소",
+    "reuse": "2026 RFP SFR-001 호출 등록·SFR-004 자동배차·SFR-012 운영계획의 실제 계약·구현 범위 확인",
+    "input": "사용이 허용된 상담 텍스트, 출발·도착·시간·승차보조 조건, 운영 구역·차량 가용정보",
+    "process": "NOA의 조건 추출·모호성 질문 → 운영자 확인 → 기존 배차도구 조회 → 후보·제약 설명 → 담당자 확정·기사 수락 → 원 시스템 결과 대조",
+    "exception": "출발지 불명확·차량 부족·기사 거절·연계 시간초과 시 담당자 확인과 대안 제시. 같은 요청의 중복 배차 방지",
+    "privacy": "연락처·위치 등 최소수집과 역할별 접근. 질병정보·통화 원음의 일괄 수집은 기본 범위 제외",
+    "acceptance": "현행·규칙 방식·AI 지원을 동일 사례로 비교. 이동조건 오류율, 건당 담당자 실제 작업시간, 미배차/재배정과 이용자 대기를 함께 측정. 표본·정답·목표값은 기준선 조사 후 합의",
+    "outputs": "기능 차분표, 조건/예외 명세, API 명세, 평가자료·결과, 업무 인계·운영 문서"
+  },
+  "nextActions": [
+    "현행 계약·기술협상·과업변경·검수 결과와 기존 기능 기준선 확보",
+    "기관의 실제 업무 사례·처리량·문제 빈도와 인터뷰 회신 연결",
+    "초기 ISP 또는 현황/목표 분석 필요범위 확정 후 요구사항·인수기준 작성",
+    "원문 ID·제안 ID·업무·데이터·화면·시험·비용을 연결한 차분표 구성",
+    "기간·조직·번호 불일치를 확인 질문으로 남기고 기관 회신 후 확정"
+  ]
+}

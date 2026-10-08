@@ -1,6 +1,6 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),model=require('../src/planning-workbench.cjs');
 const checks=[];function check(name,value){assert(value,name);checks.push(name)}
-check('제작 단계와 8개 화면의 분리',model.stage===1&&model.screens.length===8);
+check('제작 단계와 8개 화면의 분리',model.stage===2&&model.screens.length===8);
 check('기존 51처·54기획 보존',model.departments.length===51&&model.projects.length===54);
 check('비교 후보 최대3개·순위 없음',model.representativeIds.length===3&&model.copy.overviewNote.includes('순위 아님'));
 check('모든 항목 ID 고유',new Set(model.entities.map(e=>e.id)).size===model.entities.length);
@@ -12,7 +12,7 @@ for(const r of model.relations){assert(model.byId[r.from]&&model.byId[r.to],r.id
 check('관계의 대상·유형·이유·출처·상태 무결성',true);
 for(const p of model.projects){for(const id of [p.workId,p.departmentId,p.problemId,p.requirementId,p.solutionId,...p.metricIds,...p.lawIds,...p.dataIds])assert(model.byId[id],p.id+' 관련 항목');assert(p.purpose&&p.goal&&p.means,p.id+' 목적·목표·수단');assert(p.legacy&&p.documents,p.id+' 기존 자료 링크');}
 check('54개 후보의 목적·업무·문제·해결·성과·기존자료 연결',true);
-check('법령 최신 보관본 혼동 방지',model.byId['LAW-FOUNDATION'].verification==='부분 확인'&&model.byId['LAW-FOUNDATION'].details.some(t=>t.includes('별도 확인')));
+check('법령 시행일과 현재 확인일 분리',model.byId['LAW-FOUNDATION'].verification==='확인됨'&&model.byId['LAW-FOUNDATION'].effective==='2018-01-01'&&model.byId['LAW-FOUNDATION'].checkedAt==='2026-10-09');
 check('DRT 조사 맥락을 운영예산 권한으로 확대 금지',model.byId['PROJECT-MR-02'].lawLinks.some(l=>l.type==='정책·조사 맥락'&&l.reason.includes('권한을 확정하지 않음')));
 check('연구지원처 법령 미연결은 업무 부재가 아님',model.byId['PROJECT-KT-RS-01'].lawIds.length===0&&model.byId['PROJECT-KT-RS-01'].metricIds.length===3);
 check('기존 NOA 적용·추가 개발 구분',model.byId['SYS-NOA'].verification==='확인 필요'&&model.byId['SOLUTION-MR-02'].existing.includes('2026'));
