@@ -35,4 +35,13 @@ check('분석자 계산을 공식 발표로 승격 금지',true);
 check('논문을 공식 발표로 승격 금지',model.sources.find(x=>x.originalId==='PS-E27')?.nature==='연구논문');
 for(const p of model.projects){for(const pair of [[p.workId,p.problemId],[p.problemId,p.solutionId],[p.solutionId,p.id],[p.problemId,p.requirementId],[p.requirementId,p.solutionId]])assert(model.relations.some(r=>r.from===pair[0]&&r.to===pair[1]),p.id+' 지도 실제 방향');}
 check('요약·개선지도 직접 관계와 방향 보존',true);
+const research=require('../src/antigravity-research.json');
+check('연계자료도 8개 주 메뉴 유지',model.screens.length===8);
+check('100단계 번호·그룹·기획 상태의 구분',research.groups.length===10&&research.groups.flatMap(g=>g.topics).length===100&&new Set(research.groups.flatMap(g=>g.topics.map(t=>t.id))).size===100&&research.groups.flatMap(g=>g.topics).every(t=>t.verification==='기획자료 · 법령·민원·수치 원문 대조 전'));
+check('파일 보유·해시 중복·자체기획 구분',research.stats.pdfFiles===98&&research.stats.pdfUniqueHashes===95&&research.stats.pdfHeadersValid===98&&research.pdfCategories.reduce((n,g)=>n+g.files,0)===98&&research.stats.pdfGeneratedPlans===6);
+check('연계 사이트 오명칭 회귀 방지',research.sites.find(s=>s.id==='SITE-11').name==='운수종사자관리시스템'&&research.sites.find(s=>s.id==='SITE-29').name==='교통안전체험교육센터'&&research.sites.find(s=>s.id==='SITE-26').name==='드론 정보통합시스템');
+check('등록 주소의 HTTP/HTTPS 변형과 접근 이력 분리',research.sites.filter(s=>s.inCatalog).length===24&&['SITE-10','SITE-14','SITE-18'].every(id=>{const s=research.sites.find(r=>r.id===id);return s.inCatalog&&s.catalogueUrl.startsWith('http:')&&s.sourceUrl;})&&research.sites.find(s=>s.id==='SITE-10').storedAccess==='public-html-collected'&&research.sites.find(s=>s.id==='SITE-10').catalogueAccess==='network-error');
+check('보조자료를 신규사업·전수완료로 승격 금지',research.stats.newVerifiedServices===0&&research.stats.knownRootLinks===32&&research.stats.knownHosts===33&&research.stats.indexLegalBlank===88&&research.stats.topicBodiesWithLinks===2);
+check('공개 보조자료의 로컬 경로·원 민원 인용 제외',!/\b[A-Z]:[\\/]|file:\/\/|\\Users\\|\.gemini[\\/]/i.test(JSON.stringify(research))&&!JSON.stringify(research).includes('원문 요약'));
+check('연계 검증질문의 후보 참조 무결성',research.nextChecks.every(c=>model.byId['PROJECT-'+c.project]&&c.steps.every(n=>research.groups.some(g=>g.topics.some(t=>t.stage===n)))));
 console.log('기획 기본 탐색 '+checks.length+'항목 통과 / '+model.entities.length+'항목·'+model.relations.length+'관계·'+model.sources.length+'출처');

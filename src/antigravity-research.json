@@ -1,0 +1,1751 @@
+{
+  "snapshotAt": "2026-10-08T22:48:58+09:00",
+  "title": "Antigravity 연계 조사자료",
+  "nature": "보조 추출본·기획자료",
+  "scope": "추가 조사자료와 기존 원장·보관파일의 대조. 공식 기관의 전수조사·승인·현업 의견으로 표시하지 않음",
+  "stats": {
+    "scratchFiles": 18,
+    "parsedSites": 9,
+    "directoryEntries": 33,
+    "directoryHosts": 27,
+    "knownRootLinks": 32,
+    "knownHosts": 33,
+    "newVerifiedServices": 0,
+    "topics": 100,
+    "topicFiles": 100,
+    "indexLegalBlank": 88,
+    "topicBodiesWithLinks": 2,
+    "visionMentionTopics": 45,
+    "pdfFiles": 98,
+    "pdfUniqueHashes": 95,
+    "pdfHeadersValid": 98,
+    "pdfReadableAliases": 57,
+    "pdfSourceRecoveredFiles": 1,
+    "pdfGeneratedPlans": 6
+  },
+  "groups": [
+    {
+      "id": "G1",
+      "title": "자동차 검사·튜닝 혁신",
+      "count": 10,
+      "topics": [
+        {
+          "id": "STEP-001",
+          "stage": 1,
+          "title": "차량조건 연계 검사 준비지원",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-002",
+          "stage": 2,
+          "title": "불합격 조치·비대면 재검사 연계지원",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-003",
+          "stage": 3,
+          "title": "튜닝 신청자료 및 도면 사전 대조",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-004",
+          "stage": 4,
+          "title": "유사 튜닝 승인사례 조건비교 및 표준 가이드",
+          "flags": [
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-005",
+          "stage": 5,
+          "title": "검사결과 이상값 및 민간검사 부정검사 검토지원",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-006",
+          "stage": 6,
+          "title": "검사소 수요·처리능력 시뮬레이션 및 동적 예약",
+          "flags": [
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-007",
+          "stage": 7,
+          "title": "검사장비 장애조치 및 측정기기 정밀도 관리",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-008",
+          "stage": 8,
+          "title": "법인차량·렌터카 검사 일정조정 및 집중관리",
+          "flags": [
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-009",
+          "stage": 9,
+          "title": "이륜차 배출가스·소음 검사 신청 사전검토",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-010",
+          "stage": 10,
+          "title": "자동차 안전기준·검사기준 개정 이행관리",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "title": "운수회사·DTG 안전관리",
+      "count": 10,
+      "topics": [
+        {
+          "id": "STEP-011",
+          "stage": 11,
+          "title": "운수회사 안전개선 증빙 자동대조",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-012",
+          "stage": 12,
+          "title": "안전담당자 조치계획 수립지원",
+          "flags": [
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-013",
+          "stage": 13,
+          "title": "위험운전 행동 개인별 AI 교육처방",
+          "flags": [
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-014",
+          "stage": 14,
+          "title": "운수종사자 휴식시간·배차 사전검토",
+          "flags": [
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-015",
+          "stage": 15,
+          "title": "운수자격·보수교육 증빙 불일치 점검",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-016",
+          "stage": 16,
+          "title": "운수회사 교통사고 사후개선 및 재발방지 지원",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-017",
+          "stage": 17,
+          "title": "운수안전컨설팅 현장 증거수집 지원",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-018",
+          "stage": 18,
+          "title": "소규모 영세 운수회사 안전업무 AI 도우미",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-019",
+          "stage": 19,
+          "title": "운행기록(DTG) 제출오류 및 전송실패 원인해결",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-020",
+          "stage": 20,
+          "title": "운수안전 정책개입 효과 및 사고감소 실증검증",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "title": "공시정보·이의신청 자동화",
+      "count": 10,
+      "topics": [
+        {
+          "id": "STEP-021",
+          "stage": 21,
+          "title": "제출자용 사전보완 서비스",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-022",
+          "stage": 22,
+          "title": "전세버스 운행안전정보 재사용 동의관리",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-023",
+          "stage": 23,
+          "title": "공시평가 이의신청 및 사건지원",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-024",
+          "stage": 24,
+          "title": "평가기준 개정 영향시험 시뮬레이션",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-025",
+          "stage": 25,
+          "title": "평가자 판정편차 조정지원",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-026",
+          "stage": 26,
+          "title": "운수업체 개선조치 실행관리",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-027",
+          "stage": 27,
+          "title": "중복·불일치 증빙 검토지원",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-028",
+          "stage": 28,
+          "title": "공시결과 변경감지 및 대국민 안내",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-029",
+          "stage": 29,
+          "title": "이용목적별 맞춤형 공시정보 설명",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-030",
+          "stage": 30,
+          "title": "공시평가 예측타당성 및 사고연계 연구",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        }
+      ]
+    },
+    {
+      "id": "G4",
+      "title": "통합콜센터·취약계층 포용",
+      "count": 10,
+      "topics": [
+        {
+          "id": "STEP-031",
+          "stage": 31,
+          "title": "콜센터 인입 상담유형 실시간 분류 및 추천스크립트 자동제공",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-032",
+          "stage": 32,
+          "title": "다빈도 반복민원(검사예약/과태료) 24/365 AI 음성봇 응대체계",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-033",
+          "stage": 33,
+          "title": "온라인 민원신호·서비스 장애 이상징후 조기탐지",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-034",
+          "stage": 34,
+          "title": "디지털 취약계층(고령자/외국인) 자동차검사 비대면 음성·원격 접수지원",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-035",
+          "stage": 35,
+          "title": "악성·폭언 민원인 감정인지 및 상담사 안심보호 프로토콜",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "공식 판단·집행 권한 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-036",
+          "stage": 36,
+          "title": "검사 예약부도(No-Show) 예측 및 대체배정 알림서비스",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-037",
+          "stage": 37,
+          "title": "다채널(카카오/문자/포털/방문) 민원 이력 단일식별뷰 통합",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-038",
+          "stage": 38,
+          "title": "장애인·보훈대상자 감면자격 비대면 자동검증 및 즉시환급",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "공식 판단·집행 권한 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-039",
+          "stage": 39,
+          "title": "상담원 지식베이스(KB) 최신 법령·지침 자동동기화",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-040",
+          "stage": 40,
+          "title": "상담품질(QA) 전수 AI 자동평가 및 맞춤형 코칭",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        }
+      ]
+    },
+    {
+      "id": "G5",
+      "title": "도로교통안전·인프라 진단",
+      "count": 10,
+      "topics": [
+        {
+          "id": "STEP-041",
+          "stage": 41,
+          "title": "지자체 교통안전기본계획 수립지원 및 취약구간 진단",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-042",
+          "stage": 42,
+          "title": "어린이·노인보호구역 안전진단 및 시설개선안 도출",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-043",
+          "stage": 43,
+          "title": "교통사고 다발지점 정밀원인분석 및 도로안전개선 대책수립",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-044",
+          "stage": 44,
+          "title": "어린이 통학버스 위치·승하차 안전정보 실시간 알림체계",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-045",
+          "stage": 45,
+          "title": "교통약자(장애인·고령자) 특별교통수단 광역이동 배차지원",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-046",
+          "stage": 46,
+          "title": "고령운전자 페달오조작 및 인지능력 검사 연계 맞춤처방",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-047",
+          "stage": 47,
+          "title": "배달 이륜차 위험운전 다발지역 모니터링 및 안전시설 개선",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-048",
+          "stage": 48,
+          "title": "도로 점용공사 구간 교통안전관리계획 사전검토 및 현장점검",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-049",
+          "stage": 49,
+          "title": "야간·악천후 도로 시인성 취약구간 및 도로조명 안전진단",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-050",
+          "stage": 50,
+          "title": "지자체별 교통안전지수 종합평가 및 정책개선 컨설팅",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        }
+      ]
+    },
+    {
+      "id": "G6",
+      "title": "철도·항공·드론 종합안전",
+      "count": 10,
+      "topics": [
+        {
+          "id": "STEP-051",
+          "stage": 51,
+          "title": "철도 운영기관 안전관리체계 기술기준 승인 및 정기검사 지원",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-052",
+          "stage": 52,
+          "title": "철도 차량 및 부품 형식승인·제작자승인 사전검토 및 이력추적",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-053",
+          "stage": 53,
+          "title": "철도종사자(기관사/관제사) 적성검사 및 자격시험 관리 고도화",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-054",
+          "stage": 54,
+          "title": "항공안전 자율보고(K-ASRS) 위험신호 익명분석 및 전파체계",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-055",
+          "stage": 55,
+          "title": "초경량비행장치(드론) 비행승인·안전성인증 및 조종자격 관리",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-056",
+          "stage": 56,
+          "title": "도심항공교통(UAM) 기체 인증 및 버티포트(Vertiport) 안전평가",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-057",
+          "stage": 57,
+          "title": "기계식주차장 안전도인증 및 정기검사·사고조사 지원",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-058",
+          "stage": 58,
+          "title": "삭도·궤도(케이블카·모노레일) 시설 안전검사 및 위험예측",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-059",
+          "stage": 59,
+          "title": "철도 건널목 사고위험 진단 및 입체화·안전설비 우선순위 도출",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-060",
+          "stage": 60,
+          "title": "철도·항공·미래교통 통합 다학제 위험관리 종합포털",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        }
+      ]
+    },
+    {
+      "id": "G7",
+      "title": "모빌리티 샌드박스·자율주행",
+      "count": 10,
+      "topics": [
+        {
+          "id": "STEP-061",
+          "stage": 61,
+          "title": "모빌리티 규제샌드박스 실증특례 안전관리계획 사전검토 및 모니터링",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-062",
+          "stage": 62,
+          "title": "자율주행차 임시운행허가 안전성 검증 및 자율주행 테스트베드(K-City) 지원",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-063",
+          "stage": 63,
+          "title": "전기차 배터리 안전성 인증 및 전 생애주기 이력관리(배터리 여권) 체계",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-064",
+          "stage": 64,
+          "title": "자율주행 데이터 기록장치(DSSAD) 사고조사 및 책임소재 분석",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-065",
+          "stage": 65,
+          "title": "수요응답형 모빌리티(DRT) 운행계획 최적화 및 농어촌 대중교통 사각지대 해소",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-066",
+          "stage": 66,
+          "title": "전기차 폐배터리 재사용·재활용 안전성 검사 및 성능평가",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-067",
+          "stage": 67,
+          "title": "개인형 이동장치(PM/전동킥보드) 안전인증 및 견인·주차 무단방치 관리",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-068",
+          "stage": 68,
+          "title": "자율주행 시범운행지구 운영평가 및 안전운행 모니터링",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-069",
+          "stage": 69,
+          "title": "수소전기차 연료전지·수소용기 안전검사 및 충전인프라 위험진단",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-070",
+          "stage": 70,
+          "title": "미래 모빌리티 통합 실증·인증·안전관리 종합 거버넌스 플랫폼",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        }
+      ]
+    },
+    {
+      "id": "G8",
+      "title": "청렴감사·사규·계약",
+      "count": 10,
+      "topics": [
+        {
+          "id": "STEP-071",
+          "stage": 71,
+          "title": "도로·교통 안전 법령·고시 개정사항 사규·업무지침 자동 반영 및 이행검증",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "공식 판단·집행 권한 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-072",
+          "stage": 72,
+          "title": "감사원·국토부 감사 지적사항 및 시정조치 이행추적 자동화",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-073",
+          "stage": 73,
+          "title": "공단 발주 계약·구매 규격서 독소조항 사전검토 및 입찰 담합 이상탐지",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-074",
+          "stage": 74,
+          "title": "수탁 공공사업 예산 집행 타당성 및 정산 증빙 자동대조",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-075",
+          "stage": 75,
+          "title": "공단 경영평가 지표 실시간 추적 및 전략과제 성과 달성도 예측",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-076",
+          "stage": 76,
+          "title": "내부 직무 감사 및 복무·출장·법인카드 이상 집행 패턴 AI 상시 감사",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-077",
+          "stage": 77,
+          "title": "국정감사 질의·요구자료 AI 자동 분석 및 답변서 초안 지원",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-078",
+          "stage": 78,
+          "title": "공공데이터 개방 품질 검증 및 오류 데이터 정제 자동화",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-079",
+          "stage": 79,
+          "title": "노사협약 및 산업안전보건 기준 준수 현장 이행 모니터링",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-080",
+          "stage": 80,
+          "title": "전사 컴플라이언스(내부통제) 및 리스크 조기경보 통합 거버넌스 (G8 Capstone)",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        }
+      ]
+    },
+    {
+      "id": "G9",
+      "title": "데이터 거버넌스·품질개방",
+      "count": 10,
+      "topics": [
+        {
+          "id": "STEP-081",
+          "stage": 81,
+          "title": "이기종 교통안전 시스템 간 차량·운전자 식별키(Master Data Key) 표준화 및 데이터 매핑",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-082",
+          "stage": 82,
+          "title": "자동차 검사·운행기록(DTG)·사고DB 실시간 스트리밍 파이프라인 및 데이터 레이크하우스 구축",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-083",
+          "stage": 83,
+          "title": "전사 AI 모델 라이프사이클 관리(MLOps) 및 데이터 드리프트(Drift) 실시간 모니터링",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-084",
+          "stage": 84,
+          "title": "멀티 거대언어모델(LLM) 토큰 소비량 및 클라우드 AI 추론 비용(FinOps) 최적화",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-085",
+          "stage": 85,
+          "title": "교통 빅데이터 개인정보 비식별화(가명·익명화) 자동 검증 및 재식별 위험도 평가",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-086",
+          "stage": 86,
+          "title": "공공데이터 개방 API 실시간 트래픽 제어 및 서비스 수준 협약(SLA) 품질 보장",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-087",
+          "stage": 87,
+          "title": "전사 메타데이터 사전·비즈니스 용어집(Data Catalog) 자동 구축 및 계보(Lineage) 추적",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-088",
+          "stage": 88,
+          "title": "생성형 AI 할루시네이션(환각) 실시간 차단 가드레일 및 답변 신뢰도 검증",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-089",
+          "stage": 89,
+          "title": "엣지(Edge) 검사소-중앙 클라우드 간 분산 AI 모델 경량화 및 동기화",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-090",
+          "stage": 90,
+          "title": "공단 전사 데이터 거버넌스 및 AI 윤리·성능 통합 관제센터 (G9 Capstone)",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        }
+      ]
+    },
+    {
+      "id": "G10",
+      "title": "직무AI 전환·글로벌 수출",
+      "count": 10,
+      "topics": [
+        {
+          "id": "STEP-091",
+          "stage": 91,
+          "title": "공단 전사 행정 문서(기안문·공문·보고서) 초안 작성 지원 지능형 행정 코파일럿",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-092",
+          "stage": 92,
+          "title": "법령·사규·판례 기반 교통사고 분쟁 및 소송 법무 검토 AI 지원 시스템",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "공식 판단·집행 권한 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-093",
+          "stage": 93,
+          "title": "전국 지자체 및 경찰청 합동 단속(불법명의·과적·불법튜닝) 현장 모바일 지능형 지원",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-094",
+          "stage": 94,
+          "title": "자동차 제작결함(리콜) 집단 민원 조기감지 및 결함 추정 통계 분석 엔진",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-095",
+          "stage": 95,
+          "title": "국가 모빌리티 데이터 연계 및 다기관(국토부·경찰청·도로공사) 공통 교통안전 검토 허브",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-096",
+          "stage": 96,
+          "title": "공단 임직원 업무 지식베이스(Wiki) 자동 편철 및 퇴직자 직무 노하우 보존",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-097",
+          "stage": 97,
+          "title": "민간 교통 앱(내비게이션·공유모빌리티) 연계 교통안전 위험 알림 상용화 검증",
+          "flags": [
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-098",
+          "stage": 98,
+          "title": "공공기관 AI 시스템 보안 취약점 점검 및 적대적 공격(Adversarial Attack) 방어",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-099",
+          "stage": 99,
+          "title": "교통안전 AI 솔루션 해외 수출 및 글로벌 표준화(K-Mobility Safety Model) 패키징",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        },
+        {
+          "id": "STEP-100",
+          "stage": 100,
+          "title": "한국교통안전공단(TS) 100단계 대국민 민원·서비스 디지털 혁신 대단원 종합 백서 및 통합 사업화 마스터플랜",
+          "flags": [
+            "비전·영상 기술 포함 · 현재 기본범위 제외",
+            "인프라·비용 조건 대조",
+            "민원·인터뷰 원문 대응 필요"
+          ],
+          "verification": "기획자료 · 법령·민원·수치 원문 대조 전"
+        }
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "id": "SITE-01",
+      "name": "TS국가자격관리통합 관리시스템",
+      "originalName": "TS 국가자격시험",
+      "url": "https://lic.kotsa.or.kr/tsportal/main.do",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": true,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "public-html-collected",
+      "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행",
+      "catalogueUrl": "https://lic.kotsa.or.kr/tsportal/main.do",
+      "catalogueAccess": "public-html-collected"
+    },
+    {
+      "id": "SITE-02",
+      "name": "사이버검사소",
+      "originalName": "사이버검사소",
+      "url": "https://www.cyberts.kr/portal/main.do",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": true,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "public-html-collected",
+      "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전 · 기존 진입주소의 변형",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행",
+      "catalogueUrl": "https://cyberts.kr",
+      "catalogueAccess": "network-error"
+    },
+    {
+      "id": "SITE-03",
+      "name": "TS 한국교통안전공단 대표포털",
+      "originalName": "TS 한국교통안전공단 대표포털",
+      "url": "https://main.kotsa.or.kr/main.do",
+      "kind": "조사 기준 대표포털",
+      "inCatalog": false,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "public-html-collected",
+      "sourceUrl": null,
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행"
+    },
+    {
+      "id": "SITE-04",
+      "name": "자동차리콜센터",
+      "originalName": "자동차리콜센터",
+      "url": "https://www.car.go.kr",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": true,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "public-html-collected",
+      "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행",
+      "catalogueUrl": "https://www.car.go.kr",
+      "catalogueAccess": "public-html-collected"
+    },
+    {
+      "id": "SITE-05",
+      "name": "자동차365",
+      "originalName": "자동차365",
+      "url": "https://www.car365.go.kr",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": true,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "public-html-collected",
+      "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행",
+      "catalogueUrl": "https://www.car365.go.kr/",
+      "catalogueAccess": "public-html-collected"
+    },
+    {
+      "id": "SITE-06",
+      "name": "자동차안전도평가",
+      "originalName": "자동차안전도평가 (KNCAP)",
+      "url": "http://kncap.org",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": true,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "html-shell",
+      "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행",
+      "catalogueUrl": "http://www.kncap.org",
+      "catalogueAccess": "html-shell"
+    },
+    {
+      "id": "SITE-07",
+      "name": "자동차부품자기인증시스템",
+      "originalName": "자동차부품자기인증",
+      "url": "https://www.kotsa.or.kr/parts",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": true,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "public-html-collected",
+      "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행",
+      "catalogueUrl": "https://kotsa.or.kr/parts",
+      "catalogueAccess": "public-html-collected"
+    },
+    {
+      "id": "SITE-08",
+      "name": "자동차민원 대국민포털",
+      "originalName": "자동차민원 대국민포털",
+      "url": "http://www.ecar.go.kr/Services",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": false,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "network-error",
+      "sourceUrl": null,
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행"
+    },
+    {
+      "id": "SITE-09",
+      "name": "교통안전정보관리시스템",
+      "originalName": "교통안전정보관리시스템 (TMACS)",
+      "url": "https://tmacs.kotsa.or.kr",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": true,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "html-shell",
+      "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행",
+      "catalogueUrl": "https://tmacs.kotsa.or.kr",
+      "catalogueAccess": "html-shell"
+    },
+    {
+      "id": "SITE-10",
+      "name": "운행기록분석시스템 (eTAS)",
+      "originalName": "운행기록분석시스템 (eTAS)",
+      "url": "https://etas.kotsa.or.kr",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": true,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "public-html-collected",
+      "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행",
+      "catalogueUrl": "http://etas.kotsa.or.kr",
+      "catalogueAccess": "network-error"
+    },
+    {
+      "id": "SITE-11",
+      "name": "운수종사자관리시스템",
+      "originalName": "운수종사자관리시스템 (RIMS)",
+      "url": "https://drv.kotsa.or.kr",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": true,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "html-shell",
+      "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "note": "RIMS는 별도 rims.kotsa.or.kr. drv의 명칭에서 RIMS 제외",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행",
+      "catalogueUrl": "https://drv.kotsa.or.kr",
+      "catalogueAccess": "html-shell"
+    },
+    {
+      "id": "SITE-12",
+      "name": "운수안전컨설팅지원시스템",
+      "originalName": "운수안전컨설팅지원시스템 (COSAS)",
+      "url": "https://kotsa.or.kr/cosas",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": true,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "html-shell",
+      "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행",
+      "catalogueUrl": "https://kotsa.or.kr/cosas",
+      "catalogueAccess": "html-shell"
+    },
+    {
+      "id": "SITE-13",
+      "name": "위험물질운송안전 통합관리시스템",
+      "originalName": "위험물질운송안전관리시스템 (HMTS)",
+      "url": "https://hmts.kotsa.or.kr",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": true,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "html-shell",
+      "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행",
+      "catalogueUrl": "https://hmts.kotsa.or.kr",
+      "catalogueAccess": "html-shell"
+    },
+    {
+      "id": "SITE-14",
+      "name": "택시운행정보관리시스템 (TIMS)",
+      "originalName": "택시운행정보관리시스템 (TIMS)",
+      "url": "https://tims.kotsa.or.kr",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": true,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "html-shell",
+      "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행",
+      "catalogueUrl": "http://tims.kotsa.or.kr",
+      "catalogueAccess": "html-shell"
+    },
+    {
+      "id": "SITE-15",
+      "name": "전세버스 교통안전정보 공시 시스템",
+      "originalName": "전세버스 안전정보알림 (SafeInfo)",
+      "url": "https://www.kotsa.or.kr/safeinfo",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": true,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "public-html-collected",
+      "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행",
+      "catalogueUrl": "https://kotsa.or.kr/safeinfo",
+      "catalogueAccess": "public-html-collected"
+    },
+    {
+      "id": "SITE-16",
+      "name": "국가대중교통정보센터",
+      "originalName": "국가대중교통정보센터 (TAGO)",
+      "url": "https://www.tago.go.kr",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": true,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "public-html-collected",
+      "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행",
+      "catalogueUrl": "https://www.tago.go.kr",
+      "catalogueAccess": "public-html-collected"
+    },
+    {
+      "id": "SITE-17",
+      "name": "대중교통 빅데이터플랫폼 (STCIS)",
+      "originalName": "대중교통 빅데이터플랫폼 (STCIS)",
+      "url": "https://stcis.go.kr",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": false,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "html-shell",
+      "sourceUrl": null,
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행"
+    },
+    {
+      "id": "SITE-18",
+      "name": "국가대중교통DB (PTC)",
+      "originalName": "국가대중교통DB (PTC)",
+      "url": "https://www.kotsa.or.kr/ptc",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": true,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "public-html-collected",
+      "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행",
+      "catalogueUrl": "http://www.kotsa.or.kr/ptc",
+      "catalogueAccess": "public-html-collected"
+    },
+    {
+      "id": "SITE-19",
+      "name": "대중교통비 환급 지원 사업(K-패스)",
+      "originalName": "K-패스 대국민 환급포털",
+      "url": "https://korea-pass.kr",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": true,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "network-error",
+      "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행",
+      "catalogueUrl": "https://korea-pass.kr",
+      "catalogueAccess": "network-error"
+    },
+    {
+      "id": "SITE-20",
+      "name": "교통부문온실가스관리시스템",
+      "originalName": "교통부문 온실가스 배출관리 (KOTEMS)",
+      "url": "https://www.kotems.or.kr",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": true,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "public-html-collected",
+      "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행",
+      "catalogueUrl": "https://www.kotems.or.kr",
+      "catalogueAccess": "public-html-collected"
+    },
+    {
+      "id": "SITE-21",
+      "name": "모빌리티 규제샌드박스",
+      "originalName": "모빌리티 규제샌드박스",
+      "url": "https://sandbox.kotsa.or.kr",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": false,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "public-html-collected",
+      "sourceUrl": null,
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행"
+    },
+    {
+      "id": "SITE-22",
+      "name": "자동차안전연구원 홈페이지",
+      "originalName": "자동차안전연구원 (KATRI)",
+      "url": "https://katri.kotsa.or.kr",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": true,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "public-html-collected",
+      "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행",
+      "catalogueUrl": "https://katri.kotsa.or.kr",
+      "catalogueAccess": "public-html-collected"
+    },
+    {
+      "id": "SITE-23",
+      "name": "철도안전정보종합관리시스템",
+      "originalName": "철도안전종합정보포털",
+      "url": "https://www.railsafety.or.kr",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": true,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "public-html-collected",
+      "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행",
+      "catalogueUrl": "https://www.railsafety.or.kr",
+      "catalogueAccess": "public-html-collected"
+    },
+    {
+      "id": "SITE-24",
+      "name": "항공보안365",
+      "originalName": "항공보안365",
+      "url": "https://www.avsec365.or.kr",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": false,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "public-html-collected",
+      "sourceUrl": null,
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행"
+    },
+    {
+      "id": "SITE-25",
+      "name": "항공교육훈련포털",
+      "originalName": "항공교육훈련포털 (ATIMS)",
+      "url": "https://kaa.atims.kr",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": true,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "public-html-collected",
+      "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행",
+      "catalogueUrl": "https://kaa.atims.kr",
+      "catalogueAccess": "public-html-collected"
+    },
+    {
+      "id": "SITE-26",
+      "name": "드론 정보통합시스템",
+      "originalName": "드론정보총괄시스템 (드론원스톱)",
+      "url": "https://www.kotsa.or.kr/edrone",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": true,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "public-html-collected",
+      "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "note": "기존 공식 목록 기준. 드론원스톱 동의어 미확인",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행",
+      "catalogueUrl": "https://www.kotsa.or.kr/edrone",
+      "catalogueAccess": "public-html-collected"
+    },
+    {
+      "id": "SITE-27",
+      "name": "드론비행경력관리시스템 (DFMS)",
+      "originalName": "드론비행경력관리시스템 (DFMS)",
+      "url": "https://www.kotsa.or.kr/dfms",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": false,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "html-shell",
+      "sourceUrl": null,
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행"
+    },
+    {
+      "id": "SITE-28",
+      "name": "기계식주차장관리시스템",
+      "originalName": "기계식주차장 관리시스템 (MPIS)",
+      "url": "https://www.kotsa.or.kr/mpis",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": true,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "html-shell",
+      "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행",
+      "catalogueUrl": "https://www.kotsa.or.kr/mpis",
+      "catalogueAccess": "html-shell"
+    },
+    {
+      "id": "SITE-29",
+      "name": "교통안전체험교육센터",
+      "originalName": "TS배움터 LMS",
+      "url": "https://tslms.kotsa.or.kr",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": true,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "html-shell",
+      "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "note": "TS배움터는 별도 edu.kotsa.or.kr. tslms의 명칭 정정",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행",
+      "catalogueUrl": "https://tslms.kotsa.or.kr",
+      "catalogueAccess": "html-shell"
+    },
+    {
+      "id": "SITE-30",
+      "name": "TS통합회원인증센터 (SSO)",
+      "originalName": "TS통합회원인증센터 (SSO)",
+      "url": "https://tsum.kotsa.or.kr",
+      "kind": "공통 인증 구성요소",
+      "inCatalog": false,
+      "inExistingLinks": false,
+      "knownHost": true,
+      "storedAccess": "해당 진입주소 요청 기록 없음",
+      "sourceUrl": null,
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행"
+    },
+    {
+      "id": "SITE-31",
+      "name": "국립교통재활병원",
+      "originalName": "국립교통재활병원",
+      "url": "https://www.ntrh.or.kr",
+      "kind": "외부 연계기관 · 소관 별도 확인",
+      "inCatalog": false,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "public-html-collected",
+      "sourceUrl": null,
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행"
+    },
+    {
+      "id": "SITE-32",
+      "name": "화물운송실적관리시스템",
+      "originalName": "화물운송실적관리시스템 (FPIS)",
+      "url": "https://www.fpis.go.kr",
+      "kind": "업무서비스 목록 후보",
+      "inCatalog": true,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "html-shell",
+      "sourceUrl": "https://main.kotsa.or.kr/portal/contents.do?menuCode=03050500",
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행",
+      "catalogueUrl": "https://www.fpis.go.kr",
+      "catalogueAccess": "html-shell"
+    },
+    {
+      "id": "SITE-33",
+      "name": "오늘도무사고",
+      "originalName": "오늘도무사고",
+      "url": "https://www.xn--299al2izzav4r95g5xi.kr/",
+      "kind": "캠페인",
+      "inCatalog": false,
+      "inExistingLinks": true,
+      "knownHost": true,
+      "storedAccess": "public-html-collected",
+      "sourceUrl": null,
+      "note": "원 목록의 설명·대상자·기능·운영 책임은 원문 대조 전",
+      "verifiedAt": "2026-10-08T22:48:58+09:00",
+      "verification": "저장된 자료 간 대조 · 이번 새 접속 미수행"
+    }
+  ],
+  "pdfCategories": [
+    {
+      "title": "프로젝트 · 마스터산출물 · PDF",
+      "files": 6,
+      "nature": "자체 기획 산출물"
+    },
+    {
+      "title": "공단 · 공식간행물 · 브로슈어",
+      "files": 2,
+      "nature": "보관본 분류 · 원문 대조 필요"
+    },
+    {
+      "title": "모빌리티 · 정책 · 공지 · 첨부문서",
+      "files": 2,
+      "nature": "보관본 분류 · 원문 대조 필요"
+    },
+    {
+      "title": "모빌리티 · 정책 · 규제샌드박스",
+      "files": 2,
+      "nature": "보관본 분류 · 원문 대조 필요"
+    },
+    {
+      "title": "모빌리티 · 정책 · 규제샌드박스 · 월간브리프",
+      "files": 1,
+      "nature": "보관본 분류 · 원문 대조 필요"
+    },
+    {
+      "title": "공단 · 공지사항 · 첨부PDF",
+      "files": 27,
+      "nature": "보관본 분류 · 원문 대조 필요"
+    },
+    {
+      "title": "입찰 · 사전규격 · 과업지시서",
+      "files": 1,
+      "nature": "보관본 분류 · 원문 대조 필요"
+    },
+    {
+      "title": "자격시험 · 공지 · 서식자료실",
+      "files": 57,
+      "nature": "보관본 분류 · 원문 대조 필요"
+    }
+  ],
+  "limits": [
+    "9개 첫 화면 및 33개 목록은 기존 원장과 대조. 신규 검증 서비스 0개",
+    "100개 제목·입력 파일의 존재는 확인. 문제 발생률·민원 인용·법령·성능 수치의 원문 검증과 구분",
+    "PDF 98개는 헤더·SHA-256·색인 대조. 파일 보유와 원문 진위·전체 수집 완료를 구분",
+    "깨진 파일명은 색인 별칭으로 복원. 원본 파일 변경 없음",
+    "NOA 기구축 기반·로컬 LLM·기존 서버·비전 제외·공식 판단 유지 조건에 맞춰 별도 검토"
+  ],
+  "nextChecks": [
+    {
+      "project": "MR-02",
+      "title": "전화 DRT 접수·배차 지원",
+      "steps": [
+        45,
+        65
+      ],
+      "action": "광역 특별교통수단과 지역 DRT를 구분하고, 전화 접수·재배정 부담 및 기존 자동배차 기능의 잔여 문제 확인"
+    },
+    {
+      "project": "KT-RS-01",
+      "title": "연구지원 계약·검수 PMS",
+      "steps": [
+        73,
+        74
+      ],
+      "action": "계약조건·검수·지급 증빙 연결을 확인. 자동 업체 선정·지급·감사 처분으로 확대하지 않음"
+    }
+  ]
+}
