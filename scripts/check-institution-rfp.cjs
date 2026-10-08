@@ -22,8 +22,8 @@ check('기간·조직·분류 상충 보존',['DRT','EXAM','CONSULT'].every(id=>
 check('RFP 요구의 감사권한·성능실적 승격 방지',r.samples.find(s=>s.id==='DRT').boundary.includes('권한을 입증하지 않음')&&r.samples.find(s=>s.id==='EXAM').boundary.includes('실제 성과'));
 const drt=r.samples.find(s=>s.id==='DRT'),common=r.samples.find(s=>s.id==='COMMON'),exam=r.samples.find(s=>s.id==='EXAM');
 check('DRT 현행·규칙 자동화·AI 제외의 구분',drt.findings.some(([k,v,p])=>k==='현행 업무'&&v.includes('수동')&&p.includes('13쪽'))&&drt.scope.includes('AI 활용')&&drt.scope.includes('금회 제외')&&drt.findings.some(([k,v])=>k==='자동배차와 예외'&&v.includes('자동 재배차')));
-check('DRT 보충 원본 4개와 표본10개 집계 분리',r.scope.attachmentCount===10&&r.scope.supplementaryAttachmentCount===4&&drt.supplementaryFiles.length===4&&drt.supplementaryFiles.every(f=>/^[0-9a-f]{64}$/.test(f.sha256)&&f.url.startsWith('https://main.kotsa.or.kr/common/download.do?')&&f.originalName&&f.collectedAt));
-check('사전규격·본공고의 독립 출처 유지',drt.supplementarySources.length===2&&drt.supplementarySources.every(s=>s.published&&s.checkedAt&&s.url.startsWith('https://main.kotsa.or.kr/portal/bbs/')));
+check('DRT 선행사업 포함 보충 원본6개와 표본10개 집계 분리',r.scope.attachmentCount===10&&r.scope.supplementaryAttachmentCount===6&&drt.supplementaryFiles.length===6&&new Set(drt.supplementaryFiles.map(f=>f.sha256)).size===6&&drt.supplementaryFiles.every(f=>/^[0-9a-f]{64}$/.test(f.sha256)&&f.url.startsWith('https://main.kotsa.or.kr/common/download.do?')&&f.originalName&&f.collectedAt));
+check('사전규격·본공고·선행사업·공식절차 출처 구분',drt.supplementarySources.length===4&&['DRT-PRE','DRT-BID','DRT-MAINT','DRT-GUIDE'].every(id=>drt.supplementarySources.some(s=>s.id===id&&s.published&&s.checkedAt&&s.url.startsWith('https://main.kotsa.or.kr/portal/'))));
 check('작성조건 변경과 기존 분리제출 의무 구분',drt.findings.some(([k,v,p])=>k==='사전규격과 본공고의 작성조건 차이'&&v.includes('100쪽')&&v.includes('200쪽')&&v.includes('양쪽에 이미 존재')&&p.includes('P3394')));
 check('운영비의 무상·자동감액 오해 방지',drt.findings.some(([k,v,p])=>k==='운영비 부담과 조정 조건'&&v.includes('과업수행사 비용에 포함')&&v.includes('자동 감액의 확정 근거 아님')&&p.includes('P3453~3454')));
 check('기간충돌과 정정검색의 확인한계 보존',drt.conflicts.some(s=>s.includes('최종 적용기간 미확정'))&&drt.conflicts.some(s=>s.includes('403')&&s.includes('부재를 뜻하지')));
@@ -33,6 +33,16 @@ check('EXAM 폐쇄망·금회 연계 제외·장래 확장의 구분',exam.findi
 check('RFP 차분이 DRT 현재 제안에 반영',model.byId['SOLUTION-MR-02'].details.some(t=>t.includes('기존 발주 요구')&&t.includes('금회 제외')));
 check('DRT 기존 재배차 후 추가 대응 순서',fs.readFileSync('src/planning-workbench.cjs','utf8').includes('기존 규칙 재배차 실패·상담원 큐 전환 → 실패 사유·이동조건 확인'));
 check('DRT 오류율의 요청 단위 통일',r.example.acceptance.includes('오류가 1개 이상인 요청 수/평가 요청 수'));
+check('앱·모바일웹 및 지역·버전 미확인의 보존',drt.findings.some(([k,v])=>k==='채널별 현행 확인'&&v.includes('모바일앱 자동배차')&&v.includes('모바일웹 수동')&&v.includes('같은 지역·버전·시점인지는 미확인')));
+check('기술 인계·조건부 데이터 이관과 실제 계약의 구분',drt.findings.some(([k,v,p])=>k==='전환 일정과 인수 책임'&&v.includes('기술 인계와 필요 시 데이터 이관계획')&&v.includes('실제 계약 중첩·인수 완료 증거는 미확보')&&p.includes('P1557')));
+check('지역 책임과 유지관리 콜센터 과업 동시 표시',drt.findings.some(([k,v,p])=>k==='공단·지역·콜센터의 역할'&&v.includes('지자체')&&v.includes('3월 RFP에도 콜센터 운영 요구')&&p.includes('P202')));
+for(const p of r.projectReviews){const e=model.byId[p.projectId];assert(e&&e.means===p.means&&e.steps.length===5);for(const k of p.sourceKeys){const s=r.workflowSources.find(s=>s.key===k);assert(s);assert(e.sourceIds.some(id=>model.sourceById[id]?.url===s.url));}assert(model.byId[e.solutionId].existing===p.existing);assert(e.metricIds.every(id=>model.byId[id].baseline===null&&model.byId[id].target===null));}
+check('MR·QE 화면 데이터·출처 연결과 실측 전 성과 보존',true);
+for(const review of r.projectReviews)assert.deepEqual(model.projects.find(p=>p.id===review.projectId),model.byId[review.projectId],review.projectId+' 목록·본문·근거 패널 동일 내용');
+check('목록·본문·근거 패널의 보완본 동기화',true);
+const qe=model.byId['PROJECT-QE-01'];
+check('QE 기존 교육·독립 편성 상태와 민감자료 경계',qe.status.includes('독립 편성 보류')&&model.byId[qe.solutionId].existing.includes('교정교육')&&qe.privacy.includes('현 제안 입력에서 제외')&&qe.privacy.includes('건강보험 질병자료')&&qe.boundary.includes('2017년')&&qe.boundary.includes('2025-700호'));
+check('QE 수료·자격·실운전 성과 분리',qe.steps.some(s=>s[2].includes('수료기록·검사판정·자격 발급'))&&qe.boundary.includes('교육 이수를 실제 운전역량 향상으로 간주하지 않음'));
 check('신규 요구 예시의 성격 명시',r.example.status.includes('가상 요구사항')&&r.example.status.includes('미확정'));
 check('공개 자료 로컬 경로·연락처 제외',!/(file:\/\/|[A-Z]:\\|\\Users\\|[\w.+-]+@kotsa\.or\.kr|054-\d{3}-\d{4})/i.test(JSON.stringify(r)));
 const jsx=fs.readFileSync('src/InstitutionMandate.jsx','utf8'),app=fs.readFileSync('src/PlanningWorkbench.jsx','utf8');

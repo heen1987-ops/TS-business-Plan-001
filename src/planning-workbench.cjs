@@ -131,7 +131,20 @@ copy.footer='CCK 기반 기획 검토용 · TS 공식 서비스와 구분 · 제
 copy.next=mandate.pending;
 const rfpLearning=require('./alio-rfp-learning.json');
 const drtRfp=rfpLearning.samples.find(s=>s.id==='DRT');
-const drtSource=source({title:drtRfp.title,url:drtRfp.url,type:'공식 입찰공고·제안요청서',nature:'공식 근거',verification:'확인됨',published:drtRfp.published,checkedAt:rfpLearning.date,fact:'공고 당시 수동 배차와 금회 규칙 자동배차·운영계획 요구, 배차 AI·콜센터 기반시설 제외의 구분 확인',locator:'PDF 6·8쪽 제외범위 / 13쪽 현행 수동 배차 / 28·30·32~35·39쪽 SFR-001·004·008·012·014',limit:drtRfp.boundary+' / '+drtRfp.conflicts[0]});
+const drtSource=source({title:drtRfp.title,url:drtRfp.url,type:'공식 입찰공고·제안요청서',nature:'공식 근거',verification:'확인됨',published:drtRfp.published,checkedAt:rfpLearning.date,fact:'공고 당시 모바일웹 수동 배차와 금회 규칙 자동배차·운영계획 요구, 배차 AI·콜센터 기반시설 제외의 구분 확인',locator:'PDF 6·8쪽 제외범위 / 13쪽 현행 모바일웹 수동 배차 / 28·30·32~35·39쪽 SFR-001·004·008·012·014',limit:drtRfp.boundary+' / '+drtRfp.conflicts[0]});
 for(const id of ['PROJECT-MR-02','PROBLEM-MR-02','SOLUTION-MR-02'])if(byId[id])byId[id].sourceIds.push(drtSource);
 byId['SOLUTION-MR-02'].details.push('2026-10-09 재대조: 규칙 자동배차·거절 후 재배차·운영표 자동화는 기존 발주 요구. 배차 AI와 콜센터 기반시설은 금회 제외. 상담조건 이해·확인질문·운영대안 비교의 추가 범위와 실제 구현 여부 확인');
+// 공개 업무·선행 발주와 추가 제안을 연결하되 실제 설치·효과의 확인으로 승격하지 않음.
+const workflowSourceIds=Object.fromEntries(rfpLearning.workflowSources.map(s=>[s.key,source(s)]));
+for(const review of rfpLearning.projectReviews){
+ const p=byId[review.projectId];
+ const refs=review.sourceKeys.map(k=>workflowSourceIds[k]);
+ for(const key of ['summary','means','boundary','steps','privacy'])p[key]=review[key];
+ Object.assign(byId[p.solutionId],{existing:review.existing,extra:review.extra});
+ for(const id of [p.id,p.workId,p.problemId,p.requirementId,p.solutionId,...p.dataIds]){
+  byId[id].sourceIds=[...new Set([...byId[id].sourceIds,...refs])];
+ }
+ // 목록·본문은 projects, 근거 패널은 byId를 사용하므로 같은 보완본을 유지.
+ Object.assign(projects.find(e=>e.id===p.id),p);
+}
 module.exports={date:mandate.date,stage:2,mandate,screens,entities,byId,relations,sources,sourceById,projects,departments,representativeIds,copy,architectureIds:archRows.map(x=>x[0]),institutionIds:['ORG-TS','LAW-FOUNDATION','MIN-MOLIT','ORG-LOCAL'],counts:{departments:departments.length,projects:projects.length}};
