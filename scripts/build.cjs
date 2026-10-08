@@ -23,6 +23,7 @@ require('./export-websites.cjs')(path.join(out,'downloads'));
 require('./export-law-mapping.cjs')(path.join(out,'downloads'));
 require('./export-mandate-workflows.cjs')(path.join(out,'downloads'));
 require('./export-department-work-research.cjs')(path.join(out,'downloads'));
+require('./export-katri-solutions.cjs')(path.join(out,'downloads'));
 require('./export-proposals.cjs')(path.join(out,'downloads'));
 require('./export-revision47.cjs')(path.join(out,'downloads'));
 require('./export-proposal-intent.cjs')(path.join(out,'downloads'));

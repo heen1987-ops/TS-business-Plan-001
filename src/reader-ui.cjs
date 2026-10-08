@@ -3,7 +3,7 @@ function context(route){const u=new URL(route,'https://reader/'),d=ux.department
 function at(route,anchor){const c=context(route),q=new URLSearchParams({dept:c.department.key});if(c.project)q.set('project',c.project.id);if(c.topicId)q.set('topic',c.topicId);return 'index.html?'+q+'#'+anchor;}
 function links(route){const c=context(route),q=new URLSearchParams({dept:c.department.key});if(c.project)q.set('project',c.project.id);return [
  {id:'institution',title:'TS 이해',to:at(route,'integrated-institution')},
- {id:'mandate',title:'법령·현행 업무',to:c.department.projects.length?'legal/mapping.html?'+q:'legal/mapping.html?mode=law'},
+ {id:'mandate',title:'법령·현행 업무',to:c.project?.kind==='katri-candidate'?at(route,'department-detail-'+c.topicId+'-basis'):c.department.projects.length?'legal/mapping.html?'+q:'legal/mapping.html?mode=law'},
  {id:'proposal',title:'처별 사업기획',to:at(route,'integrated-department')},
  {id:'documents',title:'의견·한글 문서',to:at(route,'integrated-opinion')}
  ];}

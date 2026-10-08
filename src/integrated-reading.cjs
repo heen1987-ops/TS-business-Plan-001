@@ -8,7 +8,8 @@ const sections=[
  ['delivery','RFP·대가·추진조건','공통 기능과 선택 업무 묶음, 실제 구현 선행조건, 원문 대가·편성·검수 검토'],
  ['opinion','현업 의견·문서','선택한 처의 확인 질문, 추가 의견, 최신 계획서·대가산정서·도식집·설문지']
 ].map(([id,title,intro])=>({id:'integrated-'+id,title,intro}));
-const rows=ux.rows.map(r=>({...r,key:r.code||r.id,surveyId:r.code||r.id}));
+const katri=require('./katri-solution-expansion.cjs');
+const rows=ux.rows.map(r=>{const key=r.code||r.id,candidate=katri.byDepartment[key];return {...r,key,surveyId:key,projects:candidate?[...r.projects,{id:candidate.id,title:candidate.title,to:candidate.to,kind:candidate.kind}]:r.projects};});
 function selection(search=''){
  const q=new URLSearchParams(search),requested=q.get('dept')||'MR',row=rows.find(r=>r.key===requested||r.id===requested),department=row||rows.find(r=>r.code==='MR'),topics=survey.departments.find(r=>r.id===department.surveyId)?.topics||[],requestedProject=q.get('project'),project=department.projects.find(p=>p.id===requestedProject)||department.projects[0]||null,requestedTopic=q.get('topic')||requestedProject,topicId=topics.find(t=>t.id===requestedTopic)?.id||topics.find(t=>t.id===project?.id)?.id||topics[0]?.id;
  return{department,project,topicId,invalid:!!q.get('dept')&&!row,invalidProject:!!requestedProject&&!department.projects.some(p=>p.id===requestedProject)&&!topics.some(t=>t.id===requestedProject)};
@@ -52,4 +53,4 @@ function resolve(to,current){
  return 'index.html'+(params.size?'?'+params:'')+hash;
 }
 const labels={title:'2027년 TS 후속사업기획 · 통합 본문',lead:'기관의 역할과 법령에서 출발해, 담당 처의 문제·근거·CCK 해결방법·설계·효과·추진조건을 한 흐름으로 읽는 검토 자료.',status:'CCK 제안·조사 초안. TS 확정 과업·실제 제품 구현·최종 가격·실측 효과와 구분.',pick:'담당 처 선택',project:'검토 과제',note:'같은 본문에서 처·과제만 변경. 이전 페이지를 찾아 이동할 필요 없이 설명·도식·질문·문서 연결.',missing:'현재 연결된 사업계획서 없음. 업무·자료·대상자·병목을 먼저 확인하는 수요 탐색 대상이며, 미작성을 업무 부재 또는 개선효과 0으로 해석하지 않음.',unknown:'지정한 처를 찾지 못해 모빌리티연구처를 표시했습니다. 아래에서 담당 처를 다시 선택해 주세요.'};
-module.exports={sections,rows,selection,resolve,labels,date:'2026-10-06'};
+module.exports={sections,rows,selection,resolve,labels,date:'2026-10-08'};
