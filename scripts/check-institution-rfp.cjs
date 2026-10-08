@@ -44,7 +44,7 @@ const qe=model.byId['PROJECT-QE-01'];
 check('QE 기존 교육·독립 편성 상태와 민감자료 경계',qe.status.includes('독립 편성 보류')&&model.byId[qe.solutionId].existing.includes('교정교육')&&qe.privacy.includes('현 제안 입력에서 제외')&&qe.privacy.includes('건강보험 질병자료')&&qe.boundary.includes('2017년')&&qe.boundary.includes('2025-700호'));
 check('QE 수료·자격·실운전 성과 분리',qe.steps.some(s=>s[2].includes('수료기록·검사판정·자격 발급'))&&qe.boundary.includes('교육 이수를 실제 운전역량 향상으로 간주하지 않음'));
 const qeRule=r.workflowSources.find(s=>s.key==='qe-rule');
-check('QE 최신 조문 확인과 미검증 범위 구분',qeRule.locator.includes('제12조')&&qeRule.fact.includes('본문 확인')&&qeRule.limit.includes('별표·별지')&&!qeRule.limit.includes('동적 조문 본문 열람 제한'));
+check('QE 최신 조문 확인과 미검증 범위 구분',qeRule.locator.includes('제12조')&&qeRule.fact.includes('본문 확인')&&qeRule.limit.includes('별지1~4')&&qeRule.limit.includes('별표·나머지 별지')&&!qeRule.limit.includes('동적 조문 본문 열람 제한'));
 check('QE 교육 주체·대상·기록의 법적 경계',qe.steps[0][2].includes('희망자')&&qe.steps[3][2].includes('운송사업자 교육일지')&&qe.privacy.includes('해고')&&qe.boundary.includes('이수 또는 수료의 자동 확정')&&model.byId[qe.solutionId].existing.includes('지정 자가검사기관'));
 check('공식 기재와 실제 수행책임 구분',model.byId['DEPT-QE'].verification==='부분 확인'&&['025','027','028'].every(n=>{const w=model.byId['WORK-DUTY-1022010-'+n];return w.scopeReview&&w.verification==='확인 필요'}));
 for(const [n,page,row]of [['025',38,8],['027',38,10],['028',39,1]]){const w=model.byId['WORK-DUTY-1022010-'+n],refs=w.sourceIds.map(id=>model.sourceById[id]);assert(refs.length===1&&new URL(refs[0].url).searchParams.get('pageNumb')===String(page)&&refs[0].locator.includes(page+'쪽 '+row+'행'));const rel=model.relations.find(x=>x.from==='DEPT-QE'&&x.to===w.id&&x.type==='공개 담당업무');assert.deepEqual(rel.sourceIds,w.sourceIds);}
@@ -52,6 +52,19 @@ check('QE 세부업무의 실제 페이지·행 출처 연결',true);
 const repeated=model.byId['WORK-DUTY-1022010-006'].sourceIds.map(id=>model.sourceById[id]);
 check('반복 원문의 페이지·복수 행 보존',repeated.length===3&&repeated.some(s=>s.locator.includes('37쪽 4·10행'))&&repeated.map(s=>new URL(s.url).searchParams.get('pageNumb')).join(',')==='36,37,38');
 check('공란 원문은 기재 부재로 명시',model.sources.filter(s=>s.locator?.includes('OBS-0253')||s.locator?.includes('OBS-0449')||s.locator?.includes('OBS-0527')).every(s=>s.summary==='담당업무 미기재(원문 공란)'));
+check('여객·화물의 재취업 유형과 고령교육 자동포함 방지',qe.steps[0][2].includes('여객 재취업·미취업은 신규검사, 화물은 자격유지검사 가·나목')&&qe.steps[0][2].includes('고령 자격유지검사를 일괄 교정교육 대상으로 분류하지 않음'));
+check('의료적성 대체 범위·제외조건 보존',exam.findings.some(([k,v])=>k==='고령 검사와 의료적성 대체'&&v.includes('택시 종사자')&&v.includes('고령 다·라목')&&v.includes('과거 3년')&&v.includes('과거 1년 누산81점')));
+check('빈 서식과 실제 기록·AI 처리권한 구분',qe.steps[1][2].includes('성격특성 및 종합소견')&&qe.steps[1][2].includes('공란 자동 보충 금지')&&qe.privacy.includes('주민등록번호')&&qe.privacy.includes('일괄 전달하지 않는')&&qe.privacy.includes('자유서술'));
+check('법정 신청서와 전자교육일지 구분',qe.steps[3][2].includes('별지26호의2')&&qe.steps[3][2].includes('별지4를 일괄 적용하지 않음')&&qe.boundary.includes('전자일지의 원본 대체 허용으로 확대하지 않음'));
+check('새 공식 대상·서식 원문4개 연결',exam.supplementarySources.length===9&&['qe-passenger','qe-freight','qe-diagnosis-form','qe-application-form'].every(k=>qe.sourceIds.some(id=>model.sourceById[id].url===r.workflowSources.find(s=>s.key===k).url)));
+const katriWork=model.byId['WORK-DUTY-7418020-014'],katriSource=model.sourceById[katriWork.sourceIds[0]];
+check('연구기획처 조직명 기재의 확인범위·출처 보존',katriWork.title==='안전연구처'&&katriWork.departmentId==='DEPT-katri-research-planning'&&katriWork.verification==='확인 필요'&&model.byId[katriWork.departmentId].verification==='부분 확인'&&katriWork.scopeReview.reason.includes('실제 수행관계')&&katriSource.locator.includes('2쪽 2행')&&new URL(katriSource.url).searchParams.get('pageNumb')==='2');
+const dutyModel=require('../src/official-duty-research.cjs');
+check('KATRI 출처 경고·기존 후보345개 보존',katriSource.limit.includes('대조')&&new URL(katriSource.url).searchParams.get('deptCode1')==='7000000'&&dutyModel.counts.mappedUnits===345);
+for(const [org,id,project] of [['7418020','005','KT-RP-01'],['7418030','029',null],['7419030','013','KT-DP-01'],['7422020','004','KT-CR-01']]){const u=dutyModel.byOrg[org].units.find(u=>u.id==='DUTY-'+org+'-'+id);assert(u.scopeReview===null);assert.deepEqual(u.projectIds,project?[project]:[]);assert(model.byId['WORK-'+u.id].verification==='부분 확인');}
+check('센터명이 있는 다른 네 업무의 후보 연결·부분확인 보존',true);
+const crypto=require('node:crypto');
+check('직원업무 원장 원본 불변',crypto.createHash('sha256').update(fs.readFileSync('src/official-duties-20261008.json')).digest('hex')==='f937f35686e08c458fbc4855d00362c51abdaf5ab7b01363be686aebdc02a3b9');
 check('신규 요구 예시의 성격 명시',r.example.status.includes('가상 요구사항')&&r.example.status.includes('미확정'));
 check('공개 자료 로컬 경로·연락처 제외',!/(file:\/\/|[A-Z]:\\|\\Users\\|[\w.+-]+@kotsa\.or\.kr|054-\d{3}-\d{4})/i.test(JSON.stringify(r)));
 const jsx=fs.readFileSync('src/InstitutionMandate.jsx','utf8'),app=fs.readFileSync('src/PlanningWorkbench.jsx','utf8');
