@@ -16,6 +16,7 @@ function selection(search=''){
 }
 function projectTo(to){let u;try{u=new URL(to,'https://reader/')}catch{return null}return hub.projects.find(p=>{const v=new URL(p.proposalRoute,'https://reader/');return v.pathname===u.pathname&&v.searchParams.get('unit')===u.searchParams.get('unit')})||null;}
 function resolve(to,current){
+ if(new URL(to,'https://reader/').searchParams.get('view')==='problems')return to;
  if(/^[a-z][a-z0-9+.-]*:/i.test(to)||to.startsWith('downloads/')||to.startsWith('assets/')||to.includes('history='))return to;
  const u=new URL(to,'https://reader/'),path=decodeURI(u.pathname.slice(1)),params=new URLSearchParams();let hash=u.hash;
  const setDept=(key,project,topic)=>{const row=rows.find(r=>r.key===key||r.id===key);if(!row)return false;params.set('dept',row.key);const selected=project||(current?.department.key===row.key?current.project?.id:null);if(selected)params.set('project',selected);const selectedTopic=topic||(project&&survey.departments.find(d=>d.id===row.surveyId)?.topics.some(t=>t.id===project)?project:current?.department.key===row.key?current.topicId:null);if(selectedTopic)params.set('topic',selectedTopic);return true},p=projectTo(to);

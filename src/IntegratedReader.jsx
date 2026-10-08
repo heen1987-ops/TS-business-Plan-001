@@ -28,6 +28,7 @@ import katriExpansion from './katri-solution-expansion.cjs';
 import {KatriSolutionPlan,KatriSolutionDownloads} from './KatriSolutionPlan.jsx';
 import officialDuties from './official-duty-research.cjs';
 import {OfficialDepartmentDuties,OfficialDutyCatalog} from './OfficialDuties.jsx';
+import {PlanningModeSwitch} from './ProblemPlanning.jsx';
 import './integrated-reading.css';
 import './department-reader.css';
 const l=reading.labels;
@@ -64,6 +65,7 @@ export function IntegratedReader({route}){
   </nav>
  </aside>
  <div className="integrated-content">
+  <PlanningModeSwitch route={route}/>
   <header className="integrated-intro" id="integrated-start" tabIndex={-1}><small>{r.parent} · 2027년 후속사업 검토</small><h1>{r.name} · 업무와 AX 전환</h1><p>{p?.title||(researched?researched.mission:'실제 업무·기존 대응·추가 개선 필요성 확인계획')}</p><p className="department-brief-status">{p?'조사·설계 후보 · 사업 선정·발주·효과 미확정':(researched?workResearch.common.status:'업무 확인 단계 · 개별 사업계획 미작성')}</p></header>
   <details className="department-selector-advanced"><summary>처·과제 직접 선택</summary><form className="integrated-selector reader-selection" aria-label="처·과제 선택" onSubmit={e=>{e.preventDefault();choose(pending,pendingProject)}}><div><label htmlFor="integrated-department-select">처 선택</label><select id="integrated-department-select" value={pending} onChange={e=>{setPending(e.target.value);setPendingProject(reading.rows.find(x=>x.key===e.target.value)?.projects[0]?.id||'')}}>{!rows.some(x=>x.key===pending)&&<option value={pending}>{reading.rows.find(x=>x.key===pending)?.name} · 현재 선택</option>}{parents.map(parent=><optgroup key={parent} label={parent}>{rows.filter(x=>x.parent===parent).map(x=><option key={x.key} value={x.key}>{x.name}{x.projects.length?'':(workResearch.byKey[x.key]?' · 업무·근거':' · 업무 확인')}</option>)}</optgroup>)}</select></div><div><label htmlFor="integrated-project-select">검토 과제</label><select id="integrated-project-select" value={pendingProject} onChange={e=>setPendingProject(e.target.value)} disabled={!pendingRow?.projects.length}>{pendingRow?.projects.length?pendingRow.projects.map(x=><option key={x.id} value={x.id}>{x.title}</option>):<option value="">{workResearch.byKey[pendingRow?.key]?'공식 업무 조사':'업무 확인계획'}</option>}</select></div><button className="reader-apply" type="submit">{readerUI.labels.apply}</button><p role="status">{rows.length}개 조사 대상 조직 · 현재 {r.name}{pending!==r.key||pendingProject!==(p?.id||'')?' / '+readerUI.labels.pending:''}</p></form></details>
   {(current.invalid||current.invalidProject)&&<p className="integrated-warning" role="status">{current.invalid?l.unknown:'이 처에 해당하지 않는 과제입니다. 해당 처의 첫 과제 표시.'}</p>}

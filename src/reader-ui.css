@@ -22,3 +22,4 @@
 
 /* 모바일·선택 맥락으로 달라지는 실제 헤더 높이를 모든 본문 앵커에 반영. */
 #main :where([id]){scroll-margin-top:calc(var(--ts-chrome-height,104px) + 18px)}
+@media(max-width:600px){.reader-primary-nav{gap:2px}.reader-primary-nav>a{min-width:0;flex-basis:0;white-space:normal;word-break:keep-all;text-align:center;padding:6px 3px}}
