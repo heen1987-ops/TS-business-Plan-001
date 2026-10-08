@@ -22,6 +22,11 @@ check('기간·조직·분류 상충 보존',['DRT','EXAM','CONSULT'].every(id=>
 check('RFP 요구의 감사권한·성능실적 승격 방지',r.samples.find(s=>s.id==='DRT').boundary.includes('권한을 입증하지 않음')&&r.samples.find(s=>s.id==='EXAM').boundary.includes('실제 성과'));
 const drt=r.samples.find(s=>s.id==='DRT'),common=r.samples.find(s=>s.id==='COMMON'),exam=r.samples.find(s=>s.id==='EXAM');
 check('DRT 현행·규칙 자동화·AI 제외의 구분',drt.findings.some(([k,v,p])=>k==='현행 업무'&&v.includes('수동')&&p.includes('13쪽'))&&drt.scope.includes('AI 활용')&&drt.scope.includes('금회 제외')&&drt.findings.some(([k,v])=>k==='자동배차와 예외'&&v.includes('자동 재배차')));
+check('DRT 보충 원본 4개와 표본10개 집계 분리',r.scope.attachmentCount===10&&r.scope.supplementaryAttachmentCount===4&&drt.supplementaryFiles.length===4&&drt.supplementaryFiles.every(f=>/^[0-9a-f]{64}$/.test(f.sha256)&&f.url.startsWith('https://main.kotsa.or.kr/common/download.do?')&&f.originalName&&f.collectedAt));
+check('사전규격·본공고의 독립 출처 유지',drt.supplementarySources.length===2&&drt.supplementarySources.every(s=>s.published&&s.checkedAt&&s.url.startsWith('https://main.kotsa.or.kr/portal/bbs/')));
+check('작성조건 변경과 기존 분리제출 의무 구분',drt.findings.some(([k,v,p])=>k==='사전규격과 본공고의 작성조건 차이'&&v.includes('100쪽')&&v.includes('200쪽')&&v.includes('양쪽에 이미 존재')&&p.includes('P3394')));
+check('운영비의 무상·자동감액 오해 방지',drt.findings.some(([k,v,p])=>k==='운영비 부담과 조정 조건'&&v.includes('과업수행사 비용에 포함')&&v.includes('자동 감액의 확정 근거 아님')&&p.includes('P3453~3454')));
+check('기간충돌과 정정검색의 확인한계 보존',drt.conflicts.some(s=>s.includes('최종 적용기간 미확정'))&&drt.conflicts.some(s=>s.includes('403')&&s.includes('부재를 뜻하지')));
 check('공통플랫폼 기존 도구 변환·호출 요구 보존',common.findings.some(([k,v,p])=>v.includes('Tool')&&v.includes('API 호출')&&p.includes('P696~699'))&&common.boundary.includes('개별 API'));
 check('EXAM 총괄·상세 번호의 방향 정정',exam.findings.some(([k,v,p])=>k==='번호 불일치 정정'&&v.includes('총괄표')&&v.includes('상세 본문은 INR-001~004')&&p.includes('P639~700'))&&!JSON.stringify(exam).includes('상세 식별자 SIR-001~004'));
 check('EXAM 폐쇄망·금회 연계 제외·장래 확장의 구분',exam.findings.some(([k,v,p])=>v.includes('폐쇄망')&&v.includes('타 시스템 연계 제외')&&v.includes('장래')&&p.includes('P555~556'))&&exam.boundary.includes('영구적인 법적 금지'));
