@@ -26,6 +26,8 @@ import departmentDisplay from './department-reader.cjs';
 import workResearch from './department-work-research.cjs';
 import katriExpansion from './katri-solution-expansion.cjs';
 import {KatriSolutionPlan,KatriSolutionDownloads} from './KatriSolutionPlan.jsx';
+import officialDuties from './official-duty-research.cjs';
+import {OfficialDepartmentDuties,OfficialDutyCatalog} from './OfficialDuties.jsx';
 import './integrated-reading.css';
 import './department-reader.css';
 const l=reading.labels;
@@ -34,7 +36,7 @@ function Chapter({section,children,collapsed=false}){return <section className={
 export function IntegratedReader({route}){
  const current=reading.selection(new URL(route,'https://reader/').search),{department:r,project:p}=current,department=survey.departments.find(d=>d.id===r.surveyId),topic=department?.topics.find(t=>t.id===current.topicId)||department?.topics.find(t=>t.id===p?.id)||department?.topics[0],project=hub.projects.find(x=>x.id===p?.id),profile=p?supplement.profileById[new URL(p.to,'https://reader/').searchParams.get('unit')]:null;
  const[pendingProject,setPendingProject]=useState(p?.id||''),[pending,setPending]=useState(r.key),[q,setQ]=useState(''),[menu,setMenu]=useState(false),[active,setActive]=useState('integrated-department'),button=useRef(),root=useRef();
- const words=q.trim().toLowerCase().split(/\s+/).filter(Boolean),rows=reading.rows.filter(row=>words.every(w=>[row.key,row.name,row.parent,...row.projects.map(p=>p.title),...(workResearch.byKey[row.key]?.jobs.map(j=>j[0])||[])].join(' ').toLowerCase().includes(w))),parents=[...new Set(rows.map(row=>row.parent))],pendingRow=reading.rows.find(x=>x.key===pending),resolve=to=>reading.resolve(to,current);
+ const words=q.trim().toLowerCase().split(/\s+/).filter(Boolean),rows=reading.rows.filter(row=>words.every(w=>[row.key,row.name,row.parent,officialDuties.searchText(row.key),...row.projects.map(p=>p.title),...(workResearch.byKey[row.key]?.jobs.map(j=>j[0])||[])].join(' ').toLowerCase().includes(w))),parents=[...new Set(rows.map(row=>row.parent))],pendingRow=reading.rows.find(x=>x.key===pending),resolve=to=>reading.resolve(to,current);
  useEffect(()=>{setPending(r.key);setPendingProject(p?.id||'')},[r.key,p?.id]);
  useEffect(()=>{const frame=requestAnimationFrame(()=>{const link=root.current?.querySelector('[data-department-link="'+r.key+'"]'),tree=root.current?.querySelector('.department-tree');if(link&&tree){const box=tree.getBoundingClientRect(),target=link.getBoundingClientRect();if(target.top<box.top||target.bottom>box.bottom)tree.scrollTop+=target.top-box.top-44;}});return()=>cancelAnimationFrame(frame)},[r.key,q]);
  function choose(key,projectId){const next=reading.rows.find(row=>row.key===key);if(!next)return;const params=new URLSearchParams({dept:next.key});if(projectId)params.set('project',projectId);setMenu(false);navigate('index.html?'+params+'#integrated-work-context');}
@@ -55,7 +57,7 @@ export function IntegratedReader({route}){
     <div className="department-tree">{parents.map(parent=><details key={parent} open={!!q||parent===r.parent}><summary>{parent}</summary><ul>{rows.filter(row=>row.parent===parent).map(row=><li key={row.key}><a href={href('index.html?dept='+row.key+'#integrated-work-context')} data-department-link={row.key} aria-current={r.key===row.key?'page':undefined} onClick={e=>{if(e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;e.preventDefault();choose(row.key)}}><span>{row.name}</span><small>{row.projects.length?row.projects.length+'과제':(workResearch.byKey[row.key]?'업무·근거':'업무 확인')}</small></a></li>)}</ul></details>)}</div>
    </section>
    {r.projects.length>1&&<section className="department-current-projects"><h2>이 처의 검토 과제</h2>{r.projects.map(x=><a key={x.id} href={href('index.html?dept='+r.key+'&project='+x.id+'#integrated-work-context')} aria-current={p?.id===x.id?'page':undefined} onClick={e=>{if(e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;e.preventDefault();choose(r.key,x.id)}}>{department?.topics.find(t=>t.id===x.id)?.reading.title||x.title}</a>)}</section>}
-   <strong className="department-outline-label">선택 처의 상세 본문</strong>
+   <strong className="department-outline-label">선택 처의 상세 본문</strong><a href="#official-department-duties" onClick={e=>jump(e,'official-department-duties')}>공식 담당업무 · 세부 업무</a><a href="#official-duty-catalog" onClick={e=>jump(e,'official-duty-catalog')}>직속 실·센터·지역·TF 전체 업무</a>
    <div className="department-local-outline">{detailsId&&[['scope','업무 범위·대상'],['basis','현행·문제·근거'],['how','기술 HOW·단계별 처리'],['completion','완료·책임·개인정보'],['metrics','기대효과·측정방법'],['conditions','환경·추가 작업'],['questions','현업 확인 질문']].map(([key,title])=><a href={'#'+detailsId+'-'+key} key={key} onClick={e=>jump(e,detailsId+'-'+key)}>{title}</a>)}{p&&<a href={'#diagram-'+p.id+'-overall'} onClick={e=>jump(e,'diagram-'+p.id+'-overall')}>아키텍처·흐름도 4종</a>}{p&&<a href={'#engineering-'+p.id} onClick={e=>jump(e,'engineering-'+p.id)}>개발·검증·대가 설계</a>}<a href="#integrated-documents" onClick={e=>jump(e,'integrated-documents')}>관련 한글 문서</a></div>
    <strong className="department-outline-label">공통 설명·의견</strong><a href="#pms-ts-operating" onClick={e=>jump(e,'pms-ts-operating')}>TS AI PMS · 감리엔진 연구</a>{reading.sections.map(s=><a key={s.id} href={'#'+s.id} aria-current={active===s.id?'location':undefined} onClick={e=>jump(e,s.id)}>{s.title}</a>)}
    <a className="integrated-top" href="#integrated-start" onClick={e=>jump(e,'integrated-start')}><ArrowUp size={14}/>선택 처 처음으로</a>
@@ -68,6 +70,7 @@ export function IntegratedReader({route}){
   <Chapter section={reading.sections[2]}><header className="integrated-department-heading"><small>조직 계통: {r.parent} · 실제 분장·전결 확인 필요</small><h3 className="department-screen-only">{r.name}</h3></header>
    {r.projects.length>1&&<nav className="integrated-project-picker" aria-label="이 처의 검토 과제">{r.projects.map(x=><button key={x.id} aria-pressed={p?.id===x.id} onClick={()=>choose(r.key,x.id)}>{department?.topics.find(t=>t.id===x.id)?.reading.title||x.title}</button>)}</nav>}
    <div className="integrated-proposal" id="integrated-work-context" tabIndex={-1} key={p?.id||r.key} data-integrated-project={p?.id||r.key}>
+    <OfficialDepartmentDuties readerKey={r.key}/><div id="integrated-proposal-start" tabIndex={-1}/>
     {katriPlan?<KatriSolutionPlan plan={katriPlan} topicId={topic.id}/>:<>
      {p?<ProposalIntent projectId={p.id} diagrams={false} compact/>:<section className="department-discovery-purpose"><h3>{r.name} · {researched?'실제 업무와 추가 검증':'우선 확인할 사항'}</h3><ul><li>{researched?researched.mission:(department?.reading.goal||r.goal)}</li><li>{researched?'공식 업무·기존 기능 확인 → 내부 처리·문제 확인 → CCK 추가 기여·편성 검증':'업무 범위·현재 대응·남은 문제의 실제 근거 확보 후 적용방향 결정'}</li></ul><p className="integrated-warning">개별 사업계획 미작성 · 현재 병목·효과·구매수요 미확정</p></section>}
      <DepartmentBriefing department={r} topic={topic}/>
@@ -77,6 +80,7 @@ export function IntegratedReader({route}){
      {p&&<details className="department-reference-detail"><summary>이 과제의 상세 설계 · 요구사항 · 검증 · RFP</summary>{p.id==='MR-02'?<DrtAssurance route={p.to} embedded showIntent={false}/>:profile?<Profile p={profile} embedded showIntent={false}/>:<Proposal47 code={r.code} embedded showIntent={false}/>}</details>}
     </>}
    </div>
+   <OfficialDutyCatalog readerKey={r.key} route={route}/>
    {project&&<details className="department-reference-detail" id="integrated-feasibility" tabIndex={-1}><summary>착수·구현·편성 조건</summary><dl className="integrated-fields">{[['현재 상태',project.classificationLabel+' · '+project.classificationDate+' / '+project.status],['초기 범위',project.scope],['필요한 입력',project.inputs],['공식 판단 경계',project.decisionBoundary],['착수 조건',project.entry],['완료·인수 기준',project.acceptance],['제외·보류 조건',project.boundary],['산정 상태','기준선·수치 목표·최종 수행가격 미확정. 원기록·필드·연계·검증 범위 확보 후 산정']].map(([k,v])=><div key={k}><dt>{k}</dt><dd>{Array.isArray(v)?<ul>{v.map((x,i)=><li key={i}>{x}</li>)}</ul>:v}</dd></div>)}</dl></details>}
    <section id="integrated-documents" tabIndex={-1}><h3>{r.name} · {katriPlan?'신규 솔루션 명세 내려받기':'관련 한글 문서'}</h3>{r.code?<DepartmentDocuments code={r.code}/>:katriPlan?<KatriSolutionDownloads plan={katriPlan}/>:<p>현재 개별 한글 계획서 없음. 앞의 업무 확인계획·필요 증빙·현업 질문을 우선 활용</p>}</section>
   </Chapter>

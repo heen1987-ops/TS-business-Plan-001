@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-08",
+  "npmCi": {
+    "exitCode": 0,
+    "auditVulnerabilities": 0
+  },
+  "npmTest": {
+    "exitCode": 0,
+    "scripts": 49,
+    "officialDutyChecks": 18265
+  },
+  "browser": [
+    {
+      "name": "official-duties",
+      "base": "http://127.0.0.1:8793/TS-business-Plan-001/",
+      "checks": 218,
+      "failed": [],
+      "errors": []
+    },
+    {
+      "name": "department-reader",
+      "base": "http://127.0.0.1:8793/TS-business-Plan-001/",
+      "checks": 292,
+      "failed": [],
+      "errors": []
+    },
+    {
+      "name": "reader-ui",
+      "base": "http://127.0.0.1:8793/TS-business-Plan-001/",
+      "checks": 200,
+      "failed": [],
+      "errors": []
+    },
+    {
+      "name": "katri-solutions",
+      "base": "http://127.0.0.1:8793/TS-business-Plan-001/",
+      "checks": 173,
+      "failed": [],
+      "errors": []
+    }
+  ],
+  "integrity": {
+    "spans": 2057,
+    "mismatches": 0,
+    "sourceRows": 2169,
+    "missingOrDuplicateRows": 0,
+    "downloadFiles": 122,
+    "existingHwpFiles": 156,
+    "existingHwpBytes": 510623675
+  },
+  "review": "독립 조사·감사 내용·정본·내려받기 합격",
+  "limitations": [
+    "TS 현업·제품 구현·실운영 실행·법정 권한 검증 미수행",
+    "키보드·초점·레이아웃 확인을 WCAG 인증으로 확대하지 않는 기준"
+  ]
+}
