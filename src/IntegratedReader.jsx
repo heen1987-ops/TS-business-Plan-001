@@ -32,7 +32,7 @@ import {PlanningModeSwitch} from './ProblemPlanning.jsx';
 import './integrated-reading.css';
 import './department-reader.css';
 const l=reading.labels;
-export function IntegratedHeader({route,navigationEpoch}){return <SiteHeader compact route={route} navigationEpoch={navigationEpoch}/>;}
+export function IntegratedHeader({route,navigationEpoch}){const q=new URLSearchParams(location.search);const project=q.get('project');return <><SiteHeader compact route={route} navigationEpoch={navigationEpoch}/><div className="wb-entry"><a href={href('index.html?view=workbench'+(project?'&project='+encodeURIComponent(project):''))}>새 기본 탐색 화면 · 책무 → 업무 → 문제 → 개선 → 후속사업</a><span>기존 상세자료 유지</span></div></>;}
 function Chapter({section,children,collapsed=false}){return <section className={'integrated-chapter'+(collapsed?' integrated-chapter-secondary':'')} id={section.id} tabIndex={-1} data-integrated-section={section.id}>{collapsed?<details className="department-common-chapter"><summary>{section.title}</summary><div className="department-common-body">{children}</div></details>:<><header><div><h2>{section.title}</h2></div></header>{children}</>}</section>}
 export function IntegratedReader({route}){
  const current=reading.selection(new URL(route,'https://reader/').search),{department:r,project:p}=current,department=survey.departments.find(d=>d.id===r.surveyId),topic=department?.topics.find(t=>t.id===current.topicId)||department?.topics.find(t=>t.id===p?.id)||department?.topics[0],project=hub.projects.find(x=>x.id===p?.id),profile=p?supplement.profileById[new URL(p.to,'https://reader/').searchParams.get('unit')]:null;
