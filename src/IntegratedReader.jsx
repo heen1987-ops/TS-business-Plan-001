@@ -12,6 +12,7 @@ import {DrtAssurance} from './DrtAssurance.jsx';
 import {IspReview} from './IspReview.jsx';
 import {CostReview} from './CostReview.jsx';
 import {SkillPms} from './SkillPms.jsx';
+import {TsAiPmsPlan} from './TsAiPmsPlan.jsx';
 import {SurveyOpinion} from './SurveyDesign.jsx';
 import {DepartmentDocuments} from './DepartmentDocuments.jsx';
 import {IntentDefinitions,ProposalIntent} from './ProposalIntent.jsx';
@@ -54,7 +55,7 @@ export function IntegratedReader({route}){
    {r.projects.length>1&&<section className="department-current-projects"><h2>이 처의 검토 과제</h2>{r.projects.map(x=><a key={x.id} href={href('index.html?dept='+r.key+'&project='+x.id+'#integrated-work-context')} aria-current={p?.id===x.id?'page':undefined} onClick={e=>{if(e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;e.preventDefault();choose(r.key,x.id)}}>{department?.topics.find(t=>t.id===x.id)?.reading.title||x.title}</a>)}</section>}
    <strong className="department-outline-label">선택 처의 상세 본문</strong>
    <div className="department-local-outline">{detailsId&&[['scope','업무 범위·대상'],['basis','현행·문제·근거'],['how','기술 HOW·단계별 처리'],['completion','완료·책임·개인정보'],['metrics','기대효과·측정방법'],['conditions','환경·추가 작업'],['questions','현업 확인 질문']].map(([key,title])=><a href={'#'+detailsId+'-'+key} key={key} onClick={e=>jump(e,detailsId+'-'+key)}>{title}</a>)}{p&&<a href={'#diagram-'+p.id+'-overall'} onClick={e=>jump(e,'diagram-'+p.id+'-overall')}>아키텍처·흐름도 4종</a>}{p&&<a href={'#engineering-'+p.id} onClick={e=>jump(e,'engineering-'+p.id)}>개발·검증·대가 설계</a>}<a href="#integrated-documents" onClick={e=>jump(e,'integrated-documents')}>관련 한글 문서</a></div>
-   <strong className="department-outline-label">공통 설명·의견</strong>{reading.sections.map(s=><a key={s.id} href={'#'+s.id} aria-current={active===s.id?'location':undefined} onClick={e=>jump(e,s.id)}>{s.title}</a>)}
+   <strong className="department-outline-label">공통 설명·의견</strong><a href="#pms-ts-operating" onClick={e=>jump(e,'pms-ts-operating')}>TS AI PMS · 감리엔진 연구</a>{reading.sections.map(s=><a key={s.id} href={'#'+s.id} aria-current={active===s.id?'location':undefined} onClick={e=>jump(e,s.id)}>{s.title}</a>)}
    <a className="integrated-top" href="#integrated-start" onClick={e=>jump(e,'integrated-start')}><ArrowUp size={14}/>선택 처 처음으로</a>
   </nav>
  </aside>
@@ -76,7 +77,7 @@ export function IntegratedReader({route}){
    <section id="integrated-documents" tabIndex={-1}><h3>{r.name} · 관련 한글 문서</h3>{r.code?<DepartmentDocuments code={r.code}/>:<p>현재 개별 한글 계획서 없음. 앞의 업무 확인계획·필요 증빙·현업 질문을 우선 활용</p>}</section>
   </Chapter>
   <Chapter section={reading.sections[5]} collapsed><SurveyOpinion key={r.key+'-'+p?.id} departmentId={r.surveyId} projectId={current.topicId} onTopic={id=>{const params=new URLSearchParams({dept:r.key});if(p)params.set('project',p.id);params.set('topic',id);navigate('index.html?'+params+'#survey-topic-'+id+'-opinion')}}/></Chapter>
-  <Chapter section={reading.sections[3]} collapsed><SelectedPlatformBrief topic={topic}/><details className="department-reference-detail"><summary>전체 처의 공통플랫폼·스킬 적용안</summary><SkillPms embedded/></details></Chapter>
+  <Chapter section={reading.sections[3]} collapsed><SelectedPlatformBrief topic={topic}/><TsAiPmsPlan/><details className="department-reference-detail"><summary>전체 처의 공통플랫폼·스킬 적용안</summary><SkillPms embedded/></details></Chapter>
   <Chapter section={reading.sections[4]} collapsed><p>선택 처의 실제 업무·자료·필드·연계·인수조건 확인 → 현행·규칙/SI·AI 추가 기여 비교 → 처별 증분 WBS·FP/MM 산정 → 보안·윤리·운영 검토</p><details className="department-reference-detail"><summary>전체 ISP·편성 검토</summary><IspReview embedded/></details><details className="department-reference-detail"><summary>전체 대가산정·RFP 검토</summary><CostReview/></details></Chapter>
   <Chapter section={reading.sections[1]} collapsed><IntentDefinitions/><section className="integrated-project-intro"><h3>현재 적용과 추가 제안의 경계</h3>{survey.intro.map(b=><section key={b.id}><h4>{b.title}</h4><ul><li>{b.text}</li><li>{b.status} {b.note}</li></ul></section>)}</section></Chapter>
   <Chapter section={reading.sections[0]} collapsed><DocumentReader route="about.html" embedded/></Chapter>

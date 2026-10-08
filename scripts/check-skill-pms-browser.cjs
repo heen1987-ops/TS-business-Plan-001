@@ -14,7 +14,7 @@ const base=process.env.SITE_URL||'http://127.0.0.1:8770/TS-business-Plan-001/';
   check('미산정과 신규 인프라 조건 구분',(await page.locator('#pms-delivery').textContent()).includes('미산정')&&(await page.locator('#pms-delivery').textContent()).includes('인프라 투자 0원'));
   check('P01~P07 기준 대응',await page.locator('#pms-evidence tbody tr').filter({hasText:/^P0[1-7]/}).count()===7);
   await page.waitForFunction(()=>{const img=document.querySelector('.pms-architecture img');return img?.complete&&img.naturalWidth===1440});check('아키텍처 SVG 로딩',true);
-  check('기존 상위 AX 메뉴 소속',(await page.locator('.ts-location').textContent()).includes('공통 플랫폼'));
+  check('현재 상위 AX 메뉴 소속',(await page.locator('.doc-section-heading strong').textContent()).includes('공통 플랫폼'));
   for(const path of ['downloads/skill-pms-design.md','downloads/skill-pms-design.json','assets/skill-pms/architecture.svg']){const res=await page.request.get(base+path);check('다운로드 HTTP·본문 '+path,res.ok()&&(await res.body()).length>1000)}
   await page.goto(base+'skill-pms.html#pms-portfolio');await page.locator('#pms-project-search').fill('MR-02');check('사업 검색·한 항목 반환',await page.locator('[data-pms-project]').count()===1);
   await page.locator('[data-pms-project="MR-02"] a[href$="drt-assurance.html"]').click();await page.locator('.drt-proposal').waitFor();check('MR-02 DRT 목적별 상세제안',page.url().endsWith('drt-assurance.html'));
@@ -25,7 +25,7 @@ const base=process.env.SITE_URL||'http://127.0.0.1:8770/TS-business-Plan-001/';
   await page.getByRole('button',{name:'검색 초기화',exact:true}).click();check('검색 초기화',await page.locator('[data-pms-project]').count()===42);
   await page.goto(base+'skill-pms.html');await page.locator('.pms-toc a[href="#pms-skills"]').click();await page.waitForFunction(()=>document.activeElement?.id==='pms-skills');check('목차 앵커·초점',true);
   await page.locator('#pms-skills .pms-refs a[href$="#pms-source-G01"]').first().click();await page.waitForFunction(()=>document.activeElement?.id==='pms-source-G01');check('근거 ID의 원문정보로 이동·초점',true);
-  await page.goto(base+'skill-pms.html#pms-architecture');await page.waitForFunction(()=>document.activeElement?.id==='pms-architecture');check('직접 앵커와 고정헤더 회피',await page.locator('#pms-architecture').evaluate(el=>el.getBoundingClientRect().top>=document.querySelector('.ts-location').getBoundingClientRect().bottom-2&&el.getBoundingClientRect().top<innerHeight));
+  await page.goto(base+'skill-pms.html#pms-architecture');await page.waitForFunction(()=>document.activeElement?.id==='pms-architecture');check('직접 앵커와 고정헤더 회피',await page.locator('#pms-architecture').evaluate(el=>el.getBoundingClientRect().top>=document.querySelector('.ts-header').getBoundingClientRect().bottom-2&&el.getBoundingClientRect().top<innerHeight));
   await page.reload();await page.waitForFunction(()=>document.activeElement?.id==='pms-architecture');check('새로고침 앵커',true);
   fs.mkdirSync('qa-output',{recursive:true});await page.screenshot({path:'qa-output/skill-pms-desktop.png'});
   await page.goto(base+'skill-pms.html#pms-evaluation');await page.setViewportSize({width:390,height:844});await page.waitForFunction(()=>document.activeElement?.id==='pms-evaluation');

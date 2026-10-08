@@ -1,0 +1,15 @@
+const fs=require('node:fs'),path=require('node:path'),d=require('../src/ts-ai-pms.cjs');
+function block(b){const out=[];
+ if(b.type==='note')out.push('### '+b.title,'',...b.items.map(x=>'- '+x),'');
+ if(b.type==='table')out.push('### '+b.title,'','| '+b.headers.join(' | ')+' |','| '+b.headers.map(()=> '---').join(' | ')+' |',...b.rows.map(r=>'| '+r.map(x=>String(x).replace(/\|/g,'\\|')).join(' | ')+' |'),'');
+ if(b.type==='figure')out.push('!['+b.alt+'](https://heen1987-ops.github.io/TS-business-Plan-001/'+b.path+')','',b.title+' · 이미지 모델 생성 · 설계 제안','');
+ if(b.type==='requirements')for(const r of d.requirements)out.push('### '+r.id+' · '+r.name,'','- 구현: '+r.how,'- 인수: '+r.acceptance,'- 시험: '+r.test,'- 편성: '+r.wbs,'- 근거: '+r.refs.join(' · '),'');
+ if(b.type==='research')for(const r of d.research)out.push('### '+r.id+' · '+r.name,'',...Object.entries(r).filter(([k])=>!['id','name'].includes(k)).map(([k,v])=>'- '+({problem:'문제',method:'방법',output:'결과물',comparison:'비교·검증',boundary:'경계'}[k])+': '+v),'');
+ if(b.type==='metrics')for(const m of d.metrics)out.push('### '+m.id+' · '+m.name,'','- 적용범위: '+m.scope,'- 기대효과: '+m.effect,'- 산식·단위: '+m.formula+' / '+m.unit,'- 측정: '+m.method,'- 품질: '+m.quality,'- 기준선·목표: 미측정·미확정(null)','- 책임: '+m.owner,'');
+ if(b.type==='sources')for(const[id,s]of Object.entries(d.sources))out.push('### '+id+' · '+s.title,'','- 판본·조사: '+s.published+' / '+s.checkedAt,'- 위치: '+s.location,'- 확인: '+s.fact,'- 한계: '+s.limit,...(s.url?['- 출처: ['+s.title+']('+s.url+')']:[]),...(s.links||[]).map(([l,u])=>'- ['+l+']('+u+')'),...(s.sha256?['- SHA256: '+s.sha256]:[]),'');
+ if(b.refs?.length)out.push('근거: '+b.refs.join(' · '),'');return out;
+}
+function markdown(ids){const out=['# '+d.title,'',d.date+' · '+d.version+' · '+d.status,'','- 가정: '+d.assumption,'- 환경: '+d.constraints,''];for(const s of d.sections.filter(s=>!ids||ids.includes(s.id)))out.push('## '+s.title,'',s.intro,'',...s.blocks.flatMap(block));return out.join('\n')+'\n';}
+const csv=(headers,rows)=>'\ufeff'+[headers,...rows].map(r=>r.map(x=>'"'+String(x??'미산정').replace(/"/g,'""')+'"').join(',')).join('\r\n')+'\r\n';
+module.exports=function(out){fs.mkdirSync(out,{recursive:true});fs.writeFileSync(path.join(out,'ts-ai-pms-2027-plan.md'),markdown());fs.writeFileSync(path.join(out,'ts-ai-pms-audit-rnd.md'),markdown(['purpose','research','metrics','roadmap','cost','boundary','feedback','sources']));fs.writeFileSync(path.join(out,'ts-ai-pms-design.json'),JSON.stringify(d,null,2)+'\n');fs.writeFileSync(path.join(out,'ts-ai-pms-requirements.csv'),csv(['ID','요구','구현','인수조건','시험','편성','출처'],d.requirements.map(r=>[r.id,r.name,r.how,r.acceptance,r.test,r.wbs,r.refs.join(' ')])));fs.writeFileSync(path.join(out,'ts-ai-pms-cost-inputs.csv'),csv(['묶음','범위','산정방법·입력','포함범위 경계','별도 증분 범위','재사용 확인 증거','중복 확인 WBS','FP','인월','단가','금액','상태'],d.costInputs.map(r=>[r.bundle,r.scope,r.method,r.includedBoundary,r.incrementalBoundary,r.reuseEvidence,r.overlapWbs,r.fp,r.personMonths,r.unitCost,r.amount,r.status])));};
+module.exports.markdown=markdown;

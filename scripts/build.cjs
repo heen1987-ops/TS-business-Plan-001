@@ -15,6 +15,7 @@ require('./export-senior-assessment.cjs')(path.join(out,'downloads'));
 require('./export-interview-plan.cjs')(path.join(out,'downloads'));
 require('./export-survey-design.cjs')(path.join(out,'downloads'));
 require('./export-skill-pms.cjs')(path.join(out,'downloads'));
+require('./export-ts-ai-pms.cjs')(path.join(out,'downloads'));
 require('./export-proposal-links.cjs')(path.join(out,'downloads'));
 require('./export-association-research.cjs')(path.join(out,'downloads'));
 require('./export-measurement.cjs')(path.join(out,'downloads'));

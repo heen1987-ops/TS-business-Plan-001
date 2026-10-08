@@ -4,6 +4,7 @@ import design from'./skill-pms.cjs';
 import{DepartmentCoverage}from'./DepartmentCoverage.jsx';
 import ux from'./ux-content.cjs';
 import'./skill-pms.css';
+import {TsAiPmsPlan} from './TsAiPmsPlan.jsx';
 const l=design.labels;
 function Refs({ids}){return ids?.length?<p className="pms-refs">{l.references}: {ids.map(id=><Link key={id} to={'skill-pms.html#pms-source-'+id}>{id} · {design.sources[id].title}</Link>)}</p>:null}
 function Table({headers,rows,caption}){return <div className="pms-table" role="region" aria-label={caption} tabIndex={0}><table><caption>{caption}</caption><thead><tr>{headers.map(h=><th scope="col" key={h}>{h}</th>)}</tr></thead><tbody>{rows.map((r,i)=><tr key={i}>{r.map((v,j)=>j===0?<th scope="row" key={j}>{v}</th>:<td key={j}>{v}</td>)}</tr>)}</tbody></table></div>}
@@ -35,6 +36,7 @@ export function SkillPms({embedded=false}){let hash=location.hash;try{hash=decod
  const sections=view==='departments'?design.sections.filter(s=>s.id==='portfolio'):design.sections.filter(s=>s.id!=='portfolio');
  useEffect(()=>{let next;const first=requestAnimationFrame(()=>{next=requestAnimationFrame(()=>{if(!location.hash)return;let id=location.hash.slice(1);try{id=decodeURIComponent(id)}catch{}const target=document.getElementById(id);target?.focus({preventScroll:true});target?.scrollIntoView({block:'start'})})});return()=>{cancelAnimationFrame(first);if(next)cancelAnimationFrame(next)}},[]);
  return <div className="page skill-pms-page" data-pms-view={view}><Heading label={design.id+' · '+design.version+' · '+design.date} title={view==='common'?design.title:view==='departments'?u.portfolio:u.coverage} desc={view==='common'?u.commonGuide:view==='departments'?u.portfolioGuide:u.coverageGuide}/>
+ {!embedded&&view==='common'&&<TsAiPmsPlan/>}
  <nav className="ux-pms-views" aria-label="플랫폼 설계·처별 자료 보기">{u.nav.map(([key,title,to])=><Link key={key} to={to} aria-current={view===key?'page':undefined}>{title}</Link>)}</nav>
  <div className="pms-intro"><p><strong>{design.status}</strong></p><p>{design.constraints}</p><p>{design.counts.departments} {l.countDepartments} · {design.counts.projects} {l.countProjects} · {design.counts.files} {l.countFiles}</p><small>{l.countNote}</small><p className="pms-links"><Link to="solutions.html">처별 제안 찾기 ↗</Link><Link to="planning-documents.html">한글 자료실 ↗</Link>{design.downloads.map(d=><Link key={d.to} to={d.to} download>{d.title} ↓</Link>)}</p></div>
  {view==='coverage'?<DepartmentCoverage/>:<><nav className="pms-toc" aria-label={l.toc}>{sections.map(s=><a key={s.id} href={'#pms-'+s.id}>{s.title}</a>)}</nav>{sections.map(s=><section className="pms-section" id={'pms-'+s.id} tabIndex={-1} key={s.id}><header><h2>{s.title}</h2><p>{s.intro}</p></header>{s.blocks.filter(b=>b.type!=='coverage').map((b,i)=><Block key={i} b={b} section={s}/>)}</section>)}</>}
