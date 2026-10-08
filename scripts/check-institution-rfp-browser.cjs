@@ -60,6 +60,15 @@ try{
  await page.screenshot({path:`qa-output/institution-rfp/${sha?'public':'local'}-qe-workflow-review.png`,fullPage:true});
  check('QE 모바일 흐름 가로 넘침 없음',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
  await page.setViewportSize({width:1366,height:768});await go('&legalView=role');await page.evaluate(()=>document.documentElement.style.zoom='200%');check('200% 확대 책무 내용 가로 넘침 없음',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));await page.evaluate(()=>document.documentElement.style.zoom='');
+ for(const width of [1366,390]){
+  await page.setViewportSize({width,height:900});await page.goto(base+'index.html?view=workbench&screen=solutions&project=KT-DP-01');await page.locator('.wb-intent').waitFor();
+  check(width+' 리콜 기존 발주·추가 AI 구분',await page.locator('#wb-main').innerText().then(t=>t.includes('SFR-002')&&t.includes('SFR-003~005')&&t.includes('의미 차이')&&t.includes('인수 상태는 미확인')));
+  await page.goto(base+'index.html?view=workbench&screen=service&project=KT-DP-01');await page.locator('.wb-service-flow').waitFor();
+  check(width+' 리콜 보고조건·실제 정비 구분',await page.locator('#wb-main').innerText().then(t=>t.includes('90%')&&t.includes('제5항 통보')&&t.includes('실제 정비 완료')));
+  check(width+' 리콜 개인정보 입력 경계·가로 넘침',await page.locator('#wb-main').innerText().then(t=>t.includes('소유자 정보')&&t.includes('모델 입력'))&&await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
+  await page.screenshot({path:`qa-output/institution-rfp/${sha?'public':'local'}-recall-${width}.png`,fullPage:true});
+  await page.goto(base+'index.html?view=workbench&screen=institution&project=KT-DP-01');await page.locator('.wb-law-context').first().waitFor();check(width+' 리콜 기관 화면의 법정주체 구분',await page.locator('#wb-main').innerText().then(t=>t.includes('제작사 자체')&&t.includes('시정명령')&&t.includes('통지 대행')));
+ }
  check('브라우저 JS 오류 없음',errors.length===0);
 }finally{fs.writeFileSync(`qa-output/institution-rfp/${sha?'public':'local'}-browser.json`,JSON.stringify({base,sha,checks,errors},null,2));await browser.close()}
 console.log('기관 책무·RFP 브라우저 '+checks.length+'항목 통과');})().catch(e=>{console.error(e);process.exitCode=1});

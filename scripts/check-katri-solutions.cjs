@@ -11,3 +11,17 @@ check(d.byId['KT-VC-01'].stageScopes.slice(0,3).every(s=>s.includes('초기'))&&
 console.log('출처·분장·측정 보완을 포함한 '+n+'항목 통과');
 const navigation=require('../src/ux-navigation.cjs');for(const r of d.records){const entry=navigation.searchRecords.find(e=>e.id==='ux-'+r.key);check(entry?.route===r.to&&entry.keywords.includes(r.id)&&entry.keywords.includes(r.title),'통합 검색에서 추가 후보 정본으로 연결 '+r.id);}console.log('통합 검색을 포함한 '+n+'항목 통과');
 for(const type of ['md','json']){const file='dist/downloads/katri-solutions/katri-solutions-20261008.'+type;check(fs.existsSync(file)&&d.records.every(r=>fs.readFileSync(file,'utf8').includes(r.title)),'12처 전체본 실제 파일·내용 '+type);}assert.deepEqual(JSON.parse(fs.readFileSync('dist/downloads/katri-solutions/katri-solutions-20261008.json','utf8')).records,d.records);console.log('전체본을 포함한 '+n+'항목 통과');
+
+// 2026-10-09 리콜 원문 재검증: 기존 발주·법정 보고조건·추가 AI의 경계.
+const policy=d.byId['KT-DP-01'],rfp=d.sources.find(s=>s.id==='N-RECALL-RFP'),rule=d.sources.find(s=>s.id==='N-RECALL42');
+check(policy.existing.includes('SFR-002')&&policy.existing.includes('SFR-003~005')&&policy.existing.includes('인수'), '기존 수정요청·연계 발주와 실제 인수 구분');
+check(policy.extension.includes('의미 차이')&&policy.extension.includes('재사용')&&policy.interface.includes('승인된 내보내기'), '후속 AI 추가개발·허용 연계 명세');
+check(policy.stages.some(s=>s.join(' ').includes('90%'))&&policy.stages.some(s=>s.join(' ').includes('제5항 통보'))&&policy.tests.some(s=>s.includes('실제 정비')), '90%·대상 통보·산정 간주와 정비 완료 구분');
+check(policy.boundary.includes('제작사 자체')&&policy.boundary.includes('통지 대행')&&policy.boundary.includes('조사 착수'), '자체 리콜·시정명령·통지대행·접수의 권한 경계');
+check(policy.privacy.some(s=>s.includes('소유자 정보')&&s.includes('모델 입력'))&&policy.tests.some(s=>s.includes('희귀')), '소유자 입력 제한과 희귀 중대위험 보존');
+check(rfp?.locator.includes('P1534~1561')&&rfp.claim.includes('2027')&&rfp.limit.includes('차수')&&rfp.sha256==='4b8d305dfe56810e2f84487ec7adc955f65bdd8a5f27095b817b1bd0c133b82d', '원본 RFP 요구위치·해시·차수 조건');
+check(rule.effective==='2026-10-02'&&rule.url.includes('lsiSeq=290943')&&rule.claim.includes('제6항')&&rule.limit.includes('제5항'), '현행 법령 판본·간주규정·공지 경계');
+const wb=require('../src/planning-workbench.cjs'),wp=wb.byId['PROJECT-KT-DP-01'];
+check(wp.means===policy.extension&&wb.byId[wp.solutionId].existing===policy.existing&&wp.sourceIds.some(id=>wb.sourceById[id].url===rfp.url),'원장·본문·출처패널 동기화');
+check(policy.metrics.every(m=>m.baseline===null&&m.target===null)&&policy.cost===null,'효과·비용 미산정 보존');
+console.log('리콜 원문 재검증을 포함한 '+n+'항목 통과');
