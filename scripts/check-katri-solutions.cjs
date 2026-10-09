@@ -95,3 +95,13 @@ check(policy.tests.some(s=>s.includes('다중 행')&&s.includes('문서ID'))&&po
 check(policy.boundary.includes('보고 반영 전')&&policy.boundary.includes('국내 사양')&&policy.privacy.some(s=>s.includes('대량 VIN')),'시점·국내 적용·식별정보 전송 경계');
 check(policy.metrics.every(m=>m.baseline===null&&m.target===null)&&policy.cost===null,'실측·예산 미확정 유지');
 console.log('원천자료 의미·판본 검증 포함 '+n+'항목 통과');
+
+// 국내 원천의 파일/API 구분과 실제 CSV 형식·권한 경계 회귀 확인.
+const domesticIds=['N-KR-RECALL-DATA26','N-KR-RECALL-CSV25','N-KR-RECALL-SCHEMA26','N-KR-RECALL-API21','N-KR-RECALL-API-GUIDE'];
+check(domesticIds.every(id=>{const s=d.sources.find(x=>x.id===id);return s&&policy.sourceIds.includes(id)&&wp.sourceIds.some(k=>wb.sourceById[k].url===s.url)}),'국내 공개근거5건 화면·후보 연결');
+check(d.sources.find(s=>s.id==='N-KR-RECALL-CSV25').sha256==='f8ec0a20cbef74cc583e303bf233ab4b209c6c608731dfef29680a433aebabdf','실제 확인 CSV판본 고정');
+check(policy.interface.includes('연간 CSV')&&policy.interface.includes('파일자동변환 API')&&policy.interface.includes('사전협의·운영승인')&&policy.interface.includes('이전 기준일'),'연간 파일·기관 API·조회실패 구분');
+check(policy.tests.some(t=>t.includes('CP949')&&t.includes('길이8'))&&policy.tests.some(t=>t.includes('2015')&&t.includes('최신6열')),'인코딩·날짜길이·판본차이 검수');
+check(policy.boundary.includes('1045행')&&policy.boundary.includes('비리콜 무상수리')&&policy.privacy.some(t=>t.includes('법적 처리근거')),'집계단위·무상수리 범위·차대번호 이용조건 구분');
+check(policy.requirements[0].output===policy.fields.join(' / ')&&policy.requirements[3].output===policy.tests.join(' / ')&&policy.cost===null&&policy.metrics.every(m=>m.baseline===null&&m.target===null),'요구사항 연결 및 비용·효과 미확정 보존');
+console.log('국내 공개자료 적용 검증 포함 '+n+'항목 통과');
