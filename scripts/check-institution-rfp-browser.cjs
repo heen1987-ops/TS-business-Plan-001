@@ -79,6 +79,9 @@ try{
   await page.goto(base+'index.html?view=workbench&screen=institution&project=KT-DP-01');await page.locator('.wb-law-context').first().waitFor();check(width+' 리콜 기관 화면의 법정주체 구분',await page.locator('#wb-main').innerText().then(t=>t.includes('제작사 자체')&&t.includes('시정명령')&&t.includes('통지 대행')));
  }
  await page.goto(base+'index.html?view=workbench&screen=solutions&project=QE-01');await page.locator('#wb-main').waitFor();check('QE 대회 성과·권리·실제 운영 구분',await page.locator('#wb-main').innerText().then(t=>t.includes('정부의 2025-12')&&t.includes('동일 계약인지는 미확인')&&t.includes('코드·가중치·분석보고서·사용권')));
+ check('QE 라벨·통합채점·더미·명세충돌의 제안 표시',await page.locator('#wb-main').innerText().then(t=>t.includes('검사 이후 일정 기간 실제 사고이력')&&t.includes('A/B 통합 채점')&&t.includes('더미 시험자료')&&t.includes('A3 조건별 분모 충돌')));
+ await page.goto(base+'index.html?view=workbench&screen=service&project=QE-01');await page.locator('.wb-service-flow').waitFor();
+ check('QE 식별키의 예측·LLM 입력 제외 서비스 표시',await page.locator('#wb-main').innerText().then(t=>t.includes('예측 특성·LLM 입력에서 제외')));
  check('브라우저 JS 오류 없음',errors.length===0);
 }finally{fs.writeFileSync(`qa-output/institution-rfp/${sha?'public':'local'}-browser.json`,JSON.stringify({base,sha,checks,errors},null,2));await browser.close()}
 console.log('기관 책무·RFP 브라우저 '+checks.length+'항목 통과');})().catch(e=>{console.error(e);process.exitCode=1});

@@ -85,3 +85,10 @@ check('QE 모델 성과·권리와 기존 대표안 동기화',qe.boundary.inclu
 for(const key of ['qe-model-result','qe-model-label','qe-model-eval','qe-model-rights']){const source=r.workflowSources.find(s=>s.key===key);assert(source&&qe.sourceIds.some(id=>model.sourceById[id].url===source.url),key);}
 check('새 대회·정부 근거4개 실제 사업 출처 연결',true);
 console.log('모델 성과·평가·권리 포함 '+checks.length+'개 검증군 통과');
+
+const qe1402=r.projectReviews.find(r=>r.projectId==='PROJECT-QE-01');
+check('사고이력 라벨·A/B통합·자료판본·식별키 분리 연결',qe1402.existing.includes('검사 이후')&&qe1402.existing.includes('A/B 통합')&&qe1402.extra.includes('더미 시험자료')&&qe1402.privacy.includes('예측 특성·LLM 입력에서 제외'));
+console.log('데이터계약 추적 포함 '+checks.length+'개 검증군 통과');
+
+check('A3 분모 충돌 주장의 직접 PDF 근거 연결',qe1402.sourceKeys.includes('qe-model-a-spec')&&r.workflowSources.some(s=>s.key==='qe-model-a-spec'&&s.locator.includes('5쪽')&&s.url.includes('.pdf')));
+console.log('직접 명세 출처 포함 '+checks.length+'개 검증군 통과');
