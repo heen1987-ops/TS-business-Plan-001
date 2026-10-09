@@ -62,4 +62,13 @@ check(sectionText('cost').includes('2027년')&&d.sources.P26.limit.includes('수
 check(d.costInputs[2].method.includes('P25')&&d.costInputs[2].reuseEvidence.includes('P23')&&d.costInputs[3].reuseEvidence.includes('빈 표준서식'),'비용 다운로드의 신규 근거·실행 증거 확인 연결');
 for(const id of ['P23','P24','P25','P26'])check(/^[a-f0-9]{64}$/.test(d.sources[id].sha256),'공식 원본 해시 '+id);
 
+
+check(sectionText('cost').includes('양쪽에 포함되지 않은')&&sectionText('cost').includes('직접경비 재가산 금지')&&sectionText('cost').includes('부가세'),'AI 소계와 별도 개발비의 총액 경계');
+check(sectionText('cost').includes('필수 입력이 빠지면 계산값이 있어도 미산정')&&sectionText('cost').includes('시간 단위'),'공수 입력 누락과 단위 검토');
+check(sectionText('cost').includes('수정 없는 대상 기능')&&sectionText('cost').includes('플랫폼 전체 할인율 적용 금지')&&sectionText('cost').includes('통합·시험이 모두 불필요')&&sectionText('cost').includes('데이터 기능'),'재사용 시험비율 적용 대상 제한');
+check(sectionText('cost').includes('FP 또는 공수')&&sectionText('cost').includes('선택·승인 근거'),'가이드와 양식의 산정 방식 구분');
+check(sectionText('cost').includes('250122')&&sectionText('cost').includes('2024 가이드'),'배포 ZIP 연도와 내부 양식 판본 구분');
+check(d.costInputs[1].method.includes('수정 없는 재사용')&&d.costInputs[2].method.includes('별도 구축개발비')&&d.costInputs[3].overlapWbs.includes('시험비율'),'비용표의 재사용·총액·시험 중복 검토 연결');
+check(d.sources.P26.location.includes('I36')&&d.sources.P26.limit.includes('XLSM 3종'),'선택 수식 검토와 미검토 범위 명시');
+
 console.log('TS 자체 AI PMS 설계 '+count+'항목 통과');
