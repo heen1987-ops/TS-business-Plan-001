@@ -92,3 +92,8 @@ console.log('데이터계약 추적 포함 '+checks.length+'개 검증군 통과
 
 check('A3 분모 충돌 주장의 직접 PDF 근거 연결',qe1402.sourceKeys.includes('qe-model-a-spec')&&r.workflowSources.some(s=>s.key==='qe-model-a-spec'&&s.locator.includes('5쪽')&&s.url.includes('.pdf')));
 console.log('직접 명세 출처 포함 '+checks.length+'개 검증군 통과');
+
+const qe1459=r.projectReviews.find(x=>x.projectId==='PROJECT-QE-01');
+check('QE 사전규격의 기존 요구와 실제 인수 경계',qe1459.existing.includes('PMR-007')&&qe1459.boundary.includes('실제 납품 완료로 간주하지 않으며'));
+check('QE 물리량·판본 변환과 모델 재현 설계',qe1459.extra.includes('이격거리')&&qe1459.extra.includes('수정된32회에 재적용하지 않음')&&qe1459.extra.includes('학습 재현기록'));
+console.log('사전규격·모델 인수 추적 포함 '+checks.length+'개 검증군 통과');

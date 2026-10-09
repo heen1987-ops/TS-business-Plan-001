@@ -4,7 +4,7 @@ check(d.id==='QE-H01'&&d.year===2027&&d.status.includes('후보'),'2027 추가 �
 check(d.metrics.length===5&&d.metrics.every(m=>m.baseline===null&&m.target===null),'임의 정확도·효과 목표 금지');
 check(d.metrics[0].name==='추가 기능 확인 필요 대상의 누락률'&&d.evaluation.includes('기능 저하 확정, 법정 적부 또는 사고위험 판정 정확도와 구분'),'M01 참조라벨을 확정 진단·자격 판단으로 승격하지 않음');
 check(d.cost.amount===null&&d.cost.people===null&&d.cost.period===null,'자료·범위 확인 전 가격·인원 미확정');
-const ids=new Set(d.sources.map(s=>s.id));check(ids.size===21,'기존14개와 데이터명세·운영답변7개 근거');
+const ids=new Set(d.sources.map(s=>s.id));check(ids.size===27,'기존21개와 사전규격·컬럼답변·제출양식6개 근거');
 for(const s of d.sources){check(/^https:\/\//.test(s.url)&&/^2026-10-(06|09)$/.test(s.checkedAt),'근거 URL·확인일 '+s.id);check(s.locator&&s.fact&&s.limit,'근거 위치·사실·한계 '+s.id);}
 for(const s of d.sections){for(const id of s.refs)check(ids.has(id),'근거 추적 '+id);for(const r of s.rows)check(r.length===s.headers.length,'표 필드 계약 '+s.id);}
 const text=JSON.stringify(d);for(const t of ['NHIS 직접 연계는 필수 착수조건으로 두지 않음','병력 자체는 적부판정 대상이 아님','연구 데이터와 개인 업무기록 분리','독립 전문 기능평가','새로운 의무교육','공통 근거관리·권한·로그 코어는 재사용'])check(text.includes(t),'중복·권리·평가 경계 '+t);
@@ -44,3 +44,11 @@ check(how.rows[3][2].includes('A3 총32와16/8')&&how.rows[3][2].includes('임�
 check(splitFaq.limit.includes('동일인 학습/평가 분리')&&combined.limit.includes('B·고령층')&&d.evaluation.includes('A/B·연령·검사시점별'),'배치분할·독립검증·집단성능의 구분');
 check(d.cost.amount===null&&d.cost.scope.includes('집단별 평가 공수 분리'),'조건부 검증비용 미산정 유지');
 console.log('라벨·데이터계약·집단평가 포함 '+checks+'개 검증 통과');
+
+const preRfp=d.sources.find(s=>s.id==='H25'),distance=d.sources.find(s=>s.id==='H24'),templates=d.sources.find(s=>s.id==='H26');
+check(preRfp.fact.includes('인터페이스')&&preRfp.limit.includes('사전규격')&&preRfp.limit.includes('CCK 재사용권 미확정'),'기존 현업 요구·사전규격·권리 경계');
+check(distance.fact.includes('이격거리')&&distance.limit.includes('정확한 거리 단위')&&how.rows[3][2].includes('음수를 오류로 제거하지 않음'),'물리량·음수 의미 보존과 단위 미확인');
+check(how.rows[3][2].includes('수정된32회에는 재적용 금지')&&d.sources.find(s=>s.id==='H22').limit.includes('분모 불일치'),'구판 더미 삭제의 이중 적용 금지와 미해소 분모');
+check(templates.limit.includes('빈 제출양식')&&d.evaluation.includes('실제 모델 실행·수검자 데이터 시험은 이번 조사에서 수행하지 않음'),'양식·실제 보고서·재현 시험의 구분');
+check(d.cost.amount===null&&d.cost.scope.includes('중복 공수 제외')&&d.cost.scope.includes('무료 재사용을 가정하지 않음'),'추가 작업·모델 권리 비용 미확정 유지');
+console.log('사전규격·물리량·모델인수 포함 '+checks+'개 검증 통과');
