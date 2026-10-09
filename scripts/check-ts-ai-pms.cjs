@@ -9,7 +9,7 @@ check(d.requirements.find(r=>r.id==='PMS-F05').test.includes('혼합 사업')&&d
 check(d.metrics.find(m=>m.id==='K1').quality.includes('0분')&&d.metrics.find(m=>m.id==='K1').method.includes('대상 과업만'),'보고 비대상 0분 평균 혼입 방지');
 check(d.constraints.includes('국토부 확대는 별도 사업·권한·비용 검토'),'향후 기관 확대와 현재 사업 경계');
 check(d.sections.length===16,'목적부터 근거까지 16개 연속 절');check(d.requirements.length===12&&d.research.length===4&&d.metrics.length===5,'12개 요구·4개 연구·5개 지표');
-check(Object.keys(d.sources).length===20&&d.downloads.length===8,'기존17개+신규3개 근거·8개 배포 자료');
+check(Object.keys(d.sources).length===22&&d.downloads.length===8,'기존20개+기록물/공통플랫폼 RFP2개 근거·8개 배포 자료');
 const sectionText=id=>JSON.stringify(d.sections.find(s=>s.id===id));
 check(sectionText('procurement').includes('협상에 의한 계약의 예시')&&sectionText('procurement').includes('가상 업체')&&sectionText('procurement').includes('공동수급'),'절차 조건부 적용·가상 업체 배제·참가단위');
 check(sectionText('procurement').includes('실제 부여한 0점')&&sectionText('procurement').includes('임의 가감점')&&sectionText('procurement').includes('채택 제안'),'점수 미입력/0 분리·자동 평가 배제·채택 조건');
@@ -43,4 +43,15 @@ const renderedTests=d.sections.find(s=>s.id==='requirements').blocks.find(b=>b.t
 check(renderedTests.rows.every((r,i)=>r[1]===d.acceptanceTests[i].scenario&&r[2]===d.acceptanceTests[i].expected),'화면·원장 시험명세 동기화');
 for(const id of ['P18','P19','P20'])check(/^[a-f0-9]{64}$/.test(d.sources[id].sha256),'새 원문 해시 '+id);
 check(d.templates.find(t=>t.id==='bidder-evaluation').headers.includes('기술적격조건·결과참조')&&d.templates.find(t=>t.id==='payment-ledger').headers.includes('계약종류·적용조건참조'),'빈 양식에 적용조건·적격결과 연결');
+
+check(sectionText('vendor-archive').includes('ECR-001')&&sectionText('vendor-archive').includes('공식 이관 완료 판정 금지'),'기존 기록관리 기반과 공식 이관 경계');
+check(sectionText('vendor-archive').includes('원격 회수는 보장하지')&&sectionText('vendor-archive').includes('권한을 재확인할 수 없는'),'파생자료 권한 회수 한계·실패 시 제공 보류');
+check(sectionText('architecture').includes('원본ID')&&sectionText('architecture').includes('수신 실패'),'원본 참조·부분 이관 실패의 실행 설계');
+check(d.requirements.find(r=>r.id==='PMS-F10').refs.includes('P21')&&d.acceptanceTests.find(t=>t.id==='T20').scenario.includes('색인 갱신 실패'),'기록물 근거의 요구·인수시험 연결');
+check(d.costInputs[2].method.includes('중복 제외')&&d.costInputs[2].reuseEvidence.includes('P21'),'기존 기록관리와 증분 공수 산정 경계');
+check(d.templates.find(t=>t.id==='vendor-archive').headers.includes('공식이관접수·검증결과참조'),'아카이브 입력양식에 공식 수신 근거 연결');
+check(d.sources.P21.sha256==='6c734ed7b67408dd8c5af2576aefbe653baba104efaab5f10371626cd6987658','기록물 RFP 원본 해시');
+
+check(sectionText('architecture').includes('SFR-004')&&sectionText('architecture').includes('명세 등록만으로')&&d.costInputs[2].method.includes('SIR-002'),'공통 AI 기반과 PMS 어댑터의 증분 경계');
+check(d.sources.P22.sha256==='fedda42b47b47bfb94a1d1e8a8f738acc400c1ca94349d822947658b94615280','공식 공통플랫폼 RFP 해시');
 console.log('TS 자체 AI PMS 설계 '+count+'항목 통과');

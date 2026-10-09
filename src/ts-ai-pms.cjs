@@ -338,6 +338,47 @@ sections.find(s=>s.id==='payments').blocks.push(
  ],['P20'])
 );
 
+
+// 2026-10-10 기록물 이관 RFP 대조: 기존 기반과 PMS 증분 범위 연결.
+sections.find(s=>s.id==='vendor-archive').blocks.push(
+ table('기존 기록관리 기반과 업체별 업무 연결',['구분','공식 자료에서 확인한 범위','2027 AI PMS 추가 설계'],[
+ ['기존 기반','2026-05-27 온-나라 기록물 이관 RFP: 온-나라·클라우드 기록관리시스템의 구축·운영 기재, 기존 기능 활용 요구(ECR-001·INR-001)','기록 원본의 보존 위치·식별자·판본·담당체계 유지. 업체별 보기는 원본을 복제한 별도 보관소가 아닌 허용 자료의 업무 관계 조회'],
+ ['이미 발주된 기능','조직·사용자·부서·단위과제 매핑(DAR-002), 건수·용량·첨부 무결성 검증(DAR-006), 검색·열람 품질(QUR-002)','일반 검색·보관·이관 기능의 부재를 사업 필요성으로 사용하지 않음. 제안 조건→채택된 계약 의무→검사 항목→청구 증빙→잔여조치의 연결을 추가 범위로 검토'],
+ ['확인 수준','RFP에 기재된 운영 현황과 발주 요구 직접 확인. 실제 계약·검수·현행 API·입찰자료 수록 범위는 별도 확인','원문 목록·허용 조회·표본 자료부터 대조. 이관 완료 상태를 계약 이행·검사 합격·대금 지급 완료로 자동 전환하지 않음'],
+ ['역할과 권한','해당 RFP SER-004의 비공개 자료·복사·반출·저장 위치 통제','기록관리 담당자는 보존·이관 기준 확인, 사업 담당자는 업무 관계 검토, 정보보호 담당자는 처리 범위 확인. NOA·aRDa에 법정 보존·공개·폐기 결정권 부여 제외']
+ ],['P21']),
+ note('원본·업무 연결정보·AI 파생자료의 처리 순서',[
+ '① 담당자가 허용 자료·처리 목적·보존 기준 확인 → ② 원본 시스템·자료ID·판본·해시·권한 기준 연결 → ③ 허용 범위의 추출·검색 → ④ NOA의 조건별 근거 제시 → ⑤ 담당자의 연결·판단 확인 → ⑥ 변경·권한 회수 시 재검토',
+ '원본: 해당 공식 시스템에서 보존·정정·이관·폐기 절차 수행. PMS의 참조 연결과 AI 색인 제거만으로 공식 기록 폐기 완료 처리 금지',
+ '파생자료: 원본 판본별 추출값·청크·임베딩·요약·답변 캐시·관리 가능한 내보내기 목록 연결. 권한 회수·처리 목적 종료 시 조회 차단 후 기관 정책에 따른 정정·사용중지·삭제 전파와 결과 기록',
+ '변경 알림이 없는 경우: 기관이 허용한 주기별 대사·재승인 적용. 권한을 재확인할 수 없는 자료는 검색과 답변 제공 보류. 내려받은 외부 사본의 원격 회수는 보장하지 않으며 보유자·반납/파기 확인 절차 별도 관리',
+ '공식 이관: 담당자 준비·제출과 수신 시스템 접수·검증 결과를 각각 연결. 임베딩 생성·파일 복사·PMS 화면 표시만으로 공식 이관 완료 판정 금지'
+ ],['P21'])
+);
+sections.find(s=>s.id==='architecture').blocks.push(
+ table('원본에서 AI 검토까지의 연계 계약안',['단계·구성','입력·출력','추가 개발·예외 처리'],[
+ ['온-나라·기록관리·조달·ERP','승인된 조회/내보내기 → 원본ID·판본·권한·업무 상태','현재 API·서비스계정·필드 확인 선행. 파일 연계 시 추출일·범위·승인자를 함께 수록, 원장 쓰기 기본 제외'],
+ ['기존 AI 플랫폼·aRDa 역할안','허용 원문 → 위치가 연결된 추출값·검색 근거','공통 검색·권한 기반 재사용 우선. TS 설치본·사용권 확인 후 자료ID–판본–파생물 대응과 권한 회수 전파의 부족분 구현'],
+ ['NOA·TS PMS 추가 업무모형','제안·계약·변경·검사·청구 근거 → 조항별 관계 후보·차이·후속조치','사업ID·참가단위·계약ID·지급 회차별 연결. 점수·지급 확정은 규칙과 권한자의 공식 처리로 확인. 자료 불일치 시 원문 위치와 확인 담당 제시'],
+ ['검토 결과·기록 인계','담당자 확정 결과 → 기록화 대상·원문 참조·제출본·접수 결과','기관 기록화 기준·서식·수신 조건 확인 후 제출 준비 지원. 수신 실패·부분 반영은 미완료 항목별 재처리, 중복 등록 방지']
+ ],['P21','P08'])
+);
+
+
+sections.find(s=>s.id==='architecture').blocks.push(
+ table('2026년 공통플랫폼 요구와 2027년 PMS 추가 작업',['2026년 공식 RFP 요구','재사용 판단','PMS 업무별 증분 후보'],[
+ ['SFR-004 · 데이터→데이터셋→컬렉션→AI서비스 통합권한','공통 지식·권한 기반의 실제 계약·설치·검수·사용권 확인 후 재사용','사업·입찰참가단위·위원 배정·제출 마감·권한 기간의 업무 규칙, 원본과 파생자료의 접근 대조'],
+ ['SIR-001 · 기존 API Gateway·MCP 확장과 표준 플러그인 허브','공통 연계 허브 전체를 신규 구축분으로 일괄 산정하지 않음','허용된 계약·검사·지급 조회 필드와 식별자 매핑, 타임아웃·부분 응답·정정·중복 처리'],
+ ['SIR-002 · OpenAPI 명세의 AI Tool 변환·파라미터/반환값 메타데이터','공통 도구 변환 요구와 NOA의 조직 공동업무 확장을 구분','사업·역할별 도구 허용목록, 실행 전 승인 조건, 읽기/쓰기 구분, 실행 결과와 공식 원장 대조'],
+ ['INR-003 · 연계 표준·정합성·호환성 시험','기존 검수 결과를 재사용할 수 있는 범위 확인','사업ID·계약ID·지급 회차·판본·권한별 정상/예외 사례 추가. 명세 등록만으로 업무 정확성이나 실행 권한 확보를 보장하지 않음']
+ ],['P22']),
+ note('제품 기능과 기관 공동업무의 구분',[
+ 'NOA 개인 작업공간·파일·스킬 기능은 업무 진입 기반. 개인 공간을 기관 공동 PMS로 바로 간주하지 않고 담당자·검토자·승인자·참가업체의 공유 범위와 종료 후 접근을 별도 설계',
+ '공식 RFP의 공통권한·MCP 요구 확인과 실제 TS 설치·인수 확인은 구분. aRDa의 현재 API·권한 전파·판본 기능은 제품 증빙 확인 후 채택',
+ '추가 사업비 편성 순서: RFP 조항→최종 계약 범위→설치 버전·검수 결과→재사용권→PMS 추가 설정·개발·검증 공수. 공통 기능과 개별 업무 어댑터의 이중 산정 제외'
+ ],['P08','P22'])
+);
+
 const requirements=[
  {id:'PMS-F01',name:'업무유형·과업·적용 기준',how:'TS 목적·기준·할 일·완료조건을 공통 구성하고 프로젝트 유형에 WBS·계약·인수 조건 추가',acceptance:'과업/보고 단위의 필요·불필요·확인 중 상태와 근거·주기·제출자·효력시점 기록. 권한자 변경 확정 후 이전 기준·이력 보존',test:'T01 · 혼합 사업·일상업무·보고 적용 변경·승인 전/후 기준·기한 종류',wbs:'SI-01 / SI-02',refs:['P02','P03','P05','P07']},
  {id:'PMS-F02',name:'산출물 접수·검토·보완',how:'저장·접수·분석·검토 상태와 원본 판본의 분리',acceptance:'분석 장애에도 접수 보존, 재시도 중복 없음, 보완본 검토 이력 추적',test:'T02 · 저장 실패·분석 지연·중복 제출·보완',wbs:'SI-02 / SI-04',refs:['P05']},
@@ -454,6 +495,8 @@ Object.assign(sources,{
     ]
   }
 });
+sources.P21={"title": "TS 온-나라 기록물 이관 용역 공고·과업 및 제안요청서", "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?menuCode=05020100&bbscCode=tendnoti&bbscSeqn=19105", "published": "게시 2026-05-27 · 공고 2026-089호", "location": "HWP BodyText/Section0 ECR-001 record@76909, DAR-002 @96881, DAR-006 @112675, INR-001 @116596, QUR-002 @159067, SER-004 @205903 (레코드 위치, 쪽 아님)", "fact": "온-나라·클라우드 기록관리 구축·운영 기재와 기존 기능 활용, 조직·사용자 매핑·무결성·검색열람·보안의 발주 요구 확인", "limit": "RFP 기재 현황·요구 확인. 실제 계약·검수·현행 API·제안/평가 자료 수록·보존기간표 미확인. HWP 텍스트 대조이며 조판 전체 시각 검증 아님. 이관 완료와 업무 이행·지급 완료 구분", "checkedAt": "2026-10-10", "sha256": "6c734ed7b67408dd8c5af2576aefbe653baba104efaab5f10371626cd6987658", "links": [["과업 및 제안요청서 원본 HWP", "https://main.kotsa.or.kr/common/download.do?atflIdxx=F_tendnoti1910564542&atflSeqn=1"]]};
+sources.P22={"title": "TS AI 공통플랫폼 고도화 및 민원·전세버스 공시 AI 구축 용역 RFP", "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01565398&bidPbancOrd=000", "published": "2026.6 RFP · ALIO 보관 공고 게시 2026-06-08", "location": "공식 HWP BodyText/Section0 SFR-004 record@121425, SIR-001 @150347, SIR-002 @153798, INR-003 @164737 (레코드 위치, 쪽 아님)", "fact": "통합권한·기존 API Gateway/MCP 확장·OpenAPI의 AI Tool 변환·연계 정합성 시험의 기존 발주 요구", "limit": "공식 첨부 이번 재수집·직접 대조. ALIO 게시일은 기존 보관 응답 기준. 발주 요구를 실제 납품·설치·검수·PMS 재사용권 확보로 해석하지 않음. HWP 조판 전체 시각 검증 아님", "checkedAt": "2026-10-10", "sha256": "fedda42b47b47bfb94a1d1e8a8f738acc400c1ca94349d822947658b94615280", "links": [["공식 과업 및 제안요청서 HWP", "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01565398&bidPbancOrd=000&fileType=&fileSeq=3&prcmBsneSeCd=03"], ["ALIO 공고 상세", "https://www.alio.go.kr/occasional/bidDtl.do?seq=3542211"]]};
 for(const[id,s]of Object.entries(sources)){s.id=id;s.checkedAt??='2026-10-08';}
 
 for(const [id,refs]of [['PMS-F05',['P18']],['PMS-F07',['P19','P20']],['PMS-F08',['P19','P20']],['PMS-F09',['P20']],['PMS-F10',['P20']]]) requirements.find(r=>r.id===id).refs.push(...refs);
@@ -466,11 +509,21 @@ acceptanceTests.find(t=>t.id==='T13').scenario+=' · 총점은 높지만 기술 
 acceptanceTests.find(t=>t.id==='T13').expected+=' · 적용 공고의 가격·기술 조건 확인 후 순위 검토';
 acceptanceTests.find(t=>t.id==='T16').scenario+=' · 물품/용역 적용조건 혼입·연차 변경';
 acceptanceTests.find(t=>t.id==='T16').expected+=' · 계약 종류·연차에 맞는 조건만 적용';
+
+requirements.find(r=>r.id==='PMS-F10').how+=' 기존 온-나라·기록관리 원본ID·판본을 참조하고 제안–계약–검사–청구의 관계를 추가 연결.';
+requirements.find(r=>r.id==='PMS-F10').acceptance+=' 공식 기록의 보존·이관과 AI 파생자료의 이용중지·삭제 구분. 이관 접수를 계약·검사·지급 완료로 오인하지 않음.';
+requirements.find(r=>r.id==='PMS-F10').refs.push('P21');
+requirements.find(r=>r.id==='PMS-N01').acceptance+=' 원본 권한 회수 후 청크·임베딩·요약·캐시·내보내기 경로에서 정보 제공 차단, 미확인 권한은 재확인 전 보류.';
+requirements.find(r=>r.id==='PMS-N01').refs.push('P21','P22');
+acceptanceTests.find(t=>t.id==='T20').scenario+=' · 원본 권한 회수·판본 정정·색인 갱신 실패·이관 부분 접수';
+acceptanceTests.find(t=>t.id==='T20').expected+=' · 원본 보존을 유지한 파생물 조회 차단·정정 전파, 실패 자료 제공 보류, 수신 확인 없는 공식 이관 완료 금지';
+
 // 앞서 생성한 화면용 시험표에도 변경된 명세를 동일 반영.
 sections.find(s=>s.id==='requirements').blocks.find(b=>b.type==='table'&&b.title==='업체 선정·지급·아카이브의 인수시험').rows=acceptanceTests.map(t=>[t.id+' · '+t.requirements.join(' / '),t.scenario,t.expected]);
 templates.find(t=>t.id==='bidder-evaluation').headers.push('계약종류·물품용역구분','공고평가연결근거·확인상태','기술적격조건·결과참조','가격조건·결과참조','공개용결과판본·근거참조');
 templates.find(t=>t.id==='payment-ledger').headers.push('계약종류·적용조건참조','보완·재검사·적합확인참조');
 
+templates.find(t=>t.id==='vendor-archive').headers.push('원본시스템·기록ID참조','파생자료목록·권한동기화참조','공식이관접수·검증결과참조');
 const costBoundaries=[
  ['FP 코어에 포함되는 통상 분석·설계와 중복 제외','실제 현행 진단·자료/권한 확인의 독립 범위만 공수 산정','기존 분석서·표준 WBS·화면/업무모델 확인','SI-02의 분석·설계 / RD의 문제정의'],
  ['FP 대상 기능의 통상 분석·설계·구현·시험 포함범위 대조','확정 기능경계·FP·재사용 정도 기준 산정','기존 PMS 기능·NOA 공동업무·사용권·코드 확인','SI-01/03/04의 동일 기능·동일 시간'],
@@ -481,6 +534,11 @@ const costBoundaries=[
  ['엔진 개발·내부 QA와 법정 감리 용역 별도','대상·단계·사업특성·독립 수행 범위에 따른 산정','적용 기준·용역 계약·감리원 역할 확인','내부 PMO/QA · AI 엔진 검증과 책임 구분'],
  ['기존 자원 무상 사용 가정으로 운영비 0 처리 금지','실제 사용권·지원·저장·백업·운영 역할의 별도 증분','기구축 사용권·서버 여유·운영계약·중복 라이선스 확인','SI/RD/기존 운영계약의 동일 항목']
 ];
+sections.find(s=>s.id==='cost').blocks[0].rows[2][1]+=' · 온-나라/기록관리 원본 참조와 PMS 업무 관계 연결';
+sections.find(s=>s.id==='cost').blocks[0].rows[2][2]+=' · 기록물 이관 RFP ECR-001·DAR-002·DAR-006·INR-001·QUR-002 대조, 동일 보관·이관·검색·무결성 작업 중복 제외';
+costBoundaries[2][1]+=' · 사업/계약 관계·파생자료 권한 회수·공식 접수 대사의 부족분';
+costBoundaries[2][2]+=' · P21/P22의 요구→실제 계약→설치/검수→사용권→증분 공수 대조';
+sections.find(s=>s.id==='cost').blocks[0].rows[2][2]+=' · 공통플랫폼 SFR-004·SIR-001·SIR-002·INR-003의 동일 권한/MCP/도구변환 기능 재산정 제외, 실제 이행·사용권 대조';
 const costInputs=sections.find(s=>s.id==='cost').blocks[0].rows.map((r,i)=>({bundle:r[0],scope:r[1],method:r[2],includedBoundary:costBoundaries[i][0],incrementalBoundary:costBoundaries[i][1],reuseEvidence:costBoundaries[i][2],overlapWbs:costBoundaries[i][3],fp:null,personMonths:null,unitCost:null,amount:null,status:'요구·재사용·공고 확인 후 산정'}));
 const reportingProfiles=[
  {id:'not-required',label:'보고 불필요',guiding:true,requiresRealPms:false,externalSubmission:'미생성',completion:'TS 업무별 완료조건 확인으로 종료'},
