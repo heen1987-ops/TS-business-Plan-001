@@ -85,3 +85,13 @@ check(['계산식','재산정','최종 승인','구현','검수'].every(t=>fine.
 check(policy.existing.includes('2025-11-04')&&policy.existing.includes('기간 종료를 납품·검수 완료로 판단하지 않음')&&policy.ask.includes('입찰·계약번호 연결'),'기획 본문·현업 확인 질문에 계약 증거 수준 반영');
 check(policy.sourceIds.includes(fineContract.id)&&wp.sourceIds.some(id=>wb.sourceById[id].url===fineContract.url)&&policy.cost===null&&policy.metrics.every(m=>m.baseline===null&&m.target===null),'계약 근거 실제 화면 연결·미산정 보존');
 console.log('과징금 계약 공시 대조 포함 '+n+'항목 통과');
+
+// 원천별 단위·시점·상충 처리와 기획화면/내려받기 근거 연결.
+const sourceContractIds=['N-RECALL-PUBLIC26','N-NHTSA-DATA26','N-NHTSA-DICT26','N-NHTSA-USE23','N-KATRI-RESEARCH-CONTRACT26'];
+check(sourceContractIds.every(id=>{const s=d.sources.find(x=>x.id===id);return s&&policy.sourceIds.includes(id)&&wp.sourceIds.some(k=>wb.sourceById[k].url===s.url)}),'원천 조건5건 후보·기획화면 근거 연결');
+check(d.sources.find(s=>s.id==='N-NHTSA-DICT26').sha256==='5bf96ea4ea22f02049435411e043f58c1406a27b285a09c3575bf7e9672bb747','데이터사전 원문 고정');
+check(policy.requirements[0].output===policy.fields.join(' / ')&&policy.requirements[3].output===policy.tests.join(' / '),'입력·검수 조건의 요구사항 동기화');
+check(policy.tests.some(s=>s.includes('다중 행')&&s.includes('문서ID'))&&policy.tests.some(s=>s.includes('512/516')&&s.includes('임의 확정')),'정상 다중 행 보존·상충 규격 미확정 검수');
+check(policy.boundary.includes('보고 반영 전')&&policy.boundary.includes('국내 사양')&&policy.privacy.some(s=>s.includes('대량 VIN')),'시점·국내 적용·식별정보 전송 경계');
+check(policy.metrics.every(m=>m.baseline===null&&m.target===null)&&policy.cost===null,'실측·예산 미확정 유지');
+console.log('원천자료 의미·판본 검증 포함 '+n+'항목 통과');
