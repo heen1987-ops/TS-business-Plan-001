@@ -4,7 +4,7 @@ check(d.id==='QE-H01'&&d.year===2027&&d.status.includes('후보'),'2027 추가 �
 check(d.metrics.length===5&&d.metrics.every(m=>m.baseline===null&&m.target===null),'임의 정확도·효과 목표 금지');
 check(d.metrics[0].name==='추가 기능 확인 필요 대상의 누락률'&&d.evaluation.includes('기능 저하 확정, 법정 적부 또는 사고위험 판정 정확도와 구분'),'M01 참조라벨을 확정 진단·자격 판단으로 승격하지 않음');
 check(d.cost.amount===null&&d.cost.people===null&&d.cost.period===null,'자료·범위 확인 전 가격·인원 미확정');
-const ids=new Set(d.sources.map(s=>s.id));check(ids.size===31,'기존29개와 별도논문·시행교육2개 근거');
+const ids=new Set(d.sources.map(s=>s.id));check(ids.size===32,'기존31개와 공개코드 정적 대조1개 근거');
 for(const s of d.sources){check(/^https:\/\//.test(s.url)&&/^2026-10-(06|09)$/.test(s.checkedAt),'근거 URL·확인일 '+s.id);check(s.locator&&s.fact&&s.limit,'근거 위치·사실·한계 '+s.id);}
 for(const s of d.sections){for(const id of s.refs)check(ids.has(id),'근거 추적 '+id);for(const r of s.rows)check(r.length===s.headers.length,'표 필드 계약 '+s.id);}
 const text=JSON.stringify(d);for(const t of ['NHIS 직접 연계는 필수 착수조건으로 두지 않음','병력 자체는 적부판정 대상이 아님','연구 데이터와 개인 업무기록 분리','독립 전문 기능평가','새로운 의무교육','공통 근거관리·권한·로그 코어는 재사용'])check(text.includes(t),'중복·권리·평가 경계 '+t);
@@ -68,3 +68,11 @@ check(how.rows[3][2].includes('조회 실패를 무이력으로 채우지 않음
 check(training2014.limit.includes('동일 과정으로 볼 수 없음')&&how.rows[4][2].includes('대상 구분'),'기존 지역사회 교육·사업용 교육 구분');
 check(d.evaluation.includes('평가 부재로 단정하지 않음')&&d.evaluation.includes('37피처 주 평가와 동일 조건으로 비교 금지'),'논문 검증 존재와 비교조건 보존');
 console.log('논문 전문·이력 가용성·기존교육 포함 '+checks+'개 검증 통과');
+
+const code2116=d.sources.find(s=>s.id==='H32');
+check(code2116.url.includes('b251785ebc2a476ccacb0b9583bdf9c8cc377183')&&code2116.limit.includes('정적 검토만 수행'),'코드 고정판본·실행 범위 표시');
+check(how.rows[3][2].includes('실제 제공 가능 시점')&&how.rows[3][2].includes('시점 증빙이 없으면 해당 라벨 이력을 제외'),'검사월과 라벨 이용시점 검수 구분');
+check(how.rows[3][2].includes('동일 가중치에 전처리만 임의 교체하지 않음')&&how.rows[3][2].includes('상호 일치 검사'),'변환 변경과 모델 버전·입력 길이 검수 연결');
+check(d.evaluation.includes('연령 대표값을 실제 나이로')&&d.evaluation.includes('거리 절댓값을 반응시간으로 설명하지 않음'),'파생피처의 업무 설명 오역 방지');
+check(d.cost.scope.includes('TS 납기·비용으로 환산하지 않음')&&d.cost.amount===null,'연구 장비 실행시간의 비용 전용 금지');
+console.log('공개코드·시점·전처리 검수 포함 '+checks+'개 검증 통과');

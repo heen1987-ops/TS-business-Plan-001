@@ -106,3 +106,7 @@ console.log('사례집·정식공고 대조 포함 '+checks.length+'개 그룹 �
 check('QE 별도 논문·시행 교육 근거의 실제 화면 연결',qe1559.sourceKeys.includes('qe-model-paper')&&qe1559.sourceKeys.includes('qe-existing-training'));
 check('QE 이력 조회실패·검사유형·교육대상 경계',qe1559.extra.includes('조회 실패를 무이력으로 대체하지 않음')&&qe1559.boundary.includes('이력 제외21피처')&&qe1559.boundary.includes('사업용 의무교육'));
 console.log('논문·기존교육 대조 포함 '+checks.length+'개 그룹 검증 통과');
+
+check('QE 공개코드 고정판본 출처 연결',qe1559.sourceKeys.includes('qe-model-code')&&r.workflowSources.some(s=>s.key==='qe-model-code'&&s.url.includes('b251785e')));
+check('QE 전처리 변경·업무 설명·재현 단계 경계',qe1559.extra.includes('동일 가중치에 전처리만 임의 교체하지 않음')&&qe1559.boundary.includes('거리 절댓값을 반응시간으로 설명하지 않음')&&qe1559.boundary.includes('공개 자산 확인·성능 재현·업무 적용 검수'));
+console.log('공개코드 인수조건 포함 '+checks.length+'개 그룹 검증 통과');
