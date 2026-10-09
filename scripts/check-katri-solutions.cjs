@@ -64,3 +64,14 @@ check(policy.existing.includes('AI 활용 자체를 신규로 계상하지 않�
 check(policy.sourceIds.includes(ai25.id)&&wp.sourceIds.some(id=>wb.sourceById[id].url===ai25.url)&&policy.ask.includes('대상·분류·처리 경로'),'신규 근거·현재성 확인질문·기획화면 동기화');
 check(policy.requirements[3].output.includes('AI 인과효과')&&policy.metrics.every(m=>m.baseline===null&&m.target===null),'기관 조치 실적의 AI 효과 전용 방지·검수 연결');
 console.log('2025 AI 실적·추진방향 대조 포함 '+n+'항목 통과');
+
+const link26=d.sources.find(s=>s.id==='N-RECALL-LINK-RFP26'),contract26=d.sources.find(s=>s.id==='N-RECALL-LINK-CONTRACT26');
+check(link26?.sha256==='9cf8e0c4b6a2f64c6bc81db8ed02d7f55d4d2882147a4f7cbd236d77c9b4ab50'&&link26.locator.includes('SFR-003~007'),'2026 연계 원본·요구사항 위치');
+check(contract26?.sha256==='5c2bd1ec5d8008fe6078549a69d57a73f3ab1d08849377f50aca2b4450a851f9'&&contract26.limit.includes('20260512')&&contract26.limit.includes('계약번호 직접 연결 미확인'),'계약대장 날짜 차이·제목 일치 한계');
+check(policy.existing.includes('일일배치 반영')&&policy.scope.includes('동일 신규 납품으로 재산정하지 않음')&&policy.existing.includes('최종 범위·가동·인수는 미확인'),'기존 연계 과업 중복·실제 인수 구분');
+check(policy.extension.includes('원본·승인·감사이력 삭제로 확대하지 않음')&&policy.tests.some(s=>s.includes('취소된 원문')),'현행 AI 설명 철회와 원본·감사 보존 구분');
+check(policy.stages[2][2].includes('일일배치')&&policy.stages[2][2].includes('실시간 조회의 기준시각')&&policy.fields.some(s=>s.includes('배치 기준시각')),'서로 다른 연계시점·최신성 확인');
+check(policy.ask.includes('DB 구조 변경이력')&&policy.ask.includes('최종 계약·자산별'),'자료구조 형상·업무이력 및 자산권리 구분');
+check(policy.requirements[0].output===policy.fields.join(' / ')&&policy.requirements[3].output===policy.tests.join(' / '),'신규 대사 필드·인수시험 요구사항 동기화');
+check(['N-KATRI26-PLAN','N-KATRI26-TASK','N-RECALL-LINK-RFP26','N-RECALL-LINK-CONTRACT26'].every(id=>{const source=d.sources.find(s=>s.id===id);return policy.sourceIds.includes(id)&&wp.sourceIds.some(k=>wb.sourceById[k].url===source.url)}),'2026 계획·연구·연계·계약 4근거의 실제 기획화면 연결');
+console.log('2026 연계·계약 범위 포함 '+n+'항목 통과');

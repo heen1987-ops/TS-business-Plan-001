@@ -80,3 +80,8 @@ check('개인정보와 과거 연구 출처 실제 기획화면 연결',qe.sourc
 const flow=require('../src/mandate-workflows.cjs');
 check('FAQ 절차와 실제 입력화면 미확인 경계 유지',JSON.stringify(flow).includes('DOM-QE-RESERVE')&&JSON.stringify(flow).includes('실제 입력화면·동의문·잔여석'));
 console.log('현행 접수·개인정보 대조 포함 '+checks.length+'개 검증군 통과');
+
+check('QE 모델 성과·권리와 기존 대표안 동기화',qe.boundary.includes('Public 평가')&&qe.boundary.includes('서로 다른 이용조건')&&model.byId[qe.solutionId].existing.includes('발표를 운영 인수로 확대하지 않으며'));
+for(const key of ['qe-model-result','qe-model-label','qe-model-eval','qe-model-rights']){const source=r.workflowSources.find(s=>s.key===key);assert(source&&qe.sourceIds.some(id=>model.sourceById[id].url===source.url),key);}
+check('새 대회·정부 근거4개 실제 사업 출처 연결',true);
+console.log('모델 성과·평가·권리 포함 '+checks.length+'개 검증군 통과');

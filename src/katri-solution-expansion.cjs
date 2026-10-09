@@ -496,9 +496,59 @@ addedSources.push({
   "limit": "실적과 계획 구분. 2026 현재 배포본·계약·정확도·2021 연구성과 귀속·2027 재사용권 미확인. 2023 품질 신고 병목 해소 완료를 입증하지 않음. 보고된 보호 조치 건수를 AI 인과효과로 전용하지 않음. 관련 쪽 선별 화면 판독이며 212쪽 전수 검증 아님",
   "sha256": "33bdcd6b7059e8445a21408e3957bac912c89549ec6cf61d55e5193dffcbcbc2"
 });
+addedSources.push(...[
+  {
+    "id": "N-KATRI26-PLAN",
+    "title": "2026년도 TS 연간 용역 발주계획",
+    "url": "https://main.kotsa.or.kr/common/download.do?atflIdxx=F_ordrplan1656051238&atflSeqn=1",
+    "published": "게시 2026-01-22",
+    "locator": "발주계획(일반용역) 시트 Excel 87·104·118행",
+    "claim": "해외결함정보 수집 자동화·첨단안전장치 결함조사·요구자료 표준화 계획 기재.",
+    "limit": "연간 계획이며 개별 발주·계약·납품 증거 아님. 연차보고서의 지능형 통합시스템과 동일 사업인지 미확인.",
+    "sha256": "656b66102a9eb2e1e6f61705917bdeecf36f89e40b68982f654a3e0a9b3da01a",
+    "checkedAt": "2026-10-09",
+    "verification": "부분 확인"
+  },
+  {
+    "id": "N-KATRI26-TASK",
+    "title": "자동차 첨단기술 제작결함조사 강화방안 연구 과업내용서",
+    "url": "https://main.kotsa.or.kr/common/download.do?atflIdxx=F_tendnoti1901694593&atflSeqn=1",
+    "published": "원문 2026-03 / 재공고 2026-04-09",
+    "locator": "Ⅰ 과업개요 / Ⅱ 과업1·2, BodyText Section0:P27~110",
+    "claim": "첨단장치별 요구자료 표준화, SW·OTA 등 자료 분석과 ADS/ADAS 제도·사고보고체계 검토 요구.",
+    "limit": "연구 요구와 실제 표준 채택·시스템 구축을 구분. 통합 지능형 분석시스템 RFP와 동일시하지 않음. 문단레코드 판독, 실제 쪽 렌더링 미확인.",
+    "sha256": "811f36c61ca8b327cdcb7cc5501fd852ca580d03b9419549a2edb20bd1a5e144",
+    "checkedAt": "2026-10-09",
+    "verification": "부분 확인"
+  },
+  {
+    "id": "N-RECALL-LINK-RFP26",
+    "title": "2026 시정계획서 및 무상점검수리 연계 기능개발 RFP",
+    "url": "https://main.kotsa.or.kr/common/download.do?atflIdxx=F_tendnoti1908029526&atflSeqn=0",
+    "published": "원문 2026-03 / 재공고 2026-05-13 (19080)",
+    "locator": "SFR-003~007 Section0:P245~326 / PMR-003·005 P995~1055 / 지식재산권·공동활용 조항",
+    "claim": "일치 차대번호의 시정조치 일일배치 반영, 정규화·그룹핑·조회, 검사관리시스템 실시간 연계, 취소 데이터 삭제 요구. 설계서·소스·인수시험 요구도 존재.",
+    "limit": "RFP 요구와 구현·가동·인수 구분. 6월 계약대장과 제목 일치의 대응 후보이며 계약번호 직접 연결 미확인. 권리 조항 병존으로 실제 계약·자산별 라이선스 대조 필요. HWP 문단 판독이며 쪽 렌더링 미검증.",
+    "sha256": "9cf8e0c4b6a2f64c6bc81db8ed02d7f55d4d2882147a4f7cbd236d77c9b4ab50",
+    "checkedAt": "2026-10-09",
+    "verification": "부분 확인"
+  },
+  {
+    "id": "N-RECALL-LINK-CONTRACT26",
+    "title": "자동차안전연구원 2026년 6월 수의계약 공시",
+    "url": "https://main.kotsa.or.kr/common/download.do?atflIdxx=F_finninfo3799212680&atflSeqn=0",
+    "published": "게시 2026-07-02",
+    "locator": "계약대장 시트 Excel 33행(연번28)",
+    "claim": "동일 제목의 시정계획서 및 무상점검수리 연계 기능개발 계약과 결함정책처 기재. 계약일 2026-06-19.",
+    "limit": "기능별 납품·검수·가동 증거 아님. 원문 기간 시작 20260512가 계약일보다 앞서 일치 여부 확인 필요. 입찰·계약번호 직접 연결 미확인. 기간을 임의 보정하지 않음.",
+    "sha256": "5c2bd1ec5d8008fe6078549a69d57a73f3ab1d08849377f50aca2b4450a851f9",
+    "checkedAt": "2026-10-09",
+    "verification": "부분 확인"
+  }
+]);
 const newSourceMap={
  'KT-RP-01':['N-ORG','N-COMP26'], 'KT-RS-01':['N-ORG','N-PGREQUEST','N-PGRULE','N-CONTRACT'],
- 'KT-DP-01':['N-ORG','N-MAKER','N-RECALL42','N-RECALL-GUIDE','N-RECALL-CENTER','N-RECALL-ACT31','N-RECALL-DELEGATION','N-RECALL-RFP','N-RECALL-BID','N-EWR-TASK21','N-EWR-RFP21','N-RECALL-NEGOTIATION26','N-RECALL-ADMRULE26','N-FINE-RFP25','N-ESG23-DEFECT','N-KATRI23-REVIEW','N-KATRI25-AI'], 'KT-D1-01':['N-ORG','N-MAKER'], 'KT-D2-01':['N-ORG','N-MAKER'],
+ 'KT-DP-01':['N-ORG','N-MAKER','N-RECALL42','N-RECALL-GUIDE','N-RECALL-CENTER','N-RECALL-ACT31','N-RECALL-DELEGATION','N-RECALL-RFP','N-RECALL-BID','N-EWR-TASK21','N-EWR-RFP21','N-RECALL-NEGOTIATION26','N-RECALL-ADMRULE26','N-FINE-RFP25','N-ESG23-DEFECT','N-KATRI23-REVIEW','N-KATRI25-AI','N-KATRI26-PLAN','N-KATRI26-TASK','N-RECALL-LINK-RFP26','N-RECALL-LINK-CONTRACT26'], 'KT-D1-01':['N-ORG','N-MAKER'], 'KT-D2-01':['N-ORG','N-MAKER'],
  'KT-FR-01':['N-ORG','N-TESTREQUEST','N-FUELCELL'], 'KT-PR-01':['N-ORG','N-TESTREQUEST','N-LININGHOSE'],
  'KT-AR-01':['N-ORG','N-AVDSH126','N-AVDSACC26'], 'KT-CR-01':['N-ORG','N-AVDSH126','N-AVDSACC26','N-AVDSINTRO'],
  'KT-AD-01':['N-ORG','N-KCITYTECH'], 'KT-VC-01':['N-ORG','N-TESTREQUEST'], 'KT-CC-01':['N-ORG']
@@ -539,6 +589,14 @@ policy.existing+=' 2025 KATRI 연차보고서 199쪽은 AI 결함정보 모니�
 policy.extension+=' 2026 분석시스템의 실제 RFP·계약·기능·검수와 변경자료 대사·산식/분모/기준일 관리 항목을 비교한 후 미충족 스킬·어댑터·평가 공수만 편성';
 policy.ask+=' 2025 AI 모니터링의 입력·출력·담당 검토·정정 절차와 2026 분석시스템 RFP/계약/검수를 확인. 2023 품질 불만과 2025 보호 조치의 대상·분류·처리 경로 연결은 별도 확인';
 policy.tests.push('과거 AI 모니터링 실적·추가 구축 계획·현재 인수 증거를 별도 구분하고 보호 조치 건수를 AI 인과효과로 표시하지 않는 검증');
+// 2026 연계 RFP와 계약 공시: 기존 납품 대상과 추가 검토의 분리.
+policy.existing+=' 2026-05 재공고 RFP SFR-003~007은 차대번호 일치 대사·일일배치 반영, 정규화/그룹핑/조회, 검사관리시스템 실시간 연계, 취소 데이터 삭제를 요구. 6월 계약대장에 동일 제목 계약 공시 확인. 제목 기준 대응 후보이며 계약번호 직접 연결·최종 범위·가동·인수는 미확인';
+policy.scope+=' 위 2026 연계·정규화·조회·취소 기능을 동일 신규 납품으로 재산정하지 않음. 연간 발주계획의 해외수집 자동화와 별도 첨단기술 자료표준화 연구도 기존 비교대상';
+policy.extension+=' 추가 구현안: 권한이 확인된 기존 연계결과를 읽는 어댑터 → 배치 기준시각·자료판본·취소 상태의 정형 검증 → aRDa의 허용 원문 위치와 연계 → NOA의 비정형 사유·변경 영향 설명 및 담당자 확인 질문 → 담당자 수정·확정 이력. 차대번호는 기존 권한 구간에서 대사하고 모델에는 업무 토큰·최소 문단만 제공. 원자료 취소 시 현행 AI 설명·검색결과의 철회/재생성을 검증하되 원본·승인·감사이력 삭제로 확대하지 않음. 실제 미지원과 AI 추가가치가 입증된 항목만 증분 편성';
+policy.stages[2][2]+='. 일일배치 시정계획 반영과 검사관리시스템 실시간 조회의 기준시각 차이를 구분하여 확인';
+policy.fields.push('기존 연계 결과의 배치 기준시각·자료판본·취소 상태·담당자 확인 이력');
+policy.tests.push('일일배치 결과와 실시간 조회의 기준시각 차이를 오류로 자동 판정하지 않는 검증','취소된 원문에 근거한 현행 AI 설명 철회/재생성과 원본·승인·감사이력 보존의 분리','RFP 기능·제목 일치 계약 공시·현재 가동/인수의 구분 및 동일 기능의 신규 대가 중복 방지');
+policy.ask+=' 19080 최종 계약·변경명세·연계정의·배치/취소 시험·실제 운영 버전 확인. 6월 공시의 계약일/기간 차이와 계약번호 연결 확인. DB 구조 변경이력을 업무상 캠페인 변경이력으로 확대하지 않음. 전적 소유·응용SW 공동소유 등 RFP 권리 문구의 적용대상을 최종 계약·자산별로 대조';
 policy.requirements[0].output=policy.fields.join(' / ');
 policy.requirements[3].output=policy.tests.join(' / ');
 byRecord('KT-RP-01').metrics[0].formula='필수 후속 인계가 1건 이상 빠진 확정 변경 건수 ÷ 필수 후속 인계가 필요한 확정 변경 건수 ×100';

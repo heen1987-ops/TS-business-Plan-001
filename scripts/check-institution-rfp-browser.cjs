@@ -65,6 +65,7 @@ try{
  for(const width of [1366,390]){
   await page.setViewportSize({width,height:900});await page.goto(base+'index.html?view=workbench&screen=solutions&project=KT-DP-01');await page.locator('.wb-intent').waitFor();
   check(width+' 리콜 기존 발주·추가 AI 구분',await page.locator('#wb-main').innerText().then(t=>t.includes('SFR-002')&&t.includes('SFR-003~005')&&t.includes('의미 차이')&&t.includes('인수 상태는 미확인')));
+  check(width+' 2026 기존 연계·실제 인수·추가 AI 역할 구분',await page.locator('#wb-main').innerText().then(t=>t.includes('SFR-003~007')&&t.includes('계약번호 직접 연결')&&t.includes('현행 AI 설명')&&t.includes('원본·승인·감사이력 삭제로 확대하지 않음')));
   check(width+' 2025 AI 실적과 추가 구축 방향 구분',await page.locator('#wb-main').innerText().then(t=>t.includes('199쪽')&&t.includes('200쪽')&&t.includes('납품 완료로 판단하지 않음')&&t.includes('2026 분석시스템')));
   check(width+' 기존 과징금 기능과 신규 기능 구분',await page.locator('#wb-main').innerText().then(t=>t.includes('2025-09')&&t.includes('CLipReport')&&t.includes('실제 납품·계산식·재산정')));
   check(width+' 기존 EWR 연구와 실제 운영 구분',await page.locator('#wb-main').innerText().then(t=>t.includes('2021년 EWR')&&t.includes('머신러닝')&&t.includes('납품·운영 상태는 미확인')));
@@ -77,6 +78,7 @@ try{
   await page.screenshot({path:`qa-output/institution-rfp/${sha?'public':'local'}-recall-${width}.png`,fullPage:true});
   await page.goto(base+'index.html?view=workbench&screen=institution&project=KT-DP-01');await page.locator('.wb-law-context').first().waitFor();check(width+' 리콜 기관 화면의 법정주체 구분',await page.locator('#wb-main').innerText().then(t=>t.includes('제작사 자체')&&t.includes('시정명령')&&t.includes('통지 대행')));
  }
+ await page.goto(base+'index.html?view=workbench&screen=solutions&project=QE-01');await page.locator('#wb-main').waitFor();check('QE 대회 성과·권리·실제 운영 구분',await page.locator('#wb-main').innerText().then(t=>t.includes('정부의 2025-12')&&t.includes('동일 계약인지는 미확인')&&t.includes('코드·가중치·분석보고서·사용권')));
  check('브라우저 JS 오류 없음',errors.length===0);
 }finally{fs.writeFileSync(`qa-output/institution-rfp/${sha?'public':'local'}-browser.json`,JSON.stringify({base,sha,checks,errors},null,2));await browser.close()}
 console.log('기관 책무·RFP 브라우저 '+checks.length+'항목 통과');})().catch(e=>{console.error(e);process.exitCode=1});
