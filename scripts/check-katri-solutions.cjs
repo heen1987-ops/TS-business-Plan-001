@@ -57,3 +57,10 @@ console.log('기관 보고·반대 근거 검증을 포함한 '+n+'항목 통과
 
 check(policy.requirements[0].output===policy.fields.join(' / '),'추가 시정률 정의 필드와 수집 요구사항 출력의 일치');
 console.log('요구사항 추적 검증을 포함한 '+n+'항목 통과');
+
+const ai25=d.sources.find(s=>s.id==='N-KATRI25-AI');
+check(ai25?.sha256==='33bdcd6b7059e8445a21408e3957bac912c89549ec6cf61d55e5193dffcbcbc2'&&ai25.locator.includes('199쪽')&&ai25.locator.includes('200쪽'),'2025 원본·실적/계획 위치 분리');
+check(policy.existing.includes('AI 활용 자체를 신규로 계상하지 않으며')&&policy.existing.includes('납품 완료로 판단하지 않음')&&policy.extension.includes('2026 분석시스템'),'기존 AI 실적과 추가구축·2027 증분개발 구분');
+check(policy.sourceIds.includes(ai25.id)&&wp.sourceIds.some(id=>wb.sourceById[id].url===ai25.url)&&policy.ask.includes('대상·분류·처리 경로'),'신규 근거·현재성 확인질문·기획화면 동기화');
+check(policy.requirements[3].output.includes('AI 인과효과')&&policy.metrics.every(m=>m.baseline===null&&m.target===null),'기관 조치 실적의 AI 효과 전용 방지·검수 연결');
+console.log('2025 AI 실적·추진방향 대조 포함 '+n+'항목 통과');

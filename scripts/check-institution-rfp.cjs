@@ -71,3 +71,12 @@ const jsx=fs.readFileSync('src/InstitutionMandate.jsx','utf8'),app=fs.readFileSy
 check('기관 3보기·공통 근거패널',jsx.includes('기관의 역할')&&jsx.includes('법적 근거')&&jsx.includes('소관·감독 관계')&&app.includes('InstitutionEvidence'));
 check('RFP는 별도 주메뉴 아닌 공통 패널',model.screens.length===8&&app.includes("open({kind:'rfp'})")&&app.includes('<RfpLearning/>'));
 console.log('기관 책무·ALIO RFP '+checks.length+'개 검증군 통과');
+
+const qePrivacy=r.workflowSources.find(s=>s.key==='qe-privacy'),qePrior=r.workflowSources.find(s=>s.key==='qe-prior-study');
+check('예약 상태·매체별 보유와 알림 표기 차이 보존',qePrivacy.locator.includes('제3조')&&qePrivacy.fact.includes('미응시/취소 5년')&&qePrivacy.fact.includes('오프라인 서식 3년')&&qePrivacy.limit.includes('요약')&&qePrivacy.limit.includes('준영구'));
+check('원기록 보유와 최소 AI 입력·파생물 정정/파기 구분',qe.privacy.includes('파기')&&qe.privacy.includes('임베딩')&&qe.boundary.includes('자동 승계하지 않음')&&qe.means.includes('업무 토큰'));
+check('과거 인지 연구와 신규 대상·권리 구분',qePrior.fact.includes('운수종사자')&&qePrior.limit.includes('고령자 전용 연구')&&qePrior.limit.includes('2027 재사용'));
+check('개인정보와 과거 연구 출처 실제 기획화면 연결',qe.sourceIds.some(id=>model.sourceById[id].url===qePrivacy.url)&&qe.sourceIds.some(id=>model.sourceById[id].url===qePrior.url));
+const flow=require('../src/mandate-workflows.cjs');
+check('FAQ 절차와 실제 입력화면 미확인 경계 유지',JSON.stringify(flow).includes('DOM-QE-RESERVE')&&JSON.stringify(flow).includes('실제 입력화면·동의문·잔여석'));
+console.log('현행 접수·개인정보 대조 포함 '+checks.length+'개 검증군 통과');

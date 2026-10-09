@@ -56,13 +56,16 @@ try{
  await page.setViewportSize({width:390,height:844});
  await page.goto(base+'index.html?view=workbench&screen=service&project=QE-01');await page.locator('.wb-service-flow').waitFor();check('QE 목표 흐름·검사 유형·사람 판단 보존',await page.locator('.wb-service-flow li').count()===5&&await page.locator('#wb-main').innerText().then(t=>t.includes('수료기록·검사판정·자격 발급')&&t.includes('건강보험 질병자료')&&t.includes('현 제안 입력에서 제외')));
  check('서식 세부항목·식별정보 분리·자유서술 점검 표시',await page.locator('#wb-main').innerText().then(t=>t.includes('주민등록번호')&&t.includes('자유서술')&&t.includes('별지26호의2')&&t.includes('공란 자동 보충 금지')));
+ check('QE 보유기간·파생물·정정 파기 설명',await page.locator('#wb-main').innerText().then(t=>t.includes('미응시/취소 5년')&&t.includes('오프라인 서식 3년')&&t.includes('임베딩')&&t.includes('정정 동기화')));
  await page.goto(base+'index.html?view=workbench&screen=solutions&project=QE-01');await page.locator('.wb-intent').waitFor();check('QE 기존 기반·추가 개발·교육 존재 함께 표시',await page.locator('#wb-main').innerText().then(t=>t.includes('aRDa')&&t.includes('NOA')&&t.includes('설치본·연계 가능성은 확인 필요')&&t.includes('교정교육이 이미 존재')));
  await page.screenshot({path:`qa-output/institution-rfp/${sha?'public':'local'}-qe-workflow-review.png`,fullPage:true});
+ check('QE 기존 예약과 과거 인지 연구 표시',await page.locator('#wb-main').innerText().then(t=>t.includes('인터넷·전화 예약')&&t.includes('인지 특성 위험예측 연구용 자료 이용 공시')));
  check('QE 모바일 흐름 가로 넘침 없음',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
  await page.setViewportSize({width:1366,height:768});await go('&legalView=role');await page.evaluate(()=>document.documentElement.style.zoom='200%');check('200% 확대 책무 내용 가로 넘침 없음',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));await page.evaluate(()=>document.documentElement.style.zoom='');
  for(const width of [1366,390]){
   await page.setViewportSize({width,height:900});await page.goto(base+'index.html?view=workbench&screen=solutions&project=KT-DP-01');await page.locator('.wb-intent').waitFor();
   check(width+' 리콜 기존 발주·추가 AI 구분',await page.locator('#wb-main').innerText().then(t=>t.includes('SFR-002')&&t.includes('SFR-003~005')&&t.includes('의미 차이')&&t.includes('인수 상태는 미확인')));
+  check(width+' 2025 AI 실적과 추가 구축 방향 구분',await page.locator('#wb-main').innerText().then(t=>t.includes('199쪽')&&t.includes('200쪽')&&t.includes('납품 완료로 판단하지 않음')&&t.includes('2026 분석시스템')));
   check(width+' 기존 과징금 기능과 신규 기능 구분',await page.locator('#wb-main').innerText().then(t=>t.includes('2025-09')&&t.includes('CLipReport')&&t.includes('실제 납품·계산식·재산정')));
   check(width+' 기존 EWR 연구와 실제 운영 구분',await page.locator('#wb-main').innerText().then(t=>t.includes('2021년 EWR')&&t.includes('머신러닝')&&t.includes('납품·운영 상태는 미확인')));
   check(width+' 후속 전자시담·재사용 산출물 표시',await page.locator('#wb-main').innerText().then(t=>t.includes('전자시담')&&t.includes('최종 분석 코드')&&t.includes('사용권 확인')));

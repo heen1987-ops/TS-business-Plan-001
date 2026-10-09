@@ -480,13 +480,25 @@ addedSources.push(...[
     "verification": "부분 확인",
     "locator": "PDF·인쇄 174쪽: 제3부 2024년도 주요 계획 / 1.2 / ② 결함조사본부",
     "claim": "품질 관련 소비자 신고 대응의 한계와 제작자 의견 확인·무상수리 권고 등 절차 개선 추진에 관한 기관 자체 평가·반성",
-    "limit": "해당 쪽 원문·화면 대조. 외부 감사 판정·2026년 현재 병목으로 단정하지 않음. 2024년 이후 개선 결과와 2021년 모델의 원인 관계 미확인. 게시물 id=868과 첨부 연결 확인",
+    "limit": "해당 쪽 원문·화면 대조. 외부 감사 판정·2026년 현재 병목으로 단정하지 않음. 2025 후속 AI 모니터링 보고는 별도 출처 연결. 해당 품질 불만의 해소 여부와 2021년 모델의 원인 관계는 미확인. 게시물 id=868과 첨부 연결 확인",
     "sha256": "26a6b509232cb0f40f0d86ba95c9886a2cb7e39bf6c1da018d667959adbe67b4"
   }
 ]);
+addedSources.push({
+  "id": "N-KATRI25-AI",
+  "title": "2025 KATRI 연차보고서 — AI 모니터링 실적과 추가 구축 방향",
+  "url": "https://katri.kotsa.or.kr/afile/fileDownload/bWmmn",
+  "published": "2025년 대상 · 게시 2026-06-12",
+  "checkedAt": "2026-10-09",
+  "verification": "부분 확인",
+  "locator": "PDF·인쇄 199쪽 1.1 국민안전(2) / 200쪽 1.2 국민안심(2)",
+  "claim": "199쪽 AI 활용 국내외 리콜·공개 무상수리·과거 결함조사 데이터 모니터링 실적 보고. 200쪽 지능형 결함정보 수집·리콜시정률 분석시스템의 추가 구축 기반 마련 방향 제시",
+  "limit": "실적과 계획 구분. 2026 현재 배포본·계약·정확도·2021 연구성과 귀속·2027 재사용권 미확인. 2023 품질 신고 병목 해소 완료를 입증하지 않음. 보고된 보호 조치 건수를 AI 인과효과로 전용하지 않음. 관련 쪽 선별 화면 판독이며 212쪽 전수 검증 아님",
+  "sha256": "33bdcd6b7059e8445a21408e3957bac912c89549ec6cf61d55e5193dffcbcbc2"
+});
 const newSourceMap={
  'KT-RP-01':['N-ORG','N-COMP26'], 'KT-RS-01':['N-ORG','N-PGREQUEST','N-PGRULE','N-CONTRACT'],
- 'KT-DP-01':['N-ORG','N-MAKER','N-RECALL42','N-RECALL-GUIDE','N-RECALL-CENTER','N-RECALL-ACT31','N-RECALL-DELEGATION','N-RECALL-RFP','N-RECALL-BID','N-EWR-TASK21','N-EWR-RFP21','N-RECALL-NEGOTIATION26','N-RECALL-ADMRULE26','N-FINE-RFP25','N-ESG23-DEFECT','N-KATRI23-REVIEW'], 'KT-D1-01':['N-ORG','N-MAKER'], 'KT-D2-01':['N-ORG','N-MAKER'],
+ 'KT-DP-01':['N-ORG','N-MAKER','N-RECALL42','N-RECALL-GUIDE','N-RECALL-CENTER','N-RECALL-ACT31','N-RECALL-DELEGATION','N-RECALL-RFP','N-RECALL-BID','N-EWR-TASK21','N-EWR-RFP21','N-RECALL-NEGOTIATION26','N-RECALL-ADMRULE26','N-FINE-RFP25','N-ESG23-DEFECT','N-KATRI23-REVIEW','N-KATRI25-AI'], 'KT-D1-01':['N-ORG','N-MAKER'], 'KT-D2-01':['N-ORG','N-MAKER'],
  'KT-FR-01':['N-ORG','N-TESTREQUEST','N-FUELCELL'], 'KT-PR-01':['N-ORG','N-TESTREQUEST','N-LININGHOSE'],
  'KT-AR-01':['N-ORG','N-AVDSH126','N-AVDSACC26'], 'KT-CR-01':['N-ORG','N-AVDSH126','N-AVDSACC26','N-AVDSINTRO'],
  'KT-AD-01':['N-ORG','N-KCITYTECH'], 'KT-VC-01':['N-ORG','N-TESTREQUEST'], 'KT-CC-01':['N-ORG']
@@ -523,6 +535,10 @@ policy.privacy.unshift('과징금 자료 연계는 별도 후속 범위·이용�
 policy.ask+=' 2025-09 과징금 RFP의 최종 산식·화면·연계정의·시험 및 인수자료 대조. 소스 제공과 자유 재사용은 구분하여 최종 계약의 자산별 권리·제3자 라이선스 확인. 실제 계산·재산정 지원 부재를 추정하지 않음';
 policy.existing+=' TS 2023 ESG 보고서는 결함조사 RISK MATRIX·패스트 트랙 도입을 보고. KATRI 2023 연차보고서는 품질 신고 대응 한계와 절차 개선 추진을 자체 점검. 두 기록 모두 당시 기관 보고이며 2021 연구성과 귀속·현재 운영·현재 미해소 문제를 확정하지 않음';
 policy.ask+=' 2023년 자체 점검 이후 품질 신고 처리경로·개선 결과·현재 사례 확인. 기존 분석체계의 존재와 이용자 문제의 해소 여부를 각각 검증';
+policy.existing+=' 2025 KATRI 연차보고서 199쪽은 AI 결함정보 모니터링 실적, 200쪽은 지능형 수집·리콜시정률 분석시스템의 추가 구축 기반 마련 방향을 각각 보고. AI 활용 자체를 신규로 계상하지 않으며 추가 구축 방향을 납품 완료로 판단하지 않음';
+policy.extension+=' 2026 분석시스템의 실제 RFP·계약·기능·검수와 변경자료 대사·산식/분모/기준일 관리 항목을 비교한 후 미충족 스킬·어댑터·평가 공수만 편성';
+policy.ask+=' 2025 AI 모니터링의 입력·출력·담당 검토·정정 절차와 2026 분석시스템 RFP/계약/검수를 확인. 2023 품질 불만과 2025 보호 조치의 대상·분류·처리 경로 연결은 별도 확인';
+policy.tests.push('과거 AI 모니터링 실적·추가 구축 계획·현재 인수 증거를 별도 구분하고 보호 조치 건수를 AI 인과효과로 표시하지 않는 검증');
 policy.requirements[0].output=policy.fields.join(' / ');
 policy.requirements[3].output=policy.tests.join(' / ');
 byRecord('KT-RP-01').metrics[0].formula='필수 후속 인계가 1건 이상 빠진 확정 변경 건수 ÷ 필수 후속 인계가 필요한 확정 변경 건수 ×100';
