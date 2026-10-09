@@ -298,6 +298,46 @@ const sections=[
  ])]},
  {id:'sources',title:'공식 근거·제품 자료·확인 한계',intro:'원문 URL·판본·확인 위치·조사일을 함께 제공',blocks:[{type:'sources'}]}
 ];
+
+// 2026-10-10 공식 규정·공개 조달사례 대조. 기존 절 안에서 조건과 실행방법 보완.
+sections.find(s=>s.id==='realpms').blocks.push(
+ table('2026 규정에 따른 적용 판단과 등록 준비',['확인할 업무','공식 근거·범위','NOA 기반 추가 지원 설계'],[
+ ['어떤 업무에 적용되는가','제3조: 본부·소속기관 적용, 산하기관은 정보화 표준·공동활용이 필요한 경우 적용 가능, 위임·위탁기관은 해당 정보화업무 범위 적용','기관명만으로 필수 보고 지정 금지. 과업별 위임·위탁 문서·공고·협의 결과·효력시점을 담당자가 확인하고 보고 필요/불필요/확인 중 분류'],
+ ['어디에 무엇을 등록하는가','제29조② 단계별 추진상황·성과물, 제32조① 최종 완료보고서의 국토교통EA시스템 등록','규정의 EA 등록과 현재 RealPMS 화면·계정·API의 동일성은 별도 확인. 등록 대상·주기·서식·제출자·접수 확인 방법을 과업별 연결'],
+ ['변경 이후 무엇을 갱신하는가','제45조 자원 변동 시 현행화, 제46조 관리문서 등록','aRDa의 원문·판본·효력시점 연결을 적용 후보로 설정. NOA가 변경된 산출물과 영향받는 등록 항목을 제시하고 담당자가 재등록 범위 확정. 자동 실시간 연계 구현을 뜻하지 않음'],
+ ['서식·코드를 누가 협의하는가','제43조② EA 운영부서 정보화통계담당관, 제47조① 서식·코드체계 변경 시 지능정보화책임관과 사전협의','연계 필드·코드 대응표의 변경 전후·협의 결과 보관. 제47조 협의를 모든 사업의 포괄 사전협의로 확대하지 않음'],
+ ['자료를 AI에 사용할 수 있는가','제28조 보안·개인정보 관련 공동이용 예외, 제33조 성과물 이용 범위 확인','제출·열람·검색 색인·AI 처리·다른 사업 재사용의 허용 범위를 각각 확인. 파일 보유만으로 학습·공유 허가를 부여하지 않음']
+ ],['P18']),
+ note('시범사업의 실행 순서와 확인자료',[
+ '① TS 업무담당의 적용 근거 확인 → ② 보고 항목·시점·책임자 지정 → ③ 현재 화면·파일 서식·권한 확인 → ④ NOA에서 준비·대조 → ⑤ 허가된 담당자의 공식 제출 → ⑥ 접수 결과와 제출 판본 연결',
+ '초기 범위: 기존 AI 플랫폼·로컬 LLM에서 허용 자료 검색과 제출안 작성, 파일 내보내기 및 담당자 확인. 공개 API·자동 등록·TS 이용권은 미확인 상태이며 별도 연계 확인 후 확대',
+ '검증 방법: 같은 과업의 내부 검토본·공식 제출본·접수 결과를 대조하고 변경 전후 누락과 재작성 시간을 기록. 자료 대기·필수 외부 등록 실패를 단순 작성 완료로 종료하지 않음'
+ ],['P18'])
+);
+sections.find(s=>s.id==='procurement').blocks.push(
+ table('실제 공개사례에서 확인한 선정 단계의 경계',['항목','확인한 사실','2027 PMS 반영'],[
+ ['사례와 연결 수준','자동차검사 자동화 로봇 개발: 입찰 게시물 2026-08-12, 평가 게시물 2026-09-29. 확보 공고의 번호는 2026-116호 / R26BK01679617-000. 평가 첨부에는 공고번호 없음','동일 제목·시점에 따른 대응 후보로 기록. 공식 식별자가 확인되기 전 평가·계약의 자동 병합 금지. 게시일과 첨부 내 9월 일정은 각각 보존'],
+ ['공개된 점수와 상태','평가 첨부: 기술 80점·가격 20점. 75.5 + 18.5393 = 94.0393은 우선협상대상, 67.2 + 20 = 87.2는 기술평가 부적격자로 표기','원문 표와 합산값의 대사 예시. 후자의 합산 87.2를 적격 기준 충족으로 해석하지 않음. 위원별 점수·의견을 역산하거나 생성하지 않음'],
+ ['적격 조건과 순위','동일명 공고: 입찰가격이 사업예산 이하이고 기술배점 한도의 85% 이상인 경우 협상적격. 사례의 기술 기준점은 80×85%=68','공고별 가격 조건·기술 기준·동점·반올림 규칙을 담당자가 확정. 80/20·85%를 다른 사업의 기본값으로 사용하지 않음. 조건 충족 뒤 순위·협상·계약을 각각 관리'],
+ ['공개 결과와 제한 자료','RFP의 개별평가서 비공개, 제안 관련 제출문서의 외부 공개 제한 문구 확인. 공개된 총괄 결과와 위원·제안서 원본은 범위가 다름','해당 사업의 공개 근거·대상·시점에 맞춘 제공본 생성 지원. 모든 TS 기록의 절대 비공개 규칙으로 일반화하지 않음'],
+ ['우선협상 이후','공개 평가결과는 우선협상·기술부적격 상태까지 확인. 최종 협상 성립·계약 체결·검사·지급 기록 미확보','선정 결과를 공식 계약상대자·지급 완료로 자동 전환하지 않음. 채택·변경된 제안 조건만 계약 기준에 연결']
+ ],['P19','P20']),
+ note('평가 지원의 구체적인 실행방법',[
+ '입력: 허용된 공고·RFP·공식 결과표. aRDa의 원문 추출·위치 연결과 NOA의 조건 대조를 적용 후보로 설정하고 실제 설치본·사용권·API 확인 후 구성',
+ '처리: 공고 종류·번호·차수 확인 → 배점·적격 조건 후보 추출 → 담당자 원문 확인 → 확정 규칙으로 합산·조건 대사 → 차이와 원문 위치 제시 → 권한자의 공식 결과 등록',
+ '예외: 식별자 누락·공고와 RFP 충돌·미입력·재공고·정정은 확인 대상에 유지. LLM이 점수를 부여하거나 임의 합격·낙찰 판정을 확정하지 않음',
+ '검증: 실제 공개표를 대조 자료로 사용하고, 사업별 조건 변경·제목만 같은 다른 공고·총점은 높지만 기술 기준 미달·정정 후 재집계의 시험명세 추가. 공개사례를 확보한 사실과 실제 PMS 시험 통과를 구분'
+ ],['P19','P20'])
+);
+sections.find(s=>s.id==='payments').blocks.push(
+ table('물품 사례의 검사·보완·지급 조건과 용역 기준의 분리',['구분','확인 범위','PMS 적용 설계'],[
+ ['계약 종류','입찰19176은 물품 공고. 함께 게시된 사양서·RFP에 검사와 대가지급 절차 기재','물품/용역 등 계약 종류·차수·연차·적용조건을 먼저 확인. P16 용역계약일반조건을 이 물품 사례에 자동 적용하지 않음'],
+ ['검사와 보완','RFP 대가지급 절: 계약조건·관련 법령, 검사 완료·산출물 제출 확인, 보완 완료 후 공단 적합 인정과 지급의 관계','산출물 제출 → 검사 결과 → 보완과 재검사 → 적합 인정 → 청구·승인·실제 지급의 각 근거 연결. 이 사례의 대가 조건을 선금 일반 절차에 일괄 적용하지 않음'],
+ ['AI 지원과 공식 처리','현재 확보한 것은 공고·RFP·평가 총괄. 실제 계약·청구·보증·검사·지급 원장 미확보','NOA는 조건별 준비자료와 불일치 후보 제시, Grantee 대사 기능은 제품·적용범위 확인 후 추가 후보. 금액 계산은 확정 산식, 검사·승인·지급은 각 권한자와 공식 원장 결과로 확인'],
+ ['증분비용과 효과 확인','업무 건수·실제 연계·기존 라이선스·개발 공수는 미확보','문서유형·서식 판본·규칙 수·연계방식·검증 사례별 추가공수 기록. K1 처리시간·K2 후속조치 누락을 기준선부터 측정하고 선금/기성/잔금·물품/용역을 섞어 평균하지 않음']
+ ],['P20'])
+);
+
 const requirements=[
  {id:'PMS-F01',name:'업무유형·과업·적용 기준',how:'TS 목적·기준·할 일·완료조건을 공통 구성하고 프로젝트 유형에 WBS·계약·인수 조건 추가',acceptance:'과업/보고 단위의 필요·불필요·확인 중 상태와 근거·주기·제출자·효력시점 기록. 권한자 변경 확정 후 이전 기준·이력 보존',test:'T01 · 혼합 사업·일상업무·보고 적용 변경·승인 전/후 기준·기한 종류',wbs:'SI-01 / SI-02',refs:['P02','P03','P05','P07']},
  {id:'PMS-F02',name:'산출물 접수·검토·보완',how:'저장·접수·분석·검토 상태와 원본 판본의 분리',acceptance:'분석 장애에도 접수 보존, 재시도 중복 없음, 보완본 검토 이력 추적',test:'T02 · 저장 실패·분석 지연·중복 제출·보완',wbs:'SI-02 / SI-04',refs:['P05']},
@@ -366,7 +406,71 @@ const sources={
  P16:{title:'용역계약일반조건',url:'https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000276694',published:'시행 2026-04-30 · 재정경제부계약예규 제149호',location:'제4조 계약문서, 제20조 검사·보완, 제26조 기성대가, 제27조 완성대가, 제61조 SW 계약정보 공개',fact:'계약문서·검사와 보완·기성부분 대가·검사 후 완성 대가 청구 및 공개범위의 관계 확인',limit:'계약상 중도금이 기성대가와 같다는 근거가 아님. TS 계약 적용·검사 인정범위·기한·공개범위는 해당 계약과 현행 내부기준 확인'},
  P17:{title:'TS 사전정보공표 · 제안서 평가결과 공개',url:'https://main.kotsa.or.kr/portal/priInfo.do?infoType=3&menuCode=03020100',published:'공개 업무목록 · 게시일 미표시',location:'제안서평가결과·계약현황의 담당부서 및 공식 제안서 평가결과 목록',fact:'제안서평가결과는 재정회계처 담당으로 표시. 계약정보 공개에 재정회계처·연구지원처 경로 확인. 기존 평가·계약 공개 업무가 존재',limit:'공개 경로 확인은 내부 평가도구·ERP 기능·전결·연계 API·실제 담당자 수락의 확인이 아님. 부서 전체 업무나 독점 권한으로 확대하지 않음',links:[['TS 제안서 평가결과 목록','https://main.kotsa.or.kr/portal/bbs/propeval_list.do?menuCode=05020500']]}
 };
-for(const[id,s]of Object.entries(sources)){s.id=id;s.checkedAt='2026-10-08';}
+Object.assign(sources,{
+  "P18": {
+    "title": "국토교통부 전자정부 구현에 관한 규정",
+    "url": "https://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000282294",
+    "published": "시행 2026-07-08 · 국토교통부훈령 제1967호",
+    "location": "제2·3·28·29·32·33·43~47조 · 본문 직접 대조",
+    "fact": "기관·위임위탁 업무별 적용범위, 국토교통EA시스템 등록·현행화·문서관리 및 서식·코드 변경 협의",
+    "limit": "TS 전체 업무의 RealPMS 의무 또는 현재 제품·API·계정의 동일성 확인 근거 아님. 적용업무·자료 이용권·제출권한 별도 확인",
+    "checkedAt": "2026-10-10",
+    "sha256": "7d89afbb732646a94387280bbd3e96a450cbd9514e940792cbea2bbe26c1f6c0"
+  },
+  "P19": {
+    "title": "TS 자동차검사 자동화 로봇 개발 제안서 평가결과",
+    "url": "https://main.kotsa.or.kr/portal/bbs/propeval_view.do?menuCode=05020500&bbscCode=propeval&bbscSeqn=17982",
+    "published": "게시 2026-09-29",
+    "location": "평가결과 알림.hwpx · Contents/section0.xml p5~28·table1 row0~3 (XML 위치, 쪽 아님)",
+    "fact": "공개 총괄의 기술80·가격20·합산·우선협상·기술부적격 상태와 기술85% 주석 확인",
+    "limit": "공고번호 없는 평가문서. 입찰19176과 제목·시점에 따른 대응 후보. 위원별 원본·최종계약·지급 미확보, 사례 기준의 전 사업 일반화 금지",
+    "checkedAt": "2026-10-10",
+    "sha256": "cdc8afbc98a421ceb16037a094cab627e4a284ff211ac362bd03a30776b5179c",
+    "links": [
+      [
+        "평가결과 알림 원본 HWPX",
+        "https://main.kotsa.or.kr/common/download.do?atflIdxx=F_propeval1798235000&atflSeqn=0"
+      ]
+    ]
+  },
+  "P20": {
+    "title": "TS 자동차검사 자동화 로봇 개발 물품공고·사양서 및 RFP",
+    "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?menuCode=05020100&bbscCode=tendnoti&bbscSeqn=19176",
+    "published": "게시 2026-08-12 · RFP 표지 2026.7 · 확보 공고 일정 2026.9 별도 보존",
+    "location": "공고 PDF1~4쪽(2026-116호/R26BK01679617-000); HWP BodyText/Section0 평가·협상·대가지급·제안서작성 절, record@19490·114392~114764·157233",
+    "fact": "물품·협상계약, 예산 이하 가격 및 기술85% 조건, 협상 조정, 검사·보완 후 대가 조건, 제안문서 공개 제한",
+    "limit": "게시일만으로 첨부의 변경 이력을 추정하지 않음. 물품 사례에 용역 일반조건 자동 적용 금지. HWP 본문 레코드 대조이며 표·도형 조판 전체 검증 아님. 최종 계약·검사·지급 결과는 미확보",
+    "checkedAt": "2026-10-10",
+    "sha256": "c219547f3eb735a5367c8948cdd07f1f3ce75ab83636559574dca0407c2a4cbc",
+    "links": [
+      [
+        "물품입찰공고 PDF",
+        "https://main.kotsa.or.kr/common/download.do?atflIdxx=F_tendnoti1917625637&atflSeqn=3"
+      ],
+      [
+        "사양서 및 제안요청서 HWP",
+        "https://main.kotsa.or.kr/common/download.do?atflIdxx=F_tendnoti1917625637&atflSeqn=2"
+      ]
+    ]
+  }
+});
+for(const[id,s]of Object.entries(sources)){s.id=id;s.checkedAt??='2026-10-08';}
+
+for(const [id,refs]of [['PMS-F05',['P18']],['PMS-F07',['P19','P20']],['PMS-F08',['P19','P20']],['PMS-F09',['P20']],['PMS-F10',['P20']]]) requirements.find(r=>r.id===id).refs.push(...refs);
+requirements.find(r=>r.id==='PMS-F05').acceptance+=' 국토교통EA 등록 규정과 RealPMS 구현·권한은 별도 확인. 기관·위탁업무·보고항목별 적용 근거와 서식/코드 협의 결과 연결.';
+requirements.find(r=>r.id==='PMS-F08').acceptance+=' 가격 조건·기술 적격을 합산점수와 분리. 제목만으로 공고·평가 자동 병합 금지.';
+requirements.find(r=>r.id==='PMS-F09').acceptance+=' 물품/용역·연차·적용조건별 검사·보완 근거 확인. 사례의 지급 조건을 선금 전체에 일반화 금지.';
+acceptanceTests.find(t=>t.id==='T11').scenario+=' · 같은 제목의 다른 공고·공고번호 없는 평가결과';
+acceptanceTests.find(t=>t.id==='T11').expected+=' · 제목·시점 대응만으로 동일 계약 확정 금지';
+acceptanceTests.find(t=>t.id==='T13').scenario+=' · 총점은 높지만 기술 기준 미달·가격 조건 미충족';
+acceptanceTests.find(t=>t.id==='T13').expected+=' · 적용 공고의 가격·기술 조건 확인 후 순위 검토';
+acceptanceTests.find(t=>t.id==='T16').scenario+=' · 물품/용역 적용조건 혼입·연차 변경';
+acceptanceTests.find(t=>t.id==='T16').expected+=' · 계약 종류·연차에 맞는 조건만 적용';
+// 앞서 생성한 화면용 시험표에도 변경된 명세를 동일 반영.
+sections.find(s=>s.id==='requirements').blocks.find(b=>b.type==='table'&&b.title==='업체 선정·지급·아카이브의 인수시험').rows=acceptanceTests.map(t=>[t.id+' · '+t.requirements.join(' / '),t.scenario,t.expected]);
+templates.find(t=>t.id==='bidder-evaluation').headers.push('계약종류·물품용역구분','공고평가연결근거·확인상태','기술적격조건·결과참조','가격조건·결과참조','공개용결과판본·근거참조');
+templates.find(t=>t.id==='payment-ledger').headers.push('계약종류·적용조건참조','보완·재검사·적합확인참조');
+
 const costBoundaries=[
  ['FP 코어에 포함되는 통상 분석·설계와 중복 제외','실제 현행 진단·자료/권한 확인의 독립 범위만 공수 산정','기존 분석서·표준 WBS·화면/업무모델 확인','SI-02의 분석·설계 / RD의 문제정의'],
  ['FP 대상 기능의 통상 분석·설계·구현·시험 포함범위 대조','확정 기능경계·FP·재사용 정도 기준 산정','기존 PMS 기능·NOA 공동업무·사용권·코드 확인','SI-01/03/04의 동일 기능·동일 시간'],
@@ -383,4 +487,4 @@ const reportingProfiles=[
  {id:'required',label:'보고 필요',guiding:true,requiresRealPms:true,externalSubmission:'적용 근거·제출 권한 확인 후 허용',completion:'TS 내부 확인과 필수 외부 보고의 각각의 완료조건 확인'},
  {id:'pending',label:'보고 적용범위 확인 중',guiding:true,requiresRealPms:null,externalSubmission:'미확정 외부 제출 차단',completion:'적용 근거·범위·완료조건을 권한자가 확인한 뒤 종료 판단'}
 ];
-module.exports={id:'TS-AIPMS-2027',version:'v0.3',date:'2026-10-08',title:'NOA 기반 TS 업무 가이딩 · AI PMS · 감리 지원엔진 R&D',status:'2027 정보화사업 편성·후속 연구 기획안 · 실제 PMS·평가·지급·TS 연계 미구현/미검증',assumption:'TS 자체 업무 가이딩을 공통으로 적용. RealPMS는 보고 근거가 확인된 과업/보고 단위에만 연결. 입찰·평가·지급은 실제 공고·내부규정·계약·원장·권한 확보 후 적용. 현재 참가업체·위원 점수·대금 자료는 미확보',constraints:'기존 AI 플랫폼·로컬 LLM·기존 서버 활용 · 신규 인프라 구입 0원 전제 · 사용권·운영비·여유자원 별도 확인 · 국토부 확대는 별도 사업·권한·비용 검토',downloads:[['통합 기획안','downloads/ts-ai-pms-2027-plan.md'],['감리엔진 R&D 계획','downloads/ts-ai-pms-audit-rnd.md'],['요구사항·시험 연결표','downloads/ts-ai-pms-requirements.csv'],['구축·연구 대가산정 입력표','downloads/ts-ai-pms-cost-inputs.csv'],['구조화 설계 원장','downloads/ts-ai-pms-design.json'],...templates.map(t=>[t.title,'downloads/'+t.file])],reportingProfiles,sections,requirements,acceptanceTests,templates,research,metrics,sources,costInputs};
+module.exports={id:'TS-AIPMS-2027',version:'v0.3',date:'2026-10-10',title:'NOA 기반 TS 업무 가이딩 · AI PMS · 감리 지원엔진 R&D',status:'2027 정보화사업 편성·후속 연구 기획안 · 실제 PMS·평가·지급·TS 연계 미구현/미검증',assumption:'TS 자체 업무 가이딩을 공통으로 적용. RealPMS는 보고 근거가 확인된 과업/보고 단위에만 연결. 입찰·평가·지급은 실제 공고·내부규정·계약·원장·권한 확보 후 적용. 현재 참가업체·위원 점수·대금 자료는 미확보',constraints:'기존 AI 플랫폼·로컬 LLM·기존 서버 활용 · 신규 인프라 구입 0원 전제 · 사용권·운영비·여유자원 별도 확인 · 국토부 확대는 별도 사업·권한·비용 검토',downloads:[['통합 기획안','downloads/ts-ai-pms-2027-plan.md'],['감리엔진 R&D 계획','downloads/ts-ai-pms-audit-rnd.md'],['요구사항·시험 연결표','downloads/ts-ai-pms-requirements.csv'],['구축·연구 대가산정 입력표','downloads/ts-ai-pms-cost-inputs.csv'],['구조화 설계 원장','downloads/ts-ai-pms-design.json'],...templates.map(t=>[t.title,'downloads/'+t.file])],reportingProfiles,sections,requirements,acceptanceTests,templates,research,metrics,sources,costInputs};
