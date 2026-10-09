@@ -31,7 +31,7 @@ const ewr=d.sources.find(s=>s.id==='N-EWR-TASK21'),ewrRfp=d.sources.find(s=>s.id
 check(ewr?.sha256==='b439aebffc704ab99e4e1ce0a3f5d61caba602e2576a159b227edb55305104bb'&&ewr.claim.includes('머신러닝')&&ewr.claim.includes('소스코드')&&ewr.limit.includes('2021'),'2021 연구 요구·원본해시·현재성 한계');
 check(ewrRfp?.sha256==='a931b3a1346f9df44e1ccab1003d8e1bc61a982e7f4aefab1d870ae0ac7696fc'&&ewrRfp.locator.includes('P45~57'),'독립 RFP 교차검증과 문단 위치');
 check(policy.existing.includes('2021년')&&policy.existing.includes('EWR')&&policy.existing.includes('납품·운영 상태')&&policy.extension.includes('분석 코드'),'기존 머신러닝 연구와 재사용 검토 선행');
-check(neg?.claim.includes('수의시담')&&neg.claim.includes('R25BK01235494')&&neg.limit.includes('첨부 0건')&&neg.limit.includes('계약'),'공식 후속 시담·공개첨부·계약 경계');
+check(neg?.claim.includes('실공고(재공고)')&&neg.claim.includes('입찰방식 전자시담')&&neg.claim.includes('수의시담')&&neg.claim.includes('R25BK01235494')&&neg.limit.includes('첨부 0건')&&neg.limit.includes('계약'),'공식 후속 시담·공개첨부·계약 경계');
 check(admrule?.effective==='2026-07-08'&&admrule.claim.includes('발생빈도와 별도로')&&admrule.limit.includes('모든 신고'),'빈도와 안전영향·조건부 심의 구분');
 check(policy.privacy.some(s=>s.includes('분석 코드')&&s.includes('서면승인'))&&policy.ask.includes('최종보고서'),'성과물 사용권·최종 산출물 확인');
 check([ewr,ewrRfp,neg,admrule].every(s=>policy.sourceIds.includes(s.id)&&wp.sourceIds.some(id=>wb.sourceById[id].url===s.url)),'새 원문4건 후보·기획화면 출처 연결');
