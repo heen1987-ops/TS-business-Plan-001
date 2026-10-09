@@ -446,9 +446,47 @@ addedSources.push(...[
     "limit": "모든 신고의 정식 조사·위원회 상정 의무로 확대하지 않음. 결함정보 분석과 리콜 이행보고는 별도 절차. 규정 존재는 현행 전산 구현·처리시간·품질의 증거가 아니며 내부 업무규정 원문 미확인"
   }
 ]);
+addedSources.push({
+  "id": "N-FINE-RFP25",
+  "title": "자동차결함정보시스템 과징금 감면 기능개발 — 과업 및 제안요청서",
+  "url": "https://main.kotsa.or.kr/common/download.do?atflIdxx=F_tendnoti1888473489&atflSeqn=2",
+  "published": "표지 2025-06 · TS 공고 2025-09-18",
+  "checkedAt": "2026-10-09",
+  "verification": "부분 확인",
+  "locator": "SFR-002~006 P233~316; COR-002 P798~812; SER-009~010 P717~754; PMR-003 P1001~1006; 소유권 P1393~1402",
+  "claim": "차대번호별 감경 증빙 입력·수정, 최초 제원통보일 조회, 관리자 검토·과징금 산정·CLipReport 출력, 감경 유형 처리 및 VPN 수리내역의 과징금 시정률 연계가 기존 발주 요구",
+  "limit": "표지 작성월과 공고일 구분. 실제 계약·계산식·재산정·최종 승인·구현·검수 미확인. 과징금 시정률과 분기 이행보고의 정의가 동일하다는 근거 아님. 권리 귀속·공동 소유 문구 병기, 자산별 최종 계약 확인 필요. 당시 기준·보관기간을 2027년 현행 법령으로 전용하지 않음. P는 추출 문단번호, 원본 페이지·그림·표 배치 미검증",
+  "sha256": "1247ec6cd121c93e226b46000bbffe4e5e544d78aa91368429d9053b450997b9"
+});
+addedSources.push(...[
+  {
+    "id": "N-ESG23-DEFECT",
+    "title": "2023 TS ESG경영 보고서 — 제작자동차 결함정보 분석",
+    "url": "https://main.kotsa.or.kr/resources/upload/202503/2023_ESG_report.pdf",
+    "published": "2023년 대상 보고서 · 발행일 미확인",
+    "checkedAt": "2026-10-09",
+    "verification": "부분 확인",
+    "locator": "PDF·인쇄 43쪽: 안전경영 / 데이터 활용 선제적 안전관리",
+    "claim": "2023년 결함조사 RISK MATRIX·패스트 트랙 도입과 신고·제작사 제출자료 분석에 관한 기관 보고",
+    "limit": "해당 쪽 원문·화면 대조. 2021년 연구모델의 채택·인과적 성과·2026년 운영·검수·재사용권을 입증하지 않음. URL의 202503을 발행일로 사용하지 않음",
+    "sha256": "e3919af1b6c647775a51ad7bec094213b2ed4346c7368e3ddb055a236be145eb"
+  },
+  {
+    "id": "N-KATRI23-REVIEW",
+    "title": "2023 자동차안전연구원 연차보고서 — 2023년도 평가와 반성",
+    "url": "https://katri.kotsa.or.kr/afile/fileDownload/clmmn",
+    "published": "2023년 대상 · 게시 2024-04-15",
+    "checkedAt": "2026-10-09",
+    "verification": "부분 확인",
+    "locator": "PDF·인쇄 174쪽: 제3부 2024년도 주요 계획 / 1.2 / ② 결함조사본부",
+    "claim": "품질 관련 소비자 신고 대응의 한계와 제작자 의견 확인·무상수리 권고 등 절차 개선 추진에 관한 기관 자체 평가·반성",
+    "limit": "해당 쪽 원문·화면 대조. 외부 감사 판정·2026년 현재 병목으로 단정하지 않음. 2024년 이후 개선 결과와 2021년 모델의 원인 관계 미확인. 게시물 id=868과 첨부 연결 확인",
+    "sha256": "26a6b509232cb0f40f0d86ba95c9886a2cb7e39bf6c1da018d667959adbe67b4"
+  }
+]);
 const newSourceMap={
  'KT-RP-01':['N-ORG','N-COMP26'], 'KT-RS-01':['N-ORG','N-PGREQUEST','N-PGRULE','N-CONTRACT'],
- 'KT-DP-01':['N-ORG','N-MAKER','N-RECALL42','N-RECALL-GUIDE','N-RECALL-CENTER','N-RECALL-ACT31','N-RECALL-DELEGATION','N-RECALL-RFP','N-RECALL-BID','N-EWR-TASK21','N-EWR-RFP21','N-RECALL-NEGOTIATION26','N-RECALL-ADMRULE26'], 'KT-D1-01':['N-ORG','N-MAKER'], 'KT-D2-01':['N-ORG','N-MAKER'],
+ 'KT-DP-01':['N-ORG','N-MAKER','N-RECALL42','N-RECALL-GUIDE','N-RECALL-CENTER','N-RECALL-ACT31','N-RECALL-DELEGATION','N-RECALL-RFP','N-RECALL-BID','N-EWR-TASK21','N-EWR-RFP21','N-RECALL-NEGOTIATION26','N-RECALL-ADMRULE26','N-FINE-RFP25','N-ESG23-DEFECT','N-KATRI23-REVIEW'], 'KT-D1-01':['N-ORG','N-MAKER'], 'KT-D2-01':['N-ORG','N-MAKER'],
  'KT-FR-01':['N-ORG','N-TESTREQUEST','N-FUELCELL'], 'KT-PR-01':['N-ORG','N-TESTREQUEST','N-LININGHOSE'],
  'KT-AR-01':['N-ORG','N-AVDSH126','N-AVDSACC26'], 'KT-CR-01':['N-ORG','N-AVDSH126','N-AVDSACC26','N-AVDSINTRO'],
  'KT-AD-01':['N-ORG','N-KCITYTECH'], 'KT-VC-01':['N-ORG','N-TESTREQUEST'], 'KT-CC-01':['N-ORG']
@@ -473,6 +511,19 @@ policy.privacy.unshift('기존 소유자 정보 연계 요구를 AI 모델 입�
 for(const id of ['N-RECALL42','N-MAKER']){const item=sources.find(s=>s.id===id);item.checkedAt='2026-10-09';item.verification='부분 확인';}
 Object.assign(sources.find(s=>s.id==='N-RECALL42'),{effective:'2026-10-02',locator:'제42조 제3~6항, 공식 조문 본문 직접 열람'});
 Object.assign(sources.find(s=>s.id==='N-MAKER'),{locator:'2026년 4분기 시정율 보고 공지·로그인 전 화면',claim:'2026-10-01~10-20 보고 안내와 90% 이후 지속보고 공지 확인. 공지의 제42조제3항 인용문과 현행 조문 문언 차이 확인',limit:'운영 안내 원문 보존. 공지 자체가 제42조제5항 대상 통보인지 미확인. 포털 안내만으로 일반 법정 보고조건 변경·위반 확정 금지'});
+// 2025 과징금 기능발주와 초기 분기보고 검토의 범위·자료 의미 분리.
+policy.existing+=' 별도 2025-09 과징금 감면 기능개발 RFP는 증빙 제출·수정, 관리자 검토·산정·CLipReport 출력, 감경 처리, 제원정보·VPN 연계도 요구. 실제 납품·계산식·재산정 동작은 확인 전';
+policy.scope+=' 과징금 산정·감경 기능의 재구축은 초기 범위에서 제외. 기존 결과를 참조할 때 자료 목적·정의의 일치부터 확인';
+policy.boundary+=' 과징금 산정·감경 확정과 원장 자동 변경 제외. RFP의 관리자 검토 및 접근권한 승인 기록을 법정 부과·감경 승인권의 근거로 확대하지 않음';
+policy.extension+=' 다른 업무의 시정률을 참조하는 경우 업무목적·분모·기준일·산식 판본을 먼저 대조. NOA는 허용된 설명문·증빙의 의미 차이와 담당자 확인 질문을 제시하며, 정형 계산·공식 산정은 기존 규칙과 업무시스템 활용';
+policy.stages[2][2]+='. 과징금용 시정률과 분기보고 시정률은 정의 확인 전 자동 대체 금지';
+policy.fields.push('외부 시정률 참조 시 업무목적·분모·기준일·산식 판본과 원문 근거');
+policy.tests.push('숫자가 같은 과징금용·분기보고 시정률도 정의 확인 전 자동 대체하지 않는 검증');
+policy.privacy.unshift('과징금 자료 연계는 별도 후속 범위·이용권 확인 대상. 초기 캠페인 검토에 매출액·사업자등록증·차대번호 추가 수집을 전제하지 않으며, 허용된 후속 연계에서도 식별 대사는 권한 구간에서 수행하고 모델 입력은 업무 토큰·필요 문단으로 최소화');
+policy.ask+=' 2025-09 과징금 RFP의 최종 산식·화면·연계정의·시험 및 인수자료 대조. 소스 제공과 자유 재사용은 구분하여 최종 계약의 자산별 권리·제3자 라이선스 확인. 실제 계산·재산정 지원 부재를 추정하지 않음';
+policy.existing+=' TS 2023 ESG 보고서는 결함조사 RISK MATRIX·패스트 트랙 도입을 보고. KATRI 2023 연차보고서는 품질 신고 대응 한계와 절차 개선 추진을 자체 점검. 두 기록 모두 당시 기관 보고이며 2021 연구성과 귀속·현재 운영·현재 미해소 문제를 확정하지 않음';
+policy.ask+=' 2023년 자체 점검 이후 품질 신고 처리경로·개선 결과·현재 사례 확인. 기존 분석체계의 존재와 이용자 문제의 해소 여부를 각각 검증';
+policy.requirements[0].output=policy.fields.join(' / ');
 policy.requirements[3].output=policy.tests.join(' / ');
 byRecord('KT-RP-01').metrics[0].formula='필수 후속 인계가 1건 이상 빠진 확정 변경 건수 ÷ 필수 후속 인계가 필요한 확정 변경 건수 ×100';
 for(const r of records){r.stageScopes=r.stages.map((_,i)=>r.id==='KT-VC-01'?(i<3?'초기 적용: 기술검토·검사 준비':'후속 확대: 검사·제원·증명·통보 대사'):'해당 업무 유형의 초기/확대 범위는 현업 사례 확인 후 확정');}

@@ -36,3 +36,24 @@ check(admrule?.effective==='2026-07-08'&&admrule.claim.includes('발생빈도와
 check(policy.privacy.some(s=>s.includes('분석 코드')&&s.includes('서면승인'))&&policy.ask.includes('최종보고서'),'성과물 사용권·최종 산출물 확인');
 check([ewr,ewrRfp,neg,admrule].every(s=>policy.sourceIds.includes(s.id)&&wp.sourceIds.some(id=>wb.sourceById[id].url===s.url)),'새 원문4건 후보·기획화면 출처 연결');
 console.log('EWR 연구·후속 시담 검증을 포함한 '+n+'항목 통과');
+
+// 2026-10-09 별도 과징금 기능발주와 캠페인 보고의 목적·정의 구분.
+const fine=d.sources.find(s=>s.id==='N-FINE-RFP25');
+check(fine?.sha256==='1247ec6cd121c93e226b46000bbffe4e5e544d78aa91368429d9053b450997b9'&&fine.published.includes('2025-06')&&fine.published.includes('2025-09-18')&&fine.locator.includes('SFR-002~006'),'과징금 원본 해시·시점·요구위치');
+check(policy.existing.includes('2025-09')&&policy.existing.includes('CLipReport')&&policy.scope.includes('재구축은 초기 범위에서 제외'),'기존 산정·출력 요구와 초기 추가범위 구분');
+check(policy.stages[2][2].includes('과징금용 시정률')&&policy.stages[2][2].includes('정의 확인 전 자동 대체 금지')&&policy.fields.some(s=>s.includes('업무목적·분모·기준일·산식')),'보고 목적·산식 조건 대조');
+check(policy.tests.some(s=>s.includes('숫자가 같은'))&&policy.requirements[3].output.includes('숫자가 같은'),'다른 목적의 같은 수치 자동 전용 회귀검증');
+check(policy.boundary.includes('법정 부과·감경 승인권')&&policy.ask.includes('자산별 권리')&&fine.limit.includes('실제 계약'),'행정권한·코드 권리·실제 이행 구분');
+check(policy.sourceIds.includes(fine.id)&&wp.sourceIds.some(id=>wb.sourceById[id].url===fine.url)&&policy.cost===null&&policy.metrics.every(m=>m.baseline===null&&m.target===null),'새 원문 동기화·금액·실측 미확정 보존');
+console.log('과징금 기능발주 검증을 포함한 '+n+'항목 통과');
+
+// 과거 기관 성과보고와 자체 반성의 동시 보존; 현재 병목·연구성과로 승격 금지.
+const esg=d.sources.find(s=>s.id==='N-ESG23-DEFECT'),reflection=d.sources.find(s=>s.id==='N-KATRI23-REVIEW');
+check(esg?.sha256==='e3919af1b6c647775a51ad7bec094213b2ed4346c7368e3ddb055a236be145eb'&&esg.locator.includes('43쪽')&&esg.limit.includes('2021'),'기관 분석 운영 보고와 연구성과 귀속 구분');
+check(reflection?.sha256==='26a6b509232cb0f40f0d86ba95c9886a2cb7e39bf6c1da018d667959adbe67b4'&&reflection.locator.includes('174쪽')&&reflection.limit.includes('외부 감사'),'기관 자체 반성과 외부 감사 구분');
+check(policy.existing.includes('RISK MATRIX')&&policy.existing.includes('당시 기관 보고')&&policy.ask.includes('개선 결과·현재 사례'),'과거 성과·한계와 현재 검증 질문 동시 반영');
+check([esg,reflection].every(s=>policy.sourceIds.includes(s.id)&&wp.sourceIds.some(id=>wb.sourceById[id].url===s.url)),'상반된 공식 근거 모두 후보·기획화면 연결');
+console.log('기관 보고·반대 근거 검증을 포함한 '+n+'항목 통과');
+
+check(policy.requirements[0].output===policy.fields.join(' / '),'추가 시정률 정의 필드와 수집 요구사항 출력의 일치');
+console.log('요구사항 추적 검증을 포함한 '+n+'항목 통과');

@@ -63,11 +63,13 @@ try{
  for(const width of [1366,390]){
   await page.setViewportSize({width,height:900});await page.goto(base+'index.html?view=workbench&screen=solutions&project=KT-DP-01');await page.locator('.wb-intent').waitFor();
   check(width+' 리콜 기존 발주·추가 AI 구분',await page.locator('#wb-main').innerText().then(t=>t.includes('SFR-002')&&t.includes('SFR-003~005')&&t.includes('의미 차이')&&t.includes('인수 상태는 미확인')));
+  check(width+' 기존 과징금 기능과 신규 기능 구분',await page.locator('#wb-main').innerText().then(t=>t.includes('2025-09')&&t.includes('CLipReport')&&t.includes('실제 납품·계산식·재산정')));
   check(width+' 기존 EWR 연구와 실제 운영 구분',await page.locator('#wb-main').innerText().then(t=>t.includes('2021년 EWR')&&t.includes('머신러닝')&&t.includes('납품·운영 상태는 미확인')));
   check(width+' 후속 전자시담·재사용 산출물 표시',await page.locator('#wb-main').innerText().then(t=>t.includes('전자시담')&&t.includes('최종 분석 코드')&&t.includes('사용권 확인')));
   await page.goto(base+'index.html?view=workbench&screen=service&project=KT-DP-01');await page.locator('.wb-service-flow').waitFor();
   check(width+' 리콜 보고조건·실제 정비 구분',await page.locator('#wb-main').innerText().then(t=>t.includes('90%')&&t.includes('제5항 통보')&&t.includes('실제 정비 완료')));
   check(width+' 리콜 개인정보 입력 경계·가로 넘침',await page.locator('#wb-main').innerText().then(t=>t.includes('소유자 정보')&&t.includes('모델 입력'))&&await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
+  check(width+' 보고 목적별 시정률 자동 전용 차단',await page.locator('#wb-main').innerText().then(t=>t.includes('과징금용 시정률')&&t.includes('정의 확인 전 자동 대체 금지')&&t.includes('매출액·사업자등록증·차대번호')));
   check(width+' 연구 자료의 이용권 경계 표시',await page.locator('#wb-main').innerText().then(t=>t.includes('서면승인')&&t.includes('분석 코드')&&t.includes('학습')));
   await page.screenshot({path:`qa-output/institution-rfp/${sha?'public':'local'}-recall-${width}.png`,fullPage:true});
   await page.goto(base+'index.html?view=workbench&screen=institution&project=KT-DP-01');await page.locator('.wb-law-context').first().waitFor();check(width+' 리콜 기관 화면의 법정주체 구분',await page.locator('#wb-main').innerText().then(t=>t.includes('제작사 자체')&&t.includes('시정명령')&&t.includes('통지 대행')));
