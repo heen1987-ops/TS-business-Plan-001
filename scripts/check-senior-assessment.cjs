@@ -4,7 +4,7 @@ check(d.id==='QE-H01'&&d.year===2027&&d.status.includes('후보'),'2027 추가 �
 check(d.metrics.length===5&&d.metrics.every(m=>m.baseline===null&&m.target===null),'임의 정확도·효과 목표 금지');
 check(d.metrics[0].name==='추가 기능 확인 필요 대상의 누락률'&&d.evaluation.includes('기능 저하 확정, 법정 적부 또는 사고위험 판정 정확도와 구분'),'M01 참조라벨을 확정 진단·자격 판단으로 승격하지 않음');
 check(d.cost.amount===null&&d.cost.people===null&&d.cost.period===null,'자료·범위 확인 전 가격·인원 미확정');
-const ids=new Set(d.sources.map(s=>s.id));check(ids.size===32,'기존31개와 공개코드 정적 대조1개 근거');
+const ids=new Set(d.sources.map(s=>s.id));check(ids.size===34,'기존32개와 발급FAQ·법적활용 검토2개 근거항목(독립 문서수 아님)');
 for(const s of d.sources){check(/^https:\/\//.test(s.url)&&/^2026-10-(06|09)$/.test(s.checkedAt),'근거 URL·확인일 '+s.id);check(s.locator&&s.fact&&s.limit,'근거 위치·사실·한계 '+s.id);}
 for(const s of d.sections){for(const id of s.refs)check(ids.has(id),'근거 추적 '+id);for(const r of s.rows)check(r.length===s.headers.length,'표 필드 계약 '+s.id);}
 const text=JSON.stringify(d);for(const t of ['NHIS 직접 연계는 필수 착수조건으로 두지 않음','병력 자체는 적부판정 대상이 아님','연구 데이터와 개인 업무기록 분리','독립 전문 기능평가','새로운 의무교육','공통 근거관리·권한·로그 코어는 재사용'])check(text.includes(t),'중복·권리·평가 경계 '+t);
@@ -76,3 +76,12 @@ check(how.rows[3][2].includes('동일 가중치에 전처리만 임의 교체하
 check(d.evaluation.includes('연령 대표값을 실제 나이로')&&d.evaluation.includes('거리 절댓값을 반응시간으로 설명하지 않음'),'파생피처의 업무 설명 오역 방지');
 check(d.cost.scope.includes('TS 납기·비용으로 환산하지 않음')&&d.cost.amount===null,'연구 장비 실행시간의 비용 전용 금지');
 console.log('공개코드·시점·전처리 검수 포함 '+checks+'개 검증 통과');
+
+const issue2313=d.sources.find(s=>s.id==='H33'),rule2313=d.sources.find(s=>s.id==='H34'),handoff2313=d.sections.find(s=>s.id==='handoff');
+check(issue2313.fact.includes('본인인증')&&issue2313.limit.includes('AI 처리 동의')&&rule2313.locator.includes('제9조'),'발급 안내·법적 활용 근거 연결');
+check(handoff2313.rows.length===6&&handoff2313.rows[1][1].includes('수검사실증명서')&&handoff2313.rows[1][1].includes('AI 개인위험리포트'),'세 문서 종류·용도 분리');
+check(handoff2313.rows[2][2].includes('최근 발급일을 새 검사일로 해석하지 않음')&&handoff2313.rows[2][2].includes('신규검사 등 최종결과 재발급'),'검사일·발급일·최종결과 범위의 대조');
+check(handoff2313.rows[3][2].includes('위임장 전체를 LLM에 전달하지 않음')&&handoff2313.rows[5][2].includes('직무 외 부당사용'),'발급 위임·AI 처리·목적별 접근 구분');
+check(handoff2313.rows[4][2].includes('기존 업무')&&handoff2313.rows[4][2].includes('교육 완료로 처리하지 않음'),'기존 교육 보존·AI 기록과 실시 구분');
+check(d.metrics.length===5&&d.metrics.every(x=>x.target===null)&&d.cost.amount===null,'기획설계·실측·미산정 상태 보존');
+console.log('결과문서·발급·교육 역할 포함 '+checks+'개 검증 통과');

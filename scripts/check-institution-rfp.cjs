@@ -110,3 +110,7 @@ console.log('논문·기존교육 대조 포함 '+checks.length+'개 그룹 검�
 check('QE 공개코드 고정판본 출처 연결',qe1559.sourceKeys.includes('qe-model-code')&&r.workflowSources.some(s=>s.key==='qe-model-code'&&s.url.includes('b251785e')));
 check('QE 전처리 변경·업무 설명·재현 단계 경계',qe1559.extra.includes('동일 가중치에 전처리만 임의 교체하지 않음')&&qe1559.boundary.includes('거리 절댓값을 반응시간으로 설명하지 않음')&&qe1559.boundary.includes('공개 자산 확인·성능 재현·업무 적용 검수'));
 console.log('공개코드 인수조건 포함 '+checks.length+'개 그룹 검증 통과');
+
+check('QE 기존발급과 세문서 구분',qe1559.sourceKeys.includes('qe-result-issue')&&qe1559.existing.includes('본인인증 재발급')&&qe1559.extra.includes('종합판정표·수검사실증명서·AI 개인위험리포트'));
+check('QE 발급시점·이력범위·위임권한 오인 방지',qe1559.boundary.includes('최근 발급일을 새 검사일로 해석하지 않음')&&qe1559.boundary.includes('모든 검사유형')&&qe1559.boundary.includes('대리발급 위임을 AI 처리 동의로 확대하지 않음'));
+console.log('발급·활용 경계 포함 '+checks.length+'개 그룹 검증 통과');

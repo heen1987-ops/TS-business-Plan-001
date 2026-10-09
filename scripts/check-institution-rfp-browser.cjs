@@ -83,6 +83,7 @@ try{
  check('QE 공식 사례집·실적 분모·시점 검증 표시',await page.locator('#wb-main').innerText().then(t=>t.includes('검사 후24개월')&&t.includes('398건 리포트')&&t.includes('398/981 완료율 산정 금지')&&t.includes('시스템 실제 이용가능시점')&&t.includes('R25BK00904242-000')));
  check('QE 논문·조회실패·기존교육 경계 표시',await page.locator('#wb-main').innerText().then(t=>t.includes('이력 제외21피처')&&t.includes('조회 실패를 무이력으로 대체하지 않음')&&t.includes('2026-06-12')&&t.includes('사업용 의무교육')));
  check('QE 코드 검토와 실제 적용 검수 구분',await page.locator('#wb-main').innerText().then(t=>t.includes('공개 자산 확인·성능 재현·업무 적용 검수')&&t.includes('동일 가중치에 전처리만 임의 교체하지 않음')&&t.includes('거리 절댓값을 반응시간으로 설명하지 않음')));
+ check('QE 발급·문서 종류·이력 범위 경계 표시',await page.locator('#wb-main').innerText().then(t=>t.includes('종합판정표·수검사실증명서·AI 개인위험리포트')&&t.includes('최근 발급일을 새 검사일로 해석하지 않음')&&t.includes('대리발급 위임을 AI 처리 동의로 확대하지 않음')));
  check('QE 사전규격·물리량·판본·인수 한계 표시',await page.locator('#wb-main').innerText().then(t=>t.includes('PMR-007')&&t.includes('이격거리')&&t.includes('수정된32회에 재적용하지 않음')&&t.includes('빈 보고서 양식')&&t.includes('실제 납품 완료로 간주하지 않으며')));
  await page.goto(base+'index.html?view=workbench&screen=service&project=QE-01');await page.locator('.wb-service-flow').waitFor();
  check('QE 식별키의 예측·LLM 입력 제외 서비스 표시',await page.locator('#wb-main').innerText().then(t=>t.includes('예측 특성·LLM 입력에서 제외')));
