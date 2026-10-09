@@ -379,6 +379,28 @@ sections.find(s=>s.id==='architecture').blocks.push(
  ],['P08','P22'])
 );
 
+sections.find(s=>s.id==='purpose').blocks.push(
+ table('기존 플랫폼에서 확인된 범위와 이번 추가 기획',['자료·시점','확인된 범위','2027년 PMS에 적용할 판단'],[
+ ['2025년 구축 계약 공시 · P24','TS AI 공통 플랫폼 구축 용역의 계약일·기간·부서 공개','기존 구축사업을 기준선으로 관리. 2026년 고도화 계약·납품·검수와 별개'],
+ ['2026-06-30 기준 AI 활용현황 · P23','사례 3 공통플랫폼의 2025년부터 기 활용 표기. PaaS·비정형 지식 DB·온나라/업무포털/외부정보 파이프라인 기재','기관 활용현황 공시 확인. 실제 설치목록·API·제품별 사용권·PMS 기능은 추가 대조'],
+ ['2026년 고도화 발주 요구 · P22','통합권한·MCP 확장·도구 변환·연계 시험 요구','앞선 구축·활용 공시로 이번 발주 요구의 이행 완료를 판정하지 않음'],
+ ['2027년 TS 자체 PMS · 설계 제안','선정 조건→채택 계약→산출물·검사→청구 근거→후속조치의 업무 관계 연결','기존 지식·연계 기반을 활용하고 사업별 규칙·관계·검증의 부족분만 추가. 기대효과와 실측 성과 구분']
+ ],['P23','P24','P22'])
+);
+sections.find(s=>s.id==='cost').blocks.splice(3,0,
+ table('AI 도입비를 PMS 작업에 연결하는 산정안',['비용 구분','PMS 적용·필수 입력','기존 계약·중복 확인'],[
+ ['제품 이용료','NOA·aRDa 등 채택 제품의 적용 범위·사용기간·사용 규모·가격표/견적·라이선스 확인','기보유 권리의 범위와 추가 이용료 대조. 로컬 LLM·기존 서버라는 이유로 무료 처리 금지'],
+ ['AI 커스터마이징','요구 분석·사업문서 수집/정제/검수·프롬프트/스킬 설정·평가 및 안정화. 작업별 기간·직무·산출물과 견적 근거 확보','서비스 기본지원 포함분 제외. SI-01/03/04의 동일 분석·자료·시험 시간을 별도 중복 합산하지 않음'],
+ ['PMS 구축·개발','사업·계약·변경·검사·지급 관계와 승인된 어댑터의 추가 기능. 기능경계·입출력·재사용 정도를 확정한 뒤 FP 또는 투입공수 산정','동일 구축 작업에 FP와 공수를 동시 합산하지 않음. P21/P22의 기존 보관·권한·MCP 범위와 대조'],
+ ['도입 후 운영','연간 이용료와 운영 역할별 투입공수, 지원·저장·백업의 필요 범위 확인','구축·안정화 기간과 운영 기간 구분. 같은 기간·서비스의 이용료·유지관리 중복 제외']
+ ],['P25']),
+ note('가이드·양식·단가의 적용 시점',[
+ '2025년 개정 가이드 인쇄 160·164쪽에서 구축·개발 비용의 FP 또는 투입공수 방식 확인. 157쪽 개요만으로 전체 AI 도입비를 일괄 인월 산정하지 않음',
+ '2026년 1월 산정 양식은 참고 예제. 양식 게시문도 수치·수식 오류 가능성과 사업별 확인 필요를 명시. ZIP 원본 보존, 내부 양식 수식의 전체 검산은 미실시',
+ '2027년 편성 시 적용할 가이드·노임·사용권·사업 규모를 별도 확정. 이전 연도 예산편성 기준 사용 가능 여부는 발주 조건과 함께 확인. 견적·공수·실측효과는 현재 미산정'
+ ],['P25','P26'])
+);
+
 const requirements=[
  {id:'PMS-F01',name:'업무유형·과업·적용 기준',how:'TS 목적·기준·할 일·완료조건을 공통 구성하고 프로젝트 유형에 WBS·계약·인수 조건 추가',acceptance:'과업/보고 단위의 필요·불필요·확인 중 상태와 근거·주기·제출자·효력시점 기록. 권한자 변경 확정 후 이전 기준·이력 보존',test:'T01 · 혼합 사업·일상업무·보고 적용 변경·승인 전/후 기준·기한 종류',wbs:'SI-01 / SI-02',refs:['P02','P03','P05','P07']},
  {id:'PMS-F02',name:'산출물 접수·검토·보완',how:'저장·접수·분석·검토 상태와 원본 판본의 분리',acceptance:'분석 장애에도 접수 보존, 재시도 중복 없음, 보완본 검토 이력 추적',test:'T02 · 저장 실패·분석 지연·중복 제출·보완',wbs:'SI-02 / SI-04',refs:['P05']},
@@ -497,6 +519,72 @@ Object.assign(sources,{
 });
 sources.P21={"title": "TS 온-나라 기록물 이관 용역 공고·과업 및 제안요청서", "url": "https://main.kotsa.or.kr/portal/bbs/tendnoti_view.do?menuCode=05020100&bbscCode=tendnoti&bbscSeqn=19105", "published": "게시 2026-05-27 · 공고 2026-089호", "location": "HWP BodyText/Section0 ECR-001 record@76909, DAR-002 @96881, DAR-006 @112675, INR-001 @116596, QUR-002 @159067, SER-004 @205903 (레코드 위치, 쪽 아님)", "fact": "온-나라·클라우드 기록관리 구축·운영 기재와 기존 기능 활용, 조직·사용자 매핑·무결성·검색열람·보안의 발주 요구 확인", "limit": "RFP 기재 현황·요구 확인. 실제 계약·검수·현행 API·제안/평가 자료 수록·보존기간표 미확인. HWP 텍스트 대조이며 조판 전체 시각 검증 아님. 이관 완료와 업무 이행·지급 완료 구분", "checkedAt": "2026-10-10", "sha256": "6c734ed7b67408dd8c5af2576aefbe653baba104efaab5f10371626cd6987658", "links": [["과업 및 제안요청서 원본 HWP", "https://main.kotsa.or.kr/common/download.do?atflIdxx=F_tendnoti1910564542&atflSeqn=1"]]};
 sources.P22={"title": "TS AI 공통플랫폼 고도화 및 민원·전세버스 공시 AI 구축 용역 RFP", "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01565398&bidPbancOrd=000", "published": "2026.6 RFP · ALIO 보관 공고 게시 2026-06-08", "location": "공식 HWP BodyText/Section0 SFR-004 record@121425, SIR-001 @150347, SIR-002 @153798, INR-003 @164737 (레코드 위치, 쪽 아님)", "fact": "통합권한·기존 API Gateway/MCP 확장·OpenAPI의 AI Tool 변환·연계 정합성 시험의 기존 발주 요구", "limit": "공식 첨부 이번 재수집·직접 대조. ALIO 게시일은 기존 보관 응답 기준. 발주 요구를 실제 납품·설치·검수·PMS 재사용권 확보로 해석하지 않음. HWP 조판 전체 시각 검증 아님", "checkedAt": "2026-10-10", "sha256": "fedda42b47b47bfb94a1d1e8a8f738acc400c1ca94349d822947658b94615280", "links": [["공식 과업 및 제안요청서 HWP", "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01565398&bidPbancOrd=000&fileType=&fileSeq=3&prcmBsneSeCd=03"], ["ALIO 공고 상세", "https://www.alio.go.kr/occasional/bidDtl.do?seq=3542211"]]};
+Object.assign(sources,{
+  "P23": {
+    "title": "TS AI 활용 사례 · 2026년 6월 기준",
+    "url": "https://main.kotsa.or.kr/portal/bbs/govinfo_view.do?menuCode=03020500&bbscCode=govinfo&bbscSeqn=37824",
+    "published": "게시 2026-07-15 · 기준 2026-06-30",
+    "location": "원본 PDF 2쪽 사례 3; 1쪽 총괄 및 2쪽 사례 1·2와 상태 구분",
+    "fact": "공통플랫폼 2025년부터 기 활용의 기관 공시. PaaS·비정형 지식 DB·온나라/업무포털/외부정보 파이프라인 기재",
+    "limit": "기관 보고이며 현행 설치·성능·인수의 독립 검증 아님. 15건에 구축 중 사업 포함. 2026 고도화 전체 이행·NOA/aRDa 설치·PMS 기능·사용권·실측 효과를 입증하지 않음",
+    "sha256": "0bf4a1f8daacd360e5b462abe2edb5f0a2f42d32f76e487a09e0da509392ccdb",
+    "links": [
+      [
+        "AI 활용 사례 원본 PDF",
+        "https://main.kotsa.or.kr/common/download.do?atflIdxx=F_govinfo3782483662&atflSeqn=0"
+      ]
+    ],
+    "checkedAt": "2026-10-10"
+  },
+  "P24": {
+    "title": "TS 2025년 본사 계약 현황 · 수의계약 제외",
+    "url": "https://main.kotsa.or.kr/portal/bbs/finninfo_view.do?menuCode=03020300&bbscCode=finninfo&cateCode=1&bbscSeqn=37979",
+    "published": "게시 2026-05-14 · 2025년 계약 공시",
+    "location": "계약대장 60행(연번 55), C60 사업명·D60 계약일·E60 기간·J60 계약방법·K60 부서",
+    "fact": "TS AI 공통 플랫폼 구축 용역 계약 공시. 계약일 2025.06.27, 기간 20250627~20251219, 디지털기획처",
+    "limit": "2025년 구축 계약 공시. 2026년 고도화 계약 또는 실제 지급·검수·제품별 설치·재사용권 증빙으로 확대하지 않음",
+    "sha256": "e4d57ae7e6af9ca956d05c91fd3520589f07c0dbde91f3a894dddef8a380a178",
+    "links": [
+      [
+        "본사 계약 현황 원본 XLSX",
+        "https://main.kotsa.or.kr/common/download.do?atflIdxx=F_finninfo3797949480&atflSeqn=0"
+      ]
+    ],
+    "checkedAt": "2026-10-10"
+  },
+  "P25": {
+    "title": "SW사업 대가산정 가이드 · 2025년 개정판",
+    "url": "https://www.sw.or.kr/site/sw/ex/board/View.do?bcIdx=63607&cbIdx=276&searchExt1=",
+    "published": "2025-08-11",
+    "location": "인쇄 157~164쪽(PDF 175~182쪽) 2.2 인공지능 도입 방식; 표 3-26·3-29. 해당 표 시각 대조",
+    "fact": "AI 도입비의 이용료·커스터마이징·구축개발 구분, 구축개발의 FP 또는 공수 선택, 도입 후 운영비 별도 산정 구조",
+    "limit": "일반 산정 가이드이며 TS의 계약가격·제품 성능·2027 적용 단가 확정 근거 아님. 적용 범위·수량·견적·권리·중복 작업 대조 필요",
+    "sha256": "2c05b013c1be3d4e68e591c6ee72d4cf230e049752b3523acb8fcf7fb2ed2fcb",
+    "links": [
+      [
+        "공식 가이드 PDF",
+        "https://www.sw.or.kr/common/board/Download.do?bcIdx=63607&cbIdx=276&streFileNm=84780de7-b25f-49b0-acb3-cca17aa78f67.pdf"
+      ]
+    ],
+    "checkedAt": "2026-10-10"
+  },
+  "P26": {
+    "title": "SW사업대가 산정양식 · 2026년 1월",
+    "url": "https://www.sw.or.kr/site/sw/ex/board/View.do?bcIdx=65004&cbIdx=276&searchExt1=",
+    "published": "2026-01-28",
+    "location": "게시문 산정 양식 설명·사용 유의사항·1103 AI도입 양식 목록; 첨부 ZIP 확보",
+    "fact": "2025년 가이드와 별개인 2026년 산정 양식 제공. 사업별 환경에 따른 검토 및 수치·수식 확인 필요의 공식 안내",
+    "limit": "ZIP 내부 양식의 전체 판독·수식 검산 미실시. 표의 예제값을 2027년 견적·확정단가로 사용하지 않음",
+    "sha256": "9e059adb5d86b6c1ccbb9788ceaed815145becb3c4d88d40d57d1480cdb071a8",
+    "links": [
+      [
+        "공식 산정 양식 ZIP",
+        "https://www.sw.or.kr/common/board/Download.do?bcIdx=65004&cbIdx=276&streFileNm=1662b33c-2fbc-4e99-b063-0e67a1b6502c.zip"
+      ]
+    ],
+    "checkedAt": "2026-10-10"
+  }
+});
 for(const[id,s]of Object.entries(sources)){s.id=id;s.checkedAt??='2026-10-08';}
 
 for(const [id,refs]of [['PMS-F05',['P18']],['PMS-F07',['P19','P20']],['PMS-F08',['P19','P20']],['PMS-F09',['P20']],['PMS-F10',['P20']]]) requirements.find(r=>r.id===id).refs.push(...refs);
@@ -539,6 +627,9 @@ sections.find(s=>s.id==='cost').blocks[0].rows[2][2]+=' · 기록물 이관 RFP 
 costBoundaries[2][1]+=' · 사업/계약 관계·파생자료 권한 회수·공식 접수 대사의 부족분';
 costBoundaries[2][2]+=' · P21/P22의 요구→실제 계약→설치/검수→사용권→증분 공수 대조';
 sections.find(s=>s.id==='cost').blocks[0].rows[2][2]+=' · 공통플랫폼 SFR-004·SIR-001·SIR-002·INR-003의 동일 권한/MCP/도구변환 기능 재산정 제외, 실제 이행·사용권 대조';
+sections.find(s=>s.id==='cost').blocks[0].rows[2][2]+=' · P25 기준 제품 이용료/AI 커스터마이징/추가 구축개발을 구분하고 동일 FP·공수 중복 제외';
+costBoundaries[2][2]+=' · P23 기관 활용 공시·P24 2025 구축 계약을 현재 제품별 인수·권리와 구분';
+costBoundaries[3][2]+=' · 빈 표준서식과 실제 실행일·대상 버전·결과·승인이 기입된 시험증거 구분';
 const costInputs=sections.find(s=>s.id==='cost').blocks[0].rows.map((r,i)=>({bundle:r[0],scope:r[1],method:r[2],includedBoundary:costBoundaries[i][0],incrementalBoundary:costBoundaries[i][1],reuseEvidence:costBoundaries[i][2],overlapWbs:costBoundaries[i][3],fp:null,personMonths:null,unitCost:null,amount:null,status:'요구·재사용·공고 확인 후 산정'}));
 const reportingProfiles=[
  {id:'not-required',label:'보고 불필요',guiding:true,requiresRealPms:false,externalSubmission:'미생성',completion:'TS 업무별 완료조건 확인으로 종료'},

@@ -9,7 +9,7 @@ check(d.requirements.find(r=>r.id==='PMS-F05').test.includes('혼합 사업')&&d
 check(d.metrics.find(m=>m.id==='K1').quality.includes('0분')&&d.metrics.find(m=>m.id==='K1').method.includes('대상 과업만'),'보고 비대상 0분 평균 혼입 방지');
 check(d.constraints.includes('국토부 확대는 별도 사업·권한·비용 검토'),'향후 기관 확대와 현재 사업 경계');
 check(d.sections.length===16,'목적부터 근거까지 16개 연속 절');check(d.requirements.length===12&&d.research.length===4&&d.metrics.length===5,'12개 요구·4개 연구·5개 지표');
-check(Object.keys(d.sources).length===22&&d.downloads.length===8,'기존20개+기록물/공통플랫폼 RFP2개 근거·8개 배포 자료');
+check(Object.keys(d.sources).length===26&&d.downloads.length===8,'기존22개+활용/계약/가이드/양식4개 근거·8개 배포 자료');
 const sectionText=id=>JSON.stringify(d.sections.find(s=>s.id===id));
 check(sectionText('procurement').includes('협상에 의한 계약의 예시')&&sectionText('procurement').includes('가상 업체')&&sectionText('procurement').includes('공동수급'),'절차 조건부 적용·가상 업체 배제·참가단위');
 check(sectionText('procurement').includes('실제 부여한 0점')&&sectionText('procurement').includes('임의 가감점')&&sectionText('procurement').includes('채택 제안'),'점수 미입력/0 분리·자동 평가 배제·채택 조건');
@@ -54,4 +54,12 @@ check(d.sources.P21.sha256==='6c734ed7b67408dd8c5af2576aefbe653baba104efaab5f103
 
 check(sectionText('architecture').includes('SFR-004')&&sectionText('architecture').includes('명세 등록만으로')&&d.costInputs[2].method.includes('SIR-002'),'공통 AI 기반과 PMS 어댑터의 증분 경계');
 check(d.sources.P22.sha256==='fedda42b47b47bfb94a1d1e8a8f738acc400c1ca94349d822947658b94615280','공식 공통플랫폼 RFP 해시');
+
+check(sectionText('purpose').includes('2025년 구축 계약')&&sectionText('purpose').includes('기관 활용현황 공시')&&sectionText('purpose').includes('이행 완료를 판정하지'),'구축 계약·기관 활용·2026 요구·2027 설계의 구분');
+check(d.sources.P23.limit.includes('구축 중')&&d.sources.P24.limit.includes('2026년'),'활용목록과 과거 계약의 현재 완료 오인 방지');
+check(sectionText('cost').includes('FP 또는 투입공수')&&sectionText('cost').includes('무료 처리 금지')&&sectionText('cost').includes('동시 합산하지'),'AI 이용료·커스터마이징·구축비 중복 방지');
+check(sectionText('cost').includes('2027년')&&d.sources.P26.limit.includes('수식 검산 미실시'),'산정 양식 예제와 다음 연도 확정 견적 구분');
+check(d.costInputs[2].method.includes('P25')&&d.costInputs[2].reuseEvidence.includes('P23')&&d.costInputs[3].reuseEvidence.includes('빈 표준서식'),'비용 다운로드의 신규 근거·실행 증거 확인 연결');
+for(const id of ['P23','P24','P25','P26'])check(/^[a-f0-9]{64}$/.test(d.sources[id].sha256),'공식 원본 해시 '+id);
+
 console.log('TS 자체 AI PMS 설계 '+count+'항목 통과');
