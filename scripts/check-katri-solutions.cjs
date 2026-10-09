@@ -75,3 +75,13 @@ check(policy.ask.includes('DB 구조 변경이력')&&policy.ask.includes('최종
 check(policy.requirements[0].output===policy.fields.join(' / ')&&policy.requirements[3].output===policy.tests.join(' / '),'신규 대사 필드·인수시험 요구사항 동기화');
 check(['N-KATRI26-PLAN','N-KATRI26-TASK','N-RECALL-LINK-RFP26','N-RECALL-LINK-CONTRACT26'].every(id=>{const source=d.sources.find(s=>s.id===id);return policy.sourceIds.includes(id)&&wp.sourceIds.some(k=>wb.sourceById[k].url===source.url)}),'2026 계획·연구·연계·계약 4근거의 실제 기획화면 연결');
 console.log('2026 연계·계약 범위 포함 '+n+'항목 통과');
+
+// 계약 공시의 날짜·식별 범위와 구현/검수 미확인을 별도로 보존.
+const fineContract=d.sources.find(s=>s.id==='N-FINE-CONTRACT25');
+check(fineContract?.sha256==='845685d86ee24055fafd5a6e99da924a79a114441d4106d819666a73bb30ffff'&&fineContract.url.includes('F_finninfo3796697669')&&fineContract.locator.includes('26행(연번21)'),'과징금 계약 원본·대상행 추적');
+check(fineContract.published.includes('2025-12-31')&&fineContract.claim.includes('2025-11-04')&&fineContract.claim.includes('2025-11-05~2026-01-03'),'게시일·계약일·대장상 기간 구분');
+check(fineContract.limit.includes('입찰·계약번호 직접 연결')&&fineContract.limit.includes('기간 종료를 준공·검수 완료로 해석하지 않음')&&fineContract.limit.includes('사용권 미확인'),'계약 공시를 구현·권리 확보로 승격 금지');
+check(['계산식','재산정','최종 승인','구현','검수'].every(t=>fine.limit.includes(t))&&fine.limit.includes('동일명 계약 공시 확인'),'새 계약 근거와 남은 RFP 미확인의 동시 보존');
+check(policy.existing.includes('2025-11-04')&&policy.existing.includes('기간 종료를 납품·검수 완료로 판단하지 않음')&&policy.ask.includes('입찰·계약번호 연결'),'기획 본문·현업 확인 질문에 계약 증거 수준 반영');
+check(policy.sourceIds.includes(fineContract.id)&&wp.sourceIds.some(id=>wb.sourceById[id].url===fineContract.url)&&policy.cost===null&&policy.metrics.every(m=>m.baseline===null&&m.target===null),'계약 근거 실제 화면 연결·미산정 보존');
+console.log('과징금 계약 공시 대조 포함 '+n+'항목 통과');
