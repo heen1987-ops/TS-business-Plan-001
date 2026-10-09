@@ -102,3 +102,7 @@ const qe1559=r.projectReviews.find(x=>x.projectId==='PROJECT-QE-01');
 check('QE 사례집의 구현 보고와 인수·성과 한계',qe1559.existing.includes('398건 리포트')&&qe1559.boundary.includes('398/981 완료율 산정 금지')&&qe1559.boundary.includes('정확도·사고감소율'));
 check('QE 기존 모델 추가범위·시점검증 연결',qe1559.extra.includes('시스템 실제 이용가능시점')&&qe1559.means.includes('2027 설계안')&&qe1559.sourceKeys.includes('qe-model-casebook')&&qe1559.sourceKeys.includes('qe-model-nia-notice'));
 console.log('사례집·정식공고 대조 포함 '+checks.length+'개 그룹 검증 통과');
+
+check('QE 별도 논문·시행 교육 근거의 실제 화면 연결',qe1559.sourceKeys.includes('qe-model-paper')&&qe1559.sourceKeys.includes('qe-existing-training'));
+check('QE 이력 조회실패·검사유형·교육대상 경계',qe1559.extra.includes('조회 실패를 무이력으로 대체하지 않음')&&qe1559.boundary.includes('이력 제외21피처')&&qe1559.boundary.includes('사업용 의무교육'));
+console.log('논문·기존교육 대조 포함 '+checks.length+'개 그룹 검증 통과');

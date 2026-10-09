@@ -4,7 +4,7 @@ check(d.id==='QE-H01'&&d.year===2027&&d.status.includes('후보'),'2027 추가 �
 check(d.metrics.length===5&&d.metrics.every(m=>m.baseline===null&&m.target===null),'임의 정확도·효과 목표 금지');
 check(d.metrics[0].name==='추가 기능 확인 필요 대상의 누락률'&&d.evaluation.includes('기능 저하 확정, 법정 적부 또는 사고위험 판정 정확도와 구분'),'M01 참조라벨을 확정 진단·자격 판단으로 승격하지 않음');
 check(d.cost.amount===null&&d.cost.people===null&&d.cost.period===null,'자료·범위 확인 전 가격·인원 미확정');
-const ids=new Set(d.sources.map(s=>s.id));check(ids.size===29,'기존27개와 공식 사례집·정식 공고2개 근거');
+const ids=new Set(d.sources.map(s=>s.id));check(ids.size===31,'기존29개와 별도논문·시행교육2개 근거');
 for(const s of d.sources){check(/^https:\/\//.test(s.url)&&/^2026-10-(06|09)$/.test(s.checkedAt),'근거 URL·확인일 '+s.id);check(s.locator&&s.fact&&s.limit,'근거 위치·사실·한계 '+s.id);}
 for(const s of d.sections){for(const id of s.refs)check(ids.has(id),'근거 추적 '+id);for(const r of s.rows)check(r.length===s.headers.length,'표 필드 계약 '+s.id);}
 const text=JSON.stringify(d);for(const t of ['NHIS 직접 연계는 필수 착수조건으로 두지 않음','병력 자체는 적부판정 대상이 아님','연구 데이터와 개인 업무기록 분리','독립 전문 기능평가','새로운 의무교육','공통 근거관리·권한·로그 코어는 재사용'])check(text.includes(t),'중복·권리·평가 경계 '+t);
@@ -60,3 +60,11 @@ check(d.evaluation.includes('시스템 실제 이용가능시점')&&d.evaluation
 check(notice.fact.includes('R25BK00904242-000')&&notice.limit.includes('최신·최종 판본'),'정식 공고 식별과 최종 납품 범위 구분');
 check(!text.includes('세부 생성규칙·관찰기간은 미공개.')&&how.rows[3][2].includes('2027 추가 연계안'),'새 근거 반영 및 제안 연계 현재화 금지');
 console.log('기관 사례집·정식공고·시점검증 포함 '+checks+'개 검증 통과');
+
+const paper2014=d.sources.find(s=>s.id==='H30'),training2014=d.sources.find(s=>s.id==='H31');
+check(paper2014.sha256==='b8ad7206e6c75981d6cd58a151524efc37aacaa2f7e0052724b09d10c47657e8'&&paper2014.fact.includes('이력 제외21')&&paper2014.limit.includes('동일성 미확인'),'독립 논문·평가조건·공식 원본 연결');
+check(paper2014.fact.includes('결측수1개')&&paper2014.limit.includes('사고감소율이 아님'),'증분 정보 묶음과 사고효과 구분');
+check(how.rows[3][2].includes('조회 실패를 무이력으로 채우지 않음')&&how.rows[3][2].includes('A검사로 자동 분류하지 않으며'),'이력 조회상태와 검사유형 독립 분기');
+check(training2014.limit.includes('동일 과정으로 볼 수 없음')&&how.rows[4][2].includes('대상 구분'),'기존 지역사회 교육·사업용 교육 구분');
+check(d.evaluation.includes('평가 부재로 단정하지 않음')&&d.evaluation.includes('37피처 주 평가와 동일 조건으로 비교 금지'),'논문 검증 존재와 비교조건 보존');
+console.log('논문 전문·이력 가용성·기존교육 포함 '+checks+'개 검증 통과');
