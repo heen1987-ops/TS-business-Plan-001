@@ -97,3 +97,8 @@ const qe1459=r.projectReviews.find(x=>x.projectId==='PROJECT-QE-01');
 check('QE 사전규격의 기존 요구와 실제 인수 경계',qe1459.existing.includes('PMR-007')&&qe1459.boundary.includes('실제 납품 완료로 간주하지 않으며'));
 check('QE 물리량·판본 변환과 모델 재현 설계',qe1459.extra.includes('이격거리')&&qe1459.extra.includes('수정된32회에 재적용하지 않음')&&qe1459.extra.includes('학습 재현기록'));
 console.log('사전규격·모델 인수 추적 포함 '+checks.length+'개 검증군 통과');
+
+const qe1559=r.projectReviews.find(x=>x.projectId==='PROJECT-QE-01');
+check('QE 사례집의 구현 보고와 인수·성과 한계',qe1559.existing.includes('398건 리포트')&&qe1559.boundary.includes('398/981 완료율 산정 금지')&&qe1559.boundary.includes('정확도·사고감소율'));
+check('QE 기존 모델 추가범위·시점검증 연결',qe1559.extra.includes('시스템 실제 이용가능시점')&&qe1559.means.includes('2027 설계안')&&qe1559.sourceKeys.includes('qe-model-casebook')&&qe1559.sourceKeys.includes('qe-model-nia-notice'));
+console.log('사례집·정식공고 대조 포함 '+checks.length+'개 그룹 검증 통과');

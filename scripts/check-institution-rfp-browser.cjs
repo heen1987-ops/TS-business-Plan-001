@@ -80,6 +80,7 @@ try{
  }
  await page.goto(base+'index.html?view=workbench&screen=solutions&project=QE-01');await page.locator('#wb-main').waitFor();check('QE 대회 성과·권리·실제 운영 구분',await page.locator('#wb-main').innerText().then(t=>t.includes('정부의 2025-12')&&t.includes('동일 계약인지는 미확인')&&t.includes('코드·가중치·분석보고서·사용권')));
  check('QE 라벨·통합채점·더미·명세충돌의 제안 표시',await page.locator('#wb-main').innerText().then(t=>t.includes('검사 이후 일정 기간 실제 사고이력')&&t.includes('A/B 통합 채점')&&t.includes('더미 시험자료')&&t.includes('A3 조건별 분모 충돌')));
+ check('QE 공식 사례집·실적 분모·시점 검증 표시',await page.locator('#wb-main').innerText().then(t=>t.includes('검사 후24개월')&&t.includes('398건 리포트')&&t.includes('398/981 완료율 산정 금지')&&t.includes('시스템 실제 이용가능시점')&&t.includes('R25BK00904242-000')));
  check('QE 사전규격·물리량·판본·인수 한계 표시',await page.locator('#wb-main').innerText().then(t=>t.includes('PMR-007')&&t.includes('이격거리')&&t.includes('수정된32회에 재적용하지 않음')&&t.includes('빈 보고서 양식')&&t.includes('실제 납품 완료로 간주하지 않으며')));
  await page.goto(base+'index.html?view=workbench&screen=service&project=QE-01');await page.locator('.wb-service-flow').waitFor();
  check('QE 식별키의 예측·LLM 입력 제외 서비스 표시',await page.locator('#wb-main').innerText().then(t=>t.includes('예측 특성·LLM 입력에서 제외')));

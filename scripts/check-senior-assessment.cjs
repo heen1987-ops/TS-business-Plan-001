@@ -4,7 +4,7 @@ check(d.id==='QE-H01'&&d.year===2027&&d.status.includes('후보'),'2027 추가 �
 check(d.metrics.length===5&&d.metrics.every(m=>m.baseline===null&&m.target===null),'임의 정확도·효과 목표 금지');
 check(d.metrics[0].name==='추가 기능 확인 필요 대상의 누락률'&&d.evaluation.includes('기능 저하 확정, 법정 적부 또는 사고위험 판정 정확도와 구분'),'M01 참조라벨을 확정 진단·자격 판단으로 승격하지 않음');
 check(d.cost.amount===null&&d.cost.people===null&&d.cost.period===null,'자료·범위 확인 전 가격·인원 미확정');
-const ids=new Set(d.sources.map(s=>s.id));check(ids.size===27,'기존21개와 사전규격·컬럼답변·제출양식6개 근거');
+const ids=new Set(d.sources.map(s=>s.id));check(ids.size===29,'기존27개와 공식 사례집·정식 공고2개 근거');
 for(const s of d.sources){check(/^https:\/\//.test(s.url)&&/^2026-10-(06|09)$/.test(s.checkedAt),'근거 URL·확인일 '+s.id);check(s.locator&&s.fact&&s.limit,'근거 위치·사실·한계 '+s.id);}
 for(const s of d.sections){for(const id of s.refs)check(ids.has(id),'근거 추적 '+id);for(const r of s.rows)check(r.length===s.headers.length,'표 필드 계약 '+s.id);}
 const text=JSON.stringify(d);for(const t of ['NHIS 직접 연계는 필수 착수조건으로 두지 않음','병력 자체는 적부판정 대상이 아님','연구 데이터와 개인 업무기록 분리','독립 전문 기능평가','새로운 의무교육','공통 근거관리·권한·로그 코어는 재사용'])check(text.includes(t),'중복·권리·평가 경계 '+t);
@@ -52,3 +52,11 @@ check(how.rows[3][2].includes('수정된32회에는 재적용 금지')&&d.source
 check(templates.limit.includes('빈 제출양식')&&d.evaluation.includes('실제 모델 실행·수검자 데이터 시험은 이번 조사에서 수행하지 않음'),'양식·실제 보고서·재현 시험의 구분');
 check(d.cost.amount===null&&d.cost.scope.includes('중복 공수 제외')&&d.cost.scope.includes('무료 재사용을 가정하지 않음'),'추가 작업·모델 권리 비용 미확정 유지');
 console.log('사전규격·물리량·모델인수 포함 '+checks+'개 검증 통과');
+
+const casebook=d.sources.find(s=>s.id==='H28'),notice=d.sources.find(s=>s.id==='H29');
+check(casebook.fact.includes('24개월')&&casebook.fact.includes('398건')&&casebook.limit.includes('완료율 산정 금지'),'기관 보고의 관측기간·활용실적과 분모 한계');
+check(casebook.limit.includes('정확도·사고감소율')&&d.evaluation.includes('중도절단')&&d.evaluation.includes('현재 누수·결함을 발견했다는 주장이 아닌'),'보고 점수·재현·시점 검증 제안 구분');
+check(d.evaluation.includes('시스템 실제 이용가능시점')&&d.evaluation.includes('확률 보정 자료도 평가자료와 격리'),'미래 관측 정보와 보정 평가자료 분리');
+check(notice.fact.includes('R25BK00904242-000')&&notice.limit.includes('최신·최종 판본'),'정식 공고 식별과 최종 납품 범위 구분');
+check(!text.includes('세부 생성규칙·관찰기간은 미공개.')&&how.rows[3][2].includes('2027 추가 연계안'),'새 근거 반영 및 제안 연계 현재화 금지');
+console.log('기관 사례집·정식공고·시점검증 포함 '+checks+'개 검증 통과');
