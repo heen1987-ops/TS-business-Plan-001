@@ -649,4 +649,29 @@ const reportingProfiles=[
  {id:'required',label:'보고 필요',guiding:true,requiresRealPms:true,externalSubmission:'적용 근거·제출 권한 확인 후 허용',completion:'TS 내부 확인과 필수 외부 보고의 각각의 완료조건 확인'},
  {id:'pending',label:'보고 적용범위 확인 중',guiding:true,requiresRealPms:null,externalSubmission:'미확정 외부 제출 차단',completion:'적용 근거·범위·완료조건을 권한자가 확인한 뒤 종료 판단'}
 ];
+
+// 공공 AX 개인정보 지침과 현행 법령의 선택 대조: 확정 권한·실행 결과와 구분.
+sources.P27={id:'P27',status:'공식 원문 선택 확인 · 적용 조건 검토',title:'공공 AX 프라이버시 보호 안내서(2026.7.)',url:'https://www.privacy.go.kr/front/bbs/bbsView.do?bbsNo=BBSMSTR_000000000049&bbscttNo=20913',published:'2026.7. 판본 · 포털 등록 2026-08-20',checkedAt:'2026-10-11',location:'PDF12~13·28·31~35쪽 / 인쇄6~7·22·25~29쪽 선택 검토',sha256:'3533850237bc7d5a0cfa89efef73013778a70424ef03b31abcf8aeeb9bb8447b',fact:'개발·운영·고도화 목적별 개인정보 처리 근거, 입출력 보관 관리, 선별·판단의 실질적 사람 검토 및 영향평가 조건 안내',limit:'TS 실제 처리 근거·내부 보존규정·제품 API·영향평가 이력 미확인. 선택 본문 검토이며 전체 감사 아님'};
+sources.P28={id:'P28',status:'공식 조문 확인 · TS 개별 적용 미확정',title:'개인정보 보호법 제37조의2',url:'https://www.law.go.kr/LSW/lsLinkCommonInfo.do?ancYnChk=&chrClsCd=010202&lsJoLnkSeq=1029334889',published:'시행 2026-09-11 · 법률 제21445호',checkedAt:'2026-10-11',location:'제37조의2 제1~5항',fact:'자동화된 결정의 권리·설명·조치·공개와 거부권 예외, 행정기본법상 자동적 처분 제외 규정',limit:'TS 개별 결정의 해당 여부 및 특별법·처리근거는 별도 검토. 모든 추천·법인 평가를 동일한 정보주체 권리로 일반화 금지'};
+sources.P29={id:'P29',status:'공식 조문 확인 · TS 파일 조건 미확정',title:'개인정보 보호법 시행령 제35조',url:'https://law.go.kr/lsLinkCommonInfo.do?lspttninfSeq=67010',published:'시행 2026-09-11 · 대통령령 제36671호',checkedAt:'2026-10-11',location:'제35조 제1~4호',fact:'민감·고유식별정보 5만명, 파일 연계 결과50만명, 100만명 파일 및 기존 영향평가 후 운용체계 변경의 대상 조건',limit:'TS 파일 규모·연계 결과·기존 영향평가 및 변경 범위 미확인. AI 도입만으로 의무 또는 면제 단정 금지'};
+sections.find(s=>s.id==='data').blocks.push(table('개인정보 처리·검토·실행의 적용 조건',['대상','2027년 설계 보완','확인·검수 기준'],[
+ ['검색·운영·학습','원문 검색, 질의응답 운영, 모델 고도화의 목적과 허용 범위 분리','자료별 처리근거·허용 목적 확인. 검색 허가의 학습 허가 자동 전환 차단'],
+ ['AI 파생자료·운영 기록','원본·추출문·벡터·캐시·대화·평가자료별 저장 여부·위치·보관근거·책임자 연결','기간 임의 지정 금지. 삭제 후 조회 차단·백업 복원 시 재노출 점검은 추가 시험 제안. 법정 원본 보존과 분리'],
+ ['판단 지원과 최종 결정','요약·근거 조견, 추천, 최종 결정 및 업무 실행을 기능별 구분','개인정보 처리와 권리·의무 영향, 최종성, 실질적 관련성 및 특별법 검토. 법인 업체 평가에 일괄 적용 금지'],
+ ['실질적인 사람 검토','업무 권한·역량이 있는 검토자의 근거 접근·충분한 검토 시간·수정/반려 가능성 확보','승인 버튼만으로 충족 판정 금지. 근거 부족·권한 만료·검토 중 변경은 승인 전환 보류'],
+ ['승인과 업무 실행','검토한 대상·자료·기준 판본과 승인 결과 결합, 변경 시 재검토','NOA의 가이딩과 추가 개발 승인·실행 통제 분리. 기존 AI 플랫폼 권한·API 실제 지원 확인. 최초 시범 송금 쓰기 제외 유지'],
+ ['설명·검토·이의 처리','대상 여부 확인 후 이해 가능한 설명과 담당자 재검토 경로 연결','거부권 예외와 설명 요구 구분. 행정기본법상 자동적 처분은 별도 법률 검토'],
+ ['개인정보 영향평가','파일 규모·민감도·연계 결과·기존 평가 이력·운용체계 변경을 각각 확인','수치 기준 미달만으로 면제 판정 금지. 기존 평가 파일의 검색체계 변경은 변경 부분 대상 여부 확인'],
+ ['비용·제품 경계','현행 ACL·승인·로그·검수 기능 재사용 대조 후 목적 통제·근거 검토·추가 시험의 부족분 산정','NOA·aRDa 제품의 실제 지원·계약범위 미확인. 같은 SI·기존 플랫폼·시험 공수 중복 제외, 미산정 금액 null 유지']
+],['P27','P28','P29']));
+requirements.find(r=>r.id==='PMS-N01').acceptance+=' 목적별 처리근거·운영기록 보관 조건 및 개인정보 영향평가의 규모/연계/기존 평가 후 변경 조건 확인. 승인자의 실질적 근거 검토·수정/반려 가능성 확인.';
+requirements.find(r=>r.id==='PMS-N01').refs.push('P27','P28','P29');
+requirements.find(r=>r.id==='PMS-F03').acceptance+=' 단순 승인 버튼과 실질적 검토 구분. 근거 접근·정당한 권한·수정/반려·판본 변경 후 재검토 조건 확인.';
+requirements.find(r=>r.id==='PMS-F03').refs.push('P27','P28');
+acceptanceTests.find(t=>t.id==='T17').scenario+=' · 근거 열람 불가·검토 권한 만료·검토 중 원문 변경·자동 승인 요청';
+acceptanceTests.find(t=>t.id==='T17').expected+=' · 승인과 실질적 검토를 구분하고 미충족 시 실행 보류, 수정/반려 가능성 및 승인 판본 결합 확인';
+acceptanceTests.find(t=>t.id==='T20').scenario+=' · 검색 허가 자료의 학습 전용·운영기록 목적 외 재사용·삭제 후 백업 복원';
+acceptanceTests.find(t=>t.id==='T20').expected+=' · 목적별 허가와 보존근거 확인, 무승인 학습 차단, 복원 후 재노출 점검은 추가 시험 후보이며 실제 미실행';
+sections.find(s=>s.id==='requirements').blocks.find(b=>b.type==='table'&&b.title==='업체 선정·지급·아카이브의 인수시험').rows=acceptanceTests.map(t=>[t.id+' · '+t.requirements.join(' / '),t.scenario,t.expected]);
+
 module.exports={id:'TS-AIPMS-2027',version:'v0.3',date:'2026-10-10',title:'NOA 기반 TS 업무 가이딩 · AI PMS · 감리 지원엔진 R&D',status:'2027 정보화사업 편성·후속 연구 기획안 · 실제 PMS·평가·지급·TS 연계 미구현/미검증',assumption:'TS 자체 업무 가이딩을 공통으로 적용. RealPMS는 보고 근거가 확인된 과업/보고 단위에만 연결. 입찰·평가·지급은 실제 공고·내부규정·계약·원장·권한 확보 후 적용. 현재 참가업체·위원 점수·대금 자료는 미확보',constraints:'기존 AI 플랫폼·로컬 LLM·기존 서버 활용 · 신규 인프라 구입 0원 전제 · 사용권·운영비·여유자원 별도 확인 · 국토부 확대는 별도 사업·권한·비용 검토',downloads:[['통합 기획안','downloads/ts-ai-pms-2027-plan.md'],['감리엔진 R&D 계획','downloads/ts-ai-pms-audit-rnd.md'],['요구사항·시험 연결표','downloads/ts-ai-pms-requirements.csv'],['구축·연구 대가산정 입력표','downloads/ts-ai-pms-cost-inputs.csv'],['구조화 설계 원장','downloads/ts-ai-pms-design.json'],...templates.map(t=>[t.title,'downloads/'+t.file])],reportingProfiles,sections,requirements,acceptanceTests,templates,research,metrics,sources,costInputs};

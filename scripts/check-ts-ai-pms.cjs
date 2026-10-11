@@ -9,7 +9,7 @@ check(d.requirements.find(r=>r.id==='PMS-F05').test.includes('혼합 사업')&&d
 check(d.metrics.find(m=>m.id==='K1').quality.includes('0분')&&d.metrics.find(m=>m.id==='K1').method.includes('대상 과업만'),'보고 비대상 0분 평균 혼입 방지');
 check(d.constraints.includes('국토부 확대는 별도 사업·권한·비용 검토'),'향후 기관 확대와 현재 사업 경계');
 check(d.sections.length===16,'목적부터 근거까지 16개 연속 절');check(d.requirements.length===12&&d.research.length===4&&d.metrics.length===5,'12개 요구·4개 연구·5개 지표');
-check(Object.keys(d.sources).length===26&&d.downloads.length===8,'기존22개+활용/계약/가이드/양식4개 근거·8개 배포 자료');
+check(Object.keys(d.sources).length===29&&d.downloads.length===8,'기존26개+공공AX/법/시행령3개 근거·8개 배포 자료');
 const sectionText=id=>JSON.stringify(d.sections.find(s=>s.id===id));
 check(sectionText('procurement').includes('협상에 의한 계약의 예시')&&sectionText('procurement').includes('가상 업체')&&sectionText('procurement').includes('공동수급'),'절차 조건부 적용·가상 업체 배제·참가단위');
 check(sectionText('procurement').includes('실제 부여한 0점')&&sectionText('procurement').includes('임의 가감점')&&sectionText('procurement').includes('채택 제안'),'점수 미입력/0 분리·자동 평가 배제·채택 조건');
@@ -27,7 +27,7 @@ for(const r of d.requirements){check(!!r.acceptance&&!!r.test&&!!r.wbs,'인수·
 for(const m of d.metrics){check(m.baseline===null&&m.target===null,'미측정 수치를 0으로 쓰지 않음 '+m.id);check(!!m.scope&&!!m.formula&&!!m.method&&!!m.quality&&!!m.owner,'운영·연구 측정명세 '+m.id);}
 check(d.costInputs.length===8,'구축·연구·감리·운영 8개 산정 묶음');
 for(const c of d.costInputs){check(c.fp===null&&c.personMonths===null&&c.unitCost===null&&c.amount===null,'미산정 비용 '+c.bundle);check(!!c.includedBoundary&&!!c.incrementalBoundary&&!!c.reuseEvidence&&!!c.overlapWbs,'대가 포함·증분·재사용·중복 경계 '+c.bundle);}
-for(const [id,s]of Object.entries(d.sources)){check(s.id===id&&s.checkedAt===(Number(id.slice(1))<=17?'2026-10-08':'2026-10-10')&&!!s.location&&!!s.fact&&!!s.limit,'근거 상태 '+id);if(s.url)check(/^https:\/\//.test(s.url),'외부 원문 HTTPS '+id);}
+for(const [id,s]of Object.entries(d.sources)){check(s.id===id&&s.checkedAt===(Number(id.slice(1))<=17?'2026-10-08':Number(id.slice(1))<=26?'2026-10-10':'2026-10-11')&&!!s.location&&!!s.fact&&!!s.limit,'근거 상태 '+id);if(s.url)check(/^https:\/\//.test(s.url),'외부 원문 HTTPS '+id);}
 for(const [,file]of d.downloads)check(fs.existsSync(path.join(out,file)),'배포 다운로드 '+file);
 check(fs.readFileSync(path.join(out,'downloads/ts-ai-pms-2027-plan.md'),'utf8')===exporter.markdown(),'본문·기획서 동일');
 check(JSON.stringify(JSON.parse(fs.readFileSync(path.join(out,'downloads/ts-ai-pms-design.json'),'utf8')))===JSON.stringify(d),'원장 내보내기 동일');
@@ -71,4 +71,11 @@ check(sectionText('cost').includes('250122')&&sectionText('cost').includes('2024
 check(d.costInputs[1].method.includes('수정 없는 재사용')&&d.costInputs[2].method.includes('별도 구축개발비')&&d.costInputs[3].overlapWbs.includes('시험비율'),'비용표의 재사용·총액·시험 중복 검토 연결');
 check(d.sources.P26.location.includes('I36')&&d.sources.P26.limit.includes('XLSM 3종'),'선택 수식 검토와 미검토 범위 명시');
 
+check(d.sources.P27.sha256==='3533850237bc7d5a0cfa89efef73013778a70424ef03b31abcf8aeeb9bb8447b','공공 AX 공식 원본 해시');
+check(d.sources.P28.published.includes('2026-09-11')&&d.sources.P29.published.includes('2026-09-11'),'현행법·시행령 시행일');
+check(sectionText('data').includes('승인 버튼만')&&sectionText('data').includes('수정/반려'),'형식 결재와 실질적 검토 구분');
+check(sectionText('data').includes('기존 평가 파일')&&sectionText('data').includes('면제 판정 금지'),'영향평가 변경 조건 누락 방지');
+check(sectionText('data').includes('법인 업체 평가')&&sectionText('data').includes('거부권 예외'),'정보주체·권리 예외의 조건부 적용');
+check(d.acceptanceTests.find(t=>t.id==='T17').expected.includes('실질적 검토')&&d.acceptanceTests.find(t=>t.id==='T20').expected.includes('실제 미실행'),'추가 검수 조건과 실제 시험 구분');
+check(d.requirements.find(r=>r.id==='PMS-N01').refs.includes('P29')&&d.requirements.find(r=>r.id==='PMS-F03').refs.includes('P28'),'법령→요구→검수 연결');
 console.log('TS 자체 AI PMS 설계 '+count+'항목 통과');
