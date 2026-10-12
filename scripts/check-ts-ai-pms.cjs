@@ -9,7 +9,7 @@ check(d.requirements.find(r=>r.id==='PMS-F05').test.includes('혼합 사업')&&d
 check(d.metrics.find(m=>m.id==='K1').quality.includes('0분')&&d.metrics.find(m=>m.id==='K1').method.includes('대상 과업만'),'보고 비대상 0분 평균 혼입 방지');
 check(d.constraints.includes('국토부 확대는 별도 사업·권한·비용 검토'),'향후 기관 확대와 현재 사업 경계');
 check(d.sections.length===16,'목적부터 근거까지 16개 연속 절');check(d.requirements.length===12&&d.research.length===4&&d.metrics.length===5,'12개 요구·4개 연구·5개 지표');
-check(Object.keys(d.sources).length===32&&d.downloads.length===9,'기존31개+민원 기한 근거1개·기존8개+초안1개 자료');
+check(Object.keys(d.sources).length===33&&d.downloads.length===15,'기존32개+전사조직1개·기존9개+전사상세6개 자료');
 const sectionText=id=>JSON.stringify(d.sections.find(s=>s.id===id));
 check(sectionText('procurement').includes('협상에 의한 계약의 예시')&&sectionText('procurement').includes('가상 업체')&&sectionText('procurement').includes('공동수급'),'절차 조건부 적용·가상 업체 배제·참가단위');
 check(sectionText('procurement').includes('실제 부여한 0점')&&sectionText('procurement').includes('임의 가감점')&&sectionText('procurement').includes('채택 제안'),'점수 미입력/0 분리·자동 평가 배제·채택 조건');
@@ -89,7 +89,7 @@ const wf=d.sections.find(s=>s.id==='workflow').blocks.find(b=>b.title==='업무 
 check(wf.rows.length===6&&new Set(wf.rows.map(r=>r[0])).size===6&&wf.rows.every(r=>r[2]),'6개 검수 후보의 재현·결과 연결');
 check(d.sources.P30.sha256===d.sources.P22.sha256&&d.sources.P31.limit.includes('실제 동작 미검증'),'원문 동일성·제품 소개 한계');
 const workflowDoc=fs.readFileSync(path.join(out,'downloads/ts-public-workflow-2027-plan.md'),'utf8');
-check(workflowDoc.includes('v0.3')&&workflowDoc.includes('WF-10')&&workflowDoc.includes('WF-T06')&&!/C:\\Users|file:\/\//.test(workflowDoc),'공개 초안 버전·요구·검수·PC 경로 제외');
+check(workflowDoc.includes('v0.4')&&workflowDoc.includes('WF-R15')&&workflowDoc.includes('A15')&&!/C:\\Users|file:\/\//.test(workflowDoc),'공개 초안 버전·요구·검수·PC 경로 제외');
 
 
 check(d.sources.P32.published.includes('2026-05-06')&&/^[a-f0-9]{64}$/.test(d.sources.P32.sha256),'민원 시행령 판본·원문 해시');
@@ -99,5 +99,24 @@ check(sectionText('workflow').includes('TS 일괄 적용')&&sectionText('workflo
 const limits=d.sections.find(s=>s.id==='workflow').blocks.find(b=>b.title==='민원 기한관리의 추가 검수 후보 · 제품 시험 미실행');
 check(limits.rows.length===3&&limits.rows.every(r=>r[2])&&limits.refs.includes('P32'),'기한관리 3개 검수 후보와 근거 연결');
 check(sectionText('cost').includes('같은 기한 엔진·로그 기능 중복 산정 금지'),'기존 기능·증분 비용 경계');
+
+
+const enterprise=JSON.parse(fs.readFileSync(path.join(out,'downloads/ts-enterprise-workflow-design.json'),'utf8'));
+check(enterprise.version==='v0.4'&&enterprise.departments.length===74&&enterprise.organizations.length===227,'全사 74처·227조직의 제안범위'.replace('全','전'));
+check(new Set(enterprise.departments.map(p=>p.orgCode)).size===74&&new Set(enterprise.organizations.map(p=>p.code)).size===227,'조직 코드 중복 금지');
+check(Object.keys(enterprise.packages).length===7&&enterprise.requirements.length===15&&enterprise.tests.length===15,'공통1회+6업무팩·15요구·15검수');
+for(const p of enterprise.departments){
+ check(p.facts.length>0&&p.refs.length>0&&p.flow&&p.delta&&p.gate,'처별 실제 원문·추가개발·검수 '+p.orgCode);
+ check(p.costAmount===null&&p.costQuantity===null,'처별 미산정 보존 '+p.orgCode);
+ check(p.requirements.every(id=>enterprise.requirements.some(r=>r[0]===id))&&p.tests.every(id=>enterprise.tests.some(t=>t[0]===id)),'처별 요구·검수 연결 '+p.orgCode);
+ check(enterprise.organizations.some(o=>o.code===p.orgCode&&o.linked===p.id),'상세처의 전체조직 연결 '+p.orgCode);
+}
+check(enterprise.organizations.find(o=>o.code==='1019700').decision.includes('담당업무 미확인'),'새 AI서비스개발팀 확인 한계');
+check(sectionText('workflow').includes('SFR-008/009')&&sectionText('workflow').includes('선택반영')&&sectionText('workflow').includes('허브·표준 도구 변환 재구축 제외'),'기존 공시·MCP·사람검토 중복제외');
+check(sectionText('cost').includes('처수×같은 개발비')&&sectionText('cost').includes('FP/MM 중복 가산 금지'),'전사 원가 중복방지');
+check(d.sources.P33.limit.includes('전결')&&d.sources.P33.limit.includes('전체 담당업무 최신 재수집'),'조직/법정권한·최신조사 구분');
+const fullHtml=fs.readFileSync(path.join(out,'downloads/ts-enterprise-workflow-2027.html'),'utf8');
+check((fullHtml.match(/<article id="WF-/g)||[]).length===74&&fullHtml.includes('lang="ko"'),'74처 연속 HTML·한글');
+check(!/C:\\Users|file:\/\//.test(fullHtml+JSON.stringify(enterprise)),'公開 산출물 PC경로 제외'.replace('公開','공개'));
 
 console.log('TS 자체 AI PMS 설계 '+count+'항목 통과');
