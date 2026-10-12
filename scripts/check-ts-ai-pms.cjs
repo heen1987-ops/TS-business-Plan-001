@@ -9,7 +9,7 @@ check(d.requirements.find(r=>r.id==='PMS-F05').test.includes('혼합 사업')&&d
 check(d.metrics.find(m=>m.id==='K1').quality.includes('0분')&&d.metrics.find(m=>m.id==='K1').method.includes('대상 과업만'),'보고 비대상 0분 평균 혼입 방지');
 check(d.constraints.includes('국토부 확대는 별도 사업·권한·비용 검토'),'향후 기관 확대와 현재 사업 경계');
 check(d.sections.length===16,'목적부터 근거까지 16개 연속 절');check(d.requirements.length===12&&d.research.length===4&&d.metrics.length===5,'12개 요구·4개 연구·5개 지표');
-check(Object.keys(d.sources).length===29&&d.downloads.length===8,'기존26개+공공AX/법/시행령3개 근거·8개 배포 자료');
+check(Object.keys(d.sources).length===31&&d.downloads.length===9,'기존29개+업무흐름 근거2개·기존8개+초안1개 자료');
 const sectionText=id=>JSON.stringify(d.sections.find(s=>s.id===id));
 check(sectionText('procurement').includes('협상에 의한 계약의 예시')&&sectionText('procurement').includes('가상 업체')&&sectionText('procurement').includes('공동수급'),'절차 조건부 적용·가상 업체 배제·참가단위');
 check(sectionText('procurement').includes('실제 부여한 0점')&&sectionText('procurement').includes('임의 가감점')&&sectionText('procurement').includes('채택 제안'),'점수 미입력/0 분리·자동 평가 배제·채택 조건');
@@ -27,7 +27,7 @@ for(const r of d.requirements){check(!!r.acceptance&&!!r.test&&!!r.wbs,'인수·
 for(const m of d.metrics){check(m.baseline===null&&m.target===null,'미측정 수치를 0으로 쓰지 않음 '+m.id);check(!!m.scope&&!!m.formula&&!!m.method&&!!m.quality&&!!m.owner,'운영·연구 측정명세 '+m.id);}
 check(d.costInputs.length===8,'구축·연구·감리·운영 8개 산정 묶음');
 for(const c of d.costInputs){check(c.fp===null&&c.personMonths===null&&c.unitCost===null&&c.amount===null,'미산정 비용 '+c.bundle);check(!!c.includedBoundary&&!!c.incrementalBoundary&&!!c.reuseEvidence&&!!c.overlapWbs,'대가 포함·증분·재사용·중복 경계 '+c.bundle);}
-for(const [id,s]of Object.entries(d.sources)){check(s.id===id&&s.checkedAt===(Number(id.slice(1))<=17?'2026-10-08':Number(id.slice(1))<=26?'2026-10-10':'2026-10-11')&&!!s.location&&!!s.fact&&!!s.limit,'근거 상태 '+id);if(s.url)check(/^https:\/\//.test(s.url),'외부 원문 HTTPS '+id);}
+for(const [id,s]of Object.entries(d.sources)){check(s.id===id&&s.checkedAt===(Number(id.slice(1))<=17?'2026-10-08':Number(id.slice(1))<=26?'2026-10-10':Number(id.slice(1))<=29?'2026-10-11':'2026-10-12')&&!!s.location&&!!s.fact&&!!s.limit,'근거 상태 '+id);if(s.url)check(/^https:\/\//.test(s.url),'외부 원문 HTTPS '+id);}
 for(const [,file]of d.downloads)check(fs.existsSync(path.join(out,file)),'배포 다운로드 '+file);
 check(fs.readFileSync(path.join(out,'downloads/ts-ai-pms-2027-plan.md'),'utf8')===exporter.markdown(),'본문·기획서 동일');
 check(JSON.stringify(JSON.parse(fs.readFileSync(path.join(out,'downloads/ts-ai-pms-design.json'),'utf8')))===JSON.stringify(d),'원장 내보내기 동일');
@@ -78,4 +78,17 @@ check(sectionText('data').includes('기존 평가 파일')&&sectionText('data').
 check(sectionText('data').includes('법인 업체 평가')&&sectionText('data').includes('거부권 예외'),'정보주체·권리 예외의 조건부 적용');
 check(d.acceptanceTests.find(t=>t.id==='T17').expected.includes('실질적 검토')&&d.acceptanceTests.find(t=>t.id==='T20').expected.includes('실제 미실행'),'추가 검수 조건과 실제 시험 구분');
 check(d.requirements.find(r=>r.id==='PMS-N01').refs.includes('P29')&&d.requirements.find(r=>r.id==='PMS-F03').refs.includes('P28'),'법령→요구→검수 연결');
+
+check(sectionText('purpose').includes('AI PMS는 사업관리 적용 사례')&&sectionText('purpose').includes('공고 미매핑'),'공통 업무흐름과 PMS 사례·기획 상태 구분');
+check(sectionText('workflow').includes('후속 질의 추천')&&sectionText('workflow').includes('업무 후속조치 구분'),'대화 추천과 업무 처리 구분');
+check(sectionText('workflow').includes('실제 미지원 범위는 확인 필요')&&sectionText('workflow').includes('최종 계약'),'기존 기능 부재 단정 방지');
+check(sectionText('workflow').includes('기존 허브 재구축 제외')&&sectionText('workflow').includes('증분'),'기존 연계와 추가 개발 범위');
+check(sectionText('workflow').includes('중요 입력 변경 시 재승인')&&sectionText('workflow').includes('실행 직전 권한'),'승인 판본·실행 권한 확인');
+check(sectionText('workflow').includes('원거래 조회')&&sectionText('workflow').includes('전체 완료 차단'),'응답 유실·부분 성공의 결과 확인');
+const wf=d.sections.find(s=>s.id==='workflow').blocks.find(b=>b.title==='업무 실행의 구체 검수 후보 · 제품 시험 미실행');
+check(wf.rows.length===6&&new Set(wf.rows.map(r=>r[0])).size===6&&wf.rows.every(r=>r[2]),'6개 검수 후보의 재현·결과 연결');
+check(d.sources.P30.sha256===d.sources.P22.sha256&&d.sources.P31.limit.includes('실제 동작 미검증'),'원문 동일성·제품 소개 한계');
+const workflowDoc=fs.readFileSync(path.join(out,'downloads/ts-public-workflow-2027-plan.md'),'utf8');
+check(workflowDoc.includes('v0.2')&&workflowDoc.includes('WF-10')&&workflowDoc.includes('WF-T06')&&!/C:\\Users|file:\/\//.test(workflowDoc),'공개 초안 버전·요구·검수·PC 경로 제외');
+
 console.log('TS 자체 AI PMS 설계 '+count+'항목 통과');
