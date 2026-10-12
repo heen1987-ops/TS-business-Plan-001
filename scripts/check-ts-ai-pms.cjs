@@ -9,7 +9,7 @@ check(d.requirements.find(r=>r.id==='PMS-F05').test.includes('혼합 사업')&&d
 check(d.metrics.find(m=>m.id==='K1').quality.includes('0분')&&d.metrics.find(m=>m.id==='K1').method.includes('대상 과업만'),'보고 비대상 0분 평균 혼입 방지');
 check(d.constraints.includes('국토부 확대는 별도 사업·권한·비용 검토'),'향후 기관 확대와 현재 사업 경계');
 check(d.sections.length===16,'목적부터 근거까지 16개 연속 절');check(d.requirements.length===12&&d.research.length===4&&d.metrics.length===5,'12개 요구·4개 연구·5개 지표');
-check(Object.keys(d.sources).length===35&&d.downloads.length===15,'기존33개+검사근거2개·기존15개 자료');
+check(Object.keys(d.sources).length===37&&d.downloads.length===15,'기존33개+검사근거2개·기존15개 자료');
 const sectionText=id=>JSON.stringify(d.sections.find(s=>s.id===id));
 check(sectionText('procurement').includes('협상에 의한 계약의 예시')&&sectionText('procurement').includes('가상 업체')&&sectionText('procurement').includes('공동수급'),'절차 조건부 적용·가상 업체 배제·참가단위');
 check(sectionText('procurement').includes('실제 부여한 0점')&&sectionText('procurement').includes('임의 가감점')&&sectionText('procurement').includes('채택 제안'),'점수 미입력/0 분리·자동 평가 배제·채택 조건');
@@ -124,7 +124,10 @@ check(['PMS-A01','PMS-A02','PMS-A03'].every(id=>sectionText('boundary').includes
 check(sectionText('boundary').includes('시험 미실행')&&sectionText('boundary').includes('기한 경과')&&sectionText('boundary').includes('기술적용계획표'),'검수 제안 상태·기간 자동합격 금지·기술표');
 check(d.requirements.find(r=>r.id==='PMS-F06').acceptance.includes('감리 확인·검사 합격·필요한 인수 완료')&&d.requirements.find(r=>r.id==='PMS-F06').refs.includes('P35'),'검사·인수 독립 상태와 공고첨부 연결');
 check(d.sources.P04.additionalRead.checkedAt==='2026-10-13'&&d.sources.P04.checkedAt==='2026-10-08','감리기준 선택 재검증과 기존 법령 확인일 분리');
-check(d.sources.P35.limit.includes('최종 체결 계약이 아님')&&d.sources.P34.limit.includes('서식 셀 구조 미열람'),'출처 적용·부분 판독 한계 보존');
+check(d.sources.P35.limit.includes('최종 체결 계약이 아님')&&d.sources.P34.limit.includes('별도 P36에서 확인')&&d.sources.P36.limit.includes('TS 작성 완료본·최종계약 서식 아님')&&d.sources.P36.sha256==='f489c277136b568e168e5105842a6bf575ee6460c656d3fac1d4034b2c7a547d'&&d.sources.P37.location.includes('COR-007'),'출처 적용·부분 판독 한계 보존');
 
 check(d.sources.P04.location.includes('2026-10-13 추가 판독')&&d.sources.P04.limit.includes('기존 법·시행령 전체 재검증 아님')&&d.sources.P04.links.some(x=>x[1]===d.sources.P04.additionalRead.url),'화면에 표시되는 선택 판독 위치·범위·원문 링크');
 console.log('TS 자체 AI PMS 설계 '+count+'항목 통과');
+
+// 공식 서식의 적용상태·미확인 및 기존 과업의 중복 경계
+for(const t of ["PMS-A04","공란은 미확인","기본 문서추출","최신 빈서식","COR-007"]){if(!JSON.stringify(require("../src/ts-ai-pms.cjs")).includes(t))throw Error("서식 검수 경계 누락 "+t);}

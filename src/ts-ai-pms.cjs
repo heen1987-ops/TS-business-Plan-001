@@ -701,7 +701,7 @@ sources.P04.links=[...(sources.P04.links||[]),['감리기준 2026-10-13 선택 �
 sources.P04.limit+=' 2026-10-13 판독은 감리기준 해당 조항에 한정하며 기존 법·시행령 전체 재검증 아님.';
 sources.P04.fact+=' 2026-10-13 감리기준 추가 선택 판독: 대비표·발주자 확인·감리판정·시정 제출·조치확인 구분 및 독립성·상주/단계 감리원 역할 확인.';
 sources.P04.limit+=' 추가 판독 범위와 판본은 additionalRead에 기록. 같은 도구 사용만으로 독립성 위반 확정 금지.';
-sources.P34={id:'P34',title:'행정기관 및 공공기관 정보시스템 구축·운영 지침',url:'https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000252582&chrClsCd=010201&joTpYn=Y&languageType=KO',published:'시행 2025-01-02 · 행정안전부고시 제2025-1호',checkedAt:'2026-10-13',status:'공식 원문 선택 확인 · 개별 적용 확인 필요',location:'제43·49·56~57조',sha256:'eccc34c5168dec9e899f23ec821a668714d45eb103d63642672f6349c479004d',fact:'기술적용계획표·결과표의 제출·준수 확인, 감리 부적합 조치 확인, 검사와 필요한 인수의 구분',limit:'별지 제1호 서식 셀 구조 미열람. TS 사업별 적용·내부 전결·최종계약 미확인. 모든 일상 업무에 감리·검사 강제 금지'};
+sources.P34={id:'P34',title:'행정기관 및 공공기관 정보시스템 구축·운영 지침',url:'https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000252582&chrClsCd=010201&joTpYn=Y&languageType=KO',published:'시행 2025-01-02 · 행정안전부고시 제2025-1호',checkedAt:'2026-10-13',status:'공식 원문 선택 확인 · 개별 적용 확인 필요',location:'제43·49·56~57조; 2026-10-13 제7조①·④ 추가 판독',sha256:'eccc34c5168dec9e899f23ec821a668714d45eb103d63642672f6349c479004d',fact:'기술적용계획표·결과표의 제출·준수 확인, 감리 부적합 조치 확인, 검사와 필요한 인수의 구분',limit:'별지 제1호 구조는 별도 P36에서 확인. TS 사업별 적용·내부 전결·최종계약 미확인. 모든 일상 업무에 감리·검사 강제 금지'};
 sources.P35={id:'P35',title:'TS 검사본부 AI 공고첨부 용역계약 일반조건',url:'https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01648099&bidPbancOrd=000&fileSeq=4&fileType=&prcmBsneSeCd=03',published:'공고 R26BK01648099-000 · 첨부 개정표기 2026-06-23 · 별도 발행일 미표시',checkedAt:'2026-10-13',status:'공식 공고첨부 선택 확인 · 최종계약 적용 미확정',location:'계약사무처리세칙 별표5 제5·8조; HWP BodyText/Section0 PARA17·27~31(인쇄 쪽수 아님)',sha256:'e7d79b436e21c68b72ef691ae1d150728f3ea985cbefb7dc364a208df4087fdb',fact:'계약문서 상호보완, 완성 서면통지·접수 후 검사, 시정완료 통지와 검사기간 계산, 이의에 따른 재검사',limit:'공개 첨부는 최종 체결 계약이 아님. 검사 기한·예외·날짜 산식은 적용 계약과 전결 확인 후 설정. 다른 TS 사업의 고정 규칙으로 일반화 금지'};
 sections.find(s=>s.id==='boundary').blocks.push(
  table('감리·검사·인수의 상태와 완료 근거',['구분','연결할 근거','상태 전환 조건'],[
@@ -728,5 +728,21 @@ inspectionRequirement.how+=' 기술적용계획/결과표와 감리보고서, �
 inspectionRequirement.acceptance+=' 감리 확인·검사 합격·필요한 인수 완료는 각각의 확정 주체·근거·시각으로 보존. 계약 적용 미확정·기간 경과·자료 업로드만으로 완료 승격 금지.';
 inspectionRequirement.test+=' / PMS-A01·PMS-A02·PMS-A03 · 상태 독립·기술표 판본·서면 접수/재검사';
 inspectionRequirement.refs.push('P34','P35');
+
+// 2026-10-13 공식 서식과 기존 작성 의무의 차분. 법정·계약 적용 확정 아님.
+sources.P36={id:'P36',title:'기술적용계획표·결과표 별지 제1호서식',url:'https://www.law.go.kr/LSW/flDownload.do?flSeq=148014139&bylClsCd=200203',published:'행정안전부고시 2025-1 · 시행 2025-01-02 지침의 별지1',checkedAt:'2026-10-13',status:'공식 빈서식 확인',location:'PDF 10쪽 문자 판독; 물리1~3쪽 서식 구조 확인',sha256:'f489c277136b568e168e5105842a6bf575ee6460c656d3fac1d4034b2c7a547d',fact:'계획/결과 문서종류 선택, 사업명·작성일, 기술항목 4상태와 부분적용/미적용 사유·대체기술',limit:'TS 작성 완료본·최종계약 서식 아님. 법률·고시 목록은 별도 2열 목록. 협의·승인ID와 시험증거 연결은 제안 메타데이터'};
+sources.P37={id:'P37',title:'검사본부 AI시스템 RFP 기술적용표 요구·별첨',url:'https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01648099&bidPbancOrd=000&fileSeq=3&fileType=&prcmBsneSeCd=03',published:'RFP 2026.7 · 별첨 계획표 작성일 2026.4.10',checkedAt:'2026-10-13',status:'공식 RFP 선택 판독 · 최종계약 미확인',location:'COR-007: HWP BodyText/Section0 PARA2338~2349; 별첨1 PARA3214~3318(인쇄 쪽수 아님)',sha256:'b79e877ceb793bc980e81b10273dadf942b832adc7fd814128d175c52283dd0b',fact:'계획 검토·준수·결과표 작성이 기존 요구이며 변경 필요 시 사유 제시와 상호협의 조정 요구',limit:'공고 요구는 납품·검사 완료 증거 아님. HWP 문자 판독이며 O표시의 셀 위치 미검증. 기재 표준의 판본 차이만으로 위반을 확정하지 않음'};
+sections.find(s=>s.id==='boundary').blocks.push(
+ note('기술적용표 · 기존 의무와 추가 개발',[
+  'COR-007의 계획 검토·준수·결과표 작성은 기존 과업. 기본 문서추출·저장·검색도 실제 인계본을 대조하여 동일 납품과 중복 대가에서 제외.',
+  '추가 후보: 계획/결과 종류와 서식판본, 논리행별 적용·부분적용·미적용·해당없음 대응, 사유·대체기술·협의 근거·시험증거 연결. 공란은 미확인으로 보존.',
+  '법률·고시 목록을 기술항목의 4상태 표로 오인하지 않음. 병합·반복 헤더를 대조하고, 조정된 항목과 협의 근거를 확인. 최신 빈서식으로 기존 확정본을 자동 덮어쓰지 않음.',
+  '기존 별첨의 접근성 지침 2.1과 공식 서식의 2.2 등 판본 차이는 검토 후보. 계약 부적합·개정 적용 완료로 자동 판정하지 않음. 표 행 수를 FP나 개발 건수로 바로 환산하지 않음.'
+ ],['P34','P36','P37']),
+ table('기술적용표 추가 검수안 · 실제 제품 시험 미실행',['검수안','입력','기대 동작'],[
+  ['PMS-A04','계획/결과 표시 불명·4상태·공란·병합 헤더·법률 목록·조정합의','문서종류·논리행·미입력 구분, 협의 근거 추적. 자동 상태 보충·부적합·최신판 덮어쓰기 금지']
+ ],['P34','P36','P37'])
+);
+inspectionRequirement.test+=' / PMS-A04 · 서식 논리행·4상태·조정근거';inspectionRequirement.refs.push('P36','P37');
 
 module.exports={id:'TS-AIPMS-2027',version:'v0.3',date:'2026-10-12',title:'NOA 기반 TS 업무 가이딩 · AI PMS · 감리 지원엔진 R&D',status:'2027 정보화사업 편성·후속 연구 기획안 · 실제 PMS·평가·지급·TS 연계 미구현/미검증',assumption:'TS 자체 업무 가이딩을 공통으로 적용. RealPMS는 보고 근거가 확인된 과업/보고 단위에만 연결. 입찰·평가·지급은 실제 공고·내부규정·계약·원장·권한 확보 후 적용. 현재 참가업체·위원 점수·대금 자료는 미확보',constraints:'기존 AI 플랫폼·로컬 LLM·기존 서버 활용 · 신규 인프라 구입 0원 전제 · 사용권·운영비·여유자원 별도 확인 · 국토부 확대는 별도 사업·권한·비용 검토',downloads:[['통합 기획안','downloads/ts-ai-pms-2027-plan.md'],['감리엔진 R&D 계획','downloads/ts-ai-pms-audit-rnd.md'],['요구사항·시험 연결표','downloads/ts-ai-pms-requirements.csv'],['구축·연구 대가산정 입력표','downloads/ts-ai-pms-cost-inputs.csv'],['구조화 설계 원장','downloads/ts-ai-pms-design.json'],...templates.map(t=>[t.title,'downloads/'+t.file]),['전사 2차 업무흐름 RFP v0.4','downloads/ts-public-workflow-2027-plan.md'],...[["전사 업무흐름 상세 HTML", "downloads/ts-enterprise-workflow-2027.html"], ["74처 업무·개발·검수 연결표", "downloads/ts-enterprise-workflow-departments.csv"], ["전사 대가산정 입력표", "downloads/ts-enterprise-workflow-cost.csv"], ["전사 상세 설계 원장", "downloads/ts-enterprise-workflow-design.json"], ["227조직 범위·누락 대조표", "downloads/ts-enterprise-workflow-scope.csv"], ["전사 RFP 요구·검수 대응표", "downloads/ts-enterprise-workflow-requirements.csv"]]],reportingProfiles,sections,requirements,acceptanceTests,templates,research,metrics,sources,costInputs};
