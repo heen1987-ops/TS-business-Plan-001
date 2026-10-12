@@ -1,6 +1,6 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),d=require('../src/ts-ai-pms.cjs'),exporter=require('./export-ts-ai-pms.cjs');
 const root=path.resolve(__dirname,'..'),out=path.join(root,'dist');let count=0;const check=(ok,msg)=>{assert(ok,msg);count++;};
-check(d.date==='2026-10-10'&&d.version==='v0.3','NOA 공통 가이딩·선정·지급·업체 아카이브 설계 기준일');
+check(d.date==='2026-10-12'&&d.version==='v0.3','NOA 공통 가이딩·선정·지급·업체 아카이브 설계 기준일');
 check(d.reportingProfiles.length===3&&d.reportingProfiles.every(p=>p.guiding),'보고 적용 여부와 관계없는 NOA 공통 가이딩');
 check(d.reportingProfiles.find(p=>p.id==='not-required').requiresRealPms===false&&d.reportingProfiles.find(p=>p.id==='not-required').externalSubmission==='미생성','보고 불필요 과업의 외부 의존성 제외');
 check(d.reportingProfiles.find(p=>p.id==='required').requiresRealPms===true&&d.reportingProfiles.find(p=>p.id==='required').completion.includes('각각'),'필수 외부 보고 완료조건 분리');
@@ -9,7 +9,7 @@ check(d.requirements.find(r=>r.id==='PMS-F05').test.includes('혼합 사업')&&d
 check(d.metrics.find(m=>m.id==='K1').quality.includes('0분')&&d.metrics.find(m=>m.id==='K1').method.includes('대상 과업만'),'보고 비대상 0분 평균 혼입 방지');
 check(d.constraints.includes('국토부 확대는 별도 사업·권한·비용 검토'),'향후 기관 확대와 현재 사업 경계');
 check(d.sections.length===16,'목적부터 근거까지 16개 연속 절');check(d.requirements.length===12&&d.research.length===4&&d.metrics.length===5,'12개 요구·4개 연구·5개 지표');
-check(Object.keys(d.sources).length===31&&d.downloads.length===9,'기존29개+업무흐름 근거2개·기존8개+초안1개 자료');
+check(Object.keys(d.sources).length===32&&d.downloads.length===9,'기존31개+민원 기한 근거1개·기존8개+초안1개 자료');
 const sectionText=id=>JSON.stringify(d.sections.find(s=>s.id===id));
 check(sectionText('procurement').includes('협상에 의한 계약의 예시')&&sectionText('procurement').includes('가상 업체')&&sectionText('procurement').includes('공동수급'),'절차 조건부 적용·가상 업체 배제·참가단위');
 check(sectionText('procurement').includes('실제 부여한 0점')&&sectionText('procurement').includes('임의 가감점')&&sectionText('procurement').includes('채택 제안'),'점수 미입력/0 분리·자동 평가 배제·채택 조건');
@@ -89,6 +89,15 @@ const wf=d.sections.find(s=>s.id==='workflow').blocks.find(b=>b.title==='업무 
 check(wf.rows.length===6&&new Set(wf.rows.map(r=>r[0])).size===6&&wf.rows.every(r=>r[2]),'6개 검수 후보의 재현·결과 연결');
 check(d.sources.P30.sha256===d.sources.P22.sha256&&d.sources.P31.limit.includes('실제 동작 미검증'),'원문 동일성·제품 소개 한계');
 const workflowDoc=fs.readFileSync(path.join(out,'downloads/ts-public-workflow-2027-plan.md'),'utf8');
-check(workflowDoc.includes('v0.2')&&workflowDoc.includes('WF-10')&&workflowDoc.includes('WF-T06')&&!/C:\\Users|file:\/\//.test(workflowDoc),'공개 초안 버전·요구·검수·PC 경로 제외');
+check(workflowDoc.includes('v0.3')&&workflowDoc.includes('WF-10')&&workflowDoc.includes('WF-T06')&&!/C:\\Users|file:\/\//.test(workflowDoc),'공개 초안 버전·요구·검수·PC 경로 제외');
+
+
+check(d.sources.P32.published.includes('2026-05-06')&&/^[a-f0-9]{64}$/.test(d.sources.P32.sha256),'민원 시행령 판본·원문 해시');
+check(sectionText('workflow').includes('업무과중·담당자 지정 지연/부재만으로 연장 금지'),'금지된 사유만의 자동 연장 방지 설계');
+check(sectionText('workflow').includes('NOA 응답 지연만으로 자동 제외 금지')&&sectionText('workflow').includes('처리 불가 근거'),'AI 지연과 법정 산입 제외의 구분');
+check(sectionText('workflow').includes('TS 일괄 적용')&&sectionText('workflow').includes('법정기한 자동 중지'),'업무별 적용·내부 보류의 경계');
+const limits=d.sections.find(s=>s.id==='workflow').blocks.find(b=>b.title==='민원 기한관리의 추가 검수 후보 · 제품 시험 미실행');
+check(limits.rows.length===3&&limits.rows.every(r=>r[2])&&limits.refs.includes('P32'),'기한관리 3개 검수 후보와 근거 연결');
+check(sectionText('cost').includes('같은 기한 엔진·로그 기능 중복 산정 금지'),'기존 기능·증분 비용 경계');
 
 console.log('TS 자체 AI PMS 설계 '+count+'항목 통과');
