@@ -10,6 +10,7 @@ for(const term of ['후불','공단/민간/출장','예약상태와 결제상태
 for(const term of ['SFR-012','미충족','총 실제 제공률','(A+U)/N','0분모'])assert(byId.DRT.includes(term),term);
 assert(d.costRule.join(' ').includes('2027'));assert(d.shared.includes('한 번만'));
 const h=fs.readFileSync(p+'html','utf8'),md=fs.readFileSync(p+'md','utf8'),csv=fs.readFileSync(p+'csv','utf8');
+const htmlText=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 for(const id of ids){assert(h.includes('id="source-'+id+'"'));assert(md.includes(id));}
 assert(h.includes('noindex,nofollow'));assert(h.includes('scope="row"'));assert(h.includes('tabindex="0"'));assert(h.includes('@media(max-width:700px)'));
 for(const x of d.concepts)assert(h.includes('id="'+x.id+'"')&&csv.includes(x.title));
@@ -59,3 +60,27 @@ assert(d.concepts[0].annualStages[0].scope.includes('P01 최소'));
 assert(h.includes('id="roadmap"')&&h.includes('revealAnnual'));
 for(const [,id]of h.matchAll(/href="#([^"]+)"/g))assert(h.includes('id="'+id+'"'),'앵커 누락 '+id);
 console.log(JSON.stringify({annualStages:9,status:'passed',productTestsExecuted:false}));
+
+// 2026 플랫폼 기준선과 2027 운영정착·AX 설계 병행: 연차 목적 정정 회귀 방지.
+assert.equal(d.annualPlan.foundation.year,2026);
+assert.equal(d.annualPlan.operations2027.year,2027);
+assert.equal(d.annualPlan.operations2027.status,'완료 목표·미실행');
+assert(d.annualPlan.operations2027.criteria.join(' ').includes('안정화 관찰기간'));
+assert(d.annualPlan.operations2027.criteria.join(' ').includes('인계 문서 작성만으로'));
+assert(d.annualPlan.skillDefinition.includes('SDK·버전 호환성도 미확인'));
+assert(d.annualPlan.budget.join(' ').includes('고정단가 또는 FP로 자동 환산하지'));
+for(const bad of ['2027 착수 가정','2027 · 업무 적용 구축','2029 · 확대·운영 정착'])assert(!h.includes(bad),'이전 잘못된 연차 역할 '+bad);
+for(const c of d.concepts){
+ assert(c.annualStages[0].name.includes('운영정착'));
+ assert(c.annualStages[0].deliverables.includes('대국민 AX 설계 패키지'));
+ assert(c.annualStages[1].name.includes('대국민')||c.annualStages[1].name.includes('서비스'));
+ assert(!c.annualStages[2].name.includes('정착'));
+ for(const k of ['platform','configure','develop','package','publicDesign']){
+  assert(c.skillPlan[k].length>20);assert(h.includes(htmlText(c.skillPlan[k])),'HTML 스킬 누락 '+c.id+'/'+k);assert(md.includes(c.skillPlan[k]));assert(csv.includes(c.skillPlan[k]));
+ }
+}
+for(const v of [d.annualPlan.foundation.role,d.annualPlan.scopeRegister,...d.annualPlan.tracks2027,...d.annualPlan.operations2027.criteria,...d.annualPlan.publicDesign2027]){
+ assert(h.includes(v));assert(md.includes(v));assert(csv.includes(v));
+}
+assert(d.concepts[0].skillPlan.publicDesign.includes('품질·책임성 기반'));
+console.log(JSON.stringify({foundation:2026,operationsTarget:2027,skills:3,publicDesignTracks:3,productTestsExecuted:false,result:'passed'}));
