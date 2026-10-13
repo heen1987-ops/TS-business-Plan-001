@@ -32,3 +32,30 @@ assert(d.concepts[1].excluded.join(' ').includes('실제 납품 미확인'));
 assert(d.concepts[1].cost.join(' ').includes('2026년 첫해'));
 assert(d.concepts[1].cost.join(' ').includes('2027년 Agent'));
 assert(mr.limit.includes('취소')&&mr.limit.includes('API 권리 미확인'));
+
+
+// 연차 분할은 독립 인수·유지 운영·차분 원가를 유지해야 하며 신규 제품 실적으로 승격하지 않는다.
+assert(d.annualPlan.status.includes('미확정'));
+assert(d.annualPlan.completion.includes('운영예산'));
+assert(d.annualPlan.choice.includes('착수·유지·보류'));
+assert(d.annualPlan.decision.includes('자동 확정하지'));
+for(const term of ['3등분','이중 합산','계속 운영비'])assert(d.annualPlan.budget.join(' ').includes(term),term);
+assert(d.annualPlan.schedule.join(' ').includes('중간 운영자료'));
+for(const c of d.concepts){
+ assert.deepEqual(c.annualStages.map(s=>s.year),[2027,2028,2029]);
+ for(const s of c.annualStages){
+  assert.equal(s.amount,null);assert.equal(s.status,'제안·미실행');
+  for(const k of ['name','value','scope','deliverables','acceptance','cost','next']){
+   assert(s[k].length>10,c.id+'/'+s.year+'/'+k);
+   assert(h.includes(s[k]),'HTML 연차 누락 '+k);assert(md.includes(s[k]),'MD 연차 누락 '+k);assert(csv.includes(s[k]),'CSV 연차 누락 '+k);
+  }
+  assert(h.includes('id="annual-'+c.id+'-'+s.year+'"'));
+ }
+}
+assert(d.concepts[1].annualStages[0].scope.includes('발주 전에'));
+assert(d.concepts[1].annualStages[0].acceptance.includes('인계 완료만'));
+assert(d.concepts[2].annualStages[0].scope.includes('배차·기사앱 재구축 제외'));
+assert(d.concepts[0].annualStages[0].scope.includes('P01 최소'));
+assert(h.includes('id="roadmap"')&&h.includes('revealAnnual'));
+for(const [,id]of h.matchAll(/href="#([^"]+)"/g))assert(h.includes('id="'+id+'"'),'앵커 누락 '+id);
+console.log(JSON.stringify({annualStages:9,status:'passed',productTestsExecuted:false}));
