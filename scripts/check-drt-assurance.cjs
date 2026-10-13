@@ -9,7 +9,7 @@ const dump=JSON.stringify(d);for(const t of ['447,249','29,662','75,419,630','�
 const app=fs.readFileSync('src/App.jsx','utf8');check(app.includes("path==='drt-assurance.html'"),'직접 렌더링');check(JSON.parse(fs.readFileSync('src/association-research.json')).news_research.cases.length===6,'기존 뉴스6건 보존');
 // 2026-09-30: 사용자 정정에 따라 운영 자동화를 중심에 놓고 후속 감사 기능은 보존.
 check(d.title.includes('전화 접수·배차·운영계획'),'현장 운영 중심의 사업명');
-check(Object.keys(d.sources).length===16&&d.sources.U01.kind==='user'&&!d.sources.U01.url,'기술 근거·사용자 현장 의견 추가와 출처 구분');
+check(Object.keys(d.sources).length===17&&d.sources.U01.kind==='user'&&!d.sources.U01.url,'기술 근거·사용자 현장 의견 추가와 출처 구분');
 check(d.sources.S01.checkedAt==='2026-09-30'&&d.sources.S01.fact.includes('모바일앱')&&d.sources.S01.fact.includes('콜센터'),'TS의 전화/앱 기존 경로 구분');
 check(d.sources.S08.checkedAt==='2026-09-29','공급사 이전 열람일 보존');
 for(const s of Object.values(d.sources))if(s.url)check(/^https?:\/\//.test(s.url),'실제 원문 링크 형식');
@@ -37,3 +37,13 @@ for(const t of ['고정노선 안내를 배차 완료로 집계하지 않음','�
 console.log(JSON.stringify({result:'통과',checks,chapters:d.sections.length,metrics:d.metrics.length,visuals:visuals.length}));
 
 for(const t of ["DRT-GS-03","당일 요청도 사전예약","동승 인원","시각 누락","콜센터 접수시간"]){check(JSON.stringify(d).includes(t),"사전예약 집계 경계 "+t);}
+
+// 2026-10-13: 개선 전/최종 연구표·TS 채택·종결 분모를 혼동하지 않는 내용 회귀.
+check(d.sources.S16.locator.includes('표4-52')&&d.sources.S16.limit.includes('TS 채택'),'최종 연구초안과 TS 채택 구분');
+const provision=d.metrics.find(m=>m.id==='DRT-M03');
+for(const token of ['총 실제 제공률','같은 분모','확정 코호트','관측종료','분모0'])check(provision.formula.includes(token),'제공률 명칭/분모 경계 '+token);
+for(const token of ['판단불가','선택적 종결','승차시각 누락'])check(provision.method.includes(token),'미확정 상태 경계 '+token);
+for(const token of ['원본값과 정규화값','예정승차시각을 합의 약속시각으로 간주하지 않음','확인대기','기존 연계·보고서'])check(JSON.stringify(d).includes(token),'데이터/중복 검수 '+token);
+console.log(JSON.stringify({result:'DRT 최종 검사 통과',checks,sources:Object.keys(d.sources).length}));
+
+for(const term of ['정시성만 불명','하한','(A+U)/N','U/N'])check(provision.method.includes(term),'정시 판단불가 회귀 '+term);
