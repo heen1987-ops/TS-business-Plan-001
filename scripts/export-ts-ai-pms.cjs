@@ -19,5 +19,6 @@ module.exports=function(out){
  fs.writeFileSync(path.join(out,'ts-ai-pms-requirements.csv'),csv(['ID','요구','구현','인수조건','시험','편성','출처'],d.requirements.map(r=>[r.id,r.name,r.how,r.acceptance,r.test,r.wbs,r.refs.join(' ')])));
  fs.writeFileSync(path.join(out,'ts-ai-pms-cost-inputs.csv'),csv(['묶음','범위','산정방법·입력','포함범위 경계','별도 증분 범위','재사용 확인 증거','중복 확인 WBS','FP','인월','단가','금액','상태'],d.costInputs.map(r=>[r.bundle,r.scope,r.method,r.includedBoundary,r.incrementalBoundary,r.reuseEvidence,r.overlapWbs,r.fp,r.personMonths,r.unitCost,r.amount,r.status])));
  for(const t of d.templates)fs.writeFileSync(path.join(out,t.file),csv(t.headers,t.rows));
+ require('./export-three-concepts.cjs')(out);
 };
 module.exports.markdown=markdown;

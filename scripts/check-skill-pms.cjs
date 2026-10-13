@@ -25,3 +25,5 @@ for(const f of d.downloads)check(fs.existsSync('dist/'+f.to),'공개 다운로�
 check(!/C:\\|G:\\|file:\/\/|127\.0\.0\.1|api[_-]?key\s*=/.test(JSON.stringify(d)),'공개 설계 개인 경로·자격증명 없음');
 check(fs.readFileSync('src/DepartmentDocuments.jsx','utf8').includes("'skill-pms.html#pms-department-'+d.code"),'처별 문서에서 해당 처의 설계 매핑으로 직접 연결');
 console.log(JSON.stringify({result:'통과',checks,departments:d.counts.departments,planningProjects:d.counts.projects,files:d.counts.files,skills:d.skills.length,metrics:d.metrics.length,status:d.status}));
+
+require('./check-three-concepts.cjs');
