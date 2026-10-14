@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from './core.jsx';
 import model from './ax-portfolio.json';
 import './ax-portfolio.css';
+import {EnterpriseWorkAx} from './EnterpriseWorkAx.jsx';
 
 export function AxPortfolio(){return <section className="ax-portfolio" id="ax-portfolio" aria-labelledby="ax-portfolio-title" tabIndex={-1}>
  <header><small>{model.date} · {model.status}</small><h2 id="ax-portfolio-title">{model.title}</h2><p>{model.intro}</p></header>
@@ -13,5 +14,6 @@ export function AxPortfolio(){return <section className="ax-portfolio" id="ax-po
  <div className="ax-foundation"><h3>{model.foundation.title}</h3><p>{model.foundation.reuse}</p><p>{model.foundation.cost}</p></div>
  <div className="ax-table" role="region" aria-label="두 축의 연차별 추진계획" tabIndex={0}><table><caption>{model.copy.annualCaption}</caption><thead><tr><th scope="col">{model.copy.year}</th>{model.axes.map(a=><th scope="col" key={a.id}>{a.title}</th>)}</tr></thead><tbody>{[2027,2028,2029].map((year,i)=><tr key={year}><th scope="row">{year}</th>{model.axes.map(a=><td key={a.id}>{a.years[i]}</td>)}</tr>)}</tbody></table></div>
  <p className="ax-note">{model.annualNote}</p>
- <details><summary>{model.copy.serviceSummary}</summary><p>{model.classificationRule}</p><p>{model.copy.serviceNote}</p><ol className="ax-services">{model.services.map(s=><li key={s.id}><strong>{s.id} · {s.name}</strong><span>{s.wave}</span></li>)}</ol></details>
+ <details id="ax-public-services"><summary>{model.copy.serviceSummary}</summary><p>{model.classificationRule}</p><p>{model.copy.serviceNote}</p><ol className="ax-services">{model.services.map(s=><li key={s.id}><strong>{s.id} · {s.name}</strong><span>{s.wave}</span></li>)}</ol></details>
+ <EnterpriseWorkAx/>
 </section>}
