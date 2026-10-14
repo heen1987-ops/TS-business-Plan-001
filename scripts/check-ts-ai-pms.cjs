@@ -1,6 +1,6 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),d=require('../src/ts-ai-pms.cjs'),exporter=require('./export-ts-ai-pms.cjs');
 const root=path.resolve(__dirname,'..'),out=path.join(root,'dist');let count=0;const check=(ok,msg)=>{assert(ok,msg);count++;};
-check(d.date==='2026-10-12'&&d.version==='v0.3','NOA 공통 가이딩·선정·지급·업체 아카이브 설계 기준일');
+check(d.date==='2026-10-14'&&d.version==='v0.4','NOA 공통 가이딩·선정·지급·업체 아카이브 설계 기준일');
 check(d.reportingProfiles.length===3&&d.reportingProfiles.every(p=>p.guiding),'보고 적용 여부와 관계없는 NOA 공통 가이딩');
 check(d.reportingProfiles.find(p=>p.id==='not-required').requiresRealPms===false&&d.reportingProfiles.find(p=>p.id==='not-required').externalSubmission==='미생성','보고 불필요 과업의 외부 의존성 제외');
 check(d.reportingProfiles.find(p=>p.id==='required').requiresRealPms===true&&d.reportingProfiles.find(p=>p.id==='required').completion.includes('각각'),'필수 외부 보고 완료조건 분리');

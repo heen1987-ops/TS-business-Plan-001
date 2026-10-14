@@ -745,4 +745,18 @@ sections.find(s=>s.id==='boundary').blocks.push(
 );
 inspectionRequirement.test+=' / PMS-A04 · 서식 논리행·4상태·조정근거';inspectionRequirement.refs.push('P36','P37');
 
-module.exports={id:'TS-AIPMS-2027',version:'v0.3',date:'2026-10-12',title:'NOA 기반 TS 업무 가이딩 · AI PMS · 감리 지원엔진 R&D',status:'2027 정보화사업 편성·후속 연구 기획안 · 실제 PMS·평가·지급·TS 연계 미구현/미검증',assumption:'TS 자체 업무 가이딩을 공통으로 적용. RealPMS는 보고 근거가 확인된 과업/보고 단위에만 연결. 입찰·평가·지급은 실제 공고·내부규정·계약·원장·권한 확보 후 적용. 현재 참가업체·위원 점수·대금 자료는 미확보',constraints:'기존 AI 플랫폼·로컬 LLM·기존 서버 활용 · 신규 인프라 구입 0원 전제 · 사용권·운영비·여유자원 별도 확인 · 국토부 확대는 별도 사업·권한·비용 검토',downloads:[['통합 기획안','downloads/ts-ai-pms-2027-plan.md'],['감리엔진 R&D 계획','downloads/ts-ai-pms-audit-rnd.md'],['요구사항·시험 연결표','downloads/ts-ai-pms-requirements.csv'],['구축·연구 대가산정 입력표','downloads/ts-ai-pms-cost-inputs.csv'],['구조화 설계 원장','downloads/ts-ai-pms-design.json'],...templates.map(t=>[t.title,'downloads/'+t.file]),['전사 2차 업무흐름 RFP v0.4','downloads/ts-public-workflow-2027-plan.md'],...[["전사 업무흐름 상세 HTML", "downloads/ts-enterprise-workflow-2027.html"], ["74처 업무·개발·검수 연결표", "downloads/ts-enterprise-workflow-departments.csv"], ["전사 대가산정 입력표", "downloads/ts-enterprise-workflow-cost.csv"], ["전사 상세 설계 원장", "downloads/ts-enterprise-workflow-design.json"], ["227조직 범위·누락 대조표", "downloads/ts-enterprise-workflow-scope.csv"], ["전사 RFP 요구·검수 대응표", "downloads/ts-enterprise-workflow-requirements.csv"]]],reportingProfiles,sections,requirements,acceptanceTests,templates,research,metrics,sources,costInputs};
+
+const ax=require('./ax-portfolio.json');
+const ps=id=>sections.find(s=>s.id===id);
+ps('purpose').intro='업무 효율화 AX 전환의 핵심은 감리 AI다. '+ax.audit.summary;
+ps('purpose').blocks.unshift(note('두 축의 적용 경계',ax.audit.boundaries));
+ps('workflow').blocks.unshift(table('감리 AI의 주차별 검증 흐름',['단계','처리'],ax.audit.flow.map((x,i)=>[String(i+1),x])));
+ps('requirements').blocks.unshift(table('감리 AI 추가 개발',['기능 ID','개발 범위','처리·산출물','차분·경계'],ax.audit.functions.map(r=>[r[0],r[1]||'',r[2]||'',r.slice(3).join(' / ')])));
+ps('requirements').blocks.unshift(table('감리 AI 검수 제안',['검수 ID','기준','측정·책임'],ax.audit.tests));
+ps('cost').blocks.unshift(note('양축 원가와 중복 배제',[ax.foundation.reuse,ax.foundation.cost,'업무 AX 감리 AI 원가는 문서/규칙 판본·요구/증거 관계·주차·원천 인터페이스·검증 사례·운영 기간으로 산정. 회의 패키지와 공통 엔진의 같은 작업을 다시 계상하지 않음.']));
+ps('roadmap').intro=ax.annualNote;
+ps('roadmap').blocks.unshift(table('업무 AX 연차별 납품',['2027 운영정착','2028 연계 확대','2029 고도화'],[ax.axes[0].years]));
+ps('research').title='감리 AI의 후속 연구 후보 · 별도 편성 검토';
+ps('research').intro='기존 후속 연구 후보 이력. 이번 연간 AX 사업의 확정 과업·비용과 구분한다. 현재 핵심 범위는 감리 AI의 현업 적용과 운영정착이다.';
+
+module.exports={id:'TS-AIPMS-2027',version:'v0.4',date:'2026-10-14',title:'업무 효율화 AX · 감리 AI 중심 AI PMS',status:'2027 정보화사업 편성·후속 연구 기획안 · 실제 PMS·평가·지급·TS 연계 미구현/미검증',assumption:'TS 자체 업무 가이딩을 공통으로 적용. RealPMS는 보고 근거가 확인된 과업/보고 단위에만 연결. 입찰·평가·지급은 실제 공고·내부규정·계약·원장·권한 확보 후 적용. 현재 참가업체·위원 점수·대금 자료는 미확보',constraints:'기존 AI 플랫폼·로컬 LLM·기존 서버 활용 · 신규 인프라 구입 0원 전제 · 사용권·운영비·여유자원 별도 확인 · 국토부 확대는 별도 사업·권한·비용 검토',downloads:[['통합 기획안','downloads/ts-ai-pms-2027-plan.md'],['감리엔진 R&D 계획','downloads/ts-ai-pms-audit-rnd.md'],['요구사항·시험 연결표','downloads/ts-ai-pms-requirements.csv'],['구축·연구 대가산정 입력표','downloads/ts-ai-pms-cost-inputs.csv'],['구조화 설계 원장','downloads/ts-ai-pms-design.json'],...templates.map(t=>[t.title,'downloads/'+t.file]),['전사 2차 업무흐름 RFP v0.4','downloads/ts-public-workflow-2027-plan.md'],...[["전사 업무흐름 상세 HTML", "downloads/ts-enterprise-workflow-2027.html"], ["74처 업무·개발·검수 연결표", "downloads/ts-enterprise-workflow-departments.csv"], ["전사 대가산정 입력표", "downloads/ts-enterprise-workflow-cost.csv"], ["전사 상세 설계 원장", "downloads/ts-enterprise-workflow-design.json"], ["227조직 범위·누락 대조표", "downloads/ts-enterprise-workflow-scope.csv"], ["전사 RFP 요구·검수 대응표", "downloads/ts-enterprise-workflow-requirements.csv"]]],reportingProfiles,sections,requirements,acceptanceTests,templates,research,metrics,sources,costInputs};

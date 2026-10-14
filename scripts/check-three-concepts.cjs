@@ -1,7 +1,7 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),d=require('../src/three-concepts.cjs');
 const p='dist/downloads/three-concepts-2027.';const actual=JSON.parse(fs.readFileSync(p+'json','utf8'));assert.deepEqual(actual,d);
 assert.deepEqual(d.concepts.map(x=>x.id),['PMS','INS','DRT']);assert.equal(d.sources.length,15);
-const keys=['summary','owners','flow','excluded','increments','cost','acceptance','benefit','unknown','refs'];
+const keys=['axis','summary','owners','flow','excluded','increments','cost','acceptance','benefit','unknown','refs'];
 const ids=new Set(d.sources.map(x=>x.id));assert.equal(ids.size,d.sources.length);
 for(const x of d.concepts){for(const k of keys)assert(x[k]?.length,'빈 비교항목 '+x.id+'/'+k);assert.equal(x.amount,null);assert.equal(x.baseline,null);assert.equal(x.productTestStatus,'제안·미실행');for(const ref of x.refs)assert(ids.has(ref),ref);}
 const byId=Object.fromEntries(d.concepts.map(x=>[x.id,JSON.stringify(x)]));
@@ -19,7 +19,7 @@ assert(!privateContent.test(', 원문 근거'),'쉼표·원문은 금액이 아�
 assert(privateContent.test('금액 1,000원 확정'),'실제 금액 탐지');
 assert(!privateContent.test(JSON.stringify(d)),'공개 경계');
 for(const file of ['src/UserHome.jsx','src/IntegratedReader.jsx','src/SkillPms.jsx','src/DrtAssurance.jsx'])assert(fs.readFileSync(file,'utf8').includes('downloads/three-concepts-2027.html'),'진입 연결 '+file);
-console.log(JSON.stringify({result:'passed',concepts:3,comparisonFields:10,sources:15,publicFiles:4,scope:'문서 연결·근거·범위·공개 경계 검사; 제품 인수시험 아님'}));
+console.log(JSON.stringify({result:'passed',concepts:3,comparisonFields:11,sources:15,publicFiles:4,scope:'문서 연결·근거·범위·공개 경계 검사; 제품 인수시험 아님'}));
 
 assert(d.concepts[1].increments.find(x=>x.startsWith('I03:')).includes('예약'));
 assert(d.concepts[1].increments.find(x=>x.startsWith('I04:')).includes('검사결과'));
@@ -56,7 +56,9 @@ for(const c of d.concepts){
 assert(d.concepts[1].annualStages[0].scope.includes('발주 전에'));
 assert(d.concepts[1].annualStages[0].acceptance.includes('인계 완료만'));
 assert(d.concepts[2].annualStages[0].scope.includes('배차·기사앱 재구축 제외'));
-assert(d.concepts[0].annualStages[0].scope.includes('P01 최소'));
+assert(d.concepts[0].annualStages[0].scope.includes('AUD-F01~09'));
+assert(d.concepts[0].cost.join(' ').includes('AUD-C01~04')&&d.concepts[0].cost.join(' ').includes('C27-02'));
+assert(d.concepts[0].benefit.join(' ').includes('기준선 4주와 제한 시범 8주'));
 assert(h.includes('id="roadmap"')&&h.includes('revealAnnual'));
 for(const [,id]of h.matchAll(/href="#([^"]+)"/g))assert(h.includes('id="'+id+'"'),'앵커 누락 '+id);
 console.log(JSON.stringify({annualStages:9,status:'passed',productTestsExecuted:false}));
