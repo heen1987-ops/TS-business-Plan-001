@@ -1,0 +1,21 @@
+module.exports={
+  navTitle:'GROWTH AI 통합 설계',
+  eyebrow:'ORGANIZATION-NATIVE AI · DESIGN 2027',
+  summaryTitle:'TS 2027 1차 고도화: 조직 네이티브 AI 플랫폼',
+  summary:'공식 조직·직무정보로 사용자를 인식하고 업무 맥락을 자동 분류합니다. 부처·기관·부서의 업무를 연결한 뒤 TS 선도업무, 제안서·사업관리와 병원으로 확장합니다.',
+  trace:'부서 → 직무 → 업무 → 추가 개발 → 검수',
+  open:'공통 구조 · 분야별 기능 · 개발·검수 연결 보기',
+  skillLink:'CCK 실제 스킬과 조직형 AI의 연결',
+  annualLink:'TS 2027 기존 기획과 추가 개발·검수 연결',
+  sections:[['growth-overview','공통 구조 한눈에'],['growth-rollout','1차 고도화·업무 매핑'],['growth-domains','TS · 병원별 기능'],['growth-skills','제안서·사업관리 스킬'],['growth-baseline','기존 · 추가 · 미검증'],['growth-ontology','조직·직무 기술설계'],['growth-request','처리·변경·권한'],['growth-ts','TS 2027 사업 연결'],['growth-requirements','추가 개발 추적표'],['growth-scenario','같은 요청, 다른 직무'],['growth-tests','검수·품질 기준'],['growth-delivery','납품·일정·비용'],['growth-sources','근거·다운로드']],
+  coreTitle:'공통 조직형 기반',coreNote:'공통 구조를 재사용하고 기관별 데이터와 권한은 분리합니다.',
+  coreGroups:[{name:'사람 · 조직 · 직무',detail:'공식 ID · 배정 · 시간별 관계 · 변경 반영'},{name:'권한 · 근거',detail:'허용 자료와 도구 · 검색부터 반출까지 정책 검증'},{name:'업무 · 스킬',detail:'업무 맥락 · 근거 기반 초안 · 검토 · 승인 · 인계'},{name:'기관별 구성 · 운영',detail:'규칙 · 서식 · 연계 · 감사 · 평가 · 복구'}],
+  branches:[{title:'TS 업무 구성',note:'W27-A~D · 기존 NOA와 플랫폼의 확인된 기능 재사용',items:['감독 · AI PMS','기획 · 예산 · 성과','계약 · 검수 · 지급','현장점검 · 후속조치']},{title:'병원 업무 구성',note:'H01~H04 · 기관별 운영업무부터 단계적으로 검토',items:['구매 · 자산','시설 · 안전','질 관리 · 인증','부서 운영 · 교육']}],
+  hospitalNote:'H05 진료 지원은 별도 검토 범위입니다. 병원용 실제 스킬과 데이터 접근은 확인되지 않았습니다.',
+  headings:{role:'역할',input:'허용 입력',output:'결과와 처리 경계',common:'공통 기능',ts:'TS 적용',hospital:'병원 적용',state:'확인 상태',delta:'추가 개발',legacy:'기존 요구·검수',test:'연결 검수',evidence:'제출 증빙',criterion:'합격 조건 제안',scope:'선도 범위',exclude:'제외 범위',org:'조직형 AI 연결',cost:'비용 귀속',gate:'착수·인수 조건',old:'기존 기획 원문',source:'원본 스킬',reuse:'공통 재사용',adapt:'병원 확장',trigger:'선택 조건',method:'일정·비용 원칙',mapping:'요구·시험·사업 연결'},
+  scenarioLabel:'직무 비교 선택',scenarioNote:'정적 검증 예시입니다. 실제 기관 자료를 조회하지 않습니다.',allRoles:'모든 직무 비교',
+  downloads:[['downloads/growth-framework.json','공통 스킬 적용 판본 · JSON'],['downloads/growth-ai.md','통합 설계 전문 · Markdown'],['downloads/growth-ai-trace.csv','요구·검수 추적표 · CSV'],['downloads/growth-ai.json','구조화된 설계 · JSON'],['downloads/growth-skills.md','스킬 재사용·검수 · Markdown'],['downloads/growth-skills.json','스킬 연결 원장 · JSON']],
+  backLinks:[['index.html#annual-work-2027','TS 2027 선도사업 기획'],['skill-pms.html','기존 스킬형 PMS 설계']],
+  skillsNote:'소스와 방법론을 확인한 스킬 자산입니다. 앱 등록·실호출·기관 운영 검수는 별도이며, 아래 상태를 구분해 관리합니다.',
+  narrative:{ontology:['growth-3','growth-4'],request:['growth-5'],hospital:['growth-6'],requirements:['growth-8'],tests:['growth-10'],delivery:['growth-11','growth-13']}
+};

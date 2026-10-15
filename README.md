@@ -1,7 +1,11 @@
 # TS Business Plan — 작업 문서 모음
 
+**TS 2027의 1차 플랫폼 고도화는 조직 네이티브 AI를 중심으로 기획합니다.** 공식 부서·직무·업무 매핑을 사용자 인식과 업무 맥락 분류, 추가 개발·검수로 연결합니다. 실제 플랫폼 구현·기관 데이터 연계는 미검증입니다.
+
 ## 홈페이지와 한글파일
 
+- [GROWTH AI 공통 구조·TS/병원·2027 개발 검수](https://heen1987-ops.github.io/TS-business-Plan-001/growth-ai.html)
+- [통합 설계 원장·기존 기획 연결](docs/GROWTH_AI.md) · [CCK 스킬 재사용](docs/GROWTH_SKILLS.md) · [공통 스킬 출처·설치 검증](docs/GROWTH_SKILL_PROVENANCE.md) · [호출 예시·기관 확장](docs/GROWTH_SKILL_USAGE.md)
 - [공개 홈페이지](https://heen1987-ops.github.io/TS-business-Plan-001/)
 - [처별 한글파일 검색·다운로드 — 39개 처·현재 117개·이전 39개 HWPX](https://heen1987-ops.github.io/TS-business-Plan-001/planning-documents.html)
 - [GitHub에서 처별 한글파일 바로 찾기](docs/HWPX_DOWNLOADS.md)

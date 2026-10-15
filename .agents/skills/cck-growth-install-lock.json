@@ -1,0 +1,71 @@
+{
+  "schemaVersion": "cck-growth-install-lock/1",
+  "packageId": "cck-growth-skills",
+  "version": "0.1.0",
+  "sourceRepo": "heen1987-ops/CCK-Public-basic",
+  "sourceCommit": "b6dc23772d3847bcb9ef2ebe7927fb3a3e2dd5c0",
+  "sourceState": "pinned_files_verified",
+  "destination": ".",
+  "files": [
+    {
+      "path": "cck-public-business/SKILL.md",
+      "sha256": "041904aaa4338eb7ab9b80dd2cf1bae8cf32699edb05ad94574ba997ad57cf52",
+      "bytes": 2343
+    },
+    {
+      "path": "cck-public-evidence/SKILL.md",
+      "sha256": "6608445aabe7d2e0a3a54a4514fba6fa34c29907dd44a6d8203880ef5b094bf9",
+      "bytes": 2316
+    },
+    {
+      "path": "cck-proposal/SKILL.md",
+      "sha256": "961e1218b6d44684f2435c90c4092aee928bbf9c08eec263410af1241ac3ef4d",
+      "bytes": 3146
+    },
+    {
+      "path": "cck-project-management/SKILL.md",
+      "sha256": "abf6160c8c2199b8464cea529d0eddda0af075c690cdf16c1f1f7b74587d01f0",
+      "bytes": 3158
+    },
+    {
+      "path": "cck-agency-onboarding/SKILL.md",
+      "sha256": "0e4c877634e74fccfad30bc920560d0d8cf64cdfd1d489b039c7cd5627431725",
+      "bytes": 2687
+    },
+    {
+      "path": "_shared/contract.md",
+      "sha256": "e627991397fb818f32d9133ba97c20525b4971b9e2436cea0da571662768fc12",
+      "bytes": 5467
+    },
+    {
+      "path": "_shared/evidence-rules.md",
+      "sha256": "296978036090cb2f49ab989300d3eb0f786d91adc8ae8c9742ce2103108c1c22",
+      "bytes": 3208
+    },
+    {
+      "path": "_shared/agency-profiles.json",
+      "sha256": "c353bf881b9f286c3c419a9cf7d3edd67dcb27832685647573a7155948e3d7fa",
+      "bytes": 5151
+    },
+    {
+      "path": "_shared/source-registry.json",
+      "sha256": "b17cc4902c938b34478416b4ed2f0dceb30ba76db64c1f09f3b7e7bf8a3048a8",
+      "bytes": 8410
+    },
+    {
+      "path": "_shared/request.schema.json",
+      "sha256": "1d462dfd460c0ea38e645a0e8d97095fd8284b8a4096d3611de6693b138cf5ea",
+      "bytes": 8703
+    },
+    {
+      "path": "_shared/inspect-request.cjs",
+      "sha256": "c6a7d6f5ac17da04e9158cc1b0fadc39e17473eef21e27dae33b2ab99c8c4160",
+      "bytes": 16324
+    }
+  ],
+  "installation": "copied_and_hash_verified",
+  "operation": "not_run",
+  "copiedAt": "2026-10-15T12:49:08.080Z",
+  "registration": "not_run",
+  "invocation": "not_run"
+}

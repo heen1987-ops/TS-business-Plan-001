@@ -1,0 +1,141 @@
+{
+  "packageId": "cck-growth-skills",
+  "version": "0.1.0",
+  "asOf": "2026-10-15",
+  "source": {
+    "repo": "heen1987-ops/CCK-Public-basic",
+    "commit": "b6dc23772d3847bcb9ef2ebe7927fb3a3e2dd5c0",
+    "path": "CCK-GROWTH-Skills",
+    "url": "https://github.com/heen1987-ops/CCK-Public-basic/blob/b6dc23772d3847bcb9ef2ebe7927fb3a3e2dd5c0/CCK-GROWTH-Skills/README.md",
+    "manifestSha256": "47f9eca02d0615e3fafd5e0ca9a456b5667decb676bccee726fa60ffa6687ea3",
+    "profilesSha256": "c353bf881b9f286c3c419a9cf7d3edd67dcb27832685647573a7155948e3d7fa"
+  },
+  "skills": [
+    {
+      "id": "cck-public-business",
+      "name": "공공 사업 통합",
+      "role": "router",
+      "purpose": "기관·사업·공고·단계를 식별해 근거·제안·관리로 연결",
+      "branch": "통합",
+      "url": "https://github.com/heen1987-ops/CCK-Public-basic/blob/b6dc23772d3847bcb9ef2ebe7927fb3a3e2dd5c0/CCK-GROWTH-Skills/skills/cck-public-business/SKILL.md"
+    },
+    {
+      "id": "cck-public-evidence",
+      "name": "공통 근거 확인",
+      "role": "evidence",
+      "purpose": "정보화 가이드·공고·규정·양식의 판본과 사업 적용을 대조",
+      "branch": "공통",
+      "url": "https://github.com/heen1987-ops/CCK-Public-basic/blob/b6dc23772d3847bcb9ef2ebe7927fb3a3e2dd5c0/CCK-GROWTH-Skills/skills/cck-public-evidence/SKILL.md"
+    },
+    {
+      "id": "cck-proposal",
+      "name": "제안서 작성",
+      "role": "proposal",
+      "purpose": "공고별 요구·평가·증거에 맞춘 제안·연구개발계획서 작성",
+      "branch": "PROPOSAL",
+      "url": "https://github.com/heen1987-ops/CCK-Public-basic/blob/b6dc23772d3847bcb9ef2ebe7927fb3a3e2dd5c0/CCK-GROWTH-Skills/skills/cck-proposal/SKILL.md"
+    },
+    {
+      "id": "cck-project-management",
+      "name": "사업관리",
+      "role": "management",
+      "purpose": "승인 기준선·변경·산출물·보고·검수 증거 대사",
+      "branch": "PROJECT_MANAGEMENT",
+      "url": "https://github.com/heen1987-ops/CCK-Public-basic/blob/b6dc23772d3847bcb9ef2ebe7927fb3a3e2dd5c0/CCK-GROWTH-Skills/skills/cck-project-management/SKILL.md"
+    },
+    {
+      "id": "cck-agency-onboarding",
+      "name": "기관 확장",
+      "role": "onboarding",
+      "purpose": "정확한 기관 식별과 사업유형·공고별 적용 프로필 등록",
+      "branch": "공통",
+      "url": "https://github.com/heen1987-ops/CCK-Public-basic/blob/b6dc23772d3847bcb9ef2ebe7927fb3a3e2dd5c0/CCK-GROWTH-Skills/skills/cck-agency-onboarding/SKILL.md"
+    }
+  ],
+  "branches": [
+    {
+      "id": "PROPOSAL",
+      "name": "제안서 작성",
+      "skillId": "cck-proposal"
+    },
+    {
+      "id": "PROJECT_MANAGEMENT",
+      "name": "사업관리",
+      "skillId": "cck-project-management"
+    }
+  ],
+  "agencies": [
+    {
+      "id": "TS",
+      "name": "한국교통안전공단",
+      "status": "DRAFT_REFERENCE",
+      "businessTypes": [
+        "INFORMATION_SYSTEM",
+        "R_AND_D",
+        "OTHER"
+      ],
+      "unknowns": [
+        "선택 공고·내부규정·계약/협약·승인 자료 미입력",
+        "기존 TS 스킬에 포함된 비공개 사업 데이터는 본 패키지에 없음"
+      ]
+    },
+    {
+      "id": "IITP",
+      "name": "정보통신기획평가원",
+      "status": "DRAFT_REFERENCE",
+      "businessTypes": [
+        "INFORMATION_SYSTEM",
+        "R_AND_D",
+        "OTHER"
+      ],
+      "unknowns": [
+        "일반 구매·용역인지 ICT·방송 연구개발인지 실제 공고 확인 필요",
+        "예시 공고 접수기간을 현재 사업 마감일로 사용 금지"
+      ]
+    },
+    {
+      "id": "KEIT",
+      "name": "한국산업기술기획평가원",
+      "status": "DRAFT_REFERENCE",
+      "businessTypes": [
+        "INFORMATION_SYSTEM",
+        "R_AND_D",
+        "OTHER"
+      ],
+      "unknowns": [
+        "산업기술 R&D와 기관 자체 구매·용역 구분 필요",
+        "해당 사업의 공고·평가관리지침·계획서·협약 판본 미선택"
+      ]
+    },
+    {
+      "id": "EDU",
+      "name": "교육청 미지정 템플릿",
+      "status": "TEMPLATE",
+      "businessTypes": [
+        "INFORMATION_SYSTEM",
+        "R_AND_D",
+        "OTHER"
+      ],
+      "unknowns": [
+        "실제 교육청 미지정",
+        "서울교육청 출처는 탐색 사례이며 다른 교육청에 적용 불가",
+        "개별 발주기관·수요기관·내규·보안 요구·공고 확인 필요"
+      ]
+    },
+    {
+      "id": "HOSPITAL",
+      "name": "병원 후속 확장",
+      "status": "FUTURE",
+      "businessTypes": [
+        "INFORMATION_SYSTEM",
+        "OTHER"
+      ],
+      "unknowns": [
+        "기관팩 미구현",
+        "구매·자산·품질/인증·교육·사고 후속 등 행정 업무로 범위 정의 필요",
+        "EMR/EHR·환자 데이터·임상 의사결정 연계 확인 없음"
+      ]
+    }
+  ],
+  "execution": "not_run"
+}

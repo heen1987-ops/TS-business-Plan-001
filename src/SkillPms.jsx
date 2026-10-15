@@ -1,6 +1,7 @@
 import React,{useEffect,useState}from'react';
 import{Heading,Link,Out,href}from'./core.jsx';
 import design from'./skill-pms.cjs';
+import growthView from './growth-view.cjs';
 import{DepartmentCoverage}from'./DepartmentCoverage.jsx';
 import ux from'./ux-content.cjs';
 import'./skill-pms.css';
@@ -37,6 +38,7 @@ export function SkillPms({embedded=false}){let hash=location.hash;try{hash=decod
  useEffect(()=>{let next;const first=requestAnimationFrame(()=>{next=requestAnimationFrame(()=>{if(!location.hash)return;let id=location.hash.slice(1);try{id=decodeURIComponent(id)}catch{}const target=document.getElementById(id);target?.focus({preventScroll:true});target?.scrollIntoView({block:'start'})})});return()=>{cancelAnimationFrame(first);if(next)cancelAnimationFrame(next)}},[]);
  return <div className="page skill-pms-page" data-pms-view={view}><Heading label={design.id+' · '+design.version+' · '+design.date} title={view==='common'?design.title:view==='departments'?u.portfolio:u.coverage} desc={view==='common'?u.commonGuide:view==='departments'?u.portfolioGuide:u.coverageGuide}/>
  <p className="pms-links"><Link to="downloads/three-concepts-2027.html">AI PMS·검사소 Agent·DRT 원문 비교표 →</Link></p>
+ <p className="pms-links"><Link to="growth-ai.html#growth-skills">{growthView.skillLink} →</Link></p>
  {!embedded&&view==='common'&&<TsAiPmsPlan/>}
  <nav className="ux-pms-views" aria-label="플랫폼 설계·처별 자료 보기">{u.nav.map(([key,title,to])=><Link key={key} to={to} aria-current={view===key?'page':undefined}>{title}</Link>)}</nav>
  <div className="pms-intro"><p><strong>{design.status}</strong></p><p>{design.constraints}</p><p>{design.counts.departments} {l.countDepartments} · {design.counts.projects} {l.countProjects} · {design.counts.files} {l.countFiles}</p><small>{l.countNote}</small><p className="pms-links"><Link to="solutions.html">처별 제안 찾기 ↗</Link><Link to="planning-documents.html">한글 자료실 ↗</Link>{design.downloads.map(d=><Link key={d.to} to={d.to} download>{d.title} ↓</Link>)}</p></div>
