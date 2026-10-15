@@ -7,9 +7,10 @@ assert.equal(d.services.length,10);assert.equal(new Set(d.services.map(x=>x.id))
 assert(d.services.every(x=>x.axis==='public'&&!/감리|PMS/.test(x.name)));
 assert.equal(c.concepts.find(x=>x.id==='PMS').axis,'업무 효율화 AX 전환');
 assert(c.concepts.filter(x=>x.id!=='PMS').every(x=>x.axis==='국민서비스 AX 전환'));
-assert(d.axes[0].years[0].includes('운영 인수 완료'));
-assert(d.axes[1].years[0].includes('설계 완료'));
-assert(d.foundation.cost.includes('한 번 계상'));
+assert(d.axes[0].years[0].includes('조직 네이티브 AI 기반 구축·인수'));
+assert(d.axes[1].years[0].includes('대국민 서비스 구축·운영은 후속 별도 범위'));
+assert.equal(d.foundation.cost,require('../src/org-platform-2027.cjs').common);
+assert(d.axes.every(a=>a.years.slice(1).every(y=>y.includes('조직 기반 인수 및 별도 사업 확정 조건'))));
 assert.equal(d.audit.functions.length,9);assert.equal(d.audit.tests.length,10);
 assert(d.audit.boundaries.some(x=>x.includes('법정 감리')));
 const displayed=JSON.stringify(p.sections);for(const r of [...d.audit.functions,...d.audit.tests])assert(displayed.includes(r[0]),r[0]);

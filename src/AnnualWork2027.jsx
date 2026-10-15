@@ -5,7 +5,7 @@ import growthView from './growth-view.cjs';
 export function AnnualWork2027(){const c=d.copy;return <section id="annual-work-2027" className="annual-work" aria-labelledby="annual-work-title" tabIndex={-1}>
  <h4 id="annual-work-title">{d.title}</h4><p>{d.intro}</p><p className="ax-note">{d.status}</p>
  <p><Link to="growth-ai.html#growth-ts">{growthView.annualLink} →</Link></p>
- <div className="enterprise-priorities">{d.bundles.map(b=><article key={b.id}><strong>{b.rank}순위 · {b.id}</strong><h5><a href={'#'+b.id}>{b.name}</a></h5><p>{b.lead}</p><small>{b.why}</small></article>)}</div>
+ <div className="enterprise-priorities">{d.bundles.map(b=><article key={b.id}><strong>{b.phase} · {b.id}</strong><h5><a href={'#'+b.id}>{b.name}</a></h5><p>{b.lead}</p><small>{b.why}</small></article>)}</div>
  <p>{d.selection}</p><p>{d.reuse}</p>
  <div className="annual-bundles">{d.bundles.map(b=><details id={b.id} key={b.id} data-annual-bundle={b.id}><summary>{b.id} · {b.name}</summary><div className="enterprise-body">
  <p><strong>{c.owner}</strong> — {b.lead} / {b.partners}</p><p><strong>{c.scope}</strong> — {b.scope}</p>

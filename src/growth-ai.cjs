@@ -3,12 +3,12 @@ const skillCatalog = require('./growth-skills.cjs');
 // Canonical public design model. No institution data access or operational AI calls.
 const annual = require('./annual-work-2027.cjs');
 const data = {
-  "version": "0.2",
-  "date": "2026-10-15",
+  "version": "0.3",
+  "date": "2026-10-16",
   "title": "GROWTH AI 조직형 플랫폼",
   "subtitle": "TS 2027 1차 고도화: 조직 네이티브 AI 플랫폼",
   "status": "통합 설계 제안 · 실제 조직형 엔진·연계·권한·성능은 미검증 · 기관 합의·예산 확정 아님",
-  "intro": "공식 조직정보를 바탕으로 사용자의 업무 맥락을 구성하고, 허용된 지식과 절차를 연결하여 담당자의 검토와 업무 완료를 지원합니다. 사람·조직·직무·업무·권한의 공통 기반 위에 TS와 병원의 규정·업무 객체·서식·연계·검수 사례를 구성합니다.",
+  "intro": "조직마다 다른 임무·책임·관할·업무 방식을 플랫폼에 연결합니다. 공식 조직정보로 사용자와 역할을 이해하는 기반을 먼저 인수하고, 그 위에서 업무효율화와 국민서비스를 확장합니다. GROWTH AI는 기관별 조직 기반과 분야별 구성을 재사용하는 상위 제품 체계입니다.",
   "scope": "이 페이지는 제품·요구사항·기술설계·검수의 정적 설계 자료입니다. 실제 인증·기관 데이터 조회·AI 호출·업무 실행 기능을 제공하지 않습니다. 병원 세부 제품명과 대상 기관은 미확정입니다.",
   "provenance": "공개 저장소 기준: TS 32bad4c9, 공공사업 가이드 919e6bb7. 통합 요구 GAI-R01~R12와 시험 GAI-T01~T12는 신규 설계 제안이며 기존 W27·Y27·WF 식별자를 유지합니다.",
   "layers": [
@@ -323,7 +323,7 @@ const data = {
     {
       "id": "GAI-R02",
       "name": "시점별 조직·직무 모델",
-      "delta": "소속·겸직·대행·업무분장·조직승계의 유효기간과 출처",
+      "delta": "소속·겸직·대행·업무분장·조직승계의 유효기간과 출처 조직별 임무·관할·서비스 대상·협업 특성을 공식 조직코드와 판본에 연결.",
       "legacy": "WF-R02·R03, A02·A03",
       "legacyIds": [
         "WF-R02",
@@ -368,7 +368,7 @@ const data = {
     {
       "id": "GAI-R05",
       "name": "직무별 업무 맥락",
-      "delta": "역할·업무 건별 지식·절차·서식·도구 선택과 선택 근거",
+      "delta": "역할·업무 건별 지식·절차·서식·도구 선택과 선택 근거 본사·연구·지역·현장의 서로 다른 맥락과 역할을 분리.",
       "legacy": "WF-R04, A04, Y27-T03",
       "legacyIds": [
         "WF-R04",
@@ -522,7 +522,7 @@ const data = {
     {
       "id": "GAI-T05",
       "name": "맥락 선택",
-      "scenario": "같은 요청을 TS·병원 역할과 겸직 맥락별로 수행",
+      "scenario": "같은 요청을 TS·병원 역할과 겸직 맥락별로 수행 서로 다른 조직 유형과 수행·검토·승인·협업 역할의 동일 요청 비교.",
       "criterion": "허용 범위·업무·절차·결과물 선택을 정답과 비교. 모호한 요청은 확인/보류. 품질 수치는 M2 합의",
       "status": "협의용 합격 조건·실제 시험 미수행"
     },
@@ -646,6 +646,11 @@ const data = {
   ],
   "responsibilities": [
     {
+      "id": "OWN00",
+      "name": "AI혁신처 · 플랫폼 총괄 제안",
+      "responsibility": "공통 조직 모델·AI 맥락·구성 기준, 부서 도입 지원, 플랫폼 품질·운영 조정 / 인사 발령·업무분장·전결권을 단독 확정하지 않음 · 공식 지정 미확인"
+    },
+    {
       "id": "OWN01",
       "name": "CCK 제품 책임자",
       "responsibility": "공통/분야 경계, 구성판본·호환성, 공통 기능 중복 방지"
@@ -722,28 +727,28 @@ const data = {
     {
       "id": "M01",
       "period": "착수부터 M2",
-      "ts": "계약·설치·권한·원천 대조, 선택 업무 확정, 공식 ID와 온톨로지 최소 범위, 품질·신선도·평가셋 잠금",
+      "ts": "조직 특성·부처/기관 관계·부서/직무/역할·원천과 대표 사례, 재사용·평가 기준 합의",
       "hospital": "후보 병원·업무·시스템 조사, H01~H04 우선순위·자료권리 확인",
       "gate": "미검증 연계와 신규 차분 해소, 책임·범위·검수 기준 합의"
     },
     {
       "id": "M02",
       "period": "M3부터 M5",
-      "ts": "공통 부족분과 선택 W27 업무 개발, 역할·권한·판본·반려·정정·파일 완주 시험",
+      "ts": "조직 기반 구현과 공통 협업·인계·승인 통합. 후속 W27 서비스 전체 구축과 구분",
       "hospital": "별도 범위가 승인된 경우 병원 설정·합성자료 시험",
       "gate": "필수 통제 시험 통과와 허가된 실제 시범자료 확보"
     },
     {
       "id": "M03",
       "period": "M6부터 M7",
-      "ts": "허가 사례 시범, 독립 검수, 결함 수정, 사용자 교육",
+      "ts": "조직 유형·역할별 제한된 실제 사례로 기반 독립 검증, 보완·교육",
       "hospital": "별도 데이터 허가 후 선택 병원 업무 시범",
       "gate": "중대 결함 해소와 기관별 업무 책임자 확인"
     },
     {
       "id": "M04",
       "period": "M8부터 M9",
-      "ts": "안정화·효과 측정·복구훈련·회수·인수, 지원 인계",
+      "ts": "조직 기반 안정화·운영 인수 후 업무효율화·국민서비스의 별도 적용 범위 판단",
       "hospital": "병원 자체 일정에 따라 별도 인수 판단",
       "gate": "운영자 수행·증빙·지원 책임 확정"
     },
@@ -874,7 +879,7 @@ const data = {
         "공식 ID 대응표나 권한표를 받지 못한 조직형 기능은 합성 데이터로 설계·시험할 수 있으나 실제 기관 적용으로 검수하지 않는다. 그 기능을 제외·축소하거나 데이터 확보 이후의 별도 단계로 다시 계획해야 한다.",
         "## 공통 추가분의 소유와 중복 방지",
         "기존 C27-COM은 사건 ID·기준선 버전·사람 확인 상태·근거/정정 이력·표준 반출이다. 조직형 기능 전체가 이미 포함돼 있다고 해석하지 않고, GAI-R별로 현재 기능 증빙과 차분을 추가한다.",
-        "공통 부족분은 선택 사업 중 단 하나에 귀속한다. 기존 기획대로 A를 우선 후보로 두고 A 미선정 시 실제 선행사업으로 옮기되, 이전 소유 항목은 제외한다. 다른 사업은 이미 확보한 공통 제공본을 사용하고 전용 규칙·자료·설정·연계·검수 차분만 편성한다. 공통 제공본·사용권·지원책임 또는 해당 사업의 유일한 납품범위를 확보하지 못하면 독립 발주가 성립하지 않는다. [공통 귀속과 독립 발주 조건](https://github.com/heen1987-ops/TS-business-Plan-001/blob/32bad4c9fbdada86418f427623f0f6cbd2ebe021/src/annual-work-2027.cjs)",
+        "공통 추가분 C27-COM은 TS 조직 네이티브 AI 플랫폼(ON27-BASE) 단 하나에 귀속합니다. 기존 계약 차분을 확인하여 GAI-R01~R12의 실제 부족분만 한 번 산정합니다. W27-A~D는 검수된 공통 제공본을 재사용하고 업무 전용 차분만 별도로 산정합니다. 후속 업무사업은 조직 기반 인수와 검수된 제공본·사용권·지원책임을 확보한 뒤 범위·예산·검수를 별도 확정합니다. 필수 공통 기반을 확보하지 못하면 후속 적용 발주 불가입니다. 1차의 제한된 조직 검증 사례는 후속 업무서비스 전체 인수를 의미하지 않습니다.",
         "비용은 공통 차분 1회 + 선택한 TS 업무 전용 차분 + 기존 대가에 포함되지 않은 데이터·설정·평가·운영 작업 + 확인된 사용권·직접경비로 구분한다. 개발 산정에 포함된 설계·시험·관리를 다른 공수 항목으로 다시 합산하지 않는다. 단위는 기능, 변경 관계, 규칙·서식판본, 연계 행위, 정비량, 평가사례, 운영기간으로 잡고 처 수를 동일 엔진 수로 환산하지 않는다.",
         "병원 전용 조사·연계·설정·시험·운영은 병원 도입 또는 별도 제품개발 범위로 산정한다. CCK의 범용 제품화 비용도 TS 납품에 필요한 범위와 분리한다. 기관별 데이터 공유, TS 산출물의 타 기관 재사용, 제품 사용권은 각각 확인해야 한다. 총사업비는 물량·기능 차분·공수·2027 적용 단가·견적이 확정되기 전까지 미산정으로 둔다. 기존 서버 자원 수용성은 시험하며 신규 GPU/NPU 구매는 현재 TS 업무 묶음에 포함하지 않는다."
       ]
@@ -889,7 +894,7 @@ const data = {
       "title": "납품 목록과 확정할 사항",
       "paragraphs": [
         "발주 또는 구현 범위를 확정하기 전에는 다음 항목을 결정한다.",
-        "1. TS에서 선택할 W27 사업과 선도 사례, 공통 C27-COM의 유일한 귀속 사업.",
+        "1. 조직 기반의 공식 원천·책임·대상 조직·대표 검증 사례와 단일 비용 귀속(ON27-BASE).",
         "2. NOA·기존 플랫폼의 계약·설치판·사용권·API·권한·로그 기능과 실제 부족분.",
         "3. 공식 계정–인사 ID 대응표, 조직·직무·업무배정·전결·위임 필드의 제공 가능 범위.",
         "4. 조직변경과 권한회수의 원천, 반영 주기·최대 지연·장애 시 보류 범위.",
@@ -970,6 +975,7 @@ function table(headers,rows){
 function toMarkdown(){
  const d=module.exports;
  const out=['# '+d.title+' — 통합 설계와 TS 2027 개발·검수','',d.date+' · v'+d.version+' · '+d.status,'',d.intro,'',d.scope,'',d.provenance,''];
+ out.push(require('./org-platform-2027.cjs').markdown());
  out.push(require('./growth-org-markdown.cjs')());
  const render={
   'growth-1':()=>table(['구분','역할','구성과 책임'],d.layers.map(x=>[x.name,x.role,x.detail])),
@@ -1007,4 +1013,4 @@ function toMarkdown(){
 }
 data.sources.push({id:'CCK-SKILLS',title:'CCK-TS-Management 스킬 정본 0.7.7',url:'https://github.com/heen1987-ops/CCK-Public-basic/blob/c991e399507e1843072405dcd0a4fd4eb7392bd0/CCK-TS-Management/skillset.json',date:'2026-10-15 확인',note:'별도 브랜치의 진입점 2개·업무 7개. 소스 확인과 실제 설치·운영 검수는 구분.'});
 data.boundaries.push({id:'B08',name:'CCK 사업관리 스킬',verified:'별도 브랜치의 0.7.7 소스와 7개 업무·2개 진입점, 방법론 전용 배포본을 확인했습니다.',treatment:'근거·산출물·가이드·일정·작성·이슈·현황 방법론은 재사용 후보. 공식 조직·권한·기관별 프로필과 실제 업무 검수는 추가로 연결합니다.',status:'소스 확인·업무 실행 미검증'});
-module.exports={...data,organizationRollout:require('./growth-org-rollout.cjs'),ministryMap:require('./growth-ministry-map.cjs'),framework:require('./growth-framework.cjs'),skills:skillCatalog.skills,skillSource:skillCatalog.sourceSnapshot,tsBundles,timeline,legacyTests,cost,deadline:annual.deadline,toMarkdown};
+module.exports={...data,organizationPlatform:require('./org-platform-2027.cjs'),organizationRollout:require('./growth-org-rollout.cjs'),ministryMap:require('./growth-ministry-map.cjs'),framework:require('./growth-framework.cjs'),skills:skillCatalog.skills,skillSource:skillCatalog.sourceSnapshot,tsBundles,timeline,legacyTests,cost,deadline:annual.deadline,toMarkdown};
