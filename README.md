@@ -4,6 +4,7 @@
 
 ## 홈페이지와 한글파일
 
+- [TS 공식 조직 기반 76개 부서 매핑·협업·1차 구축·검수](https://heen1987-ops.github.io/TS-business-Plan-001/proposal-2027.html#department-mapping) · [매핑 CSV](https://heen1987-ops.github.io/TS-business-Plan-001/downloads/ts-department-mapping.csv) · [근거·범위 설명](docs/TS_DEPARTMENT_MAPPING_2027.md)
 - [TS 2027 조직 네이티브 AI 사업 제안서 초안](https://heen1987-ops.github.io/TS-business-Plan-001/proposal-2027.html) · [전문 Markdown](https://heen1987-ops.github.io/TS-business-Plan-001/downloads/ts-2027-proposal.md) · [인쇄용 HTML](https://heen1987-ops.github.io/TS-business-Plan-001/downloads/ts-2027-proposal.html)
 - [GROWTH AI 공통 구조·TS/병원·2027 개발 검수](https://heen1987-ops.github.io/TS-business-Plan-001/growth-ai.html)
 - [통합 설계 원장·기존 기획 연결](docs/GROWTH_AI.md) · [CCK 스킬 재사용](docs/GROWTH_SKILLS.md) · [공통 스킬 출처·설치 검증](docs/GROWTH_SKILL_PROVENANCE.md) · [호출 예시·기관 확장](docs/GROWTH_SKILL_USAGE.md)

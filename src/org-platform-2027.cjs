@@ -1,7 +1,7 @@
 'use strict';
 // TS 사업의 단계·책임·인수 경계 정본. 업무 후보의 원장은 annual-work-2027.cjs.
 const d = {
- id:'ON27-BASE', version:'0.2', date:'2026-10-16',
+ id:'ON27-BASE', version:'0.3', date:'2026-10-16',
  title:'TS 조직 네이티브 AI 플랫폼',
  eyebrow:'TS 2027 · 조직 기반을 먼저 구축하는 1차 고도화',
  intro:'조직마다 다른 임무·책임·관할·업무 방식을 플랫폼에 연결합니다. 공식 조직정보로 사용자와 역할을 이해하는 기반을 먼저 인수하고, 그 위에서 업무효율화와 국민서비스를 확장합니다.',
@@ -20,13 +20,14 @@ const d = {
  fields:['공식 조직코드·상위조직·효력일·출처','임무·업무분장·대상 고객·관할','담당 직무·책임·업무 주기·절차','협업·보고·인계 관계','수행·검토·승인·협업 배정과 유효기간','관련 규정·지식·시스템·데이터 소유자','별도 정책·위임·회수·공개 범위'],
  roles:[
   {name:'AI혁신처 · 플랫폼 총괄 제안',responsibility:'공통 조직 모델·AI 맥락·구성 기준, 부서 도입 지원, 플랫폼 품질·운영 조정',boundary:'인사 발령·업무분장·전결권을 단독 확정하지 않음'},
+  {name:'AI서비스개발팀 · 구축·운영 제안',responsibility:'조직 인식·업무 맥락·정책 적용의 구현, 플랫폼 제공본·운영 시험과 기술지원',boundary:'공식 직원안내의 TS AI GPT 운영·고도화 업무에 근거한 제안이며 사업 주관·전결권 확정은 별도'},
   {name:'인사·조직 원천 책임 부서',responsibility:'공식 ID·소속·직무·겸직·발령·조직개편의 사실과 효력일 확정',boundary:'최신 원천 및 제공 책임 확인 필요'},
   {name:'각 조직의 업무 책임자',responsibility:'조직 특성·분장·절차·협업·업무 건별 역할과 정답 확인',boundary:'소관 업무 범위에서 확인, 타 부서 권한 확대 불가'},
   {name:'보안·권한 및 시스템 담당',responsibility:'자료·행위별 정책·위임·회수, 인증·연계·감사·복구 기준 확인',boundary:'조직 관계와 별도로 접근·실행 허용을 판정'},
   {name:'수행·검토·승인·협업 담당',responsibility:'업무 건마다 배정된 책임으로 작성·확인·승인·인계 수행',boundary:'직책과 업무 역할을 구분, 겸직·대행·자기승인 제한 반영'},
   {name:'국민서비스 소관 부서',responsibility:'후속 서비스의 안내 내용·공개 대상·서비스 품질·공개 승인',boundary:'내부 인사정보·직원 권한이 국민 채널로 상속되지 않음'}
  ],
- evidence:{date:'2026-10-08 관측 자료',ids:['DUTY-1019600-002','DUTY-1019600-005','DUTY-1019600-007'],note:'저장소에 보존된 AI 및 데이터 기획, TS AI GPT 운영·고도화, AI 활용 서비스 구축 기술지원 업무를 참고한 책임 제안입니다. 이번 개정에서 현행 분장과 공식 총괄 지정을 재확인하지 못했습니다.',url:'https://main.kotsa.or.kr/portal/empList.do?deptCode1=1000000&deptCode2=&deptCode3=&deptCode4=&keyWordStatus=1&keyWord=&menuCode=06020404&pageNumb=8'},
+ evidence:{date:'2026-10-16 공식 직원안내 확인',ids:['LIVE-1019600-1-2','LIVE-1019600-1-5','LIVE-1019700-1-2'],note:'공개 담당업무에서 AI혁신처의 AI·데이터 기획과 AI서비스개발팀의 TS AI GPT 운영·고도화를 확인했습니다. 10월 8일 보존본과 하위 팀·담당업무 표시 차이를 기록했습니다. 내부 업무분장·시행일·사업 총괄 지정·전결권은 미확인입니다.',url:'https://main.kotsa.or.kr/portal/empList.do?deptCode1=1000000&deptCode4=1019600&keyWordStatus=1&keyWord=&menuCode=06020404&pageNumb=1'},
  stages:[
   {id:'ORG-S1',title:'조직 특성·관계 기준선',detail:'기관·부서·직무·업무와 임무·관할·협업 관계를 원천 책임자가 확인',requirements:['GAI-R01','GAI-R02'],tests:['GAI-T01','GAI-T02'],evidence:'공식 코드 대응표, 조직 특성 카드, 업무분장·관계 원장'},
   {id:'ORG-S2',title:'사용자·역할·권한 연결',detail:'로그인 ID, 업무 배정, 수행·검토·승인·협업 역할과 별도 정책을 연결',requirements:['GAI-R03','GAI-R04','GAI-R08'],tests:['GAI-T03','GAI-T04','GAI-T08'],evidence:'원천 대사, 역할·정책표, 변경·회수·거부 시험'},
@@ -53,5 +54,5 @@ const d = {
  labels:{profiles:'조직마다 다른 특성을 모델에 반영',fields:'조직 특성 카드의 공통 항목',roles:'누가 사실·역할·권한을 확정하는가',foundation:'1차 사업 · 조직 기반 구축과 인수',expansion:'조직 기반을 인수한 다음',proposal:'범위·일정·검수 제안서',download:'제안서 전문 내려받기',details:'조직 특성·책임·근거 상세',candidate:'기존 업무 적용 후보'},
 };
 function table(headers,rows){return ['| '+headers.join(' | ')+' |','| '+headers.map(()=>'---').join(' | ')+' |',...rows.map(r=>'| '+r.join(' | ')+' |')].join('\n');}
-function markdown(){return ['## 조직 기반 우선 사업 구조',d.intro,d.meaning,d.relationNote,d.scope,'### 조직 특성 매핑',table(['유형 제안','조직 특성','매핑할 정보'],d.profiles.map(x=>[x.type,x.character,x.mapping])),d.profileNote,d.fields.join(' · '),'### 역할과 책임',table(['역할 제안','책임','경계'],d.roles.map(x=>[x.name,x.responsibility,x.boundary])),d.evidence.date+' · '+d.evidence.note,'### 추가 개발·검수 연결',table(['단계','내용','개발','검수','증빙'],d.stages.map(x=>[x.title,x.detail,x.requirements.join('·'),x.tests.join('·'),x.evidence])),d.gate,...d.branches.map(x=>'**'+x.title+'** — '+x.detail),d.common,d.independence].join('\n\n');}
+function markdown(){return ['## 조직 기반 우선 사업 구조',d.intro,d.meaning,d.relationNote,d.scope,'[76개 부서별 매핑·협업·구축·검수](https://heen1987-ops.github.io/TS-business-Plan-001/proposal-2027.html#department-mapping) · 2026-10-16 공식 공개자료 확인, 내부 분장·전결 미확인','### 조직 특성 매핑',table(['유형 제안','조직 특성','매핑할 정보'],d.profiles.map(x=>[x.type,x.character,x.mapping])),d.profileNote,d.fields.join(' · '),'### 역할과 책임',table(['역할 제안','책임','경계'],d.roles.map(x=>[x.name,x.responsibility,x.boundary])),d.evidence.date+' · '+d.evidence.note,'### 추가 개발·검수 연결',table(['단계','내용','개발','검수','증빙'],d.stages.map(x=>[x.title,x.detail,x.requirements.join('·'),x.tests.join('·'),x.evidence])),d.gate,...d.branches.map(x=>'**'+x.title+'** — '+x.detail),d.common,d.independence].join('\n\n');}
 module.exports={...d,markdown,table};

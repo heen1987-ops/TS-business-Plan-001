@@ -3,6 +3,7 @@ import {Link} from './core.jsx';
 import d from './proposal-2027.cjs';
 import './proposal-2027.css';
 import {OrganizationPlatform} from './OrganizationPlatform.jsx';
+import {DepartmentMapping} from './DepartmentMapping.jsx';
 
 function Section({id,children}) {
  const index=d.sections.findIndex(s=>s[0]===id);
@@ -34,7 +35,7 @@ export function Proposal2027({navigationEpoch}){
    <div className="proposal-bundles">{d.bundles.map(b=><article key={b.id}><header><span className="proposal-id">{b.id}</span><span className="proposal-tag">{b.priority}</span></header><h3>{b.name}</h3><p>{b.scope}</p><dl><dt>{d.labels.lead}</dt><dd>{b.lead}</dd><dt>{d.labels.gate}</dt><dd>{b.gate}</dd></dl><Link to={b.href}>{d.labels.annual} →</Link></article>)}</div>
    <details className="proposal-details"><summary>{d.labels.reuse}</summary><Table data={d.reuse}/></details>
   </Section>
-  <Section id="proposal-mapping"><p>{d.mappingNote}</p><Table data={d.mapping}/><h3>{d.labels.profiles}</h3><Table data={d.profiles}/><details className="proposal-details"><summary>{d.labels.workMapping}</summary><Table data={d.workMapping}/></details></Section>
+  <Section id="proposal-mapping"><DepartmentMapping/><details className="proposal-details"><summary>{d.labels.profiles}</summary><p>{d.mappingNote}</p><Table data={d.mapping}/><Table data={d.profiles}/></details><details className="proposal-details"><summary>{d.labels.workMapping}</summary><Table data={d.workMapping}/></details></Section>
   <Section id="proposal-timeline">
    <p>{d.timingNote}</p><ol className="proposal-timeline">{d.timeline.map(t=><li key={t.period}><strong>{t.period}</strong><div><h3>{t.work}</h3><p>{t.gate}</p></div></li>)}</ol>
    <div className="proposal-gates">{d.gates.map(g=><p key={g}>{g}</p>)}</div>

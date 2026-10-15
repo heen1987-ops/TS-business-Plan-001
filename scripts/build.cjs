@@ -20,6 +20,7 @@ require('./export-enterprise-work-ax.cjs')(path.join(out,'downloads'));
 require('./export-annual-work-2027.cjs')(path.join(out,'downloads'));
 require('./export-growth-ai.cjs')(path.join(out,'downloads'));
 require('./export-proposal-2027.cjs')(path.join(out,'downloads'));
+require('./export-department-mapping.cjs')(path.join(out,'downloads'));
 require('./export-proposal-links.cjs')(path.join(out,'downloads'));
 require('./export-association-research.cjs')(path.join(out,'downloads'));
 require('./export-measurement.cjs')(path.join(out,'downloads'));

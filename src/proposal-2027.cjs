@@ -1,6 +1,24 @@
 const orgPlatform=require('./org-platform-2027.cjs');
 'use strict';
-const source = require('./ts-2027-proposal.json');
+const originalSource = require('./ts-2027-proposal.json');
+const mapping = require('./ts-department-mapping.cjs');
+const source={...originalSource,blocks:[...originalSource.blocks]};
+// 상세 원장은 한 곳에서 유지하고 전문·화면·CSV가 같은 매핑을 사용한다.
+const mappingIndex=source.blocks.indexOf('## 3.5 공식 조직·담당업무 기반 부서별 상세 매핑');
+if(mappingIndex<0)throw Error('부서별 매핑 삽입 위치 누락');
+source.blocks.splice(mappingIndex+2,0,
+ mapping.coverage.note,
+ mapping.evidence.changes.map(x=>x.observed+' '+x.previous+' '+x.boundary).join('\n'),
+ mapping.roleBoundary,
+ mapping.table(['공식 조직 / 코드','특성·직무·맥락 제안','협업 상대 제안','참여 / 구축·검수 / 기존 기획'],mapping.rows.map(r=>[r.path+' / '+r.code,r.character+' / '+r.job+' / '+r.context,r.peers.map(mapping.name).join(' · '),r.participation+' / '+r.workPackages.join(' · ')+' / '+r.tests.join(' · ')+' / '+(r.legacy||'신규 매핑')])),
+ mapping.evidence.sources.map(s=>'['+s.title+']('+s.url+') · '+s.checkedAt+' 확인').join('\n'),
+ '공식 담당업무 원문·관측 ID·조회 페이지·출처별 확인일은 [매핑 설계 전문](https://heen1987-ops.github.io/TS-business-Plan-001/downloads/ts-department-mapping.md) 및 구조화 JSON에 보존한다. 내부 업무분장·개편 시행일·개인별 역할·전결권은 미확인이다.',
+ '## 3.6 AI혁신처 1차 구축 묶음과 협업·검수',
+ mapping.reuseBoundary,
+ mapping.table(['작업·시기 / 책임 제안','추가 개발 / 증빙','완료 조건 / 요구·검수'],mapping.packages.map(p=>[p.id+' '+p.name+' / '+p.period+' / '+p.lead,p.additional+' / '+p.output,p.gate+' / '+p.requirements.join(' · ')+' / '+p.requirements.map(x=>x.replace('-R','-T')).join(' · ')])),
+ mapping.table(['협업 제안','발생 조건 / 전달 내용','양측 확인 / 검수'],mapping.relations.map(r=>[r.id+' '+mapping.name(r.from)+' → '+mapping.name(r.to),r.trigger+' / '+r.exchange,r.check+' / '+r.tests.join(' · ')])),
+ mapping.table(['검수 / 요구','구체 입력·시나리오','판정 기준 제안 / 상태'],mapping.tests.map(t=>[t.id+' / '+t.requirement,t.name+' / '+t.input,t.criterion+' / '+t.status]))
+);
 const growth = require('./growth-ai.cjs');
 const annual = require('./annual-work-2027.cjs');
 
@@ -38,7 +56,7 @@ module.exports = {
  source,chapters,requirements,tests,bundles,downloads,table,
  title:"TS 조직 네이티브 AI 플랫폼 · 2027 사업 제안",
  navTitle:'TS 2027 사업 제안서 초안',
- eyebrow:"PROPOSAL DRAFT · 2026.10.16 · v0.2",
+ eyebrow:"PROPOSAL DRAFT · 2026.10.16 · v0.3",
  subtitle:"조직마다 다른 임무·책임·관할·업무 방식을 플랫폼에 연결합니다. 공식 조직정보로 사용자와 역할을 이해하는 기반을 먼저 인수합니다.",
  trace:orgPlatform.chain,
  intro:source.blocks[1].replaceAll('**',''),
