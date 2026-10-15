@@ -22,7 +22,7 @@ check('새 화면 진입 구현',app.includes('if(isWorkbench)return <PlanningWo
 check('URL 기반 화면·후보·항목 보존',jsx.includes('history.pushState')&&jsx.includes("addEventListener('popstate'")&&jsx.includes('entity:q.get'));
 check('native dialog·닫기·초점 복귀',jsx.includes('showModal')&&jsx.includes('onCancel')&&jsx.includes('opener.current?.focus'));
 check('화면의 낯선 언어 혼입 없음',!/[ぁ-んァ-ヶ一-龥]/.test(jsx));
-check('GROWTH AI 1개 추가와 기존 73개 경로 유지',require('../site-routes.json').routes.length===74);
+check('TS 2027 제안서 1개 추가와 기존 74개 경로 유지',require('../site-routes.json').routes.length===75);
 const katri=require('../src/katri-solution-expansion.cjs'),mapping=require('../src/law-department-connections.cjs');
 for(const p of model.projects){assert(p.steps.length>0,p.id+' 목표 단계 존재');for(const step of p.steps)assert(step.every(x=>typeof x==='string'&&x.trim()),p.id+' 단계 제목·설명 공란 금지');for(const id of [p.workId,p.problemId,p.requirementId,p.solutionId,...p.dataIds,...p.metricIds])assert(model.byId[id].projectId===p.id,id+' 후보 맥락');}
 check('54개 후보 단계 공란·후보 소속 누락 방지',true);

@@ -1,4 +1,6 @@
 module.exports={
+  proposalTitle:'사업 범위·9개월 일정·검수 · 제안서 초안',
+  proposalDownload:'제안서 전문 내려받기 · Markdown',
   navTitle:'GROWTH AI 통합 설계',
   eyebrow:'ORGANIZATION-NATIVE AI · DESIGN 2027',
   summaryTitle:'TS 2027 1차 고도화: 조직 네이티브 AI 플랫폼',

@@ -12,7 +12,7 @@ check(fs.readFileSync('src/DocumentNav.jsx','utf8').includes("from'./ux-navigati
 check(!/C:\\|G:\\|file:\/\/|127\.0\.0\.1|api[_-]?key\s*=/.test(JSON.stringify(c)),'공개 탐색 정보의 로컬 경로·비밀 없음');
 
 
-for(const [type,count]of [['department',51],['document',117],['detail',326]])check(ux.searchRecords.filter(r=>r.type===type).length===count,'통합 검색 유형 '+type);
+for(const [type,count]of [['department',51],['document',117],['detail',327]])check(ux.searchRecords.filter(r=>r.type===type).length===count,'통합 검색 유형 '+type);
 for(const r of ux.searchRecords){check(r.title&&r.route&&r.breadcrumb.length,'검색 항목 필수값 '+r.id);if(r.type==='document'){check(fs.existsSync('public/'+r.route),'실제 한글파일 '+r.id);check(r.downloadName.endsWith('.hwpx'),'검색 다운로드 이름 '+r.id);}else check(routes.includes(r.route.split(/[?#]/)[0]),'검색 실제 페이지 '+r.id);}
 
 console.log(JSON.stringify({result:'통과',checks,areas:6,departments:51,linked:39,missing:12,preservedRoutes:routes.length,searchEntries:ux.searchRecords.length}));
