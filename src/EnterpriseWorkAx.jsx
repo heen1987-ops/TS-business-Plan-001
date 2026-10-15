@@ -1,6 +1,7 @@
 import React,{useMemo,useState} from 'react';
 import {Link} from './core.jsx';
 import model from './enterprise-work-ax.cjs';
+import {AnnualWork2027} from './AnnualWork2027.jsx';
 
 export function EnterpriseWorkAx(){
  const [query,setQuery]=useState(''),[priority,setPriority]=useState(''),[pack,setPack]=useState('');
@@ -8,6 +9,7 @@ export function EnterpriseWorkAx(){
  const c=model.copy;
  return <section className="enterprise-ax" id="enterprise-work-ax" aria-labelledby="enterprise-title" tabIndex={-1}>
   <header><h3 id="enterprise-title">{model.title}</h3><p>{model.intro}</p><p className="ax-note">{model.scope}</p><p className="ax-note">{model.status}</p></header>
+  <AnnualWork2027/>
   <div className="enterprise-priorities">{model.priorities.map(p=><article key={p.id}><strong>{p.id} · {p.name}</strong><p>{p.reason}</p><small>{p.year}</small></article>)}</div>
   <p className="ax-note">{c.priorityNote}</p>
   <div className="enterprise-boundaries">{model.reuseBoundary.map(r=><article key={r.label}><h4>{r.label}</h4><p>{r.text}</p><small>{r.evidence}</small></article>)}</div>
