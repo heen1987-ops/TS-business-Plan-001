@@ -1,10 +1,23 @@
 # TS Business Plan — 작업 문서 모음
 
+## 현재 사이트 구조 · 2026-10-16
+
+- **부처·법령 → 업무·조직 → 전략·솔루션 → AI 고도화 → 자료실**의 5개 메뉴
+- 문서형 UI, 좌측 탐색, 명사종결형 개조식, 세부 항목 펼침
+- 직제시행세칙 2026-06-30 개정본 적용: 57개 업무정의·132개 조직 연결·14개 지역본부·61개 소속 검사소/센터
+- 4대 전략방향·12대 전략과제 → 업무·조직·솔루션 → 추가 개발·검수 연결
+- ST-04 조직 네이티브 AI 공통 기반 선행 구축 → 업무별 재사용·단계별 확장
+- [12대 전략·솔루션 구성](https://heen1987-ops.github.io/TS-business-Plan-001/index.html?view=strategy)
+- [설계·규정 적용 원칙](docs/ORGANIZATION_WORKSPACE.md)
+- [조직 중심 제안서 요약](https://heen1987-ops.github.io/TS-business-Plan-001/downloads/ts-2027-organization-proposal.md)
+- 기존 기획·상세 자료: 자료실에서 열람
+
+
 **TS 2027의 1차 플랫폼 고도화는 조직 네이티브 AI를 중심으로 기획합니다.** 공식 부서·직무·업무 매핑을 사용자 인식과 업무 맥락 분류, 추가 개발·검수로 연결합니다. 실제 플랫폼 구현·기관 데이터 연계는 미검증입니다.
 
 ## 홈페이지와 한글파일
 
-- [TS 공식 조직 기반 76개 부서 매핑·협업·1차 구축·검수](https://heen1987-ops.github.io/TS-business-Plan-001/proposal-2027.html#department-mapping) · [매핑 CSV](https://heen1987-ops.github.io/TS-business-Plan-001/downloads/ts-department-mapping.csv) · [근거·범위 설명](docs/TS_DEPARTMENT_MAPPING_2027.md)
+- [TS 공식 조직 기반 76개 부서 매핑·협업·1차 구축·검수](https://heen1987-ops.github.io/TS-business-Plan-001/organization.html) · [매핑 CSV](https://heen1987-ops.github.io/TS-business-Plan-001/downloads/ts-department-mapping.csv) · [근거·범위 설명](docs/TS_DEPARTMENT_MAPPING_2027.md)
 - [TS 2027 조직 네이티브 AI 사업 제안서 초안](https://heen1987-ops.github.io/TS-business-Plan-001/proposal-2027.html) · [전문 Markdown](https://heen1987-ops.github.io/TS-business-Plan-001/downloads/ts-2027-proposal.md) · [인쇄용 HTML](https://heen1987-ops.github.io/TS-business-Plan-001/downloads/ts-2027-proposal.html)
 - [GROWTH AI 공통 구조·TS/병원·2027 개발 검수](https://heen1987-ops.github.io/TS-business-Plan-001/growth-ai.html)
 - [통합 설계 원장·기존 기획 연결](docs/GROWTH_AI.md) · [CCK 스킬 재사용](docs/GROWTH_SKILLS.md) · [공통 스킬 출처·설치 검증](docs/GROWTH_SKILL_PROVENANCE.md) · [호출 예시·기관 확장](docs/GROWTH_SKILL_USAGE.md)

@@ -12,13 +12,16 @@ source.blocks.splice(mappingIndex+2,0,
  mapping.roleBoundary,
  mapping.table(['공식 조직 / 코드','특성·직무·맥락 제안','협업 상대 제안','참여 / 구축·검수 / 기존 기획'],mapping.rows.map(r=>[r.path+' / '+r.code,r.character+' / '+r.job+' / '+r.context,r.peers.map(mapping.name).join(' · '),r.participation+' / '+r.workPackages.join(' · ')+' / '+r.tests.join(' · ')+' / '+(r.legacy||'신규 매핑')])),
  mapping.evidence.sources.map(s=>'['+s.title+']('+s.url+') · '+s.checkedAt+' 확인').join('\n'),
- '공식 담당업무 원문·관측 ID·조회 페이지·출처별 확인일은 [매핑 설계 전문](https://heen1987-ops.github.io/TS-business-Plan-001/downloads/ts-department-mapping.md) 및 구조화 JSON에 보존한다. 내부 업무분장·개편 시행일·개인별 역할·전결권은 미확인이다.',
+ '공식 담당업무 원문·관측 ID·조회 페이지·출처별 확인일은 [매핑 설계 전문](https://heen1987-ops.github.io/TS-business-Plan-001/downloads/ts-department-mapping.md)에 보존. 제공 직제시행세칙 2026-06-30 개정본의 별표1·4·5 적용. 개인별 역할·전결권·후속 개정·AI서비스개발팀장 최초 발령일 미확인.',
  '## 3.6 AI혁신처 1차 구축 묶음과 협업·검수',
  mapping.reuseBoundary,
  mapping.table(['작업·시기 / 책임 제안','추가 개발 / 증빙','완료 조건 / 요구·검수'],mapping.packages.map(p=>[p.id+' '+p.name+' / '+p.period+' / '+p.lead,p.additional+' / '+p.output,p.gate+' / '+p.requirements.join(' · ')+' / '+p.requirements.map(x=>x.replace('-R','-T')).join(' · ')])),
  mapping.table(['협업 제안','발생 조건 / 전달 내용','양측 확인 / 검수'],mapping.relations.map(r=>[r.id+' '+mapping.name(r.from)+' → '+mapping.name(r.to),r.trigger+' / '+r.exchange,r.check+' / '+r.tests.join(' · ')])),
  mapping.table(['검수 / 요구','구체 입력·시나리오','판정 기준 제안 / 상태'],mapping.tests.map(t=>[t.id+' / '+t.requirement,t.name+' / '+t.input,t.criterion+' / '+t.status]))
 );
+source.blocks.splice(source.blocks.indexOf('## 3.6 AI혁신처 1차 구축 묶음과 협업·검수'),0,'### 직제시행세칙 적용 보완',mapping.ruleBasis.notes.map(n=>'- '+n).join('\n'),mapping.table(['부서·코드','별표4 근거','규정상 업무분장','효력·적용조건'],mapping.rows.map(r=>[r.path+' / '+r.code,r.rule.locator||r.rule.status,r.rule.duties.join(' / ')||'별도 확인 필요',(r.rule.effectiveDate||'미확인')+' / '+(r.rule.restriction||r.rule.status)])));
+const strategies=require('./strategy-solutions-2027.cjs');
+source.blocks.splice(source.blocks.indexOf('## 3.5 공식 조직·담당업무 기반 부서별 상세 매핑'),0,'### 12대 전략과제 기반 솔루션 구성','- 업무 도출: 부처·기관 → 관계법령 → 업무·담당 조직 → 전략과제 → AI 지원\n- ST-04 조직 네이티브 AI 공통 기반의 선행 구축·단일 산정\n- 1차 대표 검증과 후속 업무 전용 개발의 분리',mapping.table(['전략과제','솔루션 구성안 / 단계','공통 구축·검수'],strategies.rows.map(r=>[r.id+' '+r.strategy,r.solution+' / '+r.phase,r.packages.join(' · ')+' / '+r.tests.join(' · ')])),'- [전략·법령·업무·조직·솔루션·검수 매핑 전문](https://heen1987-ops.github.io/TS-business-Plan-001/downloads/ts-strategy-solutions-2027.md)');
 const growth = require('./growth-ai.cjs');
 const annual = require('./annual-work-2027.cjs');
 
