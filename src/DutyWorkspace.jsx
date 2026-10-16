@@ -7,7 +7,7 @@ import planning from './organization-site.cjs';
 import strategies from './strategy-solutions-2027.cjs';
 import './detailed-work.css';
 const url=(code,mode,task)=>'organization.html?view=duties&org='+code+(mode?'&mode='+mode:'')+(task?'&task='+task:'');
-export function DutyWorkspace(){
+export function DutyWorkspace({navigation}){
  const params=new URLSearchParams(location.search),code=d.byOrg[params.get('org')]?params.get('org'):'1019600',org=d.byOrg[code];
  const asked=params.get('mode'),mode=['rule','public','process'].includes(asked)?asked:org.processes.length?'process':org.publicItems.length?'public':'rule';
  const requested=params.get('task'),selected=mode==='process'?org.processes.find(p=>p.id===requested):null;
@@ -15,7 +15,7 @@ export function DutyWorkspace(){
  const q=query.trim().toLowerCase(),items=(mode==='rule'?org.ruleItems:mode==='public'?org.publicItems:org.processes).filter(r=>[r.id,r.title,r.text,...(r.steps||[]).flatMap(s=>[s.task,s.input,s.output])].filter(Boolean).join(' ').toLowerCase().includes(q));
  return <article className="on-page dw-page">
  <Link className="ux-back" to={selected?url(code,'process'):'organization.html?org='+code+'#org-detail'}><ArrowLeft size={16}/> {selected?'부서 업무 목록':'부서 개요'}</Link>
- <Link className="dw-open-link" to={'organization.html?view=work-map&org='+code}>이 부서 전체 업무 · 전략·AI·개발·검수 →</Link><header className="dw-head"><div><span className="ux-eyebrow">{org.path.replaceAll('>',' / ')}</span><h1>{selected?selected.title:org.name+' · 세부 업무표'}</h1><p>{selected?org.name+' · '+selected.phase+' · 수행단계 설계안':'직제 업무 → 공개 담당업무 → 입력·처리·결과물·역할'}</p></div><Link className="ux-download" to="downloads/ts-detailed-work-processes.csv" download><Download size={15}/> 수행단계표</Link></header>
+ <Link className="dw-open-link" to={'organization.html?view=work-map&org='+code}>이 부서 전체 업무 · 전략·AI·개발·검수 →</Link><header className="dw-head"><div><span className="ux-eyebrow">{org.path.replaceAll('>',' / ')}</span><h1>{selected?selected.title:org.name+' · 세부 업무표'}</h1><p>{selected?org.name+' · '+selected.phase+' · 수행단계 설계안':'직제 업무 → 공개 담당업무 → 입력·처리·결과물·역할'}</p></div><Link className="ux-download" to="downloads/ts-detailed-work-processes.csv" download><Download size={15}/> 수행단계표</Link></header>{navigation}
  {!selected&&<><div className="dw-controls"><label>부서 선택<select value={code} onChange={e=>{navigate(url(e.target.value));}}>{Object.values(d.byOrg).map(o=><option value={o.code} key={o.code}>{o.name} · {o.path.split('>')[0]}</option>)}</select></label><label>세부업무 검색<div><Search size={16}/><input type="search" placeholder="예: 조직, 데이터, 변경" value={query} onChange={e=>setQuery(e.target.value)}/></div></label></div>
  <nav className="dw-tabs" aria-label="업무표 유형">{[['rule','직제 업무',org.ruleItems.length],['public','공개 담당업무',org.publicItems.length],['process','수행단계안',org.processes.length]].map(([key,name,count])=><Link to={url(code,key)} key={key} aria-current={key===mode?'page':undefined}>{name}<span>{count}</span></Link>)}</nav></>}
  {mode==='process'?selected?<section className="dw-process" id="work-process"><div className="dw-step-list">{selected.steps.map(s=><section key={s.id}><header><span>{String(s.order).padStart(2,'0')}</span><h3>{s.task}</h3><b>{s.role}</b></header><dl><dt>입력자료</dt><dd>{s.input}</dd><dt>결과물</dt><dd>{s.output}</dd><dt>완료조건</dt><dd>{s.done}</dd></dl></section>)}</div>

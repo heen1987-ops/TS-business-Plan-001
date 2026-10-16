@@ -2,7 +2,7 @@
 const rules=require('./ts-organization-rules.cjs');
 const mapping=require('./ts-department-mapping.cjs');
 const strategies=require('./strategy-solutions-2027.cjs');
-const nav=[['index.html?view=portfolio','제안·관계부처'],['index.html','전략과제'],['index.html?view=law','법령·업무'],['organization.html','조직·직무'],['proposal-2027.html','구축·검수'],['index.html?view=archive','자료실']];
+const nav=[['index.html?view=portfolio','제안·관계부처'],['index.html','전략과제'],['index.html?view=law','법령·업무'],['organization.html','조직·직무'],['proposal-2027.html','구축·검수'],['index.html?view=archive','자료실'],['index.html?view=platform-cases','플랫폼 사례집'],['index.html?view=casebook','전략과제 사례집']];
 const roles=[
  ['1010100','전략·정책','AI 전환 전략·서비스 발굴·제도·윤리 기준','기관 전략과 1차 구축 목표의 정합성 검토'],
  ['1019600','사업 조정','AI 서비스 구축 지원·성과관리·데이터 표준화','부서별 원천·도입 범위·평가 기준 조정'],
@@ -49,6 +49,7 @@ const reuse=[
 ];
 const roleRules=[['수행','업무건별 담당자 배정 및 결과 작성'],['검토','소관 전문 검토자의 기준·근거·판본 확인'],['승인','전결규정·유효 위임에 따른 승인자 확정'],['협업','허용된 입력·결과의 전달 및 인계 수락']];
 const archives=[
+ {title:'AX 벤치마킹 사례집',links:[['index.html?view=platform-cases','AI 플랫폼 구축 사례집'],['index.html?view=casebook','12대 전략 연계 사례집'],['downloads/ts-platform-casebook.pptx','플랫폼 구축 PPT'],['downloads/ts-ax-casebook.pptx','전략 연계 PPT'],['downloads/ts-ax-strategy-map.csv','12대 전략·사례·CCK·검수 매핑'],['downloads/ts-delivery-plan.md','구축·일정·검수 통합표']]},
  {title:'제안서·기준 자료',links:[['organization.html?view=work-map&org=all','전 부서 업무표 열람'],['downloads/ts-all-department-work.csv','전 부서 업무·전략·AI·개발·검수 CSV'],['downloads/ts-all-department-work.json','전 부서 구조화 원장 JSON'],['downloads/ts-all-department-coverage.csv','전 조직 자료 범위 CSV'],['downloads/ts-detailed-work-processes.md','세부 업무 수행단계 전문'],['downloads/ts-detailed-work-register.csv','직제·공개 담당업무 원장 CSV'],['downloads/ts-detailed-work-processes.csv','입력·결과물·역할·완료조건 CSV'],['downloads/ts-strategy-solutions-2027.md','12대 전략·솔루션 구성안'],['downloads/ts-strategy-solutions-2027.csv','전략·업무·개발·검수 CSV'],['downloads/ts-law-work-chain.md','부처·법령·업무 연결표'],['downloads/ts-2027-organization-proposal.md','조직 중심 제안서 요약'],['downloads/ts-2027-proposal.html','상세 제안서 전문'],['downloads/ts-organization-rules.md','직제·업무 매핑 전문'],['downloads/ts-organization-rules.csv','조직·업무 매핑 CSV'],['downloads/ts-organization-rules.json','세칙 근거·매핑 JSON']]},
  {title:'기존 업무 기획',links:[['index.html?view=legacy','기존 통합 기획 열람'],['index.html?view=workbench','기존 기획 작업대'],['planning-documents.html','처별 계획서·기술설계'],['solutions.html','기존 처별 제안 목록'],['legal/mapping.html','법령·업무 연결자료']]},
  {title:'공통 구조·확장',links:[['growth-ai.html','GROWTH AI 공통 구조'],['skill-pms.html','공통 스킬·사업관리'],['research-library.html','조사·기획 자료실'],['registry.html','전체 자료 원장']]}

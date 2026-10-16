@@ -19,6 +19,7 @@ require('./export-ts-ai-pms.cjs')(path.join(out,'downloads'));
 require('./export-enterprise-work-ax.cjs')(path.join(out,'downloads'));
 require('./export-annual-work-2027.cjs')(path.join(out,'downloads'));
 require('./export-organization-site.cjs')(path.join(out,'downloads'));
+require('./export-casebooks.cjs')(path.join(out,'downloads'));
 require('./export-growth-ai.cjs')(path.join(out,'downloads'));
 require('./export-proposal-2027.cjs')(path.join(out,'downloads'));
 require('./export-department-mapping.cjs')(path.join(out,'downloads'));
@@ -46,6 +47,9 @@ fs.writeFileSync(path.join(out,'404.html'),'<!doctype html><html lang="ko"><meta
 // 검토용 공개 사이트: 검색 색인 제외. 접근제어를 의미하지 않음.
 function markReviewPages(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){const file=path.join(dir,entry.name);if(entry.isDirectory())markReviewPages(file);else if(/\.html$/i.test(entry.name)){let html=fs.readFileSync(file,'utf8');html=html.replace(/<meta\b[^>]*name=["']robots["'][^>]*>/gi,'');const meta='<meta name="robots" content="noindex,nofollow">';html=/<head(?:\s[^>]*)?>/i.test(html)?html.replace(/<head(?:\s[^>]*)?>/i,match=>match+meta):html.replace(/<!doctype[^>]*>/i,match=>match+meta);if(!html.includes(meta))html=meta+html;fs.writeFileSync(file,html);}}}
 markReviewPages(out);
+// All current and future HTML routes inherit the same local font and UI tokens.
+function applyUiSystem(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const file=path.join(dir,e.name);if(e.isDirectory()){if(file!==path.join(out,'downloads'))applyUiSystem(file);}else if(/\.html$/i.test(e.name)){let html=fs.readFileSync(file,'utf8');const css=path.relative(path.dirname(file),path.join(out,'assets/ui-system.css')).split(path.sep).join('/');const tag='<link rel="stylesheet" href="'+css+'" data-ts-ui="shared">';html=html.includes('</head>')?html.replace('</head>',tag+'</head>'):html.replace(/<body([^>]*)>/i,tag+'<body$1>');fs.writeFileSync(file,html);}}}
+applyUiSystem(out);
 fs.writeFileSync(path.join(out,'robots.txt'),'User-agent: *\nDisallow: /\n');
 fs.writeFileSync(path.join(out,'version.json'),JSON.stringify({commit:process.env.GITHUB_SHA||'local',built_at:new Date().toISOString(),routes:routes.length}));
 console.log('빌드 완료: '+routes.length+'개 React 경로 + 연결 정적 자료');

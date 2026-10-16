@@ -1,0 +1,390 @@
+[
+  {
+    "id": "CASE-001",
+    "title": "TS 전세버스 교통안전정보 공시",
+    "country": "대한민국",
+    "operator": "한국교통안전공단",
+    "state": "공식 서비스 안내",
+    "aiEvidence": "AI 확인 안 됨",
+    "checked": "2026-09-09",
+    "urls": [
+      "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040204"
+    ]
+  },
+  {
+    "id": "CASE-002",
+    "title": "FMCSA Bus Safety Search",
+    "country": "미국",
+    "operator": "FMCSA",
+    "state": "공식 서비스 안내",
+    "aiEvidence": "AI 확인 안 됨",
+    "checked": "2026-09-09",
+    "urls": [
+      "https://www.fmcsa.dot.gov/travelplanner"
+    ]
+  },
+  {
+    "id": "CASE-003",
+    "title": "eTAS 운행기록 분석",
+    "country": "대한민국",
+    "operator": "한국교통안전공단",
+    "state": "공식 서비스 안내·검색/수집 응답 불일치",
+    "aiEvidence": "AI 확인 안 됨",
+    "checked": "2026-09-09",
+    "urls": [
+      "https://main.kotsa.or.kr/portal/contents.do?menuCode=01040400",
+      "https://etas.kotsa.or.kr/"
+    ]
+  },
+  {
+    "id": "CASE-004",
+    "title": "LTA 버스 안전기술·근무환경 개선",
+    "country": "싱가포르",
+    "operator": "LTA·대중교통 운영사",
+    "state": "운영 개선·구매 및 확대 계획",
+    "aiEvidence": "AI 충돌경고 명시",
+    "checked": "2026-09-09",
+    "urls": [
+      "https://www.lta.gov.sg/content/ltagov/en/newsroom/2025/8/news-releases/making_bus_journeys_safer.html"
+    ]
+  },
+  {
+    "id": "CASE-005",
+    "title": "튜닝제도 안내·TS튜닝알리고",
+    "country": "대한민국",
+    "operator": "한국교통안전공단",
+    "state": "공식 서비스 안내",
+    "aiEvidence": "AI 확인 안 됨",
+    "checked": "2026-09-09",
+    "urls": [
+      "https://main.kotsa.or.kr/portal/contents.do?menuCode=01020300",
+      "https://main.kotsa.or.kr/portal/contents.do?menuCode=01020101"
+    ]
+  },
+  {
+    "id": "CASE-006",
+    "title": "DVLA 차량 변경 안내 INF318",
+    "country": "영국",
+    "operator": "DVLA",
+    "state": "공식 안내문 제공",
+    "aiEvidence": "비AI 문서·절차 안내",
+    "checked": "2026-09-09",
+    "urls": [
+      "https://www.gov.uk/government/publications/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318/making-changes-to-a-vehicle-and-registering-kit-built-kit-converted-and-reconstructed-classic-vehicles-inf318"
+    ]
+  },
+  {
+    "id": "CASE-007",
+    "title": "서울동행맵",
+    "country": "대한민국",
+    "operator": "서울특별시",
+    "state": "정식 출시 발표",
+    "aiEvidence": "해당 자료에서 AI 확인 안 됨",
+    "checked": "2026-09-09",
+    "urls": [
+      "https://news.seoul.go.kr/traffic/archives/512992?listPage=1"
+    ]
+  },
+  {
+    "id": "CASE-008",
+    "title": "MAVIS 이동 지원",
+    "country": "싱가포르",
+    "operator": "LTA·SG Enable·SAVH·INIT",
+    "state": "과거 실증·확대 계획",
+    "aiEvidence": "AI 확인 안 됨",
+    "checked": "2026-09-09",
+    "urls": [
+      "https://www.lta.gov.sg/content/ltagov/en/newsroom/2020/3/news-releases/assistive-technologies-to-help-bus-commuters-with-special-needs.html"
+    ]
+  },
+  {
+    "id": "CASE-009",
+    "title": "기계식주차장 검사·관리시스템 안내",
+    "country": "대한민국",
+    "operator": "한국교통안전공단",
+    "state": "공식 업무·서비스 안내",
+    "aiEvidence": "AI 확인 안 됨",
+    "checked": "2026-09-09",
+    "urls": [
+      "https://main.kotsa.or.kr/portal/contents.do?menuCode=01030401"
+    ]
+  },
+  {
+    "id": "CASE-010",
+    "title": "IHI 기계식주차설비 예방보전·원격감시",
+    "country": "일본계 공급사·현장국가 미확인",
+    "operator": "IHI",
+    "state": "공급사 서비스 설명",
+    "aiEvidence": "AI 확인 안 됨",
+    "checked": "2026-09-09",
+    "urls": [
+      "https://www.ihi.co.jp/parking/services/index.html"
+    ]
+  },
+  {
+    "id": "CASE-011",
+    "title": "미쓰비시 주차설비 원격감시·갱신",
+    "country": "일본계 공급사·현장국가 미확인",
+    "operator": "미쓰비시중공업",
+    "state": "공급사 기능 설명",
+    "aiEvidence": "AI 확인 안 됨",
+    "checked": "2026-09-09",
+    "urls": [
+      "https://www.mhi.com/jp/business/products-services/mobility/parking-system-equipment/parking-system-support/renewal",
+      "https://www.mlit.go.jp/toshi/toshi_gairo_tk_000038.html"
+    ]
+  },
+  {
+    "id": "CASE-012",
+    "title": "TS 철도안전관리체계 검사",
+    "country": "대한민국",
+    "operator": "한국교통안전공단",
+    "state": "공식 업무 안내",
+    "aiEvidence": "AI 확인 안 됨",
+    "checked": "2026-09-09",
+    "urls": [
+      "https://main.kotsa.or.kr/portal/contents.do?menuCode=02040101"
+    ]
+  },
+  {
+    "id": "CASE-013",
+    "title": "코레일 영업열차 자동검측",
+    "country": "대한민국",
+    "operator": "한국철도공사",
+    "state": "운영 사례·확대 및 AI 고도화 계획",
+    "aiEvidence": "AI 적용·통합 고도화 계획 명시",
+    "checked": "2026-09-09",
+    "urls": [
+      "https://info.korail.com/info/selectBbsNttView.do?bbsNo=199&key=911&nttNo=25238"
+    ]
+  },
+  {
+    "id": "CASE-014",
+    "title": "Network Rail Insight",
+    "country": "영국",
+    "operator": "Network Rail",
+    "state": "운영기관 사용 설명",
+    "aiEvidence": "AI 예측 활용 명시",
+    "checked": "2026-09-09",
+    "urls": [
+      "https://www.networkrail.co.uk/stories/using-artificial-intelligence-to-create-a-better-railway/"
+    ]
+  },
+  {
+    "id": "CASE-015",
+    "title": "위험물질운송안전관리 체계",
+    "country": "대한민국",
+    "operator": "한국교통안전공단·국토교통부 관련 체계",
+    "state": "직접 열람 미완료",
+    "aiEvidence": "AI 미확인",
+    "checked": "2026-09-09",
+    "urls": [
+      "https://hmts.kotsa.or.kr/",
+      "https://www.codil.or.kr/filebank/original/EC/OTKCEC211033/OTKCEC211033.pdf",
+      "https://main.kotsa.or.kr/main.do"
+    ]
+  },
+  {
+    "id": "CASE-016",
+    "title": "AskRail 위험물 정보 전달",
+    "country": "미국",
+    "operator": "철도회사·Railinc·대응기관",
+    "state": "공식 서비스 안내·접근성 개선 권고",
+    "aiEvidence": "AI 확인 안 됨",
+    "checked": "2026-09-09",
+    "urls": [
+      "https://www.usfa.fema.gov/blog/askrail-for-rapid-access-to-rail-car-hazmat-info/",
+      "https://www.phmsa.dot.gov/sites/phmsa.dot.gov/files/2023-03/PHMSA%20Safety%20Advisory%20-%20Railroad%20Emergency%20Preparedness.pdf"
+    ]
+  },
+  {
+    "id": "CASE-017",
+    "title": "TS 기체신고·드론원스톱",
+    "country": "대한민국",
+    "operator": "TS·국토교통부 등 관계기관",
+    "state": "공식 서비스 안내",
+    "aiEvidence": "AI 확인 안 됨",
+    "checked": "2026-09-09",
+    "urls": [
+      "https://main.kotsa.or.kr/portal/contents.do?menuCode=02020100",
+      "https://drone.onestop.go.kr/"
+    ]
+  },
+  {
+    "id": "CASE-018",
+    "title": "FAA B4UFLY·LAANC",
+    "country": "미국",
+    "operator": "FAA·승인 서비스 공급사",
+    "state": "공식 서비스 안내",
+    "aiEvidence": "데이터·규칙 기반 자동화 설명·생성형 AI 미확인",
+    "checked": "2026-09-09",
+    "urls": [
+      "https://www.faa.gov/uas/getting_started/b4ufly",
+      "https://www.faa.gov/uas/getting_started/laanc"
+    ]
+  },
+  {
+    "id": "CASE-019",
+    "title": "GOV.UK Chat",
+    "country": "영국",
+    "operator": "Government Digital Service",
+    "state": "공개 실험·접근 확대 발표",
+    "aiEvidence": "RAG·생성형 AI 명시",
+    "checked": "2026-09-09",
+    "urls": [
+      "https://insidegovuk.blog.gov.uk/2024/01/18/the-findings-of-our-first-generative-ai-experiment-gov-uk-chat/",
+      "https://insidegovuk.blog.gov.uk/2026/03/16/5-things-we-learned-testing-gov-uk-chat-an-ai-assistant-for-government/",
+      "https://insidegovuk.blog.gov.uk/2026/05/15/developing-gov-uk-chat-our-data-science-and-ai-engineering-journey/",
+      "https://www.gov.uk/government/publications/govuk-chat-privacy-notice/govuk-chat-privacy-notice"
+    ]
+  },
+  {
+    "id": "CASE-020",
+    "title": "Consult",
+    "country": "영국",
+    "operator": "DSIT",
+    "state": "투명성 기록·특정 표본 평가",
+    "aiEvidence": "텍스트 주제 분류 보조",
+    "checked": "2026-09-11",
+    "urls": [
+      "https://www.gov.uk/algorithmic-transparency-records/dsit-consult",
+      "https://www.gov.uk/government/news/government-built-humphrey-ai-tool-reviews-responses-to-consultation-for-first-time-in-bid-to-save-millions"
+    ]
+  },
+  {
+    "id": "CASE-021",
+    "title": "MAESTRO",
+    "country": "싱가포르",
+    "operator": "GovTech",
+    "state": "공식 제품 소개",
+    "aiEvidence": "공통 AI 제공 기반",
+    "checked": "2026-09-11",
+    "urls": [
+      "https://www.tech.gov.sg/products-and-services/for-government-agencies/data-and-ai/maestro/"
+    ]
+  },
+  {
+    "id": "CASE-022",
+    "title": "Application Management Solution",
+    "country": "싱가포르",
+    "operator": "GovTech",
+    "state": "참조 설계",
+    "aiEvidence": "AI 문서 확인·규칙·업무흐름",
+    "checked": "2026-09-11",
+    "urls": [
+      "https://digital.tech.gov.sg/recipes/application-management",
+      "https://www.developer.tech.gov.sg/products/categories/productivity-tools/aisay/overview"
+    ]
+  },
+  {
+    "id": "CASE-023",
+    "title": "Albert API",
+    "country": "프랑스",
+    "operator": "DINUM",
+    "state": "공식 서비스 문서",
+    "aiEvidence": "추론·임베딩·RAG",
+    "checked": "2026-09-11",
+    "urls": [
+      "https://ia.numerique.gouv.fr/outils-ia/albert-api/offre-de-services/"
+    ]
+  },
+  {
+    "id": "CASE-024",
+    "title": "ASRS 보고 처리",
+    "country": "미국",
+    "operator": "NASA",
+    "state": "공식 업무 절차",
+    "aiEvidence": "AI 적용 확인 안 됨",
+    "checked": "2026-09-11",
+    "urls": [
+      "https://asrs.arc.nasa.gov/overview/report.html"
+    ]
+  },
+  {
+    "id": "CASE-025",
+    "title": "NHTSA 조사·리콜",
+    "country": "미국",
+    "operator": "NHTSA",
+    "state": "공식 업무 설명",
+    "aiEvidence": "AI 적용 확인 안 됨",
+    "checked": "2026-09-11",
+    "urls": [
+      "https://www.nhtsa.gov/resources-investigations-recalls"
+    ]
+  },
+  {
+    "id": "CASE-026",
+    "title": "근로복지공단 AI 산재조사 분류",
+    "country": "대한민국",
+    "operator": "근로복지공단",
+    "state": "사례집상 2025-08 개시; 후속 연계 완료 미확인",
+    "aiEvidence": "AI·규칙 기반 분류",
+    "checked": "2026-09-11",
+    "urls": [
+      "https://www.nia.or.kr/common/board/Download.do?bcIdx=29161&cbIdx=37989&fileNo=1"
+    ]
+  },
+  {
+    "id": "CASE-027",
+    "title": "근로감독관 AI 지원시스템",
+    "country": "대한민국",
+    "operator": "고용노동부",
+    "state": "사례집상 2025-09 개시; 개별 운영 상태는 자료 범위",
+    "aiEvidence": "상담·내부 지원 LLM",
+    "checked": "2026-09-11",
+    "urls": [
+      "https://www.nia.or.kr/common/board/Download.do?bcIdx=29161&cbIdx=37989&fileNo=1"
+    ]
+  },
+  {
+    "id": "CASE-028",
+    "title": "TS 운전자격확인 RIMS",
+    "country": "대한민국",
+    "operator": "TS",
+    "state": "자격 조회·얼굴대조의 단계적 도입 사례",
+    "aiEvidence": "비전 AI 포함; 이번 신규 범위 제외",
+    "checked": "2026-09-11",
+    "urls": [
+      "https://www.nia.or.kr/common/board/Download.do?bcIdx=29161&cbIdx=37989&fileNo=1"
+    ]
+  },
+  {
+    "id": "CASE-029",
+    "title": "법제처 지능형·생성형 법령검색",
+    "country": "대한민국",
+    "operator": "법제처",
+    "state": "문장 검색 운영; 생성형 2027-07 개통 예정(2026-06 발표)",
+    "aiEvidence": "기존 지능형 검색과 생성형 구축 구별",
+    "checked": "2026-09-11",
+    "urls": [
+      "https://www.nia.or.kr/common/board/Download.do?bcIdx=29161&cbIdx=37989&fileNo=1",
+      "https://moleg.go.kr/board.es?act=view&bid=0048&list_no=152053&mid=a10501000000"
+    ]
+  },
+  {
+    "id": "CASE-030",
+    "title": "TS 자동차검사 예약 비교",
+    "country": "대한민국",
+    "operator": "TS",
+    "state": "공식 서비스 확인; 병목 원인·자동화 상태 미확인",
+    "aiEvidence": "예약 서비스와 AI 도입 여부 구별",
+    "checked": "2026-09-11",
+    "urls": [
+      "https://main.kotsa.or.kr/portal/contents.do?menuCode=01010000"
+    ]
+  },
+  {
+    "id": "CASE-031",
+    "title": "DVSA 운전시험 예약",
+    "country": "영국",
+    "operator": "DVSA",
+    "state": "2025 감사·2026 정책 변경·2026-09 기능 안내",
+    "aiEvidence": "온라인화·봇 방지; LLM 실효성 사례 아님",
+    "checked": "2026-09-11",
+    "urls": [
+      "https://www.nao.org.uk/press-releases/watchdog-urges-dvsa-to-address-driving-test-delay-backlog-and-cut-waiting-times/",
+      "https://www.gov.uk/guidance/driving-test-appointments-release-dates-and-finding-earlier-tests",
+      "https://www.gov.uk/government/news/end-of-the-road-for-unofficial-driving-test-booking-services"
+    ]
+  }
+]

@@ -23,14 +23,15 @@ for(const row of mapping.rows){assert.deepEqual(row.rule.duties,node(row.code).d
 assert.deepEqual(d.packages.flatMap(p=>p.requirements).sort(),d.acceptance.map(t=>t.requirement).sort());
 assert.ok(d.acceptance.every(t=>t.status.includes('미실행')));
 const source=fs.readFileSync('src/OrganizationSite.jsx','utf8'),app=fs.readFileSync('src/App.jsx','utf8');
-assert.ok(app.includes('isOrganizationExperience'));assert.ok(app.includes('<MandateWorkspace/>'));assert.ok(app.includes('<OrganizationExplorer route={route}/>'));
-assert.ok(source.includes('aria-label="주 메뉴"'));assert.equal(d.nav.length,6);
-assert.deepEqual(d.nav.map(n=>n[1]),['제안·관계부처','전략과제','법령·업무','조직·직무','구축·검수','자료실']);assert.ok(source.includes('includePending'));
-assert.ok(source.includes('details key={p.id}'));assert.ok(source.includes('details key={t.id}'));
+assert.ok(app.includes('isOrganizationExperience'));assert.ok(app.includes('<MandateWorkspace/>'));assert.ok(app.includes('<OrganizationWorkspace route={route}/>'));assert.ok(fs.readFileSync('src/OrganizationWorkspace.jsx','utf8').includes('<OrganizationExplorer route={route} navigation={navigation}/>'));
+assert.ok(source.includes('aria-label="주 메뉴"'));assert.equal(d.nav.length,8);
+assert.deepEqual(d.nav.slice(-2).map(r=>r[1]),['플랫폼 사례집','전략과제 사례집']);
+assert.deepEqual(d.nav.map(n=>n[1]),['제안·관계부처','전략과제','법령·업무','조직·직무','구축·검수','자료실','플랫폼 사례집','전략과제 사례집']);assert.ok(source.includes('includePending'));
+const deliveryUi=fs.readFileSync('src/DeliveryPlan.jsx','utf8');assert.ok(deliveryUi.includes('id={r.id}'));assert.ok(deliveryUi.includes('id={t.id}'));assert.ok(source.includes('<DeliveryPlan/>'));
 assert.ok(d.archives.flatMap(a=>a.links).some(([to])=>to==='index.html?view=legacy'));
 assert.ok(d.markdown().includes('최초 발령일'));assert.ok(d.markdown().includes('W27-A~D'));
 for(const [name,body] of Object.entries(require('./export-organization-site.cjs').files())){assert.equal(fs.readFileSync('dist/downloads/'+name,'utf8'),body);assert.doesNotMatch(body,/[A-Z]:[\\/]|file:\/\/|\bundefined\b/);}
-console.log('조직 워크스페이스 검증 통과: 6개 주 메뉴, 57개 규정 업무정의·132개 조직 연결·14개 지역·61개 소속, 조건부 시행·연구원 별도 규정·요구/검수 추적·다운로드 일치.');
+console.log('조직 워크스페이스 검증 통과: 8개 주 메뉴, 57개 규정 업무정의·132개 조직 연결·14개 지역·61개 소속, 조건부 시행·연구원 별도 규정·요구/검수 추적·다운로드 일치.');
 
 const law=require('../src/law-workspace.cjs');
 assert.equal(law.records.length,27);assert.equal(law.records.flatMap(r=>r.work).length,36);
@@ -87,7 +88,7 @@ for(const p of detail.processes){
 }
 assert.equal(detail.processes.filter(p=>p.phase==='1차 공통 기반').length,8);
 assert.match(detail.markdown(),/내부 직무기술서·전결·표준서식 확인/);
-assert.ok(app.includes("view==='duties'"));
+assert.ok(fs.readFileSync('src/OrganizationWorkspace.jsx','utf8').includes("view==='duties'"));
 const exported=require('./export-organization-site.cjs').files();
 assert.match(exported['ts-detailed-work-processes.csv'],/공통 검수 참조/);
 assert.match(exported['ts-detailed-work-processes.csv'],/GAI-T01/);

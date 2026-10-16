@@ -1,0 +1,25 @@
+/* TS UI contract. Loaded last by the build for every HTML page, including future routes. */
+@font-face{font-family:Pretendard;src:url('./fonts/PretendardVariable.woff2') format('woff2');font-weight:100 900;font-style:normal;font-display:swap}
+:root{--ui-font:Pretendard,system-ui,sans-serif;--ui-body:15px;--ui-small:12px;--ui-control:14px;--ui-h1:30px;--ui-h2:22px;--ui-h3:16px;--ui-page:32px;--ui-width:1360px;--ui-line:#e2e5dd;--ui-text:#303a2c;--ui-muted:#64705e;--ui-accent:#48643a;--ui-radius:6px}
+html{font-size:16px}body{font-family:var(--ui-font)!important;font-size:var(--ui-body)!important;line-height:1.7;color:var(--ui-text)}body *{font-family:var(--ui-font)!important}
+body :where(p,li,td,th,label,input,select,textarea,button,a,span,div,strong,b,em){font-size:inherit!important}
+body h1{font-size:var(--ui-h1)!important;line-height:1.35!important;letter-spacing:-.035em;font-weight:700}
+body h2{font-size:var(--ui-h2)!important;line-height:1.45!important;letter-spacing:-.025em;font-weight:650}
+body h3,body h4{font-size:var(--ui-h3)!important;line-height:1.5!important;font-weight:650}
+body :where(small,.ux-eyebrow,.eyebrow,.ax-diagram-note,.ax-foot,.on-footer,.wm-caption,.ax-result){font-size:var(--ui-small)!important;line-height:1.65!important;color:var(--ui-muted)}
+body :where(button,input,select,textarea,summary,th,td,.ax-downloads,.ax-tabs,.ax-filter,.org-view-switch){font-size:var(--ui-control)!important;line-height:1.6!important}
+body :where(input,select,textarea){border:1px solid var(--ui-line);border-radius:var(--ui-radius);padding:8px 10px;max-width:100%;color:var(--ui-text);background:#fff}
+body :where(button,a,input,select,summary):focus-visible{outline:2px solid var(--ui-accent);outline-offset:3px}
+.on-workspace .on-page{max-width:var(--ui-width)!important;margin-inline:auto;padding:var(--ui-page) var(--ui-page) 48px!important}
+.on-page>header,.ui-page-header{margin:0 0 24px!important;padding:0 0 22px!important;border-bottom:1px solid var(--ui-line)}
+.on-page>header h1,.ui-page-header h1{margin:8px 0 12px!important}.on-page>header p{margin:0;color:var(--ui-muted)}
+.on-workspace .on-header{font-size:13px!important}.on-workspace .on-header :where(a,button,summary,input){font-size:13px!important}
+.on-workspace .on-header :where(small,.on-sidebar-group a>span){font-size:var(--ui-small)!important}.on-workspace .on-header nav a{min-height:40px;height:auto}
+.org-view-switch{padding:0!important;margin:0 0 24px;border-bottom:1px solid var(--ui-line)}
+.on-page :where(.ax-slide,.wm-detail,.on-detail){min-width:0}.on-page :where(p,li,td){overflow-wrap:anywhere}
+.ax-slide{padding:24px!important}.ax-slide h2{margin:10px 0 16px}.ax-flow{gap:20px}.ax-flow li{line-height:1.7}
+.ax-list strong{font-size:14px!important}.ax-list small,.ax-list span{font-size:12px!important}.ax-list{max-height:680px;overflow:auto;scrollbar-width:thin}
+.ax-catalog-controls{display:flex;gap:12px;flex-wrap:wrap;margin:18px 0}.ax-catalog-controls label{display:flex;flex-direction:column;gap:4px;flex:1;min-width:150px}.ax-catalog-controls label:first-child{flex:2}.ax-catalog-row{padding:18px 0;border-bottom:1px solid var(--ui-line)}.ax-catalog-row h3{margin:4px 0}.ax-catalog-row p{margin:4px 0}.ax-pagination{display:flex;align-items:center;gap:18px;margin:20px 0}.ax-pagination button{background:#fff;border:1px solid var(--ui-line);border-radius:6px;padding:7px 14px}.ax-catalog-note{color:var(--ui-muted);font-size:12px!important}.ax-list-empty{padding:24px 0}
+.on-workspace .ux-task-card{min-height:112px!important}.on-workspace .ux-task-card h3{font-size:14px!important}.on-workspace .ux-direction h2{font-size:16px!important}.on-workspace .ux-foundation-items a{font-size:14px!important}.on-workspace .ux-foundation-items{gap:10px}.on-workspace .ux-foundation-next{align-items:flex-start;flex-wrap:wrap}
+@media(max-width:760px){:root{--ui-page:18px;--ui-h1:26px;--ui-h2:20px}.on-workspace .on-page{padding-top:64px!important}.org-view-switch{padding-top:0!important}.ax-list{max-height:260px}.ax-catalog-controls{gap:10px}.ax-catalog-controls label{min-width:140px}.ax-catalog-controls label:first-child{flex-basis:100%}.ax-slide{padding:18px!important}}
+@media print{.on-workspace .on-page{padding:20px!important}.ax-list{display:none}}
