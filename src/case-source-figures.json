@@ -1,0 +1,132 @@
+[
+  {
+    "caseId": "PF-R01",
+    "path": "assets/casebook-sources/PF-R01-01.png",
+    "title": "HUG AI 인프라·업무시스템 연계",
+    "status": "RFP 목표 구성도",
+    "caption": "통합 클라우드·GPU Kubernetes·AI 웹서비스·그룹웨어 연계",
+    "locator": "rId10 / BinData/image4_jpg",
+    "checked": "2026-10-16",
+    "sha256": "435b1f344867be6beab5f24852d1c79cba1e48a9361c9e0976f78dab55a1e9c9"
+  },
+  {
+    "caseId": "PF-R02",
+    "path": "assets/casebook-sources/PF-R02-01.png",
+    "title": "국민소통 플랫폼 목표시스템",
+    "status": "RFP 목표시스템 개념도",
+    "caption": "접점·API Gateway·업무 모듈·데이터 처리·운영 관리",
+    "locator": "NIA_RFP_RFP / BinData/image33_bmp",
+    "checked": "2026-10-16",
+    "sha256": "91feb890184edf04ccccd8d86995147aa6c2181b0a66c58436263cafccdae911"
+  },
+  {
+    "caseId": "PF-R02",
+    "path": "assets/casebook-sources/PF-R02-02.png",
+    "title": "키워드·벡터 검색과 Reranker",
+    "status": "RFP RAG 구성 예시",
+    "caption": "키워드/벡터 검색 병렬 처리 → 재정렬 → 근거 응답",
+    "locator": "NIA_RFP_RFP / BinData/image18_bmp",
+    "checked": "2026-10-16",
+    "sha256": "a6ab4248256ee300422789627dbe5b8f09ec60657419e13d082c95b32f3f4f90"
+  },
+  {
+    "caseId": "PF-R02",
+    "path": "assets/casebook-sources/PF-R02-03.png",
+    "title": "민원 AI 입출력 데이터",
+    "status": "RFP 데이터 흐름도",
+    "caption": "국민신문고·시범기관 매뉴얼 → 전처리·RAG → 답변·유사도",
+    "locator": "NIA_RFP_RFP / BinData/image34_bmp",
+    "checked": "2026-10-16",
+    "sha256": "0e09409295bbb0aae0a61666cf01982d012392b3f4bccd2e98499654b4b690d0"
+  },
+  {
+    "caseId": "PF-R02",
+    "path": "assets/casebook-sources/PF-R02-04.png",
+    "title": "데이터 구축·학습·운영 흐름",
+    "status": "RFP 데이터 처리 구조",
+    "caption": "수집·정제·가공·학습·운영의 환류",
+    "locator": "NIA_RFP_RFP / BinData/image32_png",
+    "checked": "2026-10-16",
+    "sha256": "b6c466b110d91bceff5a9f806d658aa54f010e0a5b8a358a16771181bea77c50"
+  },
+  {
+    "caseId": "PF-R03",
+    "path": "assets/casebook-sources/PF-R03-01.png",
+    "title": "생산기술연구원 정보시스템 연계",
+    "status": "RFP 수록 기존 정보시스템 현황",
+    "caption": "연구행정·경영정보·업무지원·지능형 포털 간 연계",
+    "locator": "rId13 / BinData/BIN0002_png",
+    "checked": "2026-10-16",
+    "sha256": "0b49ad15a2d50888b15fdc4d6bb439874425106d7d0a2cf9b92b1c3debb0025b"
+  },
+  {
+    "caseId": "PF-R04",
+    "path": "assets/casebook-sources/PF-R04-01.png",
+    "title": "안전 AI H/W 구성",
+    "status": "과업내용서 H/W 구성도 예시",
+    "caption": "DMZ AI 서치와 내부 안전 AI·RAG·LLM·DB 구성",
+    "locator": "rId14 / BinData/BIN0001_bmp",
+    "checked": "2026-10-16",
+    "sha256": "47450653a73f8241e06210e73728a502e3d332cafb949494da1a9833622e77a3"
+  },
+  {
+    "caseId": "PF-R04",
+    "path": "assets/casebook-sources/PF-R04-02.png",
+    "title": "안전 AI S/W 구성",
+    "status": "과업내용서 S/W 구성도 예시",
+    "caption": "안전 지식·RAG와 외부 LLM API 업무 지원의 구분",
+    "locator": "rId14 / BinData/BIN0002_bmp",
+    "checked": "2026-10-16",
+    "sha256": "607e9e60f0ab618fa7cdca53b108478e11e89b59866b5f5e7bd063e5d01aac5c"
+  },
+  {
+    "caseId": "PF-R05",
+    "path": "assets/casebook-sources/PF-R05-01.png",
+    "title": "홈페이지 AI 목표기능",
+    "status": "RFP 목표기능 구성도",
+    "caption": "챗봇·RAG·데이터 파이프라인·모델 관리의 분리",
+    "locator": "rId17 / BinData/image3_png",
+    "checked": "2026-10-16",
+    "sha256": "dbf8455e9d661c8a3db51e5677f25fc751cb2ade3a7b0abaf602d57a8aaf1ba8"
+  },
+  {
+    "caseId": "PF-R05",
+    "path": "assets/casebook-sources/PF-R05-02.png",
+    "title": "홈페이지–RAG–외부 LLM",
+    "status": "RFP 서비스 아키텍처 구성도",
+    "caption": "홈페이지 RDB → 공공클라우드 Vector DB → 외부 LLM",
+    "locator": "rId17 / BinData/image4_bmp",
+    "checked": "2026-10-16",
+    "sha256": "04b7bff411913589529c68490addbddd2c84b7abce61ecd7c873e971bab7bf7e"
+  },
+  {
+    "caseId": "PF-R06",
+    "path": "assets/casebook-sources/PF-R06-01.png",
+    "title": "철도기술연구원 업무시스템",
+    "status": "RFP 수록 기존 시스템 구성",
+    "caption": "협업 포털·통합경영정보·전자결재·외부 연계 현황",
+    "locator": "rId18 / BinData/image1_bmp",
+    "checked": "2026-10-16",
+    "sha256": "419b833abe927fb60c98c0b17c83b79039658d9fc8f1bf2295db634a55a2c424"
+  },
+  {
+    "caseId": "PF-R08",
+    "path": "assets/casebook-sources/PF-R08-01.png",
+    "title": "대민·임직원 AI 서비스 분리",
+    "status": "사전공개 RFP 목표 구성도",
+    "caption": "보안·서비스·데이터·관리 서브넷과 SSO·업무 데이터 경계",
+    "locator": "rId20 / BinData/BIN0002_bmp",
+    "checked": "2026-10-16",
+    "sha256": "dbd84b9d88acec3c54802ec4cc6eacaf8a872223e2a7ee89fadf50a173e38803"
+  },
+  {
+    "caseId": "PF-R08",
+    "path": "assets/casebook-sources/PF-R08-02.png",
+    "title": "데이터 카탈로그·업무 매핑",
+    "status": "사전공개 RFP 데이터 구성도",
+    "caption": "대시보드·통합검색·데이터등록·표준·품질과 업무 매핑",
+    "locator": "rId20 / BinData/BIN0001_bmp",
+    "checked": "2026-10-16",
+    "sha256": "e91edef465c1a60d5edcd6288eefa4a5d158cd9980b9b941428685ef6e32a0f5"
+  }
+]

@@ -15,9 +15,9 @@
       "규칙·누락 검토",
       "담당자 확정"
     ],
-    "apply": "업무분장·판본·책임자·개정 영향 연결",
-    "delta": "업무분장·판본·책임자·개정 영향 연결",
-    "test": "구버전 인용률·반영 지연의 기준선·비교 평가",
+    "apply": "심사 서류의 추출값과 원본 위치를 연결하고 담당자가 최종 판정하는 증거 중심 검토",
+    "delta": "서류 종류·필수항목 사전 / 추출값–원본 좌표 / 사건별 비교 규칙",
+    "test": "저화질·누락·다른 사건 서류 주입 후 원본 대조·판정 보류 확인",
     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01639098&bidPbancOrd=000&fileSeq=3&fileType=&prcmBsneSeCd=03",
     "urls": [
       "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01639098&bidPbancOrd=000&fileSeq=3&fileType=&prcmBsneSeCd=03"
@@ -25,7 +25,7 @@
     "basis": "SFR-006~008, PMR-004~005 / Word T026",
     "checked": "2026-10-16",
     "diagramBasis": "공개 요구사항 기반 설계 흐름 재구성 · 실제 구현·비공개 배치와 구분",
-    "effect": "구버전 인용률·반영 지연",
+    "effect": "심사 검토시간 / 필수 항목 누락률 / 재보완 횟수",
     "group": "요구·구축",
     "sourceDetail": "OCR/VLM→추출값·원본 매핑→누락·정합성 비교→사람 확정; 문서 승인·버전·권한별 RAG 분리",
     "evidenceScope": "원장에 기록된 출처·단계 기준"
@@ -46,9 +46,9 @@
       "답변 추천",
       "현업 수정"
     ],
-    "apply": "업무분장·관할·복수부서 배정",
-    "delta": "업무분장·관할·복수부서 배정",
-    "test": "재배정률·최종 해결시간의 기준선·비교 평가",
+    "apply": "유사 문구와 동일 사건을 구분하는 민원 분류 및 소관부서별 답변 검토",
+    "delta": "민원 사건·기관·업무 분류 / 유사군 검토 UI / 현업 수정 이력",
+    "test": "같은 표현의 다른 사건·반대 취지 민원에 대한 오병합·답변 오류 측정",
     "url": "https://www.nia.or.kr/common/board/Download.do?bcIdx=28233&cbIdx=78336&fileNo=2",
     "urls": [
       "https://www.nia.or.kr/common/board/Download.do?bcIdx=28233&cbIdx=78336&fileNo=2",
@@ -57,7 +57,7 @@
     "basis": "추진계획·성과지표, 기능 요구사항 / Word T035",
     "checked": "2026-10-16",
     "diagramBasis": "공개 요구사항 기반 설계 흐름 재구성 · 실제 구현·비공개 배치와 구분",
-    "effect": "재배정률·최종 해결시간",
+    "effect": "민원 분류 정확도 / 오병합률 / 최종 답변 작성시간",
     "group": "요구·구축",
     "sourceDetail": "국민신문고/민원정보분석 연계, RAG·요약·유사도 군집, 현업 수정 및 시범기관 확산",
     "evidenceScope": "원장에 기록된 출처·단계 기준"
@@ -78,9 +78,9 @@
       "업무 에이전트",
       "문서·운영 관리"
     ],
-    "apply": "사번·직무·별칭·겸직·책임업무 매핑",
-    "delta": "사번·직무·별칭·겸직·책임업무 매핑",
-    "test": "인물 식별·직무 매핑 정확도의 기준선·비교 평가",
+    "apply": "공식 소속·직무를 검색 순위·서식·업무 도구 선택에 연결하는 개인화",
+    "delta": "사번–부서–직무–업무 연결 / 검색 재정렬 / 직무별 문서 양식",
+    "test": "동일 질의의 직무별 정답·문서 순위·서식 비교 및 전보 후 권한 시험",
     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01670411&bidPbancOrd=000&fileType=&fileSeq=1&prcmBsneSeCd=03",
     "urls": [
       "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01670411&bidPbancOrd=000&fileType=&fileSeq=1&prcmBsneSeCd=03"
@@ -88,7 +88,7 @@
     "basis": "SFR-007~012 / Word T044",
     "checked": "2026-10-16",
     "diagramBasis": "공개 요구사항 기반 설계 흐름 재구성 · 실제 구현·비공개 배치와 구분",
-    "effect": "인물 식별·직무 매핑 정확도",
+    "effect": "직무별 과업 성공률 / 검색·문서 작성시간 / 요청당 비용",
     "group": "요구·구축",
     "sourceDetail": "소속·직무·검색이력·업무 기반 검색 재정렬, 양식/목차/입력 구조화, GPU 이중화·모델 롤백·부서별 토큰 비용",
     "evidenceScope": "원장에 기록된 출처·단계 기준"
@@ -109,9 +109,9 @@
       "문서 검토",
       "현업 피드백"
     ],
-    "apply": "업무분장·판본·책임자·개정 영향 연결",
-    "delta": "업무분장·판본·책임자·개정 영향 연결",
-    "test": "구버전 인용률·반영 지연의 기준선·비교 평가",
+    "apply": "안전 지식의 소유부서·효력일·상충 근거를 함께 관리하는 검토 체계",
+    "delta": "안전 규정 효력일·소유부서 / 자동 갱신 / 상충 근거 표시",
+    "test": "개정·폐지·권한 제한·상충 문서의 검색 및 검토 결과 대조",
     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R25BK00790330&bidPbancOrd=000&fileSeq=8&fileType=",
     "urls": [
       "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R25BK00790330&bidPbancOrd=000&fileSeq=8&fileType=",
@@ -120,7 +120,7 @@
     "basis": "SFR-005~008 (과업내용서) / Word T053",
     "checked": "2026-10-16",
     "diagramBasis": "공개 요구사항 기반 설계 흐름 재구성 · 실제 구현·비공개 배치와 구분",
-    "effect": "구버전 인용률·반영 지연",
+    "effect": "구버전 인용률 / 개정 반영 지연 / 검토 누락률",
     "group": "요구·구축",
     "sourceDetail": "자동 문서 최신화, 규정 대조, 권한별 지식 폴더, RAG 파이프라인·피드백·상충 출처 표시",
     "evidenceScope": "원장에 기록된 출처·단계 기준"
@@ -141,9 +141,9 @@
       "의도·정보 비교",
       "원문 안내"
     ],
-    "apply": "발화 확인·준비서류·공식 메뉴·상담 연결",
-    "delta": "발화 확인·준비서류·공식 메뉴·상담 연결",
-    "test": "서비스 도달률·포기율의 기준선·비교 평가",
+    "apply": "서비스 조건·기한·신청 창구를 연결하는 홈페이지 탐색 지원",
+    "delta": "서비스·조건·기한 사전 / 유사 공고 비교 / 원문·신청 경로 연결",
+    "test": "마감·유사 공고·갱신 지연 질의의 조건 일치와 서비스 도달 확인",
     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R25BK00751232&bidPbancOrd=000&fileType=&fileSeq=2&prcmBsneSeCd=03",
     "urls": [
       "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R25BK00751232&bidPbancOrd=000&fileType=&fileSeq=2&prcmBsneSeCd=03",
@@ -152,7 +152,7 @@
     "basis": "SFR-003~006, PER-003 / Word T062",
     "checked": "2026-10-16",
     "diagramBasis": "공개 요구사항 기반 설계 흐름 재구성 · 실제 구현·비공개 배치와 구분",
-    "effect": "서비스 도달률·포기율",
+    "effect": "정확한 공고 도달률 / 탐색시간 / 이용 포기율",
     "group": "요구·구축",
     "sourceDetail": "데이터 수집·갱신→RAG→의도 기반 답변·유사공고 비교→원문 연결; 오류·만족도 관리",
     "evidenceScope": "원장에 기록된 출처·단계 기준"
@@ -166,16 +166,16 @@
     "state": "공식 RFP 확인 / 운영·효과 미확인",
     "period": "기존 원장 확인 2026.10.16",
     "fact": "음성·자연어로 휴가·출장·복명 신청 후 MIS/전자결재 실행",
-    "limit": "MIS에 AI/모바일 API가 없으므로 신규 개발이 명시됨. 기존 API 재사용 사업으로 설명하면 안 됨",
+    "limit": "RFP 요구 범위 · MIS API 계층 신규 개발 포함 · 운영 성과와 구분",
     "nodes": [
       "음성·자연어",
       "필드 추출",
       "사용자 확인",
       "MIS·결재 연계"
     ],
-    "apply": "필수 항목·담당자·승인·API 처리 연결",
-    "delta": "필수 항목·담당자·승인·API 처리 연결",
-    "test": "완료율·재작업·중복 처리의 기준선·비교 평가",
+    "apply": "사용자 확인·전결·접수 결과까지 추적하는 자연어 업무 실행",
+    "delta": "발화 필드·확인 화면 / TS 기간계 API 차분 / 전결·취소·재시도 연결",
+    "test": "날짜 오류·중복 전송·취소 시 승인 전 차단·멱등성·원천 상태 대사",
     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01719764&bidPbancOrd=000&fileSeq=4&fileType=&prcmBsneSeCd=03",
     "urls": [
       "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01719764&bidPbancOrd=000&fileSeq=4&fileType=&prcmBsneSeCd=03"
@@ -183,7 +183,7 @@
     "basis": "FUR-001~009, PER-001~002, TER-005 / Word T071",
     "checked": "2026-10-16",
     "diagramBasis": "공개 요구사항 기반 설계 흐름 재구성 · 실제 구현·비공개 배치와 구분",
-    "effect": "완료율·재작업·중복 처리",
+    "effect": "신청 완료시간 / 재입력률 / 중복·미접수 건수",
     "group": "요구·구축",
     "sourceDetail": "STT→의도·필드 추출→사용자 확인→MIS API 신규개발→기안·상신; 조직·직무·권한 기반 결재선",
     "evidenceScope": "원장에 기록된 출처·단계 기준"
@@ -204,9 +204,9 @@
       "출처·답변 보류",
       "전문가 평가"
     ],
-    "apply": "발화 확인·준비서류·공식 메뉴·상담 연결",
-    "delta": "발화 확인·준비서류·공식 메뉴·상담 연결",
-    "test": "서비스 도달률·포기율의 기준선·비교 평가",
+    "apply": "민원 답변의 법령 근거·보류 조건·전문가 평가를 운영 기준으로 관리",
+    "delta": "법령·체크리스트 판본 / 응답 보류 / 전문가 정답셋·부하 시험",
+    "test": "개정 조문·근거 부재·공격 입력·동시 요청의 품질·성능 대조",
     "url": "https://www.kisa.kr/post/fileDownload?menuSeq=403&postSeq=10891&attachSeq=2&lang_type=KO",
     "urls": [
       "https://www.kisa.kr/post/fileDownload?menuSeq=403&postSeq=10891&attachSeq=2&lang_type=KO",
@@ -215,7 +215,7 @@
     "basis": "SFR-001~006, PER-001·004, QUR-001 / Word T080",
     "checked": "2026-10-16",
     "diagramBasis": "공개 요구사항 기반 설계 흐름 재구성 · 실제 구현·비공개 배치와 구분",
-    "effect": "서비스 도달률·포기율",
+    "effect": "근거 정답률 / 보류 적정률 / 응답시간·오류율",
     "group": "요구·구축",
     "sourceDetail": "외부 생성형 AI API+RAG, 홈페이지/앱 연계, 출처·최신성·답변불가 안내, 자동/전문가 평가",
     "evidenceScope": "원장에 기록된 출처·단계 기준"
@@ -236,18 +236,18 @@
       "검색·산식 검증",
       "평가·운영"
     ],
-    "apply": "전보·퇴직·겸직 이후 검색·인계·캐시 회수",
-    "delta": "전보·퇴직·겸직 이후 검색·인계·캐시 회수",
-    "test": "오노출 건수·변경 반영 지연의 기준선·비교 평가",
+    "apply": "대민·내부 지식 경계와 데이터 카탈로그를 함께 설계하는 정보 제공",
+    "delta": "내외부 지식·망 분리 / 문서 DRM·권한 / 안건·산식·데이터 카탈로그",
+    "test": "외부 계정의 내부자료 요청·DRM·산식 오류에 대한 독립 검증",
     "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00217546&fileType=BFDTL&fileSeq=1",
     "urls": [
       "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00217546&fileType=BFDTL&fileSeq=1",
       "https://clabi.ai/news/fe55039a-f069-4218-aa5a-0c1057c5ca92"
     ],
-    "basis": "SFR-001~011, DAR·CNR / Word T089",
+    "basis": "SFR-001~014, DAR·CNR / Word T089",
     "checked": "2026-10-16",
     "diagramBasis": "공개 요구사항 기반 설계 흐름 재구성 · 실제 구현·비공개 배치와 구분",
-    "effect": "오노출 건수·변경 반영 지연",
+    "effect": "비인가 노출 건수 / 원천 추적률 / 안건 검토시간",
     "group": "요구·구축",
     "sourceDetail": "망·DRM·권한 연계; 안건 메타데이터 범위검색; 규정 산식 교차검증; 모델라우팅·평가·모니터링",
     "evidenceScope": "원장에 기록된 출처·단계 기준"
@@ -268,9 +268,9 @@
       "업무 앱·ERP",
       "권한·성과 관리"
     ],
-    "apply": "교통 업무별 지식·서식·예외·검증 세트",
-    "delta": "교통 업무별 지식·서식·예외·검증 세트",
-    "test": "현업 수용률·증거 누락률의 기준선·비교 평가",
+    "apply": "공통 사용자·권한 기반 위에 업무 도메인별 지식과 실행 경로 구성",
+    "delta": "TS 업무 도메인 라우터 / 사용자 역할·효력일 / 업무별 검색·원천 연계",
+    "test": "전보·겸직·다른 도메인 질의의 라우팅·근거·접근 허용 여부 대조",
     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01705928&bidPbancOrd=001&fileSeq=4&fileType=&prcmBsneSeCd=03",
     "urls": [
       "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01705928&bidPbancOrd=001&fileSeq=4&fileType=&prcmBsneSeCd=03"
@@ -278,7 +278,7 @@
     "basis": "SER-001~004, FUR-001~006, ASR·DAR / Word T098",
     "checked": "2026-10-16",
     "diagramBasis": "공개 요구사항 기반 설계 흐름 재구성 · 실제 구현·비공개 배치와 구분",
-    "effect": "현업 수용률·증거 누락률",
+    "effect": "업무 분류 정확도 / 근거 적합률 / 도메인 추가 구축 공수",
     "group": "요구·구축",
     "sourceDetail": "대화형/전용화면, 에이전트·ERP·권한·문서/정형 데이터 연계, 도메인별 RAG/보고서",
     "evidenceScope": "원장에 기록된 출처·단계 기준"
@@ -299,7 +299,7 @@
       "법령·판례 지식",
       "법령비서·직원 검토"
     ],
-    "apply": "기존 TS 공통 모델·검색 기반을 유지하고 부서별 업무 앱을 추가",
+    "apply": "공통 AI 접속환경을 재사용하고 직무별 법령·업무 앱을 별도 구성",
     "delta": "소관·직무·규정 판본 연결 및 부서별 정답셋",
     "test": "동일 규정 질의의 판본·출처·소관 일치 검증",
     "url": "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=127770",
@@ -329,7 +329,7 @@
       "개정·오류 점검",
       "전자결재·담당 검토"
     ],
-    "apply": "TS 직제·업무분장·업무 규정과 문서 책임자를 함께 연결",
+    "apply": "규정 검색 결과를 개정 영향·책임부서·전자결재 절차까지 연결",
     "delta": "규정 개정 영향 업무 탐색 / 폐지 지식 차단 / 승인판본 배포",
     "test": "개정 전후 질문의 판본 일치 및 영향 업무 재평가",
     "url": "https://www.kepco.co.kr/KEPCO_FILE/html/2026_09/issue.html",
@@ -350,7 +350,7 @@
     "owner": "KIND / 대내 생성형 AI 서비스 구축",
     "state": "공식 RFP 확보 / 운영 성과 미확인",
     "period": "기존 원장 확인 2026.10.16",
-    "fact": "기관 공통 플랫폼",
+    "fact": "사내 산출물의 RAG 검색·권한 필터와 내부 시스템 API 기반 업무 에이전트 구축 요구",
     "limit": "로컬 PUBLIC 원본 재사용 사례. 최신 계약·검수·운영 상황은 별도 확인 필요",
     "nodes": [
       "권한별 자료",
@@ -358,15 +358,15 @@
       "업무 에이전트",
       "현업 검토"
     ],
-    "apply": "전보·퇴직·겸직 이후 검색·인계·캐시 회수",
-    "delta": "전보·퇴직·겸직 이후 검색·인계·캐시 회수",
-    "test": "오노출 건수·변경 반영 지연의 기준선·비교 평가",
+    "apply": "문서·청크의 업무 메타데이터와 검색 전 권한 필터를 함께 구성",
+    "delta": "사업·문서·청크 메타데이터 / 동적 권한 필터 / 부서별 API 어댑터",
+    "test": "암호문서·권한 회수·메타데이터 누락 상태에서 검색 결과와 원천 대사",
     "url": null,
     "urls": [],
     "basis": "P121~123 / 공통영역 요구 비교",
     "checked": "2026-10-16",
     "diagramBasis": "공개 요구사항 기반 설계 흐름 재구성 · 실제 구현·비공개 배치와 구분",
-    "effect": "오노출 건수·변경 반영 지연",
+    "effect": "권한 오노출 / 근거 일치율 / 지식 갱신 지연",
     "group": "요구·구축",
     "sourceDetail": "RAG·권한 메타데이터·부서별 업무 지원·에이전트/API 연계·지식 갱신을 요구\n데이터 권한·운영 피드백을 공통체계로 정의",
     "evidenceScope": "원장에 기록된 출처·단계 기준"
@@ -387,7 +387,7 @@
       "기존 공식 API",
       "최신 데이터 안내"
     ],
-    "apply": "TS 보유 API를 조회·신청·변경 유형별로 등록",
+    "apply": "기존 공공 API를 AI 조회 도구로 연결하고 원천 응답과 안내의 일치 검증",
     "delta": "기관·직무별 도구 권한 / 요청키 / 오류·중복 처리",
     "test": "도구별 입력·응답·인증·오류 처리 계약 및 쓰기 요청 차단",
     "url": "https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=19787",
@@ -416,7 +416,7 @@
       "사내 시스템 API",
       "직무 도구·현업 피드백"
     ],
-    "apply": "CCK 공통 도구와 TS 기존 시스템의 업무별 접점 연결",
+    "apply": "공통 모델·검색과 직무별 시스템 도구를 분리해 단계적으로 확장",
     "delta": "업무단위 연계 모듈 / 현업 교육 / 품질·비용 관측",
     "test": "업무 완료율·오실행·재작업·총소요시간 동시 평가",
     "url": "https://www.samsungsds.com/kr/insights/samsung-sds-ai-journey.html",
@@ -445,7 +445,7 @@
       "일반·개발 도구",
       "업무 결과 검토"
     ],
-    "apply": "기관 설정·회귀 평가·두 번째 부서 적용",
+    "apply": "일반 직원과 개발자의 입력 문맥·결과 검토 기준을 직무별 분리",
     "delta": "기관 설정·회귀 평가·두 번째 부서 적용",
     "test": "도입기간·유지비·교육 부담의 기준선·비교 평가",
     "url": "https://news.samsung.com/ca/samsung-electronics-hosts-samsung-developer-conference-korea-2024-unveils-its-improved-gen-ai-model",
@@ -476,7 +476,7 @@
       "법제·답변 업무 앱",
       "이용 관측·현업 개선"
     ],
-    "apply": "GROWTH AI 공통 기반과 기관별 업무 패키지의 분리",
+    "apply": "공통 AI 운영과 현업 앱의 소유·갱신·승인 책임을 함께 정의",
     "delta": "기관 설정·조직 사전·업무 스킬·배포판본 관리",
     "test": "두 번째 부서 적용의 수정 범위·추가 공수·격리 평가",
     "url": "https://www.digital.go.jp/policies/genai",
@@ -507,7 +507,7 @@
       "공유·이용 통제",
       "업무 접점"
     ],
-    "apply": "담당·승인판본·배포·폐기 조건",
+    "apply": "현업이 제작하는 봇의 자료 등급·공유범위·승인판본 관리",
     "delta": "담당·승인판본·배포·폐기 조건",
     "test": "중복 도구·갱신 공수의 기준선·비교 평가",
     "url": "https://www.tech.gov.sg/products-and-services/for-government-agencies/productivity-and-marketing/aibots/",
@@ -540,7 +540,7 @@
       "작성·조사 지원",
       "공무원 검토"
     ],
-    "apply": "기관·직무별 설정과 품질 기준",
+    "apply": "공통 이용환경 안에서 공공업무 입력 기준과 직원 검토 절차 정착",
     "delta": "기관·직무별 설정과 품질 기준",
     "test": "신규 연결 공수·요청당 비용의 기준선·비교 평가",
     "url": "https://www.tech.gov.sg/products-and-services/for-government-agencies/productivity-and-marketing/pair/",
@@ -572,7 +572,7 @@
       "모델·검색·문서·음성",
       "프로젝트·사용량 관리"
     ],
-    "apply": "CCK 재사용 기능을 공통 서비스로 제공하고 TS 업무 모듈을 분리",
+    "apply": "OCR·검색·전사 기능을 공통 서비스로 묶고 부서 업무 앱에서 조합",
     "delta": "API 계약·사용 정책·부서별 사용량·장애 격리",
     "test": "공통 기능 계약 시험 / 지연·실패·비용의 업무별 분리",
     "url": "https://ia.numerique.gouv.fr/outils-ia/albert-api/offre-de-services/",
@@ -603,7 +603,7 @@
       "공통 대화 서비스",
       "해결·상담원 연결"
     ],
-    "apply": "TS 서비스별 담당 조직과 국민 문의의 인계 경로 연결",
+    "apply": "민원 안내의 끝점을 담당기관·상담원 수신과 해결 여부까지 확장",
     "delta": "관할·복수부서·개인정보 경계 및 인계 수락 상태",
     "test": "미해결·관할외·복수부서 문의의 상담 전환 완료 검증",
     "url": "https://ria.ee/en/state-information-system/artificial-intelligence/burokratt",
@@ -632,7 +632,7 @@
       "RAG 응답",
       "사용자 실증"
     ],
-    "apply": "발화 확인·준비서류·공식 메뉴·상담 연결",
+    "apply": "공개 지식의 출처 응답과 공식 신청 페이지를 연결하는 대민 접점",
     "delta": "발화 확인·준비서류·공식 메뉴·상담 연결",
     "test": "서비스 도달률·포기율의 기준선·비교 평가",
     "url": "https://insidegovuk.blog.gov.uk/2026/03/16/5-things-we-learned-testing-gov-uk-chat-an-ai-assistant-for-government/",
@@ -664,7 +664,7 @@
       "AI 작성·검색",
       "로그·설문 평가"
     ],
-    "apply": "부서·직무·권한·변경 교차 평가",
+    "apply": "부서별 활용량과 검토·재작업을 포함한 실제 업무 성과의 별도 측정",
     "delta": "부서·직무·권한·변경 교차 평가",
     "test": "완료시간·오류·총비용의 기준선·비교 평가",
     "url": "https://www.gov.uk/government/publications/microsoft-365-copilot-experiment-cross-government-findings-report/microsoft-365-copilot-experiment-cross-government-findings-report-html",
@@ -696,7 +696,7 @@
       "분석·요약",
       "공무원 수정"
     ],
-    "apply": "업무분장·관할·복수부서 배정",
+    "apply": "빈도 높은 의견과 소수·반대 의견을 함께 추적하는 정책 검토 지원",
     "delta": "업무분장·관할·복수부서 배정",
     "test": "재배정률·최종 해결시간의 기준선·비교 평가",
     "url": "https://www.gov.uk/government/news/government-built-humphrey-ai-tool-reviews-responses-to-consultation-for-first-time-in-bid-to-save-millions",
@@ -727,7 +727,7 @@
       "교육·업무 활용",
       "전후 설문 평가"
     ],
-    "apply": "부서·직무·권한·변경 교차 평가",
+    "apply": "교육·숙련도·과업 차이를 반영한 부서별 AI 도입 효과 평가",
     "delta": "부서·직무·권한·변경 교차 평가",
     "test": "완료시간·오류·총비용의 기준선·비교 평가",
     "url": "https://www.digital.gov.au/initiatives/copilot-trial/microsoft-365-copilot-evaluation-report-full/executive-summary-glossary",
@@ -759,7 +759,7 @@
       "현업 활용 지원",
       "확산·성과 관측"
     ],
-    "apply": "기관 설정·회귀 평가·두 번째 부서 적용",
+    "apply": "공통 플랫폼과 현업 활용 발굴·교육·검토를 담당하는 확산 조직의 결합",
     "delta": "기관 설정·회귀 평가·두 번째 부서 적용",
     "test": "도입기간·유지비·교육 부담의 기준선·비교 평가",
     "url": "https://www.bbva.com/en/innovation/bbva-and-openai-seal-a-strategic-alliance-to-redefine-banking-with-artificial-intelligence/",
@@ -791,7 +791,7 @@
       "자문가 편집·확인",
       "CRM·이메일 업무"
     ],
-    "apply": "회의 결과를 담당·기한·업무건과 연결한 CCK 후속조치 스킬",
+    "apply": "회의 동의·요약 확인·할일 수정·업무시스템 반영의 단계별 책임 연결",
     "delta": "전결·발송 확인 / 원문 근거 / 진행상태·인사이동 인계",
     "test": "발송 전 확인·판본 변경 재승인·담당 변경 후 인계 대사",
     "url": "https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch",
@@ -820,7 +820,7 @@
       "사업부 업무",
       "이용·운영 관리"
     ],
-    "apply": "기관 설정·회귀 평가·두 번째 부서 적용",
+    "apply": "사업부별 데이터 접근과 전체 업무 절차를 기준으로 공통 AI의 적용 범위 확대",
     "delta": "기관 설정·회귀 평가·두 번째 부서 적용",
     "test": "도입기간·유지비·교육 부담의 기준선·비교 평가",
     "url": "https://www.jpmorganchase.com/about/technology/blog/innovation-week25",
@@ -852,7 +852,7 @@
       "조직 관계 질의",
       "접근 범위 응답"
     ],
-    "apply": "사번·직무·별칭·겸직·책임업무 매핑",
+    "apply": "직원 관계 인식과 데이터 접근권한을 각각 검증하는 조직 모델",
     "delta": "사번·직무·별칭·겸직·책임업무 매핑",
     "test": "인물 식별·직무 매핑 정확도의 기준선·비교 평가",
     "url": "https://learn.microsoft.com/en-us/microsoft-365/admin/people-relationships-m365?view=o365-worldwide",
@@ -883,7 +883,7 @@
       "권한별 검색",
       "직원 정보 활용"
     ],
-    "apply": "전보·퇴직·겸직 이후 검색·인계·캐시 회수",
+    "apply": "사번·부서·직책·상사 정보의 원천 우선순위와 변경 반영 체계",
     "delta": "전보·퇴직·겸직 이후 검색·인계·캐시 회수",
     "test": "오노출 건수·변경 반영 지연의 기준선·비교 평가",
     "url": "https://docs.glean.com/get-started/setup/sync-people-data",
@@ -914,7 +914,7 @@
       "업무 에이전트",
       "근태·결재 연계"
     ],
-    "apply": "필수 항목·담당자·승인·API 처리 연결",
+    "apply": "직원의 ERP·결재 문맥을 활용하되 실제 도입본의 실행·승인 기능 검증",
     "delta": "필수 항목·담당자·승인·API 처리 연결",
     "test": "완료율·재작업·중복 처리의 기준선·비교 평가",
     "url": null,
@@ -943,7 +943,7 @@
       "사업자 안내",
       "감사·개선 요청"
     ],
-    "apply": "TS 대민 안내의 근거·소관·신청 완료까지 검수",
+    "apply": "답변 정답셋·서비스 도달·계약 산출물의 검수 체계를 사업 초기에 구성",
     "delta": "반례 정답셋·오안내 신고·책임부서 인계",
     "test": "규정과 상충하는 안내 및 미완료 신청 재현",
     "url": "https://comptroller.nyc.gov/reports/audit-report-on-the-new-york-city-office-of-technology-and-innovations-mycity-system/",

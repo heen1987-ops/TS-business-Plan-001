@@ -1,0 +1,11 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path');
+const e=v=>String(v).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
+function svg(d){const a=d.service,positions=a.components.map((n,i)=>({x:40+(i<4?i:i<8?7-i:i-8)*300,y:i<4?92:i<8?280:500}));
+ const text=(v,x,y,size=20,color='#28352b')=>`<text x="${x}" y="${y}" font-size="${size}" fill="${color}">${e(v)}</text>`;
+ const paths=a.edges.map(([s,t])=>{const p=positions[s],q=positions[t];let v;if(s<7&&t===s+1){if(s===3)v=`M${p.x+135},${p.y+130} V${q.y}`;else{const right=q.x>p.x;v=`M${p.x+(right?270:0)},${p.y+65} H${q.x+(right?0:270)}`;}}else if(s===8||s===9)v=`M${p.x+270},${p.y+65} H${q.x}`;else if(s===10)v=`M${p.x+135},${p.y} V470 H1230 V250 H${q.x+135} V${q.y+130}`;else if(t===1)v=`M${p.x+135},${p.y} V480 H20 V65 H${q.x+135} V${q.y}`;else v=`M${p.x+135},${p.y} V${q.y+130}`;return `<path d="${v}" fill="none" stroke="${s>7?'#9a8a65':'#42634b'}" stroke-width="2" ${s>7?'stroke-dasharray="6 5"':''} marker-end="url(#arrow)"/>`;}).join('');
+ return `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img"><title>${e(d.purpose)}</title><desc>CCK 세부 재구성. 실선: 요청·처리·결과. 점선: 데이터·정책 연결.</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10z" fill="#687369"/></marker></defs><rect width="1280" height="720" fill="#fafbf8"/><g font-family="Pretendard, sans-serif">${text(d.id+' · 세부 서비스 아키텍처',40,38,25)}${text('CCK 논리 설계 / 실선: 서비스 처리 / 점선: 데이터·정책',40,680,18,'#687369')}${paths}${a.components.map((n,i)=>{const p=positions[i];return `<g><rect x="${p.x}" y="${p.y}" width="270" height="130" rx="8" fill="${i>7?'#f1f4ed':'#fff'}" stroke="#d4ddd5"/>${text(n.id+' · '+n.layer,p.x+16,p.y+30,17,'#687369')}${n.title.length>17?text(n.title.slice(0,15),p.x+16,p.y+70,21)+text(n.title.slice(15),p.x+16,p.y+99,21):text(n.title,p.x+16,p.y+77,21)}</g>`;}).join('')}</g></svg>`;
+}
+function write(root){const dir=path.join(root,'assets/casebook-designs');fs.mkdirSync(dir,{recursive:true});for(const d of Object.values(require('../src/case-designs.cjs').byId))fs.writeFileSync(path.join(dir,d.id+'.svg'),svg(d));}
+module.exports={write,svg};
+if(require.main===module)write(path.join(__dirname,'../public'));

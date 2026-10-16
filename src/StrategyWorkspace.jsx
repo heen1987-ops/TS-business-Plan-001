@@ -28,8 +28,7 @@ function TaskDetail({row:r}){
  <CaseLinks strategy={r.id}/>
  <section className="ux-section" id="task-solution"><header><span>03</span><div><h2>업무에 필요한 솔루션</h2><p>{r.id==='ST-04'?'1차 공통 기반 구축':'공통 기반 인수 후 부서별 적용'}</p></div></header>
  <div className="ux-solution"><div><span className="ux-eyebrow">솔루션 구성안</span><h3>{r.solution}</h3><ul>{r.features.map(f=><li key={f}>{f}</li>)}</ul></div><div><span className="ux-eyebrow">업무 결과물</span><p>{r.output}</p><span className="ux-eyebrow">개발 범위</span><p>{r.id==='ST-04'?'조직 인식 · 역할·권한 · 업무 맥락 · 운영 인수':'업무 전용 지식·서식·연계·품질평가 / 공통 조직·권한 기능 재사용'}</p></div></div>
- <div className="ux-acceptance"><h3>업무 검수 기준안</h3><p>{r.acceptance}</p></div>
- <div className="ux-delivery-links"><div><h3>연결 구축 항목</h3>{r.packages.map(id=><Link key={id} to={'proposal-2027.html#'+id}>{org.packages.find(p=>p.id===id).title}<ArrowUpRight size={15}/></Link>)}</div><div><h3>연결 검수 항목</h3>{r.tests.map(id=><Link key={id} to={'proposal-2027.html#'+id}>{org.acceptance.find(t=>t.id===id).name}<ArrowUpRight size={15}/></Link>)}</div></div>
+ <div className="ux-delivery-links"><Link to={'index.html?view=casebook&tab=strategy&strategy='+r.id}>사례 기반 재사용·추가 개발·검수·기대효과 →</Link><Link to="proposal-2027.html">AI혁신처 공통 기반·일정·검수 →</Link></div>
  </section><Evidence row={r}/><Link className="ux-back" to="index.html"><ArrowLeft size={16}/> 전체 전략과제</Link>
  </article>;
 }

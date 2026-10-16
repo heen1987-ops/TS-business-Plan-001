@@ -2,6 +2,19 @@
 const assert=require('node:assert/strict'),fs=require('node:fs');
 const ax=require('../src/ax-casebook.cjs'),platform=require('../src/platform-casebook.cjs'),insights=require('../src/case-insights.cjs'),followup=require('../src/strategy-followup.cjs'),work=require('../src/all-department-work.cjs'),storage=require('../src/strategy-prompt-storage.cjs');
 const cases=[...ax.cases,...platform.cases];
+const designs=require('../src/case-designs.cjs');
+assert.equal(Object.keys(designs.byId).length,57);
+assert.equal(Object.values(designs.byId).filter(d=>d.rfp).length,10);
+for(const d of Object.values(designs.byId)){
+ const a=d.service;assert.equal(a.components.length,12);assert.equal(a.interfaces.length,6);
+ for(const [s,t] of a.edges)assert.ok(a.components[s]&&a.components[t]);
+ for(const f of a.figures){assert.ok(fs.existsSync('public/'+f.path));assert.equal(require('node:crypto').createHash('sha256').update(fs.readFileSync('public/'+f.path)).digest('hex'),f.sha256);}
+ assert.equal(fs.readFileSync('dist/assets/casebook-designs/'+d.id+'.svg','utf8'),require('./export-case-architecture.cjs').svg(d));
+}
+assert.equal(require('../src/case-source-figures.json').length,13);
+for(const c of cases){const d=designs.byId[c.id];assert.equal(d.nodes.length,6);assert.equal(d.sequence.length,4);assert.equal(d.benchmark.functions.length,5);assert.ok(d.benchmark.normal&&d.benchmark.exception&&d.benchmark.evidence);assert.ok(d.status.includes(d.rfp?'RFP':'추론'));for(const [a,b] of d.edges)assert.ok(d.nodes.some(n=>n.id===a)&&d.nodes.some(n=>n.id===b));}
+for(const p of followup.plans){const related=designs.relatedCases(p);assert.equal(new Set(related.map(c=>designs.canonical(c.id))).size,related.length);}
+for(const c of platform.cases)assert.notEqual(c.apply,c.delta,c.id+' 시사점·개발 문장 중복');
 assert.equal(cases.length,57);assert.equal(Object.keys(insights.byId).length,57);
 for(const c of cases){const s=insights.byId[c.id];assert.ok(s,c.id);assert.equal(s.success.length,2);assert.equal(s.risks.length,2);assert.equal(s.architecture.length,4);assert.equal(s.transfers.length,4);assert.ok(s.control&&s.analysis&&s.diagramBasis);}
 for(const c of platform.cases){assert.ok(insights.platformStrategies[c.id].length);for(const id of insights.platformStrategies[c.id])assert.ok(followup.byId[id]);}
