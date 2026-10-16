@@ -1,6 +1,6 @@
 'use strict';
 // 12개 구성요소는 공개 업무·요구사항을 분해한 CCK 서비스 설계. 실제 서버 배치와 구분.
-// 요청 → 맥락 → 자료 조회 → 처리 → 검증 → 검토 → 업무 연결 → 관측 / 원천 → 정제 → 저장 → 정책.
+// 도면·인터페이스는 사례별 업무 경로 유형으로 선택하고, 12개 구성요소의 동일 배치를 반복하지 않는다.
 const labels={
  AX01:'노선 검토 요청|시간·지역 범위|수요 집계 조회|노선 후보 분석|대표성·집계 검증|교통정책 검토|노선 운영계획|운행 수요 비교|통신·노선 자료|공간 단위 정합화|지역·시간 집계|집계 이용정책',
  AX02:'안부전화 접점|대상·대화 맥락|이전 대응 조회|대화·상태 요약|위험 발화 확인|복지 담당 확인|상담·방문 인계|조치 완료 추적|동의받은 대화|민감 발화 분리|대화·대응 이력|동의·열람정책',
@@ -58,6 +58,7 @@ const labels={
  'PF-C03':'ERP·그룹웨어|직원·업무·권한|문서·근태 조회|ONE AI 구조화|필드·권한 검사|사용자·결재자|근태·전자결재|실행 결과 확인|ERP·인사·문서|업무 식별자 연결|초안·처리 상태|실행·승인 정책'
 };
 const figures=require('./case-source-figures.json');
+const reconstructions=require('./case-reconstruction-images.json');
 const evidence={
  'PF-R01':['SFR-006~008','OCR/VLM 항목 추출과 문서 정합성 비교의 분리','문서 좌표·추출값과 심사 확정값의 별도 보존'],
  'PF-R02':['목표시스템 개념도·RAG 구성 예시','API Gateway, OCR·메타정보 추출, 키워드/벡터 검색과 재정렬','민원 중복 후보와 공식 병합·회신의 승인 경계'],
@@ -83,18 +84,16 @@ function build(d,s){
  const layers=['이용 접점','업무 문맥','자료 조회','핵심 처리','결과 검증','사람 확인','업무 연결','운영 관측','데이터 원천','준비·갱신','상태·지식 저장','권한·정책'];
  const detail=[d.users,d.benchmark.functions[0].processing,d.sequence[1].input,d.benchmark.functions[2].processing,s.control,d.benchmark.normal,d.benchmark.functions[3].processing,d.operations,s.architecture[2],d.benchmark.functions[1].processing,d.benchmark.evidence,d.benchmark.exception];
  const components=names.map((title,i)=>({id:'C'+String(i+1).padStart(2,'0'),title,layer:layers[i],detail:detail[i]}));
- const interfaces=[
-  {id:'IF-01',from:'C01',to:'C02',mode:'요청',payload:d.sequence[0].input,check:'대상·기간·업무 목적 식별'},
-  {id:'IF-02',from:'C02',to:'C03',mode:'조회',payload:d.sequence[1].input,check:s.control},
-  {id:'IF-03',from:'C03',to:'C04',mode:'처리',payload:d.sequence[1].output,check:'출처·시점·조회 범위 보존'},
-  {id:'IF-04',from:'C04',to:'C05',mode:'검증',payload:({'PF-R01':'원문 좌표·추출 항목·인식 신뢰도','PF-R02':'답변 초안·유사군 후보·근거 문서',AX05:'행동별 소비 예측·제어값 후보',AX07:'기간별 산정 후보·소득 증빙',AX08:'사건 타임라인·보고항목 초안',AX10:'조업 이벤트·탐지 시각',AX16:'위험 후보·예상 경고 시점',AX23:'지역별 위험 점수·평가 근거'})[d.canonicalId]||d.sequence[2].output,check:d.benchmark.exception},
-  {id:'IF-05',from:'C06',to:'C07',mode:'검토·인계',payload:d.sequence[2].output,check:d.benchmark.functions[3].processing},
-  {id:'IF-06',from:'C07',to:'C08',mode:'결과·환류',payload:d.sequence[3].output,check:d.benchmark.evidence}
- ];
+ if(d.canonicalId==='AX06'){components[10].title='OpenSearch 색인';components[7].title='BigQuery 품질 분석';}
+ if(d.canonicalId==='PF07'){components[2].title='Resql·지식 조회';components[3].title='Ruuter 대화 라우팅';components[10].title='PostgreSQL·S3 이력';}
+ const flow=require('./case-flow-patterns.cjs').build(d,s,components);
+ const sourceFigures=figures.filter(f=>f.caseId===d.id||d.canonicalId!==d.id&&f.caseId===d.canonicalId);
+ const reconstruction=reconstructions[d.id]||null;
+ if(sourceFigures.length&&reconstruction)throw Error(d.id+' 원문·이미지 재구성 중복');
  const e=evidence[d.canonicalId];
- return {status:'CCK 세부 재구성 · 논리 서비스 설계',components,interfaces,edges:[[0,1],[1,2],[2,3],[3,4],[4,5],[5,6],[6,7],[8,9],[9,10],[10,2],[11,1],[11,4]],
+ return {status:'CCK 사례별 재구성 · 논리 서비스 설계',components,...flow,
   facts:e?{locator:e[0],extracted:e[1],extension:e[2]}:{locator:d.basis,extracted:d.purpose+' / '+d.scope.join('·'),extension:d.local},
-  figures:figures.filter(f=>f.caseId===d.id),source:technicalSources[d.canonicalId]||null,
+  figures:sourceFigures,reconstruction,source:technicalSources[d.canonicalId]||null,
   exception:{input:d.benchmark.exception,hold:s.control,recovery:d.operations,evidence:d.benchmark.evidence},
   data:{source:s.architecture[2],prepare:d.benchmark.functions[1].processing,output:d.sequence[1].input,refresh:d.operations},
   boundary:'구성요소·연계·실패 복구는 CCK 분석 설계. 원문 도면의 예시·기존 현황·목표 구분은 각 캡션 기준.'};

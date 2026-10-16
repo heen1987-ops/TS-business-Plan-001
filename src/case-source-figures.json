@@ -128,5 +128,119 @@
     "locator": "rId20 / BinData/BIN0001_bmp",
     "checked": "2026-10-16",
     "sha256": "e91edef465c1a60d5edcd6288eefa4a5d158cd9980b9b941428685ef6e32a0f5"
+  },
+  {
+    "caseId": "AX05",
+    "path": "assets/casebook-sources/AX05-01.png",
+    "title": "냉각 설비 센서 상태 수집",
+    "status": "DeepMind 공식 단계 그림 1/4",
+    "caption": "5분마다 현장 센서의 냉각 상태 스냅샷 수집",
+    "locator": "Google DeepMind 2018-08-17 / How it works 1",
+    "sourceUrl": "https://deepmind.google/blog/safety-first-ai-for-autonomous-data-centre-cooling-and-industrial-control/",
+    "checked": "2026-10-16",
+    "sha256": "ec28de3ccf82f230a92ff87c048ed311f0c890ebcbd9dae1882ec8a20aabd999"
+  },
+  {
+    "caseId": "AX05",
+    "path": "assets/casebook-sources/AX05-02.png",
+    "title": "신경망 예측 단계",
+    "status": "DeepMind 공식 단계 그림 2/4",
+    "caption": "제어 후보별 미래 효율과 온도 예측",
+    "locator": "Google DeepMind 2018-08-17 / How it works 2",
+    "sourceUrl": "https://deepmind.google/blog/safety-first-ai-for-autonomous-data-centre-cooling-and-industrial-control/",
+    "checked": "2026-10-16",
+    "sha256": "3d8852c2f9db075137fc3460ddef99acb193c4b77268f159fca9100379123d6a"
+  },
+  {
+    "caseId": "AX05",
+    "path": "assets/casebook-sources/AX05-03.png",
+    "title": "안전 제약 내 제어 후보 선정",
+    "status": "DeepMind 공식 단계 그림 3/4",
+    "caption": "안전 제약을 만족하는 후보 중 에너지 소비 최소화",
+    "locator": "Google DeepMind 2018-08-17 / How it works 3",
+    "sourceUrl": "https://deepmind.google/blog/safety-first-ai-for-autonomous-data-centre-cooling-and-industrial-control/",
+    "checked": "2026-10-16",
+    "sha256": "74083db5c1f1d687580f9bb3accbd06dceaac4b89bc5d41222f4f1c1842d43c5"
+  },
+  {
+    "caseId": "AX05",
+    "path": "assets/casebook-sources/AX05-04.png",
+    "title": "현장 제어계 독립 검증",
+    "status": "DeepMind 공식 단계 그림 4/4",
+    "caption": "현장 제어계가 별도 안전 제약을 확인한 뒤 실행",
+    "locator": "Google DeepMind 2018-08-17 / How it works 4",
+    "sourceUrl": "https://deepmind.google/blog/safety-first-ai-for-autonomous-data-centre-cooling-and-industrial-control/",
+    "checked": "2026-10-16",
+    "sha256": "9e8e418c7a75ef3dc171194ebed38921f65c8c95e29c188fa170a4705d834d27"
+  },
+  {
+    "caseId": "AX06",
+    "path": "assets/casebook-sources/AX06-01.png",
+    "title": "GOV.UK Chat 2025년 공개 베타 구성",
+    "status": "영국 정부 ATRS 공식 C4 아키텍처",
+    "caption": "앱·인증·Rails·Bedrock·OpenSearch·PostgreSQL·BigQuery의 운영 경계",
+    "locator": "DSIT ATRS 2025-10-07 / 4.1.1 System Architecture / August 2025 public beta",
+    "sourceUrl": "https://www.gov.uk/algorithmic-transparency-records/dsit-gov-dot-uk-chat",
+    "checked": "2026-10-16",
+    "sha256": "8efe82dfdfa8df7ee5312dd13369be76aaf53cb39df42957cad9be1de605fc25"
+  },
+  {
+    "caseId": "AX06",
+    "path": "assets/casebook-sources/AX06-02.png",
+    "title": "GOV.UK Chat 초기 파일럿 구성",
+    "status": "영국 정부 개발문서 초기 설계도",
+    "caption": "2023년 파일럿의 Rails·Redis·PostgreSQL·OpenAI·OpenSearch 계획. 2025년 운영 구성과 구분",
+    "locator": "govuk-chat ADR-0001 / Pilot Technical Architecture",
+    "sourceUrl": "https://docs.publishing.service.gov.uk/repos/govuk-chat/adr/0001-pilot-technical-architecture.html",
+    "checked": "2026-10-16",
+    "sha256": "220db41f02597aff9a66bca8744a6772cdc9190c34324538f7862519fb434fc2"
+  },
+  {
+    "caseId": "PF07",
+    "path": "assets/casebook-sources/PF07-01.png",
+    "title": "Bürokratt 지식 기반 전체 구조",
+    "status": "공식 저장소 Mermaid 구성도 렌더",
+    "caption": "Ruuter·Resql·수집/정제/파일처리·PostgreSQL·S3 계층",
+    "locator": "Common-Knowledge/ARCHITECTURE.md / High-Level Architecture",
+    "sourceUrl": "https://github.com/buerokratt/Common-Knowledge/blob/main/ARCHITECTURE.md",
+    "sourceType": "mermaid",
+    "checked": "2026-10-16",
+    "sha256": "5b5d6850ad0bc4b47aed02003c3a77c2ed5bbd2308555d80e3b25feb249ec66d"
+  },
+  {
+    "caseId": "PF07",
+    "path": "assets/casebook-sources/PF07-02.png",
+    "title": "Bürokratt 정형 질의 흐름",
+    "status": "공식 저장소 Mermaid 시퀀스 렌더",
+    "caption": "Ruuter → Resql의 매개변수 검증·바인딩 → PostgreSQL",
+    "locator": "Common-Knowledge/ARCHITECTURE.md / Database Query Flow",
+    "sourceUrl": "https://github.com/buerokratt/Common-Knowledge/blob/main/ARCHITECTURE.md",
+    "sourceType": "mermaid",
+    "checked": "2026-10-16",
+    "sha256": "4c5c039a7109ebfecb9d0f236a4b191af971af62a672ab74e47f4bec36a32413"
+  },
+  {
+    "caseId": "PF07",
+    "path": "assets/casebook-sources/PF07-03.png",
+    "title": "Bürokratt 공식 콘텐츠 수집 흐름",
+    "status": "공식 저장소 Mermaid 시퀀스 렌더",
+    "caption": "출처 설정 → 수집 → 원본 저장·메타데이터 → 정제·상태 갱신",
+    "locator": "Common-Knowledge/ARCHITECTURE.md / Content Ingestion Pipeline",
+    "sourceUrl": "https://github.com/buerokratt/Common-Knowledge/blob/main/ARCHITECTURE.md",
+    "sourceType": "mermaid",
+    "checked": "2026-10-16",
+    "sha256": "a533875bb4e31c3d18fd48336358d1cb2d0c6f35a63adab7c789ef72732ec198"
+  },
+  {
+    "caseId": "PF07",
+    "path": "assets/casebook-sources/PF07-04.png",
+    "title": "Bürokratt 파일 업로드 흐름",
+    "status": "공식 저장소 Mermaid 시퀀스 렌더",
+    "caption": "업로드 URL 발급 → 저장 → 파일 처리·메타데이터 등록",
+    "locator": "Common-Knowledge/ARCHITECTURE.md / File Upload Pipeline",
+    "sourceUrl": "https://github.com/buerokratt/Common-Knowledge/blob/main/ARCHITECTURE.md",
+    "sourceType": "mermaid",
+    "checked": "2026-10-16",
+    "sha256": "aedf90f3fcf44725fe2d56af59b040cd474826f76efe9bccdf3c712deec9a077"
   }
 ]

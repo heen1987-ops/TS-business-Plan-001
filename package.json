@@ -51,7 +51,8 @@
     "check:law-department-browser": "node scripts/check-law-department-connections-browser.cjs",
     "check:workbench-browser": "node scripts/check-planning-workbench-browser.cjs",
     "check:institution-rfp-browser": "node scripts/check-institution-rfp-browser.cjs",
-    "check:enterprise-browser": "node scripts/check-enterprise-work-ax-browser.cjs"
+    "check:enterprise-browser": "node scripts/check-enterprise-work-ax-browser.cjs",
+    "check:workspace-browser": "node scripts/check-workspace-page-browser.cjs"
   },
   "dependencies": {
     "react": "19.2.0",

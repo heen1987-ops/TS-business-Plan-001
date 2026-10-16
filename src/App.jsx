@@ -83,8 +83,8 @@ const isPromptBoard=isHome&&view==='strategy-prompts';
 const isCasebook=isHome&&['casebook','platform-cases'].includes(view);
 const isProposalPortfolio=isHome&&view==='portfolio';
 const isStrategyWorkspace=isHome&&(!view||view==='strategy'||view==='overview')&&!isOrganizationHome&&!isMap;
-const isOrganizationPage=path==='organization.html'||path==='16_조직도_수행업무_분석.html';
-const isOrganizationPlan=path==='proposal-2027.html'&&view!=='legacy';
+const isOrganizationPage=path==='organization.html'||path==='16_조직도_수행업무_분석.html'||isHome&&view==='organization';
+const isOrganizationPlan=path==='proposal-2027.html'&&view!=='legacy'||isHome&&view==='delivery';
 const isOrganizationExperience=isOrganizationHome||isOrganizationArchive||isOrganizationPage||isOrganizationPlan||isStrategyWorkspace||isProposalPortfolio||isCasebook||isPromptBoard;
 if(isPromptBoard){content=<StrategyPromptBoard key={route}/>;title='전략 프롬프트 게시판';}
 if(isCasebook){content=view==='platform-cases'?<PlatformCasebook key={route}/>:<AxCasebook key={route}/>;title=view==='platform-cases'?'AI 플랫폼 구축 사례집':'AX 사례집·12대 전략 매핑';}

@@ -14,7 +14,7 @@ const Bullets=({items})=><ul className="on-bullets">{items.map((s,i)=><li key={i
 export function OrganizationHeader({path,view}){
  const [open,setOpen]=useState(false);
  const [collapsed,setCollapsed]=useState(()=>{try{return localStorage.getItem('ts-sidebar-collapsed')==='true';}catch{return false;}});
- const active=view==='strategy-prompts'?-1:view==='platform-cases'?6:view==='casebook'?7:path==='index.html'&&view==='portfolio'?0:path==='organization.html'?3:path==='proposal-2027.html'?4:path==='index.html'&&(view==='law'||(!view&&new URLSearchParams(location.search).has('law')))?2:path==='index.html'&&(!view||view==='overview'||view==='strategy')?1:5;
+ const active=view==='strategy-prompts'?-1:view==='platform-cases'?6:view==='casebook'?7:path==='index.html'&&view==='portfolio'?0:path==='organization.html'||view==='organization'?3:path==='proposal-2027.html'||view==='delivery'?4:path==='index.html'&&(view==='law'||(!view&&new URLSearchParams(location.search).has('law')))?2:path==='index.html'&&(!view||view==='overview'||view==='strategy')?1:5;
  const icons=[BriefcaseBusiness,Target,Scale,Network,ListChecks,FolderOpen,BookOpen,BookOpen];
  useEffect(()=>{document.body.classList.add('on-workspace');return()=>document.body.classList.remove('on-workspace');},[]);
  useEffect(()=>{document.body.classList.toggle('on-sidebar-collapsed',collapsed);try{localStorage.setItem('ts-sidebar-collapsed',String(collapsed));}catch{}return()=>document.body.classList.remove('on-sidebar-collapsed');},[collapsed]);

@@ -8,11 +8,26 @@ export const deptPath=(d,view=0)=>d.folder+'/'+['01_사업정의','02_UI시제�
 export const asset=(d,v=0)=>href(v===0?'assets/isometric-v1/'+d.code+'_컨셉도.png':'assets/'+d.code+'_'+['컨셉도','서비스흐름도','아키텍처'][v]+'.svg');
 export const source=id=>legal.sources.find(s=>s.id===id);
 export const readRoute=()=>decodeURI(location.pathname).slice(decodeURI(new URL(base).pathname).length)||'index.html';
+export function workspaceRoute(to){
+ const url=new URL(to,base),path=decodeURI(url.pathname).slice(decodeURI(new URL(base).pathname).length);
+ if(path==='organization.html'||path==='16_조직도_수행업무_분석.html'){
+  const section=url.searchParams.get('view');
+  url.searchParams.delete('view');
+  url.searchParams.set('view','organization');
+  if(section)url.searchParams.set('orgView',section);
+  return 'index.html'+url.search+url.hash;
+ }
+ if(path==='proposal-2027.html'&&url.searchParams.get('view')!=='legacy'){
+  url.searchParams.set('view','delivery');
+  return 'index.html'+url.search+url.hash;
+ }
+ return to;
+}
 const direct=['proposal-2027.html','growth-ai.html','skill-pms.html','research-library.html','planning-documents.html','drt-assurance.html','proposal-links.html','associations.html','registry.html','websites.html','architecture.html','katri.html','ars.html','updates.html','discovery.html','index.html','react/index.html','about.html','vision.html','organization.html','solutions.html','inspection.html','legal.html','10_세대화_통합검토.html','11_중장기목표_처별성과.html','16_조직도_수행업무_분석.html','17_조직별_AX_전환제안.html'];
 export function isReact(to){return direct.includes(to.split(/[?#]/)[0])||/^legal\/[^/]+\.html/.test(to)||/^처별\/[^/]+\/0[123]_/.test(to)}
-export function navigate(to){if(location.protocol==='file:'||!isReact(to)){location.assign(href(to));return}history.pushState({},'',href(to));window.dispatchEvent(new PopStateEvent('popstate'));}
+export function navigate(to){const target=workspaceRoute(to);if(location.protocol==='file:'||!isReact(target)){location.assign(href(target));return}history.pushState({},'',href(target));window.dispatchEvent(new PopStateEvent('popstate'));}
 export const ReadingLinkContext=createContext(null);
-export function Link({to,children,className='',onClick,...props}){const resolve=useContext(ReadingLinkContext),target=publication.resolveDownload(resolve&&!props.download?resolve(to):to);return <a href={href(target)} className={className} onClick={e=>{onClick?.(e);if(!e.defaultPrevented&&!e.ctrlKey&&!e.metaKey&&!e.shiftKey&&!e.altKey&&e.button===0&&isReact(target)&&!props.download){e.preventDefault();navigate(target)}}} {...props}>{children}</a>}
+export function Link({to,children,className='',onClick,...props}){const resolve=useContext(ReadingLinkContext),target=workspaceRoute(publication.resolveDownload(resolve&&!props.download?resolve(to):to));return <a href={href(target)} className={className} onClick={e=>{onClick?.(e);if(!e.defaultPrevented&&!e.ctrlKey&&!e.metaKey&&!e.shiftKey&&!e.altKey&&e.button===0&&isReact(target)&&!props.download){e.preventDefault();navigate(target)}}} {...props}>{children}</a>}
 export function Out({url,children}){return <a href={url} target="_blank" rel="noopener noreferrer" className="external">{children}<ArrowUpRight size={15}/></a>}
 export function Icon({index=0,...props}){const C=[ShieldCheck,CarFront,BusFront,Network,Activity,Building2,TrainFront,Plane][index];return <C {...props}/>}
 export function Modal({open,onClose,title,children,wide=false}){const ref=useRef();useEffect(()=>{const el=ref.current;if(open){el.showModal();document.body.style.overflow='hidden'}else if(el.open)el.close();return()=>{document.body.style.overflow=''}},[open]);return <dialog ref={ref} className={'modal '+(wide?'wide':'')} onCancel={e=>{e.preventDefault();onClose()}} onClick={e=>{if(e.target===ref.current)onClose()}} aria-label={title}><div className="modal-inner"><header className="modal-header"><h2>{title}</h2><button onClick={onClose} className="icon-button" aria-label="닫기"><X/></button></header>{children}</div></dialog>}

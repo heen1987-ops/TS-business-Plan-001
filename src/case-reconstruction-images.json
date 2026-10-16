@@ -1,0 +1,26 @@
+{
+  "PF-R07": {
+    "path": "assets/casebook-reconstructions/PF-R07.png",
+    "title": "KISA 스팸 민원 AI · RFP 기반 서비스 흐름 재구성",
+    "basis": "최종 RFP SFR-001~006·QUR-001",
+    "method": "이미지 모델 생성 후 RFP 요구와 경로 대조",
+    "status": "CCK 분석 재구성 · 원문 도면 아님",
+    "sha256": "e4c175bd06fd2572567d1c70407d3261570f247eabf211022a9096c60ed63637"
+  },
+  "PF-R09": {
+    "path": "assets/casebook-reconstructions/PF-R09.png",
+    "title": "석유공사 생성형 AI · 6개 업무 영역 재구성",
+    "basis": "정정 RFP SER-001~004·FUR-001~006",
+    "method": "이미지 모델 생성 후 RFP 요구와 경로 대조",
+    "status": "CCK 분석 재구성 · 원문 도면 아님",
+    "sha256": "23cb5bd40e90220c6e266428f74d1ed719a884bce99a06dd57d9b2542fc377e7"
+  },
+  "PF-A03": {
+    "path": "assets/casebook-reconstructions/PF-A03.png",
+    "title": "KIND 대내 생성형 AI · 권한 검색과 업무 실행 재구성",
+    "basis": "공식 사전규격 RFP Ⅰ.3·권한 메타데이터·API 에이전트",
+    "method": "이미지 모델 생성 후 RFP 요구와 경로 대조",
+    "status": "CCK 분석 재구성 · 원문 도면 아님",
+    "sha256": "416a3fdc64f81332d72e4c459fd0e51f83af0872e920e44e96824c2a7baa6f59"
+  }
+}

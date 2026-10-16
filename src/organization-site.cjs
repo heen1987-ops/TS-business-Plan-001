@@ -2,7 +2,7 @@
 const rules=require('./ts-organization-rules.cjs');
 const mapping=require('./ts-department-mapping.cjs');
 const strategies=require('./strategy-solutions-2027.cjs');
-const nav=[['index.html?view=portfolio','제안·관계부처'],['index.html','전략과제'],['index.html?view=law','법령·업무'],['organization.html','조직·직무'],['proposal-2027.html','구축·검수'],['index.html?view=archive','자료실'],['index.html?view=platform-cases','플랫폼 사례집'],['index.html?view=casebook','전략과제 사례집']];
+const nav=[['index.html?view=portfolio','제안·관계부처'],['index.html','전략과제'],['index.html?view=law','법령·업무'],['index.html?view=organization','조직·직무'],['index.html?view=delivery','구축·검수'],['index.html?view=archive','자료실'],['index.html?view=platform-cases','플랫폼 사례집'],['index.html?view=casebook','전략과제 사례집']];
 const roles=[
  ['1010100','전략·정책','AI 전환 전략·서비스 발굴·제도·윤리 기준','기관 전략과 1차 구축 목표의 정합성 검토'],
  ['1019600','사업 조정','AI 서비스 구축 지원·성과관리·데이터 표준화','부서별 원천·도입 범위·평가 기준 조정'],

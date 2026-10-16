@@ -10,12 +10,18 @@ for(const d of Object.values(designs.byId)){
  if(d.rfp)assert.ok(d.requirements.length>=3);
  for(const r of d.requirements){assert.ok(r.id&&r.locator&&r.summary&&r.data&&r.acceptance);for(const id of r.components)assert.ok(d.service.components.some(n=>n.id===id));}
  for(const f of d.service.figures){assert.ok(f.explanation.read.length>50&&f.explanation.connection.length>40);for(const id of f.explanation.requirements)assert.ok(d.requirements.some(r=>r.id===id));}
- const a=d.service;assert.equal(a.components.length,12);assert.equal(a.interfaces.length,6);
+ const a=d.service;assert.equal(a.components.length,12);assert.equal(a.interfaces.length,6);assert.ok(a.diagram.label&&a.diagram.summary);
+ assert(a.diagram.rows.flat().length>=8,d.id+' 도면 노드');
+ assert.equal(new Set(a.diagram.rows.flat()).size,a.diagram.rows.flat().length,d.id+' 도면 노드 중복');
+ for(const f of a.interfaces)assert(a.diagram.edges.some(edge=>edge.from===f.from&&edge.to===f.to),d.id+' 인터페이스·도면 연결');
  for(const [s,t] of a.edges)assert.ok(a.components[s]&&a.components[t]);
  for(const f of a.figures){assert.ok(fs.existsSync('public/'+f.path));assert.equal(require('node:crypto').createHash('sha256').update(fs.readFileSync('public/'+f.path)).digest('hex'),f.sha256);}
+ if(a.reconstruction){assert.equal(a.figures.length,0,d.id+' 원문 있는 사례에 이미지 모델 삽입 금지');assert.ok(fs.existsSync('public/'+a.reconstruction.path));assert.equal(require('node:crypto').createHash('sha256').update(fs.readFileSync('public/'+a.reconstruction.path)).digest('hex'),a.reconstruction.sha256);}
  assert.equal(fs.readFileSync('dist/assets/casebook-designs/'+d.id+'.svg','utf8'),require('./export-case-architecture.cjs').svg(d));
 }
-assert.equal(require('../src/case-source-figures.json').length,13);
+assert(new Set(Object.values(designs.byId).map(d=>d.service.diagram.family)).size>=6,'사례별 도면 유형 구분');
+assert(new Set(Object.values(designs.byId).map(d=>d.service.diagram.rows.map(row=>row.join(',')).join('|'))).size>=6,'도면 배치 반복');
+assert.equal(require('../src/case-source-figures.json').length,23);
 assert.equal(Object.values(designs.byId).reduce((n,d)=>n+d.requirements.length,0),61);
 for(const c of cases){const d=designs.byId[c.id];assert.equal(d.nodes.length,6);assert.equal(d.sequence.length,4);assert.equal(d.benchmark.functions.length,5);assert.ok(d.benchmark.normal&&d.benchmark.exception&&d.benchmark.evidence);assert.ok(d.status.includes(d.rfp?'RFP':'추론'));for(const [a,b] of d.edges)assert.ok(d.nodes.some(n=>n.id===a)&&d.nodes.some(n=>n.id===b));}
 for(const p of followup.plans){const related=designs.relatedCases(p);assert.equal(new Set(related.map(c=>designs.canonical(c.id))).size,related.length);}
