@@ -129,3 +129,12 @@ TS 홈페이지 탐색 방식 반영: [내비게이션·메뉴·자료 등록 �
 - 문제·필요성 → 목적·목표·수단 → 구체적 흐름 → 첫 적용 후보·측정방법 → 관련 처·기존 설계
 - 기존 처별 설계와 읽기 방식 전환, 선택 처·과제 보존. 기존 54개 제안을 중복 없이 연결
 - [상세 구조·근거·검증·롤백](PROBLEM_PLANNING_20261008.md)
+
+## 사례 심층 분석·전략 프롬프트 (2026-10-16)
+
+- 기존 `index.html` SPA 경로의 `view=strategy-prompts` 추가. 별도 HTML 경로·상단 메뉴 없음
+- `src/case-insights.cjs`: 57개 상세 항목의 조건·위험·논리 아키텍처·전달자료·통제 지점. 공개 사실과 CCK 해석 구분
+- `src/strategy-followup.cjs`: 12개 전략의 세칙 원문 업무 ID, 재사용 후보, 차분 산출물, 시험 입력·판정·증빙, 측정식
+- `src/strategy-prompt-storage.cjs`: 전략별 localStorage 버전 1. 서버 전송·계정 공유 없음. 손상본 자동 덮어쓰기 방지·저장 실패 안내
+- 전문 MD·전략 매핑 CSV에 동일 데이터 반영. 기존 PPT는 개요 자료로 유지
+- 검증: `scripts/check-case-insights.cjs`를 기존 `check-casebooks.cjs`에서 실행
