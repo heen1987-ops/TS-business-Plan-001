@@ -24,13 +24,13 @@ assert.deepEqual(d.packages.flatMap(p=>p.requirements).sort(),d.acceptance.map(t
 assert.ok(d.acceptance.every(t=>t.status.includes('미실행')));
 const source=fs.readFileSync('src/OrganizationSite.jsx','utf8'),app=fs.readFileSync('src/App.jsx','utf8');
 assert.ok(app.includes('isOrganizationExperience'));assert.ok(app.includes('<MandateWorkspace/>'));assert.ok(app.includes('<OrganizationExplorer route={route}/>'));
-assert.ok(source.includes('aria-label="주 메뉴"'));assert.equal(d.nav.length,5);
-assert.deepEqual(d.nav.map(n=>n[1]),['전략과제','법령·업무','조직·직무','구축·검수','자료실']);assert.ok(source.includes('includePending'));
+assert.ok(source.includes('aria-label="주 메뉴"'));assert.equal(d.nav.length,6);
+assert.deepEqual(d.nav.map(n=>n[1]),['제안·관계부처','전략과제','법령·업무','조직·직무','구축·검수','자료실']);assert.ok(source.includes('includePending'));
 assert.ok(source.includes('details key={p.id}'));assert.ok(source.includes('details key={t.id}'));
 assert.ok(d.archives.flatMap(a=>a.links).some(([to])=>to==='index.html?view=legacy'));
 assert.ok(d.markdown().includes('최초 발령일'));assert.ok(d.markdown().includes('W27-A~D'));
 for(const [name,body] of Object.entries(require('./export-organization-site.cjs').files())){assert.equal(fs.readFileSync('dist/downloads/'+name,'utf8'),body);assert.doesNotMatch(body,/[A-Z]:[\\/]|file:\/\/|\bundefined\b/);}
-console.log('조직 워크스페이스 검증 통과: 5개 주 메뉴, 57개 규정 업무정의·132개 조직 연결·14개 지역·61개 소속, 조건부 시행·연구원 별도 규정·요구/검수 추적·다운로드 일치.');
+console.log('조직 워크스페이스 검증 통과: 6개 주 메뉴, 57개 규정 업무정의·132개 조직 연결·14개 지역·61개 소속, 조건부 시행·연구원 별도 규정·요구/검수 추적·다운로드 일치.');
 
 const law=require('../src/law-workspace.cjs');
 assert.equal(law.records.length,27);assert.equal(law.records.flatMap(r=>r.work).length,36);
