@@ -42,6 +42,7 @@ const base=process.env.SITE_BASE||'http://127.0.0.1:8769/TS-business-Plan-001/';
    await page.locator('.case-architecture-detail').waitFor();
    assert(await page.getByRole('button',{name:count}).count(),id+' 공식 원문 자료');
    const img=page.locator('.case-source-figure img').first();
+   await img.evaluate(el=>el.decode());
    assert(await img.evaluate(el=>el.complete&&el.naturalWidth>0),id+' 원문 이미지 로드');
   }
   for(const id of ['PF-R07','PF-R09','PF-A03']){
@@ -49,7 +50,9 @@ const base=process.env.SITE_BASE||'http://127.0.0.1:8769/TS-business-Plan-001/';
    await page.locator('.case-architecture-detail').waitFor();
    assert.equal(await page.getByRole('button',{name:/원문 자료/}).count(),0,id+' 원문 없는 사례에 원문 탭 없음');
    assert(await page.locator('.case-reconstruction-basis').isVisible(),id+' RFP 재구성 표기');
-   assert(await page.locator('.case-service-image').evaluate(el=>el.complete&&el.naturalWidth>0),id+' 재구성 이미지 로드');
+   const img=page.locator('.case-service-image');
+   await img.evaluate(el=>el.decode());
+   assert(await img.evaluate(el=>el.complete&&el.naturalWidth>0),id+' 재구성 이미지 로드');
   }
   await page.goto(base+'index.html?view=casebook&case=AX05');
   await page.locator('.ax-reader').waitFor();
