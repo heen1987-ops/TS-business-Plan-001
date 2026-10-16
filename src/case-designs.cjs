@@ -96,5 +96,12 @@ const byId=Object.fromEntries(all.map(c=>{
  return [c.id,{id:c.id,canonicalId:canonical(c.id),purpose,users,scope:scope.split('|'),nodes,edges:[['entry','route'],['route','engine'],['engine','result'],['data','engine'],['result','ops'],['ops','route']],sequence,benchmark,operations,status,basis:basis?basis.join(' · '):(s.structureSource?'공개 기술 설명 + 연결 구조 추론':'운영기관·공급사·감사 자료의 업무 설명'),rfp:!!basis,sources,implication:sourceCase.lesson||c.apply,local:c.local||c.apply,sourceDetail:c.sourceDetail||null}];
 }));
 function relatedCases(plan){const ids=[...plan.caseRefs.map(r=>r.caseId),...plan.platformCases],seen=new Set();return ids.filter(id=>{const key=canonical(id);if(seen.has(key))return false;seen.add(key);return true;}).map(id=>({id,title:all.find(c=>c.id===id).title,url:'index.html?view='+(id.startsWith('AX')?'casebook':'platform-cases')+'&case='+id}));}
-for(const d of Object.values(byId))d.service=require('./case-service-architecture.cjs').build(d,insights.byId[d.id]);
+for(const d of Object.values(byId)){
+ d.narrative=require('./case-narratives.cjs')[d.canonicalId];
+ if(!d.narrative)throw Error('Missing case narrative '+d.id);
+ d.requirements=require('./case-rfp-requirements.json')[d.id]||[];
+ d.service=require('./case-service-architecture.cjs').build(d,insights.byId[d.id]);
+ for(const n of d.service.components)n.requirements=d.requirements.filter(r=>r.components.includes(n.id)).map(r=>r.id);
+ d.service.figures=d.service.figures.map(f=>({...f,explanation:require('./case-figure-explanations.cjs')[f.path.split('/').pop().replace('.png','')]}));
+}
 module.exports={byId,canonical,relatedCases};

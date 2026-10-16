@@ -8,6 +8,7 @@
 .case-function-detail,.case-benchmark{padding-top:24px;margin-top:24px;border-top:1px solid var(--ui-line)}.case-function-detail>details{border-bottom:1px solid var(--ui-line);padding:12px 0}.case-function-detail summary{cursor:pointer;font-weight:600}.case-function-detail>small{display:block;margin-bottom:12px}
 
 /* Casebook source drawings and service specifications use the shared UI scale. */
+.case-requirements{margin-block:24px;padding-block:24px;border-block:1px solid var(--ui-line)}.case-requirements>small{display:block;margin-bottom:16px}.case-requirements details{padding:16px 0;border-bottom:1px solid var(--ui-line)}.case-requirements summary{cursor:pointer;font-weight:600;line-height:1.7}.case-requirements summary strong{margin-right:12px;color:var(--ui-accent)}.case-figure-reading{margin-block:20px;padding:20px;background:#f7f8f5;border-radius:8px}.case-figure-reading h4{margin:0 0 8px}.case-figure-reading p{margin:0 0 16px}
 .case-architecture-detail{margin-block:var(--space-6,24px);padding-block:var(--space-6,24px);border-block:1px solid var(--border,#e5e7e4)}
 .case-architecture-detail .ax-tabs{flex-wrap:wrap;margin-block:16px}
 .case-source-figure{margin:0}.case-source-figure figcaption{display:grid;gap:6px;margin-block:16px}

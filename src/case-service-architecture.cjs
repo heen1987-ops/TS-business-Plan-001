@@ -87,7 +87,7 @@ function build(d,s){
   {id:'IF-01',from:'C01',to:'C02',mode:'요청',payload:d.sequence[0].input,check:'대상·기간·업무 목적 식별'},
   {id:'IF-02',from:'C02',to:'C03',mode:'조회',payload:d.sequence[1].input,check:s.control},
   {id:'IF-03',from:'C03',to:'C04',mode:'처리',payload:d.sequence[1].output,check:'출처·시점·조회 범위 보존'},
-  {id:'IF-04',from:'C04',to:'C05',mode:'검증',payload:d.sequence[2].input,check:d.benchmark.exception},
+  {id:'IF-04',from:'C04',to:'C05',mode:'검증',payload:({'PF-R01':'원문 좌표·추출 항목·인식 신뢰도','PF-R02':'답변 초안·유사군 후보·근거 문서',AX05:'행동별 소비 예측·제어값 후보',AX07:'기간별 산정 후보·소득 증빙',AX08:'사건 타임라인·보고항목 초안',AX10:'조업 이벤트·탐지 시각',AX16:'위험 후보·예상 경고 시점',AX23:'지역별 위험 점수·평가 근거'})[d.canonicalId]||d.sequence[2].output,check:d.benchmark.exception},
   {id:'IF-05',from:'C06',to:'C07',mode:'검토·인계',payload:d.sequence[2].output,check:d.benchmark.functions[3].processing},
   {id:'IF-06',from:'C07',to:'C08',mode:'결과·환류',payload:d.sequence[3].output,check:d.benchmark.evidence}
  ];

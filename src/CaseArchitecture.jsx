@@ -10,12 +10,12 @@ export function CaseArchitecture({design:d}){
    {a.figures.length>1&&<label>원문 도면 선택<select value={figure} onChange={e=>setFigure(Number(e.target.value))}>{a.figures.map((f,i)=><option key={f.path} value={i}>{f.title}</option>)}</select></label>}
    <figcaption><strong>{f.title}</strong><small>{f.status} · 원문 삽입도 추출</small></figcaption>
    <a href={href(f.path)} target="_blank" rel="noreferrer" aria-label={f.title+' 원본 크기로 보기'}><img src={href(f.path)} alt={f.title+' — '+f.caption}/></a>
-   <p>{f.caption}</p><div className="on-actions"><a href={href(f.path)} target="_blank" rel="noreferrer">원본 크기 ↗</a>{source&&<a href={source.url} target="_blank" rel="noreferrer">RFP 원문 ↗</a>}</div>
+   <div className="case-figure-reading"><h4>도면 해설</h4><p>{f.explanation.read}</p><h4>요구사항·업무 연결</h4><p>{f.explanation.connection}</p><small>연결 요구: {f.explanation.requirements.join(' · ')}</small></div><div className="on-actions"><a href={href(f.path)} target="_blank" rel="noreferrer">원본 크기 ↗</a>{source&&<a href={source.url} target="_blank" rel="noreferrer">RFP 원문 ↗</a>}</div>
   </figure>:view==='structure'?<>
    <div className="case-diagram-caption"><strong>{a.status}</strong><Link to={'assets/casebook-designs/'+d.id+'.svg'} download>도면 SVG ↓</Link></div>
    <a href={href('assets/casebook-designs/'+d.id+'.svg')} target="_blank" rel="noreferrer" aria-label="세부 서비스 구조 확대"><img className="case-service-image" src={href('assets/casebook-designs/'+d.id+'.svg')} alt={d.purpose+' — 접점·문맥·조회·처리·검증·확인·업무 연결·운영과 데이터·정책 12개 구성요소'}/></a>
    <button className="ax-text-button" aria-expanded={expanded} onClick={()=>setExpanded(!expanded)}>구성요소별 처리 명세 {expanded?'접기':'12개 펼치기'}</button>
-   {expanded&&<ol className="case-component-spec">{a.components.map(n=><li key={n.id}><strong>{n.id} · {n.title}</strong><p>{n.detail}</p></li>)}</ol>}
+   {expanded&&<ol className="case-component-spec">{a.components.map(n=><li key={n.id}><strong>{n.id} · {n.title}</strong><p>{n.detail}</p>{n.requirements.length>0&&<small>RFP 연결 · {n.requirements.join(' · ')}</small>}</li>)}</ol>}
    <dl className="case-acceptance case-provenance"><dt>원문 추출</dt><dd>{a.facts.extracted}<small>{a.facts.locator}</small></dd><dt>CCK 보완 설계</dt><dd>{a.facts.extension}</dd></dl>
   </>:<>
    <small>논리 인터페이스·데이터 계약 제안</small>
