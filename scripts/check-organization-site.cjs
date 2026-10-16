@@ -25,7 +25,7 @@ assert.ok(d.acceptance.every(t=>t.status.includes('미실행')));
 const source=fs.readFileSync('src/OrganizationSite.jsx','utf8'),app=fs.readFileSync('src/App.jsx','utf8');
 assert.ok(app.includes('isOrganizationExperience'));assert.ok(app.includes('<MandateWorkspace/>'));assert.ok(app.includes('<OrganizationExplorer route={route}/>'));
 assert.ok(source.includes('aria-label="주 메뉴"'));assert.equal(d.nav.length,5);
-assert.ok(source.includes('setCollapsed'));assert.ok(source.includes('includePending'));
+assert.deepEqual(d.nav.map(n=>n[1]),['전략과제','법령·업무','조직·직무','구축·검수','자료실']);assert.ok(source.includes('includePending'));
 assert.ok(source.includes('details key={p.id}'));assert.ok(source.includes('details key={t.id}'));
 assert.ok(d.archives.flatMap(a=>a.links).some(([to])=>to==='index.html?view=legacy'));
 assert.ok(d.markdown().includes('최초 발령일'));assert.ok(d.markdown().includes('W27-A~D'));

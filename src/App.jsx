@@ -31,6 +31,8 @@ import {LawMapping} from './LawMapping.jsx';
 import './ts-navigation.css';
 import './user-centred.css';
 import './reader-ui.css';
+import './notion-workspace.css';
+import './strategy-workspace.css';
 const sectors=legal.groups;
 function App(){const[route,setRoute]=useState(readRoute()+location.search+location.hash),[navigationEpoch,setNavigationEpoch]=useState(0),[selected,setSelected]=useState([]),[compare,setCompare]=useState(false),[message,setMessage]=useState(''),first=useRef(true);
 useEffect(()=>{const cb=()=>{setRoute(readRoute()+location.search+location.hash);setNavigationEpoch(v=>v+1)};addEventListener('popstate',cb);return()=>removeEventListener('popstate',cb)},[]);
@@ -63,9 +65,9 @@ else if(path==='legal/sources.html'){content=<Sources/>;title='법령 근거와 
 else if(path==='legal.html'||path.startsWith('legal/')){const g=path==='legal.html'?null:path.split('/')[1].replace('.html','');content=<Legal key={route} group={g}/>;title='법정·수탁업무 지도'}
 else if(path.startsWith('처별/')){const d=depts.find(x=>path.startsWith(x.folder+'/'));if(d){const view=path.includes('/02_')?1:path.includes('/03_')?2:0;content=<Department key={route} d={d} view={view}/>;title=d.name+' · '+['서비스 컨셉','서비스 흐름','전체 아키텍처'][view]}}
 if(isWorkbench)title='2027년 후속사업 기획 · 기본 탐색';
-const isOrganizationHome=isHome&&(!view||view==='overview')&&!isMap;
+const isOrganizationHome=isHome&&((!view&&new URLSearchParams(location.search).has('law'))||view==='law')&&!isMap;
 const isOrganizationArchive=isHome&&view==='archive';
-const isStrategyWorkspace=isHome&&view==='strategy';
+const isStrategyWorkspace=isHome&&(!view||view==='strategy'||view==='overview')&&!isOrganizationHome&&!isMap;
 const isOrganizationPage=path==='organization.html'||path==='16_조직도_수행업무_분석.html';
 const isOrganizationPlan=path==='proposal-2027.html'&&view!=='legacy';
 const isOrganizationExperience=isOrganizationHome||isOrganizationArchive||isOrganizationPage||isOrganizationPlan||isStrategyWorkspace;

@@ -2,12 +2,12 @@
 
 ## 현재 사이트 구조 · 2026-10-16
 
-- **부처·법령 → 업무·조직 → 전략·솔루션 → AI 고도화 → 자료실**의 5개 메뉴
-- 문서형 UI, 좌측 탐색, 명사종결형 개조식, 세부 항목 펼침
+- **전략과제 · 법령·업무 · 조직·직무 · 구축·검수 · 자료실**의 5개 메뉴
+- 첫 화면: 12개 전략과제 + AI혁신처 1차 구축 6개 항목 / 상단 메뉴·단독 상세·모바일 탐색
 - 직제시행세칙 2026-06-30 개정본 적용: 57개 업무정의·132개 조직 연결·14개 지역본부·61개 소속 검사소/센터
 - 4대 전략방향·12대 전략과제 → 업무·조직·솔루션 → 추가 개발·검수 연결
 - ST-04 조직 네이티브 AI 공통 기반 선행 구축 → 업무별 재사용·단계별 확장
-- [12대 전략·솔루션 구성](https://heen1987-ops.github.io/TS-business-Plan-001/index.html?view=strategy)
+- [새 첫 화면 · 12대 전략과제와 1차 구축](https://heen1987-ops.github.io/TS-business-Plan-001/index.html?view=strategy)
 - [설계·규정 적용 원칙](docs/ORGANIZATION_WORKSPACE.md)
 - [조직 중심 제안서 요약](https://heen1987-ops.github.io/TS-business-Plan-001/downloads/ts-2027-organization-proposal.md)
 - 기존 기획·상세 자료: 자료실에서 열람

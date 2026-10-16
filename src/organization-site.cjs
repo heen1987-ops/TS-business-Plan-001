@@ -2,7 +2,7 @@
 const rules=require('./ts-organization-rules.cjs');
 const mapping=require('./ts-department-mapping.cjs');
 const strategies=require('./strategy-solutions-2027.cjs');
-const nav=[['index.html','부처·법령'],['organization.html','업무·조직'],['index.html?view=strategy','전략·솔루션'],['proposal-2027.html','AI 고도화'],['index.html?view=archive','자료실']];
+const nav=[['index.html','전략과제'],['index.html?view=law','법령·업무'],['organization.html','조직·직무'],['proposal-2027.html','구축·검수'],['index.html?view=archive','자료실']];
 const roles=[
  ['1010100','전략·정책','AI 전환 전략·서비스 발굴·제도·윤리 기준','기관 전략과 1차 구축 목표의 정합성 검토'],
  ['1019600','사업 조정','AI 서비스 구축 지원·성과관리·데이터 표준화','부서별 원천·도입 범위·평가 기준 조정'],
