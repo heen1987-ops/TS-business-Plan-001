@@ -62,3 +62,33 @@ assert.match(strategy.rows.find(r=>r.id==='ST-06').basisNote,/L13.*한정.*별�
 assert.match(strategy.markdown(),/단일 구축·산정/);
 assert.ok(mandateUi.indexOf('05 연결 전략과제')<mandateUi.indexOf('06 업무에 필요한 AI 지원'));
 console.log('전략·솔루션 검증 통과: 공식 4대 방향·12대 과제 일치, 법령/조직/구축/검수 참조 유효, ST-04 공통 기반 단일 산정.');
+
+const detail=require('../src/detailed-work.cjs'),published=require('../src/official-duty-research.cjs');
+assert.deepEqual(detail.counts,{organizations:227,publicOrganizations:188,publicUnits:2000,processes:16,steps:64,processDepartments:11});
+assert.deepEqual(Object.values(detail.byOrg).flatMap(o=>o.publicItems.map(u=>u.id)).sort(),published.records.flatMap(o=>o.units.map(u=>u.id)).sort());
+for(const org of Object.values(detail.byOrg)){
+ assert.deepEqual(org.ruleItems.map(i=>i.text),node(org.code).duties,org.name+' 직제 원문 보존');
+ for(const unit of org.publicItems)for(const span of unit.sourceSpans){
+  const source=published.observations.find(o=>o.id===span.observationId);
+  assert.equal(source.orgCode,org.code);assert.equal(source.text.slice(span.start,span.end),unit.text,unit.id+' 원문 구간');
+ }
+}
+assert.equal(new Set(detail.processes.map(p=>p.id)).size,detail.processes.length);
+assert.equal(new Set(detail.processes.flatMap(p=>p.steps.map(s=>s.id))).size,detail.counts.steps);
+for(const p of detail.processes){
+ assert.equal(p.status,'수행단계 설계안');assert.ok(p.basis.length);
+ for(const b of p.basis){assert.ok(node(p.code).duties.includes(b.text));assert.equal(b.entryId,node(p.code).entryId);assert.equal(b.locator,node(p.code).locator);}
+ for(const id of p.unitIds)assert.ok(detail.byOrg[p.code].publicItems.some(u=>u.id===id));
+ for(const id of p.strategyIds)assert.ok(strategy.rows.some(r=>r.id===id));
+ const allowed=new Set(p.packages.flatMap(id=>d.packages.find(w=>w.id===id).requirements));
+ assert.ok(p.tests.length);assert.deepEqual(p.tests.map(id=>d.acceptance.find(t=>t.id===id).requirement).sort(),[...allowed].sort());
+ assert.equal(p.phase,p.strategyIds.includes('ST-04')?'1차 공통 기반':'부서별 후속 적용');
+ p.steps.forEach((s,i)=>{assert.equal(s.order,i+1);assert.ok(['수행','검토','승인','협업'].includes(s.role));for(const key of ['task','input','output','done'])assert.ok(s[key]?.trim());});
+}
+assert.equal(detail.processes.filter(p=>p.phase==='1차 공통 기반').length,8);
+assert.match(detail.markdown(),/내부 직무기술서·전결·표준서식 확인/);
+assert.ok(app.includes("view==='duties'"));
+const exported=require('./export-organization-site.cjs').files();
+assert.match(exported['ts-detailed-work-processes.csv'],/공통 검수 참조/);
+assert.match(exported['ts-detailed-work-processes.csv'],/GAI-T01/);
+console.log('세부 업무표 검증 통과: 공개 2,000개 원문 구간·직제 대사, 11개 부서 16개 업무·64개 단계, 1차/후속 구분·구축/검수 연결 유효.');

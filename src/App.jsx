@@ -1,3 +1,4 @@
+import {DutyWorkspace} from './DutyWorkspace.jsx';
 import planning2027 from './planning-2027.cjs';
 import {MandateWorkspace} from './MandateWorkspace.jsx';
 import {StrategyWorkspace} from './StrategyWorkspace.jsx';
@@ -33,6 +34,7 @@ import './user-centred.css';
 import './reader-ui.css';
 import './notion-workspace.css';
 import './strategy-workspace.css';
+import './detailed-work.css';
 const sectors=legal.groups;
 function App(){const[route,setRoute]=useState(readRoute()+location.search+location.hash),[navigationEpoch,setNavigationEpoch]=useState(0),[selected,setSelected]=useState([]),[compare,setCompare]=useState(false),[message,setMessage]=useState(''),first=useRef(true);
 useEffect(()=>{const cb=()=>{setRoute(readRoute()+location.search+location.hash);setNavigationEpoch(v=>v+1)};addEventListener('popstate',cb);return()=>removeEventListener('popstate',cb)},[]);
@@ -74,7 +76,7 @@ const isOrganizationExperience=isOrganizationHome||isOrganizationArchive||isOrga
 if(isOrganizationHome){content=<MandateWorkspace/>;title='부처·법령·업무 체계';}
 if(isOrganizationArchive){content=<OrganizationArchive/>;title='근거·상세 기획 자료';}
 if(isStrategyWorkspace){content=<StrategyWorkspace/>;title='12대 전략과제·솔루션 구성';}
-if(isOrganizationPage){content=<OrganizationExplorer route={route}/>;title='직제시행세칙 기반 조직·업무';}
+if(isOrganizationPage){content=view==='duties'?<DutyWorkspace key={route}/>:<OrganizationExplorer route={route}/>;title=view==='duties'?'부서별 세부 업무표·수행단계':'직제시행세칙 기반 조직·업무';}
 if(isOrganizationPlan){content=<OrganizationPlan/>;title='TS 2027 조직 기반 구축·검수';}
 if(!content)content=<div className="page empty"><h1>페이지를 찾을 수 없음</h1><p>기관 소개 또는 서비스 목록에서 다시 탐색</p><Link to="index.html" className="button blue">홈으로</Link></div>;
 useEffect(()=>{if(!isWorkbench)document.title=title+' | TS AX'},[title,isWorkbench]);
