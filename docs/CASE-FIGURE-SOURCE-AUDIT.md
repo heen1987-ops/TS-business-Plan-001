@@ -22,7 +22,7 @@
 | PF-R07 | KISA 최종 RFP | 삽입 이미지 4개 점검, 서비스 구성도 미확인 | RFP 근거 이미지 모델 재구성·CCK 논리 설계 구분 |
 | PF-R08 | 사전공개 RFP | 목표 구성·데이터 구성 2개 | 기존 원문 유지 |
 | PF-R09 | 석유공사 정정 RFP | 삽입 이미지 2개 점검, 서비스 구성도 미확인 | RFP 근거 이미지 모델 재구성·CCK 논리 설계 구분 |
-| PF-A03 | KIND [공식 사전규격 RFP](https://www.kindkorea.or.kr/pages/72?id=11374&menuMode=READ&q=) | 첨부 HWPX의 삽입 이미지 4개 점검, 서비스 구성도 미확인 | RFP 근거 이미지 모델 재구성·CCK 논리 설계 구분 |
+| PF-A03 | KIND [공식 본공고 RFP](https://www.kindkorea.or.kr/pages/72?id=11391&menuMode=READ&q=page%3D1) 및 [사전규격 RFP](https://www.kindkorea.or.kr/pages/72?id=11374&menuMode=READ&q=) | 본공고 HWPX의 삽입 이미지 4개 확인: 기관 로고 1개·행정 서식 3개, 서비스 구성도 미확인 | RFP 근거 이미지 모델 재구성·CCK 논리 설계 구분 |
 | AX05 | [DeepMind 공식 설명](https://deepmind.google/blog/safety-first-ai-for-autonomous-data-centre-cooling-and-industrial-control/) | 센서→예측→안전 제약→현장 검증 단계 그림 4개 | 원문 단계 그림 추가 |
 | AX06·PF-A12 | [영국 정부 ATRS](https://www.gov.uk/algorithmic-transparency-records/dsit-gov-dot-uk-chat), [GOV.UK 개발 ADR](https://docs.publishing.service.gov.uk/repos/govuk-chat/adr/0001-pilot-technical-architecture.html) | 2025년 베타 C4 도면 1개, 초기 파일럿 도면 1개 | 시점 구분해 원문 추가 |
 | PF07 | [Bürokratt 공식 아키텍처](https://github.com/buerokratt/Common-Knowledge/blob/main/ARCHITECTURE.md) | 전체 구조·DB 질의·콘텐츠 수집·파일 업로드 Mermaid 4개 | 원문 Mermaid 렌더 추가 |
