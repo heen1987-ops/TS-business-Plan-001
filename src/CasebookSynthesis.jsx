@@ -1,0 +1,15 @@
+import React from 'react';
+import {Link} from './core.jsx';
+import data from './casebook-synthesis.cjs';
+import candidates from './strategy-solution-candidates.cjs';
+import followup from './strategy-followup.cjs';
+import './casebook-synthesis.css';
+
+function CaseRefs({ids}){return <div className="case-synthesis-refs">{ids.map(id=>{const item=data.allCases.find(c=>c.id===id);return <Link key={id} to={'index.html?view='+(id.startsWith('AX')?'casebook':'platform-cases')+'&case='+id}>{id} {item.title}</Link>;})}</div>;}
+function Finding({row}){return <article className="case-synthesis-item"><small>{row.id} · {row.strategies.join(' / ')}</small><h3>{row.title}</h3><p>{row.finding}</p><dl><dt>적용 경계</dt><dd>{row.boundary}</dd><dt>CCK 방향</dt><dd>{row.cck}</dd><dt>검증</dt><dd>{row.acceptance}</dd></dl><details><summary>근거 사례 {row.cases.length}건</summary><CaseRefs ids={row.cases}/></details></article>;}
+export function CasebookSynthesis({kind}){const isPlatform=kind==='platform',rows=isPlatform?data.platformFindings:data.strategyFindings;return <section className="casebook-synthesis" aria-label={isPlatform?'플랫폼 사례 종합 분석':'전략과제 사례 종합 분석'}>
+ <header className="case-synthesis-head"><small>심층 사례 57건 · 플랫폼 31 / 전략과제 26 · {data.reviewedAt}</small><h2>{isPlatform?'플랫폼 사례 종합 시사점':'12대 전략과제 사례 종합 시사점'}</h2><p>공고·RFP, 시범, 운영, 감사 결과의 단계 구분 · 전체 조사 원장 2,637건은 탐색 후보</p><div className="case-synthesis-downloads"><Link to="downloads/ts-casebook-synthesis.md" download>종합 분석 전문 ↓</Link><Link to="downloads/ts-casebook-source-register.csv" download>57건 출처·전략 대조표 ↓</Link></div></header>
+ <div className="case-synthesis-grid">{rows.map(row=><Finding key={row.id} row={row}/>)}</div>
+ {isPlatform?<section className="case-synthesis-directions"><header><small>공통 플랫폼 → 부서별 업무팩 → 국민서비스</small><h2>CCK 전략방향</h2></header><div className="case-synthesis-grid">{data.cckDirections.map(row=><article className="case-synthesis-item" key={row.id}><small>{row.id} · {row.strategies.join(' / ')}</small><h3>{row.title}</h3><p>{row.scope}</p><dl><dt>재사용</dt><dd>{row.reuse}</dd><dt>추가분</dt><dd>{row.delta}</dd><dt>선행 검증</dt><dd>{row.gate}</dd></dl><details><summary>관련 근거 {row.cases.length}건</summary><CaseRefs ids={row.cases}/></details></article>)}</div><p className="case-synthesis-note">NOA·기존 엔진의 기능·설치본·사용권과 TS 기존 과업 대조 후 순증 범위 산정. 외부 사례의 성과는 TS 실측 결과와 분리.</p><Link to="index.html?view=casebook&tab=insights">12대 전략 사례 종합 분석 →</Link></section>
+ :<><section className="case-synthesis-directions"><header><small>전략 → 부서·업무 → 추가 개발·검수</small><h2>12대 전략 솔루션 연결</h2></header><div className="case-synthesis-strategies">{candidates.rows.map(row=>{const plan=followup.byId[row.id];return <Link key={row.id} to={'index.html?view=strategy&strategy='+row.id}><small>{row.id} · {plan.test}</small><strong>{row.name}</strong><span>{plan.departments.map(d=>d.name).slice(0,2).join(' · ')}{plan.departments.length>2?' 외':''}</span></Link>;})}</div></section><p className="case-synthesis-note">ST-04 공통 기반 선행. ST-01·07·10·12 대표 업무 검증 후 부서별 확대. 성과 목표는 TS 기준선·표본 합의 후 설정.</p><Link to="index.html?view=platform-cases&tab=insights">CCK 공통 전략방향 →</Link></>}
+ </section>;}
