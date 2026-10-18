@@ -37,3 +37,14 @@
 .on-workspace .ux-home .ux-task-card h3{font-size:15px;line-height:1.5;margin:6px 0 0!important}
 .ux-home .ux-direction>div{gap:8px}
 }
+.on-workspace .ux-task-card .ux-candidate-label{font-size:13px;line-height:1.5;color:#45634c;margin:0}
+.ux-candidate-flow{display:grid;gap:8px;list-style:none;counter-reset:candidate-step;padding:0;margin:18px 0 0}
+.ux-candidate-flow li{counter-increment:candidate-step;display:flex;gap:10px;align-items:flex-start;font-size:14px;line-height:1.6;color:#46564a}
+.ux-candidate-flow li::before{content:counter(candidate-step,decimal-leading-zero);font-size:12px;font-weight:700;color:#4d7456;min-width:21px}
+.ux-candidate-subhead{display:block;margin-top:18px}
+.ux-candidate-check{display:grid;gap:6px;border:1px solid #dfe6da;background:#f7f9f4;border-radius:8px;padding:16px 20px;margin:14px 0 18px;font-size:14px;line-height:1.65;color:#455148}
+.ux-candidate-check>span{color:#687468}
+.ux-candidate-check details{margin-top:4px;border-top:1px solid #dfe6da;padding-top:8px}
+.ux-candidate-check summary{cursor:pointer;font-weight:600}
+.ux-candidate-check p{margin:9px 0 0}
+@media(max-width:650px){.ux-candidate-check{padding:15px}.ux-candidate-flow li{font-size:14px}}

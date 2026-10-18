@@ -21,3 +21,8 @@ const workspace=fs.readFileSync('src/OrganizationWorkspace.jsx','utf8');assert.o
 console.log('사례집·통합 UI 검증 통과: 전략 12개, AX 사례 26개, 플랫폼 사례 31개, 구성요소 12개, 구축 6개/검수 12개 보존.');
 
 const catalog=require('../src/case-catalog.json');assert.equal(catalog.records.length,2637);assert.equal(new Set(catalog.records.map(r=>r.id)).size,2637);assert.equal(catalog.records.filter(r=>r.country==='대한민국').length,110);assert.equal(catalog.records.filter(r=>r.platform).length,276);
+const candidates=require('../src/strategy-solution-candidates.cjs'),candidateExport=require('./export-strategy-solution-candidates.cjs');
+assert.deepEqual(candidates.rows.map(r=>r.id),Array.from({length:12},(_,i)=>'ST-'+String(i+1).padStart(2,'0')));
+for(const c of candidates.rows){assert.ok(c.name&&c.focus&&c.flow.length===4&&c.gate&&c.transfer);assert.ok(candidateExport.caseSource(c.benchmark).url,c.id+' 대표 사례 원문');if(c.caution)assert.ok(candidateExport.caseSource(c.caution).url,c.id+' 위험 사례 원문');assert.ok(require('../src/strategy-followup.cjs').byId[c.id]);}
+assert.equal(fs.readFileSync('dist/downloads/ts-strategy-solution-candidates.md','utf8'),candidateExport.markdown());
+assert.ok(fs.readFileSync('src/StrategyWorkspace.jsx','utf8').includes('candidates.byId[r.id].name'));
