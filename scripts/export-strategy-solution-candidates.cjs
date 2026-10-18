@@ -5,6 +5,7 @@ const strategies=require('../src/strategy-solutions-2027.cjs');
 const followup=require('../src/strategy-followup.cjs');
 const ax=require('../src/ax-casebook.cjs');
 const platform=require('../src/platform-casebook.cjs');
+const capability=require('../src/cck-ax-capability-plan.cjs');
 const sourceOverride={'PF-A03':'https://www.kindkorea.or.kr/pages/72?id=11391&menuMode=READ&q=page%3D1'};
 function caseSource(id){
  if(id.startsWith('AX')){const c=ax.getCase(id),s=ax.sources.find(x=>x.id===c?.sources[0]);return {title:c?.title,url:s?.url};}
@@ -28,6 +29,7 @@ function markdown(){
    '- 관계 근거: '+(s.lawIds.join(', ')||'한국교통안전공단법·직제시행세칙 별표4')+' / 업무 상세는 기존 매핑표 참조',
    '- 업무 흐름: '+c.flow.join(' → '),
    '- CCK 재사용 후보: '+p.reuseItems.map(x=>x.use).join(' / '),
+   '- CCK 기술 근거 수준: '+capability.strategyAssets[c.id].map(id=>{const a=capability.byId[id];return a.name+'('+a.level+')';}).join(' / '),
    '- 추가 개발: '+p.deliverables.join(' / '),
    '- 결과물: '+p.output,
    '- 우선 검증: '+c.gate,

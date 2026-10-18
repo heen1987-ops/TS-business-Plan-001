@@ -5,7 +5,7 @@ const platform=require('./platform-casebook.cjs');
 const candidates=require('./strategy-solution-candidates.cjs');
 const insights=require('./case-insights.cjs');
 
-const reviewedAt='2026-10-18';
+const reviewedAt='2026-10-19';
 const sourceOverrides={
  'PF-A03':{title:'KIND 대내 생성형 AI 서비스 구축 본공고·제안요청서',url:'https://www.kindkorea.or.kr/pages/72?id=11391&menuMode=READ&q=page%3D1',level:'본공고 RFP · 운영 성과 아님'},
  'PF-C03':{title:'Amaranth 10·ONE AI 제안서 게시',url:'https://idouzone.com/customer/solutionroom.php?boardid=data&idx=39&mNum=3&mode=view&sNum=3',level:'공급사 제품 제안서 · 고객 운영 성과 아님'}
