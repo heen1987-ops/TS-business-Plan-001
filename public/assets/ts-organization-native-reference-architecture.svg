@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1530 760" role="img" aria-labelledby="title desc">
+  <title id="title">TS 조직 네이티브 AI 참조 아키텍처</title>
+  <desc id="desc">공식 조직·업무 원천을 식별·정합화하여 정책 판정과 근거·AI 처리, 사람 확인, 공식 업무시스템 실행으로 연결하고 변경·품질을 환류하는 CCK 설계안. 실제 구축 검증 전.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#4672a8" stroke-width="1.7"/></marker>
+    <style><![CDATA[
+      text{font-family:Pretendard,"Noto Sans KR",Arial,sans-serif;fill:#20252b}
+      .eyebrow{font-size:17px;fill:#43698b;font-weight:650}
+      .title{font-size:31px;font-weight:750}
+      .sub{font-size:18px;fill:#66727e}
+      .box{fill:#fff;stroke:#d9e0e7;stroke-width:2}
+      .head{font-size:23px;font-weight:720}
+      .body{font-size:17px;fill:#43505c}
+      .tag{font-size:15px;fill:#385f87;font-weight:700}
+      .arrow{stroke:#4672a8;stroke-width:3;fill:none;marker-end:url(#arrow)}
+      .loop{stroke:#8a9bae;stroke-width:2.6;fill:none;stroke-dasharray:8 7;marker-end:url(#arrow)}
+    ]]></style>
+  </defs>
+  <rect width="1530" height="760" fill="#f8fafc"/>
+  <text x="42" y="53" class="eyebrow">57개 분석 항목 · 53개 기관·제품군 수준의 비교에서 도출한 CCK 참조 설계</text>
+  <text x="42" y="97" class="title">TS 조직 네이티브 AI · 공통 기반과 업무 적용 구조</text>
+  <text x="42" y="128" class="sub">원문에서 확인한 패턴의 합성 · TS 구축 형상 및 CCK 기존 기능 확인 전</text>
+
+  <g transform="translate(42 170)">
+    <rect class="box" width="260" height="355" rx="14"/>
+    <text x="22" y="37" class="tag">01 · 공식 원천</text>
+    <text x="22" y="78" class="head">조직·업무·자료</text>
+    <text x="22" y="119" class="body">인사·조직도·업무분장</text>
+    <text x="22" y="151" class="body">법령·지침·문서 판본</text>
+    <text x="22" y="183" class="body">설비·사건·데이터 원천</text>
+    <text x="22" y="215" class="body">업무시스템·공개 서비스</text>
+    <path d="M22 242 H238" stroke="#e3e8ee"/>
+    <text x="22" y="279" class="body">원천 ID · 소유부서</text>
+    <text x="22" y="311" class="body">효력일 · 보안등급</text>
+  </g>
+  <g transform="translate(342 170)">
+    <rect class="box" width="260" height="355" rx="14"/>
+    <text x="22" y="37" class="tag">02 · 조직 문맥</text>
+    <text x="22" y="78" class="head">관계·정합화</text>
+    <text x="22" y="119" class="body">공식 직원·부서 ID 매핑</text>
+    <text x="22" y="151" class="body">직무·책임업무 연결</text>
+    <text x="22" y="183" class="body">겸직·전보·대행 이력</text>
+    <text x="22" y="215" class="body">문서 좌표·판본·품질</text>
+    <path d="M22 242 H238" stroke="#e3e8ee"/>
+    <text x="22" y="279" class="body">모호한 매핑 보류</text>
+    <text x="22" y="311" class="body">변경 이벤트 전파</text>
+  </g>
+  <g transform="translate(642 170)">
+    <rect class="box" width="260" height="355" rx="14"/>
+    <text x="22" y="37" class="tag">03 · 통제·근거</text>
+    <text x="22" y="78" class="head">정책·지식 게이트</text>
+    <text x="22" y="119" class="body">목적·자료·도구 권한</text>
+    <text x="22" y="151" class="body">검색 전 허용 범위 판정</text>
+    <text x="22" y="183" class="body">키워드·벡터·재정렬</text>
+    <text x="22" y="215" class="body">근거·시점·원문 검증</text>
+    <path d="M22 242 H238" stroke="#e3e8ee"/>
+    <text x="22" y="279" class="body">답변 불가·회수 처리</text>
+    <text x="22" y="311" class="body">검색·도구 권한 분리</text>
+  </g>
+  <g transform="translate(942 170)">
+    <rect class="box" width="260" height="355" rx="14"/>
+    <text x="22" y="37" class="tag">04 · 직무별 AI</text>
+    <text x="22" y="78" class="head">분류·추론·검증</text>
+    <text x="22" y="119" class="body">업무 목적·담당자 분류</text>
+    <text x="22" y="151" class="body">안전·문서·서비스 업무팩</text>
+    <text x="22" y="183" class="body">초안·위험 후보 생성</text>
+    <text x="22" y="215" class="body">수치·판본·예외 검사</text>
+    <path d="M22 242 H238" stroke="#e3e8ee"/>
+    <text x="22" y="279" class="body">근거 부족 시 보류</text>
+    <text x="22" y="311" class="body">독립 안전조건 검사</text>
+  </g>
+  <g transform="translate(1242 170)">
+    <rect class="box" width="245" height="355" rx="14"/>
+    <text x="22" y="37" class="tag">05 · 책임·실행</text>
+    <text x="22" y="78" class="head">확인·인계·대사</text>
+    <text x="22" y="119" class="body">담당자·이용자 확인</text>
+    <text x="22" y="151" class="body">결재·상담·현장 인계</text>
+    <text x="22" y="183" class="body">공식 API·메뉴 연결</text>
+    <text x="22" y="215" class="body">수신증·접수 상태 대사</text>
+    <path d="M22 242 H223" stroke="#e3e8ee"/>
+    <text x="22" y="279" class="body">사람의 승인·종결</text>
+    <text x="22" y="311" class="body">취소·재시도·복구</text>
+  </g>
+  <path class="arrow" d="M305 345 H336"/><path class="arrow" d="M605 345 H636"/><path class="arrow" d="M905 345 H936"/><path class="arrow" d="M1205 345 H1236"/>
+  <rect x="42" y="590" width="1445" height="111" rx="14" fill="#eaf1f8" stroke="#d0dce9" stroke-width="2"/>
+  <text x="66" y="630" class="head">공통 환류 · 변경 영향과 품질 검증</text>
+  <text x="66" y="667" class="body">조직·권한·규정 변경 → 영향 업무·근거 선택적 재검증 · 실패/오답·미접수 추적 · 동일 조건 정답셋·성과 평가</text>
+  <path class="loop" d="M1362 528 V573"/><path class="loop" d="M235 585 V534"/>
+  <text x="42" y="738" class="sub">실행 경계: AI 권고·초안 ≠ 공식 판정·접수·물리적 제어 · 설계 검증과 운영 실측은 별개</text>
+</svg>

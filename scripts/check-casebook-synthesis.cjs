@@ -30,7 +30,7 @@ for(const r of audit.rows){
 }
 assert.equal(capability.assets.length,4);
 const evidenceCounts=synthesis.allCases.reduce((counts,c)=>{const type=architectureEvidence.forCase(c.id).type;counts[type]=(counts[type]||0)+1;return counts;},{});
-assert.deepEqual(evidenceCounts,{'원문 도식':10,'자료 기반 이미지 재구성':3,'출처 설명 기반 논리 재구성':43,'공식 API 문서 기반 논리 재구성':1});
+assert.deepEqual(evidenceCounts,{'원문 도식':10,'자료 기반 이미지 재구성':3,'출처 설명 기반 논리 재구성':42,'공식 API 문서 기반 논리 재구성':1,'원문 도식 공유 참조':1});
 for(const r of capability.assets)assert.ok(r.basis&&r.level&&r.reuse&&r.verify);
 for(const id of Array.from({length:12},(_,i)=>'ST-'+String(i+1).padStart(2,'0'))){
  assert.ok(capability.strategyAssets[id]?.length,id+' 기술 매핑 누락');

@@ -18,6 +18,7 @@ const header=fs.readFileSync('src/OrganizationSite.jsx','utf8');assert.ok(!heade
 assert.ok(!header.includes('OrganizationQuickFind'));assert.ok(header.includes('index.html?view=strategy-prompts'));assert.ok(!header.includes('제안서 내려받기'));
 require('./check-case-insights.cjs');
 require('./check-casebook-synthesis.cjs');
+require('./check-case-architecture-atlas.cjs');
 const workspace=fs.readFileSync('src/OrganizationWorkspace.jsx','utf8');assert.ok(workspace.includes('<OrganizationExplorer route={route} navigation={navigation}/>'));assert.ok(workspace.includes('<WorkMapWorkspace route={route} navigation={navigation}/>'));
 console.log('사례집·통합 UI 검증 통과: 전략 12개, AX 사례 26개, 플랫폼 사례 31개, 구성요소 12개, 구축 6개/검수 12개 보존.');
 
