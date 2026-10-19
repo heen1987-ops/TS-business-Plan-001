@@ -1,0 +1,30 @@
+'use strict';
+const assert=require('node:assert/strict'),fs=require('node:fs');
+const d=require('../src/benchmark-100.cjs'),ex=require('./export-benchmark-100.cjs');
+assert.equal(d.cases.length,100);assert.equal(new Set(d.cases.map(r=>r.id)).size,100);
+assert.ok(!d.byId['BM-055']);assert.ok(d.byId['BM-101']);assert.equal(d.counts.platform+d.counts.ax,100);
+assert.equal(d.resolve('PF-R01').id,'BM-001');assert.equal(d.resolve('AX06').id,'BM-020');
+for(const r of d.cases){
+ for(const key of ['asIs','toBe','expectedEffect','observed','verdictReason','architectureBasis','dataBoundary','delta','acceptance','implication','measurementNote'])assert.ok(r[key]?.length>=10,`${r.id}: ${key}`);
+ for(const key of ['successFactors','failureFactors','sources','strategies','tsOrgCodes'])assert.ok(r[key]?.length,`${r.id}: ${key}`);
+ assert.ok(r.flow.length>=4&&r.flow.length<=10,`${r.id} flow`);
+ for(const s of r.sources)assert.ok(/^https?:\/\//.test(s.url)&&s.title&&s.locator,`${r.id} source`);
+ for(const code of r.tsOrgCodes)assert.ok(d.org(code)?.inRule,`${r.id} organization ${code}`);
+ for(const id of r.strategies)assert.ok(d.coverage.some(s=>s.id===id),`${r.id} strategy ${id}`);
+ assert.ok(d.families[r.family]);
+ for(const f of r.figures||[])assert.ok(fs.existsSync('public/'+f.path)&&f.sourceUrl&&f.reading);
+}
+assert.equal(new Set(d.cases.map(r=>r.asIs)).size,100,'AS-IS 사례별 구분');
+assert.equal(new Set(d.cases.map(r=>r.flow.join('|'))).size,100,'사례별 흐름 중복');
+assert.equal(d.coverage.length,12);assert.ok(d.coverage.every(s=>s.ids.length));
+assert.match(d.byId['BM-069'].verdict,/원인 미공개/);
+assert.match(d.byId['BM-054'].observed,/2019/);assert.match(d.byId['BM-060'].observed,/0.75/);
+assert.match(d.byId['BM-058'].observed,/일반 설명/);assert.match(d.byId['BM-092'].observed,/전체 정확도/);
+assert.match(d.byId['BM-095'].observed,/진료·의료 상담 사례 아님/);
+assert.match(d.byId['BM-097'].observed,/규칙 분석/);
+assert.equal(d.byId['BM-065'].verdict,'통제 확인');assert.match(d.byId['BM-065'].observed,/일반적 특징이 아니/);
+for(const [name,body] of Object.entries(ex.files()))assert.equal(fs.readFileSync('dist/downloads/'+name,'utf8'),body);
+const source=JSON.stringify(require('../src/benchmark-100.json'));
+assert.ok(!/(?:[CG]:[\\/]|file:\/\/|Bearer\s|ghp_)/.test(source),'공개 파일의 로컬 경로·인증 정보');
+for(const f of ['src/PlatformCasebook.jsx','src/AxCasebook.jsx'])assert.ok(fs.readFileSync(f,'utf8').includes('<Benchmark100'));
+console.log('100건 심층 비교 검증 통과: 고유 사례·상세 분석·전략 12개·공식 조직·출처·웹/다운로드 일치');
