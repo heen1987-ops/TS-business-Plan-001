@@ -4,6 +4,8 @@ const synthesis=require('./casebook-synthesis.cjs');
 const reference=require('./case-architecture-reference.cjs');
 const platform=require('./platform-architecture-dossiers.cjs').rows;
 const ax=require('./ax-architecture-dossiers.cjs').rows;
+const platformOutcomes=require('./platform-outcome-dossiers.cjs').rows;
+const axOutcomes=require('./ax-outcome-dossiers.cjs').rows;
 const evidence=require('./case-architecture-evidence.cjs');
 const figures=require('./case-source-figures.json');
 const reconstructions=require('./case-reconstruction-images.json');
@@ -21,21 +23,25 @@ function figureRole(figure){
 }
 const sourceRows=[...platform,...ax];
 const byId=Object.fromEntries(sourceRows.map(row=>[row.caseId,row]));
+const outcomeRows=[...platformOutcomes,...axOutcomes];
+const outcomeById=Object.fromEntries(outcomeRows.map(row=>[row.caseId,row]));
 const rows=synthesis.allCases.map(item=>{
  const dossier=byId[item.id];
  if(!dossier)throw Error(item.id+' 구조 분석 누락');
+ const outcome=outcomeById[item.id];
+ if(!outcome)throw Error(item.id+' As-Is/To-Be 성과 분석 누락');
  const pattern=reference.patterns.find(p=>p.id===reference.byCase[item.id]);
  if(!pattern)throw Error(item.id+' 공통 유형 누락');
  const figureId=sharedFigures[item.id]||item.id;
  const originalFigures=figures.filter(f=>f.caseId===figureId).map(f=>({...f,role:figureRole(f),sharedFrom:figureId===item.id?null:figureId}));
  const pair=reference.pairGroups.find(group=>group.ids.includes(item.id))||null;
- return {...dossier,title:item.title,kind:item.id.startsWith('AX')?'ax':'platform',
+ return {...dossier,outcome,title:item.title,kind:item.id.startsWith('AX')?'ax':'platform',
   pattern:pattern.id,patternTitle:pattern.title,strategies:synthesis.strategiesFor(item.id),
   sourceDetail:synthesis.caseSource(item.id),evidence:evidence.forCase(item.id),
   originalFigures,reconstruction:reconstructions[item.id]||null,
   pair,pairPeer:pair?pair.ids.find(id=>id!==item.id):null,
   deepAudit:deepAudit.filter(a=>a.caseId===item.id)};
 });
-if(rows.length!==57||new Set(rows.map(row=>row.caseId)).size!==57||sourceRows.length!==57)throw Error('57건 사례 구조 전수 일치 실패');
+if(rows.length!==57||new Set(rows.map(row=>row.caseId)).size!==57||sourceRows.length!==57||outcomeRows.length!==57||new Set(outcomeRows.map(row=>row.caseId)).size!==57)throw Error('57건 사례 구조·성과 전수 일치 실패');
 const byKind={platform:rows.filter(r=>r.kind==='platform'),ax:rows.filter(r=>r.kind==='ax')};
 module.exports={rows,byKind,byId:Object.fromEntries(rows.map(r=>[r.caseId,r])),patterns:reference.patterns,pairGroups:reference.pairGroups,sharedFigures,figureRole};

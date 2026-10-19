@@ -1,0 +1,26 @@
+.org-context{margin:20px 0;padding:20px;border:1px solid var(--ui-line,#ddd);border-radius:8px;background:#fff;color:var(--ui-text,#222)}
+.org-context>header small{font-size:var(--ui-small,12px);color:var(--ui-muted,#666)}
+.org-context>header h2{font-size:1.25rem;margin:4px 0 8px}
+.org-context>header p{margin:0 0 16px;color:var(--ui-muted,#666)}
+.org-context-compact{padding:0}
+.org-context-compact>summary{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;cursor:pointer;padding:13px 18px;list-style:none}
+.org-context-compact>summary::-webkit-details-marker{display:none}
+.org-context-compact>summary strong{font-size:1rem}
+.org-context-compact>summary span{color:var(--ui-muted,#666);font-size:.92rem}
+.org-context-compact>.org-context-content{border-top:1px solid var(--ui-line,#ddd);padding:18px}
+.org-context-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.org-context-card{padding:13px;border:1px solid var(--ui-line,#ddd);border-radius:6px;background:#fafbfa}
+.org-context-card h3{font-size:1rem;margin:0 0 7px}
+.org-context-card p{line-height:1.55;margin:0 0 9px}
+.org-context-card small{display:block;line-height:1.5;color:var(--ui-muted,#666)}
+.org-context-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 20px;margin:16px 0;padding-left:22px;line-height:1.5}
+.org-context-steps li{padding-left:2px}
+.org-context-example{margin:14px 0;padding:15px 18px;border-left:3px solid var(--ui-accent,#355f43);background:#f2f7f3}
+.org-context-example small,.org-context-example footer{color:var(--ui-muted,#666);font-size:var(--ui-small,12px);line-height:1.5}
+.org-context-example p{font-weight:650;margin:8px 0}
+.org-context-archive{margin-top:12px;border-top:1px solid var(--ui-line,#ddd);padding-top:12px}
+.org-context-archive>summary{cursor:pointer;font-weight:650}
+.org-context-archive>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 16px;margin-top:10px}
+.org-context-archive p{display:grid;gap:4px;margin:0;padding:10px;border:1px solid var(--ui-line,#ddd);border-radius:5px}
+.org-context-archive span{color:var(--ui-muted,#666)}
+@media(max-width:760px){.org-context-grid,.org-context-steps,.org-context-archive>div{grid-template-columns:1fr}.org-context{padding:14px}.org-context-compact{padding:0}}

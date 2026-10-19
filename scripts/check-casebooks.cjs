@@ -10,9 +10,10 @@ assert.deepEqual(plan.rows.flatMap(r=>r.tests.map(t=>t.id)).sort(),org.acceptanc
 for(const [name,body] of Object.entries(require('./export-casebooks.cjs').files()))assert.equal(fs.readFileSync('dist/downloads/'+name,'utf8'),body);
 for(const file of ['ts-ax-casebook.pptx','ts-platform-casebook.pptx'])assert.ok(fs.statSync('dist/downloads/'+file).size>10000);
 const crypto=require('node:crypto'),deckManifest=require('../src/casebook-decks.json'),designs=require('../src/case-designs.cjs'),insights=require('../src/case-insights.cjs'),followup=require('../src/strategy-followup.cjs');
-const fingerprint=crypto.createHash('sha256').update(JSON.stringify({ax:d,pf:p,designs,insights,followup:followup.plans})).digest('hex');
+const platformOutcomes=require('../src/platform-outcome-dossiers.cjs').rows,axOutcomes=require('../src/ax-outcome-dossiers.cjs').rows;
+const fingerprint=crypto.createHash('sha256').update(JSON.stringify({ax:d,pf:p,designs,insights,followup:followup.plans,platformOutcomes,axOutcomes})).digest('hex');
 assert.equal(deckManifest.fingerprint,fingerprint,'사례집 PPT와 웹 데이터 불일치: PPT 재생성 필요');
-for(const deck of deckManifest.decks){assert.equal(crypto.createHash('sha256').update(fs.readFileSync('dist/downloads/'+deck.file)).digest('hex'),deck.sha256);assert.deepEqual(deck.cases.map(c=>c.id),(deck.kind==='platform'?p:d).cases.map(c=>c.id));assert.ok(deck.slides>=deck.cases.length*3+1);}
+for(const deck of deckManifest.decks){assert.equal(crypto.createHash('sha256').update(fs.readFileSync('dist/downloads/'+deck.file)).digest('hex'),deck.sha256);assert.deepEqual(deck.cases.map(c=>c.id),(deck.kind==='platform'?p:d).cases.map(c=>c.id));assert.ok(deck.slides>=deck.cases.length*4+1);}
 
 const header=fs.readFileSync('src/OrganizationSite.jsx','utf8');assert.ok(!header.includes('on-workmap-link'));assert.ok(header.includes("to={'index.html?view=strategy&strategy='+s.id}"));
 assert.ok(!header.includes('OrganizationQuickFind'));assert.ok(header.includes('index.html?view=strategy-prompts'));assert.ok(!header.includes('제안서 내려받기'));

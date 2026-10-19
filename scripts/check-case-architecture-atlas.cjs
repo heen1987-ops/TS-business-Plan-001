@@ -15,8 +15,13 @@ for(const row of atlas.rows){
  assert.ok(row.flow.length>=5&&row.flow.length<=7,row.caseId+' 흐름');
  for(const key of ['dataBoundary','decisionBoundary','bottleneck','bottleneckStatus','validation','unknowns','cckImplication'])assert.ok(row[key],row.caseId+' '+key);
  assert.ok(row.strategies.length,row.caseId+' 전략');
+ for(const key of ['asIs','toBe','expectedEffect','observed','verdict','verdictReason','evidenceStage','limits'])assert.ok(row.outcome[key],row.caseId+' '+key);
+ assert.match(row.outcome.sourceUrl,/^https?:\/\//,row.caseId+' 성과 원문');
  for(const figure of row.originalFigures){assert.ok(fs.existsSync('public/'+figure.path),figure.path);assert.ok(figure.status&&figure.role&&figure.locator);}
 }
+assert.deepEqual(Object.fromEntries(['성과 확인','부분 성과','실패 확인','성과 미검증'].map(v=>[v,atlas.rows.filter(r=>r.outcome.verdict===v).length])),{'성과 확인':1,'부분 성과':14,'실패 확인':5,'성과 미검증':37});
+assert.match(atlas.byId.AX15.outcome.observed,/133개 세무서/);
+assert.match(require('../src/ax-casebook.cjs').getCase('AX15').fact,/133개 세무서/);
 assert.equal(atlas.byId['PF-A12'].originalFigures.length,2);
 assert.ok(atlas.byId['PF-A12'].originalFigures.every(f=>f.sharedFrom==='AX06'));
 assert.equal(atlas.byId['PF-R03'].originalFigures[0].role,'기존 시스템 현황');
@@ -25,6 +30,7 @@ assert.ok(atlas.byId['PF-R04'].originalFigures.every(f=>f.role==='RFP 예시 구
 assert.ok(fs.existsSync('public/assets/ts-organization-native-reference-architecture.svg'));
 for(const [name,body] of Object.entries(exporter.files()))assert.equal(fs.readFileSync('dist/downloads/'+name,'utf8'),body);
 assert.equal((exporter.markdown().match(/^### (?:PF|AX)/gm)||[]).length,57);
+assert.equal((exporter.markdown().match(/^- As-Is · 기존 문제:/gm)||[]).length,57);
 assert.ok(exporter.markdown().includes('ev_12c3ff9423094baaa31b0caf84abc98a28c21f551b0bc523c395daeb3926c8c6'));
 assert.ok(fs.readFileSync('src/CasebookSynthesis.jsx','utf8').includes('<CaseArchitectureAtlas'));
 console.log('사례 구조 전수 검증 통과: 57개 고유 흐름·7개 구조 유형·4개 교차 관점·원문 그림 단계 구분.');

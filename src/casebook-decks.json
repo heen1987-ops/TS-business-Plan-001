@@ -1,12 +1,12 @@
 {
-  "edition": "v10",
-  "updated": "2026-10-16",
-  "fingerprint": "b1dbc0f29b992baa871ac4c7fb657302be87f3823ec3c577d98183848aa158e1",
+  "edition": "v11",
+  "updated": "2026-10-19",
+  "fingerprint": "03355634e9faf3037706e364418ecbd76d1c5ce268201dc54e8fee211666253c",
   "decks": [
     {
       "kind": "platform",
       "file": "ts-platform-casebook.pptx",
-      "slides": 175,
+      "slides": 206,
       "cases": [
         {
           "id": "PF-R01",
@@ -14,134 +14,134 @@
         },
         {
           "id": "PF-R02",
-          "slide": 8
+          "slide": 9
         },
         {
           "id": "PF-R03",
-          "slide": 19
+          "slide": 21
         },
         {
           "id": "PF-R04",
-          "slide": 27
+          "slide": 30
         },
         {
           "id": "PF-R05",
-          "slide": 35
+          "slide": 39
         },
         {
           "id": "PF-R06",
-          "slide": 43
+          "slide": 48
         },
         {
           "id": "PF-R07",
-          "slide": 50
+          "slide": 56
         },
         {
           "id": "PF-R08",
-          "slide": 58
+          "slide": 65
         },
         {
           "id": "PF-R09",
-          "slide": 67
+          "slide": 75
         },
         {
           "id": "PF01",
-          "slide": 76
+          "slide": 85
         },
         {
           "id": "PF02",
-          "slide": 80
-        },
-        {
-          "id": "PF-A03",
-          "slide": 84
-        },
-        {
-          "id": "PF03",
           "slide": 90
         },
         {
-          "id": "PF04",
-          "slide": 94
+          "id": "PF-A03",
+          "slide": 95
         },
         {
-          "id": "PF-A06",
-          "slide": 98
-        },
-        {
-          "id": "PF05",
+          "id": "PF03",
           "slide": 102
         },
         {
+          "id": "PF04",
+          "slide": 107
+        },
+        {
+          "id": "PF-A06",
+          "slide": 112
+        },
+        {
+          "id": "PF05",
+          "slide": 117
+        },
+        {
           "id": "PF-A08",
-          "slide": 106
+          "slide": 122
         },
         {
           "id": "PF-A09",
-          "slide": 110
+          "slide": 127
         },
         {
           "id": "PF06",
-          "slide": 114
-        },
-        {
-          "id": "PF07",
-          "slide": 118
-        },
-        {
-          "id": "PF-A12",
-          "slide": 126
-        },
-        {
-          "id": "PF-A13",
           "slide": 132
         },
         {
+          "id": "PF07",
+          "slide": 137
+        },
+        {
+          "id": "PF-A12",
+          "slide": 146
+        },
+        {
+          "id": "PF-A13",
+          "slide": 153
+        },
+        {
           "id": "PF-A14",
-          "slide": 136
+          "slide": 158
         },
         {
           "id": "PF-A15",
-          "slide": 140
+          "slide": 163
         },
         {
           "id": "PF-A16",
-          "slide": 144
+          "slide": 168
         },
         {
           "id": "PF08",
-          "slide": 148
+          "slide": 173
         },
         {
           "id": "PF-A18",
-          "slide": 152
+          "slide": 178
         },
         {
           "id": "PF-C01",
-          "slide": 156
+          "slide": 183
         },
         {
           "id": "PF-C02",
-          "slide": 160
+          "slide": 188
         },
         {
           "id": "PF-C03",
-          "slide": 164
+          "slide": 193
         },
         {
           "id": "PF31",
-          "slide": 168
+          "slide": 198
         }
       ],
       "strategies": [
         "ST-04"
       ],
-      "sha256": "d8acb6055bdd9f4b423e4a7a021af0a50557209bcc3c4d9969a3c2ea2152da93"
+      "sha256": "93722424df8b04a8a32e7842b4b98aef03e80567774252da5fb7d4c525bbaabf"
     },
     {
       "kind": "ax",
       "file": "ts-ax-casebook.pptx",
-      "slides": 139,
+      "slides": 165,
       "cases": [
         {
           "id": "AX01",
@@ -149,103 +149,103 @@
         },
         {
           "id": "AX02",
-          "slide": 6
+          "slide": 7
         },
         {
           "id": "AX03",
-          "slide": 10
+          "slide": 12
         },
         {
           "id": "AX04",
-          "slide": 14
+          "slide": 17
         },
         {
           "id": "AX05",
-          "slide": 18
+          "slide": 22
         },
         {
           "id": "AX06",
-          "slide": 26
+          "slide": 31
         },
         {
           "id": "AX07",
-          "slide": 32
+          "slide": 38
         },
         {
           "id": "AX08",
-          "slide": 36
+          "slide": 43
         },
         {
           "id": "AX09",
-          "slide": 40
-        },
-        {
-          "id": "AX10",
-          "slide": 44
-        },
-        {
-          "id": "AX11",
           "slide": 48
         },
         {
+          "id": "AX10",
+          "slide": 53
+        },
+        {
+          "id": "AX11",
+          "slide": 58
+        },
+        {
           "id": "AX12",
-          "slide": 52
+          "slide": 63
         },
         {
           "id": "AX13",
-          "slide": 56
-        },
-        {
-          "id": "AX14",
-          "slide": 60
-        },
-        {
-          "id": "AX15",
-          "slide": 64
-        },
-        {
-          "id": "AX16",
           "slide": 68
         },
         {
+          "id": "AX14",
+          "slide": 73
+        },
+        {
+          "id": "AX15",
+          "slide": 78
+        },
+        {
+          "id": "AX16",
+          "slide": 83
+        },
+        {
           "id": "AX17",
-          "slide": 72
-        },
-        {
-          "id": "AX18",
-          "slide": 76
-        },
-        {
-          "id": "AX19",
-          "slide": 80
-        },
-        {
-          "id": "AX20",
-          "slide": 84
-        },
-        {
-          "id": "AX21",
           "slide": 88
         },
         {
+          "id": "AX18",
+          "slide": 93
+        },
+        {
+          "id": "AX19",
+          "slide": 98
+        },
+        {
+          "id": "AX20",
+          "slide": 103
+        },
+        {
+          "id": "AX21",
+          "slide": 108
+        },
+        {
           "id": "AX22",
-          "slide": 92
+          "slide": 113
         },
         {
           "id": "AX23",
-          "slide": 96
+          "slide": 118
         },
         {
           "id": "AX24",
-          "slide": 100
+          "slide": 123
         },
         {
           "id": "AX25",
-          "slide": 104
+          "slide": 128
         },
         {
           "id": "AX26",
-          "slide": 108
+          "slide": 133
         }
       ],
       "strategies": [
@@ -262,7 +262,7 @@
         "ST-11",
         "ST-12"
       ],
-      "sha256": "19deaa3cdb7e3de4f8393e44dd03e07dbe711fa6b1964d4c5e51cb4760162abd"
+      "sha256": "df5a7f8a0ddd9e8e3ae175bcfc676a8c6c35cb0cf63a0983b606f0d7235e6901"
     }
   ]
 }

@@ -1,13 +1,26 @@
 'use strict';
 // TS 사업의 단계·책임·인수 경계 정본. 업무 후보의 원장은 annual-work-2027.cjs.
 const d = {
- id:'ON27-BASE', version:'0.3', date:'2026-10-16',
+ id:'ON27-BASE', version:'0.4', date:'2026-10-19',
  title:'TS 조직 네이티브 AI 플랫폼',
  eyebrow:'TS 2027 · 조직 기반을 먼저 구축하는 1차 고도화',
- intro:'조직마다 다른 임무·책임·관할·업무 방식을 플랫폼에 연결합니다. 공식 조직정보로 사용자와 역할을 이해하는 기반을 먼저 인수하고, 그 위에서 업무효율화와 국민서비스를 확장합니다.',
+ intro:'기관 전체의 조직·권한 구조와 해당 부서의 업무·서류·절차를 함께 연결합니다. AI가 사용자의 조직적 위치와 맡은 업무를 이해하는 공통 기반을 먼저 인수하고, 그 위에서 업무효율화와 국민서비스를 확장합니다.',
  status:'사업 구조 제안 · ON27-BASE는 기획 식별자 · 조직 개편안이나 확정 발주명이 아님 · 실제 연계·구현 미검증',
  chain:['부처·기관 관계','TS 조직별 특성','부서·직무·업무','수행·검토·승인·협업 역할','별도 권한 검증','조직 기반 인수'],
  meaning:'조직화는 공식 조직을 AI가 이해하도록 정보와 관계를 구성한다는 뜻입니다. 기관의 실제 조직개편이나 직제 변경을 전제로 하지 않습니다.',
+ understanding:[
+  {scope:'기관 전체',source:'법정 임무·정책 목표, 부처·기관 관계, 공식 조직도·직제, 조직코드·효력일, 관할·자원·성과, 부서 간 보고·협업 관계',purpose:'요청의 공적 목적·소관·협업 경로 판별. 상하관계·협업관계를 자료 접근권한으로 오인하지 않음'},
+  {scope:'해당 부서',source:'업무분장·직무표, 담당·검토·승인 역할, 처리·인계·예외 절차, 필수 서류·서식, 관련 규정·시스템·조직 지식',purpose:'부서의 실제 업무 단계와 완료 기준을 선택하고 입력의 충분성·책임·결과물을 판단'},
+  {scope:'현재 업무건',source:'로그인 공식 ID, 현재 소속·겸직·대행, 업무건의 목적·배정·기한, 제출 자료·판본·처리 상태',purpose:'두 조직 맥락을 현재 요청에 적용하고 누락 자료·권한·승인·다음 행동을 매번 확인'}
+ ],
+ requestSteps:['공식 ID로 현재 소속·역할 확인','업무 목적·완료 기준과 소관 부서·업무건 연결','해당 절차의 필수 서류·정보·판단 근거 대조','누락 시 자료 요청·판단 보류','충족 시 권한 검증 후 근거형 검토 초안','담당자 판단·인계와 결과·개선점의 조직 지식 기록'],
+ workArchive:[
+  {stage:'업무 정의',record:'목적·완료 기준·담당·필요한 결정·기한'},
+  {stage:'근거·판단',record:'자료 출처·판본·가설과 사실·누락·검토 기록'},
+  {stage:'실행·인계',record:'수행·검토·승인·협업 배정, 예외·보완·다음 행동'},
+  {stage:'성과·학습',record:'산출물·업무 변화·조직 성과의 구분, 재작업·회고·재사용 규칙'}
+ ],
+ missingInput:{request:'“이 건을 검토해줘”',condition:'해당 부서의 검토 절차에 등록된 필수 서류 중 1건 누락',response:'“검토에 필요한 [누락 서류명]이 확인되지 않았습니다. 서류를 주시면 권한과 판본을 확인한 뒤 검토하겠습니다.”',acceptance:'누락 서류명·근거·보류 상태 표시, 임의 판단 금지, 서류 보완 후 같은 업무건에서 재개 · GAI-R05 → GAI-T05'},
  relationNote:'부처↔기관의 감독·위탁·정책 관계와 TS 내부 상하관계는 별도 관계로 관리합니다. 어느 관계도 자료 접근권한을 자동으로 부여하지 않습니다. IITP·KEIT·교육청·병원은 각각의 기관 구조·원천·권한을 확인해 적용하는 별도 확장 대상입니다.',
  profiles:[
   {type:'본사 기획·지원',character:'기관 공통 기준, 자원 배분, 부서 간 조정',mapping:'계획·예산·계약 등 소관 업무, 기준 수립자와 집행·검토자 관계'},
@@ -54,5 +67,5 @@ const d = {
  labels:{profiles:'조직마다 다른 특성을 모델에 반영',fields:'조직 특성 카드의 공통 항목',roles:'누가 사실·역할·권한을 확정하는가',foundation:'1차 사업 · 조직 기반 구축과 인수',expansion:'조직 기반을 인수한 다음',proposal:'범위·일정·검수 제안서',download:'제안서 전문 내려받기',details:'조직 특성·책임·근거 상세',candidate:'기존 업무 적용 후보'},
 };
 function table(headers,rows){return ['| '+headers.join(' | ')+' |','| '+headers.map(()=>'---').join(' | ')+' |',...rows.map(r=>'| '+r.join(' | ')+' |')].join('\n');}
-function markdown(){return ['## 조직 기반 우선 사업 구조',d.intro,d.meaning,d.relationNote,d.scope,'[76개 부서별 매핑·협업·구축·검수](https://heen1987-ops.github.io/TS-business-Plan-001/proposal-2027.html#department-mapping) · 2026-10-16 공식 공개자료 확인, 내부 분장·전결 미확인','### 조직 특성 매핑',table(['유형 제안','조직 특성','매핑할 정보'],d.profiles.map(x=>[x.type,x.character,x.mapping])),d.profileNote,d.fields.join(' · '),'### 역할과 책임',table(['역할 제안','책임','경계'],d.roles.map(x=>[x.name,x.responsibility,x.boundary])),d.evidence.date+' · '+d.evidence.note,'### 추가 개발·검수 연결',table(['단계','내용','개발','검수','증빙'],d.stages.map(x=>[x.title,x.detail,x.requirements.join('·'),x.tests.join('·'),x.evidence])),d.gate,...d.branches.map(x=>'**'+x.title+'** — '+x.detail),d.common,d.independence].join('\n\n');}
+function markdown(){return ['## 조직 기반 우선 사업 구조',d.intro,d.meaning,d.relationNote,d.scope,'### AI가 이해할 조직 맥락',table(['범위','공식 입력·관계','AI의 판단'],d.understanding.map(x=>[x.scope,x.source,x.purpose])),'### 업무 요청 처리·누락자료 보류',d.requestSteps.map((x,i)=>(i+1)+'. '+x).join('\n'),'> 요청: '+d.missingInput.request+'\n> 조건: '+d.missingInput.condition+'\n> 응답: '+d.missingInput.response+'\n> 검수: '+d.missingInput.acceptance,'### 일하는 방법의 조직 지식화',table(['단계','남길 기록'],d.workArchive.map(x=>[x.stage,x.record])),'[76개 부서별 매핑·협업·구축·검수](https://heen1987-ops.github.io/TS-business-Plan-001/proposal-2027.html#department-mapping) · 2026-10-16 공식 공개자료 확인, 내부 분장·전결 미확인','### 조직 특성 매핑',table(['유형 제안','조직 특성','매핑할 정보'],d.profiles.map(x=>[x.type,x.character,x.mapping])),d.profileNote,d.fields.join(' · '),'### 역할과 책임',table(['역할 제안','책임','경계'],d.roles.map(x=>[x.name,x.responsibility,x.boundary])),d.evidence.date+' · '+d.evidence.note,'### 추가 개발·검수 연결',table(['단계','내용','개발','검수','증빙'],d.stages.map(x=>[x.title,x.detail,x.requirements.join('·'),x.tests.join('·'),x.evidence])),d.gate,...d.branches.map(x=>'**'+x.title+'** — '+x.detail),d.common,d.independence].join('\n\n');}
 module.exports={...d,markdown,table};

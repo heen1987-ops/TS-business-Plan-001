@@ -7,6 +7,9 @@ export function OrganizationPlatform({primary=false}){
  return <section className="org-platform" id="organization-platform" tabIndex={-1} aria-labelledby="org-platform-title">
   <header><span className="org-eyebrow">{d.eyebrow}</span><Heading id="org-platform-title">{d.title}</Heading><p className="org-lead">{d.intro}</p><p>{d.meaning}</p></header>
   <ol className="org-chain">{d.chain.map(x=><li key={x}>{x}</li>)}</ol>
+  <h3>AI가 이해할 조직 맥락</h3><div className="org-understanding">{d.understanding.map(x=><article key={x.scope}><h4>{x.scope}</h4><p>{x.source}</p><small>{x.purpose}</small></article>)}</div>
+  <h3>업무 요청 처리</h3><ol className="org-request-steps">{d.requestSteps.map(x=><li key={x}>{x}</li>)}</ol>
+  <div className="org-missing-input"><small>필수 서류 누락 예시 · {d.missingInput.request}</small><p>{d.missingInput.response}</p><small>{d.missingInput.acceptance}</small></div>
   <p><strong>{d.roles[0].name}</strong> — {d.roles[0].responsibility}. {d.roles[0].boundary}.</p>
   <h3>{d.labels.foundation}</h3><div className="org-stages">{d.stages.map((s,i)=><article key={s.id}><span className="org-number">{i+1}</span><h4>{s.title}</h4><p>{s.detail}</p><small>{s.requirements.join(' · ')} → {s.tests.join(' · ')}</small></article>)}</div>
   <p className="org-gate">{d.gate}</p><h3>{d.labels.expansion}</h3><div className="org-branches">{d.branches.map(b=><article key={b.id}><h4>{b.title}</h4><p>{b.detail}</p></article>)}</div>

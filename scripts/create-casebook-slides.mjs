@@ -9,21 +9,23 @@ import {Presentation,PresentationFile,FileBlob} from '@oai/artifact-tool';
 import {GlobalFonts,createCanvas} from '@napi-rs/canvas';
 const [root,skill,python]=process.argv.slice(2),require=createRequire(path.join(root,'package.json'));
 const ax=require('./src/ax-casebook.cjs'),pf=require('./src/platform-casebook.cjs'),designs=require('./src/case-designs.cjs'),insights=require('./src/case-insights.cjs'),followup=require('./src/strategy-followup.cjs');
-const build=process.cwd(),workspace=path.dirname(build),edition='v10',finalDir=path.join(workspace,'final-'+edition);
+const platformOutcomes=require('./src/platform-outcome-dossiers.cjs').rows,axOutcomes=require('./src/ax-outcome-dossiers.cjs').rows;
+const outcomeById=new Map([...platformOutcomes,...axOutcomes].map(row=>[row.caseId,row]));
+const build=process.cwd(),workspace=path.dirname(build),edition='v11',finalDir=path.join(workspace,'final-'+edition);
 GlobalFonts.registerFromPath(path.join(build,'Pretendard-Regular.otf'),'Pretendard');
 GlobalFonts.registerFromPath(path.join(build,'Pretendard-Bold.otf'),'Pretendard');
 const {finalizePresentation}=await import(pathToFileURL(path.join(skill,'container_tools/artifact_tool_utils.mjs')).href);
 await fs.mkdir(finalDir,{recursive:true});
 const ink='#28352B',muted='#687369',accent='#42634B',line='#D4DDD5',paper='#FAFBF8',ctx=createCanvas(1,1).getContext('2d');
-const manifest={edition,updated:'2026-10-16',fingerprint:crypto.createHash('sha256').update(JSON.stringify({ax,pf,designs,insights,followup:followup.plans})).digest('hex'),decks:[]};
+const manifest={edition,updated:'2026-10-19',fingerprint:crypto.createHash('sha256').update(JSON.stringify({ax,pf,designs,insights,followup:followup.plans,platformOutcomes,axOutcomes})).digest('hex'),decks:[]};
 function wrap(content,w,size,bold){ctx.font=`${bold?'bold ':''}${size}px Pretendard`;return String(content).split('\n').flatMap(par=>{let rows=[],row='';for(const c of par){if(ctx.measureText(row+c).width>(w-4)/1.18&&row){rows.push(row);row=c;}else row+=c;}rows.push(row);return rows;});}
 function text(s,content,x,y,w,h,size=23,bold=false,color=ink,min=17){let rows;for(;;){rows=wrap(content,w,size,bold);if(rows.length*size*1.28<=h)break;if(size<=min)throw Error('Text fit: '+String(content).slice(0,100));size--;}
  const q=s.shapes.add({geometry:'textbox',position:{left:x,top:y,width:w,height:h},fill:'none',line:{fill:'none',width:0}});q.text=rows.join('\n');q.text.style={fontSize:size,typeface:'Pretendard',color,bold,autoFit:'none',verticalAlignment:'top',wrap:'square'};q.text.insets=0;return q;}
 function rule(s,y,x=60,w=1160){s.shapes.add({geometry:'rect',position:{left:x,top:y,width:w,height:1},fill:line,line:{fill:'none',width:0}});}
-function slide(p,title,kicker,notes){const s=p.slides.add();s.background.fill=paper;text(s,kicker,60,30,1160,28,17,false,muted);text(s,title,60,77,1160,88,36,true,ink,32);rule(s,650);text(s,'CCK / TS 2027  / 2026.10.16',60,668,1020,25,15,false,muted,15);text(s,String(p.slides.items.length).padStart(2,'0'),1160,668,60,25,15,false,muted,15);s.speakerNotes.text=notes;return s;}
+function slide(p,title,kicker,notes){const s=p.slides.add();s.background.fill=paper;text(s,kicker,60,30,1160,28,17,false,muted);text(s,title,60,77,1160,88,36,true,ink,32);rule(s,650);text(s,'CCK / TS 2027  / 2026.10.19',60,668,1020,25,15,false,muted,15);text(s,String(p.slides.items.length).padStart(2,'0'),1160,668,60,25,15,false,muted,15);s.speakerNotes.text=notes;return s;}
 function section(s,label,body,x,y,w,h,size=23){text(s,label,x,y,w,30,21,true,accent);text(s,body,x,y+37,w,h-37,size);}
 function notesFor(c){const d=designs.byId[c.id];return JSON.stringify({case:c,design:d,factors:insights.byId[c.id]},null,2)+'\n\n출처\n'+d.sources.map(v=>v.title+' '+v.url).join('\n')+'\n홈페이지 https://heen1987-ops.github.io/TS-business-Plan-001/index.html?view='+(c.id.startsWith('AX')?'casebook':'platform-cases')+'&case='+c.id;}
-function analysis(p,c){const d=designs.byId[c.id],s0=insights.byId[c.id],failed=c.result==='실패'||c.id==='PF31';const s=slide(p,c.title,c.id+' / '+(c.state||c.result)+' / '+c.region,notesFor(c));
+function analysis(p,c){const d=designs.byId[c.id],s0=insights.byId[c.id],verdict=outcomeById.get(c.id).verdict,failed=verdict==='실패 확인';const s=slide(p,c.title,c.id+' / '+verdict+' / '+c.region,notesFor(c));
  section(s,'추진 배경·대상 업무',d.narrative[0],60,180,560,206,22);
  section(s,'구현 방식·업무 변화',d.narrative[1],60,402,560,232,22);
  section(s,'CCK 관점의 시사점',d.narrative[2],670,180,550,166,21);
@@ -33,6 +35,14 @@ function analysis(p,c){const d=designs.byId[c.id],s0=insights.byId[c.id],failed=
  s.speakerNotes.text+='\n한계: '+c.limit+'\n'+(failed?'재발 방지 조건: '+s0.success.join(' / '):'실패 위험: '+s0.risks.join(' / '));
  // The material status remains visible; detailed evidence and limits remain in the notes and web source.
  text(s,c.limit,60,143,1160,32,14,false,muted,14);
+}
+function outcomeSlide(p,c){const o=outcomeById.get(c.id);if(!o)throw Error('Outcome missing '+c.id);const s=slide(p,c.title+' · 기대와 결과',c.id+' / As-Is → To-Be → 기대효과 → 확인 결과',notesFor(c)+'\n성과 대조\n'+JSON.stringify(o,null,2));
+ section(s,'As-Is · 기존 문제',o.asIs,60,178,550,155,21);
+ section(s,'To-Be · 의도한 변화',o.toBe,665,178,555,155,21);
+ section(s,'기대효과 · 목표',o.expectedEffect,60,352,550,155,21);
+ section(s,'확인 결과 · 관찰',o.observed,665,352,555,155,21);
+ text(s,o.verdict+' · '+o.verdictReason,60,535,1160,72,21,true,accent,18);
+ text(s,o.evidenceStage+' · '+o.limits,60,610,1160,31,15,false,muted,14);
 }
 function requirements(p,c){const d=designs.byId[c.id];for(let start=0;start<d.requirements.length;start+=3){const rows=d.requirements.slice(start,start+3),s=slide(p,c.title+' · RFP 요구사항',c.id+' / '+d.basis+' / '+(start+1)+'–'+(start+rows.length),notesFor(c));rows.forEach((r,i)=>{const y=184+i*153;rule(s,y-8);text(s,r.id+' '+r.title,60,y,1160,32,21,true,accent);text(s,r.summary,60,y+40,550,98,21);text(s,r.components.join(' · ')+' / 검수 설계\n'+r.acceptance,665,y+40,555,98,20);});}}
 async function originals(p,c){const d=designs.byId[c.id];for(const f of d.service.figures){const label=f.sourceType==='mermaid'?'공식 Mermaid 렌더':f.sourceUrl?'공식 웹 원본':'RFP 원문 추출';const s=slide(p,f.title,c.id+' / '+f.status+' / '+label,notesFor(c)+'\n원문 도면 '+JSON.stringify(f));s.images.add({blob:new Uint8Array(await fs.readFile(path.join(root,'public',f.path))),contentType:'image/png',alt:f.title,fit:'contain',position:{left:60,top:174,width:1160,height:440}});text(s,f.caption,60,621,1160,24,17,false,muted,17);}}
@@ -55,9 +65,9 @@ function serviceFlow(p,c){const d=designs.byId[c.id],a=d.service,s=slide(p,c.tit
  const v=[['감지',a.exception.input],['보류·확인',a.exception.hold],['보정·재검증',a.exception.recovery],['종료 증빙',a.exception.evidence]];
  v.forEach(([label,body],i)=>section(s,label,body,665,222+i*101,555,93,21));
 }
-function benchmark(p,c){const d=designs.byId[c.id],f=insights.byId[c.id],b=d.benchmark,s=slide(p,c.title+' · 벤치마킹',c.id+' / '+b.label,notesFor(c));
- section(s,c.result==='실패'||c.id==='PF31'?'재발 방지 조건':'성공·성립 조건',f.success.join('\n'),60,190,550,150,24);
- section(s,c.result==='실패'||c.id==='PF31'?'실패 요인·시정 쟁점':'실패 위험·한계',f.risks.join('\n'),60,360,550,150,24);
+function benchmark(p,c){const d=designs.byId[c.id],f=insights.byId[c.id],b=d.benchmark,failed=outcomeById.get(c.id).verdict==='실패 확인',s=slide(p,c.title+' · 벤치마킹',c.id+' / '+b.label,notesFor(c));
+ section(s,failed?'재발 방지 조건':'성립·검증 조건',f.success.join('\n'),60,190,550,150,24);
+ section(s,failed?'실패 요인·시정 쟁점':'실패 위험·한계',f.risks.join('\n'),60,360,550,150,24);
  section(s,'통제 지점',f.control,60,530,550,100,22);
  section(s,'정상 과업',b.normal,665,190,555,135,24);
  section(s,'예외 입력',b.exception,665,345,555,125,24);
@@ -78,7 +88,7 @@ function plan(p,m){const depts=m.departments;for(let start=0;start<depts.length;
 }
 for(const kind of ['platform','ax']){
  const p=Presentation.create({slideSize:{width:1280,height:720}});p.theme.defaultFont='Pretendard';cover(p,kind==='platform');const cases=kind==='platform'?pf.cases:ax.cases;
- const index=[];for(const c of cases){index.push({id:c.id,slide:p.slides.items.length+1});analysis(p,c);requirements(p,c);await originals(p,c);await reconstruction(p,c);architecture(p,c);serviceFlow(p,c);benchmark(p,c);}
+ const index=[];for(const c of cases){index.push({id:c.id,slide:p.slides.items.length+1});analysis(p,c);outcomeSlide(p,c);requirements(p,c);await originals(p,c);await reconstruction(p,c);architecture(p,c);serviceFlow(p,c);benchmark(p,c);}
  const plans=kind==='platform'?[followup.byId['ST-04']]:followup.plans;
  for(const m of plans)plan(p,m);
  if(kind==='platform'){const s=slide(p,'부서별 후속 적용의 연결','12대 전략 / 공통 기반 인수 후 업무 특화','전체 후속계획 https://heen1987-ops.github.io/TS-business-Plan-001/index.html?view=casebook&tab=strategy');followup.plans.forEach((m,i)=>{const col=i<6?0:1,row=i%6; text(s,m.id+' '+m.plan,60+col*600,195+row*70,560,60,23);});}

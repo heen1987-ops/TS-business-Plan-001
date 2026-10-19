@@ -15,6 +15,14 @@ for(const id of o.evidence.ids)assert.ok(currentEvidence.observations.some(x=>x.
 assert.ok(o.evidence.ids.some(id=>currentEvidence.observations.find(x=>x.id===id).orgCode==='1019700'),'AI서비스개발팀 담당업무 구분');
 assert.match(o.evidence.note,/내부 업무분장.*미확인/);
 const body=p.source.blocks.join('\n');
+assert.deepEqual(o.understanding.map(x=>x.scope),['기관 전체','해당 부서','현재 업무건']);
+assert.equal(o.requestSteps.length,6);
+assert.equal(o.workArchive.length,4);
+assert.match(o.missingInput.response,/서류를 주시면/);
+assert.ok(body.includes(o.missingInput.response),'제안서 누락서류 보류 예시');
+assert.ok(body.includes('## 3.1.2 일하는 방법의 조직 지식화')&&body.includes('산출물·업무 변화·조직 성과'),'업무 지식화 연결');
+assert.match(body,/GAI-R05 조직·직무별 업무 맥락.*필수 서류/);
+assert.match(body,/GAI-T05 맥락·입력 완전성.*누락/);
 for(const item of [...o.profiles.map(x=>x.mapping),...o.roles.map(x=>x.boundary)])assert.ok(body.includes(item),'제안서의 조직 특성·책임 경계 누락: '+item);
 assert.ok(body.indexOf('## 3.3')<body.indexOf('## 3.4'));
 assert.doesNotMatch(body,/우선 W27-A를 제안하되|선택 사업 중 하나에만 귀속/);
