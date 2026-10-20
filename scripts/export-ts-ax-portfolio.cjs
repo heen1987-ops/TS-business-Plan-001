@@ -4,7 +4,7 @@ const bullets=a=>a.map(s=>'- '+s).join('\n');
 function markdown(){
  const parts=['# '+d.title,'기준일: '+d.date+' · '+d.status,'근거: '+d.basis,'[TS 공식 12대 전략체계]('+d.strategySource.url+')','## 1. 추진 방향',d.principle,d.boundary,'## 2. 100건 종합 시사점','고유 사례 100건. 연결 과제는 복수 매핑 가능. 성과 구분: '+Object.entries(d.counts).map(([k,v])=>k+' '+v+'건').join(' / ')];
  for(const f of d.findings)parts.push('### '+f.id+' '+f.title,f.finding,'- CCK 방향: '+f.decision+'\n- 검증: '+f.check+'\n- 근거: '+f.cases.map(id=>'['+id+' '+d.caseById[id].title+']('+d.caseById[id].sources[0].url+')').join(' · '));
- parts.push('## 3. 공통 기반·조직 이해',...d.layers.map(l=>'### '+l.title+'\n\n'+bullets(l.items)+'\n\n원천·책임: '+l.owner),d.identityRule,'### 업무 처리 흐름',d.flow.join(' → '),'### 누락자료 요청 예시',Object.entries(d.missingExample).map(([k,v])=>'- '+({request:'요청',known:'조직·업무 맥락',missing:'자료 상태',response:'응답 예시',resume:'재개'}[k])+': '+v).join('\n'));
+ parts.push('## 3. 공통 기반·조직 이해','[문헌 기반 조직·역할·업무·권한·협업 상세설계](ts-org-native-design.md)',...d.layers.map(l=>'### '+l.title+'\n\n'+bullets(l.items)+'\n\n원천·책임: '+l.owner),d.identityRule,'### 업무 처리 흐름',d.flow.join(' → '),'### 누락자료 요청 예시',Object.entries(d.missingExample).map(([k,v])=>'- '+({request:'요청',known:'조직·업무 맥락',missing:'자료 상태',response:'응답 예시',resume:'재개'}[k])+': '+v).join('\n'));
  for(const c of d.common)parts.push('### '+c.id+' '+c.title,'- 기간: '+c.period+'\n- 책임: '+c.lead+'\n- 재사용: '+c.reuse+'\n- 추가 개발: '+c.add+'\n- 산출물: '+c.deliverable+'\n- 검수: '+c.tests.join(', ')+'\n- 시험 입력: '+c.sample+'\n- 판정: '+c.criterion);
  parts.push('## 4. CCK 기술 근거');
  for(const t of d.technology)parts.push('### '+t.id+' '+t.name,'- 상태: '+t.stage+'\n- 근거: '+t.evidence+'\n- 재사용: '+t.reuse+'\n- 추가분: '+t.delta+'\n- 적용 범위: '+t.boundary);

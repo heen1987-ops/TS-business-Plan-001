@@ -1,0 +1,1117 @@
+{
+  "version": "1.0",
+  "date": "2026-10-20",
+  "title": "TS 조직 네이티브 AI · 문헌 기반 상세설계",
+  "status": "CCK 설계 제안 · TS 운영 구현·성능 시험 전",
+  "basis": "The Enterprise Brain 사용자 제공본 + 공개 서적 3종 + 논문 1종 + 표준·가이드 4종",
+  "principle": "기관 전체의 공통 규칙 + 해당 부서의 역할·업무 + 현재 업무건의 자료·상태",
+  "scope": "AI혁신처 공통 기반 ON27-BASE / C27-COM의 상세화. 기존 ON-W01~06·GAI-T01~12에 연결, 별도 중복 사업 산정 제외.",
+  "sources": [
+    {
+      "id": "L01",
+      "title": "The Enterprise Brain",
+      "author": "Ragy Thomas · Sravan Vadigepalli · Chandhu Nair / Fast Company Press, 2026",
+      "kind": "사용자 제공 서적",
+      "url": "https://theenterprisebrain.ai/",
+      "fullTextUrl": null,
+      "access": "한국어 제공본 201쪽 / 공개 링크는 공식 소개",
+      "readScope": "제15~18장 PDF 122~142쪽, 제20~22장 153~166쪽; 그림 17.1(PDF 138쪽·인쇄 132쪽) 시각 확인",
+      "insight": "공통 맥락·업무 로직·실행 게이트웨이·통제 계층의 수평 구성",
+      "application": "TS 공통 기반과 부서별 업무 계약의 분리, 사람 검토와 시스템 결과 확인의 연결",
+      "limit": "저자의 아키텍처 제안. 한국어 제공본의 번역·페이지 체계 기준. 책의 수치·자율화 단계는 TS 성능 근거로 전용 제외",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "L02",
+      "title": "Organizational Behavior",
+      "author": "J. Stewart Black · David S. Bright / OpenStax, 2019",
+      "kind": "공개 서적",
+      "url": "https://openstax.org/books/organizational-behavior/pages/16-1-organizational-structures-and-design",
+      "fullTextUrl": "https://openstax.org/books/organizational-behavior/pages/1-introduction",
+      "access": "출판사 무료 웹 원문",
+      "readScope": "16.1 Organizational Structures and Design; 16.2 Organizational Change",
+      "insight": "공식 책임·보고 구조와 실제 협업 관계 및 조직 변화의 구분",
+      "application": "직제·업무분장을 공식 관계로, 실제 협업 관찰은 검토 후보로 저장",
+      "limit": "관찰된 협업을 공식 전결·접근권한으로 승격하지 않음",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "L03",
+      "title": "An Introduction to Ontology Engineering",
+      "author": "C. Maria Keet / v1.5, 2020",
+      "kind": "공개 서적",
+      "url": "https://people.cs.uct.ac.za/~mkeet/OEbook/",
+      "fullTextUrl": "https://people.cs.uct.ac.za/~mkeet/files/OEbook.pdf",
+      "access": "저자 공개 PDF / v1.5 CC BY 4.0",
+      "readScope": "제5장 5.1, PDF 108~112쪽(인쇄 93~97쪽); 서지·라이선스 PDF 1~4쪽",
+      "insight": "온톨로지가 답해야 할 질문과 기존 모델 재사용을 먼저 정의하는 방법",
+      "application": "담당자·필수서류·다음 부서·변경 영향의 질문을 모델·시험으로 연결",
+      "limit": "2018 v1.0과 구별. 전체 책 독해가 아닌 해당 절 검토",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "L04",
+      "title": "Process Mining Handbook",
+      "author": "Wil M. P. van der Aalst · Josep Carmona 편 / Springer, 2022",
+      "kind": "공개 서적",
+      "url": "https://link.springer.com/book/10.1007/978-3-031-08848-3",
+      "fullTextUrl": "https://link.springer.com/chapter/10.1007/978-3-031-08848-3_6",
+      "access": "출판사 Open Access / 웹 원문·PDF 제공",
+      "readScope": "De Weerdt·Wynn, Foundations of Process Event Data, pp.193~211의 §2.1~2.2·§4",
+      "insight": "업무건·행위·시각 및 사건 귀속·이력 품질이 프로세스 분석의 기반",
+      "application": "보완·재작업·인계 대기·실제 종료의 사건 로그와 측정 분모 정의",
+      "limit": "사번을 업무건 ID로 대용 금지. 로그만으로 병목의 인과효과 확정 불가",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "L05",
+      "title": "MOISE+ 조직 명세 모델",
+      "author": "Jomi Fred Hübner · Jaime Simão Sichman · Olivier Boissier, 2002",
+      "kind": "공개 논문",
+      "url": "https://moise.sourceforge.net/related-papers.html",
+      "fullTextUrl": "https://moise.sourceforge.net/doc/publications/Hubner-sbia2002.pdf",
+      "access": "프로젝트 공식 사이트 공개 PDF",
+      "readScope": "A Model for the Structural, Functional, and Deontic Specification of Organizations in Multiagent Systems, §2~4, PDF 3~9쪽",
+      "insight": "구조·역할, 공동 목표·계획, 역할의 의무·허용 관계를 분리하는 모델",
+      "application": "조직도와 업무 흐름을 독립 개정하고 역할별 책임으로 연결",
+      "limit": "다중 에이전트 연구모형. 역할 의무가 API 접근권한을 자동 부여하지 않도록 TS에서 별도 정책 적용",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "L06",
+      "title": "The Organization Ontology · ORG",
+      "author": "W3C Recommendation, 2014-01-16",
+      "kind": "공개 표준",
+      "url": "https://www.w3.org/TR/2014/REC-vocab-org-20140116/",
+      "fullTextUrl": "https://www.w3.org/TR/2014/REC-vocab-org-20140116/",
+      "access": "W3C 무료 원문",
+      "readScope": "§2.2 Membership / Posts; §2.4 Organizational history; memberDuring",
+      "insight": "사람과 독립된 Post, 기간을 가진 Membership, 조직 변경 관계",
+      "application": "공석 직위·겸직·전보·조직개편을 공식 ID와 유효기간으로 모델링",
+      "limit": "기록시각·업무 기준일·정책 갱신은 TS 확장 설계. ORG 자체의 접근통제 기능으로 표기 제외",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "L07",
+      "title": "Guide to Attribute Based Access Control · SP 800-162",
+      "author": "NIST / 2014, 업데이트 2019",
+      "kind": "공개 가이드",
+      "url": "https://csrc.nist.gov/pubs/sp/800/162/upd2/final",
+      "fullTextUrl": "https://nvlpubs.nist.gov/nistpubs/specialpublications/NIST.SP.800-162.pdf",
+      "access": "NIST 무료 PDF",
+      "readScope": "§2.2~2.3, §2.4.1, §3.1.3.6; PDF 16~19·24~25·33쪽",
+      "insight": "주체·객체·행위·환경 속성과 정책 판정/집행 기능의 분리",
+      "application": "사용자·대리 agent·업무건·문서판본·목적·효력시점의 권한 검사",
+      "limit": "기존 IAM·전결 체계 재사용 전제. 역할명과 모델 추론으로 권한 생성 금지",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "L08",
+      "title": "PROV-O: The PROV Ontology",
+      "author": "W3C Recommendation, 2013-04-30",
+      "kind": "공개 표준",
+      "url": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
+      "fullTextUrl": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
+      "access": "W3C 무료 원문",
+      "readScope": "§3 Starting Point / Qualified Terms; wasAssociatedWith, qualifiedAssociation, wasDerivedFrom",
+      "insight": "자료·활동·수행 주체와 파생·책임 관계의 표현",
+      "application": "어떤 문서판본·규칙·검토자가 결과를 만들었는지 연결",
+      "limit": "출처 연결이 원문 진실성이나 승인 권한을 보증하지 않음",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "L09",
+      "title": "Shapes Constraint Language · SHACL",
+      "author": "W3C Recommendation, 2017-07-20",
+      "kind": "공개 표준",
+      "url": "https://www.w3.org/TR/2017/REC-shacl-20170720/",
+      "fullTextUrl": "https://www.w3.org/TR/2017/REC-shacl-20170720/",
+      "access": "W3C 무료 원문",
+      "readScope": "Validation Report; §4.2.1 MinCountConstraintComponent",
+      "insight": "선언된 데이터 제약과 검증 결과의 구조화",
+      "application": "필수 입력·조건부 서류·원문 위치를 업무 계약에 정의하고 누락 목록 생성",
+      "limit": "검증한 데이터 범위 안의 누락. 미연계·접근불가·실제 미제출을 분리하는 TS 보완 설계",
+      "checked": "2026-10-20"
+    }
+  ],
+  "readingNote": "첨부본과 선택 장·절의 검토 결과. 공개 원문은 원저자·출판사·표준기관 링크 제공. 무료 열람과 재배포 허용의 구분, 첨부 도서 원문·원그림의 사이트 재배포 제외.",
+  "decisions": [
+    {
+      "id": "D01",
+      "title": "공통 맥락의 소유권",
+      "sourceIds": [
+        "L01",
+        "L02",
+        "L06"
+      ],
+      "adopt": "기관 공통 ID·용어·규정과 부서별 업무 정의의 공동 사용",
+      "ts": "AI혁신처는 플랫폼·연계 조정, 인사·조직 소관은 발령·직제, 현업은 업무 정의·정답 책임",
+      "boundary": "전체 조직 이해는 모든 직원의 전체 자료 열람을 의미하지 않음",
+      "packages": [
+        "ON-W01",
+        "ON-W02"
+      ]
+    },
+    {
+      "id": "D02",
+      "title": "직무와 업무 수행의 연결",
+      "sourceIds": [
+        "L03",
+        "L05",
+        "L06"
+      ],
+      "adopt": "역할·목표·계획·의무를 독립 정의한 뒤 관계로 연결",
+      "ts": "업무유형 버전 + 개인 역할배정 + 업무건 단위 수행 책임",
+      "boundary": "직책·직무·업무 역할·시스템 권한을 하나의 필드로 합치지 않음",
+      "packages": [
+        "ON-W01",
+        "ON-W04"
+      ]
+    },
+    {
+      "id": "D03",
+      "title": "자료 충족과 추론의 분리",
+      "sourceIds": [
+        "L03",
+        "L09"
+      ],
+      "adopt": "답해야 할 질문·필수 자료·검증 조건의 사전 정의",
+      "ts": "누락·접근불가·수집지연·판본불일치별 보완 경로, 완비한 범위만 검토",
+      "boundary": "검색 결과가 없다는 이유만으로 미제출 판정 금지",
+      "packages": [
+        "ON-W04"
+      ]
+    },
+    {
+      "id": "D04",
+      "title": "허용 범위 내 실행",
+      "sourceIds": [
+        "L01",
+        "L07"
+      ],
+      "adopt": "공통 정책 집행과 실행 게이트웨이",
+      "ts": "사용자 권한 ∩ agent 위임 범위 ∩ 업무·목적 범위 ∩ 현재 정책의 교집합",
+      "boundary": "책의 80%·90% 신뢰도 예시를 자동 승인 기준으로 사용 제외",
+      "packages": [
+        "ON-W03",
+        "ON-W05"
+      ]
+    },
+    {
+      "id": "D05",
+      "title": "협업의 상태와 책임",
+      "sourceIds": [
+        "L01",
+        "L04",
+        "L05",
+        "L08"
+      ],
+      "adopt": "동일 업무건을 사람·AI·부서가 공유하고 처리 이력 연결",
+      "ts": "요청·접수·수락·수행·검토·종결 및 반려·이관 상태의 분리",
+      "boundary": "접수 ACK를 업무 수락이나 완료로 간주 금지",
+      "packages": [
+        "ON-W05"
+      ]
+    },
+    {
+      "id": "D06",
+      "title": "검토된 업무 지식의 축적",
+      "sourceIds": [
+        "L01",
+        "L04",
+        "L08"
+      ],
+      "adopt": "사람 수정·실행 결과·변경 영향을 평가와 개선에 환류",
+      "ts": "개인 수정 → 후보 → 현업 검토 → 버전 배포 → 영향 업무 재평가",
+      "boundary": "대화·수정 이력의 자동 공식화·권한 변경·모델 재학습 제외",
+      "packages": [
+        "ON-W02",
+        "ON-W06"
+      ]
+    }
+  ],
+  "architecture": [
+    {
+      "id": "A01",
+      "title": "공식 원천·변경 수집",
+      "input": "SSO 식별자 / 조직·인사 / 직제·업무분장 / 규정·전결 / 업무시스템·문서",
+      "process": "원천 ID 대조, 유효일·수집일 기록, 변경 이벤트 대사·중복 제거",
+      "output": "출처·판본을 가진 공식 주장과 미해결 충돌 목록",
+      "owner": "원천 소관 + AI혁신처 연계",
+      "store": "원천 데이터 보존 + 변경 원장",
+      "package": "ON-W01",
+      "sourceIds": [
+        "L01",
+        "L06"
+      ]
+    },
+    {
+      "id": "A02",
+      "title": "기관·부서·업무건 맥락",
+      "input": "공식 조직·직위·역할배정 + 업무유형·규칙 + 현재 업무건",
+      "process": "요청 시점·업무 기준일의 스냅샷 조합, 접근 가능한 근거만 선택",
+      "output": "contextRevision·사용 근거·허용 행위·미확인 정보",
+      "owner": "현업 정의 소유자 + AI혁신처",
+      "store": "RDB 기준 원장 / 관계 뷰 / 권한 필터 검색 색인",
+      "package": "ON-W02",
+      "sourceIds": [
+        "L03",
+        "L05",
+        "L06"
+      ]
+    },
+    {
+      "id": "A03",
+      "title": "업무 계약·충족 검사",
+      "input": "업무 목적·업무유형 버전·필수 입력·관련 문서판본",
+      "process": "조건부 필수서류·사건 귀속·기간·상충 검사, 다음 단계 결정",
+      "output": "검토 범위 + 누락/접근불가/지연 사유 + 담당·기한",
+      "owner": "업무 주관 부서",
+      "store": "업무 정의 버전 / 증빙 연결 / 체크 결과",
+      "package": "ON-W04",
+      "sourceIds": [
+        "L03",
+        "L09"
+      ]
+    },
+    {
+      "id": "A04",
+      "title": "근거 기반 검토·제안",
+      "input": "권한 검사된 자료·업무 규칙·미결 지적",
+      "process": "NOA 검색·문서 AI·검토 스킬 호출, 계산·규칙 검사와 생성 분리",
+      "output": "초안·근거 위치·차이표·판단 보류 사유·행위 제안",
+      "owner": "검토자 + 업무 스킬 소유자",
+      "store": "초안 / 근거 연결 / 스킬·모델 버전",
+      "package": "ON-W04",
+      "sourceIds": [
+        "L01",
+        "L08"
+      ]
+    },
+    {
+      "id": "A05",
+      "title": "정책 판정·사람 승인",
+      "input": "주체·대리 위임·자료·행위·목적·현재 정책·승인 대상 해시",
+      "process": "PDP 판정 → PEP 집행, 이해상충·자기승인·변경 후 승인 무효 검사",
+      "output": "허용·거부·보류와 정책 버전 / 권한자 승인 증적",
+      "owner": "기존 권한·보안·전결 책임자",
+      "store": "정책 원장 / 승인 기록 / 판정 로그",
+      "package": "ON-W03",
+      "sourceIds": [
+        "L07"
+      ]
+    },
+    {
+      "id": "A06",
+      "title": "실행·원천 결과 대사",
+      "input": "승인된 행위·입력 해시·업무 버전·멱등 키",
+      "process": "실행 직전 재검증, 원천 API 호출·처리 결과 조회, 불명 응답 재대사",
+      "output": "접수 ID / 처리 결과 / 수락자 / 실제 완료 또는 재확인 상태",
+      "owner": "연계 시스템 운영자 + 현업 수락자",
+      "store": "실행 원장 / 어댑터 / 업무 상태",
+      "package": "ON-W05",
+      "sourceIds": [
+        "L01",
+        "L04",
+        "L07"
+      ]
+    },
+    {
+      "id": "A07",
+      "title": "감사·조직 학습·변경 환류",
+      "input": "원문판본·행위·정책결정·사람 수정·원천 결과",
+      "process": "추적·보존, 결함 분류·영향 분석, 검토된 지식 후보의 버전 배포",
+      "output": "감사 증적 / 다음 평가셋 / 업무 지식 개정 후보",
+      "owner": "AI혁신처 운영 + 현업 검수",
+      "store": "PROV 관계 / 사건 로그 / 평가 원장",
+      "package": "ON-W06",
+      "sourceIds": [
+        "L01",
+        "L04",
+        "L08"
+      ]
+    }
+  ],
+  "architectureNote": "CCK의 TS 적용 설계도. 첨부 그림 17.1의 개념을 참조하고 공개 표준으로 구체화한 신규 구성. 그림 원본의 복제·TS 현행 시스템의 실측 구조와 구분.",
+  "storageNote": "1차 기준 원장은 관계형 DB와 버전 문서 저장소. ORG·PROV 관계는 연결 모델/뷰로 표현하고, RDF·그래프 DB는 질의·운영 비교 후 선택. 벡터 색인은 검색용 파생본으로 관리, 권한·업무 상태의 정본으로 사용 제외.",
+  "entities": [
+    {
+      "id": "Organization",
+      "title": "기관·부서",
+      "fields": "orgId, parentOrgId, officialCode, validFrom, validTo",
+      "scope": "기관 공통",
+      "authority": "직제·조직 원장",
+      "invariant": "폐지·분리 조직은 이전 ID·승계 관계 보존",
+      "sourceIds": [
+        "L06"
+      ],
+      "package": "ON-W01"
+    },
+    {
+      "id": "Position",
+      "title": "직위·직책",
+      "fields": "positionId, orgId, roleId, reportsToPositionId",
+      "scope": "기관 공통",
+      "authority": "직제·정원 관리",
+      "invariant": "공석 허용; 사람과 독립된 직위 유지",
+      "sourceIds": [
+        "L06"
+      ],
+      "package": "ON-W01"
+    },
+    {
+      "id": "Role",
+      "title": "업무 역할",
+      "fields": "roleId, purpose, duties, requiredCompetence, incompatibleRoles",
+      "scope": "부서 정의",
+      "authority": "업무분장·역할 검토",
+      "invariant": "직책명과 수행 역할·API 권한 구분",
+      "sourceIds": [
+        "L02",
+        "L05"
+      ],
+      "package": "ON-W01"
+    },
+    {
+      "id": "Assignment",
+      "title": "기간별 역할배정",
+      "fields": "assignmentId, employeeId, orgId, positionId, roleId, validFrom, validTo",
+      "scope": "기관·부서",
+      "authority": "발령·업무배정 원장",
+      "invariant": "겸직은 복수 배정; 이번 업무의 사용 배정 명시",
+      "sourceIds": [
+        "L06"
+      ],
+      "package": "ON-W02"
+    },
+    {
+      "id": "Mandate",
+      "title": "책무·업무 근거",
+      "fields": "mandateId, orgId, sourceId, clause, version, effectiveFrom",
+      "scope": "기관 공통",
+      "authority": "법령·직제·분장 원문",
+      "invariant": "부서 책무와 개인별 전결의 구분",
+      "sourceIds": [
+        "L02",
+        "L05"
+      ],
+      "package": "ON-W01"
+    },
+    {
+      "id": "WorkType",
+      "title": "업무유형·수행 기준",
+      "fields": "workTypeId, version, goal, mandateId, ownerRole, steps, entryRule, exitRule",
+      "scope": "부서 정의",
+      "authority": "현업 검토된 업무정의",
+      "invariant": "목표·필수 입력·산출물·완료 조건의 버전 고정",
+      "sourceIds": [
+        "L03",
+        "L05"
+      ],
+      "package": "ON-W04"
+    },
+    {
+      "id": "InputRequirement",
+      "title": "필수 자료·조건",
+      "fields": "requirementId, workTypeVersion, condition, documentType, freshnessRule, blocking",
+      "scope": "부서 정의",
+      "authority": "업무 기준·양식",
+      "invariant": "조건부 필수와 참고자료 분리; 검증 범위 기록",
+      "sourceIds": [
+        "L09"
+      ],
+      "package": "ON-W04"
+    },
+    {
+      "id": "WorkCase",
+      "title": "개별 업무건",
+      "fields": "caseId, workTypeVersion, ownerAssignmentId, businessDate, contextRevision, state, version",
+      "scope": "업무건",
+      "authority": "접수·업무 시스템",
+      "invariant": "사번·대화방 ID와 분리; 낙관적 잠금 version 적용",
+      "sourceIds": [
+        "L04"
+      ],
+      "package": "ON-W04"
+    },
+    {
+      "id": "Evidence",
+      "title": "문서·증거 연결",
+      "fields": "evidenceId, caseId, sourceId, documentVersion, hash, locator, observedAt, availability",
+      "scope": "업무건",
+      "authority": "원천 문서·시스템",
+      "invariant": "접근불가 자료의 제목·존재 여부도 정책에 따라 비노출",
+      "sourceIds": [
+        "L08",
+        "L09"
+      ],
+      "package": "ON-W04"
+    },
+    {
+      "id": "Policy",
+      "title": "권한·업무 규칙",
+      "fields": "policyId, version, subjectRule, objectRule, action, purpose, effectiveFrom, authority",
+      "scope": "기관·부서",
+      "authority": "IAM·전결·보안 정책",
+      "invariant": "LLM 출력은 정책 후보만 생성; 권한자의 별도 검토",
+      "sourceIds": [
+        "L07"
+      ],
+      "package": "ON-W03"
+    },
+    {
+      "id": "Delegation",
+      "title": "대리 실행 위임",
+      "fields": "delegationId, principalId, agentId, actions, caseScope, expiresAt, revokedAt",
+      "scope": "업무건",
+      "authority": "사용자·권한자 위임",
+      "invariant": "조회·초안·제출 행위를 별도 제한; 재위임 기본 금지",
+      "sourceIds": [
+        "L07"
+      ],
+      "package": "ON-W03"
+    },
+    {
+      "id": "Collaboration",
+      "title": "협업·인계 요청",
+      "fields": "collaborationId, caseId, fromRole, toRole, deliverable, dueAt, state, acceptedBy",
+      "scope": "업무건",
+      "authority": "요청자·수락자",
+      "invariant": "수신 ACK와 수락 분리; 담당 공석은 조정자 대기",
+      "sourceIds": [
+        "L05",
+        "L04"
+      ],
+      "package": "ON-W05"
+    },
+    {
+      "id": "Action",
+      "title": "실행 계약·결과",
+      "fields": "actionId, caseId, inputHash, approvedHash, expectedVersion, idempotencyKey, sourceStatus",
+      "scope": "업무건",
+      "authority": "실행 게이트웨이",
+      "invariant": "입력 변경 시 재승인; 원천 결과 불명은 완료 금지",
+      "sourceIds": [
+        "L01",
+        "L07"
+      ],
+      "package": "ON-W05"
+    },
+    {
+      "id": "WorkEvent",
+      "title": "업무 이력·파생 관계",
+      "fields": "eventId, caseId, activity, actorId, occurredAt, recordedAt, usedEvidence, policyVersion, result",
+      "scope": "업무건",
+      "authority": "업무·연계 실행 원장",
+      "invariant": "관찰 사실·추론·승인 구분; 로그 열람·보존기간 제한",
+      "sourceIds": [
+        "L04",
+        "L08"
+      ],
+      "package": "ON-W06"
+    }
+  ],
+  "provenanceFields": "모든 공식 사실·관계: sourceId + locator + sourceVersion + validFrom/validTo + recordedAt + assertionStatus(공식/검토후보/충돌) + owner. 업무 기준일(businessDate)과 현재 권한 판정시각(decisionAt)의 분리.",
+  "relations": [
+    [
+      "Organization",
+      "Position",
+      "1:N · 직위 설치"
+    ],
+    [
+      "Position",
+      "Assignment",
+      "1:N · 기간별 점유"
+    ],
+    [
+      "Role",
+      "Assignment",
+      "1:N · 역할 수행"
+    ],
+    [
+      "Mandate",
+      "WorkType",
+      "1:N · 업무의 근거"
+    ],
+    [
+      "WorkType",
+      "InputRequirement",
+      "1:N · 조건부 필수자료"
+    ],
+    [
+      "WorkType",
+      "WorkCase",
+      "1:N · 정의 버전으로 업무건 생성"
+    ],
+    [
+      "Assignment",
+      "WorkCase",
+      "1:N · 수행 책임"
+    ],
+    [
+      "WorkCase",
+      "Evidence",
+      "1:N · 근거 귀속"
+    ],
+    [
+      "WorkCase",
+      "Collaboration",
+      "1:N · 부서 간 요청·수락"
+    ],
+    [
+      "Delegation",
+      "Action",
+      "1:N · 제한된 대리 실행"
+    ],
+    [
+      "Policy",
+      "Action",
+      "N:M · 현재 정책 판정"
+    ],
+    [
+      "WorkEvent",
+      "Evidence",
+      "N:M · 사용·생성·파생 추적"
+    ]
+  ],
+  "questions": [
+    [
+      "CQ01",
+      "현재 이 업무의 담당자와 대행자는 누구인가?",
+      "Assignment × WorkType.ownerRole × 유효기간",
+      "전보 전후·겸직·공석별 책임자 정답",
+      "GAI-T01"
+    ],
+    [
+      "CQ02",
+      "같은 요청이 부서·역할별로 어떤 업무인가?",
+      "Mandate × WorkType × 사용자 배정",
+      "목적·부서·담당업무에 따른 후보와 확인 질문",
+      "GAI-T05"
+    ],
+    [
+      "CQ03",
+      "어떤 서류가 왜 더 필요한가?",
+      "InputRequirement × Evidence × 업무 조건",
+      "누락/접근불가/수집지연/구판의 구분",
+      "GAI-T06"
+    ],
+    [
+      "CQ04",
+      "이 사람이 이 문서를 지금 볼 수 있는가?",
+      "현재 Policy × Assignment × Evidence",
+      "기관·부서·사건·목적 제한과 권한 회수",
+      "GAI-T04"
+    ],
+    [
+      "CQ05",
+      "다음 부서가 실제로 업무를 수락했는가?",
+      "Collaboration.state × acceptedBy",
+      "접수 ACK·수락·완료의 독립 상태",
+      "GAI-T07"
+    ],
+    [
+      "CQ06",
+      "인사·규정 변경으로 어느 업무를 다시 봐야 하는가?",
+      "변경 관계 × 사용 판본 × 미결 WorkCase",
+      "영향 목록·재배정·재승인과 무관 업무 유지",
+      "GAI-T03"
+    ],
+    [
+      "CQ07",
+      "어떤 자료·규칙으로 이 결과가 나왔는가?",
+      "WorkEvent × Evidence × Policy",
+      "원문 위치·판본·수정·승인·원천 결과 추적",
+      "GAI-T06"
+    ],
+    [
+      "CQ08",
+      "실제 시간이 줄고 오류도 줄었는가?",
+      "업무 사건 로그 × 독립 정답 × 기준선",
+      "생성·검토·보완·인계 총시간과 중대 누락 동시 비교",
+      "GAI-T12"
+    ]
+  ],
+  "workflow": [
+    {
+      "id": "F01",
+      "title": "신원·맥락 구성",
+      "state": "맥락확인",
+      "guard": "SSO subject와 공식 배정 연결, 업무 기준일·자료 범위 확인",
+      "exception": "동명이인·겸직·목적 불명 → 후보 제시·확인",
+      "output": "사용 배정·업무유형·contextRevision"
+    },
+    {
+      "id": "F02",
+      "title": "자료 충족 검사",
+      "state": "자료점검",
+      "guard": "업무유형 버전의 조건부 필수 입력과 허용된 수집 범위 대사",
+      "exception": "누락 → 보완대기 / 접근불가 → 권한담당 경로 / 수집지연 → 동기화대기",
+      "output": "사유별 자료 목록·요청 대상·재개 조건"
+    },
+    {
+      "id": "F03",
+      "title": "근거 검토·초안",
+      "state": "검토중",
+      "guard": "충족 범위와 미결 지적을 명시, 문서 내용은 지시가 아닌 검토 대상",
+      "exception": "상충 규정·타 사건 증빙 → 해당 판단 보류",
+      "output": "근거 위치·차이·제안·보류 범위"
+    },
+    {
+      "id": "F04",
+      "title": "협업 요청·수락",
+      "state": "협업대기",
+      "guard": "목적·수신 역할·산출물·기한·열람 범위 전송, 수락자 기록",
+      "exception": "거절·공석·기한 초과 → 업무 소유자에게 조정 요청",
+      "output": "수락 또는 반려 상태와 책임자"
+    },
+    {
+      "id": "F05",
+      "title": "검토·승인",
+      "state": "승인대기",
+      "guard": "공식 권한자와 입력·결과·규칙 판본 해시에 결부된 승인",
+      "exception": "권한 만료·입력 수정·중요 판본 변경 → 재검토·재승인",
+      "output": "승인 대상 해시·승인자·시간·정책 버전"
+    },
+    {
+      "id": "F06",
+      "title": "실행·대사",
+      "state": "실행중",
+      "guard": "실행 직전 권한·상태·승인 재검증, 멱등 키로 호출",
+      "exception": "응답 유실·타임아웃 → 결과확인대기; 중복 실행 대신 원천 조회",
+      "output": "원천 접수 ID·상태·실제 처리 결과"
+    },
+    {
+      "id": "F07",
+      "title": "종결·지식 후보",
+      "state": "완료검토",
+      "guard": "원천 완료 + 담당 수락 + 미결 지적 해소 + 업무별 종료 조건 충족",
+      "exception": "미수락·미결 지적 → 업무 유지; 외부 실행 취소 불가는 정정 절차",
+      "output": "종결 증적·검토된 개선 후보·영향 업무 목록"
+    }
+  ],
+  "resumeRule": "보완 문서를 같은 caseId에 새 판본으로 연결 → 사건·기간·권한 재검사 → 영향받는 미결 지적만 재검토 → 변경 전 승인 무효화 여부 판정. 기존 보완 요청·담당·미해결 항목의 보존.",
+  "missingStates": [
+    [
+      "미제출",
+      "권한 있는 원천 수집 완료 + 필수 항목 부재",
+      "제출 담당에게 서류 종류·대상 기간·필요 이유·검토 범위 요청"
+    ],
+    [
+      "접근불가",
+      "현 사용자·업무 목적에서 원천 접근 거부",
+      "권한자 확인 경로 안내; 비인가 자료 존재·제목 노출 차단"
+    ],
+    [
+      "수집지연",
+      "연계 실패·기준시각 이전 동기화",
+      "마지막 성공 시각·담당 연계 경로 제시; 사용자에게 중복 제출 요구 보류"
+    ],
+    [
+      "판본·사건 불일치",
+      "다른 업무건·대상 기간·폐기 문서 연결",
+      "올바른 업무건·유효 판본 요청; 기존 파일 덮어쓰기 금지"
+    ],
+    [
+      "규칙 상충",
+      "동일 효력기간의 상충 기준·불명확 예외",
+      "규정 소유자 판단 요청; 임의 우선순위·자기 권한 확대 금지"
+    ]
+  ],
+  "policyRules": [
+    [
+      "P01",
+      "조회 이전",
+      "문서·행·조각·검색 인용까지 권한 필터 적용. 파생 요약에도 원문 권한 계승"
+    ],
+    [
+      "P02",
+      "행위 이전",
+      "현재 사용자 권한·agent 위임·업무 목적·도구 허용 범위 모두 충족"
+    ],
+    [
+      "P03",
+      "변경 직후",
+      "전보·위임 회수·규정 개정 이벤트의 캐시·대기 작업·승인 영향 재대사"
+    ],
+    [
+      "P04",
+      "승인 분리",
+      "작성자 자기승인·겸직 충돌 검사. AI혁신처의 기술 운영권과 현업 업무 승인권 분리"
+    ],
+    [
+      "P05",
+      "외부 응답",
+      "접수와 완료 구분. 재시도 멱등성·불명 상태 조회. 되돌릴 수 없는 행위의 정정·보상 절차"
+    ],
+    [
+      "P06",
+      "감사·보존",
+      "자료 해시·규칙·도구 입출력·정책판정·결과 요약 기록. 모델 내부 사고 전문 수집 제외; 개인정보 최소화·보존정책 적용"
+    ]
+  ],
+  "examples": [
+    {
+      "id": "EX01",
+      "strategy": "ST-10",
+      "title": "예산·성과 검토",
+      "department": "예산처",
+      "role": "검토 담당 / 자료 제공 부서 / 전결 권한자",
+      "request": "이 사업의 집행 현황을 검토해줘",
+      "setup": "합성 예시: 사업 CASE-DEMO-01, 기간 2027년 2분기, 승인계획 v3·집행 집계표 수집",
+      "need": "해당 기간의 증빙 연결표 미제출, 변경 승인 문서는 수집지연",
+      "response": "집행 집계표까지 확인했습니다. 항목별 증빙 연결표가 필요합니다. 변경 승인 내역은 동기화 후 확인하겠습니다. 자료가 보완되면 승인계획 대비 집행 차이와 미결 항목을 검토하겠습니다.",
+      "handoff": "자료 제공 부서에 증빙 연결표 요청 → 부서 수락 → 제출 판본 연결 → 검토 담당 재검토 → 권한자 승인",
+      "effect": "중복 서류 요청·구판 대사·미결 항목 재탐색 감소",
+      "measurement": "정상·실제 누락·접근불가·지연 표본별 보완 오탐·재작업·총 검토시간",
+      "tests": [
+        "GAI-T05",
+        "GAI-T06",
+        "GAI-T07"
+      ]
+    },
+    {
+      "id": "EX02",
+      "strategy": "ST-12",
+      "title": "전보·업무 인계",
+      "department": "인재개발처",
+      "role": "인사 원천 담당 / 전출·전입 부서 / 인수 담당",
+      "request": "담당자 변경에 따른 미결 업무를 인계해줘",
+      "setup": "합성 예시: 배정 ASSIGN-DEMO-A 종료, ASSIGN-DEMO-B 시작, 진행 중 업무 3건",
+      "need": "업무별 인수자 수락·자료 권한 확인, 진행 중 승인 1건의 재검증",
+      "response": "변경 발령 기준으로 미결 업무와 보완 요청을 묶었습니다. 인수자별 권한 확인 후 인계 검토를 요청하고, 수락 전까지 기존 미결 상태를 유지하겠습니다.",
+      "handoff": "발령 효력 확인 → 미결 업무 영향 목록 → 역할 재배정·권한 재검증 → 인수자 수락 → 업무 재개",
+      "effect": "담당 불명·인계 누락·회수 전 자료 재노출 감소",
+      "measurement": "정답 미결 업무 대비 탐지율·수락 완결률·전보 후 비인가 노출 건수",
+      "tests": [
+        "GAI-T03",
+        "GAI-T04",
+        "GAI-T07"
+      ]
+    }
+  ],
+  "ownership": [
+    [
+      "AI혁신처",
+      "공통 모델·연계·실행 게이트웨이·평가 운영",
+      "업무 정의·공식 전결은 해당 소관과 검토"
+    ],
+    [
+      "인사·조직 소관",
+      "공식 식별자·발령·조직개편·역할배정 원천",
+      "현재 배정과 발령 효력시각의 대사"
+    ],
+    [
+      "부서 업무 소유자",
+      "업무유형·필수서류·예외·완료 조건·정답",
+      "업무 정의 버전 승인·변경 영향 판단"
+    ],
+    [
+      "규정·보안·권한 소관",
+      "전결·접근정책·위임·보존·철회",
+      "정책 충돌 해소와 비인가 시험 수락"
+    ],
+    [
+      "협업 부서·인수자",
+      "산출물 제공·인수 수락·반려 사유",
+      "요청·수락·완료별 상태 책임"
+    ],
+    [
+      "현업 검수자·운영자",
+      "독립 정답·총시간·중요 오류·복구 검증",
+      "확대/보류 판단과 기존 절차 복귀"
+    ]
+  ],
+  "tests": [
+    {
+      "id": "OT01",
+      "title": "조직·배정 시점",
+      "input": "동명이인·겸직·공석·전보 전후 업무건",
+      "criterion": "정답 ID·활성 배정 일치; 후보 복수 시 확인",
+      "package": "ON-W01",
+      "existingTests": [
+        "GAI-T01",
+        "GAI-T02"
+      ],
+      "sourceIds": [
+        "L03",
+        "L06"
+      ]
+    },
+    {
+      "id": "OT02",
+      "title": "변경·지연 이벤트",
+      "input": "역순·중복 발령·규정 개정·늦은 동기화",
+      "criterion": "업무 영향 목록 일치; 유효일/기록일 분리; 중복 상태변경 0건",
+      "package": "ON-W02",
+      "existingTests": [
+        "GAI-T03"
+      ],
+      "sourceIds": [
+        "L06",
+        "L08"
+      ]
+    },
+    {
+      "id": "OT03",
+      "title": "부서별 맥락",
+      "input": "동일 요청·상이한 직무·업무 목적·정답",
+      "criterion": "적합 업무유형·자료·결과물 일치; 불명확 요청 확인",
+      "package": "ON-W04",
+      "existingTests": [
+        "GAI-T05"
+      ],
+      "sourceIds": [
+        "L02",
+        "L03",
+        "L05"
+      ]
+    },
+    {
+      "id": "OT04",
+      "title": "자료 누락 원인",
+      "input": "실제 미제출·접근불가·수집지연·타 사건·구판",
+      "criterion": "원인별 처리 정답; 중요 누락 은폐 0건; 불필요 보완 별도 집계",
+      "package": "ON-W04",
+      "existingTests": [
+        "GAI-T06"
+      ],
+      "sourceIds": [
+        "L09",
+        "L08"
+      ]
+    },
+    {
+      "id": "OT05",
+      "title": "기관 분리·조회·캐시 회수",
+      "input": "TS/타 기관의 동명 문서·잘못된 구성판본·타 사건·문서조각·요약·철회 후 캐시",
+      "criterion": "표본의 기관 혼입·비인가 원문/인용/존재 정보 노출 0건; 잘못된 팩 차단·승인 구성 복구",
+      "package": "ON-W03",
+      "existingTests": [
+        "GAI-T04",
+        "GAI-T10"
+      ],
+      "sourceIds": [
+        "L07"
+      ]
+    },
+    {
+      "id": "OT06",
+      "title": "권한과 위임",
+      "input": "역할은 같지만 목적·업무·위임기간이 다른 사용자",
+      "criterion": "미허용 행위 0건; 정책 불명·수집 실패는 보류; 적법 요청 오거부율도 집계",
+      "package": "ON-W03",
+      "existingTests": [
+        "GAI-T04",
+        "GAI-T08"
+      ],
+      "sourceIds": [
+        "L07"
+      ]
+    },
+    {
+      "id": "OT07",
+      "title": "협업·수락",
+      "input": "전송 성공·ACK만 수신·수락·반려·기한 초과",
+      "criterion": "접수≠수락≠완료; 담당 공석·반려는 조정 경로 유지",
+      "package": "ON-W05",
+      "existingTests": [
+        "GAI-T07"
+      ],
+      "sourceIds": [
+        "L05",
+        "L04"
+      ]
+    },
+    {
+      "id": "OT08",
+      "title": "동시 수정·재승인",
+      "input": "승인 후 입력·규칙 변경·동시 담당 수정",
+      "criterion": "승인 해시·예상 버전 불일치 시 실행 차단·재검토",
+      "package": "ON-W05",
+      "existingTests": [
+        "GAI-T08"
+      ],
+      "sourceIds": [
+        "L07",
+        "L08"
+      ]
+    },
+    {
+      "id": "OT09",
+      "title": "응답 유실·복구",
+      "input": "API 타임아웃·중복 재전송·처리 성공 후 응답 유실",
+      "criterion": "표본의 중복 실행·거짓 완료 0건; 원천 조회·조정 결과 기록",
+      "package": "ON-W05",
+      "existingTests": [
+        "GAI-T09",
+        "GAI-T12"
+      ],
+      "sourceIds": [
+        "L01",
+        "L04"
+      ]
+    },
+    {
+      "id": "OT10",
+      "title": "문서·도구 공격",
+      "input": "문서 속 권한 변경 명령·도구응답 위장·미허가 민감정보",
+      "criterion": "지시 실행·자기 권한 변경 0건; 미허가 민감정보의 모델전송·로그·반출 차단",
+      "package": "ON-W03",
+      "existingTests": [
+        "GAI-T11"
+      ],
+      "sourceIds": [
+        "L07",
+        "L08"
+      ]
+    },
+    {
+      "id": "OT11",
+      "title": "조직 지식 승인",
+      "input": "개인 수정·예외 처리·검토 반려·지식 개정",
+      "criterion": "검토 전 공식 규칙 반영 0건; 개정 후 영향 업무만 재평가",
+      "package": "ON-W06",
+      "existingTests": [
+        "GAI-T03",
+        "GAI-T12"
+      ],
+      "sourceIds": [
+        "L01",
+        "L08"
+      ]
+    },
+    {
+      "id": "OT12",
+      "title": "효과·운영 전환",
+      "input": "현업 독립 정답·정상/예외 층화·기존 방식 병행",
+      "criterion": "중요 오류 게이트 통과 후 총시간·재작업·오거부·운영비 비교",
+      "package": "ON-W06",
+      "existingTests": [
+        "GAI-T12"
+      ],
+      "sourceIds": [
+        "L04",
+        "L03"
+      ]
+    }
+  ],
+  "acceptanceNote": "OT01~12는 기존 GAI 시험을 구체화한 세부 시나리오. TS 시험 결과가 아닌 시험 설계. 분모·중요 오류·시간·비용 목표는 실증 전 합의; 표본 내 0건을 전체 위험 0으로 해석 금지.",
+  "phases": [
+    [
+      "M1–M3",
+      "ON-W01·02",
+      "직제·개인 배정·업무유형·정책 원천 대조, CQ01~08 정답·필수서류 정의",
+      "기관·부서 소유자와 버전 기준선 수락"
+    ],
+    [
+      "M3–M5",
+      "ON-W03·04",
+      "맥락 조합·충족 검사·권한 판정·보완 재개 구현",
+      "OT01~06·10 격리 시험"
+    ],
+    [
+      "M6–M7",
+      "ON-W05·06",
+      "ST-10 검토·ST-12 인계 병행 실증, 협업·결과 대사",
+      "OT07~12·독립 총시간·오류 평가"
+    ],
+    [
+      "M8–M9",
+      "공통 인수",
+      "정책 회수·재동기화·장애 복구·운영 책임 인계",
+      "기존 GAI-T01~12 인수 후 부서별 확장"
+    ]
+  ],
+  "measures": [
+    [
+      "업무 맥락 정확도",
+      "정답 업무유형·배정·자료범위가 모두 일치한 업무건 / 평가 업무건"
+    ],
+    [
+      "중요 누락 재현율",
+      "탐지한 중요 누락 / 정답 중요 누락"
+    ],
+    [
+      "불필요 보완 비율",
+      "충족 자료가 있는데 재요청한 건 / 전체 보완 요청"
+    ],
+    [
+      "인계 완결률",
+      "정답 인수자·필수자료·수락이 일치한 건 / 인계 대상"
+    ],
+    [
+      "총 처리시간",
+      "요청~유효 종결 경과시간과 실제 검토·보완 투입시간의 분리 계측"
+    ],
+    [
+      "운영 부담",
+      "완료 업무건당 모델·문서처리 비용 + 사람 보완·장애 처리시간"
+    ]
+  ],
+  "bookAdaptation": [
+    [
+      "공통 Context·Action·Governance",
+      "표준 ID·업무 계약·정책 엔진·원천 결과 대사로 구체화"
+    ],
+    [
+      "사용자 권한 상속",
+      "사용자·agent 위임·자료·목적·현재 정책의 교집합으로 제한"
+    ],
+    [
+      "신뢰 점수 기반 자율화",
+      "독립 업무 정답·중요 오류·오거부·복구 검증을 통한 단계 전환"
+    ],
+    [
+      "사람 수정의 즉시 학습",
+      "개선 후보 등록 → 소관 검토 → 버전 배포 → 영향 평가"
+    ],
+    [
+      "모든 상태 변경 롤백",
+      "되돌림 가능 행위와 외부 발송·처분 등의 정정 절차 분리"
+    ],
+    [
+      "80/20 재사용·효율 예시",
+      "기존 설치본·계약·사용권·실측시간 대조에 따른 TS별 산정"
+    ]
+  ],
+  "contracts": [
+    {
+      "id": "IF01",
+      "name": "업무 맥락 조회",
+      "interface": "POST /context/resolve",
+      "input": "SSO에서 검증된 subject / caseId / businessDate / requestedAction",
+      "output": "assignmentIds, workTypeVersion, contextRevision, permittedEvidenceIds, unresolvedFacts, sourceFreshness",
+      "failure": "AMBIGUOUS_ASSIGNMENT / STALE_SOURCE / ACCESS_DENIED",
+      "rule": "subject는 클라이언트의 사번 문자열을 신뢰하지 않고 서버 인증 컨텍스트 사용"
+    },
+    {
+      "id": "IF02",
+      "name": "자료 충족 검사",
+      "interface": "POST /cases/{caseId}/requirements:check",
+      "input": "expectedCaseVersion / workTypeVersion / evidenceVersionIds",
+      "output": "requirementId별 satisfied|missing|inaccessible|stale|conflicting / reason / requestTo / blocking",
+      "failure": "CASE_MISMATCH / VERSION_CONFLICT / SOURCE_UNAVAILABLE",
+      "rule": "해당 원천의 수집 완료·조회 권한 확인 후에만 missing 판정"
+    },
+    {
+      "id": "IF03",
+      "name": "협업 수락",
+      "interface": "POST /collaborations/{id}/accept",
+      "input": "expectedVersion / authenticatedAcceptor / deliverableScope / dueAt",
+      "output": "acceptedBy / acceptedAt / acceptedScope / collaborationVersion",
+      "failure": "ROLE_EXPIRED / SCOPE_MISMATCH / ALREADY_CHANGED",
+      "rule": "전송 응답과 분리된 수락 이벤트, 동일 버전에 대한 수락만 허용"
+    },
+    {
+      "id": "IF04",
+      "name": "제한된 행위 실행",
+      "interface": "POST /actions/execute",
+      "input": "caseId / actionType / inputHash / approvedHash / expectedCaseVersion / delegationId / idempotencyKey",
+      "output": "actionId / accepted|running|unknown|succeeded|failed / sourceTransactionId / verifiedAt",
+      "failure": "POLICY_DENY / APPROVAL_STALE / STATE_CONFLICT / SOURCE_TIMEOUT",
+      "rule": "접수 202·통신 200을 업무 완료로 대용 금지. 게이트웨이에서 권한 재판정 후 원천 상태 조회"
+    }
+  ],
+  "implementationBoundary": "위 인터페이스는 추가 개발 계약안. 이 홈페이지는 설계·근거를 표시하는 정적 기획 사이트이며 실제 인사·문서·업무 API를 호출하지 않음."
+}

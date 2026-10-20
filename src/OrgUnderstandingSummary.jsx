@@ -1,3 +1,4 @@
+import {Link} from './core.jsx';
 import React from 'react';
 import d from './org-platform-2027.cjs';
 import './org-understanding-summary.css';
@@ -7,7 +8,7 @@ function Content(){return <div className="org-context-content">
   <ol className="org-context-steps">{d.requestSteps.map(x=><li key={x}>{x}</li>)}</ol>
   <blockquote className="org-context-example"><small>필수 서류 누락 시 · {d.missingInput.request}</small><p>{d.missingInput.response}</p><footer>{d.missingInput.acceptance}</footer></blockquote>
   <details className="org-context-archive"><summary>일하는 방법을 조직 지식으로 남기는 기록</summary><div>{d.workArchive.map(x=><p key={x.stage}><strong>{x.stage}</strong><span>{x.record}</span></p>)}</div></details>
- </div>;}
+ <Link to="index.html?view=strategy&strategy=ST-04#org-native-design">조직·역할·업무·권한·협업 상세설계 →</Link></div>;}
 
 export function OrgUnderstandingSummary({compact=false}){
  if(compact)return <details id="organization-understanding" className="org-context org-context-compact"><summary><strong>조직을 이해하는 AI</strong><span>기관 전체 + 해당 부서 + 현재 업무건 → 누락 서류 확인·검토 보류</span></summary><Content/></details>;
