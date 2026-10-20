@@ -1,0 +1,43 @@
+import React from 'react';
+import {Link} from './core.jsx';
+import d from './ts-ax-portfolio-2027.cjs';
+import './ts-ax-portfolio.css';
+const Bullets=({items})=><ul>{items.map((s,i)=><li key={i}>{s}</li>)}</ul>;
+const strategyLink=id=>'index.html?view=strategy&strategy='+id;
+export function PortfolioBadge({id}){const p=d.byId[id];return <span className={'axp-badge axp-'+p.priority}>{p.priority} · {d.priorityById[p.priority].label}</span>;}
+export function PortfolioOverview(){return <section className="axp-overview" aria-label="AI혁신처 1차 구축 범위">
+ <div className="axp-overview-head"><div><span className="ux-eyebrow">100건 벤치마킹 → CCK 기술 → TS 업무 적용</span><h2>AI혁신처 · 조직 네이티브 공통 기반</h2></div><Link to={strategyLink('ST-04')+'#task-solution'}>공통 설계·검수 →</Link></div>
+ <p>{d.principle}</p>
+ <div className="axp-common-links">{d.common.map(p=><Link to={strategyLink('ST-04')+'#'+p.id} key={p.id}>{p.title}</Link>)}</div>
+ <ol className="axp-priorities">{d.priorities.map(p=><li key={p.id}><strong>{p.id} · {p.label}</strong><span>{p.strategies.join(' · ')}</span></li>)}</ol>
+ <div className="axp-links"><Link to="index.html?view=strategy#portfolio-method">우선순위·실증 순서 ↓</Link><Link to="downloads/ts-ax-portfolio-2027.md" download>12대 전략 기획안 ↓</Link><Link to="downloads/ts-ax-portfolio-2027.csv" download>개발·검수 비교표 ↓</Link></div>
+ </section>;}
+export function PortfolioMethod(){return <section className="axp-method" id="portfolio-method"><h2>우선순위·확대 기준</h2><p>CCK 기술 적합성 · 공통 의존성 · 자료·정답 확보 · 오류 영향 기준의 기획 우선순위</p>
+ <div className="axp-priority-details">{d.priorities.map(p=><div key={p.id}><h3>{p.id} · {p.label}</h3><p>{p.rule}</p><small>{p.when}</small></div>)}</div>
+ <details><summary>단계별 추진·검수 조건</summary><ol className="axp-roadmap">{d.roadmap.map(p=><li key={p.period}><small>{p.period} · 기획 일정</small><h3>{p.title}</h3><Bullets items={p.items}/><strong>{p.gate}</strong></li>)}</ol><p>기존 9개월 공통 기반 기획에 연결한 상대 일정. P2·P3는 공통 기반 인수 후 별도 부서 범위·자료·책임에 따라 결정.</p></details>
+ <details><summary>CCK 기술 근거·재사용 범위</summary><Technology/></details>
+ <details><summary>기존 기능과 추가 개발의 경계</summary><p>{d.boundary}</p><p>순증 산정 전 기존 요구 ID·배포 버전·사용권·산출물·투입시간 대조. 기존 의무의 미구현분은 기존 수행으로 관리.</p></details>
+ <details><summary>공통 평가 설계·중지 기준</summary><Evaluation/></details>
+ <div className="axp-links"><Link to="index.html?view=platform-cases&tab=insights">100건 종합 시사점 →</Link><Link to="index.html?view=delivery">공통 구축·일정·검수 →</Link></div>
+ </section>;}
+function Technology({items}){const rows=items?items.map(([id,use])=>({...d.technologyById[id],use})):d.technology;return <div className="axp-tech">{rows.map(a=><div key={a.id}><h3>{a.name}</h3><p>{a.use||a.reuse}</p><small>{a.stage} · {a.evidence}</small><dl><dt>TS 추가분</dt><dd>{a.delta}</dd><dt>적용 범위</dt><dd>{a.boundary}</dd></dl></div>)}</div>;}
+function Evaluation(){const e=d.evaluation;return <div className="axp-evaluation"><small>{e.status}</small><dl><dt>평가 표본</dt><dd>{e.population}</dd><dt>정답</dt><dd>{e.truth}</dd><dt>비교 방식</dt><dd>{e.baseline}</dd></dl><Bullets items={e.gates}/><Bullets items={e.formulas}/><p>{e.rules}</p><strong>{e.stop}</strong></div>;}
+function CommonFoundation(){return <section id="axp-common" className="axp-common"><h3>기관 전체 + 해당 부서 + 업무건</h3><div className="axp-layers">{d.layers.map(l=><div key={l.title}><strong>{l.title}</strong><Bullets items={l.items}/><small>{l.owner}</small></div>)}</div><ol className="axp-flow">{d.flow.map((s,i)=><li key={s}><small>{i+1}</small>{s}</li>)}</ol><p>{d.identityRule}</p>
+ <details className="axp-example"><summary>업무 이해·누락자료 요청 예시</summary><dl><dt>요청</dt><dd>{d.missingExample.request}</dd><dt>조직·업무 맥락</dt><dd>{d.missingExample.known}</dd><dt>자료 상태</dt><dd>{d.missingExample.missing}</dd><dt>AI 응답 예시</dt><dd>{d.missingExample.response}</dd><dt>보완 후</dt><dd>{d.missingExample.resume}</dd></dl></details>
+ <h3>공통 개발·산출물·검수</h3><p>공통 산정 ID · {d.foundationId} · 단일 구축·산정</p><div className="axp-common-grid">{d.common.map(p=><section key={p.id} id={p.id}><small>{p.id} · {p.period}</small><h3>{p.title}</h3><dl><dt>기존 재사용</dt><dd>{p.reuse}</dd><dt>추가 개발</dt><dd>{p.add}</dd><dt>산출물</dt><dd>{p.deliverable}</dd><dt>시험</dt><dd>{p.sample}</dd><dt>판정</dt><dd>{p.criterion}</dd></dl><div className="axp-links">{p.tests.map(t=><Link to={'index.html?view=delivery#'+t} key={t}>{t}</Link>)}</div><small>{p.lead}</small></section>)}</div><div className="axp-delta"><strong>{d.byId['ST-04'].effect}</strong><p>{d.byId['ST-04'].metric}</p><small>TS 실측 전 · 반복 설명·보완·인계·재검토를 포함한 총시간 비교</small></div><details><summary>독립 평가·효과 측정 기준</summary><Evaluation/></details></section>;}
+function EvidenceCards({rows}){return <div className="axp-case-grid">{rows.map(ref=>{const c=d.caseById[ref.id];return <article key={ref.id}><small>{ref.id} · {c.verdict}</small><h3><Link to={d.caseLink(ref.id)}>{c.title} →</Link></h3><p>{c.observed}</p><strong>설계 반영 · {ref.role}</strong><small>{c.sources[0].locator}</small></article>;})}</div>;}
+export function PortfolioDetail({id,showContext=true}){const p=d.byId[id];return <div className="axp-detail" data-strategy={id}>
+ <div className="axp-detail-title"><PortfolioBadge id={id}/><small>{d.status} · {d.date}</small><h3>{p.name}</h3><p>{p.scope}</p></div>
+ {showContext&&<div className="axp-context"><strong>{p.strategy}</strong><div className="axp-links">{p.departments.map(o=><Link to={'index.html?view=organization&org='+o.code} key={o.code}>{o.name}</Link>)}</div><Link to={strategyLink(id)+'#task-duty'}>관계법령·직무·실제 업무 →</Link></div>}
+ <div className="axp-compare"><div><small>AS-IS · 업무 병목</small><p>{p.problem}</p></div><div><small>TO-BE · 1차 적용 범위</small><p>{p.scope}</p></div></div>
+ <dl><dt>업무 주관안</dt><dd>{p.leader.name} · {p.id==='ST-04'?'공통 구축·성과 조정':'현업 기준·정답·수락 / AI혁신처 공통 기반·연계 조정'}</dd><dt>우선순위 근거</dt><dd>{p.reason}</dd><dt>착수 조건</dt><dd>{d.priorityById[p.priority].when}</dd></dl>
+ <ol className="axp-flow">{p.flow.map((s,i)=><li key={s}><small>{i+1}</small>{s}</li>)}</ol>
+ {id==='ST-04'?<CommonFoundation/>:<>
+ <section className="axp-section"><h3>CCK 재사용 → TS 추가 개발</h3><Technology items={p.assets}/><div className="axp-delta"><strong>추가 개발 · {p.requirement}</strong><Bullets items={p.delta}/><p>{p.output}</p><small>공통 기반 {p.foundation} 재사용 · 부서별 사전·어댑터·평가셋의 차이만 산정</small></div></section>
+ <section className="axp-section"><h3>검수 → 기대효과</h3><div className="axp-compare"><div><strong>{p.test} · 검수 설계</strong><dl><dt>시험 입력</dt><dd>{p.sample}</dd><dt>판정 기준</dt><dd>{p.pass}</dd><dt>증적</dt><dd>동결 정답표·원문 위치·입출력 로그·검토 수정·재시험 결과</dd></dl></div><div><strong>{p.effect}</strong><p>{p.metric}</p><small>TS 실측 전 · 동일 난도·범위의 기존 방식 대비 생성·검토·보완·인계 총시간 측정</small><p>{p.boundary}</p></div></div><details><summary>공통 기반·검수 연결</summary><div className="axp-links">{p.packages.map(w=><Link key={w} to={strategyLink('ST-04')+'#'+w}>{w}</Link>)}{p.commonTests.map(t=><Link to={'index.html?view=delivery#'+t} key={t}>{t}</Link>)}</div><Evaluation/></details></section></>}
+ <section className="axp-section"><h3>벤치마킹에서 채택한 설계</h3><EvidenceCards rows={p.cases}/><details><summary>전략 연결 사례 전체 {p.allCaseIds.length}건</summary><div className="bm-related-grid">{p.allCaseIds.map(cid=><Link key={cid} to={d.caseLink(cid)}><small>{cid} · {d.caseById[cid].verdict}</small><strong>{d.caseById[cid].title}</strong></Link>)}</div></details></section>
+ <footer className="axp-foot"><p>업무분장 원문과 솔루션 주관·협업 제안의 구분. 개별 전결·위임·사용권·배포본은 적용 전 대조.</p><div className="axp-links"><Link to="downloads/ts-ax-portfolio-2027.md" download>전체 기획안 ↓</Link><Link to="index.html?view=strategy#portfolio-method">우선순위·추진 순서 →</Link></div></footer>
+ </div>;}
+export function PortfolioSynthesis(){return <section className="axp-synthesis"><header><span className="ux-eyebrow">100건 종합 · {d.date}</span><h2>CCK 기술 기반 TS AX 전략</h2><p>조직 네이티브 공통 기반 → 11개 부서별 후속 서비스 → 업무효과 검증</p></header><div className="axp-counts">{Object.entries(d.counts).map(([k,v])=><span key={k}>{k} <b>{v}</b></span>)}</div><p className="axp-foot">도입·운영과 효과 입증의 구분 · 사례의 성과율·TS 예상 절감률로 환산 제외</p>
+ <div className="axp-findings">{d.findings.map(f=><article key={f.id}><h3>{f.title}</h3><p>{f.finding}</p><dl><dt>CCK 설계 방향</dt><dd>{f.decision}</dd><dt>검증</dt><dd>{f.check}</dd></dl><div className="axp-links">{f.cases.map(id=><Link to={d.caseLink(id)} key={id}>{id} · {d.caseById[id].title}</Link>)}</div></article>)}</div>
+ <h3>12대 전략과제별 솔루션</h3><div className="axp-plan-list">{d.plans.map(p=><Link key={p.id} to={strategyLink(p.id)+'#task-solution'}><PortfolioBadge id={p.id}/><strong>{p.id} · {p.name}</strong><span>{p.leader.name}</span></Link>)}</div><div className="axp-links"><Link to="index.html?view=strategy">12대 전략·공통 기반 →</Link><Link to="downloads/ts-ax-portfolio-2027.md" download>기획안·100건 연결 근거 ↓</Link></div></section>;}

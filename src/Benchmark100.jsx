@@ -38,7 +38,7 @@ export function Benchmark100({platform=false,initialId}){
      <li><strong>추가 개발</strong><p>{row.delta}</p></li>
      <li><strong>검수</strong><p>{row.acceptance}</p></li>
      <li><strong>기대효과</strong><p>{row.localEffect}</p></li>
-    </ol><div className="bm-strategies">{row.strategies.map(id=><Link key={id} to={'index.html?view=casebook&tab=strategy&strategy='+id}>{id} · {data.coverage.find(s=>s.id===id)?.title}</Link>)}</div>
+    </ol><div className="bm-strategies">{row.strategies.map(id=><Link key={id} to={'index.html?view=strategy&strategy='+id+'#task-solution'}>{id} · {data.coverage.find(s=>s.id===id)?.title}</Link>)}</div>
     <details><summary>조직·직무 근거 및 적용 조건</summary>{row.tsOrgCodes.map(code=>{const o=data.org(code);return <div key={code}><h4>{o.name}</h4><Bullets items={o.duties}/><small>{o.locator} · {o.effectiveDate}</small></div>;})}<p>{data.organizationBoundary}</p><p>{data.capabilityBoundary}</p><p>{row.measurementNote}</p></details></section>
     <footer className="bm-section"><h3>근거·확인 범위</h3><p>{row.sourceLevel} · {row.evidenceReview}</p><SourceLinks row={row}/><small>{row.limit}</small></footer>
    </article></div>:<p className="ax-list-empty">조건에 맞는 사례 없음</p>}

@@ -24,8 +24,8 @@ const output=process.env.QA_OUTPUT||'.';
   await page.evaluate(()=>window.scrollTo(0,0));await page.screenshot({path:path.join(output,'benchmark-desktop.png')});
   await page.getByRole('navigation',{name:'주 메뉴'}).getByRole('link',{name:'전략과제 사례집',exact:true}).click();await page.locator('#benchmark-detail').waitFor();
   assert.ok(await page.evaluate(()=>window.__sidebar===document.getElementById('workspace-sidebar')),'좌측 메뉴 DOM 유지');
-  await page.getByRole('button',{name:'12대 전략 매핑',exact:true}).click();await page.locator('.bm-related-grid').waitFor();assert.ok(await page.locator('.bm-related-grid a').count()>0);
-  await page.locator('.bm-related-grid a').first().click();await page.locator('#benchmark-detail').waitFor();assert.ok(await page.evaluate(()=>window.__sidebar===document.getElementById('workspace-sidebar')));
+  await page.getByRole('button',{name:'12대 전략 매핑',exact:true}).click();await page.locator('.axp-detail').waitFor();assert.ok(await page.locator('.axp-case-grid a').count()>0);
+  await page.locator('.axp-case-grid a').first().click();await page.locator('#benchmark-detail').waitFor();assert.ok(await page.evaluate(()=>window.__sidebar===document.getElementById('workspace-sidebar')));
   for(const suffix of ['md','csv','json']){const response=await page.request.get(base+'downloads/ts-benchmark-100.'+suffix);assert.equal(response.status(),200);assert.ok((await response.body()).length>10000);}
   await page.setViewportSize({width:390,height:844});await page.goto(base+'index.html?view=casebook&case=BM-101');await page.locator('#benchmark-detail').waitFor();await page.evaluate(()=>document.fonts.ready);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),'모바일 가로 넘침');await page.screenshot({path:path.join(output,'benchmark-mobile.png')});
   assert.deepEqual(errors,[]);fs.writeFileSync(path.join(output,'benchmark-browser-qa.json'),JSON.stringify({result:'pass',base,cases:100,checks:['전수 본문 표시','검색·빈 결과','전략 필터','원문 이미지·확대','좌측 메뉴 유지','전략 연결','내려받기','Pretendard 15px','모바일 가로 넘침'],style,errors,checked:new Date().toISOString()},null,2));console.log('브라우저 통과: 100건 전수 표시·필터·도면·공통 UI·전략·다운로드');
