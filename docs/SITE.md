@@ -138,3 +138,8 @@ TS 홈페이지 탐색 방식 반영: [내비게이션·메뉴·자료 등록 �
 - `src/strategy-prompt-storage.cjs`: 전략별 localStorage 버전 1. 서버 전송·계정 공유 없음. 손상본 자동 덮어쓰기 방지·저장 실패 안내
 - 전문 MD·전략 매핑 CSV에 동일 데이터 반영. 기존 PPT는 개요 자료로 유지
 - 검증: `scripts/check-case-insights.cjs`를 기존 `check-casebooks.cjs`에서 실행
+
+
+## 2026-10-20 조직 업무·전략 모듈·DRT 설계
+
+[변경·근거·검증 기록](ORG_MODULES_DRT_20261020.md). ST-04 공통 실행 설계 및 workOrg별 시나리오, ST-08 DRT 사업·서비스 설계, 12전략 모듈 연결.

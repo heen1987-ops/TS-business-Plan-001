@@ -24,6 +24,7 @@ require('./export-benchmark-100.cjs')(path.join(out,'downloads'));
 require('./export-ts-ax-portfolio.cjs')(path.join(out,'downloads'));
 require('./export-org-native-literature.cjs')(path.join(out,'downloads'));
 require('./export-ts-org-scenarios.cjs')(path.join(out,'downloads'));
+require('./export-ts-org-modules.cjs')(path.join(out,'downloads'));
 require('./export-casebook-synthesis.cjs')(path.join(out,'downloads'));
 require('./export-case-architecture-atlas.cjs')(path.join(out,'downloads'));
 require('./export-growth-ai.cjs')(path.join(out,'downloads'));
