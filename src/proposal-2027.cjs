@@ -22,6 +22,18 @@ source.blocks.splice(mappingIndex+2,0,
 source.blocks.splice(source.blocks.indexOf('## 3.6 AI혁신처 1차 구축 묶음과 협업·검수'),0,'### 직제시행세칙 적용 보완',mapping.ruleBasis.notes.map(n=>'- '+n).join('\n'),mapping.table(['부서·코드','별표4 근거','규정상 업무분장','효력·적용조건'],mapping.rows.map(r=>[r.path+' / '+r.code,r.rule.locator||r.rule.status,r.rule.duties.join(' / ')||'별도 확인 필요',(r.rule.effectiveDate||'미확인')+' / '+(r.rule.restriction||r.rule.status)])));
 const strategies=require('./strategy-solutions-2027.cjs');
 source.blocks.splice(source.blocks.indexOf('## 3.5 공식 조직·담당업무 기반 부서별 상세 매핑'),0,'### 12대 전략과제 기반 솔루션 구성','- 업무 도출: 부처·기관 → 관계법령 → 업무·담당 조직 → 전략과제 → AI 지원\n- ST-04 조직 네이티브 AI 공통 기반의 선행 구축·단일 산정\n- 1차 대표 검증과 후속 업무 전용 개발의 분리',mapping.table(['전략과제','솔루션 구성안 / 단계','공통 구축·검수'],strategies.rows.map(r=>[r.id+' '+r.strategy,r.solution+' / '+r.phase,r.packages.join(' · ')+' / '+r.tests.join(' · ')])),'- [전략·법령·업무·조직·솔루션·검수 매핑 전문](https://heen1987-ops.github.io/TS-business-Plan-001/downloads/ts-strategy-solutions-2027.md)');
+// 화면과 전문이 동일한 단계·차분·검수 원장을 사용한다.
+const phasePlan=require('./delivery-plan.cjs');
+function addBefore(heading,blocks){const i=source.blocks.indexOf(heading);if(i<0)throw Error('제안서 개정 위치 누락: '+heading);source.blocks.splice(i,0,...blocks);}
+addBefore('## 1.2 추진 배경',['## 1.1.1 1차 구축과 후속 적용',phasePlan.tables.phases(),phasePlan.pilot]);
+addBefore('# 3 조직 특성 부서 직무 역할 매핑',['## 2.4 목표·계획·실행 모델',phasePlan.execution,phasePlan.executionBoundary,require('./ts-org-module-design.cjs').core.map(m=>'- '+m.id+' '+m.name+': '+m.process+' / 납품: '+m.output+' / 연결: '+m.packages.join(' · ')).join('\n')]);
+addBefore('# 5 조직 네이티브 AI 기술 구현안',['## 4.3 1차 작업별 재사용·차분·검수',phasePlan.tables.core()]);
+addBefore('# 7 추진 일정과 수행 체계',['## 6.3 전략별 후속 적용 모듈',phasePlan.priority,phasePlan.tables.followup(),'## 6.4 ST-08 DRT 사업 범위',phasePlan.drtNeed,phasePlan.drtScope,phasePlan.drtReuse,phasePlan.drtEffect]);
+addBefore('# 8 검수 기준과 품질 평가',['## 7.4 후속 착수·DRT 단계 일정',phasePlan.followupSchedule,phasePlan.tables.drtGates()]);
+addBefore('# 9 산출물과 사업관리',['## 8.6 DRT 후속 검수',phasePlan.tables.drtTests(),phasePlan.drt.acceptanceNote||phasePlan.note,'## 8.7 기대효과와 측정',phasePlan.tables.measures()]);
+addBefore('# 11 요구 대응과 기존 기획 추적표',['## 10.3 단계별 비용·책임',phasePlan.cost,phasePlan.responsibility]);
+addBefore('## 13.2 사용 근거',['## 13.1.1 DRT 추진 전 확인',phasePlan.drt.issues.map(x=>'- '+x).join('\n')]);
+source.blocks.push('## 13.3 조직 실행·DRT 설계 근거',phasePlan.evidence,...phasePlan.drt.evidence.map(x=>'['+x.title+']('+x.url+') · '+x.checked+' · '+x.locator+' · '+x.fact+' / '+x.use));
 const growth = require('./growth-ai.cjs');
 const annual = require('./annual-work-2027.cjs');
 
@@ -53,13 +65,14 @@ const bundles = table('## 3.3 업무별 물량과 선택 조건').rows.map(([nam
 const downloads = [
   {to:'downloads/ts-2027-proposal.md',label:'제안서 전문 · Markdown',download:true},
   {to:'downloads/ts-2027-proposal.html',label:'제안서 전문 · 인쇄용 HTML',download:true},
+  {to:'downloads/ts-2027-phase-plan.csv',label:'단계·재사용·개발·검수 연결표 · CSV',download:true},
   {to:'downloads/ts-2027-proposal-trace.csv',label:'개발·검수 연결표 · CSV',download:true}
 ];
 module.exports = {
  source,chapters,requirements,tests,bundles,downloads,table,
  title:"TS 조직 네이티브 AI 플랫폼 · 2027 사업 제안",
  navTitle:'TS 2027 사업 제안서 초안',
- eyebrow:"PROPOSAL DRAFT · 2026.10.16 · v0.3",
+ eyebrow:"PROPOSAL DRAFT · 2026.10.20 · v0.5",
  subtitle:"조직마다 다른 임무·책임·관할·업무 방식을 플랫폼에 연결합니다. 공식 조직정보로 사용자와 역할을 이해하는 기반을 먼저 인수합니다.",
  trace:orgPlatform.chain,
  intro:source.blocks[1].replaceAll('**',''),
@@ -82,7 +95,7 @@ module.exports = {
  mappingNote:'부서와 역할은 적용 후보입니다. 개인별 배정·전결·자료 접근권한은 공식 원천과 업무 책임자의 확인을 거쳐 확정합니다.',
  reuse:table('## 4.1 재사용 원칙'),
  timeline:table('## 7.1 9개월 추진 일정안').rows.map(([period,work,gate])=>({period,work,gate})),
- timingNote:'착수일부터 최대 9개월을 제안하며 2027년 말까지 인수하도록 조정합니다. 실제 착수일 지연 시 범위·일정을 다시 합의합니다.',
+ timingNote:'1차 공통 기반은 착수일부터 최대 9개월 제안. 달력상 완료일은 착수일·물량에 따라 합의하며 후속 DRT·부서 모듈 일정은 별도 산정.',
  gates:section('## 7.2 단계별 통과 조건').filter(b=>b.startsWith('- ')).map(b=>b.slice(2).replaceAll('**','')),
  acceptanceNote:section('## 8.1 검수 구성').slice(0,2).map(s=>s.replace(/\[([^\]]+)\]\([^)]+\)/g,'$1').replaceAll('**','')),
  legacyTests:table('## 8.3 선정 업무별 검수'),
