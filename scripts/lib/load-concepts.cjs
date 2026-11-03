@@ -18,6 +18,7 @@ function renderMarkdown(body){
  const lines=body.trim().split(/\r?\n/),parts=[];
  for(let i=0;i<lines.length;i++){
   const line=lines[i].trim();if(!line)continue;
+  if(/^<!-- v1\.2-case-expansion:(?:start|end) -->$/.test(line))continue;
   if(/^#{1,6}\s/.test(line)){const m=line.match(/^(#{1,6})\s+(.+)$/),level=Math.min(6,m[1].length+1);parts.push(`<h${level}>${inline(m[2])}</h${level}>`);continue;}
   if(line.startsWith('|')){
    const rows=[];

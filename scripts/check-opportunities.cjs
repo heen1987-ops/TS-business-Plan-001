@@ -1,11 +1,17 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),os=require('node:os'),crypto=require('node:crypto');
 const {loadConcepts,parseConcept,renderMarkdown}=require('./lib/load-concepts.cjs');
 const plan=require('../src/opportunity-plan.cjs');
+const cases=require('../src/asis-tobe-v12.cjs');
 const rows=loadConcepts(),routes=require('../site-routes.json');
 assert.equal(rows.length,38,'v1.1 검토대상 38개 컨셉 보존');
 assert.deepEqual(plan.areas.map(a=>a.id),['infrastructure','knowledge','services']);
 assert.deepEqual(plan.roadmap.map(r=>r.year),['2026','2027','2028','2029','2030']);
 assert.equal(plan.topics.length,5);
+assert.equal(plan.meta.version,'v1.2');
+assert.equal(cases.cases.length,10);
+for(const area of plan.areas)assert.ok(cases.cases.filter(c=>c.area===area.id).length>=3);
+for(const c of cases.cases){for(const key of ['confirmed','unknown','problem','scenario','tobe','result','exception','enhance','new','integrate','next','measure'])assert.ok(c[key],c.id+' '+key);assert.ok(rows.some(r=>r.id===c.concept));assert.ok(c.sources.length&&c.sources.every(id=>cases.sources[id]?.url&&cases.sources[id]?.checked));}
+assert.match(fs.readFileSync('dist/downloads/ts-asis-tobe-cases-v1.2.md','utf8'),/AS-IS.*TO-BE/s);
 for(const area of plan.areas)for(const type of plan.workTypes)assert.ok(area[type.id].length>0);
 const ids=plan.areas.flatMap(a=>a.tasks);
 assert.equal(new Set(ids).size,16);
@@ -20,6 +26,9 @@ for(const r of rows){
  assert.equal(crypto.createHash('sha256').update(downloaded).digest('hex'),r.sha256,'MD 원문 무결성: '+r.id);
  assert.ok(indexText.includes(encodeURIComponent(r.filename)),'목록 연결: '+r.id);
  assert.ok(r.sources.every(s=>s.checkedAt||s.publishedAt),'출처 시점: '+r.id);
+ assert.match(r.markdown,/사례 기반 AS-IS → TO-BE 상세/,'상세 기획: '+r.id);
+ for(const marker of ['확인된 범위','현장 검증 필요','TS 검토 시나리오','행동·전환 과제','완료 판단','조건부 차세대사업','업무별 2026~2030'])assert.ok(r.markdown.includes(marker),r.id+' '+marker);
+ assert.doesNotMatch(r.html,/v1\.2-case-expansion/,'작성 표식 비노출: '+r.id);
  assert.doesNotMatch(r.markdown,/수주액|계약금액|JWT|API[_-]?KEY\s*[:=]/i);
 }
 for(const r of plan.roadmap)for(const field of ['infrastructure','knowledge','services','gate'])assert.ok(r[field]);
@@ -41,4 +50,4 @@ try{
 }finally{for(const name of fs.readdirSync(temp))fs.unlinkSync(path.join(temp,name));fs.rmdirSync(temp);}
 assert.ok(!fs.existsSync('dist/downloads/concepts/coverage.local.json'));
 assert.equal(fs.readdirSync('dist/downloads/concepts').length,rows.length+1);
-console.log(`사업기회 v1.1 통과: ${rows.length}개 MD 원문·출처시점·12전략·16과제·3영역·5개년·다운로드 무결성·공개경계`);
+console.log(`사업기회 v1.2 통과: ${rows.length}개 MD 원문·출처시점·12전략·16과제·3영역·5개년·다운로드 무결성·공개경계`);

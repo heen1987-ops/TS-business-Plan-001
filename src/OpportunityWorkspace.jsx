@@ -3,9 +3,10 @@ import {ArrowRight,ArrowLeft,Download,Search,RotateCcw,ExternalLink} from 'lucid
 import {Link,navigate} from './core.jsx';
 import {PageFrame} from './PageFrame.jsx';
 import plan from './opportunity-plan.cjs';
+import {AsisTobeCases} from './AsisTobeCases.jsx';
+import concepts from './opportunity-concepts.js';
 import './opportunity-workspace.css';
 
-const concepts=__TS_CONCEPTS__;
 const catalog=Array.isArray(concepts)?concepts:concepts.items||[];
 const stages=[['foundation','공통 기반'],['pilot','우선 실증 후보'],['expand','조건부 확산'],['research','연구 검토'],['hold','선행조건 확인']];
 const stageLabel=id=>stages.find(([key])=>key===id)?.[1]||id;
@@ -77,10 +78,10 @@ export function OpportunityWorkspace(){
  const change=(changes,hash='#opp-catalog')=>navigate(routeWith(changes,hash));
  const reset=()=>{setDraft('');change({q:null,area:null,stage:null,concept:null});};
  const invalidArea=area&&!plan.areas.some(item=>item.id===area),invalidStage=stage&&!stages.some(([id])=>id===stage);
- const actions=<><a href="#opp-areas">3개 영역</a><a href="#opp-roadmap">2030 로드맵</a><a href="#opp-catalog">컨셉별 사업기회</a><Link to={'downloads/concepts/'+encodeURIComponent('00_사업기회_목록.md')} download><Download size={16} aria-hidden="true"/> MD 목록</Link></>;
+ const actions=<><a href="#opp-asis-tobe">사례별 AS-IS → TO-BE</a><a href="#opp-areas">3개 영역</a><a href="#opp-roadmap">2030 로드맵</a><a href="#opp-catalog">컨셉별 사업기회</a><Link to={'downloads/concepts/'+encodeURIComponent('00_사업기회_목록.md')} download><Download size={16} aria-hidden="true"/> MD 목록</Link></>;
  return <PageFrame className="opp-page" eyebrow={plan.meta.version+' · '+plan.meta.date} title={plan.meta.title} description={plan.meta.subtitle} actions={actions}>
   <p className="opp-status">{plan.meta.status}</p>
-  <AreaMatrix/><Roadmap/>
+  <AsisTobeCases/><AreaMatrix/><Roadmap/>
   <section className="opp-section" id="opp-catalog" aria-labelledby="opp-catalog-title">
    <div className="opp-section-head"><h2 id="opp-catalog-title">컨셉별 사업기회</h2><span role="status" aria-live="polite">{rows.length}개 / 전체 {catalog.length}개</span></div>
    <form className="opp-filters" onSubmit={event=>{event.preventDefault();change({q:draft.trim()||null});}}>
