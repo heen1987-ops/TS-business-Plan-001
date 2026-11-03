@@ -1,4 +1,5 @@
 import {PortfolioOverview,PortfolioBadge,PortfolioDetail,PortfolioMethod} from './TsAxPortfolio.jsx';
+import {OpportunityTeaser} from './OpportunityWorkspace.jsx';
 import portfolio from './ts-ax-portfolio-2027.cjs';
 import React,{useState} from 'react';
 import {Search,ArrowUpRight,ArrowLeft,ArrowRight,Download,ShieldCheck,Route,Layers,Building2} from 'lucide-react';
@@ -38,7 +39,7 @@ export function StrategyWorkspace(){
  if(selected)return <TaskDetail row={selected}/>;
  return <article className="on-page ux-home" id="organization-platform">
  <header className="ux-home-head"><div><span className="ux-eyebrow">TS 2027 · 조직 기반의 AI 고도화</span><h1>12대 전략과제</h1><p>법령·부서·업무 → CCK 기술 → 추가 개발·검수·기대효과</p></div><Link className="ux-download" to="downloads/ts-ax-portfolio-2027.csv" download><Download size={16}/> 전체 매핑표</Link></header>
- <PortfolioOverview/><div className="ux-searchbar"><label><Search size={19} aria-hidden="true"/><span className="ux-sr">전략과제·부서·업무 검색</span><input type="search" placeholder="전략과제, 부서 또는 업무 검색" value={query} onChange={e=>setQuery(e.target.value)}/></label><label className="ux-phase-filter"><span className="ux-sr">추진 단계</span><select aria-label="추진 단계" value={phase} onChange={e=>setPhase(e.target.value)}><option value="">전체 추진 단계</option><option value="common">1차 공통 기반</option><option value="department">부서별 후속 적용</option><option value="P1">P1 우선 실증</option><option value="P2">P2 부서 확장</option><option value="P3">P3 서비스 연계</option></select></label></div>
+ <OpportunityTeaser/><PortfolioOverview/><div className="ux-searchbar"><label><Search size={19} aria-hidden="true"/><span className="ux-sr">전략과제·부서·업무 검색</span><input type="search" placeholder="전략과제, 부서 또는 업무 검색" value={query} onChange={e=>setQuery(e.target.value)}/></label><label className="ux-phase-filter"><span className="ux-sr">추진 단계</span><select aria-label="추진 단계" value={phase} onChange={e=>setPhase(e.target.value)}><option value="">전체 추진 단계</option><option value="common">1차 공통 기반</option><option value="department">부서별 후속 적용</option><option value="P1">P1 우선 실증</option><option value="P2">P2 부서 확장</option><option value="P3">P3 서비스 연계</option></select></label></div>
  <div className="ux-filter-row"><div className="ux-filter-chips" aria-label="전략방향 필터"><button onClick={()=>setDirection('')} aria-pressed={!direction}>전체</button>{d.directions.map((name,i)=><button key={name} onClick={()=>setDirection(name)} aria-pressed={direction===name}>{shortDirections[i]}</button>)}</div><span role="status">{rows.length}개 과제</span></div>
  {law&&<p className="ux-filter-note">{laws.records.find(l=>l.id===law)?.title||law} 연결 과제 · <Link to="index.html">전체 보기</Link></p>}
  {requested&&!selected&&<p role="status" className="ux-filter-note">등록되지 않은 과제 · 전체 목록 표시</p>}

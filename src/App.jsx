@@ -8,6 +8,7 @@ import {DutyWorkspace} from './DutyWorkspace.jsx';
 import planning2027 from './planning-2027.cjs';
 import {MandateWorkspace} from './MandateWorkspace.jsx';
 import {StrategyWorkspace} from './StrategyWorkspace.jsx';
+import {OpportunityWorkspace} from './OpportunityWorkspace.jsx';
 import {OrganizationHeader,OrganizationFooter,OrganizationOverview,OrganizationExplorer,OrganizationPlan,OrganizationArchive} from './OrganizationSite.jsx';
 import {IntegratedHeader,IntegratedReader} from './IntegratedReader.jsx';
 import {ProblemPlanning} from './ProblemPlanning.jsx';
@@ -80,12 +81,14 @@ if(isWorkbench)title='2027년 후속사업 기획 · 기본 탐색';
 const isOrganizationHome=isHome&&((!view&&new URLSearchParams(location.search).has('law'))||view==='law')&&!isMap;
 const isOrganizationArchive=isHome&&view==='archive';
 const isPromptBoard=isHome&&view==='strategy-prompts';
+const isOpportunityWorkspace=isHome&&view==='opportunities';
 const isCasebook=isHome&&['casebook','platform-cases'].includes(view);
 const isProposalPortfolio=isHome&&view==='portfolio';
 const isStrategyWorkspace=isHome&&(!view||view==='strategy'||view==='overview')&&!isOrganizationHome&&!isMap;
 const isOrganizationPage=path==='organization.html'||path==='16_조직도_수행업무_분석.html'||isHome&&view==='organization';
 const isOrganizationPlan=path==='proposal-2027.html'&&view!=='legacy'||isHome&&view==='delivery';
-const isOrganizationExperience=isOrganizationHome||isOrganizationArchive||isOrganizationPage||isOrganizationPlan||isStrategyWorkspace||isProposalPortfolio||isCasebook||isPromptBoard;
+const isOrganizationExperience=isOrganizationHome||isOrganizationArchive||isOrganizationPage||isOrganizationPlan||isStrategyWorkspace||isProposalPortfolio||isCasebook||isOpportunityWorkspace||isPromptBoard;
+if(isOpportunityWorkspace){content=<OpportunityWorkspace/>;title='사업기회·2030 로드맵';}
 if(isPromptBoard){content=<StrategyPromptBoard key={route}/>;title='전략 프롬프트 게시판';}
 if(isCasebook){content=view==='platform-cases'?<PlatformCasebook key={route}/>:<AxCasebook key={route}/>;title=view==='platform-cases'?'AI 플랫폼 구축 사례집':'AX 사례집·12대 전략 매핑';}
 if(isProposalPortfolio){content=<ProposalPortfolio/>;title='제안·관계부처 매핑';}

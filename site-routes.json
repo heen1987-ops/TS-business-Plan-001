@@ -77,5 +77,13 @@
     "proposal-2027.html"
   ],
   "departments": 13,
-  "lawRows": 27
+  "lawRows": 27,
+  "queryViews": [
+    {
+      "path": "index.html",
+      "download": "downloads/concepts/00_사업기회_목록.md",
+      "title": "사업기회·2030 로드맵",
+      "view": "opportunities"
+    }
+  ]
 }
