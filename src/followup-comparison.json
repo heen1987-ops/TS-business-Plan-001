@@ -1,0 +1,701 @@
+{
+  "date": "2026-11-04",
+  "basis": "제공 상세비교 분석의 17개 기능 종합표와 공식 안내. 자료 확인은 실측이 아니며 미확인은 미지원 판정이 아님.",
+  "rows": [
+    {
+      "id": "C01",
+      "title": "웹·연결 자료 검색",
+      "ts": "허용 웹·국가법령정보 API·선택 파일로 조회·답변. 공단 시스템은 대상별 연계 단계가 다름",
+      "chatgpt": "웹 검색·연결 앱 조회 → 출처가 있는 답변",
+      "claude": "웹 검색·커넥터 조회 → 출처가 있는 답변",
+      "gemini": "웹·Gmail·Drive·파일 등 선택 자료 조회 → 답변",
+      "implication": "자료를 가져오는 기능과 해당 사건에 맞는 근거·판본을 확인하는 절차를 연결",
+      "condition": "조회 범위는 자료 권한·앱 연결·관리자 설정에 따라 달라짐.",
+      "sourceIds": [
+        "WEB-01",
+        "WEB-02",
+        "WEB-03",
+        "WEB-22",
+        "WEB-23",
+        "WEB-41",
+        "WEB-42",
+        "WEB-43"
+      ]
+    },
+    {
+      "id": "C02",
+      "title": "심층 조사",
+      "ts": "별도 조사계획·진행·인용 보고서 기능 미확인",
+      "chatgpt": "Deep Research → 조사계획·다중 출처 조사·인용 보고서·MD/Word/PDF",
+      "claude": "Research → 반복 검색·여러 출처 종합·근거 포함 조사 결과",
+      "gemini": "Deep Research → 출처·계획 선택·조사보고서·Docs 내보내기",
+      "implication": "출처 범위·조사계획·주장별 인용·검토 가능한 보고서의 연속 절차를 검토",
+      "condition": "상품·플랫폼·연결 자료 조건 적용. Claude 모바일 Research는 웹만 사용하며 커넥터는 사용하지 않음.",
+      "sourceIds": [
+        "WEB-01",
+        "WEB-02",
+        "WEB-03",
+        "WEB-22",
+        "WEB-23",
+        "WEB-41",
+        "WEB-42",
+        "WEB-43"
+      ]
+    },
+    {
+      "id": "C03",
+      "title": "문서 분석·초안",
+      "ts": "파일 요약·항목 추출. 보도자료·신문고 등 공단 스킬의 초안",
+      "chatgpt": "업로드·연결 자료 분석과 초안·수정",
+      "claude": "파일 분석과 초안·수정, PDF 시각 처리 조건 구분",
+      "gemini": "파일 분석, Canvas 초안·선택 영역·분량·문체 수정",
+      "implication": "요약·초안 이후의 근거 확인·담당자 수정·공식 확정까지 연결",
+      "condition": "파일 분량·형식·스캔·표·시각 처리 범위를 실제 입력으로 확인.",
+      "sourceIds": [
+        "WEB-04",
+        "WEB-05",
+        "WEB-06",
+        "WEB-24",
+        "WEB-25",
+        "WEB-26",
+        "WEB-41",
+        "WEB-44",
+        "WEB-45"
+      ]
+    },
+    {
+      "id": "C04",
+      "title": "한글 공문서·양식",
+      "ts": "HWPX 공문서 생성, HWP/HWPX→form2 변환·표/빈칸 채우기, 간단 편집·저장",
+      "chatgpt": "HWP/HWPX 원본 양식 보존의 공통 기본 경로 미확인",
+      "claude": "HWP/HWPX 원본 양식 보존의 공통 기본 경로 미확인",
+      "gemini": "HWP/HWPX 원본 양식 보존의 공통 기본 경로 미확인",
+      "implication": "기존 한글 기능을 활용하며 같은 원본으로 표·쪽 배치·입력 내용 보존을 검증",
+      "condition": "외부 서비스에 HWP/HWPX 원본 양식 보존의 공통 기본 경로는 미확인. 별도 스킬 구현 가능성과 구분.",
+      "sourceIds": [
+        "WEB-04",
+        "WEB-05",
+        "WEB-06",
+        "WEB-24",
+        "WEB-25",
+        "WEB-26",
+        "WEB-41",
+        "WEB-44",
+        "WEB-45"
+      ]
+    },
+    {
+      "id": "C05",
+      "title": "문서·발표·표 파일",
+      "ts": "확인된 스킬별 파일 생성·드라이브 저장. DOCX/PPTX/EML 미리보기 불가",
+      "chatgpt": "Work에서 문서·표·발표 파일 제작·수정, 연결 Google 문서 반영",
+      "claude": "DOCX/XLSX/PPTX/PDF 제작·수정, 연결 Google 문서 반영",
+      "gemini": "Canvas 작성·편집, 개인 Tasks에서 파일·Google 문서 제작·수정",
+      "implication": "업무가 요구하는 파일 형식·편집·미리보기·검수·보관의 완료 기준을 정의",
+      "condition": "ChatGPT Work·Claude 파일 제작·Gemini Canvas/개인 Tasks의 제공 경로 구분. 조직 연결 문서는 관리자 권한 필요.",
+      "sourceIds": [
+        "WEB-04",
+        "WEB-05",
+        "WEB-06",
+        "WEB-24",
+        "WEB-25",
+        "WEB-26",
+        "WEB-41",
+        "WEB-44",
+        "WEB-45"
+      ]
+    },
+    {
+      "id": "C06",
+      "title": "계산·분석",
+      "ts": "민원 전용 코드 집계·자료 점검·관리자/공유용 보고서·XLSX/CSV/JSON",
+      "chatgpt": "범용 Python 분석·표·계산 코드·정적/대화형 차트",
+      "claude": "코드 분석·수식 Excel·Python·PNG 차트 등",
+      "gemini": "표 분석·차트 편집, 개인 Tasks에서 코드 실행·분석 파일",
+      "implication": "민원 전용 분석과 범용 분석을 구분하고 계산식·분모·제외 기준을 검산",
+      "condition": "제공 기능 확인이며 같은 표본의 계산 정확도·속도 순위는 미실측.",
+      "sourceIds": [
+        "WEB-05",
+        "WEB-25",
+        "WEB-27",
+        "WEB-41",
+        "WEB-45"
+      ]
+    },
+    {
+      "id": "C07",
+      "title": "이미지 내용 이해",
+      "ts": "OCR·비전 검증 완료 보고. 범용 질의의 사용자 입출력 예시 확인 필요",
+      "chatgpt": "사진·화면·도표 분석 → 설명·정보 추출",
+      "claude": "사진·화면·도표 분석 → 설명·정보 추출",
+      "gemini": "사진·화면·도표 분석 → 설명·정보 추출",
+      "implication": "업무별 이미지 입력·판독 결과·원문 위치·불확실성 및 전문가 판단을 확인",
+      "condition": "TS의 OCR·비전 검증 완료 보고와 사용자가 직접 쓸 수 있는 범용 기능은 구분.",
+      "sourceIds": [
+        "WEB-04",
+        "WEB-07",
+        "WEB-27",
+        "WEB-41",
+        "WEB-46"
+      ]
+    },
+    {
+      "id": "C08",
+      "title": "새 이미지·편집",
+      "ts": "URL→QR 생성 기록. 사진·일러스트 생성·편집 미확인",
+      "chatgpt": "ChatGPT Images로 생성·부분 편집·배경 등 수정",
+      "claude": "HTML/SVG 도식·차트·시각화. 사진 생성 모델 기본 제공과 구분",
+      "gemini": "Nano Banana로 이미지 생성·부분 수정·참조 이미지 조합",
+      "implication": "사진 생성·도식·차트·QR을 구분하고 실제 업무 수요와 사용권부터 확인",
+      "condition": "Claude의 코드 시각화와 사진 생성 모델은 다름. 이미지 모델·요금제·해상도 조건 적용.",
+      "sourceIds": [
+        "WEB-04",
+        "WEB-07",
+        "WEB-27",
+        "WEB-41",
+        "WEB-46"
+      ]
+    },
+    {
+      "id": "C09",
+      "title": "영상·음성",
+      "ts": "미디어 재생. STT·녹취 API 확인과 전체 분석업무 완료를 구분",
+      "chatgpt": "음성 파일 전사·요약과 내용 질의. 영상 첨부 분석은 지원 경로 조건. 전용 영상 생성 미확인, Sora 종료",
+      "claude": "일반 영상·음성 파일 분석의 공통 기본 범위 미확인. Motion 설명용 애니메이션 MP4, Team/Enterprise 베타",
+      "gemini": "영상·음성 입력 분석, Omni 영상 생성·편집. 상품·지역 조건",
+      "implication": "재생·전사·영상 분석·설명 애니메이션·생성 영상을 따로 평가",
+      "condition": "Claude Motion은 Team/Enterprise 베타. Gemini 영상 생성·편집은 상품·지역 조건. 기능 경로와 결과 종류를 분리.",
+      "sourceIds": [
+        "WEB-04",
+        "WEB-08",
+        "WEB-09",
+        "WEB-28",
+        "WEB-41",
+        "WEB-47"
+      ]
+    },
+    {
+      "id": "C10",
+      "title": "코딩",
+      "ts": "업무 스킬의 Python 구현 확인. 범용 개발 환경 미확인",
+      "chatgpt": "Codex: 저장소 읽기·소스 수정·명령·테스트·검토",
+      "claude": "Claude Code: 저장소 분석·파일 수정·명령·빌드·테스트",
+      "gemini": "Canvas: 앱·코드 작성, Gemini CLI: 로컬 파일·명령 작업",
+      "implication": "직원 업무 지원과 개발자용 저장소·명령 실행 환경의 권한을 분리",
+      "condition": "Codex·Claude Code·Gemini CLI는 일반 대화와 다른 개발 도구이며 설치·실행·저장소 권한 필요.",
+      "sourceIds": [
+        "WEB-10",
+        "WEB-29",
+        "WEB-30",
+        "WEB-44",
+        "WEB-48"
+      ]
+    },
+    {
+      "id": "C11",
+      "title": "메일",
+      "ts": "메일함 조회·실제 발송 연계 미확인",
+      "chatgpt": "Gmail/Outlook 조회·초안·사용자 발송 선택. 웹·상품 조건",
+      "claude": "Gmail 조회·초안·발송·회신·전달. 승인·조직 정책",
+      "gemini": "조직 Connected Apps는 조회·문안 활용과 제한 확인. 개인 Tasks는 메일 처리·전송 권한 구분",
+      "implication": "메일 문안과 실제 발송을 구분하고 승인·수신자·전송 결과를 확인",
+      "condition": "계정·플러그인·관리자·발송 권한 조건. Gemini 조직 Connected Apps의 제한과 개인 Tasks를 구분.",
+      "sourceIds": [
+        "WEB-11",
+        "WEB-12",
+        "WEB-13",
+        "WEB-26",
+        "WEB-42",
+        "WEB-45",
+        "WEB-49"
+      ]
+    },
+    {
+      "id": "C12",
+      "title": "일정",
+      "ts": "연결 캘린더 조회·등록·변경 미확인",
+      "chatgpt": "Google/Outlook 일정 조회·쓰기. 자원·권한별 범위 구분",
+      "claude": "Google 일정 조회·생성·수정·삭제·참석자·반복 관리",
+      "gemini": "조직 연결 일정 조회·생성·편집, 개인 Tasks의 추가 일정 작업",
+      "implication": "일정 후보와 실제 등록·변경을 구분하고 참석자·권한·중복을 확인",
+      "condition": "대상 캘린더·계정·관리자 정책·쓰기 권한에 따라 제공 범위 상이.",
+      "sourceIds": [
+        "WEB-14",
+        "WEB-12",
+        "WEB-26",
+        "WEB-42",
+        "WEB-45"
+      ]
+    },
+    {
+      "id": "C13",
+      "title": "앱·시스템 연계",
+      "ts": "공단 지정 DB/API. 운영계·개발 PC·구축 중 상태를 대상별 표시",
+      "chatgpt": "플러그인·앱이 제공하는 조회·생성·수정 작업",
+      "claude": "Connector의 조회·쓰기 및 일부 대화 내 조작 화면",
+      "gemini": "계정별 Connected Apps, 개인 Tasks의 앱 작업",
+      "implication": "조회 연결과 대상 시스템 쓰기·공식 결과 확인을 별도로 설계",
+      "condition": "개인용 앱에서 가능한 작업이 공단 시스템에서 바로 허용되는 것은 아님.",
+      "sourceIds": [
+        "WEB-02",
+        "WEB-31",
+        "WEB-32",
+        "WEB-42",
+        "WEB-45",
+        "WEB-49"
+      ]
+    },
+    {
+      "id": "C14",
+      "title": "컴퓨터·브라우저",
+      "ts": "파일 업로드·다운로드. PC 화면 조작 미확인",
+      "chatgpt": "데스크톱 Work의 허용 로컬 앱·파일, 별도 클라우드 브라우저",
+      "claude": "Cowork의 클라우드 작업·허용 로컬 자료. Desktop 화면 조작은 Pro/Max/Ultra 베타, Team/Enterprise 현재 미제공",
+      "gemini": "Tasks의 원격/로컬 Chrome, Mac의 허용 연결 폴더 작업",
+      "implication": "API 우선 대안을 비교하고 필요한 화면 작업에만 격리·중지·사람 인계를 적용",
+      "condition": "로컬 컴퓨터·연결 폴더·원격 브라우저·클라우드 작업은 다른 실행 환경. Claude의 로컬 폴더·브라우저·컴퓨터 접근에는 연결된 Desktop 실행이 필요. Cowork 자체와 컴퓨터 사용의 조직 제공 범위를 구분.",
+      "sourceIds": [
+        "WEB-15",
+        "WEB-16",
+        "WEB-33",
+        "WEB-34",
+        "WEB-49",
+        "WEB-45",
+        "WEB-50"
+      ]
+    },
+    {
+      "id": "C15",
+      "title": "절차 재사용",
+      "ts": "스킬·그룹·프리셋·자동 선택과 수동 호출",
+      "chatgpt": "플러그인·스킬·프로젝트 지침·템플릿. 맞춤 GPT 전환 중",
+      "claude": "Skills·Projects·참조 자료와 템플릿",
+      "gemini": "Skills·참조 자료·여러 스킬 조합. 대화에서는 Google AI 구독 없이 사용 가능. Gems 전환 예정",
+      "implication": "업무 지침·자료·스킬의 등록·검토·판본·재사용 책임을 명확히 연결",
+      "condition": "제품 전환·관리자 정책·업로드 스크립트의 네트워크 제한 등 해당 경로의 조건 확인. Gemini Skills는 18세 이상·Keep Activity 필요. 개인 유료 Tasks와 이용 조건을 분리.",
+      "sourceIds": [
+        "WEB-17",
+        "WEB-18",
+        "WEB-10",
+        "WEB-19",
+        "WEB-02",
+        "WEB-35",
+        "WEB-36",
+        "WEB-37",
+        "WEB-51",
+        "WEB-45",
+        "WEB-40",
+        "WEB-52"
+      ]
+    },
+    {
+      "id": "C16",
+      "title": "예약·이벤트",
+      "ts": "사용자 정의 워크플로는 11월 13일 계획. 범용 예약·이벤트 미확인",
+      "chatgpt": "일회·반복 예약, Gmail/Slack/GitHub 등 지원 이벤트",
+      "claude": "Cowork 주기 예약·회차별 실행·이력. 원격/로컬 조건 구분",
+      "gemini": "개인 Tasks의 시간 예약·Gmail 필터·주제 감시",
+      "implication": "예약·이벤트·절차·실행 이력과 실패 조치를 분리하고 승인된 업무부터 검증",
+      "condition": "TS 워크플로는 제공 일정상 계획이며 완료 근거와 구분. Gemini Tasks는 현재 개인 유료 계정 조건. ChatGPT 예약은 웹·모바일·Desktop과 프로젝트 파일/대화 업로드에 따라 범위가 다르며 모든 파일 접근을 보장하지 않음.",
+      "sourceIds": [
+        "WEB-17",
+        "WEB-18",
+        "WEB-10",
+        "WEB-19",
+        "WEB-02",
+        "WEB-35",
+        "WEB-36",
+        "WEB-37",
+        "WEB-51",
+        "WEB-45",
+        "WEB-40",
+        "WEB-52"
+      ]
+    },
+    {
+      "id": "C17",
+      "title": "결과의 보관·재사용",
+      "ts": "개인·부서 드라이브 저장·다운로드·후속 작업 참조",
+      "chatgpt": "Projects·Work 결과 및 연결 저장 위치 구분",
+      "claude": "Projects·계정에 저장된 Cowork 결과·연결 저장",
+      "gemini": "업로드·Drive·노트북·작업 결과와 Skills 참조 자료",
+      "implication": "결과물 저장과 정본 승인·재사용 권리·갱신·폐기의 생애주기를 연결",
+      "condition": "프로젝트·대화 저장과 원천 파일의 위치·공유권·보존 책임을 별도로 확인.",
+      "sourceIds": [
+        "WEB-20",
+        "WEB-06",
+        "WEB-38",
+        "WEB-33",
+        "WEB-39",
+        "WEB-41",
+        "WEB-51"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "WEB-01",
+      "title": "OpenAI 검색 안내",
+      "url": "https://help.openai.com/en/articles/9237897-searching-the-web-with-chatgpt",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-02",
+      "title": "OpenAI 연결 앱",
+      "url": "https://help.openai.com/en/articles/11487775-connected-apps-in-chatgpt",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-03",
+      "title": "Deep Research",
+      "url": "https://help.openai.com/en/articles/10500283-deep-research-in-chatgpt",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-04",
+      "title": "기능 개요",
+      "url": "https://help.openai.com/en/articles/9260256-chatgpt-capabilities-overview",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-05",
+      "title": "파일 분석",
+      "url": "https://help.openai.com/en/articles/8437071-data-analysis-with-chatgpt",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-06",
+      "title": "Work 문서 제작",
+      "url": "https://help.openai.com/en/articles/20001278-creating-and-editing-documents-spreadsheets-and-presentations-with-chatgpt-work",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-07",
+      "title": "이미지 생성",
+      "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-08",
+      "title": "영상 첨부 안내",
+      "url": "https://help.openai.com/en/articles/8400551-chatgpt-image-inputs-faq",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-09",
+      "title": "Sora 종료 안내",
+      "url": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-10",
+      "title": "Work·Codex 구분",
+      "url": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-11",
+      "title": "메일 업무 사례",
+      "url": "https://learn.chatgpt.com/use-cases/manage-your-inbox",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-12",
+      "title": "Outlook",
+      "url": "https://help.openai.com/en/articles/12512241-outlook-email-and-calendar-apps-in-chatgpt",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-13",
+      "title": "2026.6.8 릴리스 노트",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-14",
+      "title": "Google Calendar 공식 플러그인",
+      "url": "https://chatgpt.com/plugins/plugin_connector_1p_f8509de903288191b14a160c6c5d20b0",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-15",
+      "title": "Work 로컬 작업",
+      "url": "https://learn.chatgpt.com/docs/enterprise/chatgpt-work-local-security",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-16",
+      "title": "브라우저 안내",
+      "url": "https://learn.chatgpt.com/docs/browser",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-17",
+      "title": "플러그인",
+      "url": "https://learn.chatgpt.com/docs/plugins",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-18",
+      "title": "GPT 전환 안내",
+      "url": "https://help.openai.com/en/articles/8554397-creating-and-editing-gpts",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-19",
+      "title": "예약 작업",
+      "url": "https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-20",
+      "title": "Projects",
+      "url": "https://help.openai.com/en/articles/10169521-projects-in-chatgpt",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-21",
+      "title": "Claude 통합 안내",
+      "url": "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-22",
+      "title": "웹 검색",
+      "url": "https://support.claude.com/en/articles/10684626-enable-and-use-web-search",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-23",
+      "title": "Research",
+      "url": "https://support.claude.com/en/articles/11088861-use-research-on-claude",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-24",
+      "title": "파일 분석 범위",
+      "url": "https://support.claude.com/en/articles/8241126-upload-files-to-claude",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-25",
+      "title": "파일 제작",
+      "url": "https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-26",
+      "title": "Google 문서 편집",
+      "url": "https://support.claude.com/en/articles/10166901-use-google-workspace-connectors",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-27",
+      "title": "시각화",
+      "url": "https://support.claude.com/en/articles/9002504-can-claude-produce-images",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-28",
+      "title": "Claude Motion",
+      "url": "https://support.claude.com/en/articles/17454997-get-started-with-claude-motion",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-29",
+      "title": "Claude Code",
+      "url": "https://code.claude.com/docs/en/overview",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-30",
+      "title": "수행 방식",
+      "url": "https://code.claude.com/docs/en/how-claude-code-works",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-31",
+      "title": "Connectors",
+      "url": "https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-32",
+      "title": "상호작용형 커넥터",
+      "url": "https://support.claude.com/en/articles/13454812-use-interactive-connectors-in-claude",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-33",
+      "title": "Cowork 환경",
+      "url": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-34",
+      "title": "Computer use",
+      "url": "https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-35",
+      "title": "Skills",
+      "url": "https://support.claude.com/en/articles/12512180-use-skills-in-claude",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-36",
+      "title": "Cowork",
+      "url": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-37",
+      "title": "예약 작업",
+      "url": "https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-38",
+      "title": "Projects",
+      "url": "https://support.claude.com/en/articles/9517075-what-are-projects",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-39",
+      "title": "Projects 관리",
+      "url": "https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-40",
+      "title": "Tasks 이용 조건",
+      "url": "https://support.google.com/gemini/answer/17094710?hl=en",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-41",
+      "title": "파일 조회",
+      "url": "https://support.google.com/gemini/answer/14903178?hl=en",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-42",
+      "title": "조직 연결 자료",
+      "url": "https://support.google.com/gemini/answer/14959807?hl=en",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-43",
+      "title": "Deep Research",
+      "url": "https://support.google.com/gemini/answer/15719111?hl=en",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-44",
+      "title": "Canvas",
+      "url": "https://support.google.com/gemini/answer/16047321?hl=en",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-45",
+      "title": "Tasks 파일 형식",
+      "url": "https://support.google.com/gemini/answer/17094507",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-46",
+      "title": "이미지 생성",
+      "url": "https://support.google.com/gemini/answer/14286560?hl=en",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-47",
+      "title": "영상 생성",
+      "url": "https://support.google.com/gemini/answer/16126339?hl=en",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-48",
+      "title": "Gemini CLI",
+      "url": "https://geminicli.com/docs/",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-49",
+      "title": "발송 권한",
+      "url": "https://support.google.com/gemini/answer/18766567?hl=en",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-50",
+      "title": "Mac 파일 작업",
+      "url": "https://support.google.com/gemini/answer/17208717?hl=en",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-51",
+      "title": "Skills",
+      "url": "https://support.google.com/gemini/answer/17094296?hl=en",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    },
+    {
+      "id": "WEB-52",
+      "title": "작업 관리",
+      "url": "https://support.google.com/gemini/answer/17094196?hl=en",
+      "checkedAt": "2026-11-04",
+      "basis": "제공 비교분석의 공식 출처. 이번 재구성에서 주요 출처 별도 재확인"
+    }
+  ]
+}

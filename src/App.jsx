@@ -1,3 +1,5 @@
+import {FollowupWorkspace} from './FollowupWorkspace.jsx';
+import followupPlan from './followup-plan.cjs';
 import {StrategyPromptBoard} from './StrategyPromptBoard.jsx';
 import {OrganizationWorkspace} from './OrganizationWorkspace.jsx';
 import {AxCasebook} from './AxCasebook.jsx';
@@ -87,7 +89,8 @@ const isProposalPortfolio=isHome&&view==='portfolio';
 const isStrategyWorkspace=isHome&&(!view||view==='strategy'||view==='overview')&&!isOrganizationHome&&!isMap;
 const isOrganizationPage=path==='organization.html'||path==='16_조직도_수행업무_분석.html'||isHome&&view==='organization';
 const isOrganizationPlan=path==='proposal-2027.html'&&view!=='legacy'||isHome&&view==='delivery';
-const isOrganizationExperience=isOrganizationHome||isOrganizationArchive||isOrganizationPage||isOrganizationPlan||isStrategyWorkspace||isProposalPortfolio||isCasebook||isOpportunityWorkspace||isPromptBoard;
+const isFollowup=isHome&&((!view&&!isOrganizationHome&&!isMap)||followupPlan.sections.some(s=>s.id===view));
+const isOrganizationExperience=isFollowup||isOrganizationHome||isOrganizationArchive||isOrganizationPage||isOrganizationPlan||isStrategyWorkspace||isProposalPortfolio||isCasebook||isOpportunityWorkspace||isPromptBoard;
 if(isOpportunityWorkspace){content=<OpportunityWorkspace/>;title='사업기회·2030 로드맵';}
 if(isPromptBoard){content=<StrategyPromptBoard key={route}/>;title='전략 프롬프트 게시판';}
 if(isCasebook){content=view==='platform-cases'?<PlatformCasebook key={route}/>:<AxCasebook key={route}/>;title=view==='platform-cases'?'AI 플랫폼 구축 사례집':'AX 사례집·12대 전략 매핑';}
@@ -97,9 +100,10 @@ if(isOrganizationArchive){content=<OrganizationArchive/>;title='근거·상세 �
 if(isStrategyWorkspace){content=<StrategyWorkspace/>;title='12대 전략과제·솔루션 구성';}
 if(isOrganizationPage){content=<OrganizationWorkspace route={route}/>;title='조직·직무·세부 업무';}
 if(isOrganizationPlan){content=<OrganizationPlan/>;title='TS 2027 조직 기반 구축·검수';}
+if(isFollowup){content=<FollowupWorkspace view={view||'followup'} route={route}/>;title=(followupPlan.sections.find(s=>s.id===view)?.title||followupPlan.meta.title);}
 if(!content)content=<div className="page empty"><h1>페이지를 찾을 수 없음</h1><p>기관 소개 또는 서비스 목록에서 다시 탐색</p><Link to="index.html" className="button blue">홈으로</Link></div>;
 useEffect(()=>{if(!isWorkbench)document.title=title+' | TS AX'},[title,isWorkbench]);
-useEffect(()=>{if(!isOrganizationExperience)return;const reveal=()=>{const aliases={'proposal-scope':'scope','proposal-timeline':'timeline','proposal-acceptance':'acceptance','proposal-downloads':'main','department-mapping':'organization-map-link','proposal-mapping':'organization-map-link'};const hash=location.hash.slice(1),target=document.getElementById(aliases[hash]||hash);if(!target)return;for(let el=target;el;el=el.parentElement)if(el.tagName==='DETAILS')el.open=true;target.scrollIntoView({block:'start'});};const frame=requestAnimationFrame(reveal);addEventListener('hashchange',reveal);return()=>{cancelAnimationFrame(frame);removeEventListener('hashchange',reveal);};},[route,isOrganizationExperience]);
+useEffect(()=>{if(!isOrganizationExperience)return;const reveal=()=>{const aliases={'proposal-scope':'scope','proposal-timeline':'timeline','proposal-acceptance':'acceptance','proposal-downloads':'main','department-mapping':'organization-map-link','proposal-mapping':'organization-map-link'};const hash=location.hash.slice(1),target=document.getElementById(aliases[hash]||hash);if(!target)return;for(let el=target;el;el=el.parentElement)if(el.tagName==='DETAILS')el.open=true;target.scrollIntoView({block:'start'});if(isFollowup)target.focus({preventScroll:true});};const frame=requestAnimationFrame(reveal);addEventListener('hashchange',reveal);return()=>{cancelAnimationFrame(frame);removeEventListener('hashchange',reveal);};},[route,isOrganizationExperience]);
 useEffect(()=>{const els=[document.querySelector('.ts-header'),document.querySelector('.ts-location'),document.querySelector('.doc-mobile-toggle')].filter(Boolean);const measure=()=>{const value=els.reduce((sum,el)=>sum+el.getBoundingClientRect().height,0);document.documentElement.style.setProperty('--ts-chrome-height',value+'px')};const observer=new ResizeObserver(measure);els.forEach(el=>observer.observe(el));measure();return()=>observer.disconnect()},[route]);
 if(isWorkbench)return <PlanningWorkbench/>;
 if(isOrganizationExperience)return <><a className="skip" href="#main">본문으로 바로가기</a><OrganizationHeader path={isHome?'index.html':isOrganizationPage?'organization.html':path} view={view}/><div className="on-shell"><main id="main" tabIndex={-1}>{content}</main></div><OrganizationFooter/></>;

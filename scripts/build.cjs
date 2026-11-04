@@ -21,6 +21,7 @@ require('./export-enterprise-work-ax.cjs')(path.join(out,'downloads'));
 require('./export-annual-work-2027.cjs')(path.join(out,'downloads'));
 require('./export-organization-site.cjs')(path.join(out,'downloads'));
 require('./export-opportunities.cjs')(path.join(out,'downloads'),opportunityConcepts);
+require('./export-followup.cjs')(path.join(out,'downloads'));
 require('./export-asis-tobe-v12.cjs')(path.join(out,'downloads'));
 require('./export-casebooks.cjs')(path.join(out,'downloads'));
 require('./export-benchmark-100.cjs')(path.join(out,'downloads'));

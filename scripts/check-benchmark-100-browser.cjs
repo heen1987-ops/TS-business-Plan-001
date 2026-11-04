@@ -22,7 +22,7 @@ const output=process.env.QA_OUTPUT||'.';
   await page.locator('.bm-original>summary').click();await page.evaluate(()=>document.fonts.ready);
   const style=await page.locator('.bm-detail p').first().evaluate(el=>({font:getComputedStyle(el).fontFamily,size:getComputedStyle(el).fontSize}));assert.ok(style.font.includes('Pretendard'));assert.equal(style.size,'15px');
   await page.evaluate(()=>window.scrollTo(0,0));await page.screenshot({path:path.join(output,'benchmark-desktop.png')});
-  await page.getByRole('navigation',{name:'주 메뉴'}).getByRole('link',{name:'전략과제 사례집',exact:true}).click();await page.locator('#benchmark-detail').waitFor();
+  await page.locator('.fp-foundation-nav>summary').click();await page.locator('.fp-foundation-nav').getByRole('link',{name:'전략과제 사례집',exact:true}).click();await page.locator('#benchmark-detail').waitFor();
   assert.ok(await page.evaluate(()=>window.__sidebar===document.getElementById('workspace-sidebar')),'좌측 메뉴 DOM 유지');
   await page.getByRole('button',{name:'12대 전략 매핑',exact:true}).click();await page.locator('.axp-detail').waitFor();assert.ok(await page.locator('.axp-case-grid a').count()>0);
   await page.locator('.axp-case-grid a').first().click();await page.locator('#benchmark-detail').waitFor();assert.ok(await page.evaluate(()=>window.__sidebar===document.getElementById('workspace-sidebar')));

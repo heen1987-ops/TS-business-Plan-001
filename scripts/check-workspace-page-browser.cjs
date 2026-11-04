@@ -13,7 +13,7 @@ const base=process.env.SITE_BASE||'http://127.0.0.1:8769/TS-business-Plan-001/';
   await page.locator('.ax-reader').waitFor();
   await page.evaluate(()=>{window.__workspaceMarker={sidebar:document.getElementById('workspace-sidebar')};});
   const menu=page.getByRole('navigation',{name:'주 메뉴'});
-  for(const [label,view] of [['제안·관계부처','portfolio'],['전략과제',null],['법령·업무','law'],['조직·직무','organization'],['구축·검수','delivery'],['자료실','archive'],['플랫폼 사례집','platform-cases'],['전략과제 사례집','casebook']]){
+  for(const [label,view] of require('../src/followup-plan.cjs').sections.map(s=>[s.title,s.id])){
    await menu.getByRole('link',{name:label,exact:true}).click();
    await page.locator('#main h1').first().waitFor();
    const url=new URL(page.url());
@@ -21,7 +21,8 @@ const base=process.env.SITE_BASE||'http://127.0.0.1:8769/TS-business-Plan-001/';
    assert.equal(url.searchParams.get('view'),view,label+' 본문 선택');
    assert(await page.evaluate(()=>window.__workspaceMarker.sidebar===document.getElementById('workspace-sidebar')),label+' 좌측 메뉴 유지');
   }
-  await menu.getByRole('link',{name:'플랫폼 사례집'}).click();
+  await page.locator('.fp-foundation-nav>summary').click();
+  await page.locator('.fp-foundation-nav').getByRole('link',{name:'플랫폼 사례집',exact:true}).click();
   await page.locator('.ax-reader').waitFor();
   const before=page.url();
   await page.locator('.case-figure-expand').first().click();
@@ -34,7 +35,7 @@ const base=process.env.SITE_BASE||'http://127.0.0.1:8769/TS-business-Plan-001/';
   assert(await page.locator('.case-zoom-dialog').evaluate(el=>el.open));
   await page.keyboard.press('Escape');
   assert(!(await page.locator('.case-zoom-dialog').evaluate(el=>el.open)));
-  await menu.getByRole('link',{name:'전략과제 사례집'}).click();
+  await page.locator('.fp-foundation-nav').getByRole('link',{name:'전략과제 사례집',exact:true}).click();
   await page.locator('.ax-reader').waitFor();
   assert(await page.evaluate(()=>window.__workspaceMarker.sidebar===document.getElementById('workspace-sidebar')));
   for(const [view,id,count] of [['platform-cases','PF-R01','원문 자료 1개'],['platform-cases','PF07','원문 자료 4개'],['casebook','AX05','원문 자료 4개'],['casebook','AX06','원문 자료 2개']]){
@@ -59,8 +60,8 @@ const base=process.env.SITE_BASE||'http://127.0.0.1:8769/TS-business-Plan-001/';
   await page.evaluate(()=>{window.__workspaceMarker={sidebar:document.getElementById('workspace-sidebar')};});
   await page.setViewportSize({width:390,height:844});
   await page.getByRole('button',{name:'메뉴 열기'}).click();
-  await menu.getByRole('link',{name:'조직·직무',exact:true}).click();
-  assert.equal(new URL(page.url()).searchParams.get('view'),'organization');
+  await menu.getByRole('link',{name:'TS 기본정보',exact:true}).click();
+  assert.equal(new URL(page.url()).searchParams.get('view'),'basics');
   assert(await page.evaluate(()=>window.__workspaceMarker.sidebar===document.getElementById('workspace-sidebar')));
   assert.equal(popups.length,0);
   assert.deepEqual(errors,[]);

@@ -84,6 +84,54 @@
       "download": "downloads/concepts/00_사업기회_목록.md",
       "title": "사업기회·2030 로드맵",
       "view": "opportunities"
+    },
+    {
+      "path": "index.html",
+      "view": "followup",
+      "title": "후속사업 개요",
+      "download": "downloads/ts-followup-plan-v2.md"
+    },
+    {
+      "path": "index.html",
+      "view": "basics",
+      "title": "TS 기본정보",
+      "download": "downloads/ts-followup-plan-v2.md"
+    },
+    {
+      "path": "index.html",
+      "view": "ai-comparison",
+      "title": "AI 서비스 비교",
+      "download": "downloads/ts-followup-plan-v2.md"
+    },
+    {
+      "path": "index.html",
+      "view": "benchmarks",
+      "title": "사례와 TS 적용",
+      "download": "downloads/ts-followup-plan-v2.md"
+    },
+    {
+      "path": "index.html",
+      "view": "layers",
+      "title": "3영역 설계",
+      "download": "downloads/ts-followup-plan-v2.md"
+    },
+    {
+      "path": "index.html",
+      "view": "projects",
+      "title": "후속사업 포트폴리오",
+      "download": "downloads/ts-followup-plan-v2.md"
+    },
+    {
+      "path": "index.html",
+      "view": "roadmap",
+      "title": "실행·2030 로드맵",
+      "download": "downloads/ts-followup-plan-v2.md"
+    },
+    {
+      "path": "index.html",
+      "view": "evidence",
+      "title": "근거·기존 자료",
+      "download": "downloads/ts-followup-plan-v2.md"
     }
   ]
 }

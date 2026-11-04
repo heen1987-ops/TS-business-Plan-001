@@ -27,7 +27,8 @@ try {
  const style=await page.locator('.axp-compare p').first().evaluate(el=>({font:getComputedStyle(el).fontFamily,size:getComputedStyle(el).fontSize}));assert.ok(style.font.includes('Pretendard'));assert.equal(style.size,'15px');
  await page.locator('.axp-case-grid a').first().click();await page.locator('#benchmark-detail').waitFor();assert.ok(await page.evaluate(()=>window.__axpSidebar===document.getElementById('workspace-sidebar')));
  await page.locator('.bm-strategies a[href*="ST-10"]').click();await page.locator('.axp-detail[data-strategy="ST-10"]').waitFor();
- const menu=page.getByRole('navigation',{name:'주 메뉴'});
+ await page.locator('.fp-foundation-nav>summary').click();
+ const menu=page.locator('.fp-foundation-nav');
  for(const name of ['플랫폼 사례집','전략과제 사례집']){
   await menu.getByRole('link',{name,exact:true}).click();await page.getByRole('button',{name:/^종합 시사점/}).click();
   await page.locator('.axp-synthesis').waitFor();assert.equal(await page.locator('.axp-plan-list>a').count(),12);assert.equal(await page.locator('.axp-findings>article').count(),6);assert.equal(await page.locator('.axp-legacy[open]').count(),0);
